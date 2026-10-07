@@ -122,4 +122,4 @@ matches both original text-mode and binary-mode raw output using the same
 MinGW/MSVCRT caller. This selected result does not establish all locale and CRT
 variants.
 
-Applications can use `wim = "0.1.1"` from crates.io. Enable the `disk-capture` feature for immutable offline NTFS capture. This crate and its tests build without sibling repositories. WIM fuzzing is independently owned by this repository’s `fuzz` package.
+Applications can use `wim = "0.1.2"` from crates.io. Enable the `disk-capture` feature for immutable offline NTFS capture. This crate and its tests build without sibling repositories. WIM fuzzing is independently owned by this repository’s `fuzz` package.

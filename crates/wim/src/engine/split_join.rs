@@ -6,26 +6,10 @@ use crate::engine::{
     wimlib_free,
 };
 use std::ffi::c_int;
-#[cfg(unix)]
-use std::io::Read;
 use std::io::Write;
 use std::path::{Path, PathBuf};
 use wim_format::{Compression, PIPABLE_MAGIC};
 const PUBLIC: u32 = 0xffff;
-fn guid() -> Result<[u8; 16], c_int> {
-    #[cfg(unix)]
-    {
-        let mut result = [0; 16];
-        std::fs::File::open("/dev/urandom")
-            .and_then(|mut f| f.read_exact(&mut result))
-            .map_err(|_| 50)?;
-        Ok(result)
-    }
-    #[cfg(not(unix))]
-    {
-        Err(68)
-    }
-}
 fn part_path(first: &Path, number: usize) -> Result<PathBuf, c_int> {
     if number == 1 {
         return Ok(first.to_owned());
@@ -147,7 +131,7 @@ pub unsafe extern "C" fn wimlib_split(
     let guid = if flags & 0x800 != 0 {
         wim.header.guid
     } else {
-        match guid() {
+        match crate::engine::write::generate_guid() {
             Ok(g) => g,
             Err(e) => return e,
         }
