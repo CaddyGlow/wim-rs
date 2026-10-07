@@ -1,0 +1,30 @@
+[package]
+name = "wim-format"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+repository.workspace = true
+description = "Portable WIM and ESD archive readers and writers"
+license = "LGPL-2.1-or-later OR GPL-3.0-or-later"
+[package.metadata.docs.rs]
+all-features = true
+
+[lints]
+workspace = true
+[dependencies]
+wim-types = { version = "0.1.0", path = "../wim-types", default-features = false }
+sha1 = { version = "0.10", default-features = false }
+ms-compress = { version = "0.1.0", path = "../../../ms-compress", default-features = false, features = ["lzma-optimization"] }
+hashbrown = { version = "0.15.5", default-features = false, features = ["default-hasher"] }
+
+[features]
+default = ["std"]
+std = ["wim-types/std", "ms-compress/std", "sha1/std"]
+
+[[example]]
+name = "inspect_stream_layout"
+required-features = ["std"]
+
+[[example]]
+name = "read_file_range"
+required-features = ["std"]

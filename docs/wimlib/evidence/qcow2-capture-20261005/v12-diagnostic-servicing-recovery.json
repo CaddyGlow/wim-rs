@@ -1,0 +1,47 @@
+{
+  "scope": "Disposable diagnostic child backed by immutable pre-servicing baseline; installed metadata fidelity remains failed",
+  "inputs": [
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/diagnostic-child-servicing.json",
+      "sha256": "9ba1b847ba69ee2af2fd882a1567f567c9e9f69e8e840586207a60495ed0b0c3"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/diagnostic-child-reboot-observation.json",
+      "sha256": "cc4f0a062144fdc76cad43116c4a5c5f6b321599afd8a434bfbb31af951faa33"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/diagnostic-child-winre-actual-ui.json",
+      "sha256": "05ca5ffb47dc0069c2867386c45952c9db9f7390920cb060e42bc474f2d097bb"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/diagnostic-child-winre-return-desktop.json",
+      "sha256": "590e299a1bceaad620a6f50f03c15d850389d877daf15dd16f5798fa6bce78d3"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/diagnostic-scratch-offline-handoff.json",
+      "sha256": "4485cbcd837e0121337ea42bf4340ab1c4b7c7af427f5e48a553d8e0d5eada7a"
+    }
+  ],
+  "actual_winre_ui_observed": true,
+  "ordinary_continue_returned_desktop": {
+    "Ready": true,
+    "Boot": "2026-10-05T21:49:29.5000000Z",
+    "Explorer": [
+      {
+        "UserName": "QCOW2-INSTALLED\\capturegate",
+        "SessionId": 1
+      }
+    ],
+    "Feature": "Enabled"
+  },
+  "screenshot": {
+    "actual_ui_observed": true,
+    "observation": "Actual blue Windows Recovery Choose an option screen shows Continue/Exit and continue to Windows11, Use a device, Troubleshoot, Turn off yourPC. No installer or seed attached.",
+    "screenshot": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/diagnostic-child-winre-progress-2.png",
+    "screenshot_sha256": "967f339680692cc3e77a2fbc88e292af9a93fcba300c0aad8b6747a477cf2868",
+    "metadata_fidelity_failures_retained": true,
+    "observed_utc": 1791236968.4978497
+  },
+  "strict_winre_access_timestamp_differences": 708,
+  "installation_metadata_restored": false
+}

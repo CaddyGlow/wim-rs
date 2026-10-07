@@ -1,0 +1,70 @@
+{
+  "cases": 9,
+  "equal": 9,
+  "native_sha256": "6b747d409211c9ad1b84ba51f5b58979381bceb92b0382f105f322c6db5e15e4",
+  "results": [
+    {
+      "mutation": 1,
+      "flags": 0,
+      "original": "source 0\ndestination 0\ncapture 0\nexport 47\nimages 0\n",
+      "native": "source 0\ndestination 0\ncapture 0\nexport 47\nimages 0\n",
+      "equal": true
+    },
+    {
+      "mutation": 1,
+      "flags": 2,
+      "original": "source 0\ndestination 0\ncapture 0\nexport 47\nimages 0\n",
+      "native": "source 0\ndestination 0\ncapture 0\nexport 47\nimages 0\n",
+      "equal": true
+    },
+    {
+      "mutation": 1,
+      "flags": 8,
+      "original": "source 0\ndestination 0\ncapture 0\nexport 47\nimages 0\n",
+      "native": "source 0\ndestination 0\ncapture 0\nexport 47\nimages 0\n",
+      "equal": true
+    },
+    {
+      "mutation": 2,
+      "flags": 0,
+      "original": "source 0\ndestination 0\ncapture 0\nexport 88\nimages 0\n",
+      "native": "source 0\ndestination 0\ncapture 0\nexport 88\nimages 0\n",
+      "equal": true
+    },
+    {
+      "mutation": 2,
+      "flags": 2,
+      "original": "source 0\ndestination 0\ncapture 0\nexport 88\nimages 0\n",
+      "native": "source 0\ndestination 0\ncapture 0\nexport 88\nimages 0\n",
+      "equal": true
+    },
+    {
+      "mutation": 2,
+      "flags": 8,
+      "original": "source 0\ndestination 0\ncapture 0\nexport 88\nimages 0\n",
+      "native": "source 0\ndestination 0\ncapture 0\nexport 88\nimages 0\n",
+      "equal": true
+    },
+    {
+      "mutation": 3,
+      "flags": 0,
+      "original": "source 0\ndestination 0\ncapture 0\nexport 0\nimages 1\nverify 0\nwrite 0\n",
+      "native": "source 0\ndestination 0\ncapture 0\nexport 0\nimages 1\nverify 0\nwrite 0\n",
+      "equal": true
+    },
+    {
+      "mutation": 3,
+      "flags": 2,
+      "original": "source 0\ndestination 0\ncapture 0\nexport 0\nimages 1\nverify 0\nwrite 0\n",
+      "native": "source 0\ndestination 0\ncapture 0\nexport 0\nimages 1\nverify 0\nwrite 0\n",
+      "equal": true
+    },
+    {
+      "mutation": 3,
+      "flags": 8,
+      "original": "source 0\ndestination 0\ncapture 0\nexport 0\nimages 1\nverify 0\nwrite 0\n",
+      "native": "source 0\ndestination 0\ncapture 0\nexport 0\nimages 1\nverify 0\nwrite 0\n",
+      "equal": true
+    }
+  ]
+}

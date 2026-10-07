@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/rick/projects-caddy/windows-uup/scripts/wimlib/check-update-api.py", line 33, in <module>
+    assert outputs[0]==outputs[1],(arguments,outputs)
+           ^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: (['8', '1', '2', '1', '1', '2'], [b'layout:40:8:32:16:24:24\nevent:21:0:2:1:/:2\nentry:/:16:0\nentry:/alias:128:1300\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/file:128:1300\ncallback-tree:0\nevent:22:1:2:1:/:2\ncallback-tree:49\nresult:76:errno:2\nentry:/:16:0\nentry:/alias:128:1300\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/file:128:1300\ntree:0\n', b'layout:40:8:32:16:24:24\nevent:21:0:2:1:/:2\nentry:/:16:0\nentry:/alias:128:1300\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/file:128:1300\ncallback-tree:0\nevent:22:1:2:1:/:2\ncallback-tree:49\nresult:76:errno:0\nentry:/:16:0\nentry:/alias:128:1300\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/file:128:1300\ntree:0\n'])

@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "scope": "Root preboot release of namespace-fixed native media only; not installed metadata success",
+  "release_for_fresh_installation": true,
+  "wim_sha256": "6fe084f644eb631349d4e385a155d1c5ce334d0810b633464ecfdd61b528884b",
+  "iso_sha256": "92fe21f6c129a95b68a39ae1c66ce3b0364afc675ed91dd62c47bc8cd8c7ea20",
+  "reserved_raw_sd_rows_independently_compared": 5732,
+  "object_id_rows_independently_compared": 24,
+  "object_id_groups": 19,
+  "proofs": [
+    {
+      "path": "docs/wimlib/evidence/qcow2-capture-20261005/namespace-fixed-standard-archive-gates.json",
+      "sha256": "543bbc1060c7524e114383fa157745a596d65815d20623a69c49959666386d27"
+    },
+    {
+      "path": "docs/wimlib/evidence/qcow2-capture-20261005/namespace-fixed-independent-iso-gates.json",
+      "sha256": "4b999187f579b8f2e1ceb7588b4a586625016041e61fad1893f39e93d9b7253d"
+    },
+    {
+      "path": "docs/wimlib/evidence/qcow2-capture-20261005/namespace-fixed-corrected-wim-alias-gates.json",
+      "sha256": "dcd1cca5e078340b5e5245e4a4e4d98e2231ae9619bb065c72fa02709ebe423a"
+    },
+    {
+      "path": "docs/wimlib/evidence/qcow2-capture-20261005/namespace-fixed-source-security-objectid-gates.json",
+      "sha256": "5d37c146907f7e2bdc14c3636a8d4991801c51f97c3fa932bfe20984c7b1a693"
+    },
+    {
+      "path": "docs/wimlib/evidence/qcow2-capture-20261005/namespace-fixed-wim-root-physical-hash.json",
+      "sha256": "76e91828b85e892bb2d6e2648e6f5116ef1b7686828057827d6928e5f9adb813"
+    },
+    {
+      "path": "docs/wimlib/evidence/qcow2-capture-20261005/namespace-fixed-iso-root-physical-hash.json",
+      "sha256": "51392fe1fd74721efddd14c9fde166ec546eba36d2cce9c24c897d5d9edd1479"
+    }
+  ],
+  "raw_canonical_proof": {
+    "path": "/data/cache/qcow2-namespace-fixed-20261006/capture/independent-source-security-objectids.json",
+    "sha256": "46957803616c47e12461aa21f7913805f6469dd8d901f4a6c2cff2223e5cf856"
+  },
+  "remaining": "Actual V13 Setup/OOBE, complete target metadata comparisons, servicing/reboot/recovery; preboot archive success does not waive existing installed failures."
+}

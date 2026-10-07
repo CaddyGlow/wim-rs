@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "scope": "Retained V12 WinRE last-access delta clustering; timestamp comparison remains failed, cause unproven",
+  "input": {
+    "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/winre-whole-security-equivalence.json",
+    "sha256": "b4b3841ca0e36a4ab84e05e5250f7caea9cf410b58483f78e7ab71b6c3fdef56"
+  },
+  "changed_paths": 708,
+  "node_types": {
+    "directory": 121,
+    "file": 587
+  },
+  "target_access_minute_counts": {
+    "2026-10-06 05:18 UTC": 708
+  },
+  "all_creation_write_exact": true,
+  "causal_attribution": null,
+  "strict_timestamp_gate_passes": false,
+  "next_evidence": "Compare earliest registered V13 WinRE before servicing/recovery and correlate recorded guest Setup/reagent times; clustering alone does not establish cause."
+}

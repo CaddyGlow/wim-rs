@@ -1,0 +1,15 @@
+{
+  "review": "Independent root review found duplicate expected disk identity accepted; corrected validator requires both exact serial/letter identities plus actual NTFS and partition/volume bounds.",
+  "files": {
+    "windows-create-retained-ntfs-fixtures.ps1": "4b97a82989b71b94e33844cef45e14e5c464e639093dcc2cbff9ce5e73bb942d",
+    "check-retained-ntfs-fixture-receipt.py": "8140c4064c2a1b18b1659395c7895eaddcd4f76aee654a1306531a7fbe12d6b2",
+    "test_retained_ntfs_fixture_receipt.py": "42ce14c2125040b47567c03b8d5fc096aad06b94ca37a65c96c7ce435ed7df9d"
+  },
+  "validation": {
+    "command": "python3 -m unittest discover -s scripts/wimlib -p test_retained_ntfs_fixture_receipt.py",
+    "exit_code": 0,
+    "tests": 6
+  },
+  "scope": "Receipt guard host regressions only. Windows fixture creation and native offline tests remain required.",
+  "serial_revision": "QEMU pre-boot rejected >20-character serials; exact selectors shortened consistently to V12-CASE-FIXTURE and V12-ADS-FIXTURE. Original launch failure preserved; disks remained blank."
+}

@@ -1,0 +1,43 @@
+{
+  "scope": "Actual Windows guest ABI/core behavior; matched CRT callers; no Windows filesystem capture/extraction claim",
+  "original_record": "docs/wimlib/evidence/native-windows-abi/runtime-original.json",
+  "native_record": "docs/wimlib/evidence/native-windows-abi/runtime-native.json",
+  "rows": 351,
+  "exact_matches": 343,
+  "non_export_exact_matches": 278,
+  "export_gates": [
+    {
+      "original": "export wimlib_add_image 1",
+      "native": "export wimlib_add_image 0"
+    },
+    {
+      "original": "export wimlib_add_image_multisource 1",
+      "native": "export wimlib_add_image_multisource 0"
+    },
+    {
+      "original": "export wimlib_add_tree 1",
+      "native": "export wimlib_add_tree 0"
+    },
+    {
+      "original": "export wimlib_extract_image_from_pipe 1",
+      "native": "export wimlib_extract_image_from_pipe 0"
+    },
+    {
+      "original": "export wimlib_extract_image_from_pipe_with_progress 1",
+      "native": "export wimlib_extract_image_from_pipe_with_progress 0"
+    },
+    {
+      "original": "export wimlib_print_available_images 1",
+      "native": "export wimlib_print_available_images 0"
+    },
+    {
+      "original": "export wimlib_print_header 1",
+      "native": "export wimlib_print_header 0"
+    },
+    {
+      "original": "export-count 72",
+      "native": "export-count 65"
+    }
+  ],
+  "behavior_mismatches": []
+}

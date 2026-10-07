@@ -1,0 +1,78 @@
+{
+  "schema": 1,
+  "frozen_target_sha256": "ea5fce165bc26e19dcca16e3a0ccb0415878675efb71328596c2e22206ff81e1",
+  "registered_winre_sha256": "603d5afd9823802aef8d51e9893b7eb8f81c5603f43b1f8fb2148bc7920977d6",
+  "strict_access_timestamp_failure": 708,
+  "direct_boot_paths": 404,
+  "additional_boot_hardlinked_paths": 301,
+  "remaining_changed_paths": [
+    "",
+    "/Windows/Imaging/WimConfig.ini",
+    "/Windows/WinSxS/amd64_microsoft-windows-wimconfig-winre_31bf3856ad364e35_10.0.26100.1_none_fdc46a3e280967aa/WimConfig.ini"
+  ],
+  "actual_setup_operations": [
+    {
+      "lines": [
+        5850,
+        5985
+      ],
+      "operation": "SafeOS WinRE mount",
+      "log_time": "00:14:58\u201300:15:04"
+    },
+    {
+      "lines": [
+        7459,
+        7461
+      ],
+      "operation": "copy mounted WINDOWS/Boot",
+      "log_time": "00:15:12\u201300:15:13"
+    },
+    {
+      "lines": [
+        7464,
+        7573,
+        7579
+      ],
+      "operation": "commit WIM changes then unmount successfully",
+      "log_time": "00:15:13\u201300:15:23"
+    },
+    {
+      "lines": [
+        9300
+      ],
+      "operation": "postcommit SafeOS WIM size equals registered target684495831B"
+    },
+    {
+      "lines": [
+        12522
+      ],
+      "operation": "Setup records final registered target SHA256603d5a..."
+    }
+  ],
+  "target_changed_access_time_utc_range": [
+    "2026-10-06T08:15:13.002624Z",
+    "2026-10-06T08:15:13.946612Z"
+  ],
+  "clock_relation": "8-hour offset from log clock observed; timezone not independently established",
+  "hypothesis": "mounted Boot reads plus commit persist access times including shared hardlinks; three residual paths require attribution",
+  "causality_proven": false,
+  "next_isolated_test": "copied source WIM mount+Boot-copy+commit versus mount+discard, fullmetadata/content/security audit",
+  "evidence": [
+    {
+      "path": "/data/cache/qcow2-installation-winre-unstaged-1006-v14/frozen-setup-log-extraction-receipt.json",
+      "sha256": "5f23ec662e2aba2dfa93d189ec2442f02f023f33107833ee72c34f7c8601ee52"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-winre-unstaged-1006-v14/frozen-panther-setupact.log",
+      "sha256": "b86ac3e773ac68f9615980be346e9dbd18d457fdf77d447465e308645e057f78"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-winre-unstaged-1006-v14/frozen-dism.log",
+      "sha256": "135fd7cd8e209366573e2f321f896edaf40d958b47a2a65b3e5a26d6eb8a5928"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-winre-unstaged-1006-v14/earliest-winre-whole-metadata-delta.json",
+      "sha256": "79b5cb2f441d63acb2cc44ddadac0ef504d401aa4ef3f6c44756ab9436d48e02"
+    }
+  ]
+}

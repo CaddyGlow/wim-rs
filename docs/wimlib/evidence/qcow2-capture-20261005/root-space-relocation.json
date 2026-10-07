@@ -1,0 +1,28 @@
+{
+  "reason": "User reported root filesystem pressure during capture validation",
+  "paths": [
+    {
+      "original": "/home/rick/projects-caddy/windows-uup/vm-state/qcow2-installed-1005",
+      "destination": "/data/cache/qcow2-installation-1005/failed-vm-state",
+      "original_is_symlink": true,
+      "destination_exists": true
+    },
+    {
+      "original": "/home/rick/projects-caddy/windows-uup/target",
+      "destination": "/data/cache/windows-uup-root-target-20261005",
+      "original_is_symlink": true,
+      "destination_exists": true
+    },
+    {
+      "original": "/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/target",
+      "destination": "/data/cache/windows-uup-wimlib-rs-target-20261005",
+      "original_is_symlink": true,
+      "destination_exists": true
+    }
+  ],
+  "failed_target_sha256": "9ee8986fc0465273fc5b8d7262135cb554fd1b767c4b02fd9912724a8f66b107",
+  "failed_target_hash_unchanged": true,
+  "root_free_gib_before": 65,
+  "root_free_gib_after": 146,
+  "note": "Free-space difference includes concurrent external activity; it is not attributed solely to these moves. Frozen source and backing paths were not moved. Retry VM state is under /data/cache."
+}

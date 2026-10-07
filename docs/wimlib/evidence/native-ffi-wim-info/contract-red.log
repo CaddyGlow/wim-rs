@@ -1,0 +1,14 @@
+   Compiling wim-ffi v0.1.0 (/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/wim-ffi)
+error[E0432]: unresolved imports `wim::WimInfo`, `wim::wimlib_create_new_wim`, `wim::wimlib_free`, `wim::wimlib_get_wim_info`, `wim::wimlib_set_wim_info`
+ --> wim-ffi/tests/info.rs:2:11
+  |
+2 | use wim::{WimInfo, wimlib_create_new_wim, wimlib_free, wimlib_get_wim_info, wimlib_set_wim_info};
+  |           ^^^^^^^  ^^^^^^^^^^^^^^^^^^^^^  ^^^^^^^^^^^  ^^^^^^^^^^^^^^^^^^^  ^^^^^^^^^^^^^^^^^^^ no `wimlib_set_wim_info` in the root
+  |           |        |                      |            |
+  |           |        |                      |            no `wimlib_get_wim_info` in the root
+  |           |        |                      no `wimlib_free` in the root
+  |           |        no `wimlib_create_new_wim` in the root
+  |           no `WimInfo` in the root
+
+For more information about this error, try `rustc --explain E0432`.
+error: could not compile `wim-ffi` (test "info") due to 1 previous error

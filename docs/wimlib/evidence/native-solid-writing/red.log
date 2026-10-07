@@ -1,0 +1,31 @@
+   Compiling wim-format v0.1.0 (/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/wim-format)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.25s
+     Running tests/solid_write.rs (crates/wimlib-rs/target/debug/deps/solid_write-8a2fb55c845f2ded)
+
+running 2 tests
+test solid_writer_roundtrips_all_source_layouts_and_compressors ... FAILED
+test solid_writer_rejects_none_compression_and_split_source ... FAILED
+
+failures:
+
+---- solid_writer_roundtrips_all_source_layouts_and_compressors stdout ----
+
+thread 'solid_writer_roundtrips_all_source_layouts_and_compressors' (266) panicked at wim-format/tests/solid_write.rs:8:95:
+called `Result::unwrap()` on an `Err` value: Unsupported
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+---- solid_writer_rejects_none_compression_and_split_source stdout ----
+
+thread 'solid_writer_rejects_none_compression_and_split_source' (265) panicked at wim-format/tests/solid_write.rs:22:2:
+assertion `left == right` failed
+  left: Err(Unsupported)
+ right: Err(InvalidCompressionType)
+
+
+failures:
+    solid_writer_rejects_none_compression_and_split_source
+    solid_writer_roundtrips_all_source_layouts_and_compressors
+
+test result: FAILED. 0 passed; 2 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+error: test failed, to rerun pass `-p wim-format --test solid_write`

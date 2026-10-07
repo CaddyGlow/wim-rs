@@ -1,0 +1,18 @@
+/nix/store/bikkd0jwr8jkd3r6r5mcr28fm17yvb0z-binutils-2.46/bin/ld.bfd: /tmp/cc5TdQIG.o: in function `main':
+probe-decompress-api.c:(.text+0x9c): undefined reference to `wimlib_create_decompressor'
+/nix/store/bikkd0jwr8jkd3r6r5mcr28fm17yvb0z-binutils-2.46/bin/ld.bfd: probe-decompress-api.c:(.text+0xef): undefined reference to `wimlib_create_decompressor'
+/nix/store/bikkd0jwr8jkd3r6r5mcr28fm17yvb0z-binutils-2.46/bin/ld.bfd: probe-decompress-api.c:(.text+0x156): undefined reference to `wimlib_free_decompressor'
+/nix/store/bikkd0jwr8jkd3r6r5mcr28fm17yvb0z-binutils-2.46/bin/ld.bfd: probe-decompress-api.c:(.text+0x17e): undefined reference to `wimlib_free_decompressor'
+/nix/store/bikkd0jwr8jkd3r6r5mcr28fm17yvb0z-binutils-2.46/bin/ld.bfd: probe-decompress-api.c:(.text+0x2d9): undefined reference to `wimlib_create_decompressor'
+/nix/store/bikkd0jwr8jkd3r6r5mcr28fm17yvb0z-binutils-2.46/bin/ld.bfd: probe-decompress-api.c:(.text+0x310): undefined reference to `wimlib_decompress'
+/nix/store/bikkd0jwr8jkd3r6r5mcr28fm17yvb0z-binutils-2.46/bin/ld.bfd: probe-decompress-api.c:(.text+0x37c): undefined reference to `wimlib_decompress'
+/nix/store/bikkd0jwr8jkd3r6r5mcr28fm17yvb0z-binutils-2.46/bin/ld.bfd: probe-decompress-api.c:(.text+0x42f): undefined reference to `wimlib_free_decompressor'
+collect2: error: ld returned 1 exit status
+Traceback (most recent call last):
+  File "/home/rick/projects-caddy/windows-uup/scripts/wimlib/check-decompress-abi.py", line 26, in <module>
+    subprocess.run(['cc','-I'+str(a.source/'include'),'scripts/wimlib/probe-decompress-api.c','-L'+str(library.resolve()),'-Wl,-rpath,'+str(library.resolve()),'-lwim','-o',str(binary)],check=True)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/fzxvyvqasr1mrly4rjc4944r62m4cl6a-python3-3.13.15-env/lib/python3.13/subprocess.py", line 577, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['cc', '-I/tmp/wimlib/include', 'scripts/wimlib/probe-decompress-api.c', '-L/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/target/debug', '-Wl,-rpath,/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/target/debug', '-lwim', '-o', '/tmp/wim-decompress-abi-5k578jnk/native']' returned non-zero exit status 1.

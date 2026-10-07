@@ -1,0 +1,54 @@
+{
+  "scope": "Existing scratch challenge on new writable child; failed reboot persistence, no installed repair",
+  "before_boot_utc": "2026-10-05T21:57:04.5000000Z",
+  "after_boot_utc": "2026-10-05T22:00:19.5000000Z",
+  "normal_reboot_changed_boot": true,
+  "strict_passed": false,
+  "rows": [
+    {
+      "path_utf16_le": "54003a005c006f0062006a00650063007400690064002d0073006300720061007400630068002d00380065003100330066006300660039003500640064003700340036003700330039006200330062006100340066003100620031003400610036003400610066005c00730063007200610074006300680020006c006f006e00670020006f0062006a0065006300740020006900640065006e0074006900660069006500720020006300680061006c006c0065006e0067006500200030002e00620069006e00",
+      "identity24_unchanged": true,
+      "first16_unchanged": true,
+      "extended48_zero_after_reboot": true,
+      "extended48_before_nonzero": true,
+      "api_error": null,
+      "passed": false
+    },
+    {
+      "path_utf16_le": "54003a005c006f0062006a00650063007400690064002d0073006300720061007400630068002d00380065003100330066006300660039003500640064003700340036003700330039006200330062006100340066003100620031003400610036003400610066005c0061006c006900610073002d0030002e00620069006e00",
+      "identity24_unchanged": true,
+      "first16_unchanged": true,
+      "extended48_zero_after_reboot": true,
+      "extended48_before_nonzero": true,
+      "api_error": null,
+      "passed": false
+    },
+    {
+      "path_utf16_le": "54003a005c006f0062006a00650063007400690064002d0073006300720061007400630068002d00380065003100330066006300660039003500640064003700340036003700330039006200330062006100340066003100620031003400610036003400610066005c00730063007200610074006300680020006c006f006e00670020006f0062006a0065006300740020006900640065006e0074006900660069006500720020006300680061006c006c0065006e0067006500200030002e00620069006e00",
+      "identity24_unchanged": true,
+      "first16_unchanged": true,
+      "extended48_zero_after_reboot": true,
+      "extended48_before_nonzero": true,
+      "api_error": null,
+      "passed": false
+    }
+  ],
+  "inputs": [
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/second-experiment-results/reboot-request.json",
+      "sha256": "37a66b969982deae3c151577c6a42af7507d68684afbb53fbb1aa1db36be963c"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/second-experiment-results/objectid-observer-before-report.json",
+      "sha256": "97e2f5133b19b07d6e108d935709dcbaaa952e25d989db3c264fa1f3053c1f8b"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/second-experiment-results/objectid-observer-after-report.json",
+      "sha256": "847e7b25e8564869b24b3f7962230539ace2f66e7c1ea671cb128d8f9226224c"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/second-experiment-results/objectid-observer-after-execute.json",
+      "sha256": "02ecbc50aa377e919f48e9d44c62cf73aa08ede56c7e08c05841fe1727fc5342"
+    }
+  ]
+}

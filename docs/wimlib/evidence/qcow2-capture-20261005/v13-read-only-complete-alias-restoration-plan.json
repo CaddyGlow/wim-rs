@@ -1,0 +1,51 @@
+{
+  "schema": 1,
+  "scope": "Complete source/rawtargetINDEX read-only DOS restoration candidate, immutable V13; no OS setters or metadata mutation",
+  "executable": false,
+  "source_desired": 101168,
+  "existing_exact_binding": 98623,
+  "affected_target_files": 2519,
+  "blockers": {
+    "missing_target_long_path": 26,
+    "target_desired_namespace_changed": 42,
+    "POSIX_namespace_or_path_changed": 5,
+    "unknown_occupant_without_source_DOS_requirement": 3,
+    "existing_DOS_in_other_parent": 37
+  },
+  "source_target_alias_plan_complete": false,
+  "clear_operations": 2519,
+  "assign_operations": 2519,
+  "all_affected_metadata_invariants_captured": false,
+  "tests": {
+    "exit": 0,
+    "count": 8,
+    "log": {
+      "path": "/data/cache/qcow2-v13-offline-audit/alias-restoration-planner-tests.log",
+      "bytes": 106,
+      "sha256": "698d16d7b93c4bd9707d3cfacda6fb1e0fea99ed0cda6e69bedc42772940540a"
+    }
+  },
+  "artifacts": [
+    {
+      "path": "/data/cache/qcow2-v13-offline-audit/read-only-alias-restoration-plan-with-invariants.json",
+      "bytes": 5150634,
+      "sha256": "d3d28e9812d83b63a3db234efbc9310c4c56f0ee8ec799cf80b1d843b184b4b6"
+    },
+    {
+      "path": "scripts/wimlib/plan-offline-alias-restoration.py",
+      "bytes": 7755,
+      "sha256": "b04c20fb1876a677b7025736e31756865d622b416075f2ff17a788b9b8d0ecaa"
+    },
+    {
+      "path": "scripts/wimlib/test_alias_restoration_plan.py",
+      "bytes": 4987,
+      "sha256": "ea4f767676244ed7e75a19eea8961ad8a967a8107499f4e8c2b80093eeb49482"
+    },
+    {
+      "path": "/data/cache/qcow2-v13-offline-audit/alias-restoration-target-file-constraints.json",
+      "bytes": 391,
+      "sha256": "fc140e8a3fef5eb098e1cf06089ea418af0f7b20eb7af0bec99592f39e2e93ef"
+    }
+  ],
+  "remaining": "Resolve all blockers and collect complete affected metadata before any disposable execution; successful clear/set pair scratch does not establish fullscale all-or-nothing/timestamp fidelity."
+}

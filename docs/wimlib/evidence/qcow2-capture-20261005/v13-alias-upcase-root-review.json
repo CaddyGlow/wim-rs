@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "scope": "Root native extraction of target $UpCase from immutable945ade partition3 and complete diagnostic planner rerun",
+  "target_baseline_sha256": "945ade80271e6a84cbe4673a3cf4a596322382940b43d0641a9ff125c806aa90",
+  "upcase": {
+    "path": "/data/cache/qcow2-v13-offline-audit/root-target-upcase.bin",
+    "sha256": "41c26bc7a12bdaeb26025c93118697c7e3ef81ee048b00fe5cce2a472e0e0742"
+  },
+  "plan": {
+    "path": "/data/cache/qcow2-v13-offline-audit/root-upcase-alias-plan.json",
+    "sha256": "1bb2a6bb1f21e509407ef6e75ec987d2fdb4b85bbf328b69f52461f6625977f0"
+  },
+  "tests_passed": 19,
+  "actual_run_exit": 0,
+  "source_desired": 101168,
+  "affected_target_files": 2519,
+  "blocking_counts": {
+    "missing_target_long_path": 26,
+    "target_desired_namespace_changed": 42,
+    "POSIX_namespace_or_path_changed": 5,
+    "unknown_occupant_without_source_DOS_requirement": 3,
+    "existing_DOS_in_other_parent": 37
+  },
+  "protocol_blockers": [
+    "complete_affected_metadata_invariants_missing",
+    "independent_expected_input_hash_binding_missing"
+  ],
+  "executable": false
+}

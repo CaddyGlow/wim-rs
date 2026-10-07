@@ -1,0 +1,30 @@
+{
+  "original-library": {
+    "path": "/tmp/lookup-order-frozen/original/libwim.so.15",
+    "sha256": "62eb9c97f9ec6e3dae6c7e995b0a65a2e94a4d9b41491666947ba788a15bb74a"
+  },
+  "native-library": {
+    "path": "/tmp/lookup-order-frozen/native/libwim.so.15",
+    "sha256": "b9c7e6734dedf0f210f909bb7db3ee75d59df33aa874bae0c6bec6ca34bcf447"
+  },
+  "ordered-caller": {
+    "path": "/tmp/lookup-order-frozen/original/probe",
+    "sha256": "1965f9f854094fb03c969055d59e02f4986e29a0b7aa803f9b51a965eb93606a"
+  },
+  "captured-caller": {
+    "path": "/tmp/probe-captured-reference",
+    "sha256": "9761b1003dfe7b0e5440b866298bb93ee1af949bfc1899b603b49cc7ee6fd085"
+  },
+  "mutation-caller": {
+    "path": "/tmp/probe-captured-index-mutation",
+    "sha256": "f859d834a11368f477b2ab33fd8afbfdf8903cbcc65484334fbc0511e1ce2f92"
+  },
+  "retry-output": {
+    "path": "/tmp/captured-ref-result.wim",
+    "sha256": "067726f39dfde69aca6a22df8e57fce7b75c6918d105c81a307fa32133209947"
+  },
+  "gift-caller": {
+    "path": "/tmp/probe-captured-gift",
+    "sha256": "5d0e660e91cbd1c3e6290b1531b60b3b364c746eea7b49fd253874974991fd82"
+  }
+}

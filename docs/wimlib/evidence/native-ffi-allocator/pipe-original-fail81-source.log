@@ -1,0 +1,8 @@
+wimlib_malloc
+/tmp/wimlib-native-oracle/src/util.c:62 (discriminator 1)
+convert_string
+/tmp/wimlib-native-oracle/src/encoding.c:241 (discriminator 1)
+get_dentry
+/tmp/wimlib-native-oracle/src/dentry.c:818
+do_wimlib_extract_paths
+/tmp/wimlib-native-oracle/src/extract.c:1841

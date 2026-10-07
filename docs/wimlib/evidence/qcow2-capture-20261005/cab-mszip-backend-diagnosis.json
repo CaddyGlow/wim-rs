@@ -1,0 +1,151 @@
+{
+  "problem": "Workspace feature unification enables flate2/zlib-rs via windows-mpsp; incompressible MSZIP frame framing fails independent 7z",
+  "native_zlib_dependency_is_cause": false,
+  "explicit_zlib_rs_pre_fix_reproduces": true,
+  "retained_originals": [
+    {
+      "test_binary": "writer-34f923",
+      "cab": "/data/cache/qcow2-mszip-repro/writer-34f923/1-random.bin.cab",
+      "sha256": "9ac48cfc45ec8932b1d706020afc42349477e0b251e49ea68c10fd7c0a70e135",
+      "frames": [
+        {
+          "frame": 0,
+          "packed_bytes_including_CK": 274,
+          "unpacked_bytes": 32768,
+          "raw_deflate_decodes": true
+        },
+        {
+          "frame": 1,
+          "packed_bytes_including_CK": 274,
+          "unpacked_bytes": 32768,
+          "raw_deflate_decodes": true
+        },
+        {
+          "frame": 2,
+          "packed_bytes_including_CK": 1878,
+          "unpacked_bytes": 32768,
+          "raw_deflate_decodes": true
+        },
+        {
+          "frame": 3,
+          "packed_bytes_including_CK": 32782,
+          "unpacked_bytes": 32768,
+          "raw_deflate_decodes": true
+        },
+        {
+          "frame": 4,
+          "packed_bytes_including_CK": 32782,
+          "unpacked_bytes": 32768,
+          "raw_deflate_decodes": true
+        },
+        {
+          "frame": 5,
+          "packed_bytes_including_CK": 32782,
+          "unpacked_bytes": 32768,
+          "raw_deflate_decodes": true
+        },
+        {
+          "frame": 6,
+          "packed_bytes_including_CK": 310,
+          "unpacked_bytes": 32768,
+          "raw_deflate_decodes": true
+        },
+        {
+          "frame": 7,
+          "packed_bytes_including_CK": 51,
+          "unpacked_bytes": 32768,
+          "raw_deflate_decodes": true
+        },
+        {
+          "frame": 8,
+          "packed_bytes_including_CK": 8,
+          "unpacked_bytes": 194,
+          "raw_deflate_decodes": true
+        }
+      ],
+      "independent_7z_pass": false
+    },
+    {
+      "test_binary": "writer-22356",
+      "cab": "/data/cache/qcow2-mszip-repro/writer-22356/1-random.bin.cab",
+      "sha256": "0b353862906987ab25973428b4773d70df4f2fa57c2a9d8a880fa70a6f8ef2c7",
+      "frames": [
+        {
+          "frame": 0,
+          "packed_bytes_including_CK": 155,
+          "unpacked_bytes": 32768,
+          "raw_deflate_decodes": true
+        },
+        {
+          "frame": 1,
+          "packed_bytes_including_CK": 155,
+          "unpacked_bytes": 32768,
+          "raw_deflate_decodes": true
+        },
+        {
+          "frame": 2,
+          "packed_bytes_including_CK": 1761,
+          "unpacked_bytes": 32768,
+          "raw_deflate_decodes": true
+        },
+        {
+          "frame": 3,
+          "packed_bytes_including_CK": 32780,
+          "unpacked_bytes": 32768,
+          "raw_deflate_decodes": true
+        },
+        {
+          "frame": 4,
+          "packed_bytes_including_CK": 32780,
+          "unpacked_bytes": 32768,
+          "raw_deflate_decodes": true
+        },
+        {
+          "frame": 5,
+          "packed_bytes_including_CK": 32780,
+          "unpacked_bytes": 32768,
+          "raw_deflate_decodes": true
+        },
+        {
+          "frame": 6,
+          "packed_bytes_including_CK": 307,
+          "unpacked_bytes": 32768,
+          "raw_deflate_decodes": true
+        },
+        {
+          "frame": 7,
+          "packed_bytes_including_CK": 49,
+          "unpacked_bytes": 32768,
+          "raw_deflate_decodes": true
+        },
+        {
+          "frame": 8,
+          "packed_bytes_including_CK": 18,
+          "unpacked_bytes": 194,
+          "raw_deflate_decodes": true
+        }
+      ],
+      "independent_7z_pass": true
+    }
+  ],
+  "canonical_single_final_stored_rewrite": {
+    "path": "/data/cache/qcow2-mszip-repro/writer-34f923/1-canonical-stored.cab",
+    "modified_frames": [
+      3,
+      4,
+      5
+    ],
+    "independent_7z_pass": true,
+    "output_bytes": 100001
+  },
+  "fix": "Select one final aligned DEFLATE stored block when raw compressed length >= input length + 5, prepend CK; full32KiB frame max32775 bytes",
+  "post_fix_zlib_rs_writer_tests": {
+    "passed": 10,
+    "includes_independent_7z": true
+  },
+  "post_fix_default_writer_tests": {
+    "passed": 10,
+    "includes_independent_7z": true
+  },
+  "post_fix_caby_all_targets_all_features_clippy": "pass; warnings denied"
+}

@@ -1,0 +1,52 @@
+{
+  "status": "passed_host_only",
+  "commands": {
+    "tests": {
+      "command": "cargo test --locked",
+      "exit_code": 0,
+      "log": "/data/cache/qcow2-capture-20261005/host-tests-portable-metadata-recheck.log",
+      "log_sha256": "f714152af81a69520c36b42f61b99809c25ae06682f167179ee6c8a98b4dda73"
+    },
+    "clippy": {
+      "command": "cargo clippy --all-targets --all-features --locked -- -D warnings",
+      "exit_code": 0,
+      "log": "/data/cache/qcow2-capture-20261005/clippy-portable-metadata-recheck.log",
+      "log_sha256": "75821b60dbdd01b5ebe666ae0527824945b6d96026a7d8d028ad8d05243b0079"
+    },
+    "fmt": {
+      "command": "cargo fmt --all -- --check",
+      "exit_code": 0,
+      "log": "/data/cache/qcow2-capture-20261005/fmt-portable-metadata-final.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "windows_cross_check": {
+      "command": "nix develop --command cargo xwin check --locked --target x86_64-pc-windows-msvc -p windows-uup",
+      "exit_code": 0,
+      "log": "/data/cache/qcow2-capture-20261005/windows-metadata-cross-check.log",
+      "log_sha256": "718dd392e7cc99ae6d01bd32d92d09dfa6d26369a34504410be9ccef8dbecb11",
+      "scope": "Windows x64 compilation check; does not establish runtime installation correctness."
+    }
+  },
+  "tests": {
+    "suites": 294,
+    "passed": 2306,
+    "failed": 0,
+    "ignored": 49
+  },
+  "scope": "Current host workspace including portable metadata API/audit, corrected reparse media payload header, and deterministic closure fixture. Windows installation/OOBE/servicing/reboot/WinRE and process trust-label destination gate remain unproven.",
+  "independent_qemu_current_codecs": {
+    "passed": 5,
+    "failed": 0,
+    "command": "cargo test --locked -p windows-disk --test qcow2 -- --ignored",
+    "log": "/data/cache/qcow2-capture-20261005/qcow2-current-codec-oracles.log",
+    "log_sha256": "eb8d1df6de20cd8647943d18b7e3799deed173b637b25863b3f2f9ada9ff7a83",
+    "scope": [
+      "deflate and zstd cluster reads at supported tested cluster sizes",
+      "three-layer authorized backing chain",
+      "all refcount widths",
+      "shared L2/data ownership",
+      "partial L1 tail and randomized ranges"
+    ],
+    "source": "New disposable QEMU-generated fixtures, not a source Windows disk."
+  }
+}

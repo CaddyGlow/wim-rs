@@ -1,0 +1,200 @@
+[
+  {
+    "args": [
+      "/tmp/wim-progress-corrupt-data.wim",
+      "write",
+      "0",
+      "0",
+      "0",
+      "6145"
+    ],
+    "original": {
+      "exit": 0,
+      "stdout": [
+        "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+        "offset image 0 8 12 streams 0 8 16 24 32",
+        "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 3 parts 1 compressed 0",
+        "result 28"
+      ],
+      "stderr": "",
+      "size": 228
+    },
+    "native": {
+      "exit": 0,
+      "stdout": [
+        "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+        "offset image 0 8 12 streams 0 8 16 24 32",
+        "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 3 parts 1 compressed 0",
+        "result 28"
+      ],
+      "stderr": "",
+      "size": 228
+    },
+    "match": true
+  },
+  {
+    "args": [
+      "/tmp/wim-progress-corrupt-data.wim",
+      "write",
+      "1",
+      "12",
+      "0",
+      "6145"
+    ],
+    "original": {
+      "exit": 0,
+      "stdout": [
+        "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+        "offset image 0 8 12 streams 0 8 16 24 32",
+        "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 3 parts 1 compressed 0",
+        "result 76"
+      ],
+      "stderr": "",
+      "size": 208
+    },
+    "native": {
+      "exit": 0,
+      "stdout": [
+        "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+        "offset image 0 8 12 streams 0 8 16 24 32",
+        "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 3 parts 1 compressed 0",
+        "result 76"
+      ],
+      "stderr": "",
+      "size": 208
+    },
+    "match": true
+  },
+  {
+    "args": [
+      "/tmp/wim-progress-corrupt-data.wim",
+      "write",
+      "1",
+      "13",
+      "0",
+      "6145"
+    ],
+    "original": {
+      "exit": 0,
+      "stdout": [
+        "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+        "offset image 0 8 12 streams 0 8 16 24 32",
+        "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 3 parts 1 compressed 0",
+        "result 28"
+      ],
+      "stderr": "",
+      "size": 228
+    },
+    "native": {
+      "exit": 0,
+      "stdout": [
+        "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+        "offset image 0 8 12 streams 0 8 16 24 32",
+        "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 3 parts 1 compressed 0",
+        "result 28"
+      ],
+      "stderr": "",
+      "size": 228
+    },
+    "match": true
+  },
+  {
+    "args": [
+      "/tmp/wim-progress-corrupt-later-chunk.wim",
+      "write",
+      "0",
+      "0",
+      "0",
+      "6145"
+    ],
+    "original": {
+      "exit": 0,
+      "stdout": [
+        "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+        "offset image 0 8 12 streams 0 8 16 24 32",
+        "event 1 12 write streams 0 1 bytes 0 76810 threads 1 codec 3 parts 1 compressed 0",
+        "result 2"
+      ],
+      "stderr": "",
+      "size": 228
+    },
+    "native": {
+      "exit": 0,
+      "stdout": [
+        "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+        "offset image 0 8 12 streams 0 8 16 24 32",
+        "event 1 12 write streams 0 1 bytes 0 76810 threads 1 codec 3 parts 1 compressed 0",
+        "result 2"
+      ],
+      "stderr": "",
+      "size": 228
+    },
+    "match": true
+  },
+  {
+    "args": [
+      "/tmp/wim-progress-corrupt-later-chunk.wim",
+      "write",
+      "1",
+      "12",
+      "0",
+      "6145"
+    ],
+    "original": {
+      "exit": 0,
+      "stdout": [
+        "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+        "offset image 0 8 12 streams 0 8 16 24 32",
+        "event 1 12 write streams 0 1 bytes 0 76810 threads 1 codec 3 parts 1 compressed 0",
+        "result 76"
+      ],
+      "stderr": "",
+      "size": 208
+    },
+    "native": {
+      "exit": 0,
+      "stdout": [
+        "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+        "offset image 0 8 12 streams 0 8 16 24 32",
+        "event 1 12 write streams 0 1 bytes 0 76810 threads 1 codec 3 parts 1 compressed 0",
+        "result 76"
+      ],
+      "stderr": "",
+      "size": 208
+    },
+    "match": true
+  },
+  {
+    "args": [
+      "/tmp/wim-progress-corrupt-later-chunk.wim",
+      "write",
+      "1",
+      "13",
+      "0",
+      "6145"
+    ],
+    "original": {
+      "exit": 0,
+      "stdout": [
+        "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+        "offset image 0 8 12 streams 0 8 16 24 32",
+        "event 1 12 write streams 0 1 bytes 0 76810 threads 1 codec 3 parts 1 compressed 0",
+        "result 2"
+      ],
+      "stderr": "",
+      "size": 228
+    },
+    "native": {
+      "exit": 0,
+      "stdout": [
+        "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+        "offset image 0 8 12 streams 0 8 16 24 32",
+        "event 1 12 write streams 0 1 bytes 0 76810 threads 1 codec 3 parts 1 compressed 0",
+        "result 2"
+      ],
+      "stderr": "",
+      "size": 228
+    },
+    "match": true
+  }
+]

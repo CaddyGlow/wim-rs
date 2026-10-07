@@ -1,0 +1,64 @@
+Microsoft (R) File Expansion Utility
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-15\$filehashes$.dat to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-15\amd64_microsoft-windows-f..client-applications_31bf3856ad364e35_10.0.19041.1_none_2eeab9eac7c3eb5c\Fax Recipient.lnk to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-15\amd64_microsoft-windows-f..client-applications_31bf3856ad364e35_10.0.19041.1_none_2eeab9eac7c3eb5c\FXSCOMPOSE.dll to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-15\amd64_microsoft-windows-f..client-applications_31bf3856ad364e35_10.0.19041.1_none_2eeab9eac7c3eb5c\FXSCOMPOSERES.dll to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-15\amd64_microsoft-windows-f..client-applications_31bf3856ad364e35_10.0.19041.1_none_2eeab9eac7c3eb5c\FXSCOVER.exe to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-15\amd64_microsoft-windows-f..client-applications_31bf3856ad364e35_10.0.19041.1_none_2eeab9eac7c3eb5c\FXSUTILITY.dll to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-15\amd64_microsoft-windows-f..client-applications_31bf3856ad364e35_10.0.19041.1_none_2eeab9eac7c3eb5c\WFS.exe to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-15\amd64_microsoft-windows-f..client-applications_31bf3856ad364e35_10.0.19041.1_none_2eeab9eac7c3eb5c\wfs.mof to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-15\amd64_microsoft-windows-f..client-applications_31bf3856ad364e35_10.0.19041.1_none_2eeab9eac7c3eb5c\WFSR.dll to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-15\amd64_microsoft-windows-f..client-applications_31bf3856ad364e35_10.0.19041.1_none_2eeab9eac7c3eb5c\Windows Fax and Scan.lnk to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-15\amd64_microsoft-windows-f..client-applications_31bf3856ad364e35_10.0.19041.1_none_2eeab9eac7c3eb5c.manifest to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-15\amd64_microsoft-windows-fax-base-feature_31bf3856ad364e35_10.0.19041.1_none_09be9bfb0629a029.manifest to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-15\amd64_microsoft-windows-fax-client-feature_31bf3856ad364e35_10.0.19041.1_none_e96ab795fc0bc3c3.manifest to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-15\amd64_microsoft-windows-fax-common_31bf3856ad364e35_10.0.19041.1_none_c1f5bc6ceffe0e16\FXSAPI.dll to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-15\amd64_microsoft-windows-fax-common_31bf3856ad364e35_10.0.19041.1_none_c1f5bc6ceffe0e16\FXSCOM.dll to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-15\amd64_microsoft-windows-fax-common_31bf3856ad364e35_10.0.19041.1_none_c1f5bc6ceffe0e16\FXSCOMEX.dll to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-15\amd64_microsoft-windows-fax-common_31bf3856ad364e35_10.0.19041.1_none_c1f5bc6ceffe0e16\FXSOCM.dll to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-15\amd64_microsoft-windows-fax-common_31bf3856ad364e35_10.0.19041.1_none_c1f5bc6ceffe0e16\FXSRESM.dll to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-15\amd64_microsoft-windows-fax-common_31bf3856ad364e35_10.0.19041.1_none_c1f5bc6ceffe0e16\FXST30.dll to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-15\amd64_microsoft-windows-fax-common_31bf3856ad364e35_10.0.19041.1_none_c1f5bc6ceffe0e16\FXSTIFF.dll to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-15\amd64_microsoft-windows-fax-common_31bf3856ad364e35_10.0.19041.1_none_c1f5bc6ceffe0e16\WelcomeScan.jpg to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-15\amd64_microsoft-windows-fax-common_31bf3856ad364e35_10.0.19041.1_none_c1f5bc6ceffe0e16\WinFax.dll to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-15\amd64_microsoft-windows-fax-common_31bf3856ad364e35_10.0.19041.1_none_c1f5bc6ceffe0e16.manifest to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-15\amd64_microsoft-windows-fax-service_31bf3856ad364e35_10.0.19041.1_none_6314a7411fa6f2ec\FXSEVENT.dll to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-15\amd64_microsoft-windows-fax-service_31bf3856ad364e35_10.0.19041.1_none_6314a7411fa6f2ec\FXSMON.dll to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-15\amd64_microsoft-windows-fax-service_31bf3856ad364e35_10.0.19041.1_none_6314a7411fa6f2ec\FXSROUTE.dll to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-15\amd64_microsoft-windows-fax-service_31bf3856ad364e35_10.0.19041.1_none_6314a7411fa6f2ec\FXSSVC.exe to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-15\amd64_microsoft-windows-fax-service_31bf3856ad364e35_10.0.19041.1_none_6314a7411fa6f2ec\FXSUNATD.exe to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-15\amd64_microsoft-windows-fax-service_31bf3856ad364e35_10.0.19041.1_none_6314a7411fa6f2ec.manifest to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-15\amd64_microsoft-windows-fax-status-monitor_31bf3856ad364e35_10.0.19041.1_none_3f361b1396dc1e32\FXSST.dll to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-15\amd64_microsoft-windows-fax-status-monitor_31bf3856ad364e35_10.0.19041.1_none_3f361b1396dc1e32.manifest to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-15\amd64_microsoft-windows-p..-wfs-fod-deployment_31bf3856ad364e35_10.0.19041.1_none_bc969b140dd14ee3.manifest to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-15\Microsoft-Windows-Printing-WFS-FoD-Package~31bf3856ad364e35~amd64~~10.0.19041.1.cat to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-15\Microsoft-Windows-Printing-WFS-FoD-Package~31bf3856ad364e35~amd64~~10.0.19041.1.mum to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-15\Microsoft-Windows-Printing-WFS-FoD-Package~31bf3856ad364e35~wow64~~10.0.19041.1.cat to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-15\Microsoft-Windows-Printing-WFS-FoD-Package~31bf3856ad364e35~wow64~~10.0.19041.1.mum to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-15\update.cat to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-15\update.mum to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-15\wow64_microsoft-windows-f..client-applications_31bf3856ad364e35_10.0.19041.1_none_393f643cfc24ad57\wfs.mof to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-15\wow64_microsoft-windows-f..client-applications_31bf3856ad364e35_10.0.19041.1_none_393f643cfc24ad57.manifest to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-15\wow64_microsoft-windows-fax-base-feature_31bf3856ad364e35_10.0.19041.1_none_1413464d3a8a6224.manifest to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-15\wow64_microsoft-windows-fax-client-feature_31bf3856ad364e35_10.0.19041.1_none_f3bf61e8306c85be.manifest to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-15\wow64_microsoft-windows-fax-common_31bf3856ad364e35_10.0.19041.1_none_cc4a66bf245ed011\FXSAPI.dll to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-15\wow64_microsoft-windows-fax-common_31bf3856ad364e35_10.0.19041.1_none_cc4a66bf245ed011\FXSCOM.dll to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-15\wow64_microsoft-windows-fax-common_31bf3856ad364e35_10.0.19041.1_none_cc4a66bf245ed011\FXSCOMEX.dll to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-15\wow64_microsoft-windows-fax-common_31bf3856ad364e35_10.0.19041.1_none_cc4a66bf245ed011\FXSRESM.dll to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-15\wow64_microsoft-windows-fax-common_31bf3856ad364e35_10.0.19041.1_none_cc4a66bf245ed011\WinFax.dll to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-15\wow64_microsoft-windows-fax-common_31bf3856ad364e35_10.0.19041.1_none_cc4a66bf245ed011.manifest to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-15\wow64_microsoft-windows-fax-mapi_31bf3856ad364e35_10.0.19041.1_none_0fe5bc514ba5e9a1\FXSEXT.ecf to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-15\wow64_microsoft-windows-fax-mapi_31bf3856ad364e35_10.0.19041.1_none_0fe5bc514ba5e9a1\FXSEXT32.dll to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-15\wow64_microsoft-windows-fax-mapi_31bf3856ad364e35_10.0.19041.1_none_0fe5bc514ba5e9a1\FXSXP32.dll to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-15\wow64_microsoft-windows-fax-mapi_31bf3856ad364e35_10.0.19041.1_none_0fe5bc514ba5e9a1\mapisvc.inf to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-15\wow64_microsoft-windows-fax-mapi_31bf3856ad364e35_10.0.19041.1_none_0fe5bc514ba5e9a1.manifest to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-15\wow64_microsoft-windows-fax-service_31bf3856ad364e35_10.0.19041.1_none_6d6951935407b4e7.manifest to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-15\wow64_microsoft-windows-fax-status-monitor_31bf3856ad364e35_10.0.19041.1_none_498ac565cb3ce02d.manifest to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-15\wow64_microsoft-windows-p..od-wow64-deployment_31bf3856ad364e35_10.0.19041.1_none_71f54ae29d28d828.manifest to Extraction Queue
+
+Expanding Files ....
+
+Expanding Files Complete ...
+56 files total.

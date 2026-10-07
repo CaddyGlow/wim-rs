@@ -1,0 +1,6 @@
+{
+  "scope": "scan/state only; writer payload compatibility separately required",
+  "cases": 182,
+  "observations": 1010,
+  "mismatches": []
+}

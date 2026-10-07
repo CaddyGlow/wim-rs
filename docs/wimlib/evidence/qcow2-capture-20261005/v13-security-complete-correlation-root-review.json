@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "scope": "Root reran complete180path native/runtime correlation on byte-exact copies of original4 inputs; result exact to owner report",
+  "report": {
+    "path": "/data/cache/qcow2-v13-backup-security-controls-20261006/root-independent-correlation/complete-native-online-correlation.json",
+    "sha256": "5ae39f4786727063aee00e4b929a5f902a03ccf08332561e8d61a7de48fc329a"
+  },
+  "all180_runtime_frozen_logical_exact": true,
+  "counts": {
+    "SetSecurityInfo": {
+      "cases": 20,
+      "runtime_frozen_all3_logical_exact": 20,
+      "source_ACE_exact": 1,
+      "native_desired_full_logical_security_exact": 0,
+      "strict_online_pass": 0
+    },
+    "BackupWrite": {
+      "cases": 20,
+      "runtime_frozen_all3_logical_exact": 20,
+      "source_ACE_exact": 4,
+      "native_desired_full_logical_security_exact": 6,
+      "strict_online_pass": 0
+    },
+    "NtSetSecurityObject": {
+      "cases": 20,
+      "runtime_frozen_all3_logical_exact": 20,
+      "source_ACE_exact": 4,
+      "native_desired_full_logical_security_exact": 6,
+      "strict_online_pass": 0
+    }
+  },
+  "production_executable": false
+}

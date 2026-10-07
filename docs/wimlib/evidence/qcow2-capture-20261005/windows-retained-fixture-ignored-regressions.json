@@ -1,0 +1,87 @@
+{
+  "schema": 1,
+  "scope": "Actual Windows-created separate NTFS fixture ignored regressions, clean frozen source unchanged",
+  "hashes_after_tests": {
+    "case-fixture.qcow2": "03f58bdceda2c9c55394909ea1ff5880cc12c4c7a8b8df218d3f1158bc0497c8",
+    "ads-fixture.qcow2": "af527ee9d49ba2671d74aaa801633f04a5f7bbf004cb71684165f1c34bd4f314",
+    "case-fixture.ntfs.raw": "a8e802268867b2f76f129da2feff8c4d3319301a44e2b244d7d94449a52d6a4f",
+    "ads-fixture.disk.raw": "126ecb27c9cda12abf0ceb4f0e223b87a980a1a0c19895fab1e6b136911e33b0"
+  },
+  "tests": [
+    {
+      "name": "rejects_empty_case_sensitive_directory_created_by_windows",
+      "exit": 0,
+      "passed": 1,
+      "duration_seconds": 0.01
+    },
+    {
+      "name": "caller_tightened_attribute_list_limit_rejects_windows_extension_records",
+      "exit": 0,
+      "passed": 1,
+      "duration_seconds": 0.64
+    },
+    {
+      "name": "oversized_index_record_is_rejected_before_native_index_allocation",
+      "session": 74869,
+      "exit": 0,
+      "passed": 1,
+      "duration_seconds": 1.8
+    }
+  ],
+  "capture_platform_claim": false,
+  "artifacts": [
+    {
+      "path": "/data/cache/qcow2-retained-fixtures-20261006/clean-offline-handoff.json",
+      "sha256": "78e6988fcd31771c1cfcac13dc9f3d654c806d5cd5757ac8c4ecaae304679ef9"
+    },
+    {
+      "path": "/data/cache/qcow2-retained-fixtures-20261006/retained-report.json",
+      "sha256": "9fde6db004c3bb8967749c7374ccaf5345149f25823337e0aa3ac091a9ef5b77"
+    },
+    {
+      "path": "/data/cache/qcow2-retained-fixtures-20261006/retained-continuation-report.json",
+      "sha256": "52d7a7d4d07f905535c6d5a00718d3f7df933d412569f4681d0e84be89c6816b"
+    },
+    {
+      "path": "/data/cache/qcow2-retained-fixtures-20261006/case-extraction-proof.json",
+      "sha256": "5c203efbe909181de6e61300393db6f2bab0310c4b67b9e3334f03db5e86f557"
+    },
+    {
+      "path": "/data/cache/qcow2-retained-fixtures-20261006/ads-extraction-proof.json",
+      "sha256": "325984ef371df6b74413c4717ac4f51355137227b8fdb7353fc6fb1b55ae11fa"
+    },
+    {
+      "path": "scripts/wimlib/windows-create-retained-ntfs-fixtures.ps1",
+      "sha256": "e8b7de9a591cf1a8dcc8463a80623b1a09ea1eb835443c39957ff73931a0a061"
+    },
+    {
+      "path": "scripts/wimlib/windows-native-ads-io.ps1",
+      "sha256": "f71e1859dbb2134a61f8ab08606a523929723386c91e2c414abd4eee9e957fa8"
+    },
+    {
+      "path": "scripts/wimlib/windows-continue-retained-ads-fixture.ps1",
+      "sha256": "25707267c71196d896f98b98c227e92d5e79611133207fc83e78fe3810fa20f5"
+    },
+    {
+      "path": "scripts/wimlib/check-retained-ntfs-fixture-receipt.py",
+      "sha256": "8b381f63a167a9dae546462b29e654e3b8db57f36cda869cc11ba6b534f56d94"
+    },
+    {
+      "path": "crates/windows-ntfs/tests/ntfs3g.rs",
+      "sha256": "50f60ffa892d1d143bc0a6c33597c163c2fd349828442ffd184bd48ed8f8c4e5"
+    },
+    {
+      "path": "/data/cache/qcow2-retained-fixtures-20261006/case-test.log",
+      "sha256": "6ea5bd5f0ea72163feaebc235e1b81c4539a9a1ed2790e969942ad97bc23f625"
+    },
+    {
+      "path": "/data/cache/qcow2-retained-fixtures-20261006/attribute-list-test.log",
+      "sha256": "cbfe1728e40bf83544d43f4d0d99975b570afd4683068a41ef2194cafcca4d90"
+    },
+    {
+      "path": "/data/cache/qcow2-retained-fixtures-20261006/oversized-index-test.log",
+      "sha256": "6afc0a58f9e87dc04272815245dab86fbb0a7542e39bb2fb1f0233e0fae66cf0"
+    }
+  ],
+  "test_log_provenance": "Exact copied exec_command/write_stdin tool output chunks; no repeated test invocation."
+}

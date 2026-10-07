@@ -1,0 +1,9 @@
+{
+  "library_sha256": "2ce25f6a1277c0fd23cc79b63159853587fdf36cceee7fb521e4b3004a07f1c1",
+  "caller_sha256": "3c9261afdc4474a4cd4ce242f7227cd9ed71fe981cf437db73fe9404e23e200a",
+  "caller_source_sha256": "4cb66451b88886f6fc9fb728bea4da7f3468e494b29dfea829d62ac990f8a5c2",
+  "seconds": 60,
+  "status": 0,
+  "log": "/data/cache/wim-open-write-baseline/native-final-randomized/run.log",
+  "scope": "Unchanged genuine upstream randomized caller; final frozen native library"
+}

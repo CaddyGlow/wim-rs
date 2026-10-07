@@ -1,0 +1,92 @@
+{
+  "scope": "Exact nativeISO Setup WinPE independently applies same nativeWIM with DISM/EA before any target OS boot; not a standard Setup installation gate.",
+  "image_sha256": "749c692cf7dd0aa7442ef3d1e96f1e0351e60b21a2aefa0a2d0f6b38ed9e8ea8",
+  "source_ISO": "/data/cache/qcow2-recovered-20261005/capture/native-captured.iso",
+  "WinPE_kernel": "10.0.26100.1742",
+  "DISM_version": "10.0.26100.1150",
+  "apply_flags": [
+    "/Apply-Image",
+    "/Index:1",
+    "/EA",
+    "/CheckIntegrity"
+  ],
+  "apply_exit": 0,
+  "supported_wpeutil_shutdown": true,
+  "launcher_terminal_exit": 0,
+  "qcow_clean": true,
+  "strict_clean_NTFS_open_passed": true,
+  "target_has_no_ESP_or_bootloader": true,
+  "fixture": {
+    "entries": 9,
+    "streams": 331,
+    "exact_fields": [
+      "EaRaw",
+      "ObjectIdRaw",
+      "ReparseRaw",
+      "SecurityRaw",
+      "Short",
+      "Streams"
+    ],
+    "nonzero_extended_ObjectID_birth_fields_exact": true
+  },
+  "reserved_sacl": {
+    "all_source5727paths_exist": true,
+    "source_process_trust_paths": 5725,
+    "source_resource_attribute_paths": 2,
+    "applied_process_trust_paths": 0,
+    "applied_resource_attribute_paths": 0,
+    "strict_gate_passed": false
+  },
+  "boundary": "Same Setup WinPE DISM/EA preserves full64ObjectID; cannot establish standardSetup apply preserves it because Setup apply options/API may differ. Reserved ACE18/20 absent immediately after both DISM controls. No sparse/storageclass proof from this metadata example.",
+  "artifacts": {
+    "fixture-metadata.json": {
+      "path": "/data/cache/qcow2-winpe-apply-control-20261005/fixture-metadata.json",
+      "sha256": "a5bb29ce3a797e7f5789c2dc011bb5fe56fbc17c4f39840a1546d95f1204cf87"
+    },
+    "selected-resource-paths.json": {
+      "path": "/data/cache/qcow2-winpe-apply-control-20261005/selected-resource-paths.json",
+      "sha256": "5ef11f2f68235978b9b9f67bff17bb0e19cfbaa5ec84f548c245d55357cae834"
+    },
+    "fixture-comparison.json": {
+      "path": "/data/cache/qcow2-winpe-apply-control-20261005/fixture-comparison.json",
+      "sha256": "1881ebbc71cee43b30289bbd4b904cc51b918a787ff406d96133d474f9847837"
+    },
+    "target-qcow-info.json": {
+      "path": "/data/cache/qcow2-winpe-apply-control-20261005/target-qcow-info.json",
+      "sha256": "c9b7fd1ca7497a33692466ec618762f0596f1239369cdfb9c2efd74b2de67be1"
+    },
+    "reserved-sacl-inventory.json": {
+      "path": "/data/cache/qcow2-winpe-apply-control-20261005/reserved-sacl-inventory.json",
+      "sha256": "dae1074a13517b5422398bbe11bb00c8c4ac92c1b21489933a06d41ea31b4788"
+    },
+    "selected-trust-paths.json": {
+      "path": "/data/cache/qcow2-winpe-apply-control-20261005/selected-trust-paths.json",
+      "sha256": "e06099e4e7659f6118f6ba7f01e06e1308c5ef3360d2274d9b8cc2eaa9608a7e"
+    },
+    "exit.txt": {
+      "path": "/data/cache/qcow2-winpe-apply-control-20261005/exit.txt",
+      "sha256": "9aca8dfce962538fb8131d73f84cada05e4dc79f5a0d3612c511b1150f3e33e2"
+    },
+    "dism.log": {
+      "path": "/data/cache/qcow2-winpe-apply-control-20261005/dism.log",
+      "sha256": "251d260cf28883af512c46f6e0728e4926ab9c59fe35d4fb7ad72f8e28f8a325"
+    },
+    "version.log": {
+      "path": "/data/cache/qcow2-winpe-apply-control-20261005/version.log",
+      "sha256": "bac68c16dbc0a4456d1d27895d3e3e5e68303ddaaa8d25bfebc29dceb7784409"
+    },
+    "seed/autounattend.xml": {
+      "path": "/data/cache/qcow2-winpe-apply-control-20261005/seed/autounattend.xml",
+      "sha256": "9a8eb5be414c4fe094dd6af1f9759422ed1400aaa1508c14a5f25059681bcebb"
+    },
+    "seed/control.cmd": {
+      "path": "/data/cache/qcow2-winpe-apply-control-20261005/seed/control.cmd",
+      "sha256": "89d9c8440ca8f4baf651cf2012b9f22cbc922c2f7b1c63abbb9745a3067b08a7"
+    },
+    "seed/diskpart.txt": {
+      "path": "/data/cache/qcow2-winpe-apply-control-20261005/seed/diskpart.txt",
+      "sha256": "eb629f91a51a39c194b7e9a1276d6100151cd1d6f647fae4ef91567b144471c2"
+    }
+  },
+  "input_identity_provenance": "Unchanged nativeISO mounted read-only by vm-run; image hash is the independently verified producer input, not a hash recomputed inside this WinPE guest."
+}

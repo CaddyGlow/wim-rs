@@ -1,0 +1,1371 @@
+{
+  "count": 171,
+  "source_inputs_preserved": true,
+  "cases": [
+    {
+      "mutation": "none",
+      "flags": 0,
+      "abort_event": 0,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\noverwrite 0\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "none",
+      "flags": 0,
+      "abort_event": 13,
+      "stdout": "open 0\nmutation 0\nevent 13\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "none",
+      "flags": 0,
+      "abort_event": 14,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "none",
+      "flags": 0,
+      "abort_event": 15,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\noverwrite 0\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "none",
+      "flags": 64,
+      "abort_event": 0,
+      "stdout": "open 0\nmutation 0\nevent 12 streams 63 0 2 0\nevent 12 streams 63 15 2 1\nevent 12 streams 63 63 2 2\nevent 13\nevent 14\nevent 15 rename-to TARGET from-prefix 1\noverwrite 0\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "none",
+      "flags": 64,
+      "abort_event": 13,
+      "stdout": "open 0\nmutation 0\nevent 12 streams 63 0 2 0\nevent 12 streams 63 15 2 1\nevent 12 streams 63 63 2 2\nevent 13\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "none",
+      "flags": 64,
+      "abort_event": 14,
+      "stdout": "open 0\nmutation 0\nevent 12 streams 63 0 2 0\nevent 12 streams 63 15 2 1\nevent 12 streams 63 63 2 2\nevent 13\nevent 14\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "none",
+      "flags": 64,
+      "abort_event": 15,
+      "stdout": "open 0\nmutation 0\nevent 12 streams 63 0 2 0\nevent 12 streams 63 15 2 1\nevent 12 streams 63 63 2 2\nevent 13\nevent 14\nevent 15 rename-to TARGET from-prefix 1\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "none",
+      "flags": 128,
+      "abort_event": 0,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\noverwrite 0\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "none",
+      "flags": 128,
+      "abort_event": 13,
+      "stdout": "open 0\nmutation 0\nevent 13\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "none",
+      "flags": 128,
+      "abort_event": 14,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "none",
+      "flags": 128,
+      "abort_event": 15,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\noverwrite 0\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "none",
+      "flags": 32768,
+      "abort_event": 0,
+      "stdout": "open 0\nmutation 0\nevent 12 streams 855 0 3 0\nevent 12 streams 855 15 3 1\nevent 12 streams 855 63 3 2\nevent 12 streams 855 855 3 3\nevent 13\nevent 14\noverwrite 0\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "none",
+      "flags": 32768,
+      "abort_event": 13,
+      "stdout": "open 0\nmutation 0\nevent 12 streams 855 0 3 0\nevent 12 streams 855 15 3 1\nevent 12 streams 855 63 3 2\nevent 12 streams 855 855 3 3\nevent 13\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "none",
+      "flags": 32768,
+      "abort_event": 14,
+      "stdout": "open 0\nmutation 0\nevent 12 streams 855 0 3 0\nevent 12 streams 855 15 3 1\nevent 12 streams 855 63 3 2\nevent 12 streams 855 855 3 3\nevent 13\nevent 14\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "none",
+      "flags": 32768,
+      "abort_event": 15,
+      "stdout": "open 0\nmutation 0\nevent 12 streams 855 0 3 0\nevent 12 streams 855 15 3 1\nevent 12 streams 855 63 3 2\nevent 12 streams 855 855 3 3\nevent 13\nevent 14\noverwrite 0\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "none",
+      "flags": 32784,
+      "abort_event": 0,
+      "stdout": "open 0\nmutation 0\noverwrite 85\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "none",
+      "flags": 32784,
+      "abort_event": 13,
+      "stdout": "open 0\nmutation 0\noverwrite 85\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "none",
+      "flags": 32784,
+      "abort_event": 14,
+      "stdout": "open 0\nmutation 0\noverwrite 85\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "none",
+      "flags": 32784,
+      "abort_event": 15,
+      "stdout": "open 0\nmutation 0\noverwrite 85\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "none",
+      "flags": 256,
+      "abort_event": 0,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\noverwrite 0\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "none",
+      "flags": 256,
+      "abort_event": 13,
+      "stdout": "open 0\nmutation 0\nevent 13\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "none",
+      "flags": 256,
+      "abort_event": 14,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "none",
+      "flags": 256,
+      "abort_event": 15,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\noverwrite 0\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "xml",
+      "flags": 0,
+      "abort_event": 0,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\noverwrite 0\nsize 2101\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "xml",
+      "flags": 0,
+      "abort_event": 13,
+      "stdout": "open 0\nmutation 0\nevent 13\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "xml",
+      "flags": 0,
+      "abort_event": 14,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "xml",
+      "flags": 0,
+      "abort_event": 15,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\noverwrite 0\nsize 2101\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "xml",
+      "flags": 64,
+      "abort_event": 0,
+      "stdout": "open 0\nmutation 0\nevent 12 streams 63 0 2 0\nevent 12 streams 63 15 2 1\nevent 12 streams 63 63 2 2\nevent 13\nevent 14\nevent 15 rename-to TARGET from-prefix 1\noverwrite 0\nsize 2101\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "xml",
+      "flags": 64,
+      "abort_event": 13,
+      "stdout": "open 0\nmutation 0\nevent 12 streams 63 0 2 0\nevent 12 streams 63 15 2 1\nevent 12 streams 63 63 2 2\nevent 13\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "xml",
+      "flags": 64,
+      "abort_event": 14,
+      "stdout": "open 0\nmutation 0\nevent 12 streams 63 0 2 0\nevent 12 streams 63 15 2 1\nevent 12 streams 63 63 2 2\nevent 13\nevent 14\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "xml",
+      "flags": 64,
+      "abort_event": 15,
+      "stdout": "open 0\nmutation 0\nevent 12 streams 63 0 2 0\nevent 12 streams 63 15 2 1\nevent 12 streams 63 63 2 2\nevent 13\nevent 14\nevent 15 rename-to TARGET from-prefix 1\noverwrite 76\nsize 2101\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "xml",
+      "flags": 128,
+      "abort_event": 0,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\noverwrite 0\nsize 2101\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "xml",
+      "flags": 128,
+      "abort_event": 13,
+      "stdout": "open 0\nmutation 0\nevent 13\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "xml",
+      "flags": 128,
+      "abort_event": 14,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "xml",
+      "flags": 128,
+      "abort_event": 15,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\noverwrite 0\nsize 2101\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "xml",
+      "flags": 32768,
+      "abort_event": 0,
+      "stdout": "open 0\nmutation 0\nevent 12 streams 855 0 3 0\nevent 12 streams 855 15 3 1\nevent 12 streams 855 63 3 2\nevent 12 streams 855 855 3 3\nevent 13\nevent 14\noverwrite 0\nsize 2101\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "xml",
+      "flags": 32768,
+      "abort_event": 13,
+      "stdout": "open 0\nmutation 0\nevent 12 streams 855 0 3 0\nevent 12 streams 855 15 3 1\nevent 12 streams 855 63 3 2\nevent 12 streams 855 855 3 3\nevent 13\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "xml",
+      "flags": 32768,
+      "abort_event": 14,
+      "stdout": "open 0\nmutation 0\nevent 12 streams 855 0 3 0\nevent 12 streams 855 15 3 1\nevent 12 streams 855 63 3 2\nevent 12 streams 855 855 3 3\nevent 13\nevent 14\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "xml",
+      "flags": 32768,
+      "abort_event": 15,
+      "stdout": "open 0\nmutation 0\nevent 12 streams 855 0 3 0\nevent 12 streams 855 15 3 1\nevent 12 streams 855 63 3 2\nevent 12 streams 855 855 3 3\nevent 13\nevent 14\noverwrite 0\nsize 2101\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "xml",
+      "flags": 32784,
+      "abort_event": 0,
+      "stdout": "open 0\nmutation 0\noverwrite 85\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "xml",
+      "flags": 32784,
+      "abort_event": 13,
+      "stdout": "open 0\nmutation 0\noverwrite 85\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "xml",
+      "flags": 32784,
+      "abort_event": 14,
+      "stdout": "open 0\nmutation 0\noverwrite 85\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "xml",
+      "flags": 32784,
+      "abort_event": 15,
+      "stdout": "open 0\nmutation 0\noverwrite 85\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "xml",
+      "flags": 256,
+      "abort_event": 0,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\noverwrite 0\nsize 2101\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "xml",
+      "flags": 256,
+      "abort_event": 13,
+      "stdout": "open 0\nmutation 0\nevent 13\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "xml",
+      "flags": 256,
+      "abort_event": 14,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "xml",
+      "flags": 256,
+      "abort_event": 15,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\noverwrite 0\nsize 2101\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "add",
+      "flags": 0,
+      "abort_event": 0,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\noverwrite 0\nsize 3827\nreopen 0\nimages 2 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "add",
+      "flags": 0,
+      "abort_event": 13,
+      "stdout": "open 0\nmutation 0\nevent 13\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "add",
+      "flags": 0,
+      "abort_event": 14,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "add",
+      "flags": 0,
+      "abort_event": 15,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\noverwrite 0\nsize 3827\nreopen 0\nimages 2 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "add",
+      "flags": 64,
+      "abort_event": 0,
+      "stdout": "open 0\nmutation 0\nevent 12 streams 63 0 2 0\nevent 12 streams 63 15 2 1\nevent 12 streams 63 63 2 2\nevent 13\nevent 14\nevent 15 rename-to TARGET from-prefix 1\noverwrite 0\nsize 2875\nreopen 0\nimages 2 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "add",
+      "flags": 64,
+      "abort_event": 13,
+      "stdout": "open 0\nmutation 0\nevent 12 streams 63 0 2 0\nevent 12 streams 63 15 2 1\nevent 12 streams 63 63 2 2\nevent 13\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "add",
+      "flags": 64,
+      "abort_event": 14,
+      "stdout": "open 0\nmutation 0\nevent 12 streams 63 0 2 0\nevent 12 streams 63 15 2 1\nevent 12 streams 63 63 2 2\nevent 13\nevent 14\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "add",
+      "flags": 64,
+      "abort_event": 15,
+      "stdout": "open 0\nmutation 0\nevent 12 streams 63 0 2 0\nevent 12 streams 63 15 2 1\nevent 12 streams 63 63 2 2\nevent 13\nevent 14\nevent 15 rename-to TARGET from-prefix 1\noverwrite 76\nsize 2875\nreopen 0\nimages 2 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "add",
+      "flags": 128,
+      "abort_event": 0,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\noverwrite 0\nsize 3827\nreopen 0\nimages 2 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "add",
+      "flags": 128,
+      "abort_event": 13,
+      "stdout": "open 0\nmutation 0\nevent 13\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "add",
+      "flags": 128,
+      "abort_event": 14,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "add",
+      "flags": 128,
+      "abort_event": 15,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\noverwrite 0\nsize 3827\nreopen 0\nimages 2 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "add",
+      "flags": 32768,
+      "abort_event": 0,
+      "stdout": "open 0\nmutation 0\nevent 12 streams 855 0 3 0\nevent 12 streams 855 15 3 1\nevent 12 streams 855 63 3 2\nevent 12 streams 855 855 3 3\nevent 13\nevent 14\noverwrite 0\nsize 2875\nreopen 0\nimages 2 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "add",
+      "flags": 32768,
+      "abort_event": 13,
+      "stdout": "open 0\nmutation 0\nevent 12 streams 855 0 3 0\nevent 12 streams 855 15 3 1\nevent 12 streams 855 63 3 2\nevent 12 streams 855 855 3 3\nevent 13\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "add",
+      "flags": 32768,
+      "abort_event": 14,
+      "stdout": "open 0\nmutation 0\nevent 12 streams 855 0 3 0\nevent 12 streams 855 15 3 1\nevent 12 streams 855 63 3 2\nevent 12 streams 855 855 3 3\nevent 13\nevent 14\noverwrite 76\nsize 2015\nreopen 20\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "add",
+      "flags": 32768,
+      "abort_event": 15,
+      "stdout": "open 0\nmutation 0\nevent 12 streams 855 0 3 0\nevent 12 streams 855 15 3 1\nevent 12 streams 855 63 3 2\nevent 12 streams 855 855 3 3\nevent 13\nevent 14\noverwrite 0\nsize 2875\nreopen 0\nimages 2 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "add",
+      "flags": 32784,
+      "abort_event": 0,
+      "stdout": "open 0\nmutation 0\noverwrite 85\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "add",
+      "flags": 32784,
+      "abort_event": 13,
+      "stdout": "open 0\nmutation 0\noverwrite 85\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "add",
+      "flags": 32784,
+      "abort_event": 14,
+      "stdout": "open 0\nmutation 0\noverwrite 85\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "add",
+      "flags": 32784,
+      "abort_event": 15,
+      "stdout": "open 0\nmutation 0\noverwrite 85\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "add",
+      "flags": 256,
+      "abort_event": 0,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\noverwrite 0\nsize 3827\nreopen 0\nimages 2 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "add",
+      "flags": 256,
+      "abort_event": 13,
+      "stdout": "open 0\nmutation 0\nevent 13\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "add",
+      "flags": 256,
+      "abort_event": 14,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "add",
+      "flags": 256,
+      "abort_event": 15,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\noverwrite 0\nsize 3827\nreopen 0\nimages 2 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "delete",
+      "flags": 0,
+      "abort_event": 0,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\nevent 15 rename-to TARGET from-prefix 1\noverwrite 0\nsize 288\nreopen 0\nimages 0 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "delete",
+      "flags": 0,
+      "abort_event": 13,
+      "stdout": "open 0\nmutation 0\nevent 13\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "delete",
+      "flags": 0,
+      "abort_event": 14,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "delete",
+      "flags": 0,
+      "abort_event": 15,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\nevent 15 rename-to TARGET from-prefix 1\noverwrite 76\nsize 288\nreopen 0\nimages 0 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "delete",
+      "flags": 64,
+      "abort_event": 0,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\nevent 15 rename-to TARGET from-prefix 1\noverwrite 0\nsize 288\nreopen 0\nimages 0 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "delete",
+      "flags": 64,
+      "abort_event": 13,
+      "stdout": "open 0\nmutation 0\nevent 13\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "delete",
+      "flags": 64,
+      "abort_event": 14,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "delete",
+      "flags": 64,
+      "abort_event": 15,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\nevent 15 rename-to TARGET from-prefix 1\noverwrite 76\nsize 288\nreopen 0\nimages 0 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "delete",
+      "flags": 128,
+      "abort_event": 0,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\noverwrite 0\nsize 2197\nreopen 0\nimages 0 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "delete",
+      "flags": 128,
+      "abort_event": 13,
+      "stdout": "open 0\nmutation 0\nevent 13\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "delete",
+      "flags": 128,
+      "abort_event": 14,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "delete",
+      "flags": 128,
+      "abort_event": 15,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\noverwrite 0\nsize 2197\nreopen 0\nimages 0 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "delete",
+      "flags": 32768,
+      "abort_event": 0,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\noverwrite 0\nsize 288\nreopen 0\nimages 0 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "delete",
+      "flags": 32768,
+      "abort_event": 13,
+      "stdout": "open 0\nmutation 0\nevent 13\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "delete",
+      "flags": 32768,
+      "abort_event": 14,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "delete",
+      "flags": 32768,
+      "abort_event": 15,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\noverwrite 0\nsize 288\nreopen 0\nimages 0 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "delete",
+      "flags": 32784,
+      "abort_event": 0,
+      "stdout": "open 0\nmutation 0\noverwrite 85\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "delete",
+      "flags": 32784,
+      "abort_event": 13,
+      "stdout": "open 0\nmutation 0\noverwrite 85\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "delete",
+      "flags": 32784,
+      "abort_event": 14,
+      "stdout": "open 0\nmutation 0\noverwrite 85\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "delete",
+      "flags": 32784,
+      "abort_event": 15,
+      "stdout": "open 0\nmutation 0\noverwrite 85\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "delete",
+      "flags": 256,
+      "abort_event": 0,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\nevent 15 rename-to TARGET from-prefix 1\noverwrite 0\nsize 288\nreopen 0\nimages 0 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "delete",
+      "flags": 256,
+      "abort_event": 13,
+      "stdout": "open 0\nmutation 0\nevent 13\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "delete",
+      "flags": 256,
+      "abort_event": 14,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "delete",
+      "flags": 256,
+      "abort_event": 15,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\nevent 15 rename-to TARGET from-prefix 1\noverwrite 76\nsize 288\nreopen 0\nimages 0 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "codec",
+      "flags": 0,
+      "abort_event": 0,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\noverwrite 0\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "codec",
+      "flags": 0,
+      "abort_event": 13,
+      "stdout": "open 0\nmutation 0\nevent 13\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "codec",
+      "flags": 0,
+      "abort_event": 14,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "codec",
+      "flags": 0,
+      "abort_event": 15,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\noverwrite 0\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "codec",
+      "flags": 64,
+      "abort_event": 0,
+      "stdout": "open 0\nmutation 0\nevent 12 streams 63 0 2 0\nevent 12 streams 63 15 2 1\nevent 12 streams 63 63 2 2\nevent 13\nevent 14\nevent 15 rename-to TARGET from-prefix 1\noverwrite 0\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "codec",
+      "flags": 64,
+      "abort_event": 13,
+      "stdout": "open 0\nmutation 0\nevent 12 streams 63 0 2 0\nevent 12 streams 63 15 2 1\nevent 12 streams 63 63 2 2\nevent 13\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "codec",
+      "flags": 64,
+      "abort_event": 14,
+      "stdout": "open 0\nmutation 0\nevent 12 streams 63 0 2 0\nevent 12 streams 63 15 2 1\nevent 12 streams 63 63 2 2\nevent 13\nevent 14\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "codec",
+      "flags": 64,
+      "abort_event": 15,
+      "stdout": "open 0\nmutation 0\nevent 12 streams 63 0 2 0\nevent 12 streams 63 15 2 1\nevent 12 streams 63 63 2 2\nevent 13\nevent 14\nevent 15 rename-to TARGET from-prefix 1\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "codec",
+      "flags": 128,
+      "abort_event": 0,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\noverwrite 0\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "codec",
+      "flags": 128,
+      "abort_event": 13,
+      "stdout": "open 0\nmutation 0\nevent 13\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "codec",
+      "flags": 128,
+      "abort_event": 14,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "codec",
+      "flags": 128,
+      "abort_event": 15,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\noverwrite 0\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "codec",
+      "flags": 32768,
+      "abort_event": 0,
+      "stdout": "open 0\nmutation 0\nevent 12 streams 855 0 3 0\nevent 12 streams 855 15 3 1\nevent 12 streams 855 63 3 2\nevent 12 streams 855 855 3 3\nevent 13\nevent 14\noverwrite 0\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "codec",
+      "flags": 32768,
+      "abort_event": 13,
+      "stdout": "open 0\nmutation 0\nevent 12 streams 855 0 3 0\nevent 12 streams 855 15 3 1\nevent 12 streams 855 63 3 2\nevent 12 streams 855 855 3 3\nevent 13\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "codec",
+      "flags": 32768,
+      "abort_event": 14,
+      "stdout": "open 0\nmutation 0\nevent 12 streams 855 0 3 0\nevent 12 streams 855 15 3 1\nevent 12 streams 855 63 3 2\nevent 12 streams 855 855 3 3\nevent 13\nevent 14\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "codec",
+      "flags": 32768,
+      "abort_event": 15,
+      "stdout": "open 0\nmutation 0\nevent 12 streams 855 0 3 0\nevent 12 streams 855 15 3 1\nevent 12 streams 855 63 3 2\nevent 12 streams 855 855 3 3\nevent 13\nevent 14\noverwrite 0\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "codec",
+      "flags": 32784,
+      "abort_event": 0,
+      "stdout": "open 0\nmutation 0\noverwrite 85\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "codec",
+      "flags": 32784,
+      "abort_event": 13,
+      "stdout": "open 0\nmutation 0\noverwrite 85\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "codec",
+      "flags": 32784,
+      "abort_event": 14,
+      "stdout": "open 0\nmutation 0\noverwrite 85\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "codec",
+      "flags": 32784,
+      "abort_event": 15,
+      "stdout": "open 0\nmutation 0\noverwrite 85\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "codec",
+      "flags": 256,
+      "abort_event": 0,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\noverwrite 0\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "codec",
+      "flags": 256,
+      "abort_event": 13,
+      "stdout": "open 0\nmutation 0\nevent 13\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "codec",
+      "flags": 256,
+      "abort_event": 14,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "codec",
+      "flags": 256,
+      "abort_event": 15,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\noverwrite 0\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "invalidxml",
+      "flags": 0,
+      "abort_event": 0,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\noverwrite 31\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "invalidxml",
+      "flags": 0,
+      "abort_event": 13,
+      "stdout": "open 0\nmutation 0\nevent 13\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "invalidxml",
+      "flags": 0,
+      "abort_event": 14,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "invalidxml",
+      "flags": 0,
+      "abort_event": 15,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\noverwrite 31\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "invalidxml",
+      "flags": 64,
+      "abort_event": 0,
+      "stdout": "open 0\nmutation 0\nevent 12 streams 63 0 2 0\nevent 12 streams 63 15 2 1\nevent 12 streams 63 63 2 2\nevent 13\nevent 14\noverwrite 31\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "invalidxml",
+      "flags": 64,
+      "abort_event": 13,
+      "stdout": "open 0\nmutation 0\nevent 12 streams 63 0 2 0\nevent 12 streams 63 15 2 1\nevent 12 streams 63 63 2 2\nevent 13\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "invalidxml",
+      "flags": 64,
+      "abort_event": 14,
+      "stdout": "open 0\nmutation 0\nevent 12 streams 63 0 2 0\nevent 12 streams 63 15 2 1\nevent 12 streams 63 63 2 2\nevent 13\nevent 14\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "invalidxml",
+      "flags": 64,
+      "abort_event": 15,
+      "stdout": "open 0\nmutation 0\nevent 12 streams 63 0 2 0\nevent 12 streams 63 15 2 1\nevent 12 streams 63 63 2 2\nevent 13\nevent 14\noverwrite 31\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "invalidxml",
+      "flags": 128,
+      "abort_event": 0,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\noverwrite 31\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "invalidxml",
+      "flags": 128,
+      "abort_event": 13,
+      "stdout": "open 0\nmutation 0\nevent 13\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "invalidxml",
+      "flags": 128,
+      "abort_event": 14,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "invalidxml",
+      "flags": 128,
+      "abort_event": 15,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\noverwrite 31\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "invalidxml",
+      "flags": 32768,
+      "abort_event": 0,
+      "stdout": "open 0\nmutation 0\nevent 12 streams 855 0 3 0\nevent 12 streams 855 15 3 1\nevent 12 streams 855 63 3 2\nevent 12 streams 855 855 3 3\nevent 13\nevent 14\noverwrite 31\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "invalidxml",
+      "flags": 32768,
+      "abort_event": 13,
+      "stdout": "open 0\nmutation 0\nevent 12 streams 855 0 3 0\nevent 12 streams 855 15 3 1\nevent 12 streams 855 63 3 2\nevent 12 streams 855 855 3 3\nevent 13\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "invalidxml",
+      "flags": 32768,
+      "abort_event": 14,
+      "stdout": "open 0\nmutation 0\nevent 12 streams 855 0 3 0\nevent 12 streams 855 15 3 1\nevent 12 streams 855 63 3 2\nevent 12 streams 855 855 3 3\nevent 13\nevent 14\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "invalidxml",
+      "flags": 32768,
+      "abort_event": 15,
+      "stdout": "open 0\nmutation 0\nevent 12 streams 855 0 3 0\nevent 12 streams 855 15 3 1\nevent 12 streams 855 63 3 2\nevent 12 streams 855 855 3 3\nevent 13\nevent 14\noverwrite 31\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "invalidxml",
+      "flags": 32784,
+      "abort_event": 0,
+      "stdout": "open 0\nmutation 0\noverwrite 85\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "invalidxml",
+      "flags": 32784,
+      "abort_event": 13,
+      "stdout": "open 0\nmutation 0\noverwrite 85\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "invalidxml",
+      "flags": 32784,
+      "abort_event": 14,
+      "stdout": "open 0\nmutation 0\noverwrite 85\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "invalidxml",
+      "flags": 32784,
+      "abort_event": 15,
+      "stdout": "open 0\nmutation 0\noverwrite 85\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "invalidxml",
+      "flags": 256,
+      "abort_event": 0,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\noverwrite 31\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "invalidxml",
+      "flags": 256,
+      "abort_event": 13,
+      "stdout": "open 0\nmutation 0\nevent 13\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "invalidxml",
+      "flags": 256,
+      "abort_event": 14,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "invalidxml",
+      "flags": 256,
+      "abort_event": 15,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\noverwrite 31\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "readonly",
+      "flags": 0,
+      "abort_event": 0,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\noverwrite 0\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "readonly",
+      "flags": 0,
+      "abort_event": 13,
+      "stdout": "open 0\nmutation 0\nevent 13\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "readonly",
+      "flags": 0,
+      "abort_event": 14,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "readonly",
+      "flags": 0,
+      "abort_event": 15,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\noverwrite 0\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "readonly",
+      "flags": 64,
+      "abort_event": 0,
+      "stdout": "open 0\nmutation 0\nevent 12 streams 63 0 2 0\nevent 12 streams 63 15 2 1\nevent 12 streams 63 63 2 2\nevent 13\nevent 14\nevent 15 rename-to TARGET from-prefix 1\noverwrite 0\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "readonly",
+      "flags": 64,
+      "abort_event": 13,
+      "stdout": "open 0\nmutation 0\nevent 12 streams 63 0 2 0\nevent 12 streams 63 15 2 1\nevent 12 streams 63 63 2 2\nevent 13\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "readonly",
+      "flags": 64,
+      "abort_event": 14,
+      "stdout": "open 0\nmutation 0\nevent 12 streams 63 0 2 0\nevent 12 streams 63 15 2 1\nevent 12 streams 63 63 2 2\nevent 13\nevent 14\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "readonly",
+      "flags": 64,
+      "abort_event": 15,
+      "stdout": "open 0\nmutation 0\nevent 12 streams 63 0 2 0\nevent 12 streams 63 15 2 1\nevent 12 streams 63 63 2 2\nevent 13\nevent 14\nevent 15 rename-to TARGET from-prefix 1\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "readonly",
+      "flags": 128,
+      "abort_event": 0,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\noverwrite 0\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "readonly",
+      "flags": 128,
+      "abort_event": 13,
+      "stdout": "open 0\nmutation 0\nevent 13\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "readonly",
+      "flags": 128,
+      "abort_event": 14,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "readonly",
+      "flags": 128,
+      "abort_event": 15,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\noverwrite 0\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "readonly",
+      "flags": 32768,
+      "abort_event": 0,
+      "stdout": "open 0\nmutation 0\nevent 12 streams 855 0 3 0\nevent 12 streams 855 15 3 1\nevent 12 streams 855 63 3 2\nevent 12 streams 855 855 3 3\nevent 13\nevent 14\noverwrite 0\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "readonly",
+      "flags": 32768,
+      "abort_event": 13,
+      "stdout": "open 0\nmutation 0\nevent 12 streams 855 0 3 0\nevent 12 streams 855 15 3 1\nevent 12 streams 855 63 3 2\nevent 12 streams 855 855 3 3\nevent 13\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "readonly",
+      "flags": 32768,
+      "abort_event": 14,
+      "stdout": "open 0\nmutation 0\nevent 12 streams 855 0 3 0\nevent 12 streams 855 15 3 1\nevent 12 streams 855 63 3 2\nevent 12 streams 855 855 3 3\nevent 13\nevent 14\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "readonly",
+      "flags": 32768,
+      "abort_event": 15,
+      "stdout": "open 0\nmutation 0\nevent 12 streams 855 0 3 0\nevent 12 streams 855 15 3 1\nevent 12 streams 855 63 3 2\nevent 12 streams 855 855 3 3\nevent 13\nevent 14\noverwrite 0\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "readonly",
+      "flags": 32784,
+      "abort_event": 0,
+      "stdout": "open 0\nmutation 0\noverwrite 85\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "readonly",
+      "flags": 32784,
+      "abort_event": 13,
+      "stdout": "open 0\nmutation 0\noverwrite 85\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "readonly",
+      "flags": 32784,
+      "abort_event": 14,
+      "stdout": "open 0\nmutation 0\noverwrite 85\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "readonly",
+      "flags": 32784,
+      "abort_event": 15,
+      "stdout": "open 0\nmutation 0\noverwrite 85\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "readonly",
+      "flags": 256,
+      "abort_event": 0,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\noverwrite 0\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "readonly",
+      "flags": 256,
+      "abort_event": 13,
+      "stdout": "open 0\nmutation 0\nevent 13\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "readonly",
+      "flags": 256,
+      "abort_event": 14,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\noverwrite 76\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "readonly",
+      "flags": 256,
+      "abort_event": 15,
+      "stdout": "open 0\nmutation 0\nevent 13\nevent 14\noverwrite 0\nsize 2015\nreopen 0\nimages 1 readonly 0\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "new",
+      "flags": 0,
+      "stdout": "open 0\nmutation 0\noverwrite 45\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "new",
+      "flags": 65536,
+      "stdout": "open 0\nmutation 0\noverwrite 24\n",
+      "stderr": "",
+      "status": 0
+    },
+    {
+      "mutation": "new",
+      "flags": 32784,
+      "stdout": "open 0\nmutation 0\noverwrite 45\n",
+      "stderr": "",
+      "status": 0
+    }
+  ]
+}

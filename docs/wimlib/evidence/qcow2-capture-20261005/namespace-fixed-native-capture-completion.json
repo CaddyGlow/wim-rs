@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "scope": "Completed pinned native namespace-fixed capture report; independent archive gates and target installation remain unproven",
+  "producer_sha256": "c948be738f19b9d0e4ee50808bf377fb8f3ff1b95ab988ab11f7c5ca9fe7e458",
+  "wim_reported_sha256": "6fe084f644eb631349d4e385a155d1c5ce334d0810b633464ecfdd61b528884b",
+  "entries": 175812,
+  "source_layers": 4,
+  "exit": 0,
+  "seconds": 786.1316103935242,
+  "default_limits": true,
+  "PATH": "/nonexistent",
+  "warnings": [],
+  "artifacts": [
+    {
+      "path": "/data/cache/qcow2-namespace-fixed-20261006/capture-launch.json",
+      "sha256": "806e2bde2bba363e0d90bc28166b83e89c4597b1df0034b6d0d997084a0f3e0d"
+    },
+    {
+      "path": "/data/cache/qcow2-namespace-fixed-20261006/capture/capture-stdout.json",
+      "sha256": "2c27e2ca103a4415019aa8bc27610f3e2ba0b0dda38dc8b49a7f48e80f4136fb"
+    },
+    {
+      "path": "/data/cache/qcow2-namespace-fixed-20261006/capture/job/capture-report.json",
+      "sha256": "4a75acb2d38e7b90dd8ae8a8bc048fb977c64ec26dfbb585f8ebbaff57d777d2"
+    }
+  ]
+}

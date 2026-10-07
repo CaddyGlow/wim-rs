@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "scope": "Root preboot release for controlled state0 experiment only; canonicalstate1 policy failure preserved, not production-profile acceptance",
+  "wim_sha256": "21859652805ff9758be028a55cfaa7333485b265ea9b1e8a8f197d69bda7d184",
+  "iso_sha256_root_full_physical": "90f730339addb2f92c74a9d3e190c2aa24e9548eec57b1a1705cef9a9ea5c3b9",
+  "artifacts": [
+    {
+      "path": "/data/cache/qcow2-winre-staged-zero-control-20261006/capture/experimental-standard18-gates.json",
+      "sha256": "63469451c932bf3481a9d085a0b9a468af041d718f147ab395a3fd8baa616def"
+    },
+    {
+      "path": "/data/cache/qcow2-winre-staged-zero-control-20261006/capture/root-corrected-wim-alias-comparison.json",
+      "sha256": "03f754ded3d937f87bd69cef94595054a1af652f6da218a9390f305aa30f7381"
+    },
+    {
+      "path": "/data/cache/qcow2-winre-staged-zero-control-20261006/capture/independent-source-security-objectids.json",
+      "sha256": "a82ccca54d77c12ea3d9c0f60abb0302be551dcea6d8d82bdbf724ccfb17bbd7"
+    },
+    {
+      "path": "/data/cache/qcow2-winre-staged-zero-control-20261006/capture/isolated-state0-only-metadata-payload-delta.json",
+      "sha256": "088860cc31f56c87961ba50b5eab925a11f0bc0715290a4e136f04f25f8572d2"
+    },
+    {
+      "path": "/data/cache/qcow2-winre-staged-zero-control-20261006/capture/root-independent-iso-boot.json",
+      "sha256": "ff4cad882394e0e7bb5553db9c8a3c13696e73511984c76d6df8e5a92ef5409e"
+    },
+    {
+      "path": "/data/cache/qcow2-winre-staged-zero-control-20261006/capture/root-independent-iso-payload/summary.json",
+      "sha256": "e6aa152e5a5e020a04dff717d9bedf0e6cbc7a2907054bf261865d08acc9cfaf"
+    }
+  ],
+  "all5732_source_rawSD_and24_full64_OID_independently_recompared": true,
+  "controlled_fresh_installation_authorized": true,
+  "production_fix_proven": false
+}

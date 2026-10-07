@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-05",
+  "qcow2": {
+    "command": "cargo test --locked -p windows-disk --test qcow2 -- --ignored",
+    "passed": 5,
+    "failed": 0,
+    "log": "/data/cache/qcow2-capture-20261005/qemu-oracles-source-preservation.log",
+    "preservation": "Each test hashes fixture input files with SHA-256 before and after native reads. Multi-level backing checks include every chain member and the raw oracle. Shared ownership checks also surround independent qemu-img check."
+  },
+  "partition": {
+    "command": "cargo test --locked -p windows-disk --test partitions -- --ignored",
+    "passed": 1,
+    "failed": 0,
+    "preservation": "sfdisk-created GPT disk SHA-256 unchanged after native partition parsing"
+  },
+  "limitations": "Hashes establish unchanged bytes across these read-only fixture tests, not concurrent-source isolation. Frozen whole-Windows source preservation is recorded separately in capture before/after reports."
+}

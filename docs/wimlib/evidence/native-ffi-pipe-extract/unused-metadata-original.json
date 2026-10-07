@@ -1,0 +1,119 @@
+{
+  "commands": [
+    [
+      "capture",
+      "/tmp/pipe-unused-compressed-hc29s3dr/source",
+      "/tmp/pipe-unused-compressed-hc29s3dr/one.wim",
+      "--compress=XPRESS",
+      "--no-acls",
+      "--nocheck",
+      "--threads=1"
+    ],
+    [
+      "export",
+      "/tmp/pipe-unused-compressed-hc29s3dr/one.wim",
+      "1",
+      "/tmp/pipe-unused-compressed-hc29s3dr/two.wim",
+      "First"
+    ],
+    [
+      "export",
+      "/tmp/pipe-unused-compressed-hc29s3dr/one.wim",
+      "1",
+      "/tmp/pipe-unused-compressed-hc29s3dr/two.wim",
+      "Second"
+    ],
+    [
+      "export",
+      "/tmp/pipe-unused-compressed-hc29s3dr/two.wim",
+      "all",
+      "crates/wimlib-rs/wim-format/tests/fixtures/pipe-two-image.wim",
+      "--pipable"
+    ]
+  ],
+  "metadata": [
+    {
+      "offset": 1694,
+      "size": 2345,
+      "usize": 29728
+    },
+    {
+      "offset": 4079,
+      "size": 2345,
+      "usize": 29728
+    }
+  ],
+  "second_chunk_size": 2341,
+  "cases": [
+    {
+      "kind": "healthy",
+      "selected_image": "1",
+      "returncode": 0,
+      "stdout": "event 0 1 256 800 0 200 0 0 0\nevent 3 1 256 800 0 200 0 0 0\nevent 3 1 256 800 0 200 0 0 0\nevent 5 1 256 800 0 200 0 1 1\nevent 4 1 256 800 800 200 200 1 1\nevent 6 1 256 800 800 200 200 1 1\nevent 6 1 256 800 800 200 200 1 1\nevent 7 1 256 800 800 200 200 1 1\nresult 0 errno 38\ncaller-fd 0\n",
+      "stderr": ""
+    },
+    {
+      "kind": "healthy",
+      "selected_image": "2",
+      "returncode": 0,
+      "stdout": "event 0 2 256 800 0 200 0 0 0\nevent 3 2 256 800 0 200 0 0 0\nevent 3 2 256 800 0 200 0 0 0\nevent 5 2 256 800 0 200 0 1 1\nevent 4 2 256 800 800 200 200 1 1\nevent 6 2 256 800 800 200 200 1 1\nevent 6 2 256 800 800 200 200 1 1\nevent 7 2 256 800 800 200 200 1 1\nresult 0 errno 38\ncaller-fd 0\n",
+      "stderr": ""
+    },
+    {
+      "kind": "compressed-corruption",
+      "selected_image": "1",
+      "returncode": 0,
+      "stdout": "event 0 1 256 800 0 200 0 0 0\nevent 3 1 256 800 0 200 0 0 0\nevent 3 1 256 800 0 200 0 0 0\nevent 5 1 256 800 0 200 0 1 1\nevent 4 1 256 800 800 200 200 1 1\nevent 6 1 256 800 800 200 200 1 1\nevent 6 1 256 800 800 200 200 1 1\nevent 7 1 256 800 800 200 200 1 1\nresult 0 errno 38\ncaller-fd 0\n",
+      "stderr": ""
+    },
+    {
+      "kind": "compressed-corruption",
+      "selected_image": "2",
+      "returncode": 0,
+      "stdout": "result 21 errno 123\ncaller-fd 0\n",
+      "stderr": ""
+    },
+    {
+      "kind": "invalid-chunk-size",
+      "selected_image": "1",
+      "returncode": 0,
+      "stdout": "result 2 errno 22\ncaller-fd 0\n",
+      "stderr": ""
+    },
+    {
+      "kind": "invalid-chunk-size",
+      "selected_image": "2",
+      "returncode": 0,
+      "stdout": "result 2 errno 22\ncaller-fd 0\n",
+      "stderr": ""
+    },
+    {
+      "kind": "invalid-huffman-code",
+      "selected_image": "1",
+      "returncode": 0,
+      "stdout": "result 2 errno 22\ncaller-fd 0\n",
+      "stderr": ""
+    },
+    {
+      "kind": "invalid-huffman-code",
+      "selected_image": "2",
+      "returncode": 0,
+      "stdout": "result 2 errno 22\ncaller-fd 0\n",
+      "stderr": ""
+    },
+    {
+      "kind": "solid-only-flags",
+      "selected_image": "1",
+      "returncode": 0,
+      "stdout": "result 15 errno 22\ncaller-fd 0\n",
+      "stderr": ""
+    },
+    {
+      "kind": "solid-only-flags",
+      "selected_image": "2",
+      "returncode": 0,
+      "stdout": "result 15 errno 22\ncaller-fd 0\n",
+      "stderr": ""
+    }
+  ]
+}

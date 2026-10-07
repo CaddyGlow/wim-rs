@@ -1,0 +1,139 @@
+{
+  "cases": 132,
+  "observations": 1504,
+  "mismatches": [
+    {
+      "case": 123,
+      "codec": "corrupted_file_1",
+      "image": 1,
+      "flags": 0,
+      "status": 0,
+      "existing": false,
+      "original": "open 0\nprogress 0 1 256 12 0 1 0 0 0\nprogress 3 1 256 12 0 1 0 0 1\nprogress 3 1 256 12 0 1 0 1 1\nprogress 4 1 256 12 12 1 1 1 1\nextract 28\n",
+      "native": "open 0\nprogress 0 1 256 12 0 1 0 0 0\nprogress 3 1 256 12 0 1 0 0 1\nprogress 3 1 256 12 0 1 0 1 1\nprogress 4 1 256 12 12 1 1 1 1\nextract 28\n",
+      "original_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1790995895064967335,
+          "atime": 1790995895064967335,
+          "xattrs": {}
+        },
+        {
+          "path": "2f66696c65",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1790995895064967335,
+          "atime": 1790995895064967335,
+          "inode_group": 0,
+          "sha1": "8a97c9146848690a0f99aaef4584ffd7c8f5ae0c",
+          "size": 12,
+          "xattrs": {}
+        }
+      ],
+      "native_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1790995895066967423,
+          "atime": 1790995895066967423,
+          "xattrs": {}
+        },
+        {
+          "path": "2f66696c65",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1790995895066967423,
+          "atime": 1790995895066967423,
+          "inode_group": 0,
+          "sha1": "8a97c9146848690a0f99aaef4584ffd7c8f5ae0c",
+          "size": 12,
+          "xattrs": {}
+        }
+      ]
+    },
+    {
+      "case": 128,
+      "codec": "corrupted_file_2",
+      "image": 1,
+      "flags": 0,
+      "status": 0,
+      "existing": false,
+      "original": "open 0\nprogress 0 1 256 97 0 1 0 0 0\nprogress 3 1 256 97 0 1 0 0 1\nprogress 3 1 256 97 0 1 0 1 1\nextract 2\n",
+      "native": "open 0\nprogress 0 1 256 97 0 1 0 0 0\nprogress 3 1 256 97 0 1 0 0 1\nprogress 3 1 256 97 0 1 0 1 1\nextract 2\n",
+      "original_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1790995895104969105,
+          "atime": 1790995895104969105,
+          "xattrs": {}
+        },
+        {
+          "path": "2f66696c65",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1790995895104969105,
+          "atime": 1790995895104969105,
+          "inode_group": 0,
+          "sha1": "fa205d2a65684c6245a2272facf45fb12ace4014",
+          "size": 97,
+          "xattrs": {}
+        }
+      ],
+      "native_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1790995895106969194,
+          "atime": 1790995895106969194,
+          "xattrs": {}
+        },
+        {
+          "path": "2f66696c65",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1790995895106969194,
+          "atime": 1790995895106969194,
+          "inode_group": 0,
+          "sha1": "fa205d2a65684c6245a2272facf45fb12ace4014",
+          "size": 97,
+          "xattrs": {}
+        }
+      ]
+    }
+  ],
+  "original_named_cases": [
+    "nothing",
+    "a single file",
+    "a single directory",
+    "subdirectory with file",
+    "empty file",
+    "two empty files",
+    "hard link in same directory",
+    "hard link between empty files",
+    "relative symbolic link",
+    "absolute symbolic link",
+    "large file",
+    "many nested directories",
+    "identical files and symlinks in subdirectory",
+    "hard link group and identical files not hard linked",
+    "C source code of wimlib",
+    "tons of random stuff",
+    "timestamp before 1970 (before start of UNIX epoch)"
+  ],
+  "oracle_cpu_workaround": "WIMLIB_DISABLE_CPU_FEATURES=sse4.2",
+  "header": "/tmp/wimlib/include/wimlib.h"
+}

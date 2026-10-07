@@ -1,0 +1,10 @@
+[
+  {
+    "name": "original",
+    "stdout": "source 0\ndestination 0\ncapture 0\nfirst-write 0\nexport 0\nverify 0\nwrite 0\n"
+  },
+  {
+    "name": "native",
+    "stdout": "source 0\ndestination 0\ncapture 0\nfirst-write 0\nexport 55\n"
+  }
+]

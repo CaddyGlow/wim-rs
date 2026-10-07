@@ -1,0 +1,75 @@
+{
+  "scope": "Independent complete raw namespace directory-index audit of immutable current59da source compared with current175812capturepathset; historical101769selectorproofonlyperID",
+  "raw_entries": 277022,
+  "capture_nodes": 175812,
+  "all_capture_path_references_exact": true,
+  "raw_dos_groups": 101182,
+  "multiple_win32_or_dos_groups": 0,
+  "dos_without_win32_groups": 0,
+  "dos_with_posix_hardlink_groups": 378,
+  "old_distinct_alias_selector_count": 101769,
+  "namespace_correct_distinct_alias_count": 101168,
+  "spurious_aliases_previously_assigned_to_posix_paths": 601,
+  "other_changed_or_added_selectors": 0,
+  "accounting": "ReadBudgetUsage { metadata_bytes: 811095244, cache_bytes: 3890940, work_items: 948071, decompressed_bytes: 0 }",
+  "source_image_sha256_bound_to_existing_immutable_handoff": "59da49ab227850c6d62a2d555f40a43bf19a8f8a7af3d10eedb2395b62799282",
+  "artifacts": [
+    {
+      "path": "/data/cache/qcow2-oobe-preparation-control-20261005/offline-audit/current-source-raw-directory-index.json",
+      "sha256": "07d15e3b281949b30b7a31f8cdd09570fd226d273eb43e0ac6a6877beb24a42c"
+    },
+    {
+      "path": "/data/cache/qcow2-oobe-preparation-control-20261005/offline-audit/namespace-correct-distinct-dos-alias-selectors.json",
+      "sha256": "f7e3ec0a40b56beccb0c48690c1195da95da1928a051e308bdd8e5cecd00f26c"
+    },
+    {
+      "path": "/data/cache/qcow2-oobe-preparation-control-20261005/offline-audit/old-spurious-posix-dos-alias-selectors.json",
+      "sha256": "2b1187ea696e640614e16820f7000d424cca68eb62bc24e9a947517100479293"
+    },
+    {
+      "path": "/data/cache/qcow2-oobe-preparation-control-20261005/offline-audit/child-all-paths.json",
+      "sha256": "f661e648e246343af8febc03e868298132ea8003cf52c4081de55611fac8b1d8"
+    },
+    {
+      "path": "/data/cache/qcow2-oobe-preparation-control-20261005/offline-audit/current-distinct-dos-alias-selectors.json",
+      "sha256": "9f803f79ae46cd1d3dc7f745b2fb48e64c347ab101a78daf3ebebb0dd8da2271"
+    },
+    {
+      "path": "/data/cache/qcow2-oobe-preparation-control-20261005/offline-audit/namespace-fixed-parent-batched-manifest-aliases.json",
+      "sha256": "1a04d091a105f24576968adc72aed6d6120c6b01c309b5810a1b7862f0c186d8"
+    }
+  ],
+  "per_file_parent_grouping": {
+    "old_per_file_parent_groups": 101168,
+    "old_same_parent_multi_alias_assignment_groups": 378,
+    "old_links_within_these_groups": 979,
+    "actual_correct_per_file_parent_groups": 101168,
+    "actual_same_parent_multiple_distinct_alias_groups": 0,
+    "actual_same_parent_alias_links_in_old_multi_groups": 378,
+    "actual_file_references_with_aliases_in_multiple_parents": 0,
+    "actual_max_alias_parent_count_per_file": 1,
+    "old_to_correct_removed_posix_links": 601
+  },
+  "actual_namespace_fixed_full_manifest_nodes": 175812,
+  "actual_namespace_fixed_full_manifest_aliases": 101168,
+  "all101168_manifest_raw_utf16_alias_pairs_and_fullreferences_exact_independent_raw_namespace": true,
+  "source_child_physical_sha256_after_all_read_only_audits": "59da49ab227850c6d62a2d555f40a43bf19a8f8a7af3d10eedb2395b62799282",
+  "discarded_stale_diagnostic": {
+    "session": 45297,
+    "exit": 1,
+    "reason": "Repeated per-file directory scans exceeded unchanged16777216 work budget; no report published",
+    "source_failure": false
+  },
+  "successful_parent_batched_diagnostic": {
+    "session": 50302,
+    "exit": 0
+  },
+  "historical601_challenge_reclassification": {
+    "count": 601,
+    "all_historical_raw_utf16_path_alias_pairs_exactly_equal_removed_posix_assignments": true,
+    "genuine_long_name_alias_pairs": 0,
+    "historical_windows_observations_retained_not_waived": true,
+    "historical_artifact": "/data/cache/windows-capture-recovery-20261005/source-distinct-dos-aliases.json",
+    "historical_sha256": "24e391bc893537fa26fba137515ce693362e242c4f600914aad5a78aa79b86c9"
+  }
+}

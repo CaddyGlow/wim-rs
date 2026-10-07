@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "corrected_image_sha256": "01113ea5fd3d03839a0f1490b0d45f6387bc240095fa5d875b8d87d2f93903ee",
+  "independent_prediction_matched": true,
+  "primary_backup_exact": true,
+  "hidden_sectors": 2048,
+  "receipt_sha256": "5e918354f28df7fdc07726ab472a1dac91e15db27f653833e68c401084d3786b",
+  "all_other_bytes_exact_reported_by_reviewed_helper": true,
+  "windows_mount_proven": false,
+  "root_review_path": "/data/cache/qcow2-winpe-access-control-20261006/concrete-layout/root-fat32-corrected-copy-review.json",
+  "root_review_sha256": "6940a29d4135e2dedef9381345ddaa72b1065b628e4d9cbfafed06311589d5e9"
+}

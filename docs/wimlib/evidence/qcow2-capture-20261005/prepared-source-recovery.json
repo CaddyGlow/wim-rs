@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "cause": "Capture and validation directories disappeared during external disk cleanup; cleanup is now stopped by user confirmation.",
+  "original_path": "/data/cache/qcow2-source-prepared-1005-v2/vm-state/overlay.qcow2",
+  "recovered_path": "/home/rick/.cache/windows-capture-recovery-20261005/prepared-source.qcow2",
+  "recovery_method": "Sparse copy from live helper QEMU PID 4073044 read-only file descriptor 128 after original pathname was deleted.",
+  "bytes": 1950679040,
+  "sha256": "bf7bc3cecfb9d696c82f0869cd8f3c04c74bd644648c690405132399f4091a0a",
+  "matches_frozen_successful_capture_input": true,
+  "qemu_img_info": {
+    "format": "qcow2",
+    "virtual_bytes": 68719476736,
+    "dirty": false,
+    "corrupt": false,
+    "backing_file": "/home/rick/projects-caddy/windows-uup/vm-state/qcow2-source-1005/overlay.qcow2"
+  },
+  "source_booted_or_modified_during_recovery": false,
+  "published_wim_and_iso_currently_available": false,
+  "fresh_installation_verified": false
+}

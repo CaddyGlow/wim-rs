@@ -1,0 +1,67 @@
+{
+  "scope": "oracle-only corrected-stock control; same OOBE failure supports common source/seed issue, does not establish empty-password causality or native acceptance",
+  "instance": "qcow2-installed-stock-control-1005-v10",
+  "iso": "/data/cache/qcow2-stock-control-streams-20261005/stock-control-streams.iso",
+  "iso_sha256": "a09d931bb514783f629c4ac5d17b94e167a324bd64f095e473dd12c967ecd247",
+  "wim_sha256": "ff5e734ed067948c7734448a6f80f75e96e73ad4e4e3e8c8d30d171aa2d21881",
+  "seed_sha256": "b5f941af7ea093a3286ba1128a34ce06fb3fd6f6ed8b3f71ff409cd1cf4f14f1",
+  "readiness": {
+    "Ready": false,
+    "ImageState": "IMAGE_STATE_COMPLETE",
+    "Setup": {
+      "SystemSetupInProgress": 0,
+      "OOBEInProgress": 0,
+      "SetupType": 0,
+      "SetupPhase": 0
+    },
+    "Desktop": []
+  },
+  "winlogon": {
+    "AutoAdminLogon": "1",
+    "DefaultUserName": "defaultuser0",
+    "DefaultDomainName": null,
+    "LogonCount": null
+  },
+  "password_present": true,
+  "password_nonempty": false,
+  "failures": [
+    {
+      "Time": "2026-10-05T20:32:11.4084118Z",
+      "TargetUser": "defaultuser0",
+      "Status": "0xc000006d",
+      "SubStatus": "0xc000006a"
+    }
+  ],
+  "shutdown": "shutdown.exe /s /t 5 exited0",
+  "qmp_absent": true,
+  "dirty": false,
+  "corrupt": false,
+  "proofs": [
+    {
+      "path": "/data/cache/qcow2-installation-stock-control-1005-v10/stock-oobe-diagnostic.json",
+      "sha256": "7d91032cd6e59d0fd881ea9bec68b7b82eea1407b3364dd71476c370a5e3c9a9",
+      "bytes": 10472
+    },
+    {
+      "path": "/data/cache/qcow2-installation-stock-control-1005-v10/readiness-first.json",
+      "sha256": "ebcdb3556bf0a4b72cdf6cf456054e0b91a13ed7455ef94dde235b32fabcd5ad",
+      "bytes": 882
+    },
+    {
+      "path": "/data/cache/qcow2-installation-stock-control-1005-v10/preserved-oobe-failure.png",
+      "sha256": "04a4c86861a4d961a62e7eba0320b79a12396523290c7195f614ed65eb3bd178",
+      "bytes": 4531
+    },
+    {
+      "path": "/data/cache/qcow2-installation-stock-control-1005-v10/failure-orderly-shutdown-request.json",
+      "sha256": "e457031e732cb98c13106f049c662d03e8f6e955c9ae41e06ef334a5b201ac83",
+      "bytes": 179
+    },
+    {
+      "path": "/data/cache/qcow2-installation-stock-control-1005-v10/installed-logs.zip",
+      "sha256": "b77c57f0981135a64092fee6ccc7220862dde8dfdea42996ba26d4965df60ab4",
+      "bytes": 734051
+    }
+  ],
+  "collected_log_entries": 39
+}

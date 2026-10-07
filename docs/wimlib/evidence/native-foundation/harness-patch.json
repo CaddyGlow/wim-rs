@@ -1,0 +1,15 @@
+{
+  "purpose": "unconditional comparator failure",
+  "changes": [
+    {
+      "path": "tests/test-imagex-capture_and_apply",
+      "original_sha256": "f1d6e242e1337f6f5f01e13d6c091e30743d36a09b7570b482cd197a315d263e",
+      "patched_sha256": "22b9be629b8cab645939fbba65b1534a7db52a4f240b95146eeefd6f27f40f31"
+    },
+    {
+      "path": "tests/test-imagex-ntfs",
+      "original_sha256": "ca2ab8c7915ece29af18adccee7c518b587c535244aa12523401477a2fa353ce",
+      "patched_sha256": "24a2e6e2b95646d844cb52004d97b648864a59447e844502fdc7c3f614d8ed82"
+    }
+  ]
+}

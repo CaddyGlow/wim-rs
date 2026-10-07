@@ -1,0 +1,7 @@
+{
+  "exit": 0,
+  "signal": null,
+  "stdout": "{\r\n    \"AutoAdminLogon\":  \"0\",\r\n    \"DefaultUserName\":  null,\r\n    \"DefaultDomainName\":  null,\r\n    \"DefaultPasswordPresent\":  false,\r\n    \"DefaultPasswordNonempty\":  false,\r\n    \"LsaDefaultPasswordKeyExists\":  true,\r\n    \"ToolVersion\":  \"3.10\",\r\n    \"ToolSHA256\":  \"5D96BBC4E5B726D87C7CF547F5FE98F8F05434EC2130BD60CBF5671FD3A7381B\",\r\n    \"Desktop\":  [\r\n                    {\r\n                        \"Id\":  1568,\r\n                        \"SessionId\":  1,\r\n                        \"UserName\":  \"DEPLOYV-BPDBUQ8\\\\deploy\"\r\n                    }\r\n                ]\r\n}\r\n",
+  "stderr": "",
+  "stdout_truncated": false
+}

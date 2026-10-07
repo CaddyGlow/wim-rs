@@ -1,0 +1,407 @@
+{
+  "scope": "Sixth immutable Windows partition independent Microsoft capture complete; published-native comparison pending. Original source never booted or written.",
+  "original_source_physical_before": [
+    {
+      "path": "/data/cache/qcow2-source-prepared-1005-v2/vm-state/overlay.qcow2",
+      "bytes": 1950679040,
+      "sha256": "bf7bc3cecfb9d696c82f0869cd8f3c04c74bd644648c690405132399f4091a0a"
+    },
+    {
+      "path": "/home/rick/projects-caddy/windows-uup/vm-state/qcow2-source-1005/overlay.qcow2",
+      "bytes": 4352770048,
+      "sha256": "cfa75f1df1c0328f2ef19e0752678a6714d67ed0787c75626d7d2f8cfebb5762"
+    },
+    {
+      "path": "/home/rick/.vm-base/win11-secure/disk.qcow2",
+      "bytes": 10026090496,
+      "sha256": "35299ad09fb946d45374f9637ccc4344acb3488b482d9571854d007b666b2abe"
+    }
+  ],
+  "original_source_windows_partition": {
+    "backings": [
+      "/home/rick/projects-caddy/windows-uup/vm-state/qcow2-source-1005/overlay.qcow2",
+      "/home/rick/.vm-base/win11-secure/disk.qcow2"
+    ],
+    "image": "/data/cache/qcow2-source-prepared-1005-v2/vm-state/overlay.qcow2",
+    "partition_bytes": 67445456896,
+    "partition_sha256": "1074ed7c8f6c95477fbe0e34c45d2ce198ee42ece978f4a886db72d1a5ee1ffd",
+    "virtual_bytes": 68719476736,
+    "windows_partition": 3
+  },
+  "validation_windows_partition": {
+    "backings": [
+      "/data/cache/qcow2-source-prepared-1005-v2/vm-state/overlay.qcow2",
+      "/home/rick/projects-caddy/windows-uup/vm-state/qcow2-source-1005/overlay.qcow2",
+      "/home/rick/.vm-base/win11-secure/disk.qcow2"
+    ],
+    "image": "/data/cache/qcow2-oracle-1005/source-sixth-validation.qcow2",
+    "partition_bytes": 67445456896,
+    "partition_sha256": "1074ed7c8f6c95477fbe0e34c45d2ce198ee42ece978f4a886db72d1a5ee1ffd",
+    "virtual_bytes": 68719476736,
+    "windows_partition": 3
+  },
+  "whole_windows_partition_hash_equal": true,
+  "validation_physical": {
+    "path": "/data/cache/qcow2-oracle-1005/source-sixth-validation.qcow2",
+    "bytes": 524288,
+    "sha256": "4e2e1cc959685a54ca3b7be2438b9b8169ce2e3d19ef83825f217763d56c7582",
+    "mode": "0444",
+    "windows_partition_sha256": "1074ed7c8f6c95477fbe0e34c45d2ce198ee42ece978f4a886db72d1a5ee1ffd"
+  },
+  "validation_gpt_changes": {
+    "scope": "Validation-only container identities, original NTFS bytes unchanged",
+    "disk_guid": "e7226067-9851-40ff-81e5-70b87f5615fa",
+    "partitions": [
+      {
+        "partition": 1,
+        "original": "2837eee0-806f-4d5b-a6b1-c6ce0b27cba1",
+        "validation": "7f75e1b7-3eb8-4d67-bfbb-b2f50dffd5d2"
+      },
+      {
+        "partition": 2,
+        "original": "c634eff8-d89f-49c7-a912-f55442079e15",
+        "validation": "7149c9f0-865d-4e60-a70a-8381531820fb"
+      },
+      {
+        "partition": 3,
+        "original": "1ae7a557-11d3-4b74-b404-80ee70ed67f2",
+        "validation": "426a044c-29ad-4fc3-99a5-e3fee1c6a0a7"
+      },
+      {
+        "partition": 4,
+        "original": "183d5268-a4ab-4b21-aead-6ec2fcf0d18b",
+        "validation": "95c729c4-5163-4869-a4e8-5a36ff3d50a7"
+      }
+    ],
+    "changes": [
+      {
+        "sector": 1,
+        "bytes": 512,
+        "before_sha256": "c908d28f8bf1bfe69da7c46de7bd5e9638b7fac1b1272eb451c2b4ca796701a9",
+        "after_sha256": "98c90e296b95e786540fac4d512d95123168b07abcd08203c20d1c72683e8c19"
+      },
+      {
+        "sector": 2,
+        "bytes": 512,
+        "before_sha256": "1bd0e5fde9d46b3a5601a40ea136666083cec5a6b254eaa82ca1dfdd5e70f85f",
+        "after_sha256": "c34c592af3ba573bd2bf4cf2f750d7e2c1469f9230a366e5859fb3fe2b1113e1"
+      },
+      {
+        "sector": 134217695,
+        "bytes": 512,
+        "before_sha256": "1bd0e5fde9d46b3a5601a40ea136666083cec5a6b254eaa82ca1dfdd5e70f85f",
+        "after_sha256": "c34c592af3ba573bd2bf4cf2f750d7e2c1469f9230a366e5859fb3fe2b1113e1"
+      },
+      {
+        "sector": 134217727,
+        "bytes": 512,
+        "before_sha256": "1e10123860347ed9eda960d40605950bbce85e369bf353d53ec7c0dcd315499a",
+        "after_sha256": "61bc21772f6237e82f27ee9fcb2fd0d45863854a9eb22be7e3c1220b711dcbdb"
+      }
+    ]
+  },
+  "all_original_and_validation_qmp_nodes_read_only": [
+    {
+      "path": "/home/rick/.vm-base/win11-secure/disk.qcow2",
+      "node": "#block2178",
+      "read_only": true
+    },
+    {
+      "path": "/home/rick/.vm-base/win11-secure/disk.qcow2",
+      "node": "#block2092",
+      "read_only": true
+    },
+    {
+      "path": "/home/rick/projects-caddy/windows-uup/vm-state/qcow2-source-1005/overlay.qcow2",
+      "node": "#block1978",
+      "read_only": true
+    },
+    {
+      "path": "/home/rick/projects-caddy/windows-uup/vm-state/qcow2-source-1005/overlay.qcow2",
+      "node": "#block1864",
+      "read_only": true
+    },
+    {
+      "path": "/data/cache/qcow2-source-prepared-1005-v2/vm-state/overlay.qcow2",
+      "node": "#block1754",
+      "read_only": true
+    },
+    {
+      "path": "/data/cache/qcow2-source-prepared-1005-v2/vm-state/overlay.qcow2",
+      "node": "#block1606",
+      "read_only": true
+    },
+    {
+      "path": "/data/cache/qcow2-oracle-1005/source-sixth-validation.qcow2",
+      "node": "oracle-sixth-source",
+      "read_only": true
+    },
+    {
+      "path": "/data/cache/qcow2-oracle-1005/source-sixth-validation.qcow2",
+      "node": "#block1572",
+      "read_only": true
+    },
+    {
+      "path": "/home/rick/.vm-base/win11-secure/disk.qcow2",
+      "node": "#block982",
+      "read_only": true
+    },
+    {
+      "path": "/home/rick/.vm-base/win11-secure/disk.qcow2",
+      "node": "#block820",
+      "read_only": true
+    }
+  ],
+  "nonbootable_device_bootindex": -1,
+  "guest_readonly_mount": {
+    "Disk": {
+      "Number": 2,
+      "Guid": "{e7226067-9851-40ff-81e5-70b87f5615fa}",
+      "UniqueId": "SOURCE-SIXTH-RO",
+      "SerialNumber": "SOURCE-SIXTH-RO",
+      "IsReadOnly": true,
+      "IsOffline": false
+    },
+    "WindowsPartition": {
+      "PartitionNumber": 3,
+      "DriveLetter": "D",
+      "Guid": "{426a044c-29ad-4fc3-99a5-e3fee1c6a0a7}",
+      "Offset": 449839104,
+      "Size": 67445456896
+    },
+    "PayloadSHA256": "40AFF2E9D2D8922E47AFD4648E6967497158785FBD1DA870E7110266BF944880"
+  },
+  "stock_capture_live": {
+    "PID": 4240,
+    "Arguments": "/Capture-Image /ImageFile:R:\\source-dism-sixth.wim /CaptureDir:D:\\ /Name:SixthFrozenSourceOracle /Compress:fast /CheckIntegrity /Verify /EA /NoRpFix /ConfigFile:C:\\oracle-capture.ini /LogPath:C:\\oracle\\dism-capture-sixth.log /ScratchDir:R:\\scratch",
+    "WindowsPartition": "{426a044c-29ad-4fc3-99a5-e3fee1c6a0a7}",
+    "ReadonlyDiskGUID": "{e7226067-9851-40ff-81e5-70b87f5615fa}",
+    "Started": "2026-10-05T17:20:36.9422769+00:00"
+  },
+  "policy": [
+    "/EA",
+    "/NoRpFix",
+    "/Verify",
+    "/CheckIntegrity"
+  ],
+  "exclusions_ini_sha256": "e06f93c49b66bf9b4ac363c6554bca0cbe625d690bb6a78f22eb877878cf2627",
+  "stock_guest_duplicate_disposal": {
+    "DeletedOnly": "R:\\source-dism-ea-v4.wim",
+    "RetainedSHA256": "df8e8f36418e58e8f5e5a440c95f782cf9386d79c14a9c02e17fa101cde3d4fb",
+    "ScratchFreeBefore": 67264806912,
+    "RetainedHostCopy": "/data/cache/qcow2-oracle-1005/source-dism-ea-v4.wim",
+    "SectorInfo": "LogicalBytesPerSector :                                 512\nPhysicalBytesPerSectorForAtomicity :                    512\nPhysicalBytesPerSectorForPerformance :                  512\nFileSystemEffectivePhysicalBytesPerSectorForAtomicity : 512\nDevice Alignment :                                      Aligned (0x000)\nPartition alignment on device :                         Aligned (0x000)\nPerforms Normal Seeks\nTrim Supported\nNot DAX capable\nIs Thinly-Provisioned, SlabSize :                       4,096 bytes (4.0 KB)",
+    "ScratchFreeAfter": 75859521536
+  },
+  "host_stock_policy": "Original whole verified stock host archive retained. New host reference will transfer only bounded metadata/XML/lookup ranges into explicitly partial sparse snapshot; retain new complete guest WIM+SHA and actual DISM checks.",
+  "metadata_transfer_tool_validation": {
+    "encoded_bytes": 13912841,
+    "old_whole_stock_nodes": 176416,
+    "full_metadata_inventory_differences": 0,
+    "hardlink_groups_exact": true
+  },
+  "artifacts_root": "/data/cache/qcow2-oracle-1005",
+  "stock_capture_result": {
+    "PID": 4240,
+    "Finished": "2026-10-05T17:51:20.4263112+00:00",
+    "SHA256": "9ba5122cb6f79fb2f5735e42695c8184a4212f57793e15d8301077b2696a5b09",
+    "Bytes": 8581553497,
+    "Exit": 0
+  },
+  "source_chain_physical_after": [
+    {
+      "path": "/data/cache/qcow2-source-prepared-1005-v2/vm-state/overlay.qcow2",
+      "bytes": 1950679040,
+      "sha256": "bf7bc3cecfb9d696c82f0869cd8f3c04c74bd644648c690405132399f4091a0a"
+    },
+    {
+      "path": "/home/rick/projects-caddy/windows-uup/vm-state/qcow2-source-1005/overlay.qcow2",
+      "bytes": 4352770048,
+      "sha256": "cfa75f1df1c0328f2ef19e0752678a6714d67ed0787c75626d7d2f8cfebb5762"
+    },
+    {
+      "path": "/home/rick/.vm-base/win11-secure/disk.qcow2",
+      "bytes": 10026090496,
+      "sha256": "35299ad09fb946d45374f9637ccc4344acb3488b482d9571854d007b666b2abe"
+    },
+    {
+      "path": "/data/cache/qcow2-oracle-1005/source-sixth-validation.qcow2",
+      "bytes": 524288,
+      "sha256": "4e2e1cc959685a54ca3b7be2438b9b8169ce2e3d19ef83825f217763d56c7582"
+    }
+  ],
+  "source_and_validation_physical_preserved": true,
+  "stock_metadata_transfer": {
+    "scope": "METADATA ONLY: sparse snapshot omits file payload ranges; not a valid complete installation archive",
+    "guest_archive": "R:\\source-dism-sixth.wim",
+    "complete_guest_bytes": 8581553497,
+    "recorded_complete_sha256": "9ba5122cb6f79fb2f5735e42695c8184a4212f57793e15d8301077b2696a5b09",
+    "complete_sha256_scope": "Caller-supplied independent full guest archive provenance; not recomputed by bounded transfer",
+    "metadata_sha1_verified_by_independent_libwim": "ae40585db087588c4bf426151fe6e869e3e9ad13",
+    "encoded_bytes_transferred": 13920353,
+    "encoded_budget": 67108864,
+    "ranges": [
+      {
+        "offset": 0,
+        "length": 208,
+        "sha256": "42522f794ae064afb92c39fc85c57048bbf6a22d407652495b8630d65cacd7e0"
+      },
+      {
+        "offset": 8577037047,
+        "length": 4497700,
+        "sha256": "db5ab87096d3cb742de55b75d1e0f2f929dd12b6404b11104cbc587b7d999fdd"
+      },
+      {
+        "offset": 8567616984,
+        "length": 9420063,
+        "sha256": "2b5a02a627221a3aaddccc2c3806d4e3809c280c60618b488b25a82f85f50fd7"
+      },
+      {
+        "offset": 72,
+        "length": 24,
+        "sha256": "9cdee747122134a3d1bdf24c4616fe2ff369aa7a2c5dd52254b201eccafc21e9"
+      },
+      {
+        "offset": 8581534747,
+        "length": 2358,
+        "sha256": "c788eacd2db00a2b169703998ed22231c4e9ad94a25cc45da3091291f7c6a4cb"
+      }
+    ]
+  },
+  "stock_full_metadata_summary": {
+    "nodes": 176484,
+    "streams": 143344,
+    "hardlink_groups": 34007,
+    "windows_properties": [
+      [
+        "WINDOWS",
+        {},
+        ""
+      ],
+      [
+        "ARCH",
+        {},
+        "9"
+      ],
+      [
+        "PRODUCTNAME",
+        {},
+        "Microsoft\u00ae Windows\u00ae Operating System"
+      ],
+      [
+        "EDITIONID",
+        {},
+        "Professional"
+      ],
+      [
+        "INSTALLATIONTYPE",
+        {},
+        "Client"
+      ],
+      [
+        "SERVICINGDATA",
+        {},
+        ""
+      ],
+      [
+        "GDRDUREVISION",
+        {},
+        "0"
+      ],
+      [
+        "PKEYCONFIGVERSION",
+        {},
+        "10.0.26100.7019;2016-01-01T00:00:00Z"
+      ],
+      [
+        "IMAGESTATE",
+        {},
+        "IMAGE_STATE_GENERALIZE_RESEAL_TO_OOBE"
+      ],
+      [
+        "HAL",
+        {},
+        "COMPUTER\\Generic"
+      ],
+      [
+        "PRODUCTTYPE",
+        {},
+        "WinNT"
+      ],
+      [
+        "PRODUCTSUITE",
+        {},
+        "Terminal Server"
+      ],
+      [
+        "LANGUAGES",
+        {},
+        ""
+      ],
+      [
+        "LANGUAGE",
+        {},
+        "en-US"
+      ],
+      [
+        "DEFAULT",
+        {},
+        "en-US"
+      ],
+      [
+        "VERSION",
+        {},
+        ""
+      ],
+      [
+        "MAJOR",
+        {},
+        "10"
+      ],
+      [
+        "MINOR",
+        {},
+        "0"
+      ],
+      [
+        "BUILD",
+        {},
+        "26200"
+      ],
+      [
+        "SPBUILD",
+        {},
+        "8037"
+      ],
+      [
+        "SPLEVEL",
+        {},
+        "0"
+      ],
+      [
+        "BRANCH",
+        {},
+        "ge_release"
+      ],
+      [
+        "SYSTEMROOT",
+        {},
+        "WINDOWS"
+      ]
+    ],
+    "scope": "Independent full metadata inventory from bounded metadata-only snapshot; complete guest archive retained with actual full SHA256 and capture Verify/CheckIntegrity."
+  },
+  "final_source_qmp_io": {
+    "read_bytes": 14000268800,
+    "read_operations": 314782,
+    "write_bytes": 0,
+    "write_operations": 0,
+    "unmap_operations": 0,
+    "failed_read_operations": 0
+  },
+  "dism_log": {
+    "path": "/data/cache/qcow2-oracle-1005/dism-capture-sixth.log",
+    "sha256": "7736f92e97c1e66f3b4d00bfdc3d318138172570a5384f1a96849d7128fa0488",
+    "warnings_or_errors": false
+  }
+}

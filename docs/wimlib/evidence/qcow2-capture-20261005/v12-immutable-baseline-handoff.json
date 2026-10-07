@@ -1,0 +1,74 @@
+{
+  "scope": "Actual standardSetup/OOBE pre-servicing immutable baseline; all runtime failures preserved, no metadatarestore",
+  "frozen_disk": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/immutable-pre-servicing-baseline/disk.qcow2",
+  "frozen_vars": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/immutable-pre-servicing-baseline/OVMF_VARS.fd",
+  "backing_sources": [
+    "/home/rick/.vm-base/win11-24h2-installer/disk.qcow2"
+  ],
+  "original_launcher_pid": 1336307,
+  "host_launcher_absent": true,
+  "qmp_socket_absent": true,
+  "supported_shutdown_request": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/baseline-supported-shutdown-request.json",
+  "qcow_exclusive_open_succeeded": true,
+  "qcow_clean_info": {
+    "children": [
+      {
+        "name": "file",
+        "info": {
+          "children": [],
+          "virtual-size": 19302514688,
+          "filename": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/vm-state/overlay.qcow2",
+          "format": "file",
+          "actual-size": 17721036800,
+          "format-specific": {
+            "type": "file",
+            "data": {}
+          },
+          "dirty-flag": false
+        }
+      }
+    ],
+    "backing-filename-format": "qcow2",
+    "virtual-size": 68719476736,
+    "filename": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/vm-state/overlay.qcow2",
+    "cluster-size": 65536,
+    "format": "qcow2",
+    "actual-size": 17721036800,
+    "format-specific": {
+      "type": "qcow2",
+      "data": {
+        "compat": "1.1",
+        "compression-type": "zlib",
+        "lazy-refcounts": false,
+        "refcount-bits": 16,
+        "corrupt": false,
+        "extended-l2": false
+      }
+    },
+    "full-backing-filename": "/home/rick/.vm-base/win11-24h2-installer/disk.qcow2",
+    "backing-filename": "/home/rick/.vm-base/win11-24h2-installer/disk.qcow2",
+    "dirty-flag": false
+  },
+  "native_guest_last_volume_encryption_percentage": 0,
+  "created_utc": 1791236386.964188,
+  "new_disposable_child": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/vm-state/overlay.qcow2",
+  "hashing_status": "complete",
+  "physical_input_hashes": [
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/immutable-pre-servicing-baseline/disk.qcow2",
+      "sha256": "b3bc06631a98880fc985632ef13fee1bd2ce8c7c7a7cc0e6fbaf4f4b4226a6e1",
+      "bytes": 19302514688
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/immutable-pre-servicing-baseline/OVMF_VARS.fd",
+      "sha256": "2c807f002a6a4201f7846a4df676a4934133468dd6405d85d31cbb793863c1ca",
+      "bytes": 540672
+    },
+    {
+      "path": "/home/rick/.vm-base/win11-24h2-installer/disk.qcow2",
+      "sha256": "19eb403b49ebb8007177a5f8cc49713c69a517d81c30fb31673336e5dd298cc3",
+      "bytes": 197632
+    }
+  ],
+  "hash_completed_utc": 1791236429.3220904
+}

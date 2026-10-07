@@ -1,0 +1,53 @@
+{
+  "schema": 1,
+  "scope": "Read-only source and published WIM representative DOS mapping/order investigation; V13 frozen target comparison pending",
+  "wim_sha256": "6fe084f644eb631349d4e385a155d1c5ce334d0810b633464ecfdd61b528884b",
+  "facts": [
+    "FaceProcessor is serialized earlier than FaceProcessorCore in each WinSxS parent examined",
+    "Required source/WIM mappings are Processor FACEPR~2.DLL and Core FACEPR~1.DLL",
+    "Corresponding DriverStore source links POSIX and WIMshort empty",
+    "Source rawINDEX references and WIM inode groups preserve same-files relationship within each respective representation"
+  ],
+  "causality_proven": false,
+  "raw_probe": {
+    "path": "/data/cache/qcow2-v13-offline-audit/faceprocessor-source-wim-ordering.json",
+    "bytes": 12890,
+    "sha256": "d22a4cf54c8952152f16f16f354df0afed15b8ac66548a0a64319d0846ebd2ac"
+  },
+  "probe": {
+    "path": "/data/cache/qcow2-v13-offline-audit/inspect-faceprocessor-ordering.py",
+    "bytes": 3596,
+    "sha256": "4abbc0f804af9378b0877350e4e73a672511602056f9dc06ef67c13d6284a556"
+  },
+  "code_contracts": [
+    {
+      "path": "crates/wim-format/src/metadata_write.rs",
+      "line": 268,
+      "fact": "Metadata sibling serialization uses NTFS upcase name sorting; it does not sort by requested DOS numeric suffix."
+    },
+    {
+      "path": "crates/wim/src/engine/capture/model.rs",
+      "line": 79,
+      "fact": "metadata_order explicitly reproduces sorted depth-first child ordering."
+    },
+    {
+      "path": "crates/wim/src/engine/capture/offline.rs",
+      "line": 274,
+      "fact": "Offline capture assigns source short_name bytes directly."
+    },
+    {
+      "path": "crates/wim/src/engine/extract/windows.rs",
+      "line": 732,
+      "fact": "Rust extraction representative selection prefers DOS-bearing hardlink path; native class40 shortname setter used before other links. This Rust extractor is not V13 Windows Setup."
+    }
+  ],
+  "limitations": [
+    "Oracle walk preserves each sibling order but its directory stack order is not a proven Windows Setup creation order",
+    "Raw INDEX sort/reference order does not prove historical source creation order",
+    "Resource offsets or WIM hardlink inode IDs are not target file references",
+    "Production Rust extraction code is not the Windows Setup apply engine used by V13",
+    "SourceCore lower MFTrecord than Processor is not direct creation-time evidence; MFTrecords may be reused",
+    "A writer order change alone has not been tested and could conflict with WIM metadata sorted-order requirements",
+    "Actual Windows Setup may honor shortnames but fail/ignore collision; only target/trace evidence can establish"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "schema": 1,
+  "scope": "Root independent accounting of actual60-case scratch report; raw NTFS verification pending",
+  "report": {
+    "path": "/data/cache/qcow2-v13-backup-security-controls-20261006/actual-controls-report.json",
+    "sha256": "e612b31f7f53acf30d177b6c50ca90d711e1b0bb1c5aa707b55c28f638b99c60"
+  },
+  "cases": 60,
+  "all_passed": false,
+  "groups": [
+    {
+      "api": "SetSecurityInfo",
+      "set_status": 0,
+      "logical_security_exact": false,
+      "basic_metadata_preserved": false,
+      "count": 6
+    },
+    {
+      "api": "SetSecurityInfo",
+      "set_status": 5,
+      "logical_security_exact": false,
+      "basic_metadata_preserved": true,
+      "count": 14
+    },
+    {
+      "api": "BackupWrite",
+      "set_status": 0,
+      "logical_security_exact": true,
+      "basic_metadata_preserved": false,
+      "count": 6
+    },
+    {
+      "api": "BackupWrite",
+      "set_status": 0,
+      "logical_security_exact": false,
+      "basic_metadata_preserved": false,
+      "count": 14
+    },
+    {
+      "api": "NtSetSecurityObject",
+      "set_status": 0,
+      "logical_security_exact": true,
+      "basic_metadata_preserved": false,
+      "count": 6
+    },
+    {
+      "api": "NtSetSecurityObject",
+      "set_status": 0,
+      "logical_security_exact": false,
+      "basic_metadata_preserved": false,
+      "count": 14
+    }
+  ],
+  "important_limits": [
+    "Observation queries BACKUP_SECURITY_INFORMATION only; raw frozen descriptors and GET-only 0x1ff needed before concluding ACE20 was not stored",
+    "BackupWrite denied negative controls can change metadata; error5 alone does not prove no mutation",
+    "NtSetSecurityObject and BackupWrite retain logical ACE18 in query observations but fail full basic4 preservation",
+    "No production restoration success claimed"
+  ],
+  "production_executable": false
+}

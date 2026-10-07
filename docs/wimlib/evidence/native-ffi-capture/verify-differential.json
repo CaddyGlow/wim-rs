@@ -1,0 +1,295 @@
+{
+  "cases": 36,
+  "equal": 36,
+  "native_sha256": "65c60ac54dba97b919535d84a82b977725720460f8ef30cd772c84493cea6df8",
+  "results": [
+    {
+      "size": 19,
+      "mode": 0,
+      "alias": "none",
+      "original": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 19 0 0\nstreams 1 19 1 19\nafter 0\n",
+      "native": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 19 0 0\nstreams 1 19 1 19\nafter 0\n",
+      "equal": true
+    },
+    {
+      "size": 19,
+      "mode": 0,
+      "alias": "hardlink",
+      "original": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 19 0 0\nstreams 1 19 1 19\nafter 0\n",
+      "native": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 19 0 0\nstreams 1 19 1 19\nafter 0\n",
+      "equal": true
+    },
+    {
+      "size": 19,
+      "mode": 0,
+      "alias": "duplicate",
+      "original": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 19 0 0\nstreams 1 19 1 19\nafter 0\n",
+      "native": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 19 0 0\nstreams 1 19 1 19\nafter 0\n",
+      "equal": true
+    },
+    {
+      "size": 19,
+      "mode": 1,
+      "alias": "none",
+      "original": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 19 0 0\nstreams 1 19 1 19\nafter 88\n",
+      "native": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 19 0 0\nstreams 1 19 1 19\nafter 88\n",
+      "equal": true
+    },
+    {
+      "size": 19,
+      "mode": 1,
+      "alias": "hardlink",
+      "original": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 19 0 0\nstreams 1 19 1 19\nafter 88\n",
+      "native": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 19 0 0\nstreams 1 19 1 19\nafter 88\n",
+      "equal": true
+    },
+    {
+      "size": 19,
+      "mode": 1,
+      "alias": "duplicate",
+      "original": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 19 0 0\nstreams 1 19 1 19\nafter 0\n",
+      "native": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 19 0 0\nstreams 1 19 1 19\nafter 0\n",
+      "equal": true
+    },
+    {
+      "size": 19,
+      "mode": 2,
+      "alias": "none",
+      "original": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 19 0 0\nafter 88\n",
+      "native": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 19 0 0\nafter 88\n",
+      "equal": true
+    },
+    {
+      "size": 19,
+      "mode": 2,
+      "alias": "hardlink",
+      "original": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 19 0 0\nafter 88\n",
+      "native": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 19 0 0\nafter 88\n",
+      "equal": true
+    },
+    {
+      "size": 19,
+      "mode": 2,
+      "alias": "duplicate",
+      "original": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 19 0 0\nstreams 1 19 1 19\nafter 0\n",
+      "native": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 19 0 0\nstreams 1 19 1 19\nafter 0\n",
+      "equal": true
+    },
+    {
+      "size": 19,
+      "mode": 3,
+      "alias": "none",
+      "original": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 19 0 0\nafter 47\n",
+      "native": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 19 0 0\nafter 47\n",
+      "equal": true
+    },
+    {
+      "size": 19,
+      "mode": 3,
+      "alias": "hardlink",
+      "original": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 19 0 0\nafter 47\n",
+      "native": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 19 0 0\nafter 47\n",
+      "equal": true
+    },
+    {
+      "size": 19,
+      "mode": 3,
+      "alias": "duplicate",
+      "original": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 19 0 0\nstreams 1 19 1 19\nafter 0\n",
+      "native": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 19 0 0\nstreams 1 19 1 19\nafter 0\n",
+      "equal": true
+    },
+    {
+      "size": 32768,
+      "mode": 0,
+      "alias": "none",
+      "original": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 32768 0 0\nstreams 1 32768 1 32768\nafter 0\n",
+      "native": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 32768 0 0\nstreams 1 32768 1 32768\nafter 0\n",
+      "equal": true
+    },
+    {
+      "size": 32768,
+      "mode": 0,
+      "alias": "hardlink",
+      "original": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 32768 0 0\nstreams 1 32768 1 32768\nafter 0\n",
+      "native": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 32768 0 0\nstreams 1 32768 1 32768\nafter 0\n",
+      "equal": true
+    },
+    {
+      "size": 32768,
+      "mode": 0,
+      "alias": "duplicate",
+      "original": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 32768 0 0\nstreams 1 32768 1 32768\nafter 0\n",
+      "native": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 32768 0 0\nstreams 1 32768 1 32768\nafter 0\n",
+      "equal": true
+    },
+    {
+      "size": 32768,
+      "mode": 1,
+      "alias": "none",
+      "original": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 32768 0 0\nstreams 1 32768 1 32768\nafter 88\n",
+      "native": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 32768 0 0\nstreams 1 32768 1 32768\nafter 88\n",
+      "equal": true
+    },
+    {
+      "size": 32768,
+      "mode": 1,
+      "alias": "hardlink",
+      "original": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 32768 0 0\nstreams 1 32768 1 32768\nafter 88\n",
+      "native": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 32768 0 0\nstreams 1 32768 1 32768\nafter 88\n",
+      "equal": true
+    },
+    {
+      "size": 32768,
+      "mode": 1,
+      "alias": "duplicate",
+      "original": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 32768 0 0\nstreams 1 32768 1 32768\nafter 0\n",
+      "native": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 32768 0 0\nstreams 1 32768 1 32768\nafter 0\n",
+      "equal": true
+    },
+    {
+      "size": 32768,
+      "mode": 2,
+      "alias": "none",
+      "original": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 32768 0 0\nafter 88\n",
+      "native": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 32768 0 0\nafter 88\n",
+      "equal": true
+    },
+    {
+      "size": 32768,
+      "mode": 2,
+      "alias": "hardlink",
+      "original": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 32768 0 0\nafter 88\n",
+      "native": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 32768 0 0\nafter 88\n",
+      "equal": true
+    },
+    {
+      "size": 32768,
+      "mode": 2,
+      "alias": "duplicate",
+      "original": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 32768 0 0\nstreams 1 32768 1 32768\nafter 0\n",
+      "native": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 32768 0 0\nstreams 1 32768 1 32768\nafter 0\n",
+      "equal": true
+    },
+    {
+      "size": 32768,
+      "mode": 3,
+      "alias": "none",
+      "original": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 32768 0 0\nafter 47\n",
+      "native": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 32768 0 0\nafter 47\n",
+      "equal": true
+    },
+    {
+      "size": 32768,
+      "mode": 3,
+      "alias": "hardlink",
+      "original": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 32768 0 0\nafter 47\n",
+      "native": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 32768 0 0\nafter 47\n",
+      "equal": true
+    },
+    {
+      "size": 32768,
+      "mode": 3,
+      "alias": "duplicate",
+      "original": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 32768 0 0\nstreams 1 32768 1 32768\nafter 0\n",
+      "native": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 32768 0 0\nstreams 1 32768 1 32768\nafter 0\n",
+      "equal": true
+    },
+    {
+      "size": 65537,
+      "mode": 0,
+      "alias": "none",
+      "original": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 65537 0 0\nstreams 1 65537 0 32768\nstreams 1 65537 0 65536\nstreams 1 65537 1 65537\nafter 0\n",
+      "native": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 65537 0 0\nstreams 1 65537 0 32768\nstreams 1 65537 0 65536\nstreams 1 65537 1 65537\nafter 0\n",
+      "equal": true
+    },
+    {
+      "size": 65537,
+      "mode": 0,
+      "alias": "hardlink",
+      "original": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 65537 0 0\nstreams 1 65537 0 32768\nstreams 1 65537 0 65536\nstreams 1 65537 1 65537\nafter 0\n",
+      "native": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 65537 0 0\nstreams 1 65537 0 32768\nstreams 1 65537 0 65536\nstreams 1 65537 1 65537\nafter 0\n",
+      "equal": true
+    },
+    {
+      "size": 65537,
+      "mode": 0,
+      "alias": "duplicate",
+      "original": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 65537 0 0\nstreams 1 65537 0 32768\nstreams 1 65537 0 65536\nstreams 1 65537 1 65537\nafter 0\n",
+      "native": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 65537 0 0\nstreams 1 65537 0 32768\nstreams 1 65537 0 65536\nstreams 1 65537 1 65537\nafter 0\n",
+      "equal": true
+    },
+    {
+      "size": 65537,
+      "mode": 1,
+      "alias": "none",
+      "original": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 65537 0 0\nstreams 1 65537 0 32768\nstreams 1 65537 0 65536\nstreams 1 65537 1 65537\nafter 88\n",
+      "native": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 65537 0 0\nstreams 1 65537 0 32768\nstreams 1 65537 0 65536\nstreams 1 65537 1 65537\nafter 88\n",
+      "equal": true
+    },
+    {
+      "size": 65537,
+      "mode": 1,
+      "alias": "hardlink",
+      "original": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 65537 0 0\nstreams 1 65537 0 32768\nstreams 1 65537 0 65536\nstreams 1 65537 1 65537\nafter 88\n",
+      "native": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 65537 0 0\nstreams 1 65537 0 32768\nstreams 1 65537 0 65536\nstreams 1 65537 1 65537\nafter 88\n",
+      "equal": true
+    },
+    {
+      "size": 65537,
+      "mode": 1,
+      "alias": "duplicate",
+      "original": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 65537 0 0\nstreams 1 65537 0 32768\nstreams 1 65537 0 65536\nstreams 1 65537 1 65537\nafter 0\n",
+      "native": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 65537 0 0\nstreams 1 65537 0 32768\nstreams 1 65537 0 65536\nstreams 1 65537 1 65537\nafter 0\n",
+      "equal": true
+    },
+    {
+      "size": 65537,
+      "mode": 2,
+      "alias": "none",
+      "original": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 65537 0 0\nafter 88\n",
+      "native": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 65537 0 0\nafter 88\n",
+      "equal": true
+    },
+    {
+      "size": 65537,
+      "mode": 2,
+      "alias": "hardlink",
+      "original": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 65537 0 0\nafter 88\n",
+      "native": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 65537 0 0\nafter 88\n",
+      "equal": true
+    },
+    {
+      "size": 65537,
+      "mode": 2,
+      "alias": "duplicate",
+      "original": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 65537 0 0\nstreams 1 65537 0 32768\nstreams 1 65537 0 65536\nstreams 1 65537 1 65537\nafter 0\n",
+      "native": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 65537 0 0\nstreams 1 65537 0 32768\nstreams 1 65537 0 65536\nstreams 1 65537 1 65537\nafter 0\n",
+      "equal": true
+    },
+    {
+      "size": 65537,
+      "mode": 3,
+      "alias": "none",
+      "original": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 65537 0 0\nafter 47\n",
+      "native": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 65537 0 0\nafter 47\n",
+      "equal": true
+    },
+    {
+      "size": 65537,
+      "mode": 3,
+      "alias": "hardlink",
+      "original": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 65537 0 0\nafter 47\n",
+      "native": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 65537 0 0\nafter 47\n",
+      "equal": true
+    },
+    {
+      "size": 65537,
+      "mode": 3,
+      "alias": "duplicate",
+      "original": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 65537 0 0\nstreams 1 65537 0 32768\nstreams 1 65537 0 65536\nstreams 1 65537 1 65537\nafter 0\n",
+      "native": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 65537 0 0\nstreams 1 65537 0 32768\nstreams 1 65537 0 65536\nstreams 1 65537 1 65537\nafter 0\n",
+      "equal": true
+    }
+  ]
+}

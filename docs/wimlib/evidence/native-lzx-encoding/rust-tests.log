@@ -1,0 +1,14 @@
+   Compiling wim-codec v0.1.0 (/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/wim-codec)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.13s
+     Running tests/lzx_encode.rs (crates/wimlib-rs/target/debug/deps/lzx_encode-ebdac50c31fa305e)
+
+running 6 tests
+test validates_configuration_and_empty_input ... ok
+test e8_relative_targets_roundtrip_and_preserve_input ... ok
+test output_capacity_accepts_exact_size_and_rejects_one_less ... ok
+test matches_compress_repetition_substantially ... ok
+test literals_roundtrip_all_byte_values_and_small_sizes ... ok
+test large_window_and_far_offsets_roundtrip ... ok
+
+test result: ok. 6 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.02s
+

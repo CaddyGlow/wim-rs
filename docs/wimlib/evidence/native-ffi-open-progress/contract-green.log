@@ -1,0 +1,10 @@
+   Compiling wim-ffi v0.1.0 (/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/wim-ffi)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.14s
+     Running tests/open_progress.rs (crates/wimlib-rs/target/debug/deps/open_progress-f44292b1072125fc)
+
+running 2 tests
+test callback_abort_and_unknown_status_leave_output_unchanged ... ok
+test successful_open_reports_chunks_and_retains_borrowed_registration ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

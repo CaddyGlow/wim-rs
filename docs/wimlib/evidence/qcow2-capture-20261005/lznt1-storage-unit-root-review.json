@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "scope": "Root source/test review and actual four terminal log binding checks; whole-target rescan pending",
+  "receipt_sha256": "b4e12db942a59f9fbaa97892b472236f7c37eda4e7892a1971849d0a72739ecf",
+  "four_terminal_checks_verified": true,
+  "generic_decoder_remains_strict": true,
+  "storage_unit_stops_only_between_validated_chunks": true,
+  "windows_fixture_matches_actual_expected_hash": true,
+  "full_installed_metadata_fidelity": false,
+  "full_target_hash_complete": false
+}

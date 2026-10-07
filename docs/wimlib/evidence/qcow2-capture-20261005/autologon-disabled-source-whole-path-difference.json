@@ -1,0 +1,162 @@
+{
+  "scope": "Complete original UTF16 path and attributes/fileIDs comparison after supported Audit/AutologonDisable/Sysprep; source preparation changes are retained, not capture omissions.",
+  "original_nodes": 176484,
+  "child_nodes": 175812,
+  "removed_count": 857,
+  "added_count": 185,
+  "net": -672,
+  "common_path_file_id_changes": 296,
+  "attribute_changes": [
+    {
+      "path_utf16_le": "2f00570069006e0064006f00770073002f00530079007300740065006d00330032002f004c006f006700460069006c00650073002f0057004d0049002f00460061006300650055006e006c006f0063006b004d0061006e00750061006c006c0079002e00650074006c00",
+      "display_path": "/Windows/System32/LogFiles/WMI/FaceUnlockManually.etl",
+      "source": {
+        "attributes": 8192,
+        "file_id": 844424930132078,
+        "path_utf16_le": "2f00570069006e0064006f00770073002f00530079007300740065006d00330032002f004c006f006700460069006c00650073002f0057004d0049002f00460061006300650055006e006c006f0063006b004d0061006e00750061006c006c0079002e00650074006c00"
+      },
+      "child": {
+        "attributes": 8224,
+        "file_id": 1125899906842734,
+        "path_utf16_le": "2f00570069006e0064006f00770073002f00530079007300740065006d00330032002f004c006f006700460069006c00650073002f0057004d0049002f00460061006300650055006e006c006f0063006b004d0061006e00750061006c006c0079002e00650074006c00"
+      }
+    }
+  ],
+  "removed_groups": {
+    "/Program Files (x86)/Microsoft/EdgeWebView/Application": 780,
+    "/ProgramData/Microsoft/DiagnosticLogCSP/Collectors": 1,
+    "/ProgramData/Microsoft/Windows Defender/Scans": 15,
+    "/Users/deploy/AppData/Local": 51,
+    "/Windows/Logs/MeasuredBoot/0000000002-0000000000.json": 1,
+    "/Windows/Logs/MeasuredBoot/0000000003-0000000000.log": 1,
+    "/Windows/ServiceProfiles/LocalService/AppData": 1,
+    "/Windows/System32/LogFiles/Scm": 1,
+    "/Windows/System32/OLD1816.tmp": 1,
+    "/Windows/System32/OLD199E.tmp": 1,
+    "/Windows/System32/OLD1AD7.tmp": 1,
+    "/Windows/System32/sru/SRU00019.log": 1,
+    "/Windows/System32/sru/SRU0001A.log": 1,
+    "/Windows/System32/sru/SRU0001B.log": 1
+  },
+  "added_groups": {
+    "/Program Files (x86)/Microsoft/EdgeWebView/Application": 1,
+    "/Program Files/WindowsApps/Microsoft.Paint_11.2412.295.0_x64__8wekyb3d8bbwe/microsoft.system.package.metadata": 1,
+    "/Program Files/WindowsApps/Microsoft.ScreenSketch_11.2307.61.0_x64__8wekyb3d8bbwe/microsoft.system.package.metadata": 1,
+    "/Program Files/WindowsApps/Microsoft.Windows.Photos_24.24070.23002.0_x64__8wekyb3d8bbwe/microsoft.system.package.metadata": 1,
+    "/Program Files/WindowsApps/Microsoft.WindowsCalculator_11.2502.2.0_x64__8wekyb3d8bbwe/microsoft.system.package.metadata": 1,
+    "/Program Files/WindowsApps/Microsoft.WindowsNotepad_11.2501.31.0_x64__8wekyb3d8bbwe/microsoft.system.package.metadata": 1,
+    "/ProgramData/Microsoft/Crypto/PCPKSP": 2,
+    "/ProgramData/Microsoft/Crypto/RSA": 1,
+    "/ProgramData/Microsoft/DiagnosticLogCSP/Collectors": 1,
+    "/ProgramData/Microsoft/Windows Defender/Scans": 21,
+    "/ProgramData/Microsoft/Windows Defender/Support": 2,
+    "/ProgramData/Microsoft/Windows Security Health/Logs": 1,
+    "/ProgramData/Packages/Microsoft.MicrosoftEdge.Stable_8wekyb3d8bbwe/S-1-5-21-1567675422-56293474-2442462875-1000": 2,
+    "/ProgramData/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/S-1-5-21-1567675422-56293474-2442462875-1000": 8,
+    "/ProgramData/Packages/MicrosoftWindows.Client.CBS_cw5n1h2txyewy/S-1-5-21-1567675422-56293474-2442462875-1000": 8,
+    "/ProgramData/Packages/MicrosoftWindows.Client.CoreAI_cw5n1h2txyewy/S-1-5-21-1567675422-56293474-2442462875-1000": 2,
+    "/ProgramData/Packages/MicrosoftWindows.Client.OOBE_cw5n1h2txyewy/S-1-5-21-1567675422-56293474-2442462875-1000": 2,
+    "/Users/deploy/AppData/Local": 74,
+    "/Users/deploy/AppData/Roaming": 2,
+    "/Windows/Logs/waasmedic/waasmedic.20261005_204039_191.etl": 1,
+    "/Windows/ServiceProfiles/LocalService/AppData": 3,
+    "/Windows/System32/LogFiles/WMI": 3,
+    "/Windows/System32/Microsoft/Protect": 2,
+    "/Windows/System32/OLD6C04.tmp": 1,
+    "/Windows/System32/OLD6C25.tmp": 1,
+    "/Windows/System32/OLD6C35.tmp": 1,
+    "/Windows/System32/SleepStudy/ScreenOn": 2,
+    "/Windows/System32/WDI/LogFiles": 1,
+    "/Windows/System32/WDI/{67144949-5132-4859-8036-a737b43825d8}": 2,
+    "/Windows/System32/WDI/{86432a0b-3c7d-4ddf-a89c-172faa90485d}": 3,
+    "/Windows/System32/config/systemprofile": 26,
+    "/Windows/System32/sru/SRU0001D.log": 1,
+    "/Windows/System32/sru/SRU0001E.log": 1,
+    "/Windows/System32/sru/SRU0001F.log": 1,
+    "/Windows/security/EDP/Logs": 2,
+    "/sourceprep": 1,
+    "/sourceprep/Autologon64.exe": 1
+  },
+  "EdgeWebView": {
+    "removed_obsolete_version": "145.0.3800.97",
+    "removed_paths": 780,
+    "retained_current_version": "154.0.4258.53",
+    "retained_current_version_paths": 963,
+    "same_path_attributes_fileIDs": true
+  },
+  "known_application_settings_service_invariants": {
+    "marker_cmd_byteexact": true,
+    "marker_cmd_SHA256": "04dc9f4ccca10fc45a17df33fc7d8d36f9cb58a04afe23f51175ee069ad972d0",
+    "registry_and_service": {
+      "original": {
+        "ApplicationMarker": "qcow2-native-1005",
+        "AutoAdminLogon": null,
+        "BITS_Start": 3,
+        "DefaultPasswordPresent": true,
+        "ImageState": "IMAGE_STATE_GENERALIZE_RESEAL_TO_OOBE",
+        "LSA_secret_contents_read": false,
+        "SystemSetupInProgress": 1,
+        "hives_clean": true
+      },
+      "child": {
+        "ApplicationMarker": "qcow2-native-1005",
+        "AutoAdminLogon": null,
+        "BITS_Start": 3,
+        "DefaultPasswordPresent": false,
+        "ImageState": "IMAGE_STATE_GENERALIZE_RESEAL_TO_OOBE",
+        "LSA_secret_contents_read": false,
+        "SystemSetupInProgress": 1,
+        "hives_clean": true
+      }
+    },
+    "fixture9entries331streams_entireJSON_exact": true,
+    "all_original5727reservedSACLpaths_and_ACEbytes_exact": true
+  },
+  "WinRE": [
+    {
+      "partition": 3,
+      "path": "Windows/System32/Recovery/Winre.wim",
+      "sha256": "5a7b51e7271284a3204234a71386c4d8cbc81665e9f7bc451d7d70fb464a3047",
+      "size": 682662589
+    }
+  ],
+  "capture_scope_note": "Preparation leaves /sourceprep/Autologon64.exe and sourceprep directory; explicitly reported as newsourcepaths, no automatic exclusion added.",
+  "limits": "Whole paths/attributes/fileIDs inventory does not compare bytes of every common nonfixture payload or every registry setting; appmarker/BITS selected invariants are independently read.",
+  "artifacts": {
+    "original-all-paths.json": {
+      "path": "/data/cache/qcow2-oobe-preparation-control-20261005/offline-audit/original-all-paths.json",
+      "bytes": 90163392,
+      "sha256": "494fe66805b8030f1478023db075d6388817bee4d00f7e1df4ff3b711f52d531"
+    },
+    "child-all-paths.json": {
+      "path": "/data/cache/qcow2-oobe-preparation-control-20261005/offline-audit/child-all-paths.json",
+      "bytes": 89810388,
+      "sha256": "f661e648e246343af8febc03e868298132ea8003cf52c4081de55611fac8b1d8"
+    },
+    "complete-path-difference.json": {
+      "path": "/data/cache/qcow2-oobe-preparation-control-20261005/offline-audit/complete-path-difference.json",
+      "bytes": 1608249,
+      "sha256": "fd0c49af0803baeb08c8c9646ca1777631866c13d218c0010256f6077fc31528"
+    },
+    "original-settings-proof.json": {
+      "path": "/data/cache/qcow2-oobe-preparation-control-20261005/offline-audit/original-settings-proof.json",
+      "bytes": 240,
+      "sha256": "251e7108c1fbe2c2122f4ed11f7fa5750559e6d99eac5d1c3cb978a6a886c29e"
+    },
+    "child-settings-proof.json": {
+      "path": "/data/cache/qcow2-oobe-preparation-control-20261005/offline-audit/child-settings-proof.json",
+      "bytes": 241,
+      "sha256": "e247f7109cc61bb0a118d903634d5b107e6d0df5579880b29c208a4c30d7bbaf"
+    },
+    "original-marker.cmd": {
+      "path": "/data/cache/qcow2-oobe-preparation-control-20261005/offline-audit/original-marker.cmd",
+      "bytes": 25,
+      "sha256": "04dc9f4ccca10fc45a17df33fc7d8d36f9cb58a04afe23f51175ee069ad972d0"
+    },
+    "child-marker.cmd": {
+      "path": "/data/cache/qcow2-oobe-preparation-control-20261005/offline-audit/child-marker.cmd",
+      "bytes": 25,
+      "sha256": "04dc9f4ccca10fc45a17df33fc7d8d36f9cb58a04afe23f51175ee069ad972d0"
+    }
+  }
+}

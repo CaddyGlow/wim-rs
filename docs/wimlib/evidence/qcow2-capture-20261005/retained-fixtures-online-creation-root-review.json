@@ -1,0 +1,37 @@
+{
+  "receipts": {
+    "retained-report.json": {
+      "path": "/data/cache/qcow2-retained-fixtures-20261006/retained-report.json",
+      "sha256": "9fde6db004c3bb8967749c7374ccaf5345149f25823337e0aa3ac091a9ef5b77"
+    },
+    "retained-continuation-report.json": {
+      "path": "/data/cache/qcow2-retained-fixtures-20261006/retained-continuation-report.json",
+      "sha256": "52d7a7d4d07f905535c6d5a00718d3f7df933d412569f4681d0e84be89c6816b"
+    },
+    "retained-continuation-execute.json": {
+      "path": "/data/cache/qcow2-retained-fixtures-20261006/retained-continuation-execute.json",
+      "sha256": "aac612aad7858839ef66346818338dbe61336164f1bc41c875016c805f41b15e"
+    },
+    "alias-creation-report.json": {
+      "path": "/data/cache/qcow2-retained-fixtures-20261006/alias-creation-report.json",
+      "sha256": "ac0475090f6d5f987e6510988f4b80ed3869184e0472c7dfaf804cb4421371be"
+    },
+    "alias-creation-execute-v3.json": {
+      "path": "/data/cache/qcow2-retained-fixtures-20261006/alias-creation-execute-v3.json",
+      "sha256": "a05147e661014e807201807277a20fc595a896a92d1f3f87e401d17ac3e53966"
+    }
+  },
+  "windows_fixture_creation": "Actual guarded continuation completed; full160ADS byte/name/length enumeration and unnamed170 validated; original CASE preserved. Clean native tests pending.",
+  "alias_experiment": "Actual3firstlinkorders+successfulrename do not give all hardlinks aliases; rawbasic/standard changes. This does not satisfy source multiple-alias preservation.",
+  "root_validation_commands": [
+    {
+      "command": "check-retained-ntfs-fixture-receipt.py retained-continuation-report.json",
+      "exit": 0
+    },
+    {
+      "command": "check-dos-alias-creation-scratch.py alias-creation-report.json",
+      "exit": 0,
+      "meaning": "experiment receipt valid; restoration unproven"
+    }
+  ]
+}

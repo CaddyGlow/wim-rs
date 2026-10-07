@@ -1,0 +1,57 @@
+{
+  "scope": "Current frozen source native NTFS DOS namespace index verification; Windows runtime same-file resolution remains pending.",
+  "source": "/data/cache/qcow2-oobe-preparation-control-20261005/vm-state/overlay.qcow2",
+  "source_sha256": "59da49ab227850c6d62a2d555f40a43bf19a8f8a7af3d10eedb2395b62799282",
+  "nodes": 175812,
+  "volume_serial": 18029059986811144529,
+  "current_distinct_aliases": 101769,
+  "parent_directory_scans": 17800,
+  "all_actual_long_short_index_fileIDs_and_sequence_exact": true,
+  "original601_challenge": {
+    "original_challenges": 601,
+    "current_native_distinct_aliases": 101769,
+    "all_original_paths_present": true,
+    "all_original_alias_UTF16_exact": true,
+    "missing": [],
+    "changed": []
+  },
+  "historical_scope_correction": "601 historical selectors cover only native/stock differing short names. They never represented all source DOS aliases; current complete source has101769 independently matched distinct aliases.",
+  "work_budget": {
+    "maximum": 16777216,
+    "increased": false,
+    "unbatched_diagnostic_terminal_exit": 1,
+    "unbatched_diagnostic_failure": "Repeated full parent directory scans exceeded default QCOW parser work budget; not source corruption.",
+    "batched_diagnostic_terminal_exit": 0,
+    "failure_binary_preserved": "/data/cache/qcow2-oobe-preparation-control-20261005/offline-audit/dos-alias-unbatched-failed-producer"
+  },
+  "production_scope": "Production Volume::read_file_inner scans a directory index for every path component on each call, so bulk repeated arbitrary lookups share this risk. Production full capture_manifest traverses each directory once and deferred streams retain resolved readers; this diagnostic failure did not establish a full-capture failure.",
+  "diagnostic_build": "First build isolated DATA standalone ownCargo.lock due transient concurrentworkspace resolver mismatch. Shared locked build later passed; only diagnostic example changed. Shared lock untouched.",
+  "Windows_runtime_all_source_alias_equivalence_pending": true,
+  "artifacts": {
+    "current-dos-alias-native-proof.json": {
+      "path": "/data/cache/qcow2-oobe-preparation-control-20261005/offline-audit/current-dos-alias-native-proof.json",
+      "bytes": 96069513,
+      "sha256": "68a4bd82538616921fa25fe95aa204803d5946422fb26fbe1bdbe91e1f6cb432"
+    },
+    "current-distinct-dos-alias-selectors.json": {
+      "path": "/data/cache/qcow2-oobe-preparation-control-20261005/offline-audit/current-distinct-dos-alias-selectors.json",
+      "bytes": 63514653,
+      "sha256": "9f803f79ae46cd1d3dc7f745b2fb48e64c347ab101a78daf3ebebb0dd8da2271"
+    },
+    "current-original-601-alias-challenge.json": {
+      "path": "/data/cache/qcow2-oobe-preparation-control-20261005/offline-audit/current-original-601-alias-challenge.json",
+      "bytes": 748157,
+      "sha256": "0eae14ade3bc5a741f3066e692d2f38813aca1aa7df8745c797d0ba57b24b894"
+    },
+    "dos-alias-original-challenge-comparison.json": {
+      "path": "/data/cache/qcow2-oobe-preparation-control-20261005/offline-audit/dos-alias-original-challenge-comparison.json",
+      "bytes": 192,
+      "sha256": "dfb3a8b0557c77ac92306f872fd696ce1b4ce389f1725ac15c5a0460c806e1d1"
+    },
+    "dos-alias-unbatched-failed-producer": {
+      "path": "/data/cache/qcow2-oobe-preparation-control-20261005/offline-audit/dos-alias-unbatched-failed-producer",
+      "bytes": 6643808,
+      "sha256": "0d39bac2c4e70fcb60a6f76a7b86af6d0e5b5c02a34be100fd9fc1c63574d066"
+    }
+  }
+}

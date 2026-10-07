@@ -1,0 +1,102 @@
+{
+  "scope": "Independent raw namespace index enumeration compares all9 successful Windows final long-name observations; no manifest pairing shortcut",
+  "checks": [
+    {
+      "path": "U:\\QCOW2-AliasCreation-76a27ca0c9ee4bc89560a02413899dec\\order0\\same\\FaceProcessor.dll",
+      "namespace": "Win32",
+      "raw_index_long_reference_exact": true,
+      "alias_utf16_exact": true,
+      "actual_alias": "FACEPR~1.DLL"
+    },
+    {
+      "path": "U:\\QCOW2-AliasCreation-76a27ca0c9ee4bc89560a02413899dec\\order0\\same\\FaceProcessorCore.dll",
+      "namespace": "Posix",
+      "raw_index_long_reference_exact": true,
+      "alias_utf16_exact": true,
+      "actual_alias": ""
+    },
+    {
+      "path": "U:\\QCOW2-AliasCreation-76a27ca0c9ee4bc89560a02413899dec\\order0\\other\\RenamedFaceProcessorExtra.dll",
+      "namespace": "Posix",
+      "raw_index_long_reference_exact": true,
+      "alias_utf16_exact": true,
+      "actual_alias": ""
+    },
+    {
+      "path": "U:\\QCOW2-AliasCreation-76a27ca0c9ee4bc89560a02413899dec\\order1\\same\\FaceProcessor.dll",
+      "namespace": "Posix",
+      "raw_index_long_reference_exact": true,
+      "alias_utf16_exact": true,
+      "actual_alias": ""
+    },
+    {
+      "path": "U:\\QCOW2-AliasCreation-76a27ca0c9ee4bc89560a02413899dec\\order1\\same\\FaceProcessorCore.dll",
+      "namespace": "Win32",
+      "raw_index_long_reference_exact": true,
+      "alias_utf16_exact": true,
+      "actual_alias": "FACEPR~1.DLL"
+    },
+    {
+      "path": "U:\\QCOW2-AliasCreation-76a27ca0c9ee4bc89560a02413899dec\\order1\\other\\RenamedFaceProcessorExtra.dll",
+      "namespace": "Posix",
+      "raw_index_long_reference_exact": true,
+      "alias_utf16_exact": true,
+      "actual_alias": ""
+    },
+    {
+      "path": "U:\\QCOW2-AliasCreation-76a27ca0c9ee4bc89560a02413899dec\\order2\\same\\FaceProcessor.dll",
+      "namespace": "Posix",
+      "raw_index_long_reference_exact": true,
+      "alias_utf16_exact": true,
+      "actual_alias": ""
+    },
+    {
+      "path": "U:\\QCOW2-AliasCreation-76a27ca0c9ee4bc89560a02413899dec\\order2\\same\\FaceProcessorCore.dll",
+      "namespace": "Posix",
+      "raw_index_long_reference_exact": true,
+      "alias_utf16_exact": true,
+      "actual_alias": ""
+    },
+    {
+      "path": "U:\\QCOW2-AliasCreation-76a27ca0c9ee4bc89560a02413899dec\\order2\\other\\RenamedFaceProcessorExtra.dll",
+      "namespace": "Win32",
+      "raw_index_long_reference_exact": true,
+      "alias_utf16_exact": true,
+      "actual_alias": "RENAME~1.DLL"
+    }
+  ],
+  "all9_raw_namespace_pairings_match_actual_windows": true,
+  "old_native_diagnostic_assignment_count": 12,
+  "raw_actual_distinct_dos_entries": 11,
+  "old_perID_diagnostic_alone_does_not_prove_per_longname_pairs": true,
+  "actual_windows_fixture_regression": "assigns_dos_alias_only_to_win32_link_in_actual_windows_fixture",
+  "actual_regression_exit": 0,
+  "host_lib_tests": 20,
+  "host_clippy_exit": 0,
+  "artifacts": [
+    {
+      "path": "/data/cache/qcow2-retained-fixtures-20261006/alias-raw-directory-index.json",
+      "sha256": "fa5d0b0f04aacc28bda97577b71190006965ada93f7b79451e795dbf70f41945"
+    },
+    {
+      "path": "/data/cache/qcow2-retained-fixtures-20261006/alias-creation-report.json",
+      "sha256": "ac0475090f6d5f987e6510988f4b80ed3869184e0472c7dfaf804cb4421371be"
+    },
+    {
+      "path": "/data/cache/qcow2-retained-fixtures-20261006/alias-native-index.json",
+      "sha256": "c023d6509b8776437ff77f56588bc5d34b54c4e563e326e20762f41c681b3321"
+    },
+    {
+      "path": "/data/cache/qcow2-retained-fixtures-20261006/clean-offline-handoff.json",
+      "sha256": "78e6988fcd31771c1cfcac13dc9f3d654c806d5cd5757ac8c4ecaae304679ef9"
+    },
+    {
+      "path": "crates/windows-ntfs/src/lib.rs",
+      "sha256": "3f2d1a9655baf8d037b1adb7af7a614e07f3d86e539f4e68d6face25d63137bd"
+    },
+    {
+      "path": "crates/windows-ntfs/tests/ntfs3g.rs",
+      "sha256": "f1115816cef4c0bdbd2d604499f14d251776b36f399348fddc04d7e8057785c4"
+    }
+  ]
+}

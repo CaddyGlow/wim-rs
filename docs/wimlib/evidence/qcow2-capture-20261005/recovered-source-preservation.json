@@ -1,0 +1,20 @@
+{
+  "read_only_native_extraction": true,
+  "sources_after_extraction": [
+    {
+      "path": "/home/rick/.cache/windows-capture-recovery-20261005/prepared-source.qcow2",
+      "sha256": "bf7bc3cecfb9d696c82f0869cd8f3c04c74bd644648c690405132399f4091a0a",
+      "bytes": 1950679040
+    },
+    {
+      "path": "/home/rick/projects-caddy/windows-uup/vm-state/qcow2-source-1005/overlay.qcow2",
+      "sha256": "cfa75f1df1c0328f2ef19e0752678a6714d67ed0787c75626d7d2f8cfebb5762",
+      "bytes": 4352770048
+    },
+    {
+      "path": "/home/rick/.vm-base/win11-secure/disk.qcow2",
+      "sha256": "35299ad09fb946d45374f9637ccc4344acb3488b482d9571854d007b666b2abe",
+      "bytes": 10026090496
+    }
+  ]
+}

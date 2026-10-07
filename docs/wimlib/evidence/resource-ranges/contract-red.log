@@ -1,0 +1,29 @@
+   Compiling wim-format v0.1.0 (/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/wim-format)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.24s
+     Running tests/resource_ranges.rs (crates/wimlib-rs/target/debug/deps/resource_ranges-b62508c43ffdd3e1)
+
+running 2 tests
+test raw_ranges_validate_bounds_and_never_call_codec ... FAILED
+test ranges_cross_chunks_without_decoding_nonintersecting_data ... FAILED
+
+failures:
+
+---- raw_ranges_validate_bounds_and_never_call_codec stdout ----
+
+thread 'raw_ranges_validate_bounds_and_never_call_codec' (266) panicked at wim-format/tests/resource_ranges.rs:26:152:
+called `Result::unwrap()` on an `Err` value: Unsupported
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+---- ranges_cross_chunks_without_decoding_nonintersecting_data stdout ----
+
+thread 'ranges_cross_chunks_without_decoding_nonintersecting_data' (265) panicked at wim-format/tests/resource_ranges.rs:16:16:
+called `Result::unwrap()` on an `Err` value: Unsupported
+
+
+failures:
+    ranges_cross_chunks_without_decoding_nonintersecting_data
+    raw_ranges_validate_bounds_and_never_call_codec
+
+test result: FAILED. 0 passed; 2 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+error: test failed, to rerun pass `-p wim-format --test resource_ranges`

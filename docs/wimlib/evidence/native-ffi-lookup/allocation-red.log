@@ -1,0 +1,24 @@
+   Compiling wim-ffi v0.1.0 (/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/wim-ffi)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.14s
+     Running tests/lookup_allocations.rs (crates/wimlib-rs/target/debug/deps/lookup_allocations-d608d116585d05a0)
+
+running 1 test
+test repeated_lookup_iteration_allocates_nothing ... FAILED
+
+failures:
+
+---- repeated_lookup_iteration_allocates_nothing stdout ----
+
+thread 'repeated_lookup_iteration_allocates_nothing' (90) panicked at wim-ffi/tests/lookup_allocations.rs:57:5:
+assertion `left == right` failed
+  left: 21
+ right: 0
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+
+failures:
+    repeated_lookup_iteration_allocates_nothing
+
+test result: FAILED. 0 passed; 1 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+error: test failed, to rerun pass `-p wim-ffi --test lookup_allocations`

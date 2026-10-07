@@ -1,0 +1,19 @@
+{
+  "work": "/tmp/wim-symlink-stream-qxi338mj",
+  "sha256": "53010fe8e0bfab5958f106d6a4a05b4e0a3346010fd035b64931c4f3e98f2e8a",
+  "capture": {
+    "status": 0,
+    "stdout": "capture=0\nwrite=0\n",
+    "stderr": ""
+  },
+  "original_compare": {
+    "status": 0,
+    "stdout": "open=0,0\ncompare=200\n",
+    "stderr": "\n[ERROR] Last access time of /\u26e2\u56bd\u2273\uce58\u137e\u8b00\u9bd4\u408b\ub612\ud07a/\u4bd9\ua234\u79e0\uc5e5\u6271\u4fc9\u61db\uc231\u66a9\ueb55\u1ff3\u40b0\u41ed differs; 240438854990000000 != 134354863718812129\n"
+  },
+  "original_compare_ignore_atime": {
+    "status": 0,
+    "stdout": "open=0,0\ncompare=0\n",
+    "stderr": ""
+  }
+}

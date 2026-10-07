@@ -1,0 +1,60 @@
+{
+  "scope": "Latest root Windows.old capture exclusion, hard-link-preserving controls and concurrent shared codec allocator changes",
+  "complete": false,
+  "full_workspace_attempts": [
+    {
+      "command": "cargo test --locked",
+      "exit": 101,
+      "log": "/data/cache/qcow2-capture-20261005/host-tests-windows-old-final.log"
+    },
+    {
+      "command": "cargo test --locked",
+      "exit": 101,
+      "log": "/data/cache/qcow2-capture-20261005/host-tests-windows-old-retry.log"
+    }
+  ],
+  "failure": "caby independent_7z_extracts_all_writer_methods: MsZip random.bin independent reader Data Error",
+  "isolated_recheck": {
+    "command": "cargo test --locked -p caby --test writer independent_7z_extracts_all_writer_methods -- --nocapture",
+    "exit": 0,
+    "log": "/data/cache/qcow2-capture-20261005/caby-mszip-recheck.log"
+  },
+  "remaining_workspace_tests": {
+    "command": "cargo test --locked --workspace --exclude caby",
+    "exit": 1,
+    "passed": 2133,
+    "failed_test_cases": 0,
+    "ignored": 43,
+    "log": "/data/cache/qcow2-capture-20261005/host-tests-windows-old-excluding-caby.log",
+    "terminal_failure": "codec-memory source removed during concurrent allocator refactor; doctest could not read crates/codec-memory/src/lib.rs",
+    "limitation": "Does not replace full workspace validation and did not complete doctests"
+  },
+  "prior_success": "host-validation.json predates the latest changes",
+  "clippy_latest": {
+    "command": "cargo clippy --all-targets --all-features --locked -- -D warnings",
+    "exit": 101,
+    "log": "/data/cache/qcow2-capture-20261005/clippy-zlib-final.log",
+    "failure": "Concurrent imported ms-compress zlib code produces 105 denied warnings/errors in library tests; clean full gate pending."
+  },
+  "full_workspace_latest": {
+    "command": "cargo test --locked",
+    "exit": 101,
+    "log": "/data/cache/qcow2-capture-20261005/host-tests-zlib-final.log",
+    "failure": "Concurrent WSUS test edit used undefined variable b at install_servicing.rs594 during compilation; current file already corrected."
+  },
+  "clippy_prior_success": {
+    "command": "cargo clippy --all-targets --all-features --locked -- -D warnings",
+    "exit": 0,
+    "log": "/data/cache/qcow2-capture-20261005/clippy-latest-final.log"
+  },
+  "full_workspace_previous": {
+    "command": "cargo test --locked",
+    "exit": 1,
+    "suite_summaries": 268,
+    "passed": 2177,
+    "failed_test_cases": 0,
+    "ignored": 43,
+    "log": "/data/cache/qcow2-capture-20261005/host-tests-latest-final.log",
+    "terminal_failure": "Concurrent ms-compress zlib import changed source during run: invalid cfg target_any() and unclosed test delimiter during doctest compilation. Full final gate remains incomplete."
+  }
+}

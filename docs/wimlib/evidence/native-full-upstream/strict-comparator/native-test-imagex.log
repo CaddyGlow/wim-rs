@@ -1,0 +1,118 @@
+5+0 records in
+5+0 records out
+20480 bytes (20 kB, 20 KiB) copied, 2.2879e-05 s, 895 MB/s
+Testing capture and application of None-compressed WIM
+Testing capture and application of LZX-compressed WIM
+Testing capture and application of XPRESS-compressed WIM
+[ERROR] Can't open "dir.wim" read-only: No such file or directory
+ERROR: Exiting with error code 47:
+       Failed to open a file.
+Testing capture of WIM with default name and description
+Testing capture of WIM with default boot flag
+Testing changing image bootable flag
+Marking image 1 as bootable.
+Testing changing image bootable flag
+Marking image 0 as bootable.
+Testing changing image bootable flag to invalid image (this should generate errors)
+ERROR: "2" is not a valid image in "dir.wim"!
+       Please specify a 1-based image index or image name.  To list the images
+       contained in the WIM archive, run
+
+           wimlib-imagex info "dir.wim"
+
+ERROR: If you would like to set the boot index to 0, specify image "0" with the --boot flag.
+ERROR: Exiting with error code 18:
+       Tried to select an image that does not exist in the WIM.
+Testing capture of WIM with name and description
+Testing capture of WIM with non-ASCII name and description
+Testing printing WIM lookup table
+Testing printing WIM header
+Testing printing WIM XML info
+Testing extracting WIM XML info
+Testing printing WIM metadata
+Testing capture of bootable WIM
+Testing capture of WIM with integrity table
+Testing appending WIM image
+Testing appending WIM image with existing name (this should generate errors)
+ERROR: Exiting with error code 11:
+       Tried to add an image with a name that is already in use.
+Testing appending WIM image with new name
+Testing appending WIM image with integrity check
+Testing appending WIM image with no integrity check
+Testing deleting first WIM image
+Testing deleting last WIM image
+Testing deleting invalid WIM image (this should generate errors)
+ERROR: "4" is not a valid image in "dir.wim"!
+       Please specify a 1-based image index or image name.  To list the images
+       contained in the WIM archive, run
+
+           wimlib-imagex info "dir.wim"
+
+ERROR: Exiting with error code 18:
+       Tried to select an image that does not exist in the WIM.
+Testing deleting all WIM images
+Testing appending directory to empty WIM and making it bootable
+Testing appending non-directory (should generate errors)
+ERROR: Exiting with error code 68:
+       The requested operation is unsupported.
+Testing appending non-existent file (should generate errors)
+ERROR: Exiting with error code 63:
+       Could not read the metadata for a file or directory.
+Testing appending directory containing unreadable file (should generate errors)
+ERROR: Exiting with error code 47:
+       Failed to open a file.
+Testing application of multiple images
+Testing application of single image containing identical files
+Creating random files to test WIM splitting on
+Using flag --compress=none
+Splitting WIM into 1 MiB chunks
+Verifying the split WIMs (some errors expected)
+ERROR: "tmp2.swm" is not the first part of the split WIM.
+       You must specify the first part.
+ERROR: Exiting with error code 36:
+       The WIM does not contain image metadata; it only contains file data.
+Marking image 1 as bootable.
+ERROR: Exiting with error code 71:
+       The WIM is read-only (file permissions, header flag, or split WIM).
+Joining the split WIMs and applying the result
+Using flag --compress=maximum
+Splitting WIM into 1 MiB chunks
+Verifying the split WIMs (some errors expected)
+ERROR: "tmp2.swm" is not the first part of the split WIM.
+       You must specify the first part.
+ERROR: Exiting with error code 36:
+       The WIM does not contain image metadata; it only contains file data.
+Marking image 1 as bootable.
+ERROR: Exiting with error code 71:
+       The WIM is read-only (file permissions, header flag, or split WIM).
+Joining the split WIMs and applying the result
+Using flag --compress=fast
+Splitting WIM into 1 MiB chunks
+Verifying the split WIMs (some errors expected)
+ERROR: "tmp2.swm" is not the first part of the split WIM.
+       You must specify the first part.
+ERROR: Exiting with error code 36:
+       The WIM does not contain image metadata; it only contains file data.
+Marking image 1 as bootable.
+ERROR: Exiting with error code 71:
+       The WIM is read-only (file permissions, header flag, or split WIM).
+Joining the split WIMs and applying the result
+Testing export of single image to new WIM
+Testing export of single image to existing WIM
+Testing export of single image to existing WIM using wrong compression type
+ERROR: Cannot specify a compression type that is not the same as that used in the destination WIM
+Testing export of multiple images to new WIM
+Testing export of multiple images to existing WIM
+Testing export of multiple images to existing WIM with --boot
+Marking image 1 as bootable.
+Testing export of multiple images to existing WIM with --boot, but no bootable image (errors expected)
+Marking image 0 as bootable.
+ERROR: --boot specified for all-images export, but source WIM has no bootable image.
+Testing exporting then applying an image ("--compress=none" => "--compress=none")
+Testing exporting then applying an image ("--compress=xpress" => "--compress=xpress")
+Testing exporting then applying an image ("--compress=xpress" => "--compress=lzx")
+Testing exporting then applying an image ("--compress=none" => "--compress=xpress")
+Testing exporting then applying an image ("--compress=xpress" => "--compress=none")
+**********************************************************
+             Basic wimlib-imagex tests passed             
+**********************************************************

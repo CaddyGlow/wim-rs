@@ -1,0 +1,14 @@
+{
+    "schema_version":  1,
+    "phase":  "recovered_discarded",
+    "mounts":  [
+
+               ],
+    "hives":  [
+
+              ],
+    "child_jobs":  [
+
+                   ],
+    "operations":  5
+}

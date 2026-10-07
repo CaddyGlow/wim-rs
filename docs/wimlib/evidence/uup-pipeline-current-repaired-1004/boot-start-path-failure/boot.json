@@ -1,0 +1,42 @@
+{
+  "iso": "/data/cache/wim-uup-current-1004-validated.iso",
+  "iso_sha256": "042df5114a6ac5c910c9a5e2f1179d9bd1079f6db9d5e67fd4166863faa49094",
+  "verification": "docs/wimlib/evidence/uup-pipeline-current-repaired-1004/media-verification.json",
+  "cases": {
+    "bios": {
+      "pid": 7,
+      "command": [
+        "qemu-system-x86_64",
+        "-name",
+        "rust-uup-bios",
+        "-enable-kvm",
+        "-machine",
+        "pc",
+        "-cpu",
+        "host",
+        "-m",
+        "4096",
+        "-smp",
+        "2",
+        "-drive",
+        "file=/home/rick/projects-caddy/windows-uup/docs/wimlib/evidence/uup-pipeline-current-repaired-1004/boot/bios/disk.qcow2,format=qcow2,if=ide,index=0",
+        "-drive",
+        "file=/data/cache/wim-uup-current-1004-validated.iso,format=raw,media=cdrom,readonly=on,if=ide,index=2",
+        "-boot",
+        "order=d,menu=off",
+        "-nic",
+        "none",
+        "-display",
+        "none",
+        "-serial",
+        "file:/home/rick/projects-caddy/windows-uup/docs/wimlib/evidence/uup-pipeline-current-repaired-1004/boot/bios/serial.log",
+        "-monitor",
+        "none",
+        "-qmp",
+        "unix:/home/rick/projects-caddy/windows-uup/docs/wimlib/evidence/uup-pipeline-current-repaired-1004/boot/bios/qmp.sock,server=on,wait=off"
+      ],
+      "visual_result": "pending"
+    }
+  },
+  "scope": "Setup boot only; no installed-target verification"
+}

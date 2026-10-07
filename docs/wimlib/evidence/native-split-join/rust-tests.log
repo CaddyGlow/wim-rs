@@ -1,0 +1,13 @@
+   Compiling wim-format v0.1.0 (/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/wim-format)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.24s
+     Running tests/split_join.rs (crates/wimlib-rs/target/debug/deps/split_join-df28fc23d64dcb8f)
+
+running 5 tests
+test split_rejects_zero_target_and_solid_resources ... ok
+test boundary_counts_encoded_payload_not_headers_or_xml ... ok
+test join_rejects_missing_duplicate_and_foreign_parts ... ok
+test split_marks_spanned_parts_and_clears_split_boot_selection ... ok
+test split_keeps_metadata_only_in_first_and_join_accepts_reverse_order ... ok
+
+test result: ok. 5 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s
+

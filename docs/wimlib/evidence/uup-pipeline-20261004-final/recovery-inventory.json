@@ -1,0 +1,7 @@
+{
+  "exit": 0,
+  "signal": null,
+  "stdout": "\r\nDeployment Image Servicing and Management tool\r\nVersion: 10.0.26100.5074\r\n\r\nMounted images:\r\n\r\nMount Dir : C:\\wim-uup-validation-1791090913159215058\\servicing\\mount\r\nImage File : C:\\wim-uup-validation-1791090913159215058\\servicing\\install.wim\r\nImage Index : 1\r\nMounted Read/Write : Yes\r\nStatus : Ok\r\n\r\nThe operation completed successfully.\r\n",
+  "stderr": "",
+  "stdout_truncated": false
+}

@@ -1,0 +1,13 @@
+{
+  "scope": "Disposable trace branch tool verification only; boot logging effectiveness and actor attribution unproven",
+  "receipt": "/data/cache/qcow2-object-id-boottrace-20261006/procmon-actual-signature-version.json",
+  "receipt_sha256": "373355b4d7b3a65e29048cdfb94a6d5e8705af466b1c74d534c66bf616321c08",
+  "actual_guest_observation": {
+    "SHA256": "FC3AF5317C707E0555AD6E7590AD65CEB5C5085B053B41221944AC3CA3492D9C",
+    "Version": "4.11",
+    "ProductVersion": "4.11",
+    "Status": "Valid",
+    "Signer": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+    "TimestampSigner": "CN=Microsoft Time-Stamp Service, OU=nShield TSS ESN:F002-05E0-D947, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+  }
+}

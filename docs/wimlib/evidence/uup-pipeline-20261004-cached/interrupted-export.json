@@ -1,0 +1,8 @@
+{
+  "exit": 0,
+  "signal": null,
+  "stdout": "{\r\n    \"ProcessId\":  9464,\r\n    \"CommandLine\":  \"C:\\\\wim-uup-validation-1791073524401647244\\\\windows-uup.exe reconstruct-base --uup-dir D:\\\\UUPs --metadata D:\\\\UUPs\\\\professional_en-us.esd --work-dir C:\\\\wim-uup-validation-1791073524401647244\\\\assembly\"\r\n}\r\n{\"backend\":\"wimlib-rs\",\"error\":null,\"event\":\"wim_finished\",\"image\":\"\\\\\\\\?\\\\D:\\\\UUPs\\\\professional_en-us.esd\",\"operation\":\"verify\",\"success\":true}\r\n{\"backend\":\"wimlib-rs\",\"event\":\"wim_started\",\"image\":\"\\\\\\\\?\\\\D:\\\\UUPs\\\\professional_en-us.esd\",\"operation\":\"apply\"}\r\n{\"backend\":\"wimlib-rs\",\"error\":null,\"event\":\"wim_finished\",\"image\":\"\\\\\\\\?\\\\D:\\\\UUPs\\\\professional_en-us.esd\",\"operation\":\"apply\",\"success\":true}\r\n{\"backend\":\"wimlib-rs\",\"event\":\"wim_started\",\"image\":\"\\\\\\\\?\\\\D:\\\\UUPs\\\\professional_en-us.esd\",\"operation\":\"export\"}\r\n",
+  "stderr": "",
+  "stdout_truncated": false,
+  "reason": "Verification and apply passed; export reparsed the full lookup table per blob and bypassed cached file reads. Restarting with writer using retained file archive views."
+}

@@ -1,0 +1,128 @@
+{
+  "windows": {
+    "edition": "Professional",
+    "product_name": "Windows 10 Pro",
+    "installation_type": "Client",
+    "architecture": 9,
+    "build": 26200,
+    "revision": 8037,
+    "kernel_version": [
+      10,
+      0,
+      26100,
+      8036
+    ],
+    "preparation_state": "IMAGE_STATE_GENERALIZE_RESEAL_TO_OOBE",
+    "language": "en-US",
+    "languages": [
+      "en-US"
+    ],
+    "product_type": "WinNT"
+  },
+  "sources": [
+    {
+      "path": "/data/cache/qcow2-capture-positive-20261005/recovery-fixture.qcow2",
+      "sha256": "cc49b9144d8244075d8f5c1fa4dd33a87ee2f996b8338c51f4c43021c7055e5d",
+      "bytes": 822476800,
+      "file_identity": [
+        66306,
+        156148623
+      ]
+    },
+    {
+      "path": "/home/rick/projects-caddy/windows-uup/vm-state/qcow2-source-1005/overlay.qcow2",
+      "sha256": "cfa75f1df1c0328f2ef19e0752678a6714d67ed0787c75626d7d2f8cfebb5762",
+      "bytes": 4352770048,
+      "file_identity": [
+        66309,
+        124527323
+      ]
+    },
+    {
+      "path": "/home/rick/.vm-base/win11-secure/disk.qcow2",
+      "sha256": "35299ad09fb946d45374f9637ccc4344acb3488b482d9571854d007b666b2abe",
+      "bytes": 10026090496,
+      "file_identity": [
+        66309,
+        110639073
+      ]
+    }
+  ],
+  "virtual_bytes": 68719476736,
+  "partition": {
+    "attributes": 0,
+    "first_lba": 878592,
+    "index": 3,
+    "mbr_disk_signature": 0,
+    "mbr_type": null,
+    "name_utf16": [
+      66,
+      97,
+      115,
+      105,
+      99,
+      32,
+      100,
+      97,
+      116,
+      97,
+      32,
+      112,
+      97,
+      114,
+      116,
+      105,
+      116,
+      105,
+      111,
+      110
+    ],
+    "scheme": "Gpt",
+    "sector_size": 512,
+    "sectors": 131729408,
+    "type_guid": "ebd0a0a2-b9e5-4433-87c0-68b6b72699c7",
+    "unique_guid": "1ae7a557-11d3-4b74-b404-80ee70ed67f2"
+  },
+  "limits": {
+    "source_bytes": 1099511627776,
+    "virtual_bytes": 17592186044416,
+    "entries": 2000000,
+    "logical_bytes": 70368744177664
+  },
+  "entries": 176416,
+  "volume_serial": 18029059986811144529,
+  "volume_aliases": [
+    "\\??\\C:"
+  ],
+  "exclusions": [
+    "pagefile.sys",
+    "swapfile.sys",
+    "hiberfil.sys",
+    "System Volume Information",
+    "$Recycle.Bin",
+    "Windows/CSC",
+    "Windows.old",
+    "Windows/Panther/unattend.xml",
+    "Windows/Panther/unattend-original.xml"
+  ],
+  "metadata_changes": [
+    "Stage verified WinRE in Windows/System32/Recovery/winre.wim",
+    "Replace ReAgent.xml with unbound staged recovery configuration; clear source BCD/partition location bindings"
+  ],
+  "recovery_source": "partition:4/Recovery/WindowsRE/winre.wim",
+  "winre_sha256": "5a7b51e7271284a3204234a71386c4d8cbc81665e9f7bc451d7d70fb464a3047",
+  "qcow2_validation": {
+    "compressed_bytes_verified": 0,
+    "compressed_clusters": 0,
+    "compressed_payloads_verified": 0,
+    "containers": 3,
+    "data_descriptors": 230445,
+    "metadata_extents": 76,
+    "refcount_entries_checked": 294912,
+    "referenced_clusters": 230521,
+    "work_items": 1025608
+  },
+  "wim_sha256": "646e8273a294ef2cfd76195625a080bbf95719d363e67dc26c0384e4a4d54c1d",
+  "generalized": true,
+  "warnings": []
+}

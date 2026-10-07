@@ -1,0 +1,65 @@
+{
+  "scope": "V6 failed-OOBE clean offline diagnostic only. No metadata restoration performed. Strict source open, output full inventories preserved.",
+  "image": "/data/cache/qcow2-installation-recovered-1005-v6/vm-state/overlay.qcow2",
+  "backing": "/home/rick/.vm-base/win11-24h2-installer/disk.qcow2",
+  "strict_clean_NTFS_open_passed": true,
+  "raw_filesystem_readable_without_encryption_wrapper": true,
+  "fixture_entries": 9,
+  "fixture_streams": 331,
+  "exact_fixture_fields": [
+    "EaRaw",
+    "ReparseRaw",
+    "SecurityRaw",
+    "Short",
+    "Streams"
+  ],
+  "full64_ObjectID_gate": {
+    "passed": false,
+    "paths": [
+      "/NativeDiskCapture/payload.bin",
+      "/NativeDiskCapture/alias.bin"
+    ],
+    "difference": "Original16byteObjectID retained, extended48birthfields allzero; nativeWIM full64 independentlysourceexact."
+  },
+  "reserved_SACL_gate": {
+    "passed": false,
+    "all_source_paths_exist": true,
+    "exact": 4788,
+    "inherited_bit_only": 723,
+    "missing_aces": 216,
+    "missing_resource_attribute_paths": [
+      "/Users/deploy/Downloads",
+      "/Users/deploy/Downloads/desktop.ini"
+    ]
+  },
+  "artifacts": {
+    "fixture-metadata.json": {
+      "path": "/data/cache/qcow2-installation-recovered-1005-v6/offline-diagnostic/fixture-metadata.json",
+      "sha256": "c0c3e1c81a9daab48465b325c0cca9ab4580eb002982a5793697d1abb2b5f1b1"
+    },
+    "fixture-comparison.json": {
+      "path": "/data/cache/qcow2-installation-recovered-1005-v6/offline-diagnostic/fixture-comparison.json",
+      "sha256": "f37dbd1a7792cfc3d3ce8fc9ea476f5c6f71bdb60d9999a7557dcc3f91750946"
+    },
+    "reserved-sacl-comparison.json": {
+      "path": "/data/cache/qcow2-installation-recovered-1005-v6/offline-diagnostic/reserved-sacl-comparison.json",
+      "sha256": "d66d172a55485e7e60230b9396bc41135c9e4e515908d32a586e5933673d575d"
+    },
+    "reserved-sacl-inventory.json": {
+      "path": "/data/cache/qcow2-installation-recovered-1005-v6/offline-diagnostic/reserved-sacl-inventory.json",
+      "sha256": "16b5b100f2476876887255a0b96e01848c645676f560a026d1afe46cfc0997e5"
+    },
+    "selected-source-trust-paths.json": {
+      "path": "/data/cache/qcow2-installation-recovered-1005-v6/offline-diagnostic/selected-source-trust-paths.json",
+      "sha256": "4e50545cee7cf3b046242308001651465d5eac310a2f9312ba7c488aa1ed5292"
+    },
+    "selected-source-resource-paths.json": {
+      "path": "/data/cache/qcow2-installation-recovered-1005-v6/offline-diagnostic/selected-source-resource-paths.json",
+      "sha256": "7748eaacd6b5c700a184ca2dc4b52379acd660e54d6e51fbe48f60e9cf330574"
+    },
+    "reserved-selected-path-comparison.json": {
+      "path": "/data/cache/qcow2-installation-recovered-1005-v6/offline-diagnostic/reserved-selected-path-comparison.json",
+      "sha256": "87355a9fd403f3e6a51631a61cbe28e95aaddfd678433669d18ed5a46e4bcdd7"
+    }
+  }
+}

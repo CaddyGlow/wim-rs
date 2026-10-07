@@ -1,0 +1,38 @@
+
+Deployment Image Servicing and Management tool
+Version: 10.0.26100.5074
+
+Image Version: 10.0.19041.1
+
+Package information:
+
+Package Identity : Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3
+Applicable : Yes
+Copyright : Microsoft Corporation
+Company : Microsoft Corporation
+Creation Time : 
+Description : Fix for ServicingStack 10.0.19041.7714
+Install Client : 
+Install Package Name : 
+Install Time : 
+Last Update Time : 
+Name : Servicing Stack 10.0.19041.7714
+Product Name : Package_for_ServicingStack_7714
+Product Version : 
+Release Type : Security Update
+Restart Required : Possible
+Support Information : 
+State : Not Present
+Completely offline capable : Undetermined
+Self servicing package : Yes
+Capability Identity : 
+
+Custom Properties:
+
+(No custom properties found)
+
+Features listing for package : Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3
+
+(No features found for this package)
+
+The operation completed successfully.

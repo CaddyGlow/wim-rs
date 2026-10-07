@@ -1,0 +1,20 @@
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib/libthread_db.so.1".
+Verifying integrity of "/tmp/wim-ffi-write-w_xxvxl_/original.wim": 0 bytes of 407 bytes (0%) doneVerifying integrity of "/tmp/wim-ffi-write-w_xxvxl_/original.wim": 407 bytes of 407 bytes (100%) done
+Verifying metadata for image 1 of 1
+Verifying file data: 0 bytes of 63 bytes (0%) doneVerifying file data: 15 bytes of 63 bytes (23%) done
+Program received signal SIGSEGV, Segmentation fault.
+0x00007ffff7f53224 in find_next_opcode_sse4_2 (p=<optimized out>) at src/lzms_common.c:618
+618			u8 saved_byte = *tail_ptr;
+#0  0x00007ffff7f53224 in find_next_opcode_sse4_2 (p=<optimized out>) at src/lzms_common.c:618
+#1  lzms_x86_filter (data=data@entry=0x55555556c740 "", size=size@entry=48, last_target_usages=last_target_usages@entry=0x7ffff7bbf020, undo=16, undo@entry=true) at src/lzms_common.c:621
+#2  0x00007ffff7f57aa6 in lzms_decompress (in=0x55555558c750, in_nbytes=<optimized out>, out=0x55555556c740, out_nbytes=48, _d=0x7ffff7bbf020) at src/lzms_decompress.c:921
+#3  0x00007ffff7f649d0 in decompress_chunk (cbuf=0x55555558c750, chunk_csize=<optimized out>, ubuf=0x55555556c740 "", chunk_usize=<optimized out>, decompressor=0x55555556bca0, recover_data=<optimized out>) at src/resource.c:90
+#4  read_compressed_wim_resource (rdesc=<optimized out>, ranges=ranges@entry=0x7fffffff7120, num_ranges=num_ranges@entry=1, cb=0x7fffffff7160, recover_data=<optimized out>) at src/resource.c:481
+#5  0x00007ffff7f65685 in read_partial_wim_resource (rdesc=<optimized out>, offset=<optimized out>, size=<optimized out>, cb=<optimized out>, recover_data=<optimized out>) at src/resource.c:635
+#6  read_wim_blob_prefix (blob=<optimized out>, size=<optimized out>, cb=<optimized out>, recover_data=<optimized out>) at src/resource.c:682
+#7  0x00007ffff7f658bd in read_blob_with_cbs (blob=0x55555556b880, cbs=0x7fffffff71b0, recover_data=<optimized out>) at src/resource.c:829
+#8  0x00007ffff7f65f22 in read_blob_list (blob_list=blob_list@entry=0x7fffffff72e0, list_head_offset=list_head_offset@entry=160, cbs=cbs@entry=0x7fffffff7310, flags=flags@entry=1) at src/resource.c:1332
+#9  0x00007ffff7f6fd58 in wimlib_verify_wim (wim=0x555555569310, verify_flags=verify_flags@entry=0) at src/verify.c:171
+#10 0x000055555555c17c in imagex_verify (argc=<optimized out>, argv=<optimized out>, cmd=<optimized out>) at programs/imagex.c:4285
+#11 0x000055555555877a in main (argc=<optimized out>, argv=<optimized out>) at programs/imagex.c:4679

@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "iso": "/data/cache/qcow2-recovered-20261005/capture/native-captured.iso",
+  "catalog_lba": 278,
+  "validation_checksum_valid": true,
+  "boot_images": [
+    {
+      "platform": "BIOS",
+      "catalog_entry_offset": 32,
+      "image_lba": 1517,
+      "load_sectors_512": 8,
+      "bytes": 4096,
+      "sha256": "f425e135aac26b55e2bac655e62e2ce0b16255226c583d9ab43b2e93e8a6d932",
+      "source": "/data/cache/qcow2-recovered-setup-20261005/setup-media/boot/etfsboot.com",
+      "exact_source_bytes": true
+    },
+    {
+      "platform": "EFI",
+      "catalog_entry_offset": 96,
+      "image_lba": 1519,
+      "load_sectors_512": 2880,
+      "bytes": 1474560,
+      "sha256": "52f407452257e3b9ce5f1ffb55c5c9ad8272532e014c22b7563e9b4a80bac7b0",
+      "source": "/data/cache/qcow2-recovered-setup-20261005/setup-media/efi/microsoft/boot/efisys.bin",
+      "exact_source_bytes": true
+    }
+  ],
+  "scope": "Independent El Torito catalog and exact BIOS/EFI setup boot assets only; no firmware execution, full UDF payload or installation claim"
+}

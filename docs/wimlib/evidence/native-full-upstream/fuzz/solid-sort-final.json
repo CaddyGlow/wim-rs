@@ -1,0 +1,491 @@
+{
+  "work": "/tmp/wim-solid-sort-_2_h4e3h",
+  "sha256": {
+    "original": "62eb9c97f9ec6e3dae6c7e995b0a65a2e94a4d9b41491666947ba788a15bb74a",
+    "native": "4b7ad42df31641f1f3ff2adab5c32516d94328215ceb8df94d84a37a73dbed0f"
+  },
+  "cases": 24,
+  "exact": 24,
+  "rows": [
+    {
+      "mode": 0,
+      "flags": 0,
+      "codec": 1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "streams=0/9 bytes=0/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/.hidden\nstreams=1/9 bytes=9777/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/a.zzz\nstreams=2/9 bytes=17969/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/b.aaa\nstreams=3/9 bytes=26478/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/c.TXT\nstreams=4/9 bytes=35304/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/d.txt\nstreams=5/9 bytes=44447/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/e\nstreams=6/9 bytes=53907/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/g.z\nstreams=7/9 bytes=64635/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/trailing.\nstreams=8/9 bytes=74729/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/x\\component.dat\nstreams=9/9 bytes=85140/85140\nwrite=0\nblob=9460 offset=44655 solid=0 hash=00dfee290000600560bb95d0775888056102dd56\nblob=10411 offset=74937 solid=0 hash=b60d094a6a762d724ade060d322f116973157263\nblob=10094 offset=64843 solid=0 hash=565698750635f56208d6bbf019a15689994bc416\nblob=8509 offset=18177 solid=0 hash=e80c95f022ca088bb8e9a919cdf3a98f100a8942\nblob=10728 offset=54115 solid=0 hash=aa8c9d67ffbf32cdae841cf7080f5fbb4da73378\nblob=9777 offset=208 solid=0 hash=2a1bddc975275fd05955a3ae0a6658718f4f7b52\nblob=8826 offset=26686 solid=0 hash=bc0344fbffbd344323682835919d79d6d42c76bb\nblob=8192 offset=9985 solid=0 hash=4d7b2a36c5387decf799352a3751883b7ceb96aa\nblob=9143 offset=35512 solid=0 hash=eee123f5f6eb2b21f28c7e9c56a9c8c8e08379f3\nread=0\n",
+          "stderr": "",
+          "exists": true
+        },
+        "native": {
+          "status": 0,
+          "stdout": "streams=0/9 bytes=0/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/.hidden\nstreams=1/9 bytes=9777/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/a.zzz\nstreams=2/9 bytes=17969/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/b.aaa\nstreams=3/9 bytes=26478/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/c.TXT\nstreams=4/9 bytes=35304/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/d.txt\nstreams=5/9 bytes=44447/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/e\nstreams=6/9 bytes=53907/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/g.z\nstreams=7/9 bytes=64635/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/trailing.\nstreams=8/9 bytes=74729/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/x\\component.dat\nstreams=9/9 bytes=85140/85140\nwrite=0\nblob=9460 offset=44655 solid=0 hash=00dfee290000600560bb95d0775888056102dd56\nblob=10411 offset=74937 solid=0 hash=b60d094a6a762d724ade060d322f116973157263\nblob=10094 offset=64843 solid=0 hash=565698750635f56208d6bbf019a15689994bc416\nblob=8509 offset=18177 solid=0 hash=e80c95f022ca088bb8e9a919cdf3a98f100a8942\nblob=10728 offset=54115 solid=0 hash=aa8c9d67ffbf32cdae841cf7080f5fbb4da73378\nblob=9777 offset=208 solid=0 hash=2a1bddc975275fd05955a3ae0a6658718f4f7b52\nblob=8826 offset=26686 solid=0 hash=bc0344fbffbd344323682835919d79d6d42c76bb\nblob=8192 offset=9985 solid=0 hash=4d7b2a36c5387decf799352a3751883b7ceb96aa\nblob=9143 offset=35512 solid=0 hash=eee123f5f6eb2b21f28c7e9c56a9c8c8e08379f3\nread=0\n",
+          "stderr": "",
+          "exists": true
+        }
+      },
+      "exact": true
+    },
+    {
+      "mode": 0,
+      "flags": 0,
+      "codec": 2,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "streams=0/9 bytes=0/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/.hidden\nstreams=1/9 bytes=9777/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/a.zzz\nstreams=2/9 bytes=17969/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/b.aaa\nstreams=3/9 bytes=26478/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/c.TXT\nstreams=4/9 bytes=35304/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/d.txt\nstreams=5/9 bytes=44447/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/e\nstreams=6/9 bytes=53907/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/g.z\nstreams=7/9 bytes=64635/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/trailing.\nstreams=8/9 bytes=74729/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/x\\component.dat\nstreams=9/9 bytes=85140/85140\nwrite=0\nblob=9460 offset=44655 solid=0 hash=00dfee290000600560bb95d0775888056102dd56\nblob=10411 offset=74937 solid=0 hash=b60d094a6a762d724ade060d322f116973157263\nblob=10094 offset=64843 solid=0 hash=565698750635f56208d6bbf019a15689994bc416\nblob=8509 offset=18177 solid=0 hash=e80c95f022ca088bb8e9a919cdf3a98f100a8942\nblob=10728 offset=54115 solid=0 hash=aa8c9d67ffbf32cdae841cf7080f5fbb4da73378\nblob=9777 offset=208 solid=0 hash=2a1bddc975275fd05955a3ae0a6658718f4f7b52\nblob=8826 offset=26686 solid=0 hash=bc0344fbffbd344323682835919d79d6d42c76bb\nblob=8192 offset=9985 solid=0 hash=4d7b2a36c5387decf799352a3751883b7ceb96aa\nblob=9143 offset=35512 solid=0 hash=eee123f5f6eb2b21f28c7e9c56a9c8c8e08379f3\nread=0\n",
+          "stderr": "",
+          "exists": true
+        },
+        "native": {
+          "status": 0,
+          "stdout": "streams=0/9 bytes=0/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/.hidden\nstreams=1/9 bytes=9777/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/a.zzz\nstreams=2/9 bytes=17969/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/b.aaa\nstreams=3/9 bytes=26478/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/c.TXT\nstreams=4/9 bytes=35304/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/d.txt\nstreams=5/9 bytes=44447/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/e\nstreams=6/9 bytes=53907/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/g.z\nstreams=7/9 bytes=64635/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/trailing.\nstreams=8/9 bytes=74729/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/x\\component.dat\nstreams=9/9 bytes=85140/85140\nwrite=0\nblob=9460 offset=44655 solid=0 hash=00dfee290000600560bb95d0775888056102dd56\nblob=10411 offset=74937 solid=0 hash=b60d094a6a762d724ade060d322f116973157263\nblob=10094 offset=64843 solid=0 hash=565698750635f56208d6bbf019a15689994bc416\nblob=8509 offset=18177 solid=0 hash=e80c95f022ca088bb8e9a919cdf3a98f100a8942\nblob=10728 offset=54115 solid=0 hash=aa8c9d67ffbf32cdae841cf7080f5fbb4da73378\nblob=9777 offset=208 solid=0 hash=2a1bddc975275fd05955a3ae0a6658718f4f7b52\nblob=8826 offset=26686 solid=0 hash=bc0344fbffbd344323682835919d79d6d42c76bb\nblob=8192 offset=9985 solid=0 hash=4d7b2a36c5387decf799352a3751883b7ceb96aa\nblob=9143 offset=35512 solid=0 hash=eee123f5f6eb2b21f28c7e9c56a9c8c8e08379f3\nread=0\n",
+          "stderr": "",
+          "exists": true
+        }
+      },
+      "exact": true
+    },
+    {
+      "mode": 0,
+      "flags": 16384,
+      "codec": 1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "streams=0/9 bytes=0/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/.hidden\nstreams=1/9 bytes=9777/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/a.zzz\nstreams=2/9 bytes=17969/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/b.aaa\nstreams=3/9 bytes=26478/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/c.TXT\nstreams=4/9 bytes=35304/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/d.txt\nstreams=5/9 bytes=44447/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/e\nstreams=6/9 bytes=53907/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/g.z\nstreams=7/9 bytes=64635/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/trailing.\nstreams=8/9 bytes=74729/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/x\\component.dat\nstreams=9/9 bytes=85140/85140\nwrite=0\nblob=9460 offset=44655 solid=0 hash=00dfee290000600560bb95d0775888056102dd56\nblob=10411 offset=74937 solid=0 hash=b60d094a6a762d724ade060d322f116973157263\nblob=10094 offset=64843 solid=0 hash=565698750635f56208d6bbf019a15689994bc416\nblob=8509 offset=18177 solid=0 hash=e80c95f022ca088bb8e9a919cdf3a98f100a8942\nblob=10728 offset=54115 solid=0 hash=aa8c9d67ffbf32cdae841cf7080f5fbb4da73378\nblob=9777 offset=208 solid=0 hash=2a1bddc975275fd05955a3ae0a6658718f4f7b52\nblob=8826 offset=26686 solid=0 hash=bc0344fbffbd344323682835919d79d6d42c76bb\nblob=8192 offset=9985 solid=0 hash=4d7b2a36c5387decf799352a3751883b7ceb96aa\nblob=9143 offset=35512 solid=0 hash=eee123f5f6eb2b21f28c7e9c56a9c8c8e08379f3\nread=0\n",
+          "stderr": "",
+          "exists": true
+        },
+        "native": {
+          "status": 0,
+          "stdout": "streams=0/9 bytes=0/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/.hidden\nstreams=1/9 bytes=9777/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/a.zzz\nstreams=2/9 bytes=17969/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/b.aaa\nstreams=3/9 bytes=26478/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/c.TXT\nstreams=4/9 bytes=35304/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/d.txt\nstreams=5/9 bytes=44447/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/e\nstreams=6/9 bytes=53907/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/g.z\nstreams=7/9 bytes=64635/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/trailing.\nstreams=8/9 bytes=74729/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/x\\component.dat\nstreams=9/9 bytes=85140/85140\nwrite=0\nblob=9460 offset=44655 solid=0 hash=00dfee290000600560bb95d0775888056102dd56\nblob=10411 offset=74937 solid=0 hash=b60d094a6a762d724ade060d322f116973157263\nblob=10094 offset=64843 solid=0 hash=565698750635f56208d6bbf019a15689994bc416\nblob=8509 offset=18177 solid=0 hash=e80c95f022ca088bb8e9a919cdf3a98f100a8942\nblob=10728 offset=54115 solid=0 hash=aa8c9d67ffbf32cdae841cf7080f5fbb4da73378\nblob=9777 offset=208 solid=0 hash=2a1bddc975275fd05955a3ae0a6658718f4f7b52\nblob=8826 offset=26686 solid=0 hash=bc0344fbffbd344323682835919d79d6d42c76bb\nblob=8192 offset=9985 solid=0 hash=4d7b2a36c5387decf799352a3751883b7ceb96aa\nblob=9143 offset=35512 solid=0 hash=eee123f5f6eb2b21f28c7e9c56a9c8c8e08379f3\nread=0\n",
+          "stderr": "",
+          "exists": true
+        }
+      },
+      "exact": true
+    },
+    {
+      "mode": 0,
+      "flags": 16384,
+      "codec": 2,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "streams=0/9 bytes=0/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/.hidden\nstreams=1/9 bytes=9777/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/a.zzz\nstreams=2/9 bytes=17969/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/b.aaa\nstreams=3/9 bytes=26478/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/c.TXT\nstreams=4/9 bytes=35304/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/d.txt\nstreams=5/9 bytes=44447/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/e\nstreams=6/9 bytes=53907/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/g.z\nstreams=7/9 bytes=64635/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/trailing.\nstreams=8/9 bytes=74729/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/x\\component.dat\nstreams=9/9 bytes=85140/85140\nwrite=0\nblob=9460 offset=44655 solid=0 hash=00dfee290000600560bb95d0775888056102dd56\nblob=10411 offset=74937 solid=0 hash=b60d094a6a762d724ade060d322f116973157263\nblob=10094 offset=64843 solid=0 hash=565698750635f56208d6bbf019a15689994bc416\nblob=8509 offset=18177 solid=0 hash=e80c95f022ca088bb8e9a919cdf3a98f100a8942\nblob=10728 offset=54115 solid=0 hash=aa8c9d67ffbf32cdae841cf7080f5fbb4da73378\nblob=9777 offset=208 solid=0 hash=2a1bddc975275fd05955a3ae0a6658718f4f7b52\nblob=8826 offset=26686 solid=0 hash=bc0344fbffbd344323682835919d79d6d42c76bb\nblob=8192 offset=9985 solid=0 hash=4d7b2a36c5387decf799352a3751883b7ceb96aa\nblob=9143 offset=35512 solid=0 hash=eee123f5f6eb2b21f28c7e9c56a9c8c8e08379f3\nread=0\n",
+          "stderr": "",
+          "exists": true
+        },
+        "native": {
+          "status": 0,
+          "stdout": "streams=0/9 bytes=0/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/.hidden\nstreams=1/9 bytes=9777/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/a.zzz\nstreams=2/9 bytes=17969/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/b.aaa\nstreams=3/9 bytes=26478/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/c.TXT\nstreams=4/9 bytes=35304/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/d.txt\nstreams=5/9 bytes=44447/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/e\nstreams=6/9 bytes=53907/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/g.z\nstreams=7/9 bytes=64635/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/trailing.\nstreams=8/9 bytes=74729/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/x\\component.dat\nstreams=9/9 bytes=85140/85140\nwrite=0\nblob=9460 offset=44655 solid=0 hash=00dfee290000600560bb95d0775888056102dd56\nblob=10411 offset=74937 solid=0 hash=b60d094a6a762d724ade060d322f116973157263\nblob=10094 offset=64843 solid=0 hash=565698750635f56208d6bbf019a15689994bc416\nblob=8509 offset=18177 solid=0 hash=e80c95f022ca088bb8e9a919cdf3a98f100a8942\nblob=10728 offset=54115 solid=0 hash=aa8c9d67ffbf32cdae841cf7080f5fbb4da73378\nblob=9777 offset=208 solid=0 hash=2a1bddc975275fd05955a3ae0a6658718f4f7b52\nblob=8826 offset=26686 solid=0 hash=bc0344fbffbd344323682835919d79d6d42c76bb\nblob=8192 offset=9985 solid=0 hash=4d7b2a36c5387decf799352a3751883b7ceb96aa\nblob=9143 offset=35512 solid=0 hash=eee123f5f6eb2b21f28c7e9c56a9c8c8e08379f3\nread=0\n",
+          "stderr": "",
+          "exists": true
+        }
+      },
+      "exact": true
+    },
+    {
+      "mode": 0,
+      "flags": 4096,
+      "codec": 1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "streams=0/9 bytes=0/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/e\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/trailing.\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/b.aaa\nstreams=3/9 bytes=32768/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/x\\component.dat\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/.hidden\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/c.TXT\nstreams=6/9 bytes=65536/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/d.txt\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/g.z\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/a.zzz\nstreams=9/9 bytes=85140/85140\nwrite=0\nblob=9460 offset=0 solid=1 hash=00dfee290000600560bb95d0775888056102dd56\nblob=10411 offset=28063 solid=1 hash=b60d094a6a762d724ade060d322f116973157263\nblob=10094 offset=9460 solid=1 hash=565698750635f56208d6bbf019a15689994bc416\nblob=8509 offset=19554 solid=1 hash=e80c95f022ca088bb8e9a919cdf3a98f100a8942\nblob=10728 offset=66220 solid=1 hash=aa8c9d67ffbf32cdae841cf7080f5fbb4da73378\nblob=9777 offset=38474 solid=1 hash=2a1bddc975275fd05955a3ae0a6658718f4f7b52\nblob=8826 offset=48251 solid=1 hash=bc0344fbffbd344323682835919d79d6d42c76bb\nblob=8192 offset=76948 solid=1 hash=4d7b2a36c5387decf799352a3751883b7ceb96aa\nblob=9143 offset=57077 solid=1 hash=eee123f5f6eb2b21f28c7e9c56a9c8c8e08379f3\nread=0\n",
+          "stderr": "",
+          "exists": true
+        },
+        "native": {
+          "status": 0,
+          "stdout": "streams=0/9 bytes=0/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/e\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/trailing.\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/b.aaa\nstreams=3/9 bytes=32768/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/x\\component.dat\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/.hidden\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/c.TXT\nstreams=6/9 bytes=65536/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/d.txt\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/g.z\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/a.zzz\nstreams=9/9 bytes=85140/85140\nwrite=0\nblob=9460 offset=0 solid=1 hash=00dfee290000600560bb95d0775888056102dd56\nblob=10411 offset=28063 solid=1 hash=b60d094a6a762d724ade060d322f116973157263\nblob=10094 offset=9460 solid=1 hash=565698750635f56208d6bbf019a15689994bc416\nblob=8509 offset=19554 solid=1 hash=e80c95f022ca088bb8e9a919cdf3a98f100a8942\nblob=10728 offset=66220 solid=1 hash=aa8c9d67ffbf32cdae841cf7080f5fbb4da73378\nblob=9777 offset=38474 solid=1 hash=2a1bddc975275fd05955a3ae0a6658718f4f7b52\nblob=8826 offset=48251 solid=1 hash=bc0344fbffbd344323682835919d79d6d42c76bb\nblob=8192 offset=76948 solid=1 hash=4d7b2a36c5387decf799352a3751883b7ceb96aa\nblob=9143 offset=57077 solid=1 hash=eee123f5f6eb2b21f28c7e9c56a9c8c8e08379f3\nread=0\n",
+          "stderr": "",
+          "exists": true
+        }
+      },
+      "exact": true
+    },
+    {
+      "mode": 0,
+      "flags": 4096,
+      "codec": 2,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "streams=0/9 bytes=0/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/e\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/trailing.\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/b.aaa\nstreams=3/9 bytes=32768/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/x\\component.dat\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/.hidden\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/c.TXT\nstreams=6/9 bytes=65536/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/d.txt\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/g.z\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/a.zzz\nstreams=9/9 bytes=85140/85140\nwrite=0\nblob=9460 offset=0 solid=1 hash=00dfee290000600560bb95d0775888056102dd56\nblob=10411 offset=28063 solid=1 hash=b60d094a6a762d724ade060d322f116973157263\nblob=10094 offset=9460 solid=1 hash=565698750635f56208d6bbf019a15689994bc416\nblob=8509 offset=19554 solid=1 hash=e80c95f022ca088bb8e9a919cdf3a98f100a8942\nblob=10728 offset=66220 solid=1 hash=aa8c9d67ffbf32cdae841cf7080f5fbb4da73378\nblob=9777 offset=38474 solid=1 hash=2a1bddc975275fd05955a3ae0a6658718f4f7b52\nblob=8826 offset=48251 solid=1 hash=bc0344fbffbd344323682835919d79d6d42c76bb\nblob=8192 offset=76948 solid=1 hash=4d7b2a36c5387decf799352a3751883b7ceb96aa\nblob=9143 offset=57077 solid=1 hash=eee123f5f6eb2b21f28c7e9c56a9c8c8e08379f3\nread=0\n",
+          "stderr": "",
+          "exists": true
+        },
+        "native": {
+          "status": 0,
+          "stdout": "streams=0/9 bytes=0/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/e\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/trailing.\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/b.aaa\nstreams=3/9 bytes=32768/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/x\\component.dat\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/.hidden\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/c.TXT\nstreams=6/9 bytes=65536/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/d.txt\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/g.z\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/a.zzz\nstreams=9/9 bytes=85140/85140\nwrite=0\nblob=9460 offset=0 solid=1 hash=00dfee290000600560bb95d0775888056102dd56\nblob=10411 offset=28063 solid=1 hash=b60d094a6a762d724ade060d322f116973157263\nblob=10094 offset=9460 solid=1 hash=565698750635f56208d6bbf019a15689994bc416\nblob=8509 offset=19554 solid=1 hash=e80c95f022ca088bb8e9a919cdf3a98f100a8942\nblob=10728 offset=66220 solid=1 hash=aa8c9d67ffbf32cdae841cf7080f5fbb4da73378\nblob=9777 offset=38474 solid=1 hash=2a1bddc975275fd05955a3ae0a6658718f4f7b52\nblob=8826 offset=48251 solid=1 hash=bc0344fbffbd344323682835919d79d6d42c76bb\nblob=8192 offset=76948 solid=1 hash=4d7b2a36c5387decf799352a3751883b7ceb96aa\nblob=9143 offset=57077 solid=1 hash=eee123f5f6eb2b21f28c7e9c56a9c8c8e08379f3\nread=0\n",
+          "stderr": "",
+          "exists": true
+        }
+      },
+      "exact": true
+    },
+    {
+      "mode": 0,
+      "flags": 20480,
+      "codec": 1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "streams=0/9 bytes=0/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/.hidden\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/a.zzz\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/b.aaa\nstreams=3/9 bytes=32768/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/c.TXT\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/d.txt\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/e\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/g.z\nstreams=7/9 bytes=65536/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/trailing.\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/x\\component.dat\nstreams=9/9 bytes=85140/85140\nwrite=0\nblob=9460 offset=44447 solid=1 hash=00dfee290000600560bb95d0775888056102dd56\nblob=10411 offset=74729 solid=1 hash=b60d094a6a762d724ade060d322f116973157263\nblob=10094 offset=64635 solid=1 hash=565698750635f56208d6bbf019a15689994bc416\nblob=8509 offset=17969 solid=1 hash=e80c95f022ca088bb8e9a919cdf3a98f100a8942\nblob=10728 offset=53907 solid=1 hash=aa8c9d67ffbf32cdae841cf7080f5fbb4da73378\nblob=9777 offset=0 solid=1 hash=2a1bddc975275fd05955a3ae0a6658718f4f7b52\nblob=8826 offset=26478 solid=1 hash=bc0344fbffbd344323682835919d79d6d42c76bb\nblob=8192 offset=9777 solid=1 hash=4d7b2a36c5387decf799352a3751883b7ceb96aa\nblob=9143 offset=35304 solid=1 hash=eee123f5f6eb2b21f28c7e9c56a9c8c8e08379f3\nread=0\n",
+          "stderr": "",
+          "exists": true
+        },
+        "native": {
+          "status": 0,
+          "stdout": "streams=0/9 bytes=0/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/.hidden\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/a.zzz\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/b.aaa\nstreams=3/9 bytes=32768/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/c.TXT\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/d.txt\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/e\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/g.z\nstreams=7/9 bytes=65536/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/trailing.\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/x\\component.dat\nstreams=9/9 bytes=85140/85140\nwrite=0\nblob=9460 offset=44447 solid=1 hash=00dfee290000600560bb95d0775888056102dd56\nblob=10411 offset=74729 solid=1 hash=b60d094a6a762d724ade060d322f116973157263\nblob=10094 offset=64635 solid=1 hash=565698750635f56208d6bbf019a15689994bc416\nblob=8509 offset=17969 solid=1 hash=e80c95f022ca088bb8e9a919cdf3a98f100a8942\nblob=10728 offset=53907 solid=1 hash=aa8c9d67ffbf32cdae841cf7080f5fbb4da73378\nblob=9777 offset=0 solid=1 hash=2a1bddc975275fd05955a3ae0a6658718f4f7b52\nblob=8826 offset=26478 solid=1 hash=bc0344fbffbd344323682835919d79d6d42c76bb\nblob=8192 offset=9777 solid=1 hash=4d7b2a36c5387decf799352a3751883b7ceb96aa\nblob=9143 offset=35304 solid=1 hash=eee123f5f6eb2b21f28c7e9c56a9c8c8e08379f3\nread=0\n",
+          "stderr": "",
+          "exists": true
+        }
+      },
+      "exact": true
+    },
+    {
+      "mode": 0,
+      "flags": 20480,
+      "codec": 2,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "streams=0/9 bytes=0/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/.hidden\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/a.zzz\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/b.aaa\nstreams=3/9 bytes=32768/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/c.TXT\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/d.txt\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/e\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/g.z\nstreams=7/9 bytes=65536/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/trailing.\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/x\\component.dat\nstreams=9/9 bytes=85140/85140\nwrite=0\nblob=9460 offset=44447 solid=1 hash=00dfee290000600560bb95d0775888056102dd56\nblob=10411 offset=74729 solid=1 hash=b60d094a6a762d724ade060d322f116973157263\nblob=10094 offset=64635 solid=1 hash=565698750635f56208d6bbf019a15689994bc416\nblob=8509 offset=17969 solid=1 hash=e80c95f022ca088bb8e9a919cdf3a98f100a8942\nblob=10728 offset=53907 solid=1 hash=aa8c9d67ffbf32cdae841cf7080f5fbb4da73378\nblob=9777 offset=0 solid=1 hash=2a1bddc975275fd05955a3ae0a6658718f4f7b52\nblob=8826 offset=26478 solid=1 hash=bc0344fbffbd344323682835919d79d6d42c76bb\nblob=8192 offset=9777 solid=1 hash=4d7b2a36c5387decf799352a3751883b7ceb96aa\nblob=9143 offset=35304 solid=1 hash=eee123f5f6eb2b21f28c7e9c56a9c8c8e08379f3\nread=0\n",
+          "stderr": "",
+          "exists": true
+        },
+        "native": {
+          "status": 0,
+          "stdout": "streams=0/9 bytes=0/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/.hidden\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/a.zzz\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/b.aaa\nstreams=3/9 bytes=32768/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/c.TXT\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/d.txt\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/e\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/g.z\nstreams=7/9 bytes=65536/85140\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/trailing.\ndone=/tmp/wim-solid-sort-_2_h4e3h/files/x\\component.dat\nstreams=9/9 bytes=85140/85140\nwrite=0\nblob=9460 offset=44447 solid=1 hash=00dfee290000600560bb95d0775888056102dd56\nblob=10411 offset=74729 solid=1 hash=b60d094a6a762d724ade060d322f116973157263\nblob=10094 offset=64635 solid=1 hash=565698750635f56208d6bbf019a15689994bc416\nblob=8509 offset=17969 solid=1 hash=e80c95f022ca088bb8e9a919cdf3a98f100a8942\nblob=10728 offset=53907 solid=1 hash=aa8c9d67ffbf32cdae841cf7080f5fbb4da73378\nblob=9777 offset=0 solid=1 hash=2a1bddc975275fd05955a3ae0a6658718f4f7b52\nblob=8826 offset=26478 solid=1 hash=bc0344fbffbd344323682835919d79d6d42c76bb\nblob=8192 offset=9777 solid=1 hash=4d7b2a36c5387decf799352a3751883b7ceb96aa\nblob=9143 offset=35304 solid=1 hash=eee123f5f6eb2b21f28c7e9c56a9c8c8e08379f3\nread=0\n",
+          "stderr": "",
+          "exists": true
+        }
+      },
+      "exact": true
+    },
+    {
+      "mode": 1,
+      "flags": 0,
+      "codec": 1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "streams=0/9 bytes=0/85140\nstreams=1/9 bytes=9777/85140\nstreams=2/9 bytes=17969/85140\nstreams=3/9 bytes=26478/85140\nstreams=4/9 bytes=35304/85140\nstreams=5/9 bytes=44447/85140\nstreams=6/9 bytes=53907/85140\nstreams=7/9 bytes=64635/85140\nstreams=8/9 bytes=74729/85140\nstreams=9/9 bytes=85140/85140\nwrite=0\nblob=9460 offset=44655 solid=0 hash=00dfee290000600560bb95d0775888056102dd56\nblob=10411 offset=74937 solid=0 hash=b60d094a6a762d724ade060d322f116973157263\nblob=10094 offset=64843 solid=0 hash=565698750635f56208d6bbf019a15689994bc416\nblob=8509 offset=18177 solid=0 hash=e80c95f022ca088bb8e9a919cdf3a98f100a8942\nblob=10728 offset=54115 solid=0 hash=aa8c9d67ffbf32cdae841cf7080f5fbb4da73378\nblob=9777 offset=208 solid=0 hash=2a1bddc975275fd05955a3ae0a6658718f4f7b52\nblob=8826 offset=26686 solid=0 hash=bc0344fbffbd344323682835919d79d6d42c76bb\nblob=8192 offset=9985 solid=0 hash=4d7b2a36c5387decf799352a3751883b7ceb96aa\nblob=9143 offset=35512 solid=0 hash=eee123f5f6eb2b21f28c7e9c56a9c8c8e08379f3\nread=0\n",
+          "stderr": "",
+          "exists": true
+        },
+        "native": {
+          "status": 0,
+          "stdout": "streams=0/9 bytes=0/85140\nstreams=1/9 bytes=9777/85140\nstreams=2/9 bytes=17969/85140\nstreams=3/9 bytes=26478/85140\nstreams=4/9 bytes=35304/85140\nstreams=5/9 bytes=44447/85140\nstreams=6/9 bytes=53907/85140\nstreams=7/9 bytes=64635/85140\nstreams=8/9 bytes=74729/85140\nstreams=9/9 bytes=85140/85140\nwrite=0\nblob=9460 offset=44655 solid=0 hash=00dfee290000600560bb95d0775888056102dd56\nblob=10411 offset=74937 solid=0 hash=b60d094a6a762d724ade060d322f116973157263\nblob=10094 offset=64843 solid=0 hash=565698750635f56208d6bbf019a15689994bc416\nblob=8509 offset=18177 solid=0 hash=e80c95f022ca088bb8e9a919cdf3a98f100a8942\nblob=10728 offset=54115 solid=0 hash=aa8c9d67ffbf32cdae841cf7080f5fbb4da73378\nblob=9777 offset=208 solid=0 hash=2a1bddc975275fd05955a3ae0a6658718f4f7b52\nblob=8826 offset=26686 solid=0 hash=bc0344fbffbd344323682835919d79d6d42c76bb\nblob=8192 offset=9985 solid=0 hash=4d7b2a36c5387decf799352a3751883b7ceb96aa\nblob=9143 offset=35512 solid=0 hash=eee123f5f6eb2b21f28c7e9c56a9c8c8e08379f3\nread=0\n",
+          "stderr": "",
+          "exists": true
+        }
+      },
+      "exact": true
+    },
+    {
+      "mode": 1,
+      "flags": 0,
+      "codec": 2,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "streams=0/9 bytes=0/85140\nstreams=1/9 bytes=9777/85140\nstreams=2/9 bytes=17969/85140\nstreams=3/9 bytes=26478/85140\nstreams=4/9 bytes=35304/85140\nstreams=5/9 bytes=44447/85140\nstreams=6/9 bytes=53907/85140\nstreams=7/9 bytes=64635/85140\nstreams=8/9 bytes=74729/85140\nstreams=9/9 bytes=85140/85140\nwrite=0\nblob=9460 offset=44655 solid=0 hash=00dfee290000600560bb95d0775888056102dd56\nblob=10411 offset=74937 solid=0 hash=b60d094a6a762d724ade060d322f116973157263\nblob=10094 offset=64843 solid=0 hash=565698750635f56208d6bbf019a15689994bc416\nblob=8509 offset=18177 solid=0 hash=e80c95f022ca088bb8e9a919cdf3a98f100a8942\nblob=10728 offset=54115 solid=0 hash=aa8c9d67ffbf32cdae841cf7080f5fbb4da73378\nblob=9777 offset=208 solid=0 hash=2a1bddc975275fd05955a3ae0a6658718f4f7b52\nblob=8826 offset=26686 solid=0 hash=bc0344fbffbd344323682835919d79d6d42c76bb\nblob=8192 offset=9985 solid=0 hash=4d7b2a36c5387decf799352a3751883b7ceb96aa\nblob=9143 offset=35512 solid=0 hash=eee123f5f6eb2b21f28c7e9c56a9c8c8e08379f3\nread=0\n",
+          "stderr": "",
+          "exists": true
+        },
+        "native": {
+          "status": 0,
+          "stdout": "streams=0/9 bytes=0/85140\nstreams=1/9 bytes=9777/85140\nstreams=2/9 bytes=17969/85140\nstreams=3/9 bytes=26478/85140\nstreams=4/9 bytes=35304/85140\nstreams=5/9 bytes=44447/85140\nstreams=6/9 bytes=53907/85140\nstreams=7/9 bytes=64635/85140\nstreams=8/9 bytes=74729/85140\nstreams=9/9 bytes=85140/85140\nwrite=0\nblob=9460 offset=44655 solid=0 hash=00dfee290000600560bb95d0775888056102dd56\nblob=10411 offset=74937 solid=0 hash=b60d094a6a762d724ade060d322f116973157263\nblob=10094 offset=64843 solid=0 hash=565698750635f56208d6bbf019a15689994bc416\nblob=8509 offset=18177 solid=0 hash=e80c95f022ca088bb8e9a919cdf3a98f100a8942\nblob=10728 offset=54115 solid=0 hash=aa8c9d67ffbf32cdae841cf7080f5fbb4da73378\nblob=9777 offset=208 solid=0 hash=2a1bddc975275fd05955a3ae0a6658718f4f7b52\nblob=8826 offset=26686 solid=0 hash=bc0344fbffbd344323682835919d79d6d42c76bb\nblob=8192 offset=9985 solid=0 hash=4d7b2a36c5387decf799352a3751883b7ceb96aa\nblob=9143 offset=35512 solid=0 hash=eee123f5f6eb2b21f28c7e9c56a9c8c8e08379f3\nread=0\n",
+          "stderr": "",
+          "exists": true
+        }
+      },
+      "exact": true
+    },
+    {
+      "mode": 1,
+      "flags": 16384,
+      "codec": 1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "streams=0/9 bytes=0/85140\nstreams=1/9 bytes=9777/85140\nstreams=2/9 bytes=17969/85140\nstreams=3/9 bytes=26478/85140\nstreams=4/9 bytes=35304/85140\nstreams=5/9 bytes=44447/85140\nstreams=6/9 bytes=53907/85140\nstreams=7/9 bytes=64635/85140\nstreams=8/9 bytes=74729/85140\nstreams=9/9 bytes=85140/85140\nwrite=0\nblob=9460 offset=44655 solid=0 hash=00dfee290000600560bb95d0775888056102dd56\nblob=10411 offset=74937 solid=0 hash=b60d094a6a762d724ade060d322f116973157263\nblob=10094 offset=64843 solid=0 hash=565698750635f56208d6bbf019a15689994bc416\nblob=8509 offset=18177 solid=0 hash=e80c95f022ca088bb8e9a919cdf3a98f100a8942\nblob=10728 offset=54115 solid=0 hash=aa8c9d67ffbf32cdae841cf7080f5fbb4da73378\nblob=9777 offset=208 solid=0 hash=2a1bddc975275fd05955a3ae0a6658718f4f7b52\nblob=8826 offset=26686 solid=0 hash=bc0344fbffbd344323682835919d79d6d42c76bb\nblob=8192 offset=9985 solid=0 hash=4d7b2a36c5387decf799352a3751883b7ceb96aa\nblob=9143 offset=35512 solid=0 hash=eee123f5f6eb2b21f28c7e9c56a9c8c8e08379f3\nread=0\n",
+          "stderr": "",
+          "exists": true
+        },
+        "native": {
+          "status": 0,
+          "stdout": "streams=0/9 bytes=0/85140\nstreams=1/9 bytes=9777/85140\nstreams=2/9 bytes=17969/85140\nstreams=3/9 bytes=26478/85140\nstreams=4/9 bytes=35304/85140\nstreams=5/9 bytes=44447/85140\nstreams=6/9 bytes=53907/85140\nstreams=7/9 bytes=64635/85140\nstreams=8/9 bytes=74729/85140\nstreams=9/9 bytes=85140/85140\nwrite=0\nblob=9460 offset=44655 solid=0 hash=00dfee290000600560bb95d0775888056102dd56\nblob=10411 offset=74937 solid=0 hash=b60d094a6a762d724ade060d322f116973157263\nblob=10094 offset=64843 solid=0 hash=565698750635f56208d6bbf019a15689994bc416\nblob=8509 offset=18177 solid=0 hash=e80c95f022ca088bb8e9a919cdf3a98f100a8942\nblob=10728 offset=54115 solid=0 hash=aa8c9d67ffbf32cdae841cf7080f5fbb4da73378\nblob=9777 offset=208 solid=0 hash=2a1bddc975275fd05955a3ae0a6658718f4f7b52\nblob=8826 offset=26686 solid=0 hash=bc0344fbffbd344323682835919d79d6d42c76bb\nblob=8192 offset=9985 solid=0 hash=4d7b2a36c5387decf799352a3751883b7ceb96aa\nblob=9143 offset=35512 solid=0 hash=eee123f5f6eb2b21f28c7e9c56a9c8c8e08379f3\nread=0\n",
+          "stderr": "",
+          "exists": true
+        }
+      },
+      "exact": true
+    },
+    {
+      "mode": 1,
+      "flags": 16384,
+      "codec": 2,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "streams=0/9 bytes=0/85140\nstreams=1/9 bytes=9777/85140\nstreams=2/9 bytes=17969/85140\nstreams=3/9 bytes=26478/85140\nstreams=4/9 bytes=35304/85140\nstreams=5/9 bytes=44447/85140\nstreams=6/9 bytes=53907/85140\nstreams=7/9 bytes=64635/85140\nstreams=8/9 bytes=74729/85140\nstreams=9/9 bytes=85140/85140\nwrite=0\nblob=9460 offset=44655 solid=0 hash=00dfee290000600560bb95d0775888056102dd56\nblob=10411 offset=74937 solid=0 hash=b60d094a6a762d724ade060d322f116973157263\nblob=10094 offset=64843 solid=0 hash=565698750635f56208d6bbf019a15689994bc416\nblob=8509 offset=18177 solid=0 hash=e80c95f022ca088bb8e9a919cdf3a98f100a8942\nblob=10728 offset=54115 solid=0 hash=aa8c9d67ffbf32cdae841cf7080f5fbb4da73378\nblob=9777 offset=208 solid=0 hash=2a1bddc975275fd05955a3ae0a6658718f4f7b52\nblob=8826 offset=26686 solid=0 hash=bc0344fbffbd344323682835919d79d6d42c76bb\nblob=8192 offset=9985 solid=0 hash=4d7b2a36c5387decf799352a3751883b7ceb96aa\nblob=9143 offset=35512 solid=0 hash=eee123f5f6eb2b21f28c7e9c56a9c8c8e08379f3\nread=0\n",
+          "stderr": "",
+          "exists": true
+        },
+        "native": {
+          "status": 0,
+          "stdout": "streams=0/9 bytes=0/85140\nstreams=1/9 bytes=9777/85140\nstreams=2/9 bytes=17969/85140\nstreams=3/9 bytes=26478/85140\nstreams=4/9 bytes=35304/85140\nstreams=5/9 bytes=44447/85140\nstreams=6/9 bytes=53907/85140\nstreams=7/9 bytes=64635/85140\nstreams=8/9 bytes=74729/85140\nstreams=9/9 bytes=85140/85140\nwrite=0\nblob=9460 offset=44655 solid=0 hash=00dfee290000600560bb95d0775888056102dd56\nblob=10411 offset=74937 solid=0 hash=b60d094a6a762d724ade060d322f116973157263\nblob=10094 offset=64843 solid=0 hash=565698750635f56208d6bbf019a15689994bc416\nblob=8509 offset=18177 solid=0 hash=e80c95f022ca088bb8e9a919cdf3a98f100a8942\nblob=10728 offset=54115 solid=0 hash=aa8c9d67ffbf32cdae841cf7080f5fbb4da73378\nblob=9777 offset=208 solid=0 hash=2a1bddc975275fd05955a3ae0a6658718f4f7b52\nblob=8826 offset=26686 solid=0 hash=bc0344fbffbd344323682835919d79d6d42c76bb\nblob=8192 offset=9985 solid=0 hash=4d7b2a36c5387decf799352a3751883b7ceb96aa\nblob=9143 offset=35512 solid=0 hash=eee123f5f6eb2b21f28c7e9c56a9c8c8e08379f3\nread=0\n",
+          "stderr": "",
+          "exists": true
+        }
+      },
+      "exact": true
+    },
+    {
+      "mode": 1,
+      "flags": 4096,
+      "codec": 1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "streams=0/9 bytes=0/85140\nstreams=3/9 bytes=32768/85140\nstreams=6/9 bytes=65536/85140\nstreams=9/9 bytes=85140/85140\nwrite=0\nblob=9460 offset=0 solid=1 hash=00dfee290000600560bb95d0775888056102dd56\nblob=10411 offset=28063 solid=1 hash=b60d094a6a762d724ade060d322f116973157263\nblob=10094 offset=9460 solid=1 hash=565698750635f56208d6bbf019a15689994bc416\nblob=8509 offset=19554 solid=1 hash=e80c95f022ca088bb8e9a919cdf3a98f100a8942\nblob=10728 offset=66220 solid=1 hash=aa8c9d67ffbf32cdae841cf7080f5fbb4da73378\nblob=9777 offset=38474 solid=1 hash=2a1bddc975275fd05955a3ae0a6658718f4f7b52\nblob=8826 offset=48251 solid=1 hash=bc0344fbffbd344323682835919d79d6d42c76bb\nblob=8192 offset=76948 solid=1 hash=4d7b2a36c5387decf799352a3751883b7ceb96aa\nblob=9143 offset=57077 solid=1 hash=eee123f5f6eb2b21f28c7e9c56a9c8c8e08379f3\nread=0\n",
+          "stderr": "",
+          "exists": true
+        },
+        "native": {
+          "status": 0,
+          "stdout": "streams=0/9 bytes=0/85140\nstreams=3/9 bytes=32768/85140\nstreams=6/9 bytes=65536/85140\nstreams=9/9 bytes=85140/85140\nwrite=0\nblob=9460 offset=0 solid=1 hash=00dfee290000600560bb95d0775888056102dd56\nblob=10411 offset=28063 solid=1 hash=b60d094a6a762d724ade060d322f116973157263\nblob=10094 offset=9460 solid=1 hash=565698750635f56208d6bbf019a15689994bc416\nblob=8509 offset=19554 solid=1 hash=e80c95f022ca088bb8e9a919cdf3a98f100a8942\nblob=10728 offset=66220 solid=1 hash=aa8c9d67ffbf32cdae841cf7080f5fbb4da73378\nblob=9777 offset=38474 solid=1 hash=2a1bddc975275fd05955a3ae0a6658718f4f7b52\nblob=8826 offset=48251 solid=1 hash=bc0344fbffbd344323682835919d79d6d42c76bb\nblob=8192 offset=76948 solid=1 hash=4d7b2a36c5387decf799352a3751883b7ceb96aa\nblob=9143 offset=57077 solid=1 hash=eee123f5f6eb2b21f28c7e9c56a9c8c8e08379f3\nread=0\n",
+          "stderr": "",
+          "exists": true
+        }
+      },
+      "exact": true
+    },
+    {
+      "mode": 1,
+      "flags": 4096,
+      "codec": 2,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "streams=0/9 bytes=0/85140\nstreams=3/9 bytes=32768/85140\nstreams=6/9 bytes=65536/85140\nstreams=9/9 bytes=85140/85140\nwrite=0\nblob=9460 offset=0 solid=1 hash=00dfee290000600560bb95d0775888056102dd56\nblob=10411 offset=28063 solid=1 hash=b60d094a6a762d724ade060d322f116973157263\nblob=10094 offset=9460 solid=1 hash=565698750635f56208d6bbf019a15689994bc416\nblob=8509 offset=19554 solid=1 hash=e80c95f022ca088bb8e9a919cdf3a98f100a8942\nblob=10728 offset=66220 solid=1 hash=aa8c9d67ffbf32cdae841cf7080f5fbb4da73378\nblob=9777 offset=38474 solid=1 hash=2a1bddc975275fd05955a3ae0a6658718f4f7b52\nblob=8826 offset=48251 solid=1 hash=bc0344fbffbd344323682835919d79d6d42c76bb\nblob=8192 offset=76948 solid=1 hash=4d7b2a36c5387decf799352a3751883b7ceb96aa\nblob=9143 offset=57077 solid=1 hash=eee123f5f6eb2b21f28c7e9c56a9c8c8e08379f3\nread=0\n",
+          "stderr": "",
+          "exists": true
+        },
+        "native": {
+          "status": 0,
+          "stdout": "streams=0/9 bytes=0/85140\nstreams=3/9 bytes=32768/85140\nstreams=6/9 bytes=65536/85140\nstreams=9/9 bytes=85140/85140\nwrite=0\nblob=9460 offset=0 solid=1 hash=00dfee290000600560bb95d0775888056102dd56\nblob=10411 offset=28063 solid=1 hash=b60d094a6a762d724ade060d322f116973157263\nblob=10094 offset=9460 solid=1 hash=565698750635f56208d6bbf019a15689994bc416\nblob=8509 offset=19554 solid=1 hash=e80c95f022ca088bb8e9a919cdf3a98f100a8942\nblob=10728 offset=66220 solid=1 hash=aa8c9d67ffbf32cdae841cf7080f5fbb4da73378\nblob=9777 offset=38474 solid=1 hash=2a1bddc975275fd05955a3ae0a6658718f4f7b52\nblob=8826 offset=48251 solid=1 hash=bc0344fbffbd344323682835919d79d6d42c76bb\nblob=8192 offset=76948 solid=1 hash=4d7b2a36c5387decf799352a3751883b7ceb96aa\nblob=9143 offset=57077 solid=1 hash=eee123f5f6eb2b21f28c7e9c56a9c8c8e08379f3\nread=0\n",
+          "stderr": "",
+          "exists": true
+        }
+      },
+      "exact": true
+    },
+    {
+      "mode": 1,
+      "flags": 20480,
+      "codec": 1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "streams=0/9 bytes=0/85140\nstreams=3/9 bytes=32768/85140\nstreams=7/9 bytes=65536/85140\nstreams=9/9 bytes=85140/85140\nwrite=0\nblob=9460 offset=44447 solid=1 hash=00dfee290000600560bb95d0775888056102dd56\nblob=10411 offset=74729 solid=1 hash=b60d094a6a762d724ade060d322f116973157263\nblob=10094 offset=64635 solid=1 hash=565698750635f56208d6bbf019a15689994bc416\nblob=8509 offset=17969 solid=1 hash=e80c95f022ca088bb8e9a919cdf3a98f100a8942\nblob=10728 offset=53907 solid=1 hash=aa8c9d67ffbf32cdae841cf7080f5fbb4da73378\nblob=9777 offset=0 solid=1 hash=2a1bddc975275fd05955a3ae0a6658718f4f7b52\nblob=8826 offset=26478 solid=1 hash=bc0344fbffbd344323682835919d79d6d42c76bb\nblob=8192 offset=9777 solid=1 hash=4d7b2a36c5387decf799352a3751883b7ceb96aa\nblob=9143 offset=35304 solid=1 hash=eee123f5f6eb2b21f28c7e9c56a9c8c8e08379f3\nread=0\n",
+          "stderr": "",
+          "exists": true
+        },
+        "native": {
+          "status": 0,
+          "stdout": "streams=0/9 bytes=0/85140\nstreams=3/9 bytes=32768/85140\nstreams=7/9 bytes=65536/85140\nstreams=9/9 bytes=85140/85140\nwrite=0\nblob=9460 offset=44447 solid=1 hash=00dfee290000600560bb95d0775888056102dd56\nblob=10411 offset=74729 solid=1 hash=b60d094a6a762d724ade060d322f116973157263\nblob=10094 offset=64635 solid=1 hash=565698750635f56208d6bbf019a15689994bc416\nblob=8509 offset=17969 solid=1 hash=e80c95f022ca088bb8e9a919cdf3a98f100a8942\nblob=10728 offset=53907 solid=1 hash=aa8c9d67ffbf32cdae841cf7080f5fbb4da73378\nblob=9777 offset=0 solid=1 hash=2a1bddc975275fd05955a3ae0a6658718f4f7b52\nblob=8826 offset=26478 solid=1 hash=bc0344fbffbd344323682835919d79d6d42c76bb\nblob=8192 offset=9777 solid=1 hash=4d7b2a36c5387decf799352a3751883b7ceb96aa\nblob=9143 offset=35304 solid=1 hash=eee123f5f6eb2b21f28c7e9c56a9c8c8e08379f3\nread=0\n",
+          "stderr": "",
+          "exists": true
+        }
+      },
+      "exact": true
+    },
+    {
+      "mode": 1,
+      "flags": 20480,
+      "codec": 2,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "streams=0/9 bytes=0/85140\nstreams=3/9 bytes=32768/85140\nstreams=7/9 bytes=65536/85140\nstreams=9/9 bytes=85140/85140\nwrite=0\nblob=9460 offset=44447 solid=1 hash=00dfee290000600560bb95d0775888056102dd56\nblob=10411 offset=74729 solid=1 hash=b60d094a6a762d724ade060d322f116973157263\nblob=10094 offset=64635 solid=1 hash=565698750635f56208d6bbf019a15689994bc416\nblob=8509 offset=17969 solid=1 hash=e80c95f022ca088bb8e9a919cdf3a98f100a8942\nblob=10728 offset=53907 solid=1 hash=aa8c9d67ffbf32cdae841cf7080f5fbb4da73378\nblob=9777 offset=0 solid=1 hash=2a1bddc975275fd05955a3ae0a6658718f4f7b52\nblob=8826 offset=26478 solid=1 hash=bc0344fbffbd344323682835919d79d6d42c76bb\nblob=8192 offset=9777 solid=1 hash=4d7b2a36c5387decf799352a3751883b7ceb96aa\nblob=9143 offset=35304 solid=1 hash=eee123f5f6eb2b21f28c7e9c56a9c8c8e08379f3\nread=0\n",
+          "stderr": "",
+          "exists": true
+        },
+        "native": {
+          "status": 0,
+          "stdout": "streams=0/9 bytes=0/85140\nstreams=3/9 bytes=32768/85140\nstreams=7/9 bytes=65536/85140\nstreams=9/9 bytes=85140/85140\nwrite=0\nblob=9460 offset=44447 solid=1 hash=00dfee290000600560bb95d0775888056102dd56\nblob=10411 offset=74729 solid=1 hash=b60d094a6a762d724ade060d322f116973157263\nblob=10094 offset=64635 solid=1 hash=565698750635f56208d6bbf019a15689994bc416\nblob=8509 offset=17969 solid=1 hash=e80c95f022ca088bb8e9a919cdf3a98f100a8942\nblob=10728 offset=53907 solid=1 hash=aa8c9d67ffbf32cdae841cf7080f5fbb4da73378\nblob=9777 offset=0 solid=1 hash=2a1bddc975275fd05955a3ae0a6658718f4f7b52\nblob=8826 offset=26478 solid=1 hash=bc0344fbffbd344323682835919d79d6d42c76bb\nblob=8192 offset=9777 solid=1 hash=4d7b2a36c5387decf799352a3751883b7ceb96aa\nblob=9143 offset=35304 solid=1 hash=eee123f5f6eb2b21f28c7e9c56a9c8c8e08379f3\nread=0\n",
+          "stderr": "",
+          "exists": true
+        }
+      },
+      "exact": true
+    },
+    {
+      "mode": 2,
+      "flags": 0,
+      "codec": 1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "streams=0/9 bytes=0/85140\nstreams=1/9 bytes=9460/85140\nstreams=2/9 bytes=19554/85140\nstreams=3/9 bytes=28063/85140\nstreams=4/9 bytes=38474/85140\nstreams=5/9 bytes=48251/85140\nstreams=6/9 bytes=57077/85140\nstreams=7/9 bytes=66220/85140\nstreams=8/9 bytes=76948/85140\nstreams=9/9 bytes=85140/85140\nwrite=0\nblob=9460 offset=208 solid=0 hash=00dfee290000600560bb95d0775888056102dd56\nblob=10411 offset=28271 solid=0 hash=b60d094a6a762d724ade060d322f116973157263\nblob=10094 offset=9668 solid=0 hash=565698750635f56208d6bbf019a15689994bc416\nblob=8509 offset=19762 solid=0 hash=e80c95f022ca088bb8e9a919cdf3a98f100a8942\nblob=10728 offset=66428 solid=0 hash=aa8c9d67ffbf32cdae841cf7080f5fbb4da73378\nblob=9777 offset=38682 solid=0 hash=2a1bddc975275fd05955a3ae0a6658718f4f7b52\nblob=8826 offset=48459 solid=0 hash=bc0344fbffbd344323682835919d79d6d42c76bb\nblob=8192 offset=77156 solid=0 hash=4d7b2a36c5387decf799352a3751883b7ceb96aa\nblob=9143 offset=57285 solid=0 hash=eee123f5f6eb2b21f28c7e9c56a9c8c8e08379f3\nread=0\n",
+          "stderr": "",
+          "exists": true
+        },
+        "native": {
+          "status": 0,
+          "stdout": "streams=0/9 bytes=0/85140\nstreams=1/9 bytes=9460/85140\nstreams=2/9 bytes=19554/85140\nstreams=3/9 bytes=28063/85140\nstreams=4/9 bytes=38474/85140\nstreams=5/9 bytes=48251/85140\nstreams=6/9 bytes=57077/85140\nstreams=7/9 bytes=66220/85140\nstreams=8/9 bytes=76948/85140\nstreams=9/9 bytes=85140/85140\nwrite=0\nblob=9460 offset=208 solid=0 hash=00dfee290000600560bb95d0775888056102dd56\nblob=10411 offset=28271 solid=0 hash=b60d094a6a762d724ade060d322f116973157263\nblob=10094 offset=9668 solid=0 hash=565698750635f56208d6bbf019a15689994bc416\nblob=8509 offset=19762 solid=0 hash=e80c95f022ca088bb8e9a919cdf3a98f100a8942\nblob=10728 offset=66428 solid=0 hash=aa8c9d67ffbf32cdae841cf7080f5fbb4da73378\nblob=9777 offset=38682 solid=0 hash=2a1bddc975275fd05955a3ae0a6658718f4f7b52\nblob=8826 offset=48459 solid=0 hash=bc0344fbffbd344323682835919d79d6d42c76bb\nblob=8192 offset=77156 solid=0 hash=4d7b2a36c5387decf799352a3751883b7ceb96aa\nblob=9143 offset=57285 solid=0 hash=eee123f5f6eb2b21f28c7e9c56a9c8c8e08379f3\nread=0\n",
+          "stderr": "",
+          "exists": true
+        }
+      },
+      "exact": true
+    },
+    {
+      "mode": 2,
+      "flags": 0,
+      "codec": 2,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "streams=0/9 bytes=0/85140\nstreams=1/9 bytes=9460/85140\nstreams=2/9 bytes=19554/85140\nstreams=3/9 bytes=28063/85140\nstreams=4/9 bytes=38474/85140\nstreams=5/9 bytes=48251/85140\nstreams=6/9 bytes=57077/85140\nstreams=7/9 bytes=66220/85140\nstreams=8/9 bytes=76948/85140\nstreams=9/9 bytes=85140/85140\nwrite=0\nblob=9460 offset=208 solid=0 hash=00dfee290000600560bb95d0775888056102dd56\nblob=10411 offset=28271 solid=0 hash=b60d094a6a762d724ade060d322f116973157263\nblob=10094 offset=9668 solid=0 hash=565698750635f56208d6bbf019a15689994bc416\nblob=8509 offset=19762 solid=0 hash=e80c95f022ca088bb8e9a919cdf3a98f100a8942\nblob=10728 offset=66428 solid=0 hash=aa8c9d67ffbf32cdae841cf7080f5fbb4da73378\nblob=9777 offset=38682 solid=0 hash=2a1bddc975275fd05955a3ae0a6658718f4f7b52\nblob=8826 offset=48459 solid=0 hash=bc0344fbffbd344323682835919d79d6d42c76bb\nblob=8192 offset=77156 solid=0 hash=4d7b2a36c5387decf799352a3751883b7ceb96aa\nblob=9143 offset=57285 solid=0 hash=eee123f5f6eb2b21f28c7e9c56a9c8c8e08379f3\nread=0\n",
+          "stderr": "",
+          "exists": true
+        },
+        "native": {
+          "status": 0,
+          "stdout": "streams=0/9 bytes=0/85140\nstreams=1/9 bytes=9460/85140\nstreams=2/9 bytes=19554/85140\nstreams=3/9 bytes=28063/85140\nstreams=4/9 bytes=38474/85140\nstreams=5/9 bytes=48251/85140\nstreams=6/9 bytes=57077/85140\nstreams=7/9 bytes=66220/85140\nstreams=8/9 bytes=76948/85140\nstreams=9/9 bytes=85140/85140\nwrite=0\nblob=9460 offset=208 solid=0 hash=00dfee290000600560bb95d0775888056102dd56\nblob=10411 offset=28271 solid=0 hash=b60d094a6a762d724ade060d322f116973157263\nblob=10094 offset=9668 solid=0 hash=565698750635f56208d6bbf019a15689994bc416\nblob=8509 offset=19762 solid=0 hash=e80c95f022ca088bb8e9a919cdf3a98f100a8942\nblob=10728 offset=66428 solid=0 hash=aa8c9d67ffbf32cdae841cf7080f5fbb4da73378\nblob=9777 offset=38682 solid=0 hash=2a1bddc975275fd05955a3ae0a6658718f4f7b52\nblob=8826 offset=48459 solid=0 hash=bc0344fbffbd344323682835919d79d6d42c76bb\nblob=8192 offset=77156 solid=0 hash=4d7b2a36c5387decf799352a3751883b7ceb96aa\nblob=9143 offset=57285 solid=0 hash=eee123f5f6eb2b21f28c7e9c56a9c8c8e08379f3\nread=0\n",
+          "stderr": "",
+          "exists": true
+        }
+      },
+      "exact": true
+    },
+    {
+      "mode": 2,
+      "flags": 16384,
+      "codec": 1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "streams=0/9 bytes=0/85140\nstreams=1/9 bytes=9460/85140\nstreams=2/9 bytes=19554/85140\nstreams=3/9 bytes=28063/85140\nstreams=4/9 bytes=38474/85140\nstreams=5/9 bytes=48251/85140\nstreams=6/9 bytes=57077/85140\nstreams=7/9 bytes=66220/85140\nstreams=8/9 bytes=76948/85140\nstreams=9/9 bytes=85140/85140\nwrite=0\nblob=9460 offset=208 solid=0 hash=00dfee290000600560bb95d0775888056102dd56\nblob=10411 offset=28271 solid=0 hash=b60d094a6a762d724ade060d322f116973157263\nblob=10094 offset=9668 solid=0 hash=565698750635f56208d6bbf019a15689994bc416\nblob=8509 offset=19762 solid=0 hash=e80c95f022ca088bb8e9a919cdf3a98f100a8942\nblob=10728 offset=66428 solid=0 hash=aa8c9d67ffbf32cdae841cf7080f5fbb4da73378\nblob=9777 offset=38682 solid=0 hash=2a1bddc975275fd05955a3ae0a6658718f4f7b52\nblob=8826 offset=48459 solid=0 hash=bc0344fbffbd344323682835919d79d6d42c76bb\nblob=8192 offset=77156 solid=0 hash=4d7b2a36c5387decf799352a3751883b7ceb96aa\nblob=9143 offset=57285 solid=0 hash=eee123f5f6eb2b21f28c7e9c56a9c8c8e08379f3\nread=0\n",
+          "stderr": "",
+          "exists": true
+        },
+        "native": {
+          "status": 0,
+          "stdout": "streams=0/9 bytes=0/85140\nstreams=1/9 bytes=9460/85140\nstreams=2/9 bytes=19554/85140\nstreams=3/9 bytes=28063/85140\nstreams=4/9 bytes=38474/85140\nstreams=5/9 bytes=48251/85140\nstreams=6/9 bytes=57077/85140\nstreams=7/9 bytes=66220/85140\nstreams=8/9 bytes=76948/85140\nstreams=9/9 bytes=85140/85140\nwrite=0\nblob=9460 offset=208 solid=0 hash=00dfee290000600560bb95d0775888056102dd56\nblob=10411 offset=28271 solid=0 hash=b60d094a6a762d724ade060d322f116973157263\nblob=10094 offset=9668 solid=0 hash=565698750635f56208d6bbf019a15689994bc416\nblob=8509 offset=19762 solid=0 hash=e80c95f022ca088bb8e9a919cdf3a98f100a8942\nblob=10728 offset=66428 solid=0 hash=aa8c9d67ffbf32cdae841cf7080f5fbb4da73378\nblob=9777 offset=38682 solid=0 hash=2a1bddc975275fd05955a3ae0a6658718f4f7b52\nblob=8826 offset=48459 solid=0 hash=bc0344fbffbd344323682835919d79d6d42c76bb\nblob=8192 offset=77156 solid=0 hash=4d7b2a36c5387decf799352a3751883b7ceb96aa\nblob=9143 offset=57285 solid=0 hash=eee123f5f6eb2b21f28c7e9c56a9c8c8e08379f3\nread=0\n",
+          "stderr": "",
+          "exists": true
+        }
+      },
+      "exact": true
+    },
+    {
+      "mode": 2,
+      "flags": 16384,
+      "codec": 2,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "streams=0/9 bytes=0/85140\nstreams=1/9 bytes=9460/85140\nstreams=2/9 bytes=19554/85140\nstreams=3/9 bytes=28063/85140\nstreams=4/9 bytes=38474/85140\nstreams=5/9 bytes=48251/85140\nstreams=6/9 bytes=57077/85140\nstreams=7/9 bytes=66220/85140\nstreams=8/9 bytes=76948/85140\nstreams=9/9 bytes=85140/85140\nwrite=0\nblob=9460 offset=208 solid=0 hash=00dfee290000600560bb95d0775888056102dd56\nblob=10411 offset=28271 solid=0 hash=b60d094a6a762d724ade060d322f116973157263\nblob=10094 offset=9668 solid=0 hash=565698750635f56208d6bbf019a15689994bc416\nblob=8509 offset=19762 solid=0 hash=e80c95f022ca088bb8e9a919cdf3a98f100a8942\nblob=10728 offset=66428 solid=0 hash=aa8c9d67ffbf32cdae841cf7080f5fbb4da73378\nblob=9777 offset=38682 solid=0 hash=2a1bddc975275fd05955a3ae0a6658718f4f7b52\nblob=8826 offset=48459 solid=0 hash=bc0344fbffbd344323682835919d79d6d42c76bb\nblob=8192 offset=77156 solid=0 hash=4d7b2a36c5387decf799352a3751883b7ceb96aa\nblob=9143 offset=57285 solid=0 hash=eee123f5f6eb2b21f28c7e9c56a9c8c8e08379f3\nread=0\n",
+          "stderr": "",
+          "exists": true
+        },
+        "native": {
+          "status": 0,
+          "stdout": "streams=0/9 bytes=0/85140\nstreams=1/9 bytes=9460/85140\nstreams=2/9 bytes=19554/85140\nstreams=3/9 bytes=28063/85140\nstreams=4/9 bytes=38474/85140\nstreams=5/9 bytes=48251/85140\nstreams=6/9 bytes=57077/85140\nstreams=7/9 bytes=66220/85140\nstreams=8/9 bytes=76948/85140\nstreams=9/9 bytes=85140/85140\nwrite=0\nblob=9460 offset=208 solid=0 hash=00dfee290000600560bb95d0775888056102dd56\nblob=10411 offset=28271 solid=0 hash=b60d094a6a762d724ade060d322f116973157263\nblob=10094 offset=9668 solid=0 hash=565698750635f56208d6bbf019a15689994bc416\nblob=8509 offset=19762 solid=0 hash=e80c95f022ca088bb8e9a919cdf3a98f100a8942\nblob=10728 offset=66428 solid=0 hash=aa8c9d67ffbf32cdae841cf7080f5fbb4da73378\nblob=9777 offset=38682 solid=0 hash=2a1bddc975275fd05955a3ae0a6658718f4f7b52\nblob=8826 offset=48459 solid=0 hash=bc0344fbffbd344323682835919d79d6d42c76bb\nblob=8192 offset=77156 solid=0 hash=4d7b2a36c5387decf799352a3751883b7ceb96aa\nblob=9143 offset=57285 solid=0 hash=eee123f5f6eb2b21f28c7e9c56a9c8c8e08379f3\nread=0\n",
+          "stderr": "",
+          "exists": true
+        }
+      },
+      "exact": true
+    },
+    {
+      "mode": 2,
+      "flags": 4096,
+      "codec": 1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "streams=0/9 bytes=0/85140\nstreams=1/9 bytes=9460/85140\nstreams=2/9 bytes=19554/85140\nstreams=3/9 bytes=28063/85140\nstreams=4/9 bytes=38474/85140\nstreams=5/9 bytes=48251/85140\nstreams=6/9 bytes=57077/85140\nstreams=7/9 bytes=66220/85140\nstreams=8/9 bytes=76948/85140\nstreams=9/9 bytes=85140/85140\nwrite=0\nblob=9460 offset=0 solid=1 hash=00dfee290000600560bb95d0775888056102dd56\nblob=10411 offset=28063 solid=1 hash=b60d094a6a762d724ade060d322f116973157263\nblob=10094 offset=9460 solid=1 hash=565698750635f56208d6bbf019a15689994bc416\nblob=8509 offset=19554 solid=1 hash=e80c95f022ca088bb8e9a919cdf3a98f100a8942\nblob=10728 offset=66220 solid=1 hash=aa8c9d67ffbf32cdae841cf7080f5fbb4da73378\nblob=9777 offset=38474 solid=1 hash=2a1bddc975275fd05955a3ae0a6658718f4f7b52\nblob=8826 offset=48251 solid=1 hash=bc0344fbffbd344323682835919d79d6d42c76bb\nblob=8192 offset=76948 solid=1 hash=4d7b2a36c5387decf799352a3751883b7ceb96aa\nblob=9143 offset=57077 solid=1 hash=eee123f5f6eb2b21f28c7e9c56a9c8c8e08379f3\nread=0\n",
+          "stderr": "",
+          "exists": true
+        },
+        "native": {
+          "status": 0,
+          "stdout": "streams=0/9 bytes=0/85140\nstreams=1/9 bytes=9460/85140\nstreams=2/9 bytes=19554/85140\nstreams=3/9 bytes=28063/85140\nstreams=4/9 bytes=38474/85140\nstreams=5/9 bytes=48251/85140\nstreams=6/9 bytes=57077/85140\nstreams=7/9 bytes=66220/85140\nstreams=8/9 bytes=76948/85140\nstreams=9/9 bytes=85140/85140\nwrite=0\nblob=9460 offset=0 solid=1 hash=00dfee290000600560bb95d0775888056102dd56\nblob=10411 offset=28063 solid=1 hash=b60d094a6a762d724ade060d322f116973157263\nblob=10094 offset=9460 solid=1 hash=565698750635f56208d6bbf019a15689994bc416\nblob=8509 offset=19554 solid=1 hash=e80c95f022ca088bb8e9a919cdf3a98f100a8942\nblob=10728 offset=66220 solid=1 hash=aa8c9d67ffbf32cdae841cf7080f5fbb4da73378\nblob=9777 offset=38474 solid=1 hash=2a1bddc975275fd05955a3ae0a6658718f4f7b52\nblob=8826 offset=48251 solid=1 hash=bc0344fbffbd344323682835919d79d6d42c76bb\nblob=8192 offset=76948 solid=1 hash=4d7b2a36c5387decf799352a3751883b7ceb96aa\nblob=9143 offset=57077 solid=1 hash=eee123f5f6eb2b21f28c7e9c56a9c8c8e08379f3\nread=0\n",
+          "stderr": "",
+          "exists": true
+        }
+      },
+      "exact": true
+    },
+    {
+      "mode": 2,
+      "flags": 4096,
+      "codec": 2,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "streams=0/9 bytes=0/85140\nstreams=1/9 bytes=9460/85140\nstreams=2/9 bytes=19554/85140\nstreams=3/9 bytes=28063/85140\nstreams=4/9 bytes=38474/85140\nstreams=5/9 bytes=48251/85140\nstreams=6/9 bytes=57077/85140\nstreams=7/9 bytes=66220/85140\nstreams=8/9 bytes=76948/85140\nstreams=9/9 bytes=85140/85140\nwrite=0\nblob=9460 offset=0 solid=1 hash=00dfee290000600560bb95d0775888056102dd56\nblob=10411 offset=28063 solid=1 hash=b60d094a6a762d724ade060d322f116973157263\nblob=10094 offset=9460 solid=1 hash=565698750635f56208d6bbf019a15689994bc416\nblob=8509 offset=19554 solid=1 hash=e80c95f022ca088bb8e9a919cdf3a98f100a8942\nblob=10728 offset=66220 solid=1 hash=aa8c9d67ffbf32cdae841cf7080f5fbb4da73378\nblob=9777 offset=38474 solid=1 hash=2a1bddc975275fd05955a3ae0a6658718f4f7b52\nblob=8826 offset=48251 solid=1 hash=bc0344fbffbd344323682835919d79d6d42c76bb\nblob=8192 offset=76948 solid=1 hash=4d7b2a36c5387decf799352a3751883b7ceb96aa\nblob=9143 offset=57077 solid=1 hash=eee123f5f6eb2b21f28c7e9c56a9c8c8e08379f3\nread=0\n",
+          "stderr": "",
+          "exists": true
+        },
+        "native": {
+          "status": 0,
+          "stdout": "streams=0/9 bytes=0/85140\nstreams=1/9 bytes=9460/85140\nstreams=2/9 bytes=19554/85140\nstreams=3/9 bytes=28063/85140\nstreams=4/9 bytes=38474/85140\nstreams=5/9 bytes=48251/85140\nstreams=6/9 bytes=57077/85140\nstreams=7/9 bytes=66220/85140\nstreams=8/9 bytes=76948/85140\nstreams=9/9 bytes=85140/85140\nwrite=0\nblob=9460 offset=0 solid=1 hash=00dfee290000600560bb95d0775888056102dd56\nblob=10411 offset=28063 solid=1 hash=b60d094a6a762d724ade060d322f116973157263\nblob=10094 offset=9460 solid=1 hash=565698750635f56208d6bbf019a15689994bc416\nblob=8509 offset=19554 solid=1 hash=e80c95f022ca088bb8e9a919cdf3a98f100a8942\nblob=10728 offset=66220 solid=1 hash=aa8c9d67ffbf32cdae841cf7080f5fbb4da73378\nblob=9777 offset=38474 solid=1 hash=2a1bddc975275fd05955a3ae0a6658718f4f7b52\nblob=8826 offset=48251 solid=1 hash=bc0344fbffbd344323682835919d79d6d42c76bb\nblob=8192 offset=76948 solid=1 hash=4d7b2a36c5387decf799352a3751883b7ceb96aa\nblob=9143 offset=57077 solid=1 hash=eee123f5f6eb2b21f28c7e9c56a9c8c8e08379f3\nread=0\n",
+          "stderr": "",
+          "exists": true
+        }
+      },
+      "exact": true
+    },
+    {
+      "mode": 2,
+      "flags": 20480,
+      "codec": 1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "streams=0/9 bytes=0/85140\nstreams=1/9 bytes=9460/85140\nstreams=2/9 bytes=19554/85140\nstreams=3/9 bytes=28063/85140\nstreams=4/9 bytes=38474/85140\nstreams=5/9 bytes=48251/85140\nstreams=6/9 bytes=57077/85140\nstreams=7/9 bytes=66220/85140\nstreams=8/9 bytes=76948/85140\nstreams=9/9 bytes=85140/85140\nwrite=0\nblob=9460 offset=0 solid=1 hash=00dfee290000600560bb95d0775888056102dd56\nblob=10411 offset=28063 solid=1 hash=b60d094a6a762d724ade060d322f116973157263\nblob=10094 offset=9460 solid=1 hash=565698750635f56208d6bbf019a15689994bc416\nblob=8509 offset=19554 solid=1 hash=e80c95f022ca088bb8e9a919cdf3a98f100a8942\nblob=10728 offset=66220 solid=1 hash=aa8c9d67ffbf32cdae841cf7080f5fbb4da73378\nblob=9777 offset=38474 solid=1 hash=2a1bddc975275fd05955a3ae0a6658718f4f7b52\nblob=8826 offset=48251 solid=1 hash=bc0344fbffbd344323682835919d79d6d42c76bb\nblob=8192 offset=76948 solid=1 hash=4d7b2a36c5387decf799352a3751883b7ceb96aa\nblob=9143 offset=57077 solid=1 hash=eee123f5f6eb2b21f28c7e9c56a9c8c8e08379f3\nread=0\n",
+          "stderr": "",
+          "exists": true
+        },
+        "native": {
+          "status": 0,
+          "stdout": "streams=0/9 bytes=0/85140\nstreams=1/9 bytes=9460/85140\nstreams=2/9 bytes=19554/85140\nstreams=3/9 bytes=28063/85140\nstreams=4/9 bytes=38474/85140\nstreams=5/9 bytes=48251/85140\nstreams=6/9 bytes=57077/85140\nstreams=7/9 bytes=66220/85140\nstreams=8/9 bytes=76948/85140\nstreams=9/9 bytes=85140/85140\nwrite=0\nblob=9460 offset=0 solid=1 hash=00dfee290000600560bb95d0775888056102dd56\nblob=10411 offset=28063 solid=1 hash=b60d094a6a762d724ade060d322f116973157263\nblob=10094 offset=9460 solid=1 hash=565698750635f56208d6bbf019a15689994bc416\nblob=8509 offset=19554 solid=1 hash=e80c95f022ca088bb8e9a919cdf3a98f100a8942\nblob=10728 offset=66220 solid=1 hash=aa8c9d67ffbf32cdae841cf7080f5fbb4da73378\nblob=9777 offset=38474 solid=1 hash=2a1bddc975275fd05955a3ae0a6658718f4f7b52\nblob=8826 offset=48251 solid=1 hash=bc0344fbffbd344323682835919d79d6d42c76bb\nblob=8192 offset=76948 solid=1 hash=4d7b2a36c5387decf799352a3751883b7ceb96aa\nblob=9143 offset=57077 solid=1 hash=eee123f5f6eb2b21f28c7e9c56a9c8c8e08379f3\nread=0\n",
+          "stderr": "",
+          "exists": true
+        }
+      },
+      "exact": true
+    },
+    {
+      "mode": 2,
+      "flags": 20480,
+      "codec": 2,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "streams=0/9 bytes=0/85140\nstreams=1/9 bytes=9460/85140\nstreams=2/9 bytes=19554/85140\nstreams=3/9 bytes=28063/85140\nstreams=4/9 bytes=38474/85140\nstreams=5/9 bytes=48251/85140\nstreams=6/9 bytes=57077/85140\nstreams=7/9 bytes=66220/85140\nstreams=8/9 bytes=76948/85140\nstreams=9/9 bytes=85140/85140\nwrite=0\nblob=9460 offset=0 solid=1 hash=00dfee290000600560bb95d0775888056102dd56\nblob=10411 offset=28063 solid=1 hash=b60d094a6a762d724ade060d322f116973157263\nblob=10094 offset=9460 solid=1 hash=565698750635f56208d6bbf019a15689994bc416\nblob=8509 offset=19554 solid=1 hash=e80c95f022ca088bb8e9a919cdf3a98f100a8942\nblob=10728 offset=66220 solid=1 hash=aa8c9d67ffbf32cdae841cf7080f5fbb4da73378\nblob=9777 offset=38474 solid=1 hash=2a1bddc975275fd05955a3ae0a6658718f4f7b52\nblob=8826 offset=48251 solid=1 hash=bc0344fbffbd344323682835919d79d6d42c76bb\nblob=8192 offset=76948 solid=1 hash=4d7b2a36c5387decf799352a3751883b7ceb96aa\nblob=9143 offset=57077 solid=1 hash=eee123f5f6eb2b21f28c7e9c56a9c8c8e08379f3\nread=0\n",
+          "stderr": "",
+          "exists": true
+        },
+        "native": {
+          "status": 0,
+          "stdout": "streams=0/9 bytes=0/85140\nstreams=1/9 bytes=9460/85140\nstreams=2/9 bytes=19554/85140\nstreams=3/9 bytes=28063/85140\nstreams=4/9 bytes=38474/85140\nstreams=5/9 bytes=48251/85140\nstreams=6/9 bytes=57077/85140\nstreams=7/9 bytes=66220/85140\nstreams=8/9 bytes=76948/85140\nstreams=9/9 bytes=85140/85140\nwrite=0\nblob=9460 offset=0 solid=1 hash=00dfee290000600560bb95d0775888056102dd56\nblob=10411 offset=28063 solid=1 hash=b60d094a6a762d724ade060d322f116973157263\nblob=10094 offset=9460 solid=1 hash=565698750635f56208d6bbf019a15689994bc416\nblob=8509 offset=19554 solid=1 hash=e80c95f022ca088bb8e9a919cdf3a98f100a8942\nblob=10728 offset=66220 solid=1 hash=aa8c9d67ffbf32cdae841cf7080f5fbb4da73378\nblob=9777 offset=38474 solid=1 hash=2a1bddc975275fd05955a3ae0a6658718f4f7b52\nblob=8826 offset=48251 solid=1 hash=bc0344fbffbd344323682835919d79d6d42c76bb\nblob=8192 offset=76948 solid=1 hash=4d7b2a36c5387decf799352a3751883b7ceb96aa\nblob=9143 offset=57077 solid=1 hash=eee123f5f6eb2b21f28c7e9c56a9c8c8e08379f3\nread=0\n",
+          "stderr": "",
+          "exists": true
+        }
+      },
+      "exact": true
+    }
+  ]
+}

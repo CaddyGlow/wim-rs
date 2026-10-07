@@ -1,0 +1,5 @@
+orphan-solid.wim is the unchanged regression fixture from commit 15b255f,
+docs/wimlib/evidence/performance/orphan-solid-failure.wim. It was relocated
+under tests after the performance evidence directory was removed. The archive
+contains an orphan solid descriptor whose duplicate blob is discarded. Splitting
+must inspect retained blobs rather than reject the orphan resource descriptor.

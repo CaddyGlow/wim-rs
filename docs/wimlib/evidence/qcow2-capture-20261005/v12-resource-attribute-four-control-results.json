@@ -1,0 +1,254 @@
+{
+  "scope": "Four actual supported ATTRIBUTE-only scratch controls; no installed restoration",
+  "reports": [
+    {
+      "mode": "Directory-explicit",
+      "raw": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/second-experiment-results/Directory-explicit-report.json",
+      "sha256": "ae14807526584b88473457aa4ee16322b963d6ee539b62a46d2127305ebafba6",
+      "all_passed": false,
+      "cases": [
+        {
+          "case": 0,
+          "set_status": 0,
+          "negative_status": 5,
+          "negative_unchanged": true,
+          "ace_exact": true,
+          "owner_group_dacl_preserved": false,
+          "control_preserved": false,
+          "non_ace18_sacl_preserved": true,
+          "child_non_attribute_invariants_preserved": false,
+          "sibling_entire_descriptor_preserved": false,
+          "passed": false,
+          "before_control": 40964,
+          "after_control": 34836,
+          "expected_ace": "120b440000000000010100000000000100000000140000000200000000000000010000002800000049004d004100470045004c004f004100440000000100000000000000",
+          "actual_ace18": [
+            "120b440000000000010100000000000100000000140000000200000000000000010000002800000049004d004100470045004c004f004100440000000100000000000000"
+          ]
+        },
+        {
+          "case": 1,
+          "set_status": 0,
+          "negative_status": 5,
+          "negative_unchanged": true,
+          "ace_exact": false,
+          "owner_group_dacl_preserved": false,
+          "control_preserved": false,
+          "non_ace18_sacl_preserved": true,
+          "child_non_attribute_invariants_preserved": false,
+          "sibling_entire_descriptor_preserved": false,
+          "passed": false,
+          "before_control": 40964,
+          "after_control": 34836,
+          "expected_ace": "1210440000000000010100000000000100000000140000000200000000000000010000002800000049004d004100470045004c004f004100440000000100000000000000",
+          "actual_ace18": []
+        },
+        {
+          "case": 2,
+          "set_status": 0,
+          "negative_status": 5,
+          "negative_unchanged": true,
+          "ace_exact": true,
+          "owner_group_dacl_preserved": false,
+          "control_preserved": false,
+          "non_ace18_sacl_preserved": true,
+          "child_non_attribute_invariants_preserved": false,
+          "sibling_entire_descriptor_preserved": false,
+          "passed": false,
+          "before_control": 40964,
+          "after_control": 34836,
+          "expected_ace": "1200500000000000010100000000000100000000140000000200000000000000010000003200000043006100700074007500720065005300630072006100740063006800000088776655443322110000",
+          "actual_ace18": [
+            "1200500000000000010100000000000100000000140000000200000000000000010000003200000043006100700074007500720065005300630072006100740063006800000088776655443322110000"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "Directory-maximum",
+      "raw": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/second-experiment-results/Directory-maximum-report.json",
+      "sha256": "1ffc044d98fa9fb26fd9f7e012176eb414992cff15ee92c3b2445b35e4fc3b86",
+      "all_passed": false,
+      "cases": [
+        {
+          "case": 0,
+          "set_status": 0,
+          "negative_status": 5,
+          "negative_unchanged": true,
+          "ace_exact": true,
+          "owner_group_dacl_preserved": false,
+          "control_preserved": false,
+          "non_ace18_sacl_preserved": true,
+          "child_non_attribute_invariants_preserved": true,
+          "sibling_entire_descriptor_preserved": true,
+          "passed": false,
+          "before_control": 40964,
+          "after_control": 34836,
+          "expected_ace": "120b440000000000010100000000000100000000140000000200000000000000010000002800000049004d004100470045004c004f004100440000000100000000000000",
+          "actual_ace18": [
+            "120b440000000000010100000000000100000000140000000200000000000000010000002800000049004d004100470045004c004f004100440000000100000000000000"
+          ]
+        },
+        {
+          "case": 1,
+          "set_status": 0,
+          "negative_status": 5,
+          "negative_unchanged": true,
+          "ace_exact": false,
+          "owner_group_dacl_preserved": false,
+          "control_preserved": false,
+          "non_ace18_sacl_preserved": true,
+          "child_non_attribute_invariants_preserved": true,
+          "sibling_entire_descriptor_preserved": true,
+          "passed": false,
+          "before_control": 40964,
+          "after_control": 34836,
+          "expected_ace": "1210440000000000010100000000000100000000140000000200000000000000010000002800000049004d004100470045004c004f004100440000000100000000000000",
+          "actual_ace18": []
+        },
+        {
+          "case": 2,
+          "set_status": 0,
+          "negative_status": 5,
+          "negative_unchanged": true,
+          "ace_exact": true,
+          "owner_group_dacl_preserved": false,
+          "control_preserved": false,
+          "non_ace18_sacl_preserved": true,
+          "child_non_attribute_invariants_preserved": true,
+          "sibling_entire_descriptor_preserved": true,
+          "passed": false,
+          "before_control": 40964,
+          "after_control": 34836,
+          "expected_ace": "1200500000000000010100000000000100000000140000000200000000000000010000003200000043006100700074007500720065005300630072006100740063006800000088776655443322110000",
+          "actual_ace18": [
+            "1200500000000000010100000000000100000000140000000200000000000000010000003200000043006100700074007500720065005300630072006100740063006800000088776655443322110000"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "File-explicit",
+      "raw": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/second-experiment-results/File-explicit-report.json",
+      "sha256": "ddd315330c7e30edc0e548988aee94ee6bc0b5ccd6e1073d046a7e5a472f8cb2",
+      "all_passed": false,
+      "cases": [
+        {
+          "case": 0,
+          "set_status": 0,
+          "negative_status": 5,
+          "negative_unchanged": true,
+          "ace_exact": false,
+          "owner_group_dacl_preserved": false,
+          "control_preserved": false,
+          "non_ace18_sacl_preserved": true,
+          "child_non_attribute_invariants_preserved": true,
+          "sibling_entire_descriptor_preserved": true,
+          "passed": false,
+          "before_control": 40964,
+          "after_control": 34836,
+          "expected_ace": "120b440000000000010100000000000100000000140000000200000000000000010000002800000049004d004100470045004c004f004100440000000100000000000000",
+          "actual_ace18": []
+        },
+        {
+          "case": 1,
+          "set_status": 0,
+          "negative_status": 5,
+          "negative_unchanged": true,
+          "ace_exact": false,
+          "owner_group_dacl_preserved": false,
+          "control_preserved": false,
+          "non_ace18_sacl_preserved": true,
+          "child_non_attribute_invariants_preserved": true,
+          "sibling_entire_descriptor_preserved": true,
+          "passed": false,
+          "before_control": 40964,
+          "after_control": 34836,
+          "expected_ace": "1210440000000000010100000000000100000000140000000200000000000000010000002800000049004d004100470045004c004f004100440000000100000000000000",
+          "actual_ace18": []
+        },
+        {
+          "case": 2,
+          "set_status": 0,
+          "negative_status": 5,
+          "negative_unchanged": true,
+          "ace_exact": true,
+          "owner_group_dacl_preserved": false,
+          "control_preserved": false,
+          "non_ace18_sacl_preserved": true,
+          "child_non_attribute_invariants_preserved": true,
+          "sibling_entire_descriptor_preserved": true,
+          "passed": false,
+          "before_control": 40964,
+          "after_control": 34836,
+          "expected_ace": "1200500000000000010100000000000100000000140000000200000000000000010000003200000043006100700074007500720065005300630072006100740063006800000088776655443322110000",
+          "actual_ace18": [
+            "1200500000000000010100000000000100000000140000000200000000000000010000003200000043006100700074007500720065005300630072006100740063006800000088776655443322110000"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "File-maximum",
+      "raw": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/second-experiment-results/File-maximum-report.json",
+      "sha256": "eae6c640ed7eaa6632a55aac4686b5c517859d64166bbe540da2449102c938c1",
+      "all_passed": false,
+      "cases": [
+        {
+          "case": 0,
+          "set_status": 0,
+          "negative_status": 5,
+          "negative_unchanged": true,
+          "ace_exact": false,
+          "owner_group_dacl_preserved": false,
+          "control_preserved": false,
+          "non_ace18_sacl_preserved": true,
+          "child_non_attribute_invariants_preserved": true,
+          "sibling_entire_descriptor_preserved": true,
+          "passed": false,
+          "before_control": 40964,
+          "after_control": 34836,
+          "expected_ace": "120b440000000000010100000000000100000000140000000200000000000000010000002800000049004d004100470045004c004f004100440000000100000000000000",
+          "actual_ace18": []
+        },
+        {
+          "case": 1,
+          "set_status": 0,
+          "negative_status": 5,
+          "negative_unchanged": true,
+          "ace_exact": false,
+          "owner_group_dacl_preserved": false,
+          "control_preserved": false,
+          "non_ace18_sacl_preserved": true,
+          "child_non_attribute_invariants_preserved": true,
+          "sibling_entire_descriptor_preserved": true,
+          "passed": false,
+          "before_control": 40964,
+          "after_control": 34836,
+          "expected_ace": "1210440000000000010100000000000100000000140000000200000000000000010000002800000049004d004100470045004c004f004100440000000100000000000000",
+          "actual_ace18": []
+        },
+        {
+          "case": 2,
+          "set_status": 0,
+          "negative_status": 5,
+          "negative_unchanged": true,
+          "ace_exact": true,
+          "owner_group_dacl_preserved": false,
+          "control_preserved": false,
+          "non_ace18_sacl_preserved": true,
+          "child_non_attribute_invariants_preserved": true,
+          "sibling_entire_descriptor_preserved": true,
+          "passed": false,
+          "before_control": 40964,
+          "after_control": 34836,
+          "expected_ace": "1200500000000000010100000000000100000000140000000200000000000000010000003200000043006100700074007500720065005300630072006100740063006800000088776655443322110000",
+          "actual_ace18": [
+            "1200500000000000010100000000000100000000140000000200000000000000010000003200000043006100700074007500720065005300630072006100740063006800000088776655443322110000"
+          ]
+        }
+      ]
+    }
+  ],
+  "strict_all_passed": false
+}

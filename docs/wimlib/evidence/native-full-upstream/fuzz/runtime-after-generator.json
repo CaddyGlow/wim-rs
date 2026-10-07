@@ -1,0 +1,17 @@
+{
+  "status": 1,
+  "work": "/tmp/wlfuzz-after-generator-dga0ymj0",
+  "native_sha256": "141e0a5af4e69379e3f9d968816b86256b1e79508d6044887a8d3461a28b2ccb",
+  "command": [
+    "cc",
+    "-DHAVE_CONFIG_H",
+    "-I/tmp/wimlib-native-oracle",
+    "-I/tmp/wimlib/include",
+    "/tmp/wimlib/tests/wlfuzz.c",
+    "-L/tmp/wim-generator-api-3lfrb456/native",
+    "-Wl,-rpath,/tmp/wim-generator-api-3lfrb456/native",
+    "-lwim",
+    "-o",
+    "/tmp/wlfuzz-after-generator-dga0ymj0/wlfuzz"
+  ]
+}

@@ -1,0 +1,14 @@
+
+Deployment Image Servicing and Management tool
+Version: 10.0.26100.5074
+
+
+/English
+
+  Displays command line output in English.
+
+    Examples:
+     DISM.exe /Image:C:\test\offline /Format:Table /English /Get-Packages
+     DISM.exe /Image:C:\test\offline /English /Get-DriverInfo /Driver:oem0.inf
+
+

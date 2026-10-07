@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "phase": "failed",
+  "mounts": [
+    {
+      "image": "\\\\?\\C:\\wim-uup-validation-1791090913159215058\\servicing\\install.wim",
+      "index": 1,
+      "directory": "\\\\?\\C:\\wim-uup-validation-1791090913159215058\\servicing\\mount",
+      "phase": "mounted"
+    }
+  ],
+  "hives": [],
+  "child_jobs": [],
+  "operations": 5
+}

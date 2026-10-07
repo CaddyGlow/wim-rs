@@ -1,0 +1,59 @@
+ASSERTION FAILED at line 583: The requested operation is unsupported
+Starting wlfuzz with time limit of 2 seconds
+--> iteration 1
+:::op__verify_random_wim
+--> iteration 2
+:::op__apply_and_capture_test
+--> iteration 3
+:::op__apply_and_capture_test
+--> iteration 4
+:::op__delete_random_wim
+--> iteration 5
+:::op__apply_and_capture_test
+--> iteration 6
+:::op__overwrite_with_no_changes
+--> iteration 7
+:::op__apply_and_capture_test
+--> iteration 8
+:::op__delete_random_image_from_random_wim
+--> iteration 9
+:::op__apply_and_capture_test
+--> iteration 10
+:::op__delete_random_wim
+--> iteration 11
+:::op__delete_random_wim
+--> iteration 12
+:::op__apply_and_capture_test
+--> iteration 13
+:::op__apply_and_capture_test
+--> iteration 14
+:::op__split_test
+--> iteration 15
+:::op__add_empty_image_to_random_wim
+--> iteration 16
+:::op__split_test
+--> iteration 17
+:::op__set_compression_level
+Changing compression levels to 88
+--> iteration 18
+:::op__add_empty_image_to_random_wim
+--> iteration 19
+:::op__verify_random_wim
+--> iteration 20
+:::op__apply_and_capture_test
+--> iteration 21
+:::op__apply_and_capture_test
+--> iteration 22
+:::op__apply_and_capture_test
+--> iteration 23
+:::op__delete_random_wim
+--> iteration 24
+:::op__apply_and_capture_test
+--> iteration 25
+:::op__set_compression_level
+Changing compression levels to 58
+--> iteration 26
+:::op__apply_and_capture_test
+--> iteration 27
+:::op__create_new_wim
+Creating wim0 with write flags 0x00002001, compression_type=LZX, chunk_size=32768, solid_chunk_size=0

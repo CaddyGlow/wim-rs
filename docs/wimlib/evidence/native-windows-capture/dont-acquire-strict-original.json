@@ -1,0 +1,125 @@
+{
+  "scope": "Actual Windows capture contracts; basic NO_ACLS fixture and explicit full-feature gates",
+  "implementation": "original",
+  "guest": "Microsoft Windows NT 10.0.26200.0",
+  "dll_sha256": "fc740013e9ae9dee84fbe8ee47bb09dbeb7b3a535c2882e90764d66fa4a1c209",
+  "caller_sha256": "197fce25e042a817f049e599146211b7f8b8c55b9409ad06734372628f497bb2",
+  "source_preserved": true,
+  "source_manifest": [
+    {
+      "Path": "C:\\wim-capture-20261003\\source-\u00e9\u6f22",
+      "Attrs": 16,
+      "Creation": 634007667060000000,
+      "Write": 634007667060000000,
+      "Hash": {}
+    },
+    {
+      "Path": "C:\\wim-capture-20261003\\source-\u00e9\u6f22\\sub",
+      "Attrs": 16,
+      "Creation": 634007667060000000,
+      "Write": 634007667060000000,
+      "Hash": {}
+    },
+    {
+      "Path": "C:\\wim-capture-20261003\\source-\u00e9\u6f22\\a.bin",
+      "Attrs": 33,
+      "Creation": 639266027926040650,
+      "Write": 639266027926040650,
+      "Hash": "5FC94324CAA9E1D5ED54725D86A5095D918257E192E1092BD09ECEFA82763CD7"
+    },
+    {
+      "Path": "C:\\wim-capture-20261003\\source-\u00e9\u6f22\\empty.txt",
+      "Attrs": 32,
+      "Creation": 634007667060000000,
+      "Write": 634007667060000000,
+      "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "Path": "C:\\wim-capture-20261003\\source-\u00e9\u6f22\\link.bin",
+      "Attrs": 33,
+      "Creation": 639266027926040650,
+      "Write": 639266027926040650,
+      "Hash": "5FC94324CAA9E1D5ED54725D86A5095D918257E192E1092BD09ECEFA82763CD7"
+    },
+    {
+      "Path": "C:\\wim-capture-20261003\\source-\u00e9\u6f22\\\u00e9\u6f22\ud834\udd1e.bin",
+      "Attrs": 34,
+      "Creation": 634007667060000000,
+      "Write": 634007667060000000,
+      "Hash": "5D8D910591D272938AEF5F966E0816E374BEAF7B5ADF02CCA5F8F770596C2CE3"
+    },
+    {
+      "Path": "C:\\wim-capture-20261003\\source-\u00e9\u6f22\\sub\\third.bin",
+      "Attrs": 33,
+      "Creation": 639266027926040650,
+      "Write": 639266027926040650,
+      "Hash": "5FC94324CAA9E1D5ED54725D86A5095D918257E192E1092BD09ECEFA82763CD7"
+    }
+  ],
+  "source_manifest_after": [
+    {
+      "Path": "C:\\wim-capture-20261003\\source-\u00e9\u6f22",
+      "Attrs": 16,
+      "Creation": 634007667060000000,
+      "Write": 634007667060000000,
+      "Hash": {}
+    },
+    {
+      "Path": "C:\\wim-capture-20261003\\source-\u00e9\u6f22\\sub",
+      "Attrs": 16,
+      "Creation": 634007667060000000,
+      "Write": 634007667060000000,
+      "Hash": {}
+    },
+    {
+      "Path": "C:\\wim-capture-20261003\\source-\u00e9\u6f22\\a.bin",
+      "Attrs": 33,
+      "Creation": 639266027926040650,
+      "Write": 639266027926040650,
+      "Hash": "5FC94324CAA9E1D5ED54725D86A5095D918257E192E1092BD09ECEFA82763CD7"
+    },
+    {
+      "Path": "C:\\wim-capture-20261003\\source-\u00e9\u6f22\\empty.txt",
+      "Attrs": 32,
+      "Creation": 634007667060000000,
+      "Write": 634007667060000000,
+      "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "Path": "C:\\wim-capture-20261003\\source-\u00e9\u6f22\\link.bin",
+      "Attrs": 33,
+      "Creation": 639266027926040650,
+      "Write": 639266027926040650,
+      "Hash": "5FC94324CAA9E1D5ED54725D86A5095D918257E192E1092BD09ECEFA82763CD7"
+    },
+    {
+      "Path": "C:\\wim-capture-20261003\\source-\u00e9\u6f22\\\u00e9\u6f22\ud834\udd1e.bin",
+      "Attrs": 34,
+      "Creation": 634007667060000000,
+      "Write": 634007667060000000,
+      "Hash": "5D8D910591D272938AEF5F966E0816E374BEAF7B5ADF02CCA5F8F770596C2CE3"
+    },
+    {
+      "Path": "C:\\wim-capture-20261003\\source-\u00e9\u6f22\\sub\\third.bin",
+      "Attrs": 33,
+      "Creation": 639266027926040650,
+      "Write": 639266027926040650,
+      "Hash": "5FC94324CAA9E1D5ED54725D86A5095D918257E192E1092BD09ECEFA82763CD7"
+    }
+  ],
+  "cases": [
+    {
+      "case": "strict-acls",
+      "flags": 64,
+      "result": {
+        "exit": 0,
+        "signal": null,
+        "stdout_base64": "aW5pdCAwDQpjcmVhdGUgMA0Kc2NhbiA5IDAgMCAwIDAwNWMNCnByb2dyZXNzIDMxDQphZGQgNjMNCmluZm8gMCAwIDANCg==",
+        "stdout": "init 0\r\ncreate 0\r\nscan 9 0 0 0 005c\r\nprogress 31\r\nadd 63\r\ninfo 0 0 0\r\n",
+        "stderr": "",
+        "stdout_truncated": false
+      }
+    }
+  ],
+  "independent_reader": null
+}

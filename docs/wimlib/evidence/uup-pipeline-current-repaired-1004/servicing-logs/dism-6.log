@@ -1,0 +1,839 @@
+﻿2026-10-04 12:08:57, Info                  DISM   PID=2016 TID=8620 Scratch directory set to 'C:\WINDOWS\SystemTemp\'. - CDISMManager::put_ScratchDir
+2026-10-04 12:08:57, Info                  DISM   PID=2016 TID=8620 DismCore.dll version: 10.0.26100.7920 - CDISMManager::FinalConstruct
+2026-10-04 12:08:57, Info                  DISM   Initialized Panther logging at C:\wim-uup-validation-1791110582335113548\servicing\logs\dism-6.log
+2026-10-04 12:08:57, Info                  DISM   PID=2016 TID=8620 Successfully loaded the ImageSession at "C:\WINDOWS\system32\Dism" - CDISMManager::LoadLocalImageSession
+2026-10-04 12:08:57, Info                  DISM   Initialized Panther logging at C:\wim-uup-validation-1791110582335113548\servicing\logs\dism-6.log
+2026-10-04 12:08:57, Info                  DISM   DISM Provider Store: PID=2016 TID=8620 Found and Initialized the DISM Logger. - CDISMProviderStore::Internal_InitializeLogger
+2026-10-04 12:08:57, Info                  DISM   Initialized Panther logging at C:\wim-uup-validation-1791110582335113548\servicing\logs\dism-6.log
+2026-10-04 12:08:57, Info                  DISM   DISM Manager: PID=2016 TID=8620 Successfully created the local image session and provider store. - CDISMManager::CreateLocalImageSession
+2026-10-04 12:08:57, Info                  DISM   DISM.EXE: 
+2026-10-04 12:08:57, Info                  DISM   DISM.EXE: <----- Starting Dism.exe session ----->
+2026-10-04 12:08:57, Info                  DISM   DISM.EXE: 
+2026-10-04 12:08:57, Info                  DISM   DISM.EXE: Host machine information: OS Version=10.0.26200, Running architecture=amd64, Number of processors=4
+2026-10-04 12:08:57, Info                  DISM   DISM.EXE: Instance information: Parent process=C:\wim-uup-validation-1791110582335113548\servicing-fixed.exe, Parent process PID=6172
+2026-10-04 12:08:57, Info                  DISM   DISM.EXE: Dism.exe version: 10.0.26100.5074
+2026-10-04 12:08:57, Info                  DISM   DISM.EXE: Executing command line: "dism.exe" /Image:C:\wim-uup-validation-1791110582335113548\servicing\mount /Add-Package /PackagePath:D:\UUPs\SSU-19041.7714-x64.cab /LogPath:C:\wim-uup-validation-1791110582335113548\servicing\logs\dism-6.log /English /NoRestart
+2026-10-04 12:08:57, Info                  DISM   DISM FFU Provider: PID=2016 TID=8620 [C:\wim-uup-validation-1791110582335113548\servicing\mount] is not recognized by the DISM FFU provider. - CFfuImage::Initialize
+2026-10-04 12:08:57, Info                  DISM   DISM Imaging Provider: PID=2016 TID=8620 The provider FfuManager does not support CreateDismImage on C:\wim-uup-validation-1791110582335113548\servicing\mount - CGenericImagingManager::CreateDismImage
+2026-10-04 12:08:57, Info                  DISM   DISM VHD Provider: PID=2016 TID=8620 [C:\wim-uup-validation-1791110582335113548\servicing\mount] is not recognized by the DISM VHD provider. - CVhdImage::Initialize
+2026-10-04 12:08:57, Info                  DISM   DISM Imaging Provider: PID=2016 TID=8620 The provider VHDManager does not support CreateDismImage on C:\wim-uup-validation-1791110582335113548\servicing\mount - CGenericImagingManager::CreateDismImage
+2026-10-04 12:08:57, Info                  DISM   DISM Manager: PID=2016 TID=8620 physical location path: C:\wim-uup-validation-1791110582335113548\servicing\mount - CDISMManager::CreateImageSession
+2026-10-04 12:08:57, Info                  DISM   DISM Manager: PID=2016 TID=8620 Event name for current DISM session is Global\__?_Volume{f8ca6cb5-12a2-470c-bfdf-fe35d8c84a63}__1343813490_65536_193084 - CDISMManager::CheckSessionAndLock
+2026-10-04 12:08:57, Info                  DISM   DISM Manager: PID=2016 TID=8620 Create session event 0x2bc for current DISM session and event name is Global\__?_Volume{f8ca6cb5-12a2-470c-bfdf-fe35d8c84a63}__1343813490_65536_193084  - CDISMManager::CheckSessionAndLock
+2026-10-04 12:08:57, Info                  DISM   DISM Manager: PID=2016 TID=8620 Copying DISM from "C:\wim-uup-validation-1791110582335113548\servicing\mount\Windows\System32\Dism" - CDISMManager::CreateImageSessionFromLocation
+2026-10-04 12:08:57, Info                  DISM   DISM Manager: PID=2016 TID=8620 Successfully loaded the ImageSession at "C:\WINDOWS\SystemTemp\C67F9D75-057D-4C43-808A-D98F57E181F3" - CDISMManager::LoadRemoteImageSession
+2026-10-04 12:08:57, Info                  DISM   DISM Image Session: PID=5096 TID=1040 Instantiating the Provider Store. - CDISMImageSession::get_ProviderStore
+2026-10-04 12:08:57, Info                  DISM   DISM Provider Store: PID=5096 TID=1040 Initializing a provider store for the IMAGE session type. - CDISMProviderStore::Final_OnConnect
+2026-10-04 12:08:57, Info                  DISM   DISM Provider Store: PID=5096 TID=1040 Connecting to the provider located at C:\WINDOWS\SystemTemp\C67F9D75-057D-4C43-808A-D98F57E181F3\OSProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 12:08:57, Info                  DISM   DISM OS Provider: PID=5096 TID=1040 Defaulting SystemPath to C:\wim-uup-validation-1791110582335113548\servicing\mount - CDISMOSServiceManager::Final_OnConnect
+2026-10-04 12:08:57, Info                  DISM   DISM OS Provider: PID=5096 TID=1040 Defaulting Windows folder to C:\wim-uup-validation-1791110582335113548\servicing\mount\Windows - CDISMOSServiceManager::Final_OnConnect
+2026-10-04 12:08:57, Info                  DISM   DISM Provider Store: PID=5096 TID=1040 Attempting to initialize the logger from the Image Session. - CDISMProviderStore::Final_OnConnect
+2026-10-04 12:08:57, Info                  DISM   DISM Provider Store: PID=5096 TID=1040 Connecting to the provider located at C:\WINDOWS\SystemTemp\C67F9D75-057D-4C43-808A-D98F57E181F3\LogProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 12:08:57, Info                  DISM   Initialized Panther logging at C:\wim-uup-validation-1791110582335113548\servicing\logs\dism-6.log
+2026-10-04 12:08:57, Info                  DISM   DISM Provider Store: PID=5096 TID=1040 Found and Initialized the DISM Logger. - CDISMProviderStore::Internal_InitializeLogger
+2026-10-04 12:08:57, Warning               DISM   DISM Provider Store: PID=5096 TID=1040 Failed to load the provider: C:\WINDOWS\SystemTemp\C67F9D75-057D-4C43-808A-D98F57E181F3\PEProvider.dll. - CDISMProviderStore::Internal_GetProvider(hr:0x8007007e)
+2026-10-04 12:08:57, Info                  DISM   DISM Provider Store: PID=5096 TID=1040 Failed to get and initialize the PE Provider.  Continuing by assuming that it is not a WinPE image. - CDISMProviderStore::Final_OnConnect
+2026-10-04 12:08:57, Info                  DISM   DISM Provider Store: PID=5096 TID=1040 Finished initializing the Provider Map. - CDISMProviderStore::Final_OnConnect
+2026-10-04 12:08:57, Info                  DISM   Initialized Panther logging at C:\wim-uup-validation-1791110582335113548\servicing\logs\dism-6.log
+2026-10-04 12:08:57, Info                  DISM   Initialized Panther logging at C:\wim-uup-validation-1791110582335113548\servicing\logs\dism-6.log
+2026-10-04 12:08:57, Info                  DISM   DISM Manager: PID=2016 TID=8620 Image session successfully loaded from location: C:\WINDOWS\SystemTemp\C67F9D75-057D-4C43-808A-D98F57E181F3 - CDISMManager::CreateImageSession
+2026-10-04 12:08:57, Info                  DISM   DISM OS Provider: PID=5096 TID=1480 Setting SystemPath to C:\wim-uup-validation-1791110582335113548\servicing\mount - CDISMOSServiceManager::SetSystemPath
+2026-10-04 12:08:57, Info                  DISM   DISM.EXE: Target image information: OS Version=10.0.19041.1, Image architecture=amd64
+2026-10-04 12:08:57, Info                  DISM   DISM.EXE: Image session version: 10.0.19041.1
+2026-10-04 12:08:57, Info                  DISM   DISM Provider Store: PID=5096 TID=1480 Getting the collection of providers from an image provider store type. - CDISMProviderStore::GetProviderCollection
+2026-10-04 12:08:57, Info                  DISM   DISM Provider Store: PID=5096 TID=1480 Connecting to the provider located at C:\WINDOWS\SystemTemp\C67F9D75-057D-4C43-808A-D98F57E181F3\CbsProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 12:08:57, Info                  DISM   DISM Provider Store: PID=5096 TID=1480 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 12:08:57, Info                  CSI    00000001 Shim considered [l:178]'\??\C:\wim-uup-validation-1791110582335113548\servicing\mount\Windows\Servicing\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.19041.1_none_bf506ecc66a800df\wcp.dll' : got STATUS_OBJECT_PATH_NOT_FOUND
+2026-10-04 12:08:57, Info                  CSI    00000002 Shim considered [l:175]'\??\C:\wim-uup-validation-1791110582335113548\servicing\mount\Windows\WinSxS\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.19041.1_none_bf506ecc66a800df\wcp.dll' : got STATUS_SUCCESS
+2026-10-04 12:08:57, Info                  DISM   DISM OS Provider: PID=5096 TID=1480 Determined System directory to be C:\wim-uup-validation-1791110582335113548\servicing\mount\Windows\System32 - CDISMOSServiceManager::get_SystemDirectory
+2026-10-04 12:08:57, Info                  DISM   DISM Package Manager: PID=5096 TID=1480 Finished initializing the CbsConUI Handler. - CCbsConUIHandler::Initialize
+2026-10-04 12:08:57, Info                  CSI    00000001 Shim considered [l:178]'\??\C:\wim-uup-validation-1791110582335113548\servicing\mount\Windows\Servicing\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.19041.1_none_bf506ecc66a800df\wcp.dll' : got STATUS_OBJECT_PATH_NOT_FOUND
+2026-10-04 12:08:57, Info                  CSI    00000002 Shim considered [l:175]'\??\C:\wim-uup-validation-1791110582335113548\servicing\mount\Windows\WinSxS\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.19041.1_none_bf506ecc66a800df\wcp.dll' : got STATUS_SUCCESS
+2026-10-04 12:08:57, Info                  CSI    00000001 Shim considered [l:178]'\??\C:\wim-uup-validation-1791110582335113548\servicing\mount\Windows\Servicing\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.19041.1_none_bf506ecc66a800df\wcp.dll' : got STATUS_OBJECT_PATH_NOT_FOUND
+2026-10-04 12:08:57, Info                  CSI    00000002 Shim considered [l:175]'\??\C:\wim-uup-validation-1791110582335113548\servicing\mount\Windows\WinSxS\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.19041.1_none_bf506ecc66a800df\wcp.dll' : got STATUS_SUCCESS
+2026-10-04 12:08:57, Info                  CBS    Universal Time is: 2026-10-04 12:08:57.980
+2026-10-04 12:08:57, Info                  CBS    Failed to find a matching version for servicing stack: C:\wim-uup-validation-1791110582335113548\servicing\mount\Windows\WinSxS\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.19041.1_none_bf506ecc66a800df\ [HRESULT = 0x80070490 - ERROR_NOT_FOUND]
+2026-10-04 12:08:57, Info                  CBS    Failed to find servicing stack directory in online store. [HRESULT = 0x80070490 - ERROR_NOT_FOUND]
+2026-10-04 12:08:57, Info                  CBS    Offline servicing, using stack version from: C:\wim-uup-validation-1791110582335113548\servicing\mount\Windows\WinSxS\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.19041.1_none_bf506ecc66a800df\cbscore.dll
+2026-10-04 12:08:57, Info                  CBS    Loaded Servicing Stack v10.0.19041.1 with Core: C:\wim-uup-validation-1791110582335113548\servicing\mount\Windows\WinSxS\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.19041.1_none_bf506ecc66a800df\cbscore.dll
+2026-10-04 12:08:57, Info                  CBS    Setting core mode: CbsCoreModeOffline
+2026-10-04 12:08:57, Info                  CSI    00000001@2026/10/4:12:08:57.982 WcpInitialize: wcp.dll version 10.0.19041.1 (WinBuild.160101.0800)
+2026-10-04 12:08:57, Info                  CBS    Lock: New lock added: CCbsSessionManager, level: 11, total lock:9
+2026-10-04 12:08:57, Info                  CBS    Lock: New lock added: CSIInventoryCriticalSection, level: 64, total lock:10
+2026-10-04 12:08:57, Info                  DISM   DISM Package Manager: PID=5096 TID=1480 Loaded servicing stack for offline use only. - CDISMPackageManager::CreateCbsSession
+2026-10-04 12:08:57, Info                  CBS    Lazy store initialization mode
+2026-10-04 12:08:57, Info                  DISM   DISM Provider Store: PID=5096 TID=1480 Connecting to the provider located at C:\WINDOWS\SystemTemp\C67F9D75-057D-4C43-808A-D98F57E181F3\MsiProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 12:08:57, Info                  DISM   DISM Provider Store: PID=5096 TID=1480 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 12:08:58, Info                  DISM   DISM Provider Store: PID=5096 TID=1480 Connecting to the provider located at C:\WINDOWS\SystemTemp\C67F9D75-057D-4C43-808A-D98F57E181F3\IntlProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 12:08:58, Info                  DISM   DISM Provider Store: PID=5096 TID=1480 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 12:08:58, Info                  DISM   DISM Provider Store: PID=5096 TID=1480 Connecting to the provider located at C:\WINDOWS\SystemTemp\C67F9D75-057D-4C43-808A-D98F57E181F3\IBSProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 12:08:58, Info                  DISM   DISM Provider Store: PID=5096 TID=1480 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 12:08:58, Info                  DISM   DISM Provider Store: PID=5096 TID=1480 Connecting to the provider located at C:\WINDOWS\SystemTemp\C67F9D75-057D-4C43-808A-D98F57E181F3\DmiProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 12:08:58, Info                  DISM   DISM Provider Store: PID=5096 TID=1480 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 12:08:58, Info                  CSI    00000001 Shim considered [l:178]'\??\C:\wim-uup-validation-1791110582335113548\servicing\mount\Windows\Servicing\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.19041.1_none_bf506ecc66a800df\wcp.dll' : got STATUS_OBJECT_PATH_NOT_FOUND
+2026-10-04 12:08:58, Info                  CSI    00000002 Shim considered [l:175]'\??\C:\wim-uup-validation-1791110582335113548\servicing\mount\Windows\WinSxS\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.19041.1_none_bf506ecc66a800df\wcp.dll' : got STATUS_SUCCESS
+2026-10-04 12:08:58, Info                  DISM   DISM Driver Manager: PID=5096 TID=1480 Further logs for driver related operations can be found in the target operating system at %WINDIR%\inf\setupapi.offline.log - CDriverManager::Initialize
+2026-10-04 12:08:58, Info                  DISM   DISM Provider Store: PID=5096 TID=1480 Connecting to the provider located at C:\WINDOWS\SystemTemp\C67F9D75-057D-4C43-808A-D98F57E181F3\UnattendProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 12:08:58, Info                  DISM   DISM Provider Store: PID=5096 TID=1480 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 12:08:58, Info                  DISM   DISM Provider Store: PID=5096 TID=1480 Connecting to the provider located at C:\WINDOWS\SystemTemp\C67F9D75-057D-4C43-808A-D98F57E181F3\SmiProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 12:08:58, Info                  DISM   DISM Provider Store: PID=5096 TID=1480 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 12:08:58, Warning               DISM   DISM Provider Store: PID=5096 TID=1480 Failed to load the provider: C:\WINDOWS\SystemTemp\C67F9D75-057D-4C43-808A-D98F57E181F3\EmbeddedProvider.dll. - CDISMProviderStore::Internal_GetProvider(hr:0x8007007e)
+2026-10-04 12:08:58, Info                  DISM   DISM Provider Store: PID=5096 TID=1480 Connecting to the provider located at C:\WINDOWS\SystemTemp\C67F9D75-057D-4C43-808A-D98F57E181F3\AppxProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 12:08:58, Info                  DISM   DISM Provider Store: PID=5096 TID=1480 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 12:08:58, Info                  DISM   DISM Provider Store: PID=5096 TID=1480 Connecting to the provider located at C:\WINDOWS\SystemTemp\C67F9D75-057D-4C43-808A-D98F57E181F3\ProvProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 12:08:58, Info                  DISM   DISM Provider Store: PID=5096 TID=1480 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 12:08:58, Info                  DISM   DISM Provider Store: PID=5096 TID=1480 Connecting to the provider located at C:\WINDOWS\SystemTemp\C67F9D75-057D-4C43-808A-D98F57E181F3\AssocProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 12:08:58, Info                  DISM   DISM Provider Store: PID=5096 TID=1480 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 12:08:58, Info                  DISM   DISM Provider Store: PID=5096 TID=1480 Connecting to the provider located at C:\WINDOWS\SystemTemp\C67F9D75-057D-4C43-808A-D98F57E181F3\GenericProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 12:08:58, Info                  DISM   DISM Provider Store: PID=5096 TID=1480 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 12:08:58, Info                  DISM   DISM Provider Store: PID=5096 TID=1480 Connecting to the provider located at C:\WINDOWS\SystemTemp\C67F9D75-057D-4C43-808A-D98F57E181F3\OfflineSetupProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 12:08:58, Info                  DISM   DISM Provider Store: PID=5096 TID=1480 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 12:08:58, Info                  DISM   DISM Provider Store: PID=5096 TID=1480 Connecting to the provider located at C:\WINDOWS\SystemTemp\C67F9D75-057D-4C43-808A-D98F57E181F3\SysprepProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 12:08:58, Info                  DISM   DISM Provider Store: PID=5096 TID=1480 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 12:08:58, Info                  DISM   DISM Provider Store: PID=5096 TID=1480 Connecting to the provider located at C:\WINDOWS\SystemTemp\C67F9D75-057D-4C43-808A-D98F57E181F3\TransmogProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 12:08:58, Info                  DISM   DISM Provider Store: PID=5096 TID=1480 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 12:08:58, Info                  DISM   DISM Transmog Provider: PID=5096 TID=1480 Current image session is [OFFLINE] - CTransmogManager::GetMode
+2026-10-04 12:08:58, Info                  DISM   DISM Transmog Provider: PID=5096 TID=1480 Determined WinDir path = [C:\wim-uup-validation-1791110582335113548\servicing\mount\Windows] - CTransmogManager::GetWinDirPath
+2026-10-04 12:08:58, Info                  DISM   DISM Transmog Provider: PID=5096 TID=1480 GetProductType: ProductType = [WinNT] - CTransmogManager::GetProductType
+2026-10-04 12:08:58, Info                  DISM   DISM Transmog Provider: PID=5096 TID=1480 Product Type: [WinNT] - CTransmogManager::Initialize
+2026-10-04 12:08:58, Info                  DISM   DISM Transmog Provider: PID=5096 TID=1480 Product Type ServerNT : [No] - CTransmogManager::Initialize
+2026-10-04 12:08:58, Info                  DISM   DISM Provider Store: PID=5096 TID=1480 Connecting to the provider located at C:\WINDOWS\SystemTemp\C67F9D75-057D-4C43-808A-D98F57E181F3\SetupPlatformProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 12:08:58, Info                  DISM   DISM Provider Store: PID=5096 TID=1480 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 12:08:58, Info                  DISM   DISM Package Manager: PID=5096 TID=2612 Processing the top level command token(add-package). - CPackageManagerCLIHandler::Private_ValidateCmdLine
+2026-10-04 12:08:58, Info                  DISM   DISM Package Manager: PID=5096 TID=2612 Attempting to route to appropriate command handler. - CPackageManagerCLIHandler::ExecuteCmdLine
+2026-10-04 12:08:58, Info                  DISM   DISM Package Manager: PID=5096 TID=2612 Routing the command... - CPackageManagerCLIHandler::ExecuteCmdLine
+2026-10-04 12:08:58, Info                  DISM   DISM Package Manager: PID=5096 TID=2612 Encountered the option "packagepath" with value "D:\UUPs\SSU-19041.7714-x64.cab" - CPackageManagerCLIHandler::Private_GetPackagesFromCommandLine
+2026-10-04 12:08:58, Info                  CBS    Lazy store initialization mode, fully initialize.
+2026-10-04 12:08:58, Info                  CBS    Offline image is writable
+2026-10-04 12:08:58, Info                  CBS    Loading offline registry hive: SOFTWARE, into registry key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/wim-uup-validation-1791110582335113548/servicing/mount/Windows/System32/config/SOFTWARE' from path '\\?\C:\wim-uup-validation-1791110582335113548\servicing\mount\Windows\System32\config\SOFTWARE'.
+2026-10-04 12:08:58, Info                  CBS    Loading offline registry hive: SYSTEM, into registry key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/wim-uup-validation-1791110582335113548/servicing/mount/Windows/System32/config/SYSTEM' from path '\\?\C:\wim-uup-validation-1791110582335113548\servicing\mount\Windows\System32\config\SYSTEM'.
+2026-10-04 12:08:58, Info                  CBS    Loading offline registry hive: SECURITY, into registry key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/wim-uup-validation-1791110582335113548/servicing/mount/Windows/System32/config/SECURITY' from path '\\?\C:\wim-uup-validation-1791110582335113548\servicing\mount\Windows\System32\config\SECURITY'.
+2026-10-04 12:08:58, Info                  CBS    Loading offline registry hive: SAM, into registry key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/wim-uup-validation-1791110582335113548/servicing/mount/Windows/System32/config/SAM' from path '\\?\C:\wim-uup-validation-1791110582335113548\servicing\mount\Windows\System32\config\SAM'.
+2026-10-04 12:08:58, Info                  CBS    Loading offline registry hive: COMPONENTS, into registry key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/wim-uup-validation-1791110582335113548/servicing/mount/Windows/System32/config/COMPONENTS' from path '\\?\C:\wim-uup-validation-1791110582335113548\servicing\mount\Windows\System32\config\COMPONENTS'.
+2026-10-04 12:08:58, Info                  CBS    Loading offline registry hive: DRIVERS, into registry key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/wim-uup-validation-1791110582335113548/servicing/mount/Windows/System32/config/DRIVERS' from path '\\?\C:\wim-uup-validation-1791110582335113548\servicing\mount\Windows\System32\config\DRIVERS'.
+2026-10-04 12:08:58, Info                  CBS    Loading offline registry hive: DEFAULT, into registry key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/wim-uup-validation-1791110582335113548/servicing/mount/Windows/System32/config/DEFAULT' from path '\\?\C:\wim-uup-validation-1791110582335113548\servicing\mount\Windows\System32\config\DEFAULT'.
+2026-10-04 12:08:58, Info                  CBS    Loading offline registry hive: ntuser.dat, into registry key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/wim-uup-validation-1791110582335113548/servicing/mount/Users/Default/ntuser.dat' from path '\\?\C:\wim-uup-validation-1791110582335113548\servicing\mount\Users\Default\ntuser.dat'.
+2026-10-04 12:08:58, Info                  CBS    Loading offline registry hive: schema.dat, into registry key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/wim-uup-validation-1791110582335113548/servicing/mount/Windows/system32/smi/store/Machine/schema.dat' from path '\\?\C:\wim-uup-validation-1791110582335113548\servicing\mount\Windows\system32\smi\store\Machine\schema.dat'.
+2026-10-04 12:08:58, Info                  CSI    00000002 CSI Store 2767332291296 initialized
+2026-10-04 12:08:58, Info                  CBS    Build: 19041.1.amd64fre.vb_release.191206-1406
+2026-10-04 12:08:58, Info                  CBS    Session: 5096_5336046 initialized by client DISM Package Manager Provider, external staging directory: (null), external registry directory: (null)
+2026-10-04 12:08:58, Info                  DPX    Started DPX phase: Resume and Download Job
+2026-10-04 12:08:58, Info                  DPX    Started DPX phase: Apply Deltas Provided In File
+2026-10-04 12:08:58, Info                  DPX    Ended DPX phase: Apply Deltas Provided In File
+2026-10-04 12:08:58, Info                  DPX    Started DPX phase: Apply Deltas Provided In File
+2026-10-04 12:08:58, Info                  DPX    Ended DPX phase: Apply Deltas Provided In File
+2026-10-04 12:08:58, Info                  DPX    CJob::Resume completed with status: 0x0
+2026-10-04 12:08:58, Info                  DPX    Ended DPX phase: Resume and Download Job
+2026-10-04 12:08:58, Info                  CBS    Opened cabinet package, package directory: \\?\D:\UUPs\, sandbox location: \\?\C:\WINDOWS\SystemTemp\A88449C6-335C-439E-8218-019833BBBCC4\, cabinet location: \\?\D:\UUPs\SSU-19041.7714-x64.cab, manifest location: \\?\C:\WINDOWS\SystemTemp\A88449C6-335C-439E-8218-019833BBBCC4\update.mum
+2026-10-04 12:08:58, Info                  DPX    Started DPX phase: Resume and Download Job
+2026-10-04 12:08:58, Info                  DPX    Started DPX phase: Apply Deltas Provided In File
+2026-10-04 12:08:58, Info                  DPX    Ended DPX phase: Apply Deltas Provided In File
+2026-10-04 12:08:58, Info                  DPX    CJob::Resume completed with status: 0x0
+2026-10-04 12:08:58, Info                  DPX    Ended DPX phase: Resume and Download Job
+2026-10-04 12:08:58, Info                  DPX    Extraction of file: update.ses failed because it is not present in the container (\\?\D:\UUPs\SSU-19041.7714-x64.cab).
+2026-10-04 12:08:58, Info                  DPX    DpxException hr=0x80070002 code=0x020109
+2026-10-04 12:08:58, Info                  CBS    Not able to add file to extract: update.ses [HRESULT = 0x80070002 - ERROR_FILE_NOT_FOUND]
+2026-10-04 12:08:58, Info                  CBS    Appl: detect Parent, Package: Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3, Parent: Microsoft-Windows-CoreCountrySpecificEdition~31bf3856ad364e35~amd64~~10.0.19041.1, Disposition = Detect, VersionComp: EQ, BuildComp: EQ, RevisionComp: GE, Exist: present
+2026-10-04 12:08:58, Info                  CBS    Appl: detectParent: no parent found, go absent
+2026-10-04 12:08:58, Info                  CBS    Appl: detect Parent, Package: Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3, Parent: Microsoft-Windows-CoreEdition~31bf3856ad364e35~amd64~~10.0.19041.1, Disposition = Detect, VersionComp: EQ, BuildComp: EQ, RevisionComp: GE, Exist: present
+2026-10-04 12:08:58, Info                  CBS    Appl: detectParent: no parent found, go absent
+2026-10-04 12:08:58, Info                  CBS    Appl: detect Parent, Package: Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3, Parent: Microsoft-Windows-CoreNEdition~31bf3856ad364e35~amd64~~10.0.19041.1, Disposition = Detect, VersionComp: EQ, BuildComp: EQ, RevisionComp: GE, Exist: present
+2026-10-04 12:08:58, Info                  CBS    Appl: detectParent: no parent found, go absent
+2026-10-04 12:08:58, Info                  CBS    Appl: detect Parent, Package: Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3, Parent: Microsoft-Windows-EnterpriseEvalEdition~31bf3856ad364e35~amd64~~10.0.19041.1, Disposition = Detect, VersionComp: EQ, BuildComp: EQ, RevisionComp: GE, Exist: present
+2026-10-04 12:08:58, Info                  CBS    Appl: detectParent: no parent found, go absent
+2026-10-04 12:08:58, Info                  CBS    Appl: detect Parent, Package: Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3, Parent: Microsoft-Windows-EnterpriseGEdition~31bf3856ad364e35~amd64~~10.0.19041.1, Disposition = Detect, VersionComp: EQ, BuildComp: EQ, RevisionComp: GE, Exist: present
+2026-10-04 12:08:58, Info                  CBS    Appl: detectParent: no parent found, go absent
+2026-10-04 12:08:58, Info                  CBS    Appl: detect Parent, Package: Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3, Parent: Microsoft-Windows-EnterpriseSEdition~31bf3856ad364e35~amd64~~10.0.19041.1, Disposition = Detect, VersionComp: EQ, BuildComp: EQ, RevisionComp: GE, Exist: present
+2026-10-04 12:08:58, Info                  CBS    Appl: detectParent: no parent found, go absent
+2026-10-04 12:08:58, Info                  CBS    Appl: detect Parent, Package: Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3, Parent: Microsoft-Windows-EnterpriseSEvalEdition~31bf3856ad364e35~amd64~~10.0.19041.1, Disposition = Detect, VersionComp: EQ, BuildComp: EQ, RevisionComp: GE, Exist: present
+2026-10-04 12:08:58, Info                  CBS    Appl: detectParent: no parent found, go absent
+2026-10-04 12:08:58, Info                  CBS    Appl: detect Parent, Package: Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3, Parent: Microsoft-Windows-EnterpriseSNEdition~31bf3856ad364e35~amd64~~10.0.19041.1, Disposition = Detect, VersionComp: EQ, BuildComp: EQ, RevisionComp: GE, Exist: present
+2026-10-04 12:08:58, Info                  CBS    Appl: detectParent: no parent found, go absent
+2026-10-04 12:08:58, Info                  CBS    Appl: detect Parent, Package: Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3, Parent: Microsoft-Windows-EnterpriseSNEvalEdition~31bf3856ad364e35~amd64~~10.0.19041.1, Disposition = Detect, VersionComp: EQ, BuildComp: EQ, RevisionComp: GE, Exist: present
+2026-10-04 12:08:58, Info                  CBS    Appl: detectParent: no parent found, go absent
+2026-10-04 12:08:58, Info                  CBS    Appl: detect Parent, Package: Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3, Parent: Microsoft-Windows-PPIProEdition~31bf3856ad364e35~amd64~~10.0.19041.1, Disposition = Detect, VersionComp: EQ, BuildComp: EQ, RevisionComp: GE, Exist: present
+2026-10-04 12:08:58, Info                  CBS    Appl: detectParent: no parent found, go absent
+2026-10-04 12:08:58, Info                  CBS    Appl: detect Parent, Package: Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3, Parent: Microsoft-Windows-ProfessionalEdition~31bf3856ad364e35~amd64~~10.0.19041.1, Disposition = Detect, VersionComp: EQ, BuildComp: EQ, RevisionComp: GE, Exist: present
+2026-10-04 12:08:58, Info                  CBS    Appl: detectParent: parent found: Microsoft-Windows-ProfessionalEdition~31bf3856ad364e35~amd64~~10.0.19041.1, state: Installed
+2026-10-04 12:08:58, Info                  CBS    Appl: Evaluating package applicability for package Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3, applicable state: Installed
+2026-10-04 12:08:58, Info                  CBS    External EvaluateApplicability, package: Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3, package applicable State: Installed, highest update applicable state: Installed, resulting applicable state:Installed
+2026-10-04 12:08:58, Info                  DISM   DISM Package Manager: PID=5096 TID=2612 Package Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3 with CBS state 0(CbsInstallStateAbsent) being mapped to dism state 1(DISM_INSTALL_STATE_NOTPRESENT) - CDISMPackage::LogInstallStateMapping
+2026-10-04 12:08:58, Info                  CBS    External EvaluateApplicability, package: Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3, package applicable State: Installed, highest update applicable state: Installed, resulting applicable state:Installed
+2026-10-04 12:08:58, Info                  DISM   DISM Package Manager: PID=5096 TID=2612 Initiating Changes on Package with values: 4, 7 - CDISMPackage::Internal_ChangePackageState
+2026-10-04 12:08:58, Info                  DISM   DISM Package Manager: PID=5096 TID=2612 CBS session options=0x0! - CDISMPackageManager::Internal_Finalize
+2026-10-04 12:08:58, Info                  CBS    Real pend will be used if required
+2026-10-04 12:08:58, Info                  CBS    Exec: Processing started.  Client: DISM Package Manager Provider, Session: 5096_5336046, Package: Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3, Identifier: KB5122877
+2026-10-04 12:08:58, Info                  CBS    Exec: Using execution sequence: 28
+2026-10-04 12:08:58, Info                  CBS    Disabling LKG boot option
+2026-10-04 12:08:58, Info                  CBS    Perf: Entering stage: Planning
+2026-10-04 12:08:58, Info                  CBS    FLOW: Entering stage: Planning 
+2026-10-04 12:08:58, Info                  CBS    Appl: detect Parent, Package: Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3, Parent: Microsoft-Windows-CoreCountrySpecificEdition~31bf3856ad364e35~amd64~~10.0.19041.1, Disposition = Detect, VersionComp: EQ, BuildComp: EQ, RevisionComp: GE, Exist: present
+2026-10-04 12:08:58, Info                  CBS    Appl: detectParent: no parent found, go absent
+2026-10-04 12:08:58, Info                  CBS    Appl: detect Parent, Package: Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3, Parent: Microsoft-Windows-CoreEdition~31bf3856ad364e35~amd64~~10.0.19041.1, Disposition = Detect, VersionComp: EQ, BuildComp: EQ, RevisionComp: GE, Exist: present
+2026-10-04 12:08:58, Info                  CBS    Appl: detectParent: no parent found, go absent
+2026-10-04 12:08:58, Info                  CBS    Appl: detect Parent, Package: Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3, Parent: Microsoft-Windows-CoreNEdition~31bf3856ad364e35~amd64~~10.0.19041.1, Disposition = Detect, VersionComp: EQ, BuildComp: EQ, RevisionComp: GE, Exist: present
+2026-10-04 12:08:58, Info                  CBS    Appl: detectParent: no parent found, go absent
+2026-10-04 12:08:58, Info                  CBS    Appl: detect Parent, Package: Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3, Parent: Microsoft-Windows-EnterpriseEvalEdition~31bf3856ad364e35~amd64~~10.0.19041.1, Disposition = Detect, VersionComp: EQ, BuildComp: EQ, RevisionComp: GE, Exist: present
+2026-10-04 12:08:58, Info                  CBS    Appl: detectParent: no parent found, go absent
+2026-10-04 12:08:58, Info                  CBS    Appl: detect Parent, Package: Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3, Parent: Microsoft-Windows-EnterpriseGEdition~31bf3856ad364e35~amd64~~10.0.19041.1, Disposition = Detect, VersionComp: EQ, BuildComp: EQ, RevisionComp: GE, Exist: present
+2026-10-04 12:08:58, Info                  CBS    Appl: detectParent: no parent found, go absent
+2026-10-04 12:08:58, Info                  CBS    Appl: detect Parent, Package: Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3, Parent: Microsoft-Windows-EnterpriseSEdition~31bf3856ad364e35~amd64~~10.0.19041.1, Disposition = Detect, VersionComp: EQ, BuildComp: EQ, RevisionComp: GE, Exist: present
+2026-10-04 12:08:58, Info                  CBS    Appl: detectParent: no parent found, go absent
+2026-10-04 12:08:58, Info                  CBS    Appl: detect Parent, Package: Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3, Parent: Microsoft-Windows-EnterpriseSEvalEdition~31bf3856ad364e35~amd64~~10.0.19041.1, Disposition = Detect, VersionComp: EQ, BuildComp: EQ, RevisionComp: GE, Exist: present
+2026-10-04 12:08:58, Info                  CBS    Appl: detectParent: no parent found, go absent
+2026-10-04 12:08:58, Info                  CBS    Appl: detect Parent, Package: Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3, Parent: Microsoft-Windows-EnterpriseSNEdition~31bf3856ad364e35~amd64~~10.0.19041.1, Disposition = Detect, VersionComp: EQ, BuildComp: EQ, RevisionComp: GE, Exist: present
+2026-10-04 12:08:58, Info                  CBS    Appl: detectParent: no parent found, go absent
+2026-10-04 12:08:58, Info                  CBS    Appl: detect Parent, Package: Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3, Parent: Microsoft-Windows-EnterpriseSNEvalEdition~31bf3856ad364e35~amd64~~10.0.19041.1, Disposition = Detect, VersionComp: EQ, BuildComp: EQ, RevisionComp: GE, Exist: present
+2026-10-04 12:08:58, Info                  CBS    Appl: detectParent: no parent found, go absent
+2026-10-04 12:08:58, Info                  CBS    Appl: detect Parent, Package: Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3, Parent: Microsoft-Windows-PPIProEdition~31bf3856ad364e35~amd64~~10.0.19041.1, Disposition = Detect, VersionComp: EQ, BuildComp: EQ, RevisionComp: GE, Exist: present
+2026-10-04 12:08:58, Info                  CBS    Appl: detectParent: no parent found, go absent
+2026-10-04 12:08:58, Info                  CBS    Appl: detect Parent, Package: Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3, Parent: Microsoft-Windows-ProfessionalEdition~31bf3856ad364e35~amd64~~10.0.19041.1, Disposition = Detect, VersionComp: EQ, BuildComp: EQ, RevisionComp: GE, Exist: present
+2026-10-04 12:08:58, Info                  CBS    Appl: detectParent: parent found: Microsoft-Windows-ProfessionalEdition~31bf3856ad364e35~amd64~~10.0.19041.1, state: Installed
+2026-10-04 12:08:58, Info                  CBS    Appl: Evaluating package applicability for package Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3, applicable state: Installed
+2026-10-04 12:08:58, Info                  CBS    Exec: Extracting package: Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3
+2026-10-04 12:08:58, Info                  CBS    FLOW: Entering stage: Extracting 
+2026-10-04 12:08:58, Info                  CBS    Extracting all files from cabinet \\?\D:\UUPs\SSU-19041.7714-x64.cab
+2026-10-04 12:08:58, Info                  DPX    Started DPX phase: Resume and Download Job
+2026-10-04 12:08:58, Info                  DPX    Started DPX phase: Apply Deltas Provided In File
+2026-10-04 12:09:00, Info                  DPX    Ended DPX phase: Apply Deltas Provided In File
+2026-10-04 12:09:00, Info                  DPX    CJob::Resume completed with status: 0x0
+2026-10-04 12:09:00, Info                  DPX    Ended DPX phase: Resume and Download Job
+2026-10-04 12:09:00, Info                  CBS    Plan: Package: Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3, current: Absent, pending: Default, start: Absent, applicable: Installed, targeted: Installed, limit: Installed
+2026-10-04 12:09:00, Info                  CBS    Plan: Package: Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3, Update: Wrapper-0B7C4A8DD44DC650C5D0EFD0057DAFD095D210252D3ECDA944552FA72AD9D084_amd64, current: Absent, pending: Default, start: Absent, applicable: Installed, targeted: Installed, limit: Installed, selected: Default
+2026-10-04 12:09:00, Info                  CBS    Plan: Package: Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3, Update: Wrapper-32560D930649AB35404B2F687003465175C8857289481AD9D53BDA9C381DD98E_amd64, current: Absent, pending: Default, start: Absent, applicable: Installed, targeted: Installed, limit: Installed, selected: Default
+2026-10-04 12:09:00, Info                  CBS    Plan: Package: Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3, Update: Wrapper-3AD5BA2AAC27EC07826C53A13DDC652733DFB926D1BD05DE2F628B36CA585908_amd64, current: Absent, pending: Default, start: Absent, applicable: Installed, targeted: Installed, limit: Installed, selected: Default
+2026-10-04 12:09:00, Info                  CBS    Plan: Package: Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3, Update: Wrapper-4FFF84968B45F7F06520B2C4354A3EE7DEB61E4EFEA9C488349B1F0103FA335D_amd64, current: Absent, pending: Default, start: Absent, applicable: Installed, targeted: Installed, limit: Installed, selected: Default
+2026-10-04 12:09:00, Info                  CBS    Plan: Package: Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3, Update: Wrapper-52516F357216A03D781BCFFA4F7ED84A0528FA875B6469561CE724771CD796FA_amd64, current: Absent, pending: Default, start: Absent, applicable: Installed, targeted: Installed, limit: Installed, selected: Default
+2026-10-04 12:09:00, Info                  CBS    Plan: Package: Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3, Update: Wrapper-5907EB9315E722AB7880D015E941E3766176890BB4CF9C619306D29BD39AE348_amd64, current: Absent, pending: Default, start: Absent, applicable: Installed, targeted: Installed, limit: Installed, selected: Default
+2026-10-04 12:09:00, Info                  CBS    Plan: Package: Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3, Update: Wrapper-7D02DE59E4DBD142C8E0AC4D2E4BDAC540DC87B1A29B31EC9B53E8F789338FDA_amd64, current: Absent, pending: Default, start: Absent, applicable: Installed, targeted: Installed, limit: Installed, selected: Default
+2026-10-04 12:09:00, Info                  CBS    Plan: Package: Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3, Update: Wrapper-89D7D236D5937BBAB9B84DDD7B81D170F563486D6025D2C8909158A532B7F141_amd64, current: Absent, pending: Default, start: Absent, applicable: Installed, targeted: Installed, limit: Installed, selected: Default
+2026-10-04 12:09:00, Info                  CBS    Plan: Package: Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3, Update: Wrapper-AC4BC41C5CFFB3641C8E81813D55CE16124144582A9B21CDD882231D2B93D417_amd64, current: Absent, pending: Default, start: Absent, applicable: Installed, targeted: Installed, limit: Installed, selected: Default
+2026-10-04 12:09:00, Info                  CBS    Plan: Package: Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3, Update: Wrapper-B1458FFBED2E1323DFE1CA04854FFA41C396056F04AC604F7DCC96A4DAD60889_amd64, current: Absent, pending: Default, start: Absent, applicable: Installed, targeted: Installed, limit: Installed, selected: Default
+2026-10-04 12:09:00, Info                  CBS    Plan: Package: Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3, Update: Wrapper-E07272ED41D57FA537024B21980DD80C4DD52A44CE0FA552FA07AD5998CE5559_amd64, current: Absent, pending: Default, start: Absent, applicable: Installed, targeted: Installed, limit: Installed, selected: Default
+2026-10-04 12:09:00, Info                  CBS    Plan: Package: Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3, Update: Wrapper-E95FBD7F87FF041F430169F7221183CAE58962610CC36F0AB61F9F47936D1EB0_amd64, current: Absent, pending: Default, start: Absent, applicable: Installed, targeted: Installed, limit: Installed, selected: Default
+2026-10-04 12:09:00, Info                  CBS    Plan: Package: Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3, Update: Wrapper-F3E040A49C2DCA36A6BC5332F55601AB4D19BAB1E0C136D6696BE430B3BEB31E_amd64, current: Absent, pending: Default, start: Absent, applicable: Installed, targeted: Installed, limit: Installed, selected: Default
+2026-10-04 12:09:00, Info                  CBS    Plan: Package: Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3, Update: Wrapper-F8A6CCAA3B8284CF77F24A33F99207AEA47A2863B05367567A6F7914133DBABD_amd64, current: Absent, pending: Default, start: Absent, applicable: Installed, targeted: Installed, limit: Installed, selected: Default
+2026-10-04 12:09:00, Info                  CBS    Appl: detect Parent, Package: Wrapper-0B7C4A8DD44DC650C5D0EFD0057DAFD095D210252D3ECDA944552FA72AD9D084~31bf3856ad364e35~amd64~~10.0.19041.7714, Parent: Microsoft-Windows-CoreNEdition~31bf3856ad364e35~amd64~~10.0.19041.1, Disposition = Detect, VersionComp: EQ, BuildComp: EQ, RevisionComp: GE, Exist: present
+2026-10-04 12:09:00, Info                  CBS    Appl: detectParent: no parent found, go absent
+2026-10-04 12:09:00, Info                  CBS    Appl: Evaluating package applicability for package Wrapper-0B7C4A8DD44DC650C5D0EFD0057DAFD095D210252D3ECDA944552FA72AD9D084~31bf3856ad364e35~amd64~~10.0.19041.7714, applicable state: Absent
+2026-10-04 12:09:00, Info                  CBS    Plan: Skipping package since its start state and target state are both absent for package: Wrapper-0B7C4A8DD44DC650C5D0EFD0057DAFD095D210252D3ECDA944552FA72AD9D084~31bf3856ad364e35~amd64~~10.0.19041.7714, current: Absent, pending: Default, start: Absent, applicable: Absent, targeted: Absent, limit: Installed
+2026-10-04 12:09:00, Info                  CBS    Appl: detect Parent, Package: Wrapper-32560D930649AB35404B2F687003465175C8857289481AD9D53BDA9C381DD98E~31bf3856ad364e35~amd64~~10.0.19041.7714, Parent: Microsoft-Windows-EnterpriseEvalEdition~31bf3856ad364e35~amd64~~10.0.19041.1, Disposition = Detect, VersionComp: EQ, BuildComp: EQ, RevisionComp: GE, Exist: present
+2026-10-04 12:09:00, Info                  CBS    Appl: detectParent: no parent found, go absent
+2026-10-04 12:09:00, Info                  CBS    Appl: Evaluating package applicability for package Wrapper-32560D930649AB35404B2F687003465175C8857289481AD9D53BDA9C381DD98E~31bf3856ad364e35~amd64~~10.0.19041.7714, applicable state: Absent
+2026-10-04 12:09:00, Info                  CBS    Plan: Skipping package since its start state and target state are both absent for package: Wrapper-32560D930649AB35404B2F687003465175C8857289481AD9D53BDA9C381DD98E~31bf3856ad364e35~amd64~~10.0.19041.7714, current: Absent, pending: Default, start: Absent, applicable: Absent, targeted: Absent, limit: Installed
+2026-10-04 12:09:00, Info                  CBS    Appl: detect Parent, Package: Wrapper-3AD5BA2AAC27EC07826C53A13DDC652733DFB926D1BD05DE2F628B36CA585908~31bf3856ad364e35~amd64~~10.0.19041.7714, Parent: Microsoft-Windows-EnterpriseSNEdition~31bf3856ad364e35~amd64~~10.0.19041.1, Disposition = Detect, VersionComp: EQ, BuildComp: EQ, RevisionComp: GE, Exist: present
+2026-10-04 12:09:00, Info                  CBS    Appl: detectParent: no parent found, go absent
+2026-10-04 12:09:00, Info                  CBS    Appl: Evaluating package applicability for package Wrapper-3AD5BA2AAC27EC07826C53A13DDC652733DFB926D1BD05DE2F628B36CA585908~31bf3856ad364e35~amd64~~10.0.19041.7714, applicable state: Absent
+2026-10-04 12:09:00, Info                  CBS    Plan: Skipping package since its start state and target state are both absent for package: Wrapper-3AD5BA2AAC27EC07826C53A13DDC652733DFB926D1BD05DE2F628B36CA585908~31bf3856ad364e35~amd64~~10.0.19041.7714, current: Absent, pending: Default, start: Absent, applicable: Absent, targeted: Absent, limit: Installed
+2026-10-04 12:09:00, Info                  CBS    Appl: detect Parent, Package: Wrapper-4FFF84968B45F7F06520B2C4354A3EE7DEB61E4EFEA9C488349B1F0103FA335D~31bf3856ad364e35~amd64~~10.0.19041.7714, Parent: Microsoft-Windows-EnterpriseGEdition~31bf3856ad364e35~amd64~~10.0.19041.1, Disposition = Detect, VersionComp: EQ, BuildComp: EQ, RevisionComp: GE, Exist: present
+2026-10-04 12:09:00, Info                  CBS    Appl: detectParent: no parent found, go absent
+2026-10-04 12:09:00, Info                  CBS    Appl: Evaluating package applicability for package Wrapper-4FFF84968B45F7F06520B2C4354A3EE7DEB61E4EFEA9C488349B1F0103FA335D~31bf3856ad364e35~amd64~~10.0.19041.7714, applicable state: Absent
+2026-10-04 12:09:00, Info                  CBS    Plan: Skipping package since its start state and target state are both absent for package: Wrapper-4FFF84968B45F7F06520B2C4354A3EE7DEB61E4EFEA9C488349B1F0103FA335D~31bf3856ad364e35~amd64~~10.0.19041.7714, current: Absent, pending: Default, start: Absent, applicable: Absent, targeted: Absent, limit: Installed
+2026-10-04 12:09:00, Info                  CBS    Appl: detect Parent, Package: Wrapper-52516F357216A03D781BCFFA4F7ED84A0528FA875B6469561CE724771CD796FA~31bf3856ad364e35~amd64~~10.0.19041.7714, Parent: Microsoft-Windows-ProfessionalEdition~31bf3856ad364e35~amd64~~10.0.19041.1, Disposition = Detect, VersionComp: EQ, BuildComp: EQ, RevisionComp: GE, Exist: present
+2026-10-04 12:09:00, Info                  CBS    Appl: detectParent: parent found: Microsoft-Windows-ProfessionalEdition~31bf3856ad364e35~amd64~~10.0.19041.1, state: Installed
+2026-10-04 12:09:00, Info                  CBS    Appl: Evaluating package applicability for package Wrapper-52516F357216A03D781BCFFA4F7ED84A0528FA875B6469561CE724771CD796FA~31bf3856ad364e35~amd64~~10.0.19041.7714, applicable state: Installed
+2026-10-04 12:09:00, Info                  CBS    Plan: Package: Wrapper-52516F357216A03D781BCFFA4F7ED84A0528FA875B6469561CE724771CD796FA~31bf3856ad364e35~amd64~~10.0.19041.7714, current: Absent, pending: Default, start: Absent, applicable: Installed, targeted: Installed, limit: Installed
+2026-10-04 12:09:00, Info                  CBS    Plan: Package: Wrapper-52516F357216A03D781BCFFA4F7ED84A0528FA875B6469561CE724771CD796FA~31bf3856ad364e35~amd64~~10.0.19041.7714, Update: Shared-F23A317D37531F54DFA7FD76CEA7C55611BD44E0AFD2D93FCD49CCD482727C28_amd64, current: Absent, pending: Default, start: Absent, applicable: Installed, targeted: Installed, limit: Installed, selected: Default
+2026-10-04 12:09:00, Info                  CBS    Appl: Evaluating package applicability for package Shared-F23A317D37531F54DFA7FD76CEA7C55611BD44E0AFD2D93FCD49CCD482727C28~31bf3856ad364e35~amd64~~10.0.19041.7714, applicable state: Installed
+2026-10-04 12:09:00, Info                  CBS    Plan: Package: Shared-F23A317D37531F54DFA7FD76CEA7C55611BD44E0AFD2D93FCD49CCD482727C28~31bf3856ad364e35~amd64~~10.0.19041.7714, current: Absent, pending: Default, start: Absent, applicable: Installed, targeted: Installed, limit: Installed
+2026-10-04 12:09:00, Info                  CSI    00000003@2026/10/4:12:09:00.314 CSI Transaction @0x284511821c0 initialized for deployment engine {d16d444c-56d8-11d5-882d-0080c847b195} with flags 00000002 and client id 'TI5.5096_5336046:1/'
+
+2026-10-04 12:09:00, Info                  CSI    00000004@2026/10/4:12:09:00.314 CSI Transaction @0x284511821c0 destroyed
+2026-10-04 12:09:00, Info                  CBS    Plan: Package: Shared-F23A317D37531F54DFA7FD76CEA7C55611BD44E0AFD2D93FCD49CCD482727C28~31bf3856ad364e35~amd64~~10.0.19041.7714, Update: Deployment-4EEF4D89985F1C0133BF084372DDDC66BAF22B3856D36013FAA426C4800F5D63_amd64, current: Absent, pending: Default, start: Absent, applicable: Installed, targeted: Installed, limit: Installed, selected: Default
+2026-10-04 12:09:00, Info                  CBS    Appl: detect Parent, Package: Wrapper-5907EB9315E722AB7880D015E941E3766176890BB4CF9C619306D29BD39AE348~31bf3856ad364e35~amd64~~10.0.19041.7714, Parent: Microsoft-Windows-EnterpriseSEvalEdition~31bf3856ad364e35~amd64~~10.0.19041.1, Disposition = Detect, VersionComp: EQ, BuildComp: EQ, RevisionComp: GE, Exist: present
+2026-10-04 12:09:00, Info                  CBS    Appl: detectParent: no parent found, go absent
+2026-10-04 12:09:00, Info                  CBS    Appl: Evaluating package applicability for package Wrapper-5907EB9315E722AB7880D015E941E3766176890BB4CF9C619306D29BD39AE348~31bf3856ad364e35~amd64~~10.0.19041.7714, applicable state: Absent
+2026-10-04 12:09:00, Info                  CBS    Plan: Skipping package since its start state and target state are both absent for package: Wrapper-5907EB9315E722AB7880D015E941E3766176890BB4CF9C619306D29BD39AE348~31bf3856ad364e35~amd64~~10.0.19041.7714, current: Absent, pending: Default, start: Absent, applicable: Absent, targeted: Absent, limit: Installed
+2026-10-04 12:09:00, Info                  CBS    Appl: detect Parent, Package: Wrapper-7D02DE59E4DBD142C8E0AC4D2E4BDAC540DC87B1A29B31EC9B53E8F789338FDA~31bf3856ad364e35~amd64~~10.0.19041.7714, Parent: Microsoft-Windows-CoreEdition~31bf3856ad364e35~amd64~~10.0.19041.1, Disposition = Detect, VersionComp: EQ, BuildComp: EQ, RevisionComp: GE, Exist: present
+2026-10-04 12:09:00, Info                  CBS    Appl: detectParent: no parent found, go absent
+2026-10-04 12:09:00, Info                  CBS    Appl: Evaluating package applicability for package Wrapper-7D02DE59E4DBD142C8E0AC4D2E4BDAC540DC87B1A29B31EC9B53E8F789338FDA~31bf3856ad364e35~amd64~~10.0.19041.7714, applicable state: Absent
+2026-10-04 12:09:00, Info                  CBS    Plan: Skipping package since its start state and target state are both absent for package: Wrapper-7D02DE59E4DBD142C8E0AC4D2E4BDAC540DC87B1A29B31EC9B53E8F789338FDA~31bf3856ad364e35~amd64~~10.0.19041.7714, current: Absent, pending: Default, start: Absent, applicable: Absent, targeted: Absent, limit: Installed
+2026-10-04 12:09:00, Info                  CBS    Appl: detect Parent, Package: Wrapper-89D7D236D5937BBAB9B84DDD7B81D170F563486D6025D2C8909158A532B7F141~31bf3856ad364e35~amd64~~10.0.19041.7714, Parent: Microsoft-Windows-ProfessionalNEdition~31bf3856ad364e35~amd64~~10.0.19041.1, Disposition = Detect, VersionComp: EQ, BuildComp: EQ, RevisionComp: GE, Exist: present
+2026-10-04 12:09:00, Info                  CBS    Appl: detectParent: no parent found, go absent
+2026-10-04 12:09:00, Info                  CBS    Appl: Evaluating package applicability for package Wrapper-89D7D236D5937BBAB9B84DDD7B81D170F563486D6025D2C8909158A532B7F141~31bf3856ad364e35~amd64~~10.0.19041.7714, applicable state: Absent
+2026-10-04 12:09:00, Info                  CBS    Plan: Skipping package since its start state and target state are both absent for package: Wrapper-89D7D236D5937BBAB9B84DDD7B81D170F563486D6025D2C8909158A532B7F141~31bf3856ad364e35~amd64~~10.0.19041.7714, current: Absent, pending: Default, start: Absent, applicable: Absent, targeted: Absent, limit: Installed
+2026-10-04 12:09:00, Info                  CBS    Appl: detect Parent, Package: Wrapper-AC4BC41C5CFFB3641C8E81813D55CE16124144582A9B21CDD882231D2B93D417~31bf3856ad364e35~amd64~~10.0.19041.7714, Parent: Microsoft-Windows-EnterpriseSEdition~31bf3856ad364e35~amd64~~10.0.19041.1, Disposition = Detect, VersionComp: EQ, BuildComp: EQ, RevisionComp: GE, Exist: present
+2026-10-04 12:09:00, Info                  CBS    Appl: detectParent: no parent found, go absent
+2026-10-04 12:09:00, Info                  CBS    Appl: Evaluating package applicability for package Wrapper-AC4BC41C5CFFB3641C8E81813D55CE16124144582A9B21CDD882231D2B93D417~31bf3856ad364e35~amd64~~10.0.19041.7714, applicable state: Absent
+2026-10-04 12:09:00, Info                  CBS    Plan: Skipping package since its start state and target state are both absent for package: Wrapper-AC4BC41C5CFFB3641C8E81813D55CE16124144582A9B21CDD882231D2B93D417~31bf3856ad364e35~amd64~~10.0.19041.7714, current: Absent, pending: Default, start: Absent, applicable: Absent, targeted: Absent, limit: Installed
+2026-10-04 12:09:00, Info                  CBS    Appl: detect Parent, Package: Wrapper-B1458FFBED2E1323DFE1CA04854FFA41C396056F04AC604F7DCC96A4DAD60889~31bf3856ad364e35~amd64~~10.0.19041.7714, Parent: Microsoft-Windows-EnterpriseSNEvalEdition~31bf3856ad364e35~amd64~~10.0.19041.1, Disposition = Detect, VersionComp: EQ, BuildComp: EQ, RevisionComp: GE, Exist: present
+2026-10-04 12:09:00, Info                  CBS    Appl: detectParent: no parent found, go absent
+2026-10-04 12:09:00, Info                  CBS    Appl: Evaluating package applicability for package Wrapper-B1458FFBED2E1323DFE1CA04854FFA41C396056F04AC604F7DCC96A4DAD60889~31bf3856ad364e35~amd64~~10.0.19041.7714, applicable state: Absent
+2026-10-04 12:09:00, Info                  CBS    Plan: Skipping package since its start state and target state are both absent for package: Wrapper-B1458FFBED2E1323DFE1CA04854FFA41C396056F04AC604F7DCC96A4DAD60889~31bf3856ad364e35~amd64~~10.0.19041.7714, current: Absent, pending: Default, start: Absent, applicable: Absent, targeted: Absent, limit: Installed
+2026-10-04 12:09:00, Info                  CBS    Appl: detect Parent, Package: Wrapper-E07272ED41D57FA537024B21980DD80C4DD52A44CE0FA552FA07AD5998CE5559~31bf3856ad364e35~amd64~~10.0.19041.7714, Parent: Microsoft-Windows-WinPE-Package~31bf3856ad364e35~amd64~~10.0.19041.1, Disposition = Detect, VersionComp: EQ, BuildComp: EQ, RevisionComp: GE, Exist: present
+2026-10-04 12:09:00, Info                  CBS    Appl: detectParent: no parent found, go absent
+2026-10-04 12:09:00, Info                  CBS    Appl: Evaluating package applicability for package Wrapper-E07272ED41D57FA537024B21980DD80C4DD52A44CE0FA552FA07AD5998CE5559~31bf3856ad364e35~amd64~~10.0.19041.7714, applicable state: Absent
+2026-10-04 12:09:00, Info                  CBS    Plan: Skipping package since its start state and target state are both absent for package: Wrapper-E07272ED41D57FA537024B21980DD80C4DD52A44CE0FA552FA07AD5998CE5559~31bf3856ad364e35~amd64~~10.0.19041.7714, current: Absent, pending: Default, start: Absent, applicable: Absent, targeted: Absent, limit: Installed
+2026-10-04 12:09:00, Info                  CBS    Appl: detect Parent, Package: Wrapper-E95FBD7F87FF041F430169F7221183CAE58962610CC36F0AB61F9F47936D1EB0~31bf3856ad364e35~amd64~~10.0.19041.7714, Parent: Microsoft-Windows-CoreCountrySpecificEdition~31bf3856ad364e35~amd64~~10.0.19041.1, Disposition = Detect, VersionComp: EQ, BuildComp: EQ, RevisionComp: GE, Exist: present
+2026-10-04 12:09:00, Info                  CBS    Appl: detectParent: no parent found, go absent
+2026-10-04 12:09:00, Info                  CBS    Appl: Evaluating package applicability for package Wrapper-E95FBD7F87FF041F430169F7221183CAE58962610CC36F0AB61F9F47936D1EB0~31bf3856ad364e35~amd64~~10.0.19041.7714, applicable state: Absent
+2026-10-04 12:09:00, Info                  CBS    Plan: Skipping package since its start state and target state are both absent for package: Wrapper-E95FBD7F87FF041F430169F7221183CAE58962610CC36F0AB61F9F47936D1EB0~31bf3856ad364e35~amd64~~10.0.19041.7714, current: Absent, pending: Default, start: Absent, applicable: Absent, targeted: Absent, limit: Installed
+2026-10-04 12:09:00, Info                  CBS    Appl: detect Parent, Package: Wrapper-F3E040A49C2DCA36A6BC5332F55601AB4D19BAB1E0C136D6696BE430B3BEB31E~31bf3856ad364e35~amd64~~10.0.19041.7714, Parent: Microsoft-Windows-UtilityVMEdition~31bf3856ad364e35~amd64~~10.0.19041.1, Disposition = Detect, VersionComp: EQ, BuildComp: EQ, RevisionComp: GE, Exist: present
+2026-10-04 12:09:00, Info                  CBS    Appl: detectParent: no parent found, go absent
+2026-10-04 12:09:00, Info                  CBS    Appl: Evaluating package applicability for package Wrapper-F3E040A49C2DCA36A6BC5332F55601AB4D19BAB1E0C136D6696BE430B3BEB31E~31bf3856ad364e35~amd64~~10.0.19041.7714, applicable state: Absent
+2026-10-04 12:09:00, Info                  CBS    Plan: Skipping package since its start state and target state are both absent for package: Wrapper-F3E040A49C2DCA36A6BC5332F55601AB4D19BAB1E0C136D6696BE430B3BEB31E~31bf3856ad364e35~amd64~~10.0.19041.7714, current: Absent, pending: Default, start: Absent, applicable: Absent, targeted: Absent, limit: Installed
+2026-10-04 12:09:00, Info                  CBS    Appl: detect Parent, Package: Wrapper-F8A6CCAA3B8284CF77F24A33F99207AEA47A2863B05367567A6F7914133DBABD~31bf3856ad364e35~amd64~~10.0.19041.7714, Parent: Microsoft-Windows-PPIProEdition~31bf3856ad364e35~amd64~~10.0.19041.1, Disposition = Detect, VersionComp: EQ, BuildComp: EQ, RevisionComp: GE, Exist: present
+2026-10-04 12:09:00, Info                  CBS    Appl: detectParent: no parent found, go absent
+2026-10-04 12:09:00, Info                  CBS    Appl: Evaluating package applicability for package Wrapper-F8A6CCAA3B8284CF77F24A33F99207AEA47A2863B05367567A6F7914133DBABD~31bf3856ad364e35~amd64~~10.0.19041.7714, applicable state: Absent
+2026-10-04 12:09:00, Info                  CBS    Plan: Skipping package since its start state and target state are both absent for package: Wrapper-F8A6CCAA3B8284CF77F24A33F99207AEA47A2863B05367567A6F7914133DBABD~31bf3856ad364e35~amd64~~10.0.19041.7714, current: Absent, pending: Default, start: Absent, applicable: Absent, targeted: Absent, limit: Installed
+2026-10-04 12:09:00, Info                  CBS    Appl:Feature On Demand package without explicit comparator, using GE on build version
+2026-10-04 12:09:00, Info                  CBS    Appl:Feature On Demand package without explicit comparator, using GE on build version
+2026-10-04 12:09:01, Info                  CBS    Plan: Start to process package watchlist.
+2026-10-04 12:09:01, Info                  CBS    Computed hard reserve increase of 0 bytes for Client: DISM Package Manager Provider, Session: 5096_5336046
+2026-10-04 12:09:01, Info                  CBS    Perf: Resolve chain started.
+2026-10-04 12:09:01, Info                  CBS    FLOW: Entering stage: Resolving 
+2026-10-04 12:09:01, Info                  CSI    00000005@2026/10/4:12:09:01.272 CSI Transaction @0x28452d9ad60 initialized for deployment engine {d16d444c-56d8-11d5-882d-0080c847b195} with flags 00000002 and client id 'TI1.5096_5336046:2/Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3'
+
+2026-10-04 12:09:01, Info                  CBS    Exec: Resolving Package: Shared-F23A317D37531F54DFA7FD76CEA7C55611BD44E0AFD2D93FCD49CCD482727C28~31bf3856ad364e35~amd64~~10.0.19041.7714, Update: Deployment-4EEF4D89985F1C0133BF084372DDDC66BAF22B3856D36013FAA426C4800F5D63_amd64
+2026-10-04 12:09:01, Info                  CBS    Exec: Resolving Package: Shared-F23A317D37531F54DFA7FD76CEA7C55611BD44E0AFD2D93FCD49CCD482727C28~31bf3856ad364e35~amd64~~10.0.19041.7714, Update: Deployment-4EEF4D89985F1C0133BF084372DDDC66BAF22B3856D36013FAA426C4800F5D63_amd64, PinDeployment: amd64_deployment-4eef4d89..013faa426c4800f5d63_31bf3856ad364e35_10.0.19041.7714_none_d179b0b938d14808
+2026-10-04 12:09:01, Info                  CBS    Exec: 1 deployments need bulk staging
+2026-10-04 12:09:01, Info                  CSI    00000006 Performing 1 operations as follows:
+  (0)  Stage: flags: 8 app: [Deployment-4EEF4D89985F1C0133BF084372DDDC66BAF22B3856D36013FAA426C4800F5D63, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35}]) comp: (null) man: @0x28452d48770
+2026-10-04 12:09:01, Info                  CSI    00000007 Performing 1 operations as follows:
+  (0)  AddCat: flags: 1 catfile: @0x28452d49420
+2026-10-04 12:09:01, Info                  CBS    Perf: Ready for complete Component closure.
+2026-10-04 12:09:01, Info                  CSI    00000008 Performing 42 operations as follows:
+  (0)  PrestageComponent: flags: 0 app: (null) comp: Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+  (1)  PrestageComponent: flags: 0 app: (null) comp: Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+  (2)  PrestageComponent: flags: 0 app: (null) comp: Microsoft-Windows-ServicingStack-Base, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+  (3)  PrestageComponent: flags: 0 app: (null) comp: Microsoft-Windows-ServicingStack-Base, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+  (4)  PrestageComponent: flags: 0 app: (null) comp: Microsoft-Windows-ServicingStack-Base-Extra, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+  (5)  PrestageComponent: flags: 0 app: (null) comp: Microsoft-Windows-ServicingStack-Base-Extra, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+  (6)  PrestageComponent: flags: 0 app: (null) comp: Microsoft-Windows-ServicingStack-Boot-Onecore, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+  (7)  PrestageComponent: flags: 0 app: (null) comp: Microsoft-Windows-ServicingStack-Boot-Onecore, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+  (8)  PrestageComponent: flags: 0 app: (null) comp: Microsoft-Windows-ServicingStack-BuildBranch, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+  (9)  PrestageComponent: flags: 0 app: (null) comp: Microsoft-Windows-ServicingStack-BuildBranch, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+  (10)  PrestageComponent: flags: 0 app: (null) comp: Microsoft-Windows-ServicingStack-Inetsrv, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+  (11)  PrestageComponent: flags: 0 app: (null) comp: Microsoft-Windows-ServicingStack-Inetsrv, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:
+2026-10-04 12:09:01, Info                  CSI    31bf3856ad364e35}
+  (12)  PrestageComponent: flags: 0 app: (null) comp: Microsoft-Windows-ServicingStack-Inetsrv-Extra, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+  (13)  PrestageComponent: flags: 0 app: (null) comp: Microsoft-Windows-ServicingStack-Installers-OneCore, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+  (14)  PrestageComponent: flags: 0 app: (null) comp: Microsoft-Windows-ServicingStack-Installers-OneCore, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+  (15)  PrestageComponent: flags: 0 app: (null) comp: Microsoft-Windows-ServicingStack-Installers-OneCore-Extra, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+  (16)  PrestageComponent: flags: 0 app: (null) comp: Microsoft-Windows-ServicingStack-Installers-OneCore-Extra, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+  (17)  PrestageComponent: flags: 0 app: (null) comp: Microsoft-Windows-ServicingStack-Mof-onecoreadmin, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+  (18)  PrestageComponent: flags: 0 app: (null) comp: Microsoft-Windows-ServicingStack-Mof-onecoreadmin, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+  (19)  PrestageComponent: flags: 0 app: (null) comp: Microsoft-Windows-ServicingStack-Net, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+  (20)  PrestageComponent: flags: 0 app: (null) comp: Microsoft-Windows-ServicingStack-OneCore, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+  (21)  PrestageComponent: flags: 0 app: (null) comp: Microsoft-Windows-ServicingStack-OneCore, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+  (22)  PrestageComponent: flags: 0 app: (null) comp: Microsoft-Windows-ServicingStack-OnecoreBase, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+  (23)  PrestageComponent: flags: 0 app: (null) comp: Microsoft-Windows-ServicingStack-O
+2026-10-04 12:09:01, Info                  CSI    necoreBase, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+  (24)  PrestageComponent: flags: 0 app: (null) comp: Microsoft-Windows-ServicingStack-OnecoreDs, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+  (25)  PrestageComponent: flags: 0 app: (null) comp: Microsoft-Windows-ServicingStack-OnecoreDs, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+  (26)  PrestageComponent: flags: 0 app: (null) comp: Microsoft-Windows-ServicingStack-Termsrv-Extra, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+  (27)  PrestageComponent: flags: 0 app: (null) comp: Microsoft-Windows-ServicingStack-Termsrv-Extra, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+  (28)  PrestageComponent: flags: 0 app: (null) comp: Microsoft-Windows-ServicingStack-Transformers-Core, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+  (29)  PrestageComponent: flags: 0 app: (null) comp: Microsoft-Windows-ServicingStack-Transformers-Core, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+  (30)  PrestageComponent: flags: 0 app: (null) comp: Microsoft-Windows-ServicingStack-Transformers-Full, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+  (31)  PrestageComponent: flags: 0 app: (null) comp: Microsoft-Windows-ServicingStack-Transformers-Full, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+  (32)  PrestageComponent: flags: 0 app: (null) comp: Microsoft-Windows-ServicingStack-Transformers-OneCore, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+  (33)  PrestageComponent: flags: 0 app: (null) comp: Microsoft-Windows-ServicingStack-Transformers-OneCore, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+  (34)  PrestageComponent: flags: 0 app: (null) comp: Microsoft-Windows-ServicingStack-Transformers-OneCore-Extra, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+  (
+2026-10-04 12:09:01, Info                  CSI    35)  PrestageComponent: flags: 0 app: (null) comp: Microsoft-Windows-ServicingStack-Transformers-OneCore-Extra, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+  (36)  PrestageComponent: flags: 0 app: (null) comp: Microsoft-Windows-ServicingStack-Transformers-onecoreadmin-Core, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+  (37)  PrestageComponent: flags: 0 app: (null) comp: Microsoft-Windows-ServicingStack-Transformers-onecoreadmin-Core, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+  (38)  PrestageComponent: flags: 0 app: (null) comp: Microsoft-Windows-ServicingStack-Transformers-Shell-Extra, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+  (39)  PrestageComponent: flags: 0 app: (null) comp: Microsoft-Windows-ServicingStack-Transformers-Shell-Extra, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+  (40)  PrestageComponent: flags: 0 app: (null) comp: Microsoft-Windows-ServicingStack-Transformers-Windows-Extra, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+  (41)  PrestageComponent: flags: 0 app: (null) comp: Microsoft-Windows-ServicingStack-Transformers-Windows-Extra, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+2026-10-04 12:09:01, Info                  CSI    00000009 Performing 42 operations as follows:
+  (0)  Stage: flags: 8 app: [Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35}]) comp: (null) man: @0x28452d48a10
+  (1)  Stage: flags: 8 app: [Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35}]) comp: (null) man: @0x28452d492d0
+  (2)  Stage: flags: 8 app: [Microsoft-Windows-ServicingStack-Base, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35}]) comp: (null) man: @0x28452d48a80
+  (3)  Stage: flags: 8 app: [Microsoft-Windows-ServicingStack-Base, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35}]) comp: (null) man: @0x28452d48e00
+  (4)  Stage: flags: 8 app: [Microsoft-Windows-ServicingStack-Base-Extra, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35}]) comp: (null) man: @0x28452d49810
+  (5)  Stage: flags: 8 app: [Microsoft-Windows-ServicingStack-Base-Extra, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35}]) comp: (null) man: @0x28452d48b60
+  (6)  Stage: flags: 8 app: [Microsoft-Windows-ServicingStack-Boot-Onecore, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35}]) comp: (null) man: @0x28452d48fc0
+  (7)  Stage: flags: 8 app: [Microsoft-Windows-ServicingStack-Boot-Onecore, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35}]) comp: (null) man: @0x28452d49420
+  (8)  Stage: flags: 8 app: [Microsoft-Windows-ServicingStack-BuildBranch, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35}]) comp: (null) man: @0x28452d49030
+  (9)  Stage: flags: 8 app: [Microsoft-Windows-ServicingStack-BuildBranch, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35}]) comp: (null) man: @0x28452d49340
+  (10)  Stage: flags: 8 app: [Microsoft-Windows-ServicingStack-Inetsrv, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35}]) comp: (null) man: @0x28452d493b0
+  (11)  Stage: flags: 8 app: 
+2026-10-04 12:09:01, Info                  CSI    [Microsoft-Windows-ServicingStack-Inetsrv, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35}]) comp: (null) man: @0x28452d48c40
+  (12)  Stage: flags: 8 app: [Microsoft-Windows-ServicingStack-Inetsrv-Extra, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35}]) comp: (null) man: @0x28452d48700
+  (13)  Stage: flags: 8 app: [Microsoft-Windows-ServicingStack-Installers-OneCore, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35}]) comp: (null) man: @0x28452d496c0
+  (14)  Stage: flags: 8 app: [Microsoft-Windows-ServicingStack-Installers-OneCore, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35}]) comp: (null) man: @0x28452d49730
+  (15)  Stage: flags: 8 app: [Microsoft-Windows-ServicingStack-Installers-OneCore-Extra, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35}]) comp: (null) man: @0x28452d49ff0
+  (16)  Stage: flags: 8 app: [Microsoft-Windows-ServicingStack-Installers-OneCore-Extra, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35}]) comp: (null) man: @0x28452d498f0
+  (17)  Stage: flags: 8 app: [Microsoft-Windows-ServicingStack-Mof-onecoreadmin, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35}]) comp: (null) man: @0x28452d48e70
+  (18)  Stage: flags: 8 app: [Microsoft-Windows-ServicingStack-Mof-onecoreadmin, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35}]) comp: (null) man: @0x28452d499d0
+  (19)  Stage: flags: 8 app: [Microsoft-Windows-ServicingStack-Net, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35}]) comp: (null) man: @0x28452d49a40
+  (20)  Stage: flags: 8 app: [Microsoft-Windows-ServicingStack-OneCore, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35}]) comp: (null) man: @0x28452d4a060
+  (21)  Stage: flags: 8 app: [Microsoft-Windows-ServicingStack-OneCore, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35}]) comp: (null) man: @0x28452d49ab0
+  (22)  Stage: flags
+2026-10-04 12:09:01, Info                  CSI    : 8 app: [Microsoft-Windows-ServicingStack-OnecoreBase, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35}]) comp: (null) man: @0x28452d48ee0
+  (23)  Stage: flags: 8 app: [Microsoft-Windows-ServicingStack-OnecoreBase, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35}]) comp: (null) man: @0x28452d49c70
+  (24)  Stage: flags: 8 app: [Microsoft-Windows-ServicingStack-OnecoreDs, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35}]) comp: (null) man: @0x28452d487e0
+  (25)  Stage: flags: 8 app: [Microsoft-Windows-ServicingStack-OnecoreDs, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35}]) comp: (null) man: @0x28452d48f50
+  (26)  Stage: flags: 8 app: [Microsoft-Windows-ServicingStack-Termsrv-Extra, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35}]) comp: (null) man: @0x28452d49e30
+  (27)  Stage: flags: 8 app: [Microsoft-Windows-ServicingStack-Termsrv-Extra, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35}]) comp: (null) man: @0x28452d49d50
+  (28)  Stage: flags: 8 app: [Microsoft-Windows-ServicingStack-Transformers-Core, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35}]) comp: (null) man: @0x28452d49ea0
+  (29)  Stage: flags: 8 app: [Microsoft-Windows-ServicingStack-Transformers-Core, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35}]) comp: (null) man: @0x28452d4a1b0
+  (30)  Stage: flags: 8 app: [Microsoft-Windows-ServicingStack-Transformers-Full, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35}]) comp: (null) man: @0x28452d4ba30
+  (31)  Stage: flags: 8 app: [Microsoft-Windows-ServicingStack-Transformers-Full, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35}]) comp: (null) man: @0x28452d4a220
+  (32)  Stage: flags: 8 app: [Microsoft-Windows-ServicingStack-Transformers-OneCore, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35}]) comp: (null) man: @0x28452d4b8e0
+  (33)  St
+2026-10-04 12:09:01, Info                  CSI    age: flags: 8 app: [Microsoft-Windows-ServicingStack-Transformers-OneCore, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35}]) comp: (null) man: @0x28452d4b950
+  (34)  Stage: flags: 8 app: [Microsoft-Windows-ServicingStack-Transformers-OneCore-Extra, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35}]) comp: (null) man: @0x28452d4b4f0
+  (35)  Stage: flags: 8 app: [Microsoft-Windows-ServicingStack-Transformers-OneCore-Extra, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35}]) comp: (null) man: @0x28452d4b410
+  (36)  Stage: flags: 8 app: [Microsoft-Windows-ServicingStack-Transformers-onecoreadmin-Core, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35}]) comp: (null) man: @0x28452d4b480
+  (37)  Stage: flags: 8 app: [Microsoft-Windows-ServicingStack-Transformers-onecoreadmin-Core, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35}]) comp: (null) man: @0x28452d4ac30
+  (38)  Stage: flags: 8 app: [Microsoft-Windows-ServicingStack-Transformers-Shell-Extra, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35}]) comp: (null) man: @0x28452d4aae0
+  (39)  Stage: flags: 8 app: [Microsoft-Windows-ServicingStack-Transformers-Shell-Extra, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35}]) comp: (null) man: @0x28452d4a840
+  (40)  Stage: flags: 8 app: [Microsoft-Windows-ServicingStack-Transformers-Windows-Extra, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35}]) comp: (null) man: @0x28452d4a610
+  (41)  Stage: flags: 8 app: [Microsoft-Windows-ServicingStack-Transformers-Windows-Extra, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35}]) comp: (null) man: @0x28452d4aed0
+2026-10-04 12:09:02, Info                  CSI    0000000a Performing 1 operations as follows:
+  (0)  Pin: flags: 0 tlc: [Deployment-4EEF4D89985F1C0133BF084372DDDC66BAF22B3856D36013FAA426C4800F5D63, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35}]) ref: ( flgs: 00000000 guid: {d16d444c-56d8-11d5-882d-0080c847b195} name: [l:193]'Shared-F23A317D37531F54DFA7FD76CEA7C55611BD44E0AFD2D93FCD49CCD482727C28~31bf3856ad364e35~amd64~~10.0.19041.7714.Deployment-4EEF4D89985F1C0133BF084372DDDC66BAF22B3856D36013FAA426C4800F5D63_amd64' ncdata: [l:0]'') thumbprint: [l:64]'edf5223269539f892456c62dfee2290db0232c86cdc7087ee3e21d3beea91ac6'
+2026-10-04 12:09:02, Info                  CBS    FLOW: Enter Installation Stage: Closure Analysis, Current Operation Stage: Resolving
+2026-10-04 12:09:02, Info                  CSI    0000000b ICSITransaction::Commit calling IStorePendingTransaction::Apply - applyflags=23
+2026-10-04 12:09:02, Info                  CSI    0000000c Poqexec successfully registered in [l:14 ml:15]'PoqexecCmdline'
+2026-10-04 12:09:02, Info                  CSI    0000000d Poqexec successfully registered in [l:14 ml:15]'PoqexecCmdline'
+2026-10-04 12:09:02, Info                  CSI    0000000e Poqexec successfully registered in [l:14 ml:15]'PoqexecCmdline'
+2026-10-04 12:09:02, Info                  CBS    CommitPackagesState: Started persisting state of packages
+2026-10-04 12:09:02, Info                  CBS    CommitPackagesState: Completed persisting state of packages
+2026-10-04 12:09:02, Info                  CSI    0000000f@2026/10/4:12:09:02.057 CSI Transaction @0x28452d9ad60 destroyed
+2026-10-04 12:09:02, Info                  CBS    Perf: Resolve chain complete.
+2026-10-04 12:09:02, Info                  CBS    Perf: Stage chain started.
+2026-10-04 12:09:02, Info                  CBS    FLOW: Entering stage: Staging 
+2026-10-04 12:09:02, Info                  CSI    00000010@2026/10/4:12:09:02.066 CSI Transaction @0x28452d9ad60 initialized for deployment engine {d16d444c-56d8-11d5-882d-0080c847b195} with flags 00000002 and client id 'TI3.5096_5336046:3/Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3'
+
+2026-10-04 12:09:02, Info                  CSI    00000011@2026/10/4:12:09:02.068 CSI Transaction @0x28452d99400 initialized for deployment engine {d16d444c-56d8-11d5-882d-0080c847b195} with flags 00000002 and client id 'TI2.5096_5336046:4/Shared-F23A317D37531F54DFA7FD76CEA7C55611BD44E0AFD2D93FCD49CCD482727C28~31bf3856ad364e35~amd64~~10.0.19041.7714'
+
+2026-10-04 12:09:02, Info                  CBS    Exec: Staging Package: Shared-F23A317D37531F54DFA7FD76CEA7C55611BD44E0AFD2D93FCD49CCD482727C28~31bf3856ad364e35~amd64~~10.0.19041.7714, Update: Deployment-4EEF4D89985F1C0133BF084372DDDC66BAF22B3856D36013FAA426C4800F5D63_amd64
+2026-10-04 12:09:02, Info                  CBS    Exec: Staging Package: Shared-F23A317D37531F54DFA7FD76CEA7C55611BD44E0AFD2D93FCD49CCD482727C28~31bf3856ad364e35~amd64~~10.0.19041.7714, Update: Deployment-4EEF4D89985F1C0133BF084372DDDC66BAF22B3856D36013FAA426C4800F5D63_amd64, MarkDeploymentStaged: amd64_deployment-4eef4d89..013faa426c4800f5d63_31bf3856ad364e35_10.0.19041.7714_none_d179b0b938d14808
+2026-10-04 12:09:02, Info                  CSI    00000012@2026/10/4:12:09:02.094 CSI Transaction @0x28452d99400 destroyed
+2026-10-04 12:09:06, Info                  CSI    00000013 Performing 155 operations as follows:
+  (0)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:11 ml:12]'wdscore.dll' srcfile: @0x28452d4a6f0
+  (1)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:12 ml:13]'drvstore.dll' srcfile: @0x28452d4a760
+  (2)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:7 ml:8]'dpx.dll' srcfile: @0x28452d4ac30
+  (3)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:11 ml:12]'msdelta.dll' srcfile: @0x28452d4ad80
+  (4)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:12 ml:13]'mspatcha.dll' srcfile: @0x28452d4a840
+  (5)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:16 ml:17]'cmiaisupport.dll' srcfile: @0x28452d4a8b0
+  (6)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:10 ml:11]'CbsMsg.dll' srcfile: @0x28452d4a920
+  (7)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:11 ml:12]'CbsCore.dll' srcfile: @0x28452d4aa70
+  (8)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:14 ml:15]'turbostack.dll' srcfile: @0x28452d4aae0
+  (9)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch amd64, n
+2026-10-04 12:09:06, Info                  CSI    onSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:12 ml:13]'TiWorker.exe' srcfile: @0x28452d4d5c0
+  (10)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:17 ml:18]'TiFileFetcher.exe' srcfile: @0x28452d4c520
+  (11)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:12 ml:13]'drupdate.dll' srcfile: @0x28452d4c670
+  (12)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:7 ml:8]'wcp.dll' srcfile: @0x28452d4d390
+  (13)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:14 ml:15]'cmiadapter.dll' srcfile: @0x28452d4d320
+  (14)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:13 ml:14]'smiengine.dll' srcfile: @0x28452d4d7f0
+  (15)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:9 ml:10]'smipi.dll' srcfile: @0x28452d4c3d0
+  (16)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:11 ml:12]'poqexec.exe' srcfile: @0x28452d4cec0
+  (17)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:18 ml:19]'ReserveManager.dll' srcfile: @0x28452d4d630
+  (18)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:10 ml:11]'wrpint.dll' srcfile: @0x28452d4d400
+  (19)  StageFile: flags: 8 app: (null) comp: Microsoft-
+2026-10-04 12:09:06, Info                  CSI    Windows-ServicingStack, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:15 ml:16]'updateagent.dll' srcfile: @0x28452d4d550
+  (20)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:10 ml:11]'EdgeAI.dll' srcfile: @0x28452d4d860
+  (21)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:29 ml:30]'ExtendedSecurityUpdatesAI.dll' srcfile: @0x28452d4d940
+  (22)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:14 ml:15]'AzureCheck.dll' srcfile: @0x28452d4be90
+  (23)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:11 ml:12]'wdscore.dll' srcfile: @0x28452d4c360
+  (24)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:12 ml:13]'drvstore.dll' srcfile: @0x28452d4c2f0
+  (25)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:7 ml:8]'dpx.dll' srcfile: @0x28452d4d9b0
+  (26)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:11 ml:12]'msdelta.dll' srcfile: @0x28452d4cc20
+  (27)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:12 ml:13]'mspatcha.dll' srcfile: @0x28452d4d4e0
+  (28)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:16 ml:17]'cmiaisupport.dll' srcfile: @0x284
+2026-10-04 12:09:06, Info                  CSI    52d4c130
+  (29)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:10 ml:11]'CbsMsg.dll' srcfile: @0x28452d4ce50
+  (30)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:11 ml:12]'CbsCore.dll' srcfile: @0x28452d4bf70
+  (31)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:14 ml:15]'turbostack.dll' srcfile: @0x28452d4d8d0
+  (32)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:12 ml:13]'TiWorker.exe' srcfile: @0x28452d4d6a0
+  (33)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:17 ml:18]'TiFileFetcher.exe' srcfile: @0x28452d4be20
+  (34)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:12 ml:13]'drupdate.dll' srcfile: @0x28452d4bf00
+  (35)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:7 ml:8]'wcp.dll' srcfile: @0x28452d4cb40
+  (36)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:14 ml:15]'cmiadapter.dll' srcfile: @0x28452d4bfe0
+  (37)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:13 ml:14]'smiengine.dll' srcfile: @0x28452d4c600
+  (38)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: 
+2026-10-04 12:09:06, Info                  CSI    [l:9 ml:10]'smipi.dll' srcfile: @0x28452d4c050
+  (39)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:11 ml:12]'poqexec.exe' srcfile: @0x28452d4c6e0
+  (40)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:18 ml:19]'ReserveManager.dll' srcfile: @0x28452d4c0c0
+  (41)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:10 ml:11]'wrpint.dll' srcfile: @0x28452d4c440
+  (42)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:15 ml:16]'updateagent.dll' srcfile: @0x28452d4c4b0
+  (43)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:10 ml:11]'EdgeAI.dll' srcfile: @0x28452d4c1a0
+  (44)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:29 ml:30]'ExtendedSecurityUpdatesAI.dll' srcfile: @0x28452d4d080
+  (45)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:14 ml:15]'AzureCheck.dll' srcfile: @0x28452d4c210
+  (46)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Base-Extra, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:14 ml:15]'peerdistai.dll' srcfile: @0x28452d4c280
+  (47)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Base-Extra, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:26 ml:27]'PrintAdvancedInstaller.dll' srcfile: @0x28452d4cc90
+  (48)  StageFile: flags: 8 app: (null) comp: Microsoft
+2026-10-04 12:09:06, Info                  CSI    -Windows-ServicingStack-Base-Extra, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:26 ml:27]'msdtcadvancedinstaller.dll' srcfile: @0x28452d4cf30
+  (49)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Base-Extra, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:15 ml:16]'netfxconfig.dll' srcfile: @0x28452d4c750
+  (50)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Base-Extra, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:35 ml:36]'ConfigureIEOptionalComponentsAI.dll' srcfile: @0x28452d4c7c0
+  (51)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Base-Extra, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:19 ml:20]'IEFileInstallAI.dll' srcfile: @0x28452d4c590
+  (52)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Base-Extra, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:21 ml:22]'servicemodelregai.dll' srcfile: @0x28452d4c910
+  (53)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Base-Extra, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:24 ml:25]'SetIEInstalledDateAI.dll' srcfile: @0x28452d4cfa0
+  (54)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Base-Extra, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:13 ml:14]'bcdeditai.dll' srcfile: @0x28452d4c830
+  (55)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Base-Extra, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:27 ml:28]'FeatureSettingsOverride.dll' srcfile: @0x28452d4c8a0
+  (56)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Base-Extra, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:14 ml:15]'peerdistai.dll' srcfile: @0x28452d4c980
+  (57)  StageFile: fl
+2026-10-04 12:09:06, Info                  CSI    ags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Base-Extra, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:26 ml:27]'PrintAdvancedInstaller.dll' srcfile: @0x28452d4d710
+  (58)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Base-Extra, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:26 ml:27]'msdtcadvancedinstaller.dll' srcfile: @0x28452d4d010
+  (59)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Base-Extra, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:15 ml:16]'netfxconfig.dll' srcfile: @0x28452d4c9f0
+  (60)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Base-Extra, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:35 ml:36]'ConfigureIEOptionalComponentsAI.dll' srcfile: @0x28452d4d0f0
+  (61)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Base-Extra, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:19 ml:20]'IEFileInstallAI.dll' srcfile: @0x28452d4ca60
+  (62)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Base-Extra, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:21 ml:22]'servicemodelregai.dll' srcfile: @0x28452d4cad0
+  (63)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Base-Extra, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:24 ml:25]'SetIEInstalledDateAI.dll' srcfile: @0x28452d4cbb0
+  (64)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Base-Extra, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:13 ml:14]'bcdeditai.dll' srcfile: @0x28452d4cd00
+  (65)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Base-Extra, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:27 ml:28]'FeatureSettingsOverride.dll' srcfile: @0x284
+2026-10-04 12:09:06, Info                  CSI    52d4d780
+  (66)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Boot-Onecore, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:9 ml:10]'bfsvc.dll' srcfile: @0x28452d4cd70
+  (67)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Boot-Onecore, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:16 ml:17]'securebootai.dll' srcfile: @0x28452d4cde0
+  (68)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Boot-Onecore, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:15 ml:16]'fveupdateai.dll' srcfile: @0x28452d4d1d0
+  (69)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Boot-Onecore, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:9 ml:10]'bfsvc.dll' srcfile: @0x28452d4d160
+  (70)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Boot-Onecore, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:16 ml:17]'securebootai.dll' srcfile: @0x28452d4d240
+  (71)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Boot-Onecore, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:15 ml:16]'fveupdateai.dll' srcfile: @0x28452d4d2b0
+  (72)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Inetsrv, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:14 ml:15]'iissetupai.dll' srcfile: @0x28452d4d470
+  (73)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Inetsrv, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:14 ml:15]'iissetupai.dll' srcfile: @0x28452d4e350
+  (74)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Inetsrv-Extra, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:15 ml:16]'mqcmiplugin.dll' srcfile: @0x28452d4e660
+  (75)  StageFile: flags: 8
+2026-10-04 12:09:06, Info                  CSI     app: (null) comp: Microsoft-Windows-ServicingStack-Installers-OneCore, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:14 ml:15]'luainstall.dll' srcfile: @0x28452d4e190
+  (76)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Installers-OneCore, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:11 ml:12]'appxreg.dll' srcfile: @0x28452d4ecf0
+  (77)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Installers-OneCore, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:24 ml:25]'appxprovisionpackage.dll' srcfile: @0x28452d4de80
+  (78)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Installers-OneCore, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:19 ml:20]'EventsInstaller.dll' srcfile: @0x28452d4e200
+  (79)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Installers-OneCore, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:24 ml:25]'PerfCounterInstaller.dll' srcfile: @0x28452d4f3f0
+  (80)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Installers-OneCore, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:18 ml:19]'grouptrusteeai.dll' srcfile: @0x28452d4df60
+  (81)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Installers-OneCore, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:14 ml:15]'timezoneai.dll' srcfile: @0x28452d4def0
+  (82)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Installers-OneCore, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:10 ml:11]'httpai.dll' srcfile: @0x28452d4f540
+  (83)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Installers-OneCore, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:9 ml:10]'cmifw.
+2026-10-04 12:09:06, Info                  CSI    dll' srcfile: @0x28452d4ec80
+  (84)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Installers-OneCore, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:22 ml:23]'FirewallOfflineAPI.dll' srcfile: @0x28452d4db70
+  (85)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Installers-OneCore, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:14 ml:15]'NetSetupAI.dll' srcfile: @0x28452d4dd30
+  (86)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Installers-OneCore, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:15 ml:16]'NetSetupApi.dll' srcfile: @0x28452d4e820
+  (87)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Installers-OneCore, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:18 ml:19]'NetSetupEngine.dll' srcfile: @0x28452d4e6d0
+  (88)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Installers-OneCore, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:15 ml:16]'ImplatSetup.dll' srcfile: @0x28452d4f070
+  (89)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Installers-OneCore, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:13 ml:14]'winsockai.dll' srcfile: @0x28452d4e4a0
+  (90)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Installers-OneCore, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:14 ml:15]'ws2_helper.dll' srcfile: @0x28452d4ed60
+  (91)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Installers-OneCore, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:16 ml:17]'wmicmiplugin.dll' srcfile: @0x28452d4edd0
+  (92)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Installers-OneCore, version 10.0.19041.7714, arch amd64, nonSxS, pkt 
+2026-10-04 12:09:06, Info                  CSI    {l:8 b:31bf3856ad364e35} file: [l:15 ml:16]'netfxconfig.dll' srcfile: @0x28452d4e740
+  (93)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Installers-OneCore, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:14 ml:15]'luainstall.dll' srcfile: @0x28452d4f460
+  (94)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Installers-OneCore, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:11 ml:12]'appxreg.dll' srcfile: @0x28452d4eeb0
+  (95)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Installers-OneCore, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:24 ml:25]'appxprovisionpackage.dll' srcfile: @0x28452d4dfd0
+  (96)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Installers-OneCore, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:19 ml:20]'EventsInstaller.dll' srcfile: @0x28452d4e9e0
+  (97)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Installers-OneCore, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:24 ml:25]'PerfCounterInstaller.dll' srcfile: @0x28452d4f230
+  (98)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Installers-OneCore, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:18 ml:19]'grouptrusteeai.dll' srcfile: @0x28452d4ef20
+  (99)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Installers-OneCore, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:14 ml:15]'timezoneai.dll' srcfile: @0x28452d4e040
+  (100)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Installers-OneCore, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:10 ml:11]'httpai.dll' srcfile: @0x28452d4ea50
+  (101)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Installers-OneCore, 
+2026-10-04 12:09:06, Info                  CSI    version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:9 ml:10]'cmifw.dll' srcfile: @0x28452d4f2a0
+  (102)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Installers-OneCore, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:22 ml:23]'FirewallOfflineAPI.dll' srcfile: @0x28452d4e3c0
+  (103)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Installers-OneCore, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:14 ml:15]'NetSetupAI.dll' srcfile: @0x28452d4db00
+  (104)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Installers-OneCore, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:15 ml:16]'NetSetupApi.dll' srcfile: @0x28452d4e7b0
+  (105)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Installers-OneCore, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:18 ml:19]'NetSetupEngine.dll' srcfile: @0x28452d4f310
+  (106)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Installers-OneCore, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:15 ml:16]'ImplatSetup.dll' srcfile: @0x28452d4e890
+  (107)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Installers-OneCore, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:13 ml:14]'winsockai.dll' srcfile: @0x28452d4dda0
+  (108)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Installers-OneCore, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:14 ml:15]'ws2_helper.dll' srcfile: @0x28452d4f0e0
+  (109)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Installers-OneCore, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:16 ml:17]'wmicmiplugin.dll' srcfile: @0x28452d4e900
+  (110)  StageFile: flags: 8 app: (null) comp: Microsoft-Win
+2026-10-04 12:09:06, Info                  CSI    dows-ServicingStack-Installers-OneCore, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:15 ml:16]'netfxconfig.dll' srcfile: @0x28452d4ef90
+  (111)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Installers-OneCore-Extra, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:11 ml:12]'sppinst.dll' srcfile: @0x28452d4e0b0
+  (112)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Installers-OneCore-Extra, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:11 ml:12]'sppinst.dll' srcfile: @0x28452d4de10
+  (113)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Mof-onecoreadmin, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:14 ml:15]'mofinstall.dll' srcfile: @0x28452d4e970
+  (114)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Mof-onecoreadmin, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:10 ml:11]'esscli.dll' srcfile: @0x28452d4dbe0
+  (115)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Mof-onecoreadmin, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:8 ml:9]'mofd.dll' srcfile: @0x28452d4eac0
+  (116)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Mof-onecoreadmin, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:12 ml:13]'repdrvfs.dll' srcfile: @0x28452d4f380
+  (117)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Mof-onecoreadmin, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:12 ml:13]'fastprox.dll' srcfile: @0x28452d4eb30
+  (118)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Mof-onecoreadmin, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:12 ml:13]'wbemcomn.dll' srcfile: @0x28452d4ec10
+  (119)  StageFile: flags: 8 app: (nul
+2026-10-04 12:09:06, Info                  CSI    l) comp: Microsoft-Windows-ServicingStack-Mof-onecoreadmin, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:12 ml:13]'wbemcore.dll' srcfile: @0x28452d4f4d0
+  (120)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Mof-onecoreadmin, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:12 ml:13]'wmiutils.dll' srcfile: @0x28452d4eba0
+  (121)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Mof-onecoreadmin, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:12 ml:13]'wbemprox.dll' srcfile: @0x28452d4dc50
+  (122)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Mof-onecoreadmin, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:14 ml:15]'mofinstall.dll' srcfile: @0x28452d4ee40
+  (123)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Mof-onecoreadmin, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:10 ml:11]'esscli.dll' srcfile: @0x28452d4e120
+  (124)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Mof-onecoreadmin, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:8 ml:9]'mofd.dll' srcfile: @0x28452d4e430
+  (125)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Mof-onecoreadmin, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:12 ml:13]'repdrvfs.dll' srcfile: @0x28452d4f000
+  (126)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Mof-onecoreadmin, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:12 ml:13]'fastprox.dll' srcfile: @0x28452d4e270
+  (127)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Mof-onecoreadmin, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:12 ml:13]'wbemcomn.dll' srcfile: @0x28452d4dcc0
+  (128)  StageFile: flags: 8 app: (null) co
+2026-10-04 12:09:06, Info                  CSI    mp: Microsoft-Windows-ServicingStack-Mof-onecoreadmin, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:12 ml:13]'wbemcore.dll' srcfile: @0x28452d4f150
+  (129)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Mof-onecoreadmin, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:12 ml:13]'wmiutils.dll' srcfile: @0x28452d4e2e0
+  (130)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Mof-onecoreadmin, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:12 ml:13]'wbemprox.dll' srcfile: @0x28452d4f1c0
+  (131)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-OneCore, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:13 ml:14]'cleanupai.dll' srcfile: @0x28452d4f5b0
+  (132)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-OneCore, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:13 ml:14]'cleanupai.dll' srcfile: @0x28452d4da20
+  (133)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-OnecoreBase, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:18 ml:19]'grouptrusteeai.dll' srcfile: @0x28452d4e510
+  (134)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-OnecoreBase, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:18 ml:19]'grouptrusteeai.dll' srcfile: @0x28452d4da90
+  (135)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-OnecoreDs, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:14 ml:15]'offlinelsa.dll' srcfile: @0x28452d4e580
+  (136)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-OnecoreDs, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:14 ml:15]'offlinesam.dll' srcfile: @0x28452d4e5f0
+  (137)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows
+2026-10-04 12:09:06, Info                  CSI    -ServicingStack-OnecoreDs, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:14 ml:15]'offlinelsa.dll' srcfile: @0x28452d4f8c0
+  (138)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-OnecoreDs, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:14 ml:15]'offlinesam.dll' srcfile: @0x28452d4f770
+  (139)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Termsrv-Extra, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:15 ml:16]'appserverai.dll' srcfile: @0x28452d4f7e0
+  (140)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Termsrv-Extra, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:11 ml:12]'RDWebAI.dll' srcfile: @0x28452d4f620
+  (141)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Termsrv-Extra, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:12 ml:13]'tssdisai.dll' srcfile: @0x28452d4f700
+  (142)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Termsrv-Extra, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:12 ml:13]'VmHostAI.dll' srcfile: @0x28452d4f850
+  (143)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Termsrv-Extra, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:15 ml:16]'appserverai.dll' srcfile: @0x28452d4f690
+  (144)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Termsrv-Extra, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:11 ml:12]'RDWebAI.dll' srcfile: @0x28452d470b0
+  (145)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Termsrv-Extra, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:12 ml:13]'tssdisai.dll' srcfile: @0x28452d47190
+  (146)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Termsrv-
+2026-10-04 12:09:06, Info                  CSI    Extra, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:12 ml:13]'VmHostAI.dll' srcfile: @0x28452d47200
+  (147)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Transformers-Core, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:25 ml:26]'PrimitiveTransformers.dll' srcfile: @0x28452d47270
+  (148)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Transformers-Core, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:25 ml:26]'PrimitiveTransformers.dll' srcfile: @0x28452d49b20
+  (149)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Transformers-OneCore, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:18 ml:19]'AriTransformer.dll' srcfile: @0x28452d49ff0
+  (150)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Transformers-OneCore, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:22 ml:23]'WpnDataTransformer.dll' srcfile: @0x28452d48bd0
+  (151)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Transformers-OneCore, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:18 ml:19]'AriTransformer.dll' srcfile: @0x28452d496c0
+  (152)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Transformers-OneCore, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:22 ml:23]'WpnDataTransformer.dll' srcfile: @0x28452d49dc0
+  (153)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Transformers-Shell-Extra, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:15 ml:16]'shtransform.dll' srcfile: @0x28452d49260
+  (154)  StageFile: flags: 8 app: (null) comp: Microsoft-Windows-ServicingStack-Transformers-Shell-Extra, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} file: [l:15 ml:16]'shtransform.dll' srcfile: @0x28
+2026-10-04 12:09:06, Info                  CSI    452d48f50
+2026-10-04 12:09:06, Info                  CSI    00000014 Performing 1 operations as follows:
+  (0)  MarkStaged: flags: 0 tlc: [Deployment-4EEF4D89985F1C0133BF084372DDDC66BAF22B3856D36013FAA426C4800F5D63, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35}]) ref: ( flgs: 00000000 guid: {d16d444c-56d8-11d5-882d-0080c847b195} name: [l:193]'Shared-F23A317D37531F54DFA7FD76CEA7C55611BD44E0AFD2D93FCD49CCD482727C28~31bf3856ad364e35~amd64~~10.0.19041.7714.Deployment-4EEF4D89985F1C0133BF084372DDDC66BAF22B3856D36013FAA426C4800F5D63_amd64' ncdata: [l:0]'')
+2026-10-04 12:09:06, Info                  CBS    FLOW: Enter Installation Stage: Closure Analysis, Current Operation Stage: Staging
+2026-10-04 12:09:06, Info                  CSI    00000015 ICSITransaction::Commit calling IStorePendingTransaction::Apply - applyflags=23
+2026-10-04 12:09:06, Info                  CSI    00000016 Poqexec successfully registered in [l:14 ml:15]'PoqexecCmdline'
+2026-10-04 12:09:06, Info                  CSI    00000017 Poqexec successfully registered in [l:14 ml:15]'PoqexecCmdline'
+2026-10-04 12:09:06, Info                  CSI    00000018 Poqexec successfully registered in [l:14 ml:15]'PoqexecCmdline'
+2026-10-04 12:09:06, Info                  CBS    CommitPackagesState: Started persisting state of packages
+2026-10-04 12:09:06, Info                  CBS    CommitPackagesState: Completed persisting state of packages
+2026-10-04 12:09:06, Info                  CSI    00000019@2026/10/4:12:09:06.787 CSI Transaction @0x28452d9ad60 destroyed
+2026-10-04 12:09:06, Info                  CBS    Perf: Stage chain complete.
+2026-10-04 12:09:06, Info                  CBS    Perf: Execute chain started.
+2026-10-04 12:09:06, Info                  CBS    Perf: Entering stage: Install/Uninstalling
+2026-10-04 12:09:06, Info                  CBS    FLOW: Entering stage: Installing 
+2026-10-04 12:09:06, Info                  CBS    FLOW: Enter Installation Stage: InstallDeployment, Current Operation Stage: Installing
+2026-10-04 12:09:06, Info                  CSI    0000001a@2026/10/4:12:09:06.800 CSI Transaction @0x28452d99970 initialized for deployment engine {d16d444c-56d8-11d5-882d-0080c847b195} with flags 00000002 and client id 'TI4.5096_5336046:5/Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3'
+
+2026-10-04 12:09:06, Info                  CBS    Exec: Install package: Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3
+2026-10-04 12:09:06, Info                  CBS    Exec: Install package: Wrapper-52516F357216A03D781BCFFA4F7ED84A0528FA875B6469561CE724771CD796FA~31bf3856ad364e35~amd64~~10.0.19041.7714
+2026-10-04 12:09:06, Info                  CBS    Exec: Install package: Shared-F23A317D37531F54DFA7FD76CEA7C55611BD44E0AFD2D93FCD49CCD482727C28~31bf3856ad364e35~amd64~~10.0.19041.7714
+2026-10-04 12:09:06, Info                  CBS    Exec: Install package: Shared-F23A317D37531F54DFA7FD76CEA7C55611BD44E0AFD2D93FCD49CCD482727C28~31bf3856ad364e35~amd64~~10.0.19041.7714, Update: Deployment-4EEF4D89985F1C0133BF084372DDDC66BAF22B3856D36013FAA426C4800F5D63_amd64
+2026-10-04 12:09:06, Info                  CBS    Exec: Installing Package: Shared-F23A317D37531F54DFA7FD76CEA7C55611BD44E0AFD2D93FCD49CCD482727C28~31bf3856ad364e35~amd64~~10.0.19041.7714, Update: Deployment-4EEF4D89985F1C0133BF084372DDDC66BAF22B3856D36013FAA426C4800F5D63_amd64, InstallDeployment: amd64_deployment-4eef4d89..013faa426c4800f5d63_31bf3856ad364e35_10.0.19041.7714_none_d179b0b938d14808
+2026-10-04 12:09:06, Info                  CSI    0000001b Performing 1 operations as follows:
+  (0)  AddCat: flags: 1 catfile: @0x28452d4ad80
+2026-10-04 12:09:06, Info                  CSI    0000001c Performing 1 operations as follows:
+  (0)  Install: flags: 0 tlc: [Deployment-4EEF4D89985F1C0133BF084372DDDC66BAF22B3856D36013FAA426C4800F5D63, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35}]) ref: ( flgs: 00000000 guid: {d16d444c-56d8-11d5-882d-0080c847b195} name: [l:193]'Shared-F23A317D37531F54DFA7FD76CEA7C55611BD44E0AFD2D93FCD49CCD482727C28~31bf3856ad364e35~amd64~~10.0.19041.7714.Deployment-4EEF4D89985F1C0133BF084372DDDC66BAF22B3856D36013FAA426C4800F5D63_amd64' ncdata: [l:0]'') thumbprint: [l:64]'edf5223269539f892456c62dfee2290db0232c86cdc7087ee3e21d3beea91ac6'
+2026-10-04 12:09:06, Info                  CBS    FLOW: Enter Installation Stage: Closure Analysis, Current Operation Stage: Installing
+2026-10-04 12:09:06, Info                  CSI    0000001d Component change list:   { 10.0.19041.1 -> 10.0.19041.7714 Microsoft-Windows-ServicingStack-OnecoreDs, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} }
+  { 10.0.19041.1 -> 10.0.19041.7714 Microsoft-Windows-ServicingStack-Termsrv-Extra, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} }
+  { 10.0.19041.1 -> 10.0.19041.7714 Microsoft-Windows-ServicingStack-BuildBranch, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} }
+  { 10.0.19041.1 -> 10.0.19041.7714 Microsoft-Windows-ServicingStack, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} }
+  { 10.0.19041.1 -> 10.0.19041.7714 Microsoft-Windows-ServicingStack-Transformers-OneCore-Extra, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} }
+  { 10.0.19041.1 -> 10.0.19041.7714 Microsoft-Windows-ServicingStack-Transformers-onecoreadmin-Core, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} }
+  { 10.0.19041.1 -> 10.0.19041.7714 Microsoft-Windows-ServicingStack-Transformers-OneCore, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} }
+  { 10.0.19041.1 -> 10.0.19041.7714 Microsoft-Windows-ServicingStack-OnecoreBase, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} }
+  { 10.0.19041.1 -> 10.0.19041.7714 Microsoft-Windows-ServicingStack-Base, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} }
+  { 10.0.19041.1 -> 10.0.19041.7714 Microsoft-Windows-ServicingStack-Transformers-Windows-Extra, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} }
+  { 10.0.19041.1 -> 10.0.19041.7714 Microsoft-Windows-ServicingStack-Installers-OneCore-Extra, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} }
+  { 10.0.19041.1 -> 10.0.19041.7714 Microsoft-Windows-ServicingStack-Base-Extra, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} }
+  { 10.0.19041.1 -> 10.0.19041.7714 Microsoft-Windows-ServicingStack-Termsrv-Extra, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} }
+  { 10.0.19041.1 -> 10.0.19041.7714 Microsoft-Windows-ServicingStack-Transformers-onecoreadmin-Core, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} }
+  { 10.0.19041.1 -> 10.0.19041.7714 Microsoft-Windows-ServicingStack-Transformers-Full, arch x86, no
+2026-10-04 12:09:06, Info                  CSI    nSxS, pkt {l:8 b:31bf3856ad364e35} }
+  { 10.0.19041.1 -> 10.0.19041.7714 Microsoft-Windows-ServicingStack-Transformers-Core, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} }
+  { 10.0.19041.1 -> 10.0.19041.7714 Microsoft-Windows-ServicingStack-OneCore, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} }
+  { 10.0.19041.1 -> 10.0.19041.7714 Microsoft-Windows-ServicingStack-Transformers-Windows-Extra, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} }
+  { 10.0.19041.1 -> 10.0.19041.7714 Microsoft-Windows-ServicingStack-Inetsrv, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} }
+  { 10.0.19041.1 -> 10.0.19041.7714 Microsoft-Windows-ServicingStack-Base-Extra, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} }
+  { 10.0.19041.1 -> 10.0.19041.7714 Microsoft-Windows-ServicingStack-Net, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} }
+  { 10.0.19041.1 -> 10.0.19041.7714 Microsoft-Windows-ServicingStack-Mof-onecoreadmin, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} }
+  { 10.0.19041.1 -> 10.0.19041.7714 Microsoft-Windows-ServicingStack-OnecoreDs, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} }
+  { (null) -> 10.0.19041.7714 Deployment-4EEF4D89985F1C0133BF084372DDDC66BAF22B3856D36013FAA426C4800F5D63, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} }
+  { 10.0.19041.1 -> 10.0.19041.7714 Microsoft-Windows-ServicingStack, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} }
+  { 10.0.19041.1 -> 10.0.19041.7714 Microsoft-Windows-ServicingStack-OneCore, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} }
+  { 10.0.19041.1 -> 10.0.19041.7714 Microsoft-Windows-ServicingStack-Transformers-OneCore, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} }
+  { 10.0.19041.1 -> 10.0.19041.7714 Microsoft-Windows-ServicingStack-Installers-OneCore, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} }
+  { 10.0.19041.1 -> 10.0.19041.7714 Microsoft-Windows-ServicingStack-Transformers-Shell-Extra, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} }
+  { 10.0.19041.1 -> 10.0.19041.7714 Microsoft-Windows-ServicingStack-Boot-Onecore, arch amd64, nonSxS, pkt {l:8 
+2026-10-04 12:09:06, Info                  CSI    b:31bf3856ad364e35} }
+  { 10.0.19041.1 -> 10.0.19041.7714 Microsoft-Windows-ServicingStack-Installers-OneCore-Extra, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} }
+  { 10.0.19041.1 -> 10.0.19041.7714 Microsoft-Windows-ServicingStack-Inetsrv, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} }
+  { 10.0.19041.1 -> 10.0.19041.7714 Microsoft-Windows-ServicingStack-Mof-onecoreadmin, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} }
+  { 10.0.19041.1 -> 10.0.19041.7714 Microsoft-Windows-ServicingStack-BuildBranch, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} }
+  { 10.0.19041.1 -> 10.0.19041.7714 Microsoft-Windows-ServicingStack-Transformers-OneCore-Extra, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} }
+  { 10.0.19041.1 -> 10.0.19041.7714 Microsoft-Windows-ServicingStack-Inetsrv-Extra, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} }
+  { 10.0.19041.1 -> 10.0.19041.7714 Microsoft-Windows-ServicingStack-Transformers-Core, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} }
+  { 10.0.19041.1 -> 10.0.19041.7714 Microsoft-Windows-ServicingStack-Transformers-Full, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} }
+  { 10.0.19041.1 -> 10.0.19041.7714 Microsoft-Windows-ServicingStack-OnecoreBase, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} }
+  { 10.0.19041.1 -> 10.0.19041.7714 Microsoft-Windows-ServicingStack-Installers-OneCore, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} }
+  { 10.0.19041.1 -> 10.0.19041.7714 Microsoft-Windows-ServicingStack-Base, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} }
+  { 10.0.19041.1 -> 10.0.19041.7714 Microsoft-Windows-ServicingStack-Boot-Onecore, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} }
+  { 10.0.19041.1 -> 10.0.19041.7714 Microsoft-Windows-ServicingStack-Transformers-Shell-Extra, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} }
+2026-10-04 12:09:06, Info                  CBS    FLOW: Enter Installation Stage: Primitive Installer Analysis, Current Operation Stage: Installing
+2026-10-04 12:09:06, Info                  CSI    0000001e Warning: Overlap: Directory \??\X:\Windows\Logs\CBS\ is owned twice or has its security set twice
+   Original owner: Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+   New owner: Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+2026-10-04 12:09:06, Info                  CSI    0000001f Warning: Overlap: Directory \??\X:\Windows\Servicing\ is owned twice or has its security set twice
+   Original owner: Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+   New owner: Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+2026-10-04 12:09:06, Info                  CSI    00000020 Warning: Overlap: Directory \??\X:\Windows\Servicing\Packages\ is owned twice or has its security set twice
+   Original owner: Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+   New owner: Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+2026-10-04 12:09:06, Info                  CSI    00000021 Warning: Overlap: Directory \??\X:\Windows\Servicing\SQM\ is owned twice or has its security set twice
+   Original owner: Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+   New owner: Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+2026-10-04 12:09:06, Info                  CSI    00000022 Warning: Overlap: Directory \??\X:\Windows\Servicing\Sessions\ is owned twice or has its security set twice
+   Original owner: Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+   New owner: Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+2026-10-04 12:09:06, Info                  CSI    00000023 Warning: Overlap: Registry key collision for key \REGISTRY\MACHINE\SOFTWARE\Classes\AppID\TiWorker.exe\, it is owned twice or has its security set twice
+
+2026-10-04 12:09:06, Info                  CSI    00000024    One of the components asserting this key is Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+
+2026-10-04 12:09:06, Info                  CSI    00000025    Previously seen component asserting this key is Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+
+2026-10-04 12:09:06, Info                  CSI    00000026 Warning: Overlap: Registry value collision found under key \REGISTRY\MACHINE\SOFTWARE\Classes\AppID\TiWorker.exe\ for AppID, only one component should set this value
+
+2026-10-04 12:09:06, Info                  CSI    00000027    One of the components setting this value is Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+
+2026-10-04 12:09:06, Info                  CSI    00000028    Previously seen component setting this value is Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+
+2026-10-04 12:09:06, Info                  CSI    00000029 Warning: Overlap: Registry key collision for key \REGISTRY\MACHINE\SOFTWARE\Classes\AppID\{8D15A4F3-1BE5-4120-8A4D-2EF92A5DD58D}\, it is owned twice or has its security set twice
+
+2026-10-04 12:09:06, Info                  CSI    0000002a    One of the components asserting this key is Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+
+2026-10-04 12:09:06, Info                  CSI    0000002b    Previously seen component asserting this key is Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+
+2026-10-04 12:09:06, Info                  CSI    0000002c Warning: Overlap: Registry value collision found under key \REGISTRY\MACHINE\SOFTWARE\Classes\AppID\{8D15A4F3-1BE5-4120-8A4D-2EF92A5DD58D}\ for , only one component should set this value
+
+2026-10-04 12:09:06, Info                  CSI    0000002d    One of the components setting this value is Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+
+2026-10-04 12:09:06, Info                  CSI    0000002e    Previously seen component setting this value is Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+
+2026-10-04 12:09:06, Info                  CSI    0000002f Warning: Overlap: Registry value collision found under key \REGISTRY\MACHINE\SOFTWARE\Classes\AppID\{8D15A4F3-1BE5-4120-8A4D-2EF92A5DD58D}\ for AccessPermission, only one component should set this value
+
+2026-10-04 12:09:06, Info                  CSI    00000030    One of the components setting this value is Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+
+2026-10-04 12:09:06, Info                  CSI    00000031    Previously seen component setting this value is Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+
+2026-10-04 12:09:06, Info                  CSI    00000032 Warning: Overlap: Registry value collision found under key \REGISTRY\MACHINE\SOFTWARE\Classes\AppID\{8D15A4F3-1BE5-4120-8A4D-2EF92A5DD58D}\ for LaunchPermission, only one component should set this value
+
+2026-10-04 12:09:06, Info                  CSI    00000033    One of the components setting this value is Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+
+2026-10-04 12:09:06, Info                  CSI    00000034    Previously seen component setting this value is Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+
+2026-10-04 12:09:07, Info                  CSI    00000035 Registry installer wrote 6 values
+
+2026-10-04 12:09:07, Info                  CSI    00000036 Warning: Overlap: Duplicate ownership for directory \??\X:\Windows\Servicing in component Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+
+2026-10-04 12:09:07, Info                  CSI    00000037 Warning: Overlap: Duplicate ownership for directory \??\X:\Windows\Servicing\SQM in component Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+
+2026-10-04 12:09:07, Info                  CSI    00000038 Warning: Overlap: Duplicate ownership for directory \??\X:\Windows\Servicing\Sessions in component Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+
+2026-10-04 12:09:07, Info                  CSI    00000039 Warning: Overlap: Duplicate ownership for directory \??\X:\Windows\Servicing\Packages in component Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+
+2026-10-04 12:09:07, Info                  CSI    0000003a Warning: Overlap: Duplicate ownership for directory \??\X:\Windows\Logs\CBS in component Microsoft-Windows-ServicingStack, version 10.0.19041.7714, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35}
+
+2026-10-04 12:09:07, Info                  CSI    0000003b Unable to delete directory \??\X:\Windows\Servicing\Version; file 10.0.19041.7714 exists
+
+2026-10-04 12:09:07, Info                  CSI    0000003c Warning: Overlap: 5 directory duplicate ownerships detected.
+2026-10-04 12:09:07, Info                  CSI    0000003d SMI Primitive Installer [done]
+
+2026-10-04 12:09:07, Info                  CSI    0000003e@2026/10/4:12:09:07.147 Primitive installers committed
+2026-10-04 12:09:07, Info                  CBS    Attempting to remove poqexec from SetupExecute
+2026-10-04 12:09:07, Info                  CBS    Removed poqexec from SetupExecute.
+2026-10-04 12:09:07, Info                  CBS    Configured poqexec to not pend to SetupExecute.
+2026-10-04 12:09:07, Info                  CSI    0000003f ICSITransaction::Commit calling IStorePendingTransaction::Apply - applyflags=26
+2026-10-04 12:09:07, Info                  CSI    00000040 Poqexec successfully registered in [l:14 ml:15]'PoqexecCmdline'
+2026-10-04 12:09:07, Info                  CBS    FLOW: Enter Installation Stage: Commit Primitive, Current Operation Stage: Installing
+2026-10-04 12:09:07, Info                  CSI    00000041 Poqexec successfully registered in [l:14 ml:15]'PoqexecCmdline'
+2026-10-04 12:09:07, Info                  CBS    FLOW: Enter Installation Stage: Advanced Installer Execution, Current Operation Stage: Installing
+2026-10-04 12:09:07, Info                  CSI    00000042 Poqexec successfully registered in [l:14 ml:15]'PoqexecCmdline'
+2026-10-04 12:09:07, Info                  CBS    Setting ExecuteState key to: CbsExecuteStateDeviceInstalls
+2026-10-04 12:09:07, Info                  CBS    Exec: Offline commit completes with no pending online operations.
+2026-10-04 12:09:07, Info                  CBS    Exec: Pended transaction, changes will be applied during startup processing. Scheduled TrustedInstaller for auto-start. [HRESULT = 0x00000000 - S_OK]
+2026-10-04 12:09:07, Info                  CSI    00000043@2026/10/4:12:09:07.207 CSI Transaction @0x28452d99970 destroyed
+2026-10-04 12:09:07, Info                  CBS    Perf: InstallUninstallChain complete.
+2026-10-04 12:09:07, Info                  CBS    FinalCommitPackagesState: Started persisting state of packages
+2026-10-04 12:09:07, Info                  CBS    Reporting package change for package: Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3, current: Absent, pending: Default, start: Absent, applicable: Installed, target: Installed, limit: Installed, status: 0x0, failure source: Execute, reboot required: False, client id: DISM Package Manager Provider, initiated offline: True, execution sequence: 28, first merged sequence: 28, reboot reason: REBOOT_NOT_REQUIRED, RM App session: 0, RM App name: N/A, FileName in use: N/A, release type: Security Update, OC operation: False, download source: 0, download time (secs): 4294967295, download status: 0x0 (S_OK), Express download: False, Download Size: 0
+2026-10-04 12:09:07, Info                  CBS    Reporting package change completion for package: Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3, current: Installed, original: Absent, target: Installed, status: 0x0, failure source: Execute, failure details: "(null)", client id: DISM Package Manager Provider, initiated offline: True, execution sequence: 28, first merged sequence: 28, pending decision: InteractiveInstallSucceeded, primitive execution context: Interactive 
+2026-10-04 12:09:07, Info                  CBS    Cannot read value for the force canceled current transaction. [HRESULT = 0x80070490 - ERROR_NOT_FOUND]
+2026-10-04 12:09:07, Info                  CBS    CBS force canceled transaction status datapoint is invalid. [HRESULT = 0x80070490 - ERROR_NOT_FOUND]
+2026-10-04 12:09:07, Info                  CBS    The store corruption status report is incomplete. [HRESULT = 0x80070002 - ERROR_FILE_NOT_FOUND]
+2026-10-04 12:09:07, Info                  CBS    FinalCommitPackagesState: Completed persisting state of packages
+2026-10-04 12:09:07, Info                  CBS    Exec: Processing complete.  Session: 5096_5336046, Package: Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3, Identifier: KB5122877 [HRESULT = 0x00000000 - S_OK]
+2026-10-04 12:09:07, Info                  CBS    Session: 5096_5336046 finalized. Reboot required: no [HRESULT = 0x00000000 - S_OK]
+2026-10-04 12:09:07, Info                  CSI    00000001 Shim considered [l:181]'\??\C:\wim-uup-validation-1791110582335113548\servicing\mount\Windows\Servicing\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.19041.7714_none_7dea5cb47ca89937\wcp.dll' : got STATUS_OBJECT_PATH_NOT_FOUND
+2026-10-04 12:09:07, Info                  CSI    00000002 Shim considered [l:178]'\??\C:\wim-uup-validation-1791110582335113548\servicing\mount\Windows\WinSxS\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.19041.7714_none_7dea5cb47ca89937\wcp.dll' : got STATUS_SUCCESS
+2026-10-04 12:09:07, Info                  DISM   DISM Package Manager: PID=5096 TID=2612 DISM has detected a servicing stack change. Requesting a shutdown. - CDISMPackageManager::Internal_Finalize
+2026-10-04 12:09:07, Info                  DISM   DISM Image Session: PID=5096 TID=2612 The image session needs to be closed and re-opened before any servicing operations can be performed. - CDISMImageSession::put_ImageState
+2026-10-04 12:09:07, Info                  CBS    Deleting directory: \\?\C:\wim-uup-validation-1791110582335113548\servicing\mount\Windows\CbsTemp\5096_5336046\
+2026-10-04 12:09:07, Info                  CBS    Moving directory from \\?\C:\wim-uup-validation-1791110582335113548\servicing\mount\Windows\CbsTemp\5096_5336046\ to \\?\C:\wim-uup-validation-1791110582335113548\servicing\mount\Windows\CbsTemp\5096_5336046\{210E2AF4-7F1F-4AF7-BC2D-BAADF131359B}
+2026-10-04 12:09:07, Info                  CBS    Failed to move \\?\C:\wim-uup-validation-1791110582335113548\servicing\mount\Windows\CbsTemp\5096_5336046\ to temp directory \\?\C:\wim-uup-validation-1791110582335113548\servicing\mount\Windows\CbsTemp\5096_5336046\{210E2AF4-7F1F-4AF7-BC2D-BAADF131359B} [HRESULT = 0x80070057 - E_INVALIDARG]
+2026-10-04 12:09:07, Info                  CBS    Failed moving directory: \\?\C:\wim-uup-validation-1791110582335113548\servicing\mount\Windows\CbsTemp\5096_5336046\ to temp, will delete in-place instead [HRESULT = 0x80070057 - E_INVALIDARG]
+2026-10-04 12:09:07, Info                  CBS    Deletion of: \\?\C:\wim-uup-validation-1791110582335113548\servicing\mount\Windows\CbsTemp\5096_5336046\ successful
+2026-10-04 12:09:07, Info                  CBS    Force unloading offline registry hive: {bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/wim-uup-validation-1791110582335113548/servicing/mount/Windows/System32/config/SOFTWARE
+2026-10-04 12:09:07, Info                  CBS    Force unloading offline registry hive: {bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/wim-uup-validation-1791110582335113548/servicing/mount/Windows/System32/config/SYSTEM
+2026-10-04 12:09:07, Info                  CBS    Force unloading offline registry hive: {bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/wim-uup-validation-1791110582335113548/servicing/mount/Windows/System32/config/SECURITY
+2026-10-04 12:09:07, Info                  CBS    Force unloading offline registry hive: {bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/wim-uup-validation-1791110582335113548/servicing/mount/Windows/System32/config/SAM
+2026-10-04 12:09:07, Info                  CBS    Force unloading offline registry hive: {bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/wim-uup-validation-1791110582335113548/servicing/mount/Windows/System32/config/COMPONENTS
+2026-10-04 12:09:07, Info                  CBS    Force unloading offline registry hive: {bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/wim-uup-validation-1791110582335113548/servicing/mount/Windows/System32/config/DRIVERS
+2026-10-04 12:09:07, Info                  CBS    Force unloading offline registry hive: {bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/wim-uup-validation-1791110582335113548/servicing/mount/Windows/System32/config/DEFAULT
+2026-10-04 12:09:07, Info                  CBS    Force unloading offline registry hive: {bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/wim-uup-validation-1791110582335113548/servicing/mount/Users/Default/ntuser.dat
+2026-10-04 12:09:07, Info                  CBS    Force unloading offline registry hive: {bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/wim-uup-validation-1791110582335113548/servicing/mount/Windows/system32/smi/store/Machine/schema.dat
+2026-10-04 12:09:07, Info                  CSI    00000044 Direct SIL provider: Number of files opened: 1000.
+2026-10-04 12:09:07, Info                  CSI    00000045 Direct SIL provider: Number of files opened: 2949.
+2026-10-04 12:09:07, Info                  DISM   DISM Provider Store: PID=5096 TID=2612 Found the OSServices.  Waiting to finalize it until all other providers are unloaded. - CDISMProviderStore::Final_OnDisconnect
+2026-10-04 12:09:07, Info                  DISM   DISM Provider Store: PID=5096 TID=2612 Found the OSServices.  Waiting to finalize it until all other providers are unloaded. - CDISMProviderStore::Final_OnDisconnect
+2026-10-04 12:09:07, Info                  DISM   DISM Provider Store: PID=5096 TID=2612 Found the PE Provider.  Waiting to finalize it until all other providers are unloaded. - CDISMProviderStore::Final_OnDisconnect
+2026-10-04 12:09:07, Info                  DISM   DISM Provider Store: PID=5096 TID=2612 Finalizing the servicing provider(DISM Package Manager) - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 12:09:07, Info                  DISM   DISM Package Manager: PID=5096 TID=2612 Finalizing CBS core. - CDISMPackageManager::Finalize
+2026-10-04 12:09:07, Info                  CBS    CbsCoreFinalize: ExecutionEngineFinalize
+2026-10-04 12:09:07, Info                  CBS    Execution Engine Finalize
+2026-10-04 12:09:07, Info                  CBS    Execution Engine Finalize
+2026-10-04 12:09:07, Info                  CBS    CbsCoreFinalize: ComponentAnalyzerFinalize
+2026-10-04 12:09:07, Info                  CBS    CbsCoreFinalize: PackageTrackerFinalize
+2026-10-04 12:09:07, Info                  CBS    CbsCoreFinalize: CoreResourcesUnload
+2026-10-04 12:09:07, Info                  CBS    CbsCoreFinalize: SessionManagerFinalize
+2026-10-04 12:09:07, Info                  CBS    Lock: Lock removed: CSIInventoryCriticalSection, level: 64, total lock:10
+2026-10-04 12:09:07, Info                  CBS    Lock: Lock removed: CCbsSessionManager, level: 11, total lock:9
+2026-10-04 12:09:07, Info                  CBS    CbsCoreFinalize: CapabilityManagerFinalize
+2026-10-04 12:09:07, Info                  CBS    CbsCoreFinalize: GetPublicObjectMonitor::Audit
+2026-10-04 12:09:07, Info                  CBS    CbsCoreFinalize: PublicObjectMonitorFinalize
+2026-10-04 12:09:07, Info                  CBS    CbsCoreFinalize: Enter vCoreInitializeLock
+2026-10-04 12:09:07, Info                  CBS    CbsCoreFinalize: WcpUnload
+2026-10-04 12:09:07, Info                  CBS    CbsCoreFinalize: DrupUnload
+2026-10-04 12:09:07, Info                  CBS    CbsCoreFinalize: CfgMgr32Unload
+2026-10-04 12:09:07, Info                  CBS    CbsCoreFinalize: DpxUnload
+2026-10-04 12:09:07, Info                  CBS    CbsCoreFinalize: SrUnload
+2026-10-04 12:09:07, Info                  CBS    CbsCoreFinalize: CbsEsdUnload
+2026-10-04 12:09:07, Info                  CBS    CbsCoreFinalize: CbsTraceInfoUninitialize
+2026-10-04 12:09:07, Info                  CBS    CbsCoreFinalize: CbsEventUnregister
+2026-10-04 12:09:07, Info                  CBS    CbsCoreFinalize: AppContainerUnload
+2026-10-04 12:09:07, Info                  CBS    CbsCoreFinalize: WdsUnload, logging from cbscore will end.
+2026-10-04 12:09:07, Info                  DISM   DISM Provider Store: PID=5096 TID=2612 Disconnecting Provider: DISM Package Manager - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 12:09:07, Info                  DISM   DISM Provider Store: PID=5096 TID=2612 Finalizing the servicing provider(MsiManager) - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 12:09:07, Info                  DISM   DISM Provider Store: PID=5096 TID=2612 Disconnecting Provider: MsiManager - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 12:09:07, Info                  DISM   DISM Provider Store: PID=5096 TID=2612 Finalizing the servicing provider(IntlManager) - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 12:09:07, Info                  DISM   DISM Provider Store: PID=5096 TID=2612 Disconnecting Provider: IntlManager - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 12:09:07, Info                  DISM   DISM Provider Store: PID=5096 TID=2612 Finalizing the servicing provider(IBSManager) - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 12:09:07, Info                  DISM   DISM Provider Store: PID=5096 TID=2612 Disconnecting Provider: IBSManager - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 12:09:07, Info                  DISM   DISM Provider Store: PID=5096 TID=2612 Finalizing the servicing provider(DriverManager) - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 12:09:07, Info                  DISM   DISM Provider Store: PID=5096 TID=2612 Disconnecting Provider: DriverManager - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 12:09:07, Info                  DISM   DISM Provider Store: PID=5096 TID=2612 Finalizing the servicing provider(DISM Unattend Manager) - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 12:09:07, Info                  DISM   DISM Provider Store: PID=5096 TID=2612 Disconnecting Provider: DISM Unattend Manager - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 12:09:07, Info                  DISM   DISM Provider Store: PID=5096 TID=2612 Finalizing the servicing provider(SmiManager) - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 12:09:07, Info                  DISM   DISM Provider Store: PID=5096 TID=2612 Disconnecting Provider: SmiManager - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 12:09:07, Info                  DISM   DISM Provider Store: PID=5096 TID=2612 Finalizing the servicing provider(AppxManager) - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 12:09:07, Info                  DISM   DISM Provider Store: PID=5096 TID=2612 Disconnecting Provider: AppxManager - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 12:09:07, Info                  DISM   DISM Provider Store: PID=5096 TID=2612 Finalizing the servicing provider(ProvManager) - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 12:09:07, Info                  DISM   DISM Provider Store: PID=5096 TID=2612 Disconnecting Provider: ProvManager - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 12:09:07, Info                  DISM   DISM Provider Store: PID=5096 TID=2612 Finalizing the servicing provider(AssocManager) - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 12:09:07, Info                  DISM   DISM Provider Store: PID=5096 TID=2612 Disconnecting Provider: AssocManager - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 12:09:07, Info                  DISM   DISM Provider Store: PID=5096 TID=2612 Finalizing the servicing provider(GenericManager) - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 12:09:07, Info                  DISM   DISM Provider Store: PID=5096 TID=2612 Disconnecting Provider: GenericManager - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 12:09:07, Info                  DISM   DISM Provider Store: PID=5096 TID=2612 Finalizing the servicing provider(OfflineSetupManager) - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 12:09:07, Info                  DISM   DISM Provider Store: PID=5096 TID=2612 Disconnecting Provider: OfflineSetupManager - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 12:09:07, Info                  DISM   DISM Provider Store: PID=5096 TID=2612 Finalizing the servicing provider(SysprepManager) - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 12:09:07, Info                  DISM   DISM Provider Store: PID=5096 TID=2612 Disconnecting Provider: SysprepManager - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 12:09:07, Info                  DISM   DISM Provider Store: PID=5096 TID=2612 Finalizing the servicing provider(Edition Manager) - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 12:09:07, Info                  DISM   DISM Provider Store: PID=5096 TID=2612 Disconnecting Provider: Edition Manager - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 12:09:07, Info                  DISM   DISM Provider Store: PID=5096 TID=2612 Finalizing the servicing provider(SetupPlatformManager) - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 12:09:07, Info                  DISM   DISM Provider Store: PID=5096 TID=2612 Disconnecting Provider: SetupPlatformManager - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 12:09:07, Info                  DISM   DISM Provider Store: PID=5096 TID=2612 Releasing the local reference to OSServices. - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 12:09:07, Info                  DISM   DISM Provider Store: PID=5096 TID=2612 Disconnecting Provider: OSServices - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 12:09:07, Info                  DISM   Offline Registry: PID=5096 TID=2612 Hive is not mounted at HKLM\{bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/wim-uup-validation-1791110582335113548/servicing/mount/Windows/system32/config/SOFTWARE. - CRegistryMapping::Init
+2026-10-04 12:09:07, Info                  DISM   Offline Registry: PID=5096 TID=2612 Hive is not mounted at HKLM\{bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/wim-uup-validation-1791110582335113548/servicing/mount/Windows/system32/config/SYSTEM. - CRegistryMapping::Init
+2026-10-04 12:09:07, Info                  DISM   Offline Registry: PID=5096 TID=2612 Hive is not mounted at HKLM\{bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/wim-uup-validation-1791110582335113548/servicing/mount/Windows/system32/config/SECURITY. - CRegistryMapping::Init
+2026-10-04 12:09:07, Info                  DISM   Offline Registry: PID=5096 TID=2612 Hive is not mounted at HKLM\{bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/wim-uup-validation-1791110582335113548/servicing/mount/Windows/system32/config/SAM. - CRegistryMapping::Init
+2026-10-04 12:09:07, Info                  DISM   Offline Registry: PID=5096 TID=2612 Hive is not mounted at HKLM\{bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/wim-uup-validation-1791110582335113548/servicing/mount/Windows/system32/config/DEFAULT. - CRegistryMapping::Init
+2026-10-04 12:09:07, Info                  DISM   Offline Registry: PID=5096 TID=2612 Hive is not mounted at HKLM\{bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/wim-uup-validation-1791110582335113548/servicing/mount/Users/Default/NTUSER.DAT. - CRegistryMapping::Init
+2026-10-04 12:09:07, Info                  DISM   Offline Registry: PID=5096 TID=2612 Hive is not mounted at HKLM\{bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/wim-uup-validation-1791110582335113548/servicing/mount/Windows/system32/config/COMPONENTS. - CRegistryMapping::Init
+2026-10-04 12:09:07, Info                  DISM   Offline Registry: PID=5096 TID=2612 Hive is not mounted at HKLM\{bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/wim-uup-validation-1791110582335113548/servicing/mount/Windows/system32/config/DRIVERS. - CRegistryMapping::Init
+2026-10-04 12:09:07, Info                  DISM   DISM OS Provider: PID=5096 TID=2612 Successfully unloaded all registry hives. - CDISMOSServiceManager::Final_OnDisconnect
+2026-10-04 12:09:07, Info                  DISM   DISM Provider Store: PID=5096 TID=2612 Releasing the local reference to DISMLogger.  Stop logging. - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 12:09:07, Info                  DISM   DISM Manager: PID=2016 TID=8620 Closing session event handle 0x2bc - CDISMManager::CleanupImageSessionEntry
+2026-10-04 12:09:07, Info                  DISM   DISM Manager: DeletePath: Attempting to obliterate [C:\WINDOWS\SystemTemp\C67F9D75-057D-4C43-808A-D98F57E181F3] (final path [\\?\Volume{f8ca6cb5-12a2-470c-bfdf-fe35d8c84a63}\Windows\SystemTemp\C67F9D75-057D-4C43-808A-D98F57E181F3]).
+2026-10-04 12:09:07, Info                  DISM   DISM.EXE: Image session has been closed. Reboot required=no.
+2026-10-04 12:09:07, Info                  DISM   DISM.EXE: 
+2026-10-04 12:09:07, Info                  DISM   DISM.EXE: <----- Ending Dism.exe session ----->
+2026-10-04 12:09:07, Info                  DISM   DISM.EXE: 

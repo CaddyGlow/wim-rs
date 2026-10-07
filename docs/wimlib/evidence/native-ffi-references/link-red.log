@@ -1,0 +1,6 @@
+/nix/store/bikkd0jwr8jkd3r6r5mcr28fm17yvb0z-binutils-2.46/bin/ld.bfd: /tmp/ccwQ2SJ0.o: in function `main':
+probe-reference-api.c:(.text+0x2f8): undefined reference to `wimlib_reference_resources'
+/nix/store/bikkd0jwr8jkd3r6r5mcr28fm17yvb0z-binutils-2.46/bin/ld.bfd: probe-reference-api.c:(.text+0x3a0): undefined reference to `wimlib_reference_resource_files'
+/nix/store/bikkd0jwr8jkd3r6r5mcr28fm17yvb0z-binutils-2.46/bin/ld.bfd: probe-reference-api.c:(.text+0x3ed): undefined reference to `wimlib_reference_resources'
+/nix/store/bikkd0jwr8jkd3r6r5mcr28fm17yvb0z-binutils-2.46/bin/ld.bfd: probe-reference-api.c:(.text+0x429): undefined reference to `wimlib_reference_resources'
+collect2: error: ld returned 1 exit status

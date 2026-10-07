@@ -1,0 +1,46 @@
+{
+  "arms": [
+    {
+      "arm": "mount-commit-no-boot-copy",
+      "full_entries": 25450,
+      "full_streams": 20913,
+      "source_target_logical_manifest_byteexact": true,
+      "full_raw_sd_differences": 0,
+      "full_metadata_differences": 0,
+      "report_hashes": {
+        "whole-metadata.json": "8c6d73e5971d992c8acf39bc14986ab47d4bb578ea0f51dc0800a23d1470d826",
+        "raw-security.json": "0a45ac44de345dc6be0f35aa1f386370d8f82c788988ee933ddadda66e7efc46",
+        "content/equivalence.json": "0513dc1f9aaa2d18ea9cfca234597d57a63104efea942fe2d6e956ae95400d46"
+      }
+    },
+    {
+      "arm": "mount-boot-copy-discard",
+      "full_entries": 25450,
+      "full_streams": 20913,
+      "source_target_logical_manifest_byteexact": true,
+      "full_raw_sd_differences": 0,
+      "full_metadata_differences": 0,
+      "report_hashes": {
+        "whole-metadata.json": "8c6d73e5971d992c8acf39bc14986ab47d4bb578ea0f51dc0800a23d1470d826",
+        "raw-security.json": "0a45ac44de345dc6be0f35aa1f386370d8f82c788988ee933ddadda66e7efc46",
+        "content/equivalence.json": "e99146a50b516696d0e89d5129f36201cc4dc5f561db502eebd556df6f1374fd"
+      }
+    },
+    {
+      "arm": "mount-boot-copy-commit",
+      "full_entries": 25450,
+      "full_streams": 20913,
+      "source_target_logical_manifest_byteexact": true,
+      "full_raw_sd_differences": 0,
+      "full_metadata_differences": 0,
+      "report_hashes": {
+        "whole-metadata.json": "8c6d73e5971d992c8acf39bc14986ab47d4bb578ea0f51dc0800a23d1470d826",
+        "raw-security.json": "0a45ac44de345dc6be0f35aa1f386370d8f82c788988ee933ddadda66e7efc46",
+        "content/equivalence.json": "fbe24f5721e0d3de5a3b25b4523334f8565e3bd16f6df96ecf41a5d7a2a94072"
+      }
+    }
+  ],
+  "setup_708_access_changes_reproduced": false,
+  "standard_setup_timestamp_gate_passes": false,
+  "production_preservation_fix_proven": false
+}

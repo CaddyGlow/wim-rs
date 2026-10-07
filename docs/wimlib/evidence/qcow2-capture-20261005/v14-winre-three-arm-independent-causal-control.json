@@ -1,0 +1,108 @@
+{
+  "schema": 1,
+  "scope": "three isolated copied-source WinRE controls; actual guest session68554exit0 and independent hostsession65712exit0",
+  "source_sha256": "5a7b51e7271284a3204234a71386c4d8cbc81665e9f7bc451d7d70fb464a3047",
+  "scratch_serial": "V14-WINRE-CAUSAL",
+  "source_unchanged_before_after_each_arm": true,
+  "entries_per_arm": 25450,
+  "logical_streams_per_arm": 20913,
+  "results": [
+    {
+      "name": "mount-commit-no-boot-copy",
+      "target_sha256": "718a453ce1d985214d303d9be4b0476d39812a645aeceb70937389009d932d49",
+      "metadata_difference_counts": {},
+      "rawSD_differences": 0,
+      "content_differences": 0,
+      "strict_all_metadata_pass": true,
+      "target_hash_after": "718a453ce1d985214d303d9be4b0476d39812a645aeceb70937389009d932d49"
+    },
+    {
+      "name": "mount-boot-copy-discard",
+      "target_sha256": "5a7b51e7271284a3204234a71386c4d8cbc81665e9f7bc451d7d70fb464a3047",
+      "metadata_difference_counts": {},
+      "rawSD_differences": 0,
+      "content_differences": 0,
+      "strict_all_metadata_pass": true,
+      "target_hash_after": "5a7b51e7271284a3204234a71386c4d8cbc81665e9f7bc451d7d70fb464a3047"
+    },
+    {
+      "name": "mount-boot-copy-commit",
+      "target_sha256": "cbfeb994f10faa2e285e692fbfe245751bb9fbc1d591dbb1abad7e453ee9eb01",
+      "metadata_difference_counts": {},
+      "rawSD_differences": 0,
+      "content_differences": 0,
+      "strict_all_metadata_pass": true,
+      "target_hash_after": "cbfeb994f10faa2e285e692fbfe245751bb9fbc1d591dbb1abad7e453ee9eb01"
+    }
+  ],
+  "reproduced_v14_708_access_timestamp_changes": false,
+  "conclusion": "DISM mount with robocopy Boot reads and commit in this fullWindows scratch environment did not reproduce Setup access-time changes",
+  "limitations": [
+    "Robocopy differs from actual Setup SPCopyFilesAndFolders APIs/options",
+    "FullWindows mount/NTFS/runtime environment differs from installerWinPE",
+    "No direct precommit Setup WIM snapshot or source-read handle trace",
+    "Does not relax V14 strict708 failure or establish a timestamp preservation production fix"
+  ],
+  "evidence": [
+    {
+      "path": "/data/cache/qcow2-winre-access-causal-control-20261006/actual-causal-report.json",
+      "sha256": "3c3f6b931052cf46c94b0f75cbff2ea4a370aafacfb5396789b1e113c2a00b2a"
+    },
+    {
+      "path": "/data/cache/qcow2-winre-access-causal-control-20261006/actual-arm-retrieval.json",
+      "sha256": "f96ecb84946844a7e220f5c5de8ad080ffb7e8417a897d26494073b92ce10141"
+    },
+    {
+      "path": "/data/cache/qcow2-winre-access-causal-control-20261006/actual-causal-execute.json",
+      "sha256": "8349b3bc5182d0a5571f48c6dab6f3d48b88efbe11743d743215d8694792d9fa"
+    },
+    {
+      "path": "/data/cache/qcow2-winre-access-causal-control-20261006/independent-comparison/summary.json",
+      "sha256": "034514f496f275400a3237352d950ace42f12797ebdcf547e3bb70d6a25aa8e3"
+    },
+    {
+      "path": "/data/cache/qcow2-winre-access-causal-control-20261006/Test-WinReAccessCommit.ps1",
+      "sha256": "8bd13ed062dfad03e8b2ec913e1c2432decc62cccb17eac5d8206f09e0068861"
+    },
+    {
+      "path": "/data/cache/qcow2-winre-access-causal-control-20261006/compare-controls.py",
+      "sha256": "cb1e38e3452e55ebde517defe2ec11efeb88f4ae7a76cc1afac05bbe8cc8bcc3"
+    },
+    {
+      "path": "/data/cache/qcow2-winre-access-causal-control-20261006/independent-comparison/mount-commit-no-boot-copy/content/equivalence.json",
+      "sha256": "0513dc1f9aaa2d18ea9cfca234597d57a63104efea942fe2d6e956ae95400d46"
+    },
+    {
+      "path": "/data/cache/qcow2-winre-access-causal-control-20261006/independent-comparison/mount-commit-no-boot-copy/whole-metadata.json",
+      "sha256": "8c6d73e5971d992c8acf39bc14986ab47d4bb578ea0f51dc0800a23d1470d826"
+    },
+    {
+      "path": "/data/cache/qcow2-winre-access-causal-control-20261006/independent-comparison/mount-commit-no-boot-copy/raw-security.json",
+      "sha256": "0a45ac44de345dc6be0f35aa1f386370d8f82c788988ee933ddadda66e7efc46"
+    },
+    {
+      "path": "/data/cache/qcow2-winre-access-causal-control-20261006/independent-comparison/mount-boot-copy-discard/content/equivalence.json",
+      "sha256": "e99146a50b516696d0e89d5129f36201cc4dc5f561db502eebd556df6f1374fd"
+    },
+    {
+      "path": "/data/cache/qcow2-winre-access-causal-control-20261006/independent-comparison/mount-boot-copy-discard/whole-metadata.json",
+      "sha256": "8c6d73e5971d992c8acf39bc14986ab47d4bb578ea0f51dc0800a23d1470d826"
+    },
+    {
+      "path": "/data/cache/qcow2-winre-access-causal-control-20261006/independent-comparison/mount-boot-copy-discard/raw-security.json",
+      "sha256": "0a45ac44de345dc6be0f35aa1f386370d8f82c788988ee933ddadda66e7efc46"
+    },
+    {
+      "path": "/data/cache/qcow2-winre-access-causal-control-20261006/independent-comparison/mount-boot-copy-commit/content/equivalence.json",
+      "sha256": "fbe24f5721e0d3de5a3b25b4523334f8565e3bd16f6df96ecf41a5d7a2a94072"
+    },
+    {
+      "path": "/data/cache/qcow2-winre-access-causal-control-20261006/independent-comparison/mount-boot-copy-commit/whole-metadata.json",
+      "sha256": "8c6d73e5971d992c8acf39bc14986ab47d4bb578ea0f51dc0800a23d1470d826"
+    },
+    {
+      "path": "/data/cache/qcow2-winre-access-causal-control-20261006/independent-comparison/mount-boot-copy-commit/raw-security.json",
+      "sha256": "0a45ac44de345dc6be0f35aa1f386370d8f82c788988ee933ddadda66e7efc46"
+    }
+  ]
+}

@@ -1,0 +1,1052 @@
+{
+  "scope": "staged Rust graph and every payload; public GEN flag not yet wired",
+  "work": "/tmp/wim-generator-graphs-nodjfic8",
+  "original_sha256": "62eb9c97f9ec6e3dae6c7e995b0a65a2e94a4d9b41491666947ba788a15bb74a",
+  "requested_seeds": 128,
+  "original_rows": [
+    {
+      "seed": 0,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 3073654,
+      "sha256": "a8bb5c61939ad92685d6efceb8e5bc89c99a4c1200763b12f44666348f7de280"
+    },
+    {
+      "seed": 1,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 2290,
+      "sha256": "13b0f220ca24464a6626d643342db5f3d582cd5586cd7ef0beb9c134bb2c1d08"
+    },
+    {
+      "seed": 2,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 2946,
+      "sha256": "b941d5ea3d8db2558eeeaf715bd7cdc52cbcff420ee81054628fac9bc60bf7d1"
+    },
+    {
+      "seed": 3,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 10036,
+      "sha256": "0b861cf26c8558b188afcd16ebecbf6aba3e29b0737c5f94c43504bd053baf9f"
+    },
+    {
+      "seed": 4,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 1112,
+      "sha256": "f278089868e9c88c350178df62fd306ed394e54bbc08ece3f951ef5d5a17b6ff"
+    },
+    {
+      "seed": 5,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 3440928,
+      "sha256": "e6bb4d3815ef8135186d25394f3d115f5fa28182324f9436c04abf84562223c1"
+    },
+    {
+      "seed": 6,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 2554,
+      "sha256": "f044c56cb8335fb749b075efcfa217509d26fa464db04319eb00ece5e55719ee"
+    },
+    {
+      "seed": 7,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 1112,
+      "sha256": "4e5d4c37ee43fe343b13658a08ff2610357400c294fce20e822f51c63289b882"
+    },
+    {
+      "seed": 8,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 2002,
+      "sha256": "1efc613bdae61711381ffedc0ed676cd52bc65cc63cbb50bbe4fe9fde06f0c00"
+    },
+    {
+      "seed": 9,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 1584,
+      "sha256": "7965cb49643acc2a3bd615a74f5e01a9d517f16a46556014ffd7da14881f408d"
+    },
+    {
+      "seed": 10,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 140528,
+      "sha256": "32a91666b4c871166406e40127a6ebc3ac66918721fee629503f3527e006b3a1"
+    },
+    {
+      "seed": 11,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 4912,
+      "sha256": "67a649b6f7a0ae1e2d723abbee747b7640140623e805d60ee0b48773c2d530b6"
+    },
+    {
+      "seed": 12,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 3338,
+      "sha256": "5899cf1479af79bc8c2b7e5f9e3e7629c78e37e8cb4cac2d773a456165b6904b"
+    },
+    {
+      "seed": 13,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 1898,
+      "sha256": "2901940cf2ed3f0f31718da4f6f82f317597a665d09ca55c00ce91fe2bc9ab29"
+    },
+    {
+      "seed": 14,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 2506,
+      "sha256": "5eb01438d1e3e9ad79f2efdeccb9e380f7cb8e13b7cd1e90747bbe0d8ae618ff"
+    },
+    {
+      "seed": 15,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 1456,
+      "sha256": "5c36fdc76e8996d128696ce8f626b11587b11c5e1b02b15026ac4c4f8fb6da68"
+    },
+    {
+      "seed": 16,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 2074,
+      "sha256": "044d28aa389ab1e48c59fc2724420d7a734b2caeb0983a25c41ca0ed5b4d5b7a"
+    },
+    {
+      "seed": 17,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 28698,
+      "sha256": "f72bb76fdfc78e463365aef646cb3c6a0041fb928bc1435ae5e1ebe93b59ea88"
+    },
+    {
+      "seed": 18,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 252003,
+      "sha256": "7dbcfb87373d553876f9f5c7c1dd64e5226a203302b3b00e7466a140334a0b73"
+    },
+    {
+      "seed": 19,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 1376,
+      "sha256": "7354eb55ef5c837ca8bc0a5b091e98c9b591dad54af065968119035068ca75fa"
+    },
+    {
+      "seed": 20,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 3338,
+      "sha256": "78d5573145311589363a1a50cf8a6a9303ee1f19fe2b4eb2a053b09d4800d63e"
+    },
+    {
+      "seed": 21,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 2162,
+      "sha256": "c3f215025a9871f756b742455f861e056ec2d9ec49ddca3252f5b80e31356561"
+    },
+    {
+      "seed": 22,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 1112,
+      "sha256": "edef22ab6c2f0a2fe1c5d743177b3cfdeb11eb874fcb9744a8f0b74e69d370af"
+    },
+    {
+      "seed": 23,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 1708,
+      "sha256": "e787818010d36641127e0b0c827667f9631d7e37ff7f3feb20ab09bfa02bd7da"
+    },
+    {
+      "seed": 24,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 15314,
+      "sha256": "df4fe718dd8c8bb8b996b6f00142f0d5637334a622d073567c65d5780d7cdd38"
+    },
+    {
+      "seed": 25,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 1112,
+      "sha256": "f7ae8b9a1794984be72ccb88ab1d51d3a4081678fa12abd33d2b6a016c19f93d"
+    },
+    {
+      "seed": 26,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 1994,
+      "sha256": "43568cfe79db1518fc99f0dc0378db9093f35cbb21910ba50d6d4eb522ae83c1"
+    },
+    {
+      "seed": 27,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 1704,
+      "sha256": "7517c754195645c65d81835d4416dd51ea4934124645d9d274d01253d23d3cd8"
+    },
+    {
+      "seed": 28,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 1592,
+      "sha256": "f66489ec085a2f68b1b3062d8fcb4d524316163777f65d112420a0b60ba1150e"
+    },
+    {
+      "seed": 29,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 2858,
+      "sha256": "39e68354e6b75b0d59da477ee2f564e72741cc4b0ffac6cf9342ec9bf979aaf7"
+    },
+    {
+      "seed": 30,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 1224,
+      "sha256": "5225047218a4ba58cf74af7307e7ee50b16005a01838e2fc69fcb83d34b40093"
+    },
+    {
+      "seed": 31,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 2146,
+      "sha256": "9a91a9f2d7d6650d44ee62b8009a6813f9ab7f032c8174c5d6a8253d69ef6cdb"
+    },
+    {
+      "seed": 32,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 6802,
+      "sha256": "dc6c142cb5b1341e51955a904a61b8905d9dbd61e31a3137bb41d7d37faf176b"
+    },
+    {
+      "seed": 33,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 1536,
+      "sha256": "0b910fdaebb60212d2cc1d5d46febb75069a1f4ec0544c20cae8fc3b7a3a0a61"
+    },
+    {
+      "seed": 34,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 2234,
+      "sha256": "f26374fc37c2fe88dc70e6584fa6e2374c4f377ae4a31b5f6591bddf25e4f978"
+    },
+    {
+      "seed": 35,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 1796,
+      "sha256": "e8d51b220049fcd3e14aba1e56cf0c1807a334f89205e3c746476e140b56aba8"
+    },
+    {
+      "seed": 36,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 2802,
+      "sha256": "5f4b0f4d640ab972a48975c2c7b3cc420e3903de6fe10d5e18d8f2f4e5657806"
+    },
+    {
+      "seed": 37,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 3570,
+      "sha256": "2ac34cf84c42a0f40e1bfed9ba3075d8d0cb7534c1085c3b7e4139ba94f0d111"
+    },
+    {
+      "seed": 38,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 4138,
+      "sha256": "a838da0c49e0df0e2bdf3c0a49ec88f0a7a3ae252feb94992d15b3627a9048ec"
+    },
+    {
+      "seed": 39,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 2490,
+      "sha256": "fa1b00a6398b03dc70b5081f7feaf49d633bc7cb3b59c8b293dabb956e4b5a3d"
+    },
+    {
+      "seed": 40,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 1112,
+      "sha256": "41d282b9730d8909d50f1cff95d197e411addc91ecfab534b597e0377be69544"
+    },
+    {
+      "seed": 41,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 4729,
+      "sha256": "b6c1ae6941d2ac988d68d26179f31a0ca3186ff219cb943d4ce346a72a3bbb57"
+    },
+    {
+      "seed": 42,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 4354,
+      "sha256": "1413df71fa19766524b8239ccb1d18cf304437a7ac97ee34d0dcb32975903b6d"
+    },
+    {
+      "seed": 43,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 1264,
+      "sha256": "3c0c1b1fa50fcae49aafb9a98fe1a2586414ceb3194f7f810dd5cb8681f4bfb9"
+    },
+    {
+      "seed": 44,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 2538,
+      "sha256": "c1654fd4d17770599d6f9bb6acd619ceaa637fafb0217b9733764ac43056dd26"
+    },
+    {
+      "seed": 45,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 2154,
+      "sha256": "f13dbe5c61c4d157499fae24904e8c525f76ee39cb5194f7c35163c933b495f7"
+    },
+    {
+      "seed": 46,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 1344,
+      "sha256": "da69cd3508594a34ccf9d74f316c642f1301801765a8b2703ebdafd7a02b37fb"
+    },
+    {
+      "seed": 47,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 1368,
+      "sha256": "d848bc6812355b1dc9d4e5bf991ea048ff2241acef5aceb8283db05d546fe16d"
+    },
+    {
+      "seed": 48,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 37236,
+      "sha256": "215b0d1ad14be3ad1bad22c63c636c332b78bbbe5992defc22d655011033c729"
+    },
+    {
+      "seed": 49,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 648699,
+      "sha256": "9403aef1219e90ab6e37e0f1814f38fe660044fc4b8b21ff391866f82750fa29"
+    },
+    {
+      "seed": 50,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 2570,
+      "sha256": "a7f212887f64676b282f8f9695933b28e16c31f1bb4ac53641c9470d05691d1d"
+    },
+    {
+      "seed": 51,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 1850,
+      "sha256": "5484e464c678be353f5369287478a9b1b598ed981f63c1b57d69b85d450a4861"
+    },
+    {
+      "seed": 52,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 2458,
+      "sha256": "c929931afe9e38c6a0ffb212d8214d8da479bd1ae9d025ee626ebdaf9a2554be"
+    },
+    {
+      "seed": 53,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 1536,
+      "sha256": "1b737565d048397bce6dd8b9b3a56176be51e87b0552952a4eed0bc77491242c"
+    },
+    {
+      "seed": 54,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 737732,
+      "sha256": "45208f27470d78634d6b1b1f7d743687f0db02f7e943cecb582967eb39cb7277"
+    },
+    {
+      "seed": 55,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 4458,
+      "sha256": "8982f26ebd8c587c6e9d9fa829c1e062eb1e085df5ce5b787da3c5376c86094e"
+    },
+    {
+      "seed": 56,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 1696,
+      "sha256": "3380d358babb931ca50a8de1ac7ce1d822c21cea5cdfd911ae245b4a9481acf3"
+    },
+    {
+      "seed": 57,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 1946,
+      "sha256": "932d7088f135ac42ee6b67315821d858dc88039c021c6e83eadbe9d9dda2c6bd"
+    },
+    {
+      "seed": 58,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 3498,
+      "sha256": "1b04019f4b990fde2c9ac00381b390a83b69527503474744e244e9acaa92ee30"
+    },
+    {
+      "seed": 59,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 1608,
+      "sha256": "3874d22946f9d8ef1b326ce1f8727950d194daa41619ba5309791fd928602110"
+    },
+    {
+      "seed": 60,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 2354,
+      "sha256": "2ce59c1d66a45630779d327aaad3166de3daf400999dbb8c0c9f9794ee545a08"
+    },
+    {
+      "seed": 61,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 1232,
+      "sha256": "1b80f83923b0db6e73765eadc57825554b953cb8061761f38fba37dcfa337ab9"
+    },
+    {
+      "seed": 62,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 429392,
+      "sha256": "b6f141deebb7e60835ceb87554345fb08fecb73cf0fd3503bed02358258c512e"
+    },
+    {
+      "seed": 63,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 1176,
+      "sha256": "144342af5b14c3e8f97e246c6dc486f7a10aa13d1293ffa55ba572cc16434865"
+    },
+    {
+      "seed": 64,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 1842,
+      "sha256": "168de84b89c36958ac7659ea4ca2ef756884e94940ef7cd61ce7986d4222166a"
+    },
+    {
+      "seed": 65,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 1400,
+      "sha256": "6a2abdf5eaafed15104552bc894dd49b2a4fe445d23d1f0b2c8311da2756b4d3"
+    },
+    {
+      "seed": 66,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 3314,
+      "sha256": "26609d05019024b53f0766e9bc7a5a505136e53e1a5da019f45d96691928a966"
+    },
+    {
+      "seed": 67,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 6229,
+      "sha256": "bea7a8c7c85312f3b9ceb4438a3ca9c51ac60ba55cb7e07685e1027baf66131e"
+    },
+    {
+      "seed": 68,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 1818,
+      "sha256": "397ffec69003d103045fc8e00f9408d708fb72639041a0608422a6e1d1ffc920"
+    },
+    {
+      "seed": 69,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 1512,
+      "sha256": "2859a9aece31bdfcda566727a073cde26bade9b4c3e2f151ae4b6160a61aa336"
+    },
+    {
+      "seed": 70,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 12138,
+      "sha256": "357e81c225bce5a9d7b89020108766b2749d965382b5350da8fb38d11a13ea81"
+    },
+    {
+      "seed": 71,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 1746,
+      "sha256": "bcf223de6dcdb406cc0062d133d4e5206c468b2501ea9aeb91d43cc1d3b944d7"
+    },
+    {
+      "seed": 72,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 475522,
+      "sha256": "88386b539c1918133a8f34d586c9cad5857e1353305bde267430739448ae3afd"
+    },
+    {
+      "seed": 73,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 35104,
+      "sha256": "634e56908baa6c3569ce0e932aa0ed44b228947696cf84a34fafb7a1245d9a84"
+    },
+    {
+      "seed": 74,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 2130,
+      "sha256": "098d1d4534ef17e8e27820e5f7ec3bae3a8277eb602418d563889d2a882f4598"
+    },
+    {
+      "seed": 75,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 2522,
+      "sha256": "8e6acc6f02e8601414662122159eb077b2446d675892188e7454f7acac88b46c"
+    },
+    {
+      "seed": 76,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 4530,
+      "sha256": "ade3682bd97ea114634b2d653cef13a3191d4210b7328e6de43c4447b31b6414"
+    },
+    {
+      "seed": 77,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 1560,
+      "sha256": "53ca27cbdd1ed54093ac24586c147293bc80b58b4048ef14290cc79a50ed0fee"
+    },
+    {
+      "seed": 78,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 2154,
+      "sha256": "9c8b407001146dfb2867070686062c9c6bd62c40fca76e7543eb98a95c169b4e"
+    },
+    {
+      "seed": 79,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 1648,
+      "sha256": "f73d1e89567323a7a54a331a16a8fc696c7a784aff544c4d1eae0d808446c89a"
+    },
+    {
+      "seed": 80,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 1176,
+      "sha256": "541a5fc1d74b64db8754e318b030d44e397d97872db09f6d8ff539963a2e00dd"
+    },
+    {
+      "seed": 81,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 2330,
+      "sha256": "bf63d90703a9a720257d0d2615ef6a9e2ea1485ed1cd3d00b884e150c7f45165"
+    },
+    {
+      "seed": 82,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 1786,
+      "sha256": "7304de3194a9af33ac42fe318ab97a40a3817ac6ae2c85f7c939a2b00b5789a4"
+    },
+    {
+      "seed": 83,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 1970,
+      "sha256": "4555a5f2de1c3be53fa54043cbdd54a40b4ebfe6989d6dcc5a155a6dc6cca699"
+    },
+    {
+      "seed": 84,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 7268,
+      "sha256": "2c179d671296bd5e2b4031dce1b1df5dd588a786e870df9cd46b102e44effa91"
+    },
+    {
+      "seed": 85,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 1112,
+      "sha256": "1e325848e9c1ebf598385ecda11f0ad6b6b54562afb441a91467ebc6458e8afb"
+    },
+    {
+      "seed": 86,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 1368,
+      "sha256": "c542636037d4a4be7c5c1b0a1058e41f0b2d34363dbda8dbddf56f3e31448079"
+    },
+    {
+      "seed": 87,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 4690,
+      "sha256": "7aea04ea844b80642bff7ab0e528a1b747ffe1423fd6933c2551483803602520"
+    },
+    {
+      "seed": 88,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 40526,
+      "sha256": "e28e4498836429067b7077c7703f5d2c05c5ba95ce8139926dcd589b7d482e1d"
+    },
+    {
+      "seed": 89,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 2594,
+      "sha256": "479c5c537a922c10b3a865229446986af3ec12c9d9876262d8fe93c84642d1da"
+    },
+    {
+      "seed": 90,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 3642,
+      "sha256": "6464d8afa86b72b99b2b4582fe0d0eb9da0ab3481c3ea3421ac7664ec1f93b66"
+    },
+    {
+      "seed": 91,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 2422,
+      "sha256": "1814e5204c16b68ed812a76dbc44279b5c2f3b07591d5e6a76ad015942bda591"
+    },
+    {
+      "seed": 92,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 2202,
+      "sha256": "2c4bcf57c0bbb85f518e8fc02383203ccb523f2f93acae38ec3d97b061b79b7d"
+    },
+    {
+      "seed": 93,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 1320,
+      "sha256": "ddf77eac30fa9da5d83c78082748af1d11760144dcf910ea0fd110f4326b3735"
+    },
+    {
+      "seed": 94,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 2342,
+      "sha256": "2b21f325354f7eb4cbcd10aab71505f9e1513887e09d04826472b02dc0cf6966"
+    },
+    {
+      "seed": 95,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 2338,
+      "sha256": "4031128da2735abe7cb9eacef91ce352748ecdf878e9284d249432e6b347f4fe"
+    },
+    {
+      "seed": 96,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 2586,
+      "sha256": "79e899892c3d38434ea8c2e15b38ae80203857c8bd2c2c8449aeb3df21566221"
+    },
+    {
+      "seed": 97,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 1256,
+      "sha256": "5f84e08824177759b3ed9c7b614f83bf40ef78f842cd2aad3f838a0a7a2a097d"
+    },
+    {
+      "seed": 98,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 100608,
+      "sha256": "445f79e9b041e4ddc22e2e6d9bb4971535f1c7eb71c71d13af264724216ae11b"
+    },
+    {
+      "seed": 99,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 1288,
+      "sha256": "d7ac560a945c8c35b2f972687ea5189991ad33e80f5bbce94ac3df7c0aa3ada5"
+    },
+    {
+      "seed": 100,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 1112,
+      "sha256": "49e7956f8550d541ffd154722da2a6895bd0d5c767c5de04051648b64e16e629"
+    },
+    {
+      "seed": 101,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 1352,
+      "sha256": "233637aaa0956f823103f4895ee1053bd1629ff60121f611935772e2bc2507f5"
+    },
+    {
+      "seed": 102,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 1858,
+      "sha256": "bad370ba5a693f10289ca5378f4061a637c8a8d1809723e51f31fa7ef63f9e82"
+    },
+    {
+      "seed": 103,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 1112,
+      "sha256": "e7878629558c2b0de83cfad562143e90a22c3cbe6190e5459382eec8f3bdea10"
+    },
+    {
+      "seed": 104,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 1448,
+      "sha256": "b9a132702dff17f5e607cbd394c74451aa1290e0bc915ee164f7a9e1c6827ee0"
+    },
+    {
+      "seed": 105,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 30112,
+      "sha256": "8299e8c7cd900c2baeb8adb00e44f155ac7f0e8a92e6b9acbb6d5076439b70f7"
+    },
+    {
+      "seed": 106,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 17902,
+      "sha256": "eb85a60626dd6ae5ac0cc4a8fcabdc8d8bd642457957d3f19446bcd42dbfbba5"
+    },
+    {
+      "seed": 107,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 2122,
+      "sha256": "05e2005ed3542f6f4ec9e5da89d54944b343a829e930b804e00bc7f490b391f5"
+    },
+    {
+      "seed": 108,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 142460,
+      "sha256": "d4ea80903d07aa082c0a3975648ecf860ecb28a4a0ff0bd7172ef80d68343569"
+    },
+    {
+      "seed": 109,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 2618,
+      "sha256": "523b6f38c0da3cf40fe6907a8ed00866d8409f98879149d22a3578e64ecfc2a4"
+    },
+    {
+      "seed": 110,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 163676,
+      "sha256": "5e7e6f049445e782befdf6664e4639bf62d944b55bbe00e69fd4cba42bf5e75e"
+    },
+    {
+      "seed": 111,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 1560,
+      "sha256": "a460c5a9f2e89c8964fd58bfa618a1941736c12e269acf6ad435cbd2eafe9947"
+    },
+    {
+      "seed": 112,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 3002,
+      "sha256": "179619cae01ac246743da2ed2f55ad4ba6ab03b0699ecd9038225800485d91d5"
+    },
+    {
+      "seed": 113,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 2498,
+      "sha256": "01b5943a431297ab3c4ce2f8e89209879c8f241150b81d6fc4907a0b67014bf8"
+    },
+    {
+      "seed": 114,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 2010,
+      "sha256": "fef14d71e052c1af487976698534cee2d4ebc097e79a4fd3d01cda2e3ae173b3"
+    },
+    {
+      "seed": 115,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 1360,
+      "sha256": "0528d464895fa23399c90a7b5fbecad2bcdbae3074368044780e6db698f5a782"
+    },
+    {
+      "seed": 116,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 10485294,
+      "sha256": "080d117a1785760c10179eb7b1437c98ffb5cd529f96f63830cedb6de3365657"
+    },
+    {
+      "seed": 117,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 2714,
+      "sha256": "082c54c7f7a4aa70be8b9bb5236908925958cabef3feac01f48861b062d4da53"
+    },
+    {
+      "seed": 118,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 1112,
+      "sha256": "a78095836f72e01c150e75b0e274ac0f5f70163a2e80b00fb74c67b735d4bf8c"
+    },
+    {
+      "seed": 119,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 3474,
+      "sha256": "02ff42856cdb5b1825fec26cf51fa0532f4a3f33f9ed1e97ee6db1bd6319e917"
+    },
+    {
+      "seed": 120,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 1552,
+      "sha256": "da48d05db46da3a8e469704b581802460252e314cfa510e2b9b35f2918eaf1ad"
+    },
+    {
+      "seed": 121,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 31818153,
+      "sha256": "afd0a2b5b707f47cf88690468a11593dde8c04a82d2af8a4de813c963eb2855f"
+    },
+    {
+      "seed": 122,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 2066,
+      "sha256": "ebe9b4e7e6c17f73b524b5399047a01c135f14ffdc027ac3f058e71770b87225"
+    },
+    {
+      "seed": 123,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 3950,
+      "sha256": "a47ef2aed3f46fb70eb87184d92459b05df0b7a25783723d390f386d663abe42"
+    },
+    {
+      "seed": 124,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 193228,
+      "sha256": "52226a0f0403f43adcaab8839be58271155945aed4ac2c21593cf33f4b0bb581"
+    },
+    {
+      "seed": 125,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 1176,
+      "sha256": "2b2cb4cd3a913cc1babeff0799971844d2ffaec6d53a1e963c371932b6cb10f6"
+    },
+    {
+      "seed": 126,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 3526,
+      "sha256": "6aa0f09a4d57e2452a8c7cac2a2be526a037e8a8d1fe9779f2017650b893da8a"
+    },
+    {
+      "seed": 127,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 3618,
+      "sha256": "8fb1625510f595603b01cdbd8620dc4c1158755f3e23e4c5c703096e51f5f08f"
+    }
+  ],
+  "native_command": [
+    "cargo",
+    "test",
+    "--manifest-path",
+    "crates/wimlib-rs/Cargo.toml",
+    "--target-dir",
+    "crates/wimlib-rs/target",
+    "-p",
+    "wim-ffi",
+    "--all-features",
+    "--locked",
+    "--lib",
+    "generated_graphs_and_payloads",
+    "--",
+    "--ignored",
+    "--nocapture"
+  ],
+  "native_test_status": 0,
+  "native_stdout": "\nrunning 1 test\ntest test_support::generate::tests::generated_graphs_and_payloads_match_original_seed_images ... ok\n\ntest result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 23 filtered out; finished in 1.04s\n\n",
+  "native_stderr": "   Compiling wim-ffi v0.1.0 (/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/wim-ffi)\nwarning: methods `is_empty` and `set_owner` are never used\n   --> wim-ffi/src/blob_index.rs:62:12\n    |\n 38 | impl BlobIndex {\n    | -------------- methods in this implementation\n...\n 62 |     pub fn is_empty(&self) -> bool {\n    |            ^^^^^^^^\n...\n135 |     pub fn set_owner(&mut self, hash: &[u8; 20], owner: BlobOwner) -> bool {\n    |            ^^^^^^^^^\n    |\n    = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default\n\nwarning: `wim-ffi` (lib test) generated 1 warning\n    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.93s\n     Running unittests src/lib.rs (crates/wimlib-rs/target/debug/deps/wim-5220911cd734e13a)\n"
+}

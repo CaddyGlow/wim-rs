@@ -1,0 +1,21 @@
+{
+  "scope": "Current-source postboot verification inputs prepared; no installed runtime result",
+  "supplement_rows": 5,
+  "payload_and_alias_ObjectID_bytes": 64,
+  "payload_and_alias_extended48_nonzero": true,
+  "supplement_raw_EA_and_ObjectID_exact_to_current_native_fixture": true,
+  "runtime_baseline_requirement": "Fresh install owner merges actual current native fields into all9 Windows-format rows; mandatory field presence, both nonempty64 challenge comparisons",
+  "reserved_groups_required": [
+    "original_5727",
+    "added_5",
+    "current_all_5732"
+  ],
+  "reserved_comparison": "Exact full security descriptor and reserved ACE bytes; inherited flags not waived",
+  "selfcheck_scope": "Current inventory compared to itself verifies interface/counts only, not restoration",
+  "inputs": {
+    "/data/cache/qcow2-autologon-disabled-20261005/current-source-ea-objectid-supplement.json": "90d53ab62609114e89c1f61ab8cc9ac8e303c18ca913e0d49f3fe48f7b35e8a6",
+    "/data/cache/qcow2-autologon-disabled-20261005/compare-current-reserved-postboot.py": "21fc096e3627a9bf22fe2c3582d9855a23503ae34af11f5ad227fa3b166fb04d",
+    "/data/cache/qcow2-oobe-preparation-control-20261005/offline-audit/fixture-metadata.json": "99eed6783313e1c4743b7f6a6295dc001e303485890253ebd3a0e1b64c265e6e",
+    "/data/cache/qcow2-oobe-preparation-control-20261005/offline-audit/reserved-sacl-inventory.json": "86318243cf75acde3be9468d1c485c85d77ad25874c431af4536b2bb49d7cc5c"
+  }
+}

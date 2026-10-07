@@ -1,0 +1,141 @@
+{
+  "scope": "Entire frozen Windows NTFS partition, identical bytes in read-only GPT-identity-only validation view; source never booted.",
+  "source_partition_bytes": 67445456896,
+  "source_partition_sha256": "370f053a034023642c8a58a0c5065e11078f543bdf9bebc24bc5a63d0be759ab",
+  "source_preservation": {
+    "utc": "2026-10-05T15:54:55Z",
+    "files": [
+      {
+        "path": "/home/rick/projects-caddy/windows-uup/vm-state/qcow2-source-1005/overlay.qcow2",
+        "bytes": 4352770048,
+        "sha256": "cfa75f1df1c0328f2ef19e0752678a6714d67ed0787c75626d7d2f8cfebb5762",
+        "expected": "cfa75f1df1c0328f2ef19e0752678a6714d67ed0787c75626d7d2f8cfebb5762",
+        "unchanged": true
+      },
+      {
+        "path": "/home/rick/.vm-base/win11-secure/disk.qcow2",
+        "bytes": 10026090496,
+        "sha256": "35299ad09fb946d45374f9637ccc4344acb3488b482d9571854d007b666b2abe",
+        "expected": "35299ad09fb946d45374f9637ccc4344acb3488b482d9571854d007b666b2abe",
+        "unchanged": true
+      },
+      {
+        "path": "/data/cache/qcow2-oracle-1005/source-validation.qcow2",
+        "bytes": 524288,
+        "sha256": "d31ea231d4d2d3df7d6d5e2c1f0639cadceff942e22c053fa0971fab9f79a74a",
+        "expected": "d31ea231d4d2d3df7d6d5e2c1f0639cadceff942e22c053fa0971fab9f79a74a",
+        "unchanged": true
+      }
+    ]
+  },
+  "microsoft_capture": {
+    "path": "/data/cache/qcow2-oracle-1005/source-dism-ea-v4.wim",
+    "bytes": 8594713876,
+    "sha256": "df8e8f36418e58e8f5e5a440c95f782cf9386d79c14a9c02e17fa101cde3d4fb",
+    "options": [
+      "Capture-Image",
+      "Compress:fast",
+      "CheckIntegrity",
+      "Verify",
+      "EA",
+      "NoRpFix"
+    ],
+    "terminal_exit": 0,
+    "independent_full_verify_exit": 0,
+    "source_exclusions": "Exact native production policy, retained oracle-capture.ini"
+  },
+  "whole_inventory": {
+    "nodes_native": 176416,
+    "nodes_microsoft": 176416,
+    "missing_paths": 0,
+    "extra_paths": 0,
+    "hardlink_group_differences": 0,
+    "attribute_differences": 0,
+    "logical_stream_differences": 47,
+    "stream_difference_classification": "46 absolute link alias normalizations, one intentional staged ReAgent.xml reset; every other stream name,size and verified SHA1 identical",
+    "security_descriptor_differences": 10407,
+    "short_name_differences": 25400,
+    "last_access_differences": 14,
+    "tag_differences": {
+      "2_extended_attributes": 9301,
+      "3_sparse_hole_maps": 1,
+      "4_storage_class": 144850
+    },
+    "detailed_report": "/data/cache/qcow2-oracle-1005/whole-native-vs-dism-metadata.json"
+  },
+  "windows_properties_current_implementation": {
+    "properties": {
+      "WINDOWS/ARCH": "9",
+      "WINDOWS/EDITIONID": "Professional",
+      "WINDOWS/INSTALLATIONTYPE": "Client",
+      "WINDOWS/PRODUCTNAME": "Microsoft\u00ae Windows\u00ae Operating System",
+      "WINDOWS/PRODUCTTYPE": "WinNT",
+      "WINDOWS/SYSTEMROOT": "WINDOWS",
+      "WINDOWS/VERSION/MAJOR": "10",
+      "WINDOWS/VERSION/MINOR": "0",
+      "WINDOWS/VERSION/BUILD": "26200",
+      "WINDOWS/VERSION/SPBUILD": "8037",
+      "WINDOWS/LANGUAGES/DEFAULT": "en-US",
+      "WINDOWS/HAL": "COMPUTER\\Generic",
+      "WINDOWS/PRODUCTSUITE": "Terminal Server",
+      "WINDOWS/SERVICINGDATA/GDRDUREVISION": "0",
+      "WINDOWS/SERVICINGDATA/IMAGESTATE": "IMAGE_STATE_GENERALIZE_RESEAL_TO_OOBE",
+      "WINDOWS/SERVICINGDATA/PKEYCONFIGVERSION": "10.0.26100.7019;2016-01-01T00:00:00Z",
+      "WINDOWS/VERSION/BRANCH": "ge_release",
+      "WINDOWS/VERSION/SPLEVEL": "0",
+      "WINDOWS/LANGUAGES/LANGUAGE[1]": "en-US"
+    },
+    "independent": {
+      "WINDOWS/ARCH": "9",
+      "WINDOWS/PRODUCTNAME": "Microsoft\u00ae Windows\u00ae Operating System",
+      "WINDOWS/EDITIONID": "Professional",
+      "WINDOWS/INSTALLATIONTYPE": "Client",
+      "WINDOWS/SERVICINGDATA/GDRDUREVISION": "0",
+      "WINDOWS/SERVICINGDATA/PKEYCONFIGVERSION": "10.0.26100.7019;2016-01-01T00:00:00Z",
+      "WINDOWS/SERVICINGDATA/IMAGESTATE": "IMAGE_STATE_GENERALIZE_RESEAL_TO_OOBE",
+      "WINDOWS/HAL": "COMPUTER\\Generic",
+      "WINDOWS/PRODUCTTYPE": "WinNT",
+      "WINDOWS/PRODUCTSUITE": "Terminal Server",
+      "WINDOWS/LANGUAGES/LANGUAGE[1]": "en-US",
+      "WINDOWS/LANGUAGES/DEFAULT": "en-US",
+      "WINDOWS/VERSION/MAJOR": "10",
+      "WINDOWS/VERSION/MINOR": "0",
+      "WINDOWS/VERSION/BUILD": "26200",
+      "WINDOWS/VERSION/SPBUILD": "8037",
+      "WINDOWS/VERSION/SPLEVEL": "0",
+      "WINDOWS/VERSION/BRANCH": "ge_release",
+      "WINDOWS/SYSTEMROOT": "WINDOWS"
+    },
+    "differences": {},
+    "equal": true
+  },
+  "properties_scope": "Current source-backed Rust extraction matches all19WINDOWS leaf properties in original Microsoft WIM. Existing explicit-install-v3.wim has previous properties; no new full capture or Setup validation implied.",
+  "direct_microsoft_apply": {
+    "native_full_apply_exit": 0,
+    "different_destination_volume": true,
+    "fixture_logical_streams": 331,
+    "full_object_id_64_preserved": true,
+    "sparse_attribute_preserved": true,
+    "sparse_hole_map_preserved": false,
+    "internal_and_relative_link_traversal_correct": true,
+    "wof_logical_bytes_correct": true,
+    "effective_access_checks": "SYSTEM, UAC-filtered user, full administrator with ALL privileges disabled: protected Everyone-deny read fails; control succeeds",
+    "process_trust_labels_preserved": false
+  },
+  "utf16_and_spillover": {
+    "raw_utf16_surrogate": "D800",
+    "native_ntfs_read_pass": true,
+    "native_wim_windows_apply_exit": 0,
+    "named_ads": 160,
+    "source_payload_independent_extension_records": 20,
+    "clean_fixture": "/data/cache/qcow2-oracle-1005/utf16-ads.vhd",
+    "clean_fixture_sha256": "d81fe94756e83ace1104d21d054b0b9f69a6be6163d81213dadf7ac02c66e50e"
+  },
+  "limitations": [
+    "Sparse hole and storage-class fixes need new produced artifact and Windows application verification.",
+    "$KERNEL. EA omission mirrors explicitly documented Microsoft policy; offline manifest retains original EAs.",
+    "Microsoft WIMGAPI omits process trust label information0x80 during restore; retaining rawSD alone does not establish effective label fidelity.",
+    "DirectDISMapply does not establish WindowsSetup relocation, OOBE, servicing, reboot, WinRE gates."
+  ],
+  "terminal_logs": "/data/cache/qcow2-oracle-1005/terminal-logs/inventory.json"
+}

@@ -1,0 +1,136 @@
+{
+  "schema": 1,
+  "scope": "Existing scratch challenge on NEW writable child backed original frozene18af; strict clean native offline verification after supported normal Windows reboot. No installed/source restoration.",
+  "frozen_image": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/prior-scratch-reboot-child.qcow2",
+  "frozen_image_sha256": "b981e72b7384b2cef6540e0a9292c828aef3c4336332c63331d8ffa73dc8385e",
+  "backing": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/diagnostic-scratch.qcow2",
+  "backing_sha256": "e18af50347659268f1edc0a037b6c9b8b0614e9fd778bd0cdc6c8f9e7e27940b",
+  "partition": 2,
+  "strict_clean_ntfs_open": true,
+  "actual_before_last_boot_utc": "2026-10-05T21:57:04.5000000Z",
+  "actual_after_last_boot_utc": "2026-10-05T22:00:19.5000000Z",
+  "actual_get_only_observer_after_all_passed": false,
+  "checks": [
+    {
+      "selector": "54003a005c006f0062006a00650063007400690064002d0073006300720061007400630068002d00380065003100330066006300660039003500640064003700340036003700330039006200330062006100340066003100620031003400610036003400610066005c00730063007200610074006300680020006c006f006e00670020006f0062006a0065006300740020006900640065006e0074006900660069006500720020006300680061006c006c0065006e0067006500200030002e00620069006e00",
+      "offline": {
+        "EaRaw": "",
+        "Info": {
+          "Access": 134357106598496389,
+          "Attributes": 32,
+          "Creation": 134357106598496389,
+          "Identity": "0001000000000031",
+          "Write": 134357106598496389
+        },
+        "ObjectIdRaw": "7e7356a406c1f111b4b3a9be630d8cb9000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "Path": "\\scratch long object identifier challenge 0.bin",
+        "ReparseRaw": "",
+        "SecurityRaw": "0100048074000000840000000000000014000000020060000400000000001800ff011f000102000000000005200000002002000000001400ff011f0001010000000000051200000000001400bf01130001010000000000050b00000000001800a90012000102000000000005200000002102000001020000000000052000000020020000010100000000000512000000",
+        "Short": "",
+        "Streams": [
+          {
+            "Hash": "",
+            "Length": 0,
+            "Name": ""
+          }
+        ]
+      },
+      "first16_equal_before": true,
+      "extended48_zero": true,
+      "extended48_matches_before": false,
+      "full64_exact_actual_after_online": true,
+      "file_id_info24_exact_before_and_after": true
+    },
+    {
+      "selector": "54003a005c006f0062006a00650063007400690064002d0073006300720061007400630068002d00380065003100330066006300660039003500640064003700340036003700330039006200330062006100340066003100620031003400610036003400610066005c0061006c006900610073002d0030002e00620069006e00",
+      "offline": {
+        "EaRaw": "",
+        "Info": {
+          "Access": 134357106598496389,
+          "Attributes": 32,
+          "Creation": 134357106598496389,
+          "Identity": "0001000000000031",
+          "Write": 134357106598496389
+        },
+        "ObjectIdRaw": "7e7356a406c1f111b4b3a9be630d8cb9000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "Path": "\\alias-0.bin",
+        "ReparseRaw": "",
+        "SecurityRaw": "0100048074000000840000000000000014000000020060000400000000001800ff011f000102000000000005200000002002000000001400ff011f0001010000000000051200000000001400bf01130001010000000000050b00000000001800a90012000102000000000005200000002102000001020000000000052000000020020000010100000000000512000000",
+        "Short": "",
+        "Streams": [
+          {
+            "Hash": "",
+            "Length": 0,
+            "Name": ""
+          }
+        ]
+      },
+      "first16_equal_before": true,
+      "extended48_zero": true,
+      "extended48_matches_before": false,
+      "full64_exact_actual_after_online": true,
+      "file_id_info24_exact_before_and_after": true
+    },
+    {
+      "selector": "54003a005c006f0062006a00650063007400690064002d0073006300720061007400630068002d00380065003100330066006300660039003500640064003700340036003700330039006200330062006100340066003100620031003400610036003400610066005c00730063007200610074006300680020006c006f006e00670020006f0062006a0065006300740020006900640065006e0074006900660069006500720020006300680061006c006c0065006e0067006500200030002e00620069006e00",
+      "offline": {
+        "EaRaw": "",
+        "Info": {
+          "Access": 134357106598496389,
+          "Attributes": 32,
+          "Creation": 134357106598496389,
+          "Identity": "0001000000000031",
+          "Write": 134357106598496389
+        },
+        "ObjectIdRaw": "7e7356a406c1f111b4b3a9be630d8cb9000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "Path": "\\scratch long object identifier challenge 0.bin",
+        "ReparseRaw": "",
+        "SecurityRaw": "0100048074000000840000000000000014000000020060000400000000001800ff011f000102000000000005200000002002000000001400ff011f0001010000000000051200000000001400bf01130001010000000000050b00000000001800a90012000102000000000005200000002102000001020000000000052000000020020000010100000000000512000000",
+        "Short": "",
+        "Streams": [
+          {
+            "Hash": "",
+            "Length": 0,
+            "Name": ""
+          }
+        ]
+      },
+      "first16_equal_before": true,
+      "extended48_zero": true,
+      "extended48_matches_before": false,
+      "full64_exact_actual_after_online": true,
+      "file_id_info24_exact_before_and_after": true
+    }
+  ],
+  "all3offline_full64_and24B_match_actual_after_online": true,
+  "all3_first16_unchanged_extended48_zero": true,
+  "reboot_persistence_gate_passed": false,
+  "earlier_positive_scope": "Original scratch full64 persisted through one supportedshutdown andstrictnative read; reboot onNEWchild subsequentlyzeroed48. Original frozen parentstillholdspositiveproof.",
+  "artifacts": {
+    "object-id-after-reboot-native.json": {
+      "path": "/data/cache/qcow2-v12-offline-audit/object-id-after-reboot-native.json",
+      "sha256": "1ce4a3ff48f75f649168acc18b6177beb6f3716df15c172ff1811278aab72701",
+      "bytes": 2708
+    },
+    "object-id-reboot-observer-input.json": {
+      "path": "/data/cache/qcow2-v12-offline-audit/object-id-reboot-observer-input.json",
+      "sha256": "cbbca628adfac879a743fece7fd9768951851a99f9f502b91e024098ba381af8",
+      "bytes": 2245
+    },
+    "objectid-observer-before-report.json": {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/second-experiment-results/objectid-observer-before-report.json",
+      "sha256": "97e2f5133b19b07d6e108d935709dcbaaa952e25d989db3c264fa1f3053c1f8b",
+      "bytes": 2689
+    },
+    "objectid-observer-after-report.json": {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/second-experiment-results/objectid-observer-after-report.json",
+      "sha256": "847e7b25e8564869b24b3f7962230539ace2f66e7c1ea671cb128d8f9226224c",
+      "bytes": 2693
+    },
+    "second-experiment-offline-handoff.json": {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/second-experiment-offline-handoff.json",
+      "sha256": "6b78056606879540f09bb4ec4733ea100a3e2a65f46501ef9cd50eb34b9a0600",
+      "bytes": 3513
+    }
+  }
+}

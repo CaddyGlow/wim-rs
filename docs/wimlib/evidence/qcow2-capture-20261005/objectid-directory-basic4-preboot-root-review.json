@@ -1,0 +1,21 @@
+{
+  "inputs": [
+    {
+      "path": "/data/cache/qcow2-object-id-directory-basic4-control-20261006/observer-preparation/final-online-seven-observations.json",
+      "sha256": "4ad4128dfdf93db5b626d27e876f8ac357b1ba7acd9a454c7459973551ba7b9a"
+    },
+    {
+      "path": "/data/cache/qcow2-object-id-directory-basic4-control-20261006/observer-preparation/native-seven-preboot-metadata.json",
+      "sha256": "e4f05ed360b0b6d0bef1063b42e3e02c248ccb43549299951462834660369a9c"
+    },
+    {
+      "path": "/data/cache/qcow2-object-id-directory-basic4-control-20261006/observer-preparation/native-seven-preboot-basic4.json",
+      "sha256": "98d231611541ff206b9de90e44ee46c7ef0e7b5bfe0d6ebf77527666d98a3929"
+    }
+  ],
+  "all_seven_native_windows_metadata_identity_correspondence": true,
+  "native_strict_clean": true,
+  "scope": "Two NEW readonly-directory controls plus parent, two children and two sibling directories; production19group protocol unproven",
+  "normal_reboot_verified": false,
+  "production_restoration_verified": false
+}

@@ -1,0 +1,34 @@
+{
+  "source_commit": "cd5e231c348c255ae5088873b5a66ee0eb96fa07",
+  "scope": "seekless Rust resource reader foundation; C pipe extraction integration pending",
+  "fixtures": [
+    {
+      "fixture": "pipe-none.wim",
+      "fixture_sha256": "088fb344a4fab661e2d3db9801cf5ffcd64fa0d23a1e435d2ab941d5c3fce0b9",
+      "verify_status": 0,
+      "apply_status": 0,
+      "payload_sha256": "829ab17c97a8c354c55d87b162cfe943f3688e7d14166ef2b312c3247d0729bb"
+    },
+    {
+      "fixture": "pipable-resource.wim",
+      "fixture_sha256": "dcbca88f75a29ec1637625358eb2e90327c3d4729281dd0c18c51edfeed2db56",
+      "verify_status": 0,
+      "apply_status": 0,
+      "payload_sha256": "829ab17c97a8c354c55d87b162cfe943f3688e7d14166ef2b312c3247d0729bb"
+    },
+    {
+      "fixture": "pipe-lzx.wim",
+      "fixture_sha256": "46761c3cfa1f2eae260d630cc1cb907a58dc99bcc08517fc707afceb1a3c2385",
+      "verify_status": 0,
+      "apply_status": 0,
+      "payload_sha256": "829ab17c97a8c354c55d87b162cfe943f3688e7d14166ef2b312c3247d0729bb"
+    },
+    {
+      "fixture": "pipe-lzms.wim",
+      "fixture_sha256": "f97919b16d3522620bb39101b516c53dfc137926f3e39c66e24dc35d0c0361f0",
+      "verify_status": 0,
+      "apply_status": 0,
+      "payload_sha256": "829ab17c97a8c354c55d87b162cfe943f3688e7d14166ef2b312c3247d0729bb"
+    }
+  ]
+}

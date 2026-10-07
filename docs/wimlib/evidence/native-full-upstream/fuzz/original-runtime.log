@@ -1,0 +1,794 @@
+Starting wlfuzz with time limit of 2 seconds
+--> iteration 1
+:::op__create_new_wim
+Creating wim0 with write flags 0x00004001, compression_type=LZX, chunk_size=524288, solid_chunk_size=0
+--> iteration 2
+:::op__delete_random_image_from_random_wim
+Opening wim0 with flags 0x00000001
+[WARNING] "wim0" does not contain integrity information.  Skipping integrity check.
+--> iteration 3
+:::op__apply_and_capture_test
+Opening wim0 with flags 0x00000000
+generated wim0 image 1
+overwrite with flags: 0x00004136
+[WARNING] Creating a pipable WIM, which will be incompatible
+          with Microsoft's software (WIMGAPI/ImageX/DISM).
+Opening wim0 with flags 0x00000000
+applying in UNIX mode
+[WARNING] Ignoring FILE_ATTRIBUTE_READONLY of 3 files
+[WARNING] Ignoring FILE_ATTRIBUTE_HIDDEN of 2 files
+[WARNING] Ignoring FILE_ATTRIBUTE_SYSTEM of 2 files
+[WARNING] Ignoring FILE_ATTRIBUTE_COMPRESSED of 2 files
+[WARNING] Ignoring FILE_ATTRIBUTE_NOT_CONTENT_INDEXED of 2 files
+[WARNING] Ignoring Windows NT security descriptors of 3 files
+[WARNING] Ignoring object IDs of 1 files
+[WARNING] Ignoring DOS names of 1 files
+[WARNING] Ignoring FILE_ATTRIBUTE_READONLY of 3 files
+[WARNING] Ignoring FILE_ATTRIBUTE_HIDDEN of 2 files
+[WARNING] Ignoring FILE_ATTRIBUTE_SYSTEM of 2 files
+[WARNING] Ignoring FILE_ATTRIBUTE_COMPRESSED of 2 files
+[WARNING] Ignoring FILE_ATTRIBUTE_NOT_CONTENT_INDEXED of 2 files
+[WARNING] Ignoring Windows NT security descriptors of 3 files
+[WARNING] Ignoring object IDs of 1 files
+[WARNING] Ignoring DOS names of 1 files
+overwrite with flags: 0x000021e1
+[WARNING] Creating a pipable WIM, which will be incompatible
+          with Microsoft's software (WIMGAPI/ImageX/DISM).
+Opening wim0 with flags 0x00000000
+--> iteration 4
+:::op__verify_random_wim
+Opening wim0 with flags 0x00000000
+Verified wim0
+--> iteration 5
+:::op__export_random_image
+--> iteration 6
+:::op__apply_and_capture_test
+Opening wim0 with flags 0x00000000
+generated wim0 image 3
+[WARNING] Creating a pipable WIM, which will be incompatible
+          with Microsoft's software (WIMGAPI/ImageX/DISM).
+overwrite with flags: 0x000028c0
+[WARNING] Creating a pipable WIM, which will be incompatible
+          with Microsoft's software (WIMGAPI/ImageX/DISM).
+Opening wim0 with flags 0x00000000
+applying in UNIX mode
+[WARNING] Ignoring FILE_ATTRIBUTE_HIDDEN of 1 files
+[WARNING] Ignoring FILE_ATTRIBUTE_COMPRESSED of 1 files
+[WARNING] Ignoring FILE_ATTRIBUTE_NOT_CONTENT_INDEXED of 2 files
+[WARNING] Ignoring Windows NT security descriptors of 1 files
+[WARNING] Ignoring DOS names of 1 files
+overwrite with flags: 0x00006960
+[WARNING] Creating a pipable WIM, which will be incompatible
+          with Microsoft's software (WIMGAPI/ImageX/DISM).
+Opening wim0 with flags 0x00000001
+--> iteration 7
+:::op__delete_random_image_from_random_wim
+Opening wim0 with flags 0x00000001
+Deleting image 2 from wim0
+overwrite with flags: 0x000000a0
+[WARNING] Creating a pipable WIM, which will be incompatible
+          with Microsoft's software (WIMGAPI/ImageX/DISM).
+--> iteration 8
+:::op__apply_and_capture_test
+Opening wim0 with flags 0x00000000
+generated wim0 image 4
+[WARNING] Creating a pipable WIM, which will be incompatible
+          with Microsoft's software (WIMGAPI/ImageX/DISM).
+overwrite with flags: 0x00000148
+Opening wim0 with flags 0x00000001
+applying in UNIX mode
+[WARNING] Ignoring FILE_ATTRIBUTE_READONLY of 1 files
+[WARNING] Ignoring FILE_ATTRIBUTE_COMPRESSED of 1 files
+overwrite with flags: 0x000069c0
+Opening wim0 with flags 0x00000000
+--> iteration 9
+:::op__apply_and_capture_test
+Opening wim0 with flags 0x00000001
+generated wim0 image 6
+overwrite with flags: 0x00008862
+[WARNING] The WIM file "/tmp/wlfuzz-original-u320qm8a/wim0" is being compacted in place.
+          Do *not* interrupt the operation, or else the WIM file will be
+          corrupted!
+Opening wim0 with flags 0x00000001
+[WARNING] "wim0" does not contain integrity information.  Skipping integrity check.
+applying in UNIX mode
+[WARNING] Ignoring named data streams of 1 files
+[WARNING] Ignoring FILE_ATTRIBUTE_READONLY of 2 files
+[WARNING] Ignoring FILE_ATTRIBUTE_HIDDEN of 2 files
+[WARNING] Ignoring FILE_ATTRIBUTE_SYSTEM of 2 files
+[WARNING] Ignoring FILE_ATTRIBUTE_COMPRESSED of 2 files
+[WARNING] Ignoring FILE_ATTRIBUTE_NOT_CONTENT_INDEXED of 1 files
+[WARNING] Ignoring object IDs of 1 files
+[WARNING] Ignoring DOS names of 2 files
+[WARNING] Ignoring named data streams of 1 files
+[WARNING] Ignoring FILE_ATTRIBUTE_READONLY of 2 files
+[WARNING] Ignoring FILE_ATTRIBUTE_HIDDEN of 2 files
+[WARNING] Ignoring FILE_ATTRIBUTE_SYSTEM of 2 files
+[WARNING] Ignoring FILE_ATTRIBUTE_COMPRESSED of 2 files
+[WARNING] Ignoring FILE_ATTRIBUTE_NOT_CONTENT_INDEXED of 1 files
+[WARNING] Ignoring object IDs of 1 files
+[WARNING] Ignoring DOS names of 2 files
+overwrite with flags: 0x000069e2
+Opening wim0 with flags 0x00000000
+--> iteration 10
+:::op__delete_random_wim
+Deleted wim0
+--> iteration 11
+:::op__delete_random_wim
+--> iteration 12
+:::op__apply_and_capture_test
+--> iteration 13
+:::op__apply_and_capture_test
+--> iteration 14
+:::op__delete_random_image_from_random_wim
+--> iteration 15
+:::op__apply_and_capture_test
+--> iteration 16
+:::op__delete_random_wim
+--> iteration 17
+:::op__verify_random_wim
+--> iteration 18
+:::op__delete_random_wim
+--> iteration 19
+:::op__split_test
+--> iteration 20
+:::op__export_random_image
+--> iteration 21
+:::op__overwrite_with_no_changes
+--> iteration 22
+:::op__set_compression_level
+Changing compression levels to 28
+--> iteration 23
+:::op__verify_random_wim
+--> iteration 24
+:::op__delete_random_image_from_random_wim
+--> iteration 25
+:::op__apply_and_capture_test
+--> iteration 26
+:::op__set_compression_level
+Changing compression levels to 88
+--> iteration 27
+:::op__apply_and_capture_test
+--> iteration 28
+:::op__verify_random_wim
+--> iteration 29
+:::op__set_compression_level
+Changing compression levels to 66
+--> iteration 30
+:::op__set_compression_level
+Changing compression levels to 44
+--> iteration 31
+:::op__apply_and_capture_test
+--> iteration 32
+:::op__split_test
+--> iteration 33
+:::op__export_random_image
+--> iteration 34
+:::op__delete_random_image_from_random_wim
+--> iteration 35
+:::op__add_empty_image_to_random_wim
+--> iteration 36
+:::op__apply_and_capture_test
+--> iteration 37
+:::op__apply_and_capture_test
+--> iteration 38
+:::op__create_new_wim
+Creating wim0 with write flags 0x00002004, compression_type=XPRESS, chunk_size=8192, solid_chunk_size=0
+[WARNING] Creating a pipable WIM, which will be incompatible
+          with Microsoft's software (WIMGAPI/ImageX/DISM).
+--> iteration 39
+:::op__export_random_image
+--> iteration 40
+:::op__export_random_image
+--> iteration 41
+:::op__apply_and_capture_test
+Opening wim0 with flags 0x00000000
+generated wim0 image 1
+[WARNING] Creating a pipable WIM, which will be incompatible
+          with Microsoft's software (WIMGAPI/ImageX/DISM).
+overwrite with flags: 0x00000025
+[WARNING] Creating a pipable WIM, which will be incompatible
+          with Microsoft's software (WIMGAPI/ImageX/DISM).
+Opening wim0 with flags 0x00000000
+applying in UNIX mode
+[WARNING] Ignoring named data streams of 16 files
+[WARNING] Ignoring FILE_ATTRIBUTE_READONLY of 93 files
+[WARNING] Ignoring FILE_ATTRIBUTE_HIDDEN of 91 files
+[WARNING] Ignoring FILE_ATTRIBUTE_SYSTEM of 93 files
+[WARNING] Ignoring FILE_ATTRIBUTE_COMPRESSED of 96 files
+[WARNING] Ignoring FILE_ATTRIBUTE_NOT_CONTENT_INDEXED of 94 files
+[WARNING] Ignoring reparse data of 9 non-symlink/junction files
+[WARNING] Ignoring Windows NT security descriptors of 93 files
+[WARNING] Ignoring object IDs of 7 files
+[WARNING] Ignoring DOS names of 92 files
+overwrite with flags: 0x000048e0
+[WARNING] Creating a pipable WIM, which will be incompatible
+          with Microsoft's software (WIMGAPI/ImageX/DISM).
+Opening wim0 with flags 0x00000001
+--> iteration 42
+:::op__export_random_image
+--> iteration 43
+:::op__verify_random_wim
+Opening wim0 with flags 0x00000000
+Verified wim0
+--> iteration 44
+:::op__delete_random_wim
+Deleted wim0
+--> iteration 45
+:::op__apply_and_capture_test
+--> iteration 46
+:::op__apply_and_capture_test
+--> iteration 47
+:::op__overwrite_with_no_changes
+--> iteration 48
+:::op__export_random_image
+--> iteration 49
+:::op__split_test
+--> iteration 50
+:::op__export_random_image
+--> iteration 51
+:::op__overwrite_with_no_changes
+--> iteration 52
+:::op__apply_and_capture_test
+--> iteration 53
+:::op__overwrite_with_no_changes
+--> iteration 54
+:::op__overwrite_with_no_changes
+--> iteration 55
+:::op__apply_and_capture_test
+--> iteration 56
+:::op__delete_random_image_from_random_wim
+--> iteration 57
+:::op__add_empty_image_to_random_wim
+--> iteration 58
+:::op__delete_random_wim
+--> iteration 59
+:::op__split_test
+--> iteration 60
+:::op__delete_random_image_from_random_wim
+--> iteration 61
+:::op__apply_and_capture_test
+--> iteration 62
+:::op__apply_and_capture_test
+--> iteration 63
+:::op__apply_and_capture_test
+--> iteration 64
+:::op__add_empty_image_to_random_wim
+--> iteration 65
+:::op__apply_and_capture_test
+--> iteration 66
+:::op__create_new_wim
+Creating wim0 with write flags 0x00000000, compression_type=LZX, chunk_size=32768, solid_chunk_size=0
+--> iteration 67
+:::op__add_empty_image_to_random_wim
+Opening wim0 with flags 0x00000000
+Adding empty image to wim0 at index 1
+overwrite with flags: 0x000061b2
+--> iteration 68
+:::op__apply_and_capture_test
+Opening wim0 with flags 0x00000000
+generated wim0 image 2
+overwrite with flags: 0x00009000
+[WARNING] The WIM file "/tmp/wlfuzz-original-u320qm8a/wim0" is being compacted in place.
+          Do *not* interrupt the operation, or else the WIM file will be
+          corrupted!
+Opening wim0 with flags 0x00000000
+applying in UNIX mode
+[WARNING] Ignoring FILE_ATTRIBUTE_HIDDEN of 1 files
+[WARNING] Ignoring FILE_ATTRIBUTE_SYSTEM of 2 files
+[WARNING] Ignoring FILE_ATTRIBUTE_COMPRESSED of 1 files
+[WARNING] Ignoring FILE_ATTRIBUTE_NOT_CONTENT_INDEXED of 1 files
+[WARNING] Ignoring Windows NT security descriptors of 1 files
+[WARNING] Ignoring DOS names of 1 files
+[WARNING] Ignoring FILE_ATTRIBUTE_HIDDEN of 1 files
+[WARNING] Ignoring FILE_ATTRIBUTE_SYSTEM of 2 files
+[WARNING] Ignoring FILE_ATTRIBUTE_COMPRESSED of 1 files
+[WARNING] Ignoring FILE_ATTRIBUTE_NOT_CONTENT_INDEXED of 1 files
+[WARNING] Ignoring Windows NT security descriptors of 1 files
+[WARNING] Ignoring DOS names of 1 files
+overwrite with flags: 0x00006970
+Opening wim0 with flags 0x00000001
+[WARNING] "wim0" does not contain integrity information.  Skipping integrity check.
+--> iteration 69
+:::op__apply_and_capture_test
+Opening wim0 with flags 0x00000000
+generated wim0 image 4
+overwrite with flags: 0x00002941
+Opening wim0 with flags 0x00000000
+applying in UNIX mode
+[WARNING] Ignoring FILE_ATTRIBUTE_READONLY of 7 files
+[WARNING] Ignoring FILE_ATTRIBUTE_HIDDEN of 2 files
+[WARNING] Ignoring FILE_ATTRIBUTE_SYSTEM of 2 files
+[WARNING] Ignoring FILE_ATTRIBUTE_COMPRESSED of 6 files
+[WARNING] Ignoring FILE_ATTRIBUTE_NOT_CONTENT_INDEXED of 4 files
+[WARNING] Ignoring Windows NT security descriptors of 3 files
+[WARNING] Ignoring DOS names of 1 files
+[WARNING] Ignoring FILE_ATTRIBUTE_READONLY of 7 files
+[WARNING] Ignoring FILE_ATTRIBUTE_HIDDEN of 2 files
+[WARNING] Ignoring FILE_ATTRIBUTE_SYSTEM of 2 files
+[WARNING] Ignoring FILE_ATTRIBUTE_COMPRESSED of 6 files
+[WARNING] Ignoring FILE_ATTRIBUTE_NOT_CONTENT_INDEXED of 4 files
+[WARNING] Ignoring Windows NT security descriptors of 3 files
+[WARNING] Ignoring DOS names of 1 files
+overwrite with flags: 0x00008148
+[WARNING] The WIM file "/tmp/wlfuzz-original-u320qm8a/wim0" is being compacted in place.
+          Do *not* interrupt the operation, or else the WIM file will be
+          corrupted!
+Opening wim0 with flags 0x00000000
+--> iteration 70
+:::op__create_new_wim
+Creating wim1 with write flags 0x00000005, compression_type=None, chunk_size=0, solid_chunk_size=0
+[WARNING] Creating a pipable WIM, which will be incompatible
+          with Microsoft's software (WIMGAPI/ImageX/DISM).
+--> iteration 71
+:::op__apply_and_capture_test
+Opening wim1 with flags 0x00000000
+generated wim1 image 1
+[WARNING] Creating a pipable WIM, which will be incompatible
+          with Microsoft's software (WIMGAPI/ImageX/DISM).
+overwrite with flags: 0x00002165
+[WARNING] Creating a pipable WIM, which will be incompatible
+          with Microsoft's software (WIMGAPI/ImageX/DISM).
+Opening wim1 with flags 0x00000000
+applying in UNIX mode
+[WARNING] Ignoring FILE_ATTRIBUTE_READONLY of 1 files
+[WARNING] Ignoring FILE_ATTRIBUTE_HIDDEN of 2 files
+[WARNING] Ignoring FILE_ATTRIBUTE_SYSTEM of 2 files
+[WARNING] Ignoring FILE_ATTRIBUTE_COMPRESSED of 1 files
+[WARNING] Ignoring FILE_ATTRIBUTE_NOT_CONTENT_INDEXED of 2 files
+[WARNING] Ignoring Windows NT security descriptors of 2 files
+[WARNING] Ignoring DOS names of 1 files
+[WARNING] Ignoring FILE_ATTRIBUTE_READONLY of 1 files
+[WARNING] Ignoring FILE_ATTRIBUTE_HIDDEN of 2 files
+[WARNING] Ignoring FILE_ATTRIBUTE_SYSTEM of 2 files
+[WARNING] Ignoring FILE_ATTRIBUTE_COMPRESSED of 1 files
+[WARNING] Ignoring FILE_ATTRIBUTE_NOT_CONTENT_INDEXED of 2 files
+[WARNING] Ignoring Windows NT security descriptors of 2 files
+[WARNING] Ignoring DOS names of 1 files
+overwrite with flags: 0x00004000
+[WARNING] Creating a pipable WIM, which will be incompatible
+          with Microsoft's software (WIMGAPI/ImageX/DISM).
+Opening wim1 with flags 0x00000001
+--> iteration 72
+:::op__verify_random_wim
+Opening wim1 with flags 0x00000001
+Verified wim1
+--> iteration 73
+:::op__verify_random_wim
+Opening wim1 with flags 0x00000000
+Verified wim1
+--> iteration 74
+:::op__apply_and_capture_test
+Opening wim1 with flags 0x00000001
+generated wim1 image 3
+[WARNING] Creating a pipable WIM, which will be incompatible
+          with Microsoft's software (WIMGAPI/ImageX/DISM).
+overwrite with flags: 0x00002060
+[WARNING] Creating a pipable WIM, which will be incompatible
+          with Microsoft's software (WIMGAPI/ImageX/DISM).
+Opening wim1 with flags 0x00000000
+applying in UNIX mode
+[WARNING] Ignoring FILE_ATTRIBUTE_READONLY of 1 files
+[WARNING] Ignoring FILE_ATTRIBUTE_SYSTEM of 1 files
+[WARNING] Ignoring FILE_ATTRIBUTE_COMPRESSED of 1 files
+[WARNING] Ignoring object IDs of 1 files
+overwrite with flags: 0x00002892
+[WARNING] Creating a pipable WIM, which will be incompatible
+          with Microsoft's software (WIMGAPI/ImageX/DISM).
+Opening wim1 with flags 0x00000000
+--> iteration 75
+:::op__apply_and_capture_test
+Opening wim1 with flags 0x00000000
+generated wim1 image 5
+[WARNING] Creating a pipable WIM, which will be incompatible
+          with Microsoft's software (WIMGAPI/ImageX/DISM).
+overwrite with flags: 0x000060a1
+[WARNING] Creating a pipable WIM, which will be incompatible
+          with Microsoft's software (WIMGAPI/ImageX/DISM).
+Opening wim1 with flags 0x00000001
+applying in UNIX mode
+[WARNING] Ignoring named data streams of 8 files
+[WARNING] Ignoring FILE_ATTRIBUTE_READONLY of 65 files
+[WARNING] Ignoring FILE_ATTRIBUTE_HIDDEN of 59 files
+[WARNING] Ignoring FILE_ATTRIBUTE_SYSTEM of 55 files
+[WARNING] Ignoring FILE_ATTRIBUTE_COMPRESSED of 58 files
+[WARNING] Ignoring FILE_ATTRIBUTE_NOT_CONTENT_INDEXED of 50 files
+[WARNING] Ignoring reparse data of 8 non-symlink/junction files
+[WARNING] Ignoring Windows NT security descriptors of 46 files
+[WARNING] Ignoring object IDs of 7 files
+[WARNING] Ignoring DOS names of 59 files
+overwrite with flags: 0x00006962
+[WARNING] Creating a pipable WIM, which will be incompatible
+          with Microsoft's software (WIMGAPI/ImageX/DISM).
+Opening wim1 with flags 0x00000001
+[WARNING] "wim1" does not contain integrity information.  Skipping integrity check.
+--> iteration 76
+:::op__apply_and_capture_test
+Opening wim1 with flags 0x00000001
+[WARNING] "wim1" does not contain integrity information.  Skipping integrity check.
+generated wim1 image 7
+[WARNING] Creating a pipable WIM, which will be incompatible
+          with Microsoft's software (WIMGAPI/ImageX/DISM).
+overwrite with flags: 0x000029f0
+[WARNING] Creating a pipable WIM, which will be incompatible
+          with Microsoft's software (WIMGAPI/ImageX/DISM).
+Opening wim1 with flags 0x00000001
+[WARNING] "wim1" does not contain integrity information.  Skipping integrity check.
+applying in UNIX mode
+[WARNING] Ignoring FILE_ATTRIBUTE_READONLY of 2 files
+[WARNING] Ignoring FILE_ATTRIBUTE_HIDDEN of 2 files
+[WARNING] Ignoring FILE_ATTRIBUTE_COMPRESSED of 1 files
+[WARNING] Ignoring DOS names of 1 files
+overwrite with flags: 0x000028b1
+[WARNING] Creating a pipable WIM, which will be incompatible
+          with Microsoft's software (WIMGAPI/ImageX/DISM).
+Opening wim1 with flags 0x00000000
+--> iteration 77
+:::op__delete_random_wim
+Deleted wim1
+--> iteration 78
+:::op__delete_random_wim
+Deleted wim0
+--> iteration 79
+:::op__split_test
+--> iteration 80
+:::op__add_empty_image_to_random_wim
+--> iteration 81
+:::op__add_empty_image_to_random_wim
+--> iteration 82
+:::op__apply_and_capture_test
+--> iteration 83
+:::op__apply_and_capture_test
+--> iteration 84
+:::op__export_random_image
+--> iteration 85
+:::op__export_random_image
+--> iteration 86
+:::op__apply_and_capture_test
+--> iteration 87
+:::op__apply_and_capture_test
+--> iteration 88
+:::op__apply_and_capture_test
+--> iteration 89
+:::op__set_compression_level
+Changing compression levels to 6
+--> iteration 90
+:::op__apply_and_capture_test
+--> iteration 91
+:::op__apply_and_capture_test
+--> iteration 92
+:::op__delete_random_wim
+--> iteration 93
+:::op__apply_and_capture_test
+--> iteration 94
+:::op__set_compression_level
+Changing compression levels to 81
+--> iteration 95
+:::op__overwrite_with_no_changes
+--> iteration 96
+:::op__export_random_image
+--> iteration 97
+:::op__add_empty_image_to_random_wim
+--> iteration 98
+:::op__apply_and_capture_test
+--> iteration 99
+:::op__apply_and_capture_test
+--> iteration 100
+:::op__overwrite_with_no_changes
+--> iteration 101
+:::op__delete_random_image_from_random_wim
+--> iteration 102
+:::op__add_empty_image_to_random_wim
+--> iteration 103
+:::op__add_empty_image_to_random_wim
+--> iteration 104
+:::op__add_empty_image_to_random_wim
+--> iteration 105
+:::op__delete_random_image_from_random_wim
+--> iteration 106
+:::op__apply_and_capture_test
+--> iteration 107
+:::op__overwrite_with_no_changes
+--> iteration 108
+:::op__delete_random_wim
+--> iteration 109
+:::op__apply_and_capture_test
+--> iteration 110
+:::op__apply_and_capture_test
+--> iteration 111
+:::op__delete_random_wim
+--> iteration 112
+:::op__set_compression_level
+Changing compression levels to 91
+--> iteration 113
+:::op__verify_random_wim
+--> iteration 114
+:::op__apply_and_capture_test
+--> iteration 115
+:::op__apply_and_capture_test
+--> iteration 116
+:::op__verify_random_wim
+--> iteration 117
+:::op__export_random_image
+--> iteration 118
+:::op__apply_and_capture_test
+--> iteration 119
+:::op__overwrite_with_no_changes
+--> iteration 120
+:::op__split_test
+--> iteration 121
+:::op__delete_random_wim
+--> iteration 122
+:::op__split_test
+--> iteration 123
+:::op__delete_random_wim
+--> iteration 124
+:::op__add_empty_image_to_random_wim
+--> iteration 125
+:::op__add_empty_image_to_random_wim
+--> iteration 126
+:::op__apply_and_capture_test
+--> iteration 127
+:::op__delete_random_image_from_random_wim
+--> iteration 128
+:::op__export_random_image
+--> iteration 129
+:::op__export_random_image
+--> iteration 130
+:::op__split_test
+--> iteration 131
+:::op__split_test
+--> iteration 132
+:::op__apply_and_capture_test
+--> iteration 133
+:::op__verify_random_wim
+--> iteration 134
+:::op__set_compression_level
+Changing compression levels to 48
+--> iteration 135
+:::op__add_empty_image_to_random_wim
+--> iteration 136
+:::op__apply_and_capture_test
+--> iteration 137
+:::op__export_random_image
+--> iteration 138
+:::op__delete_random_wim
+--> iteration 139
+:::op__add_empty_image_to_random_wim
+--> iteration 140
+:::op__set_compression_level
+Changing compression levels to 60
+--> iteration 141
+:::op__split_test
+--> iteration 142
+:::op__delete_random_image_from_random_wim
+--> iteration 143
+:::op__delete_random_wim
+--> iteration 144
+:::op__delete_random_wim
+--> iteration 145
+:::op__apply_and_capture_test
+--> iteration 146
+:::op__export_random_image
+--> iteration 147
+:::op__set_compression_level
+Changing compression levels to 33
+--> iteration 148
+:::op__verify_random_wim
+--> iteration 149
+:::op__apply_and_capture_test
+--> iteration 150
+:::op__apply_and_capture_test
+--> iteration 151
+:::op__delete_random_wim
+--> iteration 152
+:::op__create_new_wim
+Creating wim0 with write flags 0x00004000, compression_type=XPRESS, chunk_size=32768, solid_chunk_size=0
+--> iteration 153
+:::op__split_test
+Opening wim0 with flags 0x00000001
+[WARNING] "wim0" does not contain integrity information.  Skipping integrity check.
+splitting WIM wim0: part_size=736431, write_flags=0x00002004
+[WARNING] Creating a pipable WIM, which will be incompatible
+          with Microsoft's software (WIMGAPI/ImageX/DISM).
+[WARNING] "tmp.swm" does not contain integrity information.  Skipping integrity check.
+[WARNING] "tmp.swm" does not contain integrity information.  Skipping integrity check.
+[WARNING] Creating a pipable WIM, which will be incompatible
+          with Microsoft's software (WIMGAPI/ImageX/DISM).
+--> iteration 154
+:::op__overwrite_with_no_changes
+Opening wim0 with flags 0x00000000
+overwrite with flags: 0x0000a900
+[WARNING] The WIM file "/tmp/wlfuzz-original-u320qm8a/wim0" is being compacted in place.
+          Do *not* interrupt the operation, or else the WIM file will be
+          corrupted!
+--> iteration 155
+:::op__export_random_image
+--> iteration 156
+:::op__delete_random_wim
+Deleted wim0
+--> iteration 157
+:::op__create_new_wim
+Creating wim0 with write flags 0x00006001, compression_type=XPRESS, chunk_size=8192, solid_chunk_size=0
+--> iteration 158
+:::op__create_new_wim
+Creating wim1 with write flags 0x00000001, compression_type=LZX, chunk_size=131072, solid_chunk_size=0
+--> iteration 159
+:::op__create_new_wim
+Creating wim2 with write flags 0x00000001, compression_type=None, chunk_size=0, solid_chunk_size=0
+--> iteration 160
+:::op__apply_and_capture_test
+Opening wim1 with flags 0x00000000
+generated wim1 image 1
+overwrite with flags: 0x00002852
+Opening wim1 with flags 0x00000001
+[WARNING] "wim1" does not contain integrity information.  Skipping integrity check.
+applying in UNIX mode
+[WARNING] Ignoring named data streams of 9 files
+[WARNING] Ignoring FILE_ATTRIBUTE_READONLY of 33 files
+[WARNING] Ignoring FILE_ATTRIBUTE_HIDDEN of 37 files
+[WARNING] Ignoring FILE_ATTRIBUTE_SYSTEM of 41 files
+[WARNING] Ignoring FILE_ATTRIBUTE_COMPRESSED of 28 files
+[WARNING] Ignoring FILE_ATTRIBUTE_NOT_CONTENT_INDEXED of 37 files
+[WARNING] Ignoring reparse data of 4 non-symlink/junction files
+[WARNING] Ignoring Windows NT security descriptors of 32 files
+[WARNING] Ignoring object IDs of 1 files
+[WARNING] Ignoring DOS names of 36 files
+overwrite with flags: 0x00006002
+Opening wim1 with flags 0x00000001
+[WARNING] "wim1" does not contain integrity information.  Skipping integrity check.
+--> iteration 161
+:::op__apply_and_capture_test
+Opening wim2 with flags 0x00000001
+[WARNING] "wim2" does not contain integrity information.  Skipping integrity check.
+generated wim2 image 1
+overwrite with flags: 0x00005850
+Opening wim2 with flags 0x00000001
+[WARNING] "wim2" does not contain integrity information.  Skipping integrity check.
+applying in UNIX mode
+[WARNING] Ignoring named data streams of 30 files
+[WARNING] Ignoring FILE_ATTRIBUTE_READONLY of 195 files
+[WARNING] Ignoring FILE_ATTRIBUTE_HIDDEN of 193 files
+[WARNING] Ignoring FILE_ATTRIBUTE_SYSTEM of 196 files
+[WARNING] Ignoring FILE_ATTRIBUTE_COMPRESSED of 184 files
+[WARNING] Ignoring FILE_ATTRIBUTE_NOT_CONTENT_INDEXED of 191 files
+[WARNING] Ignoring reparse data of 28 non-symlink/junction files
+[WARNING] Ignoring Windows NT security descriptors of 174 files
+[WARNING] Ignoring object IDs of 12 files
+[WARNING] Ignoring DOS names of 193 files
+[WARNING] Ignoring named data streams of 30 files
+[WARNING] Ignoring FILE_ATTRIBUTE_READONLY of 195 files
+[WARNING] Ignoring FILE_ATTRIBUTE_HIDDEN of 193 files
+[WARNING] Ignoring FILE_ATTRIBUTE_SYSTEM of 196 files
+[WARNING] Ignoring FILE_ATTRIBUTE_COMPRESSED of 184 files
+[WARNING] Ignoring FILE_ATTRIBUTE_NOT_CONTENT_INDEXED of 191 files
+[WARNING] Ignoring reparse data of 28 non-symlink/junction files
+[WARNING] Ignoring Windows NT security descriptors of 174 files
+[WARNING] Ignoring object IDs of 12 files
+[WARNING] Ignoring DOS names of 193 files
+overwrite with flags: 0x000071ea
+Opening wim2 with flags 0x00000000
+--> iteration 162
+:::op__set_compression_level
+Changing compression levels to 9
+--> iteration 163
+:::op__add_empty_image_to_random_wim
+Opening wim2 with flags 0x00000001
+[WARNING] "wim2" does not contain integrity information.  Skipping integrity check.
+Adding empty image to wim2 at index 3
+overwrite with flags: 0x00002025
+[WARNING] Creating a pipable WIM, which will be incompatible
+          with Microsoft's software (WIMGAPI/ImageX/DISM).
+--> iteration 164
+:::op__set_compression_level
+Changing compression levels to 31
+--> iteration 165
+:::op__set_compression_level
+Changing compression levels to 43
+--> iteration 166
+:::op__apply_and_capture_test
+Opening wim0 with flags 0x00000001
+[WARNING] "wim0" does not contain integrity information.  Skipping integrity check.
+generated wim0 image 1
+overwrite with flags: 0x000069d1
+Opening wim0 with flags 0x00000000
+applying in UNIX mode
+[WARNING] Ignoring FILE_ATTRIBUTE_READONLY of 3 files
+[WARNING] Ignoring FILE_ATTRIBUTE_HIDDEN of 2 files
+[WARNING] Ignoring FILE_ATTRIBUTE_SYSTEM of 1 files
+[WARNING] Ignoring FILE_ATTRIBUTE_COMPRESSED of 3 files
+[WARNING] Ignoring FILE_ATTRIBUTE_NOT_CONTENT_INDEXED of 2 files
+[WARNING] Ignoring Windows NT security descriptors of 2 files
+[WARNING] Ignoring DOS names of 1 files
+overwrite with flags: 0x00000092
+Opening wim0 with flags 0x00000001
+[WARNING] "wim0" does not contain integrity information.  Skipping integrity check.
+--> iteration 167
+:::op__set_compression_level
+Changing compression levels to 85
+--> iteration 168
+:::op__overwrite_with_no_changes
+Opening wim2 with flags 0x00000000
+overwrite with flags: 0x000001da
+--> iteration 169
+:::op__apply_and_capture_test
+Opening wim0 with flags 0x00000001
+[WARNING] "wim0" does not contain integrity information.  Skipping integrity check.
+generated wim0 image 3
+overwrite with flags: 0x00006130
+Opening wim0 with flags 0x00000000
+applying in UNIX mode
+[WARNING] Ignoring FILE_ATTRIBUTE_READONLY of 2 files
+[WARNING] Ignoring FILE_ATTRIBUTE_HIDDEN of 1 files
+[WARNING] Ignoring FILE_ATTRIBUTE_SYSTEM of 1 files
+[WARNING] Ignoring FILE_ATTRIBUTE_COMPRESSED of 1 files
+[WARNING] Ignoring Windows NT security descriptors of 1 files
+[WARNING] Ignoring DOS names of 1 files
+overwrite with flags: 0x000050a0
+Opening wim0 with flags 0x00000000
+--> iteration 170
+:::op__apply_and_capture_test
+Opening wim1 with flags 0x00000000
+generated wim1 image 3
+overwrite with flags: 0x000020d0
+Opening wim1 with flags 0x00000000
+applying in UNIX mode
+[WARNING] Ignoring named data streams of 3 files
+[WARNING] Ignoring FILE_ATTRIBUTE_READONLY of 10 files
+[WARNING] Ignoring FILE_ATTRIBUTE_HIDDEN of 16 files
+[WARNING] Ignoring FILE_ATTRIBUTE_SYSTEM of 13 files
+[WARNING] Ignoring FILE_ATTRIBUTE_COMPRESSED of 10 files
+[WARNING] Ignoring FILE_ATTRIBUTE_NOT_CONTENT_INDEXED of 13 files
+[WARNING] Ignoring reparse data of 1 non-symlink/junction files
+[WARNING] Ignoring Windows NT security descriptors of 16 files
+[WARNING] Ignoring DOS names of 14 files
+overwrite with flags: 0x000019b0
+Opening wim1 with flags 0x00000001
+[WARNING] "wim1" does not contain integrity information.  Skipping integrity check.
+--> iteration 171
+:::op__split_test
+Opening wim0 with flags 0x00000001
+[WARNING] "wim0" does not contain integrity information.  Skipping integrity check.
+splitting WIM wim0: part_size=290413, write_flags=0x00002001
+--> iteration 172
+:::op__create_new_wim
+Creating wim3 with write flags 0x00000004, compression_type=XPRESS, chunk_size=32768, solid_chunk_size=0
+[WARNING] Creating a pipable WIM, which will be incompatible
+          with Microsoft's software (WIMGAPI/ImageX/DISM).
+--> iteration 173
+:::op__overwrite_with_no_changes
+Opening wim0 with flags 0x00000001
+[WARNING] "wim0" does not contain integrity information.  Skipping integrity check.
+overwrite with flags: 0x00006014
+[WARNING] Creating a pipable WIM, which will be incompatible
+          with Microsoft's software (WIMGAPI/ImageX/DISM).
+--> iteration 174
+:::op__split_test
+Opening wim2 with flags 0x00000001
+[WARNING] "wim2" does not contain integrity information.  Skipping integrity check.
+splitting WIM wim2: part_size=191168, write_flags=0x00006000
+[WARNING] "tmp.swm" does not contain integrity information.  Skipping integrity check.
+[WARNING] "tmp.swm" does not contain integrity information.  Skipping integrity check.
+[WARNING] "tmp2.swm" does not contain integrity information.  Skipping integrity check.
+--> iteration 175
+:::op__create_new_wim
+--> iteration 176
+:::op__apply_and_capture_test
+Opening wim0 with flags 0x00000001
+[WARNING] "wim0" does not contain integrity information.  Skipping integrity check.
+generated wim0 image 5
+[WARNING] Creating a pipable WIM, which will be incompatible
+          with Microsoft's software (WIMGAPI/ImageX/DISM).
+overwrite with flags: 0x000049d0
+[WARNING] Creating a pipable WIM, which will be incompatible
+          with Microsoft's software (WIMGAPI/ImageX/DISM).
+Opening wim0 with flags 0x00000001
+[WARNING] "wim0" does not contain integrity information.  Skipping integrity check.
+applying in UNIX mode
+[WARNING] Ignoring FILE_ATTRIBUTE_READONLY of 1 files
+[WARNING] Ignoring FILE_ATTRIBUTE_HIDDEN of 1 files
+[WARNING] Ignoring FILE_ATTRIBUTE_NOT_CONTENT_INDEXED of 1 files
+overwrite with flags: 0x000000e5
+[WARNING] Creating a pipable WIM, which will be incompatible
+          with Microsoft's software (WIMGAPI/ImageX/DISM).
+Opening wim0 with flags 0x00000000

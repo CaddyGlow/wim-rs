@@ -1,0 +1,7 @@
+{
+  "exit": 1,
+  "signal": null,
+  "stdout": "File ID is 0x00000000000000000001000000000027\r\nUsage  : fsutil file layout [options] <filename>\r\n\r\nOptions:\r\n   /v   Verbose mode - displays attribute buffer hex dump for $EA and\r\n        $REPARSE_POINT.\r\n\r\n Eg: fsutil file layout C:\\testfile.txt\r\n     fsutil file layout /v C:\\testfile.txt\r\nUsage  : fsutil file layout [options] <filename>\r\n\r\nOptions:\r\n   /v   Verbose mode - displays attribute buffer hex dump for $EA and\r\n        $REPARSE_POINT.\r\n\r\n Eg: fsutil file layout C:\\testfile.txt\r\n     fsutil file layout /v C:\\testfile.txt\r\n",
+  "stderr": "",
+  "stdout_truncated": false
+}

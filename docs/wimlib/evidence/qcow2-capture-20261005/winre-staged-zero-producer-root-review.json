@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "scope": "Root rehash of all parent and experimental snapshot manifest inputs and exact sole one-byte producer delta",
+  "manifest": {
+    "path": "/data/cache/qcow2-winre-staged-zero-control-20261006/producer-source-manifest-delta.json",
+    "sha256": "f3f5862fb6ef560b92f18bb232977387029d789f1dbf2b8a4ff71b838b377077"
+  },
+  "rows_verified": 3040,
+  "changed_files": [
+    "crates/windows-uup/src/capture_disk.rs"
+  ],
+  "only_delta": "STAGED_REAGENT_XML WinREStaged state1 to0",
+  "production_fix_proven": false
+}

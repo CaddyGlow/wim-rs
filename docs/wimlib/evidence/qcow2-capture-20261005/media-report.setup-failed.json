@@ -1,0 +1,9 @@
+{
+  "iso_sha256": "e7b46935750ae90b8d88dab21c7b6b983651ffe3a241f22d47dd1771dee4d1ff",
+  "image_count": 1,
+  "setup_boot_index": 2,
+  "winre_verified": 1,
+  "warnings": [],
+  "omitted_setup_controls": [],
+  "staging": "/data/cache/qcow2-capture-20261005/media-job-2"
+}

@@ -1,0 +1,77 @@
+{
+  "purpose": "Independent Windows DISM comparison of the identical frozen Windows partition",
+  "partition_bytes": 67445456896,
+  "partition_sha256": "370f053a034023642c8a58a0c5065e11078f543bdf9bebc24bc5a63d0be759ab",
+  "original_matches_validation_view": true,
+  "changes": {
+    "intent": "validation-only containeridentities; original NTFSbytes immutable",
+    "disk_guid": "ce8b51aa-50a4-408d-bb17-07803de50b91",
+    "partitions": [
+      {
+        "partition": 1,
+        "old": "2837eee0-806f-4d5b-a6b1-c6ce0b27cba1",
+        "new": "08f41dcf-c651-4489-8de9-1942e80d3bae"
+      },
+      {
+        "partition": 2,
+        "old": "c634eff8-d89f-49c7-a912-f55442079e15",
+        "new": "433634c0-b9c9-4a8d-b3b3-8ebdf432851b"
+      },
+      {
+        "partition": 3,
+        "old": "1ae7a557-11d3-4b74-b404-80ee70ed67f2",
+        "new": "6dd014ff-bfc7-4272-9234-c771f6c6f76c"
+      },
+      {
+        "partition": 4,
+        "old": "183d5268-a4ab-4b21-aead-6ec2fcf0d18b",
+        "new": "beb4ec3f-fbbb-401c-8493-532b991160ef"
+      }
+    ],
+    "changed_sectors": [
+      1,
+      2,
+      134217695,
+      134217727
+    ]
+  },
+  "guest_source": {
+    "disk_number": 2,
+    "serial": "VALIDATION-SOURCE-RO",
+    "windows_read_only": true,
+    "windows_online": true,
+    "windows_drive": "D",
+    "qemu_read_only": true,
+    "boot_index": -1
+  },
+  "reason": "Cloned GPT disk/partition identities prevented Windows read-only mounting. Disposable COW changes only GPT GUIDs and CRCs; original chain is preserved and never booted.",
+  "evidence": [
+    {
+      "path": "/data/cache/qcow2-oracle-1005/source-partition-bytes.txt",
+      "bytes": 123,
+      "sha256": "011ef882e77dd9164a0c44d047a922f121ef5c86b298332aef3f74e085c8883f"
+    },
+    {
+      "path": "/data/cache/qcow2-oracle-1005/validation-partition-bytes.txt",
+      "bytes": 123,
+      "sha256": "011ef882e77dd9164a0c44d047a922f121ef5c86b298332aef3f74e085c8883f"
+    },
+    {
+      "path": "/data/cache/qcow2-oracle-1005/validation-gpt-changes.json",
+      "bytes": 792,
+      "sha256": "bbd1c5c324b31684a2166987cec2f17d604a3e9a7870a6b989c73a8b3def80b7"
+    },
+    {
+      "path": "/data/cache/qcow2-oracle-1005/validation-source-readonly-proof.json",
+      "bytes": 14314,
+      "sha256": "26d3523af65fdd14cb60f033ebda7da4aee7cd348b7d3ef256f8f69612911bc3"
+    },
+    {
+      "path": "/data/cache/qcow2-oracle-1005/validation-source-guest-disks.json",
+      "bytes": 3235,
+      "sha256": "4c413f2a91dcdc1cceaf9cf564915e960b8e4edd90e6d1061dae0a180dd8f591"
+    }
+  ],
+  "comparison_complete": false,
+  "limitation": "Read-only mount and byte identity establish oracle input, not DISM output equivalence."
+}

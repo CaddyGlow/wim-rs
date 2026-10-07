@@ -1,0 +1,10 @@
+/nix/store/bikkd0jwr8jkd3r6r5mcr28fm17yvb0z-binutils-2.46/bin/ld.bfd: /tmp/ccoG2BYi.o: in function `op__export_random_image':
+wlfuzz.c:(.text+0x120c): undefined reference to `wimlib_compare_images'
+/nix/store/bikkd0jwr8jkd3r6r5mcr28fm17yvb0z-binutils-2.46/bin/ld.bfd: /tmp/ccoG2BYi.o: in function `op__apply_and_capture_test':
+wlfuzz.c:(.text+0x1418): undefined reference to `wimlib_compare_images'
+/nix/store/bikkd0jwr8jkd3r6r5mcr28fm17yvb0z-binutils-2.46/bin/ld.bfd: wlfuzz.c:(.text+0x1623): undefined reference to `wimlib_compare_images'
+/nix/store/bikkd0jwr8jkd3r6r5mcr28fm17yvb0z-binutils-2.46/bin/ld.bfd: /tmp/ccoG2BYi.o: in function `op__split_test':
+wlfuzz.c:(.text+0x19ac): undefined reference to `wimlib_compare_images'
+/nix/store/bikkd0jwr8jkd3r6r5mcr28fm17yvb0z-binutils-2.46/bin/ld.bfd: /tmp/ccoG2BYi.o: in function `main':
+wlfuzz.c:(.text+0x1bf0): undefined reference to `wimlib_seed_random'
+collect2: error: ld returned 1 exit status

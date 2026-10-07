@@ -1,0 +1,1271 @@
+{
+  "work": "/tmp/wim-generator-config-khla8f5q",
+  "sha256": {
+    "original": "62eb9c97f9ec6e3dae6c7e995b0a65a2e94a4d9b41491666947ba788a15bb74a",
+    "native": "0c7ac6dfffd9840158371b90141905c82d346b93431306c90fba3398bed41b5e"
+  },
+  "cases": 63,
+  "exact": 63,
+  "rows": [
+    {
+      "seed": 0,
+      "config": "valid",
+      "stop": -1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nblob=5944 refs=1 flags=00 offset=0 packed=0 part=0 hash=80566f542e4e4b3375ad4e28bbd2d0046d2da195\nblob=1235 refs=1 flags=00 offset=0 packed=0 part=0 hash=01e22903e6dd5dd499a642f677d96fa037bafb7f\nblob=130205 refs=1 flags=00 offset=0 packed=0 part=0 hash=01848d180e450833e3b1445af5c7a663a28ab4b7\nblob=25806 refs=1 flags=00 offset=0 packed=0 part=0 hash=020fb93d7c747bbad6e5a86140089f9af0cac97b\nblob=540 refs=1 flags=00 offset=0 packed=0 part=0 hash=829a69d68aa1f42567109d75f6812dfcf64df9d5\nblob=2326 refs=1 flags=00 offset=0 packed=0 part=0 hash=83b51b658efd6281a0f1bfe8e3985dac206d8435\nblob=781 refs=1 flags=00 offset=0 packed=0 part=0 hash=032f1b761a26b1d7662e6b0a5a8194b70bd10a4f\nblob=3589 refs=1 flags=00 offset=0 packed=0 part=0 hash=03c3419abb1a20da516b920d727efd3ae6addd1e\nblob=2455 refs=1 flags=00 offset=0 packed=0 part=0 hash=85fc74c0e91aaf43f2b0a1aceb13c0fcb89a6be6\nblob=5601 refs=1 flags=00 offset=0 packed=0 part=0 hash=081c9f7726f64d88e5f960c2de3705a7ced05eb0\nblob=1390 refs=1 flags=00 offset=0 packed=0 part=0 hash=0938bbbf594fe38fe0f1bb34e924e69abfe3a1e9\nblob=172245 refs=1 flags=00 offset=0 packed=0 part=0 hash=0a7ddacd0a5d9da5c11449f67f6f1d534f61cdff\nblob=25021 refs=1 flags=00 offset=0 packed=0 part=0 hash=8b3f4dde0356c517d3cde6e231181a260fa96391\nblob=17219 refs=1 flags=00 offset=0 packed=0 part=0 hash=8ce4b8d5807c8812635b9755607382c563075682\nblob=29017 refs=2 flags=00 offset=0 packed=0 part=0 hash=0dd7039328ea9a4ce4ee9c4d103d16df999f1134\nblob=23324 refs=1 flags=00 offset=0 packed=0 part=0 hash=8db2fcfaad37c150b04539be38fd8b38c78cf95a\nblob=22 refs=1 flags=00 offset=0 packed=0 part=0 hash=0ed5b4624b031bae7d85a9d771a2b14176260f02\nblob=38 refs=1 flags=00 offset=0 packed=0 part=0 hash=0e4387993a6196b206e739b5cecd4d0716b715ed\nblob=9398 refs=1 flags=00 offset=0 packed=0 part=0 hash=0ee54ceb49cec2beb583d5c1cd69b1111f37aefc\nblob=19984 refs=1 flags=00 offset=0 packed=0 part=0 hash=8f66f9003ac4e8eeb52ff70a454217254fb93f1f\nblob=3464 refs=2 flags=00 offset=0 packed=0 part=0 hash=102b8d918a62f0f07ffa465f763cef070dacdbcb\nblob=214945 refs=1 flags=00 offset=0 packed=0 part=0 hash=90d646f77fd10eb7d8414ddca722d4851c3a47f5\nblob=1 refs=1 flags=00 offset=0 packed=0 part=0 hash=10687feb9716c9502d9a40fdfe3bb339055c8651\nblob=608 refs=1 flags=00 offset=0 packed=0 part=0 hash=9132c0d3862b3d20b7058943ad515484bb483c8e\nblob=25821 refs=1 flags=00 offset=0 packed=0 part=0 hash=918b5c5143ea066929f62d7624fe9615ada1cea5\nblob=10479 refs=1 flags=00 offset=0 packed=0 part=0 hash=13a7831cf2553216db8c65026771edf67158240f\nblob=5 refs=1 flags=00 offset=0 packed=0 part=0 hash=943920a4120cf5296f26295e0948515bf975ded6\nblob=137341 refs=1 flags=00 offset=0 packed=0 part=0 hash=15c1aa2c6d6bc51dda916d29795204c64d7e2f09\nblob=1575 refs=1 flags=00 offset=0 packed=0 part=0 hash=161f16583270d8b5205df4dbf8778f1a255d7008\nblob=3041 refs=1 flags=00 offset=0 packed=0 part=0 hash=967d88040ecad5db413e9818d1995c5be3372b4b\nblob=2909 refs=2 flags=00 offset=0 packed=0 part=0 hash=165c2a245397801bc96b18740d37a3282b9a9187\nblob=123180 refs=1 flags=00 offset=0 packed=0 part=0 hash=975c74f0394709a7e042ddab9f1a66fce7e69c15\nblob=149185 refs=1 flags=00 offset=0 packed=0 part=0 hash=9c3afd96d66cda33c10b57cd514bb60a1012da04\nblob=260732 refs=1 flags=00 offset=0 packed=0 part=0 hash=9d8002c20d8381e18d9bfe0753b6591bcd1f6717\nblob=2808 refs=1 flags=00 offset=0 packed=0 part=0 hash=1ee056105c727ac400e3282fd8bc973e4b4f27e3\nblob=157623 refs=1 flags=00 offset=0 packed=0 part=0 hash=9e27d86d7b8bd7d43a6c6f06d6d8eded261fc377\nblob=26244 refs=1 flags=00 offset=0 packed=0 part=0 hash=1e92d6154adcc94788eb51c34ce5e5150e0540d5\nblob=23372 refs=1 flags=00 offset=0 packed=0 part=0 hash=9f6dd038e345bba0d6209ad7c9358e2f58e49a35\nblob=2677 refs=1 flags=00 offset=0 packed=0 part=0 hash=1f0740753da6d4b66a9f4543f3f10a9c04cbcce4\nblob=9100 refs=1 flags=00 offset=0 packed=0 part=0 hash=21147233729c5f60089e41dec8c07c62da242784\nblob=3057 refs=1 flags=00 offset=0 packed=0 part=0 hash=25db55695d0bd7e18cae463a7c3aea15d52614dd\nblob=22 refs=1 flags=00 offset=0 packed=0 part=0 hash=250ca0f06742d23cbb2fd43b6ad0897fd9425dab\nblob=5721 refs=1 flags=00 offset=0 packed=0 part=0 hash=a6ec97c730eb07afcbc065cac98624e65aae8ac7\nblob=2540 refs=1 flags=00 offset=0 packed=0 part=0 hash=26b765cb936dfdb9eb1730c011c6594acea87233\nblob=24493 refs=1 flags=00 offset=0 packed=0 part=0 hash=27c252f9b31919df33b3bbab3e74b66eabea91b6\nblob=549 refs=1 flags=00 offset=0 packed=0 part=0 hash=28b1731467c359e791966d7348b569528f0ffd58\nblob=12093 refs=1 flags=00 offset=0 packed=0 part=0 hash=a81fcf478be90c8d201a022f3a4d8b4e8ad322f0\nblob=118450 refs=1 flags=00 offset=0 packed=0 part=0 hash=a9b1d1ef87a4c931f526aee29cb01cafd8fa553c\nblob=2177 refs=1 flags=00 offset=0 packed=0 part=0 hash=aa121d40876fde9c111144f6fb2be7bb93d8f63e\nblob=3691 refs=1 flags=00 offset=0 packed=0 part=0 hash=aa7d145b4d14f557221794434c44c06e285f499f\nblob=29688 refs=1 flags=00 offset=0 packed=0 part=0 hash=2d48bfb36249f93ffeeef7e49640b14b0c5c801a\nblob=1513 refs=1 flags=00 offset=0 packed=0 part=0 hash=b211ad56f0877edbca8eb928e9900b94073e4663\nblob=40 refs=1 flags=00 offset=0 packed=0 part=0 hash=33929e099af119869b11a47b973e2ec9b41a5970\nblob=16070 refs=1 flags=00 offset=0 packed=0 part=0 hash=b49df010f74c615b5a3ccc7fc9df9f435193eac4\nblob=686 refs=1 flags=00 offset=0 packed=0 part=0 hash=348037b2223814e10e3cfc353f7d6e00e58f9093\nblob=23804 refs=1 flags=00 offset=0 packed=0 part=0 hash=35c5841a36b00ede20b537dee6bf9302a5655f33\nblob=245889 refs=1 flags=00 offset=0 packed=0 part=0 hash=b5d253512bd2deb55486691c5a507d8975320cf0\nblob=363 refs=1 flags=00 offset=0 packed=0 part=0 hash=37d1b9ceaf1fb4b7146563ff801114234ec90ac3\nblob=46 refs=1 flags=00 offset=0 packed=0 part=0 hash=3abf15b5c13ff1b5233eacb8fff0491201cca59c\nblob=2769 refs=1 flags=00 offset=0 packed=0 part=0 hash=bbd3833cd4161beedd67918be72e0831f16a277f\nblob=2053 refs=1 flags=00 offset=0 packed=0 part=0 hash=3bf996954966a719b27b8db188a4ecb4eb14a10f\nblob=60 refs=1 flags=00 offset=0 packed=0 part=0 hash=3c339bebe5d66090bb222474a384d5980e7c2351\nblob=543 refs=1 flags=00 offset=0 packed=0 part=0 hash=bd9053fea93c64aa6eb394f5e0e237d78df5e532\nblob=1204 refs=1 flags=00 offset=0 packed=0 part=0 hash=be155c0ca905ab9ff678814fe6316e6aba084e52\nblob=2934 refs=1 flags=00 offset=0 packed=0 part=0 hash=3e0cd5e0df25a7f70a543492fdeba238684aa26b\nblob=11 refs=1 flags=00 offset=0 packed=0 part=0 hash=3fa2181e542db26dbebce9b34cdebd1aba84fd21\nblob=1728 refs=1 flags=00 offset=0 packed=0 part=0 hash=bf5100262062feeca23b55d10082014f737df281\nblob=29830 refs=1 flags=00 offset=0 packed=0 part=0 hash=c207a269600e381dab551c2ba92205d867c479d7\nblob=1692 refs=1 flags=00 offset=0 packed=0 part=0 hash=c3a09c161a5ac2ad5d4fcf8e8b8a8b02b56c3542\nblob=2808 refs=1 flags=00 offset=0 packed=0 part=0 hash=437431dddca2f16d708128f1bf6aca15e13dc2fa\nblob=28033 refs=1 flags=00 offset=0 packed=0 part=0 hash=4405757eae1c5dc09a144fd89ba9208ee67731fb\nblob=509 refs=1 flags=00 offset=0 packed=0 part=0 hash=45dbaf1b73616df03d6404e0ed447da2c4c932cb\nblob=163555 refs=1 flags=00 offset=0 packed=0 part=0 hash=455c36ad8625a6184b0f150d890938f3ef1f2639\nblob=13307 refs=1 flags=00 offset=0 packed=0 part=0 hash=c67accd58a6345e78450012233cd018cbd849e0d\nblob=50 refs=1 flags=00 offset=0 packed=0 part=0 hash=48d634cfcbf63bcd81cb68ef5df0b9483281b1e9\nblob=72 refs=1 flags=00 offset=0 packed=0 part=0 hash=c8b0b2d0b800d8bb9f7f023684ddbb7c83cca26c\nblob=138361 refs=1 flags=00 offset=0 packed=0 part=0 hash=4ee8043293d68687341ac24d2b12cf0b3dc7f2b4\nblob=59440 refs=1 flags=00 offset=0 packed=0 part=0 hash=53841acfb0a176ef4206b399de007879a979e696\nblob=99311 refs=1 flags=00 offset=0 packed=0 part=0 hash=543ea27785ff64211d609799548fdbe89bff40ef\nblob=14512 refs=1 flags=00 offset=0 packed=0 part=0 hash=d6f71ebbd4e17f183265263c4d61860b8b6e64b6\nblob=2172 refs=1 flags=00 offset=0 packed=0 part=0 hash=566bd3404dd1c0afc52541cf62fef6886082920a\nblob=22808 refs=1 flags=00 offset=0 packed=0 part=0 hash=d91a7073645ede2f68c485407cfee0f979c821cd\nblob=60 refs=1 flags=00 offset=0 packed=0 part=0 hash=d9880b6af8b2bf86fc6a5d9dfd930c39d58ec6ee\nblob=50013 refs=1 flags=00 offset=0 packed=0 part=0 hash=d9bbf85759978ad7d124e465efe859d2cdf3278d\nblob=106 refs=1 flags=00 offset=0 packed=0 part=0 hash=d936259184aa3c399219fe9fec874d21727aa8cc\nblob=7941 refs=1 flags=00 offset=0 packed=0 part=0 hash=db730618be2287108adc8847a75f725d17f0da8f\nblob=13186 refs=1 flags=00 offset=0 packed=0 part=0 hash=5caadc0351686ec466bca5f10968ce341b18937e\nblob=3098 refs=1 flags=00 offset=0 packed=0 part=0 hash=5dc209f8eb1edd43493c4a08f6ba23010604b371\nblob=27363 refs=1 flags=00 offset=0 packed=0 part=0 hash=5d59ccb2fce1c0a6773d7c1845f1ceeb9e724d17\nblob=23386 refs=1 flags=00 offset=0 packed=0 part=0 hash=5fe9645277e028776daf61b1264c6cd052498b0c\nblob=1065 refs=1 flags=00 offset=0 packed=0 part=0 hash=603a6f2b1697a1589eb98a4d28c6e44c8f7e18b0\nblob=11047 refs=1 flags=00 offset=0 packed=0 part=0 hash=60492646e4e0ea19f37843ec983778cfe8cc5910\nblob=835 refs=1 flags=00 offset=0 packed=0 part=0 hash=e1c6cae20bcc972bdc0d2fdfa6172b4386ac3630\nblob=2569 refs=1 flags=00 offset=0 packed=0 part=0 hash=e32259786df8132d07aaa245040d7ff29320dcec\nblob=5 refs=1 flags=00 offset=0 packed=0 part=0 hash=6716a1703aa2572ee2960c5f2d6cb78bee20746f\nblob=3143 refs=1 flags=00 offset=0 packed=0 part=0 hash=6981ea589941474a59e84bb38e2cfcf75e7330f3\nblob=23763 refs=1 flags=00 offset=0 packed=0 part=0 hash=6a0d3c42379d2e48fd05fec7a6119956c1c23126\nblob=1107 refs=1 flags=00 offset=0 packed=0 part=0 hash=eb1e7fd64d84ba6e94c29a831beed3fa19e11c60\nblob=287 refs=1 flags=00 offset=0 packed=0 part=0 hash=6ba8980871c828535c0d999252fb4e81b0c327fc\nblob=2152 refs=1 flags=00 offset=0 packed=0 part=0 hash=ec3e3ae61244076f464be61e0821c2d411f2d65d\nblob=36 refs=1 flags=00 offset=0 packed=0 part=0 hash=edb74e193640b7c13630992832855f11c6cbf71b\nblob=3200 refs=1 flags=00 offset=0 packed=0 part=0 hash=ee5127b6693b13bbef311ec5f553608b0f5f3812\nblob=53515 refs=1 flags=00 offset=0 packed=0 part=0 hash=6e4afbd60d4839b628b4a3eb5f1cb7014187d92f\nblob=8048 refs=1 flags=00 offset=0 packed=0 part=0 hash=6ea1d4262993542c7c5a8f814ca003b02ded5390\nblob=60 refs=1 flags=00 offset=0 packed=0 part=0 hash=ef81509393157a4e7f48e745bb1ccf142f05352b\nblob=1141 refs=1 flags=00 offset=0 packed=0 part=0 hash=f1692720e1967eebd50812a08edf6d6bab386782\nblob=23648 refs=1 flags=00 offset=0 packed=0 part=0 hash=7354375f2f0b1b05aeb0bf3ac417859a379c02f8\nblob=1632 refs=1 flags=00 offset=0 packed=0 part=0 hash=f668676c5323d632ce8fa2ce1ed680663af20d09\nblob=7690 refs=1 flags=00 offset=0 packed=0 part=0 hash=76c11ccee16f0802899ac4b78f98e8773657d400\nblob=426 refs=1 flags=00 offset=0 packed=0 part=0 hash=799cea9b181cca472fbadae09532573b555e587d\nblob=39 refs=1 flags=00 offset=0 packed=0 part=0 hash=fa8e80cef239cc17a5dd89fe6e2e3634ba8283ce\nblob=8253 refs=1 flags=00 offset=0 packed=0 part=0 hash=fb81f1f903301f7bd81ab5318c91b91de0844d2d\nblob=31434 refs=1 flags=00 offset=0 packed=0 part=0 hash=fb1f9a4c6c6914b67e6bce05b908e816bafef816\nblob=1322 refs=1 flags=00 offset=0 packed=0 part=0 hash=7c36bf4e1e17823e284a2f3c99797e8e85d63de2\nblob=3621 refs=1 flags=00 offset=0 packed=0 part=0 hash=7c4aceb9fa64ceaeae055e1c0e2c24d45837f399\nblob=708 refs=1 flags=00 offset=0 packed=0 part=0 hash=7eb315ba59bb182aee9addf3d978670c28b23db4\nblob=3142 refs=1 flags=00 offset=0 packed=0 part=0 hash=ff596fa0680a1126b391036faf9fc6bf9dc0e392\nblob=3825 refs=1 flags=00 offset=0 packed=0 part=0 hash=7f3a3e761999d98eb9282478c6544d8232e99fbf\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nblob=5944 refs=1 flags=00 offset=0 packed=0 part=0 hash=80566f542e4e4b3375ad4e28bbd2d0046d2da195\nblob=1235 refs=1 flags=00 offset=0 packed=0 part=0 hash=01e22903e6dd5dd499a642f677d96fa037bafb7f\nblob=130205 refs=1 flags=00 offset=0 packed=0 part=0 hash=01848d180e450833e3b1445af5c7a663a28ab4b7\nblob=25806 refs=1 flags=00 offset=0 packed=0 part=0 hash=020fb93d7c747bbad6e5a86140089f9af0cac97b\nblob=540 refs=1 flags=00 offset=0 packed=0 part=0 hash=829a69d68aa1f42567109d75f6812dfcf64df9d5\nblob=2326 refs=1 flags=00 offset=0 packed=0 part=0 hash=83b51b658efd6281a0f1bfe8e3985dac206d8435\nblob=781 refs=1 flags=00 offset=0 packed=0 part=0 hash=032f1b761a26b1d7662e6b0a5a8194b70bd10a4f\nblob=3589 refs=1 flags=00 offset=0 packed=0 part=0 hash=03c3419abb1a20da516b920d727efd3ae6addd1e\nblob=2455 refs=1 flags=00 offset=0 packed=0 part=0 hash=85fc74c0e91aaf43f2b0a1aceb13c0fcb89a6be6\nblob=5601 refs=1 flags=00 offset=0 packed=0 part=0 hash=081c9f7726f64d88e5f960c2de3705a7ced05eb0\nblob=1390 refs=1 flags=00 offset=0 packed=0 part=0 hash=0938bbbf594fe38fe0f1bb34e924e69abfe3a1e9\nblob=172245 refs=1 flags=00 offset=0 packed=0 part=0 hash=0a7ddacd0a5d9da5c11449f67f6f1d534f61cdff\nblob=25021 refs=1 flags=00 offset=0 packed=0 part=0 hash=8b3f4dde0356c517d3cde6e231181a260fa96391\nblob=17219 refs=1 flags=00 offset=0 packed=0 part=0 hash=8ce4b8d5807c8812635b9755607382c563075682\nblob=29017 refs=2 flags=00 offset=0 packed=0 part=0 hash=0dd7039328ea9a4ce4ee9c4d103d16df999f1134\nblob=23324 refs=1 flags=00 offset=0 packed=0 part=0 hash=8db2fcfaad37c150b04539be38fd8b38c78cf95a\nblob=22 refs=1 flags=00 offset=0 packed=0 part=0 hash=0ed5b4624b031bae7d85a9d771a2b14176260f02\nblob=38 refs=1 flags=00 offset=0 packed=0 part=0 hash=0e4387993a6196b206e739b5cecd4d0716b715ed\nblob=9398 refs=1 flags=00 offset=0 packed=0 part=0 hash=0ee54ceb49cec2beb583d5c1cd69b1111f37aefc\nblob=19984 refs=1 flags=00 offset=0 packed=0 part=0 hash=8f66f9003ac4e8eeb52ff70a454217254fb93f1f\nblob=3464 refs=2 flags=00 offset=0 packed=0 part=0 hash=102b8d918a62f0f07ffa465f763cef070dacdbcb\nblob=214945 refs=1 flags=00 offset=0 packed=0 part=0 hash=90d646f77fd10eb7d8414ddca722d4851c3a47f5\nblob=1 refs=1 flags=00 offset=0 packed=0 part=0 hash=10687feb9716c9502d9a40fdfe3bb339055c8651\nblob=608 refs=1 flags=00 offset=0 packed=0 part=0 hash=9132c0d3862b3d20b7058943ad515484bb483c8e\nblob=25821 refs=1 flags=00 offset=0 packed=0 part=0 hash=918b5c5143ea066929f62d7624fe9615ada1cea5\nblob=10479 refs=1 flags=00 offset=0 packed=0 part=0 hash=13a7831cf2553216db8c65026771edf67158240f\nblob=5 refs=1 flags=00 offset=0 packed=0 part=0 hash=943920a4120cf5296f26295e0948515bf975ded6\nblob=137341 refs=1 flags=00 offset=0 packed=0 part=0 hash=15c1aa2c6d6bc51dda916d29795204c64d7e2f09\nblob=1575 refs=1 flags=00 offset=0 packed=0 part=0 hash=161f16583270d8b5205df4dbf8778f1a255d7008\nblob=3041 refs=1 flags=00 offset=0 packed=0 part=0 hash=967d88040ecad5db413e9818d1995c5be3372b4b\nblob=2909 refs=2 flags=00 offset=0 packed=0 part=0 hash=165c2a245397801bc96b18740d37a3282b9a9187\nblob=123180 refs=1 flags=00 offset=0 packed=0 part=0 hash=975c74f0394709a7e042ddab9f1a66fce7e69c15\nblob=149185 refs=1 flags=00 offset=0 packed=0 part=0 hash=9c3afd96d66cda33c10b57cd514bb60a1012da04\nblob=260732 refs=1 flags=00 offset=0 packed=0 part=0 hash=9d8002c20d8381e18d9bfe0753b6591bcd1f6717\nblob=2808 refs=1 flags=00 offset=0 packed=0 part=0 hash=1ee056105c727ac400e3282fd8bc973e4b4f27e3\nblob=157623 refs=1 flags=00 offset=0 packed=0 part=0 hash=9e27d86d7b8bd7d43a6c6f06d6d8eded261fc377\nblob=26244 refs=1 flags=00 offset=0 packed=0 part=0 hash=1e92d6154adcc94788eb51c34ce5e5150e0540d5\nblob=23372 refs=1 flags=00 offset=0 packed=0 part=0 hash=9f6dd038e345bba0d6209ad7c9358e2f58e49a35\nblob=2677 refs=1 flags=00 offset=0 packed=0 part=0 hash=1f0740753da6d4b66a9f4543f3f10a9c04cbcce4\nblob=9100 refs=1 flags=00 offset=0 packed=0 part=0 hash=21147233729c5f60089e41dec8c07c62da242784\nblob=3057 refs=1 flags=00 offset=0 packed=0 part=0 hash=25db55695d0bd7e18cae463a7c3aea15d52614dd\nblob=22 refs=1 flags=00 offset=0 packed=0 part=0 hash=250ca0f06742d23cbb2fd43b6ad0897fd9425dab\nblob=5721 refs=1 flags=00 offset=0 packed=0 part=0 hash=a6ec97c730eb07afcbc065cac98624e65aae8ac7\nblob=2540 refs=1 flags=00 offset=0 packed=0 part=0 hash=26b765cb936dfdb9eb1730c011c6594acea87233\nblob=24493 refs=1 flags=00 offset=0 packed=0 part=0 hash=27c252f9b31919df33b3bbab3e74b66eabea91b6\nblob=549 refs=1 flags=00 offset=0 packed=0 part=0 hash=28b1731467c359e791966d7348b569528f0ffd58\nblob=12093 refs=1 flags=00 offset=0 packed=0 part=0 hash=a81fcf478be90c8d201a022f3a4d8b4e8ad322f0\nblob=118450 refs=1 flags=00 offset=0 packed=0 part=0 hash=a9b1d1ef87a4c931f526aee29cb01cafd8fa553c\nblob=2177 refs=1 flags=00 offset=0 packed=0 part=0 hash=aa121d40876fde9c111144f6fb2be7bb93d8f63e\nblob=3691 refs=1 flags=00 offset=0 packed=0 part=0 hash=aa7d145b4d14f557221794434c44c06e285f499f\nblob=29688 refs=1 flags=00 offset=0 packed=0 part=0 hash=2d48bfb36249f93ffeeef7e49640b14b0c5c801a\nblob=1513 refs=1 flags=00 offset=0 packed=0 part=0 hash=b211ad56f0877edbca8eb928e9900b94073e4663\nblob=40 refs=1 flags=00 offset=0 packed=0 part=0 hash=33929e099af119869b11a47b973e2ec9b41a5970\nblob=16070 refs=1 flags=00 offset=0 packed=0 part=0 hash=b49df010f74c615b5a3ccc7fc9df9f435193eac4\nblob=686 refs=1 flags=00 offset=0 packed=0 part=0 hash=348037b2223814e10e3cfc353f7d6e00e58f9093\nblob=23804 refs=1 flags=00 offset=0 packed=0 part=0 hash=35c5841a36b00ede20b537dee6bf9302a5655f33\nblob=245889 refs=1 flags=00 offset=0 packed=0 part=0 hash=b5d253512bd2deb55486691c5a507d8975320cf0\nblob=363 refs=1 flags=00 offset=0 packed=0 part=0 hash=37d1b9ceaf1fb4b7146563ff801114234ec90ac3\nblob=46 refs=1 flags=00 offset=0 packed=0 part=0 hash=3abf15b5c13ff1b5233eacb8fff0491201cca59c\nblob=2769 refs=1 flags=00 offset=0 packed=0 part=0 hash=bbd3833cd4161beedd67918be72e0831f16a277f\nblob=2053 refs=1 flags=00 offset=0 packed=0 part=0 hash=3bf996954966a719b27b8db188a4ecb4eb14a10f\nblob=60 refs=1 flags=00 offset=0 packed=0 part=0 hash=3c339bebe5d66090bb222474a384d5980e7c2351\nblob=543 refs=1 flags=00 offset=0 packed=0 part=0 hash=bd9053fea93c64aa6eb394f5e0e237d78df5e532\nblob=1204 refs=1 flags=00 offset=0 packed=0 part=0 hash=be155c0ca905ab9ff678814fe6316e6aba084e52\nblob=2934 refs=1 flags=00 offset=0 packed=0 part=0 hash=3e0cd5e0df25a7f70a543492fdeba238684aa26b\nblob=11 refs=1 flags=00 offset=0 packed=0 part=0 hash=3fa2181e542db26dbebce9b34cdebd1aba84fd21\nblob=1728 refs=1 flags=00 offset=0 packed=0 part=0 hash=bf5100262062feeca23b55d10082014f737df281\nblob=29830 refs=1 flags=00 offset=0 packed=0 part=0 hash=c207a269600e381dab551c2ba92205d867c479d7\nblob=1692 refs=1 flags=00 offset=0 packed=0 part=0 hash=c3a09c161a5ac2ad5d4fcf8e8b8a8b02b56c3542\nblob=2808 refs=1 flags=00 offset=0 packed=0 part=0 hash=437431dddca2f16d708128f1bf6aca15e13dc2fa\nblob=28033 refs=1 flags=00 offset=0 packed=0 part=0 hash=4405757eae1c5dc09a144fd89ba9208ee67731fb\nblob=509 refs=1 flags=00 offset=0 packed=0 part=0 hash=45dbaf1b73616df03d6404e0ed447da2c4c932cb\nblob=163555 refs=1 flags=00 offset=0 packed=0 part=0 hash=455c36ad8625a6184b0f150d890938f3ef1f2639\nblob=13307 refs=1 flags=00 offset=0 packed=0 part=0 hash=c67accd58a6345e78450012233cd018cbd849e0d\nblob=50 refs=1 flags=00 offset=0 packed=0 part=0 hash=48d634cfcbf63bcd81cb68ef5df0b9483281b1e9\nblob=72 refs=1 flags=00 offset=0 packed=0 part=0 hash=c8b0b2d0b800d8bb9f7f023684ddbb7c83cca26c\nblob=138361 refs=1 flags=00 offset=0 packed=0 part=0 hash=4ee8043293d68687341ac24d2b12cf0b3dc7f2b4\nblob=59440 refs=1 flags=00 offset=0 packed=0 part=0 hash=53841acfb0a176ef4206b399de007879a979e696\nblob=99311 refs=1 flags=00 offset=0 packed=0 part=0 hash=543ea27785ff64211d609799548fdbe89bff40ef\nblob=14512 refs=1 flags=00 offset=0 packed=0 part=0 hash=d6f71ebbd4e17f183265263c4d61860b8b6e64b6\nblob=2172 refs=1 flags=00 offset=0 packed=0 part=0 hash=566bd3404dd1c0afc52541cf62fef6886082920a\nblob=22808 refs=1 flags=00 offset=0 packed=0 part=0 hash=d91a7073645ede2f68c485407cfee0f979c821cd\nblob=60 refs=1 flags=00 offset=0 packed=0 part=0 hash=d9880b6af8b2bf86fc6a5d9dfd930c39d58ec6ee\nblob=50013 refs=1 flags=00 offset=0 packed=0 part=0 hash=d9bbf85759978ad7d124e465efe859d2cdf3278d\nblob=106 refs=1 flags=00 offset=0 packed=0 part=0 hash=d936259184aa3c399219fe9fec874d21727aa8cc\nblob=7941 refs=1 flags=00 offset=0 packed=0 part=0 hash=db730618be2287108adc8847a75f725d17f0da8f\nblob=13186 refs=1 flags=00 offset=0 packed=0 part=0 hash=5caadc0351686ec466bca5f10968ce341b18937e\nblob=3098 refs=1 flags=00 offset=0 packed=0 part=0 hash=5dc209f8eb1edd43493c4a08f6ba23010604b371\nblob=27363 refs=1 flags=00 offset=0 packed=0 part=0 hash=5d59ccb2fce1c0a6773d7c1845f1ceeb9e724d17\nblob=23386 refs=1 flags=00 offset=0 packed=0 part=0 hash=5fe9645277e028776daf61b1264c6cd052498b0c\nblob=1065 refs=1 flags=00 offset=0 packed=0 part=0 hash=603a6f2b1697a1589eb98a4d28c6e44c8f7e18b0\nblob=11047 refs=1 flags=00 offset=0 packed=0 part=0 hash=60492646e4e0ea19f37843ec983778cfe8cc5910\nblob=835 refs=1 flags=00 offset=0 packed=0 part=0 hash=e1c6cae20bcc972bdc0d2fdfa6172b4386ac3630\nblob=2569 refs=1 flags=00 offset=0 packed=0 part=0 hash=e32259786df8132d07aaa245040d7ff29320dcec\nblob=5 refs=1 flags=00 offset=0 packed=0 part=0 hash=6716a1703aa2572ee2960c5f2d6cb78bee20746f\nblob=3143 refs=1 flags=00 offset=0 packed=0 part=0 hash=6981ea589941474a59e84bb38e2cfcf75e7330f3\nblob=23763 refs=1 flags=00 offset=0 packed=0 part=0 hash=6a0d3c42379d2e48fd05fec7a6119956c1c23126\nblob=1107 refs=1 flags=00 offset=0 packed=0 part=0 hash=eb1e7fd64d84ba6e94c29a831beed3fa19e11c60\nblob=287 refs=1 flags=00 offset=0 packed=0 part=0 hash=6ba8980871c828535c0d999252fb4e81b0c327fc\nblob=2152 refs=1 flags=00 offset=0 packed=0 part=0 hash=ec3e3ae61244076f464be61e0821c2d411f2d65d\nblob=36 refs=1 flags=00 offset=0 packed=0 part=0 hash=edb74e193640b7c13630992832855f11c6cbf71b\nblob=3200 refs=1 flags=00 offset=0 packed=0 part=0 hash=ee5127b6693b13bbef311ec5f553608b0f5f3812\nblob=53515 refs=1 flags=00 offset=0 packed=0 part=0 hash=6e4afbd60d4839b628b4a3eb5f1cb7014187d92f\nblob=8048 refs=1 flags=00 offset=0 packed=0 part=0 hash=6ea1d4262993542c7c5a8f814ca003b02ded5390\nblob=60 refs=1 flags=00 offset=0 packed=0 part=0 hash=ef81509393157a4e7f48e745bb1ccf142f05352b\nblob=1141 refs=1 flags=00 offset=0 packed=0 part=0 hash=f1692720e1967eebd50812a08edf6d6bab386782\nblob=23648 refs=1 flags=00 offset=0 packed=0 part=0 hash=7354375f2f0b1b05aeb0bf3ac417859a379c02f8\nblob=1632 refs=1 flags=00 offset=0 packed=0 part=0 hash=f668676c5323d632ce8fa2ce1ed680663af20d09\nblob=7690 refs=1 flags=00 offset=0 packed=0 part=0 hash=76c11ccee16f0802899ac4b78f98e8773657d400\nblob=426 refs=1 flags=00 offset=0 packed=0 part=0 hash=799cea9b181cca472fbadae09532573b555e587d\nblob=39 refs=1 flags=00 offset=0 packed=0 part=0 hash=fa8e80cef239cc17a5dd89fe6e2e3634ba8283ce\nblob=8253 refs=1 flags=00 offset=0 packed=0 part=0 hash=fb81f1f903301f7bd81ab5318c91b91de0844d2d\nblob=31434 refs=1 flags=00 offset=0 packed=0 part=0 hash=fb1f9a4c6c6914b67e6bce05b908e816bafef816\nblob=1322 refs=1 flags=00 offset=0 packed=0 part=0 hash=7c36bf4e1e17823e284a2f3c99797e8e85d63de2\nblob=3621 refs=1 flags=00 offset=0 packed=0 part=0 hash=7c4aceb9fa64ceaeae055e1c0e2c24d45837f399\nblob=708 refs=1 flags=00 offset=0 packed=0 part=0 hash=7eb315ba59bb182aee9addf3d978670c28b23db4\nblob=3142 refs=1 flags=00 offset=0 packed=0 part=0 hash=ff596fa0680a1126b391036faf9fc6bf9dc0e392\nblob=3825 refs=1 flags=00 offset=0 packed=0 part=0 hash=7f3a3e761999d98eb9282478c6544d8232e99fbf\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true
+        }
+      },
+      "exact": true
+    },
+    {
+      "seed": 0,
+      "config": "valid",
+      "stop": 9,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        }
+      },
+      "exact": true
+    },
+    {
+      "seed": 0,
+      "config": "valid",
+      "stop": 11,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        }
+      },
+      "exact": true
+    },
+    {
+      "seed": 0,
+      "config": "exclude_all",
+      "stop": -1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nblob=5944 refs=1 flags=00 offset=0 packed=0 part=0 hash=80566f542e4e4b3375ad4e28bbd2d0046d2da195\nblob=1235 refs=1 flags=00 offset=0 packed=0 part=0 hash=01e22903e6dd5dd499a642f677d96fa037bafb7f\nblob=130205 refs=1 flags=00 offset=0 packed=0 part=0 hash=01848d180e450833e3b1445af5c7a663a28ab4b7\nblob=25806 refs=1 flags=00 offset=0 packed=0 part=0 hash=020fb93d7c747bbad6e5a86140089f9af0cac97b\nblob=540 refs=1 flags=00 offset=0 packed=0 part=0 hash=829a69d68aa1f42567109d75f6812dfcf64df9d5\nblob=2326 refs=1 flags=00 offset=0 packed=0 part=0 hash=83b51b658efd6281a0f1bfe8e3985dac206d8435\nblob=781 refs=1 flags=00 offset=0 packed=0 part=0 hash=032f1b761a26b1d7662e6b0a5a8194b70bd10a4f\nblob=3589 refs=1 flags=00 offset=0 packed=0 part=0 hash=03c3419abb1a20da516b920d727efd3ae6addd1e\nblob=2455 refs=1 flags=00 offset=0 packed=0 part=0 hash=85fc74c0e91aaf43f2b0a1aceb13c0fcb89a6be6\nblob=5601 refs=1 flags=00 offset=0 packed=0 part=0 hash=081c9f7726f64d88e5f960c2de3705a7ced05eb0\nblob=1390 refs=1 flags=00 offset=0 packed=0 part=0 hash=0938bbbf594fe38fe0f1bb34e924e69abfe3a1e9\nblob=172245 refs=1 flags=00 offset=0 packed=0 part=0 hash=0a7ddacd0a5d9da5c11449f67f6f1d534f61cdff\nblob=25021 refs=1 flags=00 offset=0 packed=0 part=0 hash=8b3f4dde0356c517d3cde6e231181a260fa96391\nblob=17219 refs=1 flags=00 offset=0 packed=0 part=0 hash=8ce4b8d5807c8812635b9755607382c563075682\nblob=29017 refs=2 flags=00 offset=0 packed=0 part=0 hash=0dd7039328ea9a4ce4ee9c4d103d16df999f1134\nblob=23324 refs=1 flags=00 offset=0 packed=0 part=0 hash=8db2fcfaad37c150b04539be38fd8b38c78cf95a\nblob=22 refs=1 flags=00 offset=0 packed=0 part=0 hash=0ed5b4624b031bae7d85a9d771a2b14176260f02\nblob=38 refs=1 flags=00 offset=0 packed=0 part=0 hash=0e4387993a6196b206e739b5cecd4d0716b715ed\nblob=9398 refs=1 flags=00 offset=0 packed=0 part=0 hash=0ee54ceb49cec2beb583d5c1cd69b1111f37aefc\nblob=19984 refs=1 flags=00 offset=0 packed=0 part=0 hash=8f66f9003ac4e8eeb52ff70a454217254fb93f1f\nblob=3464 refs=2 flags=00 offset=0 packed=0 part=0 hash=102b8d918a62f0f07ffa465f763cef070dacdbcb\nblob=214945 refs=1 flags=00 offset=0 packed=0 part=0 hash=90d646f77fd10eb7d8414ddca722d4851c3a47f5\nblob=1 refs=1 flags=00 offset=0 packed=0 part=0 hash=10687feb9716c9502d9a40fdfe3bb339055c8651\nblob=608 refs=1 flags=00 offset=0 packed=0 part=0 hash=9132c0d3862b3d20b7058943ad515484bb483c8e\nblob=25821 refs=1 flags=00 offset=0 packed=0 part=0 hash=918b5c5143ea066929f62d7624fe9615ada1cea5\nblob=10479 refs=1 flags=00 offset=0 packed=0 part=0 hash=13a7831cf2553216db8c65026771edf67158240f\nblob=5 refs=1 flags=00 offset=0 packed=0 part=0 hash=943920a4120cf5296f26295e0948515bf975ded6\nblob=137341 refs=1 flags=00 offset=0 packed=0 part=0 hash=15c1aa2c6d6bc51dda916d29795204c64d7e2f09\nblob=1575 refs=1 flags=00 offset=0 packed=0 part=0 hash=161f16583270d8b5205df4dbf8778f1a255d7008\nblob=3041 refs=1 flags=00 offset=0 packed=0 part=0 hash=967d88040ecad5db413e9818d1995c5be3372b4b\nblob=2909 refs=2 flags=00 offset=0 packed=0 part=0 hash=165c2a245397801bc96b18740d37a3282b9a9187\nblob=123180 refs=1 flags=00 offset=0 packed=0 part=0 hash=975c74f0394709a7e042ddab9f1a66fce7e69c15\nblob=149185 refs=1 flags=00 offset=0 packed=0 part=0 hash=9c3afd96d66cda33c10b57cd514bb60a1012da04\nblob=260732 refs=1 flags=00 offset=0 packed=0 part=0 hash=9d8002c20d8381e18d9bfe0753b6591bcd1f6717\nblob=2808 refs=1 flags=00 offset=0 packed=0 part=0 hash=1ee056105c727ac400e3282fd8bc973e4b4f27e3\nblob=157623 refs=1 flags=00 offset=0 packed=0 part=0 hash=9e27d86d7b8bd7d43a6c6f06d6d8eded261fc377\nblob=26244 refs=1 flags=00 offset=0 packed=0 part=0 hash=1e92d6154adcc94788eb51c34ce5e5150e0540d5\nblob=23372 refs=1 flags=00 offset=0 packed=0 part=0 hash=9f6dd038e345bba0d6209ad7c9358e2f58e49a35\nblob=2677 refs=1 flags=00 offset=0 packed=0 part=0 hash=1f0740753da6d4b66a9f4543f3f10a9c04cbcce4\nblob=9100 refs=1 flags=00 offset=0 packed=0 part=0 hash=21147233729c5f60089e41dec8c07c62da242784\nblob=3057 refs=1 flags=00 offset=0 packed=0 part=0 hash=25db55695d0bd7e18cae463a7c3aea15d52614dd\nblob=22 refs=1 flags=00 offset=0 packed=0 part=0 hash=250ca0f06742d23cbb2fd43b6ad0897fd9425dab\nblob=5721 refs=1 flags=00 offset=0 packed=0 part=0 hash=a6ec97c730eb07afcbc065cac98624e65aae8ac7\nblob=2540 refs=1 flags=00 offset=0 packed=0 part=0 hash=26b765cb936dfdb9eb1730c011c6594acea87233\nblob=24493 refs=1 flags=00 offset=0 packed=0 part=0 hash=27c252f9b31919df33b3bbab3e74b66eabea91b6\nblob=549 refs=1 flags=00 offset=0 packed=0 part=0 hash=28b1731467c359e791966d7348b569528f0ffd58\nblob=12093 refs=1 flags=00 offset=0 packed=0 part=0 hash=a81fcf478be90c8d201a022f3a4d8b4e8ad322f0\nblob=118450 refs=1 flags=00 offset=0 packed=0 part=0 hash=a9b1d1ef87a4c931f526aee29cb01cafd8fa553c\nblob=2177 refs=1 flags=00 offset=0 packed=0 part=0 hash=aa121d40876fde9c111144f6fb2be7bb93d8f63e\nblob=3691 refs=1 flags=00 offset=0 packed=0 part=0 hash=aa7d145b4d14f557221794434c44c06e285f499f\nblob=29688 refs=1 flags=00 offset=0 packed=0 part=0 hash=2d48bfb36249f93ffeeef7e49640b14b0c5c801a\nblob=1513 refs=1 flags=00 offset=0 packed=0 part=0 hash=b211ad56f0877edbca8eb928e9900b94073e4663\nblob=40 refs=1 flags=00 offset=0 packed=0 part=0 hash=33929e099af119869b11a47b973e2ec9b41a5970\nblob=16070 refs=1 flags=00 offset=0 packed=0 part=0 hash=b49df010f74c615b5a3ccc7fc9df9f435193eac4\nblob=686 refs=1 flags=00 offset=0 packed=0 part=0 hash=348037b2223814e10e3cfc353f7d6e00e58f9093\nblob=23804 refs=1 flags=00 offset=0 packed=0 part=0 hash=35c5841a36b00ede20b537dee6bf9302a5655f33\nblob=245889 refs=1 flags=00 offset=0 packed=0 part=0 hash=b5d253512bd2deb55486691c5a507d8975320cf0\nblob=363 refs=1 flags=00 offset=0 packed=0 part=0 hash=37d1b9ceaf1fb4b7146563ff801114234ec90ac3\nblob=46 refs=1 flags=00 offset=0 packed=0 part=0 hash=3abf15b5c13ff1b5233eacb8fff0491201cca59c\nblob=2769 refs=1 flags=00 offset=0 packed=0 part=0 hash=bbd3833cd4161beedd67918be72e0831f16a277f\nblob=2053 refs=1 flags=00 offset=0 packed=0 part=0 hash=3bf996954966a719b27b8db188a4ecb4eb14a10f\nblob=60 refs=1 flags=00 offset=0 packed=0 part=0 hash=3c339bebe5d66090bb222474a384d5980e7c2351\nblob=543 refs=1 flags=00 offset=0 packed=0 part=0 hash=bd9053fea93c64aa6eb394f5e0e237d78df5e532\nblob=1204 refs=1 flags=00 offset=0 packed=0 part=0 hash=be155c0ca905ab9ff678814fe6316e6aba084e52\nblob=2934 refs=1 flags=00 offset=0 packed=0 part=0 hash=3e0cd5e0df25a7f70a543492fdeba238684aa26b\nblob=11 refs=1 flags=00 offset=0 packed=0 part=0 hash=3fa2181e542db26dbebce9b34cdebd1aba84fd21\nblob=1728 refs=1 flags=00 offset=0 packed=0 part=0 hash=bf5100262062feeca23b55d10082014f737df281\nblob=29830 refs=1 flags=00 offset=0 packed=0 part=0 hash=c207a269600e381dab551c2ba92205d867c479d7\nblob=1692 refs=1 flags=00 offset=0 packed=0 part=0 hash=c3a09c161a5ac2ad5d4fcf8e8b8a8b02b56c3542\nblob=2808 refs=1 flags=00 offset=0 packed=0 part=0 hash=437431dddca2f16d708128f1bf6aca15e13dc2fa\nblob=28033 refs=1 flags=00 offset=0 packed=0 part=0 hash=4405757eae1c5dc09a144fd89ba9208ee67731fb\nblob=509 refs=1 flags=00 offset=0 packed=0 part=0 hash=45dbaf1b73616df03d6404e0ed447da2c4c932cb\nblob=163555 refs=1 flags=00 offset=0 packed=0 part=0 hash=455c36ad8625a6184b0f150d890938f3ef1f2639\nblob=13307 refs=1 flags=00 offset=0 packed=0 part=0 hash=c67accd58a6345e78450012233cd018cbd849e0d\nblob=50 refs=1 flags=00 offset=0 packed=0 part=0 hash=48d634cfcbf63bcd81cb68ef5df0b9483281b1e9\nblob=72 refs=1 flags=00 offset=0 packed=0 part=0 hash=c8b0b2d0b800d8bb9f7f023684ddbb7c83cca26c\nblob=138361 refs=1 flags=00 offset=0 packed=0 part=0 hash=4ee8043293d68687341ac24d2b12cf0b3dc7f2b4\nblob=59440 refs=1 flags=00 offset=0 packed=0 part=0 hash=53841acfb0a176ef4206b399de007879a979e696\nblob=99311 refs=1 flags=00 offset=0 packed=0 part=0 hash=543ea27785ff64211d609799548fdbe89bff40ef\nblob=14512 refs=1 flags=00 offset=0 packed=0 part=0 hash=d6f71ebbd4e17f183265263c4d61860b8b6e64b6\nblob=2172 refs=1 flags=00 offset=0 packed=0 part=0 hash=566bd3404dd1c0afc52541cf62fef6886082920a\nblob=22808 refs=1 flags=00 offset=0 packed=0 part=0 hash=d91a7073645ede2f68c485407cfee0f979c821cd\nblob=60 refs=1 flags=00 offset=0 packed=0 part=0 hash=d9880b6af8b2bf86fc6a5d9dfd930c39d58ec6ee\nblob=50013 refs=1 flags=00 offset=0 packed=0 part=0 hash=d9bbf85759978ad7d124e465efe859d2cdf3278d\nblob=106 refs=1 flags=00 offset=0 packed=0 part=0 hash=d936259184aa3c399219fe9fec874d21727aa8cc\nblob=7941 refs=1 flags=00 offset=0 packed=0 part=0 hash=db730618be2287108adc8847a75f725d17f0da8f\nblob=13186 refs=1 flags=00 offset=0 packed=0 part=0 hash=5caadc0351686ec466bca5f10968ce341b18937e\nblob=3098 refs=1 flags=00 offset=0 packed=0 part=0 hash=5dc209f8eb1edd43493c4a08f6ba23010604b371\nblob=27363 refs=1 flags=00 offset=0 packed=0 part=0 hash=5d59ccb2fce1c0a6773d7c1845f1ceeb9e724d17\nblob=23386 refs=1 flags=00 offset=0 packed=0 part=0 hash=5fe9645277e028776daf61b1264c6cd052498b0c\nblob=1065 refs=1 flags=00 offset=0 packed=0 part=0 hash=603a6f2b1697a1589eb98a4d28c6e44c8f7e18b0\nblob=11047 refs=1 flags=00 offset=0 packed=0 part=0 hash=60492646e4e0ea19f37843ec983778cfe8cc5910\nblob=835 refs=1 flags=00 offset=0 packed=0 part=0 hash=e1c6cae20bcc972bdc0d2fdfa6172b4386ac3630\nblob=2569 refs=1 flags=00 offset=0 packed=0 part=0 hash=e32259786df8132d07aaa245040d7ff29320dcec\nblob=5 refs=1 flags=00 offset=0 packed=0 part=0 hash=6716a1703aa2572ee2960c5f2d6cb78bee20746f\nblob=3143 refs=1 flags=00 offset=0 packed=0 part=0 hash=6981ea589941474a59e84bb38e2cfcf75e7330f3\nblob=23763 refs=1 flags=00 offset=0 packed=0 part=0 hash=6a0d3c42379d2e48fd05fec7a6119956c1c23126\nblob=1107 refs=1 flags=00 offset=0 packed=0 part=0 hash=eb1e7fd64d84ba6e94c29a831beed3fa19e11c60\nblob=287 refs=1 flags=00 offset=0 packed=0 part=0 hash=6ba8980871c828535c0d999252fb4e81b0c327fc\nblob=2152 refs=1 flags=00 offset=0 packed=0 part=0 hash=ec3e3ae61244076f464be61e0821c2d411f2d65d\nblob=36 refs=1 flags=00 offset=0 packed=0 part=0 hash=edb74e193640b7c13630992832855f11c6cbf71b\nblob=3200 refs=1 flags=00 offset=0 packed=0 part=0 hash=ee5127b6693b13bbef311ec5f553608b0f5f3812\nblob=53515 refs=1 flags=00 offset=0 packed=0 part=0 hash=6e4afbd60d4839b628b4a3eb5f1cb7014187d92f\nblob=8048 refs=1 flags=00 offset=0 packed=0 part=0 hash=6ea1d4262993542c7c5a8f814ca003b02ded5390\nblob=60 refs=1 flags=00 offset=0 packed=0 part=0 hash=ef81509393157a4e7f48e745bb1ccf142f05352b\nblob=1141 refs=1 flags=00 offset=0 packed=0 part=0 hash=f1692720e1967eebd50812a08edf6d6bab386782\nblob=23648 refs=1 flags=00 offset=0 packed=0 part=0 hash=7354375f2f0b1b05aeb0bf3ac417859a379c02f8\nblob=1632 refs=1 flags=00 offset=0 packed=0 part=0 hash=f668676c5323d632ce8fa2ce1ed680663af20d09\nblob=7690 refs=1 flags=00 offset=0 packed=0 part=0 hash=76c11ccee16f0802899ac4b78f98e8773657d400\nblob=426 refs=1 flags=00 offset=0 packed=0 part=0 hash=799cea9b181cca472fbadae09532573b555e587d\nblob=39 refs=1 flags=00 offset=0 packed=0 part=0 hash=fa8e80cef239cc17a5dd89fe6e2e3634ba8283ce\nblob=8253 refs=1 flags=00 offset=0 packed=0 part=0 hash=fb81f1f903301f7bd81ab5318c91b91de0844d2d\nblob=31434 refs=1 flags=00 offset=0 packed=0 part=0 hash=fb1f9a4c6c6914b67e6bce05b908e816bafef816\nblob=1322 refs=1 flags=00 offset=0 packed=0 part=0 hash=7c36bf4e1e17823e284a2f3c99797e8e85d63de2\nblob=3621 refs=1 flags=00 offset=0 packed=0 part=0 hash=7c4aceb9fa64ceaeae055e1c0e2c24d45837f399\nblob=708 refs=1 flags=00 offset=0 packed=0 part=0 hash=7eb315ba59bb182aee9addf3d978670c28b23db4\nblob=3142 refs=1 flags=00 offset=0 packed=0 part=0 hash=ff596fa0680a1126b391036faf9fc6bf9dc0e392\nblob=3825 refs=1 flags=00 offset=0 packed=0 part=0 hash=7f3a3e761999d98eb9282478c6544d8232e99fbf\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nblob=5944 refs=1 flags=00 offset=0 packed=0 part=0 hash=80566f542e4e4b3375ad4e28bbd2d0046d2da195\nblob=1235 refs=1 flags=00 offset=0 packed=0 part=0 hash=01e22903e6dd5dd499a642f677d96fa037bafb7f\nblob=130205 refs=1 flags=00 offset=0 packed=0 part=0 hash=01848d180e450833e3b1445af5c7a663a28ab4b7\nblob=25806 refs=1 flags=00 offset=0 packed=0 part=0 hash=020fb93d7c747bbad6e5a86140089f9af0cac97b\nblob=540 refs=1 flags=00 offset=0 packed=0 part=0 hash=829a69d68aa1f42567109d75f6812dfcf64df9d5\nblob=2326 refs=1 flags=00 offset=0 packed=0 part=0 hash=83b51b658efd6281a0f1bfe8e3985dac206d8435\nblob=781 refs=1 flags=00 offset=0 packed=0 part=0 hash=032f1b761a26b1d7662e6b0a5a8194b70bd10a4f\nblob=3589 refs=1 flags=00 offset=0 packed=0 part=0 hash=03c3419abb1a20da516b920d727efd3ae6addd1e\nblob=2455 refs=1 flags=00 offset=0 packed=0 part=0 hash=85fc74c0e91aaf43f2b0a1aceb13c0fcb89a6be6\nblob=5601 refs=1 flags=00 offset=0 packed=0 part=0 hash=081c9f7726f64d88e5f960c2de3705a7ced05eb0\nblob=1390 refs=1 flags=00 offset=0 packed=0 part=0 hash=0938bbbf594fe38fe0f1bb34e924e69abfe3a1e9\nblob=172245 refs=1 flags=00 offset=0 packed=0 part=0 hash=0a7ddacd0a5d9da5c11449f67f6f1d534f61cdff\nblob=25021 refs=1 flags=00 offset=0 packed=0 part=0 hash=8b3f4dde0356c517d3cde6e231181a260fa96391\nblob=17219 refs=1 flags=00 offset=0 packed=0 part=0 hash=8ce4b8d5807c8812635b9755607382c563075682\nblob=29017 refs=2 flags=00 offset=0 packed=0 part=0 hash=0dd7039328ea9a4ce4ee9c4d103d16df999f1134\nblob=23324 refs=1 flags=00 offset=0 packed=0 part=0 hash=8db2fcfaad37c150b04539be38fd8b38c78cf95a\nblob=22 refs=1 flags=00 offset=0 packed=0 part=0 hash=0ed5b4624b031bae7d85a9d771a2b14176260f02\nblob=38 refs=1 flags=00 offset=0 packed=0 part=0 hash=0e4387993a6196b206e739b5cecd4d0716b715ed\nblob=9398 refs=1 flags=00 offset=0 packed=0 part=0 hash=0ee54ceb49cec2beb583d5c1cd69b1111f37aefc\nblob=19984 refs=1 flags=00 offset=0 packed=0 part=0 hash=8f66f9003ac4e8eeb52ff70a454217254fb93f1f\nblob=3464 refs=2 flags=00 offset=0 packed=0 part=0 hash=102b8d918a62f0f07ffa465f763cef070dacdbcb\nblob=214945 refs=1 flags=00 offset=0 packed=0 part=0 hash=90d646f77fd10eb7d8414ddca722d4851c3a47f5\nblob=1 refs=1 flags=00 offset=0 packed=0 part=0 hash=10687feb9716c9502d9a40fdfe3bb339055c8651\nblob=608 refs=1 flags=00 offset=0 packed=0 part=0 hash=9132c0d3862b3d20b7058943ad515484bb483c8e\nblob=25821 refs=1 flags=00 offset=0 packed=0 part=0 hash=918b5c5143ea066929f62d7624fe9615ada1cea5\nblob=10479 refs=1 flags=00 offset=0 packed=0 part=0 hash=13a7831cf2553216db8c65026771edf67158240f\nblob=5 refs=1 flags=00 offset=0 packed=0 part=0 hash=943920a4120cf5296f26295e0948515bf975ded6\nblob=137341 refs=1 flags=00 offset=0 packed=0 part=0 hash=15c1aa2c6d6bc51dda916d29795204c64d7e2f09\nblob=1575 refs=1 flags=00 offset=0 packed=0 part=0 hash=161f16583270d8b5205df4dbf8778f1a255d7008\nblob=3041 refs=1 flags=00 offset=0 packed=0 part=0 hash=967d88040ecad5db413e9818d1995c5be3372b4b\nblob=2909 refs=2 flags=00 offset=0 packed=0 part=0 hash=165c2a245397801bc96b18740d37a3282b9a9187\nblob=123180 refs=1 flags=00 offset=0 packed=0 part=0 hash=975c74f0394709a7e042ddab9f1a66fce7e69c15\nblob=149185 refs=1 flags=00 offset=0 packed=0 part=0 hash=9c3afd96d66cda33c10b57cd514bb60a1012da04\nblob=260732 refs=1 flags=00 offset=0 packed=0 part=0 hash=9d8002c20d8381e18d9bfe0753b6591bcd1f6717\nblob=2808 refs=1 flags=00 offset=0 packed=0 part=0 hash=1ee056105c727ac400e3282fd8bc973e4b4f27e3\nblob=157623 refs=1 flags=00 offset=0 packed=0 part=0 hash=9e27d86d7b8bd7d43a6c6f06d6d8eded261fc377\nblob=26244 refs=1 flags=00 offset=0 packed=0 part=0 hash=1e92d6154adcc94788eb51c34ce5e5150e0540d5\nblob=23372 refs=1 flags=00 offset=0 packed=0 part=0 hash=9f6dd038e345bba0d6209ad7c9358e2f58e49a35\nblob=2677 refs=1 flags=00 offset=0 packed=0 part=0 hash=1f0740753da6d4b66a9f4543f3f10a9c04cbcce4\nblob=9100 refs=1 flags=00 offset=0 packed=0 part=0 hash=21147233729c5f60089e41dec8c07c62da242784\nblob=3057 refs=1 flags=00 offset=0 packed=0 part=0 hash=25db55695d0bd7e18cae463a7c3aea15d52614dd\nblob=22 refs=1 flags=00 offset=0 packed=0 part=0 hash=250ca0f06742d23cbb2fd43b6ad0897fd9425dab\nblob=5721 refs=1 flags=00 offset=0 packed=0 part=0 hash=a6ec97c730eb07afcbc065cac98624e65aae8ac7\nblob=2540 refs=1 flags=00 offset=0 packed=0 part=0 hash=26b765cb936dfdb9eb1730c011c6594acea87233\nblob=24493 refs=1 flags=00 offset=0 packed=0 part=0 hash=27c252f9b31919df33b3bbab3e74b66eabea91b6\nblob=549 refs=1 flags=00 offset=0 packed=0 part=0 hash=28b1731467c359e791966d7348b569528f0ffd58\nblob=12093 refs=1 flags=00 offset=0 packed=0 part=0 hash=a81fcf478be90c8d201a022f3a4d8b4e8ad322f0\nblob=118450 refs=1 flags=00 offset=0 packed=0 part=0 hash=a9b1d1ef87a4c931f526aee29cb01cafd8fa553c\nblob=2177 refs=1 flags=00 offset=0 packed=0 part=0 hash=aa121d40876fde9c111144f6fb2be7bb93d8f63e\nblob=3691 refs=1 flags=00 offset=0 packed=0 part=0 hash=aa7d145b4d14f557221794434c44c06e285f499f\nblob=29688 refs=1 flags=00 offset=0 packed=0 part=0 hash=2d48bfb36249f93ffeeef7e49640b14b0c5c801a\nblob=1513 refs=1 flags=00 offset=0 packed=0 part=0 hash=b211ad56f0877edbca8eb928e9900b94073e4663\nblob=40 refs=1 flags=00 offset=0 packed=0 part=0 hash=33929e099af119869b11a47b973e2ec9b41a5970\nblob=16070 refs=1 flags=00 offset=0 packed=0 part=0 hash=b49df010f74c615b5a3ccc7fc9df9f435193eac4\nblob=686 refs=1 flags=00 offset=0 packed=0 part=0 hash=348037b2223814e10e3cfc353f7d6e00e58f9093\nblob=23804 refs=1 flags=00 offset=0 packed=0 part=0 hash=35c5841a36b00ede20b537dee6bf9302a5655f33\nblob=245889 refs=1 flags=00 offset=0 packed=0 part=0 hash=b5d253512bd2deb55486691c5a507d8975320cf0\nblob=363 refs=1 flags=00 offset=0 packed=0 part=0 hash=37d1b9ceaf1fb4b7146563ff801114234ec90ac3\nblob=46 refs=1 flags=00 offset=0 packed=0 part=0 hash=3abf15b5c13ff1b5233eacb8fff0491201cca59c\nblob=2769 refs=1 flags=00 offset=0 packed=0 part=0 hash=bbd3833cd4161beedd67918be72e0831f16a277f\nblob=2053 refs=1 flags=00 offset=0 packed=0 part=0 hash=3bf996954966a719b27b8db188a4ecb4eb14a10f\nblob=60 refs=1 flags=00 offset=0 packed=0 part=0 hash=3c339bebe5d66090bb222474a384d5980e7c2351\nblob=543 refs=1 flags=00 offset=0 packed=0 part=0 hash=bd9053fea93c64aa6eb394f5e0e237d78df5e532\nblob=1204 refs=1 flags=00 offset=0 packed=0 part=0 hash=be155c0ca905ab9ff678814fe6316e6aba084e52\nblob=2934 refs=1 flags=00 offset=0 packed=0 part=0 hash=3e0cd5e0df25a7f70a543492fdeba238684aa26b\nblob=11 refs=1 flags=00 offset=0 packed=0 part=0 hash=3fa2181e542db26dbebce9b34cdebd1aba84fd21\nblob=1728 refs=1 flags=00 offset=0 packed=0 part=0 hash=bf5100262062feeca23b55d10082014f737df281\nblob=29830 refs=1 flags=00 offset=0 packed=0 part=0 hash=c207a269600e381dab551c2ba92205d867c479d7\nblob=1692 refs=1 flags=00 offset=0 packed=0 part=0 hash=c3a09c161a5ac2ad5d4fcf8e8b8a8b02b56c3542\nblob=2808 refs=1 flags=00 offset=0 packed=0 part=0 hash=437431dddca2f16d708128f1bf6aca15e13dc2fa\nblob=28033 refs=1 flags=00 offset=0 packed=0 part=0 hash=4405757eae1c5dc09a144fd89ba9208ee67731fb\nblob=509 refs=1 flags=00 offset=0 packed=0 part=0 hash=45dbaf1b73616df03d6404e0ed447da2c4c932cb\nblob=163555 refs=1 flags=00 offset=0 packed=0 part=0 hash=455c36ad8625a6184b0f150d890938f3ef1f2639\nblob=13307 refs=1 flags=00 offset=0 packed=0 part=0 hash=c67accd58a6345e78450012233cd018cbd849e0d\nblob=50 refs=1 flags=00 offset=0 packed=0 part=0 hash=48d634cfcbf63bcd81cb68ef5df0b9483281b1e9\nblob=72 refs=1 flags=00 offset=0 packed=0 part=0 hash=c8b0b2d0b800d8bb9f7f023684ddbb7c83cca26c\nblob=138361 refs=1 flags=00 offset=0 packed=0 part=0 hash=4ee8043293d68687341ac24d2b12cf0b3dc7f2b4\nblob=59440 refs=1 flags=00 offset=0 packed=0 part=0 hash=53841acfb0a176ef4206b399de007879a979e696\nblob=99311 refs=1 flags=00 offset=0 packed=0 part=0 hash=543ea27785ff64211d609799548fdbe89bff40ef\nblob=14512 refs=1 flags=00 offset=0 packed=0 part=0 hash=d6f71ebbd4e17f183265263c4d61860b8b6e64b6\nblob=2172 refs=1 flags=00 offset=0 packed=0 part=0 hash=566bd3404dd1c0afc52541cf62fef6886082920a\nblob=22808 refs=1 flags=00 offset=0 packed=0 part=0 hash=d91a7073645ede2f68c485407cfee0f979c821cd\nblob=60 refs=1 flags=00 offset=0 packed=0 part=0 hash=d9880b6af8b2bf86fc6a5d9dfd930c39d58ec6ee\nblob=50013 refs=1 flags=00 offset=0 packed=0 part=0 hash=d9bbf85759978ad7d124e465efe859d2cdf3278d\nblob=106 refs=1 flags=00 offset=0 packed=0 part=0 hash=d936259184aa3c399219fe9fec874d21727aa8cc\nblob=7941 refs=1 flags=00 offset=0 packed=0 part=0 hash=db730618be2287108adc8847a75f725d17f0da8f\nblob=13186 refs=1 flags=00 offset=0 packed=0 part=0 hash=5caadc0351686ec466bca5f10968ce341b18937e\nblob=3098 refs=1 flags=00 offset=0 packed=0 part=0 hash=5dc209f8eb1edd43493c4a08f6ba23010604b371\nblob=27363 refs=1 flags=00 offset=0 packed=0 part=0 hash=5d59ccb2fce1c0a6773d7c1845f1ceeb9e724d17\nblob=23386 refs=1 flags=00 offset=0 packed=0 part=0 hash=5fe9645277e028776daf61b1264c6cd052498b0c\nblob=1065 refs=1 flags=00 offset=0 packed=0 part=0 hash=603a6f2b1697a1589eb98a4d28c6e44c8f7e18b0\nblob=11047 refs=1 flags=00 offset=0 packed=0 part=0 hash=60492646e4e0ea19f37843ec983778cfe8cc5910\nblob=835 refs=1 flags=00 offset=0 packed=0 part=0 hash=e1c6cae20bcc972bdc0d2fdfa6172b4386ac3630\nblob=2569 refs=1 flags=00 offset=0 packed=0 part=0 hash=e32259786df8132d07aaa245040d7ff29320dcec\nblob=5 refs=1 flags=00 offset=0 packed=0 part=0 hash=6716a1703aa2572ee2960c5f2d6cb78bee20746f\nblob=3143 refs=1 flags=00 offset=0 packed=0 part=0 hash=6981ea589941474a59e84bb38e2cfcf75e7330f3\nblob=23763 refs=1 flags=00 offset=0 packed=0 part=0 hash=6a0d3c42379d2e48fd05fec7a6119956c1c23126\nblob=1107 refs=1 flags=00 offset=0 packed=0 part=0 hash=eb1e7fd64d84ba6e94c29a831beed3fa19e11c60\nblob=287 refs=1 flags=00 offset=0 packed=0 part=0 hash=6ba8980871c828535c0d999252fb4e81b0c327fc\nblob=2152 refs=1 flags=00 offset=0 packed=0 part=0 hash=ec3e3ae61244076f464be61e0821c2d411f2d65d\nblob=36 refs=1 flags=00 offset=0 packed=0 part=0 hash=edb74e193640b7c13630992832855f11c6cbf71b\nblob=3200 refs=1 flags=00 offset=0 packed=0 part=0 hash=ee5127b6693b13bbef311ec5f553608b0f5f3812\nblob=53515 refs=1 flags=00 offset=0 packed=0 part=0 hash=6e4afbd60d4839b628b4a3eb5f1cb7014187d92f\nblob=8048 refs=1 flags=00 offset=0 packed=0 part=0 hash=6ea1d4262993542c7c5a8f814ca003b02ded5390\nblob=60 refs=1 flags=00 offset=0 packed=0 part=0 hash=ef81509393157a4e7f48e745bb1ccf142f05352b\nblob=1141 refs=1 flags=00 offset=0 packed=0 part=0 hash=f1692720e1967eebd50812a08edf6d6bab386782\nblob=23648 refs=1 flags=00 offset=0 packed=0 part=0 hash=7354375f2f0b1b05aeb0bf3ac417859a379c02f8\nblob=1632 refs=1 flags=00 offset=0 packed=0 part=0 hash=f668676c5323d632ce8fa2ce1ed680663af20d09\nblob=7690 refs=1 flags=00 offset=0 packed=0 part=0 hash=76c11ccee16f0802899ac4b78f98e8773657d400\nblob=426 refs=1 flags=00 offset=0 packed=0 part=0 hash=799cea9b181cca472fbadae09532573b555e587d\nblob=39 refs=1 flags=00 offset=0 packed=0 part=0 hash=fa8e80cef239cc17a5dd89fe6e2e3634ba8283ce\nblob=8253 refs=1 flags=00 offset=0 packed=0 part=0 hash=fb81f1f903301f7bd81ab5318c91b91de0844d2d\nblob=31434 refs=1 flags=00 offset=0 packed=0 part=0 hash=fb1f9a4c6c6914b67e6bce05b908e816bafef816\nblob=1322 refs=1 flags=00 offset=0 packed=0 part=0 hash=7c36bf4e1e17823e284a2f3c99797e8e85d63de2\nblob=3621 refs=1 flags=00 offset=0 packed=0 part=0 hash=7c4aceb9fa64ceaeae055e1c0e2c24d45837f399\nblob=708 refs=1 flags=00 offset=0 packed=0 part=0 hash=7eb315ba59bb182aee9addf3d978670c28b23db4\nblob=3142 refs=1 flags=00 offset=0 packed=0 part=0 hash=ff596fa0680a1126b391036faf9fc6bf9dc0e392\nblob=3825 refs=1 flags=00 offset=0 packed=0 part=0 hash=7f3a3e761999d98eb9282478c6544d8232e99fbf\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true
+        }
+      },
+      "exact": true
+    },
+    {
+      "seed": 0,
+      "config": "exclude_all",
+      "stop": 9,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        }
+      },
+      "exact": true
+    },
+    {
+      "seed": 0,
+      "config": "exclude_all",
+      "stop": 11,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        }
+      },
+      "exact": true
+    },
+    {
+      "seed": 0,
+      "config": "malformed",
+      "stop": -1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nblob=5944 refs=1 flags=00 offset=0 packed=0 part=0 hash=80566f542e4e4b3375ad4e28bbd2d0046d2da195\nblob=1235 refs=1 flags=00 offset=0 packed=0 part=0 hash=01e22903e6dd5dd499a642f677d96fa037bafb7f\nblob=130205 refs=1 flags=00 offset=0 packed=0 part=0 hash=01848d180e450833e3b1445af5c7a663a28ab4b7\nblob=25806 refs=1 flags=00 offset=0 packed=0 part=0 hash=020fb93d7c747bbad6e5a86140089f9af0cac97b\nblob=540 refs=1 flags=00 offset=0 packed=0 part=0 hash=829a69d68aa1f42567109d75f6812dfcf64df9d5\nblob=2326 refs=1 flags=00 offset=0 packed=0 part=0 hash=83b51b658efd6281a0f1bfe8e3985dac206d8435\nblob=781 refs=1 flags=00 offset=0 packed=0 part=0 hash=032f1b761a26b1d7662e6b0a5a8194b70bd10a4f\nblob=3589 refs=1 flags=00 offset=0 packed=0 part=0 hash=03c3419abb1a20da516b920d727efd3ae6addd1e\nblob=2455 refs=1 flags=00 offset=0 packed=0 part=0 hash=85fc74c0e91aaf43f2b0a1aceb13c0fcb89a6be6\nblob=5601 refs=1 flags=00 offset=0 packed=0 part=0 hash=081c9f7726f64d88e5f960c2de3705a7ced05eb0\nblob=1390 refs=1 flags=00 offset=0 packed=0 part=0 hash=0938bbbf594fe38fe0f1bb34e924e69abfe3a1e9\nblob=172245 refs=1 flags=00 offset=0 packed=0 part=0 hash=0a7ddacd0a5d9da5c11449f67f6f1d534f61cdff\nblob=25021 refs=1 flags=00 offset=0 packed=0 part=0 hash=8b3f4dde0356c517d3cde6e231181a260fa96391\nblob=17219 refs=1 flags=00 offset=0 packed=0 part=0 hash=8ce4b8d5807c8812635b9755607382c563075682\nblob=29017 refs=2 flags=00 offset=0 packed=0 part=0 hash=0dd7039328ea9a4ce4ee9c4d103d16df999f1134\nblob=23324 refs=1 flags=00 offset=0 packed=0 part=0 hash=8db2fcfaad37c150b04539be38fd8b38c78cf95a\nblob=22 refs=1 flags=00 offset=0 packed=0 part=0 hash=0ed5b4624b031bae7d85a9d771a2b14176260f02\nblob=38 refs=1 flags=00 offset=0 packed=0 part=0 hash=0e4387993a6196b206e739b5cecd4d0716b715ed\nblob=9398 refs=1 flags=00 offset=0 packed=0 part=0 hash=0ee54ceb49cec2beb583d5c1cd69b1111f37aefc\nblob=19984 refs=1 flags=00 offset=0 packed=0 part=0 hash=8f66f9003ac4e8eeb52ff70a454217254fb93f1f\nblob=3464 refs=2 flags=00 offset=0 packed=0 part=0 hash=102b8d918a62f0f07ffa465f763cef070dacdbcb\nblob=214945 refs=1 flags=00 offset=0 packed=0 part=0 hash=90d646f77fd10eb7d8414ddca722d4851c3a47f5\nblob=1 refs=1 flags=00 offset=0 packed=0 part=0 hash=10687feb9716c9502d9a40fdfe3bb339055c8651\nblob=608 refs=1 flags=00 offset=0 packed=0 part=0 hash=9132c0d3862b3d20b7058943ad515484bb483c8e\nblob=25821 refs=1 flags=00 offset=0 packed=0 part=0 hash=918b5c5143ea066929f62d7624fe9615ada1cea5\nblob=10479 refs=1 flags=00 offset=0 packed=0 part=0 hash=13a7831cf2553216db8c65026771edf67158240f\nblob=5 refs=1 flags=00 offset=0 packed=0 part=0 hash=943920a4120cf5296f26295e0948515bf975ded6\nblob=137341 refs=1 flags=00 offset=0 packed=0 part=0 hash=15c1aa2c6d6bc51dda916d29795204c64d7e2f09\nblob=1575 refs=1 flags=00 offset=0 packed=0 part=0 hash=161f16583270d8b5205df4dbf8778f1a255d7008\nblob=3041 refs=1 flags=00 offset=0 packed=0 part=0 hash=967d88040ecad5db413e9818d1995c5be3372b4b\nblob=2909 refs=2 flags=00 offset=0 packed=0 part=0 hash=165c2a245397801bc96b18740d37a3282b9a9187\nblob=123180 refs=1 flags=00 offset=0 packed=0 part=0 hash=975c74f0394709a7e042ddab9f1a66fce7e69c15\nblob=149185 refs=1 flags=00 offset=0 packed=0 part=0 hash=9c3afd96d66cda33c10b57cd514bb60a1012da04\nblob=260732 refs=1 flags=00 offset=0 packed=0 part=0 hash=9d8002c20d8381e18d9bfe0753b6591bcd1f6717\nblob=2808 refs=1 flags=00 offset=0 packed=0 part=0 hash=1ee056105c727ac400e3282fd8bc973e4b4f27e3\nblob=157623 refs=1 flags=00 offset=0 packed=0 part=0 hash=9e27d86d7b8bd7d43a6c6f06d6d8eded261fc377\nblob=26244 refs=1 flags=00 offset=0 packed=0 part=0 hash=1e92d6154adcc94788eb51c34ce5e5150e0540d5\nblob=23372 refs=1 flags=00 offset=0 packed=0 part=0 hash=9f6dd038e345bba0d6209ad7c9358e2f58e49a35\nblob=2677 refs=1 flags=00 offset=0 packed=0 part=0 hash=1f0740753da6d4b66a9f4543f3f10a9c04cbcce4\nblob=9100 refs=1 flags=00 offset=0 packed=0 part=0 hash=21147233729c5f60089e41dec8c07c62da242784\nblob=3057 refs=1 flags=00 offset=0 packed=0 part=0 hash=25db55695d0bd7e18cae463a7c3aea15d52614dd\nblob=22 refs=1 flags=00 offset=0 packed=0 part=0 hash=250ca0f06742d23cbb2fd43b6ad0897fd9425dab\nblob=5721 refs=1 flags=00 offset=0 packed=0 part=0 hash=a6ec97c730eb07afcbc065cac98624e65aae8ac7\nblob=2540 refs=1 flags=00 offset=0 packed=0 part=0 hash=26b765cb936dfdb9eb1730c011c6594acea87233\nblob=24493 refs=1 flags=00 offset=0 packed=0 part=0 hash=27c252f9b31919df33b3bbab3e74b66eabea91b6\nblob=549 refs=1 flags=00 offset=0 packed=0 part=0 hash=28b1731467c359e791966d7348b569528f0ffd58\nblob=12093 refs=1 flags=00 offset=0 packed=0 part=0 hash=a81fcf478be90c8d201a022f3a4d8b4e8ad322f0\nblob=118450 refs=1 flags=00 offset=0 packed=0 part=0 hash=a9b1d1ef87a4c931f526aee29cb01cafd8fa553c\nblob=2177 refs=1 flags=00 offset=0 packed=0 part=0 hash=aa121d40876fde9c111144f6fb2be7bb93d8f63e\nblob=3691 refs=1 flags=00 offset=0 packed=0 part=0 hash=aa7d145b4d14f557221794434c44c06e285f499f\nblob=29688 refs=1 flags=00 offset=0 packed=0 part=0 hash=2d48bfb36249f93ffeeef7e49640b14b0c5c801a\nblob=1513 refs=1 flags=00 offset=0 packed=0 part=0 hash=b211ad56f0877edbca8eb928e9900b94073e4663\nblob=40 refs=1 flags=00 offset=0 packed=0 part=0 hash=33929e099af119869b11a47b973e2ec9b41a5970\nblob=16070 refs=1 flags=00 offset=0 packed=0 part=0 hash=b49df010f74c615b5a3ccc7fc9df9f435193eac4\nblob=686 refs=1 flags=00 offset=0 packed=0 part=0 hash=348037b2223814e10e3cfc353f7d6e00e58f9093\nblob=23804 refs=1 flags=00 offset=0 packed=0 part=0 hash=35c5841a36b00ede20b537dee6bf9302a5655f33\nblob=245889 refs=1 flags=00 offset=0 packed=0 part=0 hash=b5d253512bd2deb55486691c5a507d8975320cf0\nblob=363 refs=1 flags=00 offset=0 packed=0 part=0 hash=37d1b9ceaf1fb4b7146563ff801114234ec90ac3\nblob=46 refs=1 flags=00 offset=0 packed=0 part=0 hash=3abf15b5c13ff1b5233eacb8fff0491201cca59c\nblob=2769 refs=1 flags=00 offset=0 packed=0 part=0 hash=bbd3833cd4161beedd67918be72e0831f16a277f\nblob=2053 refs=1 flags=00 offset=0 packed=0 part=0 hash=3bf996954966a719b27b8db188a4ecb4eb14a10f\nblob=60 refs=1 flags=00 offset=0 packed=0 part=0 hash=3c339bebe5d66090bb222474a384d5980e7c2351\nblob=543 refs=1 flags=00 offset=0 packed=0 part=0 hash=bd9053fea93c64aa6eb394f5e0e237d78df5e532\nblob=1204 refs=1 flags=00 offset=0 packed=0 part=0 hash=be155c0ca905ab9ff678814fe6316e6aba084e52\nblob=2934 refs=1 flags=00 offset=0 packed=0 part=0 hash=3e0cd5e0df25a7f70a543492fdeba238684aa26b\nblob=11 refs=1 flags=00 offset=0 packed=0 part=0 hash=3fa2181e542db26dbebce9b34cdebd1aba84fd21\nblob=1728 refs=1 flags=00 offset=0 packed=0 part=0 hash=bf5100262062feeca23b55d10082014f737df281\nblob=29830 refs=1 flags=00 offset=0 packed=0 part=0 hash=c207a269600e381dab551c2ba92205d867c479d7\nblob=1692 refs=1 flags=00 offset=0 packed=0 part=0 hash=c3a09c161a5ac2ad5d4fcf8e8b8a8b02b56c3542\nblob=2808 refs=1 flags=00 offset=0 packed=0 part=0 hash=437431dddca2f16d708128f1bf6aca15e13dc2fa\nblob=28033 refs=1 flags=00 offset=0 packed=0 part=0 hash=4405757eae1c5dc09a144fd89ba9208ee67731fb\nblob=509 refs=1 flags=00 offset=0 packed=0 part=0 hash=45dbaf1b73616df03d6404e0ed447da2c4c932cb\nblob=163555 refs=1 flags=00 offset=0 packed=0 part=0 hash=455c36ad8625a6184b0f150d890938f3ef1f2639\nblob=13307 refs=1 flags=00 offset=0 packed=0 part=0 hash=c67accd58a6345e78450012233cd018cbd849e0d\nblob=50 refs=1 flags=00 offset=0 packed=0 part=0 hash=48d634cfcbf63bcd81cb68ef5df0b9483281b1e9\nblob=72 refs=1 flags=00 offset=0 packed=0 part=0 hash=c8b0b2d0b800d8bb9f7f023684ddbb7c83cca26c\nblob=138361 refs=1 flags=00 offset=0 packed=0 part=0 hash=4ee8043293d68687341ac24d2b12cf0b3dc7f2b4\nblob=59440 refs=1 flags=00 offset=0 packed=0 part=0 hash=53841acfb0a176ef4206b399de007879a979e696\nblob=99311 refs=1 flags=00 offset=0 packed=0 part=0 hash=543ea27785ff64211d609799548fdbe89bff40ef\nblob=14512 refs=1 flags=00 offset=0 packed=0 part=0 hash=d6f71ebbd4e17f183265263c4d61860b8b6e64b6\nblob=2172 refs=1 flags=00 offset=0 packed=0 part=0 hash=566bd3404dd1c0afc52541cf62fef6886082920a\nblob=22808 refs=1 flags=00 offset=0 packed=0 part=0 hash=d91a7073645ede2f68c485407cfee0f979c821cd\nblob=60 refs=1 flags=00 offset=0 packed=0 part=0 hash=d9880b6af8b2bf86fc6a5d9dfd930c39d58ec6ee\nblob=50013 refs=1 flags=00 offset=0 packed=0 part=0 hash=d9bbf85759978ad7d124e465efe859d2cdf3278d\nblob=106 refs=1 flags=00 offset=0 packed=0 part=0 hash=d936259184aa3c399219fe9fec874d21727aa8cc\nblob=7941 refs=1 flags=00 offset=0 packed=0 part=0 hash=db730618be2287108adc8847a75f725d17f0da8f\nblob=13186 refs=1 flags=00 offset=0 packed=0 part=0 hash=5caadc0351686ec466bca5f10968ce341b18937e\nblob=3098 refs=1 flags=00 offset=0 packed=0 part=0 hash=5dc209f8eb1edd43493c4a08f6ba23010604b371\nblob=27363 refs=1 flags=00 offset=0 packed=0 part=0 hash=5d59ccb2fce1c0a6773d7c1845f1ceeb9e724d17\nblob=23386 refs=1 flags=00 offset=0 packed=0 part=0 hash=5fe9645277e028776daf61b1264c6cd052498b0c\nblob=1065 refs=1 flags=00 offset=0 packed=0 part=0 hash=603a6f2b1697a1589eb98a4d28c6e44c8f7e18b0\nblob=11047 refs=1 flags=00 offset=0 packed=0 part=0 hash=60492646e4e0ea19f37843ec983778cfe8cc5910\nblob=835 refs=1 flags=00 offset=0 packed=0 part=0 hash=e1c6cae20bcc972bdc0d2fdfa6172b4386ac3630\nblob=2569 refs=1 flags=00 offset=0 packed=0 part=0 hash=e32259786df8132d07aaa245040d7ff29320dcec\nblob=5 refs=1 flags=00 offset=0 packed=0 part=0 hash=6716a1703aa2572ee2960c5f2d6cb78bee20746f\nblob=3143 refs=1 flags=00 offset=0 packed=0 part=0 hash=6981ea589941474a59e84bb38e2cfcf75e7330f3\nblob=23763 refs=1 flags=00 offset=0 packed=0 part=0 hash=6a0d3c42379d2e48fd05fec7a6119956c1c23126\nblob=1107 refs=1 flags=00 offset=0 packed=0 part=0 hash=eb1e7fd64d84ba6e94c29a831beed3fa19e11c60\nblob=287 refs=1 flags=00 offset=0 packed=0 part=0 hash=6ba8980871c828535c0d999252fb4e81b0c327fc\nblob=2152 refs=1 flags=00 offset=0 packed=0 part=0 hash=ec3e3ae61244076f464be61e0821c2d411f2d65d\nblob=36 refs=1 flags=00 offset=0 packed=0 part=0 hash=edb74e193640b7c13630992832855f11c6cbf71b\nblob=3200 refs=1 flags=00 offset=0 packed=0 part=0 hash=ee5127b6693b13bbef311ec5f553608b0f5f3812\nblob=53515 refs=1 flags=00 offset=0 packed=0 part=0 hash=6e4afbd60d4839b628b4a3eb5f1cb7014187d92f\nblob=8048 refs=1 flags=00 offset=0 packed=0 part=0 hash=6ea1d4262993542c7c5a8f814ca003b02ded5390\nblob=60 refs=1 flags=00 offset=0 packed=0 part=0 hash=ef81509393157a4e7f48e745bb1ccf142f05352b\nblob=1141 refs=1 flags=00 offset=0 packed=0 part=0 hash=f1692720e1967eebd50812a08edf6d6bab386782\nblob=23648 refs=1 flags=00 offset=0 packed=0 part=0 hash=7354375f2f0b1b05aeb0bf3ac417859a379c02f8\nblob=1632 refs=1 flags=00 offset=0 packed=0 part=0 hash=f668676c5323d632ce8fa2ce1ed680663af20d09\nblob=7690 refs=1 flags=00 offset=0 packed=0 part=0 hash=76c11ccee16f0802899ac4b78f98e8773657d400\nblob=426 refs=1 flags=00 offset=0 packed=0 part=0 hash=799cea9b181cca472fbadae09532573b555e587d\nblob=39 refs=1 flags=00 offset=0 packed=0 part=0 hash=fa8e80cef239cc17a5dd89fe6e2e3634ba8283ce\nblob=8253 refs=1 flags=00 offset=0 packed=0 part=0 hash=fb81f1f903301f7bd81ab5318c91b91de0844d2d\nblob=31434 refs=1 flags=00 offset=0 packed=0 part=0 hash=fb1f9a4c6c6914b67e6bce05b908e816bafef816\nblob=1322 refs=1 flags=00 offset=0 packed=0 part=0 hash=7c36bf4e1e17823e284a2f3c99797e8e85d63de2\nblob=3621 refs=1 flags=00 offset=0 packed=0 part=0 hash=7c4aceb9fa64ceaeae055e1c0e2c24d45837f399\nblob=708 refs=1 flags=00 offset=0 packed=0 part=0 hash=7eb315ba59bb182aee9addf3d978670c28b23db4\nblob=3142 refs=1 flags=00 offset=0 packed=0 part=0 hash=ff596fa0680a1126b391036faf9fc6bf9dc0e392\nblob=3825 refs=1 flags=00 offset=0 packed=0 part=0 hash=7f3a3e761999d98eb9282478c6544d8232e99fbf\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nblob=5944 refs=1 flags=00 offset=0 packed=0 part=0 hash=80566f542e4e4b3375ad4e28bbd2d0046d2da195\nblob=1235 refs=1 flags=00 offset=0 packed=0 part=0 hash=01e22903e6dd5dd499a642f677d96fa037bafb7f\nblob=130205 refs=1 flags=00 offset=0 packed=0 part=0 hash=01848d180e450833e3b1445af5c7a663a28ab4b7\nblob=25806 refs=1 flags=00 offset=0 packed=0 part=0 hash=020fb93d7c747bbad6e5a86140089f9af0cac97b\nblob=540 refs=1 flags=00 offset=0 packed=0 part=0 hash=829a69d68aa1f42567109d75f6812dfcf64df9d5\nblob=2326 refs=1 flags=00 offset=0 packed=0 part=0 hash=83b51b658efd6281a0f1bfe8e3985dac206d8435\nblob=781 refs=1 flags=00 offset=0 packed=0 part=0 hash=032f1b761a26b1d7662e6b0a5a8194b70bd10a4f\nblob=3589 refs=1 flags=00 offset=0 packed=0 part=0 hash=03c3419abb1a20da516b920d727efd3ae6addd1e\nblob=2455 refs=1 flags=00 offset=0 packed=0 part=0 hash=85fc74c0e91aaf43f2b0a1aceb13c0fcb89a6be6\nblob=5601 refs=1 flags=00 offset=0 packed=0 part=0 hash=081c9f7726f64d88e5f960c2de3705a7ced05eb0\nblob=1390 refs=1 flags=00 offset=0 packed=0 part=0 hash=0938bbbf594fe38fe0f1bb34e924e69abfe3a1e9\nblob=172245 refs=1 flags=00 offset=0 packed=0 part=0 hash=0a7ddacd0a5d9da5c11449f67f6f1d534f61cdff\nblob=25021 refs=1 flags=00 offset=0 packed=0 part=0 hash=8b3f4dde0356c517d3cde6e231181a260fa96391\nblob=17219 refs=1 flags=00 offset=0 packed=0 part=0 hash=8ce4b8d5807c8812635b9755607382c563075682\nblob=29017 refs=2 flags=00 offset=0 packed=0 part=0 hash=0dd7039328ea9a4ce4ee9c4d103d16df999f1134\nblob=23324 refs=1 flags=00 offset=0 packed=0 part=0 hash=8db2fcfaad37c150b04539be38fd8b38c78cf95a\nblob=22 refs=1 flags=00 offset=0 packed=0 part=0 hash=0ed5b4624b031bae7d85a9d771a2b14176260f02\nblob=38 refs=1 flags=00 offset=0 packed=0 part=0 hash=0e4387993a6196b206e739b5cecd4d0716b715ed\nblob=9398 refs=1 flags=00 offset=0 packed=0 part=0 hash=0ee54ceb49cec2beb583d5c1cd69b1111f37aefc\nblob=19984 refs=1 flags=00 offset=0 packed=0 part=0 hash=8f66f9003ac4e8eeb52ff70a454217254fb93f1f\nblob=3464 refs=2 flags=00 offset=0 packed=0 part=0 hash=102b8d918a62f0f07ffa465f763cef070dacdbcb\nblob=214945 refs=1 flags=00 offset=0 packed=0 part=0 hash=90d646f77fd10eb7d8414ddca722d4851c3a47f5\nblob=1 refs=1 flags=00 offset=0 packed=0 part=0 hash=10687feb9716c9502d9a40fdfe3bb339055c8651\nblob=608 refs=1 flags=00 offset=0 packed=0 part=0 hash=9132c0d3862b3d20b7058943ad515484bb483c8e\nblob=25821 refs=1 flags=00 offset=0 packed=0 part=0 hash=918b5c5143ea066929f62d7624fe9615ada1cea5\nblob=10479 refs=1 flags=00 offset=0 packed=0 part=0 hash=13a7831cf2553216db8c65026771edf67158240f\nblob=5 refs=1 flags=00 offset=0 packed=0 part=0 hash=943920a4120cf5296f26295e0948515bf975ded6\nblob=137341 refs=1 flags=00 offset=0 packed=0 part=0 hash=15c1aa2c6d6bc51dda916d29795204c64d7e2f09\nblob=1575 refs=1 flags=00 offset=0 packed=0 part=0 hash=161f16583270d8b5205df4dbf8778f1a255d7008\nblob=3041 refs=1 flags=00 offset=0 packed=0 part=0 hash=967d88040ecad5db413e9818d1995c5be3372b4b\nblob=2909 refs=2 flags=00 offset=0 packed=0 part=0 hash=165c2a245397801bc96b18740d37a3282b9a9187\nblob=123180 refs=1 flags=00 offset=0 packed=0 part=0 hash=975c74f0394709a7e042ddab9f1a66fce7e69c15\nblob=149185 refs=1 flags=00 offset=0 packed=0 part=0 hash=9c3afd96d66cda33c10b57cd514bb60a1012da04\nblob=260732 refs=1 flags=00 offset=0 packed=0 part=0 hash=9d8002c20d8381e18d9bfe0753b6591bcd1f6717\nblob=2808 refs=1 flags=00 offset=0 packed=0 part=0 hash=1ee056105c727ac400e3282fd8bc973e4b4f27e3\nblob=157623 refs=1 flags=00 offset=0 packed=0 part=0 hash=9e27d86d7b8bd7d43a6c6f06d6d8eded261fc377\nblob=26244 refs=1 flags=00 offset=0 packed=0 part=0 hash=1e92d6154adcc94788eb51c34ce5e5150e0540d5\nblob=23372 refs=1 flags=00 offset=0 packed=0 part=0 hash=9f6dd038e345bba0d6209ad7c9358e2f58e49a35\nblob=2677 refs=1 flags=00 offset=0 packed=0 part=0 hash=1f0740753da6d4b66a9f4543f3f10a9c04cbcce4\nblob=9100 refs=1 flags=00 offset=0 packed=0 part=0 hash=21147233729c5f60089e41dec8c07c62da242784\nblob=3057 refs=1 flags=00 offset=0 packed=0 part=0 hash=25db55695d0bd7e18cae463a7c3aea15d52614dd\nblob=22 refs=1 flags=00 offset=0 packed=0 part=0 hash=250ca0f06742d23cbb2fd43b6ad0897fd9425dab\nblob=5721 refs=1 flags=00 offset=0 packed=0 part=0 hash=a6ec97c730eb07afcbc065cac98624e65aae8ac7\nblob=2540 refs=1 flags=00 offset=0 packed=0 part=0 hash=26b765cb936dfdb9eb1730c011c6594acea87233\nblob=24493 refs=1 flags=00 offset=0 packed=0 part=0 hash=27c252f9b31919df33b3bbab3e74b66eabea91b6\nblob=549 refs=1 flags=00 offset=0 packed=0 part=0 hash=28b1731467c359e791966d7348b569528f0ffd58\nblob=12093 refs=1 flags=00 offset=0 packed=0 part=0 hash=a81fcf478be90c8d201a022f3a4d8b4e8ad322f0\nblob=118450 refs=1 flags=00 offset=0 packed=0 part=0 hash=a9b1d1ef87a4c931f526aee29cb01cafd8fa553c\nblob=2177 refs=1 flags=00 offset=0 packed=0 part=0 hash=aa121d40876fde9c111144f6fb2be7bb93d8f63e\nblob=3691 refs=1 flags=00 offset=0 packed=0 part=0 hash=aa7d145b4d14f557221794434c44c06e285f499f\nblob=29688 refs=1 flags=00 offset=0 packed=0 part=0 hash=2d48bfb36249f93ffeeef7e49640b14b0c5c801a\nblob=1513 refs=1 flags=00 offset=0 packed=0 part=0 hash=b211ad56f0877edbca8eb928e9900b94073e4663\nblob=40 refs=1 flags=00 offset=0 packed=0 part=0 hash=33929e099af119869b11a47b973e2ec9b41a5970\nblob=16070 refs=1 flags=00 offset=0 packed=0 part=0 hash=b49df010f74c615b5a3ccc7fc9df9f435193eac4\nblob=686 refs=1 flags=00 offset=0 packed=0 part=0 hash=348037b2223814e10e3cfc353f7d6e00e58f9093\nblob=23804 refs=1 flags=00 offset=0 packed=0 part=0 hash=35c5841a36b00ede20b537dee6bf9302a5655f33\nblob=245889 refs=1 flags=00 offset=0 packed=0 part=0 hash=b5d253512bd2deb55486691c5a507d8975320cf0\nblob=363 refs=1 flags=00 offset=0 packed=0 part=0 hash=37d1b9ceaf1fb4b7146563ff801114234ec90ac3\nblob=46 refs=1 flags=00 offset=0 packed=0 part=0 hash=3abf15b5c13ff1b5233eacb8fff0491201cca59c\nblob=2769 refs=1 flags=00 offset=0 packed=0 part=0 hash=bbd3833cd4161beedd67918be72e0831f16a277f\nblob=2053 refs=1 flags=00 offset=0 packed=0 part=0 hash=3bf996954966a719b27b8db188a4ecb4eb14a10f\nblob=60 refs=1 flags=00 offset=0 packed=0 part=0 hash=3c339bebe5d66090bb222474a384d5980e7c2351\nblob=543 refs=1 flags=00 offset=0 packed=0 part=0 hash=bd9053fea93c64aa6eb394f5e0e237d78df5e532\nblob=1204 refs=1 flags=00 offset=0 packed=0 part=0 hash=be155c0ca905ab9ff678814fe6316e6aba084e52\nblob=2934 refs=1 flags=00 offset=0 packed=0 part=0 hash=3e0cd5e0df25a7f70a543492fdeba238684aa26b\nblob=11 refs=1 flags=00 offset=0 packed=0 part=0 hash=3fa2181e542db26dbebce9b34cdebd1aba84fd21\nblob=1728 refs=1 flags=00 offset=0 packed=0 part=0 hash=bf5100262062feeca23b55d10082014f737df281\nblob=29830 refs=1 flags=00 offset=0 packed=0 part=0 hash=c207a269600e381dab551c2ba92205d867c479d7\nblob=1692 refs=1 flags=00 offset=0 packed=0 part=0 hash=c3a09c161a5ac2ad5d4fcf8e8b8a8b02b56c3542\nblob=2808 refs=1 flags=00 offset=0 packed=0 part=0 hash=437431dddca2f16d708128f1bf6aca15e13dc2fa\nblob=28033 refs=1 flags=00 offset=0 packed=0 part=0 hash=4405757eae1c5dc09a144fd89ba9208ee67731fb\nblob=509 refs=1 flags=00 offset=0 packed=0 part=0 hash=45dbaf1b73616df03d6404e0ed447da2c4c932cb\nblob=163555 refs=1 flags=00 offset=0 packed=0 part=0 hash=455c36ad8625a6184b0f150d890938f3ef1f2639\nblob=13307 refs=1 flags=00 offset=0 packed=0 part=0 hash=c67accd58a6345e78450012233cd018cbd849e0d\nblob=50 refs=1 flags=00 offset=0 packed=0 part=0 hash=48d634cfcbf63bcd81cb68ef5df0b9483281b1e9\nblob=72 refs=1 flags=00 offset=0 packed=0 part=0 hash=c8b0b2d0b800d8bb9f7f023684ddbb7c83cca26c\nblob=138361 refs=1 flags=00 offset=0 packed=0 part=0 hash=4ee8043293d68687341ac24d2b12cf0b3dc7f2b4\nblob=59440 refs=1 flags=00 offset=0 packed=0 part=0 hash=53841acfb0a176ef4206b399de007879a979e696\nblob=99311 refs=1 flags=00 offset=0 packed=0 part=0 hash=543ea27785ff64211d609799548fdbe89bff40ef\nblob=14512 refs=1 flags=00 offset=0 packed=0 part=0 hash=d6f71ebbd4e17f183265263c4d61860b8b6e64b6\nblob=2172 refs=1 flags=00 offset=0 packed=0 part=0 hash=566bd3404dd1c0afc52541cf62fef6886082920a\nblob=22808 refs=1 flags=00 offset=0 packed=0 part=0 hash=d91a7073645ede2f68c485407cfee0f979c821cd\nblob=60 refs=1 flags=00 offset=0 packed=0 part=0 hash=d9880b6af8b2bf86fc6a5d9dfd930c39d58ec6ee\nblob=50013 refs=1 flags=00 offset=0 packed=0 part=0 hash=d9bbf85759978ad7d124e465efe859d2cdf3278d\nblob=106 refs=1 flags=00 offset=0 packed=0 part=0 hash=d936259184aa3c399219fe9fec874d21727aa8cc\nblob=7941 refs=1 flags=00 offset=0 packed=0 part=0 hash=db730618be2287108adc8847a75f725d17f0da8f\nblob=13186 refs=1 flags=00 offset=0 packed=0 part=0 hash=5caadc0351686ec466bca5f10968ce341b18937e\nblob=3098 refs=1 flags=00 offset=0 packed=0 part=0 hash=5dc209f8eb1edd43493c4a08f6ba23010604b371\nblob=27363 refs=1 flags=00 offset=0 packed=0 part=0 hash=5d59ccb2fce1c0a6773d7c1845f1ceeb9e724d17\nblob=23386 refs=1 flags=00 offset=0 packed=0 part=0 hash=5fe9645277e028776daf61b1264c6cd052498b0c\nblob=1065 refs=1 flags=00 offset=0 packed=0 part=0 hash=603a6f2b1697a1589eb98a4d28c6e44c8f7e18b0\nblob=11047 refs=1 flags=00 offset=0 packed=0 part=0 hash=60492646e4e0ea19f37843ec983778cfe8cc5910\nblob=835 refs=1 flags=00 offset=0 packed=0 part=0 hash=e1c6cae20bcc972bdc0d2fdfa6172b4386ac3630\nblob=2569 refs=1 flags=00 offset=0 packed=0 part=0 hash=e32259786df8132d07aaa245040d7ff29320dcec\nblob=5 refs=1 flags=00 offset=0 packed=0 part=0 hash=6716a1703aa2572ee2960c5f2d6cb78bee20746f\nblob=3143 refs=1 flags=00 offset=0 packed=0 part=0 hash=6981ea589941474a59e84bb38e2cfcf75e7330f3\nblob=23763 refs=1 flags=00 offset=0 packed=0 part=0 hash=6a0d3c42379d2e48fd05fec7a6119956c1c23126\nblob=1107 refs=1 flags=00 offset=0 packed=0 part=0 hash=eb1e7fd64d84ba6e94c29a831beed3fa19e11c60\nblob=287 refs=1 flags=00 offset=0 packed=0 part=0 hash=6ba8980871c828535c0d999252fb4e81b0c327fc\nblob=2152 refs=1 flags=00 offset=0 packed=0 part=0 hash=ec3e3ae61244076f464be61e0821c2d411f2d65d\nblob=36 refs=1 flags=00 offset=0 packed=0 part=0 hash=edb74e193640b7c13630992832855f11c6cbf71b\nblob=3200 refs=1 flags=00 offset=0 packed=0 part=0 hash=ee5127b6693b13bbef311ec5f553608b0f5f3812\nblob=53515 refs=1 flags=00 offset=0 packed=0 part=0 hash=6e4afbd60d4839b628b4a3eb5f1cb7014187d92f\nblob=8048 refs=1 flags=00 offset=0 packed=0 part=0 hash=6ea1d4262993542c7c5a8f814ca003b02ded5390\nblob=60 refs=1 flags=00 offset=0 packed=0 part=0 hash=ef81509393157a4e7f48e745bb1ccf142f05352b\nblob=1141 refs=1 flags=00 offset=0 packed=0 part=0 hash=f1692720e1967eebd50812a08edf6d6bab386782\nblob=23648 refs=1 flags=00 offset=0 packed=0 part=0 hash=7354375f2f0b1b05aeb0bf3ac417859a379c02f8\nblob=1632 refs=1 flags=00 offset=0 packed=0 part=0 hash=f668676c5323d632ce8fa2ce1ed680663af20d09\nblob=7690 refs=1 flags=00 offset=0 packed=0 part=0 hash=76c11ccee16f0802899ac4b78f98e8773657d400\nblob=426 refs=1 flags=00 offset=0 packed=0 part=0 hash=799cea9b181cca472fbadae09532573b555e587d\nblob=39 refs=1 flags=00 offset=0 packed=0 part=0 hash=fa8e80cef239cc17a5dd89fe6e2e3634ba8283ce\nblob=8253 refs=1 flags=00 offset=0 packed=0 part=0 hash=fb81f1f903301f7bd81ab5318c91b91de0844d2d\nblob=31434 refs=1 flags=00 offset=0 packed=0 part=0 hash=fb1f9a4c6c6914b67e6bce05b908e816bafef816\nblob=1322 refs=1 flags=00 offset=0 packed=0 part=0 hash=7c36bf4e1e17823e284a2f3c99797e8e85d63de2\nblob=3621 refs=1 flags=00 offset=0 packed=0 part=0 hash=7c4aceb9fa64ceaeae055e1c0e2c24d45837f399\nblob=708 refs=1 flags=00 offset=0 packed=0 part=0 hash=7eb315ba59bb182aee9addf3d978670c28b23db4\nblob=3142 refs=1 flags=00 offset=0 packed=0 part=0 hash=ff596fa0680a1126b391036faf9fc6bf9dc0e392\nblob=3825 refs=1 flags=00 offset=0 packed=0 part=0 hash=7f3a3e761999d98eb9282478c6544d8232e99fbf\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true
+        }
+      },
+      "exact": true
+    },
+    {
+      "seed": 0,
+      "config": "malformed",
+      "stop": 9,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        }
+      },
+      "exact": true
+    },
+    {
+      "seed": 0,
+      "config": "malformed",
+      "stop": 11,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        }
+      },
+      "exact": true
+    },
+    {
+      "seed": 0,
+      "config": "invalid_utf8",
+      "stop": -1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nblob=5944 refs=1 flags=00 offset=0 packed=0 part=0 hash=80566f542e4e4b3375ad4e28bbd2d0046d2da195\nblob=1235 refs=1 flags=00 offset=0 packed=0 part=0 hash=01e22903e6dd5dd499a642f677d96fa037bafb7f\nblob=130205 refs=1 flags=00 offset=0 packed=0 part=0 hash=01848d180e450833e3b1445af5c7a663a28ab4b7\nblob=25806 refs=1 flags=00 offset=0 packed=0 part=0 hash=020fb93d7c747bbad6e5a86140089f9af0cac97b\nblob=540 refs=1 flags=00 offset=0 packed=0 part=0 hash=829a69d68aa1f42567109d75f6812dfcf64df9d5\nblob=2326 refs=1 flags=00 offset=0 packed=0 part=0 hash=83b51b658efd6281a0f1bfe8e3985dac206d8435\nblob=781 refs=1 flags=00 offset=0 packed=0 part=0 hash=032f1b761a26b1d7662e6b0a5a8194b70bd10a4f\nblob=3589 refs=1 flags=00 offset=0 packed=0 part=0 hash=03c3419abb1a20da516b920d727efd3ae6addd1e\nblob=2455 refs=1 flags=00 offset=0 packed=0 part=0 hash=85fc74c0e91aaf43f2b0a1aceb13c0fcb89a6be6\nblob=5601 refs=1 flags=00 offset=0 packed=0 part=0 hash=081c9f7726f64d88e5f960c2de3705a7ced05eb0\nblob=1390 refs=1 flags=00 offset=0 packed=0 part=0 hash=0938bbbf594fe38fe0f1bb34e924e69abfe3a1e9\nblob=172245 refs=1 flags=00 offset=0 packed=0 part=0 hash=0a7ddacd0a5d9da5c11449f67f6f1d534f61cdff\nblob=25021 refs=1 flags=00 offset=0 packed=0 part=0 hash=8b3f4dde0356c517d3cde6e231181a260fa96391\nblob=17219 refs=1 flags=00 offset=0 packed=0 part=0 hash=8ce4b8d5807c8812635b9755607382c563075682\nblob=29017 refs=2 flags=00 offset=0 packed=0 part=0 hash=0dd7039328ea9a4ce4ee9c4d103d16df999f1134\nblob=23324 refs=1 flags=00 offset=0 packed=0 part=0 hash=8db2fcfaad37c150b04539be38fd8b38c78cf95a\nblob=22 refs=1 flags=00 offset=0 packed=0 part=0 hash=0ed5b4624b031bae7d85a9d771a2b14176260f02\nblob=38 refs=1 flags=00 offset=0 packed=0 part=0 hash=0e4387993a6196b206e739b5cecd4d0716b715ed\nblob=9398 refs=1 flags=00 offset=0 packed=0 part=0 hash=0ee54ceb49cec2beb583d5c1cd69b1111f37aefc\nblob=19984 refs=1 flags=00 offset=0 packed=0 part=0 hash=8f66f9003ac4e8eeb52ff70a454217254fb93f1f\nblob=3464 refs=2 flags=00 offset=0 packed=0 part=0 hash=102b8d918a62f0f07ffa465f763cef070dacdbcb\nblob=214945 refs=1 flags=00 offset=0 packed=0 part=0 hash=90d646f77fd10eb7d8414ddca722d4851c3a47f5\nblob=1 refs=1 flags=00 offset=0 packed=0 part=0 hash=10687feb9716c9502d9a40fdfe3bb339055c8651\nblob=608 refs=1 flags=00 offset=0 packed=0 part=0 hash=9132c0d3862b3d20b7058943ad515484bb483c8e\nblob=25821 refs=1 flags=00 offset=0 packed=0 part=0 hash=918b5c5143ea066929f62d7624fe9615ada1cea5\nblob=10479 refs=1 flags=00 offset=0 packed=0 part=0 hash=13a7831cf2553216db8c65026771edf67158240f\nblob=5 refs=1 flags=00 offset=0 packed=0 part=0 hash=943920a4120cf5296f26295e0948515bf975ded6\nblob=137341 refs=1 flags=00 offset=0 packed=0 part=0 hash=15c1aa2c6d6bc51dda916d29795204c64d7e2f09\nblob=1575 refs=1 flags=00 offset=0 packed=0 part=0 hash=161f16583270d8b5205df4dbf8778f1a255d7008\nblob=3041 refs=1 flags=00 offset=0 packed=0 part=0 hash=967d88040ecad5db413e9818d1995c5be3372b4b\nblob=2909 refs=2 flags=00 offset=0 packed=0 part=0 hash=165c2a245397801bc96b18740d37a3282b9a9187\nblob=123180 refs=1 flags=00 offset=0 packed=0 part=0 hash=975c74f0394709a7e042ddab9f1a66fce7e69c15\nblob=149185 refs=1 flags=00 offset=0 packed=0 part=0 hash=9c3afd96d66cda33c10b57cd514bb60a1012da04\nblob=260732 refs=1 flags=00 offset=0 packed=0 part=0 hash=9d8002c20d8381e18d9bfe0753b6591bcd1f6717\nblob=2808 refs=1 flags=00 offset=0 packed=0 part=0 hash=1ee056105c727ac400e3282fd8bc973e4b4f27e3\nblob=157623 refs=1 flags=00 offset=0 packed=0 part=0 hash=9e27d86d7b8bd7d43a6c6f06d6d8eded261fc377\nblob=26244 refs=1 flags=00 offset=0 packed=0 part=0 hash=1e92d6154adcc94788eb51c34ce5e5150e0540d5\nblob=23372 refs=1 flags=00 offset=0 packed=0 part=0 hash=9f6dd038e345bba0d6209ad7c9358e2f58e49a35\nblob=2677 refs=1 flags=00 offset=0 packed=0 part=0 hash=1f0740753da6d4b66a9f4543f3f10a9c04cbcce4\nblob=9100 refs=1 flags=00 offset=0 packed=0 part=0 hash=21147233729c5f60089e41dec8c07c62da242784\nblob=3057 refs=1 flags=00 offset=0 packed=0 part=0 hash=25db55695d0bd7e18cae463a7c3aea15d52614dd\nblob=22 refs=1 flags=00 offset=0 packed=0 part=0 hash=250ca0f06742d23cbb2fd43b6ad0897fd9425dab\nblob=5721 refs=1 flags=00 offset=0 packed=0 part=0 hash=a6ec97c730eb07afcbc065cac98624e65aae8ac7\nblob=2540 refs=1 flags=00 offset=0 packed=0 part=0 hash=26b765cb936dfdb9eb1730c011c6594acea87233\nblob=24493 refs=1 flags=00 offset=0 packed=0 part=0 hash=27c252f9b31919df33b3bbab3e74b66eabea91b6\nblob=549 refs=1 flags=00 offset=0 packed=0 part=0 hash=28b1731467c359e791966d7348b569528f0ffd58\nblob=12093 refs=1 flags=00 offset=0 packed=0 part=0 hash=a81fcf478be90c8d201a022f3a4d8b4e8ad322f0\nblob=118450 refs=1 flags=00 offset=0 packed=0 part=0 hash=a9b1d1ef87a4c931f526aee29cb01cafd8fa553c\nblob=2177 refs=1 flags=00 offset=0 packed=0 part=0 hash=aa121d40876fde9c111144f6fb2be7bb93d8f63e\nblob=3691 refs=1 flags=00 offset=0 packed=0 part=0 hash=aa7d145b4d14f557221794434c44c06e285f499f\nblob=29688 refs=1 flags=00 offset=0 packed=0 part=0 hash=2d48bfb36249f93ffeeef7e49640b14b0c5c801a\nblob=1513 refs=1 flags=00 offset=0 packed=0 part=0 hash=b211ad56f0877edbca8eb928e9900b94073e4663\nblob=40 refs=1 flags=00 offset=0 packed=0 part=0 hash=33929e099af119869b11a47b973e2ec9b41a5970\nblob=16070 refs=1 flags=00 offset=0 packed=0 part=0 hash=b49df010f74c615b5a3ccc7fc9df9f435193eac4\nblob=686 refs=1 flags=00 offset=0 packed=0 part=0 hash=348037b2223814e10e3cfc353f7d6e00e58f9093\nblob=23804 refs=1 flags=00 offset=0 packed=0 part=0 hash=35c5841a36b00ede20b537dee6bf9302a5655f33\nblob=245889 refs=1 flags=00 offset=0 packed=0 part=0 hash=b5d253512bd2deb55486691c5a507d8975320cf0\nblob=363 refs=1 flags=00 offset=0 packed=0 part=0 hash=37d1b9ceaf1fb4b7146563ff801114234ec90ac3\nblob=46 refs=1 flags=00 offset=0 packed=0 part=0 hash=3abf15b5c13ff1b5233eacb8fff0491201cca59c\nblob=2769 refs=1 flags=00 offset=0 packed=0 part=0 hash=bbd3833cd4161beedd67918be72e0831f16a277f\nblob=2053 refs=1 flags=00 offset=0 packed=0 part=0 hash=3bf996954966a719b27b8db188a4ecb4eb14a10f\nblob=60 refs=1 flags=00 offset=0 packed=0 part=0 hash=3c339bebe5d66090bb222474a384d5980e7c2351\nblob=543 refs=1 flags=00 offset=0 packed=0 part=0 hash=bd9053fea93c64aa6eb394f5e0e237d78df5e532\nblob=1204 refs=1 flags=00 offset=0 packed=0 part=0 hash=be155c0ca905ab9ff678814fe6316e6aba084e52\nblob=2934 refs=1 flags=00 offset=0 packed=0 part=0 hash=3e0cd5e0df25a7f70a543492fdeba238684aa26b\nblob=11 refs=1 flags=00 offset=0 packed=0 part=0 hash=3fa2181e542db26dbebce9b34cdebd1aba84fd21\nblob=1728 refs=1 flags=00 offset=0 packed=0 part=0 hash=bf5100262062feeca23b55d10082014f737df281\nblob=29830 refs=1 flags=00 offset=0 packed=0 part=0 hash=c207a269600e381dab551c2ba92205d867c479d7\nblob=1692 refs=1 flags=00 offset=0 packed=0 part=0 hash=c3a09c161a5ac2ad5d4fcf8e8b8a8b02b56c3542\nblob=2808 refs=1 flags=00 offset=0 packed=0 part=0 hash=437431dddca2f16d708128f1bf6aca15e13dc2fa\nblob=28033 refs=1 flags=00 offset=0 packed=0 part=0 hash=4405757eae1c5dc09a144fd89ba9208ee67731fb\nblob=509 refs=1 flags=00 offset=0 packed=0 part=0 hash=45dbaf1b73616df03d6404e0ed447da2c4c932cb\nblob=163555 refs=1 flags=00 offset=0 packed=0 part=0 hash=455c36ad8625a6184b0f150d890938f3ef1f2639\nblob=13307 refs=1 flags=00 offset=0 packed=0 part=0 hash=c67accd58a6345e78450012233cd018cbd849e0d\nblob=50 refs=1 flags=00 offset=0 packed=0 part=0 hash=48d634cfcbf63bcd81cb68ef5df0b9483281b1e9\nblob=72 refs=1 flags=00 offset=0 packed=0 part=0 hash=c8b0b2d0b800d8bb9f7f023684ddbb7c83cca26c\nblob=138361 refs=1 flags=00 offset=0 packed=0 part=0 hash=4ee8043293d68687341ac24d2b12cf0b3dc7f2b4\nblob=59440 refs=1 flags=00 offset=0 packed=0 part=0 hash=53841acfb0a176ef4206b399de007879a979e696\nblob=99311 refs=1 flags=00 offset=0 packed=0 part=0 hash=543ea27785ff64211d609799548fdbe89bff40ef\nblob=14512 refs=1 flags=00 offset=0 packed=0 part=0 hash=d6f71ebbd4e17f183265263c4d61860b8b6e64b6\nblob=2172 refs=1 flags=00 offset=0 packed=0 part=0 hash=566bd3404dd1c0afc52541cf62fef6886082920a\nblob=22808 refs=1 flags=00 offset=0 packed=0 part=0 hash=d91a7073645ede2f68c485407cfee0f979c821cd\nblob=60 refs=1 flags=00 offset=0 packed=0 part=0 hash=d9880b6af8b2bf86fc6a5d9dfd930c39d58ec6ee\nblob=50013 refs=1 flags=00 offset=0 packed=0 part=0 hash=d9bbf85759978ad7d124e465efe859d2cdf3278d\nblob=106 refs=1 flags=00 offset=0 packed=0 part=0 hash=d936259184aa3c399219fe9fec874d21727aa8cc\nblob=7941 refs=1 flags=00 offset=0 packed=0 part=0 hash=db730618be2287108adc8847a75f725d17f0da8f\nblob=13186 refs=1 flags=00 offset=0 packed=0 part=0 hash=5caadc0351686ec466bca5f10968ce341b18937e\nblob=3098 refs=1 flags=00 offset=0 packed=0 part=0 hash=5dc209f8eb1edd43493c4a08f6ba23010604b371\nblob=27363 refs=1 flags=00 offset=0 packed=0 part=0 hash=5d59ccb2fce1c0a6773d7c1845f1ceeb9e724d17\nblob=23386 refs=1 flags=00 offset=0 packed=0 part=0 hash=5fe9645277e028776daf61b1264c6cd052498b0c\nblob=1065 refs=1 flags=00 offset=0 packed=0 part=0 hash=603a6f2b1697a1589eb98a4d28c6e44c8f7e18b0\nblob=11047 refs=1 flags=00 offset=0 packed=0 part=0 hash=60492646e4e0ea19f37843ec983778cfe8cc5910\nblob=835 refs=1 flags=00 offset=0 packed=0 part=0 hash=e1c6cae20bcc972bdc0d2fdfa6172b4386ac3630\nblob=2569 refs=1 flags=00 offset=0 packed=0 part=0 hash=e32259786df8132d07aaa245040d7ff29320dcec\nblob=5 refs=1 flags=00 offset=0 packed=0 part=0 hash=6716a1703aa2572ee2960c5f2d6cb78bee20746f\nblob=3143 refs=1 flags=00 offset=0 packed=0 part=0 hash=6981ea589941474a59e84bb38e2cfcf75e7330f3\nblob=23763 refs=1 flags=00 offset=0 packed=0 part=0 hash=6a0d3c42379d2e48fd05fec7a6119956c1c23126\nblob=1107 refs=1 flags=00 offset=0 packed=0 part=0 hash=eb1e7fd64d84ba6e94c29a831beed3fa19e11c60\nblob=287 refs=1 flags=00 offset=0 packed=0 part=0 hash=6ba8980871c828535c0d999252fb4e81b0c327fc\nblob=2152 refs=1 flags=00 offset=0 packed=0 part=0 hash=ec3e3ae61244076f464be61e0821c2d411f2d65d\nblob=36 refs=1 flags=00 offset=0 packed=0 part=0 hash=edb74e193640b7c13630992832855f11c6cbf71b\nblob=3200 refs=1 flags=00 offset=0 packed=0 part=0 hash=ee5127b6693b13bbef311ec5f553608b0f5f3812\nblob=53515 refs=1 flags=00 offset=0 packed=0 part=0 hash=6e4afbd60d4839b628b4a3eb5f1cb7014187d92f\nblob=8048 refs=1 flags=00 offset=0 packed=0 part=0 hash=6ea1d4262993542c7c5a8f814ca003b02ded5390\nblob=60 refs=1 flags=00 offset=0 packed=0 part=0 hash=ef81509393157a4e7f48e745bb1ccf142f05352b\nblob=1141 refs=1 flags=00 offset=0 packed=0 part=0 hash=f1692720e1967eebd50812a08edf6d6bab386782\nblob=23648 refs=1 flags=00 offset=0 packed=0 part=0 hash=7354375f2f0b1b05aeb0bf3ac417859a379c02f8\nblob=1632 refs=1 flags=00 offset=0 packed=0 part=0 hash=f668676c5323d632ce8fa2ce1ed680663af20d09\nblob=7690 refs=1 flags=00 offset=0 packed=0 part=0 hash=76c11ccee16f0802899ac4b78f98e8773657d400\nblob=426 refs=1 flags=00 offset=0 packed=0 part=0 hash=799cea9b181cca472fbadae09532573b555e587d\nblob=39 refs=1 flags=00 offset=0 packed=0 part=0 hash=fa8e80cef239cc17a5dd89fe6e2e3634ba8283ce\nblob=8253 refs=1 flags=00 offset=0 packed=0 part=0 hash=fb81f1f903301f7bd81ab5318c91b91de0844d2d\nblob=31434 refs=1 flags=00 offset=0 packed=0 part=0 hash=fb1f9a4c6c6914b67e6bce05b908e816bafef816\nblob=1322 refs=1 flags=00 offset=0 packed=0 part=0 hash=7c36bf4e1e17823e284a2f3c99797e8e85d63de2\nblob=3621 refs=1 flags=00 offset=0 packed=0 part=0 hash=7c4aceb9fa64ceaeae055e1c0e2c24d45837f399\nblob=708 refs=1 flags=00 offset=0 packed=0 part=0 hash=7eb315ba59bb182aee9addf3d978670c28b23db4\nblob=3142 refs=1 flags=00 offset=0 packed=0 part=0 hash=ff596fa0680a1126b391036faf9fc6bf9dc0e392\nblob=3825 refs=1 flags=00 offset=0 packed=0 part=0 hash=7f3a3e761999d98eb9282478c6544d8232e99fbf\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nblob=5944 refs=1 flags=00 offset=0 packed=0 part=0 hash=80566f542e4e4b3375ad4e28bbd2d0046d2da195\nblob=1235 refs=1 flags=00 offset=0 packed=0 part=0 hash=01e22903e6dd5dd499a642f677d96fa037bafb7f\nblob=130205 refs=1 flags=00 offset=0 packed=0 part=0 hash=01848d180e450833e3b1445af5c7a663a28ab4b7\nblob=25806 refs=1 flags=00 offset=0 packed=0 part=0 hash=020fb93d7c747bbad6e5a86140089f9af0cac97b\nblob=540 refs=1 flags=00 offset=0 packed=0 part=0 hash=829a69d68aa1f42567109d75f6812dfcf64df9d5\nblob=2326 refs=1 flags=00 offset=0 packed=0 part=0 hash=83b51b658efd6281a0f1bfe8e3985dac206d8435\nblob=781 refs=1 flags=00 offset=0 packed=0 part=0 hash=032f1b761a26b1d7662e6b0a5a8194b70bd10a4f\nblob=3589 refs=1 flags=00 offset=0 packed=0 part=0 hash=03c3419abb1a20da516b920d727efd3ae6addd1e\nblob=2455 refs=1 flags=00 offset=0 packed=0 part=0 hash=85fc74c0e91aaf43f2b0a1aceb13c0fcb89a6be6\nblob=5601 refs=1 flags=00 offset=0 packed=0 part=0 hash=081c9f7726f64d88e5f960c2de3705a7ced05eb0\nblob=1390 refs=1 flags=00 offset=0 packed=0 part=0 hash=0938bbbf594fe38fe0f1bb34e924e69abfe3a1e9\nblob=172245 refs=1 flags=00 offset=0 packed=0 part=0 hash=0a7ddacd0a5d9da5c11449f67f6f1d534f61cdff\nblob=25021 refs=1 flags=00 offset=0 packed=0 part=0 hash=8b3f4dde0356c517d3cde6e231181a260fa96391\nblob=17219 refs=1 flags=00 offset=0 packed=0 part=0 hash=8ce4b8d5807c8812635b9755607382c563075682\nblob=29017 refs=2 flags=00 offset=0 packed=0 part=0 hash=0dd7039328ea9a4ce4ee9c4d103d16df999f1134\nblob=23324 refs=1 flags=00 offset=0 packed=0 part=0 hash=8db2fcfaad37c150b04539be38fd8b38c78cf95a\nblob=22 refs=1 flags=00 offset=0 packed=0 part=0 hash=0ed5b4624b031bae7d85a9d771a2b14176260f02\nblob=38 refs=1 flags=00 offset=0 packed=0 part=0 hash=0e4387993a6196b206e739b5cecd4d0716b715ed\nblob=9398 refs=1 flags=00 offset=0 packed=0 part=0 hash=0ee54ceb49cec2beb583d5c1cd69b1111f37aefc\nblob=19984 refs=1 flags=00 offset=0 packed=0 part=0 hash=8f66f9003ac4e8eeb52ff70a454217254fb93f1f\nblob=3464 refs=2 flags=00 offset=0 packed=0 part=0 hash=102b8d918a62f0f07ffa465f763cef070dacdbcb\nblob=214945 refs=1 flags=00 offset=0 packed=0 part=0 hash=90d646f77fd10eb7d8414ddca722d4851c3a47f5\nblob=1 refs=1 flags=00 offset=0 packed=0 part=0 hash=10687feb9716c9502d9a40fdfe3bb339055c8651\nblob=608 refs=1 flags=00 offset=0 packed=0 part=0 hash=9132c0d3862b3d20b7058943ad515484bb483c8e\nblob=25821 refs=1 flags=00 offset=0 packed=0 part=0 hash=918b5c5143ea066929f62d7624fe9615ada1cea5\nblob=10479 refs=1 flags=00 offset=0 packed=0 part=0 hash=13a7831cf2553216db8c65026771edf67158240f\nblob=5 refs=1 flags=00 offset=0 packed=0 part=0 hash=943920a4120cf5296f26295e0948515bf975ded6\nblob=137341 refs=1 flags=00 offset=0 packed=0 part=0 hash=15c1aa2c6d6bc51dda916d29795204c64d7e2f09\nblob=1575 refs=1 flags=00 offset=0 packed=0 part=0 hash=161f16583270d8b5205df4dbf8778f1a255d7008\nblob=3041 refs=1 flags=00 offset=0 packed=0 part=0 hash=967d88040ecad5db413e9818d1995c5be3372b4b\nblob=2909 refs=2 flags=00 offset=0 packed=0 part=0 hash=165c2a245397801bc96b18740d37a3282b9a9187\nblob=123180 refs=1 flags=00 offset=0 packed=0 part=0 hash=975c74f0394709a7e042ddab9f1a66fce7e69c15\nblob=149185 refs=1 flags=00 offset=0 packed=0 part=0 hash=9c3afd96d66cda33c10b57cd514bb60a1012da04\nblob=260732 refs=1 flags=00 offset=0 packed=0 part=0 hash=9d8002c20d8381e18d9bfe0753b6591bcd1f6717\nblob=2808 refs=1 flags=00 offset=0 packed=0 part=0 hash=1ee056105c727ac400e3282fd8bc973e4b4f27e3\nblob=157623 refs=1 flags=00 offset=0 packed=0 part=0 hash=9e27d86d7b8bd7d43a6c6f06d6d8eded261fc377\nblob=26244 refs=1 flags=00 offset=0 packed=0 part=0 hash=1e92d6154adcc94788eb51c34ce5e5150e0540d5\nblob=23372 refs=1 flags=00 offset=0 packed=0 part=0 hash=9f6dd038e345bba0d6209ad7c9358e2f58e49a35\nblob=2677 refs=1 flags=00 offset=0 packed=0 part=0 hash=1f0740753da6d4b66a9f4543f3f10a9c04cbcce4\nblob=9100 refs=1 flags=00 offset=0 packed=0 part=0 hash=21147233729c5f60089e41dec8c07c62da242784\nblob=3057 refs=1 flags=00 offset=0 packed=0 part=0 hash=25db55695d0bd7e18cae463a7c3aea15d52614dd\nblob=22 refs=1 flags=00 offset=0 packed=0 part=0 hash=250ca0f06742d23cbb2fd43b6ad0897fd9425dab\nblob=5721 refs=1 flags=00 offset=0 packed=0 part=0 hash=a6ec97c730eb07afcbc065cac98624e65aae8ac7\nblob=2540 refs=1 flags=00 offset=0 packed=0 part=0 hash=26b765cb936dfdb9eb1730c011c6594acea87233\nblob=24493 refs=1 flags=00 offset=0 packed=0 part=0 hash=27c252f9b31919df33b3bbab3e74b66eabea91b6\nblob=549 refs=1 flags=00 offset=0 packed=0 part=0 hash=28b1731467c359e791966d7348b569528f0ffd58\nblob=12093 refs=1 flags=00 offset=0 packed=0 part=0 hash=a81fcf478be90c8d201a022f3a4d8b4e8ad322f0\nblob=118450 refs=1 flags=00 offset=0 packed=0 part=0 hash=a9b1d1ef87a4c931f526aee29cb01cafd8fa553c\nblob=2177 refs=1 flags=00 offset=0 packed=0 part=0 hash=aa121d40876fde9c111144f6fb2be7bb93d8f63e\nblob=3691 refs=1 flags=00 offset=0 packed=0 part=0 hash=aa7d145b4d14f557221794434c44c06e285f499f\nblob=29688 refs=1 flags=00 offset=0 packed=0 part=0 hash=2d48bfb36249f93ffeeef7e49640b14b0c5c801a\nblob=1513 refs=1 flags=00 offset=0 packed=0 part=0 hash=b211ad56f0877edbca8eb928e9900b94073e4663\nblob=40 refs=1 flags=00 offset=0 packed=0 part=0 hash=33929e099af119869b11a47b973e2ec9b41a5970\nblob=16070 refs=1 flags=00 offset=0 packed=0 part=0 hash=b49df010f74c615b5a3ccc7fc9df9f435193eac4\nblob=686 refs=1 flags=00 offset=0 packed=0 part=0 hash=348037b2223814e10e3cfc353f7d6e00e58f9093\nblob=23804 refs=1 flags=00 offset=0 packed=0 part=0 hash=35c5841a36b00ede20b537dee6bf9302a5655f33\nblob=245889 refs=1 flags=00 offset=0 packed=0 part=0 hash=b5d253512bd2deb55486691c5a507d8975320cf0\nblob=363 refs=1 flags=00 offset=0 packed=0 part=0 hash=37d1b9ceaf1fb4b7146563ff801114234ec90ac3\nblob=46 refs=1 flags=00 offset=0 packed=0 part=0 hash=3abf15b5c13ff1b5233eacb8fff0491201cca59c\nblob=2769 refs=1 flags=00 offset=0 packed=0 part=0 hash=bbd3833cd4161beedd67918be72e0831f16a277f\nblob=2053 refs=1 flags=00 offset=0 packed=0 part=0 hash=3bf996954966a719b27b8db188a4ecb4eb14a10f\nblob=60 refs=1 flags=00 offset=0 packed=0 part=0 hash=3c339bebe5d66090bb222474a384d5980e7c2351\nblob=543 refs=1 flags=00 offset=0 packed=0 part=0 hash=bd9053fea93c64aa6eb394f5e0e237d78df5e532\nblob=1204 refs=1 flags=00 offset=0 packed=0 part=0 hash=be155c0ca905ab9ff678814fe6316e6aba084e52\nblob=2934 refs=1 flags=00 offset=0 packed=0 part=0 hash=3e0cd5e0df25a7f70a543492fdeba238684aa26b\nblob=11 refs=1 flags=00 offset=0 packed=0 part=0 hash=3fa2181e542db26dbebce9b34cdebd1aba84fd21\nblob=1728 refs=1 flags=00 offset=0 packed=0 part=0 hash=bf5100262062feeca23b55d10082014f737df281\nblob=29830 refs=1 flags=00 offset=0 packed=0 part=0 hash=c207a269600e381dab551c2ba92205d867c479d7\nblob=1692 refs=1 flags=00 offset=0 packed=0 part=0 hash=c3a09c161a5ac2ad5d4fcf8e8b8a8b02b56c3542\nblob=2808 refs=1 flags=00 offset=0 packed=0 part=0 hash=437431dddca2f16d708128f1bf6aca15e13dc2fa\nblob=28033 refs=1 flags=00 offset=0 packed=0 part=0 hash=4405757eae1c5dc09a144fd89ba9208ee67731fb\nblob=509 refs=1 flags=00 offset=0 packed=0 part=0 hash=45dbaf1b73616df03d6404e0ed447da2c4c932cb\nblob=163555 refs=1 flags=00 offset=0 packed=0 part=0 hash=455c36ad8625a6184b0f150d890938f3ef1f2639\nblob=13307 refs=1 flags=00 offset=0 packed=0 part=0 hash=c67accd58a6345e78450012233cd018cbd849e0d\nblob=50 refs=1 flags=00 offset=0 packed=0 part=0 hash=48d634cfcbf63bcd81cb68ef5df0b9483281b1e9\nblob=72 refs=1 flags=00 offset=0 packed=0 part=0 hash=c8b0b2d0b800d8bb9f7f023684ddbb7c83cca26c\nblob=138361 refs=1 flags=00 offset=0 packed=0 part=0 hash=4ee8043293d68687341ac24d2b12cf0b3dc7f2b4\nblob=59440 refs=1 flags=00 offset=0 packed=0 part=0 hash=53841acfb0a176ef4206b399de007879a979e696\nblob=99311 refs=1 flags=00 offset=0 packed=0 part=0 hash=543ea27785ff64211d609799548fdbe89bff40ef\nblob=14512 refs=1 flags=00 offset=0 packed=0 part=0 hash=d6f71ebbd4e17f183265263c4d61860b8b6e64b6\nblob=2172 refs=1 flags=00 offset=0 packed=0 part=0 hash=566bd3404dd1c0afc52541cf62fef6886082920a\nblob=22808 refs=1 flags=00 offset=0 packed=0 part=0 hash=d91a7073645ede2f68c485407cfee0f979c821cd\nblob=60 refs=1 flags=00 offset=0 packed=0 part=0 hash=d9880b6af8b2bf86fc6a5d9dfd930c39d58ec6ee\nblob=50013 refs=1 flags=00 offset=0 packed=0 part=0 hash=d9bbf85759978ad7d124e465efe859d2cdf3278d\nblob=106 refs=1 flags=00 offset=0 packed=0 part=0 hash=d936259184aa3c399219fe9fec874d21727aa8cc\nblob=7941 refs=1 flags=00 offset=0 packed=0 part=0 hash=db730618be2287108adc8847a75f725d17f0da8f\nblob=13186 refs=1 flags=00 offset=0 packed=0 part=0 hash=5caadc0351686ec466bca5f10968ce341b18937e\nblob=3098 refs=1 flags=00 offset=0 packed=0 part=0 hash=5dc209f8eb1edd43493c4a08f6ba23010604b371\nblob=27363 refs=1 flags=00 offset=0 packed=0 part=0 hash=5d59ccb2fce1c0a6773d7c1845f1ceeb9e724d17\nblob=23386 refs=1 flags=00 offset=0 packed=0 part=0 hash=5fe9645277e028776daf61b1264c6cd052498b0c\nblob=1065 refs=1 flags=00 offset=0 packed=0 part=0 hash=603a6f2b1697a1589eb98a4d28c6e44c8f7e18b0\nblob=11047 refs=1 flags=00 offset=0 packed=0 part=0 hash=60492646e4e0ea19f37843ec983778cfe8cc5910\nblob=835 refs=1 flags=00 offset=0 packed=0 part=0 hash=e1c6cae20bcc972bdc0d2fdfa6172b4386ac3630\nblob=2569 refs=1 flags=00 offset=0 packed=0 part=0 hash=e32259786df8132d07aaa245040d7ff29320dcec\nblob=5 refs=1 flags=00 offset=0 packed=0 part=0 hash=6716a1703aa2572ee2960c5f2d6cb78bee20746f\nblob=3143 refs=1 flags=00 offset=0 packed=0 part=0 hash=6981ea589941474a59e84bb38e2cfcf75e7330f3\nblob=23763 refs=1 flags=00 offset=0 packed=0 part=0 hash=6a0d3c42379d2e48fd05fec7a6119956c1c23126\nblob=1107 refs=1 flags=00 offset=0 packed=0 part=0 hash=eb1e7fd64d84ba6e94c29a831beed3fa19e11c60\nblob=287 refs=1 flags=00 offset=0 packed=0 part=0 hash=6ba8980871c828535c0d999252fb4e81b0c327fc\nblob=2152 refs=1 flags=00 offset=0 packed=0 part=0 hash=ec3e3ae61244076f464be61e0821c2d411f2d65d\nblob=36 refs=1 flags=00 offset=0 packed=0 part=0 hash=edb74e193640b7c13630992832855f11c6cbf71b\nblob=3200 refs=1 flags=00 offset=0 packed=0 part=0 hash=ee5127b6693b13bbef311ec5f553608b0f5f3812\nblob=53515 refs=1 flags=00 offset=0 packed=0 part=0 hash=6e4afbd60d4839b628b4a3eb5f1cb7014187d92f\nblob=8048 refs=1 flags=00 offset=0 packed=0 part=0 hash=6ea1d4262993542c7c5a8f814ca003b02ded5390\nblob=60 refs=1 flags=00 offset=0 packed=0 part=0 hash=ef81509393157a4e7f48e745bb1ccf142f05352b\nblob=1141 refs=1 flags=00 offset=0 packed=0 part=0 hash=f1692720e1967eebd50812a08edf6d6bab386782\nblob=23648 refs=1 flags=00 offset=0 packed=0 part=0 hash=7354375f2f0b1b05aeb0bf3ac417859a379c02f8\nblob=1632 refs=1 flags=00 offset=0 packed=0 part=0 hash=f668676c5323d632ce8fa2ce1ed680663af20d09\nblob=7690 refs=1 flags=00 offset=0 packed=0 part=0 hash=76c11ccee16f0802899ac4b78f98e8773657d400\nblob=426 refs=1 flags=00 offset=0 packed=0 part=0 hash=799cea9b181cca472fbadae09532573b555e587d\nblob=39 refs=1 flags=00 offset=0 packed=0 part=0 hash=fa8e80cef239cc17a5dd89fe6e2e3634ba8283ce\nblob=8253 refs=1 flags=00 offset=0 packed=0 part=0 hash=fb81f1f903301f7bd81ab5318c91b91de0844d2d\nblob=31434 refs=1 flags=00 offset=0 packed=0 part=0 hash=fb1f9a4c6c6914b67e6bce05b908e816bafef816\nblob=1322 refs=1 flags=00 offset=0 packed=0 part=0 hash=7c36bf4e1e17823e284a2f3c99797e8e85d63de2\nblob=3621 refs=1 flags=00 offset=0 packed=0 part=0 hash=7c4aceb9fa64ceaeae055e1c0e2c24d45837f399\nblob=708 refs=1 flags=00 offset=0 packed=0 part=0 hash=7eb315ba59bb182aee9addf3d978670c28b23db4\nblob=3142 refs=1 flags=00 offset=0 packed=0 part=0 hash=ff596fa0680a1126b391036faf9fc6bf9dc0e392\nblob=3825 refs=1 flags=00 offset=0 packed=0 part=0 hash=7f3a3e761999d98eb9282478c6544d8232e99fbf\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true
+        }
+      },
+      "exact": true
+    },
+    {
+      "seed": 0,
+      "config": "invalid_utf8",
+      "stop": 9,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        }
+      },
+      "exact": true
+    },
+    {
+      "seed": 0,
+      "config": "invalid_utf8",
+      "stop": 11,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        }
+      },
+      "exact": true
+    },
+    {
+      "seed": 0,
+      "config": "utf16",
+      "stop": -1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nblob=5944 refs=1 flags=00 offset=0 packed=0 part=0 hash=80566f542e4e4b3375ad4e28bbd2d0046d2da195\nblob=1235 refs=1 flags=00 offset=0 packed=0 part=0 hash=01e22903e6dd5dd499a642f677d96fa037bafb7f\nblob=130205 refs=1 flags=00 offset=0 packed=0 part=0 hash=01848d180e450833e3b1445af5c7a663a28ab4b7\nblob=25806 refs=1 flags=00 offset=0 packed=0 part=0 hash=020fb93d7c747bbad6e5a86140089f9af0cac97b\nblob=540 refs=1 flags=00 offset=0 packed=0 part=0 hash=829a69d68aa1f42567109d75f6812dfcf64df9d5\nblob=2326 refs=1 flags=00 offset=0 packed=0 part=0 hash=83b51b658efd6281a0f1bfe8e3985dac206d8435\nblob=781 refs=1 flags=00 offset=0 packed=0 part=0 hash=032f1b761a26b1d7662e6b0a5a8194b70bd10a4f\nblob=3589 refs=1 flags=00 offset=0 packed=0 part=0 hash=03c3419abb1a20da516b920d727efd3ae6addd1e\nblob=2455 refs=1 flags=00 offset=0 packed=0 part=0 hash=85fc74c0e91aaf43f2b0a1aceb13c0fcb89a6be6\nblob=5601 refs=1 flags=00 offset=0 packed=0 part=0 hash=081c9f7726f64d88e5f960c2de3705a7ced05eb0\nblob=1390 refs=1 flags=00 offset=0 packed=0 part=0 hash=0938bbbf594fe38fe0f1bb34e924e69abfe3a1e9\nblob=172245 refs=1 flags=00 offset=0 packed=0 part=0 hash=0a7ddacd0a5d9da5c11449f67f6f1d534f61cdff\nblob=25021 refs=1 flags=00 offset=0 packed=0 part=0 hash=8b3f4dde0356c517d3cde6e231181a260fa96391\nblob=17219 refs=1 flags=00 offset=0 packed=0 part=0 hash=8ce4b8d5807c8812635b9755607382c563075682\nblob=29017 refs=2 flags=00 offset=0 packed=0 part=0 hash=0dd7039328ea9a4ce4ee9c4d103d16df999f1134\nblob=23324 refs=1 flags=00 offset=0 packed=0 part=0 hash=8db2fcfaad37c150b04539be38fd8b38c78cf95a\nblob=22 refs=1 flags=00 offset=0 packed=0 part=0 hash=0ed5b4624b031bae7d85a9d771a2b14176260f02\nblob=38 refs=1 flags=00 offset=0 packed=0 part=0 hash=0e4387993a6196b206e739b5cecd4d0716b715ed\nblob=9398 refs=1 flags=00 offset=0 packed=0 part=0 hash=0ee54ceb49cec2beb583d5c1cd69b1111f37aefc\nblob=19984 refs=1 flags=00 offset=0 packed=0 part=0 hash=8f66f9003ac4e8eeb52ff70a454217254fb93f1f\nblob=3464 refs=2 flags=00 offset=0 packed=0 part=0 hash=102b8d918a62f0f07ffa465f763cef070dacdbcb\nblob=214945 refs=1 flags=00 offset=0 packed=0 part=0 hash=90d646f77fd10eb7d8414ddca722d4851c3a47f5\nblob=1 refs=1 flags=00 offset=0 packed=0 part=0 hash=10687feb9716c9502d9a40fdfe3bb339055c8651\nblob=608 refs=1 flags=00 offset=0 packed=0 part=0 hash=9132c0d3862b3d20b7058943ad515484bb483c8e\nblob=25821 refs=1 flags=00 offset=0 packed=0 part=0 hash=918b5c5143ea066929f62d7624fe9615ada1cea5\nblob=10479 refs=1 flags=00 offset=0 packed=0 part=0 hash=13a7831cf2553216db8c65026771edf67158240f\nblob=5 refs=1 flags=00 offset=0 packed=0 part=0 hash=943920a4120cf5296f26295e0948515bf975ded6\nblob=137341 refs=1 flags=00 offset=0 packed=0 part=0 hash=15c1aa2c6d6bc51dda916d29795204c64d7e2f09\nblob=1575 refs=1 flags=00 offset=0 packed=0 part=0 hash=161f16583270d8b5205df4dbf8778f1a255d7008\nblob=3041 refs=1 flags=00 offset=0 packed=0 part=0 hash=967d88040ecad5db413e9818d1995c5be3372b4b\nblob=2909 refs=2 flags=00 offset=0 packed=0 part=0 hash=165c2a245397801bc96b18740d37a3282b9a9187\nblob=123180 refs=1 flags=00 offset=0 packed=0 part=0 hash=975c74f0394709a7e042ddab9f1a66fce7e69c15\nblob=149185 refs=1 flags=00 offset=0 packed=0 part=0 hash=9c3afd96d66cda33c10b57cd514bb60a1012da04\nblob=260732 refs=1 flags=00 offset=0 packed=0 part=0 hash=9d8002c20d8381e18d9bfe0753b6591bcd1f6717\nblob=2808 refs=1 flags=00 offset=0 packed=0 part=0 hash=1ee056105c727ac400e3282fd8bc973e4b4f27e3\nblob=157623 refs=1 flags=00 offset=0 packed=0 part=0 hash=9e27d86d7b8bd7d43a6c6f06d6d8eded261fc377\nblob=26244 refs=1 flags=00 offset=0 packed=0 part=0 hash=1e92d6154adcc94788eb51c34ce5e5150e0540d5\nblob=23372 refs=1 flags=00 offset=0 packed=0 part=0 hash=9f6dd038e345bba0d6209ad7c9358e2f58e49a35\nblob=2677 refs=1 flags=00 offset=0 packed=0 part=0 hash=1f0740753da6d4b66a9f4543f3f10a9c04cbcce4\nblob=9100 refs=1 flags=00 offset=0 packed=0 part=0 hash=21147233729c5f60089e41dec8c07c62da242784\nblob=3057 refs=1 flags=00 offset=0 packed=0 part=0 hash=25db55695d0bd7e18cae463a7c3aea15d52614dd\nblob=22 refs=1 flags=00 offset=0 packed=0 part=0 hash=250ca0f06742d23cbb2fd43b6ad0897fd9425dab\nblob=5721 refs=1 flags=00 offset=0 packed=0 part=0 hash=a6ec97c730eb07afcbc065cac98624e65aae8ac7\nblob=2540 refs=1 flags=00 offset=0 packed=0 part=0 hash=26b765cb936dfdb9eb1730c011c6594acea87233\nblob=24493 refs=1 flags=00 offset=0 packed=0 part=0 hash=27c252f9b31919df33b3bbab3e74b66eabea91b6\nblob=549 refs=1 flags=00 offset=0 packed=0 part=0 hash=28b1731467c359e791966d7348b569528f0ffd58\nblob=12093 refs=1 flags=00 offset=0 packed=0 part=0 hash=a81fcf478be90c8d201a022f3a4d8b4e8ad322f0\nblob=118450 refs=1 flags=00 offset=0 packed=0 part=0 hash=a9b1d1ef87a4c931f526aee29cb01cafd8fa553c\nblob=2177 refs=1 flags=00 offset=0 packed=0 part=0 hash=aa121d40876fde9c111144f6fb2be7bb93d8f63e\nblob=3691 refs=1 flags=00 offset=0 packed=0 part=0 hash=aa7d145b4d14f557221794434c44c06e285f499f\nblob=29688 refs=1 flags=00 offset=0 packed=0 part=0 hash=2d48bfb36249f93ffeeef7e49640b14b0c5c801a\nblob=1513 refs=1 flags=00 offset=0 packed=0 part=0 hash=b211ad56f0877edbca8eb928e9900b94073e4663\nblob=40 refs=1 flags=00 offset=0 packed=0 part=0 hash=33929e099af119869b11a47b973e2ec9b41a5970\nblob=16070 refs=1 flags=00 offset=0 packed=0 part=0 hash=b49df010f74c615b5a3ccc7fc9df9f435193eac4\nblob=686 refs=1 flags=00 offset=0 packed=0 part=0 hash=348037b2223814e10e3cfc353f7d6e00e58f9093\nblob=23804 refs=1 flags=00 offset=0 packed=0 part=0 hash=35c5841a36b00ede20b537dee6bf9302a5655f33\nblob=245889 refs=1 flags=00 offset=0 packed=0 part=0 hash=b5d253512bd2deb55486691c5a507d8975320cf0\nblob=363 refs=1 flags=00 offset=0 packed=0 part=0 hash=37d1b9ceaf1fb4b7146563ff801114234ec90ac3\nblob=46 refs=1 flags=00 offset=0 packed=0 part=0 hash=3abf15b5c13ff1b5233eacb8fff0491201cca59c\nblob=2769 refs=1 flags=00 offset=0 packed=0 part=0 hash=bbd3833cd4161beedd67918be72e0831f16a277f\nblob=2053 refs=1 flags=00 offset=0 packed=0 part=0 hash=3bf996954966a719b27b8db188a4ecb4eb14a10f\nblob=60 refs=1 flags=00 offset=0 packed=0 part=0 hash=3c339bebe5d66090bb222474a384d5980e7c2351\nblob=543 refs=1 flags=00 offset=0 packed=0 part=0 hash=bd9053fea93c64aa6eb394f5e0e237d78df5e532\nblob=1204 refs=1 flags=00 offset=0 packed=0 part=0 hash=be155c0ca905ab9ff678814fe6316e6aba084e52\nblob=2934 refs=1 flags=00 offset=0 packed=0 part=0 hash=3e0cd5e0df25a7f70a543492fdeba238684aa26b\nblob=11 refs=1 flags=00 offset=0 packed=0 part=0 hash=3fa2181e542db26dbebce9b34cdebd1aba84fd21\nblob=1728 refs=1 flags=00 offset=0 packed=0 part=0 hash=bf5100262062feeca23b55d10082014f737df281\nblob=29830 refs=1 flags=00 offset=0 packed=0 part=0 hash=c207a269600e381dab551c2ba92205d867c479d7\nblob=1692 refs=1 flags=00 offset=0 packed=0 part=0 hash=c3a09c161a5ac2ad5d4fcf8e8b8a8b02b56c3542\nblob=2808 refs=1 flags=00 offset=0 packed=0 part=0 hash=437431dddca2f16d708128f1bf6aca15e13dc2fa\nblob=28033 refs=1 flags=00 offset=0 packed=0 part=0 hash=4405757eae1c5dc09a144fd89ba9208ee67731fb\nblob=509 refs=1 flags=00 offset=0 packed=0 part=0 hash=45dbaf1b73616df03d6404e0ed447da2c4c932cb\nblob=163555 refs=1 flags=00 offset=0 packed=0 part=0 hash=455c36ad8625a6184b0f150d890938f3ef1f2639\nblob=13307 refs=1 flags=00 offset=0 packed=0 part=0 hash=c67accd58a6345e78450012233cd018cbd849e0d\nblob=50 refs=1 flags=00 offset=0 packed=0 part=0 hash=48d634cfcbf63bcd81cb68ef5df0b9483281b1e9\nblob=72 refs=1 flags=00 offset=0 packed=0 part=0 hash=c8b0b2d0b800d8bb9f7f023684ddbb7c83cca26c\nblob=138361 refs=1 flags=00 offset=0 packed=0 part=0 hash=4ee8043293d68687341ac24d2b12cf0b3dc7f2b4\nblob=59440 refs=1 flags=00 offset=0 packed=0 part=0 hash=53841acfb0a176ef4206b399de007879a979e696\nblob=99311 refs=1 flags=00 offset=0 packed=0 part=0 hash=543ea27785ff64211d609799548fdbe89bff40ef\nblob=14512 refs=1 flags=00 offset=0 packed=0 part=0 hash=d6f71ebbd4e17f183265263c4d61860b8b6e64b6\nblob=2172 refs=1 flags=00 offset=0 packed=0 part=0 hash=566bd3404dd1c0afc52541cf62fef6886082920a\nblob=22808 refs=1 flags=00 offset=0 packed=0 part=0 hash=d91a7073645ede2f68c485407cfee0f979c821cd\nblob=60 refs=1 flags=00 offset=0 packed=0 part=0 hash=d9880b6af8b2bf86fc6a5d9dfd930c39d58ec6ee\nblob=50013 refs=1 flags=00 offset=0 packed=0 part=0 hash=d9bbf85759978ad7d124e465efe859d2cdf3278d\nblob=106 refs=1 flags=00 offset=0 packed=0 part=0 hash=d936259184aa3c399219fe9fec874d21727aa8cc\nblob=7941 refs=1 flags=00 offset=0 packed=0 part=0 hash=db730618be2287108adc8847a75f725d17f0da8f\nblob=13186 refs=1 flags=00 offset=0 packed=0 part=0 hash=5caadc0351686ec466bca5f10968ce341b18937e\nblob=3098 refs=1 flags=00 offset=0 packed=0 part=0 hash=5dc209f8eb1edd43493c4a08f6ba23010604b371\nblob=27363 refs=1 flags=00 offset=0 packed=0 part=0 hash=5d59ccb2fce1c0a6773d7c1845f1ceeb9e724d17\nblob=23386 refs=1 flags=00 offset=0 packed=0 part=0 hash=5fe9645277e028776daf61b1264c6cd052498b0c\nblob=1065 refs=1 flags=00 offset=0 packed=0 part=0 hash=603a6f2b1697a1589eb98a4d28c6e44c8f7e18b0\nblob=11047 refs=1 flags=00 offset=0 packed=0 part=0 hash=60492646e4e0ea19f37843ec983778cfe8cc5910\nblob=835 refs=1 flags=00 offset=0 packed=0 part=0 hash=e1c6cae20bcc972bdc0d2fdfa6172b4386ac3630\nblob=2569 refs=1 flags=00 offset=0 packed=0 part=0 hash=e32259786df8132d07aaa245040d7ff29320dcec\nblob=5 refs=1 flags=00 offset=0 packed=0 part=0 hash=6716a1703aa2572ee2960c5f2d6cb78bee20746f\nblob=3143 refs=1 flags=00 offset=0 packed=0 part=0 hash=6981ea589941474a59e84bb38e2cfcf75e7330f3\nblob=23763 refs=1 flags=00 offset=0 packed=0 part=0 hash=6a0d3c42379d2e48fd05fec7a6119956c1c23126\nblob=1107 refs=1 flags=00 offset=0 packed=0 part=0 hash=eb1e7fd64d84ba6e94c29a831beed3fa19e11c60\nblob=287 refs=1 flags=00 offset=0 packed=0 part=0 hash=6ba8980871c828535c0d999252fb4e81b0c327fc\nblob=2152 refs=1 flags=00 offset=0 packed=0 part=0 hash=ec3e3ae61244076f464be61e0821c2d411f2d65d\nblob=36 refs=1 flags=00 offset=0 packed=0 part=0 hash=edb74e193640b7c13630992832855f11c6cbf71b\nblob=3200 refs=1 flags=00 offset=0 packed=0 part=0 hash=ee5127b6693b13bbef311ec5f553608b0f5f3812\nblob=53515 refs=1 flags=00 offset=0 packed=0 part=0 hash=6e4afbd60d4839b628b4a3eb5f1cb7014187d92f\nblob=8048 refs=1 flags=00 offset=0 packed=0 part=0 hash=6ea1d4262993542c7c5a8f814ca003b02ded5390\nblob=60 refs=1 flags=00 offset=0 packed=0 part=0 hash=ef81509393157a4e7f48e745bb1ccf142f05352b\nblob=1141 refs=1 flags=00 offset=0 packed=0 part=0 hash=f1692720e1967eebd50812a08edf6d6bab386782\nblob=23648 refs=1 flags=00 offset=0 packed=0 part=0 hash=7354375f2f0b1b05aeb0bf3ac417859a379c02f8\nblob=1632 refs=1 flags=00 offset=0 packed=0 part=0 hash=f668676c5323d632ce8fa2ce1ed680663af20d09\nblob=7690 refs=1 flags=00 offset=0 packed=0 part=0 hash=76c11ccee16f0802899ac4b78f98e8773657d400\nblob=426 refs=1 flags=00 offset=0 packed=0 part=0 hash=799cea9b181cca472fbadae09532573b555e587d\nblob=39 refs=1 flags=00 offset=0 packed=0 part=0 hash=fa8e80cef239cc17a5dd89fe6e2e3634ba8283ce\nblob=8253 refs=1 flags=00 offset=0 packed=0 part=0 hash=fb81f1f903301f7bd81ab5318c91b91de0844d2d\nblob=31434 refs=1 flags=00 offset=0 packed=0 part=0 hash=fb1f9a4c6c6914b67e6bce05b908e816bafef816\nblob=1322 refs=1 flags=00 offset=0 packed=0 part=0 hash=7c36bf4e1e17823e284a2f3c99797e8e85d63de2\nblob=3621 refs=1 flags=00 offset=0 packed=0 part=0 hash=7c4aceb9fa64ceaeae055e1c0e2c24d45837f399\nblob=708 refs=1 flags=00 offset=0 packed=0 part=0 hash=7eb315ba59bb182aee9addf3d978670c28b23db4\nblob=3142 refs=1 flags=00 offset=0 packed=0 part=0 hash=ff596fa0680a1126b391036faf9fc6bf9dc0e392\nblob=3825 refs=1 flags=00 offset=0 packed=0 part=0 hash=7f3a3e761999d98eb9282478c6544d8232e99fbf\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nblob=5944 refs=1 flags=00 offset=0 packed=0 part=0 hash=80566f542e4e4b3375ad4e28bbd2d0046d2da195\nblob=1235 refs=1 flags=00 offset=0 packed=0 part=0 hash=01e22903e6dd5dd499a642f677d96fa037bafb7f\nblob=130205 refs=1 flags=00 offset=0 packed=0 part=0 hash=01848d180e450833e3b1445af5c7a663a28ab4b7\nblob=25806 refs=1 flags=00 offset=0 packed=0 part=0 hash=020fb93d7c747bbad6e5a86140089f9af0cac97b\nblob=540 refs=1 flags=00 offset=0 packed=0 part=0 hash=829a69d68aa1f42567109d75f6812dfcf64df9d5\nblob=2326 refs=1 flags=00 offset=0 packed=0 part=0 hash=83b51b658efd6281a0f1bfe8e3985dac206d8435\nblob=781 refs=1 flags=00 offset=0 packed=0 part=0 hash=032f1b761a26b1d7662e6b0a5a8194b70bd10a4f\nblob=3589 refs=1 flags=00 offset=0 packed=0 part=0 hash=03c3419abb1a20da516b920d727efd3ae6addd1e\nblob=2455 refs=1 flags=00 offset=0 packed=0 part=0 hash=85fc74c0e91aaf43f2b0a1aceb13c0fcb89a6be6\nblob=5601 refs=1 flags=00 offset=0 packed=0 part=0 hash=081c9f7726f64d88e5f960c2de3705a7ced05eb0\nblob=1390 refs=1 flags=00 offset=0 packed=0 part=0 hash=0938bbbf594fe38fe0f1bb34e924e69abfe3a1e9\nblob=172245 refs=1 flags=00 offset=0 packed=0 part=0 hash=0a7ddacd0a5d9da5c11449f67f6f1d534f61cdff\nblob=25021 refs=1 flags=00 offset=0 packed=0 part=0 hash=8b3f4dde0356c517d3cde6e231181a260fa96391\nblob=17219 refs=1 flags=00 offset=0 packed=0 part=0 hash=8ce4b8d5807c8812635b9755607382c563075682\nblob=29017 refs=2 flags=00 offset=0 packed=0 part=0 hash=0dd7039328ea9a4ce4ee9c4d103d16df999f1134\nblob=23324 refs=1 flags=00 offset=0 packed=0 part=0 hash=8db2fcfaad37c150b04539be38fd8b38c78cf95a\nblob=22 refs=1 flags=00 offset=0 packed=0 part=0 hash=0ed5b4624b031bae7d85a9d771a2b14176260f02\nblob=38 refs=1 flags=00 offset=0 packed=0 part=0 hash=0e4387993a6196b206e739b5cecd4d0716b715ed\nblob=9398 refs=1 flags=00 offset=0 packed=0 part=0 hash=0ee54ceb49cec2beb583d5c1cd69b1111f37aefc\nblob=19984 refs=1 flags=00 offset=0 packed=0 part=0 hash=8f66f9003ac4e8eeb52ff70a454217254fb93f1f\nblob=3464 refs=2 flags=00 offset=0 packed=0 part=0 hash=102b8d918a62f0f07ffa465f763cef070dacdbcb\nblob=214945 refs=1 flags=00 offset=0 packed=0 part=0 hash=90d646f77fd10eb7d8414ddca722d4851c3a47f5\nblob=1 refs=1 flags=00 offset=0 packed=0 part=0 hash=10687feb9716c9502d9a40fdfe3bb339055c8651\nblob=608 refs=1 flags=00 offset=0 packed=0 part=0 hash=9132c0d3862b3d20b7058943ad515484bb483c8e\nblob=25821 refs=1 flags=00 offset=0 packed=0 part=0 hash=918b5c5143ea066929f62d7624fe9615ada1cea5\nblob=10479 refs=1 flags=00 offset=0 packed=0 part=0 hash=13a7831cf2553216db8c65026771edf67158240f\nblob=5 refs=1 flags=00 offset=0 packed=0 part=0 hash=943920a4120cf5296f26295e0948515bf975ded6\nblob=137341 refs=1 flags=00 offset=0 packed=0 part=0 hash=15c1aa2c6d6bc51dda916d29795204c64d7e2f09\nblob=1575 refs=1 flags=00 offset=0 packed=0 part=0 hash=161f16583270d8b5205df4dbf8778f1a255d7008\nblob=3041 refs=1 flags=00 offset=0 packed=0 part=0 hash=967d88040ecad5db413e9818d1995c5be3372b4b\nblob=2909 refs=2 flags=00 offset=0 packed=0 part=0 hash=165c2a245397801bc96b18740d37a3282b9a9187\nblob=123180 refs=1 flags=00 offset=0 packed=0 part=0 hash=975c74f0394709a7e042ddab9f1a66fce7e69c15\nblob=149185 refs=1 flags=00 offset=0 packed=0 part=0 hash=9c3afd96d66cda33c10b57cd514bb60a1012da04\nblob=260732 refs=1 flags=00 offset=0 packed=0 part=0 hash=9d8002c20d8381e18d9bfe0753b6591bcd1f6717\nblob=2808 refs=1 flags=00 offset=0 packed=0 part=0 hash=1ee056105c727ac400e3282fd8bc973e4b4f27e3\nblob=157623 refs=1 flags=00 offset=0 packed=0 part=0 hash=9e27d86d7b8bd7d43a6c6f06d6d8eded261fc377\nblob=26244 refs=1 flags=00 offset=0 packed=0 part=0 hash=1e92d6154adcc94788eb51c34ce5e5150e0540d5\nblob=23372 refs=1 flags=00 offset=0 packed=0 part=0 hash=9f6dd038e345bba0d6209ad7c9358e2f58e49a35\nblob=2677 refs=1 flags=00 offset=0 packed=0 part=0 hash=1f0740753da6d4b66a9f4543f3f10a9c04cbcce4\nblob=9100 refs=1 flags=00 offset=0 packed=0 part=0 hash=21147233729c5f60089e41dec8c07c62da242784\nblob=3057 refs=1 flags=00 offset=0 packed=0 part=0 hash=25db55695d0bd7e18cae463a7c3aea15d52614dd\nblob=22 refs=1 flags=00 offset=0 packed=0 part=0 hash=250ca0f06742d23cbb2fd43b6ad0897fd9425dab\nblob=5721 refs=1 flags=00 offset=0 packed=0 part=0 hash=a6ec97c730eb07afcbc065cac98624e65aae8ac7\nblob=2540 refs=1 flags=00 offset=0 packed=0 part=0 hash=26b765cb936dfdb9eb1730c011c6594acea87233\nblob=24493 refs=1 flags=00 offset=0 packed=0 part=0 hash=27c252f9b31919df33b3bbab3e74b66eabea91b6\nblob=549 refs=1 flags=00 offset=0 packed=0 part=0 hash=28b1731467c359e791966d7348b569528f0ffd58\nblob=12093 refs=1 flags=00 offset=0 packed=0 part=0 hash=a81fcf478be90c8d201a022f3a4d8b4e8ad322f0\nblob=118450 refs=1 flags=00 offset=0 packed=0 part=0 hash=a9b1d1ef87a4c931f526aee29cb01cafd8fa553c\nblob=2177 refs=1 flags=00 offset=0 packed=0 part=0 hash=aa121d40876fde9c111144f6fb2be7bb93d8f63e\nblob=3691 refs=1 flags=00 offset=0 packed=0 part=0 hash=aa7d145b4d14f557221794434c44c06e285f499f\nblob=29688 refs=1 flags=00 offset=0 packed=0 part=0 hash=2d48bfb36249f93ffeeef7e49640b14b0c5c801a\nblob=1513 refs=1 flags=00 offset=0 packed=0 part=0 hash=b211ad56f0877edbca8eb928e9900b94073e4663\nblob=40 refs=1 flags=00 offset=0 packed=0 part=0 hash=33929e099af119869b11a47b973e2ec9b41a5970\nblob=16070 refs=1 flags=00 offset=0 packed=0 part=0 hash=b49df010f74c615b5a3ccc7fc9df9f435193eac4\nblob=686 refs=1 flags=00 offset=0 packed=0 part=0 hash=348037b2223814e10e3cfc353f7d6e00e58f9093\nblob=23804 refs=1 flags=00 offset=0 packed=0 part=0 hash=35c5841a36b00ede20b537dee6bf9302a5655f33\nblob=245889 refs=1 flags=00 offset=0 packed=0 part=0 hash=b5d253512bd2deb55486691c5a507d8975320cf0\nblob=363 refs=1 flags=00 offset=0 packed=0 part=0 hash=37d1b9ceaf1fb4b7146563ff801114234ec90ac3\nblob=46 refs=1 flags=00 offset=0 packed=0 part=0 hash=3abf15b5c13ff1b5233eacb8fff0491201cca59c\nblob=2769 refs=1 flags=00 offset=0 packed=0 part=0 hash=bbd3833cd4161beedd67918be72e0831f16a277f\nblob=2053 refs=1 flags=00 offset=0 packed=0 part=0 hash=3bf996954966a719b27b8db188a4ecb4eb14a10f\nblob=60 refs=1 flags=00 offset=0 packed=0 part=0 hash=3c339bebe5d66090bb222474a384d5980e7c2351\nblob=543 refs=1 flags=00 offset=0 packed=0 part=0 hash=bd9053fea93c64aa6eb394f5e0e237d78df5e532\nblob=1204 refs=1 flags=00 offset=0 packed=0 part=0 hash=be155c0ca905ab9ff678814fe6316e6aba084e52\nblob=2934 refs=1 flags=00 offset=0 packed=0 part=0 hash=3e0cd5e0df25a7f70a543492fdeba238684aa26b\nblob=11 refs=1 flags=00 offset=0 packed=0 part=0 hash=3fa2181e542db26dbebce9b34cdebd1aba84fd21\nblob=1728 refs=1 flags=00 offset=0 packed=0 part=0 hash=bf5100262062feeca23b55d10082014f737df281\nblob=29830 refs=1 flags=00 offset=0 packed=0 part=0 hash=c207a269600e381dab551c2ba92205d867c479d7\nblob=1692 refs=1 flags=00 offset=0 packed=0 part=0 hash=c3a09c161a5ac2ad5d4fcf8e8b8a8b02b56c3542\nblob=2808 refs=1 flags=00 offset=0 packed=0 part=0 hash=437431dddca2f16d708128f1bf6aca15e13dc2fa\nblob=28033 refs=1 flags=00 offset=0 packed=0 part=0 hash=4405757eae1c5dc09a144fd89ba9208ee67731fb\nblob=509 refs=1 flags=00 offset=0 packed=0 part=0 hash=45dbaf1b73616df03d6404e0ed447da2c4c932cb\nblob=163555 refs=1 flags=00 offset=0 packed=0 part=0 hash=455c36ad8625a6184b0f150d890938f3ef1f2639\nblob=13307 refs=1 flags=00 offset=0 packed=0 part=0 hash=c67accd58a6345e78450012233cd018cbd849e0d\nblob=50 refs=1 flags=00 offset=0 packed=0 part=0 hash=48d634cfcbf63bcd81cb68ef5df0b9483281b1e9\nblob=72 refs=1 flags=00 offset=0 packed=0 part=0 hash=c8b0b2d0b800d8bb9f7f023684ddbb7c83cca26c\nblob=138361 refs=1 flags=00 offset=0 packed=0 part=0 hash=4ee8043293d68687341ac24d2b12cf0b3dc7f2b4\nblob=59440 refs=1 flags=00 offset=0 packed=0 part=0 hash=53841acfb0a176ef4206b399de007879a979e696\nblob=99311 refs=1 flags=00 offset=0 packed=0 part=0 hash=543ea27785ff64211d609799548fdbe89bff40ef\nblob=14512 refs=1 flags=00 offset=0 packed=0 part=0 hash=d6f71ebbd4e17f183265263c4d61860b8b6e64b6\nblob=2172 refs=1 flags=00 offset=0 packed=0 part=0 hash=566bd3404dd1c0afc52541cf62fef6886082920a\nblob=22808 refs=1 flags=00 offset=0 packed=0 part=0 hash=d91a7073645ede2f68c485407cfee0f979c821cd\nblob=60 refs=1 flags=00 offset=0 packed=0 part=0 hash=d9880b6af8b2bf86fc6a5d9dfd930c39d58ec6ee\nblob=50013 refs=1 flags=00 offset=0 packed=0 part=0 hash=d9bbf85759978ad7d124e465efe859d2cdf3278d\nblob=106 refs=1 flags=00 offset=0 packed=0 part=0 hash=d936259184aa3c399219fe9fec874d21727aa8cc\nblob=7941 refs=1 flags=00 offset=0 packed=0 part=0 hash=db730618be2287108adc8847a75f725d17f0da8f\nblob=13186 refs=1 flags=00 offset=0 packed=0 part=0 hash=5caadc0351686ec466bca5f10968ce341b18937e\nblob=3098 refs=1 flags=00 offset=0 packed=0 part=0 hash=5dc209f8eb1edd43493c4a08f6ba23010604b371\nblob=27363 refs=1 flags=00 offset=0 packed=0 part=0 hash=5d59ccb2fce1c0a6773d7c1845f1ceeb9e724d17\nblob=23386 refs=1 flags=00 offset=0 packed=0 part=0 hash=5fe9645277e028776daf61b1264c6cd052498b0c\nblob=1065 refs=1 flags=00 offset=0 packed=0 part=0 hash=603a6f2b1697a1589eb98a4d28c6e44c8f7e18b0\nblob=11047 refs=1 flags=00 offset=0 packed=0 part=0 hash=60492646e4e0ea19f37843ec983778cfe8cc5910\nblob=835 refs=1 flags=00 offset=0 packed=0 part=0 hash=e1c6cae20bcc972bdc0d2fdfa6172b4386ac3630\nblob=2569 refs=1 flags=00 offset=0 packed=0 part=0 hash=e32259786df8132d07aaa245040d7ff29320dcec\nblob=5 refs=1 flags=00 offset=0 packed=0 part=0 hash=6716a1703aa2572ee2960c5f2d6cb78bee20746f\nblob=3143 refs=1 flags=00 offset=0 packed=0 part=0 hash=6981ea589941474a59e84bb38e2cfcf75e7330f3\nblob=23763 refs=1 flags=00 offset=0 packed=0 part=0 hash=6a0d3c42379d2e48fd05fec7a6119956c1c23126\nblob=1107 refs=1 flags=00 offset=0 packed=0 part=0 hash=eb1e7fd64d84ba6e94c29a831beed3fa19e11c60\nblob=287 refs=1 flags=00 offset=0 packed=0 part=0 hash=6ba8980871c828535c0d999252fb4e81b0c327fc\nblob=2152 refs=1 flags=00 offset=0 packed=0 part=0 hash=ec3e3ae61244076f464be61e0821c2d411f2d65d\nblob=36 refs=1 flags=00 offset=0 packed=0 part=0 hash=edb74e193640b7c13630992832855f11c6cbf71b\nblob=3200 refs=1 flags=00 offset=0 packed=0 part=0 hash=ee5127b6693b13bbef311ec5f553608b0f5f3812\nblob=53515 refs=1 flags=00 offset=0 packed=0 part=0 hash=6e4afbd60d4839b628b4a3eb5f1cb7014187d92f\nblob=8048 refs=1 flags=00 offset=0 packed=0 part=0 hash=6ea1d4262993542c7c5a8f814ca003b02ded5390\nblob=60 refs=1 flags=00 offset=0 packed=0 part=0 hash=ef81509393157a4e7f48e745bb1ccf142f05352b\nblob=1141 refs=1 flags=00 offset=0 packed=0 part=0 hash=f1692720e1967eebd50812a08edf6d6bab386782\nblob=23648 refs=1 flags=00 offset=0 packed=0 part=0 hash=7354375f2f0b1b05aeb0bf3ac417859a379c02f8\nblob=1632 refs=1 flags=00 offset=0 packed=0 part=0 hash=f668676c5323d632ce8fa2ce1ed680663af20d09\nblob=7690 refs=1 flags=00 offset=0 packed=0 part=0 hash=76c11ccee16f0802899ac4b78f98e8773657d400\nblob=426 refs=1 flags=00 offset=0 packed=0 part=0 hash=799cea9b181cca472fbadae09532573b555e587d\nblob=39 refs=1 flags=00 offset=0 packed=0 part=0 hash=fa8e80cef239cc17a5dd89fe6e2e3634ba8283ce\nblob=8253 refs=1 flags=00 offset=0 packed=0 part=0 hash=fb81f1f903301f7bd81ab5318c91b91de0844d2d\nblob=31434 refs=1 flags=00 offset=0 packed=0 part=0 hash=fb1f9a4c6c6914b67e6bce05b908e816bafef816\nblob=1322 refs=1 flags=00 offset=0 packed=0 part=0 hash=7c36bf4e1e17823e284a2f3c99797e8e85d63de2\nblob=3621 refs=1 flags=00 offset=0 packed=0 part=0 hash=7c4aceb9fa64ceaeae055e1c0e2c24d45837f399\nblob=708 refs=1 flags=00 offset=0 packed=0 part=0 hash=7eb315ba59bb182aee9addf3d978670c28b23db4\nblob=3142 refs=1 flags=00 offset=0 packed=0 part=0 hash=ff596fa0680a1126b391036faf9fc6bf9dc0e392\nblob=3825 refs=1 flags=00 offset=0 packed=0 part=0 hash=7f3a3e761999d98eb9282478c6544d8232e99fbf\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true
+        }
+      },
+      "exact": true
+    },
+    {
+      "seed": 0,
+      "config": "utf16",
+      "stop": 9,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        }
+      },
+      "exact": true
+    },
+    {
+      "seed": 0,
+      "config": "utf16",
+      "stop": 11,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        }
+      },
+      "exact": true
+    },
+    {
+      "seed": 0,
+      "config": "unknown_section",
+      "stop": -1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nblob=5944 refs=1 flags=00 offset=0 packed=0 part=0 hash=80566f542e4e4b3375ad4e28bbd2d0046d2da195\nblob=1235 refs=1 flags=00 offset=0 packed=0 part=0 hash=01e22903e6dd5dd499a642f677d96fa037bafb7f\nblob=130205 refs=1 flags=00 offset=0 packed=0 part=0 hash=01848d180e450833e3b1445af5c7a663a28ab4b7\nblob=25806 refs=1 flags=00 offset=0 packed=0 part=0 hash=020fb93d7c747bbad6e5a86140089f9af0cac97b\nblob=540 refs=1 flags=00 offset=0 packed=0 part=0 hash=829a69d68aa1f42567109d75f6812dfcf64df9d5\nblob=2326 refs=1 flags=00 offset=0 packed=0 part=0 hash=83b51b658efd6281a0f1bfe8e3985dac206d8435\nblob=781 refs=1 flags=00 offset=0 packed=0 part=0 hash=032f1b761a26b1d7662e6b0a5a8194b70bd10a4f\nblob=3589 refs=1 flags=00 offset=0 packed=0 part=0 hash=03c3419abb1a20da516b920d727efd3ae6addd1e\nblob=2455 refs=1 flags=00 offset=0 packed=0 part=0 hash=85fc74c0e91aaf43f2b0a1aceb13c0fcb89a6be6\nblob=5601 refs=1 flags=00 offset=0 packed=0 part=0 hash=081c9f7726f64d88e5f960c2de3705a7ced05eb0\nblob=1390 refs=1 flags=00 offset=0 packed=0 part=0 hash=0938bbbf594fe38fe0f1bb34e924e69abfe3a1e9\nblob=172245 refs=1 flags=00 offset=0 packed=0 part=0 hash=0a7ddacd0a5d9da5c11449f67f6f1d534f61cdff\nblob=25021 refs=1 flags=00 offset=0 packed=0 part=0 hash=8b3f4dde0356c517d3cde6e231181a260fa96391\nblob=17219 refs=1 flags=00 offset=0 packed=0 part=0 hash=8ce4b8d5807c8812635b9755607382c563075682\nblob=29017 refs=2 flags=00 offset=0 packed=0 part=0 hash=0dd7039328ea9a4ce4ee9c4d103d16df999f1134\nblob=23324 refs=1 flags=00 offset=0 packed=0 part=0 hash=8db2fcfaad37c150b04539be38fd8b38c78cf95a\nblob=22 refs=1 flags=00 offset=0 packed=0 part=0 hash=0ed5b4624b031bae7d85a9d771a2b14176260f02\nblob=38 refs=1 flags=00 offset=0 packed=0 part=0 hash=0e4387993a6196b206e739b5cecd4d0716b715ed\nblob=9398 refs=1 flags=00 offset=0 packed=0 part=0 hash=0ee54ceb49cec2beb583d5c1cd69b1111f37aefc\nblob=19984 refs=1 flags=00 offset=0 packed=0 part=0 hash=8f66f9003ac4e8eeb52ff70a454217254fb93f1f\nblob=3464 refs=2 flags=00 offset=0 packed=0 part=0 hash=102b8d918a62f0f07ffa465f763cef070dacdbcb\nblob=214945 refs=1 flags=00 offset=0 packed=0 part=0 hash=90d646f77fd10eb7d8414ddca722d4851c3a47f5\nblob=1 refs=1 flags=00 offset=0 packed=0 part=0 hash=10687feb9716c9502d9a40fdfe3bb339055c8651\nblob=608 refs=1 flags=00 offset=0 packed=0 part=0 hash=9132c0d3862b3d20b7058943ad515484bb483c8e\nblob=25821 refs=1 flags=00 offset=0 packed=0 part=0 hash=918b5c5143ea066929f62d7624fe9615ada1cea5\nblob=10479 refs=1 flags=00 offset=0 packed=0 part=0 hash=13a7831cf2553216db8c65026771edf67158240f\nblob=5 refs=1 flags=00 offset=0 packed=0 part=0 hash=943920a4120cf5296f26295e0948515bf975ded6\nblob=137341 refs=1 flags=00 offset=0 packed=0 part=0 hash=15c1aa2c6d6bc51dda916d29795204c64d7e2f09\nblob=1575 refs=1 flags=00 offset=0 packed=0 part=0 hash=161f16583270d8b5205df4dbf8778f1a255d7008\nblob=3041 refs=1 flags=00 offset=0 packed=0 part=0 hash=967d88040ecad5db413e9818d1995c5be3372b4b\nblob=2909 refs=2 flags=00 offset=0 packed=0 part=0 hash=165c2a245397801bc96b18740d37a3282b9a9187\nblob=123180 refs=1 flags=00 offset=0 packed=0 part=0 hash=975c74f0394709a7e042ddab9f1a66fce7e69c15\nblob=149185 refs=1 flags=00 offset=0 packed=0 part=0 hash=9c3afd96d66cda33c10b57cd514bb60a1012da04\nblob=260732 refs=1 flags=00 offset=0 packed=0 part=0 hash=9d8002c20d8381e18d9bfe0753b6591bcd1f6717\nblob=2808 refs=1 flags=00 offset=0 packed=0 part=0 hash=1ee056105c727ac400e3282fd8bc973e4b4f27e3\nblob=157623 refs=1 flags=00 offset=0 packed=0 part=0 hash=9e27d86d7b8bd7d43a6c6f06d6d8eded261fc377\nblob=26244 refs=1 flags=00 offset=0 packed=0 part=0 hash=1e92d6154adcc94788eb51c34ce5e5150e0540d5\nblob=23372 refs=1 flags=00 offset=0 packed=0 part=0 hash=9f6dd038e345bba0d6209ad7c9358e2f58e49a35\nblob=2677 refs=1 flags=00 offset=0 packed=0 part=0 hash=1f0740753da6d4b66a9f4543f3f10a9c04cbcce4\nblob=9100 refs=1 flags=00 offset=0 packed=0 part=0 hash=21147233729c5f60089e41dec8c07c62da242784\nblob=3057 refs=1 flags=00 offset=0 packed=0 part=0 hash=25db55695d0bd7e18cae463a7c3aea15d52614dd\nblob=22 refs=1 flags=00 offset=0 packed=0 part=0 hash=250ca0f06742d23cbb2fd43b6ad0897fd9425dab\nblob=5721 refs=1 flags=00 offset=0 packed=0 part=0 hash=a6ec97c730eb07afcbc065cac98624e65aae8ac7\nblob=2540 refs=1 flags=00 offset=0 packed=0 part=0 hash=26b765cb936dfdb9eb1730c011c6594acea87233\nblob=24493 refs=1 flags=00 offset=0 packed=0 part=0 hash=27c252f9b31919df33b3bbab3e74b66eabea91b6\nblob=549 refs=1 flags=00 offset=0 packed=0 part=0 hash=28b1731467c359e791966d7348b569528f0ffd58\nblob=12093 refs=1 flags=00 offset=0 packed=0 part=0 hash=a81fcf478be90c8d201a022f3a4d8b4e8ad322f0\nblob=118450 refs=1 flags=00 offset=0 packed=0 part=0 hash=a9b1d1ef87a4c931f526aee29cb01cafd8fa553c\nblob=2177 refs=1 flags=00 offset=0 packed=0 part=0 hash=aa121d40876fde9c111144f6fb2be7bb93d8f63e\nblob=3691 refs=1 flags=00 offset=0 packed=0 part=0 hash=aa7d145b4d14f557221794434c44c06e285f499f\nblob=29688 refs=1 flags=00 offset=0 packed=0 part=0 hash=2d48bfb36249f93ffeeef7e49640b14b0c5c801a\nblob=1513 refs=1 flags=00 offset=0 packed=0 part=0 hash=b211ad56f0877edbca8eb928e9900b94073e4663\nblob=40 refs=1 flags=00 offset=0 packed=0 part=0 hash=33929e099af119869b11a47b973e2ec9b41a5970\nblob=16070 refs=1 flags=00 offset=0 packed=0 part=0 hash=b49df010f74c615b5a3ccc7fc9df9f435193eac4\nblob=686 refs=1 flags=00 offset=0 packed=0 part=0 hash=348037b2223814e10e3cfc353f7d6e00e58f9093\nblob=23804 refs=1 flags=00 offset=0 packed=0 part=0 hash=35c5841a36b00ede20b537dee6bf9302a5655f33\nblob=245889 refs=1 flags=00 offset=0 packed=0 part=0 hash=b5d253512bd2deb55486691c5a507d8975320cf0\nblob=363 refs=1 flags=00 offset=0 packed=0 part=0 hash=37d1b9ceaf1fb4b7146563ff801114234ec90ac3\nblob=46 refs=1 flags=00 offset=0 packed=0 part=0 hash=3abf15b5c13ff1b5233eacb8fff0491201cca59c\nblob=2769 refs=1 flags=00 offset=0 packed=0 part=0 hash=bbd3833cd4161beedd67918be72e0831f16a277f\nblob=2053 refs=1 flags=00 offset=0 packed=0 part=0 hash=3bf996954966a719b27b8db188a4ecb4eb14a10f\nblob=60 refs=1 flags=00 offset=0 packed=0 part=0 hash=3c339bebe5d66090bb222474a384d5980e7c2351\nblob=543 refs=1 flags=00 offset=0 packed=0 part=0 hash=bd9053fea93c64aa6eb394f5e0e237d78df5e532\nblob=1204 refs=1 flags=00 offset=0 packed=0 part=0 hash=be155c0ca905ab9ff678814fe6316e6aba084e52\nblob=2934 refs=1 flags=00 offset=0 packed=0 part=0 hash=3e0cd5e0df25a7f70a543492fdeba238684aa26b\nblob=11 refs=1 flags=00 offset=0 packed=0 part=0 hash=3fa2181e542db26dbebce9b34cdebd1aba84fd21\nblob=1728 refs=1 flags=00 offset=0 packed=0 part=0 hash=bf5100262062feeca23b55d10082014f737df281\nblob=29830 refs=1 flags=00 offset=0 packed=0 part=0 hash=c207a269600e381dab551c2ba92205d867c479d7\nblob=1692 refs=1 flags=00 offset=0 packed=0 part=0 hash=c3a09c161a5ac2ad5d4fcf8e8b8a8b02b56c3542\nblob=2808 refs=1 flags=00 offset=0 packed=0 part=0 hash=437431dddca2f16d708128f1bf6aca15e13dc2fa\nblob=28033 refs=1 flags=00 offset=0 packed=0 part=0 hash=4405757eae1c5dc09a144fd89ba9208ee67731fb\nblob=509 refs=1 flags=00 offset=0 packed=0 part=0 hash=45dbaf1b73616df03d6404e0ed447da2c4c932cb\nblob=163555 refs=1 flags=00 offset=0 packed=0 part=0 hash=455c36ad8625a6184b0f150d890938f3ef1f2639\nblob=13307 refs=1 flags=00 offset=0 packed=0 part=0 hash=c67accd58a6345e78450012233cd018cbd849e0d\nblob=50 refs=1 flags=00 offset=0 packed=0 part=0 hash=48d634cfcbf63bcd81cb68ef5df0b9483281b1e9\nblob=72 refs=1 flags=00 offset=0 packed=0 part=0 hash=c8b0b2d0b800d8bb9f7f023684ddbb7c83cca26c\nblob=138361 refs=1 flags=00 offset=0 packed=0 part=0 hash=4ee8043293d68687341ac24d2b12cf0b3dc7f2b4\nblob=59440 refs=1 flags=00 offset=0 packed=0 part=0 hash=53841acfb0a176ef4206b399de007879a979e696\nblob=99311 refs=1 flags=00 offset=0 packed=0 part=0 hash=543ea27785ff64211d609799548fdbe89bff40ef\nblob=14512 refs=1 flags=00 offset=0 packed=0 part=0 hash=d6f71ebbd4e17f183265263c4d61860b8b6e64b6\nblob=2172 refs=1 flags=00 offset=0 packed=0 part=0 hash=566bd3404dd1c0afc52541cf62fef6886082920a\nblob=22808 refs=1 flags=00 offset=0 packed=0 part=0 hash=d91a7073645ede2f68c485407cfee0f979c821cd\nblob=60 refs=1 flags=00 offset=0 packed=0 part=0 hash=d9880b6af8b2bf86fc6a5d9dfd930c39d58ec6ee\nblob=50013 refs=1 flags=00 offset=0 packed=0 part=0 hash=d9bbf85759978ad7d124e465efe859d2cdf3278d\nblob=106 refs=1 flags=00 offset=0 packed=0 part=0 hash=d936259184aa3c399219fe9fec874d21727aa8cc\nblob=7941 refs=1 flags=00 offset=0 packed=0 part=0 hash=db730618be2287108adc8847a75f725d17f0da8f\nblob=13186 refs=1 flags=00 offset=0 packed=0 part=0 hash=5caadc0351686ec466bca5f10968ce341b18937e\nblob=3098 refs=1 flags=00 offset=0 packed=0 part=0 hash=5dc209f8eb1edd43493c4a08f6ba23010604b371\nblob=27363 refs=1 flags=00 offset=0 packed=0 part=0 hash=5d59ccb2fce1c0a6773d7c1845f1ceeb9e724d17\nblob=23386 refs=1 flags=00 offset=0 packed=0 part=0 hash=5fe9645277e028776daf61b1264c6cd052498b0c\nblob=1065 refs=1 flags=00 offset=0 packed=0 part=0 hash=603a6f2b1697a1589eb98a4d28c6e44c8f7e18b0\nblob=11047 refs=1 flags=00 offset=0 packed=0 part=0 hash=60492646e4e0ea19f37843ec983778cfe8cc5910\nblob=835 refs=1 flags=00 offset=0 packed=0 part=0 hash=e1c6cae20bcc972bdc0d2fdfa6172b4386ac3630\nblob=2569 refs=1 flags=00 offset=0 packed=0 part=0 hash=e32259786df8132d07aaa245040d7ff29320dcec\nblob=5 refs=1 flags=00 offset=0 packed=0 part=0 hash=6716a1703aa2572ee2960c5f2d6cb78bee20746f\nblob=3143 refs=1 flags=00 offset=0 packed=0 part=0 hash=6981ea589941474a59e84bb38e2cfcf75e7330f3\nblob=23763 refs=1 flags=00 offset=0 packed=0 part=0 hash=6a0d3c42379d2e48fd05fec7a6119956c1c23126\nblob=1107 refs=1 flags=00 offset=0 packed=0 part=0 hash=eb1e7fd64d84ba6e94c29a831beed3fa19e11c60\nblob=287 refs=1 flags=00 offset=0 packed=0 part=0 hash=6ba8980871c828535c0d999252fb4e81b0c327fc\nblob=2152 refs=1 flags=00 offset=0 packed=0 part=0 hash=ec3e3ae61244076f464be61e0821c2d411f2d65d\nblob=36 refs=1 flags=00 offset=0 packed=0 part=0 hash=edb74e193640b7c13630992832855f11c6cbf71b\nblob=3200 refs=1 flags=00 offset=0 packed=0 part=0 hash=ee5127b6693b13bbef311ec5f553608b0f5f3812\nblob=53515 refs=1 flags=00 offset=0 packed=0 part=0 hash=6e4afbd60d4839b628b4a3eb5f1cb7014187d92f\nblob=8048 refs=1 flags=00 offset=0 packed=0 part=0 hash=6ea1d4262993542c7c5a8f814ca003b02ded5390\nblob=60 refs=1 flags=00 offset=0 packed=0 part=0 hash=ef81509393157a4e7f48e745bb1ccf142f05352b\nblob=1141 refs=1 flags=00 offset=0 packed=0 part=0 hash=f1692720e1967eebd50812a08edf6d6bab386782\nblob=23648 refs=1 flags=00 offset=0 packed=0 part=0 hash=7354375f2f0b1b05aeb0bf3ac417859a379c02f8\nblob=1632 refs=1 flags=00 offset=0 packed=0 part=0 hash=f668676c5323d632ce8fa2ce1ed680663af20d09\nblob=7690 refs=1 flags=00 offset=0 packed=0 part=0 hash=76c11ccee16f0802899ac4b78f98e8773657d400\nblob=426 refs=1 flags=00 offset=0 packed=0 part=0 hash=799cea9b181cca472fbadae09532573b555e587d\nblob=39 refs=1 flags=00 offset=0 packed=0 part=0 hash=fa8e80cef239cc17a5dd89fe6e2e3634ba8283ce\nblob=8253 refs=1 flags=00 offset=0 packed=0 part=0 hash=fb81f1f903301f7bd81ab5318c91b91de0844d2d\nblob=31434 refs=1 flags=00 offset=0 packed=0 part=0 hash=fb1f9a4c6c6914b67e6bce05b908e816bafef816\nblob=1322 refs=1 flags=00 offset=0 packed=0 part=0 hash=7c36bf4e1e17823e284a2f3c99797e8e85d63de2\nblob=3621 refs=1 flags=00 offset=0 packed=0 part=0 hash=7c4aceb9fa64ceaeae055e1c0e2c24d45837f399\nblob=708 refs=1 flags=00 offset=0 packed=0 part=0 hash=7eb315ba59bb182aee9addf3d978670c28b23db4\nblob=3142 refs=1 flags=00 offset=0 packed=0 part=0 hash=ff596fa0680a1126b391036faf9fc6bf9dc0e392\nblob=3825 refs=1 flags=00 offset=0 packed=0 part=0 hash=7f3a3e761999d98eb9282478c6544d8232e99fbf\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nblob=5944 refs=1 flags=00 offset=0 packed=0 part=0 hash=80566f542e4e4b3375ad4e28bbd2d0046d2da195\nblob=1235 refs=1 flags=00 offset=0 packed=0 part=0 hash=01e22903e6dd5dd499a642f677d96fa037bafb7f\nblob=130205 refs=1 flags=00 offset=0 packed=0 part=0 hash=01848d180e450833e3b1445af5c7a663a28ab4b7\nblob=25806 refs=1 flags=00 offset=0 packed=0 part=0 hash=020fb93d7c747bbad6e5a86140089f9af0cac97b\nblob=540 refs=1 flags=00 offset=0 packed=0 part=0 hash=829a69d68aa1f42567109d75f6812dfcf64df9d5\nblob=2326 refs=1 flags=00 offset=0 packed=0 part=0 hash=83b51b658efd6281a0f1bfe8e3985dac206d8435\nblob=781 refs=1 flags=00 offset=0 packed=0 part=0 hash=032f1b761a26b1d7662e6b0a5a8194b70bd10a4f\nblob=3589 refs=1 flags=00 offset=0 packed=0 part=0 hash=03c3419abb1a20da516b920d727efd3ae6addd1e\nblob=2455 refs=1 flags=00 offset=0 packed=0 part=0 hash=85fc74c0e91aaf43f2b0a1aceb13c0fcb89a6be6\nblob=5601 refs=1 flags=00 offset=0 packed=0 part=0 hash=081c9f7726f64d88e5f960c2de3705a7ced05eb0\nblob=1390 refs=1 flags=00 offset=0 packed=0 part=0 hash=0938bbbf594fe38fe0f1bb34e924e69abfe3a1e9\nblob=172245 refs=1 flags=00 offset=0 packed=0 part=0 hash=0a7ddacd0a5d9da5c11449f67f6f1d534f61cdff\nblob=25021 refs=1 flags=00 offset=0 packed=0 part=0 hash=8b3f4dde0356c517d3cde6e231181a260fa96391\nblob=17219 refs=1 flags=00 offset=0 packed=0 part=0 hash=8ce4b8d5807c8812635b9755607382c563075682\nblob=29017 refs=2 flags=00 offset=0 packed=0 part=0 hash=0dd7039328ea9a4ce4ee9c4d103d16df999f1134\nblob=23324 refs=1 flags=00 offset=0 packed=0 part=0 hash=8db2fcfaad37c150b04539be38fd8b38c78cf95a\nblob=22 refs=1 flags=00 offset=0 packed=0 part=0 hash=0ed5b4624b031bae7d85a9d771a2b14176260f02\nblob=38 refs=1 flags=00 offset=0 packed=0 part=0 hash=0e4387993a6196b206e739b5cecd4d0716b715ed\nblob=9398 refs=1 flags=00 offset=0 packed=0 part=0 hash=0ee54ceb49cec2beb583d5c1cd69b1111f37aefc\nblob=19984 refs=1 flags=00 offset=0 packed=0 part=0 hash=8f66f9003ac4e8eeb52ff70a454217254fb93f1f\nblob=3464 refs=2 flags=00 offset=0 packed=0 part=0 hash=102b8d918a62f0f07ffa465f763cef070dacdbcb\nblob=214945 refs=1 flags=00 offset=0 packed=0 part=0 hash=90d646f77fd10eb7d8414ddca722d4851c3a47f5\nblob=1 refs=1 flags=00 offset=0 packed=0 part=0 hash=10687feb9716c9502d9a40fdfe3bb339055c8651\nblob=608 refs=1 flags=00 offset=0 packed=0 part=0 hash=9132c0d3862b3d20b7058943ad515484bb483c8e\nblob=25821 refs=1 flags=00 offset=0 packed=0 part=0 hash=918b5c5143ea066929f62d7624fe9615ada1cea5\nblob=10479 refs=1 flags=00 offset=0 packed=0 part=0 hash=13a7831cf2553216db8c65026771edf67158240f\nblob=5 refs=1 flags=00 offset=0 packed=0 part=0 hash=943920a4120cf5296f26295e0948515bf975ded6\nblob=137341 refs=1 flags=00 offset=0 packed=0 part=0 hash=15c1aa2c6d6bc51dda916d29795204c64d7e2f09\nblob=1575 refs=1 flags=00 offset=0 packed=0 part=0 hash=161f16583270d8b5205df4dbf8778f1a255d7008\nblob=3041 refs=1 flags=00 offset=0 packed=0 part=0 hash=967d88040ecad5db413e9818d1995c5be3372b4b\nblob=2909 refs=2 flags=00 offset=0 packed=0 part=0 hash=165c2a245397801bc96b18740d37a3282b9a9187\nblob=123180 refs=1 flags=00 offset=0 packed=0 part=0 hash=975c74f0394709a7e042ddab9f1a66fce7e69c15\nblob=149185 refs=1 flags=00 offset=0 packed=0 part=0 hash=9c3afd96d66cda33c10b57cd514bb60a1012da04\nblob=260732 refs=1 flags=00 offset=0 packed=0 part=0 hash=9d8002c20d8381e18d9bfe0753b6591bcd1f6717\nblob=2808 refs=1 flags=00 offset=0 packed=0 part=0 hash=1ee056105c727ac400e3282fd8bc973e4b4f27e3\nblob=157623 refs=1 flags=00 offset=0 packed=0 part=0 hash=9e27d86d7b8bd7d43a6c6f06d6d8eded261fc377\nblob=26244 refs=1 flags=00 offset=0 packed=0 part=0 hash=1e92d6154adcc94788eb51c34ce5e5150e0540d5\nblob=23372 refs=1 flags=00 offset=0 packed=0 part=0 hash=9f6dd038e345bba0d6209ad7c9358e2f58e49a35\nblob=2677 refs=1 flags=00 offset=0 packed=0 part=0 hash=1f0740753da6d4b66a9f4543f3f10a9c04cbcce4\nblob=9100 refs=1 flags=00 offset=0 packed=0 part=0 hash=21147233729c5f60089e41dec8c07c62da242784\nblob=3057 refs=1 flags=00 offset=0 packed=0 part=0 hash=25db55695d0bd7e18cae463a7c3aea15d52614dd\nblob=22 refs=1 flags=00 offset=0 packed=0 part=0 hash=250ca0f06742d23cbb2fd43b6ad0897fd9425dab\nblob=5721 refs=1 flags=00 offset=0 packed=0 part=0 hash=a6ec97c730eb07afcbc065cac98624e65aae8ac7\nblob=2540 refs=1 flags=00 offset=0 packed=0 part=0 hash=26b765cb936dfdb9eb1730c011c6594acea87233\nblob=24493 refs=1 flags=00 offset=0 packed=0 part=0 hash=27c252f9b31919df33b3bbab3e74b66eabea91b6\nblob=549 refs=1 flags=00 offset=0 packed=0 part=0 hash=28b1731467c359e791966d7348b569528f0ffd58\nblob=12093 refs=1 flags=00 offset=0 packed=0 part=0 hash=a81fcf478be90c8d201a022f3a4d8b4e8ad322f0\nblob=118450 refs=1 flags=00 offset=0 packed=0 part=0 hash=a9b1d1ef87a4c931f526aee29cb01cafd8fa553c\nblob=2177 refs=1 flags=00 offset=0 packed=0 part=0 hash=aa121d40876fde9c111144f6fb2be7bb93d8f63e\nblob=3691 refs=1 flags=00 offset=0 packed=0 part=0 hash=aa7d145b4d14f557221794434c44c06e285f499f\nblob=29688 refs=1 flags=00 offset=0 packed=0 part=0 hash=2d48bfb36249f93ffeeef7e49640b14b0c5c801a\nblob=1513 refs=1 flags=00 offset=0 packed=0 part=0 hash=b211ad56f0877edbca8eb928e9900b94073e4663\nblob=40 refs=1 flags=00 offset=0 packed=0 part=0 hash=33929e099af119869b11a47b973e2ec9b41a5970\nblob=16070 refs=1 flags=00 offset=0 packed=0 part=0 hash=b49df010f74c615b5a3ccc7fc9df9f435193eac4\nblob=686 refs=1 flags=00 offset=0 packed=0 part=0 hash=348037b2223814e10e3cfc353f7d6e00e58f9093\nblob=23804 refs=1 flags=00 offset=0 packed=0 part=0 hash=35c5841a36b00ede20b537dee6bf9302a5655f33\nblob=245889 refs=1 flags=00 offset=0 packed=0 part=0 hash=b5d253512bd2deb55486691c5a507d8975320cf0\nblob=363 refs=1 flags=00 offset=0 packed=0 part=0 hash=37d1b9ceaf1fb4b7146563ff801114234ec90ac3\nblob=46 refs=1 flags=00 offset=0 packed=0 part=0 hash=3abf15b5c13ff1b5233eacb8fff0491201cca59c\nblob=2769 refs=1 flags=00 offset=0 packed=0 part=0 hash=bbd3833cd4161beedd67918be72e0831f16a277f\nblob=2053 refs=1 flags=00 offset=0 packed=0 part=0 hash=3bf996954966a719b27b8db188a4ecb4eb14a10f\nblob=60 refs=1 flags=00 offset=0 packed=0 part=0 hash=3c339bebe5d66090bb222474a384d5980e7c2351\nblob=543 refs=1 flags=00 offset=0 packed=0 part=0 hash=bd9053fea93c64aa6eb394f5e0e237d78df5e532\nblob=1204 refs=1 flags=00 offset=0 packed=0 part=0 hash=be155c0ca905ab9ff678814fe6316e6aba084e52\nblob=2934 refs=1 flags=00 offset=0 packed=0 part=0 hash=3e0cd5e0df25a7f70a543492fdeba238684aa26b\nblob=11 refs=1 flags=00 offset=0 packed=0 part=0 hash=3fa2181e542db26dbebce9b34cdebd1aba84fd21\nblob=1728 refs=1 flags=00 offset=0 packed=0 part=0 hash=bf5100262062feeca23b55d10082014f737df281\nblob=29830 refs=1 flags=00 offset=0 packed=0 part=0 hash=c207a269600e381dab551c2ba92205d867c479d7\nblob=1692 refs=1 flags=00 offset=0 packed=0 part=0 hash=c3a09c161a5ac2ad5d4fcf8e8b8a8b02b56c3542\nblob=2808 refs=1 flags=00 offset=0 packed=0 part=0 hash=437431dddca2f16d708128f1bf6aca15e13dc2fa\nblob=28033 refs=1 flags=00 offset=0 packed=0 part=0 hash=4405757eae1c5dc09a144fd89ba9208ee67731fb\nblob=509 refs=1 flags=00 offset=0 packed=0 part=0 hash=45dbaf1b73616df03d6404e0ed447da2c4c932cb\nblob=163555 refs=1 flags=00 offset=0 packed=0 part=0 hash=455c36ad8625a6184b0f150d890938f3ef1f2639\nblob=13307 refs=1 flags=00 offset=0 packed=0 part=0 hash=c67accd58a6345e78450012233cd018cbd849e0d\nblob=50 refs=1 flags=00 offset=0 packed=0 part=0 hash=48d634cfcbf63bcd81cb68ef5df0b9483281b1e9\nblob=72 refs=1 flags=00 offset=0 packed=0 part=0 hash=c8b0b2d0b800d8bb9f7f023684ddbb7c83cca26c\nblob=138361 refs=1 flags=00 offset=0 packed=0 part=0 hash=4ee8043293d68687341ac24d2b12cf0b3dc7f2b4\nblob=59440 refs=1 flags=00 offset=0 packed=0 part=0 hash=53841acfb0a176ef4206b399de007879a979e696\nblob=99311 refs=1 flags=00 offset=0 packed=0 part=0 hash=543ea27785ff64211d609799548fdbe89bff40ef\nblob=14512 refs=1 flags=00 offset=0 packed=0 part=0 hash=d6f71ebbd4e17f183265263c4d61860b8b6e64b6\nblob=2172 refs=1 flags=00 offset=0 packed=0 part=0 hash=566bd3404dd1c0afc52541cf62fef6886082920a\nblob=22808 refs=1 flags=00 offset=0 packed=0 part=0 hash=d91a7073645ede2f68c485407cfee0f979c821cd\nblob=60 refs=1 flags=00 offset=0 packed=0 part=0 hash=d9880b6af8b2bf86fc6a5d9dfd930c39d58ec6ee\nblob=50013 refs=1 flags=00 offset=0 packed=0 part=0 hash=d9bbf85759978ad7d124e465efe859d2cdf3278d\nblob=106 refs=1 flags=00 offset=0 packed=0 part=0 hash=d936259184aa3c399219fe9fec874d21727aa8cc\nblob=7941 refs=1 flags=00 offset=0 packed=0 part=0 hash=db730618be2287108adc8847a75f725d17f0da8f\nblob=13186 refs=1 flags=00 offset=0 packed=0 part=0 hash=5caadc0351686ec466bca5f10968ce341b18937e\nblob=3098 refs=1 flags=00 offset=0 packed=0 part=0 hash=5dc209f8eb1edd43493c4a08f6ba23010604b371\nblob=27363 refs=1 flags=00 offset=0 packed=0 part=0 hash=5d59ccb2fce1c0a6773d7c1845f1ceeb9e724d17\nblob=23386 refs=1 flags=00 offset=0 packed=0 part=0 hash=5fe9645277e028776daf61b1264c6cd052498b0c\nblob=1065 refs=1 flags=00 offset=0 packed=0 part=0 hash=603a6f2b1697a1589eb98a4d28c6e44c8f7e18b0\nblob=11047 refs=1 flags=00 offset=0 packed=0 part=0 hash=60492646e4e0ea19f37843ec983778cfe8cc5910\nblob=835 refs=1 flags=00 offset=0 packed=0 part=0 hash=e1c6cae20bcc972bdc0d2fdfa6172b4386ac3630\nblob=2569 refs=1 flags=00 offset=0 packed=0 part=0 hash=e32259786df8132d07aaa245040d7ff29320dcec\nblob=5 refs=1 flags=00 offset=0 packed=0 part=0 hash=6716a1703aa2572ee2960c5f2d6cb78bee20746f\nblob=3143 refs=1 flags=00 offset=0 packed=0 part=0 hash=6981ea589941474a59e84bb38e2cfcf75e7330f3\nblob=23763 refs=1 flags=00 offset=0 packed=0 part=0 hash=6a0d3c42379d2e48fd05fec7a6119956c1c23126\nblob=1107 refs=1 flags=00 offset=0 packed=0 part=0 hash=eb1e7fd64d84ba6e94c29a831beed3fa19e11c60\nblob=287 refs=1 flags=00 offset=0 packed=0 part=0 hash=6ba8980871c828535c0d999252fb4e81b0c327fc\nblob=2152 refs=1 flags=00 offset=0 packed=0 part=0 hash=ec3e3ae61244076f464be61e0821c2d411f2d65d\nblob=36 refs=1 flags=00 offset=0 packed=0 part=0 hash=edb74e193640b7c13630992832855f11c6cbf71b\nblob=3200 refs=1 flags=00 offset=0 packed=0 part=0 hash=ee5127b6693b13bbef311ec5f553608b0f5f3812\nblob=53515 refs=1 flags=00 offset=0 packed=0 part=0 hash=6e4afbd60d4839b628b4a3eb5f1cb7014187d92f\nblob=8048 refs=1 flags=00 offset=0 packed=0 part=0 hash=6ea1d4262993542c7c5a8f814ca003b02ded5390\nblob=60 refs=1 flags=00 offset=0 packed=0 part=0 hash=ef81509393157a4e7f48e745bb1ccf142f05352b\nblob=1141 refs=1 flags=00 offset=0 packed=0 part=0 hash=f1692720e1967eebd50812a08edf6d6bab386782\nblob=23648 refs=1 flags=00 offset=0 packed=0 part=0 hash=7354375f2f0b1b05aeb0bf3ac417859a379c02f8\nblob=1632 refs=1 flags=00 offset=0 packed=0 part=0 hash=f668676c5323d632ce8fa2ce1ed680663af20d09\nblob=7690 refs=1 flags=00 offset=0 packed=0 part=0 hash=76c11ccee16f0802899ac4b78f98e8773657d400\nblob=426 refs=1 flags=00 offset=0 packed=0 part=0 hash=799cea9b181cca472fbadae09532573b555e587d\nblob=39 refs=1 flags=00 offset=0 packed=0 part=0 hash=fa8e80cef239cc17a5dd89fe6e2e3634ba8283ce\nblob=8253 refs=1 flags=00 offset=0 packed=0 part=0 hash=fb81f1f903301f7bd81ab5318c91b91de0844d2d\nblob=31434 refs=1 flags=00 offset=0 packed=0 part=0 hash=fb1f9a4c6c6914b67e6bce05b908e816bafef816\nblob=1322 refs=1 flags=00 offset=0 packed=0 part=0 hash=7c36bf4e1e17823e284a2f3c99797e8e85d63de2\nblob=3621 refs=1 flags=00 offset=0 packed=0 part=0 hash=7c4aceb9fa64ceaeae055e1c0e2c24d45837f399\nblob=708 refs=1 flags=00 offset=0 packed=0 part=0 hash=7eb315ba59bb182aee9addf3d978670c28b23db4\nblob=3142 refs=1 flags=00 offset=0 packed=0 part=0 hash=ff596fa0680a1126b391036faf9fc6bf9dc0e392\nblob=3825 refs=1 flags=00 offset=0 packed=0 part=0 hash=7f3a3e761999d98eb9282478c6544d8232e99fbf\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true
+        }
+      },
+      "exact": true
+    },
+    {
+      "seed": 0,
+      "config": "unknown_section",
+      "stop": 9,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        }
+      },
+      "exact": true
+    },
+    {
+      "seed": 0,
+      "config": "unknown_section",
+      "stop": 11,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        }
+      },
+      "exact": true
+    },
+    {
+      "seed": 0,
+      "config": "missing",
+      "stop": -1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "add=83 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        },
+        "native": {
+          "status": 0,
+          "stdout": "add=83 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        }
+      },
+      "exact": true
+    },
+    {
+      "seed": 0,
+      "config": "missing",
+      "stop": 9,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "add=83 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        },
+        "native": {
+          "status": 0,
+          "stdout": "add=83 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        }
+      },
+      "exact": true
+    },
+    {
+      "seed": 0,
+      "config": "missing",
+      "stop": 11,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "add=83 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        },
+        "native": {
+          "status": 0,
+          "stdout": "add=83 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        }
+      },
+      "exact": true
+    },
+    {
+      "seed": 1,
+      "config": "valid",
+      "stop": -1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true
+        }
+      },
+      "exact": true
+    },
+    {
+      "seed": 1,
+      "config": "valid",
+      "stop": 9,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        }
+      },
+      "exact": true
+    },
+    {
+      "seed": 1,
+      "config": "valid",
+      "stop": 11,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        }
+      },
+      "exact": true
+    },
+    {
+      "seed": 1,
+      "config": "exclude_all",
+      "stop": -1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true
+        }
+      },
+      "exact": true
+    },
+    {
+      "seed": 1,
+      "config": "exclude_all",
+      "stop": 9,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        }
+      },
+      "exact": true
+    },
+    {
+      "seed": 1,
+      "config": "exclude_all",
+      "stop": 11,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        }
+      },
+      "exact": true
+    },
+    {
+      "seed": 1,
+      "config": "malformed",
+      "stop": -1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true
+        }
+      },
+      "exact": true
+    },
+    {
+      "seed": 1,
+      "config": "malformed",
+      "stop": 9,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        }
+      },
+      "exact": true
+    },
+    {
+      "seed": 1,
+      "config": "malformed",
+      "stop": 11,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        }
+      },
+      "exact": true
+    },
+    {
+      "seed": 1,
+      "config": "invalid_utf8",
+      "stop": -1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true
+        }
+      },
+      "exact": true
+    },
+    {
+      "seed": 1,
+      "config": "invalid_utf8",
+      "stop": 9,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        }
+      },
+      "exact": true
+    },
+    {
+      "seed": 1,
+      "config": "invalid_utf8",
+      "stop": 11,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        }
+      },
+      "exact": true
+    },
+    {
+      "seed": 1,
+      "config": "utf16",
+      "stop": -1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true
+        }
+      },
+      "exact": true
+    },
+    {
+      "seed": 1,
+      "config": "utf16",
+      "stop": 9,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        }
+      },
+      "exact": true
+    },
+    {
+      "seed": 1,
+      "config": "utf16",
+      "stop": 11,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        }
+      },
+      "exact": true
+    },
+    {
+      "seed": 1,
+      "config": "unknown_section",
+      "stop": -1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true
+        }
+      },
+      "exact": true
+    },
+    {
+      "seed": 1,
+      "config": "unknown_section",
+      "stop": 9,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        }
+      },
+      "exact": true
+    },
+    {
+      "seed": 1,
+      "config": "unknown_section",
+      "stop": 11,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        }
+      },
+      "exact": true
+    },
+    {
+      "seed": 1,
+      "config": "missing",
+      "stop": -1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "add=83 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        },
+        "native": {
+          "status": 0,
+          "stdout": "add=83 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        }
+      },
+      "exact": true
+    },
+    {
+      "seed": 1,
+      "config": "missing",
+      "stop": 9,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "add=83 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        },
+        "native": {
+          "status": 0,
+          "stdout": "add=83 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        }
+      },
+      "exact": true
+    },
+    {
+      "seed": 1,
+      "config": "missing",
+      "stop": 11,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "add=83 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        },
+        "native": {
+          "status": 0,
+          "stdout": "add=83 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        }
+      },
+      "exact": true
+    },
+    {
+      "seed": 2,
+      "config": "valid",
+      "stop": -1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true
+        }
+      },
+      "exact": true
+    },
+    {
+      "seed": 2,
+      "config": "valid",
+      "stop": 9,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        }
+      },
+      "exact": true
+    },
+    {
+      "seed": 2,
+      "config": "valid",
+      "stop": 11,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        }
+      },
+      "exact": true
+    },
+    {
+      "seed": 2,
+      "config": "exclude_all",
+      "stop": -1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true
+        }
+      },
+      "exact": true
+    },
+    {
+      "seed": 2,
+      "config": "exclude_all",
+      "stop": 9,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        }
+      },
+      "exact": true
+    },
+    {
+      "seed": 2,
+      "config": "exclude_all",
+      "stop": 11,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        }
+      },
+      "exact": true
+    },
+    {
+      "seed": 2,
+      "config": "malformed",
+      "stop": -1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true
+        }
+      },
+      "exact": true
+    },
+    {
+      "seed": 2,
+      "config": "malformed",
+      "stop": 9,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        }
+      },
+      "exact": true
+    },
+    {
+      "seed": 2,
+      "config": "malformed",
+      "stop": 11,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        }
+      },
+      "exact": true
+    },
+    {
+      "seed": 2,
+      "config": "invalid_utf8",
+      "stop": -1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true
+        }
+      },
+      "exact": true
+    },
+    {
+      "seed": 2,
+      "config": "invalid_utf8",
+      "stop": 9,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        }
+      },
+      "exact": true
+    },
+    {
+      "seed": 2,
+      "config": "invalid_utf8",
+      "stop": 11,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        }
+      },
+      "exact": true
+    },
+    {
+      "seed": 2,
+      "config": "utf16",
+      "stop": -1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true
+        }
+      },
+      "exact": true
+    },
+    {
+      "seed": 2,
+      "config": "utf16",
+      "stop": 9,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        }
+      },
+      "exact": true
+    },
+    {
+      "seed": 2,
+      "config": "utf16",
+      "stop": 11,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        }
+      },
+      "exact": true
+    },
+    {
+      "seed": 2,
+      "config": "unknown_section",
+      "stop": -1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true
+        }
+      },
+      "exact": true
+    },
+    {
+      "seed": 2,
+      "config": "unknown_section",
+      "stop": 9,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        }
+      },
+      "exact": true
+    },
+    {
+      "seed": 2,
+      "config": "unknown_section",
+      "stop": 11,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        }
+      },
+      "exact": true
+    },
+    {
+      "seed": 2,
+      "config": "missing",
+      "stop": -1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "add=83 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        },
+        "native": {
+          "status": 0,
+          "stdout": "add=83 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        }
+      },
+      "exact": true
+    },
+    {
+      "seed": 2,
+      "config": "missing",
+      "stop": 9,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "add=83 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        },
+        "native": {
+          "status": 0,
+          "stdout": "add=83 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        }
+      },
+      "exact": true
+    },
+    {
+      "seed": 2,
+      "config": "missing",
+      "stop": 11,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "add=83 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        },
+        "native": {
+          "status": 0,
+          "stdout": "add=83 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false
+        }
+      },
+      "exact": true
+    }
+  ]
+}

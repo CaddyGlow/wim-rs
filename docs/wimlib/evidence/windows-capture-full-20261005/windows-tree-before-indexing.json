@@ -1,0 +1,50 @@
+{
+  "source": "\\\\?\\GLOBALROOT\\Device\\HarddiskVolumeShadowCopy4\\Windows",
+  "snapshot": {
+    "ID": "{401E1486-E33E-4C0E-88CF-1A71C27CB566}",
+    "DeviceObject": "\\\\?\\GLOBALROOT\\Device\\HarddiskVolumeShadowCopy4"
+  },
+  "artifacts": {
+    "original.dll": "fc740013e9ae9dee84fbe8ee47bb09dbeb7b3a535c2882e90764d66fa4a1c209",
+    "rust.dll": "a087f7fbc117e96659559c0b0c08b9c0ff89b6ee25f1a76ede3033413ce4fee1",
+    "capture.exe": "1e41685504a7b6c77c48f7a49803544a28b12deb5abd74f91f8b9cb68e982861",
+    "extract.exe": "2b68f28a16e012b45a221297470b769879a5830cb9582749e9b1b0b68c9f09b0"
+  },
+  "cases": [
+    {
+      "label": "original",
+      "result": {
+        "exit": 0,
+        "signal": null,
+        "stdout": "sd 276 010014901400000034000000f800000054000000010600000000000550000000b589fb381984c2cb5c6c236d5700776ec0026487010600000000000550000000b589fb381984c2cb5c6c236d5700776ec00264870200a4000600000000002800ff011f00010600000000000550000000b589fb381984c2cb5c6c236d5700776ec002648700001800a90012000102000000000005200000002002000000001400a900120001010000000000051200000000001800a90012000102000000000005200000002102000000001800a9001200010200000000000f020000000100000000001800a9001200010200000000000f020000000200000002001c000100000002c0140016010d00010100000000000100000000\r\nstream null 1766741\r\ntree 0\r\n",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "add": [
+        "add 0"
+      ],
+      "nodes": 157120,
+      "manifest_sha256": "e7569eabfe3cc6f0ef19dde18e2cb722ce69881500c1a2676066d5e10148105e"
+    },
+    {
+      "label": "rust",
+      "result": {
+        "exit": null,
+        "signal": -1,
+        "stdout": "dos 0041004300540049004f004e007e0031002e004500580045\r\nsd 104 010014841400000020000000600000002c000000010100000000000512000000010100000000000512000000020034000200000000101400ff011f0001010000000000051200000000101800ff011f00010200000000000520000000200200000200080000000000\r\nstream null 362\r\n",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "add": [
+        "add 0"
+      ],
+      "nodes": 19610,
+      "manifest_sha256": "90e641b03cb94c7de6ebdc0e67648895c0c9baed77d6d527e464ea97188d4b13"
+    }
+  ],
+  "extra": [],
+  "differences": [],
+  "passes": false,
+  "note": "Pre-optimization traversal stopped by the test operator after excessive repeated binding scans; no mismatching emitted metadata, but traversal incomplete.",
+  "missing_count": 137510
+}

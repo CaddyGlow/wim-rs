@@ -1,0 +1,42 @@
+   Compiling wim-format v0.1.0 (/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/wim-format)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.09s
+     Running tests/platform_text.rs (crates/wimlib-rs/target/debug/deps/platform_text-515ddc1ea89f6acb)
+
+running 3 tests
+test malformed_utf8_bytes_fail_instead_of_being_replaced ... ok
+test paired_and_unpaired_surrogates_preserve_original_conversion_rules ... ok
+test every_single_utf16_code_unit_round_trips_including_surrogates_and_noncharacters ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s
+
+     Running tests/xml.rs (crates/wimlib-rs/target/debug/deps/xml-4c2e20995c1c9564)
+
+running 6 tests
+test indexed_paths_create_only_next_sibling_and_delete_empty_values ... ok
+test names_collide_case_sensitively_and_validation_precedes_image_check ... ok
+test preserves_unknown_attributes_mixed_text_and_utf16_supplementary_characters ... ok
+test setter_replaces_attributes_and_children_and_removal_bad_syntax_is_noop ... ok
+test syntax_failure_retains_created_ancestors ... ok
+test rejects_bad_indices_encryption_numeric_entities_and_excess_depth ... ok
+
+test result: ok. 6 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/xml_platform_bytes.rs (crates/wimlib-rs/target/debug/deps/xml_platform_bytes-c7bf6e6ba838b48f)
+
+running 5 tests
+test image_selection_and_append_preserve_raw_platform_properties ... ok
+test non_utf8_element_names_and_values_remain_in_the_owned_tree_until_removed ... ok
+test raw_byte_names_participate_in_exact_collision_and_selector_rules ... ok
+test separately_encoded_surrogate_pair_normalizes_after_utf16_resource_roundtrip ... ok
+test unpaired_surrogates_survive_utf16_xml_parsing_and_writing ... ok
+
+test result: ok. 5 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/xml_writer.rs (crates/wimlib-rs/target/debug/deps/xml_writer-34545be08cd9c72e)
+
+running 2 tests
+test byte_statistics_update_does_not_invalidate_image_positions ... ok
+test selected_images_preserve_unknown_data_and_renumber_indices ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

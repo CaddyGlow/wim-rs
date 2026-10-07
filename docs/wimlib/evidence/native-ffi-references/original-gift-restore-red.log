@@ -1,0 +1,23 @@
+open-dest 0
+state before 1 0 1 1
+resource 488 488 211408 1 1 1 0 e7ed174bb9e25edc1c49d5f075e57ffa477c90f1
+resource 70400 70400 208 1 1 0 0 ac8df8818111d307257e92048393166ce3477b77
+resource 70400 70400 141008 1 1 0 0 1ebbf58306132df710c5438779b06c1c5c6bc375
+resource 70400 70400 70608 1 1 0 0 bfee75608a3d7dd451bccc9c21ae323a3944e6e1
+lookup 0
+verify-before 0
+gift 0
+state gifted 1 0 1 1
+resource 488 488 211408 1 1 1 0 e7ed174bb9e25edc1c49d5f075e57ffa477c90f1
+lookup 0
+verify-gifted 0
+open-restore 0
+reference 0
+state after 1 0 1 1
+resource 488 488 211408 1 1 1 0 e7ed174bb9e25edc1c49d5f075e57ffa477c90f1
+resource 70400 70400 208 1 1 0 0 ac8df8818111d307257e92048393166ce3477b77
+resource 70400 70400 141008 1 1 0 0 1ebbf58306132df710c5438779b06c1c5c6bc375
+resource 70400 70400 70608 1 1 0 0 bfee75608a3d7dd451bccc9c21ae323a3944e6e1
+lookup 0
+verify-after 0
+wim-reference-original: src/resource.c:785: read_blob_prefix: Assertion `blob->blob_location < (sizeof(handlers) / sizeof((handlers)[0])) && handlers[blob->blob_location] != ((void *)0)' failed.

@@ -1,0 +1,11 @@
+   Compiling wim-codec v0.1.0 (/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/wim-codec)
+   Compiling wim-ffi v0.1.0 (/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/wim-ffi)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.22s
+     Running tests/compress.rs (crates/wimlib-rs/target/debug/deps/compress-1c0474f962b2c982)
+
+running 2 tests
+test compressor_factory_preserves_output_pointer_on_validation_failure ... ok
+test compressor_reuses_handle_after_capacity_and_maximum_failures ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s
+

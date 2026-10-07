@@ -1,0 +1,34 @@
+{
+  "source": "/home/rick/.cache/windows-capture-recovery-20261005/prepared-source.qcow2",
+  "source_sha256": "bf7bc3cecfb9d696c82f0869cd8f3c04c74bd644648c690405132399f4091a0a",
+  "backing_sources": [
+    {
+      "path": "/home/rick/projects-caddy/windows-uup/vm-state/qcow2-source-1005/overlay.qcow2",
+      "sha256": "cfa75f1df1c0328f2ef19e0752678a6714d67ed0787c75626d7d2f8cfebb5762"
+    },
+    {
+      "path": "/home/rick/.vm-base/win11-secure/disk.qcow2",
+      "sha256": "35299ad09fb946d45374f9637ccc4344acb3488b482d9571854d007b666b2abe"
+    }
+  ],
+  "partition_index": 3,
+  "partition_guid": "1ae7a557-11d3-4b74-b404-80ee70ed67f2",
+  "volume_aliases": [
+    "\\??\\C:"
+  ],
+  "source_shutdown": true,
+  "generalized": true,
+  "preparation_evidence": "/data/cache/qcow2-recovered-20261005/source-generalization-recovered.json",
+  "preparation_evidence_sha256": "da18c79f9f6c88cf752ab1a92eaed84f3357f2658c243dc24eb801c07cc36251",
+  "alias_markers": [
+    {
+      "alias": "\\??\\C:",
+      "relative_path": "NativeDiskCapture",
+      "file_id": 562949953455898,
+      "volume_serial": 873875793,
+      "observation_evidence": "/home/rick/projects-caddy/windows-uup/docs/wimlib/evidence/qcow2-capture-20261005/source-fixture-metadata.json",
+      "observation_evidence_sha256": "28a113f7654314f9f4c2c370670449b96f21a1c825bb713725316aa5a620eeae",
+      "mapping_attestation": "Historical successful QGA MetadataProbe observed C:\\NativeDiskCapture before the original source generalization. Newly read recovered descendant retains identical full file index, lower-32-bit Win32 volume serial and original GPT partition GUID. Observed operator mapping is corroborated, not authenticated by content hashes; historical observation is not a new guest observation."
+    }
+  ]
+}

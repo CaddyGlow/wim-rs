@@ -1,0 +1,11 @@
+{
+  "native_before_after_sha256": "700fbcf062871be852c734733bbce0bba5532f4183d81751a977ea541ce403b2",
+  "complete_native_reports_byte_identical": true,
+  "native_file_paths": [
+    "\\alias-0.bin",
+    "\\scratch long object identifier challenge 0.bin"
+  ],
+  "online_get_opens_checked": 3,
+  "full64_and_full_file_reference_exact": true,
+  "scope": "Independent clean offline file metadata comparison plus GET-only byte/ref correlation; initialized scratch control only."
+}

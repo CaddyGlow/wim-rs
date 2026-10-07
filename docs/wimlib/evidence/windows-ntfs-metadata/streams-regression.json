@@ -1,0 +1,1387 @@
+{
+  "scope": "Native-written WIM; real NTFS ADS, directory streams, empty streams, hardlinks, compression, sparse attributes, symlinks/junctions, selected paths, globbing and fixups",
+  "input_sha256": "92c0b25342fb140ce5c9e3d5c8c1256f9d0aa6d0e583274580cfc3e8b5e69544",
+  "source_preserved": true,
+  "setup": {
+    "exit": 0,
+    "signal": null,
+    "stdout_base64": "cHJlcGFyZWQNCg==",
+    "stdout": "prepared\r\n",
+    "stderr": "",
+    "stdout_truncated": false
+  },
+  "capture": {
+    "exit": 0,
+    "signal": null,
+    "stdout_base64": "Y3JlYXRlIDANCnNjYW4gOSAwIDAgMCAwMDVjDQpzY2FuIDExIDAgMCAwIDAwNTgwMDNhMDA1YzAwNmUwMDY1MDA3MzAwNzQwMDY1MDA2NA0KYWRkIDANCmluZm8gMCAxIDENCmJlZm9yZQ0KYmxvYiAxIDAgMSANCmJsb2IgMCAxMiAyIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDANCmJsb2IgMCAxMyAyIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDANCmJsb2IgMCAxMzEwNzIgMSAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwDQpibG9iIDAgMyAxIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDANCmJsb2IgMCAxMzEwNzIgMSAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwDQpibG9iIDAgOTIgMSBlNTBmOTZlOGYwNWVlNWYxZWZmYmU0NmE0ZGU0YzVmYmM4Mjc3NjdmDQpibG9iIDAgNDAgMSAyN2RjZTI3ZWMyMzRlMjk0ZTcxNDAzYWE5MTU1Y2IzYzNlNmYwNTUwDQpibG9iIDAgNjggMSAzMzA1YzIxZTFmMGQ4NzM5NDhlOTk1ZWY0NjJiOGVhMzYwNTE2MTBkDQpibG9iIDAgNTYgMSBiYzUxZGUxZWEzMGQxZmM3MGZlNGMyOWVlYjkzM2Y4Nzk3NmM2ZTEyDQpsb29rdXAgMA0Kbm9kZSAwMDVjIDE2IDEgMCAxMjYyNDAxNDQ1OjAgMTI2MjQwMTQ0NTowIDE3OTEwNzMwNjc6NzAwMDQ3MDANCmRvcyBudWxsDQpzZCAxNjQgMDEwMDA0ODQxNDAwMDAwMDI0MDAwMDAwMDAwMDAwMDAzMDAwMDAwMDAxMDIwMDAwMDAwMDAwMDUyMDAwMDAwMDIwMDIwMDAwMDEwMTAwMDAwMDAwMDAwNTEyMDAwMDAwMDIwMDc0MDAwNTAwMDAwMDAwMTMxODAwZmYwMTFmMDAwMTAyMDAwMDAwMDAwMDA1MjAwMDAwMDAyMDAyMDAwMDAwMTMxNDAwZmYwMTFmMDAwMTAxMDAwMDAwMDAwMDA1MTIwMDAwMDAwMDEzMTgwMGE5MDAxMjAwMDEwMjAwMDAwMDAwMDAwNTIwMDAwMDAwMjEwMjAwMDAwMDEwMTQwMGJmMDExMzAwMDEwMTAwMDAwMDAwMDAwNTBiMDAwMDAwMDAxYjE0MDAwMDAwMDFlMDAxMDEwMDAwMDAwMDAwMDUwYjAwMDAwMA0Kc3RyZWFtIG51bGwgMA0Kbm9kZSAwMDVjMDA2MTAwNjIwMDczMDA2ZjAwNmMwMDc1MDA3NDAwNjUgMTA1NiAxIDAgMTc5MTA3MzA2NzoxODYxNDgwMCAxNzkxMDczMDY3OjE4NjE0ODAwIDE3OTEwNzMwNjc6MTg2MTQ4MDANCmRvcyAwMDYxMDA2MjAwNzMwMDZmMDA2YzAwNzUwMDc0MDA2NQ0Kc2QgMTQ0IDAxMDAwNDg0MTQwMDAwMDAyNDAwMDAwMDAwMDAwMDAwMzAwMDAwMDAwMTAyMDAwMDAwMDAwMDA1MjAwMDAwMDAyMDAyMDAwMDAxMDEwMDAwMDAwMDAwMDUxMjAwMDAwMDAyMDA2MDAwMDQwMDAwMDAwMDEwMTgwMGZmMDExZjAwMDEwMjAwMDAwMDAwMDAwNTIwMDAwMDAwMjAwMjAwMDAwMDEwMTQwMGZmMDExZjAwMDEwMTAwMDAwMDAwMDAwNTEyMDAwMDAwMDAxMDE4MDBhOTAwMTIwMDAxMDIwMDAwMDAwMDAwMDUyMDAwMDAwMDIxMDIwMDAwMDAxMDE0MDBiZjAxMTMwMDAxMDEwMDAwMDAwMDAwMDUwYjAwMDAwMA0Kc3RyZWFtIG51bGwgOTINCm5vZGUgMDA1YzAwNjEwMDZjMDA2OTAwNjEwMDczIDMyIDIgMiAxMjYyNDAxNDQ1OjAgMTI2MjQwMTQ0NTowIDE3OTEwNzMwNjY6OTM0NDU5MTAwDQpkb3MgbnVsbA0Kc2QgMTQ0IDAxMDAwNDg0MTQwMDAwMDAyNDAwMDAwMDAwMDAwMDAwMzAwMDAwMDAwMTAyMDAwMDAwMDAwMDA1MjAwMDAwMDAyMDAyMDAwMDAxMDEwMDAwMDAwMDAwMDUxMjAwMDAwMDAyMDA2MDAwMDQwMDAwMDAwMDEwMTgwMGZmMDExZjAwMDEwMjAwMDAwMDAwMDAwNTIwMDAwMDAwMjAwMjAwMDAwMDEwMTQwMGZmMDExZjAwMDEwMTAwMDAwMDAwMDAwNTEyMDAwMDAwMDAxMDE4MDBhOTAwMTIwMDAxMDIwMDAwMDAwMDAwMDUyMDAwMDAwMDIxMDIwMDAwMDAxMDE0MDBiZjAxMTMwMDAxMDEwMDAwMDAwMDAwMDUwYjAwMDAwMA0Kc3RyZWFtIG51bGwgMTINCnN0cmVhbSAwMDYxMDA2NDAwNzMgMTMNCnN0cmVhbSAwMDY1MDA2ZDAwNzAwMDc0MDA3OSAwDQpub2RlIDAwNWMwMDYzMDA2ZjAwNmQwMDcwMDA3MjAwNjUwMDczMDA3MzAwNjUwMDY0IDIwODAgMSAwIDEyNjI0MDE0NDU6MCAxMjYyNDAxNDQ1OjAgMTc5MTA3MzA2Njo5NDI5MDU3MDANCmRvcyAwMDQzMDA0ZjAwNGQwMDUwMDA1MjAwNDUwMDdlMDAzMQ0Kc2QgMTQ0IDAxMDAwNDg0MTQwMDAwMDAyNDAwMDAwMDAwMDAwMDAwMzAwMDAwMDAwMTAyMDAwMDAwMDAwMDA1MjAwMDAwMDAyMDAyMDAwMDAxMDEwMDAwMDAwMDAwMDUxMjAwMDAwMDAyMDA2MDAwMDQwMDAwMDAwMDEwMTgwMGZmMDExZjAwMDEwMjAwMDAwMDAwMDAwNTIwMDAwMDAwMjAwMjAwMDAwMDEwMTQwMGZmMDExZjAwMDEwMTAwMDAwMDAwMDAwNTEyMDAwMDAwMDAxMDE4MDBhOTAwMTIwMDAxMDIwMDAwMDAwMDAwMDUyMDAwMDAwMDIxMDIwMDAwMDAxMDE0MDBiZjAxMTMwMDAxMDEwMDAwMDAwMDAwMDUwYjAwMDAwMA0Kc3RyZWFtIG51bGwgMTMxMDcyDQpub2RlIDAwNWMwMDY0MDA2MTAwNmUwMDY3MDA2YzAwNjkwMDZlMDA2NyAxMDU2IDEgMCAxNzkxMDczMDY3OjM5MzE1ODAwIDE3OTEwNzMwNjc6MzkzMTU4MDAgMTc5MTA3MzA2NzozOTMxNTgwMA0KZG9zIDAwNjQwMDYxMDA2ZTAwNjcwMDZjMDA2OTAwNmUwMDY3DQpzZCAxNDQgMDEwMDA0ODQxNDAwMDAwMDI0MDAwMDAwMDAwMDAwMDAzMDAwMDAwMDAxMDIwMDAwMDAwMDAwMDUyMDAwMDAwMDIwMDIwMDAwMDEwMTAwMDAwMDAwMDAwNTEyMDAwMDAwMDIwMDYwMDAwNDAwMDAwMDAwMTAxODAwZmYwMTFmMDAwMTAyMDAwMDAwMDAwMDA1MjAwMDAwMDAyMDAyMDAwMDAwMTAxNDAwZmYwMTFmMDAwMTAxMDAwMDAwMDAwMDA1MTIwMDAwMDAwMDEwMTgwMGE5MDAxMjAwMDEwMjAwMDAwMDAwMDAwNTIwMDAwMDAwMjEwMjAwMDAwMDEwMTQwMGJmMDExMzAwMDEwMTAwMDAwMDAwMDAwNTBiMDAwMDAwDQpzdHJlYW0gbnVsbCA0MA0Kbm9kZSAwMDVjMDA2YTAwNzUwMDZlMDA2MzAwNzQwMDY5MDA2ZjAwNmUgMTA0MCAxIDAgMTc5MTA3MzA2NzoyOTE1NzcwMCAxNzkxMDczMDY3OjI5MTU3NzAwIDE3OTEwNzMwNjc6MjkxNTc3MDANCmRvcyAwMDZhMDA3NTAwNmUwMDYzMDA3NDAwNjkwMDZmMDA2ZQ0Kc2QgMTY0IDAxMDAwNDg0MTQwMDAwMDAyNDAwMDAwMDAwMDAwMDAwMzAwMDAwMDAwMTAyMDAwMDAwMDAwMDA1MjAwMDAwMDAyMDAyMDAwMDAxMDEwMDAwMDAwMDAwMDUxMjAwMDAwMDAyMDA3NDAwMDUwMDAwMDAwMDEzMTgwMGZmMDExZjAwMDEwMjAwMDAwMDAwMDAwNTIwMDAwMDAwMjAwMjAwMDAwMDEzMTQwMGZmMDExZjAwMDEwMTAwMDAwMDAwMDAwNTEyMDAwMDAwMDAxMzE4MDBhOTAwMTIwMDAxMDIwMDAwMDAwMDAwMDUyMDAwMDAwMDIxMDIwMDAwMDAxMDE0MDBiZjAxMTMwMDAxMDEwMDAwMDAwMDAwMDUwYjAwMDAwMDAwMWIxNDAwMDAwMDAxZTAwMTAxMDAwMDAwMDAwMDA1MGIwMDAwMDANCnN0cmVhbSBudWxsIDU2DQpub2RlIDAwNWMwMDZlMDA2NTAwNzMwMDc0MDA2NTAwNjQgNDggMSAxIDEyNjI0MDE0NDU6MCAxMjYyNDAxNDQ1OjAgMTc5MTA3MzA2Nzo3MDAwNDcwMA0KZG9zIDAwNmUwMDY1MDA3MzAwNzQwMDY1MDA2NA0Kc2QgMTY0IDAxMDAwNDg0MTQwMDAwMDAyNDAwMDAwMDAwMDAwMDAwMzAwMDAwMDAwMTAyMDAwMDAwMDAwMDA1MjAwMDAwMDAyMDAyMDAwMDAxMDEwMDAwMDAwMDAwMDUxMjAwMDAwMDAyMDA3NDAwMDUwMDAwMDAwMDEzMTgwMGZmMDExZjAwMDEwMjAwMDAwMDAwMDAwNTIwMDAwMDAwMjAwMjAwMDAwMDEzMTQwMGZmMDExZjAwMDEwMTAwMDAwMDAwMDAwNTEyMDAwMDAwMDAxMzE4MDBhOTAwMTIwMDAxMDIwMDAwMDAwMDAwMDUyMDAwMDAwMDIxMDIwMDAwMDAxMDE0MDBiZjAxMTMwMDAxMDEwMDAwMDAwMDAwMDUwYjAwMDAwMDAwMWIxNDAwMDAwMDAxZTAwMTAxMDAwMDAwMDAwMDA1MGIwMDAwMDANCnN0cmVhbSBudWxsIDANCnN0cmVhbSAwMDY0MDA2OTAwNzIwMDY1MDA2MzAwNzQwMDZmMDA3MjAwNzkwMDJkMDA2MTAwNjQwMDczIDMNCm5vZGUgMDA1YzAwNmUwMDY1MDA3MzAwNzQwMDY1MDA2NDAwNWMwMDY2MDA2OTAwNmMwMDY1MDAyZDAwZTk2ZjIyIDMyIDIgMiAxMjYyNDAxNDQ1OjAgMTI2MjQwMTQ0NTowIDE3OTEwNzMwNjY6OTM0NDU5MTAwDQpkb3MgMDA0NjAwNDkwMDRjMDA0NTAwMmQwMDdlMDAzMQ0Kc2QgMTQ0IDAxMDAwNDg0MTQwMDAwMDAyNDAwMDAwMDAwMDAwMDAwMzAwMDAwMDAwMTAyMDAwMDAwMDAwMDA1MjAwMDAwMDAyMDAyMDAwMDAxMDEwMDAwMDAwMDAwMDUxMjAwMDAwMDAyMDA2MDAwMDQwMDAwMDAwMDEwMTgwMGZmMDExZjAwMDEwMjAwMDAwMDAwMDAwNTIwMDAwMDAwMjAwMjAwMDAwMDEwMTQwMGZmMDExZjAwMDEwMTAwMDAwMDAwMDAwNTEyMDAwMDAwMDAxMDE4MDBhOTAwMTIwMDAxMDIwMDAwMDAwMDAwMDUyMDAwMDAwMDIxMDIwMDAwMDAxMDE0MDBiZjAxMTMwMDAxMDEwMDAwMDAwMDAwMDUwYjAwMDAwMA0Kc3RyZWFtIG51bGwgMTINCnN0cmVhbSAwMDYxMDA2NDAwNzMgMTMNCnN0cmVhbSAwMDY1MDA2ZDAwNzAwMDc0MDA3OSAwDQpub2RlIDAwNWMwMDcyMDA2NTAwNmMwMDYxMDA3NDAwNjkwMDc2MDA2NSAxMDU2IDEgMCAxNzkxMDczMDY3OjY1MTE0MDAgMTc5MTA3MzA2Nzo2NTExNDAwIDE3OTEwNzMwNjc6NjUxMTQwMA0KZG9zIDAwNzIwMDY1MDA2YzAwNjEwMDc0MDA2OTAwNzYwMDY1DQpzZCAxNDQgMDEwMDA0ODQxNDAwMDAwMDI0MDAwMDAwMDAwMDAwMDAzMDAwMDAwMDAxMDIwMDAwMDAwMDAwMDUyMDAwMDAwMDIwMDIwMDAwMDEwMTAwMDAwMDAwMDAwNTEyMDAwMDAwMDIwMDYwMDAwNDAwMDAwMDAwMTAxODAwZmYwMTFmMDAwMTAyMDAwMDAwMDAwMDA1MjAwMDAwMDAyMDAyMDAwMDAwMTAxNDAwZmYwMTFmMDAwMTAxMDAwMDAwMDAwMDA1MTIwMDAwMDAwMDEwMTgwMGE5MDAxMjAwMDEwMjAwMDAwMDAwMDAwNTIwMDAwMDAwMjEwMjAwMDAwMDEwMTQwMGJmMDExMzAwMDEwMTAwMDAwMDAwMDAwNTBiMDAwMDAwDQpzdHJlYW0gbnVsbCA2OA0Kbm9kZSAwMDVjMDA3MzAwNzAwMDYxMDA3MjAwNzMwMDY1IDU0NCAxIDAgMTI2MjQwMTQ0NTowIDEyNjI0MDE0NDU6MCAxNzkxMDczMDY2Ojk5NDM0OTIwMA0KZG9zIDAwNzMwMDcwMDA2MTAwNzIwMDczMDA2NQ0Kc2QgMTQ0IDAxMDAwNDg0MTQwMDAwMDAyNDAwMDAwMDAwMDAwMDAwMzAwMDAwMDAwMTAyMDAwMDAwMDAwMDA1MjAwMDAwMDAyMDAyMDAwMDAxMDEwMDAwMDAwMDAwMDUxMjAwMDAwMDAyMDA2MDAwMDQwMDAwMDAwMDEwMTgwMGZmMDExZjAwMDEwMjAwMDAwMDAwMDAwNTIwMDAwMDAwMjAwMjAwMDAwMDEwMTQwMGZmMDExZjAwMDEwMTAwMDAwMDAwMDAwNTEyMDAwMDAwMDAxMDE4MDBhOTAwMTIwMDAxMDIwMDAwMDAwMDAwMDUyMDAwMDAwMDIxMDIwMDAwMDAxMDE0MDBiZjAxMTMwMDAxMDEwMDAwMDAwMDAwMDUwYjAwMDAwMA0Kc3RyZWFtIG51bGwgMTMxMDcyDQp0cmVlIDANCndyaXRlIDANCmFmdGVyDQpibG9iIDEgMCAxIA0KYmxvYiAwIDEyIDIgODg5MjU3NTBlM2FkZDYwZjg3Y2FiNTM0ZmI2ZTQxM2U1Njg2ODY5ZQ0KYmxvYiAwIDEzIDIgMTRmOTcyMDAwOTM0ZWVmMjljYmQwYWVmZDljNzJjZmY0NjM1YmU4YQ0KYmxvYiAwIDkyIDEgZTUwZjk2ZThmMDVlZTVmMWVmZmJlNDZhNGRlNGM1ZmJjODI3NzY3Zg0KYmxvYiAwIDEzMTA3MiAyIDY3ZGZkMTlmM2ViMzY0OWQ2ZjNmNjYzMWU0NGQwYmQzNmI4ZDhkMTkNCmJsb2IgMCA0MCAxIDI3ZGNlMjdlYzIzNGUyOTRlNzE0MDNhYTkxNTVjYjNjM2U2ZjA1NTANCmJsb2IgMCAzIDEgNzAzNzgwNzE5OGMyMmE3ZDJiMDgwNzM3MWQ3NjM3NzlhODRmZGZjZg0KYmxvYiAwIDY4IDEgMzMwNWMyMWUxZjBkODczOTQ4ZTk5NWVmNDYyYjhlYTM2MDUxNjEwZA0KYmxvYiAwIDU2IDEgYmM1MWRlMWVhMzBkMWZjNzBmZTRjMjllZWI5MzNmODc5NzZjNmUxMg0KbG9va3VwIDANCg==",
+    "stdout": "create 0\r\nscan 9 0 0 0 005c\r\nscan 11 0 0 0 0058003a005c006e00650073007400650064\r\nadd 0\r\ninfo 0 1 1\r\nbefore\r\nblob 1 0 1 \r\nblob 0 12 2 0000000000000000000000000000000000000000\r\nblob 0 13 2 0000000000000000000000000000000000000000\r\nblob 0 131072 1 0000000000000000000000000000000000000000\r\nblob 0 3 1 0000000000000000000000000000000000000000\r\nblob 0 131072 1 0000000000000000000000000000000000000000\r\nblob 0 92 1 e50f96e8f05ee5f1effbe46a4de4c5fbc827767f\r\nblob 0 40 1 27dce27ec234e294e71403aa9155cb3c3e6f0550\r\nblob 0 68 1 3305c21e1f0d873948e995ef462b8ea36051610d\r\nblob 0 56 1 bc51de1ea30d1fc70fe4c29eeb933f87976c6e12\r\nlookup 0\r\nnode 005c 16 1 0 1262401445:0 1262401445:0 1791073067:70004700\r\ndos null\r\nsd 164 010004841400000024000000000000003000000001020000000000052000000020020000010100000000000512000000020074000500000000131800ff011f000102000000000005200000002002000000131400ff011f0001010000000000051200000000131800a90012000102000000000005200000002102000000101400bf01130001010000000000050b000000001b1400000001e001010000000000050b000000\r\nstream null 0\r\nnode 005c006100620073006f006c007500740065 1056 1 0 1791073067:18614800 1791073067:18614800 1791073067:18614800\r\ndos 006100620073006f006c007500740065\r\nsd 144 010004841400000024000000000000003000000001020000000000052000000020020000010100000000000512000000020060000400000000101800ff011f000102000000000005200000002002000000101400ff011f0001010000000000051200000000101800a90012000102000000000005200000002102000000101400bf01130001010000000000050b000000\r\nstream null 92\r\nnode 005c0061006c006900610073 32 2 2 1262401445:0 1262401445:0 1791073066:934459100\r\ndos null\r\nsd 144 010004841400000024000000000000003000000001020000000000052000000020020000010100000000000512000000020060000400000000101800ff011f000102000000000005200000002002000000101400ff011f0001010000000000051200000000101800a90012000102000000000005200000002102000000101400bf01130001010000000000050b000000\r\nstream null 12\r\nstream 006100640073 13\r\nstream 0065006d007000740079 0\r\nnode 005c0063006f006d0070007200650073007300650064 2080 1 0 1262401445:0 1262401445:0 1791073066:942905700\r\ndos 0043004f004d005000520045007e0031\r\nsd 144 010004841400000024000000000000003000000001020000000000052000000020020000010100000000000512000000020060000400000000101800ff011f000102000000000005200000002002000000101400ff011f0001010000000000051200000000101800a90012000102000000000005200000002102000000101400bf01130001010000000000050b000000\r\nstream null 131072\r\nnode 005c00640061006e0067006c0069006e0067 1056 1 0 1791073067:39315800 1791073067:39315800 1791073067:39315800\r\ndos 00640061006e0067006c0069006e0067\r\nsd 144 010004841400000024000000000000003000000001020000000000052000000020020000010100000000000512000000020060000400000000101800ff011f000102000000000005200000002002000000101400ff011f0001010000000000051200000000101800a90012000102000000000005200000002102000000101400bf01130001010000000000050b000000\r\nstream null 40\r\nnode 005c006a0075006e006300740069006f006e 1040 1 0 1791073067:29157700 1791073067:29157700 1791073067:29157700\r\ndos 006a0075006e006300740069006f006e\r\nsd 164 010004841400000024000000000000003000000001020000000000052000000020020000010100000000000512000000020074000500000000131800ff011f000102000000000005200000002002000000131400ff011f0001010000000000051200000000131800a90012000102000000000005200000002102000000101400bf01130001010000000000050b000000001b1400000001e001010000000000050b000000\r\nstream null 56\r\nnode 005c006e00650073007400650064 48 1 1 1262401445:0 1262401445:0 1791073067:70004700\r\ndos 006e00650073007400650064\r\nsd 164 010004841400000024000000000000003000000001020000000000052000000020020000010100000000000512000000020074000500000000131800ff011f000102000000000005200000002002000000131400ff011f0001010000000000051200000000131800a90012000102000000000005200000002102000000101400bf01130001010000000000050b000000001b1400000001e001010000000000050b000000\r\nstream null 0\r\nstream 006400690072006500630074006f00720079002d006100640073 3\r\nnode 005c006e00650073007400650064005c00660069006c0065002d00e96f22 32 2 2 1262401445:0 1262401445:0 1791073066:934459100\r\ndos 00460049004c0045002d007e0031\r\nsd 144 010004841400000024000000000000003000000001020000000000052000000020020000010100000000000512000000020060000400000000101800ff011f000102000000000005200000002002000000101400ff011f0001010000000000051200000000101800a90012000102000000000005200000002102000000101400bf01130001010000000000050b000000\r\nstream null 12\r\nstream 006100640073 13\r\nstream 0065006d007000740079 0\r\nnode 005c00720065006c00610074006900760065 1056 1 0 1791073067:6511400 1791073067:6511400 1791073067:6511400\r\ndos 00720065006c00610074006900760065\r\nsd 144 010004841400000024000000000000003000000001020000000000052000000020020000010100000000000512000000020060000400000000101800ff011f000102000000000005200000002002000000101400ff011f0001010000000000051200000000101800a90012000102000000000005200000002102000000101400bf01130001010000000000050b000000\r\nstream null 68\r\nnode 005c007300700061007200730065 544 1 0 1262401445:0 1262401445:0 1791073066:994349200\r\ndos 007300700061007200730065\r\nsd 144 010004841400000024000000000000003000000001020000000000052000000020020000010100000000000512000000020060000400000000101800ff011f000102000000000005200000002002000000101400ff011f0001010000000000051200000000101800a90012000102000000000005200000002102000000101400bf01130001010000000000050b000000\r\nstream null 131072\r\ntree 0\r\nwrite 0\r\nafter\r\nblob 1 0 1 \r\nblob 0 12 2 88925750e3add60f87cab534fb6e413e5686869e\r\nblob 0 13 2 14f972000934eef29cbd0aefd9c72cff4635be8a\r\nblob 0 92 1 e50f96e8f05ee5f1effbe46a4de4c5fbc827767f\r\nblob 0 131072 2 67dfd19f3eb3649d6f3f6631e44d0bd36b8d8d19\r\nblob 0 40 1 27dce27ec234e294e71403aa9155cb3c3e6f0550\r\nblob 0 3 1 7037807198c22a7d2b0807371d763779a84fdfcf\r\nblob 0 68 1 3305c21e1f0d873948e995ef462b8ea36051610d\r\nblob 0 56 1 bc51de1ea30d1fc70fe4c29eeb933f87976c6e12\r\nlookup 0\r\n",
+    "stderr": "",
+    "stdout_truncated": false
+  },
+  "dll_sha256": "1f0ec6764a43dce10057d724c4840296e5180243f2da01deeb77e58f1ef41d80",
+  "original_dll_sha256": "fc740013e9ae9dee84fbe8ee47bb09dbeb7b3a535c2882e90764d66fa4a1c209",
+  "probe_sha256": "359da166235c4ab2b6a8db4699502e90f2720a5dc8ec7d6f5783a2f1bceafb38",
+  "cases": [
+    {
+      "name": "whole",
+      "flags": 0,
+      "paths": [],
+      "original": {
+        "result": {
+          "exit": 0,
+          "signal": null,
+          "stdout_base64": "b3BlbiAwDQpleHRyYWN0IDANCg==",
+          "stdout": "open 0\r\nextract 0\r\n",
+          "stderr": "",
+          "stdout_truncated": false
+        },
+        "inventory": [
+          {
+            "Path": "",
+            "Directory": true,
+            "Attributes": 16,
+            "Creation": 633979982450000000,
+            "Write": 633979982450000000,
+            "SDDL": "O:BAG:SYD:AI(A;OICIID;FA;;;BA)(A;OICIID;FA;;;SY)(A;OICIID;0x1200a9;;;BU)(A;ID;0x1301bf;;;AU)(A;OICIIOID;SDGXGWGR;;;AU)",
+            "Target": {},
+            "Streams": []
+          },
+          {
+            "Path": "\\absolute",
+            "Directory": false,
+            "Attributes": 1056,
+            "Creation": {},
+            "Write": {},
+            "SDDL": {},
+            "Target": "<EXTRACTION-ROOT>\\nested\\file-\u00e9\u6f22",
+            "Streams": []
+          },
+          {
+            "Path": "\\alias",
+            "Directory": false,
+            "Attributes": 32,
+            "Creation": 633979982450000000,
+            "Write": 633979982450000000,
+            "SDDL": "O:BAG:SYD:AI(A;ID;FA;;;BA)(A;ID;FA;;;SY)(A;ID;0x1200a9;;;BU)(A;ID;0x1301bf;;;AU)",
+            "Target": {},
+            "Streams": [
+              {
+                "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+                "Name": "empty",
+                "Size": 0
+              },
+              {
+                "Hash": "0BDD573429FD2F66598B5BF40EB1C8DFD6D46DED7667590E81AA92435B3DD568",
+                "Name": "ads",
+                "Size": 13
+              },
+              {
+                "Hash": "E48C1DF893EC62D44A0B40CA2364BC08134F03FAFF53DD34DF1F1D708F13D60F",
+                "Name": ":$DATA",
+                "Size": 12
+              }
+            ]
+          },
+          {
+            "Path": "\\compressed",
+            "Directory": false,
+            "Attributes": 2080,
+            "Creation": 633979982450000000,
+            "Write": 633979982450000000,
+            "SDDL": "O:BAG:SYD:AI(A;ID;FA;;;BA)(A;ID;FA;;;SY)(A;ID;0x1200a9;;;BU)(A;ID;0x1301bf;;;AU)",
+            "Target": {},
+            "Streams": [
+              {
+                "Hash": "FA43239BCEE7B97CA62F007CC68487560A39E19F74F3DDE7486DB3F98DF8E471",
+                "Name": ":$DATA",
+                "Size": 131072
+              }
+            ]
+          },
+          {
+            "Path": "\\dangling",
+            "Directory": false,
+            "Attributes": 1056,
+            "Creation": {},
+            "Write": {},
+            "SDDL": {},
+            "Target": "missing",
+            "Streams": []
+          },
+          {
+            "Path": "\\junction",
+            "Directory": true,
+            "Attributes": 1040,
+            "Creation": {},
+            "Write": {},
+            "SDDL": {},
+            "Target": "<EXTRACTION-ROOT>\\nested",
+            "Streams": []
+          },
+          {
+            "Path": "\\nested",
+            "Directory": true,
+            "Attributes": 48,
+            "Creation": 633979982450000000,
+            "Write": 633979982450000000,
+            "SDDL": "O:BAG:SYD:AI(A;OICIID;FA;;;BA)(A;OICIID;FA;;;SY)(A;OICIID;0x1200a9;;;BU)(A;ID;0x1301bf;;;AU)(A;OICIIOID;SDGXGWGR;;;AU)",
+            "Target": {},
+            "Streams": []
+          },
+          {
+            "Path": "\\nested\\file-\u00e9\u6f22",
+            "Directory": false,
+            "Attributes": 32,
+            "Creation": 633979982450000000,
+            "Write": 633979982450000000,
+            "SDDL": "O:BAG:SYD:AI(A;ID;FA;;;BA)(A;ID;FA;;;SY)(A;ID;0x1200a9;;;BU)(A;ID;0x1301bf;;;AU)",
+            "Target": {},
+            "Streams": [
+              {
+                "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+                "Name": "empty",
+                "Size": 0
+              },
+              {
+                "Hash": "0BDD573429FD2F66598B5BF40EB1C8DFD6D46DED7667590E81AA92435B3DD568",
+                "Name": "ads",
+                "Size": 13
+              },
+              {
+                "Hash": "E48C1DF893EC62D44A0B40CA2364BC08134F03FAFF53DD34DF1F1D708F13D60F",
+                "Name": ":$DATA",
+                "Size": 12
+              }
+            ]
+          },
+          {
+            "Path": "\\relative",
+            "Directory": false,
+            "Attributes": 1056,
+            "Creation": {},
+            "Write": {},
+            "SDDL": {},
+            "Target": "nested\\file-\u00e9\u6f22",
+            "Streams": []
+          },
+          {
+            "Path": "\\sparse",
+            "Directory": false,
+            "Attributes": 544,
+            "Creation": 633979982450000000,
+            "Write": 633979982450000000,
+            "SDDL": "O:BAG:SYD:AI(A;ID;FA;;;BA)(A;ID;FA;;;SY)(A;ID;0x1200a9;;;BU)(A;ID;0x1301bf;;;AU)",
+            "Target": {},
+            "Streams": [
+              {
+                "Hash": "FA43239BCEE7B97CA62F007CC68487560A39E19F74F3DDE7486DB3F98DF8E471",
+                "Name": ":$DATA",
+                "Size": 131072
+              }
+            ]
+          }
+        ]
+      },
+      "rust": {
+        "result": {
+          "exit": 0,
+          "signal": null,
+          "stdout_base64": "b3BlbiAwDQpleHRyYWN0IDANCg==",
+          "stdout": "open 0\r\nextract 0\r\n",
+          "stderr": "",
+          "stdout_truncated": false
+        },
+        "inventory": [
+          {
+            "Path": "",
+            "Directory": true,
+            "Attributes": 16,
+            "Creation": 633979982450000000,
+            "Write": 633979982450000000,
+            "SDDL": "O:BAG:SYD:AI(A;OICIID;FA;;;BA)(A;OICIID;FA;;;SY)(A;OICIID;0x1200a9;;;BU)(A;ID;0x1301bf;;;AU)(A;OICIIOID;SDGXGWGR;;;AU)",
+            "Target": {},
+            "Streams": []
+          },
+          {
+            "Path": "\\absolute",
+            "Directory": false,
+            "Attributes": 1056,
+            "Creation": {},
+            "Write": {},
+            "SDDL": {},
+            "Target": "<EXTRACTION-ROOT>\\nested\\file-\u00e9\u6f22",
+            "Streams": []
+          },
+          {
+            "Path": "\\alias",
+            "Directory": false,
+            "Attributes": 32,
+            "Creation": 633979982450000000,
+            "Write": 633979982450000000,
+            "SDDL": "O:BAG:SYD:AI(A;ID;FA;;;BA)(A;ID;FA;;;SY)(A;ID;0x1200a9;;;BU)(A;ID;0x1301bf;;;AU)",
+            "Target": {},
+            "Streams": [
+              {
+                "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+                "Name": "empty",
+                "Size": 0
+              },
+              {
+                "Hash": "0BDD573429FD2F66598B5BF40EB1C8DFD6D46DED7667590E81AA92435B3DD568",
+                "Name": "ads",
+                "Size": 13
+              },
+              {
+                "Hash": "E48C1DF893EC62D44A0B40CA2364BC08134F03FAFF53DD34DF1F1D708F13D60F",
+                "Name": ":$DATA",
+                "Size": 12
+              }
+            ]
+          },
+          {
+            "Path": "\\compressed",
+            "Directory": false,
+            "Attributes": 2080,
+            "Creation": 633979982450000000,
+            "Write": 633979982450000000,
+            "SDDL": "O:BAG:SYD:AI(A;ID;FA;;;BA)(A;ID;FA;;;SY)(A;ID;0x1200a9;;;BU)(A;ID;0x1301bf;;;AU)",
+            "Target": {},
+            "Streams": [
+              {
+                "Hash": "FA43239BCEE7B97CA62F007CC68487560A39E19F74F3DDE7486DB3F98DF8E471",
+                "Name": ":$DATA",
+                "Size": 131072
+              }
+            ]
+          },
+          {
+            "Path": "\\dangling",
+            "Directory": false,
+            "Attributes": 1056,
+            "Creation": {},
+            "Write": {},
+            "SDDL": {},
+            "Target": "missing",
+            "Streams": []
+          },
+          {
+            "Path": "\\junction",
+            "Directory": true,
+            "Attributes": 1040,
+            "Creation": {},
+            "Write": {},
+            "SDDL": {},
+            "Target": "<EXTRACTION-ROOT>\\nested",
+            "Streams": []
+          },
+          {
+            "Path": "\\nested",
+            "Directory": true,
+            "Attributes": 48,
+            "Creation": 633979982450000000,
+            "Write": 633979982450000000,
+            "SDDL": "O:BAG:SYD:AI(A;OICIID;FA;;;BA)(A;OICIID;FA;;;SY)(A;OICIID;0x1200a9;;;BU)(A;ID;0x1301bf;;;AU)(A;OICIIOID;SDGXGWGR;;;AU)",
+            "Target": {},
+            "Streams": []
+          },
+          {
+            "Path": "\\nested\\file-\u00e9\u6f22",
+            "Directory": false,
+            "Attributes": 32,
+            "Creation": 633979982450000000,
+            "Write": 633979982450000000,
+            "SDDL": "O:BAG:SYD:AI(A;ID;FA;;;BA)(A;ID;FA;;;SY)(A;ID;0x1200a9;;;BU)(A;ID;0x1301bf;;;AU)",
+            "Target": {},
+            "Streams": [
+              {
+                "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+                "Name": "empty",
+                "Size": 0
+              },
+              {
+                "Hash": "0BDD573429FD2F66598B5BF40EB1C8DFD6D46DED7667590E81AA92435B3DD568",
+                "Name": "ads",
+                "Size": 13
+              },
+              {
+                "Hash": "E48C1DF893EC62D44A0B40CA2364BC08134F03FAFF53DD34DF1F1D708F13D60F",
+                "Name": ":$DATA",
+                "Size": 12
+              }
+            ]
+          },
+          {
+            "Path": "\\relative",
+            "Directory": false,
+            "Attributes": 1056,
+            "Creation": {},
+            "Write": {},
+            "SDDL": {},
+            "Target": "nested\\file-\u00e9\u6f22",
+            "Streams": []
+          },
+          {
+            "Path": "\\sparse",
+            "Directory": false,
+            "Attributes": 544,
+            "Creation": 633979982450000000,
+            "Write": 633979982450000000,
+            "SDDL": "O:BAG:SYD:AI(A;ID;FA;;;BA)(A;ID;FA;;;SY)(A;ID;0x1200a9;;;BU)(A;ID;0x1301bf;;;AU)",
+            "Target": {},
+            "Streams": [
+              {
+                "Hash": "FA43239BCEE7B97CA62F007CC68487560A39E19F74F3DDE7486DB3F98DF8E471",
+                "Name": ":$DATA",
+                "Size": 131072
+              }
+            ]
+          }
+        ]
+      },
+      "equal": true
+    },
+    {
+      "name": "whole-no-fix",
+      "flags": 512,
+      "paths": [],
+      "original": {
+        "result": {
+          "exit": 0,
+          "signal": null,
+          "stdout_base64": "b3BlbiAwDQpleHRyYWN0IDANCg==",
+          "stdout": "open 0\r\nextract 0\r\n",
+          "stderr": "",
+          "stdout_truncated": false
+        },
+        "inventory": [
+          {
+            "Path": "",
+            "Directory": true,
+            "Attributes": 16,
+            "Creation": 633979982450000000,
+            "Write": 633979982450000000,
+            "SDDL": "O:BAG:SYD:AI(A;OICIID;FA;;;BA)(A;OICIID;FA;;;SY)(A;OICIID;0x1200a9;;;BU)(A;ID;0x1301bf;;;AU)(A;OICIIOID;SDGXGWGR;;;AU)",
+            "Target": {},
+            "Streams": []
+          },
+          {
+            "Path": "\\absolute",
+            "Directory": false,
+            "Attributes": 1056,
+            "Creation": {},
+            "Write": {},
+            "SDDL": {},
+            "Target": "X:\\nested\\file-\u00e9\u6f22",
+            "Streams": []
+          },
+          {
+            "Path": "\\alias",
+            "Directory": false,
+            "Attributes": 32,
+            "Creation": 633979982450000000,
+            "Write": 633979982450000000,
+            "SDDL": "O:BAG:SYD:AI(A;ID;FA;;;BA)(A;ID;FA;;;SY)(A;ID;0x1200a9;;;BU)(A;ID;0x1301bf;;;AU)",
+            "Target": {},
+            "Streams": [
+              {
+                "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+                "Name": "empty",
+                "Size": 0
+              },
+              {
+                "Hash": "0BDD573429FD2F66598B5BF40EB1C8DFD6D46DED7667590E81AA92435B3DD568",
+                "Name": "ads",
+                "Size": 13
+              },
+              {
+                "Hash": "E48C1DF893EC62D44A0B40CA2364BC08134F03FAFF53DD34DF1F1D708F13D60F",
+                "Name": ":$DATA",
+                "Size": 12
+              }
+            ]
+          },
+          {
+            "Path": "\\compressed",
+            "Directory": false,
+            "Attributes": 2080,
+            "Creation": 633979982450000000,
+            "Write": 633979982450000000,
+            "SDDL": "O:BAG:SYD:AI(A;ID;FA;;;BA)(A;ID;FA;;;SY)(A;ID;0x1200a9;;;BU)(A;ID;0x1301bf;;;AU)",
+            "Target": {},
+            "Streams": [
+              {
+                "Hash": "FA43239BCEE7B97CA62F007CC68487560A39E19F74F3DDE7486DB3F98DF8E471",
+                "Name": ":$DATA",
+                "Size": 131072
+              }
+            ]
+          },
+          {
+            "Path": "\\dangling",
+            "Directory": false,
+            "Attributes": 1056,
+            "Creation": {},
+            "Write": {},
+            "SDDL": {},
+            "Target": "missing",
+            "Streams": []
+          },
+          {
+            "Path": "\\junction",
+            "Directory": true,
+            "Attributes": 1040,
+            "Creation": {},
+            "Write": {},
+            "SDDL": {},
+            "Target": "X:\\nested",
+            "Streams": []
+          },
+          {
+            "Path": "\\nested",
+            "Directory": true,
+            "Attributes": 48,
+            "Creation": 633979982450000000,
+            "Write": 633979982450000000,
+            "SDDL": "O:BAG:SYD:AI(A;OICIID;FA;;;BA)(A;OICIID;FA;;;SY)(A;OICIID;0x1200a9;;;BU)(A;ID;0x1301bf;;;AU)(A;OICIIOID;SDGXGWGR;;;AU)",
+            "Target": {},
+            "Streams": []
+          },
+          {
+            "Path": "\\nested\\file-\u00e9\u6f22",
+            "Directory": false,
+            "Attributes": 32,
+            "Creation": 633979982450000000,
+            "Write": 633979982450000000,
+            "SDDL": "O:BAG:SYD:AI(A;ID;FA;;;BA)(A;ID;FA;;;SY)(A;ID;0x1200a9;;;BU)(A;ID;0x1301bf;;;AU)",
+            "Target": {},
+            "Streams": [
+              {
+                "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+                "Name": "empty",
+                "Size": 0
+              },
+              {
+                "Hash": "0BDD573429FD2F66598B5BF40EB1C8DFD6D46DED7667590E81AA92435B3DD568",
+                "Name": "ads",
+                "Size": 13
+              },
+              {
+                "Hash": "E48C1DF893EC62D44A0B40CA2364BC08134F03FAFF53DD34DF1F1D708F13D60F",
+                "Name": ":$DATA",
+                "Size": 12
+              }
+            ]
+          },
+          {
+            "Path": "\\relative",
+            "Directory": false,
+            "Attributes": 1056,
+            "Creation": {},
+            "Write": {},
+            "SDDL": {},
+            "Target": "nested\\file-\u00e9\u6f22",
+            "Streams": []
+          },
+          {
+            "Path": "\\sparse",
+            "Directory": false,
+            "Attributes": 544,
+            "Creation": 633979982450000000,
+            "Write": 633979982450000000,
+            "SDDL": "O:BAG:SYD:AI(A;ID;FA;;;BA)(A;ID;FA;;;SY)(A;ID;0x1200a9;;;BU)(A;ID;0x1301bf;;;AU)",
+            "Target": {},
+            "Streams": [
+              {
+                "Hash": "FA43239BCEE7B97CA62F007CC68487560A39E19F74F3DDE7486DB3F98DF8E471",
+                "Name": ":$DATA",
+                "Size": 131072
+              }
+            ]
+          }
+        ]
+      },
+      "rust": {
+        "result": {
+          "exit": 0,
+          "signal": null,
+          "stdout_base64": "b3BlbiAwDQpleHRyYWN0IDANCg==",
+          "stdout": "open 0\r\nextract 0\r\n",
+          "stderr": "",
+          "stdout_truncated": false
+        },
+        "inventory": [
+          {
+            "Path": "",
+            "Directory": true,
+            "Attributes": 16,
+            "Creation": 633979982450000000,
+            "Write": 633979982450000000,
+            "SDDL": "O:BAG:SYD:AI(A;OICIID;FA;;;BA)(A;OICIID;FA;;;SY)(A;OICIID;0x1200a9;;;BU)(A;ID;0x1301bf;;;AU)(A;OICIIOID;SDGXGWGR;;;AU)",
+            "Target": {},
+            "Streams": []
+          },
+          {
+            "Path": "\\absolute",
+            "Directory": false,
+            "Attributes": 1056,
+            "Creation": {},
+            "Write": {},
+            "SDDL": {},
+            "Target": "X:\\nested\\file-\u00e9\u6f22",
+            "Streams": []
+          },
+          {
+            "Path": "\\alias",
+            "Directory": false,
+            "Attributes": 32,
+            "Creation": 633979982450000000,
+            "Write": 633979982450000000,
+            "SDDL": "O:BAG:SYD:AI(A;ID;FA;;;BA)(A;ID;FA;;;SY)(A;ID;0x1200a9;;;BU)(A;ID;0x1301bf;;;AU)",
+            "Target": {},
+            "Streams": [
+              {
+                "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+                "Name": "empty",
+                "Size": 0
+              },
+              {
+                "Hash": "0BDD573429FD2F66598B5BF40EB1C8DFD6D46DED7667590E81AA92435B3DD568",
+                "Name": "ads",
+                "Size": 13
+              },
+              {
+                "Hash": "E48C1DF893EC62D44A0B40CA2364BC08134F03FAFF53DD34DF1F1D708F13D60F",
+                "Name": ":$DATA",
+                "Size": 12
+              }
+            ]
+          },
+          {
+            "Path": "\\compressed",
+            "Directory": false,
+            "Attributes": 2080,
+            "Creation": 633979982450000000,
+            "Write": 633979982450000000,
+            "SDDL": "O:BAG:SYD:AI(A;ID;FA;;;BA)(A;ID;FA;;;SY)(A;ID;0x1200a9;;;BU)(A;ID;0x1301bf;;;AU)",
+            "Target": {},
+            "Streams": [
+              {
+                "Hash": "FA43239BCEE7B97CA62F007CC68487560A39E19F74F3DDE7486DB3F98DF8E471",
+                "Name": ":$DATA",
+                "Size": 131072
+              }
+            ]
+          },
+          {
+            "Path": "\\dangling",
+            "Directory": false,
+            "Attributes": 1056,
+            "Creation": {},
+            "Write": {},
+            "SDDL": {},
+            "Target": "missing",
+            "Streams": []
+          },
+          {
+            "Path": "\\junction",
+            "Directory": true,
+            "Attributes": 1040,
+            "Creation": {},
+            "Write": {},
+            "SDDL": {},
+            "Target": "X:\\nested",
+            "Streams": []
+          },
+          {
+            "Path": "\\nested",
+            "Directory": true,
+            "Attributes": 48,
+            "Creation": 633979982450000000,
+            "Write": 633979982450000000,
+            "SDDL": "O:BAG:SYD:AI(A;OICIID;FA;;;BA)(A;OICIID;FA;;;SY)(A;OICIID;0x1200a9;;;BU)(A;ID;0x1301bf;;;AU)(A;OICIIOID;SDGXGWGR;;;AU)",
+            "Target": {},
+            "Streams": []
+          },
+          {
+            "Path": "\\nested\\file-\u00e9\u6f22",
+            "Directory": false,
+            "Attributes": 32,
+            "Creation": 633979982450000000,
+            "Write": 633979982450000000,
+            "SDDL": "O:BAG:SYD:AI(A;ID;FA;;;BA)(A;ID;FA;;;SY)(A;ID;0x1200a9;;;BU)(A;ID;0x1301bf;;;AU)",
+            "Target": {},
+            "Streams": [
+              {
+                "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+                "Name": "empty",
+                "Size": 0
+              },
+              {
+                "Hash": "0BDD573429FD2F66598B5BF40EB1C8DFD6D46DED7667590E81AA92435B3DD568",
+                "Name": "ads",
+                "Size": 13
+              },
+              {
+                "Hash": "E48C1DF893EC62D44A0B40CA2364BC08134F03FAFF53DD34DF1F1D708F13D60F",
+                "Name": ":$DATA",
+                "Size": 12
+              }
+            ]
+          },
+          {
+            "Path": "\\relative",
+            "Directory": false,
+            "Attributes": 1056,
+            "Creation": {},
+            "Write": {},
+            "SDDL": {},
+            "Target": "nested\\file-\u00e9\u6f22",
+            "Streams": []
+          },
+          {
+            "Path": "\\sparse",
+            "Directory": false,
+            "Attributes": 544,
+            "Creation": 633979982450000000,
+            "Write": 633979982450000000,
+            "SDDL": "O:BAG:SYD:AI(A;ID;FA;;;BA)(A;ID;FA;;;SY)(A;ID;0x1200a9;;;BU)(A;ID;0x1301bf;;;AU)",
+            "Target": {},
+            "Streams": [
+              {
+                "Hash": "FA43239BCEE7B97CA62F007CC68487560A39E19F74F3DDE7486DB3F98DF8E471",
+                "Name": ":$DATA",
+                "Size": 131072
+              }
+            ]
+          }
+        ]
+      },
+      "equal": true
+    },
+    {
+      "name": "preserve",
+      "flags": 0,
+      "paths": [
+        "nested\\file-\u00e9\u6f22"
+      ],
+      "original": {
+        "result": {
+          "exit": 0,
+          "signal": null,
+          "stdout_base64": "b3BlbiAwDQpleHRyYWN0IDANCg==",
+          "stdout": "open 0\r\nextract 0\r\n",
+          "stderr": "",
+          "stdout_truncated": false
+        },
+        "inventory": [
+          {
+            "Path": "",
+            "Directory": true,
+            "Attributes": 16,
+            "Creation": 633979982450000000,
+            "Write": 633979982450000000,
+            "SDDL": "O:BAG:SYD:AI(A;OICIID;FA;;;BA)(A;OICIID;FA;;;SY)(A;OICIID;0x1200a9;;;BU)(A;ID;0x1301bf;;;AU)(A;OICIIOID;SDGXGWGR;;;AU)",
+            "Target": {},
+            "Streams": []
+          },
+          {
+            "Path": "\\nested",
+            "Directory": true,
+            "Attributes": 48,
+            "Creation": 633979982450000000,
+            "Write": 633979982450000000,
+            "SDDL": "O:BAG:SYD:AI(A;OICIID;FA;;;BA)(A;OICIID;FA;;;SY)(A;OICIID;0x1200a9;;;BU)(A;ID;0x1301bf;;;AU)(A;OICIIOID;SDGXGWGR;;;AU)",
+            "Target": {},
+            "Streams": []
+          },
+          {
+            "Path": "\\nested\\file-\u00e9\u6f22",
+            "Directory": false,
+            "Attributes": 32,
+            "Creation": 633979982450000000,
+            "Write": 633979982450000000,
+            "SDDL": "O:BAG:SYD:AI(A;ID;FA;;;BA)(A;ID;FA;;;SY)(A;ID;0x1200a9;;;BU)(A;ID;0x1301bf;;;AU)",
+            "Target": {},
+            "Streams": [
+              {
+                "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+                "Name": "empty",
+                "Size": 0
+              },
+              {
+                "Hash": "0BDD573429FD2F66598B5BF40EB1C8DFD6D46DED7667590E81AA92435B3DD568",
+                "Name": "ads",
+                "Size": 13
+              },
+              {
+                "Hash": "E48C1DF893EC62D44A0B40CA2364BC08134F03FAFF53DD34DF1F1D708F13D60F",
+                "Name": ":$DATA",
+                "Size": 12
+              }
+            ]
+          }
+        ]
+      },
+      "rust": {
+        "result": {
+          "exit": 0,
+          "signal": null,
+          "stdout_base64": "b3BlbiAwDQpleHRyYWN0IDANCg==",
+          "stdout": "open 0\r\nextract 0\r\n",
+          "stderr": "",
+          "stdout_truncated": false
+        },
+        "inventory": [
+          {
+            "Path": "",
+            "Directory": true,
+            "Attributes": 16,
+            "Creation": 633979982450000000,
+            "Write": 633979982450000000,
+            "SDDL": "O:BAG:SYD:AI(A;OICIID;FA;;;BA)(A;OICIID;FA;;;SY)(A;OICIID;0x1200a9;;;BU)(A;ID;0x1301bf;;;AU)(A;OICIIOID;SDGXGWGR;;;AU)",
+            "Target": {},
+            "Streams": []
+          },
+          {
+            "Path": "\\nested",
+            "Directory": true,
+            "Attributes": 48,
+            "Creation": 633979982450000000,
+            "Write": 633979982450000000,
+            "SDDL": "O:BAG:SYD:AI(A;OICIID;FA;;;BA)(A;OICIID;FA;;;SY)(A;OICIID;0x1200a9;;;BU)(A;ID;0x1301bf;;;AU)(A;OICIIOID;SDGXGWGR;;;AU)",
+            "Target": {},
+            "Streams": []
+          },
+          {
+            "Path": "\\nested\\file-\u00e9\u6f22",
+            "Directory": false,
+            "Attributes": 32,
+            "Creation": 633979982450000000,
+            "Write": 633979982450000000,
+            "SDDL": "O:BAG:SYD:AI(A;ID;FA;;;BA)(A;ID;FA;;;SY)(A;ID;0x1200a9;;;BU)(A;ID;0x1301bf;;;AU)",
+            "Target": {},
+            "Streams": [
+              {
+                "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+                "Name": "empty",
+                "Size": 0
+              },
+              {
+                "Hash": "0BDD573429FD2F66598B5BF40EB1C8DFD6D46DED7667590E81AA92435B3DD568",
+                "Name": "ads",
+                "Size": 13
+              },
+              {
+                "Hash": "E48C1DF893EC62D44A0B40CA2364BC08134F03FAFF53DD34DF1F1D708F13D60F",
+                "Name": ":$DATA",
+                "Size": 12
+              }
+            ]
+          }
+        ]
+      },
+      "equal": true
+    },
+    {
+      "name": "flatten-hardlinks",
+      "flags": 2097152,
+      "paths": [
+        "nested\\file-\u00e9\u6f22",
+        "alias"
+      ],
+      "original": {
+        "result": {
+          "exit": 0,
+          "signal": null,
+          "stdout_base64": "b3BlbiAwDQpleHRyYWN0IDANCg==",
+          "stdout": "open 0\r\nextract 0\r\n",
+          "stderr": "",
+          "stdout_truncated": false
+        },
+        "inventory": [
+          {
+            "Path": "",
+            "Directory": true,
+            "Attributes": 16,
+            "Creation": {},
+            "Write": {},
+            "SDDL": "O:BAG:SYD:AI(A;OICIID;FA;;;BA)(A;OICIID;FA;;;SY)(A;OICIID;0x1200a9;;;BU)(A;ID;0x1301bf;;;AU)(A;OICIIOID;SDGXGWGR;;;AU)",
+            "Target": {},
+            "Streams": []
+          },
+          {
+            "Path": "\\alias",
+            "Directory": false,
+            "Attributes": 32,
+            "Creation": 633979982450000000,
+            "Write": 633979982450000000,
+            "SDDL": "O:BAG:SYD:AI(A;ID;FA;;;BA)(A;ID;FA;;;SY)(A;ID;0x1200a9;;;BU)(A;ID;0x1301bf;;;AU)",
+            "Target": {},
+            "Streams": [
+              {
+                "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+                "Name": "empty",
+                "Size": 0
+              },
+              {
+                "Hash": "0BDD573429FD2F66598B5BF40EB1C8DFD6D46DED7667590E81AA92435B3DD568",
+                "Name": "ads",
+                "Size": 13
+              },
+              {
+                "Hash": "E48C1DF893EC62D44A0B40CA2364BC08134F03FAFF53DD34DF1F1D708F13D60F",
+                "Name": ":$DATA",
+                "Size": 12
+              }
+            ]
+          },
+          {
+            "Path": "\\file-\u00e9\u6f22",
+            "Directory": false,
+            "Attributes": 32,
+            "Creation": 633979982450000000,
+            "Write": 633979982450000000,
+            "SDDL": "O:BAG:SYD:AI(A;ID;FA;;;BA)(A;ID;FA;;;SY)(A;ID;0x1200a9;;;BU)(A;ID;0x1301bf;;;AU)",
+            "Target": {},
+            "Streams": [
+              {
+                "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+                "Name": "empty",
+                "Size": 0
+              },
+              {
+                "Hash": "0BDD573429FD2F66598B5BF40EB1C8DFD6D46DED7667590E81AA92435B3DD568",
+                "Name": "ads",
+                "Size": 13
+              },
+              {
+                "Hash": "E48C1DF893EC62D44A0B40CA2364BC08134F03FAFF53DD34DF1F1D708F13D60F",
+                "Name": ":$DATA",
+                "Size": 12
+              }
+            ]
+          }
+        ]
+      },
+      "rust": {
+        "result": {
+          "exit": 0,
+          "signal": null,
+          "stdout_base64": "b3BlbiAwDQpleHRyYWN0IDANCg==",
+          "stdout": "open 0\r\nextract 0\r\n",
+          "stderr": "",
+          "stdout_truncated": false
+        },
+        "inventory": [
+          {
+            "Path": "",
+            "Directory": true,
+            "Attributes": 16,
+            "Creation": {},
+            "Write": {},
+            "SDDL": "O:BAG:SYD:AI(A;OICIID;FA;;;BA)(A;OICIID;FA;;;SY)(A;OICIID;0x1200a9;;;BU)(A;ID;0x1301bf;;;AU)(A;OICIIOID;SDGXGWGR;;;AU)",
+            "Target": {},
+            "Streams": []
+          },
+          {
+            "Path": "\\alias",
+            "Directory": false,
+            "Attributes": 32,
+            "Creation": 633979982450000000,
+            "Write": 633979982450000000,
+            "SDDL": "O:BAG:SYD:AI(A;ID;FA;;;BA)(A;ID;FA;;;SY)(A;ID;0x1200a9;;;BU)(A;ID;0x1301bf;;;AU)",
+            "Target": {},
+            "Streams": [
+              {
+                "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+                "Name": "empty",
+                "Size": 0
+              },
+              {
+                "Hash": "0BDD573429FD2F66598B5BF40EB1C8DFD6D46DED7667590E81AA92435B3DD568",
+                "Name": "ads",
+                "Size": 13
+              },
+              {
+                "Hash": "E48C1DF893EC62D44A0B40CA2364BC08134F03FAFF53DD34DF1F1D708F13D60F",
+                "Name": ":$DATA",
+                "Size": 12
+              }
+            ]
+          },
+          {
+            "Path": "\\file-\u00e9\u6f22",
+            "Directory": false,
+            "Attributes": 32,
+            "Creation": 633979982450000000,
+            "Write": 633979982450000000,
+            "SDDL": "O:BAG:SYD:AI(A;ID;FA;;;BA)(A;ID;FA;;;SY)(A;ID;0x1200a9;;;BU)(A;ID;0x1301bf;;;AU)",
+            "Target": {},
+            "Streams": [
+              {
+                "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+                "Name": "empty",
+                "Size": 0
+              },
+              {
+                "Hash": "0BDD573429FD2F66598B5BF40EB1C8DFD6D46DED7667590E81AA92435B3DD568",
+                "Name": "ads",
+                "Size": 13
+              },
+              {
+                "Hash": "E48C1DF893EC62D44A0B40CA2364BC08134F03FAFF53DD34DF1F1D708F13D60F",
+                "Name": ":$DATA",
+                "Size": 12
+              }
+            ]
+          }
+        ]
+      },
+      "equal": true
+    },
+    {
+      "name": "glob",
+      "flags": 262144,
+      "paths": [
+        "nested\\*"
+      ],
+      "original": {
+        "result": {
+          "exit": 0,
+          "signal": null,
+          "stdout_base64": "b3BlbiAwDQpleHRyYWN0IDANCg==",
+          "stdout": "open 0\r\nextract 0\r\n",
+          "stderr": "",
+          "stdout_truncated": false
+        },
+        "inventory": [
+          {
+            "Path": "",
+            "Directory": true,
+            "Attributes": 16,
+            "Creation": 633979982450000000,
+            "Write": 633979982450000000,
+            "SDDL": "O:BAG:SYD:AI(A;OICIID;FA;;;BA)(A;OICIID;FA;;;SY)(A;OICIID;0x1200a9;;;BU)(A;ID;0x1301bf;;;AU)(A;OICIIOID;SDGXGWGR;;;AU)",
+            "Target": {},
+            "Streams": []
+          },
+          {
+            "Path": "\\nested",
+            "Directory": true,
+            "Attributes": 48,
+            "Creation": 633979982450000000,
+            "Write": 633979982450000000,
+            "SDDL": "O:BAG:SYD:AI(A;OICIID;FA;;;BA)(A;OICIID;FA;;;SY)(A;OICIID;0x1200a9;;;BU)(A;ID;0x1301bf;;;AU)(A;OICIIOID;SDGXGWGR;;;AU)",
+            "Target": {},
+            "Streams": []
+          },
+          {
+            "Path": "\\nested\\file-\u00e9\u6f22",
+            "Directory": false,
+            "Attributes": 32,
+            "Creation": 633979982450000000,
+            "Write": 633979982450000000,
+            "SDDL": "O:BAG:SYD:AI(A;ID;FA;;;BA)(A;ID;FA;;;SY)(A;ID;0x1200a9;;;BU)(A;ID;0x1301bf;;;AU)",
+            "Target": {},
+            "Streams": [
+              {
+                "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+                "Name": "empty",
+                "Size": 0
+              },
+              {
+                "Hash": "0BDD573429FD2F66598B5BF40EB1C8DFD6D46DED7667590E81AA92435B3DD568",
+                "Name": "ads",
+                "Size": 13
+              },
+              {
+                "Hash": "E48C1DF893EC62D44A0B40CA2364BC08134F03FAFF53DD34DF1F1D708F13D60F",
+                "Name": ":$DATA",
+                "Size": 12
+              }
+            ]
+          }
+        ]
+      },
+      "rust": {
+        "result": {
+          "exit": 0,
+          "signal": null,
+          "stdout_base64": "b3BlbiAwDQpleHRyYWN0IDANCg==",
+          "stdout": "open 0\r\nextract 0\r\n",
+          "stderr": "",
+          "stdout_truncated": false
+        },
+        "inventory": [
+          {
+            "Path": "",
+            "Directory": true,
+            "Attributes": 16,
+            "Creation": 633979982450000000,
+            "Write": 633979982450000000,
+            "SDDL": "O:BAG:SYD:AI(A;OICIID;FA;;;BA)(A;OICIID;FA;;;SY)(A;OICIID;0x1200a9;;;BU)(A;ID;0x1301bf;;;AU)(A;OICIIOID;SDGXGWGR;;;AU)",
+            "Target": {},
+            "Streams": []
+          },
+          {
+            "Path": "\\nested",
+            "Directory": true,
+            "Attributes": 48,
+            "Creation": 633979982450000000,
+            "Write": 633979982450000000,
+            "SDDL": "O:BAG:SYD:AI(A;OICIID;FA;;;BA)(A;OICIID;FA;;;SY)(A;OICIID;0x1200a9;;;BU)(A;ID;0x1301bf;;;AU)(A;OICIIOID;SDGXGWGR;;;AU)",
+            "Target": {},
+            "Streams": []
+          },
+          {
+            "Path": "\\nested\\file-\u00e9\u6f22",
+            "Directory": false,
+            "Attributes": 32,
+            "Creation": 633979982450000000,
+            "Write": 633979982450000000,
+            "SDDL": "O:BAG:SYD:AI(A;ID;FA;;;BA)(A;ID;FA;;;SY)(A;ID;0x1200a9;;;BU)(A;ID;0x1301bf;;;AU)",
+            "Target": {},
+            "Streams": [
+              {
+                "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+                "Name": "empty",
+                "Size": 0
+              },
+              {
+                "Hash": "0BDD573429FD2F66598B5BF40EB1C8DFD6D46DED7667590E81AA92435B3DD568",
+                "Name": "ads",
+                "Size": 13
+              },
+              {
+                "Hash": "E48C1DF893EC62D44A0B40CA2364BC08134F03FAFF53DD34DF1F1D708F13D60F",
+                "Name": ":$DATA",
+                "Size": 12
+              }
+            ]
+          }
+        ]
+      },
+      "equal": true
+    },
+    {
+      "name": "flatten-directory",
+      "flags": 2097152,
+      "paths": [
+        "nested"
+      ],
+      "original": {
+        "result": {
+          "exit": 0,
+          "signal": null,
+          "stdout_base64": "b3BlbiAwDQpleHRyYWN0IDANCg==",
+          "stdout": "open 0\r\nextract 0\r\n",
+          "stderr": "",
+          "stdout_truncated": false
+        },
+        "inventory": [
+          {
+            "Path": "",
+            "Directory": true,
+            "Attributes": 16,
+            "Creation": {},
+            "Write": {},
+            "SDDL": "O:BAG:SYD:AI(A;OICIID;FA;;;BA)(A;OICIID;FA;;;SY)(A;OICIID;0x1200a9;;;BU)(A;ID;0x1301bf;;;AU)(A;OICIIOID;SDGXGWGR;;;AU)",
+            "Target": {},
+            "Streams": []
+          },
+          {
+            "Path": "\\nested",
+            "Directory": true,
+            "Attributes": 48,
+            "Creation": 633979982450000000,
+            "Write": 633979982450000000,
+            "SDDL": "O:BAG:SYD:AI(A;OICIID;FA;;;BA)(A;OICIID;FA;;;SY)(A;OICIID;0x1200a9;;;BU)(A;ID;0x1301bf;;;AU)(A;OICIIOID;SDGXGWGR;;;AU)",
+            "Target": {},
+            "Streams": []
+          },
+          {
+            "Path": "\\nested\\file-\u00e9\u6f22",
+            "Directory": false,
+            "Attributes": 32,
+            "Creation": 633979982450000000,
+            "Write": 633979982450000000,
+            "SDDL": "O:BAG:SYD:AI(A;ID;FA;;;BA)(A;ID;FA;;;SY)(A;ID;0x1200a9;;;BU)(A;ID;0x1301bf;;;AU)",
+            "Target": {},
+            "Streams": [
+              {
+                "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+                "Name": "empty",
+                "Size": 0
+              },
+              {
+                "Hash": "0BDD573429FD2F66598B5BF40EB1C8DFD6D46DED7667590E81AA92435B3DD568",
+                "Name": "ads",
+                "Size": 13
+              },
+              {
+                "Hash": "E48C1DF893EC62D44A0B40CA2364BC08134F03FAFF53DD34DF1F1D708F13D60F",
+                "Name": ":$DATA",
+                "Size": 12
+              }
+            ]
+          }
+        ]
+      },
+      "rust": {
+        "result": {
+          "exit": 0,
+          "signal": null,
+          "stdout_base64": "b3BlbiAwDQpleHRyYWN0IDANCg==",
+          "stdout": "open 0\r\nextract 0\r\n",
+          "stderr": "",
+          "stdout_truncated": false
+        },
+        "inventory": [
+          {
+            "Path": "",
+            "Directory": true,
+            "Attributes": 16,
+            "Creation": {},
+            "Write": {},
+            "SDDL": "O:BAG:SYD:AI(A;OICIID;FA;;;BA)(A;OICIID;FA;;;SY)(A;OICIID;0x1200a9;;;BU)(A;ID;0x1301bf;;;AU)(A;OICIIOID;SDGXGWGR;;;AU)",
+            "Target": {},
+            "Streams": []
+          },
+          {
+            "Path": "\\nested",
+            "Directory": true,
+            "Attributes": 48,
+            "Creation": 633979982450000000,
+            "Write": 633979982450000000,
+            "SDDL": "O:BAG:SYD:AI(A;OICIID;FA;;;BA)(A;OICIID;FA;;;SY)(A;OICIID;0x1200a9;;;BU)(A;ID;0x1301bf;;;AU)(A;OICIIOID;SDGXGWGR;;;AU)",
+            "Target": {},
+            "Streams": []
+          },
+          {
+            "Path": "\\nested\\file-\u00e9\u6f22",
+            "Directory": false,
+            "Attributes": 32,
+            "Creation": 633979982450000000,
+            "Write": 633979982450000000,
+            "SDDL": "O:BAG:SYD:AI(A;ID;FA;;;BA)(A;ID;FA;;;SY)(A;ID;0x1200a9;;;BU)(A;ID;0x1301bf;;;AU)",
+            "Target": {},
+            "Streams": [
+              {
+                "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+                "Name": "empty",
+                "Size": 0
+              },
+              {
+                "Hash": "0BDD573429FD2F66598B5BF40EB1C8DFD6D46DED7667590E81AA92435B3DD568",
+                "Name": "ads",
+                "Size": 13
+              },
+              {
+                "Hash": "E48C1DF893EC62D44A0B40CA2364BC08134F03FAFF53DD34DF1F1D708F13D60F",
+                "Name": ":$DATA",
+                "Size": 12
+              }
+            ]
+          }
+        ]
+      },
+      "equal": true
+    },
+    {
+      "name": "selected-links",
+      "flags": 256,
+      "paths": [
+        "relative",
+        "absolute",
+        "junction",
+        "dangling"
+      ],
+      "original": {
+        "result": {
+          "exit": 0,
+          "signal": null,
+          "stdout_base64": "b3BlbiAwDQpleHRyYWN0IDANCg==",
+          "stdout": "open 0\r\nextract 0\r\n",
+          "stderr": "",
+          "stdout_truncated": false
+        },
+        "inventory": [
+          {
+            "Path": "",
+            "Directory": true,
+            "Attributes": 16,
+            "Creation": 633979982450000000,
+            "Write": 633979982450000000,
+            "SDDL": "O:BAG:SYD:AI(A;OICIID;FA;;;BA)(A;OICIID;FA;;;SY)(A;OICIID;0x1200a9;;;BU)(A;ID;0x1301bf;;;AU)(A;OICIIOID;SDGXGWGR;;;AU)",
+            "Target": {},
+            "Streams": []
+          },
+          {
+            "Path": "\\absolute",
+            "Directory": false,
+            "Attributes": 1056,
+            "Creation": {},
+            "Write": {},
+            "SDDL": {},
+            "Target": "<EXTRACTION-ROOT>\\nested\\file-\u00e9\u6f22",
+            "Streams": []
+          },
+          {
+            "Path": "\\dangling",
+            "Directory": false,
+            "Attributes": 1056,
+            "Creation": {},
+            "Write": {},
+            "SDDL": {},
+            "Target": "missing",
+            "Streams": []
+          },
+          {
+            "Path": "\\junction",
+            "Directory": true,
+            "Attributes": 1040,
+            "Creation": {},
+            "Write": {},
+            "SDDL": {},
+            "Target": "<EXTRACTION-ROOT>\\nested",
+            "Streams": []
+          },
+          {
+            "Path": "\\relative",
+            "Directory": false,
+            "Attributes": 1056,
+            "Creation": {},
+            "Write": {},
+            "SDDL": {},
+            "Target": "nested\\file-\u00e9\u6f22",
+            "Streams": []
+          }
+        ]
+      },
+      "rust": {
+        "result": {
+          "exit": 0,
+          "signal": null,
+          "stdout_base64": "b3BlbiAwDQpleHRyYWN0IDANCg==",
+          "stdout": "open 0\r\nextract 0\r\n",
+          "stderr": "",
+          "stdout_truncated": false
+        },
+        "inventory": [
+          {
+            "Path": "",
+            "Directory": true,
+            "Attributes": 16,
+            "Creation": 633979982450000000,
+            "Write": 633979982450000000,
+            "SDDL": "O:BAG:SYD:AI(A;OICIID;FA;;;BA)(A;OICIID;FA;;;SY)(A;OICIID;0x1200a9;;;BU)(A;ID;0x1301bf;;;AU)(A;OICIIOID;SDGXGWGR;;;AU)",
+            "Target": {},
+            "Streams": []
+          },
+          {
+            "Path": "\\absolute",
+            "Directory": false,
+            "Attributes": 1056,
+            "Creation": {},
+            "Write": {},
+            "SDDL": {},
+            "Target": "<EXTRACTION-ROOT>\\nested\\file-\u00e9\u6f22",
+            "Streams": []
+          },
+          {
+            "Path": "\\dangling",
+            "Directory": false,
+            "Attributes": 1056,
+            "Creation": {},
+            "Write": {},
+            "SDDL": {},
+            "Target": "missing",
+            "Streams": []
+          },
+          {
+            "Path": "\\junction",
+            "Directory": true,
+            "Attributes": 1040,
+            "Creation": {},
+            "Write": {},
+            "SDDL": {},
+            "Target": "<EXTRACTION-ROOT>\\nested",
+            "Streams": []
+          },
+          {
+            "Path": "\\relative",
+            "Directory": false,
+            "Attributes": 1056,
+            "Creation": {},
+            "Write": {},
+            "SDDL": {},
+            "Target": "nested\\file-\u00e9\u6f22",
+            "Streams": []
+          }
+        ]
+      },
+      "equal": true
+    },
+    {
+      "name": "missing",
+      "flags": 0,
+      "paths": [
+        "absent"
+      ],
+      "original": {
+        "result": {
+          "exit": 1,
+          "signal": null,
+          "stdout_base64": "b3BlbiAwDQpleHRyYWN0IDQ5DQo=",
+          "stdout": "open 0\r\nextract 49\r\n",
+          "stderr": "",
+          "stdout_truncated": false
+        },
+        "inventory": []
+      },
+      "rust": {
+        "result": {
+          "exit": 1,
+          "signal": null,
+          "stdout_base64": "b3BlbiAwDQpleHRyYWN0IDQ5DQo=",
+          "stdout": "open 0\r\nextract 49\r\n",
+          "stderr": "",
+          "stdout_truncated": false
+        },
+        "inventory": []
+      },
+      "equal": true
+    },
+    {
+      "name": "strict-glob-missing",
+      "flags": 786432,
+      "paths": [
+        "absent\\*"
+      ],
+      "original": {
+        "result": {
+          "exit": 1,
+          "signal": null,
+          "stdout_base64": "b3BlbiAwDQpleHRyYWN0IDQ5DQo=",
+          "stdout": "open 0\r\nextract 49\r\n",
+          "stderr": "",
+          "stdout_truncated": false
+        },
+        "inventory": []
+      },
+      "rust": {
+        "result": {
+          "exit": 1,
+          "signal": null,
+          "stdout_base64": "b3BlbiAwDQpleHRyYWN0IDQ5DQo=",
+          "stdout": "open 0\r\nextract 49\r\n",
+          "stderr": "",
+          "stdout_truncated": false
+        },
+        "inventory": []
+      },
+      "equal": true
+    }
+  ],
+  "differences": []
+}

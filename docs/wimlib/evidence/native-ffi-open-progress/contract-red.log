@@ -1,0 +1,3 @@
+/nix/store/bikkd0jwr8jkd3r6r5mcr28fm17yvb0z-binutils-2.46/bin/ld.bfd: /tmp/ccue0W0J.o: in function `main':
+probe-open-progress-api.c:(.text+0x147): undefined reference to `wimlib_open_wim_with_progress'
+collect2: error: ld returned 1 exit status

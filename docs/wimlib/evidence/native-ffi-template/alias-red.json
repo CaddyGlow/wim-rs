@@ -1,0 +1,889 @@
+{
+  "cases": 16,
+  "exact": 12,
+  "library_sha256": {
+    "original": "62eb9c97f9ec6e3dae6c7e995b0a65a2e94a4d9b41491666947ba788a15bb74a",
+    "native": "fa536e2899f1d735a6f62ec78bfdabe46c4f64de2142d3cb09b3a3e7d226baa3"
+  },
+  "results": [
+    {
+      "template_exclusion": null,
+      "same_handle": false,
+      "hardlinks": false,
+      "unlink_after_reference": false,
+      "original": {
+        "output": "prepare 0\ntemplate 0 errno 123\nblob 76810 1 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\nwrite 0\n",
+        "verify": 0,
+        "tree": [
+          {
+            "path": "",
+            "mode": 16877,
+            "uid": 1000,
+            "gid": 100,
+            "xattrs": {}
+          },
+          {
+            "path": "2f66696c65",
+            "mode": 33188,
+            "uid": 1000,
+            "gid": 100,
+            "inode_group": 0,
+            "sha1": "11642cabc223b9b3a1e812098d72df1eaa51fc0b",
+            "size": 76810,
+            "xattrs": {}
+          }
+        ],
+        "apply": 0
+      },
+      "native": {
+        "output": "prepare 0\ntemplate 0 errno 123\nblob 76810 1 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\nwrite 0\n",
+        "verify": 0,
+        "tree": [
+          {
+            "path": "",
+            "mode": 16877,
+            "uid": 1000,
+            "gid": 100,
+            "xattrs": {}
+          },
+          {
+            "path": "2f66696c65",
+            "mode": 33188,
+            "uid": 1000,
+            "gid": 100,
+            "inode_group": 0,
+            "sha1": "11642cabc223b9b3a1e812098d72df1eaa51fc0b",
+            "size": 76810,
+            "xattrs": {}
+          }
+        ],
+        "apply": 0
+      },
+      "exact": true
+    },
+    {
+      "template_exclusion": null,
+      "same_handle": false,
+      "hardlinks": false,
+      "unlink_after_reference": true,
+      "original": {
+        "output": "prepare 0\ntemplate 0 errno 123\nblob 76810 1 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\nwrite 47\n",
+        "verify": null,
+        "tree": null
+      },
+      "native": {
+        "output": "prepare 0\ntemplate 0 errno 123\nblob 76810 1 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\nwrite 47\n",
+        "verify": null,
+        "tree": null
+      },
+      "exact": true
+    },
+    {
+      "template_exclusion": null,
+      "same_handle": false,
+      "hardlinks": true,
+      "unlink_after_reference": false,
+      "original": {
+        "output": "prepare 0\ntemplate 0 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\nwrite 0\n",
+        "verify": 0,
+        "tree": [
+          {
+            "path": "",
+            "mode": 16877,
+            "uid": 1000,
+            "gid": 100,
+            "xattrs": {}
+          },
+          {
+            "path": "2f616c696173",
+            "mode": 33188,
+            "uid": 1000,
+            "gid": 100,
+            "inode_group": 0,
+            "sha1": "11642cabc223b9b3a1e812098d72df1eaa51fc0b",
+            "size": 76810,
+            "xattrs": {}
+          },
+          {
+            "path": "2f66696c65",
+            "mode": 33188,
+            "uid": 1000,
+            "gid": 100,
+            "inode_group": 0,
+            "sha1": "11642cabc223b9b3a1e812098d72df1eaa51fc0b",
+            "size": 76810,
+            "xattrs": {}
+          }
+        ],
+        "apply": 0
+      },
+      "native": {
+        "output": "prepare 0\ntemplate 0 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\nwrite 0\n",
+        "verify": 0,
+        "tree": [
+          {
+            "path": "",
+            "mode": 16877,
+            "uid": 1000,
+            "gid": 100,
+            "xattrs": {}
+          },
+          {
+            "path": "2f616c696173",
+            "mode": 33188,
+            "uid": 1000,
+            "gid": 100,
+            "inode_group": 0,
+            "sha1": "11642cabc223b9b3a1e812098d72df1eaa51fc0b",
+            "size": 76810,
+            "xattrs": {}
+          },
+          {
+            "path": "2f66696c65",
+            "mode": 33188,
+            "uid": 1000,
+            "gid": 100,
+            "inode_group": 0,
+            "sha1": "11642cabc223b9b3a1e812098d72df1eaa51fc0b",
+            "size": 76810,
+            "xattrs": {}
+          }
+        ],
+        "apply": 0
+      },
+      "exact": true
+    },
+    {
+      "template_exclusion": "alias",
+      "same_handle": false,
+      "hardlinks": true,
+      "unlink_after_reference": false,
+      "original": {
+        "output": "prepare 0\ntemplate 0 errno 2\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\nwrite 0\n",
+        "verify": 0,
+        "tree": [
+          {
+            "path": "",
+            "mode": 16877,
+            "uid": 1000,
+            "gid": 100,
+            "xattrs": {}
+          },
+          {
+            "path": "2f616c696173",
+            "mode": 33188,
+            "uid": 1000,
+            "gid": 100,
+            "inode_group": 0,
+            "sha1": "11642cabc223b9b3a1e812098d72df1eaa51fc0b",
+            "size": 76810,
+            "xattrs": {}
+          },
+          {
+            "path": "2f66696c65",
+            "mode": 33188,
+            "uid": 1000,
+            "gid": 100,
+            "inode_group": 0,
+            "sha1": "11642cabc223b9b3a1e812098d72df1eaa51fc0b",
+            "size": 76810,
+            "xattrs": {}
+          }
+        ],
+        "apply": 0
+      },
+      "native": {
+        "output": "prepare 0\ntemplate 0 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\nwrite 0\n",
+        "verify": 0,
+        "tree": [
+          {
+            "path": "",
+            "mode": 16877,
+            "uid": 1000,
+            "gid": 100,
+            "xattrs": {}
+          },
+          {
+            "path": "2f616c696173",
+            "mode": 33188,
+            "uid": 1000,
+            "gid": 100,
+            "inode_group": 0,
+            "sha1": "11642cabc223b9b3a1e812098d72df1eaa51fc0b",
+            "size": 76810,
+            "xattrs": {}
+          },
+          {
+            "path": "2f66696c65",
+            "mode": 33188,
+            "uid": 1000,
+            "gid": 100,
+            "inode_group": 0,
+            "sha1": "11642cabc223b9b3a1e812098d72df1eaa51fc0b",
+            "size": 76810,
+            "xattrs": {}
+          }
+        ],
+        "apply": 0
+      },
+      "exact": false
+    },
+    {
+      "template_exclusion": "file",
+      "same_handle": false,
+      "hardlinks": true,
+      "unlink_after_reference": false,
+      "original": {
+        "output": "prepare 0\ntemplate 0 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\nwrite 0\n",
+        "verify": 0,
+        "tree": [
+          {
+            "path": "",
+            "mode": 16877,
+            "uid": 1000,
+            "gid": 100,
+            "xattrs": {}
+          },
+          {
+            "path": "2f616c696173",
+            "mode": 33188,
+            "uid": 1000,
+            "gid": 100,
+            "inode_group": 0,
+            "sha1": "11642cabc223b9b3a1e812098d72df1eaa51fc0b",
+            "size": 76810,
+            "xattrs": {}
+          },
+          {
+            "path": "2f66696c65",
+            "mode": 33188,
+            "uid": 1000,
+            "gid": 100,
+            "inode_group": 0,
+            "sha1": "11642cabc223b9b3a1e812098d72df1eaa51fc0b",
+            "size": 76810,
+            "xattrs": {}
+          }
+        ],
+        "apply": 0
+      },
+      "native": {
+        "output": "prepare 0\ntemplate 0 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\nwrite 0\n",
+        "verify": 0,
+        "tree": [
+          {
+            "path": "",
+            "mode": 16877,
+            "uid": 1000,
+            "gid": 100,
+            "xattrs": {}
+          },
+          {
+            "path": "2f616c696173",
+            "mode": 33188,
+            "uid": 1000,
+            "gid": 100,
+            "inode_group": 0,
+            "sha1": "11642cabc223b9b3a1e812098d72df1eaa51fc0b",
+            "size": 76810,
+            "xattrs": {}
+          },
+          {
+            "path": "2f66696c65",
+            "mode": 33188,
+            "uid": 1000,
+            "gid": 100,
+            "inode_group": 0,
+            "sha1": "11642cabc223b9b3a1e812098d72df1eaa51fc0b",
+            "size": 76810,
+            "xattrs": {}
+          }
+        ],
+        "apply": 0
+      },
+      "exact": true
+    },
+    {
+      "template_exclusion": null,
+      "same_handle": false,
+      "hardlinks": true,
+      "unlink_after_reference": true,
+      "original": {
+        "output": "prepare 0\ntemplate 0 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\nwrite 47\n",
+        "verify": null,
+        "tree": null
+      },
+      "native": {
+        "output": "prepare 0\ntemplate 0 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\nwrite 47\n",
+        "verify": null,
+        "tree": null
+      },
+      "exact": true
+    },
+    {
+      "template_exclusion": "alias",
+      "same_handle": false,
+      "hardlinks": true,
+      "unlink_after_reference": true,
+      "original": {
+        "output": "prepare 0\ntemplate 0 errno 2\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\nwrite 47\n",
+        "verify": null,
+        "tree": null
+      },
+      "native": {
+        "output": "prepare 0\ntemplate 0 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\nwrite 47\n",
+        "verify": null,
+        "tree": null
+      },
+      "exact": false
+    },
+    {
+      "template_exclusion": "file",
+      "same_handle": false,
+      "hardlinks": true,
+      "unlink_after_reference": true,
+      "original": {
+        "output": "prepare 0\ntemplate 0 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\nwrite 47\n",
+        "verify": null,
+        "tree": null
+      },
+      "native": {
+        "output": "prepare 0\ntemplate 0 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\nwrite 47\n",
+        "verify": null,
+        "tree": null
+      },
+      "exact": true
+    },
+    {
+      "template_exclusion": null,
+      "same_handle": true,
+      "hardlinks": false,
+      "unlink_after_reference": false,
+      "original": {
+        "output": "prepare 0\ntemplate 0 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\nwrite 0\n",
+        "verify": 0,
+        "tree": [
+          {
+            "path": "",
+            "mode": 16877,
+            "uid": 1000,
+            "gid": 100,
+            "xattrs": {}
+          },
+          {
+            "path": "2f66696c65",
+            "mode": 33188,
+            "uid": 1000,
+            "gid": 100,
+            "inode_group": 0,
+            "sha1": "11642cabc223b9b3a1e812098d72df1eaa51fc0b",
+            "size": 76810,
+            "xattrs": {}
+          }
+        ],
+        "apply": 0
+      },
+      "native": {
+        "output": "prepare 0\ntemplate 0 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\nwrite 0\n",
+        "verify": 0,
+        "tree": [
+          {
+            "path": "",
+            "mode": 16877,
+            "uid": 1000,
+            "gid": 100,
+            "xattrs": {}
+          },
+          {
+            "path": "2f66696c65",
+            "mode": 33188,
+            "uid": 1000,
+            "gid": 100,
+            "inode_group": 0,
+            "sha1": "11642cabc223b9b3a1e812098d72df1eaa51fc0b",
+            "size": 76810,
+            "xattrs": {}
+          }
+        ],
+        "apply": 0
+      },
+      "exact": true
+    },
+    {
+      "template_exclusion": null,
+      "same_handle": true,
+      "hardlinks": false,
+      "unlink_after_reference": true,
+      "original": {
+        "output": "prepare 0\ntemplate 0 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\nwrite 0\n",
+        "verify": 0,
+        "tree": [
+          {
+            "path": "",
+            "mode": 16877,
+            "uid": 1000,
+            "gid": 100,
+            "xattrs": {}
+          },
+          {
+            "path": "2f66696c65",
+            "mode": 33188,
+            "uid": 1000,
+            "gid": 100,
+            "inode_group": 0,
+            "sha1": "11642cabc223b9b3a1e812098d72df1eaa51fc0b",
+            "size": 76810,
+            "xattrs": {}
+          }
+        ],
+        "apply": 0
+      },
+      "native": {
+        "output": "prepare 0\ntemplate 0 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\nwrite 0\n",
+        "verify": 0,
+        "tree": [
+          {
+            "path": "",
+            "mode": 16877,
+            "uid": 1000,
+            "gid": 100,
+            "xattrs": {}
+          },
+          {
+            "path": "2f66696c65",
+            "mode": 33188,
+            "uid": 1000,
+            "gid": 100,
+            "inode_group": 0,
+            "sha1": "11642cabc223b9b3a1e812098d72df1eaa51fc0b",
+            "size": 76810,
+            "xattrs": {}
+          }
+        ],
+        "apply": 0
+      },
+      "exact": true
+    },
+    {
+      "template_exclusion": null,
+      "same_handle": true,
+      "hardlinks": true,
+      "unlink_after_reference": false,
+      "original": {
+        "output": "prepare 0\ntemplate 0 errno 123\nblob 76810 4 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\nwrite 0\n",
+        "verify": 0,
+        "tree": [
+          {
+            "path": "",
+            "mode": 16877,
+            "uid": 1000,
+            "gid": 100,
+            "xattrs": {}
+          },
+          {
+            "path": "2f616c696173",
+            "mode": 33188,
+            "uid": 1000,
+            "gid": 100,
+            "inode_group": 0,
+            "sha1": "11642cabc223b9b3a1e812098d72df1eaa51fc0b",
+            "size": 76810,
+            "xattrs": {}
+          },
+          {
+            "path": "2f66696c65",
+            "mode": 33188,
+            "uid": 1000,
+            "gid": 100,
+            "inode_group": 0,
+            "sha1": "11642cabc223b9b3a1e812098d72df1eaa51fc0b",
+            "size": 76810,
+            "xattrs": {}
+          }
+        ],
+        "apply": 0
+      },
+      "native": {
+        "output": "prepare 0\ntemplate 0 errno 123\nblob 76810 4 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\nwrite 0\n",
+        "verify": 0,
+        "tree": [
+          {
+            "path": "",
+            "mode": 16877,
+            "uid": 1000,
+            "gid": 100,
+            "xattrs": {}
+          },
+          {
+            "path": "2f616c696173",
+            "mode": 33188,
+            "uid": 1000,
+            "gid": 100,
+            "inode_group": 0,
+            "sha1": "11642cabc223b9b3a1e812098d72df1eaa51fc0b",
+            "size": 76810,
+            "xattrs": {}
+          },
+          {
+            "path": "2f66696c65",
+            "mode": 33188,
+            "uid": 1000,
+            "gid": 100,
+            "inode_group": 0,
+            "sha1": "11642cabc223b9b3a1e812098d72df1eaa51fc0b",
+            "size": 76810,
+            "xattrs": {}
+          }
+        ],
+        "apply": 0
+      },
+      "exact": true
+    },
+    {
+      "template_exclusion": "alias",
+      "same_handle": true,
+      "hardlinks": true,
+      "unlink_after_reference": false,
+      "original": {
+        "output": "prepare 0\ntemplate 0 errno 2\nblob 76810 2 0000000000000000000000000000000000000000\nblob 76810 1 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\nwrite 0\n",
+        "verify": 0,
+        "tree": [
+          {
+            "path": "",
+            "mode": 16877,
+            "uid": 1000,
+            "gid": 100,
+            "xattrs": {}
+          },
+          {
+            "path": "2f616c696173",
+            "mode": 33188,
+            "uid": 1000,
+            "gid": 100,
+            "inode_group": 0,
+            "sha1": "11642cabc223b9b3a1e812098d72df1eaa51fc0b",
+            "size": 76810,
+            "xattrs": {}
+          },
+          {
+            "path": "2f66696c65",
+            "mode": 33188,
+            "uid": 1000,
+            "gid": 100,
+            "inode_group": 0,
+            "sha1": "11642cabc223b9b3a1e812098d72df1eaa51fc0b",
+            "size": 76810,
+            "xattrs": {}
+          }
+        ],
+        "apply": 0
+      },
+      "native": {
+        "output": "prepare 0\ntemplate 0 errno 123\nblob 76810 3 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\nwrite 0\n",
+        "verify": 0,
+        "tree": [
+          {
+            "path": "",
+            "mode": 16877,
+            "uid": 1000,
+            "gid": 100,
+            "xattrs": {}
+          },
+          {
+            "path": "2f616c696173",
+            "mode": 33188,
+            "uid": 1000,
+            "gid": 100,
+            "inode_group": 0,
+            "sha1": "11642cabc223b9b3a1e812098d72df1eaa51fc0b",
+            "size": 76810,
+            "xattrs": {}
+          },
+          {
+            "path": "2f66696c65",
+            "mode": 33188,
+            "uid": 1000,
+            "gid": 100,
+            "inode_group": 0,
+            "sha1": "11642cabc223b9b3a1e812098d72df1eaa51fc0b",
+            "size": 76810,
+            "xattrs": {}
+          }
+        ],
+        "apply": 0
+      },
+      "exact": false
+    },
+    {
+      "template_exclusion": "file",
+      "same_handle": true,
+      "hardlinks": true,
+      "unlink_after_reference": false,
+      "original": {
+        "output": "prepare 0\ntemplate 0 errno 123\nblob 76810 3 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\nwrite 0\n",
+        "verify": 0,
+        "tree": [
+          {
+            "path": "",
+            "mode": 16877,
+            "uid": 1000,
+            "gid": 100,
+            "xattrs": {}
+          },
+          {
+            "path": "2f616c696173",
+            "mode": 33188,
+            "uid": 1000,
+            "gid": 100,
+            "inode_group": 0,
+            "sha1": "11642cabc223b9b3a1e812098d72df1eaa51fc0b",
+            "size": 76810,
+            "xattrs": {}
+          },
+          {
+            "path": "2f66696c65",
+            "mode": 33188,
+            "uid": 1000,
+            "gid": 100,
+            "inode_group": 0,
+            "sha1": "11642cabc223b9b3a1e812098d72df1eaa51fc0b",
+            "size": 76810,
+            "xattrs": {}
+          }
+        ],
+        "apply": 0
+      },
+      "native": {
+        "output": "prepare 0\ntemplate 0 errno 123\nblob 76810 3 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\nwrite 0\n",
+        "verify": 0,
+        "tree": [
+          {
+            "path": "",
+            "mode": 16877,
+            "uid": 1000,
+            "gid": 100,
+            "xattrs": {}
+          },
+          {
+            "path": "2f616c696173",
+            "mode": 33188,
+            "uid": 1000,
+            "gid": 100,
+            "inode_group": 0,
+            "sha1": "11642cabc223b9b3a1e812098d72df1eaa51fc0b",
+            "size": 76810,
+            "xattrs": {}
+          },
+          {
+            "path": "2f66696c65",
+            "mode": 33188,
+            "uid": 1000,
+            "gid": 100,
+            "inode_group": 0,
+            "sha1": "11642cabc223b9b3a1e812098d72df1eaa51fc0b",
+            "size": 76810,
+            "xattrs": {}
+          }
+        ],
+        "apply": 0
+      },
+      "exact": true
+    },
+    {
+      "template_exclusion": null,
+      "same_handle": true,
+      "hardlinks": true,
+      "unlink_after_reference": true,
+      "original": {
+        "output": "prepare 0\ntemplate 0 errno 123\nblob 76810 4 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\nwrite 0\n",
+        "verify": 0,
+        "tree": [
+          {
+            "path": "",
+            "mode": 16877,
+            "uid": 1000,
+            "gid": 100,
+            "xattrs": {}
+          },
+          {
+            "path": "2f616c696173",
+            "mode": 33188,
+            "uid": 1000,
+            "gid": 100,
+            "inode_group": 0,
+            "sha1": "11642cabc223b9b3a1e812098d72df1eaa51fc0b",
+            "size": 76810,
+            "xattrs": {}
+          },
+          {
+            "path": "2f66696c65",
+            "mode": 33188,
+            "uid": 1000,
+            "gid": 100,
+            "inode_group": 0,
+            "sha1": "11642cabc223b9b3a1e812098d72df1eaa51fc0b",
+            "size": 76810,
+            "xattrs": {}
+          }
+        ],
+        "apply": 0
+      },
+      "native": {
+        "output": "prepare 0\ntemplate 0 errno 123\nblob 76810 4 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\nwrite 0\n",
+        "verify": 0,
+        "tree": [
+          {
+            "path": "",
+            "mode": 16877,
+            "uid": 1000,
+            "gid": 100,
+            "xattrs": {}
+          },
+          {
+            "path": "2f616c696173",
+            "mode": 33188,
+            "uid": 1000,
+            "gid": 100,
+            "inode_group": 0,
+            "sha1": "11642cabc223b9b3a1e812098d72df1eaa51fc0b",
+            "size": 76810,
+            "xattrs": {}
+          },
+          {
+            "path": "2f66696c65",
+            "mode": 33188,
+            "uid": 1000,
+            "gid": 100,
+            "inode_group": 0,
+            "sha1": "11642cabc223b9b3a1e812098d72df1eaa51fc0b",
+            "size": 76810,
+            "xattrs": {}
+          }
+        ],
+        "apply": 0
+      },
+      "exact": true
+    },
+    {
+      "template_exclusion": "alias",
+      "same_handle": true,
+      "hardlinks": true,
+      "unlink_after_reference": true,
+      "original": {
+        "output": "prepare 0\ntemplate 0 errno 2\nblob 76810 2 0000000000000000000000000000000000000000\nblob 76810 1 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\nwrite 47\n",
+        "verify": null,
+        "tree": null
+      },
+      "native": {
+        "output": "prepare 0\ntemplate 0 errno 123\nblob 76810 3 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\nwrite 0\n",
+        "verify": 0,
+        "tree": [
+          {
+            "path": "",
+            "mode": 16877,
+            "uid": 1000,
+            "gid": 100,
+            "xattrs": {}
+          },
+          {
+            "path": "2f616c696173",
+            "mode": 33188,
+            "uid": 1000,
+            "gid": 100,
+            "inode_group": 0,
+            "sha1": "11642cabc223b9b3a1e812098d72df1eaa51fc0b",
+            "size": 76810,
+            "xattrs": {}
+          },
+          {
+            "path": "2f66696c65",
+            "mode": 33188,
+            "uid": 1000,
+            "gid": 100,
+            "inode_group": 0,
+            "sha1": "11642cabc223b9b3a1e812098d72df1eaa51fc0b",
+            "size": 76810,
+            "xattrs": {}
+          }
+        ],
+        "apply": 0
+      },
+      "exact": false
+    },
+    {
+      "template_exclusion": "file",
+      "same_handle": true,
+      "hardlinks": true,
+      "unlink_after_reference": true,
+      "original": {
+        "output": "prepare 0\ntemplate 0 errno 123\nblob 76810 3 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\nwrite 0\n",
+        "verify": 0,
+        "tree": [
+          {
+            "path": "",
+            "mode": 16877,
+            "uid": 1000,
+            "gid": 100,
+            "xattrs": {}
+          },
+          {
+            "path": "2f616c696173",
+            "mode": 33188,
+            "uid": 1000,
+            "gid": 100,
+            "inode_group": 0,
+            "sha1": "11642cabc223b9b3a1e812098d72df1eaa51fc0b",
+            "size": 76810,
+            "xattrs": {}
+          },
+          {
+            "path": "2f66696c65",
+            "mode": 33188,
+            "uid": 1000,
+            "gid": 100,
+            "inode_group": 0,
+            "sha1": "11642cabc223b9b3a1e812098d72df1eaa51fc0b",
+            "size": 76810,
+            "xattrs": {}
+          }
+        ],
+        "apply": 0
+      },
+      "native": {
+        "output": "prepare 0\ntemplate 0 errno 123\nblob 76810 3 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\nwrite 0\n",
+        "verify": 0,
+        "tree": [
+          {
+            "path": "",
+            "mode": 16877,
+            "uid": 1000,
+            "gid": 100,
+            "xattrs": {}
+          },
+          {
+            "path": "2f616c696173",
+            "mode": 33188,
+            "uid": 1000,
+            "gid": 100,
+            "inode_group": 0,
+            "sha1": "11642cabc223b9b3a1e812098d72df1eaa51fc0b",
+            "size": 76810,
+            "xattrs": {}
+          },
+          {
+            "path": "2f66696c65",
+            "mode": 33188,
+            "uid": 1000,
+            "gid": 100,
+            "inode_group": 0,
+            "sha1": "11642cabc223b9b3a1e812098d72df1eaa51fc0b",
+            "size": 76810,
+            "xattrs": {}
+          }
+        ],
+        "apply": 0
+      },
+      "exact": true
+    }
+  ]
+}

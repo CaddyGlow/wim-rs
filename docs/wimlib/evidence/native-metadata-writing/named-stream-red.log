@@ -1,0 +1,23 @@
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.04s
+     Running tests/metadata_write.rs (crates/wimlib-rs/target/debug/deps/metadata_write-0df444f5c7b77dc4)
+
+running 1 test
+test newly_constructed_named_stream_writes_upstream_terminator_and_alignment ... FAILED
+
+failures:
+
+---- newly_constructed_named_stream_writes_upstream_terminator_and_alignment stdout ----
+
+thread 'newly_constructed_named_stream_writes_upstream_terminator_and_alignment' (101) panicked at wim-format/tests/metadata_write.rs:123:5:
+assertion `left == right` failed
+  left: 40
+ right: 48
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+
+failures:
+    newly_constructed_named_stream_writes_upstream_terminator_and_alignment
+
+test result: FAILED. 0 passed; 1 failed; 0 ignored; 0 measured; 9 filtered out; finished in 0.00s
+
+error: test failed, to rerun pass `-p wim-format --test metadata_write`

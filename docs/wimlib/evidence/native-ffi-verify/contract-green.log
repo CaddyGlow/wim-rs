@@ -1,0 +1,9 @@
+   Compiling wim-ffi v0.1.0 (/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/wim-ffi)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.13s
+     Running tests/verify.rs (crates/wimlib-rs/target/debug/deps/verify-042393ece1a18f50)
+
+running 1 test
+test verify_rejects_invalid_arguments_and_accepts_empty_wim ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

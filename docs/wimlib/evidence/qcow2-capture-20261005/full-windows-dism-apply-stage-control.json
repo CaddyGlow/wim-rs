@@ -1,0 +1,115 @@
+{
+  "scope": "Full-Windows Microsoft DISM/EA apply-stage isolated control before any applied target boot. No final installation gate waiver.",
+  "apply": {
+    "Exit": 0,
+    "Finished": "2026-10-05T20:01:43.5178026Z",
+    "ImageSHA256": "749C692CF7DD0AA7442EF3D1E96F1E0351E60B21A2AEFA0A2D0F6B38ED9E8EA8",
+    "TargetNeverBooted": true
+  },
+  "engine": {
+    "Kernel": "10.0.26100.8036 (WinBuild.160101.0800)",
+    "Dism": "10.0.26100.7019 (WinBuild.160101.0800)",
+    "Image": "D:\\sources\\install.wim",
+    "DiskNumber": 0,
+    "Serial": "APPLY-CONTROL",
+    "Bytes": 34359738368,
+    "Flags": [
+      "/Apply-Image",
+      "/Index:1",
+      "/EA",
+      "/CheckIntegrity"
+    ]
+  },
+  "strict_clean_NTFS_open_passed": true,
+  "helper_shutdown_exit": 0,
+  "helper_launcher_terminal_exit": 0,
+  "target_boot_exclusion": {
+    "scratch_bootindex": -1,
+    "scratch_no_ESP": true,
+    "kernel_running_from_helper": "26100.8036",
+    "target_registry_build": "26200.8037",
+    "target_partition": 2
+  },
+  "target_nodes": 176484,
+  "fixture": {
+    "entries": 9,
+    "streams": 331,
+    "exact_fields": [
+      "EaRaw",
+      "ObjectIdRaw",
+      "ReparseRaw",
+      "SecurityRaw",
+      "Short",
+      "Streams"
+    ],
+    "full64_ObjectID_including_nonzero_birthfields_exact": true,
+    "file_ids_differ_on_fresh_filesystem": true
+  },
+  "reserved_SACL": {
+    "all5727_source_paths_exist": true,
+    "source_process_trust_paths": 5725,
+    "source_resource_attribute_paths": 2,
+    "target_process_trust_paths": 0,
+    "target_resource_attribute_paths": 0,
+    "gate_passed": false
+  },
+  "interpretation": {
+    "ObjectID": "FullDISM/EA preserves all64 bytes before firstboot; V6 later loses48birthbytes. Exact point inside Setup or specialization remains to isolate.",
+    "reserved_SACL": "FullDISM/EA drops all reserved ACE18/20 at apply stage; V6 later has5511 process-trust paths but no resource attributes. Rehydration is inference, not verified operation trace.",
+    "engine_confounding": "Full-Windows DISM26100.7019/kernel26100.8036 differs from Setup WinPE26100.1742. This control proves archive and full-Windows apply preserve nonzero48 birthbytes; it does not establish preservation by Setup before target firstboot."
+  },
+  "artifacts": {
+    "fixture-metadata.json": {
+      "path": "/data/cache/qcow2-apply-control-20261005/fixture-metadata.json",
+      "sha256": "ede9152013bd804a13d63454603ae193210b61fb1a7cc3cd014524cf34a38c5e"
+    },
+    "latest-status.json": {
+      "path": "/data/cache/qcow2-apply-control-20261005/latest-status.json",
+      "sha256": "e6f6af8c158c5a1ca3184fc140e02ab058f1dd01cd7a0f2e10d1ab639eeabff9"
+    },
+    "selected-resource-paths.json": {
+      "path": "/data/cache/qcow2-apply-control-20261005/selected-resource-paths.json",
+      "sha256": "7ff57e622deca492546eeab379e8af618d78ae79d12047e32a3712c09d2b433c"
+    },
+    "fixture-comparison.json": {
+      "path": "/data/cache/qcow2-apply-control-20261005/fixture-comparison.json",
+      "sha256": "e456c45eb430c63404f9fed656d25ababf409da3c51738a8ba09925a6de853da"
+    },
+    "live-processes.json": {
+      "path": "/data/cache/qcow2-apply-control-20261005/live-processes.json",
+      "sha256": "a7284fa1f5d45355191fd991a0eaf58a129bd65f1c089e6294734e6034e3d752"
+    },
+    "version.json": {
+      "path": "/data/cache/qcow2-apply-control-20261005/version.json",
+      "sha256": "6231b77fdf56eaefd1b9d3aaf3ed2bc47abc480fc865ef66d52d8feabc5de5fb"
+    },
+    "target-qcow-info.json": {
+      "path": "/data/cache/qcow2-apply-control-20261005/target-qcow-info.json",
+      "sha256": "227af216bb386aa82683f3b21be830923485a15e1671d139e58392a589f1643c"
+    },
+    "target-partition.json": {
+      "path": "/data/cache/qcow2-apply-control-20261005/target-partition.json",
+      "sha256": "108a587aaba622357bdfa984f991890c67a300f20b5f6dac84a8563cb09b70ac"
+    },
+    "shutdown-request.json": {
+      "path": "/data/cache/qcow2-apply-control-20261005/shutdown-request.json",
+      "sha256": "aac612aad7858839ef66346818338dbe61336164f1bc41c875016c805f41b15e"
+    },
+    "reserved-sacl-inventory.json": {
+      "path": "/data/cache/qcow2-apply-control-20261005/reserved-sacl-inventory.json",
+      "sha256": "fb26d518a978252f596ba6d6e2210515393f33722beaef1e96a0d6be4487511b"
+    },
+    "apply-process.json": {
+      "path": "/data/cache/qcow2-apply-control-20261005/apply-process.json",
+      "sha256": "48fb6fc4480a195ad4b6de7af4a164c8465cc81296fea0aac8305f6fbebed862"
+    },
+    "result.json": {
+      "path": "/data/cache/qcow2-apply-control-20261005/result.json",
+      "sha256": "b7e28d203407103722f2c8236aa05a9777f3901ff8c6d3163211879003e063af"
+    },
+    "selected-trust-paths.json": {
+      "path": "/data/cache/qcow2-apply-control-20261005/selected-trust-paths.json",
+      "sha256": "61005b2b0ba3cfdaf7c56ede179a94da3b989588453a13495aa6eafeaf3809ea"
+    }
+  }
+}

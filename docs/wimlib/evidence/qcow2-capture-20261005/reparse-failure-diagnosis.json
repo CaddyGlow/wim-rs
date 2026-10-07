@@ -1,0 +1,20 @@
+{
+  "files": [
+    {
+      "path": "/data/cache/qcow2-installation-1005/old-relative-link-stream-layout.txt",
+      "bytes": 690,
+      "sha256": "a84d8ddc32129586e493c900e116773c5861920f272549d2ce00ea4b54483d44"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-1005/offline-failure-logs-v2/partition-3/qcow2-failure/target-bt-panther/setupact.log",
+      "bytes": 489169,
+      "sha256": "3445183c717273ff901ea7fef10fef83140a965d80b9487aa4ac0bb8fa094972"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-1005/offline-failure-logs-v2/partition-3/qcow2-failure/target-bt-panther/setuperr.log",
+      "bytes": 5102,
+      "sha256": "71f986ff7d94815e06a55fbfaf3f48f3d7b15903b41b0785abf816b3bd586612"
+    }
+  ],
+  "finding": "Old relative.link stores nonzero main_hash reparse with two extra references (empty unnamed DATA and link-owned ADS). DISM-compatible writer puts all three references in extra entries, main hash zero. Setup failure first reports ApplyReparseFixup invalid data; cause remains candidate until fresh installation."
+}

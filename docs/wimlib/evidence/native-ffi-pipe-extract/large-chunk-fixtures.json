@@ -1,0 +1,59 @@
+[
+  {
+    "fixture": "pipe-xpress-64k.wim",
+    "sha256": "dde790326070340b4a7f0dda5490d89026ec317e91277075460f2b15bc7437c2",
+    "command": [
+      "/tmp/wimlib-native-oracle/wimlib-imagex",
+      "capture",
+      "/tmp/pipe-large-chunk-wwy9nhxb/source",
+      "crates/wimlib-rs/wim-format/tests/fixtures/pipe-xpress-64k.wim",
+      "--compress=XPRESS",
+      "--chunk-size=65536",
+      "--pipable",
+      "--no-acls",
+      "--nocheck",
+      "--threads=1"
+    ],
+    "original_verify_status": 0,
+    "original_apply_status": 0,
+    "payload_sha256": "56524d87462693bc0924348ee13fefa4eac2a1bb8cf8bff1ca9dc29d2744d8aa"
+  },
+  {
+    "fixture": "pipe-lzx-64k.wim",
+    "sha256": "827a4b79245cc2faa6555bef62a700b7a4535171414954e9fccdaf6f31c54f53",
+    "command": [
+      "/tmp/wimlib-native-oracle/wimlib-imagex",
+      "capture",
+      "/tmp/pipe-large-chunk-wwy9nhxb/source",
+      "crates/wimlib-rs/wim-format/tests/fixtures/pipe-lzx-64k.wim",
+      "--compress=LZX",
+      "--chunk-size=65536",
+      "--pipable",
+      "--no-acls",
+      "--nocheck",
+      "--threads=1"
+    ],
+    "original_verify_status": 0,
+    "original_apply_status": 0,
+    "payload_sha256": "56524d87462693bc0924348ee13fefa4eac2a1bb8cf8bff1ca9dc29d2744d8aa"
+  },
+  {
+    "fixture": "pipe-lzms-128k.wim",
+    "sha256": "6278457e25ca646627ab0e799e029e3c9340e2b373139b7856b9478fc114847c",
+    "command": [
+      "/tmp/wimlib-native-oracle/wimlib-imagex",
+      "capture",
+      "/tmp/pipe-large-chunk-wwy9nhxb/source",
+      "crates/wimlib-rs/wim-format/tests/fixtures/pipe-lzms-128k.wim",
+      "--compress=LZMS",
+      "--chunk-size=131072",
+      "--pipable",
+      "--no-acls",
+      "--nocheck",
+      "--threads=1"
+    ],
+    "original_verify_status": 0,
+    "original_apply_status": 0,
+    "payload_sha256": "56524d87462693bc0924348ee13fefa4eac2a1bb8cf8bff1ca9dc29d2744d8aa"
+  }
+]

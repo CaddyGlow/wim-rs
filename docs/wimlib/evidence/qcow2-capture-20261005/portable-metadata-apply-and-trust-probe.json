@@ -1,0 +1,204 @@
+{
+  "dism_exit": 0,
+  "sparse_ranges_exact": true,
+  "storage_class_exact": true,
+  "object_id_64_exact": true,
+  "payload_streams_exact": true,
+  "wof_sha_exact": true,
+  "source_ea_names": [
+    "$CI.CATALOGHINT",
+    "$KERNEL.PURGE.ESBCACHE"
+  ],
+  "applied_ea_names": [
+    "$CI.CATALOGHINT"
+  ],
+  "retained_user_eas_exact": true,
+  "dism_warning_or_error_lines": [],
+  "volume": "fresh isolated 256MiB T: NTFS fixed VHD",
+  "wim": {
+    "path": "/data/cache/qcow2-oracle-1005/native-portable-metadata-v2.wim",
+    "sha256": "01583d5f85ef10aa010e56634056a77d2d002ddfc320c45a241d89781114d7fc"
+  },
+  "process_trust_restoration": {
+    "source_path": "D:\\Program Files\\WindowsApps\\Microsoft.AV1VideoExtension_2.0.6.0_x64__8wekyb3d8bbwe",
+    "source_trust_descriptor_base64": "AQAQgAAAAAAAAAAAFAAAAAAAAAACACAAAQAAABQDGACpAR8AAQIAAAAAABMAAgAAABAAAA==",
+    "query_flags": 66047,
+    "privileges_enabled": [
+      "SeBackupPrivilege",
+      "SeRestorePrivilege",
+      "SeSecurityPrivilege",
+      "SeTcbPrivilege"
+    ],
+    "fresh_scratch_probes": [
+      {
+        "set_security_information": 128,
+        "ntstatus": "C0000022",
+        "trust_descriptor_after_close_reopen_base64": "AQAAgAAAAAAAAAAAAAAAAAAAAAA=",
+        "restored_exact": false
+      },
+      {
+        "set_security_information": 65536,
+        "ntstatus": "00000000",
+        "trust_descriptor_after_close_reopen_base64": "AQAQgAAAAAAAAAAAAAAAAAAAAAA=",
+        "restored_exact": false
+      },
+      {
+        "set_security_information": 65664,
+        "ntstatus": "C0000022",
+        "trust_descriptor_after_close_reopen_base64": "AQAAgAAAAAAAAAAAAAAAAAAAAAA=",
+        "restored_exact": false
+      }
+    ],
+    "limitation": "Supported BACKUP_SECURITY_INFORMATION succeeds but does not restore source protected process trust ACE. Reserved 0x80 setter denied. Actual fresh Windows Setup regeneration must be inspected independently; full reliability remains unproven."
+  },
+  "actual_fifth_windows_setup_trust_labels": {
+    "source_trust_label_paths": 5725,
+    "target_found_exact_paths": 5725,
+    "trust_ace_exact_paths": 4788,
+    "different_trust_ace_paths": 937,
+    "missing_source_paths": 0,
+    "difference_classes": [
+      {
+        "flags": 3,
+        "mask": 16777215,
+        "sid_hex": "01020000000000130000000000000000",
+        "target_aces": [],
+        "paths": 102,
+        "examples": [
+          "/Program Files/WindowsApps/Microsoft.AV1VideoExtension_2.0.6.0_neutral_~_8wekyb3d8bbwe/microsoft.system.package.metadata",
+          "/Program Files/WindowsApps/Microsoft.AV1VideoExtension_2.0.6.0_x64__8wekyb3d8bbwe/microsoft.system.package.metadata",
+          "/Program Files/WindowsApps/Microsoft.ApplicationCompatibilityEnhancements_1.2511.9.0_neutral_~_8wekyb3d8bbwe/microsoft.system.package.metadata",
+          "/Program Files/WindowsApps/Microsoft.ApplicationCompatibilityEnhancements_1.2511.9.0_x64__8wekyb3d8bbwe/microsoft.system.package.metadata",
+          "/Program Files/WindowsApps/Microsoft.DesktopAppInstaller_1.26.509.0_x64__8wekyb3d8bbwe/microsoft.system.package.metadata"
+        ]
+      },
+      {
+        "flags": 19,
+        "mask": 16777215,
+        "sid_hex": "01020000000000130000000000000000",
+        "target_aces": [],
+        "paths": 8,
+        "examples": [
+          "/Program Files/WindowsApps/Microsoft.NET.Native.Framework.2.2_2.2.29512.0_x64__8wekyb3d8bbwe/microsoft.system.package.metadata/Autogen",
+          "/Program Files/WindowsApps/Microsoft.NET.Native.Runtime.2.2_2.2.28604.0_x64__8wekyb3d8bbwe/microsoft.system.package.metadata/Autogen",
+          "/Program Files/WindowsApps/Microsoft.UI.Xaml.2.8_8.2511.26001.0_x64__8wekyb3d8bbwe/microsoft.system.package.metadata/Autogen",
+          "/Program Files/WindowsApps/Microsoft.VCLibs.140.00.UWPDesktop_14.0.33728.0_x64__8wekyb3d8bbwe/microsoft.system.package.metadata/Autogen",
+          "/Program Files/WindowsApps/Microsoft.VCLibs.140.00_14.0.33519.0_x64__8wekyb3d8bbwe/microsoft.system.package.metadata/Autogen"
+        ]
+      },
+      {
+        "flags": 16,
+        "mask": 16777215,
+        "sid_hex": "01020000000000130000000000000000",
+        "target_aces": [],
+        "paths": 21,
+        "examples": [
+          "/Program Files/WindowsApps/Microsoft.NET.Native.Framework.2.2_2.2.29512.0_x64__8wekyb3d8bbwe/microsoft.system.package.metadata/Autogen/JSByteCodeCache_64",
+          "/Program Files/WindowsApps/Microsoft.NET.Native.Runtime.2.2_2.2.28604.0_x64__8wekyb3d8bbwe/microsoft.system.package.metadata/Autogen/JSByteCodeCache_64",
+          "/Program Files/WindowsApps/Microsoft.Paint_11.2412.295.0_x64__8wekyb3d8bbwe/microsoft.system.package.metadata/S-1-5-21-1295408041-1241027319-1330678462-1000-MergedResources-0.pri",
+          "/Program Files/WindowsApps/Microsoft.Paint_11.2412.295.0_x64__8wekyb3d8bbwe/microsoft.system.package.metadata/S-1-5-21-1836662744-2192023465-2900556210-1000-MergedResources-0.pri",
+          "/Program Files/WindowsApps/Microsoft.Paint_11.2412.295.0_x64__8wekyb3d8bbwe/microsoft.system.package.metadata/resources.8eaf2a9a.pri"
+        ]
+      },
+      {
+        "flags": 16,
+        "mask": 2032041,
+        "sid_hex": "01020000000000130002000000100000",
+        "target_aces": [],
+        "paths": 49,
+        "examples": [
+          "/Program Files/WindowsApps/Microsoft.WindowsAppRuntime.2_2.5.1.0_x64__8wekyb3d8bbwe/AppxBlockMap.xml",
+          "/Program Files/WindowsApps/Microsoft.WindowsAppRuntime.2_2.5.1.0_x64__8wekyb3d8bbwe/AppxMetadata/CodeIntegrity.cat",
+          "/Program Files/WindowsApps/Microsoft.WindowsAppRuntime.2_2.5.1.0_x64__8wekyb3d8bbwe/AppxSignature.p7x",
+          "/Program Files/WindowsApps/Microsoft.WindowsAppRuntime.2_2.5.1.0_x64__8wekyb3d8bbwe/microsoft.system.package.metadata/Autogen/JSByteCodeCache_64",
+          "/Program Files/WindowsApps/Microsoft.WindowsAppRuntime.2_2.5.1.0_x86__8wekyb3d8bbwe/AppxBlockMap.xml"
+        ]
+      },
+      {
+        "flags": 16,
+        "mask": 2032041,
+        "sid_hex": "01020000000000130002000000100000",
+        "target_aces": [
+          "14001800a9011f0001020000000000130002000000100000"
+        ],
+        "paths": 543,
+        "examples": [
+          "/Program Files/WindowsApps/Microsoft.WindowsAppRuntime.2_2.5.1.0_x64__8wekyb3d8bbwe/AppxManifest.xml",
+          "/Program Files/WindowsApps/Microsoft.WindowsAppRuntime.2_2.5.1.0_x64__8wekyb3d8bbwe/CoreMessagingXP.dll",
+          "/Program Files/WindowsApps/Microsoft.WindowsAppRuntime.2_2.5.1.0_x64__8wekyb3d8bbwe/DWriteCore.dll",
+          "/Program Files/WindowsApps/Microsoft.WindowsAppRuntime.2_2.5.1.0_x64__8wekyb3d8bbwe/DeploymentAgent.exe",
+          "/Program Files/WindowsApps/Microsoft.WindowsAppRuntime.2_2.5.1.0_x64__8wekyb3d8bbwe/DirectML.dll"
+        ]
+      },
+      {
+        "flags": 19,
+        "mask": 2032041,
+        "sid_hex": "01020000000000130002000000100000",
+        "target_aces": [
+          "14031800a9011f0001020000000000130002000000100000"
+        ],
+        "paths": 180,
+        "examples": [
+          "/Program Files/WindowsApps/Microsoft.WindowsAppRuntime.2_2.5.1.0_x64__8wekyb3d8bbwe/AppxMetadata",
+          "/Program Files/WindowsApps/Microsoft.WindowsAppRuntime.2_2.5.1.0_x64__8wekyb3d8bbwe/MSIX",
+          "/Program Files/WindowsApps/Microsoft.WindowsAppRuntime.2_2.5.1.0_x64__8wekyb3d8bbwe/Microsoft.UI.Xaml",
+          "/Program Files/WindowsApps/Microsoft.WindowsAppRuntime.2_2.5.1.0_x64__8wekyb3d8bbwe/Microsoft.UI.Xaml/Assets",
+          "/Program Files/WindowsApps/Microsoft.WindowsAppRuntime.2_2.5.1.0_x64__8wekyb3d8bbwe/af-ZA"
+        ]
+      },
+      {
+        "flags": 19,
+        "mask": 2032041,
+        "sid_hex": "01020000000000130002000000100000",
+        "target_aces": [],
+        "paths": 5,
+        "examples": [
+          "/Program Files/WindowsApps/Microsoft.WindowsAppRuntime.2_2.5.1.0_x64__8wekyb3d8bbwe/microsoft.system.package.metadata",
+          "/Program Files/WindowsApps/Microsoft.WindowsAppRuntime.2_2.5.1.0_x64__8wekyb3d8bbwe/microsoft.system.package.metadata/Autogen",
+          "/Program Files/WindowsApps/Microsoft.WindowsAppRuntime.2_2.5.1.0_x86__8wekyb3d8bbwe/microsoft.system.package.metadata",
+          "/Program Files/WindowsApps/Microsoft.WindowsAppRuntime.2_2.5.1.0_x86__8wekyb3d8bbwe/microsoft.system.package.metadata/Autogen",
+          "/ProgramData/Microsoft/Windows/AppRepository/Packages/Microsoft.WindowsTerminal_1.18.10301.0_x64__8wekyb3d8bbwe/PackagedCom"
+        ]
+      },
+      {
+        "flags": 3,
+        "mask": 2032041,
+        "sid_hex": "01020000000000130002000000100000",
+        "target_aces": [],
+        "paths": 13,
+        "examples": [
+          "/ProgramData/Microsoft/Windows/AppRepository/Packages/Microsoft.DesktopAppInstaller_1.26.509.0_x64__8wekyb3d8bbwe",
+          "/ProgramData/Microsoft/Windows/AppRepository/Packages/Microsoft.Paint_11.2412.295.0_x64__8wekyb3d8bbwe",
+          "/ProgramData/Microsoft/Windows/AppRepository/Packages/Microsoft.ScreenSketch_11.2307.61.0_x64__8wekyb3d8bbwe",
+          "/ProgramData/Microsoft/Windows/AppRepository/Packages/Microsoft.SecHealthUI_1000.26100.8036.0_x64__8wekyb3d8bbwe",
+          "/ProgramData/Microsoft/Windows/AppRepository/Packages/Microsoft.StorePurchaseApp_22509.1400.1.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      {
+        "flags": 0,
+        "mask": 2032041,
+        "sid_hex": "01020000000000130002000000100000",
+        "target_aces": [],
+        "paths": 22,
+        "examples": [
+          "/Users/deploy/AppData/Local/Microsoft/WindowsApps/ActionsMcpHost.exe",
+          "/Users/deploy/AppData/Local/Microsoft/WindowsApps/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe/WindowsPackageManagerServer.exe",
+          "/Users/deploy/AppData/Local/Microsoft/WindowsApps/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe/python.exe",
+          "/Users/deploy/AppData/Local/Microsoft/WindowsApps/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe/python3.exe",
+          "/Users/deploy/AppData/Local/Microsoft/WindowsApps/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe/winget.exe"
+        ]
+      }
+    ],
+    "scope": "5725 source label paths discovered from complete verified source WIM security comparison; all exact paths independently queried on clean frozen fifth target, without boot/write. No package version/path changes. Remaining937 source ACEs absent, full goal remains open.",
+    "coverage_verified": "Independent second read of all176416 native source WIM nodes confirms precisely5725 label paths; initial difference-derived inventory identical.",
+    "missing_aces": 214,
+    "inherited_flag_only_differences": 723,
+    "missing_protected_aces": 83,
+    "missing_untrusted_aces": 131,
+    "missing_directory_entries": 124,
+    "missing_file_entries": 90,
+    "parent_trust_present_for_missing": 41,
+    "classification_file": "/data/cache/qcow2-oracle-1005/fifth-target-missing-trust-classification.json",
+    "limitation": "Fifth installation never completed OOBE; missing214 cannot yet be classified as final post-Setup loss. Repeat whole inventory after complete next installation/OOBE before any targeted servicing experiment."
+  }
+}

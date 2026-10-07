@@ -1,0 +1,2036 @@
+{
+  "csv_sha256": "915d16841b3f076e31406a95a4f9db260287fc436fff019701f622840bda12b6",
+  "events": [
+    {
+      "row": 429166,
+      "Time of Day": "10:20:36.3338995 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "CreateFile",
+      "Path": "C:\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Desired Access: Generic Read/Write, Delete, Disposition: Open, Options: , Attributes: N, ShareMode: Read, AllocationSize: n/a, OpenResult: Opened"
+    },
+    {
+      "row": 429175,
+      "Time of Day": "10:20:36.3340380 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "FileSystemControl",
+      "Path": "C:\\System Volume Information\\tracking.log",
+      "Result": "",
+      "Detail": "Control: FSCTL_REQUEST_BATCH_OPLOCK"
+    },
+    {
+      "row": 429176,
+      "Time of Day": "10:20:36.3340570 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "C:\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 0, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 429195,
+      "Time of Day": "10:20:36.3344861 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "QueryStandardInformationFile",
+      "Path": "C:\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "AllocationSize: 20,480, EndOfFile: 20,480, NumberOfLinks: 1, DeletePending: False, Directory: False"
+    },
+    {
+      "row": 429435,
+      "Time of Day": "10:20:36.3386388 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "CreateFile",
+      "Path": "\\Device\\HarddiskVolume4\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Desired Access: Generic Read/Write, Delete, Disposition: Open, Options: , Attributes: N, ShareMode: Read, AllocationSize: n/a, OpenResult: Opened"
+    },
+    {
+      "row": 429453,
+      "Time of Day": "10:20:36.3389747 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "FileSystemControl",
+      "Path": "\\Device\\HarddiskVolume4\\System Volume Information\\tracking.log",
+      "Result": "CANCELLED",
+      "Detail": "Control: FSCTL_REQUEST_BATCH_OPLOCK"
+    },
+    {
+      "row": 429454,
+      "Time of Day": "10:20:36.3389911 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "\\Device\\HarddiskVolume4\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 0, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 429510,
+      "Time of Day": "10:20:36.3399358 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "QueryStandardInformationFile",
+      "Path": "\\Device\\HarddiskVolume4\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "AllocationSize: 20,480, EndOfFile: 20,480, NumberOfLinks: 1, DeletePending: False, Directory: False"
+    },
+    {
+      "row": 429573,
+      "Time of Day": "10:20:36.3410723 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "\\Device\\HarddiskVolume4\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 512, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 429597,
+      "Time of Day": "10:20:36.3415945 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "\\Device\\HarddiskVolume4\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 1,024, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 429606,
+      "Time of Day": "10:20:36.3418579 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "\\Device\\HarddiskVolume4\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 1,536, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 429622,
+      "Time of Day": "10:20:36.3421762 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "\\Device\\HarddiskVolume4\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 2,048, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 429626,
+      "Time of Day": "10:20:36.3422079 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "\\Device\\HarddiskVolume4\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 2,560, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 429627,
+      "Time of Day": "10:20:36.3422253 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "\\Device\\HarddiskVolume4\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 3,072, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 429629,
+      "Time of Day": "10:20:36.3422454 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "\\Device\\HarddiskVolume4\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 3,584, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 429635,
+      "Time of Day": "10:20:36.3424302 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "\\Device\\HarddiskVolume4\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 4,096, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 429670,
+      "Time of Day": "10:20:36.3432032 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "\\Device\\HarddiskVolume4\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 4,608, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 429671,
+      "Time of Day": "10:20:36.3432759 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "\\Device\\HarddiskVolume4\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 5,120, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 429678,
+      "Time of Day": "10:20:36.3434497 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "\\Device\\HarddiskVolume4\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 5,632, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 429685,
+      "Time of Day": "10:20:36.3435964 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "\\Device\\HarddiskVolume4\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 6,144, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 429703,
+      "Time of Day": "10:20:36.3439117 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "\\Device\\HarddiskVolume4\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 6,656, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 429705,
+      "Time of Day": "10:20:36.3439835 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "\\Device\\HarddiskVolume4\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 7,168, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 429716,
+      "Time of Day": "10:20:36.3441955 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "\\Device\\HarddiskVolume4\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 7,680, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 429717,
+      "Time of Day": "10:20:36.3442247 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "\\Device\\HarddiskVolume4\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 8,192, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 429745,
+      "Time of Day": "10:20:36.3448781 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "\\Device\\HarddiskVolume4\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 8,704, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 429747,
+      "Time of Day": "10:20:36.3450124 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "\\Device\\HarddiskVolume4\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 9,216, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 429751,
+      "Time of Day": "10:20:36.3451046 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "\\Device\\HarddiskVolume4\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 9,728, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 429756,
+      "Time of Day": "10:20:36.3452185 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "\\Device\\HarddiskVolume4\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 10,240, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 429770,
+      "Time of Day": "10:20:36.3454948 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "\\Device\\HarddiskVolume4\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 10,752, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 429776,
+      "Time of Day": "10:20:36.3456371 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "\\Device\\HarddiskVolume4\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 11,264, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 429778,
+      "Time of Day": "10:20:36.3456756 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "\\Device\\HarddiskVolume4\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 11,776, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 429783,
+      "Time of Day": "10:20:36.3458823 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "\\Device\\HarddiskVolume4\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 12,288, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 429802,
+      "Time of Day": "10:20:36.3462510 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "\\Device\\HarddiskVolume4\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 12,800, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 429811,
+      "Time of Day": "10:20:36.3463879 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "\\Device\\HarddiskVolume4\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 13,312, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 429812,
+      "Time of Day": "10:20:36.3464126 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "\\Device\\HarddiskVolume4\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 13,824, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 429813,
+      "Time of Day": "10:20:36.3464301 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "\\Device\\HarddiskVolume4\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 14,336, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 429814,
+      "Time of Day": "10:20:36.3464469 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "\\Device\\HarddiskVolume4\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 14,848, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 429815,
+      "Time of Day": "10:20:36.3464644 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "\\Device\\HarddiskVolume4\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 15,360, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 429826,
+      "Time of Day": "10:20:36.3467034 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "\\Device\\HarddiskVolume4\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 15,872, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 429830,
+      "Time of Day": "10:20:36.3468276 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "\\Device\\HarddiskVolume4\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 16,384, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 429867,
+      "Time of Day": "10:20:36.3475846 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "\\Device\\HarddiskVolume4\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 16,896, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 429870,
+      "Time of Day": "10:20:36.3477157 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "\\Device\\HarddiskVolume4\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 17,408, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 429894,
+      "Time of Day": "10:20:36.3483898 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "\\Device\\HarddiskVolume4\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 17,920, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 429897,
+      "Time of Day": "10:20:36.3484323 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "\\Device\\HarddiskVolume4\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 18,432, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 429913,
+      "Time of Day": "10:20:36.3488038 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "\\Device\\HarddiskVolume4\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 18,944, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 429915,
+      "Time of Day": "10:20:36.3488772 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "\\Device\\HarddiskVolume4\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 19,456, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 429916,
+      "Time of Day": "10:20:36.3488984 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "\\Device\\HarddiskVolume4\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 19,968, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 429918,
+      "Time of Day": "10:20:36.3489160 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "\\Device\\HarddiskVolume4\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 512, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 429929,
+      "Time of Day": "10:20:36.3491322 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "\\Device\\HarddiskVolume4\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 19,968, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 429932,
+      "Time of Day": "10:20:36.3493089 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "\\Device\\HarddiskVolume4\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 512, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 429958,
+      "Time of Day": "10:20:36.3499398 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "CloseFile",
+      "Path": "\\Device\\HarddiskVolume4\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": ""
+    },
+    {
+      "row": 430265,
+      "Time of Day": "10:20:36.3572959 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "CreateFile",
+      "Path": "T:\\System Volume Information\\tracking.log",
+      "Result": "NAME NOT FOUND",
+      "Detail": "Desired Access: Generic Read/Write, Delete, Disposition: Open, Options: , Attributes: N, ShareMode: Read, AllocationSize: n/a"
+    },
+    {
+      "row": 430268,
+      "Time of Day": "10:20:36.3573487 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "CreateFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Desired Access: Generic Read/Write, Disposition: Supersede, Options: , Attributes: HS, ShareMode: None, AllocationSize: 0, OpenResult: Created"
+    },
+    {
+      "row": 431185,
+      "Time of Day": "10:20:36.3788066 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "SetPositionInformationFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Position: 20,480"
+    },
+    {
+      "row": 431212,
+      "Time of Day": "10:20:36.3796628 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "QueryPositionInformationFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Position: 20,480"
+    },
+    {
+      "row": 431213,
+      "Time of Day": "10:20:36.3796919 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "SetEndOfFileInformationFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "EndOfFile: 20,480"
+    },
+    {
+      "row": 431216,
+      "Time of Day": "10:20:36.3797494 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "SetAllocationInformationFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "AllocationSize: 20,480"
+    },
+    {
+      "row": 431218,
+      "Time of Day": "10:20:36.3798115 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 512, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 431225,
+      "Time of Day": "10:20:36.3799424 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "WriteFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 512, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 431226,
+      "Time of Day": "10:20:36.3799937 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 1,024, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 431242,
+      "Time of Day": "10:20:36.3804394 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "WriteFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 1,024, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 431252,
+      "Time of Day": "10:20:36.3806795 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 1,536, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 431254,
+      "Time of Day": "10:20:36.3807018 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "WriteFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 1,536, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 431309,
+      "Time of Day": "10:20:36.3820569 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 2,048, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 431361,
+      "Time of Day": "10:20:36.3832041 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "WriteFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 2,048, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 431400,
+      "Time of Day": "10:20:36.3838478 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 2,560, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 431424,
+      "Time of Day": "10:20:36.3844025 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "WriteFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 2,560, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 431496,
+      "Time of Day": "10:20:36.3858732 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 3,072, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 431567,
+      "Time of Day": "10:20:36.3874343 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "WriteFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 3,072, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 431593,
+      "Time of Day": "10:20:36.3879382 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 3,584, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 431602,
+      "Time of Day": "10:20:36.3881986 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "WriteFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 3,584, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 431604,
+      "Time of Day": "10:20:36.3882299 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 4,096, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 431627,
+      "Time of Day": "10:20:36.3886824 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "WriteFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 4,096, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 431639,
+      "Time of Day": "10:20:36.3890396 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 4,608, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 431654,
+      "Time of Day": "10:20:36.3893610 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "WriteFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 4,608, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 431702,
+      "Time of Day": "10:20:36.3906832 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 5,120, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 431717,
+      "Time of Day": "10:20:36.3910021 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "WriteFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 5,120, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 431776,
+      "Time of Day": "10:20:36.3921698 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 5,632, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 431786,
+      "Time of Day": "10:20:36.3923531 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "WriteFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 5,632, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 431795,
+      "Time of Day": "10:20:36.3925571 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 6,144, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 431833,
+      "Time of Day": "10:20:36.3932103 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "WriteFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 6,144, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 431849,
+      "Time of Day": "10:20:36.3934445 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 6,656, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 431872,
+      "Time of Day": "10:20:36.3939326 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "WriteFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 6,656, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 431875,
+      "Time of Day": "10:20:36.3939861 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 7,168, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 431880,
+      "Time of Day": "10:20:36.3940837 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "WriteFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 7,168, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 431882,
+      "Time of Day": "10:20:36.3941160 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 7,680, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 431896,
+      "Time of Day": "10:20:36.3944243 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "WriteFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 7,680, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 431904,
+      "Time of Day": "10:20:36.3945590 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 8,192, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 431918,
+      "Time of Day": "10:20:36.3948356 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "WriteFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 8,192, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 431919,
+      "Time of Day": "10:20:36.3948656 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 8,704, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 431920,
+      "Time of Day": "10:20:36.3948859 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "WriteFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 8,704, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 431924,
+      "Time of Day": "10:20:36.3949450 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 9,216, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 431926,
+      "Time of Day": "10:20:36.3949753 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "WriteFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 9,216, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 431929,
+      "Time of Day": "10:20:36.3950274 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 9,728, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 431930,
+      "Time of Day": "10:20:36.3950466 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "WriteFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 9,728, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 431932,
+      "Time of Day": "10:20:36.3950655 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 10,240, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 431935,
+      "Time of Day": "10:20:36.3951084 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "WriteFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 10,240, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 431936,
+      "Time of Day": "10:20:36.3951326 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 10,752, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 431944,
+      "Time of Day": "10:20:36.3952770 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "WriteFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 10,752, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 431961,
+      "Time of Day": "10:20:36.3956237 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 11,264, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 431970,
+      "Time of Day": "10:20:36.3957501 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "WriteFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 11,264, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 431979,
+      "Time of Day": "10:20:36.3958909 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 11,776, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 431988,
+      "Time of Day": "10:20:36.3960105 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "WriteFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 11,776, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 431994,
+      "Time of Day": "10:20:36.3960773 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 12,288, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 432001,
+      "Time of Day": "10:20:36.3961995 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "WriteFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 12,288, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 432003,
+      "Time of Day": "10:20:36.3962285 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 12,800, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 432007,
+      "Time of Day": "10:20:36.3963099 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "WriteFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 12,800, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 432015,
+      "Time of Day": "10:20:36.3964349 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 13,312, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 432016,
+      "Time of Day": "10:20:36.3964616 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "WriteFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 13,312, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 432017,
+      "Time of Day": "10:20:36.3964827 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 13,824, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 432020,
+      "Time of Day": "10:20:36.3965253 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "WriteFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 13,824, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 432022,
+      "Time of Day": "10:20:36.3965447 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 14,336, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 432036,
+      "Time of Day": "10:20:36.3967724 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "WriteFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 14,336, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 432038,
+      "Time of Day": "10:20:36.3967967 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 14,848, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 432046,
+      "Time of Day": "10:20:36.3969729 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "WriteFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 14,848, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 432060,
+      "Time of Day": "10:20:36.3972166 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 15,360, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 432065,
+      "Time of Day": "10:20:36.3973132 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "WriteFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 15,360, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 432068,
+      "Time of Day": "10:20:36.3973922 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 15,872, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 432071,
+      "Time of Day": "10:20:36.3974442 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "WriteFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 15,872, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 432081,
+      "Time of Day": "10:20:36.3976128 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 16,384, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 432104,
+      "Time of Day": "10:20:36.3979823 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "WriteFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 16,384, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 432114,
+      "Time of Day": "10:20:36.3981537 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 16,896, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 432134,
+      "Time of Day": "10:20:36.3984629 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "WriteFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 16,896, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 432154,
+      "Time of Day": "10:20:36.3988539 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 17,408, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 432181,
+      "Time of Day": "10:20:36.3992913 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "WriteFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 17,408, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 432190,
+      "Time of Day": "10:20:36.3994815 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 17,920, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 432192,
+      "Time of Day": "10:20:36.3995313 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "WriteFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 17,920, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 432200,
+      "Time of Day": "10:20:36.3997105 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 18,432, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 432202,
+      "Time of Day": "10:20:36.3997426 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "WriteFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 18,432, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 432215,
+      "Time of Day": "10:20:36.3999426 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 18,944, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 432217,
+      "Time of Day": "10:20:36.3999713 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "WriteFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 18,944, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 432271,
+      "Time of Day": "10:20:36.4008666 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 19,456, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 432272,
+      "Time of Day": "10:20:36.4008987 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "WriteFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 19,456, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 432274,
+      "Time of Day": "10:20:36.4009227 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 19,968, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 432275,
+      "Time of Day": "10:20:36.4009408 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "WriteFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 19,968, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 432276,
+      "Time of Day": "10:20:36.4009625 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "WriteFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 0, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 432279,
+      "Time of Day": "10:20:36.4009876 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "FlushBuffersFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": ""
+    },
+    {
+      "row": 432281,
+      "Time of Day": "10:20:36.4010108 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "FASTIO_ACQUIRE_FOR_CC_FLUSH",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": ""
+    },
+    {
+      "row": 432282,
+      "Time of Day": "10:20:36.4010210 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "WriteFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 0, Length: 20,480, I/O Flags: Non-cached, Paging I/O, Synchronous Paging I/O, Priority: Normal"
+    },
+    {
+      "row": 433252,
+      "Time of Day": "10:20:36.4195390 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "FASTIO_RELEASE_FOR_CC_FLUSH",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": ""
+    },
+    {
+      "row": 434200,
+      "Time of Day": "10:20:36.4363214 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "WriteFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 0, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 434213,
+      "Time of Day": "10:20:36.4365467 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "CloseFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": ""
+    },
+    {
+      "row": 434231,
+      "Time of Day": "10:20:36.4368981 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "FASTIO_ACQUIRE_FOR_CC_FLUSH",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": ""
+    },
+    {
+      "row": 434252,
+      "Time of Day": "10:20:36.4372696 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "WriteFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 0, Length: 4,096, I/O Flags: Non-cached, Paging I/O, Synchronous Paging I/O, Priority: Normal"
+    },
+    {
+      "row": 434616,
+      "Time of Day": "10:20:36.4443469 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "FASTIO_RELEASE_FOR_CC_FLUSH",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": ""
+    },
+    {
+      "row": 434991,
+      "Time of Day": "10:20:36.4518602 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "CreateFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Desired Access: Read Attributes, Delete, Synchronize, Disposition: Open, Options: Synchronous IO Non-Alert, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a, OpenResult: Opened"
+    },
+    {
+      "row": 434994,
+      "Time of Day": "10:20:36.4519071 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "QueryAttributeTagFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "Attributes: HSA, ReparseTag: 0x0"
+    },
+    {
+      "row": 434996,
+      "Time of Day": "10:20:36.4519293 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "QueryBasicInformationFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "CreationTime: 10/5/2026 10:20:36 PM, LastAccessTime: 10/5/2026 10:20:36 PM, LastWriteTime: 10/5/2026 10:20:36 PM, ChangeTime: 10/5/2026 10:20:36 PM, FileAttributes: HSA"
+    },
+    {
+      "row": 435036,
+      "Time of Day": "10:20:36.4525582 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "SetRenameInformationFile",
+      "Path": "T:\\System Volume Information\\tracking.log.tmp",
+      "Result": "SUCCESS",
+      "Detail": "ReplaceIfExists: False, FileName: T:\\System Volume Information\\tracking.log"
+    },
+    {
+      "row": 435471,
+      "Time of Day": "10:20:36.4608023 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "CloseFile",
+      "Path": "T:\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": ""
+    },
+    {
+      "row": 435474,
+      "Time of Day": "10:20:36.4608630 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "IRP_MJ_CLOSE",
+      "Path": "T:\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": ""
+    },
+    {
+      "row": 435494,
+      "Time of Day": "10:20:36.4611501 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "CreateFile",
+      "Path": "T:\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Desired Access: Generic Read/Write, Delete, Disposition: Open, Options: , Attributes: N, ShareMode: Read, AllocationSize: n/a, OpenResult: Opened"
+    },
+    {
+      "row": 435496,
+      "Time of Day": "10:20:36.4612219 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "FileSystemControl",
+      "Path": "T:\\System Volume Information\\tracking.log",
+      "Result": "",
+      "Detail": "Control: FSCTL_REQUEST_BATCH_OPLOCK"
+    },
+    {
+      "row": 435498,
+      "Time of Day": "10:20:36.4612630 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 0, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 435500,
+      "Time of Day": "10:20:36.4613104 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "QueryStandardInformationFile",
+      "Path": "T:\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "AllocationSize: 20,480, EndOfFile: 20,480, NumberOfLinks: 1, DeletePending: False, Directory: False"
+    },
+    {
+      "row": 435509,
+      "Time of Day": "10:20:36.4614158 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 512, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 435511,
+      "Time of Day": "10:20:36.4614676 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 1,024, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 435513,
+      "Time of Day": "10:20:36.4614935 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 1,536, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 435518,
+      "Time of Day": "10:20:36.4615949 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 2,048, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 435523,
+      "Time of Day": "10:20:36.4616824 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 2,560, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 435525,
+      "Time of Day": "10:20:36.4617450 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 3,072, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 435526,
+      "Time of Day": "10:20:36.4617823 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 3,584, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 435529,
+      "Time of Day": "10:20:36.4618469 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 4,096, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 435530,
+      "Time of Day": "10:20:36.4618667 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 4,608, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 435531,
+      "Time of Day": "10:20:36.4618855 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 5,120, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 435533,
+      "Time of Day": "10:20:36.4619030 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 5,632, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 435537,
+      "Time of Day": "10:20:36.4619632 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 6,144, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 435539,
+      "Time of Day": "10:20:36.4619828 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 6,656, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 435545,
+      "Time of Day": "10:20:36.4620771 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 7,168, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 435557,
+      "Time of Day": "10:20:36.4623268 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 7,680, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 435567,
+      "Time of Day": "10:20:36.4624547 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 8,192, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 435572,
+      "Time of Day": "10:20:36.4625603 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 8,704, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 435580,
+      "Time of Day": "10:20:36.4626738 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 9,216, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 435581,
+      "Time of Day": "10:20:36.4626946 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 9,728, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 435586,
+      "Time of Day": "10:20:36.4627988 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 10,240, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 435588,
+      "Time of Day": "10:20:36.4628173 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 10,752, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 435600,
+      "Time of Day": "10:20:36.4630053 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 11,264, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 435613,
+      "Time of Day": "10:20:36.4631809 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 11,776, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 435618,
+      "Time of Day": "10:20:36.4632482 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 12,288, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 435628,
+      "Time of Day": "10:20:36.4634419 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 12,800, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 435630,
+      "Time of Day": "10:20:36.4634658 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 13,312, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 435631,
+      "Time of Day": "10:20:36.4634838 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 13,824, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 435633,
+      "Time of Day": "10:20:36.4635423 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 14,336, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 435638,
+      "Time of Day": "10:20:36.4636252 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 14,848, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 435657,
+      "Time of Day": "10:20:36.4639162 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 15,360, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 435658,
+      "Time of Day": "10:20:36.4639393 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 15,872, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 435660,
+      "Time of Day": "10:20:36.4639574 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 16,384, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 435666,
+      "Time of Day": "10:20:36.4640232 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 16,896, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 435668,
+      "Time of Day": "10:20:36.4640453 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 17,408, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 435684,
+      "Time of Day": "10:20:36.4643488 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 17,920, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 435693,
+      "Time of Day": "10:20:36.4644745 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 18,432, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 435706,
+      "Time of Day": "10:20:36.4646008 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 18,944, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 435743,
+      "Time of Day": "10:20:36.4654004 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 19,456, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 435755,
+      "Time of Day": "10:20:36.4656464 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 19,968, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 435769,
+      "Time of Day": "10:20:36.4658574 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 512, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 435772,
+      "Time of Day": "10:20:36.4658819 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 19,968, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 435774,
+      "Time of Day": "10:20:36.4659052 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "ReadFile",
+      "Path": "T:\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 512, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 437189,
+      "Time of Day": "10:20:36.4930199 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "WriteFile",
+      "Path": "T:\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 0, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 437190,
+      "Time of Day": "10:20:36.4930507 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "WriteFile",
+      "Path": "T:\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 0, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 437235,
+      "Time of Day": "10:20:36.4940769 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "WriteFile",
+      "Path": "T:\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 0, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 437238,
+      "Time of Day": "10:20:36.4941106 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "WriteFile",
+      "Path": "T:\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 0, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 444218,
+      "Time of Day": "10:20:36.6251998 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "WriteFile",
+      "Path": "T:\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 0, Length: 512, Priority: Normal"
+    },
+    {
+      "row": 444221,
+      "Time of Day": "10:20:36.6252323 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "WriteFile",
+      "Path": "T:\\System Volume Information\\tracking.log",
+      "Result": "SUCCESS",
+      "Detail": "Offset: 0, Length: 512, Priority: Normal"
+    }
+  ],
+  "conclusion": "TrkWks first received NAME NOT FOUND opening T tracking.log at22:20:36.3572959, created tracking.log.tmp, then opened tracking.log successfully at22:20:36.4611501 before extended setter22:20:36.4959853. These events establish missing-log initialization during this traced boot; higher-level clearing condition and exact setter path still require stack/state correlation."
+}

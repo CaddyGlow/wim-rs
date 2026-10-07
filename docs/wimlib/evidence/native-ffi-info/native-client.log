@@ -1,0 +1,216 @@
+version:1062917:1.14.5
+error:-2:Unknown error
+error:-1:Unknown error
+error:0:Success
+error:1:The WIM is already locked for writing
+error:2:The WIM contains invalid compressed data
+error:3:Unknown error
+error:4:Unknown error
+error:5:Unknown error
+error:6:An error was returned by fuse_main()
+error:7:Unknown error
+error:8:The provided file glob did not match any files
+error:9:Unknown error
+error:10:Inconsistent image count among the metadata resources, the WIM header, and/or the XML data
+error:11:Tried to add an image with a name that is already in use
+error:12:The user does not have sufficient privileges
+error:13:The WIM file is corrupted (failed integrity check)
+error:14:The contents of the capture configuration file were invalid
+error:15:The compression chunk size was unrecognized
+error:16:The compression type was unrecognized
+error:17:The WIM header was invalid
+error:18:Tried to select an image that does not exist in the WIM
+error:19:The WIM's integrity table is invalid
+error:20:An entry in the WIM's lookup table is invalid
+error:21:The metadata resource is invalid
+error:22:Unknown error
+error:23:Conflicting files in overlay when creating a WIM image
+error:24:An invalid parameter was given
+error:25:The part number or total parts of the WIM is invalid
+error:26:The pipable WIM is invalid
+error:27:The reparse data of a reparse point was invalid
+error:28:The SHA-1 message digest of a WIM resource did not match the expected value
+error:29:Unknown error
+error:30:A string was not a valid UTF-16 string
+error:31:A string was not a valid UTF-8 string
+error:32:One of the specified paths to delete was a directory
+error:33:The WIM is part of a split WIM, which is not supported for this operation
+error:34:Unknown error
+error:35:Failed to create a hard or symbolic link when extracting a file from the WIM
+error:36:The WIM does not contain image metadata; it only contains file data
+error:37:Failed to create a directory
+error:38:Failed to create or use a POSIX message queue
+error:39:Ran out of memory
+error:40:Expected a directory
+error:41:Directory was not empty
+error:42:One of the specified paths to extract did not correspond to a regular file
+error:43:The file did not begin with the magic characters that identify a WIM file
+error:44:The WIM was not captured such that it can be applied from a pipe
+error:45:The WIM is not identified with a filename
+error:46:NTFS-3G encountered an error (check errno)
+error:47:Failed to open a file
+error:48:Failed to open a directory
+error:49:The path does not exist in the WIM image
+error:50:Could not read data from a file
+error:51:Could not read the target of a symbolic link
+error:52:Could not rename a file
+error:53:Unknown error
+error:54:Unable to complete reparse point fixup
+error:55:A file resource needed to complete the operation was missing from the WIM
+error:56:The components of the WIM were arranged in an unexpected order
+error:57:Failed to set attributes on extracted file
+error:58:Failed to set reparse data on extracted file
+error:59:Failed to set file owner, group, or other permissions on extracted file
+error:60:Failed to set short name on extracted file
+error:61:Failed to set timestamps on extracted file
+error:62:The WIM is part of an invalid split WIM
+error:63:Could not read the metadata for a file or directory
+error:64:Unknown error
+error:65:Unexpectedly reached the end of the file
+error:66:A Unicode string could not be represented in the current locale's encoding
+error:67:The WIM file is marked with an unknown version number
+error:68:The requested operation is unsupported
+error:69:A file in the directory tree to archive was not of a supported type
+error:70:Unknown error
+error:71:The WIM is read-only (file permissions, header flag, or split WIM)
+error:72:Failed to write data to a file
+error:73:The XML data of the WIM is invalid
+error:74:The WIM file (or parts of it) is encrypted
+error:75:Failed to set WIMBoot pointer data
+error:76:The operation was aborted by the library user
+error:77:The user-provided progress function returned an unrecognized value
+error:78:Unable to create a special file (e.g. device node or socket)
+error:79:There are still files open on the mounted WIM image
+error:80:There is not a WIM image mounted on the directory
+error:81:The current user does not have permission to unmount the WIM image
+error:82:The volume must be unlocked before it can be used
+error:83:The capture configuration file could not be read
+error:84:The WIM file is incomplete
+error:85:The WIM file cannot be compacted because of its format, its layout, or the write parameters specified by the user
+error:86:The WIM image cannot be modified because it is currently referenced from multiple places
+error:87:The destination WIM already contains one of the source images
+error:88:A file being added to a WIM image was concurrently modified
+error:89:Unable to create a filesystem snapshot
+error:90:An extended attribute entry in the WIM image is invalid
+error:91:Failed to set an extended attribute on an extracted file
+error:92:Unknown error
+error:93:Unknown error
+error:94:Unknown error
+error:95:Unknown error
+error:96:Unknown error
+error:97:Unknown error
+error:98:Unknown error
+error:99:Unknown error
+error:100:Unknown error
+error:101:Unknown error
+error:102:Unknown error
+error:103:Unknown error
+error:104:Unknown error
+error:105:Unknown error
+error:106:Unknown error
+error:107:Unknown error
+error:108:Unknown error
+error:109:Unknown error
+error:110:Unknown error
+error:111:Unknown error
+error:112:Unknown error
+error:113:Unknown error
+error:114:Unknown error
+error:115:Unknown error
+error:116:Unknown error
+error:117:Unknown error
+error:118:Unknown error
+error:119:Unknown error
+error:120:Unknown error
+error:121:Unknown error
+error:122:Unknown error
+error:123:Unknown error
+error:124:Unknown error
+error:125:Unknown error
+error:126:Unknown error
+error:127:Unknown error
+error:128:Unknown error
+error:129:Unknown error
+error:130:Unknown error
+error:131:Unknown error
+error:132:Unknown error
+error:133:Unknown error
+error:134:Unknown error
+error:135:Unknown error
+error:136:Unknown error
+error:137:Unknown error
+error:138:Unknown error
+error:139:Unknown error
+error:140:Unknown error
+error:141:Unknown error
+error:142:Unknown error
+error:143:Unknown error
+error:144:Unknown error
+error:145:Unknown error
+error:146:Unknown error
+error:147:Unknown error
+error:148:Unknown error
+error:149:Unknown error
+error:150:Unknown error
+error:151:Unknown error
+error:152:Unknown error
+error:153:Unknown error
+error:154:Unknown error
+error:155:Unknown error
+error:156:Unknown error
+error:157:Unknown error
+error:158:Unknown error
+error:159:Unknown error
+error:160:Unknown error
+error:161:Unknown error
+error:162:Unknown error
+error:163:Unknown error
+error:164:Unknown error
+error:165:Unknown error
+error:166:Unknown error
+error:167:Unknown error
+error:168:Unknown error
+error:169:Unknown error
+error:170:Unknown error
+error:171:Unknown error
+error:172:Unknown error
+error:173:Unknown error
+error:174:Unknown error
+error:175:Unknown error
+error:176:Unknown error
+error:177:Unknown error
+error:178:Unknown error
+error:179:Unknown error
+error:180:Unknown error
+error:181:Unknown error
+error:182:Unknown error
+error:183:Unknown error
+error:184:Unknown error
+error:185:Unknown error
+error:186:Unknown error
+error:187:Unknown error
+error:188:Unknown error
+error:189:Unknown error
+error:190:Unknown error
+error:191:Unknown error
+error:192:Unknown error
+error:193:Unknown error
+error:194:Unknown error
+error:195:Unknown error
+error:196:Unknown error
+error:197:Unknown error
+error:198:Unknown error
+error:199:Unknown error
+error:200:A difference was detected between the two images being compared
+error:201:Unknown error
+error:202:Unknown error
+error:-2147483648:Unknown error
+error:2147483647:Unknown error
+compression:-2:Invalid
+compression:-1:Invalid
+compression:0:None
+compression:1:XPRESS
+compression:2:LZX
+compression:3:LZMS
+compression:4:Invalid
+compression:5:Invalid

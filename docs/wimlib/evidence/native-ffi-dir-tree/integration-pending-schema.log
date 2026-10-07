@@ -1,0 +1,46 @@
+    Checking wim-format v0.1.0 (/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/wim-format)
+    Checking wim-ffi v0.1.0 (/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/wim-ffi)
+error[E0609]: no field `metadata` on type `&handles::EmptyImage`
+   --> wim-ffi/src/write.rs:133:40
+    |
+133 |                     .try_reserve(empty.metadata.len())
+    |                                        ^^^^^^^^ unknown field
+    |
+    = note: available fields are: `identity`, `shared`
+
+error[E0609]: no field `metadata` on type `&handles::EmptyImage`
+   --> wim-ffi/src/write.rs:135:48
+    |
+135 |                 bytes.extend_from_slice(&empty.metadata);
+    |                                                ^^^^^^^^ unknown field
+    |
+    = note: available fields are: `identity`, `shared`
+
+error[E0609]: no field `metadata` on type `&mut handles::EmptyImage`
+   --> wim-ffi/src/write.rs:231:53
+    |
+231 |             HandleImage::Empty(empty) => &mut empty.metadata,
+    |                                                     ^^^^^^^^ unknown field
+    |
+    = note: available fields are: `identity`, `shared`
+
+error[E0609]: no field `hash` on type `&mut handles::EmptyImage`
+   --> wim-ffi/src/write.rs:257:48
+    |
+257 |             HandleImage::Empty(empty) => empty.hash = Sha1::digest(&empty.metadata).into(),
+    |                                                ^^^^ unknown field
+    |
+    = note: available fields are: `identity`, `shared`
+
+error[E0609]: no field `metadata` on type `&mut handles::EmptyImage`
+   --> wim-ffi/src/write.rs:257:75
+    |
+257 |             HandleImage::Empty(empty) => empty.hash = Sha1::digest(&empty.metadata).into(),
+    |                                                                           ^^^^^^^^ unknown field
+    |
+    = note: available fields are: `identity`, `shared`
+
+For more information about this error, try `rustc --explain E0609`.
+error: could not compile `wim-ffi` (lib) due to 5 previous errors
+warning: build failed, waiting for other jobs to finish...
+error: could not compile `wim-ffi` (lib test) due to 5 previous errors

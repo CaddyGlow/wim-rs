@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "scope": "Primary documentation feasibility; no production or guest changes",
+  "supported_read_only_mount": {
+    "url": "https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/wim/dd851947(v=msdn.10)?view=windows-11",
+    "fact": "WIM_FLAG_MOUNT_READONLY prevents saving changes regardless of WIM access level"
+  },
+  "supported_commit_discard": {
+    "url": "https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/wim/dd834967(v=msdn.10)?view=windows-11",
+    "fact": "Unmount explicitly chooses whether to commit changes"
+  },
+  "robocopy_approximation": {
+    "url": "https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/robocopy/",
+    "fact": "COPY DAT and DCOPY DAT preserve selected destination data/attributes/timestamps; they do not document preventing source read access-time updates",
+    "constraint": "Not the exact Setup SPCopyFilesAndFolders implementation"
+  },
+  "alternative_deployment": {
+    "url": "https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/deploy-windows-re?view=windows-11",
+    "fact": "Documented copy of opaque Winre.wim to tools partition then reagentc /setreimage /target; no mount/commit step in that deployment recipe",
+    "inference": "A separate deployment experiment may preserve full internal WIM metadata by avoiding modification, requiring actual bytehash and wholemetadata checks",
+    "constraint": "Does not replace or prove existing standardSetup gate"
+  },
+  "reagent_registration": {
+    "url": "https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/reagentc-command-line-options?view=windows-11",
+    "fact": "setreimage supports offline target; enable automatically runs during specialize"
+  },
+  "standard_setup_preserve_option_found": false,
+  "negative_search_scope": "Reviewed primary Setup command-line and WIM mount/deployment docs; absence is not a universal API impossibility claim",
+  "current_recommendation": "Execute released three copied-WIM controls, independently compare all metadata/content, then decide further supported disposable deployment experiment; no source edits, timestamp restoration or policy changes"
+}

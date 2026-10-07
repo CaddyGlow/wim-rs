@@ -1,0 +1,73 @@
+{
+  "validation_receipt_sha256": "b10ecfe8cc1efa729cfd7fcb914dd2d04643b6efb263a5a0a9b9a96c1356ee1d",
+  "logs_verified": [
+    {
+      "command": [
+        "cargo",
+        "test",
+        "-p",
+        "windows-ntfs",
+        "--locked",
+        "--test",
+        "transaction"
+      ],
+      "exit": 0,
+      "log_sha256": "baf0d864eca79b49f1f59edc5614715e8d451b6bcd61935fcb58e945fb02532f"
+    },
+    {
+      "command": [
+        "cargo",
+        "test",
+        "-p",
+        "windows-ntfs",
+        "--locked",
+        "--test",
+        "transaction",
+        "--",
+        "--ignored"
+      ],
+      "exit": 0,
+      "log_sha256": "cf0545e83c36c0ffc16160ba102770efa6e121fc578b211f2f9394b13ba5d5df"
+    },
+    {
+      "command": [
+        "cargo",
+        "clippy",
+        "-p",
+        "windows-ntfs",
+        "--all-targets",
+        "--all-features",
+        "--locked",
+        "--",
+        "-D",
+        "warnings"
+      ],
+      "exit": 0,
+      "log_sha256": "b87ea5eb5334c9de764357bf2066997d58799cd52bbf768a315dadbce8bd2950"
+    },
+    {
+      "command": [
+        "rustfmt",
+        "--check",
+        "--edition",
+        "2024",
+        "crates/windows-ntfs/src/transaction.rs",
+        "crates/windows-ntfs/tests/transaction.rs"
+      ],
+      "exit": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "source_hashes_verified": {
+    "crates/windows-ntfs/src/transaction.rs": "33050cbfe3327b6066e878f6bea1b260d1b8d94f0b245e3e1946d2fb0722e802",
+    "crates/windows-ntfs/tests/transaction.rs": "8b210ecc36bd75d16d61737db484d72cc6c14107193ebcfd1b1d4f8a01af9bc5",
+    "crates/windows-ntfs/Cargo.toml": "8487fe850342d25ebc1a3661f197b7c36f9acfadadab7e0dd73829623b252006"
+  },
+  "root_review": [
+    "Read-only input and CreateNew output; prevalidate expected bytes and input hash.",
+    "Monotone patch cursor avoids rescanning complete plan per chunk.",
+    "USA array rejects FILE/INDX header/content overlap and torn trailers.",
+    "Full output comparison/flush and final input hash checks; exclusive immutability remains caller requirement."
+  ],
+  "scope": "Experimental primitives only; no alias graph planner, index growth/rebalance, or installed restoration pass."
+}

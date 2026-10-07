@@ -1,0 +1,7 @@
+{
+  "exit": 0,
+  "signal": null,
+  "stdout": "{\r\n    \"Requested\":  \"Sysprep /generalize /oobe /shutdown\"\r\n}\r\n",
+  "stderr": "",
+  "stdout_truncated": false
+}

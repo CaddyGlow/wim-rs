@@ -1,0 +1,358 @@
+{
+  "cases": [
+    {
+      "fixture": "new",
+      "observations": 264,
+      "matches": true
+    },
+    {
+      "fixture": "none",
+      "observations": 494,
+      "matches": false
+    },
+    {
+      "fixture": "XPRESS",
+      "observations": 494,
+      "matches": false
+    },
+    {
+      "fixture": "LZX",
+      "observations": 494,
+      "matches": false
+    },
+    {
+      "fixture": "LZMS",
+      "observations": 494,
+      "matches": false
+    },
+    {
+      "fixture": "cyclic.wim",
+      "observations": 354,
+      "matches": true
+    },
+    {
+      "fixture": "corrupted_file_1.wim",
+      "observations": 350,
+      "matches": false
+    },
+    {
+      "fixture": "corrupted_file_2.wim",
+      "observations": 350,
+      "matches": false
+    },
+    {
+      "fixture": "dotdot.wim",
+      "observations": 350,
+      "matches": true
+    },
+    {
+      "fixture": "duplicate_names.wim",
+      "observations": 350,
+      "matches": false
+    },
+    {
+      "fixture": "linux_xattrs_old.wim",
+      "observations": 336,
+      "matches": true
+    },
+    {
+      "fixture": "empty_dacl.wim",
+      "observations": 350,
+      "matches": false
+    }
+  ],
+  "failures": [
+    {
+      "fixture": "none",
+      "differences": [
+        {
+          "line": 489,
+          "original": "resource 17600 0 1 0",
+          "native": "lookup-result 0"
+        },
+        {
+          "line": 490,
+          "original": "lookup-result 0",
+          "native": "delete -1 0"
+        },
+        {
+          "line": 491,
+          "original": "delete -1 0",
+          "native": "state 0 0 1"
+        },
+        {
+          "line": 492,
+          "original": "state 0 0 1",
+          "native": "lookup-result 0"
+        },
+        {
+          "original_lines": 494,
+          "native_lines": 492
+        }
+      ]
+    },
+    {
+      "fixture": "XPRESS",
+      "differences": [
+        {
+          "line": 489,
+          "original": "resource 17600 0 1 0",
+          "native": "lookup-result 0"
+        },
+        {
+          "line": 490,
+          "original": "lookup-result 0",
+          "native": "delete -1 0"
+        },
+        {
+          "line": 491,
+          "original": "delete -1 0",
+          "native": "state 0 0 1"
+        },
+        {
+          "line": 492,
+          "original": "state 0 0 1",
+          "native": "lookup-result 0"
+        },
+        {
+          "original_lines": 494,
+          "native_lines": 492
+        }
+      ]
+    },
+    {
+      "fixture": "LZX",
+      "differences": [
+        {
+          "line": 489,
+          "original": "resource 17600 0 1 0",
+          "native": "lookup-result 0"
+        },
+        {
+          "line": 490,
+          "original": "lookup-result 0",
+          "native": "delete -1 0"
+        },
+        {
+          "line": 491,
+          "original": "delete -1 0",
+          "native": "state 0 0 1"
+        },
+        {
+          "line": 492,
+          "original": "state 0 0 1",
+          "native": "lookup-result 0"
+        },
+        {
+          "original_lines": 494,
+          "native_lines": 492
+        }
+      ]
+    },
+    {
+      "fixture": "LZMS",
+      "differences": [
+        {
+          "line": 489,
+          "original": "resource 17600 0 1 0",
+          "native": "lookup-result 0"
+        },
+        {
+          "line": 490,
+          "original": "lookup-result 0",
+          "native": "delete -1 0"
+        },
+        {
+          "line": 491,
+          "original": "delete -1 0",
+          "native": "state 0 0 1"
+        },
+        {
+          "line": 492,
+          "original": "state 0 0 1",
+          "native": "lookup-result 0"
+        },
+        {
+          "original_lines": 494,
+          "native_lines": 492
+        }
+      ]
+    },
+    {
+      "fixture": "corrupted_file_1.wim",
+      "differences": [
+        {
+          "line": 341,
+          "original": "resource 12 0 1 0",
+          "native": "lookup-result 0"
+        },
+        {
+          "line": 342,
+          "original": "lookup-result 0",
+          "native": "delete -1 0"
+        },
+        {
+          "line": 343,
+          "original": "delete -1 0",
+          "native": "state 0 0 1"
+        },
+        {
+          "line": 344,
+          "original": "state 0 0 1",
+          "native": "lookup-result 0"
+        },
+        {
+          "line": 345,
+          "original": "resource 12 0 1 0",
+          "native": "delete -1 0"
+        },
+        {
+          "line": 346,
+          "original": "lookup-result 0",
+          "native": "state 0 0 1"
+        },
+        {
+          "line": 347,
+          "original": "delete -1 0",
+          "native": "lookup-result 0"
+        },
+        {
+          "original_lines": 350,
+          "native_lines": 347
+        }
+      ]
+    },
+    {
+      "fixture": "corrupted_file_2.wim",
+      "differences": [
+        {
+          "line": 341,
+          "original": "resource 97 0 1 0",
+          "native": "lookup-result 0"
+        },
+        {
+          "line": 342,
+          "original": "lookup-result 0",
+          "native": "delete -1 0"
+        },
+        {
+          "line": 343,
+          "original": "delete -1 0",
+          "native": "state 0 0 1"
+        },
+        {
+          "line": 344,
+          "original": "state 0 0 1",
+          "native": "lookup-result 0"
+        },
+        {
+          "line": 345,
+          "original": "resource 97 0 1 0",
+          "native": "delete -1 0"
+        },
+        {
+          "line": 346,
+          "original": "lookup-result 0",
+          "native": "state 0 0 1"
+        },
+        {
+          "line": 347,
+          "original": "delete -1 0",
+          "native": "lookup-result 0"
+        },
+        {
+          "original_lines": 350,
+          "native_lines": 347
+        }
+      ]
+    },
+    {
+      "fixture": "duplicate_names.wim",
+      "differences": [
+        {
+          "line": 341,
+          "original": "resource 2 0 1 0",
+          "native": "lookup-result 0"
+        },
+        {
+          "line": 342,
+          "original": "lookup-result 0",
+          "native": "delete -1 0"
+        },
+        {
+          "line": 343,
+          "original": "delete -1 0",
+          "native": "state 0 0 1"
+        },
+        {
+          "line": 344,
+          "original": "state 0 0 1",
+          "native": "lookup-result 0"
+        },
+        {
+          "line": 345,
+          "original": "resource 2 0 1 0",
+          "native": "delete -1 0"
+        },
+        {
+          "line": 346,
+          "original": "lookup-result 0",
+          "native": "state 0 0 1"
+        },
+        {
+          "line": 347,
+          "original": "delete -1 0",
+          "native": "lookup-result 0"
+        },
+        {
+          "original_lines": 350,
+          "native_lines": 347
+        }
+      ]
+    },
+    {
+      "fixture": "empty_dacl.wim",
+      "differences": [
+        {
+          "line": 341,
+          "original": "resource 2 0 1 0",
+          "native": "lookup-result 0"
+        },
+        {
+          "line": 342,
+          "original": "lookup-result 0",
+          "native": "delete -1 0"
+        },
+        {
+          "line": 343,
+          "original": "delete -1 0",
+          "native": "state 0 0 1"
+        },
+        {
+          "line": 344,
+          "original": "state 0 0 1",
+          "native": "lookup-result 0"
+        },
+        {
+          "line": 345,
+          "original": "resource 2 0 1 0",
+          "native": "delete -1 0"
+        },
+        {
+          "line": 346,
+          "original": "lookup-result 0",
+          "native": "state 0 0 1"
+        },
+        {
+          "line": 347,
+          "original": "delete -1 0",
+          "native": "lookup-result 0"
+        },
+        {
+          "original_lines": 350,
+          "native_lines": 347
+        }
+      ]
+    }
+  ]
+}

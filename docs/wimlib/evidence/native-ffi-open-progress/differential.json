@@ -1,0 +1,2695 @@
+{
+  "passed": true,
+  "cases": 336,
+  "input_files_preserved": true,
+  "results": [
+    {
+      "fixture": "valid",
+      "flags": 0,
+      "stop": 0,
+      "status": 0,
+      "observations": 2,
+      "output_sha256": "520ea6a73b18a8953ac93ad47848ff477813f8edc7134a7cbc8424aa1209c817"
+    },
+    {
+      "fixture": "valid",
+      "flags": 0,
+      "stop": 1,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "520ea6a73b18a8953ac93ad47848ff477813f8edc7134a7cbc8424aa1209c817"
+    },
+    {
+      "fixture": "valid",
+      "flags": 0,
+      "stop": 2,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "520ea6a73b18a8953ac93ad47848ff477813f8edc7134a7cbc8424aa1209c817"
+    },
+    {
+      "fixture": "valid",
+      "flags": 0,
+      "stop": 3,
+      "status": -1,
+      "observations": 2,
+      "output_sha256": "520ea6a73b18a8953ac93ad47848ff477813f8edc7134a7cbc8424aa1209c817"
+    },
+    {
+      "fixture": "valid",
+      "flags": 0,
+      "stop": 5,
+      "status": 2,
+      "observations": 2,
+      "output_sha256": "520ea6a73b18a8953ac93ad47848ff477813f8edc7134a7cbc8424aa1209c817"
+    },
+    {
+      "fixture": "valid",
+      "flags": 0,
+      "stop": 6,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "520ea6a73b18a8953ac93ad47848ff477813f8edc7134a7cbc8424aa1209c817"
+    },
+    {
+      "fixture": "valid",
+      "flags": 1,
+      "stop": 0,
+      "status": 0,
+      "observations": 7,
+      "output_sha256": "bad953d11fc4ead28de2268ec467ca671c3460664efc546d3240e7bbcf07bfb6"
+    },
+    {
+      "fixture": "valid",
+      "flags": 1,
+      "stop": 1,
+      "status": 1,
+      "observations": 3,
+      "output_sha256": "9062586ba545ea0786af6069a776463a6bc84b209720f40143b678a9c70626ac"
+    },
+    {
+      "fixture": "valid",
+      "flags": 1,
+      "stop": 2,
+      "status": 1,
+      "observations": 4,
+      "output_sha256": "f408a1a73c17eec7fa667b56a535ec5a860831fcb90fb1a536e3572ac81d384f"
+    },
+    {
+      "fixture": "valid",
+      "flags": 1,
+      "stop": 3,
+      "status": -1,
+      "observations": 5,
+      "output_sha256": "0d2e65b7ca06fbf2557711f4ba9ef6393433d4c4944b6b748bc30568a74e86a6"
+    },
+    {
+      "fixture": "valid",
+      "flags": 1,
+      "stop": 5,
+      "status": 2,
+      "observations": 7,
+      "output_sha256": "9969a0f9de7eb8d553dc2c365ae510ceb7202789e061740e17ed4b26a9f38ea4"
+    },
+    {
+      "fixture": "valid",
+      "flags": 1,
+      "stop": 6,
+      "status": 1,
+      "observations": 7,
+      "output_sha256": "bad953d11fc4ead28de2268ec467ca671c3460664efc546d3240e7bbcf07bfb6"
+    },
+    {
+      "fixture": "valid",
+      "flags": 3,
+      "stop": 0,
+      "status": 0,
+      "observations": 7,
+      "output_sha256": "bad953d11fc4ead28de2268ec467ca671c3460664efc546d3240e7bbcf07bfb6"
+    },
+    {
+      "fixture": "valid",
+      "flags": 3,
+      "stop": 1,
+      "status": 1,
+      "observations": 3,
+      "output_sha256": "9062586ba545ea0786af6069a776463a6bc84b209720f40143b678a9c70626ac"
+    },
+    {
+      "fixture": "valid",
+      "flags": 3,
+      "stop": 2,
+      "status": 1,
+      "observations": 4,
+      "output_sha256": "f408a1a73c17eec7fa667b56a535ec5a860831fcb90fb1a536e3572ac81d384f"
+    },
+    {
+      "fixture": "valid",
+      "flags": 3,
+      "stop": 3,
+      "status": -1,
+      "observations": 5,
+      "output_sha256": "0d2e65b7ca06fbf2557711f4ba9ef6393433d4c4944b6b748bc30568a74e86a6"
+    },
+    {
+      "fixture": "valid",
+      "flags": 3,
+      "stop": 5,
+      "status": 2,
+      "observations": 7,
+      "output_sha256": "9969a0f9de7eb8d553dc2c365ae510ceb7202789e061740e17ed4b26a9f38ea4"
+    },
+    {
+      "fixture": "valid",
+      "flags": 3,
+      "stop": 6,
+      "status": 1,
+      "observations": 7,
+      "output_sha256": "bad953d11fc4ead28de2268ec467ca671c3460664efc546d3240e7bbcf07bfb6"
+    },
+    {
+      "fixture": "valid",
+      "flags": 5,
+      "stop": 0,
+      "status": 0,
+      "observations": 7,
+      "output_sha256": "bad953d11fc4ead28de2268ec467ca671c3460664efc546d3240e7bbcf07bfb6"
+    },
+    {
+      "fixture": "valid",
+      "flags": 5,
+      "stop": 1,
+      "status": 1,
+      "observations": 3,
+      "output_sha256": "9062586ba545ea0786af6069a776463a6bc84b209720f40143b678a9c70626ac"
+    },
+    {
+      "fixture": "valid",
+      "flags": 5,
+      "stop": 2,
+      "status": 1,
+      "observations": 4,
+      "output_sha256": "f408a1a73c17eec7fa667b56a535ec5a860831fcb90fb1a536e3572ac81d384f"
+    },
+    {
+      "fixture": "valid",
+      "flags": 5,
+      "stop": 3,
+      "status": -1,
+      "observations": 5,
+      "output_sha256": "0d2e65b7ca06fbf2557711f4ba9ef6393433d4c4944b6b748bc30568a74e86a6"
+    },
+    {
+      "fixture": "valid",
+      "flags": 5,
+      "stop": 5,
+      "status": 2,
+      "observations": 7,
+      "output_sha256": "9969a0f9de7eb8d553dc2c365ae510ceb7202789e061740e17ed4b26a9f38ea4"
+    },
+    {
+      "fixture": "valid",
+      "flags": 5,
+      "stop": 6,
+      "status": 1,
+      "observations": 7,
+      "output_sha256": "bad953d11fc4ead28de2268ec467ca671c3460664efc546d3240e7bbcf07bfb6"
+    },
+    {
+      "fixture": "valid",
+      "flags": 7,
+      "stop": 0,
+      "status": 0,
+      "observations": 7,
+      "output_sha256": "bad953d11fc4ead28de2268ec467ca671c3460664efc546d3240e7bbcf07bfb6"
+    },
+    {
+      "fixture": "valid",
+      "flags": 7,
+      "stop": 1,
+      "status": 1,
+      "observations": 3,
+      "output_sha256": "9062586ba545ea0786af6069a776463a6bc84b209720f40143b678a9c70626ac"
+    },
+    {
+      "fixture": "valid",
+      "flags": 7,
+      "stop": 2,
+      "status": 1,
+      "observations": 4,
+      "output_sha256": "f408a1a73c17eec7fa667b56a535ec5a860831fcb90fb1a536e3572ac81d384f"
+    },
+    {
+      "fixture": "valid",
+      "flags": 7,
+      "stop": 3,
+      "status": -1,
+      "observations": 5,
+      "output_sha256": "0d2e65b7ca06fbf2557711f4ba9ef6393433d4c4944b6b748bc30568a74e86a6"
+    },
+    {
+      "fixture": "valid",
+      "flags": 7,
+      "stop": 5,
+      "status": 2,
+      "observations": 7,
+      "output_sha256": "9969a0f9de7eb8d553dc2c365ae510ceb7202789e061740e17ed4b26a9f38ea4"
+    },
+    {
+      "fixture": "valid",
+      "flags": 7,
+      "stop": 6,
+      "status": 1,
+      "observations": 7,
+      "output_sha256": "bad953d11fc4ead28de2268ec467ca671c3460664efc546d3240e7bbcf07bfb6"
+    },
+    {
+      "fixture": "valid",
+      "flags": 8,
+      "stop": 0,
+      "status": 0,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "valid",
+      "flags": 8,
+      "stop": 1,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "valid",
+      "flags": 8,
+      "stop": 2,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "valid",
+      "flags": 8,
+      "stop": 3,
+      "status": -1,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "valid",
+      "flags": 8,
+      "stop": 5,
+      "status": 2,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "valid",
+      "flags": 8,
+      "stop": 6,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "valid",
+      "flags": -1,
+      "stop": 0,
+      "status": 0,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "valid",
+      "flags": -1,
+      "stop": 1,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "valid",
+      "flags": -1,
+      "stop": 2,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "valid",
+      "flags": -1,
+      "stop": 3,
+      "status": -1,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "valid",
+      "flags": -1,
+      "stop": 5,
+      "status": 2,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "valid",
+      "flags": -1,
+      "stop": 6,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "first-mismatch",
+      "flags": 0,
+      "stop": 0,
+      "status": 0,
+      "observations": 2,
+      "output_sha256": "520ea6a73b18a8953ac93ad47848ff477813f8edc7134a7cbc8424aa1209c817"
+    },
+    {
+      "fixture": "first-mismatch",
+      "flags": 0,
+      "stop": 1,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "520ea6a73b18a8953ac93ad47848ff477813f8edc7134a7cbc8424aa1209c817"
+    },
+    {
+      "fixture": "first-mismatch",
+      "flags": 0,
+      "stop": 2,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "520ea6a73b18a8953ac93ad47848ff477813f8edc7134a7cbc8424aa1209c817"
+    },
+    {
+      "fixture": "first-mismatch",
+      "flags": 0,
+      "stop": 3,
+      "status": -1,
+      "observations": 2,
+      "output_sha256": "520ea6a73b18a8953ac93ad47848ff477813f8edc7134a7cbc8424aa1209c817"
+    },
+    {
+      "fixture": "first-mismatch",
+      "flags": 0,
+      "stop": 5,
+      "status": 2,
+      "observations": 2,
+      "output_sha256": "520ea6a73b18a8953ac93ad47848ff477813f8edc7134a7cbc8424aa1209c817"
+    },
+    {
+      "fixture": "first-mismatch",
+      "flags": 0,
+      "stop": 6,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "520ea6a73b18a8953ac93ad47848ff477813f8edc7134a7cbc8424aa1209c817"
+    },
+    {
+      "fixture": "first-mismatch",
+      "flags": 1,
+      "stop": 0,
+      "status": 0,
+      "observations": 3,
+      "output_sha256": "c36c8cb5be960812406b1b7f869f56b608c8e0bb94eaa30f6e04435dd0f6ebeb"
+    },
+    {
+      "fixture": "first-mismatch",
+      "flags": 1,
+      "stop": 1,
+      "status": 1,
+      "observations": 3,
+      "output_sha256": "6d4792663e304728d2da9da7967e48b4221f3404682350d5e11e9e2e74d1cd35"
+    },
+    {
+      "fixture": "first-mismatch",
+      "flags": 1,
+      "stop": 2,
+      "status": 1,
+      "observations": 3,
+      "output_sha256": "c36c8cb5be960812406b1b7f869f56b608c8e0bb94eaa30f6e04435dd0f6ebeb"
+    },
+    {
+      "fixture": "first-mismatch",
+      "flags": 1,
+      "stop": 3,
+      "status": -1,
+      "observations": 3,
+      "output_sha256": "c36c8cb5be960812406b1b7f869f56b608c8e0bb94eaa30f6e04435dd0f6ebeb"
+    },
+    {
+      "fixture": "first-mismatch",
+      "flags": 1,
+      "stop": 5,
+      "status": 2,
+      "observations": 3,
+      "output_sha256": "c36c8cb5be960812406b1b7f869f56b608c8e0bb94eaa30f6e04435dd0f6ebeb"
+    },
+    {
+      "fixture": "first-mismatch",
+      "flags": 1,
+      "stop": 6,
+      "status": 1,
+      "observations": 3,
+      "output_sha256": "c36c8cb5be960812406b1b7f869f56b608c8e0bb94eaa30f6e04435dd0f6ebeb"
+    },
+    {
+      "fixture": "first-mismatch",
+      "flags": 3,
+      "stop": 0,
+      "status": 0,
+      "observations": 3,
+      "output_sha256": "c36c8cb5be960812406b1b7f869f56b608c8e0bb94eaa30f6e04435dd0f6ebeb"
+    },
+    {
+      "fixture": "first-mismatch",
+      "flags": 3,
+      "stop": 1,
+      "status": 1,
+      "observations": 3,
+      "output_sha256": "6d4792663e304728d2da9da7967e48b4221f3404682350d5e11e9e2e74d1cd35"
+    },
+    {
+      "fixture": "first-mismatch",
+      "flags": 3,
+      "stop": 2,
+      "status": 1,
+      "observations": 3,
+      "output_sha256": "c36c8cb5be960812406b1b7f869f56b608c8e0bb94eaa30f6e04435dd0f6ebeb"
+    },
+    {
+      "fixture": "first-mismatch",
+      "flags": 3,
+      "stop": 3,
+      "status": -1,
+      "observations": 3,
+      "output_sha256": "c36c8cb5be960812406b1b7f869f56b608c8e0bb94eaa30f6e04435dd0f6ebeb"
+    },
+    {
+      "fixture": "first-mismatch",
+      "flags": 3,
+      "stop": 5,
+      "status": 2,
+      "observations": 3,
+      "output_sha256": "c36c8cb5be960812406b1b7f869f56b608c8e0bb94eaa30f6e04435dd0f6ebeb"
+    },
+    {
+      "fixture": "first-mismatch",
+      "flags": 3,
+      "stop": 6,
+      "status": 1,
+      "observations": 3,
+      "output_sha256": "c36c8cb5be960812406b1b7f869f56b608c8e0bb94eaa30f6e04435dd0f6ebeb"
+    },
+    {
+      "fixture": "first-mismatch",
+      "flags": 5,
+      "stop": 0,
+      "status": 0,
+      "observations": 3,
+      "output_sha256": "c36c8cb5be960812406b1b7f869f56b608c8e0bb94eaa30f6e04435dd0f6ebeb"
+    },
+    {
+      "fixture": "first-mismatch",
+      "flags": 5,
+      "stop": 1,
+      "status": 1,
+      "observations": 3,
+      "output_sha256": "6d4792663e304728d2da9da7967e48b4221f3404682350d5e11e9e2e74d1cd35"
+    },
+    {
+      "fixture": "first-mismatch",
+      "flags": 5,
+      "stop": 2,
+      "status": 1,
+      "observations": 3,
+      "output_sha256": "c36c8cb5be960812406b1b7f869f56b608c8e0bb94eaa30f6e04435dd0f6ebeb"
+    },
+    {
+      "fixture": "first-mismatch",
+      "flags": 5,
+      "stop": 3,
+      "status": -1,
+      "observations": 3,
+      "output_sha256": "c36c8cb5be960812406b1b7f869f56b608c8e0bb94eaa30f6e04435dd0f6ebeb"
+    },
+    {
+      "fixture": "first-mismatch",
+      "flags": 5,
+      "stop": 5,
+      "status": 2,
+      "observations": 3,
+      "output_sha256": "c36c8cb5be960812406b1b7f869f56b608c8e0bb94eaa30f6e04435dd0f6ebeb"
+    },
+    {
+      "fixture": "first-mismatch",
+      "flags": 5,
+      "stop": 6,
+      "status": 1,
+      "observations": 3,
+      "output_sha256": "c36c8cb5be960812406b1b7f869f56b608c8e0bb94eaa30f6e04435dd0f6ebeb"
+    },
+    {
+      "fixture": "first-mismatch",
+      "flags": 7,
+      "stop": 0,
+      "status": 0,
+      "observations": 3,
+      "output_sha256": "c36c8cb5be960812406b1b7f869f56b608c8e0bb94eaa30f6e04435dd0f6ebeb"
+    },
+    {
+      "fixture": "first-mismatch",
+      "flags": 7,
+      "stop": 1,
+      "status": 1,
+      "observations": 3,
+      "output_sha256": "6d4792663e304728d2da9da7967e48b4221f3404682350d5e11e9e2e74d1cd35"
+    },
+    {
+      "fixture": "first-mismatch",
+      "flags": 7,
+      "stop": 2,
+      "status": 1,
+      "observations": 3,
+      "output_sha256": "c36c8cb5be960812406b1b7f869f56b608c8e0bb94eaa30f6e04435dd0f6ebeb"
+    },
+    {
+      "fixture": "first-mismatch",
+      "flags": 7,
+      "stop": 3,
+      "status": -1,
+      "observations": 3,
+      "output_sha256": "c36c8cb5be960812406b1b7f869f56b608c8e0bb94eaa30f6e04435dd0f6ebeb"
+    },
+    {
+      "fixture": "first-mismatch",
+      "flags": 7,
+      "stop": 5,
+      "status": 2,
+      "observations": 3,
+      "output_sha256": "c36c8cb5be960812406b1b7f869f56b608c8e0bb94eaa30f6e04435dd0f6ebeb"
+    },
+    {
+      "fixture": "first-mismatch",
+      "flags": 7,
+      "stop": 6,
+      "status": 1,
+      "observations": 3,
+      "output_sha256": "c36c8cb5be960812406b1b7f869f56b608c8e0bb94eaa30f6e04435dd0f6ebeb"
+    },
+    {
+      "fixture": "first-mismatch",
+      "flags": 8,
+      "stop": 0,
+      "status": 0,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "first-mismatch",
+      "flags": 8,
+      "stop": 1,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "first-mismatch",
+      "flags": 8,
+      "stop": 2,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "first-mismatch",
+      "flags": 8,
+      "stop": 3,
+      "status": -1,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "first-mismatch",
+      "flags": 8,
+      "stop": 5,
+      "status": 2,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "first-mismatch",
+      "flags": 8,
+      "stop": 6,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "first-mismatch",
+      "flags": -1,
+      "stop": 0,
+      "status": 0,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "first-mismatch",
+      "flags": -1,
+      "stop": 1,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "first-mismatch",
+      "flags": -1,
+      "stop": 2,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "first-mismatch",
+      "flags": -1,
+      "stop": 3,
+      "status": -1,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "first-mismatch",
+      "flags": -1,
+      "stop": 5,
+      "status": 2,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "first-mismatch",
+      "flags": -1,
+      "stop": 6,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "last-mismatch",
+      "flags": 0,
+      "stop": 0,
+      "status": 0,
+      "observations": 2,
+      "output_sha256": "b516d8739287ee42971c124e9d11df8fdb02ac61b5d6fa3b1fb98c7aac789335"
+    },
+    {
+      "fixture": "last-mismatch",
+      "flags": 0,
+      "stop": 1,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "b516d8739287ee42971c124e9d11df8fdb02ac61b5d6fa3b1fb98c7aac789335"
+    },
+    {
+      "fixture": "last-mismatch",
+      "flags": 0,
+      "stop": 2,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "b516d8739287ee42971c124e9d11df8fdb02ac61b5d6fa3b1fb98c7aac789335"
+    },
+    {
+      "fixture": "last-mismatch",
+      "flags": 0,
+      "stop": 3,
+      "status": -1,
+      "observations": 2,
+      "output_sha256": "b516d8739287ee42971c124e9d11df8fdb02ac61b5d6fa3b1fb98c7aac789335"
+    },
+    {
+      "fixture": "last-mismatch",
+      "flags": 0,
+      "stop": 5,
+      "status": 2,
+      "observations": 2,
+      "output_sha256": "b516d8739287ee42971c124e9d11df8fdb02ac61b5d6fa3b1fb98c7aac789335"
+    },
+    {
+      "fixture": "last-mismatch",
+      "flags": 0,
+      "stop": 6,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "b516d8739287ee42971c124e9d11df8fdb02ac61b5d6fa3b1fb98c7aac789335"
+    },
+    {
+      "fixture": "last-mismatch",
+      "flags": 1,
+      "stop": 0,
+      "status": 0,
+      "observations": 7,
+      "output_sha256": "e04e27dad23d39f899e4396d72a79899fb9f370fe86acd1717fd0c1fae122e06"
+    },
+    {
+      "fixture": "last-mismatch",
+      "flags": 1,
+      "stop": 1,
+      "status": 1,
+      "observations": 3,
+      "output_sha256": "2852089c01922f305a073aa4b60d29b0fa57a19f4874694d52891bf65130119f"
+    },
+    {
+      "fixture": "last-mismatch",
+      "flags": 1,
+      "stop": 2,
+      "status": 1,
+      "observations": 4,
+      "output_sha256": "208f604ab94a9be3952ccabf3becfe7b6fd1163ccf3055bdf787f52f9c6a608b"
+    },
+    {
+      "fixture": "last-mismatch",
+      "flags": 1,
+      "stop": 3,
+      "status": -1,
+      "observations": 5,
+      "output_sha256": "8290d7e8af410a0d687252d9b0b71445bf23fe6a50d30a78ef02303270560a78"
+    },
+    {
+      "fixture": "last-mismatch",
+      "flags": 1,
+      "stop": 5,
+      "status": 2,
+      "observations": 7,
+      "output_sha256": "ab9b8db57b97d6cf858444412051d4d6677a23913af5d5aa9344315b72e0bd00"
+    },
+    {
+      "fixture": "last-mismatch",
+      "flags": 1,
+      "stop": 6,
+      "status": 1,
+      "observations": 7,
+      "output_sha256": "e04e27dad23d39f899e4396d72a79899fb9f370fe86acd1717fd0c1fae122e06"
+    },
+    {
+      "fixture": "last-mismatch",
+      "flags": 3,
+      "stop": 0,
+      "status": 0,
+      "observations": 7,
+      "output_sha256": "e04e27dad23d39f899e4396d72a79899fb9f370fe86acd1717fd0c1fae122e06"
+    },
+    {
+      "fixture": "last-mismatch",
+      "flags": 3,
+      "stop": 1,
+      "status": 1,
+      "observations": 3,
+      "output_sha256": "2852089c01922f305a073aa4b60d29b0fa57a19f4874694d52891bf65130119f"
+    },
+    {
+      "fixture": "last-mismatch",
+      "flags": 3,
+      "stop": 2,
+      "status": 1,
+      "observations": 4,
+      "output_sha256": "208f604ab94a9be3952ccabf3becfe7b6fd1163ccf3055bdf787f52f9c6a608b"
+    },
+    {
+      "fixture": "last-mismatch",
+      "flags": 3,
+      "stop": 3,
+      "status": -1,
+      "observations": 5,
+      "output_sha256": "8290d7e8af410a0d687252d9b0b71445bf23fe6a50d30a78ef02303270560a78"
+    },
+    {
+      "fixture": "last-mismatch",
+      "flags": 3,
+      "stop": 5,
+      "status": 2,
+      "observations": 7,
+      "output_sha256": "ab9b8db57b97d6cf858444412051d4d6677a23913af5d5aa9344315b72e0bd00"
+    },
+    {
+      "fixture": "last-mismatch",
+      "flags": 3,
+      "stop": 6,
+      "status": 1,
+      "observations": 7,
+      "output_sha256": "e04e27dad23d39f899e4396d72a79899fb9f370fe86acd1717fd0c1fae122e06"
+    },
+    {
+      "fixture": "last-mismatch",
+      "flags": 5,
+      "stop": 0,
+      "status": 0,
+      "observations": 7,
+      "output_sha256": "e04e27dad23d39f899e4396d72a79899fb9f370fe86acd1717fd0c1fae122e06"
+    },
+    {
+      "fixture": "last-mismatch",
+      "flags": 5,
+      "stop": 1,
+      "status": 1,
+      "observations": 3,
+      "output_sha256": "2852089c01922f305a073aa4b60d29b0fa57a19f4874694d52891bf65130119f"
+    },
+    {
+      "fixture": "last-mismatch",
+      "flags": 5,
+      "stop": 2,
+      "status": 1,
+      "observations": 4,
+      "output_sha256": "208f604ab94a9be3952ccabf3becfe7b6fd1163ccf3055bdf787f52f9c6a608b"
+    },
+    {
+      "fixture": "last-mismatch",
+      "flags": 5,
+      "stop": 3,
+      "status": -1,
+      "observations": 5,
+      "output_sha256": "8290d7e8af410a0d687252d9b0b71445bf23fe6a50d30a78ef02303270560a78"
+    },
+    {
+      "fixture": "last-mismatch",
+      "flags": 5,
+      "stop": 5,
+      "status": 2,
+      "observations": 7,
+      "output_sha256": "ab9b8db57b97d6cf858444412051d4d6677a23913af5d5aa9344315b72e0bd00"
+    },
+    {
+      "fixture": "last-mismatch",
+      "flags": 5,
+      "stop": 6,
+      "status": 1,
+      "observations": 7,
+      "output_sha256": "e04e27dad23d39f899e4396d72a79899fb9f370fe86acd1717fd0c1fae122e06"
+    },
+    {
+      "fixture": "last-mismatch",
+      "flags": 7,
+      "stop": 0,
+      "status": 0,
+      "observations": 7,
+      "output_sha256": "e04e27dad23d39f899e4396d72a79899fb9f370fe86acd1717fd0c1fae122e06"
+    },
+    {
+      "fixture": "last-mismatch",
+      "flags": 7,
+      "stop": 1,
+      "status": 1,
+      "observations": 3,
+      "output_sha256": "2852089c01922f305a073aa4b60d29b0fa57a19f4874694d52891bf65130119f"
+    },
+    {
+      "fixture": "last-mismatch",
+      "flags": 7,
+      "stop": 2,
+      "status": 1,
+      "observations": 4,
+      "output_sha256": "208f604ab94a9be3952ccabf3becfe7b6fd1163ccf3055bdf787f52f9c6a608b"
+    },
+    {
+      "fixture": "last-mismatch",
+      "flags": 7,
+      "stop": 3,
+      "status": -1,
+      "observations": 5,
+      "output_sha256": "8290d7e8af410a0d687252d9b0b71445bf23fe6a50d30a78ef02303270560a78"
+    },
+    {
+      "fixture": "last-mismatch",
+      "flags": 7,
+      "stop": 5,
+      "status": 2,
+      "observations": 7,
+      "output_sha256": "ab9b8db57b97d6cf858444412051d4d6677a23913af5d5aa9344315b72e0bd00"
+    },
+    {
+      "fixture": "last-mismatch",
+      "flags": 7,
+      "stop": 6,
+      "status": 1,
+      "observations": 7,
+      "output_sha256": "e04e27dad23d39f899e4396d72a79899fb9f370fe86acd1717fd0c1fae122e06"
+    },
+    {
+      "fixture": "last-mismatch",
+      "flags": 8,
+      "stop": 0,
+      "status": 0,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "last-mismatch",
+      "flags": 8,
+      "stop": 1,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "last-mismatch",
+      "flags": 8,
+      "stop": 2,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "last-mismatch",
+      "flags": 8,
+      "stop": 3,
+      "status": -1,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "last-mismatch",
+      "flags": 8,
+      "stop": 5,
+      "status": 2,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "last-mismatch",
+      "flags": 8,
+      "stop": 6,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "last-mismatch",
+      "flags": -1,
+      "stop": 0,
+      "status": 0,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "last-mismatch",
+      "flags": -1,
+      "stop": 1,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "last-mismatch",
+      "flags": -1,
+      "stop": 2,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "last-mismatch",
+      "flags": -1,
+      "stop": 3,
+      "status": -1,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "last-mismatch",
+      "flags": -1,
+      "stop": 5,
+      "status": 2,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "last-mismatch",
+      "flags": -1,
+      "stop": 6,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "bad-table",
+      "flags": 0,
+      "stop": 0,
+      "status": 0,
+      "observations": 2,
+      "output_sha256": "520ea6a73b18a8953ac93ad47848ff477813f8edc7134a7cbc8424aa1209c817"
+    },
+    {
+      "fixture": "bad-table",
+      "flags": 0,
+      "stop": 1,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "520ea6a73b18a8953ac93ad47848ff477813f8edc7134a7cbc8424aa1209c817"
+    },
+    {
+      "fixture": "bad-table",
+      "flags": 0,
+      "stop": 2,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "520ea6a73b18a8953ac93ad47848ff477813f8edc7134a7cbc8424aa1209c817"
+    },
+    {
+      "fixture": "bad-table",
+      "flags": 0,
+      "stop": 3,
+      "status": -1,
+      "observations": 2,
+      "output_sha256": "520ea6a73b18a8953ac93ad47848ff477813f8edc7134a7cbc8424aa1209c817"
+    },
+    {
+      "fixture": "bad-table",
+      "flags": 0,
+      "stop": 5,
+      "status": 2,
+      "observations": 2,
+      "output_sha256": "520ea6a73b18a8953ac93ad47848ff477813f8edc7134a7cbc8424aa1209c817"
+    },
+    {
+      "fixture": "bad-table",
+      "flags": 0,
+      "stop": 6,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "520ea6a73b18a8953ac93ad47848ff477813f8edc7134a7cbc8424aa1209c817"
+    },
+    {
+      "fixture": "bad-table",
+      "flags": 1,
+      "stop": 0,
+      "status": 0,
+      "observations": 2,
+      "output_sha256": "a235090792b5403be98ab038b02451c866563eb3ec21e32316fa2af331bdfdea"
+    },
+    {
+      "fixture": "bad-table",
+      "flags": 1,
+      "stop": 1,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "a235090792b5403be98ab038b02451c866563eb3ec21e32316fa2af331bdfdea"
+    },
+    {
+      "fixture": "bad-table",
+      "flags": 1,
+      "stop": 2,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "a235090792b5403be98ab038b02451c866563eb3ec21e32316fa2af331bdfdea"
+    },
+    {
+      "fixture": "bad-table",
+      "flags": 1,
+      "stop": 3,
+      "status": -1,
+      "observations": 2,
+      "output_sha256": "a235090792b5403be98ab038b02451c866563eb3ec21e32316fa2af331bdfdea"
+    },
+    {
+      "fixture": "bad-table",
+      "flags": 1,
+      "stop": 5,
+      "status": 2,
+      "observations": 2,
+      "output_sha256": "a235090792b5403be98ab038b02451c866563eb3ec21e32316fa2af331bdfdea"
+    },
+    {
+      "fixture": "bad-table",
+      "flags": 1,
+      "stop": 6,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "a235090792b5403be98ab038b02451c866563eb3ec21e32316fa2af331bdfdea"
+    },
+    {
+      "fixture": "bad-table",
+      "flags": 3,
+      "stop": 0,
+      "status": 0,
+      "observations": 2,
+      "output_sha256": "a235090792b5403be98ab038b02451c866563eb3ec21e32316fa2af331bdfdea"
+    },
+    {
+      "fixture": "bad-table",
+      "flags": 3,
+      "stop": 1,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "a235090792b5403be98ab038b02451c866563eb3ec21e32316fa2af331bdfdea"
+    },
+    {
+      "fixture": "bad-table",
+      "flags": 3,
+      "stop": 2,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "a235090792b5403be98ab038b02451c866563eb3ec21e32316fa2af331bdfdea"
+    },
+    {
+      "fixture": "bad-table",
+      "flags": 3,
+      "stop": 3,
+      "status": -1,
+      "observations": 2,
+      "output_sha256": "a235090792b5403be98ab038b02451c866563eb3ec21e32316fa2af331bdfdea"
+    },
+    {
+      "fixture": "bad-table",
+      "flags": 3,
+      "stop": 5,
+      "status": 2,
+      "observations": 2,
+      "output_sha256": "a235090792b5403be98ab038b02451c866563eb3ec21e32316fa2af331bdfdea"
+    },
+    {
+      "fixture": "bad-table",
+      "flags": 3,
+      "stop": 6,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "a235090792b5403be98ab038b02451c866563eb3ec21e32316fa2af331bdfdea"
+    },
+    {
+      "fixture": "bad-table",
+      "flags": 5,
+      "stop": 0,
+      "status": 0,
+      "observations": 2,
+      "output_sha256": "a235090792b5403be98ab038b02451c866563eb3ec21e32316fa2af331bdfdea"
+    },
+    {
+      "fixture": "bad-table",
+      "flags": 5,
+      "stop": 1,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "a235090792b5403be98ab038b02451c866563eb3ec21e32316fa2af331bdfdea"
+    },
+    {
+      "fixture": "bad-table",
+      "flags": 5,
+      "stop": 2,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "a235090792b5403be98ab038b02451c866563eb3ec21e32316fa2af331bdfdea"
+    },
+    {
+      "fixture": "bad-table",
+      "flags": 5,
+      "stop": 3,
+      "status": -1,
+      "observations": 2,
+      "output_sha256": "a235090792b5403be98ab038b02451c866563eb3ec21e32316fa2af331bdfdea"
+    },
+    {
+      "fixture": "bad-table",
+      "flags": 5,
+      "stop": 5,
+      "status": 2,
+      "observations": 2,
+      "output_sha256": "a235090792b5403be98ab038b02451c866563eb3ec21e32316fa2af331bdfdea"
+    },
+    {
+      "fixture": "bad-table",
+      "flags": 5,
+      "stop": 6,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "a235090792b5403be98ab038b02451c866563eb3ec21e32316fa2af331bdfdea"
+    },
+    {
+      "fixture": "bad-table",
+      "flags": 7,
+      "stop": 0,
+      "status": 0,
+      "observations": 2,
+      "output_sha256": "a235090792b5403be98ab038b02451c866563eb3ec21e32316fa2af331bdfdea"
+    },
+    {
+      "fixture": "bad-table",
+      "flags": 7,
+      "stop": 1,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "a235090792b5403be98ab038b02451c866563eb3ec21e32316fa2af331bdfdea"
+    },
+    {
+      "fixture": "bad-table",
+      "flags": 7,
+      "stop": 2,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "a235090792b5403be98ab038b02451c866563eb3ec21e32316fa2af331bdfdea"
+    },
+    {
+      "fixture": "bad-table",
+      "flags": 7,
+      "stop": 3,
+      "status": -1,
+      "observations": 2,
+      "output_sha256": "a235090792b5403be98ab038b02451c866563eb3ec21e32316fa2af331bdfdea"
+    },
+    {
+      "fixture": "bad-table",
+      "flags": 7,
+      "stop": 5,
+      "status": 2,
+      "observations": 2,
+      "output_sha256": "a235090792b5403be98ab038b02451c866563eb3ec21e32316fa2af331bdfdea"
+    },
+    {
+      "fixture": "bad-table",
+      "flags": 7,
+      "stop": 6,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "a235090792b5403be98ab038b02451c866563eb3ec21e32316fa2af331bdfdea"
+    },
+    {
+      "fixture": "bad-table",
+      "flags": 8,
+      "stop": 0,
+      "status": 0,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "bad-table",
+      "flags": 8,
+      "stop": 1,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "bad-table",
+      "flags": 8,
+      "stop": 2,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "bad-table",
+      "flags": 8,
+      "stop": 3,
+      "status": -1,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "bad-table",
+      "flags": 8,
+      "stop": 5,
+      "status": 2,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "bad-table",
+      "flags": 8,
+      "stop": 6,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "bad-table",
+      "flags": -1,
+      "stop": 0,
+      "status": 0,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "bad-table",
+      "flags": -1,
+      "stop": 1,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "bad-table",
+      "flags": -1,
+      "stop": 2,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "bad-table",
+      "flags": -1,
+      "stop": 3,
+      "status": -1,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "bad-table",
+      "flags": -1,
+      "stop": 5,
+      "status": 2,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "bad-table",
+      "flags": -1,
+      "stop": 6,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "bad-xml",
+      "flags": 0,
+      "stop": 0,
+      "status": 0,
+      "observations": 2,
+      "output_sha256": "b516d8739287ee42971c124e9d11df8fdb02ac61b5d6fa3b1fb98c7aac789335"
+    },
+    {
+      "fixture": "bad-xml",
+      "flags": 0,
+      "stop": 1,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "b516d8739287ee42971c124e9d11df8fdb02ac61b5d6fa3b1fb98c7aac789335"
+    },
+    {
+      "fixture": "bad-xml",
+      "flags": 0,
+      "stop": 2,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "b516d8739287ee42971c124e9d11df8fdb02ac61b5d6fa3b1fb98c7aac789335"
+    },
+    {
+      "fixture": "bad-xml",
+      "flags": 0,
+      "stop": 3,
+      "status": -1,
+      "observations": 2,
+      "output_sha256": "b516d8739287ee42971c124e9d11df8fdb02ac61b5d6fa3b1fb98c7aac789335"
+    },
+    {
+      "fixture": "bad-xml",
+      "flags": 0,
+      "stop": 5,
+      "status": 2,
+      "observations": 2,
+      "output_sha256": "b516d8739287ee42971c124e9d11df8fdb02ac61b5d6fa3b1fb98c7aac789335"
+    },
+    {
+      "fixture": "bad-xml",
+      "flags": 0,
+      "stop": 6,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "b516d8739287ee42971c124e9d11df8fdb02ac61b5d6fa3b1fb98c7aac789335"
+    },
+    {
+      "fixture": "bad-xml",
+      "flags": 1,
+      "stop": 0,
+      "status": 0,
+      "observations": 7,
+      "output_sha256": "2f76fdca285e0b99463ee6a71f4e5f57a5b72e85e3ae846155881f0c7229de5d"
+    },
+    {
+      "fixture": "bad-xml",
+      "flags": 1,
+      "stop": 1,
+      "status": 1,
+      "observations": 3,
+      "output_sha256": "f244b874654fd024988e67ad0697dbc8bb24d3f7543e10f55134d7210a1629e7"
+    },
+    {
+      "fixture": "bad-xml",
+      "flags": 1,
+      "stop": 2,
+      "status": 1,
+      "observations": 4,
+      "output_sha256": "95534373c92b6d31c1d4337a3046686de0399d967512485103cde700cfa6ca83"
+    },
+    {
+      "fixture": "bad-xml",
+      "flags": 1,
+      "stop": 3,
+      "status": -1,
+      "observations": 5,
+      "output_sha256": "da725b5f12db46869f69b459d61723701fe6917b408f790cff7eb99d2345f17f"
+    },
+    {
+      "fixture": "bad-xml",
+      "flags": 1,
+      "stop": 5,
+      "status": 2,
+      "observations": 7,
+      "output_sha256": "52edfda13a83c60f1314f40060adc3d32c8ad49525931b1a0551ddc9fca4127c"
+    },
+    {
+      "fixture": "bad-xml",
+      "flags": 1,
+      "stop": 6,
+      "status": 1,
+      "observations": 7,
+      "output_sha256": "2f76fdca285e0b99463ee6a71f4e5f57a5b72e85e3ae846155881f0c7229de5d"
+    },
+    {
+      "fixture": "bad-xml",
+      "flags": 3,
+      "stop": 0,
+      "status": 0,
+      "observations": 7,
+      "output_sha256": "2f76fdca285e0b99463ee6a71f4e5f57a5b72e85e3ae846155881f0c7229de5d"
+    },
+    {
+      "fixture": "bad-xml",
+      "flags": 3,
+      "stop": 1,
+      "status": 1,
+      "observations": 3,
+      "output_sha256": "f244b874654fd024988e67ad0697dbc8bb24d3f7543e10f55134d7210a1629e7"
+    },
+    {
+      "fixture": "bad-xml",
+      "flags": 3,
+      "stop": 2,
+      "status": 1,
+      "observations": 4,
+      "output_sha256": "95534373c92b6d31c1d4337a3046686de0399d967512485103cde700cfa6ca83"
+    },
+    {
+      "fixture": "bad-xml",
+      "flags": 3,
+      "stop": 3,
+      "status": -1,
+      "observations": 5,
+      "output_sha256": "da725b5f12db46869f69b459d61723701fe6917b408f790cff7eb99d2345f17f"
+    },
+    {
+      "fixture": "bad-xml",
+      "flags": 3,
+      "stop": 5,
+      "status": 2,
+      "observations": 7,
+      "output_sha256": "52edfda13a83c60f1314f40060adc3d32c8ad49525931b1a0551ddc9fca4127c"
+    },
+    {
+      "fixture": "bad-xml",
+      "flags": 3,
+      "stop": 6,
+      "status": 1,
+      "observations": 7,
+      "output_sha256": "2f76fdca285e0b99463ee6a71f4e5f57a5b72e85e3ae846155881f0c7229de5d"
+    },
+    {
+      "fixture": "bad-xml",
+      "flags": 5,
+      "stop": 0,
+      "status": 0,
+      "observations": 7,
+      "output_sha256": "2f76fdca285e0b99463ee6a71f4e5f57a5b72e85e3ae846155881f0c7229de5d"
+    },
+    {
+      "fixture": "bad-xml",
+      "flags": 5,
+      "stop": 1,
+      "status": 1,
+      "observations": 3,
+      "output_sha256": "f244b874654fd024988e67ad0697dbc8bb24d3f7543e10f55134d7210a1629e7"
+    },
+    {
+      "fixture": "bad-xml",
+      "flags": 5,
+      "stop": 2,
+      "status": 1,
+      "observations": 4,
+      "output_sha256": "95534373c92b6d31c1d4337a3046686de0399d967512485103cde700cfa6ca83"
+    },
+    {
+      "fixture": "bad-xml",
+      "flags": 5,
+      "stop": 3,
+      "status": -1,
+      "observations": 5,
+      "output_sha256": "da725b5f12db46869f69b459d61723701fe6917b408f790cff7eb99d2345f17f"
+    },
+    {
+      "fixture": "bad-xml",
+      "flags": 5,
+      "stop": 5,
+      "status": 2,
+      "observations": 7,
+      "output_sha256": "52edfda13a83c60f1314f40060adc3d32c8ad49525931b1a0551ddc9fca4127c"
+    },
+    {
+      "fixture": "bad-xml",
+      "flags": 5,
+      "stop": 6,
+      "status": 1,
+      "observations": 7,
+      "output_sha256": "2f76fdca285e0b99463ee6a71f4e5f57a5b72e85e3ae846155881f0c7229de5d"
+    },
+    {
+      "fixture": "bad-xml",
+      "flags": 7,
+      "stop": 0,
+      "status": 0,
+      "observations": 7,
+      "output_sha256": "2f76fdca285e0b99463ee6a71f4e5f57a5b72e85e3ae846155881f0c7229de5d"
+    },
+    {
+      "fixture": "bad-xml",
+      "flags": 7,
+      "stop": 1,
+      "status": 1,
+      "observations": 3,
+      "output_sha256": "f244b874654fd024988e67ad0697dbc8bb24d3f7543e10f55134d7210a1629e7"
+    },
+    {
+      "fixture": "bad-xml",
+      "flags": 7,
+      "stop": 2,
+      "status": 1,
+      "observations": 4,
+      "output_sha256": "95534373c92b6d31c1d4337a3046686de0399d967512485103cde700cfa6ca83"
+    },
+    {
+      "fixture": "bad-xml",
+      "flags": 7,
+      "stop": 3,
+      "status": -1,
+      "observations": 5,
+      "output_sha256": "da725b5f12db46869f69b459d61723701fe6917b408f790cff7eb99d2345f17f"
+    },
+    {
+      "fixture": "bad-xml",
+      "flags": 7,
+      "stop": 5,
+      "status": 2,
+      "observations": 7,
+      "output_sha256": "52edfda13a83c60f1314f40060adc3d32c8ad49525931b1a0551ddc9fca4127c"
+    },
+    {
+      "fixture": "bad-xml",
+      "flags": 7,
+      "stop": 6,
+      "status": 1,
+      "observations": 7,
+      "output_sha256": "2f76fdca285e0b99463ee6a71f4e5f57a5b72e85e3ae846155881f0c7229de5d"
+    },
+    {
+      "fixture": "bad-xml",
+      "flags": 8,
+      "stop": 0,
+      "status": 0,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "bad-xml",
+      "flags": 8,
+      "stop": 1,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "bad-xml",
+      "flags": 8,
+      "stop": 2,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "bad-xml",
+      "flags": 8,
+      "stop": 3,
+      "status": -1,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "bad-xml",
+      "flags": 8,
+      "stop": 5,
+      "status": 2,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "bad-xml",
+      "flags": 8,
+      "stop": 6,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "bad-xml",
+      "flags": -1,
+      "stop": 0,
+      "status": 0,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "bad-xml",
+      "flags": -1,
+      "stop": 1,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "bad-xml",
+      "flags": -1,
+      "stop": 2,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "bad-xml",
+      "flags": -1,
+      "stop": 3,
+      "status": -1,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "bad-xml",
+      "flags": -1,
+      "stop": 5,
+      "status": 2,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "bad-xml",
+      "flags": -1,
+      "stop": 6,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "absent-table",
+      "flags": 0,
+      "stop": 0,
+      "status": 0,
+      "observations": 2,
+      "output_sha256": "520ea6a73b18a8953ac93ad47848ff477813f8edc7134a7cbc8424aa1209c817"
+    },
+    {
+      "fixture": "absent-table",
+      "flags": 0,
+      "stop": 1,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "520ea6a73b18a8953ac93ad47848ff477813f8edc7134a7cbc8424aa1209c817"
+    },
+    {
+      "fixture": "absent-table",
+      "flags": 0,
+      "stop": 2,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "520ea6a73b18a8953ac93ad47848ff477813f8edc7134a7cbc8424aa1209c817"
+    },
+    {
+      "fixture": "absent-table",
+      "flags": 0,
+      "stop": 3,
+      "status": -1,
+      "observations": 2,
+      "output_sha256": "520ea6a73b18a8953ac93ad47848ff477813f8edc7134a7cbc8424aa1209c817"
+    },
+    {
+      "fixture": "absent-table",
+      "flags": 0,
+      "stop": 5,
+      "status": 2,
+      "observations": 2,
+      "output_sha256": "520ea6a73b18a8953ac93ad47848ff477813f8edc7134a7cbc8424aa1209c817"
+    },
+    {
+      "fixture": "absent-table",
+      "flags": 0,
+      "stop": 6,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "520ea6a73b18a8953ac93ad47848ff477813f8edc7134a7cbc8424aa1209c817"
+    },
+    {
+      "fixture": "absent-table",
+      "flags": 1,
+      "stop": 0,
+      "status": 0,
+      "observations": 2,
+      "output_sha256": "520ea6a73b18a8953ac93ad47848ff477813f8edc7134a7cbc8424aa1209c817"
+    },
+    {
+      "fixture": "absent-table",
+      "flags": 1,
+      "stop": 1,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "520ea6a73b18a8953ac93ad47848ff477813f8edc7134a7cbc8424aa1209c817"
+    },
+    {
+      "fixture": "absent-table",
+      "flags": 1,
+      "stop": 2,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "520ea6a73b18a8953ac93ad47848ff477813f8edc7134a7cbc8424aa1209c817"
+    },
+    {
+      "fixture": "absent-table",
+      "flags": 1,
+      "stop": 3,
+      "status": -1,
+      "observations": 2,
+      "output_sha256": "520ea6a73b18a8953ac93ad47848ff477813f8edc7134a7cbc8424aa1209c817"
+    },
+    {
+      "fixture": "absent-table",
+      "flags": 1,
+      "stop": 5,
+      "status": 2,
+      "observations": 2,
+      "output_sha256": "520ea6a73b18a8953ac93ad47848ff477813f8edc7134a7cbc8424aa1209c817"
+    },
+    {
+      "fixture": "absent-table",
+      "flags": 1,
+      "stop": 6,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "520ea6a73b18a8953ac93ad47848ff477813f8edc7134a7cbc8424aa1209c817"
+    },
+    {
+      "fixture": "absent-table",
+      "flags": 3,
+      "stop": 0,
+      "status": 0,
+      "observations": 2,
+      "output_sha256": "520ea6a73b18a8953ac93ad47848ff477813f8edc7134a7cbc8424aa1209c817"
+    },
+    {
+      "fixture": "absent-table",
+      "flags": 3,
+      "stop": 1,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "520ea6a73b18a8953ac93ad47848ff477813f8edc7134a7cbc8424aa1209c817"
+    },
+    {
+      "fixture": "absent-table",
+      "flags": 3,
+      "stop": 2,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "520ea6a73b18a8953ac93ad47848ff477813f8edc7134a7cbc8424aa1209c817"
+    },
+    {
+      "fixture": "absent-table",
+      "flags": 3,
+      "stop": 3,
+      "status": -1,
+      "observations": 2,
+      "output_sha256": "520ea6a73b18a8953ac93ad47848ff477813f8edc7134a7cbc8424aa1209c817"
+    },
+    {
+      "fixture": "absent-table",
+      "flags": 3,
+      "stop": 5,
+      "status": 2,
+      "observations": 2,
+      "output_sha256": "520ea6a73b18a8953ac93ad47848ff477813f8edc7134a7cbc8424aa1209c817"
+    },
+    {
+      "fixture": "absent-table",
+      "flags": 3,
+      "stop": 6,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "520ea6a73b18a8953ac93ad47848ff477813f8edc7134a7cbc8424aa1209c817"
+    },
+    {
+      "fixture": "absent-table",
+      "flags": 5,
+      "stop": 0,
+      "status": 0,
+      "observations": 2,
+      "output_sha256": "520ea6a73b18a8953ac93ad47848ff477813f8edc7134a7cbc8424aa1209c817"
+    },
+    {
+      "fixture": "absent-table",
+      "flags": 5,
+      "stop": 1,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "520ea6a73b18a8953ac93ad47848ff477813f8edc7134a7cbc8424aa1209c817"
+    },
+    {
+      "fixture": "absent-table",
+      "flags": 5,
+      "stop": 2,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "520ea6a73b18a8953ac93ad47848ff477813f8edc7134a7cbc8424aa1209c817"
+    },
+    {
+      "fixture": "absent-table",
+      "flags": 5,
+      "stop": 3,
+      "status": -1,
+      "observations": 2,
+      "output_sha256": "520ea6a73b18a8953ac93ad47848ff477813f8edc7134a7cbc8424aa1209c817"
+    },
+    {
+      "fixture": "absent-table",
+      "flags": 5,
+      "stop": 5,
+      "status": 2,
+      "observations": 2,
+      "output_sha256": "520ea6a73b18a8953ac93ad47848ff477813f8edc7134a7cbc8424aa1209c817"
+    },
+    {
+      "fixture": "absent-table",
+      "flags": 5,
+      "stop": 6,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "520ea6a73b18a8953ac93ad47848ff477813f8edc7134a7cbc8424aa1209c817"
+    },
+    {
+      "fixture": "absent-table",
+      "flags": 7,
+      "stop": 0,
+      "status": 0,
+      "observations": 2,
+      "output_sha256": "520ea6a73b18a8953ac93ad47848ff477813f8edc7134a7cbc8424aa1209c817"
+    },
+    {
+      "fixture": "absent-table",
+      "flags": 7,
+      "stop": 1,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "520ea6a73b18a8953ac93ad47848ff477813f8edc7134a7cbc8424aa1209c817"
+    },
+    {
+      "fixture": "absent-table",
+      "flags": 7,
+      "stop": 2,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "520ea6a73b18a8953ac93ad47848ff477813f8edc7134a7cbc8424aa1209c817"
+    },
+    {
+      "fixture": "absent-table",
+      "flags": 7,
+      "stop": 3,
+      "status": -1,
+      "observations": 2,
+      "output_sha256": "520ea6a73b18a8953ac93ad47848ff477813f8edc7134a7cbc8424aa1209c817"
+    },
+    {
+      "fixture": "absent-table",
+      "flags": 7,
+      "stop": 5,
+      "status": 2,
+      "observations": 2,
+      "output_sha256": "520ea6a73b18a8953ac93ad47848ff477813f8edc7134a7cbc8424aa1209c817"
+    },
+    {
+      "fixture": "absent-table",
+      "flags": 7,
+      "stop": 6,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "520ea6a73b18a8953ac93ad47848ff477813f8edc7134a7cbc8424aa1209c817"
+    },
+    {
+      "fixture": "absent-table",
+      "flags": 8,
+      "stop": 0,
+      "status": 0,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "absent-table",
+      "flags": 8,
+      "stop": 1,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "absent-table",
+      "flags": 8,
+      "stop": 2,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "absent-table",
+      "flags": 8,
+      "stop": 3,
+      "status": -1,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "absent-table",
+      "flags": 8,
+      "stop": 5,
+      "status": 2,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "absent-table",
+      "flags": 8,
+      "stop": 6,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "absent-table",
+      "flags": -1,
+      "stop": 0,
+      "status": 0,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "absent-table",
+      "flags": -1,
+      "stop": 1,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "absent-table",
+      "flags": -1,
+      "stop": 2,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "absent-table",
+      "flags": -1,
+      "stop": 3,
+      "status": -1,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "absent-table",
+      "flags": -1,
+      "stop": 5,
+      "status": 2,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "absent-table",
+      "flags": -1,
+      "stop": 6,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "truncated-table",
+      "flags": 0,
+      "stop": 0,
+      "status": 0,
+      "observations": 2,
+      "output_sha256": "520ea6a73b18a8953ac93ad47848ff477813f8edc7134a7cbc8424aa1209c817"
+    },
+    {
+      "fixture": "truncated-table",
+      "flags": 0,
+      "stop": 1,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "520ea6a73b18a8953ac93ad47848ff477813f8edc7134a7cbc8424aa1209c817"
+    },
+    {
+      "fixture": "truncated-table",
+      "flags": 0,
+      "stop": 2,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "520ea6a73b18a8953ac93ad47848ff477813f8edc7134a7cbc8424aa1209c817"
+    },
+    {
+      "fixture": "truncated-table",
+      "flags": 0,
+      "stop": 3,
+      "status": -1,
+      "observations": 2,
+      "output_sha256": "520ea6a73b18a8953ac93ad47848ff477813f8edc7134a7cbc8424aa1209c817"
+    },
+    {
+      "fixture": "truncated-table",
+      "flags": 0,
+      "stop": 5,
+      "status": 2,
+      "observations": 2,
+      "output_sha256": "520ea6a73b18a8953ac93ad47848ff477813f8edc7134a7cbc8424aa1209c817"
+    },
+    {
+      "fixture": "truncated-table",
+      "flags": 0,
+      "stop": 6,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "520ea6a73b18a8953ac93ad47848ff477813f8edc7134a7cbc8424aa1209c817"
+    },
+    {
+      "fixture": "truncated-table",
+      "flags": 1,
+      "stop": 0,
+      "status": 0,
+      "observations": 2,
+      "output_sha256": "85cf07edbb35be95b7bcea221fbf8fc310bd2edaf723862f8c329259197f7e5f"
+    },
+    {
+      "fixture": "truncated-table",
+      "flags": 1,
+      "stop": 1,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "85cf07edbb35be95b7bcea221fbf8fc310bd2edaf723862f8c329259197f7e5f"
+    },
+    {
+      "fixture": "truncated-table",
+      "flags": 1,
+      "stop": 2,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "85cf07edbb35be95b7bcea221fbf8fc310bd2edaf723862f8c329259197f7e5f"
+    },
+    {
+      "fixture": "truncated-table",
+      "flags": 1,
+      "stop": 3,
+      "status": -1,
+      "observations": 2,
+      "output_sha256": "85cf07edbb35be95b7bcea221fbf8fc310bd2edaf723862f8c329259197f7e5f"
+    },
+    {
+      "fixture": "truncated-table",
+      "flags": 1,
+      "stop": 5,
+      "status": 2,
+      "observations": 2,
+      "output_sha256": "85cf07edbb35be95b7bcea221fbf8fc310bd2edaf723862f8c329259197f7e5f"
+    },
+    {
+      "fixture": "truncated-table",
+      "flags": 1,
+      "stop": 6,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "85cf07edbb35be95b7bcea221fbf8fc310bd2edaf723862f8c329259197f7e5f"
+    },
+    {
+      "fixture": "truncated-table",
+      "flags": 3,
+      "stop": 0,
+      "status": 0,
+      "observations": 2,
+      "output_sha256": "85cf07edbb35be95b7bcea221fbf8fc310bd2edaf723862f8c329259197f7e5f"
+    },
+    {
+      "fixture": "truncated-table",
+      "flags": 3,
+      "stop": 1,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "85cf07edbb35be95b7bcea221fbf8fc310bd2edaf723862f8c329259197f7e5f"
+    },
+    {
+      "fixture": "truncated-table",
+      "flags": 3,
+      "stop": 2,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "85cf07edbb35be95b7bcea221fbf8fc310bd2edaf723862f8c329259197f7e5f"
+    },
+    {
+      "fixture": "truncated-table",
+      "flags": 3,
+      "stop": 3,
+      "status": -1,
+      "observations": 2,
+      "output_sha256": "85cf07edbb35be95b7bcea221fbf8fc310bd2edaf723862f8c329259197f7e5f"
+    },
+    {
+      "fixture": "truncated-table",
+      "flags": 3,
+      "stop": 5,
+      "status": 2,
+      "observations": 2,
+      "output_sha256": "85cf07edbb35be95b7bcea221fbf8fc310bd2edaf723862f8c329259197f7e5f"
+    },
+    {
+      "fixture": "truncated-table",
+      "flags": 3,
+      "stop": 6,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "85cf07edbb35be95b7bcea221fbf8fc310bd2edaf723862f8c329259197f7e5f"
+    },
+    {
+      "fixture": "truncated-table",
+      "flags": 5,
+      "stop": 0,
+      "status": 0,
+      "observations": 2,
+      "output_sha256": "85cf07edbb35be95b7bcea221fbf8fc310bd2edaf723862f8c329259197f7e5f"
+    },
+    {
+      "fixture": "truncated-table",
+      "flags": 5,
+      "stop": 1,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "85cf07edbb35be95b7bcea221fbf8fc310bd2edaf723862f8c329259197f7e5f"
+    },
+    {
+      "fixture": "truncated-table",
+      "flags": 5,
+      "stop": 2,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "85cf07edbb35be95b7bcea221fbf8fc310bd2edaf723862f8c329259197f7e5f"
+    },
+    {
+      "fixture": "truncated-table",
+      "flags": 5,
+      "stop": 3,
+      "status": -1,
+      "observations": 2,
+      "output_sha256": "85cf07edbb35be95b7bcea221fbf8fc310bd2edaf723862f8c329259197f7e5f"
+    },
+    {
+      "fixture": "truncated-table",
+      "flags": 5,
+      "stop": 5,
+      "status": 2,
+      "observations": 2,
+      "output_sha256": "85cf07edbb35be95b7bcea221fbf8fc310bd2edaf723862f8c329259197f7e5f"
+    },
+    {
+      "fixture": "truncated-table",
+      "flags": 5,
+      "stop": 6,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "85cf07edbb35be95b7bcea221fbf8fc310bd2edaf723862f8c329259197f7e5f"
+    },
+    {
+      "fixture": "truncated-table",
+      "flags": 7,
+      "stop": 0,
+      "status": 0,
+      "observations": 2,
+      "output_sha256": "85cf07edbb35be95b7bcea221fbf8fc310bd2edaf723862f8c329259197f7e5f"
+    },
+    {
+      "fixture": "truncated-table",
+      "flags": 7,
+      "stop": 1,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "85cf07edbb35be95b7bcea221fbf8fc310bd2edaf723862f8c329259197f7e5f"
+    },
+    {
+      "fixture": "truncated-table",
+      "flags": 7,
+      "stop": 2,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "85cf07edbb35be95b7bcea221fbf8fc310bd2edaf723862f8c329259197f7e5f"
+    },
+    {
+      "fixture": "truncated-table",
+      "flags": 7,
+      "stop": 3,
+      "status": -1,
+      "observations": 2,
+      "output_sha256": "85cf07edbb35be95b7bcea221fbf8fc310bd2edaf723862f8c329259197f7e5f"
+    },
+    {
+      "fixture": "truncated-table",
+      "flags": 7,
+      "stop": 5,
+      "status": 2,
+      "observations": 2,
+      "output_sha256": "85cf07edbb35be95b7bcea221fbf8fc310bd2edaf723862f8c329259197f7e5f"
+    },
+    {
+      "fixture": "truncated-table",
+      "flags": 7,
+      "stop": 6,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "85cf07edbb35be95b7bcea221fbf8fc310bd2edaf723862f8c329259197f7e5f"
+    },
+    {
+      "fixture": "truncated-table",
+      "flags": 8,
+      "stop": 0,
+      "status": 0,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "truncated-table",
+      "flags": 8,
+      "stop": 1,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "truncated-table",
+      "flags": 8,
+      "stop": 2,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "truncated-table",
+      "flags": 8,
+      "stop": 3,
+      "status": -1,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "truncated-table",
+      "flags": 8,
+      "stop": 5,
+      "status": 2,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "truncated-table",
+      "flags": 8,
+      "stop": 6,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "truncated-table",
+      "flags": -1,
+      "stop": 0,
+      "status": 0,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "truncated-table",
+      "flags": -1,
+      "stop": 1,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "truncated-table",
+      "flags": -1,
+      "stop": 2,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "truncated-table",
+      "flags": -1,
+      "stop": 3,
+      "status": -1,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "truncated-table",
+      "flags": -1,
+      "stop": 5,
+      "status": 2,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "truncated-table",
+      "flags": -1,
+      "stop": 6,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "short-header",
+      "flags": 0,
+      "stop": 0,
+      "status": 0,
+      "observations": 2,
+      "output_sha256": "85cf07edbb35be95b7bcea221fbf8fc310bd2edaf723862f8c329259197f7e5f"
+    },
+    {
+      "fixture": "short-header",
+      "flags": 0,
+      "stop": 1,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "85cf07edbb35be95b7bcea221fbf8fc310bd2edaf723862f8c329259197f7e5f"
+    },
+    {
+      "fixture": "short-header",
+      "flags": 0,
+      "stop": 2,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "85cf07edbb35be95b7bcea221fbf8fc310bd2edaf723862f8c329259197f7e5f"
+    },
+    {
+      "fixture": "short-header",
+      "flags": 0,
+      "stop": 3,
+      "status": -1,
+      "observations": 2,
+      "output_sha256": "85cf07edbb35be95b7bcea221fbf8fc310bd2edaf723862f8c329259197f7e5f"
+    },
+    {
+      "fixture": "short-header",
+      "flags": 0,
+      "stop": 5,
+      "status": 2,
+      "observations": 2,
+      "output_sha256": "85cf07edbb35be95b7bcea221fbf8fc310bd2edaf723862f8c329259197f7e5f"
+    },
+    {
+      "fixture": "short-header",
+      "flags": 0,
+      "stop": 6,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "85cf07edbb35be95b7bcea221fbf8fc310bd2edaf723862f8c329259197f7e5f"
+    },
+    {
+      "fixture": "short-header",
+      "flags": 1,
+      "stop": 0,
+      "status": 0,
+      "observations": 2,
+      "output_sha256": "85cf07edbb35be95b7bcea221fbf8fc310bd2edaf723862f8c329259197f7e5f"
+    },
+    {
+      "fixture": "short-header",
+      "flags": 1,
+      "stop": 1,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "85cf07edbb35be95b7bcea221fbf8fc310bd2edaf723862f8c329259197f7e5f"
+    },
+    {
+      "fixture": "short-header",
+      "flags": 1,
+      "stop": 2,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "85cf07edbb35be95b7bcea221fbf8fc310bd2edaf723862f8c329259197f7e5f"
+    },
+    {
+      "fixture": "short-header",
+      "flags": 1,
+      "stop": 3,
+      "status": -1,
+      "observations": 2,
+      "output_sha256": "85cf07edbb35be95b7bcea221fbf8fc310bd2edaf723862f8c329259197f7e5f"
+    },
+    {
+      "fixture": "short-header",
+      "flags": 1,
+      "stop": 5,
+      "status": 2,
+      "observations": 2,
+      "output_sha256": "85cf07edbb35be95b7bcea221fbf8fc310bd2edaf723862f8c329259197f7e5f"
+    },
+    {
+      "fixture": "short-header",
+      "flags": 1,
+      "stop": 6,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "85cf07edbb35be95b7bcea221fbf8fc310bd2edaf723862f8c329259197f7e5f"
+    },
+    {
+      "fixture": "short-header",
+      "flags": 3,
+      "stop": 0,
+      "status": 0,
+      "observations": 2,
+      "output_sha256": "85cf07edbb35be95b7bcea221fbf8fc310bd2edaf723862f8c329259197f7e5f"
+    },
+    {
+      "fixture": "short-header",
+      "flags": 3,
+      "stop": 1,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "85cf07edbb35be95b7bcea221fbf8fc310bd2edaf723862f8c329259197f7e5f"
+    },
+    {
+      "fixture": "short-header",
+      "flags": 3,
+      "stop": 2,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "85cf07edbb35be95b7bcea221fbf8fc310bd2edaf723862f8c329259197f7e5f"
+    },
+    {
+      "fixture": "short-header",
+      "flags": 3,
+      "stop": 3,
+      "status": -1,
+      "observations": 2,
+      "output_sha256": "85cf07edbb35be95b7bcea221fbf8fc310bd2edaf723862f8c329259197f7e5f"
+    },
+    {
+      "fixture": "short-header",
+      "flags": 3,
+      "stop": 5,
+      "status": 2,
+      "observations": 2,
+      "output_sha256": "85cf07edbb35be95b7bcea221fbf8fc310bd2edaf723862f8c329259197f7e5f"
+    },
+    {
+      "fixture": "short-header",
+      "flags": 3,
+      "stop": 6,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "85cf07edbb35be95b7bcea221fbf8fc310bd2edaf723862f8c329259197f7e5f"
+    },
+    {
+      "fixture": "short-header",
+      "flags": 5,
+      "stop": 0,
+      "status": 0,
+      "observations": 2,
+      "output_sha256": "85cf07edbb35be95b7bcea221fbf8fc310bd2edaf723862f8c329259197f7e5f"
+    },
+    {
+      "fixture": "short-header",
+      "flags": 5,
+      "stop": 1,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "85cf07edbb35be95b7bcea221fbf8fc310bd2edaf723862f8c329259197f7e5f"
+    },
+    {
+      "fixture": "short-header",
+      "flags": 5,
+      "stop": 2,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "85cf07edbb35be95b7bcea221fbf8fc310bd2edaf723862f8c329259197f7e5f"
+    },
+    {
+      "fixture": "short-header",
+      "flags": 5,
+      "stop": 3,
+      "status": -1,
+      "observations": 2,
+      "output_sha256": "85cf07edbb35be95b7bcea221fbf8fc310bd2edaf723862f8c329259197f7e5f"
+    },
+    {
+      "fixture": "short-header",
+      "flags": 5,
+      "stop": 5,
+      "status": 2,
+      "observations": 2,
+      "output_sha256": "85cf07edbb35be95b7bcea221fbf8fc310bd2edaf723862f8c329259197f7e5f"
+    },
+    {
+      "fixture": "short-header",
+      "flags": 5,
+      "stop": 6,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "85cf07edbb35be95b7bcea221fbf8fc310bd2edaf723862f8c329259197f7e5f"
+    },
+    {
+      "fixture": "short-header",
+      "flags": 7,
+      "stop": 0,
+      "status": 0,
+      "observations": 2,
+      "output_sha256": "85cf07edbb35be95b7bcea221fbf8fc310bd2edaf723862f8c329259197f7e5f"
+    },
+    {
+      "fixture": "short-header",
+      "flags": 7,
+      "stop": 1,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "85cf07edbb35be95b7bcea221fbf8fc310bd2edaf723862f8c329259197f7e5f"
+    },
+    {
+      "fixture": "short-header",
+      "flags": 7,
+      "stop": 2,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "85cf07edbb35be95b7bcea221fbf8fc310bd2edaf723862f8c329259197f7e5f"
+    },
+    {
+      "fixture": "short-header",
+      "flags": 7,
+      "stop": 3,
+      "status": -1,
+      "observations": 2,
+      "output_sha256": "85cf07edbb35be95b7bcea221fbf8fc310bd2edaf723862f8c329259197f7e5f"
+    },
+    {
+      "fixture": "short-header",
+      "flags": 7,
+      "stop": 5,
+      "status": 2,
+      "observations": 2,
+      "output_sha256": "85cf07edbb35be95b7bcea221fbf8fc310bd2edaf723862f8c329259197f7e5f"
+    },
+    {
+      "fixture": "short-header",
+      "flags": 7,
+      "stop": 6,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "85cf07edbb35be95b7bcea221fbf8fc310bd2edaf723862f8c329259197f7e5f"
+    },
+    {
+      "fixture": "short-header",
+      "flags": 8,
+      "stop": 0,
+      "status": 0,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "short-header",
+      "flags": 8,
+      "stop": 1,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "short-header",
+      "flags": 8,
+      "stop": 2,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "short-header",
+      "flags": 8,
+      "stop": 3,
+      "status": -1,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "short-header",
+      "flags": 8,
+      "stop": 5,
+      "status": 2,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "short-header",
+      "flags": 8,
+      "stop": 6,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "short-header",
+      "flags": -1,
+      "stop": 0,
+      "status": 0,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "short-header",
+      "flags": -1,
+      "stop": 1,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "short-header",
+      "flags": -1,
+      "stop": 2,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "short-header",
+      "flags": -1,
+      "stop": 3,
+      "status": -1,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "short-header",
+      "flags": -1,
+      "stop": 5,
+      "status": 2,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    },
+    {
+      "fixture": "short-header",
+      "flags": -1,
+      "stop": 6,
+      "status": 1,
+      "observations": 2,
+      "output_sha256": "fc9f0d558049e6fdda5d80fefb65d5f2afaf48e7f62371201d80a39697429da7"
+    }
+  ]
+}

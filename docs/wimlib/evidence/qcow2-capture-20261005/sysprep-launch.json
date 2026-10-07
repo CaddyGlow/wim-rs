@@ -1,0 +1,15 @@
+{
+  "guest": "qcow2-source-1005",
+  "command": [
+    "sysprep.exe",
+    "/generalize",
+    "/oobe",
+    "/shutdown",
+    "/quiet",
+    "/unattend:C:\\Windows\\System32\\Sysprep\\unattend.xml"
+  ],
+  "guest_exec": {
+    "pid": 9556
+  },
+  "completion": "Offline native logs record generalization success and shutdown; see source-generalization.json for retained BCD warning."
+}

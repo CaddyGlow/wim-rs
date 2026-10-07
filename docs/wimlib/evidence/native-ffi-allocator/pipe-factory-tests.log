@@ -1,0 +1,273 @@
+   Compiling wim-ffi v0.1.0 (/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/wim-ffi)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.87s
+     Running unittests src/lib.rs (/data/cache/rust/debug/deps/wim-f1119e0ba6be26b2)
+
+running 15 tests
+test memory::tests::invalid_query_parameters_return_zero_without_allocating ... ok
+test memory::tests::lzms_estimate_changes_at_suffix_array_and_interval_width_thresholds ... ok
+test extract::unix::tests::stream_totals_count_identical_files_once_per_inode_and_ignore_named_streams ... ok
+test memory::tests::xpress_estimate_changes_at_near_optimal_threshold ... ok
+test memory::tests::lzx_estimate_changes_at_fast_level_and_position_width_thresholds ... ok
+test progress::tests::byte_progress_threshold_tracks_original_terminal_and_gib_rules ... ok
+test progress::tests::dispatcher_preserves_context_and_maps_every_callback_status ... ok
+test progress::tests::selected_structures_match_original_64_bit_layout ... ok
+test tests::static_strings_preserve_lifetime_and_sparse_error_values ... ok
+test properties::tests::cached_getter_storage_survives_other_cache_insertions_and_failed_mutations ... ok
+test tests::version_uses_original_bit_layout ... ok
+test properties::tests::platform_text_supports_utf8_names_and_tracks_indexed_paths ... ok
+test properties::tests::property_validation_precedes_image_validation_and_empty_values_delete ... ok
+test text_file::tests::bom_and_initial_ascii_nul_detection_match_original ... ok
+test text_file::tests::unix_utf8_copy_keeps_invalid_bytes_and_embedded_nuls ... ok
+
+test result: ok. 15 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/capture.rs (/data/cache/rust/debug/deps/capture-94f2d1562ba5e80f)
+
+running 4 tests
+test configuration_excludes_subtrees_and_keeps_exception_ancestors ... ok
+test root_symlinks_are_dereferenced_and_absolute_child_links_are_fixed ... ok
+test scan_retains_shared_hardlink_streams_and_reads_later_source_contents ... ok
+test deferred_reader_reports_original_truncation_and_missing_source_errors ... ok
+
+test result: ok. 4 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/capture_write.rs (/data/cache/rust/debug/deps/capture_write-95540523f3476399)
+
+running 3 tests
+test shortened_capture_source_fails_after_initial_progress_before_metadata ... ok
+test deferred_equal_size_streams_deduplicate_after_initial_progress ... ok
+test solid_equal_size_streams_deduplicate_before_completed_progress ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s
+
+     Running tests/compress.rs (/data/cache/rust/debug/deps/compress-1c56ff0893efcd7a)
+
+running 2 tests
+test compressor_factory_preserves_output_pointer_on_validation_failure ... ok
+test compressor_reuses_handle_after_capacity_and_maximum_failures ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.02s
+
+     Running tests/compress_allocation.rs (/data/cache/rust/debug/deps/compress_allocation-dbdd0ade55fff4a1)
+
+running 1 test
+test factory_maps_every_workspace_and_handle_allocation_failure_to_nomem ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.23s
+
+     Running tests/decompress.rs (/data/cache/rust/debug/deps/decompress-e8145aaa25236e80)
+
+running 2 tests
+test factory_preserves_failed_output_and_prioritizes_invalid_codec ... ok
+test oversized_request_does_not_dereference_null_buffers ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/decompress_allocation.rs (/data/cache/rust/debug/deps/decompress_allocation-65e3518ad50d9a9e)
+
+running 1 test
+test factory_maps_every_workspace_and_handle_allocation_failure_to_nomem ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.09s
+
+     Running tests/dir_tree.rs (/data/cache/rust/debug/deps/dir_tree-24a6046ea39d9b5b)
+
+running 3 tests
+test callback_nonzero_result_stops_before_later_children ... ok
+test resources_needed_checks_skipped_parent_before_children_callback ... ok
+test children_and_recursive_flags_preserve_absolute_paths_and_preorder ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/export.rs (/data/cache/rust/debug/deps/export-967d9656324341af)
+
+running 6 tests
+test invalid_flags_and_empty_same_handle_exports_follow_validation_order ... ok
+test repeated_and_round_trip_exports_reject_shared_image_identity ... ok
+test invalid_export_name_leaves_destination_unchanged ... ok
+test exported_pending_metadata_survives_source_release ... ok
+test export_suppression_boot_and_wimboot_flags_change_owned_xml ... ok
+test writing_one_export_owner_materializes_the_same_root_in_every_owner ... ok
+
+test result: ok. 6 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/extract.rs (/data/cache/rust/debug/deps/extract-e1a0cb49490c4f17)
+
+running 5 tests
+test pending_rootless_image_fails_path_lookup_while_empty_selection_has_no_output ... ok
+test existing_parent_symlink_is_rejected_without_writing_outside_target ... ok
+test utf16_pathlist_selects_quoted_paths_and_ignores_comments ... ok
+test exported_image_extracts_sparse_hardlinks_after_source_and_backing_are_removed ... ok
+test selected_paths_preserve_ancestors_and_flatten_selected_hardlink_aliases ... ok
+
+test result: ok. 5 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s
+
+     Running tests/handles.rs (/data/cache/rust/debug/deps/handles-96ae945b3f3f7492)
+
+running 3 tests
+test create_failure_preserves_output_and_parameter_precedence ... ok
+test invalid_open_preserves_output ... ok
+test new_handles_keep_input_and_output_compression_separate ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/image_mutation.rs (/data/cache/rust/debug/deps/image_mutation-2b2229836600454c)
+
+running 3 tests
+test invalid_name_does_not_append_an_image_or_change_index ... ok
+test empty_image_owns_a_real_security_table_and_null_root ... ok
+test empty_image_deletion_aligns_xml_owned_images_and_boot_index ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/image_owners.rs (/data/cache/rust/debug/deps/image_owners-b278ef2a4f8d0147)
+
+running 1 test
+test exported_image_owner_count_tracks_reexport_delete_and_handle_release ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/info.rs (/data/cache/rust/debug/deps/info-e218c44ca4d99cf2)
+
+running 3 tests
+test output_compression_settings_repair_chunks_and_preserve_input_info ... ok
+test integrity_presence_uses_header_offset_not_resource_size ... ok
+test wim_info_has_original_layout_and_masked_mutations_are_atomic ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/lookup.rs (/data/cache/rust/debug/deps/lookup-a411c81e6d66b6d1)
+
+running 2 tests
+test resource_entry_matches_host_c_layout ... ok
+test invalid_lookup_flags_are_rejected_before_handle_access ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/lookup_allocations.rs (/data/cache/rust/debug/deps/lookup_allocations-9e71dd63bd12f359)
+
+running 1 test
+test repeated_lookup_iteration_allocates_nothing ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/open_progress.rs (/data/cache/rust/debug/deps/open_progress-aaa116493632936f)
+
+running 2 tests
+test callback_abort_and_unknown_status_leave_output_unchanged ... ok
+test successful_open_reports_chunks_and_retains_borrowed_registration ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/overwrite.rs (/data/cache/rust/debug/deps/overwrite-3211f5d43bd36385)
+
+running 3 tests
+test append_conflicting_lock_returns_already_locked_without_changing_file ... ok
+test append_updates_xml_without_replacing_original_inode_or_blob_table ... ok
+test abort_after_atomic_rename_keeps_committed_rebuild_and_reports_abort ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s
+
+     Running tests/pipe_extract.rs (/data/cache/rust/debug/deps/pipe_extract-d3e7de947ac0d9f5)
+
+running 3 tests
+test invalid_public_flags_leave_caller_descriptor_open ... ok
+test matching_hash_metadata_frame_is_skipped_until_eof_without_writing_payload ... ok
+test live_pipe_closes_owned_descriptor_and_leaves_unused_tail_unread ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s
+
+     Running tests/references.rs (/data/cache/rust/debug/deps/references-9651d05fef2edeea)
+
+running 3 tests
+test null_entry_validation_precedes_any_handle_reference_changes ... ok
+test handle_references_keep_data_after_source_release_and_do_not_import_images ... ok
+test file_reference_failure_rolls_back_new_resources_and_success_keeps_snapshot ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/split_join.rs (/data/cache/rust/debug/deps/split_join-3c28b6e13e16f050)
+
+running 2 tests
+test split_and_join_validate_empty_names_sizes_and_part_counts ... ok
+test split_filenames_and_reverse_join_preserve_content_and_current_xml ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s
+
+     Running tests/template.rs (/data/cache/rust/debug/deps/template-45ea16bb1e3db636)
+
+running 1 test
+test template_copies_real_checksum_without_opening_deleted_capture_source ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/text_file.rs (/data/cache/rust/debug/deps/text_file-a86ca812e0af7005)
+
+running 2 tests
+test malformed_utf16_keeps_both_output_parameters_unchanged ... ok
+test output_length_counts_embedded_nuls_and_c_free_releases_the_allocation ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/update.rs (/data/cache/rust/debug/deps/update-7495672f3852ef44)
+
+running 3 tests
+test update_command_layout_matches_original_linux_x64_probe ... ok
+test failed_batch_restores_empty_image_after_captured_tree_attachment ... ok
+test cancellation_at_each_command_boundary_restores_metadata_and_blob_counts ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/update_allocation.rs (/data/cache/rust/debug/deps/update_allocation-66da6cf1a38b6478)
+
+running 1 test
+test canonical_path_allocation_failure_preserves_image_and_allows_retry ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/verify.rs (/data/cache/rust/debug/deps/verify-22229869a7838e09)
+
+running 1 test
+test verify_rejects_invalid_arguments_and_accepts_empty_wim ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/write.rs (/data/cache/rust/debug/deps/write-8eae53354be9e77a)
+
+running 3 tests
+test write_rejects_invalid_arguments_before_touching_output ... ok
+test write_to_nonseekable_descriptor_requires_pipable_and_preserves_descriptor_ownership ... ok
+test buffered_writer_persists_pending_empty_images_with_independent_solid_settings ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.04s
+
+     Running tests/write_progress.rs (/data/cache/rust/debug/deps/write_progress-9bf414bab82c2b55)
+
+running 3 tests
+test metadata_abort_preserves_original_materialization_and_partial_file_boundaries ... ok
+test only_dirty_metadata_refreshes_statistics_before_writing ... ok
+test unregister_during_initial_stream_event_keeps_snapshot_until_phase_returns ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/xml_allocation.rs (/data/cache/rust/debug/deps/xml_allocation-3d15b2ea0cc458e1)
+
+running 2 tests
+test every_retained_lookup_allocation_failure_releases_owned_descriptors ... ok
+test every_xml_tree_and_clone_allocation_failure_releases_owned_values ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/xml_data.rs (/data/cache/rust/debug/deps/xml_data-74546df12702f18a)
+
+running 1 test
+test new_handle_xml_returns_empty_original_resource_and_validates_outputs ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests wim
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

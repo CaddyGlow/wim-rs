@@ -1,0 +1,51 @@
+//! C-compatible entry points, layouts, callbacks, and opaque handles.
+//!
+//! This namespace provides wimlib-style entry points, excluding custom allocator
+//! registration. Its unsafe functions require the
+//! documented pointer and lifetime contracts. Rust applications should use
+//! [`crate::Wim`] instead. Namespace changes do not change exported C symbol names.
+//!
+//! Raw entry points are deliberately outside the crate's safe Rust API:
+//! ```compile_fail
+//! use wim::wimlib_open_wim;
+//! ```
+
+pub use crate::engine::{
+    AddCommand, CaptureSource, DeleteCommand, DirTreeCallback, DoneWithFileProgress,
+    ExtractProgress, FileExclusionProgress, HandleErrorProgress, IntegrityProgress, LookupCallback,
+    ProgressCallback, ProgressInfo, RenameCommand, RenameProgress, ReplaceProgress, ScanProgress,
+    SplitProgress, TChar, UnmountProgress, UpdateCommand, UpdateCommandData, UpdateProgress,
+    VerifyImageProgress, VerifyStreamsProgress, WimDirEntry, WimHandle, WimInfo, WimObjectId,
+    WimResourceEntry, WimStreamEntry, WimTimespec, WimlibDecompressor, WriteStreamsProgress,
+    wimlib_add_empty_image, wimlib_add_image, wimlib_add_image_multisource, wimlib_add_tree,
+    wimlib_compress, wimlib_create_compressor, wimlib_create_decompressor, wimlib_create_new_wim,
+    wimlib_decompress, wimlib_delete_image, wimlib_delete_path, wimlib_export_image,
+    wimlib_extract_image, wimlib_extract_pathlist, wimlib_extract_paths, wimlib_extract_xml_data,
+    wimlib_free, wimlib_free_compressor, wimlib_free_decompressor,
+    wimlib_get_compression_type_string, wimlib_get_compressor_needed_memory,
+    wimlib_get_error_string, wimlib_get_image_description, wimlib_get_image_name,
+    wimlib_get_image_property, wimlib_get_version, wimlib_get_version_string, wimlib_get_wim_info,
+    wimlib_get_xml_data, wimlib_global_cleanup, wimlib_global_init, wimlib_image_name_in_use,
+    wimlib_iterate_dir_tree, wimlib_iterate_lookup_table, wimlib_join, wimlib_join_with_progress,
+    wimlib_load_text_file, wimlib_mount_image, wimlib_open_wim, wimlib_open_wim_with_progress,
+    wimlib_overwrite, wimlib_reference_resource_files, wimlib_reference_resources,
+    wimlib_reference_template_image, wimlib_register_progress_function, wimlib_rename_path,
+    wimlib_resolve_image, wimlib_set_default_compression_level, wimlib_set_error_file,
+    wimlib_set_error_file_by_name, wimlib_set_image_descripton, wimlib_set_image_flags,
+    wimlib_set_image_name, wimlib_set_image_property, wimlib_set_output_chunk_size,
+    wimlib_set_output_compression_type, wimlib_set_output_pack_chunk_size,
+    wimlib_set_output_pack_compression_type, wimlib_set_print_errors, wimlib_set_wim_info,
+    wimlib_split, wimlib_unmount_image, wimlib_unmount_image_with_progress, wimlib_update_image,
+    wimlib_verify_wim, wimlib_write, wimlib_write_to_fd,
+};
+
+#[cfg(any(unix, windows))]
+pub use crate::engine::{wimlib_print_available_images, wimlib_print_header};
+
+#[cfg(feature = "test-support")]
+pub use crate::engine::test_support::{wimlib_compare_images, wimlib_seed_random};
+
+#[cfg(any(target_os = "linux", windows))]
+pub use crate::engine::{
+    wimlib_extract_image_from_pipe, wimlib_extract_image_from_pipe_with_progress,
+};

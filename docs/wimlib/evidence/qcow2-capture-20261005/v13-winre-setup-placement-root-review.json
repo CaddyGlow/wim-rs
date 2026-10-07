@@ -1,0 +1,65 @@
+{
+  "schema": 1,
+  "kind": "native-frozen-setup-log-review",
+  "image_sha256": "945ade80271e6a84cbe4673a3cf4a596322382940b43d0641a9ff125c806aa90",
+  "partition": 3,
+  "log": {
+    "path": "/data/cache/qcow2-v13-offline-audit/root-setupact.log",
+    "sha256": "09a244cb78da2a1af0bd169f68544c57774ecb4932ac58b8c070831a251a4031",
+    "bytes": 1774445
+  },
+  "selected_lines": [
+    {
+      "line": 9678,
+      "text": "2026-10-05 23:26:00, Info                             [SetupPlatform.exe] VolumeName: \\\\?\\Volume{3ca3e281-11ef-4fbb-9440-107049d3c7b2}, PartitionName: \\\\?\\GLOBALROOT\\device\\harddisk0\\partition4"
+    },
+    {
+      "line": 9679,
+      "text": "2026-10-05 23:26:00, Info                             [SetupPlatform.exe] Partition number: 4, offset: 63246958592, free space: 5445554176, total space: 5471465472"
+    },
+    {
+      "line": 9681,
+      "text": "2026-10-05 23:26:00, Info                             [SetupPlatform.exe] GPT partition GUID:: {DE94BBA4-06D1-4D40-A16A-BFD50179D6AC} "
+    },
+    {
+      "line": 9708,
+      "text": "2026-10-05 23:26:00, Info                             [SetupPlatform.exe] FindWinReSourceImageAndPartition using winre.wim from C:\\WINDOWS\\System32\\Recovery"
+    },
+    {
+      "line": 9711,
+      "text": "2026-10-05 23:26:00, Info                             [SetupPlatform.exe] --Install on target OS step 3: check if we can keep winre.wim in the same partition if it is staged."
+    },
+    {
+      "line": 9712,
+      "text": "2026-10-05 23:26:00, Info                             [SetupPlatform.exe] CanKeepWinReOnSamePartitionIfStaged WinRE is staged.  Checking that the staged partition is valid for WinRE."
+    },
+    {
+      "line": 9713,
+      "text": "2026-10-05 23:26:00, Info                             [SetupPlatform.exe] MeetPartitionRequirements Partition details: {Offset: 332398592, Free space: 42478211072, Total space: 62914555904}"
+    },
+    {
+      "line": 9714,
+      "text": "2026-10-05 23:26:00, Info                             [SetupPlatform.exe] MeetPartitionRequirements WinRE WIM size: 684495943"
+    },
+    {
+      "line": 9715,
+      "text": "2026-10-05 23:26:00, Info                             [SetupPlatform.exe] MeetPartitionRequirements Required free space: 356515840"
+    },
+    {
+      "line": 9716,
+      "text": "2026-10-05 23:26:00, Info                             [SetupPlatform.exe] NOTE: Find target partition: source partition will used"
+    },
+    {
+      "line": 9720,
+      "text": "2026-10-05 23:26:00, Info                             [SetupPlatform.exe] Copying WinRE from C:\\WINDOWS\\System32\\Recovery to staging location on \\\\?\\GLOBALROOT\\device\\harddisk0\\partition3"
+    },
+    {
+      "line": 9727,
+      "text": "2026-10-05 23:26:00, Info                             [SetupPlatform.exe] Set WinRE location path to: \\Recovery\\WindowsRE"
+    }
+  ],
+  "observed": "Setup enumerated recovery partition4 but retained staged WinRE on its valid OS partition3",
+  "causal_inference": "WinREStaged state1 in generated unbound ReAgent configuration leads Setup through CanKeepWinReOnSamePartitionIfStaged; test state0 as sole producer change",
+  "state0_experiment_proven": false,
+  "production_fix_proven": false
+}

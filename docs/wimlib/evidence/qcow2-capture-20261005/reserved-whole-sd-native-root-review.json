@@ -1,0 +1,10 @@
+{
+  "correlation_path": "/data/cache/qcow2-reserved-whole-sd-control-20261006/offline-audit/complete-native-runtime-correlation.json",
+  "correlation_sha256": "88637598feeeed4e56cff5ce5b808f15f7d4b87a61dc8ffcd2077087e5cf0a46",
+  "all_four_input_bindings_rehashed": true,
+  "all97_native_rows_raw_sd_and_standard_info_correspondence": true,
+  "all97_runtime_native_logical_sd_exact": true,
+  "all97_native_ace20_absent": true,
+  "native_unique_references": 81,
+  "production_restoration_passes": false
+}

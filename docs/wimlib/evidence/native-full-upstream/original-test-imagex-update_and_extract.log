@@ -1,0 +1,136 @@
+--------------------------------------------------------------------
+Testing deleting nonexisting file from WIM image, without --force (errors expected)
+--------------------------------------------------------------------
+[ERROR] Path "/nonexistent" does not exist in WIM image 1
+ERROR: Exiting with error code 49:
+       The path does not exist in the WIM image.
+--------------------------------------------------------------------
+Testing deleting nonexisting file from WIM image, with --force
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+Testing deleting root directory from WIM image, without --recursive (errors expected)
+--------------------------------------------------------------------
+[ERROR] Path "/" in WIM image 1 is a directory but a recursive delete was not requested
+ERROR: Exiting with error code 32:
+       One of the specified paths to delete was a directory.
+--------------------------------------------------------------------
+Testing deleting root directory from WIM image, with --recursive
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+Testing update command with invalid option (errors expected)
+--------------------------------------------------------------------
+ERROR: Unrecognized option "--invalid-option" to update command "delete" on line 1
+--------------------------------------------------------------------
+Testing update command with too many arguments (errors expected)
+--------------------------------------------------------------------
+ERROR: Unexpected argument "/anotherdir" in update command on line 1
+       (The "delete" command only takes 1 nonoption arguments!)
+
+--------------------------------------------------------------------
+Testing invalid update command (errors expected)
+--------------------------------------------------------------------
+ERROR: Unknown update command "invalid" on line 1
+--------------------------------------------------------------------
+Testing update command file with comments and empty lines
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+Testing update with --rebuild
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+Testing adding file to WIM image with flag ""
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+Testing deleting file from WIM image
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+Testing adding file to WIM image with flag "--rebuild"
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+Testing deleting file from WIM image
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+Testing renaming file in WIM image
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+Testing UTF-16LE-NOBOM command update file
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+Testing UTF-16LE-BOM command update file
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+Testing UTF-8-BOM command update file
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+Testing adding, then renaming file in WIM image in one command
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+Testing adding additional file to WIM image
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+Testing extracting file from WIM image
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+Testing extracting file from WIM image to stdout
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+Testing adding directories and files to WIM image
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+Testing adding files to WIM image
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+Testing adding file with space in it
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+Testing path list extract
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+Testing path list extract (stdin)
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+Testing path list extract (w/ wildcard)
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+Testing path list extract (no wildcard, no match; error expected)
+--------------------------------------------------------------------
+[ERROR] Path "hello*" does not exist in WIM image 1
+Note: You can use `wimlib-imagex dir' to see what files and directories
+      are in the WIM image.
+ERROR: Exiting with error code 49:
+       The path does not exist in the WIM image.
+--------------------------------------------------------------------
+Testing path list extract (wildcard, no match; error expected)
+--------------------------------------------------------------------
+[ERROR] No matches for path pattern "foobar*"
+Note: You can use the '--nullglob' option to ignore missing files.
+Note: You can use `wimlib-imagex dir' to see what files and directories
+      are in the WIM image.
+ERROR: Exiting with error code 49:
+       The path does not exist in the WIM image.
+--------------------------------------------------------------------
+Testing path list extract (wildcard, no match, nullglob; no error expected)
+--------------------------------------------------------------------
+[WARNING] No matches for path pattern "foobar*"
+--------------------------------------------------------------------
+Testing path list extract (w/ wildcard)
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+Testing path list extract (subdir files)
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+Testing case insensitivity
+--------------------------------------------------------------------
+[ERROR] No matches for path pattern "hello1"
+Note: You can use the '--nullglob' option to ignore missing files.
+Note: You can use `wimlib-imagex dir' to see what files and directories
+      are in the WIM image.
+ERROR: Exiting with error code 49:
+       The path does not exist in the WIM image.
+[ERROR] Path "hello1" does not exist in WIM image 1
+Note: You can use `wimlib-imagex dir' to see what files and directories
+      are in the WIM image.
+ERROR: Exiting with error code 49:
+       The path does not exist in the WIM image.
+**********************************************************
+          wimupdate/extract tests passed              
+**********************************************************

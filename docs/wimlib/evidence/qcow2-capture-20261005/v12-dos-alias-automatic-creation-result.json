@@ -1,0 +1,335 @@
+{
+  "schema": 1,
+  "report_path": "/data/cache/qcow2-retained-fixtures-20261006/alias-creation-report.json",
+  "report_sha256": "ac0475090f6d5f987e6510988f4b80ed3869184e0472c7dfaf804cb4421371be",
+  "root": "U:\\QCOW2-AliasCreation-76a27ca0c9ee4bc89560a02413899dec",
+  "global_policy": 2,
+  "dedicated_volume_enable_status": 0,
+  "validation": {
+    "rounds": [
+      {
+        "first_link": 0,
+        "rename_status": 0,
+        "all_creation_links_have_aliases": false,
+        "all_postrename_links_have_aliases": false,
+        "raw_basic_standard_changed": true
+      },
+      {
+        "first_link": 1,
+        "rename_status": 0,
+        "all_creation_links_have_aliases": false,
+        "all_postrename_links_have_aliases": false,
+        "raw_basic_standard_changed": true
+      },
+      {
+        "first_link": 2,
+        "rename_status": 0,
+        "all_creation_links_have_aliases": false,
+        "all_postrename_links_have_aliases": false,
+        "raw_basic_standard_changed": true
+      }
+    ],
+    "installed_restoration_proven": false,
+    "sacl_tested": false
+  },
+  "rounds": [
+    {
+      "first_link": 0,
+      "before_entries": [
+        {
+          "Parent": "U:\\QCOW2-AliasCreation-76a27ca0c9ee4bc89560a02413899dec\\order0\\same",
+          "LongName": "FaceProcessor.dll",
+          "LongNameUtf16": "4600610063006500500072006F0063006500730073006F0072002E0064006C006C00",
+          "Alias": "FACEPR~1.DLL",
+          "AliasUtf16": "4600410043004500500052007E0031002E0044004C004C00",
+          "LongID": "E7BD7ED0FC7ED0BA38000000000001000000000000000000",
+          "AliasID": "E7BD7ED0FC7ED0BA38000000000001000000000000000000"
+        },
+        {
+          "Parent": "U:\\QCOW2-AliasCreation-76a27ca0c9ee4bc89560a02413899dec\\order0\\same",
+          "LongName": "FaceProcessorCore.dll",
+          "LongNameUtf16": "4600610063006500500072006F0063006500730073006F00720043006F00720065002E0064006C006C00",
+          "Alias": "",
+          "AliasUtf16": "",
+          "LongID": "E7BD7ED0FC7ED0BA38000000000001000000000000000000",
+          "AliasID": null
+        },
+        {
+          "Parent": "U:\\QCOW2-AliasCreation-76a27ca0c9ee4bc89560a02413899dec\\order0\\other",
+          "LongName": "FaceProcessorExtra.dll",
+          "LongNameUtf16": "4600610063006500500072006F0063006500730073006F007200450078007400720061002E0064006C006C00",
+          "Alias": "",
+          "AliasUtf16": "",
+          "LongID": "E7BD7ED0FC7ED0BA38000000000001000000000000000000",
+          "AliasID": null
+        }
+      ],
+      "after_entries": [
+        {
+          "Parent": "U:\\QCOW2-AliasCreation-76a27ca0c9ee4bc89560a02413899dec\\order0\\same",
+          "LongName": "FaceProcessor.dll",
+          "LongNameUtf16": "4600610063006500500072006F0063006500730073006F0072002E0064006C006C00",
+          "Alias": "FACEPR~1.DLL",
+          "AliasUtf16": "4600410043004500500052007E0031002E0044004C004C00",
+          "LongID": "E7BD7ED0FC7ED0BA38000000000001000000000000000000",
+          "AliasID": "E7BD7ED0FC7ED0BA38000000000001000000000000000000"
+        },
+        {
+          "Parent": "U:\\QCOW2-AliasCreation-76a27ca0c9ee4bc89560a02413899dec\\order0\\same",
+          "LongName": "FaceProcessorCore.dll",
+          "LongNameUtf16": "4600610063006500500072006F0063006500730073006F00720043006F00720065002E0064006C006C00",
+          "Alias": "",
+          "AliasUtf16": "",
+          "LongID": "E7BD7ED0FC7ED0BA38000000000001000000000000000000",
+          "AliasID": null
+        },
+        {
+          "Parent": "U:\\QCOW2-AliasCreation-76a27ca0c9ee4bc89560a02413899dec\\order0\\other",
+          "LongName": "RenamedFaceProcessorExtra.dll",
+          "LongNameUtf16": "520065006E0061006D00650064004600610063006500500072006F0063006500730073006F007200450078007400720061002E0064006C006C00",
+          "Alias": "",
+          "AliasUtf16": "",
+          "LongID": "E7BD7ED0FC7ED0BA38000000000001000000000000000000",
+          "AliasID": null
+        }
+      ],
+      "rename_status": 0,
+      "rename_metadata_changes": [
+        {
+          "before_path": "U:\\QCOW2-AliasCreation-76a27ca0c9ee4bc89560a02413899dec\\order0\\same\\FaceProcessor.dll",
+          "after_path": "U:\\QCOW2-AliasCreation-76a27ca0c9ee4bc89560a02413899dec\\order0\\same\\FaceProcessor.dll",
+          "changed_fields": [
+            "change_time"
+          ],
+          "before_raw": "2EB105D01955DD0184F005D01955DD0184F005D01955DD0162B71BD01955DD012000000000000000:080000000000000004000000000000000300000000000000",
+          "after_raw": "2EB105D01955DD0184F005D01955DD0184F005D01955DD010F4F22D01955DD012000000000000000:080000000000000004000000000000000300000000000000"
+        },
+        {
+          "before_path": "U:\\QCOW2-AliasCreation-76a27ca0c9ee4bc89560a02413899dec\\order0\\same\\FaceProcessorCore.dll",
+          "after_path": "U:\\QCOW2-AliasCreation-76a27ca0c9ee4bc89560a02413899dec\\order0\\same\\FaceProcessorCore.dll",
+          "changed_fields": [
+            "change_time"
+          ],
+          "before_raw": "2EB105D01955DD0184F005D01955DD0184F005D01955DD0162B71BD01955DD012000000000000000:080000000000000004000000000000000300000000000000",
+          "after_raw": "2EB105D01955DD0184F005D01955DD0184F005D01955DD010F4F22D01955DD012000000000000000:080000000000000004000000000000000300000000000000"
+        },
+        {
+          "before_path": "U:\\QCOW2-AliasCreation-76a27ca0c9ee4bc89560a02413899dec\\order0\\other\\FaceProcessorExtra.dll",
+          "after_path": "U:\\QCOW2-AliasCreation-76a27ca0c9ee4bc89560a02413899dec\\order0\\other\\RenamedFaceProcessorExtra.dll",
+          "changed_fields": [
+            "change_time"
+          ],
+          "before_raw": "2EB105D01955DD0184F005D01955DD0184F005D01955DD0162B71BD01955DD012000000000000000:080000000000000004000000000000000300000000000000",
+          "after_raw": "2EB105D01955DD0184F005D01955DD0184F005D01955DD010F4F22D01955DD012000000000000000:080000000000000004000000000000000300000000000000"
+        }
+      ],
+      "identity24_payload_owner_group_dacl_preserved": true,
+      "initial_link_count": 1,
+      "final_link_counts": [
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "first_link": 1,
+      "before_entries": [
+        {
+          "Parent": "U:\\QCOW2-AliasCreation-76a27ca0c9ee4bc89560a02413899dec\\order1\\same",
+          "LongName": "FaceProcessor.dll",
+          "LongNameUtf16": "4600610063006500500072006F0063006500730073006F0072002E0064006C006C00",
+          "Alias": "",
+          "AliasUtf16": "",
+          "LongID": "E7BD7ED0FC7ED0BA3C000000000001000000000000000000",
+          "AliasID": null
+        },
+        {
+          "Parent": "U:\\QCOW2-AliasCreation-76a27ca0c9ee4bc89560a02413899dec\\order1\\same",
+          "LongName": "FaceProcessorCore.dll",
+          "LongNameUtf16": "4600610063006500500072006F0063006500730073006F00720043006F00720065002E0064006C006C00",
+          "Alias": "FACEPR~1.DLL",
+          "AliasUtf16": "4600410043004500500052007E0031002E0044004C004C00",
+          "LongID": "E7BD7ED0FC7ED0BA3C000000000001000000000000000000",
+          "AliasID": "E7BD7ED0FC7ED0BA3C000000000001000000000000000000"
+        },
+        {
+          "Parent": "U:\\QCOW2-AliasCreation-76a27ca0c9ee4bc89560a02413899dec\\order1\\other",
+          "LongName": "FaceProcessorExtra.dll",
+          "LongNameUtf16": "4600610063006500500072006F0063006500730073006F007200450078007400720061002E0064006C006C00",
+          "Alias": "",
+          "AliasUtf16": "",
+          "LongID": "E7BD7ED0FC7ED0BA3C000000000001000000000000000000",
+          "AliasID": null
+        }
+      ],
+      "after_entries": [
+        {
+          "Parent": "U:\\QCOW2-AliasCreation-76a27ca0c9ee4bc89560a02413899dec\\order1\\same",
+          "LongName": "FaceProcessor.dll",
+          "LongNameUtf16": "4600610063006500500072006F0063006500730073006F0072002E0064006C006C00",
+          "Alias": "",
+          "AliasUtf16": "",
+          "LongID": "E7BD7ED0FC7ED0BA3C000000000001000000000000000000",
+          "AliasID": null
+        },
+        {
+          "Parent": "U:\\QCOW2-AliasCreation-76a27ca0c9ee4bc89560a02413899dec\\order1\\same",
+          "LongName": "FaceProcessorCore.dll",
+          "LongNameUtf16": "4600610063006500500072006F0063006500730073006F00720043006F00720065002E0064006C006C00",
+          "Alias": "FACEPR~1.DLL",
+          "AliasUtf16": "4600410043004500500052007E0031002E0044004C004C00",
+          "LongID": "E7BD7ED0FC7ED0BA3C000000000001000000000000000000",
+          "AliasID": "E7BD7ED0FC7ED0BA3C000000000001000000000000000000"
+        },
+        {
+          "Parent": "U:\\QCOW2-AliasCreation-76a27ca0c9ee4bc89560a02413899dec\\order1\\other",
+          "LongName": "RenamedFaceProcessorExtra.dll",
+          "LongNameUtf16": "520065006E0061006D00650064004600610063006500500072006F0063006500730073006F007200450078007400720061002E0064006C006C00",
+          "Alias": "",
+          "AliasUtf16": "",
+          "LongID": "E7BD7ED0FC7ED0BA3C000000000001000000000000000000",
+          "AliasID": null
+        }
+      ],
+      "rename_status": 0,
+      "rename_metadata_changes": [
+        {
+          "before_path": "U:\\QCOW2-AliasCreation-76a27ca0c9ee4bc89560a02413899dec\\order1\\same\\FaceProcessor.dll",
+          "after_path": "U:\\QCOW2-AliasCreation-76a27ca0c9ee4bc89560a02413899dec\\order1\\same\\FaceProcessor.dll",
+          "changed_fields": [
+            "change_time"
+          ],
+          "before_raw": "A3C52BD01955DD01A3C52BD01955DD01A3C52BD01955DD01139E31D01955DD012000000000000000:080000000000000004000000000000000300000000000000",
+          "after_raw": "A3C52BD01955DD01A3C52BD01955DD01A3C52BD01955DD014DD836D01955DD012000000000000000:080000000000000004000000000000000300000000000000"
+        },
+        {
+          "before_path": "U:\\QCOW2-AliasCreation-76a27ca0c9ee4bc89560a02413899dec\\order1\\same\\FaceProcessorCore.dll",
+          "after_path": "U:\\QCOW2-AliasCreation-76a27ca0c9ee4bc89560a02413899dec\\order1\\same\\FaceProcessorCore.dll",
+          "changed_fields": [
+            "change_time"
+          ],
+          "before_raw": "A3C52BD01955DD01A3C52BD01955DD01A3C52BD01955DD01139E31D01955DD012000000000000000:080000000000000004000000000000000300000000000000",
+          "after_raw": "A3C52BD01955DD01A3C52BD01955DD01A3C52BD01955DD014DD836D01955DD012000000000000000:080000000000000004000000000000000300000000000000"
+        },
+        {
+          "before_path": "U:\\QCOW2-AliasCreation-76a27ca0c9ee4bc89560a02413899dec\\order1\\other\\FaceProcessorExtra.dll",
+          "after_path": "U:\\QCOW2-AliasCreation-76a27ca0c9ee4bc89560a02413899dec\\order1\\other\\RenamedFaceProcessorExtra.dll",
+          "changed_fields": [
+            "change_time"
+          ],
+          "before_raw": "A3C52BD01955DD01A3C52BD01955DD01A3C52BD01955DD01139E31D01955DD012000000000000000:080000000000000004000000000000000300000000000000",
+          "after_raw": "A3C52BD01955DD01A3C52BD01955DD01A3C52BD01955DD014DD836D01955DD012000000000000000:080000000000000004000000000000000300000000000000"
+        }
+      ],
+      "identity24_payload_owner_group_dacl_preserved": true,
+      "initial_link_count": 1,
+      "final_link_counts": [
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "first_link": 2,
+      "before_entries": [
+        {
+          "Parent": "U:\\QCOW2-AliasCreation-76a27ca0c9ee4bc89560a02413899dec\\order2\\same",
+          "LongName": "FaceProcessor.dll",
+          "LongNameUtf16": "4600610063006500500072006F0063006500730073006F0072002E0064006C006C00",
+          "Alias": "",
+          "AliasUtf16": "",
+          "LongID": "E7BD7ED0FC7ED0BA40000000000001000000000000000000",
+          "AliasID": null
+        },
+        {
+          "Parent": "U:\\QCOW2-AliasCreation-76a27ca0c9ee4bc89560a02413899dec\\order2\\same",
+          "LongName": "FaceProcessorCore.dll",
+          "LongNameUtf16": "4600610063006500500072006F0063006500730073006F00720043006F00720065002E0064006C006C00",
+          "Alias": "",
+          "AliasUtf16": "",
+          "LongID": "E7BD7ED0FC7ED0BA40000000000001000000000000000000",
+          "AliasID": null
+        },
+        {
+          "Parent": "U:\\QCOW2-AliasCreation-76a27ca0c9ee4bc89560a02413899dec\\order2\\other",
+          "LongName": "FaceProcessorExtra.dll",
+          "LongNameUtf16": "4600610063006500500072006F0063006500730073006F007200450078007400720061002E0064006C006C00",
+          "Alias": "FACEPR~1.DLL",
+          "AliasUtf16": "4600410043004500500052007E0031002E0044004C004C00",
+          "LongID": "E7BD7ED0FC7ED0BA40000000000001000000000000000000",
+          "AliasID": "E7BD7ED0FC7ED0BA40000000000001000000000000000000"
+        }
+      ],
+      "after_entries": [
+        {
+          "Parent": "U:\\QCOW2-AliasCreation-76a27ca0c9ee4bc89560a02413899dec\\order2\\same",
+          "LongName": "FaceProcessor.dll",
+          "LongNameUtf16": "4600610063006500500072006F0063006500730073006F0072002E0064006C006C00",
+          "Alias": "",
+          "AliasUtf16": "",
+          "LongID": "E7BD7ED0FC7ED0BA40000000000001000000000000000000",
+          "AliasID": null
+        },
+        {
+          "Parent": "U:\\QCOW2-AliasCreation-76a27ca0c9ee4bc89560a02413899dec\\order2\\same",
+          "LongName": "FaceProcessorCore.dll",
+          "LongNameUtf16": "4600610063006500500072006F0063006500730073006F00720043006F00720065002E0064006C006C00",
+          "Alias": "",
+          "AliasUtf16": "",
+          "LongID": "E7BD7ED0FC7ED0BA40000000000001000000000000000000",
+          "AliasID": null
+        },
+        {
+          "Parent": "U:\\QCOW2-AliasCreation-76a27ca0c9ee4bc89560a02413899dec\\order2\\other",
+          "LongName": "RenamedFaceProcessorExtra.dll",
+          "LongNameUtf16": "520065006E0061006D00650064004600610063006500500072006F0063006500730073006F007200450078007400720061002E0064006C006C00",
+          "Alias": "RENAME~1.DLL",
+          "AliasUtf16": "520045004E0041004D0045007E0031002E0044004C004C00",
+          "LongID": "E7BD7ED0FC7ED0BA40000000000001000000000000000000",
+          "AliasID": "E7BD7ED0FC7ED0BA40000000000001000000000000000000"
+        }
+      ],
+      "rename_status": 0,
+      "rename_metadata_changes": [
+        {
+          "before_path": "U:\\QCOW2-AliasCreation-76a27ca0c9ee4bc89560a02413899dec\\order2\\same\\FaceProcessor.dll",
+          "after_path": "U:\\QCOW2-AliasCreation-76a27ca0c9ee4bc89560a02413899dec\\order2\\same\\FaceProcessor.dll",
+          "changed_fields": [
+            "change_time"
+          ],
+          "before_raw": "4CDB3ED01955DD014CDB3ED01955DD014CDB3ED01955DD01FD7346D01955DD012000000000000000:080000000000000004000000000000000300000000000000",
+          "after_raw": "4CDB3ED01955DD014CDB3ED01955DD014CDB3ED01955DD0147EE4CD01955DD012000000000000000:080000000000000004000000000000000300000000000000"
+        },
+        {
+          "before_path": "U:\\QCOW2-AliasCreation-76a27ca0c9ee4bc89560a02413899dec\\order2\\same\\FaceProcessorCore.dll",
+          "after_path": "U:\\QCOW2-AliasCreation-76a27ca0c9ee4bc89560a02413899dec\\order2\\same\\FaceProcessorCore.dll",
+          "changed_fields": [
+            "change_time"
+          ],
+          "before_raw": "4CDB3ED01955DD014CDB3ED01955DD014CDB3ED01955DD01FD7346D01955DD012000000000000000:080000000000000004000000000000000300000000000000",
+          "after_raw": "4CDB3ED01955DD014CDB3ED01955DD014CDB3ED01955DD0147EE4CD01955DD012000000000000000:080000000000000004000000000000000300000000000000"
+        },
+        {
+          "before_path": "U:\\QCOW2-AliasCreation-76a27ca0c9ee4bc89560a02413899dec\\order2\\other\\FaceProcessorExtra.dll",
+          "after_path": "U:\\QCOW2-AliasCreation-76a27ca0c9ee4bc89560a02413899dec\\order2\\other\\RenamedFaceProcessorExtra.dll",
+          "changed_fields": [
+            "change_time"
+          ],
+          "before_raw": "4CDB3ED01955DD014CDB3ED01955DD014CDB3ED01955DD01FD7346D01955DD012000000000000000:080000000000000004000000000000000300000000000000",
+          "after_raw": "4CDB3ED01955DD014CDB3ED01955DD014CDB3ED01955DD0147EE4CD01955DD012000000000000000:080000000000000004000000000000000300000000000000"
+        }
+      ],
+      "identity24_payload_owner_group_dacl_preserved": true,
+      "initial_link_count": 1,
+      "final_link_counts": [
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "sacl_tested": false,
+  "full_metadata_invariance": false,
+  "installed_restoration_credit": false,
+  "interpretation": "Automatic hardlink creation and noncolliding rename did not produce aliases on all three links in any creation order. This candidate does not solve the actual378source multi-alias groups comprising979alias-bearing links. All101769source alias requirements remain mandatory."
+}

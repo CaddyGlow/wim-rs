@@ -1,0 +1,9 @@
+{
+  "exported": 31,
+  "verified_claims": 4,
+  "partial_claims": 27,
+  "missing_claimed_exports": [],
+  "unknown_exports": [],
+  "exports_without_implementation_claim": [],
+  "scope": "Linux ELF symbol presence only; no ABI or behavior verification"
+}

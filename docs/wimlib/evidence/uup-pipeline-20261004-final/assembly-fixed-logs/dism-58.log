@@ -1,0 +1,24 @@
+﻿2026-10-04 06:38:41, Info                  DISM   PID=10112 TID=748 Scratch directory set to 'C:\WINDOWS\SystemTemp\'. - CDISMManager::put_ScratchDir
+2026-10-04 06:38:41, Info                  DISM   PID=10112 TID=748 DismCore.dll version: 10.0.26100.7920 - CDISMManager::FinalConstruct
+2026-10-04 06:38:41, Info                  DISM   Initialized Panther logging at C:\wim-uup-validation-1791090913159215058\assembly\logs\dism-58.log
+2026-10-04 06:38:41, Info                  DISM   PID=10112 TID=748 Successfully loaded the ImageSession at "C:\WINDOWS\system32\Dism" - CDISMManager::LoadLocalImageSession
+2026-10-04 06:38:41, Info                  DISM   Initialized Panther logging at C:\wim-uup-validation-1791090913159215058\assembly\logs\dism-58.log
+2026-10-04 06:38:41, Info                  DISM   DISM Provider Store: PID=10112 TID=748 Found and Initialized the DISM Logger. - CDISMProviderStore::Internal_InitializeLogger
+2026-10-04 06:38:41, Info                  DISM   Initialized Panther logging at C:\wim-uup-validation-1791090913159215058\assembly\logs\dism-58.log
+2026-10-04 06:38:41, Info                  DISM   DISM Manager: PID=10112 TID=748 Successfully created the local image session and provider store. - CDISMManager::CreateLocalImageSession
+2026-10-04 06:38:41, Info                  DISM   DISM.EXE: 
+2026-10-04 06:38:41, Info                  DISM   DISM.EXE: <----- Starting Dism.exe session ----->
+2026-10-04 06:38:41, Info                  DISM   DISM.EXE: 
+2026-10-04 06:38:41, Info                  DISM   DISM.EXE: Host machine information: OS Version=10.0.26200, Running architecture=amd64, Number of processors=4
+2026-10-04 06:38:41, Info                  DISM   DISM.EXE: Instance information: Parent process=C:\wim-uup-validation-1791090913159215058\windows-uup-fixed.exe, Parent process PID=5192
+2026-10-04 06:38:41, Info                  DISM   DISM.EXE: Dism.exe version: 10.0.26100.5074
+2026-10-04 06:38:41, Info                  DISM   DISM.EXE: Executing command line: "dism.exe" /Unmount-Image /MountDir:C:\wim-uup-validation-1791090913159215058\assembly\mount /Commit /LogPath:C:\wim-uup-validation-1791090913159215058\assembly\logs\dism-58.log /English /NoRestart
+2026-10-04 06:38:41, Info                  DISM   DISM FFU Provider: PID=10112 TID=748 [C:\wim-uup-validation-1791090913159215058\assembly\mount] is not recognized by the DISM FFU provider. - CFfuImage::Initialize
+2026-10-04 06:38:41, Info                  DISM   DISM Imaging Provider: PID=10112 TID=748 The provider FfuManager does not support CreateDismImage on C:\wim-uup-validation-1791090913159215058\assembly\mount - CGenericImagingManager::CreateDismImage
+2026-10-04 06:38:41, Info                  DISM   DISM VHD Provider: PID=10112 TID=748 [C:\wim-uup-validation-1791090913159215058\assembly\mount] is not recognized by the DISM VHD provider. - CVhdImage::Initialize
+2026-10-04 06:38:41, Info                  DISM   DISM Imaging Provider: PID=10112 TID=748 The provider VHDManager does not support CreateDismImage on C:\wim-uup-validation-1791090913159215058\assembly\mount - CGenericImagingManager::CreateDismImage
+[10112.748] [0xc144012f] 
+2026-10-04 06:39:00, Info                  DISM   DISM.EXE: Image session has been closed. Reboot required=no.
+2026-10-04 06:39:00, Info                  DISM   DISM.EXE: 
+2026-10-04 06:39:00, Info                  DISM   DISM.EXE: <----- Ending Dism.exe session ----->
+2026-10-04 06:39:00, Info                  DISM   DISM.EXE: 

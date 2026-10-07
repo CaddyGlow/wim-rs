@@ -1,0 +1,57 @@
+{
+  "scope": "Host tests and static checks; fresh Windows installation and WinRE boot remain pending",
+  "date": "2026-10-05",
+  "tests": {
+    "suites": 294,
+    "passed": 2320,
+    "failed": 0,
+    "ignored": 50
+  },
+  "full_host_tests_exit": 0,
+  "full_all_targets_all_features_clippy_exit": 0,
+  "format_exit": 0,
+  "windows_msvc_cross_check_exit": 0,
+  "producer": {
+    "build_exit": 0,
+    "optimized": true,
+    "source_files_changed_during_build": [],
+    "production_inputs_unchanged_during_build": true,
+    "environment": {
+      "CARGO_TARGET_DIR": "/data/cache/qcow2-capture-sixth-final-retry-rust/build",
+      "TMPDIR": "/data/cache",
+      "CARGO_PROFILE_RELEASE_LTO": "false",
+      "CARGO_PROFILE_RELEASE_CODEGEN_UNITS": "16",
+      "CARGO_BUILD_JOBS": "16"
+    },
+    "old_producers_preserved": true,
+    "binary": "/data/cache/qcow2-capture-sixth-final-retry-rust/windows-uup",
+    "sha256": "60dc5c1a8741e8284733bcd7a6a9bb280f01695838ffa90b8c81f39a2896c9e4"
+  },
+  "logs": {
+    "host-tests-final-bounded-read-recheck.log": {
+      "path": "/data/cache/qcow2-capture-20261005/host-tests-final-bounded-read-recheck.log",
+      "sha256": "5233444b22f4c71cc5d286e5943554a3f6a4efbb54f7691155a9e144d140dc51"
+    },
+    "clippy-final-bounded-read-recheck.log": {
+      "path": "/data/cache/qcow2-capture-20261005/clippy-final-bounded-read-recheck.log",
+      "sha256": "85ddf3e7046d927ab7eb34e8c64190896f88e1c452331dc567307382bb726fd3"
+    },
+    "fmt-final-bounded-read-recheck.log": {
+      "path": "/data/cache/qcow2-capture-20261005/fmt-final-bounded-read-recheck.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "windows-bounded-read-cross-check.log": {
+      "path": "/data/cache/qcow2-capture-20261005/windows-bounded-read-cross-check.log",
+      "sha256": "af470e6399f91aa5b33c70cc218a0bec490af99fddf8df05d82c42868bc5774c"
+    },
+    "deferred-read-diagnostic-tests.log": {
+      "path": "/data/cache/qcow2-capture-20261005/deferred-read-diagnostic-tests.log",
+      "sha256": "3d99732b44b89afd74c5c54eb087930391c01287af4057700bd58f9cda43469d"
+    },
+    "deferred-read-diagnostic-clippy.log": {
+      "path": "/data/cache/qcow2-capture-20261005/deferred-read-diagnostic-clippy.log",
+      "sha256": "8eedb395bda0a54501c2808e90f83cbf1edb5f1b35f0d58f8e91d6c20921ea24"
+    }
+  },
+  "fresh_installation_proven": false
+}

@@ -1,0 +1,21 @@
+{
+  "handoff_sha256": "78e6988fcd31771c1cfcac13dc9f3d654c806d5cd5757ac8c4ecaae304679ef9",
+  "verified_physical_hashes": [
+    {
+      "image": "/data/cache/qcow2-retained-fixtures-20261006/case-fixture.qcow2",
+      "sha256": "03f58bdceda2c9c55394909ea1ff5880cc12c4c7a8b8df218d3f1158bc0497c8",
+      "bytes": 10944512
+    },
+    {
+      "image": "/data/cache/qcow2-retained-fixtures-20261006/ads-fixture.qcow2",
+      "sha256": "af527ee9d49ba2671d74aaa801633f04a5f7bbf004cb71684165f1c34bd4f314",
+      "bytes": 10944512
+    },
+    {
+      "image": "/data/cache/qcow2-retained-fixtures-20261006/alias-fixture.qcow2",
+      "sha256": "5eb092e097f00dd0b5bccdba34520925b1b42567f185742c2a6cd479f9fdb8ef",
+      "bytes": 10944512
+    }
+  ],
+  "scope": "Root independently verified all three immutable fixture disk hashes; supported shutdown and QEMU clean status are from owner handoff. Native offline gates pending."
+}

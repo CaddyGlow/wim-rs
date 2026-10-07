@@ -1,0 +1,128 @@
+{
+  "status": {
+    "status": "running",
+    "running": true
+  },
+  "block": [
+    {
+      "io-status": "ok",
+      "device": "ide0-hd0",
+      "locked": false,
+      "removable": false,
+      "inserted": {
+        "iops_rd": 0,
+        "detect_zeroes": "off",
+        "active": true,
+        "image": {
+          "limits": {
+            "write-zeroes-alignment": 65536,
+            "request-alignment": 1,
+            "min-mem-alignment": 1,
+            "discard-alignment": 65536,
+            "opt-mem-alignment": 4096,
+            "max-iov": 1024
+          },
+          "virtual-size": 34359738368,
+          "filename": "/tmp/wim-uup-boot-20261004/bios/disk.qcow2",
+          "cluster-size": 65536,
+          "format": "qcow2",
+          "actual-size": 331776,
+          "format-specific": {
+            "type": "qcow2",
+            "data": {
+              "compat": "1.1",
+              "compression-type": "zlib",
+              "lazy-refcounts": false,
+              "refcount-bits": 16,
+              "corrupt": false,
+              "extended-l2": false
+            }
+          },
+          "dirty-flag": false
+        },
+        "iops_wr": 0,
+        "ro": false,
+        "children": [
+          {
+            "node-name": "#block019",
+            "child": "file"
+          }
+        ],
+        "node-name": "#block160",
+        "backing_file_depth": 0,
+        "drv": "qcow2",
+        "iops": 0,
+        "bps_wr": 0,
+        "write_threshold": 0,
+        "encrypted": false,
+        "bps": 0,
+        "bps_rd": 0,
+        "cache": {
+          "no-flush": false,
+          "direct": false,
+          "writeback": true
+        },
+        "file": "/tmp/wim-uup-boot-20261004/bios/disk.qcow2"
+      },
+      "qdev": "/machine/unattached/device[6]",
+      "type": "unknown"
+    },
+    {
+      "io-status": "ok",
+      "device": "ide1-cd0",
+      "locked": false,
+      "removable": true,
+      "inserted": {
+        "iops_rd": 0,
+        "detect_zeroes": "off",
+        "active": true,
+        "image": {
+          "limits": {
+            "request-alignment": 1,
+            "min-mem-alignment": 1,
+            "opt-mem-alignment": 4096,
+            "max-iov": 1024
+          },
+          "virtual-size": 4942356480,
+          "filename": "/data/cache/wim-uup-rust-final-20261004.iso",
+          "format": "raw",
+          "actual-size": 4942360576,
+          "dirty-flag": false
+        },
+        "iops_wr": 0,
+        "ro": true,
+        "children": [
+          {
+            "node-name": "#block211",
+            "child": "file"
+          }
+        ],
+        "node-name": "#block343",
+        "backing_file_depth": 0,
+        "drv": "raw",
+        "iops": 0,
+        "bps_wr": 0,
+        "write_threshold": 0,
+        "encrypted": false,
+        "bps": 0,
+        "bps_rd": 0,
+        "cache": {
+          "no-flush": false,
+          "direct": false,
+          "writeback": true
+        },
+        "file": "/data/cache/wim-uup-rust-final-20261004.iso"
+      },
+      "qdev": "/machine/unattached/device[7]",
+      "tray_open": false,
+      "type": "unknown"
+    },
+    {
+      "device": "floppy0",
+      "locked": false,
+      "removable": true,
+      "qdev": "/machine/unattached/device[17]",
+      "type": "unknown"
+    }
+  ]
+}

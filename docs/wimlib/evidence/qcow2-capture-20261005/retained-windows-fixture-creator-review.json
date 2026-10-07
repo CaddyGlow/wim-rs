@@ -1,0 +1,20 @@
+{
+  "scope": "Prepared Windows fixture creator review only; execution and offline correctness unproven",
+  "script": "scripts/wimlib/windows-create-retained-ntfs-fixtures.ps1",
+  "sha256": "dff965bca613ecf760c6bdac672b864140ace850139716f23dbe4565410cfd65",
+  "host_powershell_ast_parse_exit": 0,
+  "reviewed_guards": [
+    "Both exact serials must resolve uniquely before first mutation",
+    "512MiB RAW nonboot nonsystem disks with different numbers",
+    "Unused V/W drive letters",
+    "MBR single partition1 checked after formatting",
+    "Per-directory case flag only; no global policies",
+    "Each of 160 named ADS read back exactly",
+    "CreateNew receipt retained on failure"
+  ],
+  "tests_to_enable": [
+    "rejects_empty_case_sensitive_directory_created_by_windows",
+    "caller_tightened_attribute_list_limit_rejects_windows_extension_records",
+    "oversized_index_record_is_rejected_before_native_index_allocation"
+  ]
+}

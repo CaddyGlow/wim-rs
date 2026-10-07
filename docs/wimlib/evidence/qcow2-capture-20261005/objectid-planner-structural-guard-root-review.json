@@ -1,0 +1,11 @@
+{
+  "plan_path": "/data/cache/qcow2-installation-namespace-fixed-1006-v13/objectid-get-observer/root-structural-validation-plan.json",
+  "plan_sha256": "1b1e1c47b2c34f22f88fa52de6b191a4e371cc9425a1ed42a65a82c8130f4fc3",
+  "real_source_groups_validated": 19,
+  "real_target_paths_validated": 24,
+  "guard": "Shared NTFS revision1 self-relative descriptor/SID/ACL/ACE extent validation; ACE payload semantics remain opaque",
+  "execution_gates_all_closed": true,
+  "objectid_restore_regressions_passed": 9,
+  "workspace_locked_all_target_all_feature_clippy_exit": 0,
+  "production_restoration_verified": false
+}

@@ -1,0 +1,29 @@
+{
+  "native_sha256": "97d15b71c533f889106eec0f00114a245603a1e5645d010fe6ed87da19e3bc38",
+  "rows": [
+    {
+      "seed": 0,
+      "native_status": 1,
+      "native_stdout": "status=24\n",
+      "native_stderr": "",
+      "original_status": 0,
+      "original_generated_sha256": "3d1a8f0cf4abec39efc774af0e1128b19aded67ce1e7545a7438e5cd400b46cc"
+    },
+    {
+      "seed": 1,
+      "native_status": 1,
+      "native_stdout": "status=24\n",
+      "native_stderr": "",
+      "original_status": 0,
+      "original_generated_sha256": "4c905a2b6d4e22281c6f35162d19fb4501daa49fcb6864311be4fa1d1e2b6bfd"
+    },
+    {
+      "seed": 2,
+      "native_status": 1,
+      "native_stdout": "status=24\n",
+      "native_stderr": "",
+      "original_status": 0,
+      "original_generated_sha256": "0192d02faa253a35aef53ea8e14f5e66c50f8a2f5cc1a9d32e55723bc4b26401"
+    }
+  ]
+}

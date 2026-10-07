@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "scope": "Independent standard18 archive/WinRE/fixture gates on namespace-fixed WIM; whole-source DOS/reserved canonical gates and installed fidelity remain separate",
+  "exit": 0,
+  "passes": true,
+  "gates": {
+    "full_wim_verify": true,
+    "winre_verify": true,
+    "metadata_reader_warning_free": true,
+    "native_recovery_schema_and_unbound_state": true,
+    "no_captured_windows_old": true,
+    "raw_reparse_stream_layout_and_no_cached_answers": true,
+    "all_fixture_streams_and_hardlinks": true,
+    "wim_sha256": true,
+    "winre_sha256": true,
+    "source_hashes_preserved": true,
+    "one_image": true,
+    "entry_count": true,
+    "architecture": true,
+    "build": true,
+    "revision": true,
+    "edition": true,
+    "language": true,
+    "oobe_task_source_bytes_and_enabled": true
+  },
+  "fixture_stream_rows": 331,
+  "wim_sha256": "6fe084f644eb631349d4e385a155d1c5ce334d0810b633464ecfdd61b528884b",
+  "winre_sha256": "5a7b51e7271284a3204234a71386c4d8cbc81665e9f7bc451d7d70fb464a3047",
+  "summary": {
+    "path": "/data/cache/qcow2-namespace-fixed-20261006/capture/root-independent-oracle/summary.json",
+    "sha256": "f6fe5fad83d0a588c02b76db8db344291e822a993108ae8b06b94aa6f21034bf"
+  },
+  "checker": {
+    "path": "scripts/wimlib/check-qcow2-wim-oracle.py",
+    "sha256": "7858ff06f8fff55809c3dc5b041115f910bb140646e7e94f751f6f1cb4669a51"
+  }
+}

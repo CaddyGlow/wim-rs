@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "independently_recomputed_complete_selectors": true,
+  "common_bindings": 142594,
+  "exact_bindings": 142593,
+  "changed_paths": [
+    "/Windows/System32/Recovery/ReAgent.xml"
+  ],
+  "missing": 0,
+  "added": 0,
+  "comparison_sha256": "524869bcdd9a8893f337c40a6a59cc9b979f49dc649865baa72c4fb718aa5ec3",
+  "reparse_payloads_verified": false,
+  "full_windows_metadata_reliability": false,
+  "evidence": "/data/cache/qcow2-source-to-wim-stream-audit-20261006/root-complete-source-wim-content-review.json"
+}

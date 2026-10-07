@@ -1,0 +1,21 @@
+{
+  "scope": "Independent upstream decoded regenerated WIM reserved SACL ACEs and whole raw security descriptor versus actual frozen source native NTFS. Fresh installed target remains pending.",
+  "nodes": 176484,
+  "types": {
+    "20": {
+      "paths": 5725,
+      "full_raw_SD_exact": true,
+      "all_reserved_ACE_bytes_exact": true,
+      "independent_inventory": "/data/cache/windows-capture-recovery-20261005/regenerated-wim-process-trust.json",
+      "sha256": "02879e8541dda8945521075a396af3ff750982c7b95cd06fabc7b48ceab4b65b"
+    },
+    "18": {
+      "paths": 2,
+      "full_raw_SD_exact": true,
+      "all_reserved_ACE_bytes_exact": true,
+      "independent_inventory": "/data/cache/windows-capture-recovery-20261005/regenerated-wim-resource-attribute.json",
+      "sha256": "8831e3efefc842843028a81bbca4ab7b9e875f0c4cc7fb343aaebbd96d4f3df9"
+    }
+  },
+  "source_inventory_sha256": "f2b08e04f6d3074cd8b44564debf88901374c80c41347fe7cf3a731c1531881e"
+}

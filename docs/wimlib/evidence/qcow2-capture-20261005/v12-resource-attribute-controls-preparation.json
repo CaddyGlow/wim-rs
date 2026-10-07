@@ -1,0 +1,35 @@
+{
+  "executed": false,
+  "script": "scripts/wimlib/windows-resource-attribute-controls.ps1",
+  "isolated_controls": [
+    {
+      "object": "Directory",
+      "maximum_allowed": false
+    },
+    {
+      "object": "Directory",
+      "maximum_allowed": true
+    },
+    {
+      "object": "File",
+      "maximum_allowed": false
+    },
+    {
+      "object": "File",
+      "maximum_allowed": true
+    }
+  ],
+  "invariants": "Original inherited ACE18 bytes, owner/group/DACL bytes and negative unchanged remain mandatory; no flag normalization or repair",
+  "original_failure_report": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/diagnostic-scratch-ace18-report.json",
+  "validation": [
+    "PowerShell AST syntax passed",
+    "embedded C# host compilation passed"
+  ],
+  "api": "SetSecurityInfo ATTRIBUTE_SECURITY_INFORMATION only",
+  "documentation": [
+    "https://learn.microsoft.com/en-us/windows/win32/api/aclapi/nf-aclapi-setsecurityinfo",
+    "https://learn.microsoft.com/en-us/windows/win32/api/securitybaseapi/nf-securitybaseapi-setkernelobjectsecurity"
+  ],
+  "excluded_route": "Microsoft explicitly advises against SetKernelObjectSecurity for filesystem objects",
+  "execution_requirement": "NEW disposable OS/scratch branches; original e18af503 scratch and b3bc baseline stay immutable; no VM launched"
+}

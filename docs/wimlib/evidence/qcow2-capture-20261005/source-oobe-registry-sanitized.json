@@ -1,0 +1,133 @@
+{
+  "default_password": {
+    "nonempty": false,
+    "present": true,
+    "type": 1
+  },
+  "limitations": "Registry observations establish source state only; cannot prove the cause of target msoobe autologon changes.",
+  "oobe": {
+    "OOBEInProgress": {
+      "absent_or_error": "value not found: OOBEInProgress"
+    },
+    "SetupDisplayedEula": {
+      "absent_or_error": "value not found: SetupDisplayedEula"
+    },
+    "SetupDisplayedLanguageSelection": {
+      "absent_or_error": "value not found: SetupDisplayedLanguageSelection"
+    },
+    "SetupDisplayedProductKey": {
+      "absent_or_error": "value not found: SetupDisplayedProductKey"
+    },
+    "SkipMachineOOBE": {
+      "absent_or_error": "value not found: SkipMachineOOBE"
+    },
+    "SkipUserOOBE": {
+      "absent_or_error": "value not found: SkipUserOOBE"
+    },
+    "UnattendCreatedUser": {
+      "absent_or_error": "value not found: UnattendCreatedUser"
+    },
+    "UnattendSetAutologon": {
+      "absent_or_error": "value not found: UnattendSetAutologon"
+    }
+  },
+  "sam_names": [
+    {
+      "name": "Administrator",
+      "value_names_and_types": [
+        {
+          "data_bytes": 0,
+          "registry_type_rid": 500,
+          "value_name": ""
+        }
+      ]
+    },
+    {
+      "name": "DefaultAccount",
+      "value_names_and_types": [
+        {
+          "data_bytes": 0,
+          "registry_type_rid": 503,
+          "value_name": ""
+        }
+      ]
+    },
+    {
+      "name": "deploy",
+      "value_names_and_types": [
+        {
+          "data_bytes": 0,
+          "registry_type_rid": 1000,
+          "value_name": ""
+        }
+      ]
+    },
+    {
+      "name": "Guest",
+      "value_names_and_types": [
+        {
+          "data_bytes": 0,
+          "registry_type_rid": 501,
+          "value_name": ""
+        }
+      ]
+    },
+    {
+      "name": "WDAGUtilityAccount",
+      "value_names_and_types": [
+        {
+          "data_bytes": 0,
+          "registry_type_rid": 504,
+          "value_name": ""
+        }
+      ]
+    }
+  ],
+  "sam_user_record_keys": [
+    "000001F4",
+    "000001F5",
+    "000001F7",
+    "000001F8",
+    "000003E8",
+    "Names"
+  ],
+  "security_defaultpassword_secret_key_present": true,
+  "security_handling": "Native immutable disk read into memory only; no SECURITY hive persisted, no secret values read or decoded",
+  "setup_state": {
+    "ImageState": "IMAGE_STATE_GENERALIZE_RESEAL_TO_OOBE"
+  },
+  "source_hives_clean": true,
+  "winlogon": {
+    "AutoAdminLogon": {
+      "absent_or_error": "value not found: AutoAdminLogon"
+    },
+    "AutoLogonCount": {
+      "absent_or_error": "value not found: AutoLogonCount"
+    },
+    "DefaultDomainName": {
+      "absent_or_error": "value not found: DefaultDomainName"
+    },
+    "DefaultUserName": {
+      "absent_or_error": "value not found: DefaultUserName"
+    },
+    "ForceAutoLogon": {
+      "absent_or_error": "value not found: ForceAutoLogon"
+    },
+    "LogonCount": {
+      "absent_or_error": "value not found: LogonCount"
+    },
+    "Shell": "explorer.exe",
+    "Userinit": "C:\\WINDOWS\\system32\\userinit.exe,"
+  },
+  "input_paths": {
+    "software": "/data/cache/qcow2-recovered-20261005/offline-source/Windows_System32_config_SOFTWARE",
+    "sam": "/data/cache/qcow2-recovered-20261005/offline-source/Windows_System32_config_SAM",
+    "frozen_child": "/home/rick/.cache/windows-capture-recovery-20261005/prepared-source.qcow2"
+  },
+  "evidence": {
+    "path": "/data/cache/qcow2-recovered-20261005/source-oobe-registry.json",
+    "sha256": "e6472dbd0ea4a5e278151e4e09a2cf9293283fdcf5f00f2ad419e284ff528a4b",
+    "helper_sha256": "f7bd8e02dffacbc366637a9a8ff8b89c83b004da7e08898f6b3e2efd8435b8ec",
+    "exit": 0
+  }
+}

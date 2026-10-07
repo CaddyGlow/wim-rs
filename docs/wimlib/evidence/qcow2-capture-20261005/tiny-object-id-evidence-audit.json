@@ -1,0 +1,34 @@
+{
+  "scope": "Read-only re-audit of historical tiny Microsoft apply object-ID claim, not a rerun",
+  "tiny_historical_claim": "object_id_64_exact=true; summaries retain no raw source/target object IDs or comparison code",
+  "tiny_raw_apply_observation_available": false,
+  "tiny_wim_available": false,
+  "tiny_source_provenance": "Original cfa75 frozen overlay, not recovered prepared bf7bc overlay",
+  "current_prepared_source_challenge": [
+    {
+      "path": "\\alias.bin",
+      "raw_64_hex": "663d9b6da3c0f111b4a8998f604d14a366810d707d6c0c45bedea5101764417b663d9b6da3c0f111b4a8998f604d14a300000000000000000000000000000000",
+      "extended_48_nonzero_bytes": 32,
+      "birth_volume_nonzero": true,
+      "birth_object_nonzero": true,
+      "birth_domain_nonzero": false
+    },
+    {
+      "path": "\\payload.bin",
+      "raw_64_hex": "663d9b6da3c0f111b4a8998f604d14a366810d707d6c0c45bedea5101764417b663d9b6da3c0f111b4a8998f604d14a300000000000000000000000000000000",
+      "extended_48_nonzero_bytes": 32,
+      "birth_volume_nonzero": true,
+      "birth_object_nonzero": true,
+      "birth_domain_nonzero": false
+    }
+  ],
+  "conclusion": "Historical tiny pass cannot currently prove a nonzero extended48 challenge was compared byte-for-byte on target; current prepared source has nonzero birth fields. Do not infer current full apply or Setup preservation from the tiny boolean.",
+  "required_evidence": "Current direct Microsoft apply raw full64 source/target observations with actual nonzero birth fields",
+  "source_fixture_sha256": "99eed6783313e1c4743b7f6a6295dc001e303485890253ebd3a0e1b64c265e6e",
+  "missing_paths": [
+    "/data/cache/qcow2-oracle-1005/portable-v2-metadata.json",
+    "/data/cache/qcow2-oracle-1005/native-portable-metadata-v2.wim"
+  ],
+  "fixture_root": "\\NativeDiskCapture",
+  "actual_prepared_source_sha256": "bf7bc3cecfb9d696c82f0869cd8f3c04c74bd644648c690405132399f4091a0a"
+}

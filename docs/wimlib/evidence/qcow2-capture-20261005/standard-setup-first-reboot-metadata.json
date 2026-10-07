@@ -1,0 +1,105 @@
+{
+  "scope": "Actual standard Windows Setup stopped at its first requested postapply guest reboot via supported QMP reboot=shutdown, before first target OS boot. No OSruntime completion claim.",
+  "iso": "/data/cache/qcow2-recovered-20261005/capture/native-captured.iso",
+  "iso_sha256": "b0bdf9dba457b0b8edbcb1701d1cede25a1163fce37dbf5c298399bdf94a298a",
+  "seed": "/data/cache/qcow2-installation-recovered-1005-v7/seed.iso",
+  "seed_sha256": "b5f941af7ea093a3286ba1128a34ce06fb3fd6f6ed8b3f71ff409cd1cf4f14f1",
+  "identity_provenance": "Parent independently verified immutable ISO/seed; mounted same paths by vm-run. No redundant full input hash claimed.",
+  "qmp_arm_boundary": "Set-action reboot=shutdown succeeded AFTER visually observed WinPE product-key UI; initial firmware resets already past. Continuous single QMP connection recorded all subsequent events.",
+  "events": [
+    {
+      "timestamp": {
+        "seconds": 1791232617,
+        "microseconds": 104834
+      },
+      "event": "SHUTDOWN",
+      "data": {
+        "guest": true,
+        "reason": "guest-reset"
+      }
+    }
+  ],
+  "launcher_terminal_exit": 0,
+  "strict_clean_NTFS_open_passed": true,
+  "target_partition": 3,
+  "fixture": {
+    "entries": 9,
+    "streams": 331,
+    "exact_fields": [
+      "EaRaw",
+      "ObjectIdRaw",
+      "ReparseRaw",
+      "SecurityRaw",
+      "Short",
+      "Streams"
+    ],
+    "full64_ObjectID_including_nonzero_birthfields_exact": true
+  },
+  "reserved_sacl": {
+    "all5727_original_source_paths_exist": true,
+    "source_process_trust_paths": 5725,
+    "source_resource_attribute_paths": 2,
+    "preboot_process_trust_paths": 0,
+    "preboot_resource_attribute_paths": 0,
+    "strict_metadata_gate_passed": false
+  },
+  "inference": "V6 firstboot-target later has zero48ObjectIDbirthfields whereas this same standardSetup firstreboot boundary retains them. Loss occurs after initial target OS boot; exact Windows operation remains unidentified. Reserved ACE18/20 already absent at standardSetup preboot boundary.",
+  "scope_limits": [
+    "No servicing, runtime permissions or OOBE success proved.",
+    "No sparse-hole/storage-class raw FSCTL evidence emitted by frozen_metadata."
+  ],
+  "artifacts": {
+    "fixture-metadata.json": {
+      "path": "/data/cache/qcow2-standard-setup-preboot-20261005/fixture-metadata.json",
+      "sha256": "8099258bbb161ef49d8c993a5cd9b820725109d72a1fc5967a1557656f887cf9"
+    },
+    "selected-resource-paths.json": {
+      "path": "/data/cache/qcow2-standard-setup-preboot-20261005/selected-resource-paths.json",
+      "sha256": "631facfbafbff37ec7f1b79f8e8edb1699f86260eaee3a97b72cbf7de94e0388"
+    },
+    "fixture-comparison.json": {
+      "path": "/data/cache/qcow2-standard-setup-preboot-20261005/fixture-comparison.json",
+      "sha256": "57d4cf6619e26dd4ba05138478d4e7ec6af6e42377196dc660b98c0072ab3774"
+    },
+    "target-qcow-info.json": {
+      "path": "/data/cache/qcow2-standard-setup-preboot-20261005/target-qcow-info.json",
+      "sha256": "29c5050208800226da2d81d68605939ee0806938ac6f821650d876bdd045f1c5"
+    },
+    "qmp-schema.json": {
+      "path": "/data/cache/qcow2-standard-setup-preboot-20261005/qmp-schema.json",
+      "sha256": "ce72f1338305bf2a3146dbdafbb1d7d65c33c471c03c3c756b337cc6dfd9892e"
+    },
+    "reserved-sacl-inventory.json": {
+      "path": "/data/cache/qcow2-standard-setup-preboot-20261005/reserved-sacl-inventory.json",
+      "sha256": "d5394fe2ed34a6585ff4dc2ab997ab77dc4217ab18a8796c16a3f72590094c0d"
+    },
+    "selected-trust-paths.json": {
+      "path": "/data/cache/qcow2-standard-setup-preboot-20261005/selected-trust-paths.json",
+      "sha256": "137b606cd65b11b55f757f424f002b5ee11ef2b3f14967a8acac964a61ff308d"
+    },
+    "boundary-qmp.jsonl": {
+      "path": "/data/cache/qcow2-standard-setup-preboot-20261005/boundary-qmp.jsonl",
+      "sha256": "b97fc72a4b1aee992747c0d0313dad8b0b53413a93c05f7b8bb76d0ed3344ed6"
+    },
+    "diagnostic-logs/winre-locations.json": {
+      "path": "/data/cache/qcow2-standard-setup-preboot-20261005/diagnostic-logs/winre-locations.json",
+      "sha256": "205ccdbf3a9928c8001320099f97391cd2d3eccd92eb77363e5cb3c0328f9c05"
+    },
+    "diagnostic-logs/Windows_System32_Sysprep_Panther_setupact.log": {
+      "path": "/data/cache/qcow2-standard-setup-preboot-20261005/diagnostic-logs/Windows_System32_Sysprep_Panther_setupact.log",
+      "sha256": "464dc5855ef49240e869ec2466c763d4c0451b8339f6d1744a9b86527fb1ef61"
+    },
+    "diagnostic-logs/Windows_Panther_setuperr.log": {
+      "path": "/data/cache/qcow2-standard-setup-preboot-20261005/diagnostic-logs/Windows_Panther_setuperr.log",
+      "sha256": "a2bbbb52166f0bd923f98df9d1b0fed4c8b62dcf10ddaf21d210266abbbe61ca"
+    },
+    "diagnostic-logs/Windows_System32_Sysprep_Panther_setuperr.log": {
+      "path": "/data/cache/qcow2-standard-setup-preboot-20261005/diagnostic-logs/Windows_System32_Sysprep_Panther_setuperr.log",
+      "sha256": "eede9117ab86c68c22879f3cd7ed452559f32cec456fbfd864347d6608a5496c"
+    },
+    "diagnostic-logs/Windows_Panther_setupact.log": {
+      "path": "/data/cache/qcow2-standard-setup-preboot-20261005/diagnostic-logs/Windows_Panther_setupact.log",
+      "sha256": "4a39e57a63e0f56b52b0e2429198cd893cb55f3f81337f39736144652cc76c51"
+    }
+  }
+}

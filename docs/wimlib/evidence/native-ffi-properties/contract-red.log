@@ -1,0 +1,34 @@
+/nix/store/bikkd0jwr8jkd3r6r5mcr28fm17yvb0z-binutils-2.46/bin/ld.bfd: /tmp/ccc0l0ef.o: in function `main':
+probe-properties-api.c:(.text+0xd3): undefined reference to `wimlib_open_wim'
+/nix/store/bikkd0jwr8jkd3r6r5mcr28fm17yvb0z-binutils-2.46/bin/ld.bfd: probe-properties-api.c:(.text+0x119): undefined reference to `wimlib_get_image_name'
+/nix/store/bikkd0jwr8jkd3r6r5mcr28fm17yvb0z-binutils-2.46/bin/ld.bfd: probe-properties-api.c:(.text+0x13f): undefined reference to `wimlib_get_image_description'
+/nix/store/bikkd0jwr8jkd3r6r5mcr28fm17yvb0z-binutils-2.46/bin/ld.bfd: probe-properties-api.c:(.text+0x16c): undefined reference to `wimlib_get_image_property'
+/nix/store/bikkd0jwr8jkd3r6r5mcr28fm17yvb0z-binutils-2.46/bin/ld.bfd: probe-properties-api.c:(.text+0x271): undefined reference to `wimlib_resolve_image'
+/nix/store/bikkd0jwr8jkd3r6r5mcr28fm17yvb0z-binutils-2.46/bin/ld.bfd: probe-properties-api.c:(.text+0x2f9): undefined reference to `wimlib_image_name_in_use'
+/nix/store/bikkd0jwr8jkd3r6r5mcr28fm17yvb0z-binutils-2.46/bin/ld.bfd: probe-properties-api.c:(.text+0x32d): undefined reference to `wimlib_get_image_name'
+/nix/store/bikkd0jwr8jkd3r6r5mcr28fm17yvb0z-binutils-2.46/bin/ld.bfd: probe-properties-api.c:(.text+0x349): undefined reference to `wimlib_set_image_name'
+/nix/store/bikkd0jwr8jkd3r6r5mcr28fm17yvb0z-binutils-2.46/bin/ld.bfd: probe-properties-api.c:(.text+0x38f): undefined reference to `wimlib_set_image_name'
+/nix/store/bikkd0jwr8jkd3r6r5mcr28fm17yvb0z-binutils-2.46/bin/ld.bfd: probe-properties-api.c:(.text+0x3b8): undefined reference to `wimlib_get_image_name'
+/nix/store/bikkd0jwr8jkd3r6r5mcr28fm17yvb0z-binutils-2.46/bin/ld.bfd: probe-properties-api.c:(.text+0x3e5): undefined reference to `wimlib_set_image_descripton'
+/nix/store/bikkd0jwr8jkd3r6r5mcr28fm17yvb0z-binutils-2.46/bin/ld.bfd: probe-properties-api.c:(.text+0x40e): undefined reference to `wimlib_get_image_description'
+/nix/store/bikkd0jwr8jkd3r6r5mcr28fm17yvb0z-binutils-2.46/bin/ld.bfd: probe-properties-api.c:(.text+0x43b): undefined reference to `wimlib_set_image_flags'
+/nix/store/bikkd0jwr8jkd3r6r5mcr28fm17yvb0z-binutils-2.46/bin/ld.bfd: probe-properties-api.c:(.text+0x46b): undefined reference to `wimlib_get_image_property'
+/nix/store/bikkd0jwr8jkd3r6r5mcr28fm17yvb0z-binutils-2.46/bin/ld.bfd: probe-properties-api.c:(.text+0x546): undefined reference to `wimlib_set_image_property'
+/nix/store/bikkd0jwr8jkd3r6r5mcr28fm17yvb0z-binutils-2.46/bin/ld.bfd: probe-properties-api.c:(.text+0x57a): undefined reference to `wimlib_get_image_property'
+/nix/store/bikkd0jwr8jkd3r6r5mcr28fm17yvb0z-binutils-2.46/bin/ld.bfd: probe-properties-api.c:(.text+0x5b2): undefined reference to `wimlib_set_image_property'
+/nix/store/bikkd0jwr8jkd3r6r5mcr28fm17yvb0z-binutils-2.46/bin/ld.bfd: probe-properties-api.c:(.text+0x5eb): undefined reference to `wimlib_set_image_property'
+/nix/store/bikkd0jwr8jkd3r6r5mcr28fm17yvb0z-binutils-2.46/bin/ld.bfd: probe-properties-api.c:(.text+0x630): undefined reference to `wimlib_set_image_property'
+/nix/store/bikkd0jwr8jkd3r6r5mcr28fm17yvb0z-binutils-2.46/bin/ld.bfd: probe-properties-api.c:(.text+0x65e): undefined reference to `wimlib_set_image_name'
+/nix/store/bikkd0jwr8jkd3r6r5mcr28fm17yvb0z-binutils-2.46/bin/ld.bfd: probe-properties-api.c:(.text+0x687): undefined reference to `wimlib_get_image_name'
+/nix/store/bikkd0jwr8jkd3r6r5mcr28fm17yvb0z-binutils-2.46/bin/ld.bfd: probe-properties-api.c:(.text+0x6b4): undefined reference to `wimlib_set_image_descripton'
+/nix/store/bikkd0jwr8jkd3r6r5mcr28fm17yvb0z-binutils-2.46/bin/ld.bfd: probe-properties-api.c:(.text+0x6dd): undefined reference to `wimlib_get_image_description'
+/nix/store/bikkd0jwr8jkd3r6r5mcr28fm17yvb0z-binutils-2.46/bin/ld.bfd: probe-properties-api.c:(.text+0x6fe): undefined reference to `wimlib_free'
+collect2: error: ld returned 1 exit status
+Traceback (most recent call last):
+  File "/home/rick/projects-caddy/windows-uup/scripts/wimlib/check-properties-abi.py", line 29, in <module>
+    subprocess.run(["cc", "-I" + str((a.source / "include").resolve()), "scripts/wimlib/probe-properties-api.c", "-L" + str(library.resolve()), "-Wl,-rpath," + str(library.resolve()), "-lwim", "-o", str(binary)], check=True)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/fzxvyvqasr1mrly4rjc4944r62m4cl6a-python3-3.13.15-env/lib/python3.13/subprocess.py", line 577, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['cc', '-I/tmp/wimlib/include', 'scripts/wimlib/probe-properties-api.c', '-L/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/target/debug', '-Wl,-rpath,/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/target/debug', '-lwim', '-o', '/tmp/wim-properties-5k6fh930/native']' returned non-zero exit status 1.

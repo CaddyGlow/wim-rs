@@ -1,0 +1,77 @@
+{
+  "windows": {
+    "edition": "Professional",
+    "product_name": "Windows 10 Pro",
+    "installation_type": "Client",
+    "architecture": 9,
+    "build": 26200,
+    "revision": 8037,
+    "kernel_version": [
+      10,
+      0,
+      26100,
+      8036
+    ],
+    "preparation_state": "IMAGE_STATE_GENERALIZE_RESEAL_TO_OOBE",
+    "language": "en-US",
+    "languages": [
+      "en-US"
+    ],
+    "product_type": "WinNT"
+  },
+  "sources": [
+    {
+      "path": "/home/rick/projects-caddy/windows-uup/vm-state/qcow2-source-1005/overlay.qcow2",
+      "sha256": "cfa75f1df1c0328f2ef19e0752678a6714d67ed0787c75626d7d2f8cfebb5762",
+      "bytes": 4352770048,
+      "file_identity": [
+        66309,
+        124527323
+      ]
+    },
+    {
+      "path": "/home/rick/.vm-base/win11-secure/disk.qcow2",
+      "sha256": "35299ad09fb946d45374f9637ccc4344acb3488b482d9571854d007b666b2abe",
+      "bytes": 10026090496,
+      "file_identity": [
+        66309,
+        110639073
+      ]
+    }
+  ],
+  "entries": 176417,
+  "volume_serial": 18029059986811144529,
+  "volume_aliases": [
+    "\\??\\C:"
+  ],
+  "exclusions": [
+    "pagefile.sys",
+    "swapfile.sys",
+    "hiberfil.sys",
+    "System Volume Information",
+    "$Recycle.Bin",
+    "Windows/CSC",
+    "Windows/Panther/unattend.xml",
+    "Windows/Panther/unattend-original.xml"
+  ],
+  "metadata_changes": [
+    "Stage verified WinRE in Windows/System32/Recovery/winre.wim",
+    "Replace ReAgent.xml with unbound staged recovery configuration; clear source BCD/partition location bindings"
+  ],
+  "recovery_source": "Windows/System32/Recovery/winre.wim",
+  "winre_sha256": "5a7b51e7271284a3204234a71386c4d8cbc81665e9f7bc451d7d70fb464a3047",
+  "qcow2_validation": {
+    "compressed_bytes_verified": 0,
+    "compressed_clusters": 0,
+    "compressed_payloads_verified": 0,
+    "containers": 2,
+    "data_descriptors": 217901,
+    "metadata_extents": 70,
+    "refcount_entries_checked": 262144,
+    "referenced_clusters": 217971,
+    "work_items": 955579
+  },
+  "wim_sha256": "31e22fe2b8a79dbcf467e81b7c5f001e63caae0d26d14445fc37c61386de46c0",
+  "generalized": true,
+  "warnings": []
+}

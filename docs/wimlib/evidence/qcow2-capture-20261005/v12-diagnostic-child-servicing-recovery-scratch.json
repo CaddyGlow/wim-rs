@@ -1,0 +1,117 @@
+{
+  "scope": "diagnostic disposable child after immutable pre-servicing baseline; full Windows metadata fidelity still fails",
+  "baseline_sha256": "b3bc06631a98880fc985632ef13fee1bd2ce8c7c7a7cc0e6fbaf4f4b4226a6e1",
+  "health_scan_passed": true,
+  "sfc_verify_passed": true,
+  "telnet_enable_passed": true,
+  "actual_normal_reboot_passed": true,
+  "actual_winre_ui_observed": true,
+  "actual_return_desktop_observed": true,
+  "object_id_scratch_online_passed": true,
+  "object_id_scratch_offline": "pending",
+  "ace18_scratch_strict_passed": false,
+  "dos_alias_scratch_validation": "pending owner audit of volume-root regex",
+  "launcher_terminal_exit": 0,
+  "proofs": [
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/diagnostic-child-servicing.json",
+      "bytes": 107764,
+      "sha256": "9ba1b847ba69ee2af2fd882a1567f567c9e9f69e8e840586207a60495ed0b0c3"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/diagnostic-child-reboot-request.json",
+      "bytes": 267,
+      "sha256": "3b7d12f1fb443028abffdc17a1a2cc186050c2eb2a97af31c6c65dffd9a021a9"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/diagnostic-child-reboot-observation.json",
+      "bytes": 866,
+      "sha256": "cc4f0a062144fdc76cad43116c4a5c5f6b321599afd8a434bfbb31af951faa33"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/diagnostic-child-winre-request.json",
+      "bytes": 429,
+      "sha256": "cf1c5d5f99e575dc043be706395e58738372f300eb35a2928affa4c85d767628"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/diagnostic-child-winre-reboot-request.json",
+      "bytes": 118,
+      "sha256": "aac612aad7858839ef66346818338dbe61336164f1bc41c875016c805f41b15e"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/diagnostic-child-winre-actual-ui.json",
+      "bytes": 521,
+      "sha256": "05ca5ffb47dc0069c2867386c45952c9db9f7390920cb060e42bc474f2d097bb"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/diagnostic-child-winre-progress-2.png",
+      "bytes": 22471,
+      "sha256": "967f339680692cc3e77a2fbc88e292af9a93fcba300c0aad8b6747a477cf2868"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/diagnostic-child-winre-return-before-signin.json",
+      "bytes": 994,
+      "sha256": "7dcaa5f62957e6c60ac167827ae62d6c4041cb5d0af0bebda8e698c971795959"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/diagnostic-child-winre-return-signin.json",
+      "bytes": 177,
+      "sha256": "758da08202dd070eb272be7c1d31f9c10fb13b0faf32c2f2c5e66058ab709230"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/diagnostic-child-winre-return-desktop.json",
+      "bytes": 866,
+      "sha256": "590e299a1bceaad620a6f50f03c15d850389d877daf15dd16f5798fa6bce78d3"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/diagnostic-child-after-winre-desktop.png",
+      "bytes": 1032732,
+      "sha256": "91164aa2ce541a4cf06f96ec8800fdb01ab5fae465b4d523f77ce5b2e75d622b"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/diagnostic-scratch-format.json",
+      "bytes": 436,
+      "sha256": "c20c6cba8888325d04a348a485ef7f7157badf3476818aed0ad41d73f812485c"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/diagnostic-scratch-ace18-execute.json",
+      "bytes": 578,
+      "sha256": "9544cf2112567e56ef83f0257f7016778b22494016bdda51fd666b0d8ddfc535"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/diagnostic-scratch-ace18-report.json",
+      "bytes": 30985,
+      "sha256": "51aa9991abc0afbcf20e5b8725f935f7e763c9dc68a6cbda9897680c0a203f68"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/diagnostic-scratch-object-id-execute.json",
+      "bytes": 118,
+      "sha256": "aac612aad7858839ef66346818338dbe61336164f1bc41c875016c805f41b15e"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/diagnostic-scratch-object-id-report.json",
+      "bytes": 9756,
+      "sha256": "48a763b3324630773d7902e54bfc3976953d2e23403cc5209d3eb12ee42fbd23"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/diagnostic-scratch-alias-execute.json",
+      "bytes": 155469,
+      "sha256": "c1db9feea869ab60bb5ebbde1896b09d2083b6926a319e1f22377219511b597d"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/diagnostic-scratch-alias-report.json",
+      "bytes": 52861,
+      "sha256": "b65b8f5df5d43d8cc62c4a99cfd1333609ea6edc06f2117ca5769b9f8509cf8a"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/diagnostic-child-final-supported-shutdown.json",
+      "bytes": 291,
+      "sha256": "053fec3d688ca1f9748d8c15ddad25b841049a4933ed4760b3330acb5d51f4c8"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/diagnostic-scratch-offline-handoff.json",
+      "bytes": 555,
+      "sha256": "4485cbcd837e0121337ea42bf4340ab1c4b7c7af427f5e48a553d8e0d5eada7a"
+    }
+  ]
+}

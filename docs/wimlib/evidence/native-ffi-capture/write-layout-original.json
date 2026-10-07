@@ -1,0 +1,653 @@
+{
+  "count": 72,
+  "results": [
+    {
+      "write_flags": 0,
+      "mutation": 0,
+      "abort": 0,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nprogress 13\nprogress 14\nwrite 0\n",
+      "stderr": "",
+      "status": 0,
+      "size": 1602
+    },
+    {
+      "write_flags": 0,
+      "mutation": 0,
+      "abort": 112,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite-progress 44 2 0 0\nwrite 76\nerrno 123\n",
+      "stderr": "",
+      "status": 0,
+      "size": 208
+    },
+    {
+      "write_flags": 0,
+      "mutation": 0,
+      "abort": 113,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nprogress 13\nwrite 76\nerrno 123\n",
+      "stderr": "",
+      "status": 0,
+      "size": 252
+    },
+    {
+      "write_flags": 0,
+      "mutation": 0,
+      "abort": 114,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nprogress 13\nprogress 14\nwrite 76\nerrno 123\n",
+      "stderr": "",
+      "status": 0,
+      "size": 684
+    },
+    {
+      "write_flags": 0,
+      "mutation": 1,
+      "abort": 0,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite-progress 44 2 0 0\nwrite 47\nerrno 2\n",
+      "stderr": "",
+      "status": 0,
+      "size": 208
+    },
+    {
+      "write_flags": 0,
+      "mutation": 1,
+      "abort": 112,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite-progress 44 2 0 0\nwrite 76\nerrno 123\n",
+      "stderr": "",
+      "status": 0,
+      "size": 208
+    },
+    {
+      "write_flags": 0,
+      "mutation": 1,
+      "abort": 113,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite-progress 44 2 0 0\nwrite 47\nerrno 2\n",
+      "stderr": "",
+      "status": 0,
+      "size": 208
+    },
+    {
+      "write_flags": 0,
+      "mutation": 1,
+      "abort": 114,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite-progress 44 2 0 0\nwrite 47\nerrno 2\n",
+      "stderr": "",
+      "status": 0,
+      "size": 208
+    },
+    {
+      "write_flags": 0,
+      "mutation": 2,
+      "abort": 0,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite-progress 44 2 0 0\nwrite 88\nerrno 22\n",
+      "stderr": "",
+      "status": 0,
+      "size": 208
+    },
+    {
+      "write_flags": 0,
+      "mutation": 2,
+      "abort": 112,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite-progress 44 2 0 0\nwrite 76\nerrno 123\n",
+      "stderr": "",
+      "status": 0,
+      "size": 208
+    },
+    {
+      "write_flags": 0,
+      "mutation": 2,
+      "abort": 113,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite-progress 44 2 0 0\nwrite 88\nerrno 22\n",
+      "stderr": "",
+      "status": 0,
+      "size": 208
+    },
+    {
+      "write_flags": 0,
+      "mutation": 2,
+      "abort": 114,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite-progress 44 2 0 0\nwrite 88\nerrno 22\n",
+      "stderr": "",
+      "status": 0,
+      "size": 208
+    },
+    {
+      "write_flags": 0,
+      "mutation": 3,
+      "abort": 0,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite-progress 44 2 0 0\nwrite 88\nerrno 22\n",
+      "stderr": "",
+      "status": 0,
+      "size": 208
+    },
+    {
+      "write_flags": 0,
+      "mutation": 3,
+      "abort": 112,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite-progress 44 2 0 0\nwrite 76\nerrno 123\n",
+      "stderr": "",
+      "status": 0,
+      "size": 208
+    },
+    {
+      "write_flags": 0,
+      "mutation": 3,
+      "abort": 113,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite-progress 44 2 0 0\nwrite 88\nerrno 22\n",
+      "stderr": "",
+      "status": 0,
+      "size": 208
+    },
+    {
+      "write_flags": 0,
+      "mutation": 3,
+      "abort": 114,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite-progress 44 2 0 0\nwrite 88\nerrno 22\n",
+      "stderr": "",
+      "status": 0,
+      "size": 208
+    },
+    {
+      "write_flags": 0,
+      "mutation": 4,
+      "abort": 0,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nprogress 13\nprogress 14\nwrite 0\n",
+      "stderr": "",
+      "status": 0,
+      "size": 1602
+    },
+    {
+      "write_flags": 0,
+      "mutation": 4,
+      "abort": 112,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite-progress 44 2 0 0\nwrite 76\nerrno 123\n",
+      "stderr": "",
+      "status": 0,
+      "size": 208
+    },
+    {
+      "write_flags": 0,
+      "mutation": 4,
+      "abort": 113,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nprogress 13\nwrite 76\nerrno 123\n",
+      "stderr": "",
+      "status": 0,
+      "size": 252
+    },
+    {
+      "write_flags": 0,
+      "mutation": 4,
+      "abort": 114,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nprogress 13\nprogress 14\nwrite 76\nerrno 123\n",
+      "stderr": "",
+      "status": 0,
+      "size": 684
+    },
+    {
+      "write_flags": 0,
+      "mutation": 5,
+      "abort": 0,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nprogress 13\nprogress 14\nwrite 0\n",
+      "stderr": "",
+      "status": 0,
+      "size": 1602
+    },
+    {
+      "write_flags": 0,
+      "mutation": 5,
+      "abort": 112,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite-progress 44 2 0 0\nwrite 76\nerrno 123\n",
+      "stderr": "",
+      "status": 0,
+      "size": 208
+    },
+    {
+      "write_flags": 0,
+      "mutation": 5,
+      "abort": 113,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nprogress 13\nwrite 76\nerrno 123\n",
+      "stderr": "",
+      "status": 0,
+      "size": 252
+    },
+    {
+      "write_flags": 0,
+      "mutation": 5,
+      "abort": 114,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nprogress 13\nprogress 14\nwrite 76\nerrno 123\n",
+      "stderr": "",
+      "status": 0,
+      "size": 684
+    },
+    {
+      "write_flags": 4,
+      "mutation": 0,
+      "abort": 0,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nprogress 13\nprogress 14\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nwrite 0\n",
+      "stderr": "",
+      "status": 0,
+      "size": 2764
+    },
+    {
+      "write_flags": 4,
+      "mutation": 0,
+      "abort": 112,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nprogress 13\nprogress 14\nwrite-progress 44 2 0 0\nwrite 76\nerrno 123\n",
+      "stderr": "",
+      "status": 0,
+      "size": 1432
+    },
+    {
+      "write_flags": 4,
+      "mutation": 0,
+      "abort": 113,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nprogress 13\nwrite 76\nerrno 123\n",
+      "stderr": "",
+      "status": 0,
+      "size": 960
+    },
+    {
+      "write_flags": 4,
+      "mutation": 0,
+      "abort": 114,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nprogress 13\nprogress 14\nwrite 76\nerrno 123\n",
+      "stderr": "",
+      "status": 0,
+      "size": 1432
+    },
+    {
+      "write_flags": 4,
+      "mutation": 1,
+      "abort": 0,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite 47\nerrno 2\n",
+      "stderr": "",
+      "status": 0,
+      "size": 208
+    },
+    {
+      "write_flags": 4,
+      "mutation": 1,
+      "abort": 112,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite 47\nerrno 2\n",
+      "stderr": "",
+      "status": 0,
+      "size": 208
+    },
+    {
+      "write_flags": 4,
+      "mutation": 1,
+      "abort": 113,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite 47\nerrno 2\n",
+      "stderr": "",
+      "status": 0,
+      "size": 208
+    },
+    {
+      "write_flags": 4,
+      "mutation": 1,
+      "abort": 114,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite 47\nerrno 2\n",
+      "stderr": "",
+      "status": 0,
+      "size": 208
+    },
+    {
+      "write_flags": 4,
+      "mutation": 2,
+      "abort": 0,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite 88\nerrno 22\n",
+      "stderr": "",
+      "status": 0,
+      "size": 208
+    },
+    {
+      "write_flags": 4,
+      "mutation": 2,
+      "abort": 112,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite 88\nerrno 22\n",
+      "stderr": "",
+      "status": 0,
+      "size": 208
+    },
+    {
+      "write_flags": 4,
+      "mutation": 2,
+      "abort": 113,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite 88\nerrno 22\n",
+      "stderr": "",
+      "status": 0,
+      "size": 208
+    },
+    {
+      "write_flags": 4,
+      "mutation": 2,
+      "abort": 114,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite 88\nerrno 22\n",
+      "stderr": "",
+      "status": 0,
+      "size": 208
+    },
+    {
+      "write_flags": 4,
+      "mutation": 3,
+      "abort": 0,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite 88\nerrno 22\n",
+      "stderr": "",
+      "status": 0,
+      "size": 208
+    },
+    {
+      "write_flags": 4,
+      "mutation": 3,
+      "abort": 112,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite 88\nerrno 22\n",
+      "stderr": "",
+      "status": 0,
+      "size": 208
+    },
+    {
+      "write_flags": 4,
+      "mutation": 3,
+      "abort": 113,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite 88\nerrno 22\n",
+      "stderr": "",
+      "status": 0,
+      "size": 208
+    },
+    {
+      "write_flags": 4,
+      "mutation": 3,
+      "abort": 114,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite 88\nerrno 22\n",
+      "stderr": "",
+      "status": 0,
+      "size": 208
+    },
+    {
+      "write_flags": 4,
+      "mutation": 4,
+      "abort": 0,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nprogress 13\nprogress 14\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nwrite 0\n",
+      "stderr": "",
+      "status": 0,
+      "size": 2764
+    },
+    {
+      "write_flags": 4,
+      "mutation": 4,
+      "abort": 112,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nprogress 13\nprogress 14\nwrite-progress 44 2 0 0\nwrite 76\nerrno 123\n",
+      "stderr": "",
+      "status": 0,
+      "size": 1432
+    },
+    {
+      "write_flags": 4,
+      "mutation": 4,
+      "abort": 113,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nprogress 13\nwrite 76\nerrno 123\n",
+      "stderr": "",
+      "status": 0,
+      "size": 960
+    },
+    {
+      "write_flags": 4,
+      "mutation": 4,
+      "abort": 114,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nprogress 13\nprogress 14\nwrite 76\nerrno 123\n",
+      "stderr": "",
+      "status": 0,
+      "size": 1432
+    },
+    {
+      "write_flags": 4,
+      "mutation": 5,
+      "abort": 0,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nprogress 13\nprogress 14\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nwrite 0\n",
+      "stderr": "",
+      "status": 0,
+      "size": 2764
+    },
+    {
+      "write_flags": 4,
+      "mutation": 5,
+      "abort": 112,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nprogress 13\nprogress 14\nwrite-progress 44 2 0 0\nwrite 76\nerrno 123\n",
+      "stderr": "",
+      "status": 0,
+      "size": 1432
+    },
+    {
+      "write_flags": 4,
+      "mutation": 5,
+      "abort": 113,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nprogress 13\nwrite 76\nerrno 123\n",
+      "stderr": "",
+      "status": 0,
+      "size": 960
+    },
+    {
+      "write_flags": 4,
+      "mutation": 5,
+      "abort": 114,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nprogress 13\nprogress 14\nwrite 76\nerrno 123\n",
+      "stderr": "",
+      "status": 0,
+      "size": 1432
+    },
+    {
+      "write_flags": 4096,
+      "mutation": 0,
+      "abort": 0,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite-progress 44 2 0 0\nwrite-progress 44 2 44 2\nprogress 13\nprogress 14\nwrite 0\n",
+      "stderr": "",
+      "status": 0,
+      "size": 1666
+    },
+    {
+      "write_flags": 4096,
+      "mutation": 0,
+      "abort": 112,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite-progress 44 2 0 0\nwrite 76\nerrno 123\n",
+      "stderr": "",
+      "status": 0,
+      "size": 208
+    },
+    {
+      "write_flags": 4096,
+      "mutation": 0,
+      "abort": 113,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite-progress 44 2 0 0\nwrite-progress 44 2 44 2\nprogress 13\nwrite 76\nerrno 123\n",
+      "stderr": "",
+      "status": 0,
+      "size": 266
+    },
+    {
+      "write_flags": 4096,
+      "mutation": 0,
+      "abort": 114,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite-progress 44 2 0 0\nwrite-progress 44 2 44 2\nprogress 13\nprogress 14\nwrite 76\nerrno 123\n",
+      "stderr": "",
+      "status": 0,
+      "size": 698
+    },
+    {
+      "write_flags": 4096,
+      "mutation": 1,
+      "abort": 0,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite-progress 44 2 0 0\nwrite 47\nerrno 2\n",
+      "stderr": "",
+      "status": 0,
+      "size": 228
+    },
+    {
+      "write_flags": 4096,
+      "mutation": 1,
+      "abort": 112,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite-progress 44 2 0 0\nwrite 76\nerrno 123\n",
+      "stderr": "",
+      "status": 0,
+      "size": 208
+    },
+    {
+      "write_flags": 4096,
+      "mutation": 1,
+      "abort": 113,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite-progress 44 2 0 0\nwrite 47\nerrno 2\n",
+      "stderr": "",
+      "status": 0,
+      "size": 228
+    },
+    {
+      "write_flags": 4096,
+      "mutation": 1,
+      "abort": 114,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite-progress 44 2 0 0\nwrite 47\nerrno 2\n",
+      "stderr": "",
+      "status": 0,
+      "size": 228
+    },
+    {
+      "write_flags": 4096,
+      "mutation": 2,
+      "abort": 0,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite-progress 44 2 0 0\nwrite 88\nerrno 22\n",
+      "stderr": "",
+      "status": 0,
+      "size": 228
+    },
+    {
+      "write_flags": 4096,
+      "mutation": 2,
+      "abort": 112,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite-progress 44 2 0 0\nwrite 76\nerrno 123\n",
+      "stderr": "",
+      "status": 0,
+      "size": 208
+    },
+    {
+      "write_flags": 4096,
+      "mutation": 2,
+      "abort": 113,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite-progress 44 2 0 0\nwrite 88\nerrno 22\n",
+      "stderr": "",
+      "status": 0,
+      "size": 228
+    },
+    {
+      "write_flags": 4096,
+      "mutation": 2,
+      "abort": 114,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite-progress 44 2 0 0\nwrite 88\nerrno 22\n",
+      "stderr": "",
+      "status": 0,
+      "size": 228
+    },
+    {
+      "write_flags": 4096,
+      "mutation": 3,
+      "abort": 0,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite-progress 44 2 0 0\nwrite 88\nerrno 22\n",
+      "stderr": "",
+      "status": 0,
+      "size": 228
+    },
+    {
+      "write_flags": 4096,
+      "mutation": 3,
+      "abort": 112,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite-progress 44 2 0 0\nwrite 76\nerrno 123\n",
+      "stderr": "",
+      "status": 0,
+      "size": 208
+    },
+    {
+      "write_flags": 4096,
+      "mutation": 3,
+      "abort": 113,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite-progress 44 2 0 0\nwrite 88\nerrno 22\n",
+      "stderr": "",
+      "status": 0,
+      "size": 228
+    },
+    {
+      "write_flags": 4096,
+      "mutation": 3,
+      "abort": 114,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite-progress 44 2 0 0\nwrite 88\nerrno 22\n",
+      "stderr": "",
+      "status": 0,
+      "size": 228
+    },
+    {
+      "write_flags": 4096,
+      "mutation": 4,
+      "abort": 0,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite-progress 44 2 0 0\nwrite-progress 44 2 44 2\nprogress 13\nprogress 14\nwrite 0\n",
+      "stderr": "",
+      "status": 0,
+      "size": 1664
+    },
+    {
+      "write_flags": 4096,
+      "mutation": 4,
+      "abort": 112,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite-progress 44 2 0 0\nwrite 76\nerrno 123\n",
+      "stderr": "",
+      "status": 0,
+      "size": 208
+    },
+    {
+      "write_flags": 4096,
+      "mutation": 4,
+      "abort": 113,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite-progress 44 2 0 0\nwrite-progress 44 2 44 2\nprogress 13\nwrite 76\nerrno 123\n",
+      "stderr": "",
+      "status": 0,
+      "size": 264
+    },
+    {
+      "write_flags": 4096,
+      "mutation": 4,
+      "abort": 114,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite-progress 44 2 0 0\nwrite-progress 44 2 44 2\nprogress 13\nprogress 14\nwrite 76\nerrno 123\n",
+      "stderr": "",
+      "status": 0,
+      "size": 696
+    },
+    {
+      "write_flags": 4096,
+      "mutation": 5,
+      "abort": 0,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite-progress 44 2 0 0\nwrite-progress 44 2 44 2\nprogress 13\nprogress 14\nwrite 0\n",
+      "stderr": "",
+      "status": 0,
+      "size": 1664
+    },
+    {
+      "write_flags": 4096,
+      "mutation": 5,
+      "abort": 112,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite-progress 44 2 0 0\nwrite 76\nerrno 123\n",
+      "stderr": "",
+      "status": 0,
+      "size": 208
+    },
+    {
+      "write_flags": 4096,
+      "mutation": 5,
+      "abort": 113,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite-progress 44 2 0 0\nwrite-progress 44 2 44 2\nprogress 13\nwrite 76\nerrno 123\n",
+      "stderr": "",
+      "status": 0,
+      "size": 264
+    },
+    {
+      "write_flags": 4096,
+      "mutation": 5,
+      "abort": 114,
+      "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite-progress 44 2 0 0\nwrite-progress 44 2 44 2\nprogress 13\nprogress 14\nwrite 76\nerrno 123\n",
+      "stderr": "",
+      "status": 0,
+      "size": 696
+    }
+  ]
+}

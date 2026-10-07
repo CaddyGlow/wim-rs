@@ -1,0 +1,21 @@
+Native overwrite policy and lifecycle evidence
+
+The native ABI uses genuine append, atomic temporary replacement, and in-place compaction. Append retains resources already in the backing WIM and their original offsets; unchanged images update XML after the existing blob table without rewriting it. Image additions/tree changes append after old XML or integrity data. Deletion selects rebuilding unless SOFT_DELETE is given. Rebuild, pipable output, and codec/chunk changes write a same-directory temporary file, fsync it, then rename it over the target. Event15 follows successful replacement; cancellation there reports76 while leaving the replacement committed.
+
+Compaction copies existing encoded ordinary/solid resources down into the target, includes original metadata in the actual stream events, writes changed metadata later, and truncates only on success. It intentionally lacks rollback after cancellation. An advisory nonblocking lock protects append/compaction. Ordinary append restores header flags and truncates newly appended resources on cancellation. XML-only integrity writes install a checkpoint header before event17, preserving reopenability when a growing XML document has overwritten the old integrity table. Valid old integrity digests are reused for unchanged chunks; expanded chunks are actually hashed. Only wimlib_free is valid after successful overwrite, and native input backing/resource storage is released then.
+
+`original-red.json` preserves171 initial unchanged-header observations. `probe-overwrite-api.c` uses the original header without modifications. `check-overwrite-api.py` freezes the native library, copies each source into a disposable target, compares the complete printed event/status/size/reopen sequence, and independently verifies successful native targets with the original reader. Every source hash is checked unchanged. The original reader uses `WIMLIB_DISABLE_CPU_FEATURES=sse4.2` for the previously preserved original LZMS filter crash.
+
+Current matrices contain 336 cases each: ordinary, integrity, and pipable match 336/336; solid matches 309/336. All 27 remaining solid differences involve a newly added empty image: native fixed-strategy metadata compression changes output size and sometimes cancellation's resulting reopen state. These differences are retained without normalization. An additional 336 corrupt-metadata source cases match 336/336. These establish that append does not eagerly read untouched source metadata, even when adding an empty image; original corruption is retained, with the same independent-reader failure as the original implementation. All 463 successful native outputs from healthy sources across these four matrices pass original verification (143 ordinary,117 integrity,73 pipable,130 solid). This is partial implementation evidence, not complete bit-for-bit codec parity or all-platform verification.
+
+Three Rust regressions check preserved inode/blob-table offsets for XML-only append, committed replacement after event15 abort, and conflicting-lock rejection with byte-identical source state. Format regression checks real prefix digest reuse and hashing of an expanded last chunk. Existing writer/split/join regressions also pass.
+
+Reproduce after an explicit-target native build:
+
+    cargo build --manifest-path Cargo.toml --target-dir target -p wim --locked
+    python3 scripts/wimlib/check-overwrite-api.py --output docs/wimlib/evidence/native-ffi-overwrite
+    python3 scripts/wimlib/check-overwrite-api.py --source /tmp/wim-integrity-valid.wim --output docs/wimlib/evidence/native-ffi-overwrite/integrity
+    python3 scripts/wimlib/check-overwrite-api.py --source /tmp/wim-resource-pipable.wim --output docs/wimlib/evidence/native-ffi-overwrite/pipable
+    python3 scripts/wimlib/check-overwrite-api.py --source /tmp/wim-resource-solid.wim --output docs/wimlib/evidence/native-ffi-overwrite/solid
+
+Remaining gates include full allocator/OOM routing, bounded-memory output, codec tuning/parallel compression, delta/DONE_WITH_FILE flags, all filesystem error/errno transitions, Windows replacement/locking, and broader cross-origin or unusual resource layouts. The public callback/context remains caller-owned; only progress replacement/unregistration is supported from callbacks. No success stubs or always-rebuild substitute is used.

@@ -1,0 +1,12 @@
+{
+  "source": "/home/rick/projects-caddy/windows-uup/vm-state/wim-capture-full-1005",
+  "destination": "/data/cache/wim-capture-full-1005-relocated",
+  "vm_stopped": true,
+  "qcow2_dirty": false,
+  "absolute_backing": "/home/rick/.vm-base/win11-dev/disk.qcow2",
+  "overlay_sha256_before": "b96973f3bc2f092b008e4e001ac43ce0dbb8b54a57a0788bce22516745aec037",
+  "overlay_sha256_after": "b96973f3bc2f092b008e4e001ac43ce0dbb8b54a57a0788bce22516745aec037",
+  "bytes": 32679657472,
+  "original_path_symlink": true,
+  "data_deleted": false
+}

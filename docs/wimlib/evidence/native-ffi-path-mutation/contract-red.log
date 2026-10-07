@@ -1,0 +1,4 @@
+/nix/store/bikkd0jwr8jkd3r6r5mcr28fm17yvb0z-binutils-2.46/bin/ld.bfd: /tmp/cczKPPNU.o: in function `main':
+probe-path-mutation.c:(.text+0x1ce): undefined reference to `wimlib_delete_path'
+/nix/store/bikkd0jwr8jkd3r6r5mcr28fm17yvb0z-binutils-2.46/bin/ld.bfd: probe-path-mutation.c:(.text+0x245): undefined reference to `wimlib_rename_path'
+collect2: error: ld returned 1 exit status

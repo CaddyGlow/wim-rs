@@ -1,0 +1,22 @@
+[
+  {
+    "flags": 0,
+    "result": "join 0\n",
+    "equal": true
+  },
+  {
+    "flags": 8,
+    "result": "join 0\n",
+    "equal": true
+  },
+  {
+    "flags": 4096,
+    "result": "join 24\n",
+    "equal": true
+  },
+  {
+    "flags": 4104,
+    "result": "join 0\n",
+    "equal": true
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "original": {
+    "status": 0,
+    "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nlookup-before\nresource 0 1 1 0 0000000000000000000000000000000000000000\nresource 12 1 0 0 0000000000000000000000000000000000000000\nresource 12 1 0 0 0000000000000000000000000000000000000000\nlookup-status 0\nwrite-progress 24 2 0 0\nwrite-progress 12 1 0 0\nwrite-progress 12 1 12 1\nprogress 13\nprogress 14\nwrite 0\nlookup-after\nresource 0 1 1 0 18bd74cdc2fa436617f905fff417a310c1626081\nresource 12 2 0 0 51fd632806731e55567f89bdfeebe216a3dcd031\nlookup-status 0\n",
+    "stderr": "",
+    "size": 1510,
+    "original_verify_status": 0
+  },
+  "native": {
+    "status": 0,
+    "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nlookup-before\nresource 0 1 1 0 0000000000000000000000000000000000000000\nresource 12 1 0 0 0000000000000000000000000000000000000000\nresource 12 1 0 0 0000000000000000000000000000000000000000\nlookup-status 0\nwrite-progress 24 2 0 0\nwrite-progress 12 1 0 0\nwrite-progress 12 1 12 1\nprogress 13\nprogress 14\nwrite 0\nlookup-after\nresource 0 1 1 0 3109c51b249b56b815315ca667f0229381e2e80f\nresource 12 2 0 0 51fd632806731e55567f89bdfeebe216a3dcd031\nlookup-status 0\n",
+    "stderr": "",
+    "size": 1510,
+    "original_verify_status": 0
+  }
+}

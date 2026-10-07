@@ -1,0 +1,8 @@
+{
+  "scope": "scan/state only; writer payload compatibility separately required",
+  "cases": 182,
+  "observations": 1010,
+  "mismatches": [],
+  "native_library_sha256": "52e0564a95902160ddcee6eb652286288799a7ac59157a2e553c9a3974db2ad8",
+  "native_library_frozen_path": "/tmp/wim-capture-platform-regression-ne2oh_f1"
+}

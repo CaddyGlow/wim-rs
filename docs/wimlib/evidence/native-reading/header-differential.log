@@ -1,0 +1,25 @@
+PASS valid_baseline: 0
+PASS bad_magic: 43
+PASS bad_header_size: 17
+PASS unknown_version: 67
+PASS part_zero: 25
+PASS parts_zero: 25
+PASS part_exceeds_total: 25
+PASS image_count_exceeds_limit: 10
+PASS oversized_blob_table: 17
+PASS oversized_xml: 17
+PASS oversized_integrity: 17
+PASS missing_compression_algorithm: 16
+PASS uncompressed_nonzero_chunk: 15
+PASS xpress_small_chunk: 15
+PASS lzx_nonpower_chunk: 15
+PASS lzms_large_chunk: 15
+PASS truncated_0: 65
+PASS truncated_7: 65
+PASS truncated_100: 65
+PASS truncated_207: 65
+PASS pipable_baseline: 0
+PASS pipable_placeholder_fields_ignored: 0
+PASS pipable_final_magic_not_revalidated: 0
+PASS pipable_final_version_validated: 67
+24 differential header cases passed

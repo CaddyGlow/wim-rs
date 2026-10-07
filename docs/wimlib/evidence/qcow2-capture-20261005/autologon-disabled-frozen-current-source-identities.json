@@ -1,0 +1,23 @@
+{
+  "hives_clean": true,
+  "machine_guid": "cc2e34e8-6de2-4457-b3bf-fc565c6eccfe",
+  "sam_account_domain_sid": {
+    "offset_in_account_V": 400,
+    "raw_hex": "0104000000000005150000001ed4705d62f85a039b069591",
+    "sid": "S-1-5-21-1567675422-56293474-2442462875"
+  },
+  "sam_domain_value_bytes": 424,
+  "sid_interpretation": "Unique exact self-relative binary SID signature revision1,count4,authority5,firstSubAuthority21 within regf-parsed SAM\\Domains\\Account V; offset andraw retained, SAM undocumented layout not assumed",
+  "source_sha256": "59da49ab227850c6d62a2d555f40a43bf19a8f8a7af3d10eedb2395b62799282",
+  "role": "actual frozen CURRENT Autologon-disabled preparedsource identities; rejectforfresh target",
+  "current_hive_proofs": [
+    {
+      "path": "/data/cache/qcow2-oobe-preparation-control-20261005/offline-source/Windows_System32_config_SOFTWARE",
+      "sha256": "8befc3a3d6e3e29d805c99202b1b710b522e2291e1667e7097cc67cb942e855a"
+    },
+    {
+      "path": "/data/cache/qcow2-oobe-preparation-control-20261005/offline-source/Windows_System32_config_SAM",
+      "sha256": "f3f2b340094f92e3e9178b8dac170e93389f4a2b42ac77c91f135a49230d857a"
+    }
+  ]
+}

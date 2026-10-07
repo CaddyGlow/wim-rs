@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "scope": "Independent upstream resource-decompressed complete image metadata byte comparison, including raw security table/entry flags/times/tags/names/stream order/padding",
+  "passes": true,
+  "metadata_bytes": 45113920,
+  "pinned_parent_metadata_sha256": "3102e753fe70eea2399958f541a3d61091e361949025a4959ba4f3a5c65c06ae",
+  "control_metadata_sha256": "60dbd5d618ecf3b2cbf08ecd6b85e0b414bf8a9b8737eab6cd4cd918ffee9527",
+  "only_changed_span": {
+    "offset": 11097624,
+    "bytes": 20,
+    "old_ReAgent_SHA1": "fc534489e238f6e4dc0dd7476a6566265d07a9a9",
+    "new_ReAgent_SHA1": "978830e09ac554b8572f8d92a2118d6a6ba968b3"
+  },
+  "all_other_metadata_bytes_exact": true,
+  "policy": "Containerheader/XML and compressed resources are not asserted byteidentical; exact ReAgent1\u21920 payload independentlyproven.",
+  "raw_report": {
+    "path": "/data/cache/qcow2-winre-staged-zero-control-20261006/capture/full-raw-metadata-one-digest-delta.json",
+    "sha256": "e1d8fb87a05491245dc313562ea4882af8f149e4244a0d38c8ba3de7d6e0060e"
+  }
+}

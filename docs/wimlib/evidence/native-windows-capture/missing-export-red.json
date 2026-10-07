@@ -1,0 +1,145 @@
+{
+  "scope": "Actual Windows capture contracts; basic NO_ACLS fixture and explicit full-feature gates",
+  "implementation": "native-red",
+  "guest": "Microsoft Windows NT 10.0.26200.0",
+  "dll_sha256": "1cfa93a967bd8a799091c2ec6e2281fcbb3f1691d3796686d756d6d6bf892c38",
+  "caller_sha256": "ceacfefb82a4ea7bbdf1c72e9e9aadc2983263013a4d344cfefe01f98fd392cd",
+  "source_preserved": true,
+  "source_manifest": [
+    {
+      "Path": "C:\\wim-capture-20261003\\source-\ufffd?",
+      "Attrs": 16,
+      "Creation": 634007667060000000,
+      "Write": 634007667060000000,
+      "Hash": {}
+    },
+    {
+      "Path": "C:\\wim-capture-20261003\\source-\ufffd?\\sub",
+      "Attrs": 16,
+      "Creation": 634007667060000000,
+      "Write": 634007667060000000,
+      "Hash": {}
+    },
+    {
+      "Path": "C:\\wim-capture-20261003\\source-\ufffd?\\a.bin",
+      "Attrs": 33,
+      "Creation": 639266027926040650,
+      "Write": 639266027926040650,
+      "Hash": "5FC94324CAA9E1D5ED54725D86A5095D918257E192E1092BD09ECEFA82763CD7"
+    },
+    {
+      "Path": "C:\\wim-capture-20261003\\source-\ufffd?\\empty.txt",
+      "Attrs": 32,
+      "Creation": 634007667060000000,
+      "Write": 634007667060000000,
+      "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "Path": "C:\\wim-capture-20261003\\source-\ufffd?\\link.bin",
+      "Attrs": 33,
+      "Creation": 639266027926040650,
+      "Write": 639266027926040650,
+      "Hash": "5FC94324CAA9E1D5ED54725D86A5095D918257E192E1092BD09ECEFA82763CD7"
+    },
+    {
+      "Path": "C:\\wim-capture-20261003\\source-\ufffd?\\\ufffd???.bin",
+      "Attrs": 34,
+      "Creation": 634007667060000000,
+      "Write": 634007667060000000,
+      "Hash": "5D8D910591D272938AEF5F966E0816E374BEAF7B5ADF02CCA5F8F770596C2CE3"
+    },
+    {
+      "Path": "C:\\wim-capture-20261003\\source-\ufffd?\\sub\\third.bin",
+      "Attrs": 33,
+      "Creation": 639266027926040650,
+      "Write": 639266027926040650,
+      "Hash": "5FC94324CAA9E1D5ED54725D86A5095D918257E192E1092BD09ECEFA82763CD7"
+    }
+  ],
+  "source_manifest_after": [
+    {
+      "Path": "C:\\wim-capture-20261003\\source-\ufffd?",
+      "Attrs": 16,
+      "Creation": 634007667060000000,
+      "Write": 634007667060000000,
+      "Hash": {}
+    },
+    {
+      "Path": "C:\\wim-capture-20261003\\source-\ufffd?\\sub",
+      "Attrs": 16,
+      "Creation": 634007667060000000,
+      "Write": 634007667060000000,
+      "Hash": {}
+    },
+    {
+      "Path": "C:\\wim-capture-20261003\\source-\ufffd?\\a.bin",
+      "Attrs": 33,
+      "Creation": 639266027926040650,
+      "Write": 639266027926040650,
+      "Hash": "5FC94324CAA9E1D5ED54725D86A5095D918257E192E1092BD09ECEFA82763CD7"
+    },
+    {
+      "Path": "C:\\wim-capture-20261003\\source-\ufffd?\\empty.txt",
+      "Attrs": 32,
+      "Creation": 634007667060000000,
+      "Write": 634007667060000000,
+      "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "Path": "C:\\wim-capture-20261003\\source-\ufffd?\\link.bin",
+      "Attrs": 33,
+      "Creation": 639266027926040650,
+      "Write": 639266027926040650,
+      "Hash": "5FC94324CAA9E1D5ED54725D86A5095D918257E192E1092BD09ECEFA82763CD7"
+    },
+    {
+      "Path": "C:\\wim-capture-20261003\\source-\ufffd?\\\ufffd???.bin",
+      "Attrs": 34,
+      "Creation": 634007667060000000,
+      "Write": 634007667060000000,
+      "Hash": "5D8D910591D272938AEF5F966E0816E374BEAF7B5ADF02CCA5F8F770596C2CE3"
+    },
+    {
+      "Path": "C:\\wim-capture-20261003\\source-\ufffd?\\sub\\third.bin",
+      "Attrs": 33,
+      "Creation": 639266027926040650,
+      "Write": 639266027926040650,
+      "Hash": "5FC94324CAA9E1D5ED54725D86A5095D918257E192E1092BD09ECEFA82763CD7"
+    }
+  ],
+  "cases": [
+    {
+      "case": "plain-no-acls",
+      "flags": 32,
+      "result": {
+        "exit": 77,
+        "signal": null,
+        "stdout_base64": "bWlzc2luZy1jYXB0dXJlLWV4cG9ydA0K",
+        "stdout": "missing-capture-export\r\n",
+        "stderr": "",
+        "stdout_truncated": false
+      }
+    }
+  ],
+  "independent_reader": null,
+  "differences": [
+    {
+      "case": "plain-no-acls",
+      "original": {
+        "exit": 0,
+        "signal": null,
+        "stdout": "create 0\r\nscan 9 0 0 0 005c\r\nscan 11 0 0 0 005c\r\nadd 0\r\ninfo 0 1 1\r\nbefore\r\nblob 1 0 1 \r\nblob 0 12 3 0000000000000000000000000000000000000000\r\nblob 0 4 1 0000000000000000000000000000000000000000\r\nlookup 0\r\nnode 005c 16 1 0 1265169906:0 1265169906:0 1791006048:320983800\r\nstream null 0\r\nnode 005c0061002e00620069006e 33 3 0 1791005992:604065000 1791005992:604065000 1791006048:585163000\r\nstream null 12\r\nnode 005c0065006d007000740079002e007400780074 32 1 0 1265169906:0 1265169906:0 1265169906:0\r\nstream null 0\r\nnode 005c006c0069006e006b002e00620069006e 33 3 0 1791005992:604065000 1791005992:604065000 1791006048:585163000\r\nstream null 12\r\nnode 005c007300750062 16 1 0 1265169906:0 1265169906:0 1791006048:320983800\r\nstream null 0\r\nnode 005c007300750062005c00740068006900720064002e00620069006e 33 3 0 1791005992:604065000 1791005992:604065000 1791006048:585163000\r\nstream null 12\r\nnode 005c00e96f22d834dd1e002e00620069006e 34 1 0 1265169906:0 1265169906:0 1791006048:583091000\r\nstream null 4\r\ntree 0\r\nwrite 0\r\nafter\r\nblob 1 0 1 \r\nblob 0 12 3 8800600cf8368d26043e7efe086be367bbdafff1\r\nblob 0 4 1 b7cc818da1580608ccbf72535204155bbe59b29c\r\nlookup 0\r\n",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "native": {
+        "exit": 77,
+        "signal": null,
+        "stdout_base64": "bWlzc2luZy1jYXB0dXJlLWV4cG9ydA0K",
+        "stdout": "missing-capture-export\r\n",
+        "stderr": "",
+        "stdout_truncated": false
+      }
+    }
+  ]
+}

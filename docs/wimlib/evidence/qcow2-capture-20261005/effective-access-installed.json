@@ -1,0 +1,74 @@
+{
+  "scope": "Fifth installed Windows independent effective permission comparison",
+  "source_baseline": "effective-access-source.json",
+  "observations": {
+    "Protected": [
+      {
+        "Context": "current-system",
+        "UserSid": "S-1-5-18",
+        "Administrator": true,
+        "PrivilegesDisabled": true,
+        "AccessCheckAllowsRead": false,
+        "ActualReadHandleOpened": false,
+        "GrantedAccess": 0,
+        "ReadError": 5
+      },
+      {
+        "Context": "filtered-standard",
+        "UserSid": "S-1-5-21-3353072808-1446573476-2821453723-1000",
+        "Administrator": false,
+        "PrivilegesDisabled": true,
+        "AccessCheckAllowsRead": false,
+        "ActualReadHandleOpened": false,
+        "GrantedAccess": 0,
+        "ReadError": 5
+      },
+      {
+        "Context": "administrator",
+        "UserSid": "S-1-5-21-3353072808-1446573476-2821453723-1000",
+        "Administrator": true,
+        "PrivilegesDisabled": true,
+        "AccessCheckAllowsRead": false,
+        "ActualReadHandleOpened": false,
+        "GrantedAccess": 0,
+        "ReadError": 5
+      }
+    ],
+    "Control": [
+      {
+        "Context": "current-system",
+        "UserSid": "S-1-5-18",
+        "Administrator": true,
+        "PrivilegesDisabled": true,
+        "AccessCheckAllowsRead": true,
+        "ActualReadHandleOpened": true,
+        "GrantedAccess": 1,
+        "ReadError": 0
+      },
+      {
+        "Context": "filtered-standard",
+        "UserSid": "S-1-5-21-3353072808-1446573476-2821453723-1000",
+        "Administrator": false,
+        "PrivilegesDisabled": true,
+        "AccessCheckAllowsRead": true,
+        "ActualReadHandleOpened": true,
+        "GrantedAccess": 1,
+        "ReadError": 0
+      },
+      {
+        "Context": "administrator",
+        "UserSid": "S-1-5-21-3353072808-1446573476-2821453723-1000",
+        "Administrator": true,
+        "PrivilegesDisabled": true,
+        "AccessCheckAllowsRead": true,
+        "ActualReadHandleOpened": true,
+        "GrantedAccess": 1,
+        "ReadError": 0
+      }
+    ]
+  },
+  "raw_path": "/data/cache/qcow2-installation-1005-v5/effective-access-installed.json",
+  "raw_sha256": "3c769b57ccf589bad84bfc12ad445d26a206b980522473cb4dd8d26c4ab20da4",
+  "passes": true,
+  "limitations": "Representative protected/control read-access check only; does not establish the complete metadata, installation, servicing, or recovery gates."
+}

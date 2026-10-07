@@ -1,0 +1,945 @@
+{
+  "schema": 1,
+  "scope": "Reclassification of retained V12 observations by exact corrected101168 source path/alias/fullreference; original601invalid assignments retained separately",
+  "historical_runtime": {
+    "selectors": 101769,
+    "failures": 2595,
+    "different24BIDs": 2307,
+    "open_errors": 288
+  },
+  "runtime_correct_and_invalid_counts": {
+    "correct": {
+      "pass": 98619,
+      "open_error": 275,
+      "different_ids": 2274
+    },
+    "removed": {
+      "pass": 555,
+      "different_ids": 33,
+      "open_error": 13
+    }
+  },
+  "correct_source_scope": 101168,
+  "removed_invalid_posix_scope": 601,
+  "actual_frozen_target_namespace_counts": {
+    "counts": {
+      "exact_raw_namespace_alias_pair": 98622,
+      "missing_expected_dos_alias": 244,
+      "expected_alias_binds_other_file": 2275,
+      "missing_long_path": 27
+    },
+    "raw_namespace_entries": 280376,
+    "accounting": "ReadBudgetUsage { metadata_bytes: 814592636, cache_bytes: 2954564, work_items: 951524, decompressed_bytes: 0 }"
+  },
+  "runtime_offline_crossclassification": [
+    {
+      "runtime": "pass",
+      "offline": "exact_raw_namespace_alias_pair",
+      "count": 98619
+    },
+    {
+      "runtime": "open_error",
+      "offline": "exact_raw_namespace_alias_pair",
+      "count": 3
+    },
+    {
+      "runtime": "open_error",
+      "offline": "missing_long_path",
+      "count": 27
+    },
+    {
+      "runtime": "different_ids",
+      "offline": "expected_alias_binds_other_file",
+      "count": 2274
+    },
+    {
+      "runtime": "open_error",
+      "offline": "missing_expected_dos_alias",
+      "count": 244
+    },
+    {
+      "runtime": "open_error",
+      "offline": "expected_alias_binds_other_file",
+      "count": 1
+    }
+  ],
+  "all_source_ids_used_only_for_source_scope_matching": true,
+  "source_target_ids_not_compared_across_volumes": true,
+  "remaining_correct_runtime_failures": 2549,
+  "removed_failures": 46,
+  "remaining_correct_runtime_wrong24BIDs": 2274,
+  "removed_wrong24BIDs": 33,
+  "correct_open_errors": {
+    "not_found": 273,
+    "sharing_violation": 1,
+    "access_denied": 1
+  },
+  "interpretation": [
+    "Removing invalid expectations reclassifies33 of2307 observed wrong-ID failures. This does not measure whether fixing duplicate aliases also changes other Setup bindings; causal impact requires V13.",
+    "All98619 correct-scope runtimepasses independently match exact frozen target rawnamespace alias ownership.",
+    "Three correct-scope runtimeopen errors have exact frozen pairs: sharingDumpStack, accessprotected.bin, transientnotfoundFontCache-S-1-5-18.dat.",
+    "FontCache-FontFace.dat was runtime-notfound but frozen expectedalias resolvesanotherfile; retain live/frozen stage differences.",
+    "New V13 gate should use all101168 corrected rawselectors. Genuine2274 retained wrongbindings remain in V12; fresh fullruntime and rawnamespace offline checks are required to determine recapture impact."
+  ],
+  "source_identity_bound_to_existing_current_after_audit_hash": "59da49ab227850c6d62a2d555f40a43bf19a8f8a7af3d10eedb2395b62799282",
+  "target_identity_bound_to_existing_immutable_handoff_hash": "b3bc06631a98880fc985632ef13fee1bd2ce8c7c7a7cc0e6fbaf4f4b4226a6e1",
+  "target_no_boot_or_mutation": true,
+  "artifacts": [
+    {
+      "path": "/data/cache/qcow2-v12-offline-audit/v12-corrected-alias-runtime-rows.json",
+      "sha256": "9bf8bf4214b618be6a988133f256a9210089c2faefba604282919f5b8d30cfd5"
+    },
+    {
+      "path": "/data/cache/qcow2-v12-offline-audit/v12-corrected-alias-offline-differences.json",
+      "sha256": "9baaebdaa2702b06e4b25df568c6f123885f79d57cd4bce7163ab5f5b63e680d"
+    },
+    {
+      "path": "/data/cache/qcow2-v12-offline-audit/v12-corrected-alias-runtime-offline-correlation.json",
+      "sha256": "ef191ed996a4e7f6bc9e71d849b766c6f37a3df3004acb1900f92055984ffc19"
+    },
+    {
+      "path": "/data/cache/qcow2-v12-offline-audit/target-raw-directory-index-namespace.json",
+      "sha256": "dafae50857b4fa46232b1c1f03a35e3f053276a52e6b5976f7348d6b2171d74a"
+    },
+    {
+      "path": "/data/cache/qcow2-v12-offline-audit/v12-corrected-alias-raw-target-differences.json",
+      "sha256": "8e6b0397d727829df4bebc46a573df4a1671ceefc16ef227c639d6ad9cc89ea8"
+    },
+    {
+      "path": "/data/cache/qcow2-v12-offline-audit/v12-corrected-alias-raw-target-counts.json",
+      "sha256": "b4a2389c963174481d3dffd19ff22a3b1a0cfbb458f9dcacf6b4471107129db3"
+    },
+    {
+      "path": "/data/cache/qcow2-oobe-preparation-control-20261005/offline-audit/namespace-correct-distinct-dos-alias-selectors.json",
+      "sha256": "f7e3ec0a40b56beccb0c48690c1195da95da1928a051e308bdd8e5cecd00f26c"
+    },
+    {
+      "path": "/data/cache/qcow2-oobe-preparation-control-20261005/offline-audit/old-spurious-posix-dos-alias-selectors.json",
+      "sha256": "2b1187ea696e640614e16820f7000d424cca68eb62bc24e9a947517100479293"
+    },
+    {
+      "path": "/data/cache/qcow2-v12-offline-audit/v12-corrected-scope-genuine-runtime-failures.json",
+      "sha256": "ea487eab979701767a16aeb6e5a99fc1d3de944e676ab15179a785cd9b7e5470"
+    }
+  ],
+  "exact_source_path_alias_fullreference_scope_coverage_no_missing_or_duplicates": true,
+  "original_runtime_result_and_selector_batches": 102,
+  "original_hash_bound_batch_artifacts": [
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-000000-result.json",
+      "sha256": "cbd885488c6a227e8887cb7f68b06a77f7c0b1b15aa90ee2344b6ff6dc2483c7"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-000000-selectors.json",
+      "sha256": "2ef479caecf4ab15ed96406e832bd449630fffcfe2312f8023fd23fb6e22c629"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-001000-result.json",
+      "sha256": "b57d06bbfbe5047f737e582080295492018e9e7308211de69ebe17ef51ab42ac"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-001000-selectors.json",
+      "sha256": "e59fb406d20baaeaec6476edc714c25040cdba3a85ec217982eb7a346973aec0"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-002000-result.json",
+      "sha256": "a92c4fb14c3da18c9b8850e8a289b7bf3896c5da4bae965c7ed6da09218f319a"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-002000-selectors.json",
+      "sha256": "ecc7feb7e0c85e258cc02e5c6b3d0e57fc9b42e984e82521356c5f5c0aecde2c"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-003000-result.json",
+      "sha256": "2fe1c5e11e80d5a68759e6a33636ab1527b486b6ec481d4db5dbaf06a3373a7e"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-003000-selectors.json",
+      "sha256": "a26d0b30a1fd5b059deeb0ec440b8c356484e5f172262b34958852ad0b732fdf"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-004000-result.json",
+      "sha256": "1dc3602a4f28560a17420265947d9a8655514ea1c2701706325064cbfd24b64b"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-004000-selectors.json",
+      "sha256": "704ba5e7184803ec512b328cc8783bc8e51fddc338332b1657be7c046e9cc5c8"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-005000-result.json",
+      "sha256": "72c15254ccf2c2650255c5ac3a5de120bf14a7ffa4a8abf2fb3d47208da9bd67"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-005000-selectors.json",
+      "sha256": "8ced3cf3c00431bda414826e407c84459566cf9b79b13d65b8ab4d4b2b6b095f"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-006000-result.json",
+      "sha256": "3e25d66014b6baa35b0a72376dd0ea473185f2800fc6fadd4dac4f6c791d1ee8"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-006000-selectors.json",
+      "sha256": "cb04dd5035377db7958f9edd8caf59326e245cb2e6ee25656409d1bb16e1aea9"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-007000-result.json",
+      "sha256": "2ffc7734a0ef0a708002f74fe1b36a3bbf1b3585494bc5a8272c62ce1749c0ef"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-007000-selectors.json",
+      "sha256": "88545057e6c85612b969fe1571ddf2e252b51526da16c5df55a3390554eac77e"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-008000-result.json",
+      "sha256": "2015aba1c7b4c63f5f699e68ea692f65f1e14e1daae82244493bef51aa0cd8af"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-008000-selectors.json",
+      "sha256": "90a5a5bc193a58266ce620457c8436dee2ca949bae0e233814e512341438d466"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-009000-result.json",
+      "sha256": "81320db9b64673638b7e559facda1be3f5dd7f175a910b37c4f6503d08e4e2ff"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-009000-selectors.json",
+      "sha256": "a37b656ce8c1d5b5ddc95a0e435b155a019df3995f97120363f820053b960167"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-010000-result.json",
+      "sha256": "c9549f7fdba7e88d6251a6ba514cc88bcbeb96d1b3aac396c20961c1ca515520"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-010000-selectors.json",
+      "sha256": "eccbf8a8542af92210da96f2928e280db694c1baf4324473ec3d5896d49f4a3f"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-011000-result.json",
+      "sha256": "14fd6c8b3d5a5f35fb6584baa285ca8ad1ff6cbcacc4ed60d5c4593feb7d3404"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-011000-selectors.json",
+      "sha256": "44ab23727879b42ee6563e66e809e450c7c57f82e90d3149bd4c04de9c506518"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-012000-result.json",
+      "sha256": "7cc489cc6aa60d5c8f7574b2683f75b996e25b3e892d0cca6675c2da1592f3fa"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-012000-selectors.json",
+      "sha256": "6ef6d35da86fee70f962db33017d461a5cba4de6fc82cc82a5655a6f06c7753a"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-013000-result.json",
+      "sha256": "8ca75bff510b8b9856ce2fc120652f87be46f7ae699b7ebc2e85565ff9b50cb1"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-013000-selectors.json",
+      "sha256": "d1bbde8846b831d553ce49e895f6e3afff33dbf6acd92edc6d22f541e35771b5"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-014000-result.json",
+      "sha256": "b7910407d5b1fdc663b4f159d2d94988d2ddc11fd3a38c29f1ff67d0bfb0af8e"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-014000-selectors.json",
+      "sha256": "12ce732bbd6d49a731ca584ec1c0bc20726510b82eb66ba86e7f962cd04de381"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-015000-result.json",
+      "sha256": "25f9572e1257df8196e9da8bd5ef580818624be5ee6975a391ca842e3ddb5a38"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-015000-selectors.json",
+      "sha256": "9c610ba60c7949e739ff6f6472cf4859bb056d3c3268c4171279715d4a5e98dc"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-016000-result.json",
+      "sha256": "4310e29e4f9d905beb33a51ee777f187242717593ec8dd88ae9ae1d222e5013c"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-016000-selectors.json",
+      "sha256": "0772fb437b920e5202d25dbd15016970204c620d04422e83d39f1ecf4651a3e0"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-017000-result.json",
+      "sha256": "2f90400d22b3905513202e444bd45a165bb7c7ae18f2911d56558da4ee40a377"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-017000-selectors.json",
+      "sha256": "73b66eb2b1ed818c20471f26ee9d29db963e66343268d98bbc45998f32931966"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-018000-result.json",
+      "sha256": "dbb5c73c6778e145be1692e746775b71b393162df95b8873932f3bf43f28d2d2"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-018000-selectors.json",
+      "sha256": "63f1d3ba4d74f912bfef5f7d0fb8075f3f9d5151be9892fdaa780c241d9c2a44"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-019000-result.json",
+      "sha256": "6812f2121690fc873c1dfbe3855d26a364aa932e9fc9d9c491ae24311af43c5e"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-019000-selectors.json",
+      "sha256": "e90962991b9acaafc8e6a6764a4f9bd5e908196199b009a668807d691964a075"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-020000-result.json",
+      "sha256": "c01d59afdb6268de0ac0030782ba93cf85a8eb128721df84c5c1e8aae4b8b19d"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-020000-selectors.json",
+      "sha256": "001eb44171811df770a49cb748cb8ed02302c6bfc0567f44ac7041f7eb6368d0"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-021000-result.json",
+      "sha256": "4c0dc229c69f6bca5679ea6d72368c88cdd1e57723017a6df6278f5466a971a9"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-021000-selectors.json",
+      "sha256": "2658d1ebb236bf96dede0d4735516eeaf5741263c58c51cfbe4cafc1b9bf60f6"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-022000-result.json",
+      "sha256": "a05a0bb3399ca6609c372230fa2764164bdc7eee48110d235d5bde0cb3da5747"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-022000-selectors.json",
+      "sha256": "c205f479ce1323a33558dd8c86f97fd952c53b10e4831aa66f3b45f99e8d2313"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-023000-result.json",
+      "sha256": "0e34ce42d024916fbaf4b16880b9f98ff5f68953dac7a8af1f8b7958a687fd39"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-023000-selectors.json",
+      "sha256": "8356c3d698461d76cd61183191df1243a122f58483c61e8c8e5c5dfdeed7c84c"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-024000-result.json",
+      "sha256": "2cf506a8fe93d6657912a6eeca9afa0ab57ec90ef676ff6d5b8194cdac9379da"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-024000-selectors.json",
+      "sha256": "1f6d0af51bd58a763e835b704d9b2c6a00efa8f7dd0da700bcab8f9b5cb8c63f"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-025000-result.json",
+      "sha256": "bc48b8d5f4e9db332092405f69d10a45a94ac4b1d5b525e24d2cc14637891606"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-025000-selectors.json",
+      "sha256": "1b8ec0591a4487d0ea9db180d72b6e59ea6a5931da617eda11579227d8b50d1d"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-026000-result.json",
+      "sha256": "b0058da40f7bab24b02afc79b0b5554f83f9889f7e2862f82e496fdcc04ba227"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-026000-selectors.json",
+      "sha256": "7c7f803f63989bd71d451612dda43353f254d515bdc91d573ff897e89a055dde"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-027000-result.json",
+      "sha256": "8085bb7a62d712d933ef339eb91992c8f69cace5dbfe58e06cb7a5ab1283ba2b"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-027000-selectors.json",
+      "sha256": "f2b78aa46724de3d442e189e2d73b0acf11ad64806f1ebbcf7b3c48cbcd4a368"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-028000-result.json",
+      "sha256": "2a879aa44db5c1f7d9aae8c1b05d7157013cdd2d8bdd96acd808f3cea060fe61"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-028000-selectors.json",
+      "sha256": "3af6a1ed593fadacf254b418abdbf716c0347bd69df00a63a291ef7ba8f9bff5"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-029000-result.json",
+      "sha256": "d41fcdd3fa816f579b8a8193cae1d9e0b5433c23737e6b21bd6db0067ca876dd"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-029000-selectors.json",
+      "sha256": "c953984c60f12e8052dd1d484c16087a73dd6388919c113126ec2ebaa3aa3842"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-030000-result.json",
+      "sha256": "8f8eb91143d67081997590bb04bc12d2d9be575d0e322786edec181cc2447b76"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-030000-selectors.json",
+      "sha256": "8ef869305781e81facb7139c4215dd0d181f73b87d68d7da07979e65d8902ae0"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-031000-result.json",
+      "sha256": "6c5d034af572f0deb0bd36300f67038873f5875817473ec6fb9e9774801e6203"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-031000-selectors.json",
+      "sha256": "3ebf69ed4d787febd9c0e86149cbbe6aaa02218d82baa03a0f59d74774a5f3b2"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-032000-result.json",
+      "sha256": "bcb719fb4b4036f1bab7a47b98843163341123ed996985bb64338237825afc1d"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-032000-selectors.json",
+      "sha256": "706d5edb0710b21940a339ff9a21bf1e54605da2fb3509e1ae1191f1a6e721de"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-033000-result.json",
+      "sha256": "691ba4f78925beafa71de3d535d5228d4eaf60868da4fbc7d15fbced8045346d"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-033000-selectors.json",
+      "sha256": "5eae16ebb38816ab927001ba286bbbfab1e1372d400f6cdab73ff2d33c2e698e"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-034000-result.json",
+      "sha256": "f50796979ba89ac0d6b68cc4cb503b0a0c52bbf9b9ac4b54652159725dbfd0ec"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-034000-selectors.json",
+      "sha256": "bb0617d52c56087be0ba422174b2ef437379658fcb8bfef9a4a5b6e34e6ef42c"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-035000-result.json",
+      "sha256": "1049b23a7662c0613c04e3350a8994cd90ba686dde38cce3e275f5b3c3e4baec"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-035000-selectors.json",
+      "sha256": "e48f0c75fb01e54f3f8ec979b3f65d096b2251ff38953548722d86c73ef116d3"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-036000-result.json",
+      "sha256": "6060ab32f732f887d1e4f19aa1f9a8654a44d0d29547fa6d1be4b2d8b175d1c6"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-036000-selectors.json",
+      "sha256": "75529082d218c4f133f330a896eda1d6646e40e136382fec3cd0c0174056ec0d"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-037000-result.json",
+      "sha256": "9213ba947a72fb862172e4661a08f71d48a2301b8e4b2eda24ef28e731ad5b96"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-037000-selectors.json",
+      "sha256": "246115e788ee2c47d5bf5e3d6cd1b3732e41cb8ebd431b1421e4248fb3fd047e"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-038000-result.json",
+      "sha256": "a7b35ad9f61277a310ead298c4d39769a120538d60665d210d904314499ddb00"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-038000-selectors.json",
+      "sha256": "4dbf93c43c393eeacb088f0742e7b5d618cb30e32338e917263eeec10b94cb2f"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-039000-result.json",
+      "sha256": "630c1302cedea1e821d19cb9961913e4de2a808443ea201f26c0f228d5ccf9d0"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-039000-selectors.json",
+      "sha256": "d54531fd79cc7383c6c859b3c5fa073d51adc66a659f834cb6382b8a55bbd24e"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-040000-result.json",
+      "sha256": "4c6f93fe0789724156b4d42835a94ab02103e9211c094b0ecdd3858897c5a662"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-040000-selectors.json",
+      "sha256": "d5932fb6f3bd9fcf0e5494e1be32eabbf55f593dbf727a4fb93ba791fa20a378"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-041000-result.json",
+      "sha256": "917ee811cbc088339d537567e93e66ab55cedb7e958cb9618a3b5320658d6a2f"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-041000-selectors.json",
+      "sha256": "77f6d3574c23051bfaf37a22237df48b0fe89a98d6652774d1c3bfc487270ecd"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-042000-result.json",
+      "sha256": "0265c34b960dd179ea17215371bcb4dba28019c5e70240d39ffa5efbda5ab78f"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-042000-selectors.json",
+      "sha256": "a28f55a9425547c525b1f62a3bd2ec6721c77c44bb97ae1a088ad3e8a52605a9"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-043000-result.json",
+      "sha256": "30ebf3aa810f0e82a436fed50df2e8269dde17f138a585bf9e9f6789a1eed00e"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-043000-selectors.json",
+      "sha256": "7f262ca4ede5e42fe98d1bf473f8f59cf5e2231b73e7778fc9b042354a3ed8ae"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-044000-result.json",
+      "sha256": "ed02c99a98ebe5a9da67d640308cc9d797244e0e196d89932812a0cd46f3ac61"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-044000-selectors.json",
+      "sha256": "899d61dc523fee31a2b05a355ff02472c1c02b612ff2a967fa9c34eddd5c4161"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-045000-result.json",
+      "sha256": "21812be94b8dc87593dca6428838535ac7fe650ff79e9e675c6c539157a632fc"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-045000-selectors.json",
+      "sha256": "d524ccab4cb9effe006c65d8b766d8808ca14cc885e8d23b813deddf43eca7a6"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-046000-result.json",
+      "sha256": "8b3bfa7e506ac68937e730c134b4c8c0b35e013c257842a6bd1826e1ce6fb9e7"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-046000-selectors.json",
+      "sha256": "f4f0943205242b21fea82675ab8f6a8bda586d9a490bea5b896ed9a89eec420f"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-047000-result.json",
+      "sha256": "4138399dd04e59c370b0d81a91c33916790296a01df6c1d702f47304aaf4b8f0"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-047000-selectors.json",
+      "sha256": "a31c97055fabdb4ba470cf50f0129f94c225409862204d7d17531fd80fa98a84"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-048000-result.json",
+      "sha256": "672bb4037f0edfdd6de7f918791b3fcae7adee41d2a3ab780450e93f681e9d66"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-048000-selectors.json",
+      "sha256": "ddc6329de920b20222bc4c389d313ab6e29751bd1e57015edeaa960ae7c54886"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-049000-result.json",
+      "sha256": "177223bba738f870fa37820d07846cc25aac21a25298a5a549b116a1b91c40c8"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-049000-selectors.json",
+      "sha256": "8f18351309e8ecde97094aed0399a8eb4435b3fe7d6b5737b2702c553336702e"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-050000-result.json",
+      "sha256": "125e21454d81a23465bc79f880819f9c49a45afac862fa1696fa5f89141deb83"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-050000-selectors.json",
+      "sha256": "51e7ba0018561927c028fa1f8ea8e202db45ce4afa2decad9cc91f0e246eaa14"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-051000-result.json",
+      "sha256": "53635eb02d96ef0d85b21041099ce184d0ed9cee1734e36728616622638a8c3a"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-051000-selectors.json",
+      "sha256": "0140a0a4f0512cf1c77fb785c515b909956ea87875754dc4b8ff7fdf91ad134d"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-052000-result.json",
+      "sha256": "5c9772c531941c0135b6ca84d395ad49c089c1647515a12e3e35d2080caa4716"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-052000-selectors.json",
+      "sha256": "9ef21fe69ae9d9f414ce5a20ecba677ca6ecf70243adeecd4647b4016cd38d58"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-053000-result.json",
+      "sha256": "ec6ed8e16f881d7e5a8c778a6ecb763cfada200a72c6b972fbe5cd7e1a493a9b"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-053000-selectors.json",
+      "sha256": "21851db31d22b9c2b0728cb973eafc3e588c576ce3f4bebd0e171b89f0a8b95e"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-054000-result.json",
+      "sha256": "7d58a48cd3ffa96246e9822ea87474b3ae3f05ebf0ec53265b7d4e50dbbfac44"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-054000-selectors.json",
+      "sha256": "a0e55b4077c7846916f407d9db81f2cc843b5d56aac64a06a220165bf19f2682"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-055000-result.json",
+      "sha256": "40491e453c7ab134346ea20b1b6d4eb91285d0a9aa6f6f43f8b8dd14c97979d6"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-055000-selectors.json",
+      "sha256": "d24990c72291b0af45acc6829bcd0ae816b6b5d6d26530c89a93872d22fe1608"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-056000-result.json",
+      "sha256": "f0baacf39fdcf2ed85754817ce3b5631afad2fcb9eb8a7850d9c252fe46fd520"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-056000-selectors.json",
+      "sha256": "c4f7d348f4ac531082ca363cf314600d5163d38855c374b3d6403a5ca5a3c19f"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-057000-result.json",
+      "sha256": "a79e0d489414fc9c6912b6bd7f18754c18a160b3be30cdab4cf757e691062dce"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-057000-selectors.json",
+      "sha256": "334d576db3286a6d807044b9b822193032e2e4b92cf9a3a20fbd7801781e3f14"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-058000-result.json",
+      "sha256": "ab76c174002939c568c2d26b7ece86fe18a5a5885027408c87b2d607a897f0b6"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-058000-selectors.json",
+      "sha256": "7276bb62beafa1d96fed3f92a66a58d9e2b1d28ea813fdba968e6bd6d0255b2d"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-059000-result.json",
+      "sha256": "3b01e323e1fe83ca02997ffe5ea451c565e29dfd756797340941533d161c8c01"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-059000-selectors.json",
+      "sha256": "1d59008eb1a1777fabd9b44c8f76e12379c1a070a210c584b76e99b6832cbe05"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-060000-result.json",
+      "sha256": "b9f8e2d880eb03551c015acad7b2c3e65c423302389fde97d4c5dc83c17436bc"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-060000-selectors.json",
+      "sha256": "95f713cbc0bb62420e692432358cf4b2bb1a3f6f4f9036636b3019762f4d7c20"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-061000-result.json",
+      "sha256": "d91d6f7ecb7d0608be222b7c5e78e771ba2b107a7061d1c6361990d8b280a463"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-061000-selectors.json",
+      "sha256": "40f3f3487dbc536578f0621643690daf4bc5a514b33acb6699200be7dd31af84"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-062000-result.json",
+      "sha256": "1168d12ae4c8c1710054dadde9fd19ef4c589f40c460418d4a38e726a4fbea5b"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-062000-selectors.json",
+      "sha256": "437ea366f14095430f77946d2e503c9e61dab6a6262d54c74a3270d65e041485"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-063000-result.json",
+      "sha256": "b3b25f76129e755ee0182257adf2b7d609eb22e6a1aa713735c0128a4720eff6"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-063000-selectors.json",
+      "sha256": "113def1745ae3fa9450793671765d085910409e35ae2c9d5446d9ace12c4deed"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-064000-result.json",
+      "sha256": "379c33a59f353c4991c8def24e05b2090406e14cd5b11e30c07f662eb0e8923b"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-064000-selectors.json",
+      "sha256": "f49fa7f017db9c7f1873454327197a097f0d082dd208d438dd998ae508e70cd2"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-065000-result.json",
+      "sha256": "103fef0941a4cc3b4a4f78ec36e68901b59d92173186132ced002f754ecf59ba"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-065000-selectors.json",
+      "sha256": "a37c03830f9af10c0e409b81860fdbd866408c9da81c7d4a32fe4326f18f7ba9"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-066000-result.json",
+      "sha256": "3a807a0f388db202e52eb096efb454edb53433af8c19bd76fe85bec5e5acfcd5"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-066000-selectors.json",
+      "sha256": "89f8d64d10de2883ede91523cd82d0cd0bfad9abe8abebff626e8b91a4969ae2"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-067000-result.json",
+      "sha256": "82274ca807020dc379e3d935c6c32492757618542872496c32e70919857eaf89"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-067000-selectors.json",
+      "sha256": "6ce99ae9481ac57e04a22b65badfa563d2a3224f4cfe715f6b68f25bb1669626"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-068000-result.json",
+      "sha256": "85bf94b88317ead494ee6aaeb461c680277096010f43b6eb28799dc12c349295"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-068000-selectors.json",
+      "sha256": "bbee94e1d107b1d07ff59e53ebf4dc4aaab8a04f97af072c3191a656ff3ee1a9"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-069000-result.json",
+      "sha256": "f8c90713c729ceae1ec3fdcb7b647ddb0f8b64af808121d5dd7d68c2f97b3b53"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-069000-selectors.json",
+      "sha256": "f0dc589b636a63522c01820313a11bf553e90d7057041e9a2cff23ca5b00f0fd"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-070000-result.json",
+      "sha256": "8b63b5d8db286af15947c7a942a837738a8a77a81d4311884ecf1e2b24467ab2"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-070000-selectors.json",
+      "sha256": "4c619200f47ddee36b441f87962759510b7b9361bf09abd30eb9afa5c92fd11f"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-071000-result.json",
+      "sha256": "78370698d01fdafb084348ec0178ad1cd7e7d21646a1420ddcf719b422e96a6d"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-071000-selectors.json",
+      "sha256": "469c7ea180a756415a4bae047796bb5e6594c625ab7c7100c3048d1da17b915e"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-072000-result.json",
+      "sha256": "84aa3a62af48bfcf02a0048b1bafc99d00c4bccb883eab861cd39542188fa784"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-072000-selectors.json",
+      "sha256": "c821c1e4020eaae686fb8f1723c6b6d8a77c70f11e7cf5524f84be2d1266c0a2"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-073000-result.json",
+      "sha256": "217351c4c6b6d02305ae5cd500bd19821c7702e0bd1f67e06a476993be774285"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-073000-selectors.json",
+      "sha256": "97e378cb13b75b70a5040533ae03eb5d2687a58ef1c3560ba4a35505b13401fd"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-074000-result.json",
+      "sha256": "ab4a20b8c4851a6079433ddccbac9d5e1c2ac1054ad6dc5bca3b11348cdc9ac0"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-074000-selectors.json",
+      "sha256": "c0f8bcab9b204416d86f427d12554f10ede22a50b6e212eedb570b2d0d398194"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-075000-result.json",
+      "sha256": "edd34d346cfdf96ad1adb32450283e4c8139701080a0ccd285e4611be57528af"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-075000-selectors.json",
+      "sha256": "da92c9afdf1f60a73a09641e71a90c80eeea296007fc137ddea20882c5ddb176"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-076000-result.json",
+      "sha256": "48cada3de70b6ac014423321d5c684bacf44aedd7ce533a8b205eaf428f1bb99"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-076000-selectors.json",
+      "sha256": "a8d9b16b5d9b455d92dbfa517c2ffb8b61bcd58c744cb87d593463465d429f14"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-077000-result.json",
+      "sha256": "4ed070e08b75f6bb68ba1f22ad11da74a35a74ebade40a1eb92a14ef4934445f"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-077000-selectors.json",
+      "sha256": "7c683181f777a2a9db3d903e925aeefc613cee48ad5d7c21706cfde531429bdb"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-078000-result.json",
+      "sha256": "1556857d846d7c1b5729f7f3015431f0a039014e296eae4e2db643afd072583b"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-078000-selectors.json",
+      "sha256": "4a9bd566aa61b1e9d0589d5ed3cd38f2d494e17354e2a297941e0b1d795ae86e"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-079000-result.json",
+      "sha256": "2ac4705cc7a9873f85d1e37257da4cc2ad9f140e1ae7268215268325bdd7d705"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-079000-selectors.json",
+      "sha256": "12bc0ac73b2ea8dce9a7a9cc8d8b6878808afce3c288c9bb802c9cdcf79e7c3b"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-080000-result.json",
+      "sha256": "5c3f6444246f47a46ee685b574622e5f107cc596b0ebc1e5df1bb4df3bf042be"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-080000-selectors.json",
+      "sha256": "33015ae738d4c264a2ed945f19f015f770d47bfbd6bb5aec9ac565eb451d1f7c"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-081000-result.json",
+      "sha256": "0f9be65c4752293b05f702749aa00da726a8c2a49d90500cec56c471c68c8a6a"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-081000-selectors.json",
+      "sha256": "b0b41beef8b3f7fdbfec759750a76ddd99c5e935b0754e10c1d6af147b9924e9"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-082000-result.json",
+      "sha256": "f56a31593f734bf3de9559a8751e2cc128616437d20482d50591d5738224bfa7"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-082000-selectors.json",
+      "sha256": "d038bdf0d7934bc7aef0aa8676f97729352445674368611c22166df3c3bd2887"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-083000-result.json",
+      "sha256": "49fd4c78049b280bf0beb05123afd5953bf0bd8a34028fe839eea5367887b636"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-083000-selectors.json",
+      "sha256": "76448586e73ecc56753c81da782a871654b377d460120cf3cd4732d37f420f75"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-084000-result.json",
+      "sha256": "8061b9e1f523c61e72eac2a8e447fe28d79ecc1d5b983b1d6db7cc07a605f720"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-084000-selectors.json",
+      "sha256": "7ca3e684b0d4e38951786343faacc2e0896b5d0508dcc624635f7ff1b0548c8a"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-085000-result.json",
+      "sha256": "d5368c823b3d9650f38b600dd0fff3db360d6cece9d6e6ac2991af404baa76c5"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-085000-selectors.json",
+      "sha256": "dfdeb9d4be50e09adba9942300e698ff318db6efa1aa3849098bf2aef22501c9"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-086000-result.json",
+      "sha256": "fe6c6fbe0e76bb4340f41de84a93e9ff9c7788ea16d822d955def3fe7979bb33"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-086000-selectors.json",
+      "sha256": "0293a21c6976d7c4182c5b20c3dfe1658bb7ca8d9e809d560cd10026568a3c9a"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-087000-result.json",
+      "sha256": "fce8557b2030a26ed398d90918f2e99569e60d83beebbd71302f453c265026b5"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-087000-selectors.json",
+      "sha256": "7c11ac4040ee77d4e0d3bd0c7f4818daa99bd8aafe6f78adcf807df8f866b1af"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-088000-result.json",
+      "sha256": "2b55d8300867f8a67b8d6eca58e9afa7aee66d29463345ba3fa02a957c48eb96"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-088000-selectors.json",
+      "sha256": "ba95ac07a972b891920f2dea98b4de2f7ea3f08529bb9d064508b73c61710fd2"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-089000-result.json",
+      "sha256": "69e45142a20bcdc46d384c3754e8822883ee7a113dca4a05449c19ac9823dab4"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-089000-selectors.json",
+      "sha256": "1bd7181b9ce6a18df618eab47d400537a2cb725afaf417438530bae58a897599"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-090000-result.json",
+      "sha256": "412adf5cc79b75821c5f773405eb9c592060c1156f06df9a3bb90e73c90c54ab"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-090000-selectors.json",
+      "sha256": "e112bc50c2a6921216b2ff3edeb01839835bffa549e7bdf85f3d71ce5ffdf9e4"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-091000-result.json",
+      "sha256": "683055ce81db22b4c89f49d9835e5ee37a018856fbc2e4e79190607ab46380cd"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-091000-selectors.json",
+      "sha256": "69378a9ff612f8428fd496b78161d5dd1aaa45fa5d5c8db0e82c6738526c7c84"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-092000-result.json",
+      "sha256": "5e6680e01023dbec7ec48d39db516f7e9e37129c571c18b691117cb803889b90"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-092000-selectors.json",
+      "sha256": "9d2c213d2ebe249567b55e34c41a7ede63e650153d4024534a230014ca01da21"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-093000-result.json",
+      "sha256": "a7c92b0f5ca75999d5e6398a998aac47252de9c96ac818b36b59b7956bd24819"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-093000-selectors.json",
+      "sha256": "df122b494da0a24a61ed6ab2b1f5c15a200ec7ada6dab183526eb9529f6dec9d"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-094000-result.json",
+      "sha256": "ee2720f7a54fe4ee35a18c980395c224fcfeedd2a9792e235b77ff057cd1de0c"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-094000-selectors.json",
+      "sha256": "0d8738d029c27d4e584b4593bbb8b713741e03523beb72d969d162d90b21b642"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-095000-result.json",
+      "sha256": "5debaf24367a5d816b0fdc2d97a7706f2bfc8bc41e2623a137715397694ab573"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-095000-selectors.json",
+      "sha256": "6857a14be1c357b81336396bd825b2b207d6aca289c4f8357298353700b7ebdf"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-096000-result.json",
+      "sha256": "c99caf6d7098611e91a5114d92fb68b82d9096a07983bcb40dd28d89fb27afb5"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-096000-selectors.json",
+      "sha256": "abfda79424b507c54720fa3ef34187b5f45b6c4ccaaea8e49b5846a1e3d42aeb"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-097000-result.json",
+      "sha256": "b54ee938c1d23abf73a88168e092ff15d5b2b394b648654b08f154b06c8233f7"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-097000-selectors.json",
+      "sha256": "2541a64b06690fbf78203462e4b20d3b230232d008c085e176db5a9249fcfde7"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-098000-result.json",
+      "sha256": "d5072b3453208d2289e75468c89b9593c013e2ed9f5151a10112df7895a56132"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-098000-selectors.json",
+      "sha256": "e3a520bf1c179364a659e7893b9cb44c29292b9ee56b1cce81125adca9a837a3"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-099000-result.json",
+      "sha256": "f93141f51c6aa0b36347968ce688c7c670ec06b19555dc7e50642d8b409f29ab"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-099000-selectors.json",
+      "sha256": "d9442c4acd01c81ba30cec1ab4d3c137ccb38e1cbb413cdcfb0df7f964b31c59"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-100000-result.json",
+      "sha256": "37fe0a9ca9101251d026d4482f98deb1e8c6c9c7c0241a3c013c0c1bc8b2d06e"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-100000-selectors.json",
+      "sha256": "cf78eb346dc1b06aa2041921d721c8fc1d4202cc6c63f03490a8fe21f0471b6b"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-101000-result.json",
+      "sha256": "dd651ee03e71da8ebe76ba55694fe234630688c99aad17e51bda8f4adf6ef61d"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/full-alias-validation-v2/batch-101000-selectors.json",
+      "sha256": "f4095aec3e81e076de1abdee41c7d9bced394986b0af9d1fba63ef5169201e83"
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "passed": true,
+  "cases": 17,
+  "results": [
+    {
+      "case": "ordinary-none",
+      "result": [
+        "open:0",
+        "flags:24",
+        "verify:0",
+        "delete:0",
+        "after-delete:0",
+        "null:24",
+        "empty:0",
+        "add-empty:0",
+        "owned-empty:0"
+      ]
+    },
+    {
+      "case": "ordinary-xpress",
+      "result": [
+        "open:0",
+        "flags:24",
+        "verify:0",
+        "delete:0",
+        "after-delete:0",
+        "null:24",
+        "empty:0",
+        "add-empty:0",
+        "owned-empty:0"
+      ]
+    },
+    {
+      "case": "ordinary-lzx",
+      "result": [
+        "open:0",
+        "flags:24",
+        "verify:0",
+        "delete:0",
+        "after-delete:0",
+        "null:24",
+        "empty:0",
+        "add-empty:0",
+        "owned-empty:0"
+      ]
+    },
+    {
+      "case": "ordinary-lzms",
+      "result": [
+        "open:0",
+        "flags:24",
+        "verify:0",
+        "delete:0",
+        "after-delete:0",
+        "null:24",
+        "empty:0",
+        "add-empty:0",
+        "owned-empty:0"
+      ]
+    },
+    {
+      "case": "solid-xpress",
+      "result": [
+        "open:0",
+        "flags:24",
+        "verify:0",
+        "delete:0",
+        "after-delete:0",
+        "null:24",
+        "empty:0",
+        "add-empty:0",
+        "owned-empty:0"
+      ]
+    },
+    {
+      "case": "solid-lzx",
+      "result": [
+        "open:0",
+        "flags:24",
+        "verify:0",
+        "delete:0",
+        "after-delete:0",
+        "null:24",
+        "empty:0",
+        "add-empty:0",
+        "owned-empty:0"
+      ]
+    },
+    {
+      "case": "solid-lzms",
+      "result": [
+        "open:0",
+        "flags:24",
+        "verify:0",
+        "delete:0",
+        "after-delete:0",
+        "null:24",
+        "empty:0",
+        "add-empty:0",
+        "owned-empty:0"
+      ]
+    },
+    {
+      "case": "pipable-none",
+      "result": [
+        "open:0",
+        "flags:24",
+        "verify:0",
+        "delete:0",
+        "after-delete:0",
+        "null:24",
+        "empty:0",
+        "add-empty:0",
+        "owned-empty:0"
+      ]
+    },
+    {
+      "case": "pipable-xpress",
+      "result": [
+        "open:0",
+        "flags:24",
+        "verify:0",
+        "delete:0",
+        "after-delete:0",
+        "null:24",
+        "empty:0",
+        "add-empty:0",
+        "owned-empty:0"
+      ]
+    },
+    {
+      "case": "pipable-lzx",
+      "result": [
+        "open:0",
+        "flags:24",
+        "verify:0",
+        "delete:0",
+        "after-delete:0",
+        "null:24",
+        "empty:0",
+        "add-empty:0",
+        "owned-empty:0"
+      ]
+    },
+    {
+      "case": "pipable-lzms",
+      "result": [
+        "open:0",
+        "flags:24",
+        "verify:0",
+        "delete:0",
+        "after-delete:0",
+        "null:24",
+        "empty:0",
+        "add-empty:0",
+        "owned-empty:0"
+      ]
+    },
+    {
+      "case": "data-hash",
+      "result": [
+        "open:0",
+        "flags:24",
+        "verify:28",
+        "delete:0",
+        "after-delete:28",
+        "null:24",
+        "empty:0",
+        "add-empty:0",
+        "owned-empty:0"
+      ]
+    },
+    {
+      "case": "metadata-hash",
+      "result": [
+        "open:0",
+        "flags:24",
+        "verify:21",
+        "delete:21",
+        "after-delete:21",
+        "null:24",
+        "empty:0",
+        "add-empty:0",
+        "owned-empty:0"
+      ]
+    },
+    {
+      "case": "security-structure",
+      "result": [
+        "open:0",
+        "flags:24",
+        "verify:21",
+        "delete:21",
+        "after-delete:21",
+        "null:24",
+        "empty:0",
+        "add-empty:0",
+        "owned-empty:0"
+      ]
+    },
+    {
+      "case": "missing-stream",
+      "result": [
+        "open:0",
+        "flags:24",
+        "verify:55",
+        "delete:0",
+        "after-delete:0",
+        "null:24",
+        "empty:0",
+        "add-empty:0",
+        "owned-empty:0"
+      ]
+    },
+    {
+      "case": "truncated-payload",
+      "result": [
+        "open:0",
+        "flags:24",
+        "verify:65",
+        "delete:0",
+        "after-delete:65",
+        "null:24",
+        "empty:0",
+        "add-empty:0",
+        "owned-empty:0"
+      ]
+    },
+    {
+      "case": "integrity-table-not-verified",
+      "result": [
+        "open:0",
+        "flags:24",
+        "verify:0",
+        "delete:0",
+        "after-delete:0",
+        "null:24",
+        "empty:0",
+        "add-empty:0",
+        "owned-empty:0"
+      ]
+    }
+  ]
+}

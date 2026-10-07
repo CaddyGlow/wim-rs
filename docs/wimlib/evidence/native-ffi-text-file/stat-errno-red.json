@@ -1,0 +1,5 @@
+{
+  "case": "forced-stat-error.txt",
+  "original": "result=63\nerrno=5\npointer_unchanged=1 length=123456\n",
+  "native": "result=63\nerrno=14\npointer_unchanged=1 length=123456\n"
+}

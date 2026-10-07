@@ -1,0 +1,25 @@
+{
+  "verified_receipts": [
+    {
+      "role": "source",
+      "sha256": "5de6dcf1266688abe313a0bdf1c65788d120821ebc25510a4934a55164dd9052",
+      "receipt_exact_raw_claim": true
+    },
+    {
+      "role": "target",
+      "sha256": "9ab734175d6a6228fbcd5ab12afb2b66bcffd3a7fb4b86c60d08cbee6ea46d16",
+      "receipt_exact_raw_claim": true
+    },
+    {
+      "role": "scratch",
+      "sha256": "72824901deb581f1d417977cefc89aabbffc1b64309f428d7a8e0ea24d7cebfd",
+      "receipt_exact_raw_claim": true
+    },
+    {
+      "role": "reboot-scratch",
+      "sha256": "18ba23e9c930cdcc32267401860bf2dc12e59b420b8df42619a542a498a65403",
+      "receipt_exact_raw_claim": true
+    }
+  ],
+  "scope": "Independent hashes of bounded audit outputs; limits/accounting reported by audit helper, not a production capture capability claim."
+}

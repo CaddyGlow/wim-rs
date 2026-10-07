@@ -1,0 +1,18 @@
+{
+  "command": "cargo test --locked -p windows-disk -p wim-format -p wim --features wim/disk-capture",
+  "exit": 0,
+  "passed": 310,
+  "failed": 0,
+  "ignored": 7,
+  "raw_log": "/data/cache/qcow2-capture-20261005/tests-after-setup-fix.log",
+  "clippy_command": "cargo clippy --all-targets --all-features --locked -- -D warnings",
+  "clippy_exit": 0,
+  "clippy_raw_log": "/data/cache/qcow2-capture-20261005/clippy-after-setup-fix.log",
+  "limitations": "Focused checks after reparse stream normalization and minimally stored L1 fixes. Fresh installation retry pending.",
+  "independent_qemu_oracles": {
+    "command": "cargo test --locked -p windows-disk --test qcow2 -- --ignored",
+    "passed": 5,
+    "failed": 0,
+    "raw_log": "/data/cache/qcow2-capture-20261005/qemu-oracles-after-tail-fix.log"
+  }
+}

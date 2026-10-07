@@ -1,0 +1,101 @@
+{
+  "original_library": "wimlib 1.14.5",
+  "cases": [
+    {
+      "case": "none-ordinary",
+      "native_parts": 5,
+      "original_parts": 5,
+      "original_join_apply": "pass",
+      "native_join_verify_apply": "pass",
+      "original_invalid_sets": {
+        "missing": 62,
+        "duplicate": 62,
+        "foreign_guid": 62
+      }
+    },
+    {
+      "case": "none-pipable",
+      "native_parts": 5,
+      "original_parts": 5,
+      "original_join_apply": "pass",
+      "native_join_verify_apply": "pass",
+      "original_invalid_sets": {
+        "missing": 62,
+        "duplicate": 62,
+        "foreign_guid": 62
+      }
+    },
+    {
+      "case": "XPRESS-ordinary",
+      "native_parts": 5,
+      "original_parts": 5,
+      "original_join_apply": "pass",
+      "native_join_verify_apply": "pass",
+      "original_invalid_sets": {
+        "missing": 62,
+        "duplicate": 62,
+        "foreign_guid": 62
+      }
+    },
+    {
+      "case": "XPRESS-pipable",
+      "native_parts": 5,
+      "original_parts": 5,
+      "original_join_apply": "pass",
+      "native_join_verify_apply": "pass",
+      "original_invalid_sets": {
+        "missing": 62,
+        "duplicate": 62,
+        "foreign_guid": 62
+      }
+    },
+    {
+      "case": "LZX-ordinary",
+      "native_parts": 5,
+      "original_parts": 5,
+      "original_join_apply": "pass",
+      "native_join_verify_apply": "pass",
+      "original_invalid_sets": {
+        "missing": 62,
+        "duplicate": 62,
+        "foreign_guid": 62
+      }
+    },
+    {
+      "case": "LZX-pipable",
+      "native_parts": 5,
+      "original_parts": 5,
+      "original_join_apply": "pass",
+      "native_join_verify_apply": "pass",
+      "original_invalid_sets": {
+        "missing": 62,
+        "duplicate": 62,
+        "foreign_guid": 62
+      }
+    },
+    {
+      "case": "LZMS-ordinary",
+      "native_parts": 5,
+      "original_parts": 5,
+      "original_join_apply": "pass",
+      "native_join_verify_apply": "pass",
+      "original_invalid_sets": {
+        "missing": 62,
+        "duplicate": 62,
+        "foreign_guid": 62
+      }
+    },
+    {
+      "case": "LZMS-pipable",
+      "native_parts": 5,
+      "original_parts": 5,
+      "original_join_apply": "pass",
+      "native_join_verify_apply": "pass",
+      "original_invalid_sets": {
+        "missing": 62,
+        "duplicate": 62,
+        "foreign_guid": 62
+      }
+    }
+  ]
+}

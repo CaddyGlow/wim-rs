@@ -1,0 +1,57 @@
+{
+  "scope": "Owned helper4073044 remainsSIGSTOPpaused/live; copiesfromopen deletedFDs after2sIOsettle. Crashconsistent gueststate only, notcleanNTFSguarantee. ReadonlysourceviewfullymatchedprecleanupSHA. No shutdown/sourceboot/writes.",
+  "helper_pid": 4073044,
+  "disk_copies": [
+    {
+      "name": "helper-scratch-paused.qcow2",
+      "fd": 17,
+      "bytes": 40305098752,
+      "sha256": "1b10e43363d91044f9c6ac58c110c95e1d63b94248872a4925e95931e3696cc8"
+    },
+    {
+      "name": "helper-os-paused.qcow2",
+      "fd": 18,
+      "bytes": 7837515776,
+      "sha256": "3c577745319803d660ef7cdddfbce09a12e83fd2d0c44b29574f87de7a066e62"
+    },
+    {
+      "name": "helper-vars-paused.fd",
+      "fd": 38,
+      "bytes": 540672,
+      "sha256": "2a868771914dfa836c8ffa50a166bee94c6afe93c0ff67bce6d7d9732f9e4d00"
+    }
+  ],
+  "stock_WIM": {
+    "path": "/data/cache/windows-capture-recovery-20261005/stock-source-sixth-recovered.wim",
+    "bytes": 8581553497,
+    "sha256": "9ba5122cb6f79fb2f5735e42695c8184a4212f57793e15d8301077b2696a5b09",
+    "exact_precleanup_SHA256": true,
+    "extraction": "Native strictdefaultNTFS open/read_file, partition2, explicitlengthandexpectedSHA checked."
+  },
+  "sourceview_sha256": "4e2e1cc959685a54ca3b7be2438b9b8169ce2e3d19ef83825f217763d56c7582",
+  "upstream_full_verify": {
+    "exit": 0,
+    "tool": "/nix/store/fd0zfsysr7gl769wv31n80a6j67xgd78-wimlib-1.14.5/bin/wimlib-imagex",
+    "log": "/data/cache/windows-capture-recovery-20261005/stock-source-sixth-full-verify.log",
+    "log_sha256": "1a6b9bbb5a17e30ed5e692a0081a08363ba8b13c83870ccb2efe5b111d4377ac",
+    "success_marker": "was successfully verified.",
+    "scope": "Fullarchiveintegrity+metadata+alllogicaldataresourcehashesverified;notmetadata-only."
+  },
+  "validated_bulk_relocation": [
+    {
+      "original_path": "/home/rick/.cache/windows-capture-recovery-20261005/helper-scratch-paused.qcow2",
+      "destination": "/data/cache/windows-capture-recovery-20261005/helper-scratch-paused.qcow2",
+      "sha256": "1b10e43363d91044f9c6ac58c110c95e1d63b94248872a4925e95931e3696cc8",
+      "bytes": 40305098752,
+      "validated_before_replacing_original_with_symlink": true
+    },
+    {
+      "original_path": "/home/rick/.cache/windows-capture-recovery-20261005/helper-os-paused.qcow2",
+      "destination": "/data/cache/windows-capture-recovery-20261005/helper-os-paused.qcow2",
+      "sha256": "3c577745319803d660ef7cdddfbce09a12e83fd2d0c44b29574f87de7a066e62",
+      "bytes": 7837515776,
+      "validated_before_replacing_original_with_symlink": true
+    }
+  ],
+  "helper_state": "liveSIGSTOPpaused; alloriginalopenFDsretained; noresume/shutdown"
+}

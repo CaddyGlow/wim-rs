@@ -1,0 +1,9 @@
+{
+  "creation_report_sha256": "ae0e8f88225c7676d37a33afdd784a049f3433fe3d4b61d4940bf694804997ba",
+  "input_sha256": "502dc6b5908cd257a27fee14ea3af31b9d3055aa0fce5c12821397bd7dd623e7",
+  "root": "T:\\objectid-scratch-72f9e620eb0e4bc29493a0bdee00c8b4",
+  "cases_checked": 1,
+  "full64_reopen_and_alias_bytes_verified": true,
+  "file_id_info24_equal": true,
+  "scope": "Independent actual online challenge byte verification; clean offline pre-reboot and ordinary reboot retention remain pending."
+}

@@ -1,0 +1,135 @@
+{
+  "scope": "Actual SYSTEM process-token flags; all requested rights assigned; restricted-token failures remain gated",
+  "privilege_order": [
+    "Backup",
+    "Security",
+    "Restore",
+    "TakeOwnership",
+    "ManageVolume"
+  ],
+  "implementation": "original",
+  "dll_sha256": "fc740013e9ae9dee84fbe8ee47bb09dbeb7b3a535c2882e90764d66fa4a1c209",
+  "caller_sha256": "8533701bc36b28df843131fa714e2e9396229453a9db91c126c7cbf5a87108f8",
+  "cases": [
+    {
+      "flags": 0,
+      "repeated": 0,
+      "result": {
+        "exit": 0,
+        "signal": null,
+        "stdout_base64": "YmVmb3JlIDAgMCAwIDAgMA0KaW5pdCAwDQppbml0aWFsaXplZCAyIDIgMiAyIDINCmNsZWFuZWQgMCAwIDAgMCAwDQo=",
+        "stdout": "before 0 0 0 0 0\r\ninit 0\r\ninitialized 2 2 2 2 2\r\ncleaned 0 0 0 0 0\r\n",
+        "stderr": "",
+        "stdout_truncated": false
+      }
+    },
+    {
+      "flags": 2,
+      "repeated": 0,
+      "result": {
+        "exit": 0,
+        "signal": null,
+        "stdout_base64": "YmVmb3JlIDAgMCAwIDAgMA0KaW5pdCAwDQppbml0aWFsaXplZCAwIDAgMCAwIDANCmNsZWFuZWQgMCAwIDAgMCAwDQo=",
+        "stdout": "before 0 0 0 0 0\r\ninit 0\r\ninitialized 0 0 0 0 0\r\ncleaned 0 0 0 0 0\r\n",
+        "stderr": "",
+        "stdout_truncated": false
+      }
+    },
+    {
+      "flags": 4,
+      "repeated": 0,
+      "result": {
+        "exit": 0,
+        "signal": null,
+        "stdout_base64": "YmVmb3JlIDAgMCAwIDAgMA0KaW5pdCAwDQppbml0aWFsaXplZCAyIDIgMiAyIDINCmNsZWFuZWQgMCAwIDAgMCAwDQo=",
+        "stdout": "before 0 0 0 0 0\r\ninit 0\r\ninitialized 2 2 2 2 2\r\ncleaned 0 0 0 0 0\r\n",
+        "stderr": "",
+        "stdout_truncated": false
+      }
+    },
+    {
+      "flags": 8,
+      "repeated": 0,
+      "result": {
+        "exit": 0,
+        "signal": null,
+        "stdout_base64": "YmVmb3JlIDAgMCAwIDAgMA0KaW5pdCAwDQppbml0aWFsaXplZCAyIDIgMiAyIDINCmNsZWFuZWQgMCAwIDAgMCAwDQo=",
+        "stdout": "before 0 0 0 0 0\r\ninit 0\r\ninitialized 2 2 2 2 2\r\ncleaned 0 0 0 0 0\r\n",
+        "stderr": "",
+        "stdout_truncated": false
+      }
+    },
+    {
+      "flags": 12,
+      "repeated": 0,
+      "result": {
+        "exit": 0,
+        "signal": null,
+        "stdout_base64": "YmVmb3JlIDAgMCAwIDAgMA0KaW5pdCAwDQppbml0aWFsaXplZCAyIDIgMiAyIDINCmNsZWFuZWQgMCAwIDAgMCAwDQo=",
+        "stdout": "before 0 0 0 0 0\r\ninit 0\r\ninitialized 2 2 2 2 2\r\ncleaned 0 0 0 0 0\r\n",
+        "stderr": "",
+        "stdout_truncated": false
+      }
+    },
+    {
+      "flags": 6,
+      "repeated": 0,
+      "result": {
+        "exit": 0,
+        "signal": null,
+        "stdout_base64": "YmVmb3JlIDAgMCAwIDAgMA0KaW5pdCAwDQppbml0aWFsaXplZCAwIDAgMCAwIDANCmNsZWFuZWQgMCAwIDAgMCAwDQo=",
+        "stdout": "before 0 0 0 0 0\r\ninit 0\r\ninitialized 0 0 0 0 0\r\ncleaned 0 0 0 0 0\r\n",
+        "stderr": "",
+        "stdout_truncated": false
+      }
+    },
+    {
+      "flags": 10,
+      "repeated": 0,
+      "result": {
+        "exit": 0,
+        "signal": null,
+        "stdout_base64": "YmVmb3JlIDAgMCAwIDAgMA0KaW5pdCAwDQppbml0aWFsaXplZCAwIDAgMCAwIDANCmNsZWFuZWQgMCAwIDAgMCAwDQo=",
+        "stdout": "before 0 0 0 0 0\r\ninit 0\r\ninitialized 0 0 0 0 0\r\ncleaned 0 0 0 0 0\r\n",
+        "stderr": "",
+        "stdout_truncated": false
+      }
+    },
+    {
+      "flags": 14,
+      "repeated": 0,
+      "result": {
+        "exit": 0,
+        "signal": null,
+        "stdout_base64": "YmVmb3JlIDAgMCAwIDAgMA0KaW5pdCAwDQppbml0aWFsaXplZCAwIDAgMCAwIDANCmNsZWFuZWQgMCAwIDAgMCAwDQo=",
+        "stdout": "before 0 0 0 0 0\r\ninit 0\r\ninitialized 0 0 0 0 0\r\ncleaned 0 0 0 0 0\r\n",
+        "stderr": "",
+        "stdout_truncated": false
+      }
+    },
+    {
+      "flags": 0,
+      "repeated": 1,
+      "result": {
+        "exit": 0,
+        "signal": null,
+        "stdout_base64": "YmVmb3JlIDAgMCAwIDAgMA0KaW5pdCAwDQppbml0aWFsaXplZCAyIDIgMiAyIDINCmNsZWFuZWQgMCAwIDAgMCAwDQpleHRlcm5hbC1iYWNrdXAgMiAwIDAgMCAwDQpzZWNvbmQtaW5pdCAwDQpzZWNvbmQtaW5pdGlhbGl6ZWQgMiAwIDAgMCAwDQpzZWNvbmQtY2xlYW5lZCAwIDAgMCAwIDANCg==",
+        "stdout": "before 0 0 0 0 0\r\ninit 0\r\ninitialized 2 2 2 2 2\r\ncleaned 0 0 0 0 0\r\nexternal-backup 2 0 0 0 0\r\nsecond-init 0\r\nsecond-initialized 2 0 0 0 0\r\nsecond-cleaned 0 0 0 0 0\r\n",
+        "stderr": "",
+        "stdout_truncated": false
+      }
+    },
+    {
+      "flags": 2,
+      "repeated": 1,
+      "result": {
+        "exit": 0,
+        "signal": null,
+        "stdout_base64": "YmVmb3JlIDAgMCAwIDAgMA0KaW5pdCAwDQppbml0aWFsaXplZCAwIDAgMCAwIDANCmNsZWFuZWQgMCAwIDAgMCAwDQpleHRlcm5hbC1iYWNrdXAgMiAwIDAgMCAwDQpzZWNvbmQtaW5pdCAwDQpzZWNvbmQtaW5pdGlhbGl6ZWQgMiAwIDAgMCAwDQpzZWNvbmQtY2xlYW5lZCAyIDAgMCAwIDANCg==",
+        "stdout": "before 0 0 0 0 0\r\ninit 0\r\ninitialized 0 0 0 0 0\r\ncleaned 0 0 0 0 0\r\nexternal-backup 2 0 0 0 0\r\nsecond-init 0\r\nsecond-initialized 2 0 0 0 0\r\nsecond-cleaned 2 0 0 0 0\r\n",
+        "stderr": "",
+        "stdout_truncated": false
+      }
+    }
+  ]
+}

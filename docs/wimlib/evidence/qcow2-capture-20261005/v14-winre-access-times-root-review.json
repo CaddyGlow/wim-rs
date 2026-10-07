@@ -1,0 +1,18 @@
+{
+  "inputs": [
+    {
+      "path": "/data/cache/qcow2-installation-namespace-fixed-1006-v13/earliest-winre-whole-metadata-delta.json",
+      "sha256": "54034e511a1acb9bc2e92201ace3c038e61f0e9db71c5554222214071aa98be2"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-winre-unstaged-1006-v14/earliest-winre-whole-metadata-delta.json",
+      "sha256": "79b5cb2f441d63acb2cc44ddadac0ef504d401aa4ef3f6c44756ab9436d48e02"
+    }
+  ],
+  "full_path_count": 25450,
+  "changed_access_timestamp_paths": 708,
+  "same_changed_pathset_as_v13": true,
+  "creation_write_unchanged": true,
+  "recovery_placement_fix_resolves_timestamp_fidelity": false,
+  "strict_timestamp_gate_passes": false
+}

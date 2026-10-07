@@ -1,0 +1,6 @@
+{
+  "raw_file": "servicing-recovered-state.powershell-utf8-bom.json",
+  "raw_sha256": "5bdf41e052d2420bdab5019cdbd091f0797c33c6043c6499504f966951ac779e",
+  "normalized_file": "servicing-recovered-state.json",
+  "normalization": "Removed PowerShell UTF8 BOM from the retained host snapshot; original guest encoding remains in raw file"
+}

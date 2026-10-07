@@ -1,0 +1,18 @@
+[package]
+name = "wim-types"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+repository.workspace = true
+description = "Portable Windows Imaging Format types"
+license = "LGPL-2.1-or-later OR GPL-3.0-or-later"
+
+[package.metadata.docs.rs]
+all-features = true
+
+[lints]
+workspace = true
+
+[features]
+default = ["std"]
+std = []

@@ -1,0 +1,9 @@
+   Compiling wim-format v0.1.0 (/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/wim-format)
+error[E0432]: unresolved import `wim_format::file_resource`
+ --> wim-format/tests/file_resource.rs:2:91
+  |
+2 | use wim_format::{Compression, ResourceHeader, archive::Archive, resource::ResourceLayout, file_resource::read_resource_range};
+  |                                                                                           ^^^^^^^^^^^^^ could not find `file_resource` in `wim_format`
+
+For more information about this error, try `rustc --explain E0432`.
+error: could not compile `wim-format` (test "file_resource") due to 1 previous error

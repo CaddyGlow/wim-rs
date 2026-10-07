@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "scope": "Root-reviewed offline two-field scratch restoration; normal boot and production protocol pending",
+  "artifacts": {
+    "/data/cache/qcow2-alias-basic4-two-cycle-control-20261006/cache-patch-output-root-reviewed-20261006-v1/application-receipt.json": "2a932fe6d9eca3ddaebb54942b88ef65204a581ad2e35a244a9c047826a8fcb6",
+    "/data/cache/qcow2-alias-basic4-two-cycle-control-20261006/cache-patch-output-root-reviewed-20261006-v1/root-native-patch-review.json": "80f96ac65e3e3f19de6772cbac46f57a710234479e3d317d8269dd7c2b90d01f",
+    "/data/cache/qcow2-alias-basic4-two-cycle-control-20261006/cache-patch-output-root-reviewed-20261006-v1/root-raw-output-hash-review.json": "3340ebb0019eb0ac8aba48e8748fb86682f6dcbc5f5bb2fcf349b4fa058f2162"
+  },
+  "complete_native_delta_exactly_two_cached_timestamps": true,
+  "normal_boot_verified": false,
+  "production_alias_restoration_verified": false
+}

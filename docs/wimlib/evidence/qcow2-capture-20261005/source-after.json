@@ -1,0 +1,20 @@
+[
+  {
+    "path": "/home/rick/projects-caddy/windows-uup/vm-state/qcow2-source-1005/overlay.qcow2",
+    "sha256": "cfa75f1df1c0328f2ef19e0752678a6714d67ed0787c75626d7d2f8cfebb5762",
+    "bytes": 4352770048,
+    "file_identity": [
+      66309,
+      124527323
+    ]
+  },
+  {
+    "path": "/home/rick/.vm-base/win11-secure/disk.qcow2",
+    "sha256": "35299ad09fb946d45374f9637ccc4344acb3488b482d9571854d007b666b2abe",
+    "bytes": 10026090496,
+    "file_identity": [
+      66309,
+      110639073
+    ]
+  }
+]

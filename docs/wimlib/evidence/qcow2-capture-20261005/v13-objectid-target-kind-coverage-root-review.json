@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "scope": "Actual Windows GET24 installed target metadata, grouped only by targetfull24identity; source rawSIstorageflags not substituted",
+  "artifact": {
+    "path": "/data/cache/qcow2-installation-namespace-fixed-1006-v13/objectid-get-observer/actual-child-target-planner-evidence.json",
+    "sha256": "292c5a2012970bfea3da2c4bc2fe94db34fc8a12e29bbb429e3d8b06ae286a1a"
+  },
+  "groups": 19,
+  "paths": 24,
+  "runtime_attribute_groups": {
+    "ordinary_files_0x20": 13,
+    "readonly_directories_0x11": 6
+  },
+  "current_basic4_control": "two newly created ordinary files only",
+  "readonly_directory_timestamp_restoration_proven": false,
+  "full19group_restoration_proven": false
+}

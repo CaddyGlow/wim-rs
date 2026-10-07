@@ -1,0 +1,8 @@
+{
+  "passes": true,
+  "windows_entries": 9,
+  "offline_entries": 9,
+  "streams_compared": 331,
+  "metadata_policy": "Exact attrs, three times, NTFS references, short names, stream sizes/SHA256, EA/object IDs; security SID/mask/ACE/control semantics and normalized reparse target strings. Raw security and reparse bytes retained separately.",
+  "differences": []
+}

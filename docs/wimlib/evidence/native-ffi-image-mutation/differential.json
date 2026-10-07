@@ -1,0 +1,70 @@
+{
+  "cases": [
+    {
+      "fixture": "new",
+      "observations": 264,
+      "matches": true
+    },
+    {
+      "fixture": "none",
+      "observations": 494,
+      "matches": true
+    },
+    {
+      "fixture": "XPRESS",
+      "observations": 494,
+      "matches": true
+    },
+    {
+      "fixture": "LZX",
+      "observations": 494,
+      "matches": true
+    },
+    {
+      "fixture": "LZMS",
+      "observations": 494,
+      "matches": true
+    },
+    {
+      "fixture": "later-part",
+      "observations": 252,
+      "matches": true
+    },
+    {
+      "fixture": "cyclic.wim",
+      "observations": 354,
+      "matches": true
+    },
+    {
+      "fixture": "corrupted_file_1.wim",
+      "observations": 350,
+      "matches": true
+    },
+    {
+      "fixture": "corrupted_file_2.wim",
+      "observations": 350,
+      "matches": true
+    },
+    {
+      "fixture": "dotdot.wim",
+      "observations": 350,
+      "matches": true
+    },
+    {
+      "fixture": "duplicate_names.wim",
+      "observations": 350,
+      "matches": true
+    },
+    {
+      "fixture": "linux_xattrs_old.wim",
+      "observations": 336,
+      "matches": true
+    },
+    {
+      "fixture": "empty_dacl.wim",
+      "observations": 350,
+      "matches": true
+    }
+  ],
+  "failures": []
+}

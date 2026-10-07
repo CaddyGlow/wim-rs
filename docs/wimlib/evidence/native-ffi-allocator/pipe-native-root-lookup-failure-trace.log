@@ -1,0 +1,29 @@
+native-sha256 f8ea52c9bfc4e393f4a71350976b257f668d4edaaa8e79d6db4c312eb1e01d6f
+exit 0
+result 49 errno 123
+caller-fd 0
+api-read 1288
+allocator 67 live 0
+cleanup-live 0
+failure 67 size 4
+trace /tmp/tmplb72y9ks/client+0x1509 ?
+trace /tmp/tmplb72y9ks/client+0x161b ?
+trace /tmp/tmplb72y9ks/libwim.so.15+0x16463a ?
+trace /tmp/tmplb72y9ks/libwim.so.15+0x16427a ?
+trace /tmp/tmplb72y9ks/libwim.so.15+0x29a286 ?
+trace /tmp/tmplb72y9ks/libwim.so.15+0x2a3177 ?
+trace /tmp/tmplb72y9ks/libwim.so.15+0x120e78 ?
+trace /tmp/tmplb72y9ks/libwim.so.15+0x120594 ?
+trace /tmp/tmplb72y9ks/libwim.so.15+0x1c7162 ?
+trace /tmp/tmplb72y9ks/libwim.so.15+0x1c2699 ?
+trace /tmp/tmplb72y9ks/libwim.so.15+0x1c1e9a ?
+trace /tmp/tmplb72y9ks/libwim.so.15+0x1e3614 ?
+trace /tmp/tmplb72y9ks/libwim.so.15+0x20d1c9 ?
+trace /tmp/tmplb72y9ks/libwim.so.15+0x1e28c0 ?
+trace /tmp/tmplb72y9ks/libwim.so.15+0x1e52ac wimlib_extract_image_from_pipe_with_progress
+trace /tmp/tmplb72y9ks/libwim.so.15+0x1e5228 wimlib_extract_image_from_pipe
+trace /tmp/tmplb72y9ks/client+0x141d ?
+trace /tmp/tmplb72y9ks/client+0x18fa ?
+trace /nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib/libc.so.6+0x2b285 ?
+trace /nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib/libc.so.6+0x2b338 __libc_start_main
+trace /tmp/tmplb72y9ks/client+0x11c5 ?

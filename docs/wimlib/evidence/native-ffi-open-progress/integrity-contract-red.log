@@ -1,0 +1,9 @@
+   Compiling wim-format v0.1.0 (/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/wim-format)
+error[E0432]: unresolved import `wim_format::integrity::check_wim_integrity_with_progress`
+   --> wim-format/tests/integrity.rs:187:9
+    |
+187 |     use wim_format::integrity::check_wim_integrity_with_progress;
+    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ no `check_wim_integrity_with_progress` in `integrity`
+
+For more information about this error, try `rustc --explain E0432`.
+error: could not compile `wim-format` (test "integrity") due to 1 previous error

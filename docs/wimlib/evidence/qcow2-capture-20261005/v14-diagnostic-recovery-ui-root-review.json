@@ -1,0 +1,23 @@
+{
+  "request": {
+    "path": "/data/cache/qcow2-installation-winre-unstaged-1006-v14/diagnostic-winre-request.json",
+    "sha256": "d5a61b545a293ce49be667178614d20c4550de4bc0b42da6721fa4f56b5e4611"
+  },
+  "screenshot": {
+    "path": "/data/cache/qcow2-installation-winre-unstaged-1006-v14/diagnostic-winre-boot-1.png",
+    "sha256": "967f339680692cc3e77a2fbc88e292af9a93fcba300c0aad8b6747a477cf2868",
+    "root_visually_observed": "WinRE Choose an option: Continue, Use a device, Troubleshoot, Turn off your PC"
+  },
+  "parent_frozen_sha256": "ea5fce165bc26e19dcca16e3a0ccb0415878675efb71328596c2e22206ff81e1",
+  "supported_request_and_reboot_exit_zero": true,
+  "diagnostic_only": true,
+  "kernel_identity_pending": true,
+  "installation_acceptance_passes": false,
+  "actual_command_prompt": {
+    "path": "/data/cache/qcow2-installation-winre-unstaged-1006-v14/diagnostic-winre-commandprompt-1.png",
+    "sha256": "b0c2b7acefecad6e884288adaa137aab3b6b60004f1b1608d0b037799a7bfc75",
+    "root_visually_observed": "Administrator X:\\windows\\system32\\cmd.exe; Microsoft Windows Version10.0.26100.1; X:\\Windows\\System32 prompt"
+  },
+  "observed_runtime_base_version": "10.0.26100.1",
+  "runtime_kernel_sha256_observed": false
+}

@@ -1,0 +1,26 @@
+{
+  "cases": 135,
+  "observations": 1538,
+  "mismatches": [],
+  "original_named_cases": [
+    "nothing",
+    "a single file",
+    "a single directory",
+    "subdirectory with file",
+    "empty file",
+    "two empty files",
+    "hard link in same directory",
+    "hard link between empty files",
+    "relative symbolic link",
+    "absolute symbolic link",
+    "large file",
+    "many nested directories",
+    "identical files and symlinks in subdirectory",
+    "hard link group and identical files not hard linked",
+    "C source code of wimlib",
+    "tons of random stuff",
+    "timestamp before 1970 (before start of UNIX epoch)"
+  ],
+  "oracle_cpu_workaround": "WIMLIB_DISABLE_CPU_FEATURES=sse4.2",
+  "header": "/tmp/wimlib/include/wimlib.h"
+}

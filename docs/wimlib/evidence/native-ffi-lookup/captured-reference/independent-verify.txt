@@ -1,0 +1,4 @@
+Verifying metadata for image 1 of 1
+Verifying file data: 0 bytes of 58 bytes (0%) doneVerifying file data: 26 bytes of 58 bytes (44%) doneVerifying file data: 58 bytes of 58 bytes (100%) done
+
+"/tmp/captured-ref-result.wim" was successfully verified.

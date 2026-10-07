@@ -1,0 +1,48 @@
+{
+  "schema": 1,
+  "scope": "Changed namespace rows grouped by original source inode and verified target intra-volume identity; no cross-volume numerical ID comparison",
+  "artifact": {
+    "path": "/data/cache/qcow2-v13-offline-audit/root-namespace-transition-hardlink-groups.json",
+    "sha256": "6440e3fc0c3cd9bc22063d2b38e2a88aa365dd52b41de28de249af97b260069e"
+  },
+  "changed_paths": 230,
+  "source_groups_with_changes": 188,
+  "patterns": [
+    {
+      "transitions": [
+        [
+          "Win32AndDos",
+          "Posix"
+        ]
+      ],
+      "target_same_file_group": true,
+      "groups": 138
+    },
+    {
+      "transitions": [
+        [
+          "Posix",
+          "Win32"
+        ]
+      ],
+      "target_same_file_group": true,
+      "groups": 8
+    },
+    {
+      "transitions": [
+        [
+          "Posix",
+          "Win32"
+        ],
+        [
+          "Win32",
+          "Posix"
+        ]
+      ],
+      "target_same_file_group": true,
+      "groups": 42
+    }
+  ],
+  "interpretation": "42 groups exchange Win32/POSIX roles between existing hardlinks of the same installed file; source-primary selection is implicated, not extra source DOS requirements",
+  "restoration_proven": false
+}

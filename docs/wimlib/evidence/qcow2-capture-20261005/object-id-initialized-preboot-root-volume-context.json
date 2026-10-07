@@ -1,0 +1,13 @@
+{
+  "raw_receipt_sha256": "e8a5420c5a1beb6c4cf6d1160683c8854b25b92026c2e617a9b8fe5120453fa0",
+  "image": "/data/cache/qcow2-object-id-initialized-control-20261006/frozen-before-reboot/volume.qcow2",
+  "authorized_backings": [
+    "/data/cache/qcow2-installation-autologon-disabled-1005-v12/prior-scratch-reboot-child.qcow2",
+    "/data/cache/qcow2-installation-autologon-disabled-1005-v12/diagnostic-scratch.qcow2"
+  ],
+  "volume_object_id": "cc5ec5dd4c7fa24da1b41b2c2ac3826d",
+  "tracking_log_sha256": "892f68e66492b921344dccaf21c197901d6018c7aab165319b9d8078fabf06b2",
+  "tracking_log_length": 20480,
+  "strict_clean_ntfs_open": true,
+  "scope": "Independent native bounded pre-reboot volume context audit; challenge full64 verification by separate file audit remains required."
+}

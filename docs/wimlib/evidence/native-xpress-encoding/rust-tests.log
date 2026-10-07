@@ -1,0 +1,145 @@
+   Compiling wim-codec v0.1.0 (/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/wim-codec)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.17s
+     Running unittests src/lib.rs (crates/wimlib-rs/target/debug/deps/wim_codec-4fd85906a1f66005)
+
+running 10 tests
+test lzms::tests::backwards_words_supply_high_bits_first_and_zero_pad_exhaustion ... ok
+test lzms::tests::delta_copy_power_scales_both_offset_and_span ... ok
+test lzms::tests::repeat_queues_delay_new_source_for_all_three_indices ... ok
+test lzms::tests::delta_copy_overlaps_with_bytewise_wrapping_arithmetic ... ok
+test lzms::tests::delta_copy_rejects_overflow_underrun_and_output_overrun ... ok
+test lzms::tests::unrepresentable_allocation_returns_recoverable_error ... ok
+test xpress_encode::tests::single_symbol_uses_complete_two_symbol_tree ... ok
+test xpress_encode::tests::pathological_huffman_depth_has_complete_bounded_fallback ... ok
+test lzms::tests::x86_filter_ignores_first_byte_and_last_sixteen_bytes ... ok
+test lzms::tests::bounded_huffman_lengths_match_original_c_for_deep_fibonacci_tree ... ok
+
+test result: ok. 10 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/differential.rs (crates/wimlib-rs/target/debug/deps/differential-02d6f975a4ce4c98)
+
+running 1 test
+test native_decoder_matches_original_c_on_valid_corrupted_and_truncated_blocks ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.19s
+
+     Running tests/lzms.rs (crates/wimlib-rs/target/debug/deps/lzms-b09883fd746f15d3)
+
+running 4 tests
+test decoder_rejects_odd_sized_and_short_blocks ... ok
+test empty_output_still_requires_valid_word_stream_structure ... ok
+test tiny_output_alphabets_reject_match_sources_before_output ... ok
+test tiny_output_alphabets_decode_literals_without_upstream_zero_symbol_crash ... ok
+
+test result: ok. 4 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.03s
+
+     Running tests/lzms_differential.rs (crates/wimlib-rs/target/debug/deps/lzms_differential-80385b59e12bb446)
+
+running 1 test
+test native_decoder_matches_original_c_on_valid_corrupted_and_truncated_blocks ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 1.64s
+
+     Running tests/lzx.rs (crates/wimlib-rs/target/debug/deps/lzx-d7e67547db05ffca)
+
+running 32 tests
+test block_larger_than_requested_output_is_rejected ... ok
+test all_extended_window_orders_use_24_bit_block_sizes ... ok
+test e8_inverse_transforms_absolute_target_to_relative ... ok
+test e8_inverse_compensates_negative_target_in_valid_range ... ok
+test e8_does_not_process_instruction_starting_in_last_ten_bytes ... ok
+test empty_output_succeeds_without_reading_any_header ... ok
+test aligned_offset_symbol_supplies_low_three_offset_bits ... ok
+test invalid_maximum_capacity_is_rejected ... ok
+test identical_length_run_rejects_precode_symbol_above_seventeen ... ok
+test explicit_offset_slot_three_matches_previous_literal ... ok
+test aligned_empty_tables_emit_zeroes_using_bit_padding ... ok
+test missing_final_odd_padding_byte_is_permitted ... ok
+test identical_length_runs_decode_delta_from_first_previous_length ... ok
+test length_header_seven_reads_empty_length_code_as_zero ... ok
+test missing_header_zero_padding_yields_invalid_block_type ... ok
+test non_power_of_two_capacity_rounds_window_up ... ok
+test output_beyond_capacity_is_rejected_before_reading_input ... ok
+test match_cannot_cross_its_block_end ... ok
+test long_zero_runs_allow_documented_fifty_length_scratch_overrun ... ok
+test huffman_lengths_are_delta_encoded_against_previous_block ... ok
+test uncompressed_block_copies_literal_bytes ... ok
+test repeated_offset_one_slot_uses_initial_offset_one ... ok
+test repeated_offset_two_does_not_demote_recent_offset_one ... ok
+test uncompressed_literals_are_not_zero_padded ... ok
+test short_zero_runs_allow_documented_code_length_scratch_overrun ... ok
+test repeated_offset_two_slot_uses_initial_offset_one ... ok
+test repeated_offset_zero_slot_uses_initial_offset_one ... ok
+test zero_maximum_capacity_is_rejected ... ok
+test zero_recent_offset_is_rejected ... ok
+test uncompressed_header_already_aligned_discards_an_extra_coding_word ... ok
+test verbatim_empty_tables_emit_zeroes_using_bit_padding ... ok
+test verbatim_seventeen_bit_offset_reads_across_coding_word_boundary ... ok
+
+test result: ok. 32 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s
+
+     Running tests/lzx_differential.rs (crates/wimlib-rs/target/debug/deps/lzx_differential-cfd5f3bed94c09d9)
+
+running 1 test
+test native_lzx_matches_original_c_for_all_windows_and_malformed_blocks ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 1.16s
+
+     Running tests/lzx_encode.rs (crates/wimlib-rs/target/debug/deps/lzx_encode-ebdac50c31fa305e)
+
+running 6 tests
+test validates_configuration_and_empty_input ... ok
+test e8_relative_targets_roundtrip_and_preserve_input ... ok
+test output_capacity_accepts_exact_size_and_rejects_one_less ... ok
+test matches_compress_repetition_substantially ... ok
+test literals_roundtrip_all_byte_values_and_small_sizes ... ok
+test large_window_and_far_offsets_roundtrip ... ok
+
+test result: ok. 6 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.02s
+
+     Running tests/xpress.rs (crates/wimlib-rs/target/debug/deps/xpress-8e7614dd04d2e9c4)
+
+running 20 tests
+test complete_header_is_required_even_for_empty_output ... ok
+test byte_length_extension_is_after_prefetched_coding_words ... ok
+test empty_huffman_table_decodes_zero_literals_without_consuming_bits ... ok
+test incomplete_nonempty_huffman_code_is_rejected ... ok
+test incomplete_final_coding_word_is_ignored_like_original ... ok
+test decodes_literal_without_end_marker ... ok
+test empty_output_accepts_empty_huffman_code ... ok
+test match_before_any_literals_is_rejected ... ok
+test maximum_fifteen_bit_codeword_decodes_correctly ... ok
+test match_past_output_end_is_rejected ... ok
+test missing_length_extension_byte_is_zero_padded ... ok
+test missing_u16_length_extension_is_zero_padded ... ok
+test nonoverlapping_offset_three_match_copies_prefix ... ok
+test overlapping_offset_one_match_repeats_previous_literal ... ok
+test overlapping_offset_two_match_repeats_two_literals ... ok
+test oversubscribed_huffman_code_is_rejected_even_for_empty_output ... ok
+test reads_little_endian_words_with_most_significant_bit_first ... ok
+test trailing_data_is_not_required_to_be_end_marker ... ok
+test u16_length_extension_replaces_both_short_length_fields ... ok
+test maximum_u16_length_extension_is_bounded_by_output ... ok
+
+test result: ok. 20 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/xpress_encode.rs (crates/wimlib-rs/target/debug/deps/xpress_encode-83d045cc8eaf65a8)
+
+running 8 tests
+test block_above_xpress_limit_is_rejected ... ok
+test insufficient_capacity_has_no_partial_output ... ok
+test short_input_has_no_compressed_block ... ok
+test capacity_requires_two_trailing_bytes_after_output ... ok
+test random_bytes_expand_when_capacity_permits ... ok
+test overlapping_long_matches_roundtrip ... ok
+test periodic_binary_data_roundtrips_and_compresses ... ok
+test generated_low_entropy_inputs_roundtrip ... ok
+
+test result: ok. 8 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.02s
+
+   Doc-tests wim_codec
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

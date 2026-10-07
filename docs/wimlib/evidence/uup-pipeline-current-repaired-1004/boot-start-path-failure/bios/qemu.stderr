@@ -1,0 +1,2 @@
+qemu-system-x86_64: -qmp unix:/home/rick/projects-caddy/windows-uup/docs/wimlib/evidence/uup-pipeline-current-repaired-1004/boot/bios/qmp.sock,server=on,wait=off: UNIX socket path '/home/rick/projects-caddy/windows-uup/docs/wimlib/evidence/uup-pipeline-current-repaired-1004/boot/bios/qmp.sock' is too long
+Path must be less than 108 bytes

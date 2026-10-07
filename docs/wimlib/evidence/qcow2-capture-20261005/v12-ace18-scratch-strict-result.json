@@ -1,0 +1,60 @@
+{
+  "scope": "New dedicated scratch volume only; no installed metadata restoration",
+  "raw_report": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/diagnostic-scratch-ace18-report.json",
+  "sha256": "51aa9991abc0afbcf20e5b8725f935f7e763c9dc68a6cbda9897680c0a203f68",
+  "cases": [
+    {
+      "case": 0,
+      "path": "T:\\ace18-scratch-e91008bfa5d24ebfa2c98db6047105b6\\case-0",
+      "set_status": 0,
+      "negative_status": 5,
+      "negative_unchanged": true,
+      "expected_ace": "120b440000000000010100000000000100000000140000000200000000000000010000002800000049004d004100470045004c004f004100440000000100000000000000",
+      "observed_ace18": [
+        "120b440000000000010100000000000100000000140000000200000000000000010000002800000049004d004100470045004c004f004100440000000100000000000000"
+      ],
+      "ace_exact": true,
+      "owner_equal": true,
+      "group_equal": true,
+      "dacl_equal": false,
+      "passed": false
+    },
+    {
+      "case": 1,
+      "path": "T:\\ace18-scratch-e91008bfa5d24ebfa2c98db6047105b6\\case-1",
+      "set_status": 0,
+      "negative_status": 5,
+      "negative_unchanged": true,
+      "expected_ace": "1210440000000000010100000000000100000000140000000200000000000000010000002800000049004d004100470045004c004f004100440000000100000000000000",
+      "observed_ace18": [],
+      "ace_exact": false,
+      "owner_equal": true,
+      "group_equal": true,
+      "dacl_equal": false,
+      "passed": false
+    },
+    {
+      "case": 2,
+      "path": "T:\\ace18-scratch-e91008bfa5d24ebfa2c98db6047105b6\\case-2",
+      "set_status": 0,
+      "negative_status": 5,
+      "negative_unchanged": true,
+      "expected_ace": "1200500000000000010100000000000100000000140000000200000000000000010000003200000043006100700074007500720065005300630072006100740063006800000088776655443322110000",
+      "observed_ace18": [
+        "1200500000000000010100000000000100000000140000000200000000000000010000003200000043006100700074007500720065005300630072006100740063006800000088776655443322110000"
+      ],
+      "ace_exact": true,
+      "owner_equal": true,
+      "group_equal": true,
+      "dacl_equal": false,
+      "passed": false
+    }
+  ],
+  "all_cases_pass": false,
+  "documented_api_behavior": "SetSecurityInfo applies inheritance propagation when setting SACL elements; this does not prove the cause of each observed difference.",
+  "primary_sources": [
+    "https://learn.microsoft.com/en-us/windows/win32/api/aclapi/nf-aclapi-setsecurityinfo",
+    "https://learn.microsoft.com/en-us/windows/win32/secauthz/automatic-propagation-of-inheritable-aces"
+  ],
+  "next_required": "Alternative isolated setter experiment must preserve full owner/group/DACL and requested inherited ACE bytes, with clean offline verification."
+}

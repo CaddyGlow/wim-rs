@@ -1,0 +1,219 @@
+
+Deployment Image Servicing and Management tool
+Version: 10.0.26100.5074
+
+Image Version: 10.0.19041.1
+
+Packages listing:
+
+Package Identity : Microsoft-OneCore-ApplicationModel-Sync-Desktop-FOD-Package~31bf3856ad364e35~amd64~~10.0.19041.1
+State : Installed
+Release Type : OnDemand Pack
+Install Time : 12/7/2019 9:52 AM
+
+Package Identity : Microsoft-OneCore-DirectX-Database-FOD-Package~31bf3856ad364e35~amd64~~10.0.19041.1
+State : Installed
+Release Type : OnDemand Pack
+Install Time : 12/7/2019 9:53 AM
+
+Package Identity : Microsoft-Windows-Client-LanguagePack-Package~31bf3856ad364e35~amd64~en-US~10.0.19041.1
+State : Installed
+Release Type : Language Pack
+Install Time : 12/7/2019 9:50 AM
+
+Package Identity : Microsoft-Windows-FodMetadata-Package~31bf3856ad364e35~amd64~~10.0.19041.1
+State : Installed
+Release Type : Feature Pack
+Install Time : 12/7/2019 9:50 AM
+
+Package Identity : Microsoft-Windows-Foundation-Package~31bf3856ad364e35~amd64~~10.0.19041.1
+State : Installed
+Release Type : Foundation
+Install Time : 12/7/2019 9:18 AM
+
+Package Identity : Microsoft-Windows-Hello-Face-Migration-Package~31bf3856ad364e35~amd64~~10.0.19041.1
+State : Installed
+Release Type : OnDemand Pack
+Install Time : 12/7/2019 9:50 AM
+
+Package Identity : Microsoft-Windows-Hello-Face-Package~31bf3856ad364e35~amd64~~10.0.19041.1
+State : Installed
+Release Type : OnDemand Pack
+Install Time : 12/7/2019 9:50 AM
+
+Package Identity : Microsoft-Windows-InternetExplorer-Optional-Package~31bf3856ad364e35~amd64~~11.0.19041.1
+State : Installed
+Release Type : OnDemand Pack
+Install Time : 12/7/2019 9:51 AM
+
+Package Identity : Microsoft-Windows-LanguageFeatures-Basic-en-us-Package~31bf3856ad364e35~amd64~~10.0.19041.1
+State : Installed
+Release Type : OnDemand Pack
+Install Time : 12/7/2019 9:52 AM
+
+Package Identity : Microsoft-Windows-LanguageFeatures-Handwriting-en-us-Package~31bf3856ad364e35~amd64~~10.0.19041.1
+State : Installed
+Release Type : OnDemand Pack
+Install Time : 12/7/2019 9:52 AM
+
+Package Identity : Microsoft-Windows-LanguageFeatures-OCR-en-us-Package~31bf3856ad364e35~amd64~~10.0.19041.1
+State : Installed
+Release Type : OnDemand Pack
+Install Time : 12/7/2019 9:52 AM
+
+Package Identity : Microsoft-Windows-LanguageFeatures-Speech-en-us-Package~31bf3856ad364e35~amd64~~10.0.19041.1
+State : Installed
+Release Type : OnDemand Pack
+Install Time : 12/7/2019 9:52 AM
+
+Package Identity : Microsoft-Windows-LanguageFeatures-TextToSpeech-en-us-Package~31bf3856ad364e35~amd64~~10.0.19041.1
+State : Installed
+Release Type : OnDemand Pack
+Install Time : 12/7/2019 9:52 AM
+
+Package Identity : Microsoft-Windows-MediaPlayer-Package~31bf3856ad364e35~amd64~~10.0.19041.1
+State : Installed
+Release Type : OnDemand Pack
+Install Time : 12/7/2019 9:51 AM
+
+Package Identity : Microsoft-Windows-MSPaint-FoD-Package~31bf3856ad364e35~amd64~en-US~10.0.19041.1
+State : Installed
+Release Type : OnDemand Pack
+Install Time : 12/7/2019 9:52 AM
+
+Package Identity : Microsoft-Windows-MSPaint-FoD-Package~31bf3856ad364e35~amd64~~10.0.19041.1
+State : Installed
+Release Type : OnDemand Pack
+Install Time : 12/7/2019 9:52 AM
+
+Package Identity : Microsoft-Windows-MSPaint-FoD-Package~31bf3856ad364e35~wow64~en-US~10.0.19041.1
+State : Installed
+Release Type : OnDemand Pack
+Install Time : 12/7/2019 9:52 AM
+
+Package Identity : Microsoft-Windows-MSPaint-FoD-Package~31bf3856ad364e35~wow64~~10.0.19041.1
+State : Installed
+Release Type : OnDemand Pack
+Install Time : 12/7/2019 9:52 AM
+
+Package Identity : Microsoft-Windows-Notepad-FoD-Package~31bf3856ad364e35~amd64~en-US~10.0.19041.1
+State : Installed
+Release Type : OnDemand Pack
+Install Time : 12/7/2019 9:52 AM
+
+Package Identity : Microsoft-Windows-Notepad-FoD-Package~31bf3856ad364e35~amd64~~10.0.19041.1
+State : Installed
+Release Type : OnDemand Pack
+Install Time : 12/7/2019 9:52 AM
+
+Package Identity : Microsoft-Windows-Notepad-FoD-Package~31bf3856ad364e35~wow64~en-US~10.0.19041.1
+State : Installed
+Release Type : OnDemand Pack
+Install Time : 12/7/2019 9:52 AM
+
+Package Identity : Microsoft-Windows-Notepad-FoD-Package~31bf3856ad364e35~wow64~~10.0.19041.1
+State : Installed
+Release Type : OnDemand Pack
+Install Time : 12/7/2019 9:52 AM
+
+Package Identity : Microsoft-Windows-PowerShell-ISE-FOD-Package~31bf3856ad364e35~amd64~en-US~10.0.19041.1
+State : Installed
+Release Type : OnDemand Pack
+Install Time : 12/7/2019 9:53 AM
+
+Package Identity : Microsoft-Windows-PowerShell-ISE-FOD-Package~31bf3856ad364e35~amd64~~10.0.19041.1
+State : Installed
+Release Type : OnDemand Pack
+Install Time : 12/7/2019 9:53 AM
+
+Package Identity : Microsoft-Windows-PowerShell-ISE-FOD-Package~31bf3856ad364e35~wow64~en-US~10.0.19041.1
+State : Installed
+Release Type : OnDemand Pack
+Install Time : 12/7/2019 9:53 AM
+
+Package Identity : Microsoft-Windows-PowerShell-ISE-FOD-Package~31bf3856ad364e35~wow64~~10.0.19041.1
+State : Installed
+Release Type : OnDemand Pack
+Install Time : 12/7/2019 9:53 AM
+
+Package Identity : Microsoft-Windows-Printing-PMCPPC-FoD-Package~31bf3856ad364e35~amd64~en-US~10.0.19041.1
+State : Installed
+Release Type : OnDemand Pack
+Install Time : 12/7/2019 9:54 AM
+
+Package Identity : Microsoft-Windows-Printing-PMCPPC-FoD-Package~31bf3856ad364e35~amd64~~10.0.19041.1
+State : Installed
+Release Type : OnDemand Pack
+Install Time : 12/7/2019 9:54 AM
+
+Package Identity : Microsoft-Windows-Printing-WFS-FoD-Package~31bf3856ad364e35~amd64~en-US~10.0.19041.1
+State : Installed
+Release Type : OnDemand Pack
+Install Time : 12/7/2019 9:51 AM
+
+Package Identity : Microsoft-Windows-Printing-WFS-FoD-Package~31bf3856ad364e35~amd64~~10.0.19041.1
+State : Installed
+Release Type : OnDemand Pack
+Install Time : 12/7/2019 9:51 AM
+
+Package Identity : Microsoft-Windows-QuickAssist-Package~31bf3856ad364e35~amd64~~10.0.19041.1
+State : Installed
+Release Type : OnDemand Pack
+Install Time : 12/7/2019 9:51 AM
+
+Package Identity : Microsoft-Windows-StepsRecorder-Package~31bf3856ad364e35~amd64~en-US~10.0.19041.1
+State : Installed
+Release Type : OnDemand Pack
+Install Time : 12/7/2019 9:53 AM
+
+Package Identity : Microsoft-Windows-StepsRecorder-Package~31bf3856ad364e35~amd64~~10.0.19041.1
+State : Installed
+Release Type : OnDemand Pack
+Install Time : 12/7/2019 9:53 AM
+
+Package Identity : Microsoft-Windows-StepsRecorder-Package~31bf3856ad364e35~wow64~en-US~10.0.19041.1
+State : Installed
+Release Type : OnDemand Pack
+Install Time : 12/7/2019 9:53 AM
+
+Package Identity : Microsoft-Windows-StepsRecorder-Package~31bf3856ad364e35~wow64~~10.0.19041.1
+State : Installed
+Release Type : OnDemand Pack
+Install Time : 12/7/2019 9:53 AM
+
+Package Identity : Microsoft-Windows-TabletPCMath-Package~31bf3856ad364e35~amd64~~10.0.19041.1
+State : Installed
+Release Type : OnDemand Pack
+Install Time : 12/7/2019 9:50 AM
+
+Package Identity : Microsoft-Windows-UserExperience-Desktop-Package~31bf3856ad364e35~amd64~~10.0.19041.1
+State : Installed
+Release Type : OnDemand Pack
+Install Time : 12/7/2019 9:51 AM
+
+Package Identity : Microsoft-Windows-WordPad-FoD-Package~31bf3856ad364e35~amd64~en-US~10.0.19041.1
+State : Installed
+Release Type : OnDemand Pack
+Install Time : 12/7/2019 9:53 AM
+
+Package Identity : Microsoft-Windows-WordPad-FoD-Package~31bf3856ad364e35~amd64~~10.0.19041.1
+State : Installed
+Release Type : OnDemand Pack
+Install Time : 12/7/2019 9:53 AM
+
+Package Identity : Microsoft-Windows-WordPad-FoD-Package~31bf3856ad364e35~wow64~en-US~10.0.19041.1
+State : Installed
+Release Type : OnDemand Pack
+Install Time : 12/7/2019 9:53 AM
+
+Package Identity : Microsoft-Windows-WordPad-FoD-Package~31bf3856ad364e35~wow64~~10.0.19041.1
+State : Installed
+Release Type : OnDemand Pack
+Install Time : 12/7/2019 9:53 AM
+
+Package Identity : OpenSSH-Client-Package~31bf3856ad364e35~amd64~~10.0.19041.1
+State : Installed
+Release Type : OnDemand Pack
+Install Time : 12/7/2019 9:51 AM
+
+The operation completed successfully.

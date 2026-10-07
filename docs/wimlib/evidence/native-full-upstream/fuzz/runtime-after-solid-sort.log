@@ -1,0 +1,142 @@
+ASSERTION FAILED at line 1014: The requested operation is unsupported
+Starting wlfuzz with time limit of 2 seconds
+--> iteration 1
+:::op__split_test
+--> iteration 2
+:::op__delete_random_image_from_random_wim
+--> iteration 3
+:::op__verify_random_wim
+--> iteration 4
+:::op__export_random_image
+--> iteration 5
+:::op__delete_random_wim
+--> iteration 6
+:::op__overwrite_with_no_changes
+--> iteration 7
+:::op__apply_and_capture_test
+--> iteration 8
+:::op__delete_random_wim
+--> iteration 9
+:::op__delete_random_wim
+--> iteration 10
+:::op__delete_random_image_from_random_wim
+--> iteration 11
+:::op__delete_random_wim
+--> iteration 12
+:::op__create_new_wim
+Creating wim0 with write flags 0x00002001, compression_type=None, chunk_size=0, solid_chunk_size=0
+--> iteration 13
+:::op__export_random_image
+--> iteration 14
+:::op__delete_random_wim
+Deleted wim0
+--> iteration 15
+:::op__delete_random_wim
+--> iteration 16
+:::op__delete_random_wim
+--> iteration 17
+:::op__delete_random_wim
+--> iteration 18
+:::op__delete_random_image_from_random_wim
+--> iteration 19
+:::op__apply_and_capture_test
+--> iteration 20
+:::op__create_new_wim
+Creating wim0 with write flags 0x00003000, compression_type=LZX, chunk_size=262144, solid_chunk_size=0
+--> iteration 21
+:::op__delete_random_wim
+Deleted wim0
+--> iteration 22
+:::op__export_random_image
+--> iteration 23
+:::op__apply_and_capture_test
+--> iteration 24
+:::op__delete_random_wim
+--> iteration 25
+:::op__add_empty_image_to_random_wim
+--> iteration 26
+:::op__create_new_wim
+Creating wim0 with write flags 0x00003001, compression_type=LZX, chunk_size=262144, solid_chunk_size=0
+--> iteration 27
+:::op__apply_and_capture_test
+Opening wim0 with flags 0x00000000
+generated wim0 image 1
+overwrite with flags: 0x0000c840
+Opening wim0 with flags 0x00000000
+applying in UNIX mode
+overwrite with flags: 0x00000028
+Opening wim0 with flags 0x00000001
+--> iteration 28
+:::op__apply_and_capture_test
+Opening wim0 with flags 0x00000000
+generated wim0 image 3
+overwrite with flags: 0x0000e9a1
+Opening wim0 with flags 0x00000001
+applying in UNIX mode
+overwrite with flags: 0x000068b0
+Opening wim0 with flags 0x00000000
+--> iteration 29
+:::op__apply_and_capture_test
+Opening wim0 with flags 0x00000000
+generated wim0 image 5
+overwrite with flags: 0x0000b000
+Opening wim0 with flags 0x00000001
+applying in UNIX mode
+overwrite with flags: 0x00007190
+Opening wim0 with flags 0x00000000
+--> iteration 30
+:::op__add_empty_image_to_random_wim
+Opening wim0 with flags 0x00000001
+Adding empty image to wim0 at index 7
+overwrite with flags: 0x00002008
+--> iteration 31
+:::op__apply_and_capture_test
+Opening wim0 with flags 0x00000001
+generated wim0 image 8
+overwrite with flags: 0x000001f1
+Opening wim0 with flags 0x00000000
+applying in UNIX mode
+overwrite with flags: 0x0000307a
+Opening wim0 with flags 0x00000000
+--> iteration 32
+:::op__apply_and_capture_test
+Opening wim0 with flags 0x00000000
+generated wim0 image 10
+overwrite with flags: 0x00004850
+Opening wim0 with flags 0x00000000
+applying in UNIX mode
+overwrite with flags: 0x000049f2
+Opening wim0 with flags 0x00000000
+--> iteration 33
+:::op__create_new_wim
+Creating wim1 with write flags 0x00002000, compression_type=XPRESS, chunk_size=8192, solid_chunk_size=0
+--> iteration 34
+:::op__export_random_image
+Opening wim0 with flags 0x00000000
+Opening wim1 with flags 0x00000001
+Exporting image 6 of 11 from wim 0 into wim 1
+overwrite with flags: 0x00005992
+Opening wim1 with flags 0x00000000
+--> iteration 35
+:::op__add_empty_image_to_random_wim
+Opening wim1 with flags 0x00000000
+Adding empty image to wim1 at index 2
+overwrite with flags: 0x000041c1
+--> iteration 36
+:::op__apply_and_capture_test
+Opening wim1 with flags 0x00000000
+generated wim1 image 3
+overwrite with flags: 0x00004130
+Opening wim1 with flags 0x00000001
+applying in UNIX mode
+overwrite with flags: 0x00006991
+Opening wim1 with flags 0x00000001
+--> iteration 37
+:::op__delete_random_image_from_random_wim
+Opening wim0 with flags 0x00000001
+Deleting image 7 from wim0
+overwrite with flags: 0x00008081
+--> iteration 38
+:::op__split_test
+Opening wim1 with flags 0x00000001
+splitting WIM wim1: part_size=62520, write_flags=0x00004000

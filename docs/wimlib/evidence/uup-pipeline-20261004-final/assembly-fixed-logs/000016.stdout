@@ -1,0 +1,31 @@
+Microsoft (R) File Expansion Utility
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-13\$filehashes$.dat to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-13\amd64_microsoft-windows-gpowershell-exe_31bf3856ad364e35_10.0.19041.1_none_ee822d264112a470\ise.psd1 to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-13\amd64_microsoft-windows-gpowershell-exe_31bf3856ad364e35_10.0.19041.1_none_ee822d264112a470\ise.psm1 to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-13\amd64_microsoft-windows-gpowershell-exe_31bf3856ad364e35_10.0.19041.1_none_ee822d264112a470\powershell_ise.exe to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-13\amd64_microsoft-windows-gpowershell-exe_31bf3856ad364e35_10.0.19041.1_none_ee822d264112a470\powershell_ise.exe.config to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-13\amd64_microsoft-windows-gpowershell-exe_31bf3856ad364e35_10.0.19041.1_none_ee822d264112a470.manifest to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-13\amd64_microsoft-windows-p..-ise-fod-deployment_31bf3856ad364e35_10.0.19041.1_none_d57a69beb62662f6.manifest to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-13\amd64_microsoft-windows-p..hell-ise-deployment_31bf3856ad364e35_10.0.19041.1_none_9cc8c3a389ef7454.manifest to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-13\amd64_microsoft-windows-powershell-ise_31bf3856ad364e35_10.0.19041.1_none_1ed6cb15a1b51b10\Windows PowerShell ISE (x86).lnk to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-13\amd64_microsoft-windows-powershell-ise_31bf3856ad364e35_10.0.19041.1_none_1ed6cb15a1b51b10\Windows PowerShell ISE.lnk to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-13\amd64_microsoft-windows-powershell-ise_31bf3856ad364e35_10.0.19041.1_none_1ed6cb15a1b51b10.manifest to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-13\Microsoft-Windows-PowerShell-ISE-FOD-Package~31bf3856ad364e35~amd64~~10.0.19041.1.cat to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-13\Microsoft-Windows-PowerShell-ISE-FOD-Package~31bf3856ad364e35~amd64~~10.0.19041.1.mum to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-13\msil_microsoft.powershell.editor_31bf3856ad364e35_10.0.19041.1_none_397acccff8b2725f\Microsoft.PowerShell.Editor.dll to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-13\msil_microsoft.powershell.editor_31bf3856ad364e35_10.0.19041.1_none_397acccff8b2725f.manifest to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-13\msil_microsoft.powershell.gpowershell_31bf3856ad364e35_10.0.19041.1_none_212fd29e57852d28\Microsoft.PowerShell.GPowerShell.dll to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-13\msil_microsoft.powershell.gpowershell_31bf3856ad364e35_10.0.19041.1_none_212fd29e57852d28.manifest to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-13\msil_microsoft.powershell.graphicalhost_31bf3856ad364e35_10.0.19041.1_none_9969af6cea1ffa55\Microsoft.PowerShell.GraphicalHost.dll to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-13\msil_microsoft.powershell.graphicalhost_31bf3856ad364e35_10.0.19041.1_none_9969af6cea1ffa55.manifest to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-13\msil_microsoft.powershell.isecommon_31bf3856ad364e35_10.0.19041.1_none_7986cb74735a5972\Microsoft.PowerShell.ISECommon.dll to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-13\msil_microsoft.powershell.isecommon_31bf3856ad364e35_10.0.19041.1_none_7986cb74735a5972.manifest to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-13\update.cat to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-13\update.mum to Extraction Queue
+
+Expanding Files ....
+
+Expanding Files Complete ...
+23 files total.

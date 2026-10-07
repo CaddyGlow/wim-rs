@@ -1,0 +1,139 @@
+{
+  "implementation": "original-long-extended",
+  "incomplete": true,
+  "cases": [
+    {
+      "fixture": "default-acl",
+      "flags": 0,
+      "image": 1,
+      "stop": -1,
+      "status": 0,
+      "target_kind": "long-extended",
+      "result": {
+        "exit": 0,
+        "signal": null,
+        "stdout_base64": "b3BlbiAwDQpldmVudCAwIGltYWdlIDEgZmxhZ3MgMjU2IHRhcmdldC1pcy1hcmd1bWVudCAxIHJlc2VydmVkLW51bGwgMSBieXRlcyAxNiAwIHN0cmVhbXMgMiAwIG5hbWUgMDA0MzAwNjEwMDcwMDA3NDAwNzUwMDcyMDA2NTAwMmQwMGU5NmYyMmQ4MzRkZDFlDQpldmVudCAzIGltYWdlIDEgZmxhZ3MgMjU2IHRhcmdldC1pcy1hcmd1bWVudCAxIHJlc2VydmVkLW51bGwgMSBmaWxlcyAwIDcgbmFtZSAwMDQzMDA2MTAwNzAwMDc0MDA3NTAwNzIwMDY1MDAyZDAwZTk2ZjIyZDgzNGRkMWUNCmV2ZW50IDMgaW1hZ2UgMSBmbGFncyAyNTYgdGFyZ2V0LWlzLWFyZ3VtZW50IDEgcmVzZXJ2ZWQtbnVsbCAxIGZpbGVzIDcgNyBuYW1lIDAwNDMwMDYxMDA3MDAwNzQwMDc1MDA3MjAwNjUwMDJkMDBlOTZmMjJkODM0ZGQxZQ0KZXZlbnQgNCBpbWFnZSAxIGZsYWdzIDI1NiB0YXJnZXQtaXMtYXJndW1lbnQgMSByZXNlcnZlZC1udWxsIDEgYnl0ZXMgMTYgMTIgc3RyZWFtcyAyIDEgbmFtZSAwMDQzMDA2MTAwNzAwMDc0MDA3NTAwNzIwMDY1MDAyZDAwZTk2ZjIyZDgzNGRkMWUNCmV2ZW50IDQgaW1hZ2UgMSBmbGFncyAyNTYgdGFyZ2V0LWlzLWFyZ3VtZW50IDEgcmVzZXJ2ZWQtbnVsbCAxIGJ5dGVzIDE2IDE2IHN0cmVhbXMgMiAyIG5hbWUgMDA0MzAwNjEwMDcwMDA3NDAwNzUwMDcyMDA2NTAwMmQwMGU5NmYyMmQ4MzRkZDFlDQpldmVudCA2IGltYWdlIDEgZmxhZ3MgMjU2IHRhcmdldC1pcy1hcmd1bWVudCAxIHJlc2VydmVkLW51bGwgMSBmaWxlcyAwIDcgbmFtZSAwMDQzMDA2MTAwNzAwMDc0MDA3NTAwNzIwMDY1MDAyZDAwZTk2ZjIyZDgzNGRkMWUNCmV2ZW50IDYgaW1hZ2UgMSBmbGFncyAyNTYgdGFyZ2V0LWlzLWFyZ3VtZW50IDEgcmVzZXJ2ZWQtbnVsbCAxIGZpbGVzIDcgNyBuYW1lIDAwNDMwMDYxMDA3MDAwNzQwMDc1MDA3MjAwNjUwMDJkMDBlOTZmMjJkODM0ZGQxZQ0KZXZlbnQgNyBpbWFnZSAxIGZsYWdzIDI1NiB0YXJnZXQtaXMtYXJndW1lbnQgMSByZXNlcnZlZC1udWxsIDEgYnl0ZXMgMTYgMTYgc3RyZWFtcyAyIDIgbmFtZSAwMDQzMDA2MTAwNzAwMDc0MDA3NTAwNzIwMDY1MDAyZDAwZTk2ZjIyZDgzNGRkMWUNCmV4dHJhY3QgMA0K",
+        "stdout": "open 0\r\nevent 0 image 1 flags 256 target-is-argument 1 reserved-null 1 bytes 16 0 streams 2 0 name 0043006100700074007500720065002d00e96f22d834dd1e\r\nevent 3 image 1 flags 256 target-is-argument 1 reserved-null 1 files 0 7 name 0043006100700074007500720065002d00e96f22d834dd1e\r\nevent 3 image 1 flags 256 target-is-argument 1 reserved-null 1 files 7 7 name 0043006100700074007500720065002d00e96f22d834dd1e\r\nevent 4 image 1 flags 256 target-is-argument 1 reserved-null 1 bytes 16 12 streams 2 1 name 0043006100700074007500720065002d00e96f22d834dd1e\r\nevent 4 image 1 flags 256 target-is-argument 1 reserved-null 1 bytes 16 16 streams 2 2 name 0043006100700074007500720065002d00e96f22d834dd1e\r\nevent 6 image 1 flags 256 target-is-argument 1 reserved-null 1 files 0 7 name 0043006100700074007500720065002d00e96f22d834dd1e\r\nevent 6 image 1 flags 256 target-is-argument 1 reserved-null 1 files 7 7 name 0043006100700074007500720065002d00e96f22d834dd1e\r\nevent 7 image 1 flags 256 target-is-argument 1 reserved-null 1 bytes 16 16 streams 2 2 name 0043006100700074007500720065002d00e96f22d834dd1e\r\nextract 0\r\n",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": [
+        {
+          "Path": "",
+          "Directory": true,
+          "Attrs": 16,
+          "Creation": 634007667060000000,
+          "Write": 634007667060000000,
+          "SDDL": "O:BAG:SYD:AI(A;OICIID;FA;;;BA)(A;OICIID;FA;;;SY)(A;OICIID;0x1200a9;;;BU)(A;ID;0x1301bf;;;AU)(A;OICIIOID;SDGXGWGR;;;AU)",
+          "Links": null,
+          "Hash": {}
+        },
+        {
+          "Path": "\\sub",
+          "Directory": true,
+          "Attrs": 16,
+          "Creation": 634007667060000000,
+          "Write": 634007667060000000,
+          "SDDL": "O:BAG:SYD:AI(A;OICIID;FA;;;BA)(A;OICIID;FA;;;SY)(A;OICIID;0x1200a9;;;BU)(A;ID;0x1301bf;;;AU)(A;OICIIOID;SDGXGWGR;;;AU)",
+          "Links": null,
+          "Hash": {}
+        },
+        {
+          "Path": "\\a.bin",
+          "Directory": false,
+          "Attrs": 33,
+          "Creation": 639266027926040650,
+          "Write": 639266027926040650,
+          "SDDL": "O:BAG:SYD:AI(A;ID;FA;;;BA)(A;ID;FA;;;SY)(A;ID;0x1200a9;;;BU)(A;ID;0x1301bf;;;AU)",
+          "Links": 3,
+          "Hash": "5FC94324CAA9E1D5ED54725D86A5095D918257E192E1092BD09ECEFA82763CD7"
+        },
+        {
+          "Path": "\\empty.txt",
+          "Directory": false,
+          "Attrs": 32,
+          "Creation": 634007667060000000,
+          "Write": 634007667060000000,
+          "SDDL": "O:BAG:SYD:AI(A;ID;FA;;;BA)(A;ID;FA;;;SY)(A;ID;0x1200a9;;;BU)(A;ID;0x1301bf;;;AU)",
+          "Links": 1,
+          "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+        },
+        {
+          "Path": "\\link.bin",
+          "Directory": false,
+          "Attrs": 33,
+          "Creation": 639266027926040650,
+          "Write": 639266027926040650,
+          "SDDL": "O:BAG:SYD:AI(A;ID;FA;;;BA)(A;ID;FA;;;SY)(A;ID;0x1200a9;;;BU)(A;ID;0x1301bf;;;AU)",
+          "Links": 3,
+          "Hash": "5FC94324CAA9E1D5ED54725D86A5095D918257E192E1092BD09ECEFA82763CD7"
+        },
+        {
+          "Path": "\\\u00e9\u6f22\ud834\udd1e.bin",
+          "Directory": false,
+          "Attrs": 34,
+          "Creation": 634007667060000000,
+          "Write": 634007667060000000,
+          "SDDL": "O:BAG:SYD:AI(A;ID;FA;;;BA)(A;ID;FA;;;SY)(A;ID;0x1200a9;;;BU)(A;ID;0x1301bf;;;AU)",
+          "Links": 1,
+          "Hash": "5D8D910591D272938AEF5F966E0816E374BEAF7B5ADF02CCA5F8F770596C2CE3"
+        },
+        {
+          "Path": "\\sub\\third.bin",
+          "Directory": false,
+          "Attrs": 33,
+          "Creation": 639266027926040650,
+          "Write": 639266027926040650,
+          "SDDL": "O:BAG:SYD:AI(A;ID;FA;;;BA)(A;ID;FA;;;SY)(A;ID;0x1200a9;;;BU)(A;ID;0x1301bf;;;AU)",
+          "Links": 3,
+          "Hash": "5FC94324CAA9E1D5ED54725D86A5095D918257E192E1092BD09ECEFA82763CD7"
+        }
+      ]
+    },
+    {
+      "fixture": "default-acl",
+      "flags": 0,
+      "image": 1,
+      "stop": 0,
+      "status": 1,
+      "target_kind": "long-extended",
+      "result": {
+        "exit": 0,
+        "signal": null,
+        "stdout_base64": "b3BlbiAwDQpldmVudCAwIGltYWdlIDEgZmxhZ3MgMjU2IHRhcmdldC1pcy1hcmd1bWVudCAxIHJlc2VydmVkLW51bGwgMSBieXRlcyAxNiAwIHN0cmVhbXMgMiAwIG5hbWUgMDA0MzAwNjEwMDcwMDA3NDAwNzUwMDcyMDA2NTAwMmQwMGU5NmYyMmQ4MzRkZDFlDQpleHRyYWN0IDc2DQo=",
+        "stdout": "open 0\r\nevent 0 image 1 flags 256 target-is-argument 1 reserved-null 1 bytes 16 0 streams 2 0 name 0043006100700074007500720065002d00e96f22d834dd1e\r\nextract 76\r\n",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": null
+    },
+    {
+      "fixture": "default-acl",
+      "flags": 0,
+      "image": 1,
+      "stop": 3,
+      "status": 1,
+      "target_kind": "long-extended",
+      "result": {
+        "exit": 0,
+        "signal": null,
+        "stdout_base64": "b3BlbiAwDQpldmVudCAwIGltYWdlIDEgZmxhZ3MgMjU2IHRhcmdldC1pcy1hcmd1bWVudCAxIHJlc2VydmVkLW51bGwgMSBieXRlcyAxNiAwIHN0cmVhbXMgMiAwIG5hbWUgMDA0MzAwNjEwMDcwMDA3NDAwNzUwMDcyMDA2NTAwMmQwMGU5NmYyMmQ4MzRkZDFlDQpldmVudCAzIGltYWdlIDEgZmxhZ3MgMjU2IHRhcmdldC1pcy1hcmd1bWVudCAxIHJlc2VydmVkLW51bGwgMSBmaWxlcyAwIDcgbmFtZSAwMDQzMDA2MTAwNzAwMDc0MDA3NTAwNzIwMDY1MDAyZDAwZTk2ZjIyZDgzNGRkMWUNCmV4dHJhY3QgNzYNCg==",
+        "stdout": "open 0\r\nevent 0 image 1 flags 256 target-is-argument 1 reserved-null 1 bytes 16 0 streams 2 0 name 0043006100700074007500720065002d00e96f22d834dd1e\r\nevent 3 image 1 flags 256 target-is-argument 1 reserved-null 1 files 0 7 name 0043006100700074007500720065002d00e96f22d834dd1e\r\nextract 76\r\n",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": [
+        {
+          "Path": "",
+          "Directory": true,
+          "Attrs": 16,
+          "Creation": 639266092634216597,
+          "Write": 639266092634216597,
+          "SDDL": "O:BAG:SYD:AI(A;OICIID;FA;;;BA)(A;OICIID;FA;;;SY)(A;OICIID;0x1200a9;;;BU)(A;ID;0x1301bf;;;AU)(A;OICIIOID;SDGXGWGR;;;AU)",
+          "Links": null,
+          "Hash": {}
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+   Compiling wim-codec v0.1.0 (/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/wim-codec)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.10s
+     Running tests/lzms_encode.rs (crates/wimlib-rs/target/debug/deps/lzms_encode-733e2c15a195b2b4)
+
+running 4 tests
+test capacity_and_short_input_are_rejected ... ok
+test arithmetic_ramp_uses_delta_matches ... FAILED
+test random_literals_rebuild_adaptive_codes ... ok
+test real_matches_roundtrip_and_compress ... ok
+
+failures:
+
+---- arithmetic_ramp_uses_delta_matches stdout ----
+
+thread 'arithmetic_ramp_uses_delta_matches' (105) panicked at wim-codec/tests/lzms_encode.rs:24:5:
+delta ramp encoded in 268 bytes
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+
+failures:
+    arithmetic_ramp_uses_delta_matches
+
+test result: FAILED. 3 passed; 1 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.02s
+
+error: test failed, to rerun pass `-p wim-codec --test lzms_encode`

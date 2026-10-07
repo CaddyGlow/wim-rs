@@ -1,0 +1,1381 @@
+{
+  "schema": 1,
+  "scope": "Strict clean offline native comparison of second independently formatted scratch only; source/originalbaseline untouched. No installed restoration.",
+  "image": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/second-experiment-scratch.qcow2",
+  "physical_image_sha256_independently_reverified": "207c221bb54dbc59805ada77a0b3310ecd6cc0bc7327c26ca3ac46f7dc6542bd",
+  "partition": 2,
+  "backings": [],
+  "strict_clean_ntfs_open": true,
+  "ace18_controls": [
+    {
+      "name": "Directory-explicit",
+      "scratch_type": "Directory",
+      "maximum_allowed_control": false,
+      "actual_online_all_passed": false,
+      "all_actual_offline_components_match_online": true,
+      "cases": [
+        {
+          "case": 0,
+          "parent_offline": {
+            "EaRaw": "",
+            "Info": {
+              "Access": 134357111352047380,
+              "Attributes": 16,
+              "Creation": 134357111351930048,
+              "Identity": "0001000000000027",
+              "Write": 134357111352047380
+            },
+            "ObjectIdRaw": "",
+            "Path": "\\case-0",
+            "ReparseRaw": "",
+            "SecurityRaw": "010014881801000028010000140000006000000002004c0001000000120b440000000000010100000000000100000000140000000200000000000000010000002800000049004d004100470045004c004f0041004400000001000000000000000200b8000800000000001800ff011f0001020000000000052000000020020000000b1800000000100102000000000005200000002002000000001400ff011f00010100000000000512000000000b14000000001001010000000000051200000000001400bf01130001010000000000050b000000000b1400000001e001010000000000050b00000000001800a900120001020000000000052000000021020000000b1800000000a00102000000000005200000002102000001020000000000052000000020020000010100000000000512000000",
+            "Short": "",
+            "Streams": []
+          },
+          "child_or_sibling_offline": {
+            "EaRaw": "",
+            "Info": {
+              "Access": 134357111352047380,
+              "Attributes": 32,
+              "Creation": 134357111352047380,
+              "Identity": "0001000000000028",
+              "Write": 134357111352047380
+            },
+            "ObjectIdRaw": "",
+            "Path": "\\case-0\\child.txt",
+            "ReparseRaw": "",
+            "SecurityRaw": "01001488c0000000d0000000140000006000000002004c00010000001210440000000000010100000000000100000000140000000200000000000000010000002800000049004d004100470045004c004f004100440000000100000000000000020060000400000000001800ff011f000102000000000005200000002002000000001400ff011f0001010000000000051200000000001400bf01130001010000000000050b00000000001800a90012000102000000000005200000002102000001020000000000052000000020020000010100000000000512000000",
+            "Short": "",
+            "Streams": [
+              {
+                "Hash": "dff09355c125abfac6844e9f16e9dd0f3ee696c140dfb806b0a34e262986859c",
+                "Length": 12,
+                "Name": ""
+              }
+            ]
+          },
+          "actual_parent_components_match_online": true,
+          "actual_child_components_match_online": true,
+          "owner_preserved": true,
+          "group_preserved": true,
+          "dacl_preserved": false,
+          "dacl_change_only_inherited_bit_clear": true,
+          "control_before": 40964,
+          "control_after": 34836,
+          "control_changed_bits": 10256,
+          "expected_source_ace": "120b440000000000010100000000000100000000140000000200000000000000010000002800000049004d004100470045004c004f004100440000000100000000000000",
+          "actual_offline_ace18": [
+            "120b440000000000010100000000000100000000140000000200000000000000010000002800000049004d004100470045004c004f004100440000000100000000000000"
+          ],
+          "source_ace_exact": true,
+          "child_actual_offline_ace18": [
+            "1210440000000000010100000000000100000000140000000200000000000000010000002800000049004d004100470045004c004f004100440000000100000000000000"
+          ],
+          "negative_status": 5,
+          "negative_unchanged": true,
+          "actual_online_strict_passed": false,
+          "online_child_non_attribute_invariants_preserved": false,
+          "online_non_ace18_sacl_preserved": true,
+          "online_sibling_entire_descriptor_preserved": false,
+          "child_actual_online_offline_component_differences": {}
+        },
+        {
+          "case": 1,
+          "parent_offline": {
+            "EaRaw": "",
+            "Info": {
+              "Access": 134357111354385444,
+              "Attributes": 16,
+              "Creation": 134357111354196260,
+              "Identity": "0001000000000029",
+              "Write": 134357111354385444
+            },
+            "ObjectIdRaw": "",
+            "Path": "\\case-1",
+            "ReparseRaw": "",
+            "SecurityRaw": "01001488cc000000dc00000000000000140000000200b8000800000000001800ff011f0001020000000000052000000020020000000b1800000000100102000000000005200000002002000000001400ff011f00010100000000000512000000000b14000000001001010000000000051200000000001400bf01130001010000000000050b000000000b1400000001e001010000000000050b00000000001800a900120001020000000000052000000021020000000b1800000000a00102000000000005200000002102000001020000000000052000000020020000010100000000000512000000",
+            "Short": "",
+            "Streams": []
+          },
+          "child_or_sibling_offline": {
+            "EaRaw": "",
+            "Info": {
+              "Access": 134357111354385444,
+              "Attributes": 32,
+              "Creation": 134357111354385444,
+              "Identity": "000100000000002A",
+              "Write": 134357111354385444
+            },
+            "ObjectIdRaw": "",
+            "Path": "\\case-1\\child.txt",
+            "ReparseRaw": "",
+            "SecurityRaw": "0100148874000000840000000000000014000000020060000400000000001800ff011f000102000000000005200000002002000000001400ff011f0001010000000000051200000000001400bf01130001010000000000050b00000000001800a90012000102000000000005200000002102000001020000000000052000000020020000010100000000000512000000",
+            "Short": "",
+            "Streams": [
+              {
+                "Hash": "dff09355c125abfac6844e9f16e9dd0f3ee696c140dfb806b0a34e262986859c",
+                "Length": 12,
+                "Name": ""
+              }
+            ]
+          },
+          "actual_parent_components_match_online": true,
+          "actual_child_components_match_online": true,
+          "owner_preserved": true,
+          "group_preserved": true,
+          "dacl_preserved": false,
+          "dacl_change_only_inherited_bit_clear": true,
+          "control_before": 40964,
+          "control_after": 34836,
+          "control_changed_bits": 10256,
+          "expected_source_ace": "1210440000000000010100000000000100000000140000000200000000000000010000002800000049004d004100470045004c004f004100440000000100000000000000",
+          "actual_offline_ace18": [],
+          "source_ace_exact": false,
+          "child_actual_offline_ace18": [],
+          "negative_status": 5,
+          "negative_unchanged": true,
+          "actual_online_strict_passed": false,
+          "online_child_non_attribute_invariants_preserved": false,
+          "online_non_ace18_sacl_preserved": true,
+          "online_sibling_entire_descriptor_preserved": false,
+          "child_actual_online_offline_component_differences": {}
+        },
+        {
+          "case": 2,
+          "parent_offline": {
+            "EaRaw": "",
+            "Info": {
+              "Access": 134357111355137222,
+              "Attributes": 16,
+              "Creation": 134357111354999232,
+              "Identity": "000100000000002B",
+              "Write": 134357111355137222
+            },
+            "ObjectIdRaw": "",
+            "Path": "\\case-2",
+            "ReparseRaw": "",
+            "SecurityRaw": "010014882401000034010000140000006c000000020058000100000012005000000000000101000000000001000000001400000002000000000000000100000032000000430061007000740075007200650053006300720061007400630068000000887766554433221100000200b8000800000000001800ff011f0001020000000000052000000020020000000b1800000000100102000000000005200000002002000000001400ff011f00010100000000000512000000000b14000000001001010000000000051200000000001400bf01130001010000000000050b000000000b1400000001e001010000000000050b00000000001800a900120001020000000000052000000021020000000b1800000000a00102000000000005200000002102000001020000000000052000000020020000010100000000000512000000",
+            "Short": "",
+            "Streams": []
+          },
+          "child_or_sibling_offline": {
+            "EaRaw": "",
+            "Info": {
+              "Access": 134357111355137222,
+              "Attributes": 32,
+              "Creation": 134357111355137222,
+              "Identity": "000100000000002C",
+              "Write": 134357111355137222
+            },
+            "ObjectIdRaw": "",
+            "Path": "\\case-2\\child.txt",
+            "ReparseRaw": "",
+            "SecurityRaw": "0100148874000000840000000000000014000000020060000400000000001800ff011f000102000000000005200000002002000000001400ff011f0001010000000000051200000000001400bf01130001010000000000050b00000000001800a90012000102000000000005200000002102000001020000000000052000000020020000010100000000000512000000",
+            "Short": "",
+            "Streams": [
+              {
+                "Hash": "dff09355c125abfac6844e9f16e9dd0f3ee696c140dfb806b0a34e262986859c",
+                "Length": 12,
+                "Name": ""
+              }
+            ]
+          },
+          "actual_parent_components_match_online": true,
+          "actual_child_components_match_online": true,
+          "owner_preserved": true,
+          "group_preserved": true,
+          "dacl_preserved": false,
+          "dacl_change_only_inherited_bit_clear": true,
+          "control_before": 40964,
+          "control_after": 34836,
+          "control_changed_bits": 10256,
+          "expected_source_ace": "1200500000000000010100000000000100000000140000000200000000000000010000003200000043006100700074007500720065005300630072006100740063006800000088776655443322110000",
+          "actual_offline_ace18": [
+            "1200500000000000010100000000000100000000140000000200000000000000010000003200000043006100700074007500720065005300630072006100740063006800000088776655443322110000"
+          ],
+          "source_ace_exact": true,
+          "child_actual_offline_ace18": [],
+          "negative_status": 5,
+          "negative_unchanged": true,
+          "actual_online_strict_passed": false,
+          "online_child_non_attribute_invariants_preserved": false,
+          "online_non_ace18_sacl_preserved": true,
+          "online_sibling_entire_descriptor_preserved": false,
+          "child_actual_online_offline_component_differences": {}
+        }
+      ]
+    },
+    {
+      "name": "Directory-maximum",
+      "scratch_type": "Directory",
+      "maximum_allowed_control": true,
+      "actual_online_all_passed": false,
+      "all_actual_offline_components_match_online": false,
+      "cases": [
+        {
+          "case": 0,
+          "parent_offline": {
+            "EaRaw": "",
+            "Info": {
+              "Access": 134357111469050454,
+              "Attributes": 16,
+              "Creation": 134357111468720414,
+              "Identity": "000100000000002F",
+              "Write": 134357111469050454
+            },
+            "ObjectIdRaw": "",
+            "Path": "\\case-0",
+            "ReparseRaw": "",
+            "SecurityRaw": "010014881801000028010000140000006000000002004c0001000000120b440000000000010100000000000100000000140000000200000000000000010000002800000049004d004100470045004c004f0041004400000001000000000000000200b8000800000000001800ff011f0001020000000000052000000020020000000b1800000000100102000000000005200000002002000000001400ff011f00010100000000000512000000000b14000000001001010000000000051200000000001400bf01130001010000000000050b000000000b1400000001e001010000000000050b00000000001800a900120001020000000000052000000021020000000b1800000000a00102000000000005200000002102000001020000000000052000000020020000010100000000000512000000",
+            "Short": "",
+            "Streams": []
+          },
+          "child_or_sibling_offline": {
+            "EaRaw": "",
+            "Info": {
+              "Access": 134357111469050454,
+              "Attributes": 32,
+              "Creation": 134357111469050454,
+              "Identity": "0001000000000030",
+              "Write": 134357111469050454
+            },
+            "ObjectIdRaw": "",
+            "Path": "\\case-0\\child.txt",
+            "ReparseRaw": "",
+            "SecurityRaw": "0100048074000000840000000000000014000000020060000400000000001800ff011f000102000000000005200000002002000000001400ff011f0001010000000000051200000000001400bf01130001010000000000050b00000000001800a90012000102000000000005200000002102000001020000000000052000000020020000010100000000000512000000",
+            "Short": "",
+            "Streams": [
+              {
+                "Hash": "dff09355c125abfac6844e9f16e9dd0f3ee696c140dfb806b0a34e262986859c",
+                "Length": 12,
+                "Name": ""
+              }
+            ]
+          },
+          "actual_parent_components_match_online": true,
+          "actual_child_components_match_online": false,
+          "owner_preserved": true,
+          "group_preserved": true,
+          "dacl_preserved": false,
+          "dacl_change_only_inherited_bit_clear": true,
+          "control_before": 40964,
+          "control_after": 34836,
+          "control_changed_bits": 10256,
+          "expected_source_ace": "120b440000000000010100000000000100000000140000000200000000000000010000002800000049004d004100470045004c004f004100440000000100000000000000",
+          "actual_offline_ace18": [
+            "120b440000000000010100000000000100000000140000000200000000000000010000002800000049004d004100470045004c004f004100440000000100000000000000"
+          ],
+          "source_ace_exact": true,
+          "child_actual_offline_ace18": [],
+          "negative_status": 5,
+          "negative_unchanged": true,
+          "actual_online_strict_passed": false,
+          "online_child_non_attribute_invariants_preserved": true,
+          "online_non_ace18_sacl_preserved": true,
+          "online_sibling_entire_descriptor_preserved": true,
+          "child_actual_online_offline_component_differences": {
+            "control": {
+              "offline": 32772,
+              "online": 40964
+            },
+            "dacl": {
+              "offline": "020060000400000000001800ff011f000102000000000005200000002002000000001400ff011f0001010000000000051200000000001400bf01130001010000000000050b00000000001800a900120001020000000000052000000021020000",
+              "online": "020060000400000000101800ff011f000102000000000005200000002002000000101400ff011f0001010000000000051200000000101400bf01130001010000000000050b00000000101800a900120001020000000000052000000021020000"
+            }
+          }
+        },
+        {
+          "case": 1,
+          "parent_offline": {
+            "EaRaw": "",
+            "Info": {
+              "Access": 134357111474936292,
+              "Attributes": 16,
+              "Creation": 134357111474825685,
+              "Identity": "0001000000000031",
+              "Write": 134357111474936292
+            },
+            "ObjectIdRaw": "",
+            "Path": "\\case-1",
+            "ReparseRaw": "",
+            "SecurityRaw": "01001488cc000000dc00000000000000140000000200b8000800000000001800ff011f0001020000000000052000000020020000000b1800000000100102000000000005200000002002000000001400ff011f00010100000000000512000000000b14000000001001010000000000051200000000001400bf01130001010000000000050b000000000b1400000001e001010000000000050b00000000001800a900120001020000000000052000000021020000000b1800000000a00102000000000005200000002102000001020000000000052000000020020000010100000000000512000000",
+            "Short": "",
+            "Streams": []
+          },
+          "child_or_sibling_offline": {
+            "EaRaw": "",
+            "Info": {
+              "Access": 134357111474936292,
+              "Attributes": 32,
+              "Creation": 134357111474936292,
+              "Identity": "0001000000000032",
+              "Write": 134357111474936292
+            },
+            "ObjectIdRaw": "",
+            "Path": "\\case-1\\child.txt",
+            "ReparseRaw": "",
+            "SecurityRaw": "0100048074000000840000000000000014000000020060000400000000001800ff011f000102000000000005200000002002000000001400ff011f0001010000000000051200000000001400bf01130001010000000000050b00000000001800a90012000102000000000005200000002102000001020000000000052000000020020000010100000000000512000000",
+            "Short": "",
+            "Streams": [
+              {
+                "Hash": "dff09355c125abfac6844e9f16e9dd0f3ee696c140dfb806b0a34e262986859c",
+                "Length": 12,
+                "Name": ""
+              }
+            ]
+          },
+          "actual_parent_components_match_online": true,
+          "actual_child_components_match_online": false,
+          "owner_preserved": true,
+          "group_preserved": true,
+          "dacl_preserved": false,
+          "dacl_change_only_inherited_bit_clear": true,
+          "control_before": 40964,
+          "control_after": 34836,
+          "control_changed_bits": 10256,
+          "expected_source_ace": "1210440000000000010100000000000100000000140000000200000000000000010000002800000049004d004100470045004c004f004100440000000100000000000000",
+          "actual_offline_ace18": [],
+          "source_ace_exact": false,
+          "child_actual_offline_ace18": [],
+          "negative_status": 5,
+          "negative_unchanged": true,
+          "actual_online_strict_passed": false,
+          "online_child_non_attribute_invariants_preserved": true,
+          "online_non_ace18_sacl_preserved": true,
+          "online_sibling_entire_descriptor_preserved": true,
+          "child_actual_online_offline_component_differences": {
+            "control": {
+              "offline": 32772,
+              "online": 40964
+            },
+            "dacl": {
+              "offline": "020060000400000000001800ff011f000102000000000005200000002002000000001400ff011f0001010000000000051200000000001400bf01130001010000000000050b00000000001800a900120001020000000000052000000021020000",
+              "online": "020060000400000000101800ff011f000102000000000005200000002002000000101400ff011f0001010000000000051200000000101400bf01130001010000000000050b00000000101800a900120001020000000000052000000021020000"
+            }
+          }
+        },
+        {
+          "case": 2,
+          "parent_offline": {
+            "EaRaw": "",
+            "Info": {
+              "Access": 134357111476037984,
+              "Attributes": 16,
+              "Creation": 134357111475910392,
+              "Identity": "0001000000000033",
+              "Write": 134357111476037984
+            },
+            "ObjectIdRaw": "",
+            "Path": "\\case-2",
+            "ReparseRaw": "",
+            "SecurityRaw": "010014882401000034010000140000006c000000020058000100000012005000000000000101000000000001000000001400000002000000000000000100000032000000430061007000740075007200650053006300720061007400630068000000887766554433221100000200b8000800000000001800ff011f0001020000000000052000000020020000000b1800000000100102000000000005200000002002000000001400ff011f00010100000000000512000000000b14000000001001010000000000051200000000001400bf01130001010000000000050b000000000b1400000001e001010000000000050b00000000001800a900120001020000000000052000000021020000000b1800000000a00102000000000005200000002102000001020000000000052000000020020000010100000000000512000000",
+            "Short": "",
+            "Streams": []
+          },
+          "child_or_sibling_offline": {
+            "EaRaw": "",
+            "Info": {
+              "Access": 134357111476037984,
+              "Attributes": 32,
+              "Creation": 134357111476037984,
+              "Identity": "0001000000000034",
+              "Write": 134357111476037984
+            },
+            "ObjectIdRaw": "",
+            "Path": "\\case-2\\child.txt",
+            "ReparseRaw": "",
+            "SecurityRaw": "0100048074000000840000000000000014000000020060000400000000001800ff011f000102000000000005200000002002000000001400ff011f0001010000000000051200000000001400bf01130001010000000000050b00000000001800a90012000102000000000005200000002102000001020000000000052000000020020000010100000000000512000000",
+            "Short": "",
+            "Streams": [
+              {
+                "Hash": "dff09355c125abfac6844e9f16e9dd0f3ee696c140dfb806b0a34e262986859c",
+                "Length": 12,
+                "Name": ""
+              }
+            ]
+          },
+          "actual_parent_components_match_online": true,
+          "actual_child_components_match_online": false,
+          "owner_preserved": true,
+          "group_preserved": true,
+          "dacl_preserved": false,
+          "dacl_change_only_inherited_bit_clear": true,
+          "control_before": 40964,
+          "control_after": 34836,
+          "control_changed_bits": 10256,
+          "expected_source_ace": "1200500000000000010100000000000100000000140000000200000000000000010000003200000043006100700074007500720065005300630072006100740063006800000088776655443322110000",
+          "actual_offline_ace18": [
+            "1200500000000000010100000000000100000000140000000200000000000000010000003200000043006100700074007500720065005300630072006100740063006800000088776655443322110000"
+          ],
+          "source_ace_exact": true,
+          "child_actual_offline_ace18": [],
+          "negative_status": 5,
+          "negative_unchanged": true,
+          "actual_online_strict_passed": false,
+          "online_child_non_attribute_invariants_preserved": true,
+          "online_non_ace18_sacl_preserved": true,
+          "online_sibling_entire_descriptor_preserved": true,
+          "child_actual_online_offline_component_differences": {
+            "control": {
+              "offline": 32772,
+              "online": 40964
+            },
+            "dacl": {
+              "offline": "020060000400000000001800ff011f000102000000000005200000002002000000001400ff011f0001010000000000051200000000001400bf01130001010000000000050b00000000001800a900120001020000000000052000000021020000",
+              "online": "020060000400000000101800ff011f000102000000000005200000002002000000101400ff011f0001010000000000051200000000101400bf01130001010000000000050b00000000101800a900120001020000000000052000000021020000"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "File-explicit",
+      "scratch_type": "File",
+      "maximum_allowed_control": false,
+      "actual_online_all_passed": false,
+      "all_actual_offline_components_match_online": false,
+      "cases": [
+        {
+          "case": 0,
+          "parent_offline": {
+            "EaRaw": "",
+            "Info": {
+              "Access": 134357111517180259,
+              "Attributes": 32,
+              "Creation": 134357111517180259,
+              "Identity": "0001000000000037",
+              "Write": 134357111517180259
+            },
+            "ObjectIdRaw": "",
+            "Path": "\\case-0",
+            "ReparseRaw": "",
+            "SecurityRaw": "0100148874000000840000000000000014000000020060000400000000001800ff011f000102000000000005200000002002000000001400ff011f0001010000000000051200000000001400bf01130001010000000000050b00000000001800a90012000102000000000005200000002102000001020000000000052000000020020000010100000000000512000000",
+            "Short": "",
+            "Streams": [
+              {
+                "Hash": "dff09355c125abfac6844e9f16e9dd0f3ee696c140dfb806b0a34e262986859c",
+                "Length": 12,
+                "Name": ""
+              }
+            ]
+          },
+          "child_or_sibling_offline": {
+            "EaRaw": "",
+            "Info": {
+              "Access": 134357111517377263,
+              "Attributes": 32,
+              "Creation": 134357111517377263,
+              "Identity": "0001000000000038",
+              "Write": 134357111517377263
+            },
+            "ObjectIdRaw": "",
+            "Path": "\\sibling-0.txt",
+            "ReparseRaw": "",
+            "SecurityRaw": "0100048074000000840000000000000014000000020060000400000000001800ff011f000102000000000005200000002002000000001400ff011f0001010000000000051200000000001400bf01130001010000000000050b00000000001800a90012000102000000000005200000002102000001020000000000052000000020020000010100000000000512000000",
+            "Short": "",
+            "Streams": [
+              {
+                "Hash": "dff09355c125abfac6844e9f16e9dd0f3ee696c140dfb806b0a34e262986859c",
+                "Length": 12,
+                "Name": ""
+              }
+            ]
+          },
+          "actual_parent_components_match_online": true,
+          "actual_child_components_match_online": false,
+          "owner_preserved": true,
+          "group_preserved": true,
+          "dacl_preserved": false,
+          "dacl_change_only_inherited_bit_clear": true,
+          "control_before": 40964,
+          "control_after": 34836,
+          "control_changed_bits": 10256,
+          "expected_source_ace": "120b440000000000010100000000000100000000140000000200000000000000010000002800000049004d004100470045004c004f004100440000000100000000000000",
+          "actual_offline_ace18": [],
+          "source_ace_exact": false,
+          "child_actual_offline_ace18": [],
+          "negative_status": 5,
+          "negative_unchanged": true,
+          "actual_online_strict_passed": false,
+          "online_child_non_attribute_invariants_preserved": true,
+          "online_non_ace18_sacl_preserved": true,
+          "online_sibling_entire_descriptor_preserved": true,
+          "child_actual_online_offline_component_differences": {
+            "control": {
+              "offline": 32772,
+              "online": 40964
+            },
+            "dacl": {
+              "offline": "020060000400000000001800ff011f000102000000000005200000002002000000001400ff011f0001010000000000051200000000001400bf01130001010000000000050b00000000001800a900120001020000000000052000000021020000",
+              "online": "020060000400000000101800ff011f000102000000000005200000002002000000101400ff011f0001010000000000051200000000101400bf01130001010000000000050b00000000101800a900120001020000000000052000000021020000"
+            }
+          }
+        },
+        {
+          "case": 1,
+          "parent_offline": {
+            "EaRaw": "",
+            "Info": {
+              "Access": 134357111518648023,
+              "Attributes": 32,
+              "Creation": 134357111518648023,
+              "Identity": "0001000000000039",
+              "Write": 134357111518648023
+            },
+            "ObjectIdRaw": "",
+            "Path": "\\case-1",
+            "ReparseRaw": "",
+            "SecurityRaw": "0100148874000000840000000000000014000000020060000400000000001800ff011f000102000000000005200000002002000000001400ff011f0001010000000000051200000000001400bf01130001010000000000050b00000000001800a90012000102000000000005200000002102000001020000000000052000000020020000010100000000000512000000",
+            "Short": "",
+            "Streams": [
+              {
+                "Hash": "dff09355c125abfac6844e9f16e9dd0f3ee696c140dfb806b0a34e262986859c",
+                "Length": 12,
+                "Name": ""
+              }
+            ]
+          },
+          "child_or_sibling_offline": {
+            "EaRaw": "",
+            "Info": {
+              "Access": 134357111518887394,
+              "Attributes": 32,
+              "Creation": 134357111518887394,
+              "Identity": "000100000000003A",
+              "Write": 134357111518887394
+            },
+            "ObjectIdRaw": "",
+            "Path": "\\sibling-1.txt",
+            "ReparseRaw": "",
+            "SecurityRaw": "0100048074000000840000000000000014000000020060000400000000001800ff011f000102000000000005200000002002000000001400ff011f0001010000000000051200000000001400bf01130001010000000000050b00000000001800a90012000102000000000005200000002102000001020000000000052000000020020000010100000000000512000000",
+            "Short": "",
+            "Streams": [
+              {
+                "Hash": "dff09355c125abfac6844e9f16e9dd0f3ee696c140dfb806b0a34e262986859c",
+                "Length": 12,
+                "Name": ""
+              }
+            ]
+          },
+          "actual_parent_components_match_online": true,
+          "actual_child_components_match_online": false,
+          "owner_preserved": true,
+          "group_preserved": true,
+          "dacl_preserved": false,
+          "dacl_change_only_inherited_bit_clear": true,
+          "control_before": 40964,
+          "control_after": 34836,
+          "control_changed_bits": 10256,
+          "expected_source_ace": "1210440000000000010100000000000100000000140000000200000000000000010000002800000049004d004100470045004c004f004100440000000100000000000000",
+          "actual_offline_ace18": [],
+          "source_ace_exact": false,
+          "child_actual_offline_ace18": [],
+          "negative_status": 5,
+          "negative_unchanged": true,
+          "actual_online_strict_passed": false,
+          "online_child_non_attribute_invariants_preserved": true,
+          "online_non_ace18_sacl_preserved": true,
+          "online_sibling_entire_descriptor_preserved": true,
+          "child_actual_online_offline_component_differences": {
+            "control": {
+              "offline": 32772,
+              "online": 40964
+            },
+            "dacl": {
+              "offline": "020060000400000000001800ff011f000102000000000005200000002002000000001400ff011f0001010000000000051200000000001400bf01130001010000000000050b00000000001800a900120001020000000000052000000021020000",
+              "online": "020060000400000000101800ff011f000102000000000005200000002002000000101400ff011f0001010000000000051200000000101400bf01130001010000000000050b00000000101800a900120001020000000000052000000021020000"
+            }
+          }
+        },
+        {
+          "case": 2,
+          "parent_offline": {
+            "EaRaw": "",
+            "Info": {
+              "Access": 134357111519214961,
+              "Attributes": 32,
+              "Creation": 134357111519214961,
+              "Identity": "000100000000003B",
+              "Write": 134357111519214961
+            },
+            "ObjectIdRaw": "",
+            "Path": "\\case-2",
+            "ReparseRaw": "",
+            "SecurityRaw": "01001488cc000000dc000000140000006c00000002005800010000001200500000000000010100000000000100000000140000000200000000000000010000003200000043006100700074007500720065005300630072006100740063006800000088776655443322110000020060000400000000001800ff011f000102000000000005200000002002000000001400ff011f0001010000000000051200000000001400bf01130001010000000000050b00000000001800a90012000102000000000005200000002102000001020000000000052000000020020000010100000000000512000000",
+            "Short": "",
+            "Streams": [
+              {
+                "Hash": "dff09355c125abfac6844e9f16e9dd0f3ee696c140dfb806b0a34e262986859c",
+                "Length": 12,
+                "Name": ""
+              }
+            ]
+          },
+          "child_or_sibling_offline": {
+            "EaRaw": "",
+            "Info": {
+              "Access": 134357111519556457,
+              "Attributes": 32,
+              "Creation": 134357111519388466,
+              "Identity": "000100000000003C",
+              "Write": 134357111519556457
+            },
+            "ObjectIdRaw": "",
+            "Path": "\\sibling-2.txt",
+            "ReparseRaw": "",
+            "SecurityRaw": "0100048074000000840000000000000014000000020060000400000000001800ff011f000102000000000005200000002002000000001400ff011f0001010000000000051200000000001400bf01130001010000000000050b00000000001800a90012000102000000000005200000002102000001020000000000052000000020020000010100000000000512000000",
+            "Short": "",
+            "Streams": [
+              {
+                "Hash": "dff09355c125abfac6844e9f16e9dd0f3ee696c140dfb806b0a34e262986859c",
+                "Length": 12,
+                "Name": ""
+              }
+            ]
+          },
+          "actual_parent_components_match_online": true,
+          "actual_child_components_match_online": false,
+          "owner_preserved": true,
+          "group_preserved": true,
+          "dacl_preserved": false,
+          "dacl_change_only_inherited_bit_clear": true,
+          "control_before": 40964,
+          "control_after": 34836,
+          "control_changed_bits": 10256,
+          "expected_source_ace": "1200500000000000010100000000000100000000140000000200000000000000010000003200000043006100700074007500720065005300630072006100740063006800000088776655443322110000",
+          "actual_offline_ace18": [
+            "1200500000000000010100000000000100000000140000000200000000000000010000003200000043006100700074007500720065005300630072006100740063006800000088776655443322110000"
+          ],
+          "source_ace_exact": true,
+          "child_actual_offline_ace18": [],
+          "negative_status": 5,
+          "negative_unchanged": true,
+          "actual_online_strict_passed": false,
+          "online_child_non_attribute_invariants_preserved": true,
+          "online_non_ace18_sacl_preserved": true,
+          "online_sibling_entire_descriptor_preserved": true,
+          "child_actual_online_offline_component_differences": {
+            "control": {
+              "offline": 32772,
+              "online": 40964
+            },
+            "dacl": {
+              "offline": "020060000400000000001800ff011f000102000000000005200000002002000000001400ff011f0001010000000000051200000000001400bf01130001010000000000050b00000000001800a900120001020000000000052000000021020000",
+              "online": "020060000400000000101800ff011f000102000000000005200000002002000000101400ff011f0001010000000000051200000000101400bf01130001010000000000050b00000000101800a900120001020000000000052000000021020000"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "File-maximum",
+      "scratch_type": "File",
+      "maximum_allowed_control": true,
+      "actual_online_all_passed": false,
+      "all_actual_offline_components_match_online": false,
+      "cases": [
+        {
+          "case": 0,
+          "parent_offline": {
+            "EaRaw": "",
+            "Info": {
+              "Access": 134357111560311567,
+              "Attributes": 32,
+              "Creation": 134357111560311567,
+              "Identity": "000100000000003F",
+              "Write": 134357111560311567
+            },
+            "ObjectIdRaw": "",
+            "Path": "\\case-0",
+            "ReparseRaw": "",
+            "SecurityRaw": "0100148874000000840000000000000014000000020060000400000000001800ff011f000102000000000005200000002002000000001400ff011f0001010000000000051200000000001400bf01130001010000000000050b00000000001800a90012000102000000000005200000002102000001020000000000052000000020020000010100000000000512000000",
+            "Short": "",
+            "Streams": [
+              {
+                "Hash": "dff09355c125abfac6844e9f16e9dd0f3ee696c140dfb806b0a34e262986859c",
+                "Length": 12,
+                "Name": ""
+              }
+            ]
+          },
+          "child_or_sibling_offline": {
+            "EaRaw": "",
+            "Info": {
+              "Access": 134357111560576444,
+              "Attributes": 32,
+              "Creation": 134357111560576444,
+              "Identity": "0001000000000040",
+              "Write": 134357111560576444
+            },
+            "ObjectIdRaw": "",
+            "Path": "\\sibling-0.txt",
+            "ReparseRaw": "",
+            "SecurityRaw": "0100048074000000840000000000000014000000020060000400000000001800ff011f000102000000000005200000002002000000001400ff011f0001010000000000051200000000001400bf01130001010000000000050b00000000001800a90012000102000000000005200000002102000001020000000000052000000020020000010100000000000512000000",
+            "Short": "",
+            "Streams": [
+              {
+                "Hash": "dff09355c125abfac6844e9f16e9dd0f3ee696c140dfb806b0a34e262986859c",
+                "Length": 12,
+                "Name": ""
+              }
+            ]
+          },
+          "actual_parent_components_match_online": true,
+          "actual_child_components_match_online": false,
+          "owner_preserved": true,
+          "group_preserved": true,
+          "dacl_preserved": false,
+          "dacl_change_only_inherited_bit_clear": true,
+          "control_before": 40964,
+          "control_after": 34836,
+          "control_changed_bits": 10256,
+          "expected_source_ace": "120b440000000000010100000000000100000000140000000200000000000000010000002800000049004d004100470045004c004f004100440000000100000000000000",
+          "actual_offline_ace18": [],
+          "source_ace_exact": false,
+          "child_actual_offline_ace18": [],
+          "negative_status": 5,
+          "negative_unchanged": true,
+          "actual_online_strict_passed": false,
+          "online_child_non_attribute_invariants_preserved": true,
+          "online_non_ace18_sacl_preserved": true,
+          "online_sibling_entire_descriptor_preserved": true,
+          "child_actual_online_offline_component_differences": {
+            "control": {
+              "offline": 32772,
+              "online": 40964
+            },
+            "dacl": {
+              "offline": "020060000400000000001800ff011f000102000000000005200000002002000000001400ff011f0001010000000000051200000000001400bf01130001010000000000050b00000000001800a900120001020000000000052000000021020000",
+              "online": "020060000400000000101800ff011f000102000000000005200000002002000000101400ff011f0001010000000000051200000000101400bf01130001010000000000050b00000000101800a900120001020000000000052000000021020000"
+            }
+          }
+        },
+        {
+          "case": 1,
+          "parent_offline": {
+            "EaRaw": "",
+            "Info": {
+              "Access": 134357111562560716,
+              "Attributes": 32,
+              "Creation": 134357111562560716,
+              "Identity": "0001000000000041",
+              "Write": 134357111562560716
+            },
+            "ObjectIdRaw": "",
+            "Path": "\\case-1",
+            "ReparseRaw": "",
+            "SecurityRaw": "0100148874000000840000000000000014000000020060000400000000001800ff011f000102000000000005200000002002000000001400ff011f0001010000000000051200000000001400bf01130001010000000000050b00000000001800a90012000102000000000005200000002102000001020000000000052000000020020000010100000000000512000000",
+            "Short": "",
+            "Streams": [
+              {
+                "Hash": "dff09355c125abfac6844e9f16e9dd0f3ee696c140dfb806b0a34e262986859c",
+                "Length": 12,
+                "Name": ""
+              }
+            ]
+          },
+          "child_or_sibling_offline": {
+            "EaRaw": "",
+            "Info": {
+              "Access": 134357111562815702,
+              "Attributes": 32,
+              "Creation": 134357111562815702,
+              "Identity": "0001000000000042",
+              "Write": 134357111562815702
+            },
+            "ObjectIdRaw": "",
+            "Path": "\\sibling-1.txt",
+            "ReparseRaw": "",
+            "SecurityRaw": "0100048074000000840000000000000014000000020060000400000000001800ff011f000102000000000005200000002002000000001400ff011f0001010000000000051200000000001400bf01130001010000000000050b00000000001800a90012000102000000000005200000002102000001020000000000052000000020020000010100000000000512000000",
+            "Short": "",
+            "Streams": [
+              {
+                "Hash": "dff09355c125abfac6844e9f16e9dd0f3ee696c140dfb806b0a34e262986859c",
+                "Length": 12,
+                "Name": ""
+              }
+            ]
+          },
+          "actual_parent_components_match_online": true,
+          "actual_child_components_match_online": false,
+          "owner_preserved": true,
+          "group_preserved": true,
+          "dacl_preserved": false,
+          "dacl_change_only_inherited_bit_clear": true,
+          "control_before": 40964,
+          "control_after": 34836,
+          "control_changed_bits": 10256,
+          "expected_source_ace": "1210440000000000010100000000000100000000140000000200000000000000010000002800000049004d004100470045004c004f004100440000000100000000000000",
+          "actual_offline_ace18": [],
+          "source_ace_exact": false,
+          "child_actual_offline_ace18": [],
+          "negative_status": 5,
+          "negative_unchanged": true,
+          "actual_online_strict_passed": false,
+          "online_child_non_attribute_invariants_preserved": true,
+          "online_non_ace18_sacl_preserved": true,
+          "online_sibling_entire_descriptor_preserved": true,
+          "child_actual_online_offline_component_differences": {
+            "control": {
+              "offline": 32772,
+              "online": 40964
+            },
+            "dacl": {
+              "offline": "020060000400000000001800ff011f000102000000000005200000002002000000001400ff011f0001010000000000051200000000001400bf01130001010000000000050b00000000001800a900120001020000000000052000000021020000",
+              "online": "020060000400000000101800ff011f000102000000000005200000002002000000101400ff011f0001010000000000051200000000101400bf01130001010000000000050b00000000101800a900120001020000000000052000000021020000"
+            }
+          }
+        },
+        {
+          "case": 2,
+          "parent_offline": {
+            "EaRaw": "",
+            "Info": {
+              "Access": 134357111563287230,
+              "Attributes": 32,
+              "Creation": 134357111563287230,
+              "Identity": "0001000000000043",
+              "Write": 134357111563287230
+            },
+            "ObjectIdRaw": "",
+            "Path": "\\case-2",
+            "ReparseRaw": "",
+            "SecurityRaw": "01001488cc000000dc000000140000006c00000002005800010000001200500000000000010100000000000100000000140000000200000000000000010000003200000043006100700074007500720065005300630072006100740063006800000088776655443322110000020060000400000000001800ff011f000102000000000005200000002002000000001400ff011f0001010000000000051200000000001400bf01130001010000000000050b00000000001800a90012000102000000000005200000002102000001020000000000052000000020020000010100000000000512000000",
+            "Short": "",
+            "Streams": [
+              {
+                "Hash": "dff09355c125abfac6844e9f16e9dd0f3ee696c140dfb806b0a34e262986859c",
+                "Length": 12,
+                "Name": ""
+              }
+            ]
+          },
+          "child_or_sibling_offline": {
+            "EaRaw": "",
+            "Info": {
+              "Access": 134357111563594898,
+              "Attributes": 32,
+              "Creation": 134357111563440219,
+              "Identity": "0001000000000044",
+              "Write": 134357111563594898
+            },
+            "ObjectIdRaw": "",
+            "Path": "\\sibling-2.txt",
+            "ReparseRaw": "",
+            "SecurityRaw": "0100048074000000840000000000000014000000020060000400000000001800ff011f000102000000000005200000002002000000001400ff011f0001010000000000051200000000001400bf01130001010000000000050b00000000001800a90012000102000000000005200000002102000001020000000000052000000020020000010100000000000512000000",
+            "Short": "",
+            "Streams": [
+              {
+                "Hash": "dff09355c125abfac6844e9f16e9dd0f3ee696c140dfb806b0a34e262986859c",
+                "Length": 12,
+                "Name": ""
+              }
+            ]
+          },
+          "actual_parent_components_match_online": true,
+          "actual_child_components_match_online": false,
+          "owner_preserved": true,
+          "group_preserved": true,
+          "dacl_preserved": false,
+          "dacl_change_only_inherited_bit_clear": true,
+          "control_before": 40964,
+          "control_after": 34836,
+          "control_changed_bits": 10256,
+          "expected_source_ace": "1200500000000000010100000000000100000000140000000200000000000000010000003200000043006100700074007500720065005300630072006100740063006800000088776655443322110000",
+          "actual_offline_ace18": [
+            "1200500000000000010100000000000100000000140000000200000000000000010000003200000043006100700074007500720065005300630072006100740063006800000088776655443322110000"
+          ],
+          "source_ace_exact": true,
+          "child_actual_offline_ace18": [],
+          "negative_status": 5,
+          "negative_unchanged": true,
+          "actual_online_strict_passed": false,
+          "online_child_non_attribute_invariants_preserved": true,
+          "online_non_ace18_sacl_preserved": true,
+          "online_sibling_entire_descriptor_preserved": true,
+          "child_actual_online_offline_component_differences": {
+            "control": {
+              "offline": 32772,
+              "online": 40964
+            },
+            "dacl": {
+              "offline": "020060000400000000001800ff011f000102000000000005200000002002000000001400ff011f0001010000000000051200000000001400bf01130001010000000000050b00000000001800a900120001020000000000052000000021020000",
+              "online": "020060000400000000101800ff011f000102000000000005200000002002000000101400ff011f0001010000000000051200000000101400bf01130001010000000000050b00000000101800a900120001020000000000052000000021020000"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "all12actual_parent_and_child_sd_components_match_online": false,
+  "all12_source_exact_restoration_passed": false,
+  "alias_final_mappings": [
+    {
+      "kind": "file_permutation_or_directory",
+      "runtime": {
+        "Long": "U:\\QCOW2-AliasScratch-cdafc686fcdc48eaa00ee05759059c41\\pair\\FaceProcessor.dll",
+        "Alias": "FACEPR~2.DLL",
+        "LongUtf16": "55003A005C00510043004F00570032002D0041006C0069006100730053006300720061007400630068002D00630064006100660063003600380036006600630064006300340038006500610061003000300065006500300035003700350039003000350039006300340031005C0070006100690072005C004600610063006500500072006F0063006500730073006F0072002E0064006C006C00",
+        "AliasUtf16": "4600410043004500500052007E0032002E0044004C004C00",
+        "LongID": "B743B24C75B24CA249000000000001000000000000000000",
+        "ShortID": "B743B24C75B24CA249000000000001000000000000000000"
+      },
+      "offline": {
+        "EaRaw": "",
+        "Info": {
+          "Access": 134357111590651185,
+          "Attributes": 32,
+          "Creation": 134357111590651185,
+          "Identity": "0001000000000049",
+          "Write": 134357111590651185
+        },
+        "ObjectIdRaw": "",
+        "Path": "\\pair\\FaceProcessor.dll",
+        "ReparseRaw": "",
+        "SecurityRaw": "0100048074000000840000000000000014000000020060000400000000001800ff011f000102000000000005200000002002000000001400ff011f0001010000000000051200000000001400bf01130001010000000000050b00000000001800a90012000102000000000005200000002102000001020000000000052000000020020000010100000000000512000000",
+        "Short": "FACEPR~2.DLL",
+        "Streams": [
+          {
+            "Hash": "9f64a747e1b97f131fabb6b447296c9b6f0201e79fb3c5356e6c77e89b6a806a",
+            "Length": 4,
+            "Name": ""
+          }
+        ]
+      },
+      "native_index_record": {
+        "alias_utf16_le": "4600410043004500500052007e0032002e0044004c004c00",
+        "attributes": 32,
+        "file_id": 281474976710729,
+        "long_reference": 281474976710729,
+        "parent_path_utf16_le": "2f00510043004f00570032002d0041006c0069006100730053006300720061007400630068002d00630064006100660063003600380036006600630064006300340038006500610061003000300065006500300035003700350039003000350039006300340031002f007000610069007200",
+        "path_utf16_le": "2f00510043004f00570032002d0041006c0069006100730053006300720061007400630068002d00630064006100660063003600380036006600630064006300340038006500610061003000300065006500300035003700350039003000350039006300340031002f0070006100690072002f004600610063006500500072006f0063006500730073006f0072002e0064006c006c00",
+        "short_reference": 281474976710729
+      },
+      "actual_long_and_short_identity_match_online": true,
+      "actual_short_utf16_matches_online": true
+    },
+    {
+      "kind": "file_permutation_or_directory",
+      "runtime": {
+        "Long": "U:\\QCOW2-AliasScratch-cdafc686fcdc48eaa00ee05759059c41\\pair\\FaceProcessorCore.dll",
+        "Alias": "FACEPR~1.DLL",
+        "LongUtf16": "55003A005C00510043004F00570032002D0041006C0069006100730053006300720061007400630068002D00630064006100660063003600380036006600630064006300340038006500610061003000300065006500300035003700350039003000350039006300340031005C0070006100690072005C004600610063006500500072006F0063006500730073006F00720043006F00720065002E0064006C006C00",
+        "AliasUtf16": "4600410043004500500052007E0031002E0044004C004C00",
+        "LongID": "B743B24C75B24CA24A000000000001000000000000000000",
+        "ShortID": "B743B24C75B24CA24A000000000001000000000000000000"
+      },
+      "offline": {
+        "EaRaw": "",
+        "Info": {
+          "Access": 134357111590919994,
+          "Attributes": 32,
+          "Creation": 134357111590919994,
+          "Identity": "000100000000004A",
+          "Write": 134357111590919994
+        },
+        "ObjectIdRaw": "",
+        "Path": "\\pair\\FaceProcessorCore.dll",
+        "ReparseRaw": "",
+        "SecurityRaw": "0100048074000000840000000000000014000000020060000400000000001800ff011f000102000000000005200000002002000000001400ff011f0001010000000000051200000000001400bf01130001010000000000050b00000000001800a90012000102000000000005200000002102000001020000000000052000000020020000010100000000000512000000",
+        "Short": "FACEPR~1.DLL",
+        "Streams": [
+          {
+            "Hash": "55e5509f8052998294266ee5b50cb592938191fb5d67f73cac2e60b0276b1bdd",
+            "Length": 4,
+            "Name": ""
+          }
+        ]
+      },
+      "native_index_record": {
+        "alias_utf16_le": "4600410043004500500052007e0031002e0044004c004c00",
+        "attributes": 32,
+        "file_id": 281474976710730,
+        "long_reference": 281474976710730,
+        "parent_path_utf16_le": "2f00510043004f00570032002d0041006c0069006100730053006300720061007400630068002d00630064006100660063003600380036006600630064006300340038006500610061003000300065006500300035003700350039003000350039006300340031002f007000610069007200",
+        "path_utf16_le": "2f00510043004f00570032002d0041006c0069006100730053006300720061007400630068002d00630064006100660063003600380036006600630064006300340038006500610061003000300065006500300035003700350039003000350039006300340031002f0070006100690072002f004600610063006500500072006f0063006500730073006f00720043006f00720065002e0064006c006c00",
+        "short_reference": 281474976710730
+      },
+      "actual_long_and_short_identity_match_online": true,
+      "actual_short_utf16_matches_online": true
+    },
+    {
+      "kind": "file_permutation_or_directory",
+      "runtime": {
+        "Long": "U:\\QCOW2-AliasScratch-cdafc686fcdc48eaa00ee05759059c41\\LongDirectoryChallenge",
+        "Alias": "LONGDI~1",
+        "LongUtf16": "55003A005C00510043004F00570032002D0041006C0069006100730053006300720061007400630068002D00630064006100660063003600380036006600630064006300340038006500610061003000300065006500300035003700350039003000350039006300340031005C004C006F006E0067004400690072006500630074006F00720079004300680061006C006C0065006E0067006500",
+        "AliasUtf16": "4C004F004E004700440049007E003100",
+        "LongID": "B743B24C75B24CA24F000000000001000000000000000000",
+        "ShortID": "B743B24C75B24CA24F000000000001000000000000000000"
+      },
+      "offline": {
+        "EaRaw": "",
+        "Info": {
+          "Access": 134357111597156557,
+          "Attributes": 16,
+          "Creation": 134357111597156557,
+          "Identity": "000100000000004F",
+          "Write": 134357111597156557
+        },
+        "ObjectIdRaw": "",
+        "Path": "\\LongDirectoryChallenge",
+        "ReparseRaw": "",
+        "SecurityRaw": "01000480cc000000dc00000000000000140000000200b8000800000000001800ff011f0001020000000000052000000020020000000b1800000000100102000000000005200000002002000000001400ff011f00010100000000000512000000000b14000000001001010000000000051200000000001400bf01130001010000000000050b000000000b1400000001e001010000000000050b00000000001800a900120001020000000000052000000021020000000b1800000000a00102000000000005200000002102000001020000000000052000000020020000010100000000000512000000",
+        "Short": "LONGDI~1",
+        "Streams": []
+      },
+      "native_index_record": {
+        "alias_utf16_le": "4c004f004e004700440049007e003100",
+        "attributes": 16,
+        "file_id": 281474976710735,
+        "long_reference": 281474976710735,
+        "parent_path_utf16_le": "2f00510043004f00570032002d0041006c0069006100730053006300720061007400630068002d0063006400610066006300360038003600660063006400630034003800650061006100300030006500650030003500370035003900300035003900630034003100",
+        "path_utf16_le": "2f00510043004f00570032002d0041006c0069006100730053006300720061007400630068002d00630064006100660063003600380036006600630064006300340038006500610061003000300065006500300035003700350039003000350039006300340031002f004c006f006e0067004400690072006500630074006f00720079004300680061006c006c0065006e0067006500",
+        "short_reference": 281474976710735
+      },
+      "actual_long_and_short_identity_match_online": true,
+      "actual_short_utf16_matches_online": true
+    },
+    {
+      "kind": "final_hardlink",
+      "runtime": {
+        "Path": "U:\\QCOW2-AliasScratch-cdafc686fcdc48eaa00ee05759059c41\\hardlinks\\HardlinkedOne.bin",
+        "PathUtf16": "55003A005C00510043004F00570032002D0041006C0069006100730053006300720061007400630068002D00630064006100660063003600380036006600630064006300340038006500610061003000300065006500300035003700350039003000350039006300340031005C0068006100720064006C0069006E006B0073005C0048006100720064006C0069006E006B00650064004F006E0065002E00620069006E00",
+        "Identity24": "B743B24C75B24CA24E000000000001000000000000000000",
+        "SecurityOwnerGroupDacl": "010004801400000024000000000000003000000001020000000000052000000020020000010100000000000512000000020060000400000000001800FF011F000102000000000005200000002002000000001400FF011F0001010000000000051200000000001400BF01130001010000000000050B00000000001800A900120001020000000000052000000021020000",
+        "BasicAndStandardRaw": "882E9FC51455DD01882E9FC51455DD01882E9FC51455DD01A190C9C51455DD012000000000000000:080000000000000003000000000000000300000000000000",
+        "PayloadSHA256": "9909EC831E2CF6D0C73FB5480F31945A80987A13FAEE005704166CB53A26CECA"
+      },
+      "runtime_parent_enumeration": {
+        "Parent": "U:\\QCOW2-AliasScratch-cdafc686fcdc48eaa00ee05759059c41\\hardlinks",
+        "LongName": "HardlinkedOne.bin",
+        "LongNameUtf16": "48006100720064006C0069006E006B00650064004F006E0065002E00620069006E00",
+        "Alias": "",
+        "AliasUtf16": "",
+        "LongID": "B743B24C75B24CA24E000000000001000000000000000000",
+        "AliasID": null
+      },
+      "offline": {
+        "EaRaw": "",
+        "Info": {
+          "Access": 134357111594233480,
+          "Attributes": 32,
+          "Creation": 134357111594233480,
+          "Identity": "000100000000004E",
+          "Write": 134357111594233480
+        },
+        "ObjectIdRaw": "",
+        "Path": "\\hardlinks\\HardlinkedOne.bin",
+        "ReparseRaw": "",
+        "SecurityRaw": "0100048074000000840000000000000014000000020060000400000000001800ff011f000102000000000005200000002002000000001400ff011f0001010000000000051200000000001400bf01130001010000000000050b00000000001800a90012000102000000000005200000002102000001020000000000052000000020020000010100000000000512000000",
+        "Short": "",
+        "Streams": [
+          {
+            "Hash": "9909ec831e2cf6d0c73fb5480f31945a80987a13faee005704166cb53a26ceca",
+            "Length": 3,
+            "Name": ""
+          }
+        ]
+      },
+      "actual_identity24_exact": true,
+      "actual_short_matches_final_parent_enumeration": true,
+      "actual_payload_sha256_exact": true,
+      "actual_owner_group_dacl_exact": true,
+      "sacl_scope": "Online alias harness did not query SACL; no SACL preservation claim."
+    },
+    {
+      "kind": "final_hardlink",
+      "runtime": {
+        "Path": "U:\\QCOW2-AliasScratch-cdafc686fcdc48eaa00ee05759059c41\\hardlinks\\HardlinkedTwo.bin",
+        "PathUtf16": "55003A005C00510043004F00570032002D0041006C0069006100730053006300720061007400630068002D00630064006100660063003600380036006600630064006300340038006500610061003000300065006500300035003700350039003000350039006300340031005C0068006100720064006C0069006E006B0073005C0048006100720064006C0069006E006B0065006400540077006F002E00620069006E00",
+        "Identity24": "B743B24C75B24CA24E000000000001000000000000000000",
+        "SecurityOwnerGroupDacl": "010004801400000024000000000000003000000001020000000000052000000020020000010100000000000512000000020060000400000000001800FF011F000102000000000005200000002002000000001400FF011F0001010000000000051200000000001400BF01130001010000000000050B00000000001800A900120001020000000000052000000021020000",
+        "BasicAndStandardRaw": "882E9FC51455DD01882E9FC51455DD01882E9FC51455DD01A190C9C51455DD012000000000000000:080000000000000003000000000000000300000000000000",
+        "PayloadSHA256": "9909EC831E2CF6D0C73FB5480F31945A80987A13FAEE005704166CB53A26CECA"
+      },
+      "runtime_parent_enumeration": {
+        "Parent": "U:\\QCOW2-AliasScratch-cdafc686fcdc48eaa00ee05759059c41\\hardlinks",
+        "LongName": "HardlinkedTwo.bin",
+        "LongNameUtf16": "48006100720064006C0069006E006B0065006400540077006F002E00620069006E00",
+        "Alias": "",
+        "AliasUtf16": "",
+        "LongID": "B743B24C75B24CA24E000000000001000000000000000000",
+        "AliasID": null
+      },
+      "offline": {
+        "EaRaw": "",
+        "Info": {
+          "Access": 134357111594233480,
+          "Attributes": 32,
+          "Creation": 134357111594233480,
+          "Identity": "000100000000004E",
+          "Write": 134357111594233480
+        },
+        "ObjectIdRaw": "",
+        "Path": "\\hardlinks\\HardlinkedTwo.bin",
+        "ReparseRaw": "",
+        "SecurityRaw": "0100048074000000840000000000000014000000020060000400000000001800ff011f000102000000000005200000002002000000001400ff011f0001010000000000051200000000001400bf01130001010000000000050b00000000001800a90012000102000000000005200000002102000001020000000000052000000020020000010100000000000512000000",
+        "Short": "",
+        "Streams": [
+          {
+            "Hash": "9909ec831e2cf6d0c73fb5480f31945a80987a13faee005704166cb53a26ceca",
+            "Length": 3,
+            "Name": ""
+          }
+        ]
+      },
+      "actual_identity24_exact": true,
+      "actual_short_matches_final_parent_enumeration": true,
+      "actual_payload_sha256_exact": true,
+      "actual_owner_group_dacl_exact": true,
+      "sacl_scope": "Online alias harness did not query SACL; no SACL preservation claim."
+    },
+    {
+      "kind": "final_hardlink",
+      "runtime": {
+        "Path": "U:\\QCOW2-AliasScratch-cdafc686fcdc48eaa00ee05759059c41\\other\\HardlinkedThree.bin",
+        "PathUtf16": "55003A005C00510043004F00570032002D0041006C0069006100730053006300720061007400630068002D00630064006100660063003600380036006600630064006300340038006500610061003000300065006500300035003700350039003000350039006300340031005C006F0074006800650072005C0048006100720064006C0069006E006B0065006400540068007200650065002E00620069006E00",
+        "Identity24": "B743B24C75B24CA24E000000000001000000000000000000",
+        "SecurityOwnerGroupDacl": "010004801400000024000000000000003000000001020000000000052000000020020000010100000000000512000000020060000400000000001800FF011F000102000000000005200000002002000000001400FF011F0001010000000000051200000000001400BF01130001010000000000050B00000000001800A900120001020000000000052000000021020000",
+        "BasicAndStandardRaw": "882E9FC51455DD01882E9FC51455DD01882E9FC51455DD01A190C9C51455DD012000000000000000:080000000000000003000000000000000300000000000000",
+        "PayloadSHA256": "9909EC831E2CF6D0C73FB5480F31945A80987A13FAEE005704166CB53A26CECA"
+      },
+      "runtime_parent_enumeration": {
+        "Parent": "U:\\QCOW2-AliasScratch-cdafc686fcdc48eaa00ee05759059c41\\other",
+        "LongName": "HardlinkedThree.bin",
+        "LongNameUtf16": "48006100720064006C0069006E006B0065006400540068007200650065002E00620069006E00",
+        "Alias": "HARD~3.BIN",
+        "AliasUtf16": "48004100520044007E0033002E00420049004E00",
+        "LongID": "B743B24C75B24CA24E000000000001000000000000000000",
+        "AliasID": "B743B24C75B24CA24E000000000001000000000000000000"
+      },
+      "offline": {
+        "EaRaw": "",
+        "Info": {
+          "Access": 134357111594233480,
+          "Attributes": 32,
+          "Creation": 134357111594233480,
+          "Identity": "000100000000004E",
+          "Write": 134357111594233480
+        },
+        "ObjectIdRaw": "",
+        "Path": "\\other\\HardlinkedThree.bin",
+        "ReparseRaw": "",
+        "SecurityRaw": "0100048074000000840000000000000014000000020060000400000000001800ff011f000102000000000005200000002002000000001400ff011f0001010000000000051200000000001400bf01130001010000000000050b00000000001800a90012000102000000000005200000002102000001020000000000052000000020020000010100000000000512000000",
+        "Short": "HARD~3.BIN",
+        "Streams": [
+          {
+            "Hash": "9909ec831e2cf6d0c73fb5480f31945a80987a13faee005704166cb53a26ceca",
+            "Length": 3,
+            "Name": ""
+          }
+        ]
+      },
+      "actual_identity24_exact": true,
+      "actual_short_matches_final_parent_enumeration": true,
+      "actual_payload_sha256_exact": true,
+      "actual_owner_group_dacl_exact": true,
+      "sacl_scope": "Online alias harness did not query SACL; no SACL preservation claim."
+    }
+  ],
+  "all_final_alias_identity_and_payload_policy_checks_passed": true,
+  "all_alias_native_index_references_exact": true,
+  "native_alias_selectors": 4,
+  "limitations": [
+    "File change-time changes were observed by the runtime alias harness; source-all-metadata preservation is not established.",
+    "Final hardlink alias exists only for first selected link, matching actual runtime parent enumeration; distinct per-link source alias restoration remains unproven.",
+    "No source exact ACE18 restoration because original claims/flags/DACL/control invariants failed even where setter returned success."
+  ],
+  "artifacts": {
+    "Directory-explicit-report.json": {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/second-experiment-results/Directory-explicit-report.json",
+      "bytes": 36411,
+      "sha256": "ae14807526584b88473457aa4ee16322b963d6ee539b62a46d2127305ebafba6"
+    },
+    "second-Directory-explicit-native.json": {
+      "path": "/data/cache/qcow2-v12-offline-audit/second-Directory-explicit-native.json",
+      "bytes": 6393,
+      "sha256": "cc635f075961f2262ed0e5eb7e41e21f21c96f131241c958ff787683884d5230"
+    },
+    "Directory-maximum-report.json": {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/second-experiment-results/Directory-maximum-report.json",
+      "bytes": 36040,
+      "sha256": "1ffc044d98fa9fb26fd9f7e012176eb414992cff15ee92c3b2445b35e4fc3b86"
+    },
+    "second-Directory-maximum-native.json": {
+      "path": "/data/cache/qcow2-v12-offline-audit/second-Directory-maximum-native.json",
+      "bytes": 6241,
+      "sha256": "7be11d35ba4098db972981ba9f61d0c7e8b1f7d4394d2582503131c2b934ec4f"
+    },
+    "File-explicit-report.json": {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/second-experiment-results/File-explicit-report.json",
+      "bytes": 32504,
+      "sha256": "ddd315330c7e30edc0e548988aee94ee6bc0b5ccd6e1073d046a7e5a472f8cb2"
+    },
+    "second-File-explicit-native.json": {
+      "path": "/data/cache/qcow2-v12-offline-audit/second-File-explicit-native.json",
+      "bytes": 6023,
+      "sha256": "36bee6344da01d104639f94236da1da90d3c8b0207e39a943ebdc6c33c0724e1"
+    },
+    "File-maximum-report.json": {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/second-experiment-results/File-maximum-report.json",
+      "bytes": 32503,
+      "sha256": "eae6c640ed7eaa6632a55aac4686b5c517859d64166bbe540da2449102c938c1"
+    },
+    "second-File-maximum-native.json": {
+      "path": "/data/cache/qcow2-v12-offline-audit/second-File-maximum-native.json",
+      "bytes": 6023,
+      "sha256": "97bd51168673862d24b367f3af494e3be04012a5030a954221368f09be88ae66"
+    },
+    "alias-report.json": {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/second-experiment-results/alias-report.json",
+      "bytes": 133897,
+      "sha256": "ab5a0f606d8b2723726a78d7477155b225b43046696ab9e3d72a8f89dbb3c13c"
+    },
+    "second-alias-native-metadata.json": {
+      "path": "/data/cache/qcow2-v12-offline-audit/second-alias-native-metadata.json",
+      "bytes": 9349,
+      "sha256": "ffa39569e8076b4b55d89e4a855119b44fd91086e79a133676437c47b9a4a2f3"
+    },
+    "second-scratch-native-aliases.json": {
+      "path": "/data/cache/qcow2-v12-offline-audit/second-scratch-native-aliases.json",
+      "bytes": 3241,
+      "sha256": "cbe8a11c3744df454d217957815d0d49fc3e85feb3c7389c5a5e77b3432e8e75"
+    },
+    "second-experiment-offline-handoff.json": {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/second-experiment-offline-handoff.json",
+      "bytes": 3513,
+      "sha256": "6b78056606879540f09bb4ec4733ea100a3e2a65f46501ef9cd50eb34b9a0600"
+    }
+  },
+  "all12_actual_parent_sd_components_match_online": true,
+  "actual_online_offline_child_component_change_rows": [
+    {
+      "control": "Directory-maximum",
+      "case": 0,
+      "differences": {
+        "control": {
+          "offline": 32772,
+          "online": 40964
+        },
+        "dacl": {
+          "offline": "020060000400000000001800ff011f000102000000000005200000002002000000001400ff011f0001010000000000051200000000001400bf01130001010000000000050b00000000001800a900120001020000000000052000000021020000",
+          "online": "020060000400000000101800ff011f000102000000000005200000002002000000101400ff011f0001010000000000051200000000101400bf01130001010000000000050b00000000101800a900120001020000000000052000000021020000"
+        }
+      }
+    },
+    {
+      "control": "Directory-maximum",
+      "case": 1,
+      "differences": {
+        "control": {
+          "offline": 32772,
+          "online": 40964
+        },
+        "dacl": {
+          "offline": "020060000400000000001800ff011f000102000000000005200000002002000000001400ff011f0001010000000000051200000000001400bf01130001010000000000050b00000000001800a900120001020000000000052000000021020000",
+          "online": "020060000400000000101800ff011f000102000000000005200000002002000000101400ff011f0001010000000000051200000000101400bf01130001010000000000050b00000000101800a900120001020000000000052000000021020000"
+        }
+      }
+    },
+    {
+      "control": "Directory-maximum",
+      "case": 2,
+      "differences": {
+        "control": {
+          "offline": 32772,
+          "online": 40964
+        },
+        "dacl": {
+          "offline": "020060000400000000001800ff011f000102000000000005200000002002000000001400ff011f0001010000000000051200000000001400bf01130001010000000000050b00000000001800a900120001020000000000052000000021020000",
+          "online": "020060000400000000101800ff011f000102000000000005200000002002000000101400ff011f0001010000000000051200000000101400bf01130001010000000000050b00000000101800a900120001020000000000052000000021020000"
+        }
+      }
+    },
+    {
+      "control": "File-explicit",
+      "case": 0,
+      "differences": {
+        "control": {
+          "offline": 32772,
+          "online": 40964
+        },
+        "dacl": {
+          "offline": "020060000400000000001800ff011f000102000000000005200000002002000000001400ff011f0001010000000000051200000000001400bf01130001010000000000050b00000000001800a900120001020000000000052000000021020000",
+          "online": "020060000400000000101800ff011f000102000000000005200000002002000000101400ff011f0001010000000000051200000000101400bf01130001010000000000050b00000000101800a900120001020000000000052000000021020000"
+        }
+      }
+    },
+    {
+      "control": "File-explicit",
+      "case": 1,
+      "differences": {
+        "control": {
+          "offline": 32772,
+          "online": 40964
+        },
+        "dacl": {
+          "offline": "020060000400000000001800ff011f000102000000000005200000002002000000001400ff011f0001010000000000051200000000001400bf01130001010000000000050b00000000001800a900120001020000000000052000000021020000",
+          "online": "020060000400000000101800ff011f000102000000000005200000002002000000101400ff011f0001010000000000051200000000101400bf01130001010000000000050b00000000101800a900120001020000000000052000000021020000"
+        }
+      }
+    },
+    {
+      "control": "File-explicit",
+      "case": 2,
+      "differences": {
+        "control": {
+          "offline": 32772,
+          "online": 40964
+        },
+        "dacl": {
+          "offline": "020060000400000000001800ff011f000102000000000005200000002002000000001400ff011f0001010000000000051200000000001400bf01130001010000000000050b00000000001800a900120001020000000000052000000021020000",
+          "online": "020060000400000000101800ff011f000102000000000005200000002002000000101400ff011f0001010000000000051200000000101400bf01130001010000000000050b00000000101800a900120001020000000000052000000021020000"
+        }
+      }
+    },
+    {
+      "control": "File-maximum",
+      "case": 0,
+      "differences": {
+        "control": {
+          "offline": 32772,
+          "online": 40964
+        },
+        "dacl": {
+          "offline": "020060000400000000001800ff011f000102000000000005200000002002000000001400ff011f0001010000000000051200000000001400bf01130001010000000000050b00000000001800a900120001020000000000052000000021020000",
+          "online": "020060000400000000101800ff011f000102000000000005200000002002000000101400ff011f0001010000000000051200000000101400bf01130001010000000000050b00000000101800a900120001020000000000052000000021020000"
+        }
+      }
+    },
+    {
+      "control": "File-maximum",
+      "case": 1,
+      "differences": {
+        "control": {
+          "offline": 32772,
+          "online": 40964
+        },
+        "dacl": {
+          "offline": "020060000400000000001800ff011f000102000000000005200000002002000000001400ff011f0001010000000000051200000000001400bf01130001010000000000050b00000000001800a900120001020000000000052000000021020000",
+          "online": "020060000400000000101800ff011f000102000000000005200000002002000000101400ff011f0001010000000000051200000000101400bf01130001010000000000050b00000000101800a900120001020000000000052000000021020000"
+        }
+      }
+    },
+    {
+      "control": "File-maximum",
+      "case": 2,
+      "differences": {
+        "control": {
+          "offline": 32772,
+          "online": 40964
+        },
+        "dacl": {
+          "offline": "020060000400000000001800ff011f000102000000000005200000002002000000001400ff011f0001010000000000051200000000001400bf01130001010000000000050b00000000001800a900120001020000000000052000000021020000",
+          "online": "020060000400000000101800ff011f000102000000000005200000002002000000101400ff011f0001010000000000051200000000101400bf01130001010000000000050b00000000101800a900120001020000000000052000000021020000"
+        }
+      }
+    }
+  ],
+  "child_difference_scope": "Nine previously unchanged child/sibling descriptors differ offline after normalshutdown: control0x2000 and DACL INHERITED0x10 clear; sourceoperation unidentified. Genuine componentbyte difference, not packing-only; no waiver."
+}

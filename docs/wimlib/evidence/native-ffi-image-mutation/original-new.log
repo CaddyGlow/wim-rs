@@ -1,0 +1,264 @@
+start 0
+state 0 0 0
+lookup-result 0
+add 0 1
+state 1 0 0
+name 1 
+prop 1 DIRCOUNT 0
+prop 1 FILECOUNT 0
+prop 1 TOTALBYTES 0
+prop 1 HARDLINKBYTES 0
+resource 0 1 0 1
+lookup-result 0
+add 0 2
+state 2 0 0
+name 1 
+prop 1 DIRCOUNT 0
+prop 1 FILECOUNT 0
+prop 1 TOTALBYTES 0
+prop 1 HARDLINKBYTES 0
+name 2 
+prop 2 DIRCOUNT 0
+prop 2 FILECOUNT 0
+prop 2 TOTALBYTES 0
+prop 2 HARDLINKBYTES 0
+resource 0 1 0 1
+resource 0 1 0 1
+lookup-result 0
+add 0 3
+state 3 0 0
+name 1 
+prop 1 DIRCOUNT 0
+prop 1 FILECOUNT 0
+prop 1 TOTALBYTES 0
+prop 1 HARDLINKBYTES 0
+name 2 
+prop 2 DIRCOUNT 0
+prop 2 FILECOUNT 0
+prop 2 TOTALBYTES 0
+prop 2 HARDLINKBYTES 0
+name 3 41646465642026203c696d6167653e
+prop 3 DIRCOUNT 0
+prop 3 FILECOUNT 0
+prop 3 TOTALBYTES 0
+prop 3 HARDLINKBYTES 0
+resource 0 1 0 1
+resource 0 1 0 1
+resource 0 1 0 1
+lookup-result 0
+add 11 999
+state 3 0 0
+name 1 
+prop 1 DIRCOUNT 0
+prop 1 FILECOUNT 0
+prop 1 TOTALBYTES 0
+prop 1 HARDLINKBYTES 0
+name 2 
+prop 2 DIRCOUNT 0
+prop 2 FILECOUNT 0
+prop 2 TOTALBYTES 0
+prop 2 HARDLINKBYTES 0
+name 3 41646465642026203c696d6167653e
+prop 3 DIRCOUNT 0
+prop 3 FILECOUNT 0
+prop 3 TOTALBYTES 0
+prop 3 HARDLINKBYTES 0
+resource 0 1 0 1
+resource 0 1 0 1
+resource 0 1 0 1
+lookup-result 0
+add 24 999
+state 3 0 0
+name 1 
+prop 1 DIRCOUNT 0
+prop 1 FILECOUNT 0
+prop 1 TOTALBYTES 0
+prop 1 HARDLINKBYTES 0
+name 2 
+prop 2 DIRCOUNT 0
+prop 2 FILECOUNT 0
+prop 2 TOTALBYTES 0
+prop 2 HARDLINKBYTES 0
+name 3 41646465642026203c696d6167653e
+prop 3 DIRCOUNT 0
+prop 3 FILECOUNT 0
+prop 3 TOTALBYTES 0
+prop 3 HARDLINKBYTES 0
+resource 0 1 0 1
+resource 0 1 0 1
+resource 0 1 0 1
+lookup-result 0
+add 0 4
+state 4 0 0
+name 1 
+prop 1 DIRCOUNT 0
+prop 1 FILECOUNT 0
+prop 1 TOTALBYTES 0
+prop 1 HARDLINKBYTES 0
+name 2 
+prop 2 DIRCOUNT 0
+prop 2 FILECOUNT 0
+prop 2 TOTALBYTES 0
+prop 2 HARDLINKBYTES 0
+name 3 41646465642026203c696d6167653e
+prop 3 DIRCOUNT 0
+prop 3 FILECOUNT 0
+prop 3 TOTALBYTES 0
+prop 3 HARDLINKBYTES 0
+name 4 726177ff
+prop 4 DIRCOUNT 0
+prop 4 FILECOUNT 0
+prop 4 TOTALBYTES 0
+prop 4 HARDLINKBYTES 0
+resource 0 1 0 1
+resource 0 1 0 1
+resource 0 1 0 1
+resource 0 1 0 1
+lookup-result 0
+delete 0 18
+state 4 0 0
+name 1 
+prop 1 DIRCOUNT 0
+prop 1 FILECOUNT 0
+prop 1 TOTALBYTES 0
+prop 1 HARDLINKBYTES 0
+name 2 
+prop 2 DIRCOUNT 0
+prop 2 FILECOUNT 0
+prop 2 TOTALBYTES 0
+prop 2 HARDLINKBYTES 0
+name 3 41646465642026203c696d6167653e
+prop 3 DIRCOUNT 0
+prop 3 FILECOUNT 0
+prop 3 TOTALBYTES 0
+prop 3 HARDLINKBYTES 0
+name 4 726177ff
+prop 4 DIRCOUNT 0
+prop 4 FILECOUNT 0
+prop 4 TOTALBYTES 0
+prop 4 HARDLINKBYTES 0
+resource 0 1 0 1
+resource 0 1 0 1
+resource 0 1 0 1
+resource 0 1 0 1
+lookup-result 0
+delete -2 18
+state 4 0 0
+name 1 
+prop 1 DIRCOUNT 0
+prop 1 FILECOUNT 0
+prop 1 TOTALBYTES 0
+prop 1 HARDLINKBYTES 0
+name 2 
+prop 2 DIRCOUNT 0
+prop 2 FILECOUNT 0
+prop 2 TOTALBYTES 0
+prop 2 HARDLINKBYTES 0
+name 3 41646465642026203c696d6167653e
+prop 3 DIRCOUNT 0
+prop 3 FILECOUNT 0
+prop 3 TOTALBYTES 0
+prop 3 HARDLINKBYTES 0
+name 4 726177ff
+prop 4 DIRCOUNT 0
+prop 4 FILECOUNT 0
+prop 4 TOTALBYTES 0
+prop 4 HARDLINKBYTES 0
+resource 0 1 0 1
+resource 0 1 0 1
+resource 0 1 0 1
+resource 0 1 0 1
+lookup-result 0
+delete 999 18
+state 4 0 0
+name 1 
+prop 1 DIRCOUNT 0
+prop 1 FILECOUNT 0
+prop 1 TOTALBYTES 0
+prop 1 HARDLINKBYTES 0
+name 2 
+prop 2 DIRCOUNT 0
+prop 2 FILECOUNT 0
+prop 2 TOTALBYTES 0
+prop 2 HARDLINKBYTES 0
+name 3 41646465642026203c696d6167653e
+prop 3 DIRCOUNT 0
+prop 3 FILECOUNT 0
+prop 3 TOTALBYTES 0
+prop 3 HARDLINKBYTES 0
+name 4 726177ff
+prop 4 DIRCOUNT 0
+prop 4 FILECOUNT 0
+prop 4 TOTALBYTES 0
+prop 4 HARDLINKBYTES 0
+resource 0 1 0 1
+resource 0 1 0 1
+resource 0 1 0 1
+resource 0 1 0 1
+lookup-result 0
+add 0 5
+state 5 0 1
+name 1 
+prop 1 DIRCOUNT 0
+prop 1 FILECOUNT 0
+prop 1 TOTALBYTES 0
+prop 1 HARDLINKBYTES 0
+name 2 
+prop 2 DIRCOUNT 0
+prop 2 FILECOUNT 0
+prop 2 TOTALBYTES 0
+prop 2 HARDLINKBYTES 0
+name 3 41646465642026203c696d6167653e
+prop 3 DIRCOUNT 0
+prop 3 FILECOUNT 0
+prop 3 TOTALBYTES 0
+prop 3 HARDLINKBYTES 0
+name 4 726177ff
+prop 4 DIRCOUNT 0
+prop 4 FILECOUNT 0
+prop 4 TOTALBYTES 0
+prop 4 HARDLINKBYTES 0
+name 5 726561646f6e6c792d616464
+prop 5 DIRCOUNT 0
+prop 5 FILECOUNT 0
+prop 5 TOTALBYTES 0
+prop 5 HARDLINKBYTES 0
+resource 0 1 0 1
+resource 0 1 0 1
+resource 0 1 0 1
+resource 0 1 0 1
+resource 0 1 0 1
+lookup-result 0
+delete 1 0
+state 4 0 1
+name 1 
+prop 1 DIRCOUNT 0
+prop 1 FILECOUNT 0
+prop 1 TOTALBYTES 0
+prop 1 HARDLINKBYTES 0
+name 2 41646465642026203c696d6167653e
+prop 2 DIRCOUNT 0
+prop 2 FILECOUNT 0
+prop 2 TOTALBYTES 0
+prop 2 HARDLINKBYTES 0
+name 3 726177ff
+prop 3 DIRCOUNT 0
+prop 3 FILECOUNT 0
+prop 3 TOTALBYTES 0
+prop 3 HARDLINKBYTES 0
+name 4 726561646f6e6c792d616464
+prop 4 DIRCOUNT 0
+prop 4 FILECOUNT 0
+prop 4 TOTALBYTES 0
+prop 4 HARDLINKBYTES 0
+resource 0 1 0 1
+resource 0 1 0 1
+resource 0 1 0 1
+resource 0 1 0 1
+lookup-result 0
+delete -1 0
+state 0 0 1
+lookup-result 0
+delete -1 0
+state 0 0 1
+lookup-result 0

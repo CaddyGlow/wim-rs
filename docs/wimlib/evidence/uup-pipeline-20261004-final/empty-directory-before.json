@@ -1,0 +1,8 @@
+{
+  "exit": 101,
+  "signal": null,
+  "stdout": "\nrunning 1 test\ntest dism_mount_keeps_empty_directories_writable ... FAILED\n\nfailures:\n\nfailures:\n    dism_mount_keeps_empty_directories_writable\n\ntest result: FAILED. 0 passed; 1 failed; 0 ignored; 0 measured; 4 filtered out; finished in 5.56s\n\n",
+  "stderr": "\nthread 'dism_mount_keeps_empty_directories_writable' (10092) panicked at wim-ffi/tests/windows_extract.rs:89:11:\ncalled `Result::unwrap()` on an `Err` value: Custom { kind: Other, error: \"DISM changed empty directory/file types\" }\nnote: run with `RUST_BACKTRACE=1` environment variable to display a backtrace\n",
+  "stdout_truncated": false,
+  "binary_sha256": "fb8c67d2a4ff45b039847b447cb31d3f9978f032c59afae5efb11273c53a35d3"
+}

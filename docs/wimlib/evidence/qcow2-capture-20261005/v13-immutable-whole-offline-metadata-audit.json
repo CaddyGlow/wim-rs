@@ -1,0 +1,268 @@
+{
+  "schema": 1,
+  "scope": "Actual immutable clean V13 pre-servicing baseline whole native offline audit; no baseline boot or metadata repairs, full source challenges retained",
+  "target_sha256": "945ade80271e6a84cbe4673a3cf4a596322382940b43d0641a9ff125c806aa90",
+  "backing_sha256": "19eb403b49ebb8007177a5f8cc49713c69a517d81c30fb31673336e5dd298cc3",
+  "windows_partition": 3,
+  "input_files_unchanged_after_reads": true,
+  "source_inputs": {
+    "reserved-sacl-inventory.json": {
+      "path": "/data/cache/qcow2-oobe-preparation-control-20261005/offline-audit/reserved-sacl-inventory.json",
+      "sha256": "86318243cf75acde3be9468d1c485c85d77ad25874c431af4536b2bb49d7cc5c"
+    },
+    "original-reserved-second-pass.json": {
+      "path": "/data/cache/qcow2-oobe-preparation-control-20261005/offline-audit/original-reserved-second-pass.json",
+      "sha256": "f2b08e04f6d3074cd8b44564debf88901374c80c41347fe7cf3a731c1531881e"
+    },
+    "complete-source-object-id-inventory.json": {
+      "path": "/data/cache/qcow2-oobe-preparation-control-20261005/offline-audit/complete-source-object-id-inventory.json",
+      "sha256": "d500cfd026cb6cc12e958b355da46f7cd33fec06d9459ccc0534f4e0d4179641"
+    },
+    "namespace-correct-distinct-dos-alias-selectors.json": {
+      "path": "/data/cache/qcow2-oobe-preparation-control-20261005/offline-audit/namespace-correct-distinct-dos-alias-selectors.json",
+      "sha256": "f7e3ec0a40b56beccb0c48690c1195da95da1928a051e308bdd8e5cecd00f26c"
+    },
+    "old-spurious-posix-dos-alias-selectors.json": {
+      "path": "/data/cache/qcow2-oobe-preparation-control-20261005/offline-audit/old-spurious-posix-dos-alias-selectors.json",
+      "sha256": "2b1187ea696e640614e16820f7000d424cca68eb62bc24e9a947517100479293"
+    },
+    "fixture-metadata.json": {
+      "path": "/data/cache/qcow2-oobe-preparation-control-20261005/offline-audit/fixture-metadata.json",
+      "sha256": "99eed6783313e1c4743b7f6a6295dc001e303485890253ebd3a0e1b64c265e6e"
+    },
+    "child-all-paths.json": {
+      "path": "/data/cache/qcow2-oobe-preparation-control-20261005/offline-audit/child-all-paths.json",
+      "sha256": "f661e648e246343af8febc03e868298132ea8003cf52c4081de55611fac8b1d8"
+    }
+  },
+  "reserved_groups": {
+    "original5727": {
+      "selected": 5727,
+      "component_changed_sacl": 908,
+      "descriptor_component_difference": 913,
+      "ace20_missing": 183,
+      "raw_descriptor_exact": 4814,
+      "ace20_exact": 4819,
+      "component_changed_control": 736,
+      "ace20_inherited_bit_only": 723,
+      "component_changed_owner": 24,
+      "component_changed_group": 24,
+      "component_changed_dacl": 24,
+      "ace18_missing": 2
+    },
+    "current_additions": {
+      "selected": 5,
+      "missing_path": 3,
+      "component_changed_sacl": 2,
+      "descriptor_component_difference": 2,
+      "ace20_missing": 2
+    }
+  },
+  "reserved_exact_ACE_gate_passed": false,
+  "descriptor_components_exact_gate_passed": false,
+  "source_full64_ObjectID_counts": {
+    "BirthVolumeId_only_changed": 8,
+    "extended48_zeroed_first16_exact": 16
+  },
+  "all19groups24paths_full64_exact": false,
+  "corrected_source_DOS_count": 101168,
+  "corrected_source_DOS_counts": {
+    "exact_binding": 98623,
+    "missing_expected_DOS": 244,
+    "expected_DOS_binds_other_file": 2275,
+    "missing_long_path": 26
+  },
+  "all_source_DOS_bindings_exact": false,
+  "POSIX601_namespace_counts": {
+    "POSIX_namespace_empty_short_exact": 596,
+    "target_namespace_changed": 5
+  },
+  "POSIX601_gate_passed": false,
+  "fixture": {
+    "source_entries": 9,
+    "target_entries": 9,
+    "source_streams": 331,
+    "target_streams": 331,
+    "difference_counts": {
+      "ObjectIdRaw": 2
+    },
+    "hardlink_groups_equal": true
+  },
+  "fulltree": {
+    "source_nodes": 175812,
+    "target_nodes": 177763,
+    "common_paths": 175774,
+    "missing_source_paths": 38,
+    "added_target_paths": 1989,
+    "attribute_differences": 94,
+    "source_hardlink_groups": 34007,
+    "exact_retained_source_hardlink_groups": 34004,
+    "changed_source_hardlink_groups": 3
+  },
+  "DOS_collision_graph": {
+    "wrong_binding_count": 2275,
+    "parents": 566,
+    "cycle_lengths_to_counts": {
+      "4": 26,
+      "2": 727,
+      "3": 118,
+      "5": 2
+    },
+    "all_wrong_edges_inside_wrong_set": false,
+    "occupant_refs_outside_wrong_set_count": 199,
+    "outside_occupant_requirement_counts": {
+      "has_current_source_DOS_requirement": 196,
+      "no_current_source_DOS_requirement_for_this_target_parent_ref": 3
+    },
+    "target_parent_ref_with_multiple_source_required_DOS": 0
+  },
+  "overall_full_installed_metadata_fidelity_passed": false,
+  "policy": [
+    "No metadata difference waived as assumed Setup transformation",
+    "File IDs compared only within own volume",
+    "Sameparent/reference DOS record never attributed to POSIX merely by shared inode; initial rejected interpretation retained",
+    "Sparse physical allocation/FSCTL/runtime compression gates separate from offline bytes+attributes",
+    "Whole path scope does not assert hashes/security of every ordinary tree node beyond challenged reserved/ObjectID/fixture rows"
+  ],
+  "terminal_sessions": {
+    "helper_build73741": 0,
+    "input_before72625": 0,
+    "whole_security69559": 0,
+    "selected_security": 0,
+    "fixture": 0,
+    "DOS84336": 0,
+    "ObjectID7699": 0,
+    "raw_INDEX18009": 0,
+    "whole_compare59312": 0,
+    "input_after78177": 0
+  },
+  "artifacts": [
+    {
+      "path": "/data/cache/qcow2-v13-offline-audit/preparation.json",
+      "bytes": 3158,
+      "sha256": "bd91b0afd8b877c171de92c52de9507bd4b6b86209f5414ae9c6dc71acac8e69"
+    },
+    {
+      "path": "/data/cache/qcow2-v13-offline-audit/input-hashes-before.json",
+      "bytes": 412,
+      "sha256": "d74ab2873e8eb9454afd6da7324e4200282473b6b5a095e4c35ca6f41a45d881"
+    },
+    {
+      "path": "/data/cache/qcow2-v13-offline-audit/input-hashes-after.json",
+      "bytes": 917,
+      "sha256": "40e7a62ef40f460ee7167b26fa919e8cf13ee1ae9226fd551011ce89539d04f2"
+    },
+    {
+      "path": "/data/cache/qcow2-v13-offline-audit/fixture-metadata.json",
+      "bytes": 59880,
+      "sha256": "fe081eef60f800b25b8f9c2b7c2459c344b6f81651c9751f7f37b84227b6ef61"
+    },
+    {
+      "path": "/data/cache/qcow2-v13-offline-audit/fixture-comparison.json",
+      "bytes": 2662,
+      "sha256": "abca3af555a973c56fcd9bd59eb9fadcfaab8635b53b7f03acb01844e6bd5412"
+    },
+    {
+      "path": "/data/cache/qcow2-v13-offline-audit/current-selected-security.json",
+      "bytes": 12825544,
+      "sha256": "d63fb7298bebcf8e52fa998496962d3ec44643d5e505f2a5dcf95fb4548c9bd0"
+    },
+    {
+      "path": "/data/cache/qcow2-v13-offline-audit/reserved-security-comparison.json",
+      "bytes": 23987292,
+      "sha256": "5548a27c5fe865b10450c4da0648a995972644025704e6c6d0614e81d9ac8ad6"
+    },
+    {
+      "path": "/data/cache/qcow2-v13-offline-audit/whole-target-reserved-security.json",
+      "bytes": 15737004,
+      "sha256": "ba6821a41c8505d289f569cb5d9ecce1875b9aebfc1b0abf04c0ca3a1c1c514a"
+    },
+    {
+      "path": "/data/cache/qcow2-v13-offline-audit/whole-target-paths.json",
+      "bytes": 90620224,
+      "sha256": "720396eaad9f4a410efc2974577b5b4bf45dbc536f59144db81c0d58a36c0016"
+    },
+    {
+      "path": "/data/cache/qcow2-v13-offline-audit/whole-source-target-paths-attributes-hardlinks.json",
+      "bytes": 70221402,
+      "sha256": "319eb2136420c22eac4e1663965ee0614375c20ca3d18ab9cb4a6ef94f1afd62"
+    },
+    {
+      "path": "/data/cache/qcow2-v13-offline-audit/native-dos-aliases.json",
+      "bytes": 96474484,
+      "sha256": "f6a718867357601977492e5cb14d1cb76fb23a6bec95a653ba564c8f774f5d04"
+    },
+    {
+      "path": "/data/cache/qcow2-v13-offline-audit/target-raw-directory-index.json",
+      "bytes": 117190652,
+      "sha256": "6192d602399a93812d95325d20943f233e9fb18e8ec8382fd4283071085938ad"
+    },
+    {
+      "path": "/data/cache/qcow2-v13-offline-audit/raw-full-source-alias-comparison.json",
+      "bytes": 5424268,
+      "sha256": "571c5a82076eba4c0fc35e6cdf75b9bd8794daf831ef3e96567a3ce131c13770"
+    },
+    {
+      "path": "/data/cache/qcow2-v13-offline-audit/complete-target-object-id-inventory.json",
+      "bytes": 35330,
+      "sha256": "25c8efca3c760bd4a0ac5101d0e8edf7a193caaa7c620a77ace51977e5a09050"
+    },
+    {
+      "path": "/data/cache/qcow2-v13-offline-audit/all-source-objectid-comparison.json",
+      "bytes": 24475,
+      "sha256": "602cd77e2168173c8f822259898d639b95d0e168c7f6c538b1e13f875480957a"
+    },
+    {
+      "path": "/data/cache/qcow2-v13-offline-audit/faceprocessor-source-wim-target-ordering.json",
+      "bytes": 16825,
+      "sha256": "ff02e1e038e29fe0edf7ceadb4d39008454d66d1a5ff975243f738d263925eab"
+    },
+    {
+      "path": "/data/cache/qcow2-v13-offline-audit/alias-collision-parent-file-groups.json",
+      "bytes": 1876724,
+      "sha256": "3f8cf2d004b91121c527a804c8299f4574c131ebe08878b0d748c94afc52e511"
+    },
+    {
+      "path": "/data/cache/qcow2-v13-offline-audit/compare-raw-target-aliases.py",
+      "bytes": 2563,
+      "sha256": "b061eab3165e89549dd27340bb20ad993de1e8179d459a6e87aed006061618da"
+    },
+    {
+      "path": "/data/cache/qcow2-v13-offline-audit/group-alias-collisions.py",
+      "bytes": 2901,
+      "sha256": "b7775aeb31606fd0667e0ef97fc6c05f888526678c305b81698d332d1b69a54a"
+    }
+  ],
+  "native_helpers": [
+    {
+      "path": "/data/cache/qcow2-v13-offline-audit/helper-target/debug/examples/dos_alias_inventory",
+      "bytes": 9740400,
+      "sha256": "46c4f1c9360dbbfc9d90e2a0b9836227f0092038e8adbb9713fa87c297de0fa0"
+    },
+    {
+      "path": "/data/cache/qcow2-v13-offline-audit/helper-target/debug/examples/reserved_security_inventory",
+      "bytes": 9474720,
+      "sha256": "b5c10b1eb38d329571f221a3d7f2ae7a507a048a1af45d233e03b2b385a11c6b"
+    },
+    {
+      "path": "/data/cache/qcow2-v13-offline-audit/helper-target/debug/examples/trust_inventory",
+      "bytes": 9439464,
+      "sha256": "343866e56fd9617b0c014f697cb4c7427f16de806227293b261084797ef21010"
+    },
+    {
+      "path": "/data/cache/qcow2-v13-offline-audit/helper-target/debug/examples/frozen_metadata",
+      "bytes": 9430440,
+      "sha256": "f56faed647944b49551d3c0af6edffee196d74ef6e49934456ffa7f0dcc168c4"
+    },
+    {
+      "path": "/data/cache/rust/debug/object_id_inventory",
+      "bytes": 6255056,
+      "sha256": "5469fdfcebbe86195ba35966c2328dffda7b1cb487b4bfc26e343be53bad8b82"
+    },
+    {
+      "path": "/data/cache/rust/debug/raw_directory_index",
+      "bytes": 6392304,
+      "sha256": "ddd3edbc82192393d911d28060be32360783ad3427a786bcbacab69b63ef654c"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "scope": "Actual ignored caller-tightened depth test using new independently Windows-formatted frozen scratch partition extracted read-only to sparse rawDATA fixture; no mount or source mutation.",
+  "test": "caller_tightened_depth_rejects_a_real_directory_subtree_without_modifying_volume",
+  "actual_tool_session": 98004,
+  "actual_exit": 0,
+  "passed": 1,
+  "failed": 0,
+  "filtered_out": 7,
+  "test_seconds": 3.35,
+  "command": "NTFS_NESTED_FIXTURE=/data/cache/qcow2-v12-offline-audit/nested-depth-fixture.ntfs.raw CARGO_TARGET_DIR=/data/cache/qcow2-current-validation-target TMPDIR=/data/cache cargo test --locked -p windows-ntfs --test ntfs3g caller_tightened_depth_rejects_a_real_directory_subtree_without_modifying_volume -- --ignored --exact",
+  "fixture": {
+    "path": "/data/cache/qcow2-v12-offline-audit/nested-depth-fixture.ntfs.raw",
+    "logical_bytes": 2130640896,
+    "allocated_bytes": 13570048,
+    "sha256_after_test": "353f017ea2006ca7b3cfd6df972f81ae78f0357ee57fb855612123ba6033de08"
+  },
+  "source_sha256_before_extraction": "e18af50347659268f1edc0a037b6c9b8b0614e9fd778bd0cdc6c8f9e7e27940b",
+  "source_sha256_after_extraction_and_test": "e18af50347659268f1edc0a037b6c9b8b0614e9fd778bd0cdc6c8f9e7e27940b",
+  "source_physical_unchanged": true,
+  "test_assertions": "Default strict Volume::open/capture succeeds and includes nested subtree; recursion_depth1 capture returns contextual Unsupported ReadError mentioning recursion; before/after whole rawfixture SHA256 equal inside test.",
+  "extraction": {
+    "source_sha256_before": "e18af50347659268f1edc0a037b6c9b8b0614e9fd778bd0cdc6c8f9e7e27940b",
+    "source_sha256_after": "e18af50347659268f1edc0a037b6c9b8b0614e9fd778bd0cdc6c8f9e7e27940b",
+    "unchanged": true,
+    "exit": 0,
+    "stdout": "{\"backings\":[],\"exact_read_range_bytes\":2130640896,\"image\":\"/data/cache/qcow2-installation-autologon-disabled-1005-v12/diagnostic-scratch.qcow2\",\"logical_bytes\":2130640896,\"nonzero_chunk_bytes_written\":13565952,\"output\":\"/data/cache/qcow2-v12-offline-audit/nested-depth-fixture.ntfs.raw\",\"partition\":\"2\",\"source_clean_ntfs_manifest_nodes\":32,\"strict_source_ntfs_open\":true}\n",
+    "stderr": ""
+  },
+  "artifacts": {
+    "nested-depth-extraction-proof.json": {
+      "path": "/data/cache/qcow2-v12-offline-audit/nested-depth-extraction-proof.json",
+      "bytes": 655,
+      "sha256": "7601444168a78a5aa2bf149c22dafd540fb059d5a8571f078bfa5f0f7b98a0e5"
+    },
+    "ntfs3g.rs": {
+      "path": "/home/rick/projects-caddy/windows-uup/crates/windows-ntfs/tests/ntfs3g.rs",
+      "bytes": 19697,
+      "sha256": "130017194e4d08bb2638a1a11844809ecfd9c997ead0e2e9668d5d66de62e965"
+    },
+    "extract_partition_sparse.rs": {
+      "path": "/data/cache/qcow2-recovered-20261005/native-extract/src/bin/extract_partition_sparse.rs",
+      "bytes": 2016,
+      "sha256": "86e1423fae38812f8a47ec99539f5160435f4c2a31869fe31003fb906ff9d5b7"
+    }
+  }
+}

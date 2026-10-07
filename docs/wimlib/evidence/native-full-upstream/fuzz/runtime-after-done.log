@@ -1,0 +1,44 @@
+ASSERTION FAILED at line 761: An invalid parameter was given
+Starting wlfuzz with time limit of 2 seconds
+--> iteration 1
+:::op__apply_and_capture_test
+--> iteration 2
+:::op__delete_random_wim
+--> iteration 3
+:::op__set_compression_level
+Changing compression levels to 77
+--> iteration 4
+:::op__apply_and_capture_test
+--> iteration 5
+:::op__add_empty_image_to_random_wim
+--> iteration 6
+:::op__export_random_image
+--> iteration 7
+:::op__split_test
+--> iteration 8
+:::op__delete_random_wim
+--> iteration 9
+:::op__split_test
+--> iteration 10
+:::op__set_compression_level
+Changing compression levels to 93
+--> iteration 11
+:::op__delete_random_image_from_random_wim
+--> iteration 12
+:::op__delete_random_image_from_random_wim
+--> iteration 13
+:::op__verify_random_wim
+--> iteration 14
+:::op__delete_random_image_from_random_wim
+--> iteration 15
+:::op__apply_and_capture_test
+--> iteration 16
+:::op__delete_random_image_from_random_wim
+--> iteration 17
+:::op__apply_and_capture_test
+--> iteration 18
+:::op__create_new_wim
+Creating wim0 with write flags 0x00002000, compression_type=LZX, chunk_size=32768, solid_chunk_size=0
+--> iteration 19
+:::op__apply_and_capture_test
+Opening wim0 with flags 0x00000000

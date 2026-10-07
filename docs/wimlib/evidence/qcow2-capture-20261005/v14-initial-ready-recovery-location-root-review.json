@@ -1,0 +1,43 @@
+{
+  "inputs": {
+    "actual-oobe-ready.json": {
+      "sha256": "d972e94b689d2e69d8eccead2ce466bc7c22956b912209d1758409a81b6e3bea",
+      "data": {
+        "Ready": true,
+        "ImageState": "IMAGE_STATE_COMPLETE",
+        "SystemSetupInProgress": 0,
+        "OOBEInProgress": 0,
+        "SetupType": 0,
+        "Desktop": [
+          {
+            "Id": 7744,
+            "SessionId": 2,
+            "UserName": "QCOW2-INSTALLED\\capturegate"
+          }
+        ],
+        "LastBoot": "2026-10-06T00:16:39.5000000Z"
+      }
+    },
+    "earliest-registered-winre-retrieval.json": {
+      "sha256": "62f73456c73db585fca28532698d936bdce6055074fdb441b28ac9b36d318331",
+      "data": {
+        "scope": "earliest registered WinRE after actual OOBE; before servicing/recovery or full metadata diagnostics",
+        "guest_source": "\\\\?\\GLOBALROOT\\device\\harddisk0\\partition4\\Recovery\\WindowsRE\\Winre.wim",
+        "host_target": "/data/cache/qcow2-installation-winre-unstaged-1006-v14/earliest-registered-target-winre.wim",
+        "bytes": 684495831,
+        "sha256": "603d5afd9823802aef8d51e9893b7eb8f81c5603f43b1f8fb2148bc7920977d6",
+        "expected_registered_sha256": "603d5afd9823802aef8d51e9893b7eb8f81c5603f43b1f8fb2148bc7920977d6",
+        "matches": true,
+        "retrieved_utc": 1791245872.9185698,
+        "last_boot": "2026-10-06T00:16:39.5000000Z",
+        "recovery_info": "Windows Recovery Environment (Windows RE) and system reset configuration\nInformation:\n\n    Windows RE status:         Enabled\n    Windows RE location:       \\\\?\\GLOBALROOT\\device\\harddisk0\\partition4\\Recovery\\WindowsRE\n    Boot Configuration Data (BCD) identifier: 14b1e0d4-c15e-11f1-b514-8898233b20fd\n    Recovery image location:   \n    Recovery image index:      0\n    Custom image location:     \n    Custom image index:        0\n    Windows RE Version:        10.0.26100.8031\n\nREAGENTC.EXE: Operation Successful.\n    ",
+        "ready": true
+      }
+    }
+  },
+  "actual_setup_oobe_complete": true,
+  "registered_location_partition4": true,
+  "gpt_role_independently_checked": false,
+  "recovery_boot_verified": false,
+  "full_installed_metadata_verified": false
+}

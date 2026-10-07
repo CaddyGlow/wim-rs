@@ -1,0 +1,36 @@
+{
+  "original": [
+    "open=0",
+    "invalid_utf8_set=0",
+    "invalid_utf8_name=ff",
+    "invalid_utf8_resolve=1",
+    "invalid_utf8_in_use=1",
+    "invalid_utf8_collision=11",
+    "invalid_utf8_write=31",
+    "invalid_utf8_clear=0",
+    "invalid_path_set=0",
+    "invalid_path_get=fdfc3c26",
+    "invalid_path_write=31",
+    "invalid_path_delete_child=0",
+    "invalid_path_empty_ancestor_write=31",
+    "invalid_path_delete_ancestor=0",
+    "corrected_write=0"
+  ],
+  "native": [
+    "open=0",
+    "invalid_utf8_set=0",
+    "invalid_utf8_name=ff",
+    "invalid_utf8_resolve=1",
+    "invalid_utf8_in_use=1",
+    "invalid_utf8_collision=11",
+    "invalid_utf8_write=18",
+    "invalid_utf8_clear=0",
+    "invalid_path_set=0",
+    "invalid_path_get=fdfc3c26",
+    "invalid_path_write=18",
+    "invalid_path_delete_child=0",
+    "invalid_path_empty_ancestor_write=18",
+    "invalid_path_delete_ancestor=0",
+    "corrected_write=18"
+  ]
+}

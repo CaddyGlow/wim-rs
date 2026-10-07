@@ -1,0 +1,54 @@
+{
+  "cases": 249,
+  "observations": 1528,
+  "mismatches": [
+    {
+      "case": 247,
+      "mode": 3,
+      "image": 1,
+      "flags": 0,
+      "status": 0,
+      "paths": [],
+      "stdin_hex": "",
+      "original_output_hex": "6f70656e20300a6164642d656d70747920300a657874726163742034390a6572726e6f20320a",
+      "native_output_hex": "6f70656e20300a6164642d656d70747920300a6578747261637420300a",
+      "original_tree": [],
+      "native_tree": []
+    },
+    {
+      "case": 248,
+      "mode": 3,
+      "image": -1,
+      "flags": 0,
+      "status": 0,
+      "paths": [],
+      "stdin_hex": "",
+      "original_output_hex": "6f70656e20300a6164642d656d70747920300a657874726163742034390a6572726e6f20320a",
+      "native_output_hex": "6f70656e20300a6164642d656d70747920300a6578747261637420300a",
+      "original_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": "unrestored filesystem creation time",
+          "atime": "unrestored filesystem creation time",
+          "xattrs": {}
+        }
+      ],
+      "native_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1790997102728293771,
+          "atime": 1790997102728293771,
+          "xattrs": {}
+        }
+      ]
+    }
+  ],
+  "source_preserved": true,
+  "oracle_cpu_workaround": "WIMLIB_DISABLE_CPU_FEATURES=sse4.2"
+}

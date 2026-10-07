@@ -1,0 +1,15 @@
+{
+  "exports": 1,
+  "native_library_sha256": "c399d3c2d04bc07054f0c81ace3886ea5d0fd916804bdca6c1b421fe28322448",
+  "cases": 2440,
+  "equal": true,
+  "observations_sha256": "53511942d028ffb1508e0cebf6ee5f32b87935cd53a026b4649231adfab797f8",
+  "cases_by_result": {
+    "0": 2420,
+    "30": 12,
+    "47": 3,
+    "50": 3,
+    "63": 1,
+    "65": 1
+  }
+}

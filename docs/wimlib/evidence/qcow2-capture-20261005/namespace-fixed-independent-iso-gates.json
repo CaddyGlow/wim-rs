@@ -1,0 +1,30 @@
+{
+  "scope": "Independent 7z complete ISO payload comparison against actual staging, streamed full embedded WIM hash, and independent bounded El Torito BIOS/EFI checks; no actual firmware/installation claim",
+  "embedded_wim_sha256": "6fe084f644eb631349d4e385a155d1c5ce334d0810b633464ecfdd61b528884b",
+  "embedded_wim_bytes": 8234056851,
+  "other_setup_files": 967,
+  "all_other_setup_files_hash_exact": true,
+  "all_file_paths_exact": true,
+  "EI_CFG_absent": true,
+  "iso_sha256_from_publication": "92fe21f6c129a95b68a39ae1c66ce3b0364afc675ed91dd62c47bc8cd8c7ea20",
+  "schema": 1,
+  "boot_catalog_and_source_images_exact": true,
+  "artifacts": [
+    {
+      "path": "/data/cache/qcow2-namespace-fixed-20261006/capture/root-independent-iso-payload/summary.json",
+      "sha256": "edc24e1216a95e4cf08adc68649522b1815beb970cedfcbcf1a5b5a8799811a6"
+    },
+    {
+      "path": "/data/cache/qcow2-namespace-fixed-20261006/capture/root-independent-iso-boot.json",
+      "sha256": "6561223ce9dfd56436f6b63e262ce1aeae57b60eac0c3d799a2cd0b421f0ce16"
+    },
+    {
+      "path": "/data/cache/qcow2-namespace-fixed-20261006/root-check-published-iso-payload.py",
+      "sha256": "1ffbb2cb8393c8b6fdcee80901e5503eb53f10f7c2dfd2e1bbd9bf1881a183ae"
+    },
+    {
+      "path": "/data/cache/qcow2-namespace-fixed-20261006/root-check-iso-boot.py",
+      "sha256": "f6f6a90b11353c2d5a1c1de7f8b04cdd01d9188968951079b11721fc97cde3de"
+    }
+  ]
+}

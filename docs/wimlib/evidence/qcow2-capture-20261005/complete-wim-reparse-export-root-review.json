@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "scope": "Independent WIM reparse export only; source comparison pending missing original source",
+  "reparse_nodes": 73,
+  "tag_counts": {
+    "0xa0000003": 45,
+    "0x8000001b": 26,
+    "0xa000000c": 2
+  },
+  "all_body_sha1_and_sha256_verified": true,
+  "input_guards_preserved": true,
+  "source_comparison_performed": false,
+  "bindings": {
+    "/data/cache/qcow2-source-to-wim-stream-audit-20261006/independent-wim-reparse-payloads.json": "9ddc262a965b45d7e41c866fe55f60edf6f664ec165abc6457143ab30a5a9854",
+    "/data/cache/qcow2-source-to-wim-stream-audit-20261006/independent-wim-reparse-export-terminal.json": "38a9c419f1d188b6096b9e33acaab5732765980903b811e0e9f2120fb284bc8c"
+  }
+}

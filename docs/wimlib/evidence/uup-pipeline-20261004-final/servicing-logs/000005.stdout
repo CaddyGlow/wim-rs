@@ -1,0 +1,13 @@
+
+Deployment Image Servicing and Management tool
+Version: 10.0.26100.5074
+
+Image Version: 10.0.19041.1
+
+An error occurred trying to open - D:\UUPs\SSU-19041.7714-x64.cab Error: 0x80070780
+
+Error: 1920
+
+The file cannot be accessed by the system.
+
+The DISM log file can be found at C:\wim-uup-validation-1791090913159215058\servicing\logs\dism-5.log

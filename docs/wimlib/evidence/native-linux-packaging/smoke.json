@@ -1,0 +1,15 @@
+{
+  "scope": "Local package SONAME/header/runtime loading only; full compatibility remains gated",
+  "package_manifest": {
+    "scope": "Local experimental Linux facade package; behavioral/platform gates remain incomplete",
+    "library_sha256": "f8ea52c9bfc4e393f4a71350976b257f668d4edaaa8e79d6db4c312eb1e01d6f",
+    "soname": "libwim.so.15",
+    "header_sha256": "3769368886f5efc0e62ae2ecd7270697c57e21639b35808f70def87cec9dadc6",
+    "source_baseline": "cd5e231c348c255ae5088873b5a66ee0eb96fa07",
+    "system_install": false
+  },
+  "cli_sha256": "cf828ebefe0a4204122edc919b9b18cbd9632e45cf81abe5cbed714934223472",
+  "returncode": 0,
+  "stdout": "wimlib-imagex 1.14.5 (using wimlib 1.14.5)\nCopyright 2012-2023 Eric Biggers\nLicense GPLv3+; GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>.\nThis is free software: you are free to change and redistribute it.\nThere is NO WARRANTY, to the extent permitted by law.\n\nReport bugs to https://wimlib.net/forums/.\n",
+  "stderr": ""
+}

@@ -1,0 +1,149 @@
+{
+  "cases": 18,
+  "results": [
+    {
+      "codec": "XPRESS",
+      "layout": "ordinary",
+      "raw_chunks": false,
+      "payload_bytes": 65554,
+      "resource_bytes": 33057,
+      "resource_sha256": "edd1dd512396358c9b7a0cdb28b800757fd6ad6f757a52ace795f228f5493a75"
+    },
+    {
+      "codec": "XPRESS",
+      "layout": "pipable",
+      "raw_chunks": false,
+      "payload_bytes": 65554,
+      "resource_bytes": 33069,
+      "resource_sha256": "648accbde97b6df6571172e0467afb04102f48218e3688c8ed1418113ffd5486"
+    },
+    {
+      "codec": "XPRESS",
+      "layout": "solid",
+      "raw_chunks": false,
+      "payload_bytes": 65554,
+      "resource_bytes": 33077,
+      "resource_sha256": "7c5a4459d21f5c84200fd82babc5c69b9ac8283588bf7a9bc4f28cb074f9b84d"
+    },
+    {
+      "codec": "XPRESS",
+      "layout": "ordinary",
+      "raw_chunks": true,
+      "payload_bytes": 65554,
+      "resource_bytes": 65562,
+      "resource_sha256": "958cfb17aeaea678d68a34414b8676605ff6ccb2c99d3c491d5eecade27afa3c"
+    },
+    {
+      "codec": "XPRESS",
+      "layout": "pipable",
+      "raw_chunks": true,
+      "payload_bytes": 65554,
+      "resource_bytes": 65574,
+      "resource_sha256": "bcf63e2634493b7a44c8d2edf95e513dbe39f476f6e4c874f93055b02eecc6b8"
+    },
+    {
+      "codec": "XPRESS",
+      "layout": "solid",
+      "raw_chunks": true,
+      "payload_bytes": 65554,
+      "resource_bytes": 65582,
+      "resource_sha256": "8eb60455b68e06d9c14070711dba6a8de7d41f57f99e549fc310ff0d96b9b3ad"
+    },
+    {
+      "codec": "LZX",
+      "layout": "ordinary",
+      "raw_chunks": false,
+      "payload_bytes": 65554,
+      "resource_bytes": 32872,
+      "resource_sha256": "fe95df3e9c3ef37b71b2c90b8cde59fe2950ced16738a01fdc0f7549b8bb6e56"
+    },
+    {
+      "codec": "LZX",
+      "layout": "pipable",
+      "raw_chunks": false,
+      "payload_bytes": 65554,
+      "resource_bytes": 32884,
+      "resource_sha256": "6cf7e189e17e2a8ab6183a07247ed2709022b3b7605898df6d809e7c8b623e29"
+    },
+    {
+      "codec": "LZX",
+      "layout": "solid",
+      "raw_chunks": false,
+      "payload_bytes": 65554,
+      "resource_bytes": 32892,
+      "resource_sha256": "e68c584bf2e3de50a7bc54d711cde407230c1aeee291b0ef93aabdb33ef55018"
+    },
+    {
+      "codec": "LZX",
+      "layout": "ordinary",
+      "raw_chunks": true,
+      "payload_bytes": 65554,
+      "resource_bytes": 65562,
+      "resource_sha256": "958cfb17aeaea678d68a34414b8676605ff6ccb2c99d3c491d5eecade27afa3c"
+    },
+    {
+      "codec": "LZX",
+      "layout": "pipable",
+      "raw_chunks": true,
+      "payload_bytes": 65554,
+      "resource_bytes": 65574,
+      "resource_sha256": "bcf63e2634493b7a44c8d2edf95e513dbe39f476f6e4c874f93055b02eecc6b8"
+    },
+    {
+      "codec": "LZX",
+      "layout": "solid",
+      "raw_chunks": true,
+      "payload_bytes": 65554,
+      "resource_bytes": 65582,
+      "resource_sha256": "37681888a48ba02436f10f18fc7d73cc6fd6f3b12cd4a58144be7bf8fb1e72e7"
+    },
+    {
+      "codec": "LZMS",
+      "layout": "ordinary",
+      "raw_chunks": false,
+      "payload_bytes": 65554,
+      "resource_bytes": 32806,
+      "resource_sha256": "3534ca304a6b470bac5108cebb0ca4bb0e47360fb2f518cab07dfbbdfe65e299"
+    },
+    {
+      "codec": "LZMS",
+      "layout": "pipable",
+      "raw_chunks": false,
+      "payload_bytes": 65554,
+      "resource_bytes": 32818,
+      "resource_sha256": "076bd78d9f07cc8e5ddfa7dae86265324c684fb939bdf283b4a17480ac3b37dc"
+    },
+    {
+      "codec": "LZMS",
+      "layout": "solid",
+      "raw_chunks": false,
+      "payload_bytes": 65554,
+      "resource_bytes": 32826,
+      "resource_sha256": "00d689f9902943b0729a82077b873aa740cd8f64374f5b369583c1412800af2e"
+    },
+    {
+      "codec": "LZMS",
+      "layout": "ordinary",
+      "raw_chunks": true,
+      "payload_bytes": 65554,
+      "resource_bytes": 65562,
+      "resource_sha256": "958cfb17aeaea678d68a34414b8676605ff6ccb2c99d3c491d5eecade27afa3c"
+    },
+    {
+      "codec": "LZMS",
+      "layout": "pipable",
+      "raw_chunks": true,
+      "payload_bytes": 65554,
+      "resource_bytes": 65574,
+      "resource_sha256": "bcf63e2634493b7a44c8d2edf95e513dbe39f476f6e4c874f93055b02eecc6b8"
+    },
+    {
+      "codec": "LZMS",
+      "layout": "solid",
+      "raw_chunks": true,
+      "payload_bytes": 65554,
+      "resource_bytes": 65582,
+      "resource_sha256": "3e3b13ced5cfb431abf955d676c34446621e7b47061b1525976ba9db7a4543f5"
+    }
+  ]
+}

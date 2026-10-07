@@ -1,0 +1,3147 @@
+{
+  "work": "/tmp/wim-done-file-06foux47",
+  "sha256": {
+    "original": "62eb9c97f9ec6e3dae6c7e995b0a65a2e94a4d9b41491666947ba788a15bb74a",
+    "native": "52e0564a95902160ddcee6eb652286288799a7ac59157a2e553c9a3974db2ad8"
+  },
+  "cases": 120,
+  "exact": 31,
+  "rows": [
+    {
+      "layout": "empty",
+      "codec": 0,
+      "solid": false,
+      "stop": -1,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1112\n",
+          "stderr": "",
+          "source_files": []
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1104\n",
+          "stderr": "",
+          "source_files": []
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "empty",
+      "codec": 0,
+      "solid": false,
+      "stop": 26,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1112\n",
+          "stderr": "",
+          "source_files": []
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1104\n",
+          "stderr": "",
+          "source_files": []
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "empty",
+      "codec": 0,
+      "solid": false,
+      "stop": -1,
+      "remove": 1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1112\n",
+          "stderr": "",
+          "source_files": []
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1104\n",
+          "stderr": "",
+          "source_files": []
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "empty",
+      "codec": 0,
+      "solid": true,
+      "stop": -1,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1112\n",
+          "stderr": "",
+          "source_files": []
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1104\n",
+          "stderr": "",
+          "source_files": []
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "empty",
+      "codec": 0,
+      "solid": true,
+      "stop": 26,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1112\n",
+          "stderr": "",
+          "source_files": []
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1104\n",
+          "stderr": "",
+          "source_files": []
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "empty",
+      "codec": 0,
+      "solid": true,
+      "stop": -1,
+      "remove": 1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1112\n",
+          "stderr": "",
+          "source_files": []
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1104\n",
+          "stderr": "",
+          "source_files": []
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "empty",
+      "codec": 1,
+      "solid": false,
+      "stop": -1,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1112\n",
+          "stderr": "",
+          "source_files": []
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1104\n",
+          "stderr": "",
+          "source_files": []
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "empty",
+      "codec": 1,
+      "solid": false,
+      "stop": 26,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1112\n",
+          "stderr": "",
+          "source_files": []
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1104\n",
+          "stderr": "",
+          "source_files": []
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "empty",
+      "codec": 1,
+      "solid": false,
+      "stop": -1,
+      "remove": 1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1112\n",
+          "stderr": "",
+          "source_files": []
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1104\n",
+          "stderr": "",
+          "source_files": []
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "empty",
+      "codec": 1,
+      "solid": true,
+      "stop": -1,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1112\n",
+          "stderr": "",
+          "source_files": []
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1104\n",
+          "stderr": "",
+          "source_files": []
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "empty",
+      "codec": 1,
+      "solid": true,
+      "stop": 26,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1112\n",
+          "stderr": "",
+          "source_files": []
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1104\n",
+          "stderr": "",
+          "source_files": []
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "empty",
+      "codec": 1,
+      "solid": true,
+      "stop": -1,
+      "remove": 1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1112\n",
+          "stderr": "",
+          "source_files": []
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1104\n",
+          "stderr": "",
+          "source_files": []
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "empty",
+      "codec": 2,
+      "solid": false,
+      "stop": -1,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1060\n",
+          "stderr": "",
+          "source_files": []
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1104\n",
+          "stderr": "",
+          "source_files": []
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "empty",
+      "codec": 2,
+      "solid": false,
+      "stop": 26,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1060\n",
+          "stderr": "",
+          "source_files": []
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1104\n",
+          "stderr": "",
+          "source_files": []
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "empty",
+      "codec": 2,
+      "solid": false,
+      "stop": -1,
+      "remove": 1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1060\n",
+          "stderr": "",
+          "source_files": []
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1104\n",
+          "stderr": "",
+          "source_files": []
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "empty",
+      "codec": 2,
+      "solid": true,
+      "stop": -1,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1060\n",
+          "stderr": "",
+          "source_files": []
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1104\n",
+          "stderr": "",
+          "source_files": []
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "empty",
+      "codec": 2,
+      "solid": true,
+      "stop": 26,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1060\n",
+          "stderr": "",
+          "source_files": []
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1104\n",
+          "stderr": "",
+          "source_files": []
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "empty",
+      "codec": 2,
+      "solid": true,
+      "stop": -1,
+      "remove": 1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1060\n",
+          "stderr": "",
+          "source_files": []
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1104\n",
+          "stderr": "",
+          "source_files": []
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "empty",
+      "codec": 3,
+      "solid": false,
+      "stop": -1,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1018\n",
+          "stderr": "",
+          "source_files": []
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1018\n",
+          "stderr": "",
+          "source_files": []
+        }
+      },
+      "exact": true
+    },
+    {
+      "layout": "empty",
+      "codec": 3,
+      "solid": false,
+      "stop": 26,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1018\n",
+          "stderr": "",
+          "source_files": []
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1018\n",
+          "stderr": "",
+          "source_files": []
+        }
+      },
+      "exact": true
+    },
+    {
+      "layout": "empty",
+      "codec": 3,
+      "solid": false,
+      "stop": -1,
+      "remove": 1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1018\n",
+          "stderr": "",
+          "source_files": []
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1018\n",
+          "stderr": "",
+          "source_files": []
+        }
+      },
+      "exact": true
+    },
+    {
+      "layout": "empty",
+      "codec": 3,
+      "solid": true,
+      "stop": -1,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1018\n",
+          "stderr": "",
+          "source_files": []
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1018\n",
+          "stderr": "",
+          "source_files": []
+        }
+      },
+      "exact": true
+    },
+    {
+      "layout": "empty",
+      "codec": 3,
+      "solid": true,
+      "stop": 26,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1018\n",
+          "stderr": "",
+          "source_files": []
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1018\n",
+          "stderr": "",
+          "source_files": []
+        }
+      },
+      "exact": true
+    },
+    {
+      "layout": "empty",
+      "codec": 3,
+      "solid": true,
+      "stop": -1,
+      "remove": 1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1018\n",
+          "stderr": "",
+          "source_files": []
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1018\n",
+          "stderr": "",
+          "source_files": []
+        }
+      },
+      "exact": true
+    },
+    {
+      "layout": "single",
+      "codec": 0,
+      "solid": false,
+      "stop": -1,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=12 bytes=32768/65537 streams=0/1\nevent=12 bytes=65536/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=66823\n",
+          "stderr": "",
+          "source_files": [
+            "a"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=12 bytes=32768/65537 streams=0/1\nevent=12 bytes=65536/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=66823\n",
+          "stderr": "",
+          "source_files": [
+            "a"
+          ]
+        }
+      },
+      "exact": true
+    },
+    {
+      "layout": "single",
+      "codec": 0,
+      "solid": false,
+      "stop": 26,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=12 bytes=32768/65537 streams=0/1\nevent=12 bytes=65536/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nresult=76 errno=0 exists=1 size=65745\n",
+          "stderr": "",
+          "source_files": [
+            "a"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=12 bytes=32768/65537 streams=0/1\nevent=12 bytes=65536/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nresult=76 errno=0 exists=1 size=65745\n",
+          "stderr": "",
+          "source_files": [
+            "a"
+          ]
+        }
+      },
+      "exact": true
+    },
+    {
+      "layout": "single",
+      "codec": 0,
+      "solid": false,
+      "stop": -1,
+      "remove": 1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=12 bytes=32768/65537 streams=0/1\nevent=12 bytes=65536/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a unlink=0\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=66823\n",
+          "stderr": "",
+          "source_files": []
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=12 bytes=32768/65537 streams=0/1\nevent=12 bytes=65536/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a unlink=0\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=66823\n",
+          "stderr": "",
+          "source_files": []
+        }
+      },
+      "exact": true
+    },
+    {
+      "layout": "single",
+      "codec": 0,
+      "solid": true,
+      "stop": -1,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1364\n",
+          "stderr": "",
+          "source_files": [
+            "a"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1362\n",
+          "stderr": "",
+          "source_files": [
+            "a"
+          ]
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "single",
+      "codec": 0,
+      "solid": true,
+      "stop": 26,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nresult=76 errno=0 exists=1 size=240\n",
+          "stderr": "",
+          "source_files": [
+            "a"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nresult=76 errno=0 exists=1 size=238\n",
+          "stderr": "",
+          "source_files": [
+            "a"
+          ]
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "single",
+      "codec": 0,
+      "solid": true,
+      "stop": -1,
+      "remove": 1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a unlink=0\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1364\n",
+          "stderr": "",
+          "source_files": []
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a unlink=0\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1362\n",
+          "stderr": "",
+          "source_files": []
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "single",
+      "codec": 1,
+      "solid": false,
+      "stop": -1,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=12 bytes=32768/65537 streams=0/1\nevent=12 bytes=65536/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1819\n",
+          "stderr": "",
+          "source_files": [
+            "a"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=12 bytes=32768/65537 streams=0/1\nevent=12 bytes=65536/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1819\n",
+          "stderr": "",
+          "source_files": [
+            "a"
+          ]
+        }
+      },
+      "exact": true
+    },
+    {
+      "layout": "single",
+      "codec": 1,
+      "solid": false,
+      "stop": 26,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=12 bytes=32768/65537 streams=0/1\nevent=12 bytes=65536/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nresult=76 errno=0 exists=1 size=743\n",
+          "stderr": "",
+          "source_files": [
+            "a"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=12 bytes=32768/65537 streams=0/1\nevent=12 bytes=65536/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nresult=76 errno=0 exists=1 size=743\n",
+          "stderr": "",
+          "source_files": [
+            "a"
+          ]
+        }
+      },
+      "exact": true
+    },
+    {
+      "layout": "single",
+      "codec": 1,
+      "solid": false,
+      "stop": -1,
+      "remove": 1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=12 bytes=32768/65537 streams=0/1\nevent=12 bytes=65536/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a unlink=0\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1819\n",
+          "stderr": "",
+          "source_files": []
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=12 bytes=32768/65537 streams=0/1\nevent=12 bytes=65536/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a unlink=0\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1819\n",
+          "stderr": "",
+          "source_files": []
+        }
+      },
+      "exact": true
+    },
+    {
+      "layout": "single",
+      "codec": 1,
+      "solid": true,
+      "stop": -1,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1364\n",
+          "stderr": "",
+          "source_files": [
+            "a"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1362\n",
+          "stderr": "",
+          "source_files": [
+            "a"
+          ]
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "single",
+      "codec": 1,
+      "solid": true,
+      "stop": 26,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nresult=76 errno=0 exists=1 size=240\n",
+          "stderr": "",
+          "source_files": [
+            "a"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nresult=76 errno=0 exists=1 size=238\n",
+          "stderr": "",
+          "source_files": [
+            "a"
+          ]
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "single",
+      "codec": 1,
+      "solid": true,
+      "stop": -1,
+      "remove": 1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a unlink=0\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1364\n",
+          "stderr": "",
+          "source_files": []
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a unlink=0\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1362\n",
+          "stderr": "",
+          "source_files": []
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "single",
+      "codec": 2,
+      "solid": false,
+      "stop": -1,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=12 bytes=32768/65537 streams=0/1\nevent=12 bytes=65536/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1335\n",
+          "stderr": "",
+          "source_files": [
+            "a"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=12 bytes=32768/65537 streams=0/1\nevent=12 bytes=65536/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=2165\n",
+          "stderr": "",
+          "source_files": [
+            "a"
+          ]
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "single",
+      "codec": 2,
+      "solid": false,
+      "stop": 26,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=12 bytes=32768/65537 streams=0/1\nevent=12 bytes=65536/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nresult=76 errno=0 exists=1 size=373\n",
+          "stderr": "",
+          "source_files": [
+            "a"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=12 bytes=32768/65537 streams=0/1\nevent=12 bytes=65536/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nresult=76 errno=0 exists=1 size=1089\n",
+          "stderr": "",
+          "source_files": [
+            "a"
+          ]
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "single",
+      "codec": 2,
+      "solid": false,
+      "stop": -1,
+      "remove": 1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=12 bytes=32768/65537 streams=0/1\nevent=12 bytes=65536/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a unlink=0\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1341\n",
+          "stderr": "",
+          "source_files": []
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=12 bytes=32768/65537 streams=0/1\nevent=12 bytes=65536/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a unlink=0\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=2165\n",
+          "stderr": "",
+          "source_files": []
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "single",
+      "codec": 2,
+      "solid": true,
+      "stop": -1,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1258\n",
+          "stderr": "",
+          "source_files": [
+            "a"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1362\n",
+          "stderr": "",
+          "source_files": [
+            "a"
+          ]
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "single",
+      "codec": 2,
+      "solid": true,
+      "stop": 26,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nresult=76 errno=0 exists=1 size=240\n",
+          "stderr": "",
+          "source_files": [
+            "a"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nresult=76 errno=0 exists=1 size=238\n",
+          "stderr": "",
+          "source_files": [
+            "a"
+          ]
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "single",
+      "codec": 2,
+      "solid": true,
+      "stop": -1,
+      "remove": 1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a unlink=0\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1260\n",
+          "stderr": "",
+          "source_files": []
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a unlink=0\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1362\n",
+          "stderr": "",
+          "source_files": []
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "single",
+      "codec": 3,
+      "solid": false,
+      "stop": -1,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1134\n",
+          "stderr": "",
+          "source_files": [
+            "a"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1136\n",
+          "stderr": "",
+          "source_files": [
+            "a"
+          ]
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "single",
+      "codec": 3,
+      "solid": false,
+      "stop": 26,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nresult=76 errno=0 exists=1 size=220\n",
+          "stderr": "",
+          "source_files": [
+            "a"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nresult=76 errno=0 exists=1 size=218\n",
+          "stderr": "",
+          "source_files": [
+            "a"
+          ]
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "single",
+      "codec": 3,
+      "solid": false,
+      "stop": -1,
+      "remove": 1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a unlink=0\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1134\n",
+          "stderr": "",
+          "source_files": []
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a unlink=0\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1136\n",
+          "stderr": "",
+          "source_files": []
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "single",
+      "codec": 3,
+      "solid": true,
+      "stop": -1,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1200\n",
+          "stderr": "",
+          "source_files": [
+            "a"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1206\n",
+          "stderr": "",
+          "source_files": [
+            "a"
+          ]
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "single",
+      "codec": 3,
+      "solid": true,
+      "stop": 26,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nresult=76 errno=0 exists=1 size=240\n",
+          "stderr": "",
+          "source_files": [
+            "a"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nresult=76 errno=0 exists=1 size=238\n",
+          "stderr": "",
+          "source_files": [
+            "a"
+          ]
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "single",
+      "codec": 3,
+      "solid": true,
+      "stop": -1,
+      "remove": 1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a unlink=0\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1204\n",
+          "stderr": "",
+          "source_files": []
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a unlink=0\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1204\n",
+          "stderr": "",
+          "source_files": []
+        }
+      },
+      "exact": true
+    },
+    {
+      "layout": "hardlink",
+      "codec": 0,
+      "solid": false,
+      "stop": -1,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=12 bytes=32768/65537 streams=0/1\nevent=12 bytes=65536/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=66945\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=12 bytes=32768/65537 streams=0/1\nevent=12 bytes=65536/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=66945\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b"
+          ]
+        }
+      },
+      "exact": true
+    },
+    {
+      "layout": "hardlink",
+      "codec": 0,
+      "solid": false,
+      "stop": 26,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=12 bytes=32768/65537 streams=0/1\nevent=12 bytes=65536/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nresult=76 errno=0 exists=1 size=65745\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=12 bytes=32768/65537 streams=0/1\nevent=12 bytes=65536/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nresult=76 errno=0 exists=1 size=65745\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b"
+          ]
+        }
+      },
+      "exact": true
+    },
+    {
+      "layout": "hardlink",
+      "codec": 0,
+      "solid": false,
+      "stop": -1,
+      "remove": 1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=12 bytes=32768/65537 streams=0/1\nevent=12 bytes=65536/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a unlink=0\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=66945\n",
+          "stderr": "",
+          "source_files": [
+            "b"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=12 bytes=32768/65537 streams=0/1\nevent=12 bytes=65536/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a unlink=0\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=66945\n",
+          "stderr": "",
+          "source_files": [
+            "b"
+          ]
+        }
+      },
+      "exact": true
+    },
+    {
+      "layout": "hardlink",
+      "codec": 0,
+      "solid": true,
+      "stop": -1,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1486\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1484\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b"
+          ]
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "hardlink",
+      "codec": 0,
+      "solid": true,
+      "stop": 26,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nresult=76 errno=0 exists=1 size=240\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nresult=76 errno=0 exists=1 size=238\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b"
+          ]
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "hardlink",
+      "codec": 0,
+      "solid": true,
+      "stop": -1,
+      "remove": 1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a unlink=0\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1486\n",
+          "stderr": "",
+          "source_files": [
+            "b"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a unlink=0\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1484\n",
+          "stderr": "",
+          "source_files": [
+            "b"
+          ]
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "hardlink",
+      "codec": 1,
+      "solid": false,
+      "stop": -1,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=12 bytes=32768/65537 streams=0/1\nevent=12 bytes=65536/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1904\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=12 bytes=32768/65537 streams=0/1\nevent=12 bytes=65536/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1906\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b"
+          ]
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "hardlink",
+      "codec": 1,
+      "solid": false,
+      "stop": 26,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=12 bytes=32768/65537 streams=0/1\nevent=12 bytes=65536/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nresult=76 errno=0 exists=1 size=743\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=12 bytes=32768/65537 streams=0/1\nevent=12 bytes=65536/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nresult=76 errno=0 exists=1 size=743\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b"
+          ]
+        }
+      },
+      "exact": true
+    },
+    {
+      "layout": "hardlink",
+      "codec": 1,
+      "solid": false,
+      "stop": -1,
+      "remove": 1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=12 bytes=32768/65537 streams=0/1\nevent=12 bytes=65536/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a unlink=0\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1905\n",
+          "stderr": "",
+          "source_files": [
+            "b"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=12 bytes=32768/65537 streams=0/1\nevent=12 bytes=65536/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a unlink=0\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1906\n",
+          "stderr": "",
+          "source_files": [
+            "b"
+          ]
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "hardlink",
+      "codec": 1,
+      "solid": true,
+      "stop": -1,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1450\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1452\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b"
+          ]
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "hardlink",
+      "codec": 1,
+      "solid": true,
+      "stop": 26,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nresult=76 errno=0 exists=1 size=240\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nresult=76 errno=0 exists=1 size=238\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b"
+          ]
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "hardlink",
+      "codec": 1,
+      "solid": true,
+      "stop": -1,
+      "remove": 1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a unlink=0\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1452\n",
+          "stderr": "",
+          "source_files": [
+            "b"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a unlink=0\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1449\n",
+          "stderr": "",
+          "source_files": [
+            "b"
+          ]
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "hardlink",
+      "codec": 2,
+      "solid": false,
+      "stop": -1,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=12 bytes=32768/65537 streams=0/1\nevent=12 bytes=65536/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1353\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=12 bytes=32768/65537 streams=0/1\nevent=12 bytes=65536/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=2287\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b"
+          ]
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "hardlink",
+      "codec": 2,
+      "solid": false,
+      "stop": 26,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=12 bytes=32768/65537 streams=0/1\nevent=12 bytes=65536/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nresult=76 errno=0 exists=1 size=373\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=12 bytes=32768/65537 streams=0/1\nevent=12 bytes=65536/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nresult=76 errno=0 exists=1 size=1089\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b"
+          ]
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "hardlink",
+      "codec": 2,
+      "solid": false,
+      "stop": -1,
+      "remove": 1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=12 bytes=32768/65537 streams=0/1\nevent=12 bytes=65536/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a unlink=0\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1345\n",
+          "stderr": "",
+          "source_files": [
+            "b"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=12 bytes=32768/65537 streams=0/1\nevent=12 bytes=65536/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a unlink=0\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=2287\n",
+          "stderr": "",
+          "source_files": [
+            "b"
+          ]
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "hardlink",
+      "codec": 2,
+      "solid": true,
+      "stop": -1,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1268\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1484\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b"
+          ]
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "hardlink",
+      "codec": 2,
+      "solid": true,
+      "stop": 26,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nresult=76 errno=0 exists=1 size=240\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nresult=76 errno=0 exists=1 size=238\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b"
+          ]
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "hardlink",
+      "codec": 2,
+      "solid": true,
+      "stop": -1,
+      "remove": 1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a unlink=0\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1268\n",
+          "stderr": "",
+          "source_files": [
+            "b"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a unlink=0\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1484\n",
+          "stderr": "",
+          "source_files": [
+            "b"
+          ]
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "hardlink",
+      "codec": 3,
+      "solid": false,
+      "stop": -1,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1144\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1150\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b"
+          ]
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "hardlink",
+      "codec": 3,
+      "solid": false,
+      "stop": 26,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nresult=76 errno=0 exists=1 size=220\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nresult=76 errno=0 exists=1 size=218\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b"
+          ]
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "hardlink",
+      "codec": 3,
+      "solid": false,
+      "stop": -1,
+      "remove": 1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a unlink=0\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1148\n",
+          "stderr": "",
+          "source_files": [
+            "b"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a unlink=0\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1154\n",
+          "stderr": "",
+          "source_files": [
+            "b"
+          ]
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "hardlink",
+      "codec": 3,
+      "solid": true,
+      "stop": -1,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1218\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1224\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b"
+          ]
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "hardlink",
+      "codec": 3,
+      "solid": true,
+      "stop": 26,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nresult=76 errno=0 exists=1 size=240\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nresult=76 errno=0 exists=1 size=238\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b"
+          ]
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "hardlink",
+      "codec": 3,
+      "solid": true,
+      "stop": -1,
+      "remove": 1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a unlink=0\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1220\n",
+          "stderr": "",
+          "source_files": [
+            "b"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/a unlink=0\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1224\n",
+          "stderr": "",
+          "source_files": [
+            "b"
+          ]
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "duplicate",
+      "codec": 0,
+      "solid": false,
+      "stop": -1,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/131074 streams=0/2\nevent=12 bytes=32768/131074 streams=0/2\nevent=12 bytes=65536/131074 streams=0/2\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nevent=12 bytes=65537/65537 streams=1/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/b\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=66937\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/131074 streams=0/2\nevent=12 bytes=32768/131074 streams=0/2\nevent=12 bytes=65536/131074 streams=0/2\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nevent=12 bytes=65537/65537 streams=1/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/b\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=66937\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b"
+          ]
+        }
+      },
+      "exact": true
+    },
+    {
+      "layout": "duplicate",
+      "codec": 0,
+      "solid": false,
+      "stop": 26,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/131074 streams=0/2\nevent=12 bytes=32768/131074 streams=0/2\nevent=12 bytes=65536/131074 streams=0/2\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nresult=76 errno=0 exists=1 size=65745\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/131074 streams=0/2\nevent=12 bytes=32768/131074 streams=0/2\nevent=12 bytes=65536/131074 streams=0/2\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nresult=76 errno=0 exists=1 size=65745\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b"
+          ]
+        }
+      },
+      "exact": true
+    },
+    {
+      "layout": "duplicate",
+      "codec": 0,
+      "solid": false,
+      "stop": -1,
+      "remove": 1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/131074 streams=0/2\nevent=12 bytes=32768/131074 streams=0/2\nevent=12 bytes=65536/131074 streams=0/2\nevent=26 path=/tmp/wim-done-file-06foux47/source/a unlink=0\nevent=12 bytes=65537/65537 streams=1/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/b unlink=0\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=66937\n",
+          "stderr": "",
+          "source_files": []
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/131074 streams=0/2\nevent=12 bytes=32768/131074 streams=0/2\nevent=12 bytes=65536/131074 streams=0/2\nevent=26 path=/tmp/wim-done-file-06foux47/source/a unlink=0\nevent=12 bytes=65537/65537 streams=1/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/b unlink=0\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=66937\n",
+          "stderr": "",
+          "source_files": []
+        }
+      },
+      "exact": true
+    },
+    {
+      "layout": "duplicate",
+      "codec": 0,
+      "solid": true,
+      "stop": -1,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/131074 streams=0/2\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/b\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1478\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/131074 streams=0/2\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/b\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1476\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b"
+          ]
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "duplicate",
+      "codec": 0,
+      "solid": true,
+      "stop": 26,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/131074 streams=0/2\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/b\nresult=76 errno=0 exists=1 size=228\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/131074 streams=0/2\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/b\nresult=76 errno=0 exists=1 size=228\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b"
+          ]
+        }
+      },
+      "exact": true
+    },
+    {
+      "layout": "duplicate",
+      "codec": 0,
+      "solid": true,
+      "stop": -1,
+      "remove": 1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/131074 streams=0/2\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/b unlink=0\nevent=26 path=/tmp/wim-done-file-06foux47/source/a unlink=0\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1478\n",
+          "stderr": "",
+          "source_files": []
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/131074 streams=0/2\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/b unlink=0\nevent=26 path=/tmp/wim-done-file-06foux47/source/a unlink=0\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1476\n",
+          "stderr": "",
+          "source_files": []
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "duplicate",
+      "codec": 1,
+      "solid": false,
+      "stop": -1,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/131074 streams=0/2\nevent=12 bytes=32768/131074 streams=0/2\nevent=12 bytes=65536/131074 streams=0/2\nevent=26 path=/tmp/wim-done-file-06foux47/source/b\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1902\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/131074 streams=0/2\nevent=12 bytes=32768/131074 streams=0/2\nevent=12 bytes=65536/131074 streams=0/2\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nevent=12 bytes=65537/65537 streams=1/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/b\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1904\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b"
+          ]
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "duplicate",
+      "codec": 1,
+      "solid": false,
+      "stop": 26,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/131074 streams=0/2\nevent=12 bytes=32768/131074 streams=0/2\nevent=12 bytes=65536/131074 streams=0/2\nevent=26 path=/tmp/wim-done-file-06foux47/source/b\nresult=76 errno=0 exists=1 size=742\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/131074 streams=0/2\nevent=12 bytes=32768/131074 streams=0/2\nevent=12 bytes=65536/131074 streams=0/2\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nresult=76 errno=0 exists=1 size=743\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b"
+          ]
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "duplicate",
+      "codec": 1,
+      "solid": false,
+      "stop": -1,
+      "remove": 1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/131074 streams=0/2\nevent=12 bytes=32768/131074 streams=0/2\nevent=12 bytes=65536/131074 streams=0/2\nevent=26 path=/tmp/wim-done-file-06foux47/source/b unlink=0\nevent=26 path=/tmp/wim-done-file-06foux47/source/a unlink=0\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1902\n",
+          "stderr": "",
+          "source_files": []
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/131074 streams=0/2\nevent=12 bytes=32768/131074 streams=0/2\nevent=12 bytes=65536/131074 streams=0/2\nevent=26 path=/tmp/wim-done-file-06foux47/source/a unlink=0\nevent=12 bytes=65537/65537 streams=1/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/b unlink=0\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1906\n",
+          "stderr": "",
+          "source_files": []
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "duplicate",
+      "codec": 1,
+      "solid": true,
+      "stop": -1,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/131074 streams=0/2\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/b\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1447\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/131074 streams=0/2\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/b\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1449\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b"
+          ]
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "duplicate",
+      "codec": 1,
+      "solid": true,
+      "stop": 26,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/131074 streams=0/2\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/b\nresult=76 errno=0 exists=1 size=228\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/131074 streams=0/2\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/b\nresult=76 errno=0 exists=1 size=228\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b"
+          ]
+        }
+      },
+      "exact": true
+    },
+    {
+      "layout": "duplicate",
+      "codec": 1,
+      "solid": true,
+      "stop": -1,
+      "remove": 1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/131074 streams=0/2\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/b unlink=0\nevent=26 path=/tmp/wim-done-file-06foux47/source/a unlink=0\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1447\n",
+          "stderr": "",
+          "source_files": []
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/131074 streams=0/2\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/b unlink=0\nevent=26 path=/tmp/wim-done-file-06foux47/source/a unlink=0\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1449\n",
+          "stderr": "",
+          "source_files": []
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "duplicate",
+      "codec": 2,
+      "solid": false,
+      "stop": -1,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/131074 streams=0/2\nevent=12 bytes=32768/131074 streams=0/2\nevent=12 bytes=65536/131074 streams=0/2\nevent=26 path=/tmp/wim-done-file-06foux47/source/b\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1345\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/131074 streams=0/2\nevent=12 bytes=32768/131074 streams=0/2\nevent=12 bytes=65536/131074 streams=0/2\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nevent=12 bytes=65537/65537 streams=1/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/b\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=2279\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b"
+          ]
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "duplicate",
+      "codec": 2,
+      "solid": false,
+      "stop": 26,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/131074 streams=0/2\nevent=12 bytes=32768/131074 streams=0/2\nevent=12 bytes=65536/131074 streams=0/2\nevent=26 path=/tmp/wim-done-file-06foux47/source/b\nresult=76 errno=0 exists=1 size=372\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/131074 streams=0/2\nevent=12 bytes=32768/131074 streams=0/2\nevent=12 bytes=65536/131074 streams=0/2\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nresult=76 errno=0 exists=1 size=1089\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b"
+          ]
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "duplicate",
+      "codec": 2,
+      "solid": false,
+      "stop": -1,
+      "remove": 1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/131074 streams=0/2\nevent=12 bytes=32768/131074 streams=0/2\nevent=12 bytes=65536/131074 streams=0/2\nevent=26 path=/tmp/wim-done-file-06foux47/source/b unlink=0\nevent=26 path=/tmp/wim-done-file-06foux47/source/a unlink=0\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1347\n",
+          "stderr": "",
+          "source_files": []
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/131074 streams=0/2\nevent=12 bytes=32768/131074 streams=0/2\nevent=12 bytes=65536/131074 streams=0/2\nevent=26 path=/tmp/wim-done-file-06foux47/source/a unlink=0\nevent=12 bytes=65537/65537 streams=1/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/b unlink=0\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=2279\n",
+          "stderr": "",
+          "source_files": []
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "duplicate",
+      "codec": 2,
+      "solid": true,
+      "stop": -1,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/131074 streams=0/2\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/b\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1266\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/131074 streams=0/2\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/b\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1476\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b"
+          ]
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "duplicate",
+      "codec": 2,
+      "solid": true,
+      "stop": 26,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/131074 streams=0/2\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/b\nresult=76 errno=0 exists=1 size=228\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/131074 streams=0/2\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/b\nresult=76 errno=0 exists=1 size=228\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b"
+          ]
+        }
+      },
+      "exact": true
+    },
+    {
+      "layout": "duplicate",
+      "codec": 2,
+      "solid": true,
+      "stop": -1,
+      "remove": 1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/131074 streams=0/2\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/b unlink=0\nevent=26 path=/tmp/wim-done-file-06foux47/source/a unlink=0\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1266\n",
+          "stderr": "",
+          "source_files": []
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/131074 streams=0/2\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/b unlink=0\nevent=26 path=/tmp/wim-done-file-06foux47/source/a unlink=0\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1476\n",
+          "stderr": "",
+          "source_files": []
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "duplicate",
+      "codec": 3,
+      "solid": false,
+      "stop": -1,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/131074 streams=0/2\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/b\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1144\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/131074 streams=0/2\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nevent=12 bytes=65537/131074 streams=1/2\nevent=12 bytes=65537/65537 streams=1/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/b\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1150\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b"
+          ]
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "duplicate",
+      "codec": 3,
+      "solid": false,
+      "stop": 26,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/131074 streams=0/2\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/b\nresult=76 errno=0 exists=1 size=208\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/131074 streams=0/2\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nresult=76 errno=0 exists=1 size=218\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b"
+          ]
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "duplicate",
+      "codec": 3,
+      "solid": false,
+      "stop": -1,
+      "remove": 1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/131074 streams=0/2\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/b unlink=0\nevent=26 path=/tmp/wim-done-file-06foux47/source/a unlink=0\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1144\n",
+          "stderr": "",
+          "source_files": []
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/131074 streams=0/2\nevent=26 path=/tmp/wim-done-file-06foux47/source/a unlink=0\nevent=12 bytes=65537/131074 streams=1/2\nevent=12 bytes=65537/65537 streams=1/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/b unlink=0\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1150\n",
+          "stderr": "",
+          "source_files": []
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "duplicate",
+      "codec": 3,
+      "solid": true,
+      "stop": -1,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/131074 streams=0/2\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/b\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1214\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/131074 streams=0/2\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/b\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1220\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b"
+          ]
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "duplicate",
+      "codec": 3,
+      "solid": true,
+      "stop": 26,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/131074 streams=0/2\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/b\nresult=76 errno=0 exists=1 size=228\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/131074 streams=0/2\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/b\nresult=76 errno=0 exists=1 size=228\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b"
+          ]
+        }
+      },
+      "exact": true
+    },
+    {
+      "layout": "duplicate",
+      "codec": 3,
+      "solid": true,
+      "stop": -1,
+      "remove": 1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/131074 streams=0/2\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/b unlink=0\nevent=26 path=/tmp/wim-done-file-06foux47/source/a unlink=0\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1216\n",
+          "stderr": "",
+          "source_files": []
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/131074 streams=0/2\nevent=12 bytes=0/65537 streams=0/1\nevent=26 path=/tmp/wim-done-file-06foux47/source/b unlink=0\nevent=26 path=/tmp/wim-done-file-06foux47/source/a unlink=0\nevent=12 bytes=65537/65537 streams=1/1\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1220\n",
+          "stderr": "",
+          "source_files": []
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "mixed",
+      "codec": 0,
+      "solid": false,
+      "stop": -1,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65570 streams=0/3\nevent=12 bytes=32768/65570 streams=0/3\nevent=12 bytes=65536/65570 streams=0/3\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nevent=26 path=/tmp/wim-done-file-06foux47/source/b\nevent=12 bytes=65570/65570 streams=3/3\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=67380\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b",
+            "empty",
+            "link"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65570 streams=0/3\nevent=12 bytes=32768/65570 streams=0/3\nevent=12 bytes=65536/65570 streams=0/3\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nevent=26 path=/tmp/wim-done-file-06foux47/source/b\nevent=12 bytes=65570/65570 streams=3/3\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=67300\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b",
+            "empty",
+            "link"
+          ]
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "mixed",
+      "codec": 0,
+      "solid": false,
+      "stop": 26,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65570 streams=0/3\nevent=12 bytes=32768/65570 streams=0/3\nevent=12 bytes=65536/65570 streams=0/3\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nresult=76 errno=0 exists=1 size=65745\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b",
+            "empty",
+            "link"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65570 streams=0/3\nevent=12 bytes=32768/65570 streams=0/3\nevent=12 bytes=65536/65570 streams=0/3\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nresult=76 errno=0 exists=1 size=65745\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b",
+            "empty",
+            "link"
+          ]
+        }
+      },
+      "exact": true
+    },
+    {
+      "layout": "mixed",
+      "codec": 0,
+      "solid": false,
+      "stop": -1,
+      "remove": 1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65570 streams=0/3\nevent=12 bytes=32768/65570 streams=0/3\nevent=12 bytes=65536/65570 streams=0/3\nevent=26 path=/tmp/wim-done-file-06foux47/source/a unlink=0\nevent=26 path=/tmp/wim-done-file-06foux47/source/b unlink=0\nevent=12 bytes=65570/65570 streams=3/3\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=67380\n",
+          "stderr": "",
+          "source_files": [
+            "empty",
+            "link"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65570 streams=0/3\nevent=12 bytes=32768/65570 streams=0/3\nevent=12 bytes=65536/65570 streams=0/3\nevent=26 path=/tmp/wim-done-file-06foux47/source/a unlink=0\nevent=26 path=/tmp/wim-done-file-06foux47/source/b unlink=0\nevent=12 bytes=65570/65570 streams=3/3\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=67300\n",
+          "stderr": "",
+          "source_files": [
+            "empty",
+            "link"
+          ]
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "mixed",
+      "codec": 0,
+      "solid": true,
+      "stop": -1,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65570 streams=0/3\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nevent=26 path=/tmp/wim-done-file-06foux47/source/b\nevent=12 bytes=65570/65570 streams=3/3\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1904\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b",
+            "empty",
+            "link"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65570 streams=0/3\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nevent=26 path=/tmp/wim-done-file-06foux47/source/b\nevent=12 bytes=65570/65570 streams=3/3\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1824\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b",
+            "empty",
+            "link"
+          ]
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "mixed",
+      "codec": 0,
+      "solid": true,
+      "stop": 26,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65570 streams=0/3\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nresult=76 errno=0 exists=1 size=254\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b",
+            "empty",
+            "link"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65570 streams=0/3\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nresult=76 errno=0 exists=1 size=254\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b",
+            "empty",
+            "link"
+          ]
+        }
+      },
+      "exact": true
+    },
+    {
+      "layout": "mixed",
+      "codec": 0,
+      "solid": true,
+      "stop": -1,
+      "remove": 1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65570 streams=0/3\nevent=26 path=/tmp/wim-done-file-06foux47/source/a unlink=0\nevent=26 path=/tmp/wim-done-file-06foux47/source/b unlink=0\nevent=12 bytes=65570/65570 streams=3/3\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1904\n",
+          "stderr": "",
+          "source_files": [
+            "empty",
+            "link"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65570 streams=0/3\nevent=26 path=/tmp/wim-done-file-06foux47/source/a unlink=0\nevent=26 path=/tmp/wim-done-file-06foux47/source/b unlink=0\nevent=12 bytes=65570/65570 streams=3/3\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1824\n",
+          "stderr": "",
+          "source_files": [
+            "empty",
+            "link"
+          ]
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "mixed",
+      "codec": 1,
+      "solid": false,
+      "stop": -1,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65570 streams=0/3\nevent=12 bytes=32768/65570 streams=0/3\nevent=12 bytes=65536/65570 streams=0/3\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nevent=26 path=/tmp/wim-done-file-06foux47/source/b\nevent=12 bytes=65570/65570 streams=3/3\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=2116\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b",
+            "empty",
+            "link"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65570 streams=0/3\nevent=12 bytes=32768/65570 streams=0/3\nevent=12 bytes=65536/65570 streams=0/3\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nevent=26 path=/tmp/wim-done-file-06foux47/source/b\nevent=12 bytes=65570/65570 streams=3/3\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=2116\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b",
+            "empty",
+            "link"
+          ]
+        }
+      },
+      "exact": true
+    },
+    {
+      "layout": "mixed",
+      "codec": 1,
+      "solid": false,
+      "stop": 26,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65570 streams=0/3\nevent=12 bytes=32768/65570 streams=0/3\nevent=12 bytes=65536/65570 streams=0/3\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nresult=76 errno=0 exists=1 size=743\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b",
+            "empty",
+            "link"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65570 streams=0/3\nevent=12 bytes=32768/65570 streams=0/3\nevent=12 bytes=65536/65570 streams=0/3\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nresult=76 errno=0 exists=1 size=743\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b",
+            "empty",
+            "link"
+          ]
+        }
+      },
+      "exact": true
+    },
+    {
+      "layout": "mixed",
+      "codec": 1,
+      "solid": false,
+      "stop": -1,
+      "remove": 1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65570 streams=0/3\nevent=12 bytes=32768/65570 streams=0/3\nevent=12 bytes=65536/65570 streams=0/3\nevent=26 path=/tmp/wim-done-file-06foux47/source/a unlink=0\nevent=26 path=/tmp/wim-done-file-06foux47/source/b unlink=0\nevent=12 bytes=65570/65570 streams=3/3\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=2116\n",
+          "stderr": "",
+          "source_files": [
+            "empty",
+            "link"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65570 streams=0/3\nevent=12 bytes=32768/65570 streams=0/3\nevent=12 bytes=65536/65570 streams=0/3\nevent=26 path=/tmp/wim-done-file-06foux47/source/a unlink=0\nevent=26 path=/tmp/wim-done-file-06foux47/source/b unlink=0\nevent=12 bytes=65570/65570 streams=3/3\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=2114\n",
+          "stderr": "",
+          "source_files": [
+            "empty",
+            "link"
+          ]
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "mixed",
+      "codec": 1,
+      "solid": true,
+      "stop": -1,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65570 streams=0/3\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nevent=26 path=/tmp/wim-done-file-06foux47/source/b\nevent=12 bytes=65570/65570 streams=3/3\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1644\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b",
+            "empty",
+            "link"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65570 streams=0/3\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nevent=26 path=/tmp/wim-done-file-06foux47/source/b\nevent=12 bytes=65570/65570 streams=3/3\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1640\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b",
+            "empty",
+            "link"
+          ]
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "mixed",
+      "codec": 1,
+      "solid": true,
+      "stop": 26,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65570 streams=0/3\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nresult=76 errno=0 exists=1 size=254\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b",
+            "empty",
+            "link"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65570 streams=0/3\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nresult=76 errno=0 exists=1 size=254\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b",
+            "empty",
+            "link"
+          ]
+        }
+      },
+      "exact": true
+    },
+    {
+      "layout": "mixed",
+      "codec": 1,
+      "solid": true,
+      "stop": -1,
+      "remove": 1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65570 streams=0/3\nevent=26 path=/tmp/wim-done-file-06foux47/source/a unlink=0\nevent=26 path=/tmp/wim-done-file-06foux47/source/b unlink=0\nevent=12 bytes=65570/65570 streams=3/3\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1648\n",
+          "stderr": "",
+          "source_files": [
+            "empty",
+            "link"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65570 streams=0/3\nevent=26 path=/tmp/wim-done-file-06foux47/source/a unlink=0\nevent=26 path=/tmp/wim-done-file-06foux47/source/b unlink=0\nevent=12 bytes=65570/65570 streams=3/3\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1640\n",
+          "stderr": "",
+          "source_files": [
+            "empty",
+            "link"
+          ]
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "mixed",
+      "codec": 2,
+      "solid": false,
+      "stop": -1,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65570 streams=0/3\nevent=12 bytes=32768/65570 streams=0/3\nevent=12 bytes=65536/65570 streams=0/3\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nevent=26 path=/tmp/wim-done-file-06foux47/source/b\nevent=12 bytes=65570/65570 streams=3/3\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1576\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b",
+            "empty",
+            "link"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65570 streams=0/3\nevent=12 bytes=32768/65570 streams=0/3\nevent=12 bytes=65536/65570 streams=0/3\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nevent=26 path=/tmp/wim-done-file-06foux47/source/b\nevent=12 bytes=65570/65570 streams=3/3\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=2614\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b",
+            "empty",
+            "link"
+          ]
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "mixed",
+      "codec": 2,
+      "solid": false,
+      "stop": 26,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65570 streams=0/3\nevent=12 bytes=32768/65570 streams=0/3\nevent=12 bytes=65536/65570 streams=0/3\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nresult=76 errno=0 exists=1 size=373\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b",
+            "empty",
+            "link"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65570 streams=0/3\nevent=12 bytes=32768/65570 streams=0/3\nevent=12 bytes=65536/65570 streams=0/3\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nresult=76 errno=0 exists=1 size=1089\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b",
+            "empty",
+            "link"
+          ]
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "mixed",
+      "codec": 2,
+      "solid": false,
+      "stop": -1,
+      "remove": 1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65570 streams=0/3\nevent=12 bytes=32768/65570 streams=0/3\nevent=12 bytes=65536/65570 streams=0/3\nevent=26 path=/tmp/wim-done-file-06foux47/source/a unlink=0\nevent=26 path=/tmp/wim-done-file-06foux47/source/b unlink=0\nevent=12 bytes=65570/65570 streams=3/3\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1576\n",
+          "stderr": "",
+          "source_files": [
+            "empty",
+            "link"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65570 streams=0/3\nevent=12 bytes=32768/65570 streams=0/3\nevent=12 bytes=65536/65570 streams=0/3\nevent=26 path=/tmp/wim-done-file-06foux47/source/a unlink=0\nevent=26 path=/tmp/wim-done-file-06foux47/source/b unlink=0\nevent=12 bytes=65570/65570 streams=3/3\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=2612\n",
+          "stderr": "",
+          "source_files": [
+            "empty",
+            "link"
+          ]
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "mixed",
+      "codec": 2,
+      "solid": true,
+      "stop": -1,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65570 streams=0/3\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nevent=26 path=/tmp/wim-done-file-06foux47/source/b\nevent=12 bytes=65570/65570 streams=3/3\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1472\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b",
+            "empty",
+            "link"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65570 streams=0/3\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nevent=26 path=/tmp/wim-done-file-06foux47/source/b\nevent=12 bytes=65570/65570 streams=3/3\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1796\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b",
+            "empty",
+            "link"
+          ]
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "mixed",
+      "codec": 2,
+      "solid": true,
+      "stop": 26,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65570 streams=0/3\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nresult=76 errno=0 exists=1 size=254\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b",
+            "empty",
+            "link"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65570 streams=0/3\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nresult=76 errno=0 exists=1 size=254\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b",
+            "empty",
+            "link"
+          ]
+        }
+      },
+      "exact": true
+    },
+    {
+      "layout": "mixed",
+      "codec": 2,
+      "solid": true,
+      "stop": -1,
+      "remove": 1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65570 streams=0/3\nevent=26 path=/tmp/wim-done-file-06foux47/source/a unlink=0\nevent=26 path=/tmp/wim-done-file-06foux47/source/b unlink=0\nevent=12 bytes=65570/65570 streams=3/3\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1474\n",
+          "stderr": "",
+          "source_files": [
+            "empty",
+            "link"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65570 streams=0/3\nevent=26 path=/tmp/wim-done-file-06foux47/source/a unlink=0\nevent=26 path=/tmp/wim-done-file-06foux47/source/b unlink=0\nevent=12 bytes=65570/65570 streams=3/3\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1792\n",
+          "stderr": "",
+          "source_files": [
+            "empty",
+            "link"
+          ]
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "mixed",
+      "codec": 3,
+      "solid": false,
+      "stop": -1,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65570 streams=0/3\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nevent=12 bytes=65537/65570 streams=1/3\nevent=26 path=/tmp/wim-done-file-06foux47/source/b\nevent=12 bytes=65570/65570 streams=3/3\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1364\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b",
+            "empty",
+            "link"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65570 streams=0/3\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nevent=12 bytes=65537/65570 streams=1/3\nevent=26 path=/tmp/wim-done-file-06foux47/source/b\nevent=12 bytes=65570/65570 streams=3/3\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1372\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b",
+            "empty",
+            "link"
+          ]
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "mixed",
+      "codec": 3,
+      "solid": false,
+      "stop": 26,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65570 streams=0/3\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nresult=76 errno=0 exists=1 size=220\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b",
+            "empty",
+            "link"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65570 streams=0/3\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nresult=76 errno=0 exists=1 size=218\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b",
+            "empty",
+            "link"
+          ]
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "mixed",
+      "codec": 3,
+      "solid": false,
+      "stop": -1,
+      "remove": 1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65570 streams=0/3\nevent=26 path=/tmp/wim-done-file-06foux47/source/a unlink=0\nevent=12 bytes=65537/65570 streams=1/3\nevent=26 path=/tmp/wim-done-file-06foux47/source/b unlink=0\nevent=12 bytes=65570/65570 streams=3/3\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1370\n",
+          "stderr": "",
+          "source_files": [
+            "empty",
+            "link"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65570 streams=0/3\nevent=26 path=/tmp/wim-done-file-06foux47/source/a unlink=0\nevent=12 bytes=65537/65570 streams=1/3\nevent=26 path=/tmp/wim-done-file-06foux47/source/b unlink=0\nevent=12 bytes=65570/65570 streams=3/3\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1368\n",
+          "stderr": "",
+          "source_files": [
+            "empty",
+            "link"
+          ]
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "mixed",
+      "codec": 3,
+      "solid": true,
+      "stop": -1,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65570 streams=0/3\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nevent=26 path=/tmp/wim-done-file-06foux47/source/b\nevent=12 bytes=65570/65570 streams=3/3\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1424\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b",
+            "empty",
+            "link"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65570 streams=0/3\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nevent=26 path=/tmp/wim-done-file-06foux47/source/b\nevent=12 bytes=65570/65570 streams=3/3\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1432\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b",
+            "empty",
+            "link"
+          ]
+        }
+      },
+      "exact": false
+    },
+    {
+      "layout": "mixed",
+      "codec": 3,
+      "solid": true,
+      "stop": 26,
+      "remove": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65570 streams=0/3\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nresult=76 errno=0 exists=1 size=254\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b",
+            "empty",
+            "link"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65570 streams=0/3\nevent=26 path=/tmp/wim-done-file-06foux47/source/a\nresult=76 errno=0 exists=1 size=254\n",
+          "stderr": "",
+          "source_files": [
+            "a",
+            "b",
+            "empty",
+            "link"
+          ]
+        }
+      },
+      "exact": true
+    },
+    {
+      "layout": "mixed",
+      "codec": 3,
+      "solid": true,
+      "stop": -1,
+      "remove": 1,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65570 streams=0/3\nevent=26 path=/tmp/wim-done-file-06foux47/source/a unlink=0\nevent=26 path=/tmp/wim-done-file-06foux47/source/b unlink=0\nevent=12 bytes=65570/65570 streams=3/3\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1424\n",
+          "stderr": "",
+          "source_files": [
+            "empty",
+            "link"
+          ]
+        },
+        "native": {
+          "status": 0,
+          "stdout": "capture=0\nevent=12 bytes=0/65570 streams=0/3\nevent=26 path=/tmp/wim-done-file-06foux47/source/a unlink=0\nevent=26 path=/tmp/wim-done-file-06foux47/source/b unlink=0\nevent=12 bytes=65570/65570 streams=3/3\nevent=13\nevent=14\nresult=0 errno=0 exists=1 size=1432\n",
+          "stderr": "",
+          "source_files": [
+            "empty",
+            "link"
+          ]
+        }
+      },
+      "exact": false
+    }
+  ]
+}

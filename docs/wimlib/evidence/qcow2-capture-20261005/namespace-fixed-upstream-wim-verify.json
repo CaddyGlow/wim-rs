@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "scope": "Independent upstream complete WIM verification, not source metadata equivalence or installed fidelity",
+  "command": [
+    "/nix/store/fd0zfsysr7gl769wv31n80a6j67xgd78-wimlib-1.14.5/bin/wimlib-imagex",
+    "verify",
+    "/data/cache/qcow2-namespace-fixed-20261006/capture/install.wim"
+  ],
+  "exit": 0,
+  "integrity_metadata_all_file_data_verified": true,
+  "wim_sha256_bound_to_root_full_hash": "6fe084f644eb631349d4e385a155d1c5ce334d0810b633464ecfdd61b528884b",
+  "verifier_sha256": "a5ca2da7539c1289384096f9f83e516574dddc0d7d651df704ed5171853732cf",
+  "completion_tail": {
+    "path": "/data/cache/qcow2-namespace-fixed-20261006/root-wimlib-verify-completion-tail.log",
+    "sha256": "935c8335906d6c311f435079a75b818c6fec158711218a0af1b543e437a7a94f",
+    "full_progress_log": false
+  }
+}

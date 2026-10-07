@@ -1,0 +1,272 @@
+[
+  {
+    "name": "whole",
+    "flags": 0,
+    "paths": [],
+    "original": {
+      "result": {
+        "exit": null,
+        "signal": -1073741515,
+        "stdout_base64": "",
+        "stdout": "",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": []
+    },
+    "rust": {
+      "result": {
+        "exit": null,
+        "signal": -1073741515,
+        "stdout_base64": "",
+        "stdout": "",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": []
+    },
+    "equal": true
+  },
+  {
+    "name": "whole-no-fix",
+    "flags": 512,
+    "paths": [],
+    "original": {
+      "result": {
+        "exit": null,
+        "signal": -1073741515,
+        "stdout_base64": "",
+        "stdout": "",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": []
+    },
+    "rust": {
+      "result": {
+        "exit": null,
+        "signal": -1073741515,
+        "stdout_base64": "",
+        "stdout": "",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": []
+    },
+    "equal": true
+  },
+  {
+    "name": "preserve",
+    "flags": 0,
+    "paths": [
+      "nested\\file-\u00e9\u6f22"
+    ],
+    "original": {
+      "result": {
+        "exit": null,
+        "signal": -1073741515,
+        "stdout_base64": "",
+        "stdout": "",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": []
+    },
+    "rust": {
+      "result": {
+        "exit": null,
+        "signal": -1073741515,
+        "stdout_base64": "",
+        "stdout": "",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": []
+    },
+    "equal": true
+  },
+  {
+    "name": "flatten-hardlinks",
+    "flags": 2097152,
+    "paths": [
+      "nested\\file-\u00e9\u6f22",
+      "alias"
+    ],
+    "original": {
+      "result": {
+        "exit": null,
+        "signal": -1073741515,
+        "stdout_base64": "",
+        "stdout": "",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": []
+    },
+    "rust": {
+      "result": {
+        "exit": null,
+        "signal": -1073741515,
+        "stdout_base64": "",
+        "stdout": "",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": []
+    },
+    "equal": true
+  },
+  {
+    "name": "glob",
+    "flags": 262144,
+    "paths": [
+      "nested\\*"
+    ],
+    "original": {
+      "result": {
+        "exit": null,
+        "signal": -1073741515,
+        "stdout_base64": "",
+        "stdout": "",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": []
+    },
+    "rust": {
+      "result": {
+        "exit": null,
+        "signal": -1073741515,
+        "stdout_base64": "",
+        "stdout": "",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": []
+    },
+    "equal": true
+  },
+  {
+    "name": "flatten-directory",
+    "flags": 2097152,
+    "paths": [
+      "nested"
+    ],
+    "original": {
+      "result": {
+        "exit": null,
+        "signal": -1073741515,
+        "stdout_base64": "",
+        "stdout": "",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": []
+    },
+    "rust": {
+      "result": {
+        "exit": null,
+        "signal": -1073741515,
+        "stdout_base64": "",
+        "stdout": "",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": []
+    },
+    "equal": true
+  },
+  {
+    "name": "selected-links",
+    "flags": 256,
+    "paths": [
+      "relative",
+      "absolute",
+      "junction",
+      "dangling"
+    ],
+    "original": {
+      "result": {
+        "exit": null,
+        "signal": -1073741515,
+        "stdout_base64": "",
+        "stdout": "",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": []
+    },
+    "rust": {
+      "result": {
+        "exit": null,
+        "signal": -1073741515,
+        "stdout_base64": "",
+        "stdout": "",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": []
+    },
+    "equal": true
+  },
+  {
+    "name": "missing",
+    "flags": 0,
+    "paths": [
+      "absent"
+    ],
+    "original": {
+      "result": {
+        "exit": null,
+        "signal": -1073741515,
+        "stdout_base64": "",
+        "stdout": "",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": []
+    },
+    "rust": {
+      "result": {
+        "exit": null,
+        "signal": -1073741515,
+        "stdout_base64": "",
+        "stdout": "",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": []
+    },
+    "equal": true
+  },
+  {
+    "name": "strict-glob-missing",
+    "flags": 786432,
+    "paths": [
+      "absent\\*"
+    ],
+    "original": {
+      "result": {
+        "exit": null,
+        "signal": -1073741515,
+        "stdout_base64": "",
+        "stdout": "",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": []
+    },
+    "rust": {
+      "result": {
+        "exit": null,
+        "signal": -1073741515,
+        "stdout_base64": "",
+        "stdout": "",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": []
+    },
+    "equal": true
+  }
+]

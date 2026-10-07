@@ -1,0 +1,38 @@
+{
+  "source": "/data/cache/qcow2-oobe-preparation-control-20261005/vm-state/overlay.qcow2",
+  "source_sha256": "59da49ab227850c6d62a2d555f40a43bf19a8f8a7af3d10eedb2395b62799282",
+  "backing_sources": [
+    {
+      "path": "/home/rick/.cache/windows-capture-recovery-20261005/prepared-source.qcow2",
+      "sha256": "bf7bc3cecfb9d696c82f0869cd8f3c04c74bd644648c690405132399f4091a0a"
+    },
+    {
+      "path": "/home/rick/projects-caddy/windows-uup/vm-state/qcow2-source-1005/overlay.qcow2",
+      "sha256": "cfa75f1df1c0328f2ef19e0752678a6714d67ed0787c75626d7d2f8cfebb5762"
+    },
+    {
+      "path": "/home/rick/.vm-base/win11-secure/disk.qcow2",
+      "sha256": "35299ad09fb946d45374f9637ccc4344acb3488b482d9571854d007b666b2abe"
+    }
+  ],
+  "partition_index": 3,
+  "partition_guid": "1ae7a557-11d3-4b74-b404-80ee70ed67f2",
+  "volume_aliases": [
+    "\\??\\C:"
+  ],
+  "source_shutdown": true,
+  "generalized": true,
+  "preparation_evidence": "/data/cache/qcow2-oobe-preparation-control-20261005/source-generalization-current.json",
+  "preparation_evidence_sha256": "f03baa007d3b35690ba4fac87e4a2bc5cc3c5bbd2be4b6f4f2e2a5ecc1bba5ee",
+  "alias_markers": [
+    {
+      "alias": "\\??\\C:",
+      "relative_path": "NativeDiskCapture",
+      "file_id": 562949953455898,
+      "volume_serial": 873875793,
+      "observation_evidence": "/home/rick/projects-caddy/windows-uup/docs/wimlib/evidence/qcow2-capture-20261005/source-fixture-metadata.json",
+      "observation_evidence_sha256": "28a113f7654314f9f4c2c370670449b96f21a1c825bb713725316aa5a620eeae",
+      "mapping_attestation": "Inherited historical successful QGA observation of C:\\NativeDiskCapture before originalgeneralization; actual current frozen child native read retains exact full fileID/NTFSserial/GPT GUID and entire9fixture metadata. New sourceclone actual Explorer deploy desktop and official AutologonGUI executable from C:\\sourceprep observed; these are preparation observations, not a new live MetadataProbe of marker C mapping. Historical observation transparently inherited and corroborated."
+    }
+  ]
+}

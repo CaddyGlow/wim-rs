@@ -1,0 +1,163 @@
+{
+  "schema": 1,
+  "scope": "Published isolated WinREStaged0 causalcontrol from exact pinnednamespace producer; canonicalproductionexpected1 policy deliberatelyfails once and is retained. No installedfidelity or productionfix claim.",
+  "producer_sha256": "f994dc47597f41b6c2589e364a1fb9ecfca1cf2c5190bc88ff40e0857277ac01",
+  "native_capture_terminal": {
+    "session": 37006,
+    "exit": 0
+  },
+  "native_media_terminal": {
+    "session": 96362,
+    "exit": 0
+  },
+  "canonical_expected1_oracle_terminal": {
+    "session": 7375,
+    "exit": 1,
+    "only_failed_gate": "native_recovery_schema_and_unbound_state",
+    "errors": [
+      "WinREStaged: fresh-install state or binding differs"
+    ]
+  },
+  "experimental_expected0_18_gates": {
+    "full_wim_verify": true,
+    "winre_verify": true,
+    "metadata_reader_warning_free": true,
+    "native_recovery_schema_and_unbound_state": true,
+    "no_captured_windows_old": true,
+    "raw_reparse_stream_layout_and_no_cached_answers": true,
+    "all_fixture_streams_and_hardlinks": true,
+    "wim_sha256": true,
+    "winre_sha256": true,
+    "source_hashes_preserved": true,
+    "one_image": true,
+    "entry_count": true,
+    "architecture": true,
+    "build": true,
+    "revision": true,
+    "edition": true,
+    "language": true,
+    "oobe_task_source_bytes_and_enabled": true
+  },
+  "experimental_expected0_passes": true,
+  "source_hashes_preserved": true,
+  "fixture_streams": 331,
+  "wim_sha256": "21859652805ff9758be028a55cfaa7333485b265ea9b1e8a8f197d69bda7d184",
+  "wim_bytes": 8234056851,
+  "winre_sha256": "5a7b51e7271284a3204234a71386c4d8cbc81665e9f7bc451d7d70fb464a3047",
+  "whole_logical_tree_only_ReAgent_stream_delta": true,
+  "exact_single_XML_state1_to0_replacement": true,
+  "decoded_WIM_nodes": 175812,
+  "all101168_source_DOS_exact": true,
+  "all601_POSIX_short_empty": true,
+  "all5732_rawSD_exact": true,
+  "original5727_rawSD": {
+    "compared": 5727,
+    "passes": true
+  },
+  "added5_rawSD": {
+    "compared": 5,
+    "passes": true,
+    "paths": [
+      "/Program Files/WindowsApps/Microsoft.WindowsNotepad_11.2501.31.0_x64__8wekyb3d8bbwe/microsoft.system.package.metadata/resources.06083b26.pri",
+      "/Program Files/WindowsApps/Microsoft.WindowsCalculator_11.2502.2.0_x64__8wekyb3d8bbwe/microsoft.system.package.metadata/resources.cb8c8aa6.pri",
+      "/Program Files/WindowsApps/Microsoft.Windows.Photos_24.24070.23002.0_x64__8wekyb3d8bbwe/microsoft.system.package.metadata/resources.e03c90a0.pri",
+      "/Program Files/WindowsApps/Microsoft.ScreenSketch_11.2307.61.0_x64__8wekyb3d8bbwe/microsoft.system.package.metadata/resources.f10c4cc5.pri",
+      "/Program Files/WindowsApps/Microsoft.Paint_11.2412.295.0_x64__8wekyb3d8bbwe/microsoft.system.package.metadata/resources.089c0f44.pri"
+    ]
+  },
+  "all19groups24paths_full64_ObjectIDs_exact": true,
+  "total_WIM_ObjectID_paths": 24,
+  "iso_sha256_native_publication": "90f730339addb2f92c74a9d3e190c2aa24e9548eec57b1a1705cef9a9ea5c3b9",
+  "iso_bytes": 9045383168,
+  "native_media_warnings": [],
+  "native_media_winre_verified": 1,
+  "native_media_absolute_links": 46,
+  "independent_ISO_payload_bootstrap_scope": "Root owns pending publishedISO 7z+BIOS/EFI/bootstrap proof; this archive receipt does not imply those have passed.",
+  "artifacts": [
+    {
+      "path": "/data/cache/qcow2-winre-staged-zero-control-20261006/producer-source-manifest-delta.json",
+      "bytes": 1234658,
+      "sha256": "f3f5862fb6ef560b92f18bb232977387029d789f1dbf2b8a4ff71b838b377077"
+    },
+    {
+      "path": "/data/cache/qcow2-winre-staged-zero-control-20261006/producer-build-proof.json",
+      "bytes": 645,
+      "sha256": "116fb93f7072a4d009004087d1300a554a1e3d4e3af0fd499b83296779098a9d"
+    },
+    {
+      "path": "/data/cache/qcow2-winre-staged-zero-control-20261006/scoped-host-checks.json",
+      "bytes": 535,
+      "sha256": "f0c17941b80c0fe0427c1ef9caf9effd405006e4a29444ef22f4205c2f3c9e11"
+    },
+    {
+      "path": "/data/cache/qcow2-winre-staged-zero-control-20261006/capture-launch.json",
+      "bytes": 1328,
+      "sha256": "aaf7fb6f57b7b1d470db9d03d10f3d7abc346ee63e283ccf8770368ec1acdb87"
+    },
+    {
+      "path": "/data/cache/qcow2-winre-staged-zero-control-20261006/media-launch.json",
+      "bytes": 739,
+      "sha256": "db168d45f82ca360e0aefab85a9a1af1f72afb03bb9961c9f85d215e52429c61"
+    },
+    {
+      "path": "/data/cache/qcow2-winre-staged-zero-control-20261006/experimental-checker-delta.json",
+      "bytes": 738,
+      "sha256": "e4a081ccd6344a80eca4b14d857b3cc4447a2017c2f3813b5d29530168b4969a"
+    },
+    {
+      "path": "/data/cache/qcow2-winre-staged-zero-control-20261006/experimental-xml-validator-tests.json",
+      "bytes": 5460,
+      "sha256": "3cde06ec613d245782f4de7ca36673b5ce056db9fa3d2894cacdc30f8104fd6e"
+    },
+    {
+      "path": "/data/cache/qcow2-winre-staged-zero-control-20261006/capture/capture-stdout.json",
+      "bytes": 4955,
+      "sha256": "937f0608bd76e794a8cd1acf67fbffa3b6431208be1243c41723e60260884f54"
+    },
+    {
+      "path": "/data/cache/qcow2-winre-staged-zero-control-20261006/capture/media-stdout.json",
+      "bytes": 778,
+      "sha256": "7bc73c56fe985e6de9a1a0c044aabb1533b78748a2ffde0226956a54e08f530d"
+    },
+    {
+      "path": "/data/cache/qcow2-winre-staged-zero-control-20261006/capture/canonical-expected1-oracle/summary.json",
+      "bytes": 10963,
+      "sha256": "96cfe693c060f8c8c52312f5599d45d094b83314f1595d4d619048fe85a18d82"
+    },
+    {
+      "path": "/data/cache/qcow2-winre-staged-zero-control-20261006/capture/canonical-expected1-oracle/recovery-configuration.json",
+      "bytes": 2502,
+      "sha256": "17e1ae533da88a4d25ee1f4296812401d4e6773ede78ce38bd9deb6cd9e19eff"
+    },
+    {
+      "path": "/data/cache/qcow2-winre-staged-zero-control-20261006/capture/experimental-standard18-gates.json",
+      "bytes": 1610,
+      "sha256": "63469451c932bf3481a9d085a0b9a468af041d718f147ab395a3fd8baa616def"
+    },
+    {
+      "path": "/data/cache/qcow2-winre-staged-zero-control-20261006/capture/experimental-expected0-recovery-configuration.json",
+      "bytes": 2440,
+      "sha256": "52cd7690f048ec526433f2273b056917167e4cc84a970932532d22902b8caf35"
+    },
+    {
+      "path": "/data/cache/qcow2-winre-staged-zero-control-20261006/capture/independent-source-security-objectids.json",
+      "bytes": 18300071,
+      "sha256": "a82ccca54d77c12ea3d9c0f60abb0302be551dcea6d8d82bdbf724ccfb17bbd7"
+    },
+    {
+      "path": "/data/cache/qcow2-winre-staged-zero-control-20261006/capture/root-corrected-wim-alias-comparison.json",
+      "bytes": 1139,
+      "sha256": "03f754ded3d937f87bd69cef94595054a1af652f6da218a9390f305aa30f7381"
+    },
+    {
+      "path": "/data/cache/qcow2-winre-staged-zero-control-20261006/capture/pinned-parent-control-whole-metadata-delta.json",
+      "bytes": 69265752,
+      "sha256": "ecc4b486c68e68667f4438a864f07184475e79f49d5adeaf3cfbd440f4ff561a"
+    },
+    {
+      "path": "/data/cache/qcow2-winre-staged-zero-control-20261006/capture/isolated-state0-only-metadata-payload-delta.json",
+      "bytes": 1342,
+      "sha256": "088860cc31f56c87961ba50b5eab925a11f0bc0715290a4e136f04f25f8572d2"
+    }
+  ]
+}

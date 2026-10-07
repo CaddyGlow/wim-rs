@@ -1,0 +1,43 @@
+   Compiling wim-format v0.1.0 (/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/wim-format)
+   Compiling wim-codec v0.1.0 (/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/wim-codec)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.38s
+     Running tests/header.rs (crates/wimlib-rs/target/debug/deps/header-8fdcfe48835d21cf)
+
+running 3 tests
+test seekable_pipable_ignores_placeholder_header_fields ... FAILED
+test seekable_pipable_retains_initial_magic_without_validating_final_magic ... FAILED
+test seekable_pipable_uses_final_header ... FAILED
+
+failures:
+
+---- seekable_pipable_ignores_placeholder_header_fields stdout ----
+
+thread 'seekable_pipable_ignores_placeholder_header_fields' (275) panicked at wim-format/tests/header.rs:16:5:
+assertion `left == right` failed
+  left: Err(InvalidHeader)
+ right: Ok(Header { magic: [87, 76, 80, 87, 77, 0, 0, 0], version: 68864, flags: 131202, chunk_size: 32768, guid: [234, 9, 197, 125, 148, 124, 92, 247, 126, 63, 111, 12, 186, 150, 163, 122], part_number: 1, total_parts: 1, image_count: 1, blob_table: ResourceHeader { size_in_wim: 100, flags: 2, offset_in_wim: 2967, uncompressed_size: 100 }, xml_data: ResourceHeader { size_in_wim: 798, flags: 2, offset_in_wim: 3107, uncompressed_size: 798 }, boot_metadata: ResourceHeader { size_in_wim: 0, flags: 0, offset_in_wim: 0, uncompressed_size: 0 }, boot_index: 0, integrity_table: ResourceHeader { size_in_wim: 0, flags: 0, offset_in_wim: 0, uncompressed_size: 0 }, reserved: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] })
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+---- seekable_pipable_retains_initial_magic_without_validating_final_magic stdout ----
+
+thread 'seekable_pipable_retains_initial_magic_without_validating_final_magic' (276) panicked at wim-format/tests/header.rs:25:5:
+assertion `left == right` failed
+  left: Ok(Header { magic: [87, 76, 80, 87, 77, 0, 0, 0], version: 68864, flags: 131202, chunk_size: 32768, guid: [234, 9, 197, 125, 148, 124, 92, 247, 126, 63, 111, 12, 186, 150, 163, 122], part_number: 1, total_parts: 1, image_count: 1, blob_table: ResourceHeader { size_in_wim: 0, flags: 0, offset_in_wim: 0, uncompressed_size: 0 }, xml_data: ResourceHeader { size_in_wim: 0, flags: 0, offset_in_wim: 0, uncompressed_size: 0 }, boot_metadata: ResourceHeader { size_in_wim: 0, flags: 0, offset_in_wim: 0, uncompressed_size: 0 }, boot_index: 0, integrity_table: ResourceHeader { size_in_wim: 0, flags: 0, offset_in_wim: 0, uncompressed_size: 0 }, reserved: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] })
+ right: Ok(Header { magic: [87, 76, 80, 87, 77, 0, 0, 0], version: 68864, flags: 131202, chunk_size: 32768, guid: [234, 9, 197, 125, 148, 124, 92, 247, 126, 63, 111, 12, 186, 150, 163, 122], part_number: 1, total_parts: 1, image_count: 1, blob_table: ResourceHeader { size_in_wim: 100, flags: 2, offset_in_wim: 2967, uncompressed_size: 100 }, xml_data: ResourceHeader { size_in_wim: 798, flags: 2, offset_in_wim: 3107, uncompressed_size: 798 }, boot_metadata: ResourceHeader { size_in_wim: 0, flags: 0, offset_in_wim: 0, uncompressed_size: 0 }, boot_index: 0, integrity_table: ResourceHeader { size_in_wim: 0, flags: 0, offset_in_wim: 0, uncompressed_size: 0 }, reserved: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] })
+
+---- seekable_pipable_uses_final_header stdout ----
+
+thread 'seekable_pipable_uses_final_header' (277) panicked at wim-format/tests/header.rs:8:5:
+assertion `left == right` failed
+  left: Ok(Header { magic: [87, 76, 80, 87, 77, 0, 0, 0], version: 68864, flags: 131202, chunk_size: 32768, guid: [234, 9, 197, 125, 148, 124, 92, 247, 126, 63, 111, 12, 186, 150, 163, 122], part_number: 1, total_parts: 1, image_count: 1, blob_table: ResourceHeader { size_in_wim: 0, flags: 0, offset_in_wim: 0, uncompressed_size: 0 }, xml_data: ResourceHeader { size_in_wim: 0, flags: 0, offset_in_wim: 0, uncompressed_size: 0 }, boot_metadata: ResourceHeader { size_in_wim: 0, flags: 0, offset_in_wim: 0, uncompressed_size: 0 }, boot_index: 0, integrity_table: ResourceHeader { size_in_wim: 0, flags: 0, offset_in_wim: 0, uncompressed_size: 0 }, reserved: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] })
+ right: Ok(Header { magic: [87, 76, 80, 87, 77, 0, 0, 0], version: 68864, flags: 131202, chunk_size: 32768, guid: [234, 9, 197, 125, 148, 124, 92, 247, 126, 63, 111, 12, 186, 150, 163, 122], part_number: 1, total_parts: 1, image_count: 1, blob_table: ResourceHeader { size_in_wim: 100, flags: 2, offset_in_wim: 2967, uncompressed_size: 100 }, xml_data: ResourceHeader { size_in_wim: 798, flags: 2, offset_in_wim: 3107, uncompressed_size: 798 }, boot_metadata: ResourceHeader { size_in_wim: 0, flags: 0, offset_in_wim: 0, uncompressed_size: 0 }, boot_index: 0, integrity_table: ResourceHeader { size_in_wim: 0, flags: 0, offset_in_wim: 0, uncompressed_size: 0 }, reserved: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] })
+
+
+failures:
+    seekable_pipable_ignores_placeholder_header_fields
+    seekable_pipable_retains_initial_magic_without_validating_final_magic
+    seekable_pipable_uses_final_header
+
+test result: FAILED. 0 passed; 3 failed; 0 ignored; 0 measured; 8 filtered out; finished in 0.00s
+
+error: test failed, to rerun pass `-p wim-format --test header`

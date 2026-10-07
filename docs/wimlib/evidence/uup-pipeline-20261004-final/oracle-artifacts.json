@@ -1,0 +1,7 @@
+{
+  "exit": 0,
+  "signal": null,
+  "stdout": "[\r\n    {\r\n        \"Path\":  \"D:\\\\tools\\\\wimlib-imagex.exe\",\r\n        \"Hash\":  \"A2FABC32D5C405C013E29D5B5F553067AEED6896098945E490726269F415D1A2\"\r\n    },\r\n    {\r\n        \"Path\":  \"D:\\\\tools\\\\libwim-15.dll\",\r\n        \"Hash\":  \"B8F1F4A0A74BF2B009DCFA8854FD9146CD061AD39B78DA24ABBED5D9396759F0\"\r\n    }\r\n]\r\n",
+  "stderr": "",
+  "stdout_truncated": false
+}

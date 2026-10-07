@@ -1,0 +1,43 @@
+{
+  "attempt": "qcow2-installed-1005-v3",
+  "installation_complete": false,
+  "image_apply_succeeded": true,
+  "failure": "Offline specialization: WinRE_Specialize_Offline rejected generated ReAgent.xml",
+  "error": "0x8007000D (ERROR_INVALID_DATA)",
+  "causal_log": "/data/cache/qcow2-installation-1005-v3/offline-failure-logs/partition-3/qcow2-failure/target-bt-panther/setupact.log",
+  "causal_lines": [
+    11575,
+    11617
+  ],
+  "parser_failure": "ReadKnownTags and ReAgentXMLParser::ParseConfigFile return 0xd",
+  "missing_fields": [
+    "ImageLocation: path, id, offset, guid",
+    "PBRImageLocation: path, id, offset, guid, index (parser logs call this OsInstallLocation)",
+    "PBRCustomImageLocation: path, id, offset, guid, index (parser logs call this CustomImageLocation)",
+    "OsInstallAvailable (parser logs call this IsOsInstallAvailable)"
+  ],
+  "cause": "The generated unbound recovery template omitted required Windows recovery configuration tags. XML well-formedness tests did not establish Windows schema compatibility.",
+  "correction": {
+    "schema": "Complete 19-element WindowsRE 2.0 configuration, compared against frozen source and stock Microsoft Setup templates",
+    "source_fixture": "source-native-ReAgent.xml",
+    "bindings": "WinreBCD and all five location records remain zero/unbound",
+    "WinREStaged": 1,
+    "ScheduledOperation": 4,
+    "scheduled_operation_evidence": "Both stock Microsoft Setup and generalized source templates use 4",
+    "host_validation": "10 capture unit tests, 4 integration tests, Clippy all targets/features, exact injected-schema regression, and Windows MSVC cross-check passed",
+    "independent_oracle": "Now checks complete source schema coverage and unbound recovery bindings; rejects previous four-element image",
+    "fresh_installation_validation": "Fourth attempt passed offline sysprep specialization (setupact.log line 11642) after image application (7558); later Windows.old relocation failed (13522/13524). Full installation and WinRE boot remain unproven."
+  },
+  "preservation": {
+    "orderly_shutdown": true,
+    "qcow2_dirty": false,
+    "overlay_bytes": 13064404992,
+    "overlay_sha256": "05e917b5342c21b271bcf62756c77e76ca8a2d5085341b34eb887c9fdac82bdb"
+  },
+  "remaining_gates": [
+    "fresh Setup and OOBE",
+    "installed metadata and identity",
+    "servicing and reboot",
+    "WinRE registration and actual recovery boot"
+  ]
+}

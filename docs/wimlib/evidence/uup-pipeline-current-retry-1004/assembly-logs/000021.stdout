@@ -1,0 +1,41 @@
+Microsoft (R) File Expansion Utility
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-18\$filehashes$.dat to Extraction Queue
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-18\amd64_microsoft-windows-t..ecognizer-licensing_31bf3856ad364e35_10.0.19041.1_none_12883aa96d52a192.manifest to Extraction Queue
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-18\amd64_microsoft-windows-t..etpc-mathinputpanel_31bf3856ad364e35_10.0.19041.1_none_8092909bf048f7eb\Math Input Panel.lnk to Extraction Queue
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-18\amd64_microsoft-windows-t..etpc-mathinputpanel_31bf3856ad364e35_10.0.19041.1_none_8092909bf048f7eb\mip.exe to Extraction Queue
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-18\amd64_microsoft-windows-t..etpc-mathinputpanel_31bf3856ad364e35_10.0.19041.1_none_8092909bf048f7eb.manifest to Extraction Queue
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-18\amd64_microsoft-windows-t..etpc-mathrecognizer_31bf3856ad364e35_10.0.19041.1_none_6e3d8525ef01849d\mraut.dll to Extraction Queue
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-18\amd64_microsoft-windows-t..etpc-mathrecognizer_31bf3856ad364e35_10.0.19041.1_none_6e3d8525ef01849d.manifest to Extraction Queue
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-18\amd64_microsoft-windows-t..etpcmath-deployment_31bf3856ad364e35_10.0.19041.1_none_7a572d259d86ce08.manifest to Extraction Queue
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-18\amd64_microsoft-windows-t..mathinput-licensing_31bf3856ad364e35_10.0.19041.1_none_fae9f981e0b22d3a.manifest to Extraction Queue
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-18\amd64_microsoft-windows-t..nputpanel.resources_31bf3856ad364e35_10.0.19041.1_en-us_b6bf6b3772907142\mip.exe.mui to Extraction Queue
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-18\amd64_microsoft-windows-t..nputpanel.resources_31bf3856ad364e35_10.0.19041.1_en-us_b6bf6b3772907142.manifest to Extraction Queue
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-18\amd64_microsoft-windows-t..pc-mathinput-events_31bf3856ad364e35_10.0.19041.1_none_0c14881cbfb8fc79.manifest to Extraction Queue
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-18\amd64_microsoft-windows-t..pc-mathinputcontrol_31bf3856ad364e35_10.0.19041.1_none_384e76764b7d5bc2\micaut.dll to Extraction Queue
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-18\amd64_microsoft-windows-t..pc-mathinputcontrol_31bf3856ad364e35_10.0.19041.1_none_384e76764b7d5bc2.manifest to Extraction Queue
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-18\amd64_microsoft-windows-t..threcognizer-events_31bf3856ad364e35_10.0.19041.1_none_2f05311d44738dd1.manifest to Extraction Queue
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-18\amd64_microsoft-windows-t..utcontrol.resources_31bf3856ad364e35_10.0.19041.1_en-us_ae024b9812714b21\micaut.dll.mui to Extraction Queue
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-18\amd64_microsoft-windows-t..utcontrol.resources_31bf3856ad364e35_10.0.19041.1_en-us_ae024b9812714b21.manifest to Extraction Queue
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-18\Microsoft-Windows-TabletPCMath-Package~31bf3856ad364e35~amd64~~10.0.19041.1.cat to Extraction Queue
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-18\Microsoft-Windows-TabletPCMath-Package~31bf3856ad364e35~amd64~~10.0.19041.1.mum to Extraction Queue
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-18\Microsoft-Windows-TabletPCMath-Package~31bf3856ad364e35~wow64~~10.0.19041.1.cat to Extraction Queue
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-18\Microsoft-Windows-TabletPCMath-Package~31bf3856ad364e35~wow64~~10.0.19041.1.mum to Extraction Queue
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-18\update.cat to Extraction Queue
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-18\update.mum to Extraction Queue
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-18\wow64_microsoft-windows-t..ecognizer-licensing_31bf3856ad364e35_10.0.19041.1_none_1cdce4fba1b3638d.manifest to Extraction Queue
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-18\wow64_microsoft-windows-t..etpc-mathrecognizer_31bf3856ad364e35_10.0.19041.1_none_78922f7823624698\mraut.dll to Extraction Queue
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-18\wow64_microsoft-windows-t..etpc-mathrecognizer_31bf3856ad364e35_10.0.19041.1_none_78922f7823624698.manifest to Extraction Queue
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-18\wow64_microsoft-windows-t..od-wow64-deployment_31bf3856ad364e35_10.0.19041.1_none_3f6a2e7fd9a5362f.manifest to Extraction Queue
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-18\wow64_microsoft-windows-t..pc-mathinput-events_31bf3856ad364e35_10.0.19041.1_none_1669326ef419be74.manifest to Extraction Queue
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-18\wow64_microsoft-windows-t..pc-mathinputcontrol_31bf3856ad364e35_10.0.19041.1_none_42a320c87fde1dbd\micaut.dll to Extraction Queue
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-18\wow64_microsoft-windows-t..pc-mathinputcontrol_31bf3856ad364e35_10.0.19041.1_none_42a320c87fde1dbd.manifest to Extraction Queue
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-18\wow64_microsoft-windows-t..threcognizer-events_31bf3856ad364e35_10.0.19041.1_none_3959db6f78d44fcc.manifest to Extraction Queue
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-18\wow64_microsoft-windows-t..utcontrol.resources_31bf3856ad364e35_10.0.19041.1_en-us_b856f5ea46d20d1c\micaut.dll.mui to Extraction Queue
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-18\wow64_microsoft-windows-t..utcontrol.resources_31bf3856ad364e35_10.0.19041.1_en-us_b856f5ea46d20d1c.manifest to Extraction Queue
+
+Expanding Files ....
+
+Expanding Files Complete ...
+33 files total.

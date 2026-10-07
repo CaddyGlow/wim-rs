@@ -1,0 +1,1069 @@
+{
+  "cases": 231,
+  "observations": 1463,
+  "mismatches": [
+    {
+      "case": 124,
+      "mode": 0,
+      "image": 1,
+      "flags": 1024,
+      "status": 0,
+      "paths": [
+        "a/file"
+      ],
+      "stdin_hex": "",
+      "original_output_hex": "6f70656e20300a616c7068616578747261637420300a",
+      "native_output_hex": "6f70656e20300a6578747261637420300a",
+      "original_tree": [],
+      "native_tree": []
+    },
+    {
+      "case": 125,
+      "mode": 0,
+      "image": 1,
+      "flags": 2098176,
+      "status": 0,
+      "paths": [
+        "a/file"
+      ],
+      "stdin_hex": "",
+      "original_output_hex": "6f70656e20300a616c7068616578747261637420300a",
+      "native_output_hex": "6f70656e20300a6578747261637420300a",
+      "original_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "xattrs": {}
+        }
+      ],
+      "native_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "xattrs": {}
+        }
+      ]
+    },
+    {
+      "case": 126,
+      "mode": 0,
+      "image": 1,
+      "flags": 263168,
+      "status": 0,
+      "paths": [
+        "a/file"
+      ],
+      "stdin_hex": "",
+      "original_output_hex": "6f70656e20300a616c7068616578747261637420300a",
+      "native_output_hex": "6f70656e20300a6578747261637420300a",
+      "original_tree": [],
+      "native_tree": []
+    },
+    {
+      "case": 130,
+      "mode": 0,
+      "image": 1,
+      "flags": 1024,
+      "status": 0,
+      "paths": [
+        "a/file",
+        "a/file"
+      ],
+      "stdin_hex": "",
+      "original_output_hex": "6f70656e20300a616c706861616c7068616578747261637420300a",
+      "native_output_hex": "6f70656e20300a6578747261637420300a",
+      "original_tree": [],
+      "native_tree": []
+    },
+    {
+      "case": 131,
+      "mode": 0,
+      "image": 1,
+      "flags": 2098176,
+      "status": 0,
+      "paths": [
+        "a/file",
+        "a/file"
+      ],
+      "stdin_hex": "",
+      "original_output_hex": "6f70656e20300a616c706861616c7068616578747261637420300a",
+      "native_output_hex": "6f70656e20300a6578747261637420300a",
+      "original_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "xattrs": {}
+        }
+      ],
+      "native_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "xattrs": {}
+        }
+      ]
+    },
+    {
+      "case": 132,
+      "mode": 0,
+      "image": 1,
+      "flags": 263168,
+      "status": 0,
+      "paths": [
+        "a/file",
+        "a/file"
+      ],
+      "stdin_hex": "",
+      "original_output_hex": "6f70656e20300a616c706861616c7068616578747261637420300a",
+      "native_output_hex": "6f70656e20300a6578747261637420300a",
+      "original_tree": [],
+      "native_tree": []
+    },
+    {
+      "case": 133,
+      "mode": 0,
+      "image": 1,
+      "flags": 1024,
+      "status": 0,
+      "paths": [
+        "a/file",
+        "b/file"
+      ],
+      "stdin_hex": "",
+      "original_output_hex": "6f70656e20300a616c706861626574616578747261637420300a",
+      "native_output_hex": "6f70656e20300a6578747261637420300a",
+      "original_tree": [],
+      "native_tree": []
+    },
+    {
+      "case": 134,
+      "mode": 0,
+      "image": 1,
+      "flags": 2098176,
+      "status": 0,
+      "paths": [
+        "a/file",
+        "b/file"
+      ],
+      "stdin_hex": "",
+      "original_output_hex": "6f70656e20300a616c706861626574616578747261637420300a",
+      "native_output_hex": "6f70656e20300a6578747261637420300a",
+      "original_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "xattrs": {}
+        }
+      ],
+      "native_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "xattrs": {}
+        }
+      ]
+    },
+    {
+      "case": 135,
+      "mode": 0,
+      "image": 1,
+      "flags": 263168,
+      "status": 0,
+      "paths": [
+        "a/file",
+        "b/file"
+      ],
+      "stdin_hex": "",
+      "original_output_hex": "6f70656e20300a616c706861626574616578747261637420300a",
+      "native_output_hex": "6f70656e20300a6578747261637420300a",
+      "original_tree": [],
+      "native_tree": []
+    },
+    {
+      "case": 138,
+      "mode": 0,
+      "image": 1,
+      "flags": 263168,
+      "status": 0,
+      "paths": [
+        "a/file",
+        "missing"
+      ],
+      "stdin_hex": "",
+      "original_output_hex": "6f70656e20300a616c7068616578747261637420300a",
+      "native_output_hex": "6f70656e20300a6578747261637420300a",
+      "original_tree": [],
+      "native_tree": []
+    },
+    {
+      "case": 147,
+      "mode": 0,
+      "image": 1,
+      "flags": 263168,
+      "status": 0,
+      "paths": [
+        "a/*"
+      ],
+      "stdin_hex": "",
+      "original_output_hex": "6f70656e20300a616c706861657874726163742034320a6572726e6f203132330a",
+      "native_output_hex": "6f70656e20300a657874726163742034320a6572726e6f203132330a",
+      "original_tree": [],
+      "native_tree": []
+    },
+    {
+      "case": 166,
+      "mode": 0,
+      "image": 1,
+      "flags": 0,
+      "status": 104,
+      "paths": [
+        "a/file"
+      ],
+      "stdin_hex": "",
+      "original_output_hex": "6f70656e20300a70726f67726573732031203120302035203020312030203020300a70726f67726573732033203120302035203020312030203020320a70726f67726573732033203120302035203020312030203220320a70726f67726573732034203120302035203520312031203220320a657874726163742037360a6572726e6f203132330a",
+      "native_output_hex": "6f70656e20300a70726f67726573732031203120302035203020312030203020300a70726f67726573732033203120302035203020312030203020320a70726f67726573732033203120302035203020312030203220320a70726f67726573732034203120302035203520312031203220320a657874726163742037360a6572726e6f2032320a",
+      "original_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": "unrestored filesystem creation time",
+          "atime": "unrestored filesystem creation time",
+          "xattrs": {}
+        },
+        {
+          "path": "2f61",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": "unrestored filesystem creation time",
+          "atime": "unrestored filesystem creation time",
+          "xattrs": {}
+        },
+        {
+          "path": "2f612f66696c65",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": "unrestored filesystem creation time",
+          "atime": "unrestored filesystem creation time",
+          "inode_group": 0,
+          "sha1": "a10909c2cdcaf5adb7e6b092a4faba558b62bd96",
+          "size": 5,
+          "xattrs": {}
+        }
+      ],
+      "native_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": "unrestored filesystem creation time",
+          "atime": "unrestored filesystem creation time",
+          "xattrs": {}
+        },
+        {
+          "path": "2f61",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": "unrestored filesystem creation time",
+          "atime": "unrestored filesystem creation time",
+          "xattrs": {}
+        },
+        {
+          "path": "2f612f66696c65",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": "unrestored filesystem creation time",
+          "atime": "unrestored filesystem creation time",
+          "inode_group": 0,
+          "sha1": "a10909c2cdcaf5adb7e6b092a4faba558b62bd96",
+          "size": 5,
+          "xattrs": {}
+        }
+      ]
+    },
+    {
+      "case": 167,
+      "mode": 0,
+      "image": 1,
+      "flags": 0,
+      "status": 106,
+      "paths": [
+        "a/file"
+      ],
+      "stdin_hex": "",
+      "original_output_hex": "6f70656e20300a70726f67726573732031203120302035203020312030203020300a70726f67726573732033203120302035203020312030203020320a70726f67726573732033203120302035203020312030203220320a70726f67726573732034203120302035203520312031203220320a70726f67726573732036203120302035203520312031203020320a657874726163742037360a6572726e6f2033380a",
+      "native_output_hex": "6f70656e20300a70726f67726573732031203120302035203020312030203020300a70726f67726573732033203120302035203020312030203020320a70726f67726573732033203120302035203020312030203220320a70726f67726573732034203120302035203520312031203220320a70726f67726573732036203120302035203520312031203020320a657874726163742037360a6572726e6f2032320a",
+      "original_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": "unrestored filesystem creation time",
+          "atime": "unrestored filesystem creation time",
+          "xattrs": {}
+        },
+        {
+          "path": "2f61",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": "unrestored filesystem creation time",
+          "atime": "unrestored filesystem creation time",
+          "xattrs": {}
+        },
+        {
+          "path": "2f612f66696c65",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        }
+      ],
+      "native_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": "unrestored filesystem creation time",
+          "atime": "unrestored filesystem creation time",
+          "xattrs": {}
+        },
+        {
+          "path": "2f61",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": "unrestored filesystem creation time",
+          "atime": "unrestored filesystem creation time",
+          "xattrs": {}
+        },
+        {
+          "path": "2f612f66696c65",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        }
+      ]
+    },
+    {
+      "case": 168,
+      "mode": 0,
+      "image": 1,
+      "flags": 0,
+      "status": 108,
+      "paths": [
+        "a/file"
+      ],
+      "stdin_hex": "",
+      "original_output_hex": "6f70656e20300a70726f67726573732031203120302035203020312030203020300a70726f67726573732033203120302035203020312030203020320a70726f67726573732033203120302035203020312030203220320a70726f67726573732034203120302035203520312031203220320a70726f67726573732036203120302035203520312031203020320a70726f67726573732036203120302035203520312031203220320a70726f67726573732038203120302035203520312031203220320a657874726163742037360a6572726e6f2033380a",
+      "native_output_hex": "6f70656e20300a70726f67726573732031203120302035203020312030203020300a70726f67726573732033203120302035203020312030203020320a70726f67726573732033203120302035203020312030203220320a70726f67726573732034203120302035203520312031203220320a70726f67726573732036203120302035203520312031203020320a70726f67726573732036203120302035203520312031203220320a70726f67726573732038203120302035203520312031203220320a657874726163742037360a6572726e6f2032320a",
+      "original_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f61",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f612f66696c65",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        }
+      ],
+      "native_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f61",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f612f66696c65",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        }
+      ]
+    },
+    {
+      "case": 169,
+      "mode": 0,
+      "image": 1,
+      "flags": 0,
+      "status": 204,
+      "paths": [
+        "a/file"
+      ],
+      "stdin_hex": "",
+      "original_output_hex": "6f70656e20300a70726f67726573732031203120302035203020312030203020300a70726f67726573732033203120302035203020312030203020320a70726f67726573732033203120302035203020312030203220320a70726f67726573732034203120302035203520312031203220320a657874726163742037370a6572726e6f203132330a",
+      "native_output_hex": "6f70656e20300a70726f67726573732031203120302035203020312030203020300a70726f67726573732033203120302035203020312030203020320a70726f67726573732033203120302035203020312030203220320a70726f67726573732034203120302035203520312031203220320a657874726163742037370a6572726e6f2032320a",
+      "original_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": "unrestored filesystem creation time",
+          "atime": "unrestored filesystem creation time",
+          "xattrs": {}
+        },
+        {
+          "path": "2f61",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": "unrestored filesystem creation time",
+          "atime": "unrestored filesystem creation time",
+          "xattrs": {}
+        },
+        {
+          "path": "2f612f66696c65",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": "unrestored filesystem creation time",
+          "atime": "unrestored filesystem creation time",
+          "inode_group": 0,
+          "sha1": "a10909c2cdcaf5adb7e6b092a4faba558b62bd96",
+          "size": 5,
+          "xattrs": {}
+        }
+      ],
+      "native_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": "unrestored filesystem creation time",
+          "atime": "unrestored filesystem creation time",
+          "xattrs": {}
+        },
+        {
+          "path": "2f61",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": "unrestored filesystem creation time",
+          "atime": "unrestored filesystem creation time",
+          "xattrs": {}
+        },
+        {
+          "path": "2f612f66696c65",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": "unrestored filesystem creation time",
+          "atime": "unrestored filesystem creation time",
+          "inode_group": 0,
+          "sha1": "a10909c2cdcaf5adb7e6b092a4faba558b62bd96",
+          "size": 5,
+          "xattrs": {}
+        }
+      ]
+    },
+    {
+      "case": 174,
+      "mode": 1,
+      "image": 1,
+      "flags": 0,
+      "status": 0,
+      "paths": [
+        "-"
+      ],
+      "stdin_hex": "2320636f6d6d656e740a203b20636f6d6d656e740a27612f66696c65270a22612f7375622f64656570220d0a",
+      "original_output_hex": "6f70656e20300a657874726163742034370a6572726e6f20320a",
+      "native_output_hex": "6f70656e20300a70726f67726573732031203120302039203020322030203020300a70726f67726573732033203120302039203020322030203020330a70726f67726573732033203120302039203020322030203320330a70726f67726573732034203120302039203520322031203320330a70726f67726573732034203120302039203920322032203320330a70726f67726573732036203120302039203920322032203020330a70726f67726573732036203120302039203920322032203320330a70726f67726573732038203120302039203920322032203320330a6578747261637420300a",
+      "original_tree": [],
+      "native_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f61",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f612f66696c65",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        },
+        {
+          "path": "2f612f737562",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f612f7375622f64656570",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 1,
+          "sha1": "3dde59ff3d79fc2322f4192f74c1d1af30d32cc6",
+          "size": 4,
+          "xattrs": {}
+        }
+      ]
+    },
+    {
+      "case": 179,
+      "mode": 1,
+      "image": 1,
+      "flags": 0,
+      "status": 0,
+      "paths": [
+        "-"
+      ],
+      "stdin_hex": "612f66696c65",
+      "original_output_hex": "6f70656e20300a657874726163742034370a6572726e6f20320a",
+      "native_output_hex": "6f70656e20300a70726f67726573732031203120302035203020312030203020300a70726f67726573732033203120302035203020312030203020320a70726f67726573732033203120302035203020312030203220320a70726f67726573732034203120302035203520312031203220320a70726f67726573732036203120302035203520312031203020320a70726f67726573732036203120302035203520312031203220320a70726f67726573732038203120302035203520312031203220320a6578747261637420300a",
+      "original_tree": [],
+      "native_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f61",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f612f66696c65",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        }
+      ]
+    },
+    {
+      "case": 184,
+      "mode": 1,
+      "image": 1,
+      "flags": 0,
+      "status": 0,
+      "paths": [
+        "-"
+      ],
+      "stdin_hex": "0a",
+      "original_output_hex": "6f70656e20300a657874726163742034370a6572726e6f20320a",
+      "native_output_hex": "6f70656e20300a6578747261637420300a",
+      "original_tree": [],
+      "native_tree": []
+    },
+    {
+      "case": 189,
+      "mode": 1,
+      "image": 1,
+      "flags": 0,
+      "status": 0,
+      "paths": [
+        "-"
+      ],
+      "stdin_hex": "27270a",
+      "original_output_hex": "6f70656e20300a657874726163742034370a6572726e6f20320a",
+      "native_output_hex": "6f70656e20300a70726f6772657373203120312030203730203020382030203020300a70726f6772657373203320312030203730203020382030203020350a70726f6772657373203320312030203730203020382030203520350a70726f6772657373203420312030203730203520382031203520350a70726f677265737320342031203020373020313020382032203520350a70726f677265737320342031203020373020313820382033203520350a70726f677265737320342031203020373020323220382034203520350a70726f677265737320342031203020373020323620382035203520350a70726f677265737320342031203020373020333120382036203520350a70726f677265737320342031203020373020333820382037203520350a70726f677265737320342031203020373020373020382038203520350a70726f677265737320362031203020373020373020382038203020340a70726f677265737320362031203020373020373020382038203420340a70726f677265737320382031203020373020373020382038203420340a6578747261637420300a",
+      "original_tree": [],
+      "native_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f43415345",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "c538c170bdc6b0f3bb98dce44a016a2e2d45a6e7",
+          "size": 5,
+          "xattrs": {}
+        },
+        {
+          "path": "2f61",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f612f656d707479",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 1,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "size": 0,
+          "xattrs": {}
+        },
+        {
+          "path": "2f612f66696c65",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 2,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        },
+        {
+          "path": "2f612f6c696e6b",
+          "mode": 41471,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 3,
+          "target": "66696c65",
+          "xattrs": {}
+        },
+        {
+          "path": "2f612f6c69746572616c5b2a5d",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 4,
+          "sha1": "1fca73619e0fadc22283215d66313bca79d5d907",
+          "size": 8,
+          "xattrs": {}
+        },
+        {
+          "path": "2f612f737562",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f612f7375622f64656570",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 5,
+          "sha1": "3dde59ff3d79fc2322f4192f74c1d1af30d32cc6",
+          "size": 4,
+          "xattrs": {}
+        },
+        {
+          "path": "2f62",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f622f616c696173",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 2,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        },
+        {
+          "path": "2f622f66696c65",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 6,
+          "sha1": "a295e0bdde1938d1fbfd343e5a3e569e868e1465",
+          "size": 4,
+          "xattrs": {}
+        },
+        {
+          "path": "2f63617365",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 7,
+          "sha1": "346e3ee198e98146993894d3de8ecab1a86c3e80",
+          "size": 5,
+          "xattrs": {}
+        },
+        {
+          "path": "2f756e69636f64652df09f9880",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 8,
+          "sha1": "1d1e8914a3d46b4097dec7a7370a1cc102848137",
+          "size": 7,
+          "xattrs": {}
+        }
+      ]
+    },
+    {
+      "case": 194,
+      "mode": 1,
+      "image": 1,
+      "flags": 0,
+      "status": 0,
+      "paths": [
+        "-"
+      ],
+      "stdin_hex": "5b73656374696f6e5d0a612f66696c650a",
+      "original_output_hex": "6f70656e20300a657874726163742034370a6572726e6f20320a",
+      "native_output_hex": "6f70656e20300a657874726163742034390a6572726e6f20320a",
+      "original_tree": [],
+      "native_tree": []
+    },
+    {
+      "case": 199,
+      "mode": 1,
+      "image": 1,
+      "flags": 0,
+      "status": 0,
+      "paths": [
+        "-"
+      ],
+      "stdin_hex": "612f66696c650069676e6f7265640a622f66696c650a",
+      "original_output_hex": "6f70656e20300a657874726163742034370a6572726e6f20320a",
+      "native_output_hex": "6f70656e20300a70726f67726573732031203120302039203020322030203020300a70726f67726573732033203120302039203020322030203020330a70726f67726573732033203120302039203020322030203320330a70726f67726573732034203120302039203520322031203320330a70726f67726573732034203120302039203920322032203320330a70726f67726573732036203120302039203920322032203020330a70726f67726573732036203120302039203920322032203320330a70726f67726573732038203120302039203920322032203320330a6578747261637420300a",
+      "original_tree": [],
+      "native_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f61",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f612f66696c65",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        },
+        {
+          "path": "2f62",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f622f66696c65",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 1,
+          "sha1": "a295e0bdde1938d1fbfd343e5a3e569e868e1465",
+          "size": 4,
+          "xattrs": {}
+        }
+      ]
+    },
+    {
+      "case": 204,
+      "mode": 1,
+      "image": 1,
+      "flags": 0,
+      "status": 0,
+      "paths": [
+        "-"
+      ],
+      "stdin_hex": "612f66696c652023206c69746572616c20636f6d6d656e740a",
+      "original_output_hex": "6f70656e20300a657874726163742034370a6572726e6f20320a",
+      "native_output_hex": "6f70656e20300a657874726163742034390a6572726e6f20320a",
+      "original_tree": [],
+      "native_tree": []
+    },
+    {
+      "case": 209,
+      "mode": 1,
+      "image": 1,
+      "flags": 0,
+      "status": 0,
+      "paths": [
+        "-"
+      ],
+      "stdin_hex": "22612f66696c650a",
+      "original_output_hex": "6f70656e20300a657874726163742034370a6572726e6f20320a",
+      "native_output_hex": "6f70656e20300a657874726163742034390a6572726e6f20320a",
+      "original_tree": [],
+      "native_tree": []
+    },
+    {
+      "case": 214,
+      "mode": 1,
+      "image": 1,
+      "flags": 0,
+      "status": 0,
+      "paths": [
+        "-"
+      ],
+      "stdin_hex": "612f2a0a",
+      "original_output_hex": "6f70656e20300a657874726163742034370a6572726e6f20320a",
+      "native_output_hex": "6f70656e20300a657874726163742034390a6572726e6f20320a",
+      "original_tree": [],
+      "native_tree": []
+    },
+    {
+      "case": 219,
+      "mode": 1,
+      "image": 1,
+      "flags": 0,
+      "status": 0,
+      "paths": [
+        "-"
+      ],
+      "stdin_hex": "efbbbf612f66696c650a",
+      "original_output_hex": "6f70656e20300a657874726163742034370a6572726e6f20320a",
+      "native_output_hex": "6f70656e20300a70726f67726573732031203120302035203020312030203020300a70726f67726573732033203120302035203020312030203020320a70726f67726573732033203120302035203020312030203220320a70726f67726573732034203120302035203520312031203220320a70726f67726573732036203120302035203520312031203020320a70726f67726573732036203120302035203520312031203220320a70726f67726573732038203120302035203520312031203220320a6578747261637420300a",
+      "original_tree": [],
+      "native_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f61",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f612f66696c65",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        }
+      ]
+    },
+    {
+      "case": 224,
+      "mode": 1,
+      "image": 1,
+      "flags": 0,
+      "status": 0,
+      "paths": [
+        "-"
+      ],
+      "stdin_hex": "fffe61002f00660069006c0065000a00",
+      "original_output_hex": "6f70656e20300a657874726163742034370a6572726e6f20320a",
+      "native_output_hex": "6f70656e20300a70726f67726573732031203120302035203020312030203020300a70726f67726573732033203120302035203020312030203020320a70726f67726573732033203120302035203020312030203220320a70726f67726573732034203120302035203520312031203220320a70726f67726573732036203120302035203520312031203020320a70726f67726573732036203120302035203520312031203220320a70726f67726573732038203120302035203520312031203220320a6578747261637420300a",
+      "original_tree": [],
+      "native_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f61",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f612f66696c65",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        }
+      ]
+    },
+    {
+      "case": 229,
+      "mode": 1,
+      "image": 1,
+      "flags": 0,
+      "status": 0,
+      "paths": [
+        "-"
+      ],
+      "stdin_hex": "fffe58",
+      "original_output_hex": "6f70656e20300a657874726163742034370a6572726e6f20320a",
+      "native_output_hex": "6f70656e20300a657874726163742033300a6572726e6f2038340a",
+      "original_tree": [],
+      "native_tree": []
+    }
+  ],
+  "source_preserved": true,
+  "oracle_cpu_workaround": "WIMLIB_DISABLE_CPU_FEATURES=sse4.2"
+}

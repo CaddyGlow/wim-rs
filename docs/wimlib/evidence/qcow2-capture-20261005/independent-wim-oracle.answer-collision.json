@@ -1,0 +1,1512 @@
+{
+  "oracle": "upstream wimlib 1.14.5 + independent raw-layout oracle",
+  "wim_sha256": "3146d2ef80f8165cb9d0ff2a35e6425ce9f6634a550f880fec534d7f00215e51",
+  "wim_bytes": 8258616246,
+  "capture_report_sha256": "69a3fcb5f60e976d597fcbc7251092729661cb6ed594454f2a40262b4177c2b9",
+  "source_hashes": [
+    {
+      "path": "/home/rick/projects-caddy/windows-uup/vm-state/qcow2-source-1005/overlay.qcow2",
+      "expected_sha256": "cfa75f1df1c0328f2ef19e0752678a6714d67ed0787c75626d7d2f8cfebb5762",
+      "actual_sha256": "cfa75f1df1c0328f2ef19e0752678a6714d67ed0787c75626d7d2f8cfebb5762"
+    },
+    {
+      "path": "/home/rick/.vm-base/win11-secure/disk.qcow2",
+      "expected_sha256": "35299ad09fb946d45374f9637ccc4344acb3488b482d9571854d007b666b2abe",
+      "actual_sha256": "35299ad09fb946d45374f9637ccc4344acb3488b482d9571854d007b666b2abe"
+    }
+  ],
+  "winre_sha256": "5a7b51e7271284a3204234a71386c4d8cbc81665e9f7bc451d7d70fb464a3047",
+  "xml_windows": "<WINDOWS><ARCH>9</ARCH><EDITIONID>Professional</EDITIONID><INSTALLATIONTYPE>Client</INSTALLATIONTYPE><PRODUCTNAME>Windows 10 Pro</PRODUCTNAME><PRODUCTTYPE>WinNT</PRODUCTTYPE><SYSTEMROOT>WINDOWS</SYSTEMROOT><VERSION><MAJOR>10</MAJOR><MINOR>0</MINOR><BUILD>26200</BUILD><SPBUILD>8037</SPBUILD><SPLEVEL>0</SPLEVEL></VERSION><LANGUAGES><DEFAULT>en-US</DEFAULT><LANGUAGE>en-US</LANGUAGE></LANGUAGES></WINDOWS>",
+  "kernel_pe_machine": "0x8664",
+  "gates": {
+    "one_image": true,
+    "architecture": true,
+    "edition": true,
+    "build": true,
+    "revision": true,
+    "language": true,
+    "entry_count": true,
+    "winre_sha256": true,
+    "hardlink_group": true,
+    "ads": true,
+    "object_id": true,
+    "reparse_tags": true,
+    "kernel_pe_architecture": true,
+    "metadata_reader_warning_free": true,
+    "source_hashes_preserved": true,
+    "wim_sha256": true,
+    "raw_reparse_stream_layout": true,
+    "full_wim_verify": true,
+    "winre_verify": true
+  },
+  "fixture_paths": [
+    "/NativeDiskCapture",
+    "/NativeDiskCapture/alias.bin",
+    "/NativeDiskCapture/compressed.bin",
+    "/NativeDiskCapture/internal.junction",
+    "/NativeDiskCapture/payload.bin",
+    "/NativeDiskCapture/protected.bin",
+    "/NativeDiskCapture/relative.link",
+    "/NativeDiskCapture/sparse.bin",
+    "/NativeDiskCapture/wof.bin"
+  ],
+  "metadata_reader_warnings": [],
+  "raw_reparse_stream_layout": {
+    "oracle": "independent Python on-disk metadata parser + upstream libwim decompressor",
+    "passes": true,
+    "errors": [],
+    "reparse_entries": [
+      {
+        "path": "/Documents and Settings",
+        "main_hash": "293a12daa87299c62317669c72f9f054e0fd897b",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/ActionsMcpHost.exe",
+        "main_hash": "0000000000000000000000000000000000000000",
+        "extra_streams": [
+          {
+            "hash": "2524f2f9f2f3ab251e3101dd47ab5cfa3ccef6af",
+            "name": ""
+          },
+          {
+            "hash": "0000000000000000000000000000000000000000",
+            "name": ""
+          }
+        ],
+        "tag": 2147483675
+      },
+      {
+        "path": "/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/MicrosoftWindows.DesktopStickerEditorCentennial.exe",
+        "main_hash": "0000000000000000000000000000000000000000",
+        "extra_streams": [
+          {
+            "hash": "d82eafa811b6d8b601f9d0dfc20dba2793ca6ca3",
+            "name": ""
+          },
+          {
+            "hash": "0000000000000000000000000000000000000000",
+            "name": ""
+          }
+        ],
+        "tag": 2147483675
+      },
+      {
+        "path": "/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/MicrosoftWindows.Client.CBS_cw5n1h2txyewy/ActionsMcpHost.exe",
+        "main_hash": "0000000000000000000000000000000000000000",
+        "extra_streams": [
+          {
+            "hash": "2524f2f9f2f3ab251e3101dd47ab5cfa3ccef6af",
+            "name": ""
+          },
+          {
+            "hash": "0000000000000000000000000000000000000000",
+            "name": ""
+          }
+        ],
+        "tag": 2147483675
+      },
+      {
+        "path": "/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/MicrosoftWindows.Client.CBS_cw5n1h2txyewy/MicrosoftWindows.DesktopStickerEditorCentennial.exe",
+        "main_hash": "0000000000000000000000000000000000000000",
+        "extra_streams": [
+          {
+            "hash": "d82eafa811b6d8b601f9d0dfc20dba2793ca6ca3",
+            "name": ""
+          },
+          {
+            "hash": "0000000000000000000000000000000000000000",
+            "name": ""
+          }
+        ],
+        "tag": 2147483675
+      },
+      {
+        "path": "/Users/All Users",
+        "main_hash": "8418b238b7c8543d5011539f423327bbf515e596",
+        "extra_streams": [],
+        "tag": 2684354572
+      },
+      {
+        "path": "/Users/Default User",
+        "main_hash": "fe19a23cc621f942ef013f6a22edce95040134e1",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/Public/Documents/My Music",
+        "main_hash": "a14d6d0283acae2f9f3d6a52279d10d3060a72c1",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/Public/Documents/My Pictures",
+        "main_hash": "3612e91ffd9a168008df633a2f82d90adb1ab885",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/Public/Documents/My Videos",
+        "main_hash": "31049ca5607ba42208ece8e5da61d67e584ae4b0",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/deploy/Application Data",
+        "main_hash": "b7731c19025b14fe4974d26cd9cc575f91d7b107",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/deploy/Cookies",
+        "main_hash": "8d881261959521b573e8b990f2bb1ecc59bcabad",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/deploy/Local Settings",
+        "main_hash": "a913ae7290e0f09ac0390da9cd181b2a7587beb5",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/deploy/My Documents",
+        "main_hash": "0300775514a103e718aa63abab886563ca721140",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/deploy/NetHood",
+        "main_hash": "c2bf5bd269a58cc2ba6774d12c8f8f3b5a0e68ea",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/deploy/PrintHood",
+        "main_hash": "9aa1e9ce476abe08b8703d8eae4cfab8926516ff",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/deploy/Recent",
+        "main_hash": "265126449098d0323dd83b058a5e35a9232c3ee2",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/deploy/SendTo",
+        "main_hash": "9e6bc1ef6a6b434cce55ffff777c678d2dd303c8",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/deploy/Start Menu",
+        "main_hash": "203783823cca9b11ff7c7fd4f84ccddf3043443b",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/deploy/Templates",
+        "main_hash": "8bfcaabac280fe4a022fb8c8910c1a78a4c96c53",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/deploy/Documents/My Music",
+        "main_hash": "12e146f7de24f91c5c71e125f4e0d50c2243cb52",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/deploy/Documents/My Pictures",
+        "main_hash": "b35e1b4cf530bd6a2d22fb959322fd3438f42aa5",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/deploy/Documents/My Videos",
+        "main_hash": "e8d2f1afa1d0d2c6bffac1bf8e065cfbf606a132",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/deploy/AppData/Local/Application Data",
+        "main_hash": "a913ae7290e0f09ac0390da9cd181b2a7587beb5",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/deploy/AppData/Local/History",
+        "main_hash": "dea058f18f76dfb59849edce76b09d2fe6550476",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/deploy/AppData/Local/Temporary Internet Files",
+        "main_hash": "0558c8cff7743d87c3af90031abe6c21e1a12a44",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/ActionsMcpHost.exe",
+        "main_hash": "0000000000000000000000000000000000000000",
+        "extra_streams": [
+          {
+            "hash": "2524f2f9f2f3ab251e3101dd47ab5cfa3ccef6af",
+            "name": ""
+          },
+          {
+            "hash": "0000000000000000000000000000000000000000",
+            "name": ""
+          }
+        ],
+        "tag": 2147483675
+      },
+      {
+        "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/MicrosoftWindows.DesktopStickerEditorCentennial.exe",
+        "main_hash": "0000000000000000000000000000000000000000",
+        "extra_streams": [
+          {
+            "hash": "d82eafa811b6d8b601f9d0dfc20dba2793ca6ca3",
+            "name": ""
+          },
+          {
+            "hash": "0000000000000000000000000000000000000000",
+            "name": ""
+          }
+        ],
+        "tag": 2147483675
+      },
+      {
+        "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/mspaint.exe",
+        "main_hash": "0000000000000000000000000000000000000000",
+        "extra_streams": [
+          {
+            "hash": "dda50accfd3ed4077556a8f703d4688483c55605",
+            "name": ""
+          },
+          {
+            "hash": "0000000000000000000000000000000000000000",
+            "name": ""
+          }
+        ],
+        "tag": 2147483675
+      },
+      {
+        "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/notepad.exe",
+        "main_hash": "0000000000000000000000000000000000000000",
+        "extra_streams": [
+          {
+            "hash": "d9f165d2b189c1ed998b79d7b1849a83d31b3d19",
+            "name": ""
+          },
+          {
+            "hash": "0000000000000000000000000000000000000000",
+            "name": ""
+          }
+        ],
+        "tag": 2147483675
+      },
+      {
+        "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/pbrush.exe",
+        "main_hash": "0000000000000000000000000000000000000000",
+        "extra_streams": [
+          {
+            "hash": "dda50accfd3ed4077556a8f703d4688483c55605",
+            "name": ""
+          },
+          {
+            "hash": "0000000000000000000000000000000000000000",
+            "name": ""
+          }
+        ],
+        "tag": 2147483675
+      },
+      {
+        "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/python.exe",
+        "main_hash": "0000000000000000000000000000000000000000",
+        "extra_streams": [
+          {
+            "hash": "71d5a1fcaea401c6d34cf6fc8418e00d4fd767db",
+            "name": ""
+          },
+          {
+            "hash": "0000000000000000000000000000000000000000",
+            "name": ""
+          }
+        ],
+        "tag": 2147483675
+      },
+      {
+        "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/python3.exe",
+        "main_hash": "0000000000000000000000000000000000000000",
+        "extra_streams": [
+          {
+            "hash": "71d5a1fcaea401c6d34cf6fc8418e00d4fd767db",
+            "name": ""
+          },
+          {
+            "hash": "0000000000000000000000000000000000000000",
+            "name": ""
+          }
+        ],
+        "tag": 2147483675
+      },
+      {
+        "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/SnippingTool.exe",
+        "main_hash": "0000000000000000000000000000000000000000",
+        "extra_streams": [
+          {
+            "hash": "056edb4a851d9f83c1c18487aeae44c9565c59b9",
+            "name": ""
+          },
+          {
+            "hash": "0000000000000000000000000000000000000000",
+            "name": ""
+          }
+        ],
+        "tag": 2147483675
+      },
+      {
+        "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/WindowsPackageManagerServer.exe",
+        "main_hash": "0000000000000000000000000000000000000000",
+        "extra_streams": [
+          {
+            "hash": "44182b785a254c7213be6c596c0db65c8b3f70bc",
+            "name": ""
+          },
+          {
+            "hash": "0000000000000000000000000000000000000000",
+            "name": ""
+          }
+        ],
+        "tag": 2147483675
+      },
+      {
+        "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/winget.exe",
+        "main_hash": "0000000000000000000000000000000000000000",
+        "extra_streams": [
+          {
+            "hash": "d9b3d4bfa4623948d14bde25930a709d4661add6",
+            "name": ""
+          },
+          {
+            "hash": "0000000000000000000000000000000000000000",
+            "name": ""
+          }
+        ],
+        "tag": 2147483675
+      },
+      {
+        "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/wt.exe",
+        "main_hash": "0000000000000000000000000000000000000000",
+        "extra_streams": [
+          {
+            "hash": "b02667624358a935ffc68105c397468908790cdf",
+            "name": ""
+          },
+          {
+            "hash": "0000000000000000000000000000000000000000",
+            "name": ""
+          }
+        ],
+        "tag": 2147483675
+      },
+      {
+        "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/MicrosoftWindows.Client.CBS_cw5n1h2txyewy/ActionsMcpHost.exe",
+        "main_hash": "0000000000000000000000000000000000000000",
+        "extra_streams": [
+          {
+            "hash": "2524f2f9f2f3ab251e3101dd47ab5cfa3ccef6af",
+            "name": ""
+          },
+          {
+            "hash": "0000000000000000000000000000000000000000",
+            "name": ""
+          }
+        ],
+        "tag": 2147483675
+      },
+      {
+        "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/MicrosoftWindows.Client.CBS_cw5n1h2txyewy/MicrosoftWindows.DesktopStickerEditorCentennial.exe",
+        "main_hash": "0000000000000000000000000000000000000000",
+        "extra_streams": [
+          {
+            "hash": "d82eafa811b6d8b601f9d0dfc20dba2793ca6ca3",
+            "name": ""
+          },
+          {
+            "hash": "0000000000000000000000000000000000000000",
+            "name": ""
+          }
+        ],
+        "tag": 2147483675
+      },
+      {
+        "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/Microsoft.WindowsTerminal_8wekyb3d8bbwe/wt.exe",
+        "main_hash": "0000000000000000000000000000000000000000",
+        "extra_streams": [
+          {
+            "hash": "b02667624358a935ffc68105c397468908790cdf",
+            "name": ""
+          },
+          {
+            "hash": "0000000000000000000000000000000000000000",
+            "name": ""
+          }
+        ],
+        "tag": 2147483675
+      },
+      {
+        "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/Microsoft.WindowsNotepad_8wekyb3d8bbwe/notepad.exe",
+        "main_hash": "0000000000000000000000000000000000000000",
+        "extra_streams": [
+          {
+            "hash": "d9f165d2b189c1ed998b79d7b1849a83d31b3d19",
+            "name": ""
+          },
+          {
+            "hash": "0000000000000000000000000000000000000000",
+            "name": ""
+          }
+        ],
+        "tag": 2147483675
+      },
+      {
+        "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/Microsoft.ScreenSketch_8wekyb3d8bbwe/SnippingTool.exe",
+        "main_hash": "0000000000000000000000000000000000000000",
+        "extra_streams": [
+          {
+            "hash": "056edb4a851d9f83c1c18487aeae44c9565c59b9",
+            "name": ""
+          },
+          {
+            "hash": "0000000000000000000000000000000000000000",
+            "name": ""
+          }
+        ],
+        "tag": 2147483675
+      },
+      {
+        "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/Microsoft.Paint_8wekyb3d8bbwe/mspaint.exe",
+        "main_hash": "0000000000000000000000000000000000000000",
+        "extra_streams": [
+          {
+            "hash": "dda50accfd3ed4077556a8f703d4688483c55605",
+            "name": ""
+          },
+          {
+            "hash": "0000000000000000000000000000000000000000",
+            "name": ""
+          }
+        ],
+        "tag": 2147483675
+      },
+      {
+        "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/Microsoft.Paint_8wekyb3d8bbwe/pbrush.exe",
+        "main_hash": "0000000000000000000000000000000000000000",
+        "extra_streams": [
+          {
+            "hash": "dda50accfd3ed4077556a8f703d4688483c55605",
+            "name": ""
+          },
+          {
+            "hash": "0000000000000000000000000000000000000000",
+            "name": ""
+          }
+        ],
+        "tag": 2147483675
+      },
+      {
+        "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe/python.exe",
+        "main_hash": "0000000000000000000000000000000000000000",
+        "extra_streams": [
+          {
+            "hash": "71d5a1fcaea401c6d34cf6fc8418e00d4fd767db",
+            "name": ""
+          },
+          {
+            "hash": "0000000000000000000000000000000000000000",
+            "name": ""
+          }
+        ],
+        "tag": 2147483675
+      },
+      {
+        "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe/python3.exe",
+        "main_hash": "0000000000000000000000000000000000000000",
+        "extra_streams": [
+          {
+            "hash": "71d5a1fcaea401c6d34cf6fc8418e00d4fd767db",
+            "name": ""
+          },
+          {
+            "hash": "0000000000000000000000000000000000000000",
+            "name": ""
+          }
+        ],
+        "tag": 2147483675
+      },
+      {
+        "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe/WindowsPackageManagerServer.exe",
+        "main_hash": "0000000000000000000000000000000000000000",
+        "extra_streams": [
+          {
+            "hash": "44182b785a254c7213be6c596c0db65c8b3f70bc",
+            "name": ""
+          },
+          {
+            "hash": "0000000000000000000000000000000000000000",
+            "name": ""
+          }
+        ],
+        "tag": 2147483675
+      },
+      {
+        "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe/winget.exe",
+        "main_hash": "0000000000000000000000000000000000000000",
+        "extra_streams": [
+          {
+            "hash": "d9b3d4bfa4623948d14bde25930a709d4661add6",
+            "name": ""
+          },
+          {
+            "hash": "0000000000000000000000000000000000000000",
+            "name": ""
+          }
+        ],
+        "tag": 2147483675
+      },
+      {
+        "path": "/Users/deploy/AppData/Local/Microsoft/Windows/Temporary Internet Files",
+        "main_hash": "0558c8cff7743d87c3af90031abe6c21e1a12a44",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/Default/Application Data",
+        "main_hash": "80ffce30fa5b6b9c64bf8731535450a04f4e854d",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/Default/Cookies",
+        "main_hash": "d4fcbb2ad4bce0a84004f42310e961447cc3c82c",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/Default/Local Settings",
+        "main_hash": "608a7757cef6ed71f7b8052d0bdce21a564da16d",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/Default/My Documents",
+        "main_hash": "330e83a4700a419f6e36c879e0f45ab07423db37",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/Default/NetHood",
+        "main_hash": "5ebc17b9a214a68776ee06b3c1f6d51003662358",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/Default/PrintHood",
+        "main_hash": "c8319227976600fc6362c9b32566de6389434148",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/Default/Recent",
+        "main_hash": "7d6fa22c31242908cfa4845b04beebb073c30e77",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/Default/SendTo",
+        "main_hash": "25e591b6039688e2c69909d9ece40861c01e6723",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/Default/Start Menu",
+        "main_hash": "36d59cfe61137deee4633c7f210d76d40830f59b",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/Default/Templates",
+        "main_hash": "09ab4de9b3fca72c4299c6cef78da57a4f62dd48",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/Default/Documents/My Music",
+        "main_hash": "d9b897d4ad29ba2489f32e8fc26bd4045819f791",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/Default/Documents/My Pictures",
+        "main_hash": "e71e5be1d54cc01aaf76aa16ee8f7bcf5bc7382c",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/Default/Documents/My Videos",
+        "main_hash": "9e5b80202918e9818fd196d7fa1b05083fbc4cfe",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/Default/AppData/Local/Application Data",
+        "main_hash": "608a7757cef6ed71f7b8052d0bdce21a564da16d",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/Default/AppData/Local/History",
+        "main_hash": "35c6f9f67e7293b10ba6d02991ec682ab27d3269",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/Default/AppData/Local/Temporary Internet Files",
+        "main_hash": "4e7a31de1cf1d38394f310ebd1d7af391a88aaa7",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/Default/AppData/Local/Microsoft/Windows/Temporary Internet Files",
+        "main_hash": "4e7a31de1cf1d38394f310ebd1d7af391a88aaa7",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/ProgramData/Application Data",
+        "main_hash": "8fda958b5c489bdc7a5c02a75f327b88c528150b",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/ProgramData/Desktop",
+        "main_hash": "5849069dc823cac2a22fcaacfe4ffedfa41b2e51",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/ProgramData/Documents",
+        "main_hash": "d320e8a304144a2d008f71dd1d026d63e0e19428",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/ProgramData/Start Menu",
+        "main_hash": "98de999b7165477309f8cc33836c0dea43863a38",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/ProgramData/Templates",
+        "main_hash": "597595fdfd3c0f34cf206d585381795198161daf",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/NativeDiskCapture/internal.junction",
+        "main_hash": "7e1b176320fe5943f40aa63bda540a1cfc788c96",
+        "extra_streams": [],
+        "tag": 2684354563,
+        "reparse": {
+          "Tag": 2684354563,
+          "Sub": "\\??\\<ROOT>",
+          "Print": "<ROOT>",
+          "Flags": 0
+        },
+        "fixture_verified": true
+      },
+      {
+        "path": "/NativeDiskCapture/relative.link",
+        "main_hash": "0000000000000000000000000000000000000000",
+        "extra_streams": [
+          {
+            "hash": "a94080ab2d3122615a2819d8b877944c0170e3b2",
+            "name": ""
+          },
+          {
+            "hash": "0000000000000000000000000000000000000000",
+            "name": ""
+          },
+          {
+            "hash": "aa922f6057f34f775cf66958ebdb380907dfb782",
+            "name": "link-owned"
+          }
+        ],
+        "tag": 2684354572,
+        "reparse": {
+          "Tag": 2684354572,
+          "Sub": "payload.bin",
+          "Print": "payload.bin",
+          "Flags": 1
+        },
+        "fixture_verified": true
+      }
+    ],
+    "library": "/nix/store/fd0zfsysr7gl769wv31n80a6j67xgd78-wimlib-1.14.5/lib/libwim.so",
+    "limitations": [
+      "Checks ordinary nonsolid single-image WIMs only; decoder library is an independent test oracle, never production conversion."
+    ]
+  },
+  "metadata_compatibility_pass": true,
+  "cache_evidence": "/data/cache/qcow2-capture-20261005/independent-oracle-v3",
+  "limitations": [
+    "Linux reader checks do not establish Windows NTFS restoration, servicing, Setup or WinRE boot.",
+    "Raw layout checks every reparse stream structure and fixture reparse/data payload hashes; other fixture ADS source-to-WIM comparison relies on separate native differential evidence."
+  ],
+  "host_extraction_limitations": [
+    "Ignoring FILE_ATTRIBUTE_HIDDEN of 1 files",
+    "Ignoring FILE_ATTRIBUTE_SYSTEM of 1 files",
+    "Ignoring FILE_ATTRIBUTE_NOT_CONTENT_INDEXED of 1 files",
+    "Ignoring Windows NT security descriptors of 2 files",
+    "Ignoring extended attributes of 1 files",
+    "Ignoring DOS names of 1 files"
+  ],
+  "winre_verification_caveats": [
+    "\"/data/cache/qcow2-capture-20261005/independent-oracle-v3/Winre.wim\" does not contain integrity information.  Skipping integrity check."
+  ],
+  "verify_exit_code": 0,
+  "winre_verify_exit_code": 0,
+  "evidence_sha256": {
+    "verify-winre.log": "b8db4cea546ca79f4511f2729f05e1aae8b2c2cbe2b3f3ad2ec86575bae3e167",
+    "extract.log": "15cdf72653e8d4bcdb5c8ad0214f4dfe9e49b311fdec4e62691d7809cccd2534",
+    "verify.log": "ffc584b524e111fea9c88d665c189cee9ba03532e8c569a5a78162b1605fd595",
+    "fixture-detailed.log": "73f60756d91a03af01d83aa17fce95b3d83ad06ec90ff15841e5ecd54c28f47e",
+    "reparse-layout.json": "04e5b9b4f7ef3204f3a68b2a0b95b790beb6579b8ebc214e17e968acc13ce010",
+    "info.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "install.xml": "0eeaba6d071c0375feccce0406097e4d718428e59e85549ecff259febae0e122"
+  },
+  "passes": true,
+  "later_standard_setup_result": "Image application succeeded; AddUnattend failed0x80070050 saving Windows/Panther/unattend-original.xml",
+  "deployment_artifact_check": {
+    "oracle": "independent Python on-disk metadata parser + upstream libwim decompressor",
+    "passes": false,
+    "errors": [
+      "/Windows/Panther/unattend-original.xml: forbidden deployment artifact present"
+    ],
+    "reparse_entries": [
+      {
+        "path": "/Documents and Settings",
+        "main_hash": "293a12daa87299c62317669c72f9f054e0fd897b",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/ActionsMcpHost.exe",
+        "main_hash": "0000000000000000000000000000000000000000",
+        "extra_streams": [
+          {
+            "hash": "2524f2f9f2f3ab251e3101dd47ab5cfa3ccef6af",
+            "name": ""
+          },
+          {
+            "hash": "0000000000000000000000000000000000000000",
+            "name": ""
+          }
+        ],
+        "tag": 2147483675
+      },
+      {
+        "path": "/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/MicrosoftWindows.DesktopStickerEditorCentennial.exe",
+        "main_hash": "0000000000000000000000000000000000000000",
+        "extra_streams": [
+          {
+            "hash": "d82eafa811b6d8b601f9d0dfc20dba2793ca6ca3",
+            "name": ""
+          },
+          {
+            "hash": "0000000000000000000000000000000000000000",
+            "name": ""
+          }
+        ],
+        "tag": 2147483675
+      },
+      {
+        "path": "/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/MicrosoftWindows.Client.CBS_cw5n1h2txyewy/ActionsMcpHost.exe",
+        "main_hash": "0000000000000000000000000000000000000000",
+        "extra_streams": [
+          {
+            "hash": "2524f2f9f2f3ab251e3101dd47ab5cfa3ccef6af",
+            "name": ""
+          },
+          {
+            "hash": "0000000000000000000000000000000000000000",
+            "name": ""
+          }
+        ],
+        "tag": 2147483675
+      },
+      {
+        "path": "/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/MicrosoftWindows.Client.CBS_cw5n1h2txyewy/MicrosoftWindows.DesktopStickerEditorCentennial.exe",
+        "main_hash": "0000000000000000000000000000000000000000",
+        "extra_streams": [
+          {
+            "hash": "d82eafa811b6d8b601f9d0dfc20dba2793ca6ca3",
+            "name": ""
+          },
+          {
+            "hash": "0000000000000000000000000000000000000000",
+            "name": ""
+          }
+        ],
+        "tag": 2147483675
+      },
+      {
+        "path": "/Users/All Users",
+        "main_hash": "8418b238b7c8543d5011539f423327bbf515e596",
+        "extra_streams": [],
+        "tag": 2684354572
+      },
+      {
+        "path": "/Users/Default User",
+        "main_hash": "fe19a23cc621f942ef013f6a22edce95040134e1",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/Public/Documents/My Music",
+        "main_hash": "a14d6d0283acae2f9f3d6a52279d10d3060a72c1",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/Public/Documents/My Pictures",
+        "main_hash": "3612e91ffd9a168008df633a2f82d90adb1ab885",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/Public/Documents/My Videos",
+        "main_hash": "31049ca5607ba42208ece8e5da61d67e584ae4b0",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/deploy/Application Data",
+        "main_hash": "b7731c19025b14fe4974d26cd9cc575f91d7b107",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/deploy/Cookies",
+        "main_hash": "8d881261959521b573e8b990f2bb1ecc59bcabad",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/deploy/Local Settings",
+        "main_hash": "a913ae7290e0f09ac0390da9cd181b2a7587beb5",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/deploy/My Documents",
+        "main_hash": "0300775514a103e718aa63abab886563ca721140",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/deploy/NetHood",
+        "main_hash": "c2bf5bd269a58cc2ba6774d12c8f8f3b5a0e68ea",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/deploy/PrintHood",
+        "main_hash": "9aa1e9ce476abe08b8703d8eae4cfab8926516ff",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/deploy/Recent",
+        "main_hash": "265126449098d0323dd83b058a5e35a9232c3ee2",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/deploy/SendTo",
+        "main_hash": "9e6bc1ef6a6b434cce55ffff777c678d2dd303c8",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/deploy/Start Menu",
+        "main_hash": "203783823cca9b11ff7c7fd4f84ccddf3043443b",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/deploy/Templates",
+        "main_hash": "8bfcaabac280fe4a022fb8c8910c1a78a4c96c53",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/deploy/Documents/My Music",
+        "main_hash": "12e146f7de24f91c5c71e125f4e0d50c2243cb52",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/deploy/Documents/My Pictures",
+        "main_hash": "b35e1b4cf530bd6a2d22fb959322fd3438f42aa5",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/deploy/Documents/My Videos",
+        "main_hash": "e8d2f1afa1d0d2c6bffac1bf8e065cfbf606a132",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/deploy/AppData/Local/Application Data",
+        "main_hash": "a913ae7290e0f09ac0390da9cd181b2a7587beb5",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/deploy/AppData/Local/History",
+        "main_hash": "dea058f18f76dfb59849edce76b09d2fe6550476",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/deploy/AppData/Local/Temporary Internet Files",
+        "main_hash": "0558c8cff7743d87c3af90031abe6c21e1a12a44",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/ActionsMcpHost.exe",
+        "main_hash": "0000000000000000000000000000000000000000",
+        "extra_streams": [
+          {
+            "hash": "2524f2f9f2f3ab251e3101dd47ab5cfa3ccef6af",
+            "name": ""
+          },
+          {
+            "hash": "0000000000000000000000000000000000000000",
+            "name": ""
+          }
+        ],
+        "tag": 2147483675
+      },
+      {
+        "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/MicrosoftWindows.DesktopStickerEditorCentennial.exe",
+        "main_hash": "0000000000000000000000000000000000000000",
+        "extra_streams": [
+          {
+            "hash": "d82eafa811b6d8b601f9d0dfc20dba2793ca6ca3",
+            "name": ""
+          },
+          {
+            "hash": "0000000000000000000000000000000000000000",
+            "name": ""
+          }
+        ],
+        "tag": 2147483675
+      },
+      {
+        "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/mspaint.exe",
+        "main_hash": "0000000000000000000000000000000000000000",
+        "extra_streams": [
+          {
+            "hash": "dda50accfd3ed4077556a8f703d4688483c55605",
+            "name": ""
+          },
+          {
+            "hash": "0000000000000000000000000000000000000000",
+            "name": ""
+          }
+        ],
+        "tag": 2147483675
+      },
+      {
+        "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/notepad.exe",
+        "main_hash": "0000000000000000000000000000000000000000",
+        "extra_streams": [
+          {
+            "hash": "d9f165d2b189c1ed998b79d7b1849a83d31b3d19",
+            "name": ""
+          },
+          {
+            "hash": "0000000000000000000000000000000000000000",
+            "name": ""
+          }
+        ],
+        "tag": 2147483675
+      },
+      {
+        "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/pbrush.exe",
+        "main_hash": "0000000000000000000000000000000000000000",
+        "extra_streams": [
+          {
+            "hash": "dda50accfd3ed4077556a8f703d4688483c55605",
+            "name": ""
+          },
+          {
+            "hash": "0000000000000000000000000000000000000000",
+            "name": ""
+          }
+        ],
+        "tag": 2147483675
+      },
+      {
+        "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/python.exe",
+        "main_hash": "0000000000000000000000000000000000000000",
+        "extra_streams": [
+          {
+            "hash": "71d5a1fcaea401c6d34cf6fc8418e00d4fd767db",
+            "name": ""
+          },
+          {
+            "hash": "0000000000000000000000000000000000000000",
+            "name": ""
+          }
+        ],
+        "tag": 2147483675
+      },
+      {
+        "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/python3.exe",
+        "main_hash": "0000000000000000000000000000000000000000",
+        "extra_streams": [
+          {
+            "hash": "71d5a1fcaea401c6d34cf6fc8418e00d4fd767db",
+            "name": ""
+          },
+          {
+            "hash": "0000000000000000000000000000000000000000",
+            "name": ""
+          }
+        ],
+        "tag": 2147483675
+      },
+      {
+        "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/SnippingTool.exe",
+        "main_hash": "0000000000000000000000000000000000000000",
+        "extra_streams": [
+          {
+            "hash": "056edb4a851d9f83c1c18487aeae44c9565c59b9",
+            "name": ""
+          },
+          {
+            "hash": "0000000000000000000000000000000000000000",
+            "name": ""
+          }
+        ],
+        "tag": 2147483675
+      },
+      {
+        "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/WindowsPackageManagerServer.exe",
+        "main_hash": "0000000000000000000000000000000000000000",
+        "extra_streams": [
+          {
+            "hash": "44182b785a254c7213be6c596c0db65c8b3f70bc",
+            "name": ""
+          },
+          {
+            "hash": "0000000000000000000000000000000000000000",
+            "name": ""
+          }
+        ],
+        "tag": 2147483675
+      },
+      {
+        "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/winget.exe",
+        "main_hash": "0000000000000000000000000000000000000000",
+        "extra_streams": [
+          {
+            "hash": "d9b3d4bfa4623948d14bde25930a709d4661add6",
+            "name": ""
+          },
+          {
+            "hash": "0000000000000000000000000000000000000000",
+            "name": ""
+          }
+        ],
+        "tag": 2147483675
+      },
+      {
+        "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/wt.exe",
+        "main_hash": "0000000000000000000000000000000000000000",
+        "extra_streams": [
+          {
+            "hash": "b02667624358a935ffc68105c397468908790cdf",
+            "name": ""
+          },
+          {
+            "hash": "0000000000000000000000000000000000000000",
+            "name": ""
+          }
+        ],
+        "tag": 2147483675
+      },
+      {
+        "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/MicrosoftWindows.Client.CBS_cw5n1h2txyewy/ActionsMcpHost.exe",
+        "main_hash": "0000000000000000000000000000000000000000",
+        "extra_streams": [
+          {
+            "hash": "2524f2f9f2f3ab251e3101dd47ab5cfa3ccef6af",
+            "name": ""
+          },
+          {
+            "hash": "0000000000000000000000000000000000000000",
+            "name": ""
+          }
+        ],
+        "tag": 2147483675
+      },
+      {
+        "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/MicrosoftWindows.Client.CBS_cw5n1h2txyewy/MicrosoftWindows.DesktopStickerEditorCentennial.exe",
+        "main_hash": "0000000000000000000000000000000000000000",
+        "extra_streams": [
+          {
+            "hash": "d82eafa811b6d8b601f9d0dfc20dba2793ca6ca3",
+            "name": ""
+          },
+          {
+            "hash": "0000000000000000000000000000000000000000",
+            "name": ""
+          }
+        ],
+        "tag": 2147483675
+      },
+      {
+        "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/Microsoft.WindowsTerminal_8wekyb3d8bbwe/wt.exe",
+        "main_hash": "0000000000000000000000000000000000000000",
+        "extra_streams": [
+          {
+            "hash": "b02667624358a935ffc68105c397468908790cdf",
+            "name": ""
+          },
+          {
+            "hash": "0000000000000000000000000000000000000000",
+            "name": ""
+          }
+        ],
+        "tag": 2147483675
+      },
+      {
+        "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/Microsoft.WindowsNotepad_8wekyb3d8bbwe/notepad.exe",
+        "main_hash": "0000000000000000000000000000000000000000",
+        "extra_streams": [
+          {
+            "hash": "d9f165d2b189c1ed998b79d7b1849a83d31b3d19",
+            "name": ""
+          },
+          {
+            "hash": "0000000000000000000000000000000000000000",
+            "name": ""
+          }
+        ],
+        "tag": 2147483675
+      },
+      {
+        "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/Microsoft.ScreenSketch_8wekyb3d8bbwe/SnippingTool.exe",
+        "main_hash": "0000000000000000000000000000000000000000",
+        "extra_streams": [
+          {
+            "hash": "056edb4a851d9f83c1c18487aeae44c9565c59b9",
+            "name": ""
+          },
+          {
+            "hash": "0000000000000000000000000000000000000000",
+            "name": ""
+          }
+        ],
+        "tag": 2147483675
+      },
+      {
+        "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/Microsoft.Paint_8wekyb3d8bbwe/mspaint.exe",
+        "main_hash": "0000000000000000000000000000000000000000",
+        "extra_streams": [
+          {
+            "hash": "dda50accfd3ed4077556a8f703d4688483c55605",
+            "name": ""
+          },
+          {
+            "hash": "0000000000000000000000000000000000000000",
+            "name": ""
+          }
+        ],
+        "tag": 2147483675
+      },
+      {
+        "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/Microsoft.Paint_8wekyb3d8bbwe/pbrush.exe",
+        "main_hash": "0000000000000000000000000000000000000000",
+        "extra_streams": [
+          {
+            "hash": "dda50accfd3ed4077556a8f703d4688483c55605",
+            "name": ""
+          },
+          {
+            "hash": "0000000000000000000000000000000000000000",
+            "name": ""
+          }
+        ],
+        "tag": 2147483675
+      },
+      {
+        "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe/python.exe",
+        "main_hash": "0000000000000000000000000000000000000000",
+        "extra_streams": [
+          {
+            "hash": "71d5a1fcaea401c6d34cf6fc8418e00d4fd767db",
+            "name": ""
+          },
+          {
+            "hash": "0000000000000000000000000000000000000000",
+            "name": ""
+          }
+        ],
+        "tag": 2147483675
+      },
+      {
+        "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe/python3.exe",
+        "main_hash": "0000000000000000000000000000000000000000",
+        "extra_streams": [
+          {
+            "hash": "71d5a1fcaea401c6d34cf6fc8418e00d4fd767db",
+            "name": ""
+          },
+          {
+            "hash": "0000000000000000000000000000000000000000",
+            "name": ""
+          }
+        ],
+        "tag": 2147483675
+      },
+      {
+        "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe/WindowsPackageManagerServer.exe",
+        "main_hash": "0000000000000000000000000000000000000000",
+        "extra_streams": [
+          {
+            "hash": "44182b785a254c7213be6c596c0db65c8b3f70bc",
+            "name": ""
+          },
+          {
+            "hash": "0000000000000000000000000000000000000000",
+            "name": ""
+          }
+        ],
+        "tag": 2147483675
+      },
+      {
+        "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe/winget.exe",
+        "main_hash": "0000000000000000000000000000000000000000",
+        "extra_streams": [
+          {
+            "hash": "d9b3d4bfa4623948d14bde25930a709d4661add6",
+            "name": ""
+          },
+          {
+            "hash": "0000000000000000000000000000000000000000",
+            "name": ""
+          }
+        ],
+        "tag": 2147483675
+      },
+      {
+        "path": "/Users/deploy/AppData/Local/Microsoft/Windows/Temporary Internet Files",
+        "main_hash": "0558c8cff7743d87c3af90031abe6c21e1a12a44",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/Default/Application Data",
+        "main_hash": "80ffce30fa5b6b9c64bf8731535450a04f4e854d",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/Default/Cookies",
+        "main_hash": "d4fcbb2ad4bce0a84004f42310e961447cc3c82c",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/Default/Local Settings",
+        "main_hash": "608a7757cef6ed71f7b8052d0bdce21a564da16d",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/Default/My Documents",
+        "main_hash": "330e83a4700a419f6e36c879e0f45ab07423db37",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/Default/NetHood",
+        "main_hash": "5ebc17b9a214a68776ee06b3c1f6d51003662358",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/Default/PrintHood",
+        "main_hash": "c8319227976600fc6362c9b32566de6389434148",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/Default/Recent",
+        "main_hash": "7d6fa22c31242908cfa4845b04beebb073c30e77",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/Default/SendTo",
+        "main_hash": "25e591b6039688e2c69909d9ece40861c01e6723",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/Default/Start Menu",
+        "main_hash": "36d59cfe61137deee4633c7f210d76d40830f59b",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/Default/Templates",
+        "main_hash": "09ab4de9b3fca72c4299c6cef78da57a4f62dd48",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/Default/Documents/My Music",
+        "main_hash": "d9b897d4ad29ba2489f32e8fc26bd4045819f791",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/Default/Documents/My Pictures",
+        "main_hash": "e71e5be1d54cc01aaf76aa16ee8f7bcf5bc7382c",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/Default/Documents/My Videos",
+        "main_hash": "9e5b80202918e9818fd196d7fa1b05083fbc4cfe",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/Default/AppData/Local/Application Data",
+        "main_hash": "608a7757cef6ed71f7b8052d0bdce21a564da16d",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/Default/AppData/Local/History",
+        "main_hash": "35c6f9f67e7293b10ba6d02991ec682ab27d3269",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/Default/AppData/Local/Temporary Internet Files",
+        "main_hash": "4e7a31de1cf1d38394f310ebd1d7af391a88aaa7",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/Users/Default/AppData/Local/Microsoft/Windows/Temporary Internet Files",
+        "main_hash": "4e7a31de1cf1d38394f310ebd1d7af391a88aaa7",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/ProgramData/Application Data",
+        "main_hash": "8fda958b5c489bdc7a5c02a75f327b88c528150b",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/ProgramData/Desktop",
+        "main_hash": "5849069dc823cac2a22fcaacfe4ffedfa41b2e51",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/ProgramData/Documents",
+        "main_hash": "d320e8a304144a2d008f71dd1d026d63e0e19428",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/ProgramData/Start Menu",
+        "main_hash": "98de999b7165477309f8cc33836c0dea43863a38",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/ProgramData/Templates",
+        "main_hash": "597595fdfd3c0f34cf206d585381795198161daf",
+        "extra_streams": [],
+        "tag": 2684354563
+      },
+      {
+        "path": "/NativeDiskCapture/internal.junction",
+        "main_hash": "7e1b176320fe5943f40aa63bda540a1cfc788c96",
+        "extra_streams": [],
+        "tag": 2684354563,
+        "reparse": {
+          "Tag": 2684354563,
+          "Sub": "\\??\\<ROOT>",
+          "Print": "<ROOT>",
+          "Flags": 0
+        },
+        "fixture_verified": true
+      },
+      {
+        "path": "/NativeDiskCapture/relative.link",
+        "main_hash": "0000000000000000000000000000000000000000",
+        "extra_streams": [
+          {
+            "hash": "a94080ab2d3122615a2819d8b877944c0170e3b2",
+            "name": ""
+          },
+          {
+            "hash": "0000000000000000000000000000000000000000",
+            "name": ""
+          },
+          {
+            "hash": "aa922f6057f34f775cf66958ebdb380907dfb782",
+            "name": "link-owned"
+          }
+        ],
+        "tag": 2684354572,
+        "reparse": {
+          "Tag": 2684354572,
+          "Sub": "payload.bin",
+          "Print": "payload.bin",
+          "Flags": 1
+        },
+        "fixture_verified": true
+      }
+    ],
+    "forbidden_paths": [
+      "/Windows/Panther/unattend-original.xml"
+    ],
+    "forbidden_paths_found": [
+      "/Windows/Panther/unattend-original.xml"
+    ],
+    "library": "/nix/store/fd0zfsysr7gl769wv31n80a6j67xgd78-wimlib-1.14.5/lib/libwim.so",
+    "limitations": [
+      "Checks ordinary nonsolid single-image WIMs only; decoder library is an independent test oracle, never production conversion."
+    ]
+  }
+}

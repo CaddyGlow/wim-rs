@@ -1,0 +1,23 @@
+ASSERTION FAILED at line 1014: The requested operation is unsupported
+Starting wlfuzz with time limit of 10 seconds
+--> iteration 1
+:::op__delete_random_wim
+--> iteration 2
+:::op__delete_random_wim
+--> iteration 3
+:::op__add_empty_image_to_random_wim
+--> iteration 4
+:::op__apply_and_capture_test
+--> iteration 5
+:::op__delete_random_wim
+--> iteration 6
+:::op__create_new_wim
+Creating wim0 with write flags 0x00002000, compression_type=None, chunk_size=0, solid_chunk_size=0
+--> iteration 7
+:::op__split_test
+Opening wim0 with flags 0x00000001
+splitting WIM wim0: part_size=118904, write_flags=0x00004001
+--> iteration 8
+:::op__split_test
+Opening wim0 with flags 0x00000000
+splitting WIM wim0: part_size=339915, write_flags=0x00002001

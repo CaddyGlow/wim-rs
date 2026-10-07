@@ -1,0 +1,18 @@
+result 49 errno 123
+caller-fd 0
+api-read 1288
+allocator 81 live 0
+cleanup-live 0
+failure 81 size 4
+trace /tmp/pipe-allocator-original+0x1509 ?
+trace /tmp/pipe-allocator-original+0x161b ?
+trace /tmp/wimlib-native-oracle/.libs/libwim.so.15+0x3a375 ?
+trace /tmp/wimlib-native-oracle/.libs/libwim.so.15+0x15af9 ?
+trace /tmp/wimlib-native-oracle/.libs/libwim.so.15+0xf951 ?
+trace /tmp/wimlib-native-oracle/.libs/libwim.so.15+0x17a1e ?
+trace /tmp/wimlib-native-oracle/.libs/libwim.so.15+0x19b14 wimlib_extract_image_from_pipe_with_progress
+trace /tmp/pipe-allocator-original+0x141d ?
+trace /tmp/pipe-allocator-original+0x18fa ?
+trace /nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib/libc.so.6+0x2b285 ?
+trace /nix/store/znb3q6g1ik34454j3vcjx824h1871asg-glibc-2.42-84/lib/libc.so.6+0x2b338 __libc_start_main
+trace /tmp/pipe-allocator-original+0x11c5 ?

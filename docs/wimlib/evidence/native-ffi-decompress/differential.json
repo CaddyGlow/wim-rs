@@ -1,0 +1,224 @@
+{
+  "exports": 3,
+  "factory_cases_per_client": 66,
+  "blocks": 36,
+  "equal": true,
+  "cases": [
+    {
+      "codec": 1,
+      "size": 64,
+      "compressed_size": 261,
+      "client_sha256": "237841dab428d101fe6bf4124db07d50066b8f738dc98495b2dfd3a730ca3c9f"
+    },
+    {
+      "codec": 1,
+      "size": 64,
+      "compressed_size": 287,
+      "client_sha256": "7306f0bdb027774eeea75b8e931a7bd814243ec6306e5bbbacbf1d4020fe5b77"
+    },
+    {
+      "codec": 1,
+      "size": 64,
+      "compressed_size": 308,
+      "client_sha256": "be73c97b9bebd28c20b0845409b68b007d5de353908a463ef4675aaca4574725"
+    },
+    {
+      "codec": 1,
+      "size": 257,
+      "compressed_size": 261,
+      "client_sha256": "e410449f1c361eb6363fed5db7cf0448085a715d75df31cb3e17060dd787ffa4"
+    },
+    {
+      "codec": 1,
+      "size": 257,
+      "compressed_size": 287,
+      "client_sha256": "811fdb67f24cc4487a9dfc53e36674a2e57b22437625366a1fc6b7de12432819"
+    },
+    {
+      "codec": 1,
+      "size": 257,
+      "compressed_size": 518,
+      "client_sha256": "107028b26d968b1f2f1b187190c70a56372ad6d4fe32df1ef519340b0dd48ff4"
+    },
+    {
+      "codec": 1,
+      "size": 4096,
+      "compressed_size": 263,
+      "client_sha256": "913231df164714de152067896fdaa14c365b261bad845c4b8d8f8bb77f809d17"
+    },
+    {
+      "codec": 1,
+      "size": 4096,
+      "compressed_size": 289,
+      "client_sha256": "b966db225b3fd76f5812b8bddf430bf81819c308fc2ada6af32879715acc491c"
+    },
+    {
+      "codec": 1,
+      "size": 4096,
+      "compressed_size": 523,
+      "client_sha256": "47865dab25b9c7a7cae4454b019b28fb55c2468ab560bebae763fecef6e12769"
+    },
+    {
+      "codec": 1,
+      "size": 32768,
+      "compressed_size": 263,
+      "client_sha256": "c2b853f43b419357297c340518a49e7847c9bf8e7369f8d65787f987b729f67d"
+    },
+    {
+      "codec": 1,
+      "size": 32768,
+      "compressed_size": 289,
+      "client_sha256": "a4bb9bc5221cb53fbf069f17a2973428e6040e596e267cdbc5036b509d8e03df"
+    },
+    {
+      "codec": 1,
+      "size": 32768,
+      "compressed_size": 523,
+      "client_sha256": "b91fc9aa00f6ddcbd67263512d8293e0c13cdbc0a8772b9b9436674be928c69d"
+    },
+    {
+      "codec": 2,
+      "size": 64,
+      "compressed_size": 48,
+      "client_sha256": "237841dab428d101fe6bf4124db07d50066b8f738dc98495b2dfd3a730ca3c9f"
+    },
+    {
+      "codec": 2,
+      "size": 64,
+      "compressed_size": 78,
+      "client_sha256": "7306f0bdb027774eeea75b8e931a7bd814243ec6306e5bbbacbf1d4020fe5b77"
+    },
+    {
+      "codec": 2,
+      "size": 64,
+      "compressed_size": 98,
+      "client_sha256": "be73c97b9bebd28c20b0845409b68b007d5de353908a463ef4675aaca4574725"
+    },
+    {
+      "codec": 2,
+      "size": 257,
+      "compressed_size": 48,
+      "client_sha256": "e410449f1c361eb6363fed5db7cf0448085a715d75df31cb3e17060dd787ffa4"
+    },
+    {
+      "codec": 2,
+      "size": 257,
+      "compressed_size": 78,
+      "client_sha256": "811fdb67f24cc4487a9dfc53e36674a2e57b22437625366a1fc6b7de12432819"
+    },
+    {
+      "codec": 2,
+      "size": 257,
+      "compressed_size": 318,
+      "client_sha256": "107028b26d968b1f2f1b187190c70a56372ad6d4fe32df1ef519340b0dd48ff4"
+    },
+    {
+      "codec": 2,
+      "size": 4096,
+      "compressed_size": 52,
+      "client_sha256": "913231df164714de152067896fdaa14c365b261bad845c4b8d8f8bb77f809d17"
+    },
+    {
+      "codec": 2,
+      "size": 4096,
+      "compressed_size": 86,
+      "client_sha256": "b966db225b3fd76f5812b8bddf430bf81819c308fc2ada6af32879715acc491c"
+    },
+    {
+      "codec": 2,
+      "size": 4096,
+      "compressed_size": 342,
+      "client_sha256": "47865dab25b9c7a7cae4454b019b28fb55c2468ab560bebae763fecef6e12769"
+    },
+    {
+      "codec": 2,
+      "size": 32768,
+      "compressed_size": 78,
+      "client_sha256": "c2b853f43b419357297c340518a49e7847c9bf8e7369f8d65787f987b729f67d"
+    },
+    {
+      "codec": 2,
+      "size": 32768,
+      "compressed_size": 114,
+      "client_sha256": "a4bb9bc5221cb53fbf069f17a2973428e6040e596e267cdbc5036b509d8e03df"
+    },
+    {
+      "codec": 2,
+      "size": 32768,
+      "compressed_size": 390,
+      "client_sha256": "b91fc9aa00f6ddcbd67263512d8293e0c13cdbc0a8772b9b9436674be928c69d"
+    },
+    {
+      "codec": 3,
+      "size": 64,
+      "compressed_size": 12,
+      "client_sha256": "237841dab428d101fe6bf4124db07d50066b8f738dc98495b2dfd3a730ca3c9f"
+    },
+    {
+      "codec": 3,
+      "size": 64,
+      "compressed_size": 18,
+      "client_sha256": "7306f0bdb027774eeea75b8e931a7bd814243ec6306e5bbbacbf1d4020fe5b77"
+    },
+    {
+      "codec": 3,
+      "size": 64,
+      "compressed_size": 12,
+      "client_sha256": "be73c97b9bebd28c20b0845409b68b007d5de353908a463ef4675aaca4574725"
+    },
+    {
+      "codec": 3,
+      "size": 257,
+      "compressed_size": 12,
+      "client_sha256": "e410449f1c361eb6363fed5db7cf0448085a715d75df31cb3e17060dd787ffa4"
+    },
+    {
+      "codec": 3,
+      "size": 257,
+      "compressed_size": 18,
+      "client_sha256": "811fdb67f24cc4487a9dfc53e36674a2e57b22437625366a1fc6b7de12432819"
+    },
+    {
+      "codec": 3,
+      "size": 257,
+      "compressed_size": 12,
+      "client_sha256": "107028b26d968b1f2f1b187190c70a56372ad6d4fe32df1ef519340b0dd48ff4"
+    },
+    {
+      "codec": 3,
+      "size": 4096,
+      "compressed_size": 12,
+      "client_sha256": "913231df164714de152067896fdaa14c365b261bad845c4b8d8f8bb77f809d17"
+    },
+    {
+      "codec": 3,
+      "size": 4096,
+      "compressed_size": 20,
+      "client_sha256": "b966db225b3fd76f5812b8bddf430bf81819c308fc2ada6af32879715acc491c"
+    },
+    {
+      "codec": 3,
+      "size": 4096,
+      "compressed_size": 14,
+      "client_sha256": "47865dab25b9c7a7cae4454b019b28fb55c2468ab560bebae763fecef6e12769"
+    },
+    {
+      "codec": 3,
+      "size": 32768,
+      "compressed_size": 12,
+      "client_sha256": "c2b853f43b419357297c340518a49e7847c9bf8e7369f8d65787f987b729f67d"
+    },
+    {
+      "codec": 3,
+      "size": 32768,
+      "compressed_size": 22,
+      "client_sha256": "a4bb9bc5221cb53fbf069f17a2973428e6040e596e267cdbc5036b509d8e03df"
+    },
+    {
+      "codec": 3,
+      "size": 32768,
+      "compressed_size": 14,
+      "client_sha256": "b91fc9aa00f6ddcbd67263512d8293e0c13cdbc0a8772b9b9436674be928c69d"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "observations_equal": true,
+  "observation_count": 14,
+  "written_metadata_equal_after_filetime_normalization": true,
+  "filetime_normalization": "root_offset+40..root_offset+64, three FILETIME fields only",
+  "canonical_pending_metadata_size_128": true,
+  "cases": [
+    {
+      "library": "original",
+      "observations": [
+        "export-ab 0",
+        "export-bc 0",
+        "before-equal 1 1",
+        "before-roots -49 -49 -49",
+        "write-a 0",
+        "after-a-equal 1 1",
+        "after-a-hashed 1",
+        "after-a-roots 1 1 1",
+        "after-a-sizes 0 0 0",
+        "write-b 0",
+        "after-b-stable 1 1 1",
+        "write-c-source-freed 0",
+        "after-c-stable 1",
+        "verify-c 0"
+      ],
+      "written_metadata_sizes": [
+        128,
+        128,
+        128
+      ],
+      "three_written_metadata_resources_equal": true,
+      "written_metadata_hashes": [
+        "0ee6b275ed8aec9ab6042f79fd7fcb28d4833e50",
+        "0ee6b275ed8aec9ab6042f79fd7fcb28d4833e50",
+        "0ee6b275ed8aec9ab6042f79fd7fcb28d4833e50"
+      ],
+      "original_verify_outputs": 3
+    },
+    {
+      "library": "native",
+      "observations": [
+        "export-ab 0",
+        "export-bc 0",
+        "before-equal 1 1",
+        "before-roots -49 -49 -49",
+        "write-a 0",
+        "after-a-equal 1 1",
+        "after-a-hashed 1",
+        "after-a-roots 1 1 1",
+        "after-a-sizes 0 0 0",
+        "write-b 0",
+        "after-b-stable 1 1 1",
+        "write-c-source-freed 0",
+        "after-c-stable 1",
+        "verify-c 0"
+      ],
+      "written_metadata_sizes": [
+        128,
+        128,
+        128
+      ],
+      "three_written_metadata_resources_equal": true,
+      "written_metadata_hashes": [
+        "df258163132d2d5279f6617c4ed6c4cafa3a4522",
+        "df258163132d2d5279f6617c4ed6c4cafa3a4522",
+        "df258163132d2d5279f6617c4ed6c4cafa3a4522"
+      ],
+      "original_verify_outputs": 3
+    }
+  ]
+}

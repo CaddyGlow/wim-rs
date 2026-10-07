@@ -1,0 +1,106 @@
+[
+  {
+    "args": [
+      "/tmp/wim-progress-corrupt-data.wim",
+      "verify",
+      "0",
+      "0",
+      "0"
+    ],
+    "original": {
+      "exit": 0,
+      "stdout": [
+        "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+        "offset image 0 8 12 streams 0 8 16 24 32",
+        "event 1 27 image 1 1 file /tmp/wim-progress-corrupt-data.wim",
+        "event 1 28 image 1 1 file /tmp/wim-progress-corrupt-data.wim",
+        "event 1 29 streams 0 2 bytes 0 63 file /tmp/wim-progress-corrupt-data.wim",
+        "event 1 29 streams 1 2 bytes 15 63 file /tmp/wim-progress-corrupt-data.wim",
+        "result 28"
+      ],
+      "stderr": ""
+    },
+    "native": {
+      "exit": 0,
+      "stdout": [
+        "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+        "offset image 0 8 12 streams 0 8 16 24 32",
+        "event 1 27 image 1 1 file /tmp/wim-progress-corrupt-data.wim",
+        "event 1 28 image 1 1 file /tmp/wim-progress-corrupt-data.wim",
+        "event 1 29 streams 0 2 bytes 0 63 file /tmp/wim-progress-corrupt-data.wim",
+        "event 1 29 streams 1 2 bytes 15 63 file /tmp/wim-progress-corrupt-data.wim",
+        "result 28"
+      ],
+      "stderr": ""
+    },
+    "match": true
+  },
+  {
+    "args": [
+      "/tmp/wim-progress-corrupt-data.wim",
+      "verify",
+      "1",
+      "29",
+      "0"
+    ],
+    "original": {
+      "exit": 0,
+      "stdout": [
+        "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+        "offset image 0 8 12 streams 0 8 16 24 32",
+        "event 1 27 image 1 1 file /tmp/wim-progress-corrupt-data.wim",
+        "event 1 28 image 1 1 file /tmp/wim-progress-corrupt-data.wim",
+        "event 1 29 streams 0 2 bytes 0 63 file /tmp/wim-progress-corrupt-data.wim",
+        "result 76"
+      ],
+      "stderr": ""
+    },
+    "native": {
+      "exit": 0,
+      "stdout": [
+        "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+        "offset image 0 8 12 streams 0 8 16 24 32",
+        "event 1 27 image 1 1 file /tmp/wim-progress-corrupt-data.wim",
+        "event 1 28 image 1 1 file /tmp/wim-progress-corrupt-data.wim",
+        "event 1 29 streams 0 2 bytes 0 63 file /tmp/wim-progress-corrupt-data.wim",
+        "result 76"
+      ],
+      "stderr": ""
+    },
+    "match": true
+  },
+  {
+    "args": [
+      "/tmp/wim-progress-corrupt-data.wim",
+      "verify",
+      "2",
+      "29",
+      "0"
+    ],
+    "original": {
+      "exit": 0,
+      "stdout": [
+        "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+        "offset image 0 8 12 streams 0 8 16 24 32",
+        "event 1 27 image 1 1 file /tmp/wim-progress-corrupt-data.wim",
+        "event 1 28 image 1 1 file /tmp/wim-progress-corrupt-data.wim",
+        "event 1 29 streams 0 2 bytes 0 63 file /tmp/wim-progress-corrupt-data.wim",
+        "result 77"
+      ],
+      "stderr": ""
+    },
+    "native": {
+      "exit": 0,
+      "stdout": [
+        "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+        "offset image 0 8 12 streams 0 8 16 24 32",
+        "event 1 27 image 1 1 file /tmp/wim-progress-corrupt-data.wim",
+        "event 1 28 image 1 1 file /tmp/wim-progress-corrupt-data.wim",
+        "event 1 29 streams 0 2 bytes 0 63 file /tmp/wim-progress-corrupt-data.wim",
+        "result 77"
+      ],
+      "stderr": ""
+    },
+    "match": true
+  }
+]

@@ -1,0 +1,599 @@
+{
+  "cases": 66,
+  "results": [
+    {
+      "codec": "None",
+      "input_layout": "ordinary",
+      "output_codec": "XPRESS",
+      "integrity": false,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "c5971a75be3f36d0745d19b21fce608de18ce2627c14f3269a190426d7ab1702"
+    },
+    {
+      "codec": "None",
+      "input_layout": "ordinary",
+      "output_codec": "XPRESS",
+      "integrity": true,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "2f8840a2438d885a054a06ffb6238ff3975e071ad2e396862c267209debaf847"
+    },
+    {
+      "codec": "None",
+      "input_layout": "ordinary",
+      "output_codec": "LZX",
+      "integrity": false,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "a720637381c540d2ded8c12ea8ea44a2488e2a935a45e64b63e400ab73b6d344"
+    },
+    {
+      "codec": "None",
+      "input_layout": "ordinary",
+      "output_codec": "LZX",
+      "integrity": true,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "e42691302f979d3b8e3d194b79ad0c2efcf6630b541fb71e83ce13b94a6bf64a"
+    },
+    {
+      "codec": "None",
+      "input_layout": "ordinary",
+      "output_codec": "LZMS",
+      "integrity": false,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "ec9467af8b5cbca9a2315c8ce6c40bc98d51d93cc201f8f01fba35e2405a025d"
+    },
+    {
+      "codec": "None",
+      "input_layout": "ordinary",
+      "output_codec": "LZMS",
+      "integrity": true,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "860e1c4d553969423dea08fb17604d5161d1f4d55968463ad6d27771ac4c858c"
+    },
+    {
+      "codec": "None",
+      "input_layout": "pipable",
+      "output_codec": "XPRESS",
+      "integrity": false,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "1d997aefebce9878703d57f677d4b01beb853da4c294e4a58db5f0b7347cdfa8"
+    },
+    {
+      "codec": "None",
+      "input_layout": "pipable",
+      "output_codec": "XPRESS",
+      "integrity": true,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "a2301445d4013a573b41876a875d9fb17b7b9e7b17ce718af09b8f59957fd8a8"
+    },
+    {
+      "codec": "None",
+      "input_layout": "pipable",
+      "output_codec": "LZX",
+      "integrity": false,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "9ff4f8399777068ea3a1a0ec34801396c8f784e3bb085a36bea5a674a0855c92"
+    },
+    {
+      "codec": "None",
+      "input_layout": "pipable",
+      "output_codec": "LZX",
+      "integrity": true,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "6bbe585ed0a67e0f80c57fb80787c39547fd3b0b4065846c4a7f95211ebe66ec"
+    },
+    {
+      "codec": "None",
+      "input_layout": "pipable",
+      "output_codec": "LZMS",
+      "integrity": false,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "9185dadb17b0c68d1bfc55a09bbb66d01a06f63727cfdef00de126a94eb6fcc7"
+    },
+    {
+      "codec": "None",
+      "input_layout": "pipable",
+      "output_codec": "LZMS",
+      "integrity": true,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "2c572c68b742935aba698592d60940e7d0d2ae62382a904bc7a39c5443640911"
+    },
+    {
+      "codec": "XPRESS",
+      "input_layout": "ordinary",
+      "output_codec": "XPRESS",
+      "integrity": false,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "e58286600bde7c627e9676ce7fe60a09262ff758f918fbe1a4d320dc0907ce80"
+    },
+    {
+      "codec": "XPRESS",
+      "input_layout": "ordinary",
+      "output_codec": "XPRESS",
+      "integrity": true,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "e1592e88c18854977fac0a9c688edf89323ad0a1059a2d7dbcf05c003fe9003a"
+    },
+    {
+      "codec": "XPRESS",
+      "input_layout": "ordinary",
+      "output_codec": "LZX",
+      "integrity": false,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "06853bec10b87e1eeb12fdb3786a82daa4a063f5fb6c4d684efeba38f6c1259b"
+    },
+    {
+      "codec": "XPRESS",
+      "input_layout": "ordinary",
+      "output_codec": "LZX",
+      "integrity": true,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "e98ec9131d489158488b0cbfc04030205025b373c646c85bf05758a02c22fbee"
+    },
+    {
+      "codec": "XPRESS",
+      "input_layout": "ordinary",
+      "output_codec": "LZMS",
+      "integrity": false,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "53889d3f9287685807d33d327e192d928ec07cd54c94e210b8ead6f43562aa89"
+    },
+    {
+      "codec": "XPRESS",
+      "input_layout": "ordinary",
+      "output_codec": "LZMS",
+      "integrity": true,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "b23ea5c70dd3b051177a8c43c309158c885668d1ac3d617f6947e9af2cfc73d5"
+    },
+    {
+      "codec": "XPRESS",
+      "input_layout": "pipable",
+      "output_codec": "XPRESS",
+      "integrity": false,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "202612f9e7fce9031b1f1022112afa9107548ae1802139009e5d5ff833ab132f"
+    },
+    {
+      "codec": "XPRESS",
+      "input_layout": "pipable",
+      "output_codec": "XPRESS",
+      "integrity": true,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "1365b9c9211e947ace68cd2fb74714efb2bb9f828b98839d31e0b1c8f57cbd96"
+    },
+    {
+      "codec": "XPRESS",
+      "input_layout": "pipable",
+      "output_codec": "LZX",
+      "integrity": false,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "b1d0308487fb511088d39a57f05b8f29e511399bb17c4853d8616a09aaeaca26"
+    },
+    {
+      "codec": "XPRESS",
+      "input_layout": "pipable",
+      "output_codec": "LZX",
+      "integrity": true,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "b1d1b9050c18521b99acb647e4039d613c4b5bd2041511eba7aecd6df975fe95"
+    },
+    {
+      "codec": "XPRESS",
+      "input_layout": "pipable",
+      "output_codec": "LZMS",
+      "integrity": false,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "7cb14d70937ea0cd3313b4beacfae0f93c1d651df2c466e860c844985c75fbd8"
+    },
+    {
+      "codec": "XPRESS",
+      "input_layout": "pipable",
+      "output_codec": "LZMS",
+      "integrity": true,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "c122c964ce49631af35c19292385ffc8d4a1517b1f2572a0d0fa6327577bfe60"
+    },
+    {
+      "codec": "XPRESS",
+      "input_layout": "solid",
+      "output_codec": "XPRESS",
+      "integrity": false,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "a9ca63744259d205823ec7e6a16f1c2f55f8f4e51105206880fa1491671db134"
+    },
+    {
+      "codec": "XPRESS",
+      "input_layout": "solid",
+      "output_codec": "XPRESS",
+      "integrity": true,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "4b8bcc92e161fc686f164d490015c697d6290c3e82b64ce59fac0ab9a5c1a917"
+    },
+    {
+      "codec": "XPRESS",
+      "input_layout": "solid",
+      "output_codec": "LZX",
+      "integrity": false,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "8b3d2100b2f2eec197bb421d5f467f7fe963e5eef72fc50cad7bdec0d7366a4f"
+    },
+    {
+      "codec": "XPRESS",
+      "input_layout": "solid",
+      "output_codec": "LZX",
+      "integrity": true,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "9902edd1f9836cfdb9307bd0a78d489f27ba8a5619309f47e8ee239bea683254"
+    },
+    {
+      "codec": "XPRESS",
+      "input_layout": "solid",
+      "output_codec": "LZMS",
+      "integrity": false,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "9c12d146bb722cc0d3f7e4b2fb3feec67cd05e1ecf4de9b4b202d1126e2240b6"
+    },
+    {
+      "codec": "XPRESS",
+      "input_layout": "solid",
+      "output_codec": "LZMS",
+      "integrity": true,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "b69d5909aafe1114b62a5155d35ae777fa0039400ab4a934cfbd6f4146d11af6"
+    },
+    {
+      "codec": "LZX",
+      "input_layout": "ordinary",
+      "output_codec": "XPRESS",
+      "integrity": false,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "c5dfb3ffe344dbb471b761ca8db4f70e3704ac134e6f9bc410ab0b4b2620cf95"
+    },
+    {
+      "codec": "LZX",
+      "input_layout": "ordinary",
+      "output_codec": "XPRESS",
+      "integrity": true,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "605376fea59d5fafc3d041d15d47a4d92afb9d05ac206033dfbea71465e78d12"
+    },
+    {
+      "codec": "LZX",
+      "input_layout": "ordinary",
+      "output_codec": "LZX",
+      "integrity": false,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "81ab9de19bd4806330b98f1f9caef573c652e22bef1843506268eeb4de38add5"
+    },
+    {
+      "codec": "LZX",
+      "input_layout": "ordinary",
+      "output_codec": "LZX",
+      "integrity": true,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "0c373fe7a09e9a4227b86e871c42a3960105e7414b73dece90f24a25c4fbd2d4"
+    },
+    {
+      "codec": "LZX",
+      "input_layout": "ordinary",
+      "output_codec": "LZMS",
+      "integrity": false,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "2ed463e01c1f609e0a3e6eb82c842b616d0c7b6dc7416e729fab7af6bb81fb53"
+    },
+    {
+      "codec": "LZX",
+      "input_layout": "ordinary",
+      "output_codec": "LZMS",
+      "integrity": true,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "d59b79a521aafbeb4a9fd19e25237019535347e16c7bd1b141b0040724a2495b"
+    },
+    {
+      "codec": "LZX",
+      "input_layout": "pipable",
+      "output_codec": "XPRESS",
+      "integrity": false,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "6f875668e286f307157101aee03169adc93e1b6b150ae81fa1290bfc89f8e9e3"
+    },
+    {
+      "codec": "LZX",
+      "input_layout": "pipable",
+      "output_codec": "XPRESS",
+      "integrity": true,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "160b5a1e510ee724a309bbf257bfba91a906056739bb35951c6d4ab21e0d8b06"
+    },
+    {
+      "codec": "LZX",
+      "input_layout": "pipable",
+      "output_codec": "LZX",
+      "integrity": false,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "5dfd0374a5a4bc35917d365f1ea665e3788365350b10a5d594a1c679fd388ee4"
+    },
+    {
+      "codec": "LZX",
+      "input_layout": "pipable",
+      "output_codec": "LZX",
+      "integrity": true,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "2c088c67cf3d498082e7be3e738678a5f644c078e6706824a73a37ce78a1b9ca"
+    },
+    {
+      "codec": "LZX",
+      "input_layout": "pipable",
+      "output_codec": "LZMS",
+      "integrity": false,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "68b0057dd3e16132167026e6df95bef7f6500cb875fda89be6a0c99a20c0d5cd"
+    },
+    {
+      "codec": "LZX",
+      "input_layout": "pipable",
+      "output_codec": "LZMS",
+      "integrity": true,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "9aa0f657d3912ce9c44fdef03d185d308cd5186ae45532b54c1f6398fc239d99"
+    },
+    {
+      "codec": "LZX",
+      "input_layout": "solid",
+      "output_codec": "XPRESS",
+      "integrity": false,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "e989cfdb867c120fff09eaea84d32077a23d82cc6c7c89420842f2d3708c89d3"
+    },
+    {
+      "codec": "LZX",
+      "input_layout": "solid",
+      "output_codec": "XPRESS",
+      "integrity": true,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "489d611cbe89ae398a39440f4d165d9530403ab19a4984f532b2550b92e9d603"
+    },
+    {
+      "codec": "LZX",
+      "input_layout": "solid",
+      "output_codec": "LZX",
+      "integrity": false,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "5debd8ce99293ce47ad0f9980557c66f25239a71fb17833a249ec8beaeb66dde"
+    },
+    {
+      "codec": "LZX",
+      "input_layout": "solid",
+      "output_codec": "LZX",
+      "integrity": true,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "31e4c639c947d90ef4ee337a402660e668311e93bd1d47c56ab19cd34c1cd923"
+    },
+    {
+      "codec": "LZX",
+      "input_layout": "solid",
+      "output_codec": "LZMS",
+      "integrity": false,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "507894aefefb66f276c0daeca06683bbd6e5d4ace1d25a632e166d0e13f1fa8c"
+    },
+    {
+      "codec": "LZX",
+      "input_layout": "solid",
+      "output_codec": "LZMS",
+      "integrity": true,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "6fc5c8706c3c4ece604287e22cadec9532ce5cb907eba37796b4900b6d0e8f75"
+    },
+    {
+      "codec": "LZMS",
+      "input_layout": "ordinary",
+      "output_codec": "XPRESS",
+      "integrity": false,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "f97afa5bf8e93a82fd75c44922cf824609213dc9013b2fffaf0136226333f0e6"
+    },
+    {
+      "codec": "LZMS",
+      "input_layout": "ordinary",
+      "output_codec": "XPRESS",
+      "integrity": true,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "a7a09045e0f48dadd954b16d7e64ac5419dd129f19cd084c709264d7dc2463f1"
+    },
+    {
+      "codec": "LZMS",
+      "input_layout": "ordinary",
+      "output_codec": "LZX",
+      "integrity": false,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "4fb20bea2d82b8ec0e4c701a522141c1b05c8362a120805ef74b8ef91c8c636d"
+    },
+    {
+      "codec": "LZMS",
+      "input_layout": "ordinary",
+      "output_codec": "LZX",
+      "integrity": true,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "afe2f4298559ffea2bb8899812d264082c43fbcae8596c3b58e4d3edfbaf1ff1"
+    },
+    {
+      "codec": "LZMS",
+      "input_layout": "ordinary",
+      "output_codec": "LZMS",
+      "integrity": false,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "314d6af3ef9ab3104d91c86e7748c4bea4ffe3a147b916df7c21b63ab56a584c"
+    },
+    {
+      "codec": "LZMS",
+      "input_layout": "ordinary",
+      "output_codec": "LZMS",
+      "integrity": true,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "7fba47e469976d0520c137d83376cad5761dc5b2649f7d98a3dfc30d4e233087"
+    },
+    {
+      "codec": "LZMS",
+      "input_layout": "pipable",
+      "output_codec": "XPRESS",
+      "integrity": false,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "f9d689c694d3460777419d4f294381c50407476dd7f6a6649e7b5b48e5ebf1a3"
+    },
+    {
+      "codec": "LZMS",
+      "input_layout": "pipable",
+      "output_codec": "XPRESS",
+      "integrity": true,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "efdc0a68cc5b172cc5f8bfcf7f0b3d5fe6ed798de4535d5bdb87c923d283369f"
+    },
+    {
+      "codec": "LZMS",
+      "input_layout": "pipable",
+      "output_codec": "LZX",
+      "integrity": false,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "71b0758294eef912155b95edceeafad9f46587e12170406efe45318396090610"
+    },
+    {
+      "codec": "LZMS",
+      "input_layout": "pipable",
+      "output_codec": "LZX",
+      "integrity": true,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "41a8ddcb34e1a8b6aa6861c1f0c43fba9b09a9220e1785c8182bd2047146b5a9"
+    },
+    {
+      "codec": "LZMS",
+      "input_layout": "pipable",
+      "output_codec": "LZMS",
+      "integrity": false,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "32c29f28a85d916a8f20e8b6c8f37f2ec5b4f15fbedc7acefb09a76d4ed3eb88"
+    },
+    {
+      "codec": "LZMS",
+      "input_layout": "pipable",
+      "output_codec": "LZMS",
+      "integrity": true,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "32f2eb2c175ee5101bb384d83f15b12044702ab473b934ba11c6d01ff3b5c798"
+    },
+    {
+      "codec": "LZMS",
+      "input_layout": "solid",
+      "output_codec": "XPRESS",
+      "integrity": false,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "808af1670788432fed3010d739465234add0ac474b0b9c57ba4f38597036e4b2"
+    },
+    {
+      "codec": "LZMS",
+      "input_layout": "solid",
+      "output_codec": "XPRESS",
+      "integrity": true,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "a0fa7b08c518069fab8903f8b064393226f4911a672640438d72df2a1fdc2874"
+    },
+    {
+      "codec": "LZMS",
+      "input_layout": "solid",
+      "output_codec": "LZX",
+      "integrity": false,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "3588dbbdbae1e03cd57017bbce57f0fa61195cbe609b69279268621c7e4ddeca"
+    },
+    {
+      "codec": "LZMS",
+      "input_layout": "solid",
+      "output_codec": "LZX",
+      "integrity": true,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "8af120b212f4b440a1c671909f11862ced3d90a360491ad65f796638ef90121a"
+    },
+    {
+      "codec": "LZMS",
+      "input_layout": "solid",
+      "output_codec": "LZMS",
+      "integrity": false,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "8268e0bcec29a675bb8fc0adc91d29c18c920eeb3140cc3b528f9b2743ee5efa"
+    },
+    {
+      "codec": "LZMS",
+      "input_layout": "solid",
+      "output_codec": "LZMS",
+      "integrity": true,
+      "images": 2,
+      "boot_index": 2,
+      "output_sha256": "f6537c1b990cfbb58a094cff8435e0a24ec805f1c027509c1c66d02e6c701dff"
+    }
+  ]
+}

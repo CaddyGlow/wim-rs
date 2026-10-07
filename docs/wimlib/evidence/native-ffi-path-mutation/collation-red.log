@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/rick/projects-caddy/windows-uup/scripts/wimlib/check-path-mutation.py", line 94, in <module>
+    assert outputs[0] == outputs[1], (arguments, outputs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: (['delete', '-1', 'file', '', '0', 'single'], [b'result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\nentry:/Unicode \xf0\x9f\x98\x80:128:12\nentry:/\xc3\xa9cole:128:6\nentry:/\xce\xa3:128:2\nentry:/\xcf\x83:128:2\nentry:/\xcf\x82:128:2\ntree:0\n', b'result:18:errno:0\nentry:/:16:0\nentry:/Unicode \xf0\x9f\x98\x80:128:12\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\nentry:/\xc3\xa9cole:128:6\nentry:/\xce\xa3:128:2\nentry:/\xcf\x82:128:2\nentry:/\xcf\x83:128:2\ntree:0\n'])

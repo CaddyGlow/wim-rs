@@ -1,0 +1,4 @@
+/nix/store/bikkd0jwr8jkd3r6r5mcr28fm17yvb0z-binutils-2.46/bin/ld.bfd: /tmp/ccgGGjIK.o: in function `main':
+probe-print-api.c:(.text+0x121): undefined reference to `wimlib_print_header'
+/nix/store/bikkd0jwr8jkd3r6r5mcr28fm17yvb0z-binutils-2.46/bin/ld.bfd: probe-print-api.c:(.text+0x158): undefined reference to `wimlib_print_available_images'
+collect2: error: ld returned 1 exit status

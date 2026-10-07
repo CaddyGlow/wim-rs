@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "scope": "Windows x64 MSVC all-target compile of exact namespace-fixed producer source snapshot; not runtime installation or metadata fidelity",
+  "exit": 0,
+  "compile_seconds": 15.77,
+  "command": "nix develop /home/rick/projects-caddy/windows-uup --command env TMPDIR=/data/cache CARGO_TARGET_DIR=/data/cache/qcow2-namespace-fixed-20261006/build-target XWIN_CACHE_DIR=/data/cache/qcow2-current-validation-xwin cargo xwin check --locked -p windows-uup --target x86_64-pc-windows-msvc --all-targets",
+  "cwd": "/data/cache/qcow2-namespace-fixed-20261006/producer-source",
+  "log": {
+    "path": "/data/cache/qcow2-namespace-fixed-20261006/namespace-windows-msvc-check.log",
+    "sha256": "79a851755d7d017137400e22974c6ca067240072a2229b4cfe4e6d3a82752966"
+  },
+  "source_hashes": {
+    "Cargo.lock": "bec522beef4ac79b8597cde5ceebee318d3ba6e0e209c3baf7fe3d127054a873",
+    "crates/windows-ntfs/src/lib.rs": "3f2d1a9655baf8d037b1adb7af7a614e07f3d86e539f4e68d6face25d63137bd",
+    "crates/windows-uup/src/capture_disk.rs": "ab13874612a55641d8d96ff01021619f7f31904ac6f9c19d23f0e3e9d8b2ae98",
+    "crates/wim/src/engine/capture/api.rs": "ce418a91950c585a94c9e96a1de3d39f3b9c5e9f759333b34f163c4de12b48ff"
+  }
+}

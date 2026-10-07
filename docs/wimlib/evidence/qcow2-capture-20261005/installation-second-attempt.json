@@ -1,0 +1,117 @@
+{
+  "standard_windows_setup": true,
+  "passes": false,
+  "vm_instance": "qcow2-installed-1005-v2",
+  "iso_sha256": "ea37c97e56effecbd253e3b7ad157be3eac6e1feeeb7b01d8059ee7220fd756d",
+  "blank_base_sha256": "19eb403b49ebb8007177a5f8cc49713c69a517d81c30fb31673336e5dd298cc3",
+  "seed_sha256": "7f72714707696bbe4b5a76bd70e3bd01509c82fd9299e751088a6ecc7e4eaf2c",
+  "failure": {
+    "passes": false,
+    "visible_error": "Windows 11 installation has failed",
+    "error_code": "0x80070050",
+    "operation": "CAddUnattend::DoExecute saving Windows/Panther/unattend-original.xml",
+    "log_export": "F:\\qcow2-failure",
+    "shutdown_requested_utc": 1791203301.517199,
+    "shutdown_command": "wpeutil shutdown",
+    "screenshots": [
+      "setup-second-failed.png",
+      "setup-second-volumes.png",
+      "setup-second-error-log.png"
+    ],
+    "remaining_gates": "No OOBE, installed identity, metadata restoration, servicing, reboot or WinRE boot gates ran.",
+    "shutdown_confirmed": true,
+    "target_sha256_after_shutdown": "62c66197661a94668a67d3fb5747a743ca4166b838cd5badc79f00ba674a6c66",
+    "target_bytes": 13548781568,
+    "native_log_error_chain": [
+      "Compact ApplyWIM completed successfully: setupact.log line7557",
+      "CAddUnattend::DoExecute saving Windows/Panther/unattend-original.xml: 0x80070050 at line9952"
+    ]
+  },
+  "screenshots": {
+    "setup-second-failed.png": "2333a176406775a50218d5035cd26e782e38b8e3db57d9babd61c3b247f52dcd",
+    "setup-second-volumes.png": "daf2e93cc2a01afdecc6cd6cb2737f0077686a74c81ea40caaa9f42e99e6da75",
+    "setup-second-error-log.png": "ef54092ee9de04de1c9910ac6ffb6a1e03af7b78b304ce974a2e34305a8a6ee5"
+  },
+  "cache_evidence": "/data/cache/qcow2-installation-1005-v2",
+  "limitations": [
+    "No installed-target/OOBE, full metadata restoration, servicing, post-install reboot or WinRE boot gate passed.",
+    "Image application completed; existing-file collision blocked answer-file staging. Corrected deployment profile requires a new standard Setup run."
+  ],
+  "offline_logs": "/data/cache/qcow2-installation-1005-v2/offline-failure-logs",
+  "offline_log_sha256": {
+    "extraction.txt": "a732003dc49b19fc202e93793d394d900fbf2b47b561ef6851b4769d7ef48655",
+    "partition-3/qcow2-failure/file-list.txt": "4251bec339a82602c15c57530b8831eba1625e5bfed72898ded3d90101c6cf49",
+    "partition-3/$WINDOWS.~BT/Sources/Panther/setuperr.log": "37ecfd7ca32c72197f683f2401a89d8cc93135249f0758306dbaeb49e8735789",
+    "partition-3/$WINDOWS.~BT/Sources/Panther/setupact.log": "9df533d15bfbb9e68f7062b2790f74d0a09ae5b458b979cafe21d8345f8d029f",
+    "partition-3/qcow2-failure/newos-panther/FirstBootTel-M2.etl": "2b34e4a7ea767065fa42cf22493756d4ffc20c2bf998e93b21365f116a295ba8",
+    "partition-3/qcow2-failure/newos-panther/CompatData_2026_09_20_12_03_13_00000001.xml": "4905f0f2e83bf41a62208e2ede3ab231f042f556a8b8fed6981a65655e2dad71",
+    "partition-3/qcow2-failure/newos-panther/unattend-original.xml": "fcf46205398a7126488ee421ebfddb874685255d78329d68e3a72e9c9d0418d5",
+    "partition-3/qcow2-failure/newos-panther/setuperr.log": "4722dc2bf418cc2c16aa12ee38e7082d366395b9de48776cfd76a0f27be26273",
+    "partition-3/qcow2-failure/newos-panther/DlTel-Merge.etl": "32c4a192568f285efc594a957798579f6562669aebeadda02b2ff523dec6f537",
+    "partition-3/qcow2-failure/newos-panther/windlp.state.xml": "f6a243affd2b42a3cfe8a39f535fe43253cd837cabd4b6ebe75be621ff14e0ae",
+    "partition-3/qcow2-failure/newos-panther/DlTel.etl": "e0d9784f0a82a4be276eec260470d57cbf78822c4eef038d20aa3ea7cfc1428a",
+    "partition-3/qcow2-failure/newos-panther/FirstBootTel-M1.etl": "bbff12affb78bc6bcb11f2f0aee867eae55d3bf3b7e72176a07e4071584eca99",
+    "partition-3/qcow2-failure/newos-panther/diagerr.xml": "97c72de58b6566180530581d49339a9996581b59a3de87c78cb7668f21583af5",
+    "partition-3/qcow2-failure/newos-panther/diagwrn.xml": "0c07fbd19ba5492754a94ba5bc314e0955ef88d7558e7e2bcb618905869cebfd",
+    "partition-3/qcow2-failure/newos-panther/setupact.log": "6cb2f3f9095b8c02ab85d7eb1711953e9df025a7b4ca65b59b56a035c5f1deb7",
+    "partition-3/qcow2-failure/newos-panther/DDACLSys.log": "f5d8f9c71f103479144b12ff9d226b35ac4ef8924cc015611cd64fd7ddb89c46",
+    "partition-3/qcow2-failure/newos-panther/DlTel.Merge.00001.etl": "b7a42bb6c12cfee4b447bc3344fcd3530aa79e547f0a9eb1370216b1274acb82",
+    "partition-3/qcow2-failure/newos-panther/windlp.state-old.xml": "f6a243affd2b42a3cfe8a39f535fe43253cd837cabd4b6ebe75be621ff14e0ae",
+    "partition-3/qcow2-failure/newos-panther/setup.etl": "bb058eb71a60f1237c22e16ffd030652f432e9b1ce7374fcb9ccf0aea1e3ad7d",
+    "partition-3/qcow2-failure/newos-panther/unattend.xml": "fc06fd0754c92a024fd672cf20a5601e80de4dac08bba43878a2630884314808",
+    "partition-3/qcow2-failure/newos-panther/compatscancache.dat": "84132ddd167c6d03628e8d0a6887c108e0cd47259dc78745a241fd44b05cf6c0",
+    "partition-3/qcow2-failure/newos-panther/_s_510E.tmp": "6b5d4b32236a921bacdefe19852ec0699ca2eacd72d4e57f50a2de06ede21c8e",
+    "partition-3/qcow2-failure/x-panther/_s_A9AF.tmp": "6b5d4b32236a921bacdefe19852ec0699ca2eacd72d4e57f50a2de06ede21c8e",
+    "partition-3/qcow2-failure/seed-payload/autounattend.xml": "fc06fd0754c92a024fd672cf20a5601e80de4dac08bba43878a2630884314808",
+    "partition-3/qcow2-failure/target-bt-panther/setuperr.log": "37ecfd7ca32c72197f683f2401a89d8cc93135249f0758306dbaeb49e8735789",
+    "partition-3/qcow2-failure/target-bt-panther/DlTel-Merge.etl": "87c5bcb46cebcad2d7d61bda4ce74b2f5eeba359b0e46b0e349d010954e61c3c",
+    "partition-3/qcow2-failure/target-bt-panther/windlp.state.xml": "7070c50021bb77ec71e74d8b4324b04c01c2204e48fd2675e377883081b0fbec",
+    "partition-3/qcow2-failure/target-bt-panther/DlTel.etl": "6168b6a64ce84c4b0e9224466dcd87cf5646573d9f97aadf54da0e18b963fdb6",
+    "partition-3/qcow2-failure/target-bt-panther/_s_A9AF.tmp": "6b5d4b32236a921bacdefe19852ec0699ca2eacd72d4e57f50a2de06ede21c8e",
+    "partition-3/qcow2-failure/target-bt-panther/diagerr.xml": "fd43053914a54025925799f4efeaef1b8e801099bbe6c7a118b753fcde84720d",
+    "partition-3/qcow2-failure/target-bt-panther/diagwrn.xml": "97e4f327dc2fb5661c569a1e9a15aa5ca6bbbceeb8bd5791ecf3daa4f16e0fdb",
+    "partition-3/qcow2-failure/target-bt-panther/setupact.log": "9df533d15bfbb9e68f7062b2790f74d0a09ae5b458b979cafe21d8345f8d029f",
+    "partition-3/qcow2-failure/target-bt-panther/DlTel.Merge.00001.etl": "7053a56781cbbbc00420851616b3e92e7faf5a15f2b0e664a85a508f784043d7",
+    "partition-3/qcow2-failure/target-bt-panther/windlp.state-old.xml": "7070c50021bb77ec71e74d8b4324b04c01c2204e48fd2675e377883081b0fbec",
+    "partition-3/qcow2-failure/target-bt-panther/compatscancache.dat": "573acd3d74565a6ec952a34afdc4641f2b320a5313be4cfa18448123226e8f44",
+    "partition-3/qcow2-failure/target-bt-panther/CompatData_2026_10_05_12_22_57_00000001.xml": "4905f0f2e83bf41a62208e2ede3ab231f042f556a8b8fed6981a65655e2dad71",
+    "partition-3/qcow2-failure/x-bt-panther/setuperr.log": "84be38c4224793bcaaacebd8fb305fd5294cdfeacf27f46d2129501726948032",
+    "partition-3/qcow2-failure/x-bt-panther/diagerr.xml": "c4e5ecda6cb02619afe066a0bdeac2b2b6ddb621b935582642b7e28ffb4f2457",
+    "partition-3/qcow2-failure/x-bt-panther/diagwrn.xml": "a813f3a084874213dfda7273aa50e54be3aa883cffff91cdd5ad560114987fcc",
+    "partition-3/qcow2-failure/x-bt-panther/setupact.log": "371a75ea6d5ec8a14be4b69e216cb4a3d86a54063429bdbcd56bab24f526c230",
+    "partition-3/qcow2-failure/x-bt-panther/compatscancache.dat": "573acd3d74565a6ec952a34afdc4641f2b320a5313be4cfa18448123226e8f44",
+    "partition-3/qcow2-failure/x-bt-panther/CompatData_2026_10_05_12_22_57_00000001.xml": "4905f0f2e83bf41a62208e2ede3ab231f042f556a8b8fed6981a65655e2dad71",
+    "partition-3/qcow2-failure/newos-panther/UnattendGC/setuperr.log": "b3fa8c30e8de798df88b91be4dacfe7c8c5b1a26bc5080fc86bb36ab41028665",
+    "partition-3/qcow2-failure/newos-panther/UnattendGC/diagerr.xml": "9c8aafdabda26bdfbfd85ad69321753899af80cb470cf9fd47ea8863d3868bcf",
+    "partition-3/qcow2-failure/newos-panther/UnattendGC/diagwrn.xml": "7cf93fa244dfce0205786f51f76ccbda4aa0a46c6658181d5f1ef75282814f3a",
+    "partition-3/qcow2-failure/newos-panther/UnattendGC/setupact.log": "2bb27bb6b7779aeba7e82e39944e0583a444c01d633f2711e8feb47507ec327c",
+    "partition-3/qcow2-failure/newos-panther/actionqueue/generalize.uaq": "3414e35d8ecd1757ff85cca179c8a019fe622bdd8cb81b607ca293589fa2804e",
+    "partition-3/qcow2-failure/newos-panther/actionqueue/specialize.uaq": "88a7305b88d6fdf72a3308fb58e0cd98f66a013b036d554758316d685f27c7e3",
+    "partition-3/qcow2-failure/newos-panther/actionqueue/oobeSystem.uaq": "c376e7bb1fcbdba3f626d261eabca39426446f19f8142207c4ce44497f0bf300"
+  },
+  "cached_answer_diagnosis": {
+    "files": [
+      {
+        "path": "/data/cache/qcow2-installation-1005-v2/offline-failure-logs/partition-3/qcow2-failure/target-bt-panther/setupact.log",
+        "bytes": 839198,
+        "sha256": "9df533d15bfbb9e68f7062b2790f74d0a09ae5b458b979cafe21d8345f8d029f"
+      },
+      {
+        "path": "/data/cache/qcow2-installation-1005-v2/offline-failure-logs/partition-3/qcow2-failure/target-bt-panther/setuperr.log",
+        "bytes": 4937,
+        "sha256": "37ecfd7ca32c72197f683f2401a89d8cc93135249f0758306dbaeb49e8735789"
+      },
+      {
+        "path": "/data/cache/qcow2-installation-1005-v2/offline-failure-logs/partition-3/qcow2-failure/newos-panther/unattend-original.xml",
+        "bytes": 8492,
+        "sha256": "fcf46205398a7126488ee421ebfddb874685255d78329d68e3a72e9c9d0418d5"
+      },
+      {
+        "path": "/data/cache/qcow2-installation-1005-v2/offline-failure-logs/partition-3/qcow2-failure/newos-panther/unattend.xml",
+        "bytes": 5136,
+        "sha256": "fc06fd0754c92a024fd672cf20a5601e80de4dac08bba43878a2630884314808"
+      }
+    ],
+    "finding": "Setup compact ApplyWIM completed successfully at setupact.log line7557. CAddUnattend failed at9952 saving Windows/Panther/unattend-original.xml with0x80070050. Capture fresh-install policy excludes exactly two cached Panther answer files while retaining other Panther and Sysprep logs. This is our profile policy, not a claim about Microsoft default exclusions."
+  }
+}

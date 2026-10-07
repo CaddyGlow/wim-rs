@@ -1,0 +1,21 @@
+   Compiling wim-memory v0.1.0 (/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/wim-memory)
+   Compiling wim-codec v0.1.0 (/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/wim-codec)
+   Compiling wim-format v0.1.0 (/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/wim-format)
+   Compiling wim-ffi v0.1.0 (/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/wim-ffi)
+error[E0505]: cannot move out of `metadata` because it is borrowed
+  --> wim-ffi/tests/image_mutation.rs:30:14
+   |
+23 |         let metadata = image.shared.lock().unwrap();
+   |             -------- binding `metadata` declared here
+24 |         let parsed = wim_format::metadata::Metadata::parse(&metadata.metadata).unwrap();
+   |                                                             -------- borrow of `metadata` occurs here
+...
+30 |         drop(metadata);
+   |              ^^^^^^^^ move out of `metadata` occurs here
+31 |         wimlib_free(handle);
+32 |     }
+   |     - borrow might be used here, when `parsed` is dropped and runs the destructor for type `wim_format::metadata::Metadata<'_>`
+
+For more information about this error, try `rustc --explain E0505`.
+error: could not compile `wim-ffi` (test "image_mutation") due to 1 previous error
+warning: build failed, waiting for other jobs to finish...

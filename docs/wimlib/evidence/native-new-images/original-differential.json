@@ -1,0 +1,310 @@
+{
+  "cases": [
+    {
+      "compression": "none",
+      "integrity": false,
+      "images": 0,
+      "sha256": "2a1cb020fd79659d0759ad8eea14f32e81dcd6a5756ca14891d6897b480bcbf8",
+      "size": 232,
+      "verify": "\nVerifying file data: 0 bytes of 0 bytes (0%) done\n\n\"/tmp/wim-new-images-knf89jg1/none-False-0.wim\" was successfully verified.\n",
+      "metadata_listing_sha256": [],
+      "apply_images": 0,
+      "passed": true
+    },
+    {
+      "compression": "none",
+      "integrity": false,
+      "images": 1,
+      "sha256": "74ae5730554cb85f73fd0aceb67b0e2bd70ecfe045b8a04e0db2779fb6dbde89",
+      "size": 155217,
+      "verify": "Verifying metadata for image 1 of 1\n\nVerifying file data: 0 KiB of 150 KiB (0%) done\nVerifying file data: 32 KiB of 150 KiB (21%) done\nVerifying file data: 64 KiB of 150 KiB (42%) done\nVerifying file data: 96 KiB of 150 KiB (63%) done\nVerifying file data: 128 KiB of 150 KiB (85%) done\nVerifying file data: 150 KiB of 150 KiB (99%) done\nVerifying file data: 150 KiB of 150 KiB (100%) done\n\n\"/tmp/wim-new-images-knf89jg1/none-False-1.wim\" was successfully verified.\n",
+      "metadata_listing_sha256": [
+        "f3abf14293670892175f7eb488fda67a577bd0b186629ec102717b81a48c8f3d"
+      ],
+      "apply_images": 1,
+      "passed": true
+    },
+    {
+      "compression": "none",
+      "integrity": false,
+      "images": 2,
+      "sha256": "32e45ec5c38577cae6841177bd282fca324088c34468e040e567bc11a4793e30",
+      "size": 156463,
+      "verify": "Verifying metadata for image 1 of 2\nVerifying metadata for image 2 of 2\n\nVerifying file data: 0 KiB of 150 KiB (0%) done\nVerifying file data: 32 KiB of 150 KiB (21%) done\nVerifying file data: 64 KiB of 150 KiB (42%) done\nVerifying file data: 96 KiB of 150 KiB (63%) done\nVerifying file data: 128 KiB of 150 KiB (85%) done\nVerifying file data: 150 KiB of 150 KiB (99%) done\nVerifying file data: 150 KiB of 150 KiB (100%) done\n\n\"/tmp/wim-new-images-knf89jg1/none-False-2.wim\" was successfully verified.\n",
+      "metadata_listing_sha256": [
+        "c0ba25069dd6a5c24f8a44d07461158a13826a5dffaec4dc0080636363d2ed4a",
+        "c0ba25069dd6a5c24f8a44d07461158a13826a5dffaec4dc0080636363d2ed4a"
+      ],
+      "apply_images": 2,
+      "passed": true
+    },
+    {
+      "compression": "none",
+      "integrity": true,
+      "images": 0,
+      "sha256": "789cade1c682e46459582971068a55d6429c17547bdd057a309f68c4f4fde426",
+      "size": 244,
+      "verify": "\nVerifying integrity of \"/tmp/wim-new-images-knf89jg1/none-True-0.wim\": 0 bytes of 0 bytes (0%) done\n\nVerifying file data: 0 bytes of 0 bytes (0%) done\n\n\"/tmp/wim-new-images-knf89jg1/none-True-0.wim\" was successfully verified.\n",
+      "metadata_listing_sha256": [],
+      "apply_images": 0,
+      "passed": true
+    },
+    {
+      "compression": "none",
+      "integrity": true,
+      "images": 1,
+      "sha256": "a83b7f535ce16b851c0913d95d28a202d848b201df8b2094f94496179705e43a",
+      "size": 155249,
+      "verify": "\nVerifying integrity of \"/tmp/wim-new-images-knf89jg1/none-True-1.wim\": 0 KiB of 150 KiB (0%) done\nVerifying integrity of \"/tmp/wim-new-images-knf89jg1/none-True-1.wim\": 150 KiB of 150 KiB (100%) done\nVerifying metadata for image 1 of 1\n\nVerifying file data: 0 KiB of 150 KiB (0%) done\nVerifying file data: 32 KiB of 150 KiB (21%) done\nVerifying file data: 64 KiB of 150 KiB (42%) done\nVerifying file data: 96 KiB of 150 KiB (63%) done\nVerifying file data: 128 KiB of 150 KiB (85%) done\nVerifying file data: 150 KiB of 150 KiB (99%) done\nVerifying file data: 150 KiB of 150 KiB (100%) done\n\n\"/tmp/wim-new-images-knf89jg1/none-True-1.wim\" was successfully verified.\n",
+      "metadata_listing_sha256": [
+        "f3abf14293670892175f7eb488fda67a577bd0b186629ec102717b81a48c8f3d"
+      ],
+      "apply_images": 1,
+      "passed": true
+    },
+    {
+      "compression": "none",
+      "integrity": true,
+      "images": 2,
+      "sha256": "8f985867fba8de67c7034607ce82686a864f767a4573f2d71ab43e4ab4ae35ca",
+      "size": 156495,
+      "verify": "\nVerifying integrity of \"/tmp/wim-new-images-knf89jg1/none-True-2.wim\": 0 KiB of 151 KiB (0%) done\nVerifying integrity of \"/tmp/wim-new-images-knf89jg1/none-True-2.wim\": 151 KiB of 151 KiB (100%) done\nVerifying metadata for image 1 of 2\nVerifying metadata for image 2 of 2\n\nVerifying file data: 0 KiB of 150 KiB (0%) done\nVerifying file data: 32 KiB of 150 KiB (21%) done\nVerifying file data: 64 KiB of 150 KiB (42%) done\nVerifying file data: 96 KiB of 150 KiB (63%) done\nVerifying file data: 128 KiB of 150 KiB (85%) done\nVerifying file data: 150 KiB of 150 KiB (99%) done\nVerifying file data: 150 KiB of 150 KiB (100%) done\n\n\"/tmp/wim-new-images-knf89jg1/none-True-2.wim\" was successfully verified.\n",
+      "metadata_listing_sha256": [
+        "c0ba25069dd6a5c24f8a44d07461158a13826a5dffaec4dc0080636363d2ed4a",
+        "c0ba25069dd6a5c24f8a44d07461158a13826a5dffaec4dc0080636363d2ed4a"
+      ],
+      "apply_images": 2,
+      "passed": true
+    },
+    {
+      "compression": "xpress",
+      "integrity": false,
+      "images": 0,
+      "sha256": "26b89b9045eb633dca376bd6f94d0f18f8cd37e9a3b6390d834a285b352f292a",
+      "size": 232,
+      "verify": "\nVerifying file data: 0 bytes of 0 bytes (0%) done\n\n\"/tmp/wim-new-images-knf89jg1/xpress-False-0.wim\" was successfully verified.\n",
+      "metadata_listing_sha256": [],
+      "apply_images": 0,
+      "passed": true
+    },
+    {
+      "compression": "xpress",
+      "integrity": false,
+      "images": 1,
+      "sha256": "3b551dc08b74c221b435c5b3d30b39f02527cfe0415ef2bde2fbaf21b2e6d67f",
+      "size": 3956,
+      "verify": "Verifying metadata for image 1 of 1\n\nVerifying file data: 0 KiB of 150 KiB (0%) done\nVerifying file data: 32 KiB of 150 KiB (21%) done\nVerifying file data: 64 KiB of 150 KiB (42%) done\nVerifying file data: 96 KiB of 150 KiB (63%) done\nVerifying file data: 128 KiB of 150 KiB (85%) done\nVerifying file data: 150 KiB of 150 KiB (99%) done\nVerifying file data: 150 KiB of 150 KiB (100%) done\n\n\"/tmp/wim-new-images-knf89jg1/xpress-False-1.wim\" was successfully verified.\n",
+      "metadata_listing_sha256": [
+        "41084a91c07b303e818a1011afb693d005eb2390d59023c83a70779b18ed173f"
+      ],
+      "apply_images": 1,
+      "passed": true
+    },
+    {
+      "compression": "xpress",
+      "integrity": false,
+      "images": 2,
+      "sha256": "2a69e09f9d48a7e0cd08bfea672cb5dc2a63acabcb2b04bdd3f523bdbd4c6b30",
+      "size": 4938,
+      "verify": "Verifying metadata for image 1 of 2\nVerifying metadata for image 2 of 2\n\nVerifying file data: 0 KiB of 150 KiB (0%) done\nVerifying file data: 32 KiB of 150 KiB (21%) done\nVerifying file data: 64 KiB of 150 KiB (42%) done\nVerifying file data: 96 KiB of 150 KiB (63%) done\nVerifying file data: 128 KiB of 150 KiB (85%) done\nVerifying file data: 150 KiB of 150 KiB (99%) done\nVerifying file data: 150 KiB of 150 KiB (100%) done\n\n\"/tmp/wim-new-images-knf89jg1/xpress-False-2.wim\" was successfully verified.\n",
+      "metadata_listing_sha256": [
+        "cf40ecf8bf5066c3fef8ce034eb48111a1a6a11325d280c7f47e2771c470e9b5",
+        "cf40ecf8bf5066c3fef8ce034eb48111a1a6a11325d280c7f47e2771c470e9b5"
+      ],
+      "apply_images": 2,
+      "passed": true
+    },
+    {
+      "compression": "xpress",
+      "integrity": true,
+      "images": 0,
+      "sha256": "b4153ed26d759857de7cd7c69ac4c912fcc7934ab00e682ae67de4cef85cb77d",
+      "size": 244,
+      "verify": "\nVerifying integrity of \"/tmp/wim-new-images-knf89jg1/xpress-True-0.wim\": 0 bytes of 0 bytes (0%) done\n\nVerifying file data: 0 bytes of 0 bytes (0%) done\n\n\"/tmp/wim-new-images-knf89jg1/xpress-True-0.wim\" was successfully verified.\n",
+      "metadata_listing_sha256": [],
+      "apply_images": 0,
+      "passed": true
+    },
+    {
+      "compression": "xpress",
+      "integrity": true,
+      "images": 1,
+      "sha256": "8a62c07237392ad65802adc0d87bb823f6377614120268e12bb75d3390f038ab",
+      "size": 3988,
+      "verify": "\nVerifying integrity of \"/tmp/wim-new-images-knf89jg1/xpress-True-1.wim\": 0 bytes of 3176 bytes (0%) done\nVerifying integrity of \"/tmp/wim-new-images-knf89jg1/xpress-True-1.wim\": 3176 bytes of 3176 bytes (100%) done\nVerifying metadata for image 1 of 1\n\nVerifying file data: 0 KiB of 150 KiB (0%) done\nVerifying file data: 32 KiB of 150 KiB (21%) done\nVerifying file data: 64 KiB of 150 KiB (42%) done\nVerifying file data: 96 KiB of 150 KiB (63%) done\nVerifying file data: 128 KiB of 150 KiB (85%) done\nVerifying file data: 150 KiB of 150 KiB (99%) done\nVerifying file data: 150 KiB of 150 KiB (100%) done\n\n\"/tmp/wim-new-images-knf89jg1/xpress-True-1.wim\" was successfully verified.\n",
+      "metadata_listing_sha256": [
+        "41084a91c07b303e818a1011afb693d005eb2390d59023c83a70779b18ed173f"
+      ],
+      "apply_images": 1,
+      "passed": true
+    },
+    {
+      "compression": "xpress",
+      "integrity": true,
+      "images": 2,
+      "sha256": "e4828922443f1112fe4d87d2bcaeec61361665e36616a16629ed8828fee4e8e9",
+      "size": 4970,
+      "verify": "\nVerifying integrity of \"/tmp/wim-new-images-knf89jg1/xpress-True-2.wim\": 0 bytes of 3610 bytes (0%) done\nVerifying integrity of \"/tmp/wim-new-images-knf89jg1/xpress-True-2.wim\": 3610 bytes of 3610 bytes (100%) done\nVerifying metadata for image 1 of 2\nVerifying metadata for image 2 of 2\n\nVerifying file data: 0 KiB of 150 KiB (0%) done\nVerifying file data: 32 KiB of 150 KiB (21%) done\nVerifying file data: 64 KiB of 150 KiB (42%) done\nVerifying file data: 96 KiB of 150 KiB (63%) done\nVerifying file data: 128 KiB of 150 KiB (85%) done\nVerifying file data: 150 KiB of 150 KiB (99%) done\nVerifying file data: 150 KiB of 150 KiB (100%) done\n\n\"/tmp/wim-new-images-knf89jg1/xpress-True-2.wim\" was successfully verified.\n",
+      "metadata_listing_sha256": [
+        "cf40ecf8bf5066c3fef8ce034eb48111a1a6a11325d280c7f47e2771c470e9b5",
+        "cf40ecf8bf5066c3fef8ce034eb48111a1a6a11325d280c7f47e2771c470e9b5"
+      ],
+      "apply_images": 2,
+      "passed": true
+    },
+    {
+      "compression": "lzx",
+      "integrity": false,
+      "images": 0,
+      "sha256": "23f374e9eb6b14ea66e96ffa4ff8ab25eb29ea4227c6d135c8bf51bd2b42f916",
+      "size": 232,
+      "verify": "\nVerifying file data: 0 bytes of 0 bytes (0%) done\n\n\"/tmp/wim-new-images-knf89jg1/lzx-False-0.wim\" was successfully verified.\n",
+      "metadata_listing_sha256": [],
+      "apply_images": 0,
+      "passed": true
+    },
+    {
+      "compression": "lzx",
+      "integrity": false,
+      "images": 1,
+      "sha256": "6ed99dbb72949d08dcd5f99fb462e234e1af2387d703d774b21a7f7d13f5bc1a",
+      "size": 5991,
+      "verify": "Verifying metadata for image 1 of 1\n\nVerifying file data: 0 KiB of 150 KiB (0%) done\nVerifying file data: 32 KiB of 150 KiB (21%) done\nVerifying file data: 64 KiB of 150 KiB (42%) done\nVerifying file data: 96 KiB of 150 KiB (63%) done\nVerifying file data: 128 KiB of 150 KiB (85%) done\nVerifying file data: 150 KiB of 150 KiB (99%) done\nVerifying file data: 150 KiB of 150 KiB (100%) done\n\n\"/tmp/wim-new-images-knf89jg1/lzx-False-1.wim\" was successfully verified.\n",
+      "metadata_listing_sha256": [
+        "4d93849a58b3d39417c904a226d0fa2fc11bde4bb8aa563b08e649edce7b31c0"
+      ],
+      "apply_images": 1,
+      "passed": true
+    },
+    {
+      "compression": "lzx",
+      "integrity": false,
+      "images": 2,
+      "sha256": "0f937db4340c9cbdd5a9cf4647b45c36e72aa3f24934061d6dae7babf249ba68",
+      "size": 7121,
+      "verify": "Verifying metadata for image 1 of 2\nVerifying metadata for image 2 of 2\n\nVerifying file data: 0 KiB of 150 KiB (0%) done\nVerifying file data: 32 KiB of 150 KiB (21%) done\nVerifying file data: 64 KiB of 150 KiB (42%) done\nVerifying file data: 96 KiB of 150 KiB (63%) done\nVerifying file data: 128 KiB of 150 KiB (85%) done\nVerifying file data: 150 KiB of 150 KiB (99%) done\nVerifying file data: 150 KiB of 150 KiB (100%) done\n\n\"/tmp/wim-new-images-knf89jg1/lzx-False-2.wim\" was successfully verified.\n",
+      "metadata_listing_sha256": [
+        "6272bc62e0f6827940ec6dea50360615e2a7e2a1450dae656adb60eaf79f5585",
+        "6272bc62e0f6827940ec6dea50360615e2a7e2a1450dae656adb60eaf79f5585"
+      ],
+      "apply_images": 2,
+      "passed": true
+    },
+    {
+      "compression": "lzx",
+      "integrity": true,
+      "images": 0,
+      "sha256": "0e100b0919d15cc590b12dd434ecd443ff8f00c2aa9dc20c243dc6880c132edf",
+      "size": 244,
+      "verify": "\nVerifying integrity of \"/tmp/wim-new-images-knf89jg1/lzx-True-0.wim\": 0 bytes of 0 bytes (0%) done\n\nVerifying file data: 0 bytes of 0 bytes (0%) done\n\n\"/tmp/wim-new-images-knf89jg1/lzx-True-0.wim\" was successfully verified.\n",
+      "metadata_listing_sha256": [],
+      "apply_images": 0,
+      "passed": true
+    },
+    {
+      "compression": "lzx",
+      "integrity": true,
+      "images": 1,
+      "sha256": "b311cb5a520dfd1c75ac8c6054289ca00b3ca8127df2a6500b9c6077b3c38a68",
+      "size": 6023,
+      "verify": "\nVerifying integrity of \"/tmp/wim-new-images-knf89jg1/lzx-True-1.wim\": 0 bytes of 5211 bytes (0%) done\nVerifying integrity of \"/tmp/wim-new-images-knf89jg1/lzx-True-1.wim\": 5211 bytes of 5211 bytes (100%) done\nVerifying metadata for image 1 of 1\n\nVerifying file data: 0 KiB of 150 KiB (0%) done\nVerifying file data: 32 KiB of 150 KiB (21%) done\nVerifying file data: 64 KiB of 150 KiB (42%) done\nVerifying file data: 96 KiB of 150 KiB (63%) done\nVerifying file data: 128 KiB of 150 KiB (85%) done\nVerifying file data: 150 KiB of 150 KiB (99%) done\nVerifying file data: 150 KiB of 150 KiB (100%) done\n\n\"/tmp/wim-new-images-knf89jg1/lzx-True-1.wim\" was successfully verified.\n",
+      "metadata_listing_sha256": [
+        "4d93849a58b3d39417c904a226d0fa2fc11bde4bb8aa563b08e649edce7b31c0"
+      ],
+      "apply_images": 1,
+      "passed": true
+    },
+    {
+      "compression": "lzx",
+      "integrity": true,
+      "images": 2,
+      "sha256": "2d2fbe964788fe7ff1959adae946fb8e2350a5debc8ffc6058ddb5e512008515",
+      "size": 7153,
+      "verify": "\nVerifying integrity of \"/tmp/wim-new-images-knf89jg1/lzx-True-2.wim\": 0 bytes of 5793 bytes (0%) done\nVerifying integrity of \"/tmp/wim-new-images-knf89jg1/lzx-True-2.wim\": 5793 bytes of 5793 bytes (100%) done\nVerifying metadata for image 1 of 2\nVerifying metadata for image 2 of 2\n\nVerifying file data: 0 KiB of 150 KiB (0%) done\nVerifying file data: 32 KiB of 150 KiB (21%) done\nVerifying file data: 64 KiB of 150 KiB (42%) done\nVerifying file data: 96 KiB of 150 KiB (63%) done\nVerifying file data: 128 KiB of 150 KiB (85%) done\nVerifying file data: 150 KiB of 150 KiB (99%) done\nVerifying file data: 150 KiB of 150 KiB (100%) done\n\n\"/tmp/wim-new-images-knf89jg1/lzx-True-2.wim\" was successfully verified.\n",
+      "metadata_listing_sha256": [
+        "6272bc62e0f6827940ec6dea50360615e2a7e2a1450dae656adb60eaf79f5585",
+        "6272bc62e0f6827940ec6dea50360615e2a7e2a1450dae656adb60eaf79f5585"
+      ],
+      "apply_images": 2,
+      "passed": true
+    },
+    {
+      "compression": "lzms",
+      "integrity": false,
+      "images": 0,
+      "sha256": "aef142e12a593d4c8b4aae22f18d073e7eb89177d320d5d84b13ce160670f611",
+      "size": 232,
+      "verify": "\nVerifying file data: 0 bytes of 0 bytes (0%) done\n\n\"/tmp/wim-new-images-knf89jg1/lzms-False-0.wim\" was successfully verified.\n",
+      "metadata_listing_sha256": [],
+      "apply_images": 0,
+      "passed": true
+    },
+    {
+      "compression": "lzms",
+      "integrity": false,
+      "images": 1,
+      "sha256": "c9246de38ebeb94cb391320c2c9be7228c0cc8d6c1f3bfc0e2be62ec663e5719",
+      "size": 1205,
+      "verify": "Verifying metadata for image 1 of 1\n\nVerifying file data: 0 KiB of 150 KiB (0%) done\nVerifying file data: 32 KiB of 150 KiB (21%) done\nVerifying file data: 64 KiB of 150 KiB (42%) done\nVerifying file data: 96 KiB of 150 KiB (63%) done\nVerifying file data: 128 KiB of 150 KiB (85%) done\nVerifying file data: 150 KiB of 150 KiB (99%) done\nVerifying file data: 150 KiB of 150 KiB (100%) done\n\n\"/tmp/wim-new-images-knf89jg1/lzms-False-1.wim\" was successfully verified.\n",
+      "metadata_listing_sha256": [
+        "57dd500781afaa06a6537abaf3099fa39151238c45c0325795818ad502ff43f9"
+      ],
+      "apply_images": 1,
+      "passed": true
+    },
+    {
+      "compression": "lzms",
+      "integrity": false,
+      "images": 2,
+      "sha256": "81618215be3111d18ecf3dbe084b645cefe535f41e2b41ecc456773d14018bef",
+      "size": 1981,
+      "verify": "Verifying metadata for image 1 of 2\nVerifying metadata for image 2 of 2\n\nVerifying file data: 0 KiB of 150 KiB (0%) done\nVerifying file data: 32 KiB of 150 KiB (21%) done\nVerifying file data: 64 KiB of 150 KiB (42%) done\nVerifying file data: 96 KiB of 150 KiB (63%) done\nVerifying file data: 128 KiB of 150 KiB (85%) done\nVerifying file data: 150 KiB of 150 KiB (99%) done\nVerifying file data: 150 KiB of 150 KiB (100%) done\n\n\"/tmp/wim-new-images-knf89jg1/lzms-False-2.wim\" was successfully verified.\n",
+      "metadata_listing_sha256": [
+        "094f7b5709287959c6c2de2a3ec01e5bb967919361b261dbeca4cf45b9042580",
+        "094f7b5709287959c6c2de2a3ec01e5bb967919361b261dbeca4cf45b9042580"
+      ],
+      "apply_images": 2,
+      "passed": true
+    },
+    {
+      "compression": "lzms",
+      "integrity": true,
+      "images": 0,
+      "sha256": "6542de56d73e94803c310c1770a2bc499b5f9f2a6e2e4f7dc9902bd901ffa61a",
+      "size": 244,
+      "verify": "\nVerifying integrity of \"/tmp/wim-new-images-knf89jg1/lzms-True-0.wim\": 0 bytes of 0 bytes (0%) done\n\nVerifying file data: 0 bytes of 0 bytes (0%) done\n\n\"/tmp/wim-new-images-knf89jg1/lzms-True-0.wim\" was successfully verified.\n",
+      "metadata_listing_sha256": [],
+      "apply_images": 0,
+      "passed": true
+    },
+    {
+      "compression": "lzms",
+      "integrity": true,
+      "images": 1,
+      "sha256": "62396c2bc853cc38490613b3f20af51a35f2a72a54ccce076a6b233a820ca52c",
+      "size": 1237,
+      "verify": "\nVerifying integrity of \"/tmp/wim-new-images-knf89jg1/lzms-True-1.wim\": 0 bytes of 425 bytes (0%) done\nVerifying integrity of \"/tmp/wim-new-images-knf89jg1/lzms-True-1.wim\": 425 bytes of 425 bytes (100%) done\nVerifying metadata for image 1 of 1\n\nVerifying file data: 0 KiB of 150 KiB (0%) done\nVerifying file data: 32 KiB of 150 KiB (21%) done\nVerifying file data: 64 KiB of 150 KiB (42%) done\nVerifying file data: 96 KiB of 150 KiB (63%) done\nVerifying file data: 128 KiB of 150 KiB (85%) done\nVerifying file data: 150 KiB of 150 KiB (99%) done\nVerifying file data: 150 KiB of 150 KiB (100%) done\n\n\"/tmp/wim-new-images-knf89jg1/lzms-True-1.wim\" was successfully verified.\n",
+      "metadata_listing_sha256": [
+        "57dd500781afaa06a6537abaf3099fa39151238c45c0325795818ad502ff43f9"
+      ],
+      "apply_images": 1,
+      "passed": true
+    },
+    {
+      "compression": "lzms",
+      "integrity": true,
+      "images": 2,
+      "sha256": "5eebca449dd80f14a9753a693d6ba4273b244ba295e17a89b444686a5a6a569a",
+      "size": 2013,
+      "verify": "\nVerifying integrity of \"/tmp/wim-new-images-knf89jg1/lzms-True-2.wim\": 0 bytes of 653 bytes (0%) done\nVerifying integrity of \"/tmp/wim-new-images-knf89jg1/lzms-True-2.wim\": 653 bytes of 653 bytes (100%) done\nVerifying metadata for image 1 of 2\nVerifying metadata for image 2 of 2\n\nVerifying file data: 0 KiB of 150 KiB (0%) done\nVerifying file data: 32 KiB of 150 KiB (21%) done\nVerifying file data: 64 KiB of 150 KiB (42%) done\nVerifying file data: 96 KiB of 150 KiB (63%) done\nVerifying file data: 128 KiB of 150 KiB (85%) done\nVerifying file data: 150 KiB of 150 KiB (99%) done\nVerifying file data: 150 KiB of 150 KiB (100%) done\n\n\"/tmp/wim-new-images-knf89jg1/lzms-True-2.wim\" was successfully verified.\n",
+      "metadata_listing_sha256": [
+        "094f7b5709287959c6c2de2a3ec01e5bb967919361b261dbeca4cf45b9042580",
+        "094f7b5709287959c6c2de2a3ec01e5bb967919361b261dbeca4cf45b9042580"
+      ],
+      "apply_images": 2,
+      "passed": true
+    }
+  ],
+  "passed": 24,
+  "original": "/tmp/wimlib-native-oracle/wimlib-imagex"
+}

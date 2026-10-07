@@ -1,0 +1,259 @@
+{
+  "cases": 430,
+  "observations": 2988,
+  "mismatches": [
+    {
+      "case": 417,
+      "mode": 0,
+      "image": 1,
+      "flags": 0,
+      "status": 0,
+      "paths": [
+        "/"
+      ],
+      "stdin_hex": "",
+      "original_output_hex": "6f70656e20300a70726f6772657373203120312030203937203020312030203020300a70726f6772657373203320312030203937203020312030203020310a70726f6772657373203320312030203937203020312030203120310a6578747261637420320a6572726e6f2032320a",
+      "native_output_hex": "6f70656e20300a70726f6772657373203120312030203937203020312030203020300a70726f6772657373203320312030203937203020312030203020310a70726f6772657373203320312030203937203020312030203120310a6578747261637420320a6572726e6f203132330a",
+      "original_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": "unrestored filesystem creation time",
+          "atime": "unrestored filesystem creation time",
+          "xattrs": {}
+        },
+        {
+          "path": "2f66696c65",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": "unrestored filesystem creation time",
+          "atime": "unrestored filesystem creation time",
+          "inode_group": 0,
+          "sha1": "fa205d2a65684c6245a2272facf45fb12ace4014",
+          "size": 97,
+          "xattrs": {}
+        }
+      ],
+      "native_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": "unrestored filesystem creation time",
+          "atime": "unrestored filesystem creation time",
+          "xattrs": {}
+        },
+        {
+          "path": "2f66696c65",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": "unrestored filesystem creation time",
+          "atime": "unrestored filesystem creation time",
+          "inode_group": 0,
+          "sha1": "fa205d2a65684c6245a2272facf45fb12ace4014",
+          "size": 97,
+          "xattrs": {}
+        }
+      ]
+    },
+    {
+      "case": 418,
+      "mode": 0,
+      "image": 1,
+      "flags": 32,
+      "status": 0,
+      "paths": [
+        "/"
+      ],
+      "stdin_hex": "",
+      "original_output_hex": "6f70656e20300a70726f677265737320312031203332203937203020312030203020300a70726f677265737320332031203332203937203020312030203020310a70726f677265737320332031203332203937203020312030203120310a6578747261637420320a6572726e6f2032320a",
+      "native_output_hex": "6f70656e20300a70726f677265737320312031203332203937203020312030203020300a70726f677265737320332031203332203937203020312030203020310a70726f677265737320332031203332203937203020312030203120310a6578747261637420320a6572726e6f203132330a",
+      "original_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": "unrestored filesystem creation time",
+          "atime": "unrestored filesystem creation time",
+          "xattrs": {}
+        },
+        {
+          "path": "2f66696c65",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": "unrestored filesystem creation time",
+          "atime": "unrestored filesystem creation time",
+          "inode_group": 0,
+          "sha1": "fa205d2a65684c6245a2272facf45fb12ace4014",
+          "size": 97,
+          "xattrs": {}
+        }
+      ],
+      "native_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": "unrestored filesystem creation time",
+          "atime": "unrestored filesystem creation time",
+          "xattrs": {}
+        },
+        {
+          "path": "2f66696c65",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": "unrestored filesystem creation time",
+          "atime": "unrestored filesystem creation time",
+          "inode_group": 0,
+          "sha1": "fa205d2a65684c6245a2272facf45fb12ace4014",
+          "size": 97,
+          "xattrs": {}
+        }
+      ]
+    },
+    {
+      "case": 419,
+      "mode": 0,
+      "image": 1,
+      "flags": 128,
+      "status": 0,
+      "paths": [
+        "/"
+      ],
+      "stdin_hex": "",
+      "original_output_hex": "6f70656e20300a70726f67726573732031203120313238203937203020312030203020300a70726f67726573732033203120313238203937203020312030203020310a70726f67726573732033203120313238203937203020312030203120310a6578747261637420320a6572726e6f2032320a",
+      "native_output_hex": "6f70656e20300a70726f67726573732031203120313238203937203020312030203020300a70726f67726573732033203120313238203937203020312030203020310a70726f67726573732033203120313238203937203020312030203120310a6578747261637420320a6572726e6f203132330a",
+      "original_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": "unrestored filesystem creation time",
+          "atime": "unrestored filesystem creation time",
+          "xattrs": {}
+        },
+        {
+          "path": "2f66696c65",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": "unrestored filesystem creation time",
+          "atime": "unrestored filesystem creation time",
+          "inode_group": 0,
+          "sha1": "fa205d2a65684c6245a2272facf45fb12ace4014",
+          "size": 97,
+          "xattrs": {}
+        }
+      ],
+      "native_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": "unrestored filesystem creation time",
+          "atime": "unrestored filesystem creation time",
+          "xattrs": {}
+        },
+        {
+          "path": "2f66696c65",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": "unrestored filesystem creation time",
+          "atime": "unrestored filesystem creation time",
+          "inode_group": 0,
+          "sha1": "fa205d2a65684c6245a2272facf45fb12ace4014",
+          "size": 97,
+          "xattrs": {}
+        }
+      ]
+    },
+    {
+      "case": 420,
+      "mode": 0,
+      "image": 1,
+      "flags": 0,
+      "status": 0,
+      "paths": [
+        "file"
+      ],
+      "stdin_hex": "",
+      "original_output_hex": "6f70656e20300a70726f6772657373203120312030203937203020312030203020300a70726f6772657373203320312030203937203020312030203020310a70726f6772657373203320312030203937203020312030203120310a6578747261637420320a6572726e6f2032320a",
+      "native_output_hex": "6f70656e20300a70726f6772657373203120312030203937203020312030203020300a70726f6772657373203320312030203937203020312030203020310a70726f6772657373203320312030203937203020312030203120310a6578747261637420320a6572726e6f203132330a",
+      "original_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": "unrestored filesystem creation time",
+          "atime": "unrestored filesystem creation time",
+          "xattrs": {}
+        },
+        {
+          "path": "2f66696c65",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": "unrestored filesystem creation time",
+          "atime": "unrestored filesystem creation time",
+          "inode_group": 0,
+          "sha1": "fa205d2a65684c6245a2272facf45fb12ace4014",
+          "size": 97,
+          "xattrs": {}
+        }
+      ],
+      "native_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": "unrestored filesystem creation time",
+          "atime": "unrestored filesystem creation time",
+          "xattrs": {}
+        },
+        {
+          "path": "2f66696c65",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": "unrestored filesystem creation time",
+          "atime": "unrestored filesystem creation time",
+          "inode_group": 0,
+          "sha1": "fa205d2a65684c6245a2272facf45fb12ace4014",
+          "size": 97,
+          "xattrs": {}
+        }
+      ]
+    },
+    {
+      "case": 422,
+      "mode": 0,
+      "image": 1,
+      "flags": 1024,
+      "status": 0,
+      "paths": [
+        "file"
+      ],
+      "stdin_hex": "",
+      "original_output_hex": "6f70656e20300a6578747261637420320a6572726e6f2032320a",
+      "native_output_hex": "6f70656e20300a6578747261637420320a6572726e6f203132330a",
+      "original_tree": [],
+      "native_tree": []
+    }
+  ],
+  "source_preserved": true,
+  "oracle_cpu_workaround": "WIMLIB_DISABLE_CPU_FEATURES=sse4.2"
+}

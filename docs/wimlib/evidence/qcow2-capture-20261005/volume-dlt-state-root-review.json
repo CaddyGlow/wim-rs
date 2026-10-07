@@ -1,0 +1,34 @@
+{
+  "source_sha256": "90e3b46ddf24bc0d3f4f4ce7899d40dd4310bb4e8eb731a89064e48a678f75fa",
+  "artifact_hashes_verified": [
+    {
+      "role": "source",
+      "artifact": "/data/cache/qcow2-v12-offline-audit/source-volume-dlt-complete.json",
+      "sha256": "d4032136bd0b04d385d1abb0bce48bd170dc9a6895ab578151d7c0de887e28de",
+      "volume_object_id": "66810d707d6c0c45bedea5101764417b",
+      "tracking_log_present": true
+    },
+    {
+      "role": "target",
+      "artifact": "/data/cache/qcow2-v12-offline-audit/target-volume-dlt-complete.json",
+      "sha256": "c3796294d8ad8db8211da00e85126d0f6328da9e85e097fb0b2466366ee0a1f3",
+      "volume_object_id": "5cf084c6d6be1c468ce8ab9cbce61782",
+      "tracking_log_present": true
+    },
+    {
+      "role": "scratch",
+      "artifact": "/data/cache/qcow2-v12-offline-audit/scratch-volume-dlt-complete.json",
+      "sha256": "39ea430e5621cdcc0619c075d3fc0a3a5cd33f331dc1744e34b91b7a75ec94c4",
+      "volume_object_id": null,
+      "tracking_log_present": false
+    },
+    {
+      "role": "reboot-scratch",
+      "artifact": "/data/cache/qcow2-v12-offline-audit/reboot-scratch-volume-dlt-complete.json",
+      "sha256": "3bd739b54fe1a31820924046aa08387d3f8fdfb0361a9dd4ba1d3a80e1b88156",
+      "volume_object_id": "cc5ec5dd4c7fa24da1b41b2c2ac3826d",
+      "tracking_log_present": true
+    }
+  ],
+  "scope": "Independent receipt hash verification and capture-code review; runtime preservation not established."
+}

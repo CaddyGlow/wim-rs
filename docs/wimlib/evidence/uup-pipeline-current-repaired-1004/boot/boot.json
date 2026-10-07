@@ -1,0 +1,158 @@
+{
+  "iso": "/data/cache/wim-uup-current-1004-validated.iso",
+  "iso_sha256": "042df5114a6ac5c910c9a5e2f1179d9bd1079f6db9d5e67fd4166863faa49094",
+  "verification": "docs/wimlib/evidence/uup-pipeline-current-repaired-1004/media-verification.json",
+  "cases": {
+    "bios": {
+      "pid": 713906,
+      "command": [
+        "qemu-system-x86_64",
+        "-name",
+        "rust-uup-bios",
+        "-enable-kvm",
+        "-machine",
+        "pc",
+        "-cpu",
+        "host",
+        "-m",
+        "4096",
+        "-smp",
+        "2",
+        "-drive",
+        "file=/home/rick/projects-caddy/windows-uup/vm-state/uup-current-boot-kvm-1004/bios/disk.qcow2,format=qcow2,if=ide,index=0",
+        "-drive",
+        "file=/data/cache/wim-uup-current-1004-validated.iso,format=raw,media=cdrom,readonly=on,if=ide,index=2",
+        "-boot",
+        "order=d,menu=off",
+        "-nic",
+        "none",
+        "-display",
+        "none",
+        "-serial",
+        "file:/home/rick/projects-caddy/windows-uup/vm-state/uup-current-boot-kvm-1004/bios/serial.log",
+        "-monitor",
+        "none",
+        "-qmp",
+        "unix:/home/rick/projects-caddy/windows-uup/vm-state/uup-current-boot-kvm-1004/bios/qmp.sock,server=on,wait=off"
+      ],
+      "visual_result": "Windows Setup language selection (English United States)",
+      "stopped": true,
+      "screenshots": {
+        "screen.png": "3b440a9eb698db131343add28a067786786b177dfd2334816b0a38e0e8662d85"
+      }
+    },
+    "uefi": {
+      "pid": 714590,
+      "command": [
+        "qemu-system-x86_64",
+        "-name",
+        "rust-uup-uefi",
+        "-enable-kvm",
+        "-machine",
+        "q35,smm=on",
+        "-cpu",
+        "host",
+        "-m",
+        "4096",
+        "-smp",
+        "2",
+        "-drive",
+        "if=pflash,format=raw,unit=0,readonly=on,file=/nix/store/4niahir8rg3205w1fdy1slb3iqqxlp32-OVMF-202608-fd/FV/OVMF_CODE.fd",
+        "-drive",
+        "if=pflash,format=raw,unit=1,file=/home/rick/projects-caddy/windows-uup/vm-state/uup-current-boot-kvm-1004/uefi/OVMF_VARS.fd",
+        "-device",
+        "ich9-ahci,id=sata",
+        "-drive",
+        "if=none,id=disk,file=/home/rick/projects-caddy/windows-uup/vm-state/uup-current-boot-kvm-1004/uefi/disk.qcow2,format=qcow2",
+        "-device",
+        "ide-hd,bus=sata.0,drive=disk",
+        "-drive",
+        "if=none,id=iso,file=/data/cache/wim-uup-current-1004-validated.iso,format=raw,media=cdrom,readonly=on",
+        "-device",
+        "ide-cd,bus=sata.2,drive=iso,bootindex=0",
+        "-boot",
+        "order=d,menu=off",
+        "-nic",
+        "none",
+        "-display",
+        "none",
+        "-serial",
+        "file:/home/rick/projects-caddy/windows-uup/vm-state/uup-current-boot-kvm-1004/uefi/serial.log",
+        "-monitor",
+        "none",
+        "-qmp",
+        "unix:/home/rick/projects-caddy/windows-uup/vm-state/uup-current-boot-kvm-1004/uefi/qmp.sock,server=on,wait=off"
+      ],
+      "visual_result": "Windows Setup language selection (English United States)",
+      "stopped": true,
+      "screenshots": {
+        "screen.png": "92c000a2ebb83edaa544c82bd4841e21b54ecdea87bbbc9987bea7fde6cc180e"
+      }
+    },
+    "secure": {
+      "pid": 715886,
+      "command": [
+        "qemu-system-x86_64",
+        "-name",
+        "rust-uup-secure",
+        "-enable-kvm",
+        "-machine",
+        "q35,smm=on",
+        "-cpu",
+        "host",
+        "-m",
+        "4096",
+        "-smp",
+        "2",
+        "-drive",
+        "if=pflash,format=raw,unit=0,readonly=on,file=/nix/store/4niahir8rg3205w1fdy1slb3iqqxlp32-OVMF-202608-fd/FV/OVMF_CODE.fd",
+        "-drive",
+        "if=pflash,format=raw,unit=1,file=/home/rick/projects-caddy/windows-uup/vm-state/uup-current-boot-kvm-1004/secure/OVMF_VARS.fd",
+        "-device",
+        "ich9-ahci,id=sata",
+        "-drive",
+        "if=none,id=disk,file=/home/rick/projects-caddy/windows-uup/vm-state/uup-current-boot-kvm-1004/secure/disk.qcow2,format=qcow2",
+        "-device",
+        "ide-hd,bus=sata.0,drive=disk",
+        "-drive",
+        "if=none,id=iso,file=/data/cache/wim-uup-current-1004-validated.iso,format=raw,media=cdrom,readonly=on",
+        "-device",
+        "ide-cd,bus=sata.2,drive=iso,bootindex=0",
+        "-boot",
+        "order=d,menu=off",
+        "-nic",
+        "none",
+        "-display",
+        "none",
+        "-serial",
+        "file:/home/rick/projects-caddy/windows-uup/vm-state/uup-current-boot-kvm-1004/secure/serial.log",
+        "-monitor",
+        "none",
+        "-qmp",
+        "unix:/home/rick/projects-caddy/windows-uup/vm-state/uup-current-boot-kvm-1004/secure/qmp.sock,server=on,wait=off"
+      ],
+      "visual_result": "Windows Setup language selection (English United States)",
+      "state_query_commands": [
+        "wpeutil updatebootinfo",
+        "reg query hklm\\system\\currentcontrolset\\control\\secureboot\\state"
+      ],
+      "stopped": true,
+      "screenshots": {
+        "secure-state.png": "52294facd06dbfd56c81b5c5811ef5d0139f885c68e7636c2f907501245e6767",
+        "screen.png": "92c000a2ebb83edaa544c82bd4841e21b54ecdea87bbbc9987bea7fde6cc180e"
+      },
+      "uefi_secure_boot_enabled": "0x1 (observed WinPE registry query screenshot)"
+    }
+  },
+  "scope": "Setup boot only; no installed-target verification",
+  "startup_failures": [
+    {
+      "state": "docs/wimlib/evidence/uup-pipeline-current-repaired-1004/boot-start-path-failure",
+      "reason": "Unix socket path exceeded 108-byte limit"
+    },
+    {
+      "state": "vm-state/uup-current-boot-1004",
+      "reason": "Sandbox did not expose /dev/kvm; retried with approved host access"
+    }
+  ]
+}

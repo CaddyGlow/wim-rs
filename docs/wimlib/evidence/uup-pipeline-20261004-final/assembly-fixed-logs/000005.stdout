@@ -1,0 +1,21 @@
+Microsoft (R) File Expansion Utility
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-2\$filehashes$.dat to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-2\amd64_microsoft-windows-h..igration-deployment_31bf3856ad364e35_10.0.19041.1_none_b605069dd0cd0f88.manifest to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-2\amd64_microsoft-windows-hello-face-migration_31bf3856ad364e35_10.0.19041.1_none_dd1086133f290e30\FaceRecognitionEngineAdapterLegacyV1Resources.dll to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-2\amd64_microsoft-windows-hello-face-migration_31bf3856ad364e35_10.0.19041.1_none_dd1086133f290e30\FaceRecognitionEngineAdapterResources.dll to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-2\amd64_microsoft-windows-hello-face-migration_31bf3856ad364e35_10.0.19041.1_none_dd1086133f290e30\FaceRecognitionEngineAdapterResources_v2.dll to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-2\amd64_microsoft-windows-hello-face-migration_31bf3856ad364e35_10.0.19041.1_none_dd1086133f290e30\FaceRecognitionEngineAdapterResources_v3.dll to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-2\amd64_microsoft-windows-hello-face-migration_31bf3856ad364e35_10.0.19041.1_none_dd1086133f290e30\HelloFaceMigration.cat to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-2\amd64_microsoft-windows-hello-face-migration_31bf3856ad364e35_10.0.19041.1_none_dd1086133f290e30\HelloFaceMigration.inf to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-2\amd64_microsoft-windows-hello-face-migration_31bf3856ad364e35_10.0.19041.1_none_dd1086133f290e30.manifest to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-2\Microsoft-Windows-Hello-Face-Migration-Package~31bf3856ad364e35~amd64~~10.0.19041.1.cat to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-2\Microsoft-Windows-Hello-Face-Migration-Package~31bf3856ad364e35~amd64~~10.0.19041.1.mum to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-2\update.cat to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-2\update.mum to Extraction Queue
+
+Expanding Files ....
+
+Expanding Files Complete ...
+13 files total.

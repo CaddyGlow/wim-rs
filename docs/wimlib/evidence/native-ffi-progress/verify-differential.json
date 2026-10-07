@@ -1,0 +1,488 @@
+[
+  {
+    "source": "new",
+    "status": 0,
+    "event": 0,
+    "action": 0,
+    "observations": [
+      "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+      "offset image 0 8 12 streams 0 8 16 24 32",
+      "event 1 29 streams 0 0 bytes 0 0 file NULL",
+      "result 0"
+    ],
+    "native": [
+      "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+      "offset image 0 8 12 streams 0 8 16 24 32",
+      "event 1 29 streams 0 0 bytes 0 0 file NULL",
+      "result 0"
+    ],
+    "match": true,
+    "exit": 0
+  },
+  {
+    "source": "new",
+    "status": 1,
+    "event": 27,
+    "action": 0,
+    "observations": [
+      "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+      "offset image 0 8 12 streams 0 8 16 24 32",
+      "event 1 29 streams 0 0 bytes 0 0 file NULL",
+      "result 0"
+    ],
+    "native": [
+      "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+      "offset image 0 8 12 streams 0 8 16 24 32",
+      "event 1 29 streams 0 0 bytes 0 0 file NULL",
+      "result 0"
+    ],
+    "match": true,
+    "exit": 0
+  },
+  {
+    "source": "new",
+    "status": 2,
+    "event": 28,
+    "action": 0,
+    "observations": [
+      "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+      "offset image 0 8 12 streams 0 8 16 24 32",
+      "event 1 29 streams 0 0 bytes 0 0 file NULL",
+      "result 0"
+    ],
+    "native": [
+      "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+      "offset image 0 8 12 streams 0 8 16 24 32",
+      "event 1 29 streams 0 0 bytes 0 0 file NULL",
+      "result 0"
+    ],
+    "match": true,
+    "exit": 0
+  },
+  {
+    "source": "new",
+    "status": -1,
+    "event": 29,
+    "action": 0,
+    "observations": [
+      "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+      "offset image 0 8 12 streams 0 8 16 24 32",
+      "event 1 29 streams 0 0 bytes 0 0 file NULL",
+      "result 77"
+    ],
+    "native": [
+      "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+      "offset image 0 8 12 streams 0 8 16 24 32",
+      "event 1 29 streams 0 0 bytes 0 0 file NULL",
+      "result 77"
+    ],
+    "match": true,
+    "exit": 0
+  },
+  {
+    "source": "new",
+    "status": 0,
+    "event": 0,
+    "action": 1,
+    "observations": [
+      "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+      "offset image 0 8 12 streams 0 8 16 24 32",
+      "event 1 29 streams 0 0 bytes 0 0 file NULL",
+      "result 0"
+    ],
+    "native": [
+      "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+      "offset image 0 8 12 streams 0 8 16 24 32",
+      "event 1 29 streams 0 0 bytes 0 0 file NULL",
+      "result 0"
+    ],
+    "match": true,
+    "exit": 0
+  },
+  {
+    "source": "new",
+    "status": 0,
+    "event": 0,
+    "action": 2,
+    "observations": [
+      "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+      "offset image 0 8 12 streams 0 8 16 24 32",
+      "event 1 29 streams 0 0 bytes 0 0 file NULL",
+      "result 0"
+    ],
+    "native": [
+      "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+      "offset image 0 8 12 streams 0 8 16 24 32",
+      "event 1 29 streams 0 0 bytes 0 0 file NULL",
+      "result 0"
+    ],
+    "match": true,
+    "exit": 0
+  },
+  {
+    "source": "new",
+    "status": 0,
+    "event": 0,
+    "action": 3,
+    "observations": [
+      "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+      "offset image 0 8 12 streams 0 8 16 24 32",
+      "event 1 29 streams 0 0 bytes 0 0 file NULL",
+      "result 0"
+    ],
+    "native": [
+      "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+      "offset image 0 8 12 streams 0 8 16 24 32",
+      "event 1 29 streams 0 0 bytes 0 0 file NULL",
+      "result 0"
+    ],
+    "match": true,
+    "exit": 0
+  },
+  {
+    "source": "/tmp/metadata-native.wim",
+    "status": 0,
+    "event": 0,
+    "action": 0,
+    "observations": [
+      "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+      "offset image 0 8 12 streams 0 8 16 24 32",
+      "event 1 27 image 1 1 file /tmp/metadata-native.wim",
+      "event 1 28 image 1 1 file /tmp/metadata-native.wim",
+      "event 1 29 streams 0 2 bytes 0 63 file /tmp/metadata-native.wim",
+      "event 1 29 streams 1 2 bytes 15 63 file /tmp/metadata-native.wim",
+      "event 1 29 streams 2 2 bytes 63 63 file /tmp/metadata-native.wim",
+      "result 0"
+    ],
+    "native": [
+      "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+      "offset image 0 8 12 streams 0 8 16 24 32",
+      "event 1 27 image 1 1 file /tmp/metadata-native.wim",
+      "event 1 28 image 1 1 file /tmp/metadata-native.wim",
+      "event 1 29 streams 0 2 bytes 0 63 file /tmp/metadata-native.wim",
+      "event 1 29 streams 1 2 bytes 15 63 file /tmp/metadata-native.wim",
+      "event 1 29 streams 2 2 bytes 63 63 file /tmp/metadata-native.wim",
+      "result 0"
+    ],
+    "match": true,
+    "exit": 0
+  },
+  {
+    "source": "/tmp/metadata-native.wim",
+    "status": 1,
+    "event": 27,
+    "action": 0,
+    "observations": [
+      "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+      "offset image 0 8 12 streams 0 8 16 24 32",
+      "event 1 27 image 1 1 file /tmp/metadata-native.wim",
+      "result 76"
+    ],
+    "native": [
+      "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+      "offset image 0 8 12 streams 0 8 16 24 32",
+      "event 1 27 image 1 1 file /tmp/metadata-native.wim",
+      "result 76"
+    ],
+    "match": true,
+    "exit": 0
+  },
+  {
+    "source": "/tmp/metadata-native.wim",
+    "status": 2,
+    "event": 28,
+    "action": 0,
+    "observations": [
+      "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+      "offset image 0 8 12 streams 0 8 16 24 32",
+      "event 1 27 image 1 1 file /tmp/metadata-native.wim",
+      "event 1 28 image 1 1 file /tmp/metadata-native.wim",
+      "result 77"
+    ],
+    "native": [
+      "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+      "offset image 0 8 12 streams 0 8 16 24 32",
+      "event 1 27 image 1 1 file /tmp/metadata-native.wim",
+      "event 1 28 image 1 1 file /tmp/metadata-native.wim",
+      "result 77"
+    ],
+    "match": true,
+    "exit": 0
+  },
+  {
+    "source": "/tmp/metadata-native.wim",
+    "status": -1,
+    "event": 29,
+    "action": 0,
+    "observations": [
+      "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+      "offset image 0 8 12 streams 0 8 16 24 32",
+      "event 1 27 image 1 1 file /tmp/metadata-native.wim",
+      "event 1 28 image 1 1 file /tmp/metadata-native.wim",
+      "event 1 29 streams 0 2 bytes 0 63 file /tmp/metadata-native.wim",
+      "result 77"
+    ],
+    "native": [
+      "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+      "offset image 0 8 12 streams 0 8 16 24 32",
+      "event 1 27 image 1 1 file /tmp/metadata-native.wim",
+      "event 1 28 image 1 1 file /tmp/metadata-native.wim",
+      "event 1 29 streams 0 2 bytes 0 63 file /tmp/metadata-native.wim",
+      "result 77"
+    ],
+    "match": true,
+    "exit": 0
+  },
+  {
+    "source": "/tmp/metadata-native.wim",
+    "status": 0,
+    "event": 0,
+    "action": 1,
+    "observations": [
+      "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+      "offset image 0 8 12 streams 0 8 16 24 32",
+      "event 1 27 image 1 1 file /tmp/metadata-native.wim",
+      "result 0"
+    ],
+    "native": [
+      "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+      "offset image 0 8 12 streams 0 8 16 24 32",
+      "event 1 27 image 1 1 file /tmp/metadata-native.wim",
+      "result 0"
+    ],
+    "match": true,
+    "exit": 0
+  },
+  {
+    "source": "/tmp/metadata-native.wim",
+    "status": 0,
+    "event": 0,
+    "action": 2,
+    "observations": [
+      "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+      "offset image 0 8 12 streams 0 8 16 24 32",
+      "event 1 27 image 1 1 file /tmp/metadata-native.wim",
+      "event 2 28 image 1 1 file /tmp/metadata-native.wim",
+      "event 2 29 streams 0 2 bytes 0 63 file /tmp/metadata-native.wim",
+      "event 2 29 streams 1 2 bytes 15 63 file /tmp/metadata-native.wim",
+      "event 2 29 streams 2 2 bytes 63 63 file /tmp/metadata-native.wim",
+      "result 0"
+    ],
+    "native": [
+      "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+      "offset image 0 8 12 streams 0 8 16 24 32",
+      "event 1 27 image 1 1 file /tmp/metadata-native.wim",
+      "event 2 28 image 1 1 file /tmp/metadata-native.wim",
+      "event 2 29 streams 0 2 bytes 0 63 file /tmp/metadata-native.wim",
+      "event 2 29 streams 1 2 bytes 15 63 file /tmp/metadata-native.wim",
+      "event 2 29 streams 2 2 bytes 63 63 file /tmp/metadata-native.wim",
+      "result 0"
+    ],
+    "match": true,
+    "exit": 0
+  },
+  {
+    "source": "/tmp/metadata-native.wim",
+    "status": 0,
+    "event": 0,
+    "action": 3,
+    "observations": [
+      "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+      "offset image 0 8 12 streams 0 8 16 24 32",
+      "event 1 27 image 1 1 file /tmp/metadata-native.wim",
+      "event 1 28 image 1 1 file /tmp/metadata-native.wim",
+      "event 1 29 streams 0 2 bytes 0 63 file /tmp/metadata-native.wim",
+      "event 1 29 streams 1 2 bytes 15 63 file /tmp/metadata-native.wim",
+      "event 1 29 streams 2 2 bytes 63 63 file /tmp/metadata-native.wim",
+      "result 0"
+    ],
+    "native": [
+      "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+      "offset image 0 8 12 streams 0 8 16 24 32",
+      "event 1 27 image 1 1 file /tmp/metadata-native.wim",
+      "event 1 28 image 1 1 file /tmp/metadata-native.wim",
+      "event 1 29 streams 0 2 bytes 0 63 file /tmp/metadata-native.wim",
+      "event 1 29 streams 1 2 bytes 15 63 file /tmp/metadata-native.wim",
+      "event 1 29 streams 2 2 bytes 63 63 file /tmp/metadata-native.wim",
+      "result 0"
+    ],
+    "match": true,
+    "exit": 0
+  },
+  {
+    "source": "/tmp/wim-resource-xpress.wim",
+    "status": 0,
+    "event": 0,
+    "action": 0,
+    "observations": [
+      "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+      "offset image 0 8 12 streams 0 8 16 24 32",
+      "event 1 27 image 1 1 file /tmp/wim-resource-xpress.wim",
+      "event 1 28 image 1 1 file /tmp/wim-resource-xpress.wim",
+      "event 1 29 streams 0 1 bytes 0 76810 file /tmp/wim-resource-xpress.wim",
+      "event 1 29 streams 0 1 bytes 32768 76810 file /tmp/wim-resource-xpress.wim",
+      "event 1 29 streams 0 1 bytes 65536 76810 file /tmp/wim-resource-xpress.wim",
+      "event 1 29 streams 1 1 bytes 76810 76810 file /tmp/wim-resource-xpress.wim",
+      "result 0"
+    ],
+    "native": [
+      "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+      "offset image 0 8 12 streams 0 8 16 24 32",
+      "event 1 27 image 1 1 file /tmp/wim-resource-xpress.wim",
+      "event 1 28 image 1 1 file /tmp/wim-resource-xpress.wim",
+      "event 1 29 streams 0 1 bytes 0 76810 file /tmp/wim-resource-xpress.wim",
+      "event 1 29 streams 0 1 bytes 32768 76810 file /tmp/wim-resource-xpress.wim",
+      "event 1 29 streams 0 1 bytes 65536 76810 file /tmp/wim-resource-xpress.wim",
+      "event 1 29 streams 1 1 bytes 76810 76810 file /tmp/wim-resource-xpress.wim",
+      "result 0"
+    ],
+    "match": true,
+    "exit": 0
+  },
+  {
+    "source": "/tmp/wim-resource-xpress.wim",
+    "status": 1,
+    "event": 27,
+    "action": 0,
+    "observations": [
+      "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+      "offset image 0 8 12 streams 0 8 16 24 32",
+      "event 1 27 image 1 1 file /tmp/wim-resource-xpress.wim",
+      "result 76"
+    ],
+    "native": [
+      "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+      "offset image 0 8 12 streams 0 8 16 24 32",
+      "event 1 27 image 1 1 file /tmp/wim-resource-xpress.wim",
+      "result 76"
+    ],
+    "match": true,
+    "exit": 0
+  },
+  {
+    "source": "/tmp/wim-resource-xpress.wim",
+    "status": 2,
+    "event": 28,
+    "action": 0,
+    "observations": [
+      "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+      "offset image 0 8 12 streams 0 8 16 24 32",
+      "event 1 27 image 1 1 file /tmp/wim-resource-xpress.wim",
+      "event 1 28 image 1 1 file /tmp/wim-resource-xpress.wim",
+      "result 77"
+    ],
+    "native": [
+      "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+      "offset image 0 8 12 streams 0 8 16 24 32",
+      "event 1 27 image 1 1 file /tmp/wim-resource-xpress.wim",
+      "event 1 28 image 1 1 file /tmp/wim-resource-xpress.wim",
+      "result 77"
+    ],
+    "match": true,
+    "exit": 0
+  },
+  {
+    "source": "/tmp/wim-resource-xpress.wim",
+    "status": -1,
+    "event": 29,
+    "action": 0,
+    "observations": [
+      "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+      "offset image 0 8 12 streams 0 8 16 24 32",
+      "event 1 27 image 1 1 file /tmp/wim-resource-xpress.wim",
+      "event 1 28 image 1 1 file /tmp/wim-resource-xpress.wim",
+      "event 1 29 streams 0 1 bytes 0 76810 file /tmp/wim-resource-xpress.wim",
+      "result 77"
+    ],
+    "native": [
+      "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+      "offset image 0 8 12 streams 0 8 16 24 32",
+      "event 1 27 image 1 1 file /tmp/wim-resource-xpress.wim",
+      "event 1 28 image 1 1 file /tmp/wim-resource-xpress.wim",
+      "event 1 29 streams 0 1 bytes 0 76810 file /tmp/wim-resource-xpress.wim",
+      "result 77"
+    ],
+    "match": true,
+    "exit": 0
+  },
+  {
+    "source": "/tmp/wim-resource-xpress.wim",
+    "status": 0,
+    "event": 0,
+    "action": 1,
+    "observations": [
+      "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+      "offset image 0 8 12 streams 0 8 16 24 32",
+      "event 1 27 image 1 1 file /tmp/wim-resource-xpress.wim",
+      "result 0"
+    ],
+    "native": [
+      "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+      "offset image 0 8 12 streams 0 8 16 24 32",
+      "event 1 27 image 1 1 file /tmp/wim-resource-xpress.wim",
+      "result 0"
+    ],
+    "match": true,
+    "exit": 0
+  },
+  {
+    "source": "/tmp/wim-resource-xpress.wim",
+    "status": 0,
+    "event": 0,
+    "action": 2,
+    "observations": [
+      "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+      "offset image 0 8 12 streams 0 8 16 24 32",
+      "event 1 27 image 1 1 file /tmp/wim-resource-xpress.wim",
+      "event 2 28 image 1 1 file /tmp/wim-resource-xpress.wim",
+      "event 2 29 streams 0 1 bytes 0 76810 file /tmp/wim-resource-xpress.wim",
+      "event 2 29 streams 0 1 bytes 32768 76810 file /tmp/wim-resource-xpress.wim",
+      "event 2 29 streams 0 1 bytes 65536 76810 file /tmp/wim-resource-xpress.wim",
+      "event 2 29 streams 1 1 bytes 76810 76810 file /tmp/wim-resource-xpress.wim",
+      "result 0"
+    ],
+    "native": [
+      "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+      "offset image 0 8 12 streams 0 8 16 24 32",
+      "event 1 27 image 1 1 file /tmp/wim-resource-xpress.wim",
+      "event 2 28 image 1 1 file /tmp/wim-resource-xpress.wim",
+      "event 2 29 streams 0 1 bytes 0 76810 file /tmp/wim-resource-xpress.wim",
+      "event 2 29 streams 0 1 bytes 32768 76810 file /tmp/wim-resource-xpress.wim",
+      "event 2 29 streams 0 1 bytes 65536 76810 file /tmp/wim-resource-xpress.wim",
+      "event 2 29 streams 1 1 bytes 76810 76810 file /tmp/wim-resource-xpress.wim",
+      "result 0"
+    ],
+    "match": true,
+    "exit": 0
+  },
+  {
+    "source": "/tmp/wim-resource-xpress.wim",
+    "status": 0,
+    "event": 0,
+    "action": 3,
+    "observations": [
+      "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+      "offset image 0 8 12 streams 0 8 16 24 32",
+      "event 1 27 image 1 1 file /tmp/wim-resource-xpress.wim",
+      "event 1 28 image 1 1 file /tmp/wim-resource-xpress.wim",
+      "event 1 29 streams 0 1 bytes 0 76810 file /tmp/wim-resource-xpress.wim",
+      "event 1 29 streams 0 1 bytes 32768 76810 file /tmp/wim-resource-xpress.wim",
+      "event 1 29 streams 0 1 bytes 65536 76810 file /tmp/wim-resource-xpress.wim",
+      "event 1 29 streams 1 1 bytes 76810 76810 file /tmp/wim-resource-xpress.wim",
+      "result 0"
+    ],
+    "native": [
+      "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+      "offset image 0 8 12 streams 0 8 16 24 32",
+      "event 1 27 image 1 1 file /tmp/wim-resource-xpress.wim",
+      "event 1 28 image 1 1 file /tmp/wim-resource-xpress.wim",
+      "event 1 29 streams 0 1 bytes 0 76810 file /tmp/wim-resource-xpress.wim",
+      "event 1 29 streams 0 1 bytes 32768 76810 file /tmp/wim-resource-xpress.wim",
+      "event 1 29 streams 0 1 bytes 65536 76810 file /tmp/wim-resource-xpress.wim",
+      "event 1 29 streams 1 1 bytes 76810 76810 file /tmp/wim-resource-xpress.wim",
+      "result 0"
+    ],
+    "match": true,
+    "exit": 0
+  }
+]

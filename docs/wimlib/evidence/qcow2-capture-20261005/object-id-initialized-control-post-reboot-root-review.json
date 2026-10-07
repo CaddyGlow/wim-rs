@@ -1,0 +1,9 @@
+{
+  "pre_report_sha256": "ae0e8f88225c7676d37a33afdd784a049f3433fe3d4b61d4940bf694804997ba",
+  "post_report_sha256": "0ec16adaf324b24d4a37ebd888728996e734a7c74e833f3b3fa755b2fff43751",
+  "post_boot": "2026-10-05T22:44:57.5000000Z",
+  "verified_observations": 3,
+  "full64_exact": true,
+  "complete24_identity_exact": true,
+  "scope": "Independent actual online post-reboot byte comparison. Native clean post-reboot persistence/context audit remains pending; no production installed metadata gate pass."
+}

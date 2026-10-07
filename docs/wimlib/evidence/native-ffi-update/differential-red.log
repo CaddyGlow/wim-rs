@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/rick/projects-caddy/windows-uup/scripts/wimlib/check-update-api.py", line 33, in <module>
+    assert outputs[0]==outputs[1],(arguments,outputs)
+           ^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: (['6', '0', '0', '1', '1', '0'], [b'result:0:errno:2\nentry:/:16:0\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/new:128:1300\nentry:/other:128:1300\ntree:0\n', b'result:24:errno:0\nentry:/:16:0\nentry:/alias:128:1300\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/file:128:1300\ntree:0\n'])

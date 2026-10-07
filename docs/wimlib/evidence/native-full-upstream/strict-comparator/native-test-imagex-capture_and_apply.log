@@ -1,0 +1,154 @@
+--------------------------------------------------------------------
+Testing image capture and application of directory containing nothing
+--------------------------------------------------------------------
+Scanning "in.dir"
+0 bytes scanned (0 files, 1 directories)    0 bytes scanned (0 files, 1 directories)    
+--------------------------------------------------------------------
+Testing image capture and application of directory containing a single file
+--------------------------------------------------------------------
+Scanning "in.dir"
+2 bytes scanned (1 files, 0 directories)    2 bytes scanned (1 files, 1 directories)    
+Archiving file data: 0 bytes of 2 bytes (0%) doneArchiving file data: 2 bytes of 2 bytes (100%) done
+--------------------------------------------------------------------
+Testing image capture and application of directory containing a single directory
+--------------------------------------------------------------------
+Scanning "in.dir"
+0 bytes scanned (0 files, 1 directories)    0 bytes scanned (0 files, 2 directories)    
+--------------------------------------------------------------------
+Testing image capture and application of directory containing subdirectory with file
+--------------------------------------------------------------------
+Scanning "in.dir"
+2 bytes scanned (1 files, 0 directories)    2 bytes scanned (1 files, 2 directories)    
+Archiving file data: 0 bytes of 2 bytes (0%) doneArchiving file data: 2 bytes of 2 bytes (100%) done
+--------------------------------------------------------------------
+Testing image capture and application of directory containing empty file
+--------------------------------------------------------------------
+Scanning "in.dir"
+0 bytes scanned (1 files, 0 directories)    0 bytes scanned (1 files, 1 directories)    
+--------------------------------------------------------------------
+Testing image capture and application of directory containing two empty files
+--------------------------------------------------------------------
+Scanning "in.dir"
+0 bytes scanned (1 files, 0 directories)    0 bytes scanned (2 files, 1 directories)    
+--------------------------------------------------------------------
+Testing image capture and application of directory containing hard link in same directory
+--------------------------------------------------------------------
+Scanning "in.dir"
+2 bytes scanned (1 files, 0 directories)    2 bytes scanned (2 files, 1 directories)    
+Archiving file data: 0 bytes of 2 bytes (0%) doneArchiving file data: 2 bytes of 2 bytes (100%) done
+--------------------------------------------------------------------
+Testing image capture and application of directory containing hard link between empty files
+--------------------------------------------------------------------
+Scanning "in.dir"
+0 bytes scanned (1 files, 0 directories)    0 bytes scanned (2 files, 1 directories)    
+--------------------------------------------------------------------
+Testing image capture and application of directory containing relative symbolic link
+--------------------------------------------------------------------
+Scanning "in.dir"
+2 bytes scanned (1 files, 0 directories)    34 bytes scanned (2 files, 1 directories)    
+Archiving file data: 0 bytes of 34 bytes (0%) doneArchiving file data: 2 bytes of 34 bytes (5%) doneArchiving file data: 34 bytes of 34 bytes (100%) done
+--------------------------------------------------------------------
+Testing image capture and application of directory containing absolute symbolic link
+--------------------------------------------------------------------
+Scanning "in.dir"
+2 bytes scanned (1 files, 0 directories)    118 bytes scanned (2 files, 1 directories)    
+Archiving file data: 0 bytes of 118 bytes (0%) doneArchiving file data: 2 bytes of 118 bytes (1%) doneArchiving file data: 118 bytes of 118 bytes (100%) done
+--------------------------------------------------------------------
+Testing image capture and application of directory containing large file
+--------------------------------------------------------------------
+Scanning "in.dir"
+40 KiB scanned (1 files, 0 directories)    40 KiB scanned (1 files, 1 directories)    
+Archiving file data: 0 KiB of 40 KiB (0%) doneArchiving file data: 32 KiB of 40 KiB (80%) doneArchiving file data: 40 KiB of 40 KiB (100%) done
+--------------------------------------------------------------------
+Testing image capture and application of directory containing many nested directories
+--------------------------------------------------------------------
+Scanning "in.dir"
+0 bytes scanned (0 files, 1 directories)    0 bytes scanned (0 files, 5 directories)    
+--------------------------------------------------------------------
+Testing image capture and application of directory containing identical files and symlinks in subdirectory
+--------------------------------------------------------------------
+Scanning "in.dir"
+32 bytes scanned (1 files, 0 directories)    80 bytes scanned (4 files, 2 directories)    
+Archiving file data: 0 bytes of 76 bytes (0%) doneArchiving file data: 4 bytes of 76 bytes (5%) doneArchiving file data: 36 bytes of 76 bytes (47%) doneArchiving file data: 76 bytes of 76 bytes (100%) done
+--------------------------------------------------------------------
+Testing image capture and application of directory containing hard link group and identical files not hard linked
+--------------------------------------------------------------------
+Scanning "in.dir"
+4 bytes scanned (1 files, 0 directories)    12 bytes scanned (5 files, 1 directories)    
+Archiving file data: 0 bytes of 4 bytes (0%) doneArchiving file data: 4 bytes of 4 bytes (100%) done
+--------------------------------------------------------------------
+Testing image capture and application of directory containing C source code of wimlib
+--------------------------------------------------------------------
+Scanning "in.dir"
+33 KiB scanned (1 files, 0 directories)    1649 KiB scanned (73 files, 1 directories)    
+Archiving file data: 0 KiB of 1649 KiB (0%) doneArchiving file data: 4 KiB of 1649 KiB (0%) doneArchiving file data: 28 KiB of 1649 KiB (1%) doneArchiving file data: 60 KiB of 1649 KiB (3%) doneArchiving file data: 96 KiB of 1649 KiB (5%) doneArchiving file data: 119 KiB of 1649 KiB (7%) doneArchiving file data: 138 KiB of 1649 KiB (8%) doneArchiving file data: 170 KiB of 1649 KiB (10%) doneArchiving file data: 196 KiB of 1649 KiB (11%) doneArchiving file data: 228 KiB of 1649 KiB (13%) doneArchiving file data: 256 KiB of 1649 KiB (15%) doneArchiving file data: 276 KiB of 1649 KiB (16%) doneArchiving file data: 308 KiB of 1649 KiB (18%) doneArchiving file data: 335 KiB of 1649 KiB (20%) doneArchiving file data: 366 KiB of 1649 KiB (22%) doneArchiving file data: 392 KiB of 1649 KiB (23%) doneArchiving file data: 429 KiB of 1649 KiB (26%) doneArchiving file data: 454 KiB of 1649 KiB (27%) doneArchiving file data: 486 KiB of 1649 KiB (29%) doneArchiving file data: 518 KiB of 1649 KiB (31%) doneArchiving file data: 556 KiB of 1649 KiB (33%) doneArchiving file data: 599 KiB of 1649 KiB (36%) doneArchiving file data: 631 KiB of 1649 KiB (38%) doneArchiving file data: 663 KiB of 1649 KiB (40%) doneArchiving file data: 683 KiB of 1649 KiB (41%) doneArchiving file data: 722 KiB of 1649 KiB (43%) doneArchiving file data: 754 KiB of 1649 KiB (45%) doneArchiving file data: 784 KiB of 1649 KiB (47%) doneArchiving file data: 809 KiB of 1649 KiB (49%) doneArchiving file data: 827 KiB of 1649 KiB (50%) doneArchiving file data: 846 KiB of 1649 KiB (51%) doneArchiving file data: 893 KiB of 1649 KiB (54%) doneArchiving file data: 919 KiB of 1649 KiB (55%) doneArchiving file data: 951 KiB of 1649 KiB (57%) doneArchiving file data: 971 KiB of 1649 KiB (58%) doneArchiving file data: 1008 KiB of 1649 KiB (61%) doneArchiving file data: 1032 KiB of 1649 KiB (62%) doneArchiving file data: 1067 KiB of 1649 KiB (64%) doneArchiving file data: 1085 KiB of 1649 KiB (65%) doneArchiving file data: 1117 KiB of 1649 KiB (67%) doneArchiving file data: 1135 KiB of 1649 KiB (68%) doneArchiving file data: 1163 KiB of 1649 KiB (70%) doneArchiving file data: 1195 KiB of 1649 KiB (72%) doneArchiving file data: 1227 KiB of 1649 KiB (74%) doneArchiving file data: 1259 KiB of 1649 KiB (76%) doneArchiving file data: 1291 KiB of 1649 KiB (78%) doneArchiving file data: 1326 KiB of 1649 KiB (80%) doneArchiving file data: 1358 KiB of 1649 KiB (82%) doneArchiving file data: 1380 KiB of 1649 KiB (83%) doneArchiving file data: 1407 KiB of 1649 KiB (85%) doneArchiving file data: 1454 KiB of 1649 KiB (88%) doneArchiving file data: 1486 KiB of 1649 KiB (90%) doneArchiving file data: 1518 KiB of 1649 KiB (92%) doneArchiving file data: 1559 KiB of 1649 KiB (94%) doneArchiving file data: 1591 KiB of 1649 KiB (96%) doneArchiving file data: 1609 KiB of 1649 KiB (97%) doneArchiving file data: 1641 KiB of 1649 KiB (99%) doneArchiving file data: 1649 KiB of 1649 KiB (100%) done
+--------------------------------------------------------------------
+Testing image capture and application of directory containing tons of random stuff
+--------------------------------------------------------------------
+Scanning "in.dir"
+6 bytes scanned (1 files, 0 directories)    40 KiB scanned (14 files, 4 directories)    
+Archiving file data: 0 KiB of 40 KiB (0%) doneArchiving file data: 0 KiB of 40 KiB (0%) doneArchiving file data: 32 KiB of 40 KiB (79%) doneArchiving file data: 40 KiB of 40 KiB (99%) doneArchiving file data: 40 KiB of 40 KiB (100%) done
+--------------------------------------------------------------------
+Testing image capture and application of directory containing timestamp before 1970 (before start of UNIX epoch)
+--------------------------------------------------------------------
+Scanning "in.dir"
+0 bytes scanned (1 files, 0 directories)    0 bytes scanned (1 files, 1 directories)    
+--------------------------------------------------------------------
+Testing data recovery mode
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+Testing default capture configuration file
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+Testing exclusion list: anchored_exception_in_excluded_dir
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+Testing exclusion list: anchored_prefix_match
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+Testing exclusion list: anchored_simple
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+Testing exclusion list: case_insensitive
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+Testing exclusion list: case_sensitive
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+Testing exclusion list: inner_star
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+Testing exclusion list: multiple_stars
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+Testing exclusion list: prefix_match
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+Testing exclusion list: question_mark
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+Testing exclusion list: recursive_match
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+Testing exclusion list: simple_exception
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+Testing exclusion list: suffix_match
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+Testing exclusion list: wildcard_exception
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+Testing --rpfix
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+Testing source list capture mode
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+Testing bad overlay (errors expected)
+--------------------------------------------------------------------
+ERROR: Exiting with error code 32:
+       One of the specified paths to delete was a directory.
+**********************************************************
+          wimcapture/apply tests passed               
+**********************************************************

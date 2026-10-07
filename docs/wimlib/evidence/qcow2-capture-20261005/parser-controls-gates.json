@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-05",
+  "scope": "Current source parser controls; not the pinned fifth installation producer",
+  "defaults": {
+    "metadata_bytes": 2147483648,
+    "cache_bytes": 536870912,
+    "recursion_depth": 512,
+    "work_items": 16777216,
+    "decompressed_bytes": 68719476736,
+    "decompression_buffer_bytes": 2097152,
+    "attribute_bytes": 67108864,
+    "attribute_list_records": 65536
+  },
+  "checks": [
+    {
+      "session": 17711,
+      "exit": 0,
+      "gate": "Focused disk, NTFS and UUP library tests; QCOW and partition integration; eight capture CLI integration tests"
+    },
+    {
+      "session": 37454,
+      "exit": 0,
+      "gate": "Scoped disk/NTFS/UUP all-target all-feature Clippy with warnings denied"
+    },
+    {
+      "session": 1720,
+      "exit": 0,
+      "gate": "Three independent NTFS fixture regressions: metadata/cache/attribute/work, directory recursion, Windows ATTRIBUTE_LIST extension limits; source SHA256 unchanged"
+    },
+    {
+      "exit": 0,
+      "gate": "Oversized Windows INDEX_ROOT record mutation rejected before index allocation; original and disposable mutated input SHA256 unchanged"
+    },
+    {
+      "session": 20482,
+      "exit": 0,
+      "gate": "Independent mkntfs raw NTFS to native WIM, upstream verification and exact stream bytes; input unchanged"
+    },
+    {
+      "session": 16320,
+      "exit": 0,
+      "gate": "Frozen full Windows source default shared-budget manifest: 176419 nodes, 73 reparse points",
+      "artifact": "/data/cache/qcow2-capture-positive-20261005/limits-shared-default-manifest-final3.json"
+    }
+  ],
+  "independent_windows_fixture": {
+    "path": "/data/cache/qcow2-oracle-1005/utf16-ads.vhd",
+    "sha256": "d81fe94756e83ace1104d21d054b0b9f69a6be6163d81213dadf7ac02c66e50e",
+    "evidence": "/data/cache/qcow2-oracle-1005/utf16-vhd-spillover-proof-v2.json",
+    "extension_records": 18
+  },
+  "calibration": "An initial proposed 1 GiB metadata default rejected the full Windows source after conservative cumulative metadata-read accounting; the new default is 2 GiB. Smaller caller limits still reject explicitly.",
+  "platform_gate": "These checks do not establish Windows installation correctness or Windows cross-compilation of the current changes.",
+  "dependency_conversion_gate": {
+    "status": "passed",
+    "patch": "vendor/ntfs/PATCHES.md",
+    "session": 98564,
+    "tests": "Wrapped binrw I/O preserves Interrupted and cause; malformed non-I/O returns InvalidData without panic"
+  },
+  "metadata_interfaces": {
+    "session": 98564,
+    "tests": "Sparse logical ranges distinguish LZNT1 padding and clip EOF; validated eight-byte $DSC preserves class and rejects unknown flags/size",
+    "scope": "Native interfaces only; WIM TAG3/TAG4 integration owned separately"
+  }
+}

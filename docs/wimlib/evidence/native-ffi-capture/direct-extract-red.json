@@ -1,0 +1,198 @@
+[
+  {
+    "library": "original",
+    "exit": 0,
+    "output": "create 0\nscan 9 0 0 0 0\nscan 10 0 0 1 61725\nscan 10 0 0 2 123450\nscan 10 0 0 3 123450\nscan 10 3 0 3 123450\nscan 10 0 0 4 123490\nscan 10 0 0 5 217314\nscan 10 0 0 6 217334\nscan 10 0 0 7 217334\nscan 10 0 1 7 217334\nscan 11 0 1 7 217334\nadd 0 images 1 boot 0 rpfix 1\nextract-progress 0 217334 0 5 0 0 0\nextract-progress 3 217334 0 5 0 0 2\nextract-progress 3 217334 0 5 0 2 2\nextract-progress 4 217334 32768 5 0 2 2\nextract-progress 4 217334 65536 5 0 2 2\nextract-progress 4 217334 93824 5 1 2 2\nextract-progress 4 217334 159360 5 1 2 2\nextract-progress 4 217334 217274 5 3 2 2\nextract-progress 4 217334 217334 5 5 2 2\nextract-progress 6 217334 217334 5 5 0 1\nextract-progress 6 217334 217334 5 5 1 1\nextract-progress 7 217334 217334 5 5 1 1\nextract 0\nwrite-progress 155609 4 0 0\nwrite-progress 155609 4 32768 0\nwrite-progress 155609 4 65536 0\nwrite-progress 155609 4 93824 1\nwrite-progress 155609 4 126592 1\nwrite-progress 155609 4 155549 2\nwrite-progress 155609 4 155609 4\nprogress 13\nprogress 14\nwrite 0\n",
+    "tree": [
+      {
+        "path": "",
+        "mode": 16877,
+        "uid": 1000,
+        "gid": 100,
+        "mtime": 1600000001765432100,
+        "atime": 1600000000123456700,
+        "xattrs": {}
+      },
+      {
+        "path": "2f61",
+        "mode": 33188,
+        "uid": 1000,
+        "gid": 100,
+        "mtime": 1600000001765432100,
+        "atime": 1600000000123456700,
+        "inode_group": 0,
+        "sha1": "caa8feceb827932bed5e7b982d07737b5deeaf5b",
+        "size": 61725,
+        "xattrs": {}
+      },
+      {
+        "path": "2f6162736f6c757465",
+        "mode": 41471,
+        "uid": 1000,
+        "gid": 100,
+        "mtime": 1600000001765432100,
+        "atime": 1600000000123456700,
+        "inode_group": 1,
+        "target": "3c5441524745543e2f62",
+        "xattrs": {}
+      },
+      {
+        "path": "2f616c696173",
+        "mode": 33188,
+        "uid": 1000,
+        "gid": 100,
+        "mtime": 1600000001765432100,
+        "atime": 1600000000123456700,
+        "inode_group": 0,
+        "sha1": "caa8feceb827932bed5e7b982d07737b5deeaf5b",
+        "size": 61725,
+        "xattrs": {}
+      },
+      {
+        "path": "2f62",
+        "mode": 33188,
+        "uid": 1000,
+        "gid": 100,
+        "mtime": 1600000001765432100,
+        "atime": 1600000000123456700,
+        "inode_group": 2,
+        "sha1": "56b62d5a39c1e5a2fa145a0cc7daec3e6d2b6f85",
+        "size": 93824,
+        "xattrs": {}
+      },
+      {
+        "path": "2f6475706c6963617465",
+        "mode": 33188,
+        "uid": 1000,
+        "gid": 100,
+        "mtime": 1600000001765432100,
+        "atime": 1600000000123456700,
+        "inode_group": 3,
+        "sha1": "caa8feceb827932bed5e7b982d07737b5deeaf5b",
+        "size": 61725,
+        "xattrs": {}
+      },
+      {
+        "path": "2f656d707479",
+        "mode": 33188,
+        "uid": 1000,
+        "gid": 100,
+        "mtime": 1600000001765432100,
+        "atime": 1600000000123456700,
+        "inode_group": 4,
+        "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+        "size": 0,
+        "xattrs": {}
+      },
+      {
+        "path": "2f6c696e6b",
+        "mode": 41471,
+        "uid": 1000,
+        "gid": 100,
+        "mtime": 1600000001765432100,
+        "atime": 1600000000123456700,
+        "inode_group": 5,
+        "target": "61",
+        "xattrs": {}
+      }
+    ]
+  },
+  {
+    "library": "native",
+    "exit": 0,
+    "output": "create 0\nscan 9 0 0 0 0\nscan 10 0 0 1 61725\nscan 10 0 0 2 123450\nscan 10 0 0 3 123450\nscan 10 3 0 3 123450\nscan 10 0 0 4 123490\nscan 10 0 0 5 217314\nscan 10 0 0 6 217334\nscan 10 0 0 7 217334\nscan 10 0 1 7 217334\nscan 11 0 1 7 217334\nadd 0 images 1 boot 0 rpfix 1\nextract-progress 0 217334 0 5 0 0 0\nextract-progress 3 217334 0 5 0 0 2\nextract-progress 3 217334 0 5 0 2 2\nextract-progress 4 217334 65536 5 0 2 2\nextract-progress 4 217334 123450 5 2 2 2\nextract-progress 4 217334 156218 5 2 2 2\nextract-progress 4 217334 188986 5 2 2 2\nextract-progress 4 217334 217274 5 3 2 2\nextract-progress 4 217334 217334 5 5 2 2\nextract-progress 6 217334 217334 5 5 0 1\nextract-progress 6 217334 217334 5 5 1 1\nextract-progress 7 217334 217334 5 5 1 1\nextract 0\nwrite-progress 217334 5 0 0\nwrite-progress 217334 5 32768 0\nwrite-progress 217334 5 61725 1\nwrite-progress 217334 5 94493 1\nwrite-progress 217334 5 127261 1\nwrite-progress 217334 5 155549 2\nwrite-progress 155609 4 155609 4\nprogress 13\nprogress 14\nwrite 0\n",
+    "tree": [
+      {
+        "path": "",
+        "mode": 16877,
+        "uid": 1000,
+        "gid": 100,
+        "mtime": 1600000001765432100,
+        "atime": 1600000000123456700,
+        "xattrs": {}
+      },
+      {
+        "path": "2f61",
+        "mode": 33188,
+        "uid": 1000,
+        "gid": 100,
+        "mtime": 1600000001765432100,
+        "atime": 1600000000123456700,
+        "inode_group": 0,
+        "sha1": "caa8feceb827932bed5e7b982d07737b5deeaf5b",
+        "size": 61725,
+        "xattrs": {}
+      },
+      {
+        "path": "2f6162736f6c757465",
+        "mode": 41471,
+        "uid": 1000,
+        "gid": 100,
+        "mtime": 1600000001765432100,
+        "atime": 1600000000123456700,
+        "inode_group": 1,
+        "target": "3c5441524745543e2f62",
+        "xattrs": {}
+      },
+      {
+        "path": "2f616c696173",
+        "mode": 33188,
+        "uid": 1000,
+        "gid": 100,
+        "mtime": 1600000001765432100,
+        "atime": 1600000000123456700,
+        "inode_group": 0,
+        "sha1": "caa8feceb827932bed5e7b982d07737b5deeaf5b",
+        "size": 61725,
+        "xattrs": {}
+      },
+      {
+        "path": "2f62",
+        "mode": 33188,
+        "uid": 1000,
+        "gid": 100,
+        "mtime": 1600000001765432100,
+        "atime": 1600000000123456700,
+        "inode_group": 2,
+        "sha1": "56b62d5a39c1e5a2fa145a0cc7daec3e6d2b6f85",
+        "size": 93824,
+        "xattrs": {}
+      },
+      {
+        "path": "2f6475706c6963617465",
+        "mode": 33188,
+        "uid": 1000,
+        "gid": 100,
+        "mtime": 1600000001765432100,
+        "atime": 1600000000123456700,
+        "inode_group": 3,
+        "sha1": "caa8feceb827932bed5e7b982d07737b5deeaf5b",
+        "size": 61725,
+        "xattrs": {}
+      },
+      {
+        "path": "2f656d707479",
+        "mode": 33188,
+        "uid": 1000,
+        "gid": 100,
+        "mtime": 1600000001765432100,
+        "atime": 1600000000123456700,
+        "inode_group": 4,
+        "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+        "size": 0,
+        "xattrs": {}
+      },
+      {
+        "path": "2f6c696e6b",
+        "mode": 41471,
+        "uid": 1000,
+        "gid": 100,
+        "mtime": 1600000001765432100,
+        "atime": 1600000000123456700,
+        "inode_group": 5,
+        "target": "61",
+        "xattrs": {}
+      }
+    ]
+  }
+]

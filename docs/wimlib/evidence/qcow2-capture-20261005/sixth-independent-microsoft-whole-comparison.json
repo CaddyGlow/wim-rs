@@ -1,0 +1,398 @@
+{
+  "scope": "Whole independently decoded native and Microsoft same-frozen-Windows-partition metadata; raw differences retained, no strict destination metadata gate waived. Complete stock guest WIM SHA independently computed; host stock snapshot deliberately metadata-only. Sixth installed target, effective metadata and actual WinRE equivalence pending.",
+  "native": {
+    "path": "/data/cache/qcow2-capture-sixth-final-retry-20261005/install.wim",
+    "sha256": "f698dcc7c59c4b0af62d1c76255f6e470b7ee936702bd6fa8aaf93cde9838ea2"
+  },
+  "stock": {
+    "PID": 4240,
+    "Finished": "2026-10-05T17:51:20.4263112+00:00",
+    "SHA256": "9ba5122cb6f79fb2f5735e42695c8184a4212f57793e15d8301077b2696a5b09",
+    "Bytes": 8581553497,
+    "Exit": 0
+  },
+  "counts": {
+    "native_nodes": 176484,
+    "stock_nodes": 176484,
+    "source_only_paths": 0,
+    "stock_only_paths": 0,
+    "hardlink_groups": 34007,
+    "raw_differences": {
+      "times": 101,
+      "tags": 2,
+      "short_name_utf16": 25390,
+      "security": 10412,
+      "streams": 2
+    }
+  },
+  "exact_fields": [
+    "canonical original UTF16 paths",
+    "attributes",
+    "all34007hardlinkgroups",
+    "allObjectID64bytes",
+    "allstorage-class tags",
+    "allsparse range tags",
+    "allother tagged metadata except2customEArows",
+    "alllogicalstreamSHA1identities except2explicitpayload transformations"
+  ],
+  "xml": {
+    "field_value_multiset_exact": true,
+    "order_differs": true,
+    "native_fields": [
+      [
+        "WINDOWS",
+        {},
+        ""
+      ],
+      [
+        "ARCH",
+        {},
+        "9"
+      ],
+      [
+        "EDITIONID",
+        {},
+        "Professional"
+      ],
+      [
+        "INSTALLATIONTYPE",
+        {},
+        "Client"
+      ],
+      [
+        "PRODUCTNAME",
+        {},
+        "Microsoft\u00ae Windows\u00ae Operating System"
+      ],
+      [
+        "PRODUCTTYPE",
+        {},
+        "WinNT"
+      ],
+      [
+        "SYSTEMROOT",
+        {},
+        "WINDOWS"
+      ],
+      [
+        "VERSION",
+        {},
+        ""
+      ],
+      [
+        "MAJOR",
+        {},
+        "10"
+      ],
+      [
+        "MINOR",
+        {},
+        "0"
+      ],
+      [
+        "BUILD",
+        {},
+        "26200"
+      ],
+      [
+        "SPBUILD",
+        {},
+        "8037"
+      ],
+      [
+        "BRANCH",
+        {},
+        "ge_release"
+      ],
+      [
+        "SPLEVEL",
+        {},
+        "0"
+      ],
+      [
+        "LANGUAGES",
+        {},
+        ""
+      ],
+      [
+        "DEFAULT",
+        {},
+        "en-US"
+      ],
+      [
+        "LANGUAGE",
+        {},
+        "en-US"
+      ],
+      [
+        "HAL",
+        {},
+        "COMPUTER\\Generic"
+      ],
+      [
+        "PRODUCTSUITE",
+        {},
+        "Terminal Server"
+      ],
+      [
+        "SERVICINGDATA",
+        {},
+        ""
+      ],
+      [
+        "GDRDUREVISION",
+        {},
+        "0"
+      ],
+      [
+        "IMAGESTATE",
+        {},
+        "IMAGE_STATE_GENERALIZE_RESEAL_TO_OOBE"
+      ],
+      [
+        "PKEYCONFIGVERSION",
+        {},
+        "10.0.26100.7019;2016-01-01T00:00:00Z"
+      ]
+    ],
+    "stock_fields": [
+      [
+        "WINDOWS",
+        {},
+        ""
+      ],
+      [
+        "ARCH",
+        {},
+        "9"
+      ],
+      [
+        "PRODUCTNAME",
+        {},
+        "Microsoft\u00ae Windows\u00ae Operating System"
+      ],
+      [
+        "EDITIONID",
+        {},
+        "Professional"
+      ],
+      [
+        "INSTALLATIONTYPE",
+        {},
+        "Client"
+      ],
+      [
+        "SERVICINGDATA",
+        {},
+        ""
+      ],
+      [
+        "GDRDUREVISION",
+        {},
+        "0"
+      ],
+      [
+        "PKEYCONFIGVERSION",
+        {},
+        "10.0.26100.7019;2016-01-01T00:00:00Z"
+      ],
+      [
+        "IMAGESTATE",
+        {},
+        "IMAGE_STATE_GENERALIZE_RESEAL_TO_OOBE"
+      ],
+      [
+        "HAL",
+        {},
+        "COMPUTER\\Generic"
+      ],
+      [
+        "PRODUCTTYPE",
+        {},
+        "WinNT"
+      ],
+      [
+        "PRODUCTSUITE",
+        {},
+        "Terminal Server"
+      ],
+      [
+        "LANGUAGES",
+        {},
+        ""
+      ],
+      [
+        "LANGUAGE",
+        {},
+        "en-US"
+      ],
+      [
+        "DEFAULT",
+        {},
+        "en-US"
+      ],
+      [
+        "VERSION",
+        {},
+        ""
+      ],
+      [
+        "MAJOR",
+        {},
+        "10"
+      ],
+      [
+        "MINOR",
+        {},
+        "0"
+      ],
+      [
+        "BUILD",
+        {},
+        "26200"
+      ],
+      [
+        "SPBUILD",
+        {},
+        "8037"
+      ],
+      [
+        "SPLEVEL",
+        {},
+        "0"
+      ],
+      [
+        "BRANCH",
+        {},
+        "ge_release"
+      ],
+      [
+        "SYSTEMROOT",
+        {},
+        "WINDOWS"
+      ]
+    ]
+  },
+  "difference_classification": {
+    "security": {
+      "source_nodes": 176484,
+      "counts": {
+        "flag_canonicalization_or_reserved_sacl_omission": 10412
+      },
+      "unexplained": [],
+      "normalization_for_classification_only": {
+        "ace_flags": "INHERITED_ACEbit0x10 only",
+        "control": "DACL_PROTECTED0x1000/SACL_PROTECTED0x2000; Microsoftcapturechangedflags, nativepreservesrawsource. Classification is not a semantic waiver.",
+        "sacl_omissions": "ACEtypes18/20 resourceattribute/processtrust only; originals retained unchanged"
+      }
+    },
+    "access_times": {
+      "rows": 101,
+      "creation_write_times_exact": true,
+      "explanation": "Microsoft read-only mounted view returns transient runtime access times; native exact frozen NTFS values preserved. Physical entire source/validation chain hashes unchanged."
+    },
+    "short_names": {
+      "rows": 25390,
+      "native_same_as_long_basename": 24789,
+      "native_distinct_DOS_aliases": 601,
+      "stock_all_empty": true,
+      "policy": "Native preserves original DOS namespace names; stock capture omission retained as difference, never normalized away.",
+      "independent_Windows_file_ID_resolution": {
+        "all_distinct_aliases": 601,
+        "same_nofollow_128bit_file_ID_plus_volume_serial": 601,
+        "mismatches": 0,
+        "source_readonly_D": true,
+        "api": "CreateFile desiredaccess0,share7,flagsOPEN_REPARSE_POINT|BACKUP_SEMANTICS;GetFileInformationByHandleEx FileIdInfo"
+      }
+    },
+    "custom_EAs": {
+      "rows": 2,
+      "paths": [
+        "/NativeDiskCapture/payload.bin",
+        "/NativeDiskCapture/alias.bin"
+      ],
+      "native": "TEST.EA flags0x80 rawvalue00ff1200 retained",
+      "stock": "Even explicit /EA omitted custom EA on this hardlinked file; source/native independently proven previously; exact difference retained."
+    },
+    "stream_payloads": {
+      "reparse": [
+        {
+          "side": "stock",
+          "Tag": 2684354572,
+          "Sub": "\\??\\C:\\ProgramData",
+          "Print": "C:\\ProgramData",
+          "Flags": 0
+        },
+        {
+          "side": "native",
+          "Tag": 2684354572,
+          "Sub": "\\??\\C:\\ProgramData",
+          "Print": "C:\\ProgramData",
+          "Flags": 0
+        }
+      ],
+      "reagent_xml": {
+        "stock": "<?xml version='1.0' encoding='utf-8'?>\n\r\n<WindowsRE version=\"2.0\">\r\n  <WinreBCD id=\"{00000000-0000-0000-0000-000000000000}\"/>\r\n  <WinreLocation path=\"\" id=\"0\" offset=\"0\" guid=\"{00000000-0000-0000-0000-000000000000}\"/>\r\n  <ImageLocation path=\"\" id=\"0\" offset=\"0\" guid=\"{00000000-0000-0000-0000-000000000000}\"/>\r\n  <PBRImageLocation path=\"\" id=\"0\" offset=\"0\" guid=\"{00000000-0000-0000-0000-000000000000}\" index=\"0\"/>\r\n  <PBRCustomImageLocation path=\"\" id=\"0\" offset=\"0\" guid=\"{00000000-0000-0000-0000-000000000000}\" index=\"0\"/>\r\n  <InstallState state=\"0\"/>\r\n  <OsInstallAvailable state=\"0\"/>\r\n  <CustomImageAvailable state=\"0\"/>\r\n  <IsAutoRepairOn state=\"1\"/>\r\n  <WinREStaged state=\"0\"/>\r\n  <OperationParam path=\"\"/>\r\n  <OperationPermanent state=\"0\"/>\r\n  <OsBuildVersion path=\"26100.1.amd64fre.ge_release.240331-1435\"/>\r\n  <OemTool state=\"0\"/>\r\n  <IsServer state=\"0\"/>\r\n  <DownlevelWinreLocation path=\"\" id=\"0\" offset=\"0\" guid=\"{00000000-0000-0000-0000-000000000000}\"/>\r\n  <IsWimBoot state=\"0\"/>\r\n  <NarratorScheduled state=\"0\"/>\r\n  <ScheduledOperation state=\"4\"/>\r\n</WindowsRE>",
+        "native": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<WindowsRE version=\"2.0\">\n  <WinreBCD id=\"{00000000-0000-0000-0000-000000000000}\"/>\n  <WinreLocation path=\"\" id=\"0\" offset=\"0\" guid=\"{00000000-0000-0000-0000-000000000000}\"/>\n  <ImageLocation path=\"\" id=\"0\" offset=\"0\" guid=\"{00000000-0000-0000-0000-000000000000}\"/>\n  <PBRImageLocation path=\"\" id=\"0\" offset=\"0\" guid=\"{00000000-0000-0000-0000-000000000000}\" index=\"0\"/>\n  <PBRCustomImageLocation path=\"\" id=\"0\" offset=\"0\" guid=\"{00000000-0000-0000-0000-000000000000}\" index=\"0\"/>\n  <InstallState state=\"0\"/>\n  <OsInstallAvailable state=\"0\"/>\n  <CustomImageAvailable state=\"0\"/>\n  <IsAutoRepairOn state=\"1\"/>\n  <WinREStaged state=\"1\"/>\n  <OperationParam path=\"\"/>\n  <OperationPermanent state=\"0\"/>\n  <OsBuildVersion path=\"\"/>\n  <OemTool state=\"0\"/>\n  <IsServer state=\"0\"/>\n  <DownlevelWinreLocation path=\"\" id=\"0\" offset=\"0\" guid=\"{00000000-0000-0000-0000-000000000000}\"/>\n  <IsWimBoot state=\"0\"/>\n  <NarratorScheduled state=\"0\"/>\n  <ScheduledOperation state=\"4\"/>\n</WindowsRE>\n"
+      }
+    }
+  },
+  "portable_metadata_audit": {
+    "nodes_with_omitted_kernel_eas": 9311,
+    "omitted_kernel_eas": 14478,
+    "sparse_files": 1,
+    "sparse_hole_ranges": 1,
+    "storage_class_nodes": 144900
+  },
+  "runtime_reserved_sacl_gate": {
+    "PROCESS_TRUST_LABEL_type20_paths": 5725,
+    "RESOURCE_ATTRIBUTE_type18_paths": 2,
+    "target_equivalence_pending": true
+  },
+  "artifacts": {
+    "sixth-whole-metadata-comparison.json": {
+      "path": "/data/cache/qcow2-oracle-1005/sixth-whole-metadata-comparison.json",
+      "sha256": "50e9140f643f789af6f5267f9e3601d52c928658c7cfa5cdef59893ba292a0ae"
+    },
+    "sixth-stock-security-classification.json": {
+      "path": "/data/cache/qcow2-oracle-1005/sixth-stock-security-classification.json",
+      "sha256": "e24d1e44eb66d130b9f0761b9c1a730d4f1b09fca81bcb88a0feed51a99f0715"
+    },
+    "sixth-intended-stream-transformations.json": {
+      "path": "/data/cache/qcow2-oracle-1005/sixth-intended-stream-transformations.json",
+      "sha256": "c8e0b2e7fd74da504f31cf007b958eb2f3c43d9fad47281ebc41e590eef221e7"
+    },
+    "stock-sixth-metadata-only-ranges.json": {
+      "path": "/data/cache/qcow2-oracle-1005/stock-sixth-metadata-only-ranges.json",
+      "sha256": "c8721c4a7c9b5b0caf501c5186487229a3af385ef10df3d2cec6348f81d7c5ec"
+    },
+    "sixth-source-chain-after-stock-capture.json": {
+      "path": "/data/cache/qcow2-oracle-1005/sixth-source-chain-after-stock-capture.json",
+      "sha256": "85d56c219b8a8d948d19c8e9eb42086c8391b6eef47e8710bb9320315fc777e8"
+    },
+    "capture-sixth-qmp-source-stats-final.json": {
+      "path": "/data/cache/qcow2-oracle-1005/capture-sixth-qmp-source-stats-final.json",
+      "sha256": "9ac0b3cbefc34406ed4d644230c7017e7c965ce19c918d072b9172820152c79d"
+    },
+    "sixth-source-trust-inventory.json": {
+      "path": "/data/cache/qcow2-oracle-1005/sixth-source-trust-inventory.json",
+      "sha256": "02879e8541dda8945521075a396af3ff750982c7b95cd06fabc7b48ceab4b65b"
+    },
+    "sixth-source-trust-paths-utf16.json": {
+      "path": "/data/cache/qcow2-oracle-1005/sixth-source-trust-paths-utf16.json",
+      "sha256": "233753700697b9a94cc0b7353a9727eda377159ec7f251a3bae1debdcd9240e3"
+    },
+    "sixth-source-resource-attribute-inventory.json": {
+      "path": "/data/cache/qcow2-oracle-1005/sixth-source-resource-attribute-inventory.json",
+      "sha256": "8831e3efefc842843028a81bbca4ab7b9e875f0c4cc7fb343aaebbd96d4f3df9"
+    },
+    "sixth-source-resource-attribute-paths-utf16.json": {
+      "path": "/data/cache/qcow2-oracle-1005/sixth-source-resource-attribute-paths-utf16.json",
+      "sha256": "c767f819daeefb8fb165b8c4c391858bb86765bb3d35af8f1fe2264b5c23f857"
+    },
+    "sixth-dos-aliases-windows-proof.json": {
+      "path": "/data/cache/qcow2-oracle-1005/sixth-dos-aliases-windows-proof.json",
+      "sha256": "864649493ecd3965c249e4420ae465b65b010ee2e7e3e2f0f712244eea535319"
+    }
+  }
+}

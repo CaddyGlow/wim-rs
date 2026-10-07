@@ -1,0 +1,10 @@
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.38s
+     Running tests/image_build.rs (crates/wimlib-rs/target/debug/deps/image_build-390c549fc483df73)
+
+running 3 tests
+test zero_image_archive_is_writable_and_openable ... ok
+test rejects_duplicate_nonempty_names_missing_blobs_and_invalid_boot_selection ... ok
+test newly_built_images_preserve_streams_links_properties_and_boot ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.02s
+

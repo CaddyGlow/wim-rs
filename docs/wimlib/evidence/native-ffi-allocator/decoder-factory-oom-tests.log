@@ -1,0 +1,9 @@
+   Compiling wim-ffi v0.1.0 (/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/wim-ffi)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.14s
+     Running tests/decompress_allocation.rs (crates/wimlib-rs/target/debug/deps/decompress_allocation-232c738ee963a668)
+
+running 1 test
+test factory_maps_every_workspace_and_handle_allocation_failure_to_nomem ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.09s
+

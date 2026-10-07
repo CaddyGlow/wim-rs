@@ -1,0 +1,16 @@
+{
+  "build_exit": 0,
+  "optimized": true,
+  "source_files_changed_during_build": [],
+  "production_inputs_unchanged_during_build": true,
+  "environment": {
+    "CARGO_TARGET_DIR": "/data/cache/qcow2-capture-sixth-retry-rust/build",
+    "TMPDIR": "/data/cache",
+    "CARGO_PROFILE_RELEASE_LTO": "false",
+    "CARGO_PROFILE_RELEASE_CODEGEN_UNITS": "16",
+    "CARGO_BUILD_JOBS": "16"
+  },
+  "old_producers_preserved": true,
+  "binary": "/data/cache/qcow2-capture-sixth-retry-rust/windows-uup",
+  "sha256": "9c04b33ecd6fc1faa8736a9cc984470aec6cf9421eb8a2919f81ee52df63d07d"
+}

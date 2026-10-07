@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/rick/projects-caddy/windows-uup/scripts/wimlib/check-path-mutation.py", line 90, in <module>
+    assert post_write[0] == post_write[1], (arguments, post_write)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: (['delete', '1', 'file', '', '0', 'single'], [b'result:0:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\nwrite:0\nproperty:DIRCOUNT:4\nproperty:FILECOUNT:4\nproperty:TOTALBYTES:2225\nproperty:HARDLINKBYTES:0\n', b'result:0:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\nwrite:0\nproperty:DIRCOUNT:4\nproperty:FILECOUNT:5\nproperty:TOTALBYTES:4401\nproperty:HARDLINKBYTES:2176\n'])

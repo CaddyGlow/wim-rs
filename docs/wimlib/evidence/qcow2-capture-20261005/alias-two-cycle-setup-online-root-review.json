@@ -1,0 +1,11 @@
+{
+  "actual_report_path": "/data/cache/qcow2-alias-basic4-two-cycle-control-20261006/actual-controls-report.json",
+  "actual_report_sha256": "bc7ccb9e9728c46d5322cb11ce0965cdbc4778bae5886ecf78f3c673f6875c1e",
+  "input_helper_bindings_exact": true,
+  "two_separate_files_and_sameparent_hardlinks_confirmed": true,
+  "two_original_alias_assignments_succeeded": true,
+  "phase": "Setup only",
+  "frozen_native_baseline_pending": true,
+  "apply_released": false,
+  "production_restoration_verified": false
+}

@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "kind": "primary-documentation-research-not-runtime-proof",
+  "sources": [
+    {
+      "url": "https://learn.microsoft.com/en-us/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_basic_information",
+      "claims": [
+        "Structure includes creation, access, write, and change timestamps plus attributes",
+        "FILE_WRITE_ATTRIBUTES is required to set members",
+        "Zero timestamp means preserve current value",
+        "Minus one suppresses access/write/change updates for operations on the same handle; minus two reenables updates on NTFS/ReFS"
+      ]
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile",
+      "claims": [
+        "FileBasicInformation class 4 sets FILE_BASIC_INFORMATION",
+        "User-mode calls use NtSetInformationFile"
+      ]
+    }
+  ],
+  "candidate_protocol": [
+    "Record actual target basic4 and attributes; never substitute source metadata",
+    "Reject sentinel timestamps that cannot be restored literally by documented API",
+    "Apply ObjectID extension only to an identity-checked scratch file",
+    "Restore recorded basic information with FILE_WRITE_ATTRIBUTES",
+    "Verify reopened full IDs, full64 ObjectID, security, attributes, all4timestamps, hardlinks and unrelated files",
+    "Supported shutdown; independently inspect raw NTFS metadata and repeat normal reboot"
+  ],
+  "actual_runtime_preservation_proven": false,
+  "production_executable": false
+}

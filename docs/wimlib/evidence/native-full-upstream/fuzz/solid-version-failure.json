@@ -1,0 +1,7 @@
+{
+  "source": "/tmp/wim-genuine-wlfuzz-k7nasb97/native/wim0",
+  "sha256": "c28ff99e71279009a3aa740a75bb5abfa48ae48a976c22a15fd8d9c06cdcf463",
+  "upstream_rejection": "Uncompressed resource has size_in_wim != uncompressed_size; error 20",
+  "trigger": "append empty image, overwrite flags 0x4900, reopen",
+  "cause": "ordinary version 0x10d00 incorrectly replaces solid version 0xe00 while retaining solid lookup entries"
+}

@@ -1,0 +1,27 @@
+{
+  "hives_clean": true,
+  "machine_guid": "d151343b-02df-4ebe-a7e8-708c1552e73c",
+  "sam_account_domain_sid": {
+    "offset_in_account_V": 400,
+    "raw_hex": "010400000000000515000000cddac81c2b9811e51ba88b15",
+    "sid": "S-1-5-21-482925261-3843135531-361474075"
+  },
+  "sam_domain_value_bytes": 424,
+  "sid_interpretation": "Unique exact self-relative binary SID signature revision1,count4,authority5,firstSubAuthority21 within regf-parsed SAM\\Domains\\Account V; offset andraw retained, SAM undocumented layout not assumed",
+  "phase": "Frozen post-generalization source bytes; distinct from historical pre-generalization guest observation",
+  "historical_pre_generalization_machine_guid": "43800859-22e0-4529-8de4-538aca8f83d9",
+  "source_sha256": "bf7bc3cecfb9d696c82f0869cd8f3c04c74bd644648c690405132399f4091a0a",
+  "hive_files": [
+    {
+      "path": "/data/cache/qcow2-recovered-20261005/offline-source/Windows_System32_config_SOFTWARE",
+      "sha256": "d8e1bfa86fd15e16cba0b310543343749df5676798b349758ecd87fdfd548065",
+      "bytes": 77594624
+    },
+    {
+      "path": "/data/cache/qcow2-recovered-20261005/offline-source/Windows_System32_config_SAM",
+      "sha256": "5d3e9d5103ff4aba061117136b7cc707207c73bf3a2467a0431b7fd70cd423b2",
+      "bytes": 65536
+    }
+  ],
+  "efi_bcd_binding": "Not derived: workspace has no existing native FAT reader; historical original BCD GUID is not asserted as prepared-source EFI BCD identity."
+}

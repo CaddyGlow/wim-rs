@@ -1,0 +1,4 @@
+Source: /tmp/wimlib/tests/wims/empty_dacl.wim
+Original SHA256: 442e1ad8e2e48cc374d0b5c73c05192067ebbace81a255230dd92c35a170fd2b
+Copied first 208 bytes only, header SHA256: 284ad9ab33c8698d1b967632ccf945e81dbb41158afc6858f6c3dfe6e12deb85
+Original length: 5536

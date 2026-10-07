@@ -1,0 +1,75 @@
+{
+  "receipt": "/data/cache/qcow2-retained-fixtures-20261006/retained-report.json",
+  "receipt_sha256": "9fde6db004c3bb8967749c7374ccaf5345149f25823337e0aa3ac091a9ef5b77",
+  "combined_creation_completed": false,
+  "error": "Exception calling \"WriteAllBytes\" with \"2\" argument(s): \"The given path's format is not supported.\"",
+  "case_windows_creation_observed": {
+    "control_path": "V:\\control",
+    "enable_exit": 0,
+    "path": "V:\\case",
+    "control_query_output": "Case sensitive attribute on directory V:\\control is disabled.\r\n",
+    "query_output": "Case sensitive attribute on directory V:\\case is enabled.\r\n",
+    "control_query_exit": 0,
+    "global_policy_changed": false,
+    "query_exit": 0,
+    "enable_output": "Case sensitive attribute on directory V:\\case is enabled.\r\n",
+    "control_attributes": 16,
+    "empty": true
+  },
+  "disk_identity_rows": [
+    {
+      "before_style": "RAW",
+      "virtual_bytes": 536870912,
+      "serial": "V12-CASE-FIXTURE",
+      "is_boot": false,
+      "after_partitions": [
+        {
+          "DiskNumber": 1,
+          "PartitionNumber": 1,
+          "Offset": 65536,
+          "Size": 535756800,
+          "DriveLetter": "V",
+          "Type": "IFS"
+        }
+      ],
+      "is_system": false,
+      "number": 1,
+      "after_style": "MBR",
+      "after_volume": {
+        "FileSystem": "NTFS",
+        "DriveLetter": "V",
+        "Size": 535752704,
+        "FileSystemLabel": "NtfsCaseFixture"
+      },
+      "requested_letter": "V"
+    },
+    {
+      "before_style": "RAW",
+      "virtual_bytes": 536870912,
+      "serial": "V12-ADS-FIXTURE",
+      "is_boot": false,
+      "after_partitions": [
+        {
+          "DiskNumber": 2,
+          "PartitionNumber": 1,
+          "Offset": 65536,
+          "Size": 535756800,
+          "DriveLetter": "W",
+          "Type": "IFS"
+        }
+      ],
+      "is_system": false,
+      "number": 2,
+      "after_style": "MBR",
+      "after_volume": {
+        "FileSystem": "NTFS",
+        "DriveLetter": "W",
+        "Size": 535752704,
+        "FileSystemLabel": "NtfsAdsFixture"
+      },
+      "requested_letter": "W"
+    }
+  ],
+  "independent_validator_exit": 1,
+  "scope": "Actual creation failed at first ADS write; case Windows creation/query succeeds, but clean offline case test remains required. No combined gate pass."
+}

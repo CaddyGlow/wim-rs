@@ -1,0 +1,192 @@
+{
+  "scope": "Current full recovered Microsoft stock WIM versus regenerated native WIM. Classification does not waive installed metadata gates.",
+  "raw_comparison": {
+    "path": "/data/cache/windows-capture-recovery-20261005/regenerated-whole-metadata-comparison.json",
+    "bytes": 101626462,
+    "sha256": "50e9140f643f789af6f5267f9e3601d52c928658c7cfa5cdef59893ba292a0ae"
+  },
+  "nodes": 176484,
+  "hardlink_groups": 34007,
+  "missing_paths": 0,
+  "difference_counts": {
+    "times": 101,
+    "tags": 2,
+    "short_name_utf16": 25390,
+    "security": 10412,
+    "streams": 2
+  },
+  "security_classification": {
+    "sacl": 5705,
+    "control": 31,
+    "control+dacl": 4644,
+    "dacl": 10,
+    "sacl+dacl": 22
+  },
+  "unexplained_security_differences": [],
+  "classification_only_masks": {
+    "SD_control": "0x3000",
+    "ACE_flags": "0x10",
+    "stock_reserved_SACL_omissions": [
+      18,
+      20
+    ]
+  },
+  "time_changes": "101 last-access times only; creation and write times exact",
+  "windows_xml_field_multiset_exact": true,
+  "distinct_dos_aliases": {
+    "count": 601,
+    "path": "/data/cache/windows-capture-recovery-20261005/source-distinct-dos-aliases.json",
+    "sha256": "24e391bc893537fa26fba137515ce693362e242c4f600914aad5a78aa79b86c9",
+    "installed_Windows_resolution_pending": true
+  },
+  "intended_stream_changes": [
+    {
+      "path": "/Users/All Users",
+      "changes": {
+        "streams": {
+          "native": [
+            [
+              "REPARSE",
+              "",
+              80,
+              "bd2fbc1b94b7d49eebbaad7cbab3802079d64cce"
+            ]
+          ],
+          "independent": [
+            [
+              "REPARSE",
+              "",
+              82,
+              "f4d47357e8743c5784ec47518cf45d04d7137fbc"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "path": "/Windows/System32/Recovery/ReAgent.xml",
+      "changes": {
+        "streams": {
+          "native": [
+            [
+              "DATA",
+              "",
+              1016,
+              "fc534489e238f6e4dc0dd7476a6566265d07a9a9"
+            ]
+          ],
+          "independent": [
+            [
+              "DATA",
+              "",
+              1079,
+              "e304f10167e244864a65db535cfcb39a879e8963"
+            ]
+          ]
+        }
+      }
+    }
+  ],
+  "EA_changes": [
+    {
+      "path": "/NativeDiskCapture/alias.bin",
+      "changes": {
+        "times": {
+          "native": [
+            134356680024658977,
+            134356691415927790,
+            134356691415927790
+          ],
+          "independent": [
+            134356680024658977,
+            134356943499776072,
+            134356691415927790
+          ]
+        },
+        "tags": {
+          "native": [
+            [
+              1,
+              "663d9b6da3c0f111b4a8998f604d14a366810d707d6c0c45bedea5101764417b663d9b6da3c0f111b4a8998f604d14a300000000000000000000000000000000"
+            ],
+            [
+              2,
+              "04000780544553542e45410000ff1200"
+            ]
+          ],
+          "independent": [
+            [
+              1,
+              "663d9b6da3c0f111b4a8998f604d14a366810d707d6c0c45bedea5101764417b663d9b6da3c0f111b4a8998f604d14a300000000000000000000000000000000"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "path": "/NativeDiskCapture/payload.bin",
+      "changes": {
+        "times": {
+          "native": [
+            134356680024658977,
+            134356691415927790,
+            134356691415927790
+          ],
+          "independent": [
+            134356680024658977,
+            134356943499776072,
+            134356691415927790
+          ]
+        },
+        "short_name_utf16": {
+          "native": "7000610079006c006f00610064002e00620069006e00",
+          "independent": ""
+        },
+        "tags": {
+          "native": [
+            [
+              1,
+              "663d9b6da3c0f111b4a8998f604d14a366810d707d6c0c45bedea5101764417b663d9b6da3c0f111b4a8998f604d14a300000000000000000000000000000000"
+            ],
+            [
+              2,
+              "04000780544553542e45410000ff1200"
+            ]
+          ],
+          "independent": [
+            [
+              1,
+              "663d9b6da3c0f111b4a8998f604d14a366810d707d6c0c45bedea5101764417b663d9b6da3c0f111b4a8998f604d14a300000000000000000000000000000000"
+            ]
+          ]
+        }
+      }
+    }
+  ],
+  "installed_reserved_SACL_equivalence_pending": true,
+  "native": {
+    "path": "/data/cache/qcow2-recovered-20261005/capture/install.wim",
+    "sha256": "749c692cf7dd0aa7442ef3d1e96f1e0351e60b21a2aefa0a2d0f6b38ed9e8ea8",
+    "hash_evidence": "Parent completed regenerated capture oracle; not recomputed by classifier."
+  },
+  "stock": {
+    "path": "/data/cache/windows-capture-recovery-20261005/stock-source-sixth-recovered.wim",
+    "bytes": 8581553497,
+    "sha256": "9ba5122cb6f79fb2f5735e42695c8184a4212f57793e15d8301077b2696a5b09",
+    "hash_evidence": "Parent completed rescued archive hash; not recomputed by classifier."
+  },
+  "stock_full_verify": {
+    "path": "/data/cache/windows-capture-recovery-20261005/stock-source-sixth-full-verify.log",
+    "sha256": "1a6b9bbb5a17e30ed5e692a0081a08363ba8b13c83870ccb2efe5b111d4377ac",
+    "success_completion_present": true
+  },
+  "raw_source_reserved_sacl": {
+    "path": "/data/cache/windows-capture-recovery-20261005/source-reserved-sacl-inventory.json",
+    "sha256": "f2b08e04f6d3074cd8b44564debf88901374c80c41347fe7cf3a731c1531881e",
+    "nodes": 176484,
+    "process_trust_paths": 5725,
+    "resource_attribute_paths": 2,
+    "installed_equivalence_pending": true
+  },
+  "alias_windows_proof": "Historical source601 alias API resolutions survive in prior report; fresh installed Windows resolution has not run."
+}

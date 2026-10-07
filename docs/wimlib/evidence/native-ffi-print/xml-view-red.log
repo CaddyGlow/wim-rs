@@ -1,0 +1,27 @@
+   Compiling wim-format v0.1.0 (/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/wim-format)
+error[E0599]: no method named `has_element` found for struct `XmlInfo` in the current scope
+ --> wim-format/tests/xml_element_views.rs:6:17
+  |
+6 |     assert!(xml.has_element(1, b"WINDOWS/VERSION"));
+  |                 ^^^^^^^^^^^ method not found in `XmlInfo`
+
+error[E0599]: no method named `has_element` found for struct `XmlInfo` in the current scope
+ --> wim-format/tests/xml_element_views.rs:7:18
+  |
+7 |     assert!(!xml.has_element(1, b"WINDOWS/MISSING"));
+  |                  ^^^^^^^^^^^ method not found in `XmlInfo`
+
+error[E0599]: no method named `child_elements` found for struct `XmlInfo` in the current scope
+ --> wim-format/tests/xml_element_views.rs:9:33
+  |
+9 |     let languages: Vec<_> = xml.child_elements(1, b"WINDOWS/LANGUAGES").collect();
+  |                                 ^^^^^^^^^^^^^^ method not found in `XmlInfo`
+
+error[E0599]: no method named `child_elements` found for struct `XmlInfo` in the current scope
+  --> wim-format/tests/xml_element_views.rs:11:20
+   |
+11 |     assert_eq!(xml.child_elements(2, b"WINDOWS").count(), 0);
+   |                    ^^^^^^^^^^^^^^ method not found in `XmlInfo`
+
+For more information about this error, try `rustc --explain E0599`.
+error: could not compile `wim-format` (test "xml_element_views") due to 4 previous errors

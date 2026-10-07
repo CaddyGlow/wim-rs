@@ -1,0 +1,7 @@
+{
+  "exit": 0,
+  "signal": null,
+  "stdout": "\r\nMicrosoft DiskPart version 10.0.26100.1150\r\n\r\nCopyright (C) Microsoft Corporation.\r\nOn computer: DEPLOYV-BJ0247E\r\n\n\r    0 percent completed\r  100 percent completed\r\n\r\r\nDiskPart successfully created the virtual disk file.\r\n\r\nDiskPart successfully selected the virtual disk file.\r\n\n\r  100 percent completed\r\n\r\r\nDiskPart successfully attached the virtual disk file.\r\n\r\nDiskPart successfully converted the selected disk to MBR format.\r\n\r\nDiskPart succeeded in creating the specified partition.\r\n\n\r    0 percent completed\r  100 percent completed\r\n\r\r\nDiskPart successfully formatted the volume.\r\n\r\nDiskPart successfully assigned the drive letter or mount point.\r\n\r\nLeaving DiskPart...\r\nCase sensitive attribute on directory Z:\\case is enabled.\r\nCase sensitive attribute on directory Z:\\case is enabled.\r\nFile ID is 0x00000000000000000001000000000026\r\n",
+  "stderr": "",
+  "stdout_truncated": false
+}

@@ -1,0 +1,290 @@
+{
+  "schema": 1,
+  "scope": "actual successful-OOBE V12 immutable pre-servicing baseline, strict offline native audit; no baseline boot/mutation",
+  "baseline": {
+    "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/immutable-pre-servicing-baseline/disk.qcow2",
+    "sha256": "b3bc06631a98880fc985632ef13fee1bd2ce8c7c7a7cc0e6fbaf4f4b4226a6e1",
+    "bytes": 19302514688,
+    "backing": "/home/rick/.vm-base/win11-24h2-installer/disk.qcow2",
+    "backing_sha256": "19eb403b49ebb8007177a5f8cc49713c69a517d81c30fb31673336e5dd298cc3",
+    "identity_proof_owner": "fresh_install immutable-baseline-handoff.json, independently read by root; no duplicate whole-image hash",
+    "strict_clean_ntfs_open": true
+  },
+  "fixture": {
+    "entries": 9,
+    "streams": 331,
+    "exact_fields": [
+      "EaRaw",
+      "ReparseRaw",
+      "SecurityRaw",
+      "Short",
+      "Streams",
+      "Info.Attributes",
+      "Info.Creation",
+      "Info.Access",
+      "Info.Write"
+    ],
+    "new_volume_file_identities_expected": true,
+    "all9raw_source_target_ids_retained": true,
+    "object_id_first16_retained": true,
+    "object_id_remaining48_zeroed": true,
+    "hardlinked_alias_payload_relation_exact": true
+  },
+  "reserved_security": {
+    "current_source_selected_paths": 5732,
+    "groups": {
+      "original5727": {
+        "selected": 5727,
+        "component_changed_sacl": 908,
+        "descriptor_component_difference": 913,
+        "ace20_missing": 183,
+        "raw_descriptor_exact": 4814,
+        "ace20_exact": 4819,
+        "component_changed_control": 736,
+        "ace20_inherited_bit_only": 723,
+        "component_changed_owner": 24,
+        "component_changed_group": 24,
+        "component_changed_dacl": 24,
+        "ace18_missing": 2
+      },
+      "current_additions": {
+        "selected": 5,
+        "missing_path": 3,
+        "component_changed_sacl": 2,
+        "descriptor_component_difference": 2,
+        "ace20_missing": 2
+      }
+    },
+    "reserved_ace_gate_passed": false,
+    "descriptor_component_gate_passed": false,
+    "all_original5727_present": true,
+    "whole_target_process_trust_paths": 5595,
+    "whole_target_resource_attribute_paths": 2,
+    "new_target_resource_attribute_rows": [
+      {
+        "attributes": 17,
+        "display_path": "/Users/capturegate/Downloads",
+        "file_id": 562949953421642,
+        "path_utf16": [
+          47,
+          85,
+          115,
+          101,
+          114,
+          115,
+          47,
+          99,
+          97,
+          112,
+          116,
+          117,
+          114,
+          101,
+          103,
+          97,
+          116,
+          101,
+          47,
+          68,
+          111,
+          119,
+          110,
+          108,
+          111,
+          97,
+          100,
+          115
+        ],
+        "path_utf16_le": "2f00550073006500720073002f00630061007000740075007200650067006100740065002f0044006f0077006e006c006f00610064007300",
+        "reserved_aces": [
+          "120b440000000000010100000000000100000000140000000200000000000000010000002800000049004d004100470045004c004f004100440000000100000000000000"
+        ],
+        "security": "01001488b8000000d4000000140000006000000002004c0001000000120b440000000000010100000000000100000000140000000200000000000000010000002800000049004d004100470045004c004f004100440000000100000000000000020058000300000000031400ff011f0001010000000000051200000000031800ff011f000102000000000005200000002002000000032400ff011f00010500000000000515000000a768711003068789accd6cf1e9030000010500000000000515000000a768711003068789accd6cf1e9030000010500000000000515000000a768711003068789accd6cf101020000"
+      },
+      {
+        "attributes": 38,
+        "display_path": "/Users/capturegate/Downloads/desktop.ini",
+        "file_id": 562949953422009,
+        "path_utf16": [
+          47,
+          85,
+          115,
+          101,
+          114,
+          115,
+          47,
+          99,
+          97,
+          112,
+          116,
+          117,
+          114,
+          101,
+          103,
+          97,
+          116,
+          101,
+          47,
+          68,
+          111,
+          119,
+          110,
+          108,
+          111,
+          97,
+          100,
+          115,
+          47,
+          100,
+          101,
+          115,
+          107,
+          116,
+          111,
+          112,
+          46,
+          105,
+          110,
+          105
+        ],
+        "path_utf16_le": "2f00550073006500720073002f00630061007000740075007200650067006100740065002f0044006f0077006e006c006f006100640073002f006400650073006b0074006f0070002e0069006e006900",
+        "reserved_aces": [
+          "1210440000000000010100000000000100000000140000000200000000000000010000002800000049004d004100470045004c004f004100440000000100000000000000"
+        ],
+        "security": "01001488b8000000d4000000140000006000000002004c00010000001210440000000000010100000000000100000000140000000200000000000000010000002800000049004d004100470045004c004f004100440000000100000000000000020058000300000000001400ff011f0001010000000000051200000000001800ff011f000102000000000005200000002002000000002400ff011f00010500000000000515000000a768711003068789accd6cf1e9030000010500000000000515000000a768711003068789accd6cf1e9030000010500000000000515000000a768711003068789accd6cf101020000"
+      }
+    ],
+    "source_deploy_resource_attributes_not_restored": true,
+    "packing_policy": "Offsets/packing distinguished from actual owner/group/DACL/SACL/control changes. Inherited-bit-only differences remain failures of exact reserved ACE fidelity. No missing-path waiver.",
+    "owner_group_dacl_24_changes": {
+      "all_exact_after_only_domain_sid_substitution": true,
+      "source_owner_role": "deploy RID1000",
+      "target_owner_role": "deploy RID1000 (capturegate separateRID1001)",
+      "source_domain_sid": "S-1-5-21-1567675422-56293474-2442462875",
+      "target_domain_sid": "S-1-5-21-275867815-2307327491-4050439596",
+      "group_rid": 513,
+      "group_definition_source": "https://learn.microsoft.com/en-us/windows/win32/secauthz/well-known-sids",
+      "role_limitations": "SAM name/RID binding plus exact byte-level replacement does not prove token membership, account enabled state or all effective access. This role classification does not waive any SACL/control differences."
+    }
+  },
+  "dos_aliases": {
+    "source_selectors": 101769,
+    "target_selectors": 103173,
+    "all_target_native_index_references_exact": true,
+    "counts": {
+      "exact_alias_binding": 99177,
+      "no_target_distinct_alias_record_for_long_path": 64,
+      "expected_alias_binds_other_target_file": 2307,
+      "expected_alias_absent_from_target_alias_index": 221
+    },
+    "runtime_offline_full24B_correlation": {
+      "runtime_open_failed_both_offline_bindings_exist": 4,
+      "runtime_open_failed_long_path_missing_offline": 27,
+      "both_actual_runtime_ids_exact_offline": 2307,
+      "runtime_open_failed_expected_alias_absent_offline": 257
+    },
+    "original601_runtime_failures": 46,
+    "original601_runtime_wrong_ids": 33,
+    "original601_runtime_open_failures": 13,
+    "gate_passed": false
+  },
+  "namespace": {
+    "source_nodes": 175812,
+    "target_nodes": 177779,
+    "source_only_paths": 44,
+    "target_only_paths": 2011,
+    "attribute_changed_paths": 94,
+    "common_path_hardlink_groups": 34007,
+    "all_common_hardlink_path_groups_exact": true
+  },
+  "full_installed_metadata_fidelity_passed": false,
+  "limitations": [
+    "Whole common payload bytes/all registry values were not independently hashed by this audit.",
+    "Whole-target extra trust labels and new-user resource claims do not waive missing original paths or ACEs.",
+    "Shared same-ID hardlink short selectors retained; not falsely counted as distinct-ID collisions.",
+    "Prior old-BF pre-firstboot stage control proves all2306 shared mismatch paths already misbound before first OS boot; V12 one additional wrong-ID path remains separate."
+  ],
+  "artifacts": {
+    "fixture-metadata.json": {
+      "path": "/data/cache/qcow2-v12-offline-audit/fixture-metadata.json",
+      "bytes": 59880,
+      "sha256": "2939568a5f3a2fe79f32bdb7904b34d27d98c28bf54b1a70114e11b1428afded"
+    },
+    "fixture-comparison.json": {
+      "path": "/data/cache/qcow2-v12-offline-audit/fixture-comparison.json",
+      "bytes": 6986,
+      "sha256": "cff10e14077703d92265e53b37b8bec58d2d031a1f849b19c8991fa5d668cf3c"
+    },
+    "current-selected-security.json": {
+      "path": "/data/cache/qcow2-v12-offline-audit/current-selected-security.json",
+      "bytes": 12825544,
+      "sha256": "5a5369f3f8c859ea8c4c018cb5f61346f706b857008bd939ee1c0dcd006b5dc1"
+    },
+    "reserved-security-comparison.json": {
+      "path": "/data/cache/qcow2-v12-offline-audit/reserved-security-comparison.json",
+      "bytes": 23987273,
+      "sha256": "774c3b64c70c71b4007291a30bd8740eb1531f9fff2b9941e56652a73825ae7a"
+    },
+    "native-dos-aliases.json": {
+      "path": "/data/cache/qcow2-v12-offline-audit/native-dos-aliases.json",
+      "bytes": 97226211,
+      "sha256": "baa4fb841e10cf76699bf980fb48747e499340245f2a92a0d8ce87b526dcad26"
+    },
+    "full-source-native-alias-comparison.json": {
+      "path": "/data/cache/qcow2-v12-offline-audit/full-source-native-alias-comparison.json",
+      "bytes": 13944185,
+      "sha256": "4c527ce5f8b874bdccf974d0532f81de9243700edd73ee9264d2cf215da85b5f"
+    },
+    "runtime-offline-alias-correlation.json": {
+      "path": "/data/cache/qcow2-v12-offline-audit/runtime-offline-alias-correlation.json",
+      "bytes": 7690952,
+      "sha256": "2a67e2325db5f9d49b2c909b106c013dc549da6e16cb8309db730fbe50f53133"
+    },
+    "whole-target-paths.json": {
+      "path": "/data/cache/qcow2-v12-offline-audit/whole-target-paths.json",
+      "bytes": 90625738,
+      "sha256": "2970fbf8a217746cc6eb99c7e745889b48f8703cbd20e12792ede2654f6ba35a"
+    },
+    "whole-target-reserved-security.json": {
+      "path": "/data/cache/qcow2-v12-offline-audit/whole-target-reserved-security.json",
+      "bytes": 15737008,
+      "sha256": "6b199f4adcb552012461943fe3811f7aa90b5ebf029a580fd859a4d9c0bc2cf5"
+    },
+    "whole-source-target-path-identity-comparison.json": {
+      "path": "/data/cache/qcow2-v12-offline-audit/whole-source-target-path-identity-comparison.json",
+      "bytes": 1013650,
+      "sha256": "2758bf63a9030b8942b4b941960708ff4cbe2f9797a7165c8be359aea08a2452"
+    },
+    "reserved-24-sid-substitution-and-principal-proof.json": {
+      "path": "/data/cache/qcow2-v12-offline-audit/reserved-24-sid-substitution-and-principal-proof.json",
+      "bytes": 90940,
+      "sha256": "55a455d6aa3a29c39fa73b0b0821dbe1a0f2fc126e25530b804edacd03052a67"
+    },
+    "source-sam-principals.json": {
+      "path": "/data/cache/qcow2-v12-offline-audit/source-sam-principals.json",
+      "bytes": 987,
+      "sha256": "2bef2b00ac220c3fe24dd5eba03a1482999095eca8052deeee276a722ee2fbb6"
+    },
+    "target-sam-principals.json": {
+      "path": "/data/cache/qcow2-v12-offline-audit/target-sam-principals.json",
+      "bytes": 1170,
+      "sha256": "58eddff4cc5034fb23e7edaa9dd4980a91caac4b31492f19c66aa7e78d8d9810"
+    },
+    "source_identity_proof": {
+      "path": "/data/cache/qcow2-oobe-preparation-control-20261005/frozen-current-source-identities.json",
+      "bytes": 1173,
+      "sha256": "9c2db83cf41b6897507ee97f43f5b49734d9b22ee1f6cfd78679912f493713d6"
+    },
+    "source_chain_hash_proof": {
+      "path": "/data/cache/qcow2-oobe-preparation-control-20261005/current-four-source-chain-hashes.json",
+      "bytes": 1727,
+      "sha256": "333bd19423bbe3737c6ca2f2083c28c03d52f1c090b76f372825563156fb6989"
+    },
+    "baseline_handoff_proof": {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/immutable-baseline-handoff.json",
+      "bytes": 2903,
+      "sha256": "88d4a8adbe48b42120a75fe91e5272f87464e4a9fff53ac7db3515f62641684d"
+    }
+  },
+  "source_mutation_scope": "Read-only current source inventories and source SAM; source four-chain immutable identities delegated to VM/source owner. This child did not perform duplicate full-QCOW hashes and does not claim an additional after-audit whole-source hash."
+}

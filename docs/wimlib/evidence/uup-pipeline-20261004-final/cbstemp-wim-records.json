@@ -1,0 +1,18 @@
+[
+  {
+    "exit": 0,
+    "signal": null,
+    "stdout": "----------------------------------------------------------------------------\r\nFull Path           = \"\\Windows\\CbsTemp\"\r\nAttributes          = 0x00000010\r\n    FILE_ATTRIBUTE_DIRECTORY is set\r\nSecurity Descriptor = O:BAG:S-1-5-21-3933942852-973373972-2766786355-513D:AI(A;ID;FA;;;BA)(A;OICIIOID;GA;;;BA)(A;ID;FA;;;SY)(A;OICIIOID;GA;;;SY)(A;ID;0x1200a9;;;BU)(A;OICIIOID;GXGR;;;BU)(A;ID;0x1200a9;;;AC)(A;OICIIOID;GXGR;;;AC)(A;ID;0x1200a9;;;S-1-15-2-2)(A;OICIIOID;GXGR;;;S-1-15-2-2)\r\nCreation Time       = Sat Dec 07 09:03:44 2019 UTC\r\nLast Write Time     = Sat Dec 07 09:54:25 2019 UTC\r\nLast Access Time    = Sat Dec 07 09:54:25 2019 UTC\r\nLink Group ID       = 0x0000000000000000\r\nLink Count          = 1\r\n\tUnnamed data stream:\r\nHash              = 0x0000000000000000000000000000000000000000\r\nUncompressed size = 0 bytes\r\nCompressed size   = 0 bytes\r\nOffset in WIM     = 0 bytes\r\nPart Number       = 0\r\nReference Count   = 0\r\nFlags             = \r\n\r\n",
+    "stderr": "",
+    "stdout_truncated": false,
+    "label": "source"
+  },
+  {
+    "exit": 0,
+    "signal": null,
+    "stdout": "----------------------------------------------------------------------------\r\nFull Path           = \"\\Windows\\CbsTemp\"\r\nAttributes          = 0x00000010\r\n    FILE_ATTRIBUTE_DIRECTORY is set\r\nSecurity Descriptor = O:BAG:S-1-5-21-3933942852-973373972-2766786355-513D:AI(A;ID;FA;;;BA)(A;OICIIOID;GA;;;BA)(A;ID;FA;;;SY)(A;OICIIOID;GA;;;SY)(A;ID;0x1200a9;;;BU)(A;OICIIOID;GXGR;;;BU)(A;ID;0x1200a9;;;AC)(A;OICIIOID;GXGR;;;AC)(A;ID;0x1200a9;;;S-1-15-2-2)(A;OICIIOID;GXGR;;;S-1-15-2-2)\r\nCreation Time       = Sat Dec 07 09:03:44 2019 UTC\r\nLast Write Time     = Sat Dec 07 09:54:25 2019 UTC\r\nLast Access Time    = Sat Dec 07 09:54:25 2019 UTC\r\nLink Group ID       = 0x0000000000000000\r\nLink Count          = 1\r\n\tUnnamed data stream:\r\nHash              = 0x0000000000000000000000000000000000000000\r\nUncompressed size = 0 bytes\r\nCompressed size   = 0 bytes\r\nOffset in WIM     = 0 bytes\r\nPart Number       = 0\r\nReference Count   = 0\r\nFlags             = \r\n\r\n",
+    "stderr": "",
+    "stdout_truncated": false,
+    "label": "export"
+  }
+]

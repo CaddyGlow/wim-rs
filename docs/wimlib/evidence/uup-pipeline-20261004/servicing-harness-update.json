@@ -1,0 +1,6 @@
+{
+  "previous_sha256": "a956bb92d59ded38edc7bbf8af1cd729db36e8d3496685e6e83f992450f4f645",
+  "tested_sha256": "76f824309d9b48839cb473aa36105dc705b5f3f675d98189ee7d96072c8a4b8b",
+  "path": "C:\\wim-uup-validation-1791072817523401529\\servicing.exe",
+  "scope": "Uploaded before servicing invocation; adds source-WIM/CAB preservation checks"
+}

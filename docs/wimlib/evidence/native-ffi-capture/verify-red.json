@@ -1,0 +1,10 @@
+[
+  {
+    "name": "original",
+    "stdout": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nimage 28 1 1\nstreams 1 19 0 0\nstreams 1 19 1 19\nafter 0\n"
+  },
+  {
+    "name": "native",
+    "stdout": "create 0\nadd 0\nimage 27 1 1\nimage 28 1 1\nstreams 0 0 0 0\nbefore 0\nwrite 0\nimage 27 1 1\nafter 55\n"
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "work": "/tmp/wim-genuine-wlfuzz-guu0umt9",
+  "seconds": 60,
+  "original_source_sha256": "4cb66451b88886f6fc9fb728bea4da7f3468e494b29dfea829d62ac990f8a5c2",
+  "runs": {
+    "original": {
+      "sha256": "62eb9c97f9ec6e3dae6c7e995b0a65a2e94a4d9b41491666947ba788a15bb74a",
+      "compile_command": [
+        "cc",
+        "-DHAVE_CONFIG_H",
+        "-I/tmp/wimlib-native-oracle",
+        "-I/tmp/wimlib/include",
+        "/tmp/wimlib/tests/wlfuzz.c",
+        "-L/tmp/wim-genuine-wlfuzz-guu0umt9/original/library",
+        "-Wl,-rpath,/tmp/wim-genuine-wlfuzz-guu0umt9/original/library",
+        "-lwim",
+        "-o",
+        "/tmp/wim-genuine-wlfuzz-guu0umt9/original/wlfuzz"
+      ],
+      "compile_status": 0,
+      "status": 0,
+      "caller_sha256": "312014087ca24fbd6ec4eefae2ad826645fd2176e50ea98a59aa73ffa458131b"
+    },
+    "native": {
+      "sha256": "19e32e4aeae39dd3c77d34ebc33a7bd4d04b472d7faf620f6679183e0501d8d7",
+      "compile_command": [
+        "cc",
+        "-DHAVE_CONFIG_H",
+        "-I/tmp/wimlib-native-oracle",
+        "-I/tmp/wimlib/include",
+        "/tmp/wimlib/tests/wlfuzz.c",
+        "-L/tmp/wim-genuine-wlfuzz-guu0umt9/native/library",
+        "-Wl,-rpath,/tmp/wim-genuine-wlfuzz-guu0umt9/native/library",
+        "-lwim",
+        "-o",
+        "/tmp/wim-genuine-wlfuzz-guu0umt9/native/wlfuzz"
+      ],
+      "compile_status": 0,
+      "timeout": true,
+      "caller_sha256": "4db1044ecf0ddfa9265f9f4c60910411901bf4af23290c3f2b58fe969fc76106"
+    }
+  },
+  "scope": "Independent actual random suites; time/PID seeds differ, so operation traces are not matched."
+}

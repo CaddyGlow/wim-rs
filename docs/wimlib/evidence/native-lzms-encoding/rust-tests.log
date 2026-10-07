@@ -1,0 +1,14 @@
+   Compiling wim-codec v0.1.0 (/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/wim-codec)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.17s
+     Running tests/lzms_encode.rs (crates/wimlib-rs/target/debug/deps/lzms_encode-733e2c15a195b2b4)
+
+running 6 tests
+test capacity_and_short_input_are_rejected ... ok
+test arithmetic_ramp_uses_delta_matches ... ok
+test random_literals_rebuild_adaptive_codes ... ok
+test real_matches_roundtrip_and_compress ... ok
+test long_length_slot_and_exact_capacity_roundtrip ... ok
+test delta_spans_and_x86_preprocessing_roundtrip ... ok
+
+test result: ok. 6 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.04s
+

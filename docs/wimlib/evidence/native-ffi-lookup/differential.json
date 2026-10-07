@@ -1,0 +1,83 @@
+{
+  "passed": true,
+  "cases": 11,
+  "results": [
+    {
+      "layout": "ordinary",
+      "codec": "none",
+      "rows": 4,
+      "metadata_rows": 2,
+      "normalized_sha256": "b3672e61d79bc654d633dcdf2db8c9848b9485a5b5ddcef06f1138cf9a8e27ab"
+    },
+    {
+      "layout": "ordinary",
+      "codec": "xpress",
+      "rows": 4,
+      "metadata_rows": 2,
+      "normalized_sha256": "15c867fb8c910af78dc0b7f28957f366469e6be98391434932960356e549801a"
+    },
+    {
+      "layout": "ordinary",
+      "codec": "lzx",
+      "rows": 4,
+      "metadata_rows": 2,
+      "normalized_sha256": "3e27a8a6fb3d96cb8d3d3e961a3f6c08cd659e592d147d11557ef5035efdf107"
+    },
+    {
+      "layout": "ordinary",
+      "codec": "lzms",
+      "rows": 4,
+      "metadata_rows": 2,
+      "normalized_sha256": "b2075a04c7c83208960db77154e3e1c35e7d6f16beec28a88bab3387de5f9435"
+    },
+    {
+      "layout": "solid",
+      "codec": "xpress",
+      "rows": 4,
+      "metadata_rows": 2,
+      "normalized_sha256": "2730bd8cc190b9cfe14f1eefcf771786baec5acc1a4cba6e8261a6eccc7b8e07"
+    },
+    {
+      "layout": "solid",
+      "codec": "lzx",
+      "rows": 4,
+      "metadata_rows": 2,
+      "normalized_sha256": "528b110c6099222d1f4ffa8b0a1d14e639311de9d77e2fa3b732384417ce0fb5"
+    },
+    {
+      "layout": "solid",
+      "codec": "lzms",
+      "rows": 4,
+      "metadata_rows": 2,
+      "normalized_sha256": "e9c2e7579921ac34eb962cbb7a07b2f3a95f2a6564a164e166828a9ef43a753f"
+    },
+    {
+      "layout": "pipable",
+      "codec": "none",
+      "rows": 3,
+      "metadata_rows": 1,
+      "normalized_sha256": "a15664f2cb13af6048f0ce89c7f4175e22ec4ea89f6175ced82ecbf458bfb72f"
+    },
+    {
+      "layout": "pipable",
+      "codec": "xpress",
+      "rows": 3,
+      "metadata_rows": 1,
+      "normalized_sha256": "22baf69b10e04dace7ec067171b7179cd8729d56f5040aaeeb5524317e62cee6"
+    },
+    {
+      "layout": "pipable",
+      "codec": "lzx",
+      "rows": 3,
+      "metadata_rows": 1,
+      "normalized_sha256": "da647ed3e221b17236266fc566dade60cd0457cc4443a697c7b30ede11bcfe79"
+    },
+    {
+      "layout": "pipable",
+      "codec": "lzms",
+      "rows": 3,
+      "metadata_rows": 1,
+      "normalized_sha256": "2010ea04f949a46f05c374b65bc418e9b5f125a62a2b83f845992ef44dcb1cf7"
+    }
+  ]
+}

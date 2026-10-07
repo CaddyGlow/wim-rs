@@ -1,0 +1,86 @@
+{
+  "work": "/tmp/wim-genuine-wlfuzz-skx6u2l4",
+  "seconds": 60,
+  "original_source_sha256": "4cb66451b88886f6fc9fb728bea4da7f3468e494b29dfea829d62ac990f8a5c2",
+  "runs": {
+    "original": {
+      "sha256": "62eb9c97f9ec6e3dae6c7e995b0a65a2e94a4d9b41491666947ba788a15bb74a",
+      "compile_command": [
+        "cc",
+        "-DHAVE_CONFIG_H",
+        "-I/tmp/wimlib-native-oracle",
+        "-I/tmp/wimlib/include",
+        "/tmp/wimlib/tests/wlfuzz.c",
+        "-L/tmp/wim-genuine-wlfuzz-skx6u2l4/original/library",
+        "-Wl,-rpath,/tmp/wim-genuine-wlfuzz-skx6u2l4/original/library",
+        "-lwim",
+        "-o",
+        "/tmp/wim-genuine-wlfuzz-skx6u2l4/original/wlfuzz"
+      ],
+      "compile_status": 0,
+      "run_command": [
+        "stdbuf",
+        "-oL",
+        "-eL",
+        "/tmp/wim-genuine-wlfuzz-skx6u2l4/original/wlfuzz",
+        "60"
+      ],
+      "timeout_seconds": 660,
+      "status": 0,
+      "caller_sha256": "6fbca98640023fc1245837c116b8940e0045f01408d7dcf3865f6714ef3f50ef",
+      "iterations": 6212,
+      "operations": {
+        "op__add_empty_image_to_random_wim": 450,
+        "op__apply_and_capture_test": 2115,
+        "op__create_new_wim": 392,
+        "op__delete_random_image_from_random_wim": 393,
+        "op__delete_random_wim": 833,
+        "op__export_random_image": 420,
+        "op__overwrite_with_no_changes": 417,
+        "op__set_compression_level": 413,
+        "op__split_test": 382,
+        "op__verify_random_wim": 397
+      }
+    },
+    "native": {
+      "sha256": "5d597f0246873bba8e42b924f74c82cc099f6f4eb7fd0b99c3545a13ac4de2fe",
+      "compile_command": [
+        "cc",
+        "-DHAVE_CONFIG_H",
+        "-I/tmp/wimlib-native-oracle",
+        "-I/tmp/wimlib/include",
+        "/tmp/wimlib/tests/wlfuzz.c",
+        "-L/tmp/wim-genuine-wlfuzz-skx6u2l4/native/library",
+        "-Wl,-rpath,/tmp/wim-genuine-wlfuzz-skx6u2l4/native/library",
+        "-lwim",
+        "-o",
+        "/tmp/wim-genuine-wlfuzz-skx6u2l4/native/wlfuzz"
+      ],
+      "compile_status": 0,
+      "run_command": [
+        "stdbuf",
+        "-oL",
+        "-eL",
+        "/tmp/wim-genuine-wlfuzz-skx6u2l4/native/wlfuzz",
+        "60"
+      ],
+      "timeout_seconds": 660,
+      "status": 0,
+      "caller_sha256": "8be9dcc7039631fad12e82992deee82c5c510540e1f2fd50699320c578014f5f",
+      "iterations": 200,
+      "operations": {
+        "op__add_empty_image_to_random_wim": 9,
+        "op__apply_and_capture_test": 67,
+        "op__create_new_wim": 16,
+        "op__delete_random_image_from_random_wim": 15,
+        "op__delete_random_wim": 28,
+        "op__export_random_image": 14,
+        "op__overwrite_with_no_changes": 15,
+        "op__set_compression_level": 13,
+        "op__split_test": 12,
+        "op__verify_random_wim": 11
+      }
+    }
+  },
+  "scope": "Independent actual random suites; time/PID seeds differ, so operation traces are not matched."
+}

@@ -1,0 +1,859 @@
+{
+  "count": 96,
+  "cases": [
+    {
+      "source": "/tmp/metadata-native.wim",
+      "target": 1,
+      "integrity": 0,
+      "mutation": "none",
+      "parts": 3,
+      "cross_joins": 6,
+      "original_verify": true,
+      "original_apply": true
+    },
+    {
+      "source": "/tmp/metadata-native.wim",
+      "target": 1,
+      "integrity": 0,
+      "mutation": "delete",
+      "parts": 2,
+      "cross_joins": 6,
+      "original_verify": true,
+      "original_apply": true
+    },
+    {
+      "source": "/tmp/metadata-native.wim",
+      "target": 1,
+      "integrity": 0,
+      "mutation": "append",
+      "unsupported_equal": true
+    },
+    {
+      "source": "/tmp/metadata-native.wim",
+      "target": 1,
+      "integrity": 1,
+      "mutation": "none",
+      "parts": 3,
+      "cross_joins": 6,
+      "original_verify": true,
+      "original_apply": true
+    },
+    {
+      "source": "/tmp/metadata-native.wim",
+      "target": 1,
+      "integrity": 1,
+      "mutation": "delete",
+      "parts": 2,
+      "cross_joins": 6,
+      "original_verify": true,
+      "original_apply": true
+    },
+    {
+      "source": "/tmp/metadata-native.wim",
+      "target": 1,
+      "integrity": 1,
+      "mutation": "append",
+      "unsupported_equal": true
+    },
+    {
+      "source": "/tmp/metadata-native.wim",
+      "target": 1,
+      "integrity": 2,
+      "mutation": "none",
+      "parts": 3,
+      "cross_joins": 6,
+      "original_verify": true,
+      "original_apply": true
+    },
+    {
+      "source": "/tmp/metadata-native.wim",
+      "target": 1,
+      "integrity": 2,
+      "mutation": "delete",
+      "parts": 2,
+      "cross_joins": 6,
+      "original_verify": true,
+      "original_apply": true
+    },
+    {
+      "source": "/tmp/metadata-native.wim",
+      "target": 1,
+      "integrity": 2,
+      "mutation": "append",
+      "unsupported_equal": true
+    },
+    {
+      "source": "/tmp/metadata-native.wim",
+      "target": 50,
+      "integrity": 0,
+      "mutation": "none",
+      "parts": 3,
+      "cross_joins": 6,
+      "original_verify": true,
+      "original_apply": true
+    },
+    {
+      "source": "/tmp/metadata-native.wim",
+      "target": 50,
+      "integrity": 0,
+      "mutation": "delete",
+      "parts": 2,
+      "cross_joins": 6,
+      "original_verify": true,
+      "original_apply": true
+    },
+    {
+      "source": "/tmp/metadata-native.wim",
+      "target": 50,
+      "integrity": 0,
+      "mutation": "append",
+      "unsupported_equal": true
+    },
+    {
+      "source": "/tmp/metadata-native.wim",
+      "target": 50,
+      "integrity": 1,
+      "mutation": "none",
+      "parts": 3,
+      "cross_joins": 6,
+      "original_verify": true,
+      "original_apply": true
+    },
+    {
+      "source": "/tmp/metadata-native.wim",
+      "target": 50,
+      "integrity": 1,
+      "mutation": "delete",
+      "parts": 2,
+      "cross_joins": 6,
+      "original_verify": true,
+      "original_apply": true
+    },
+    {
+      "source": "/tmp/metadata-native.wim",
+      "target": 50,
+      "integrity": 1,
+      "mutation": "append",
+      "unsupported_equal": true
+    },
+    {
+      "source": "/tmp/metadata-native.wim",
+      "target": 50,
+      "integrity": 2,
+      "mutation": "none",
+      "parts": 3,
+      "cross_joins": 6,
+      "original_verify": true,
+      "original_apply": true
+    },
+    {
+      "source": "/tmp/metadata-native.wim",
+      "target": 50,
+      "integrity": 2,
+      "mutation": "delete",
+      "parts": 2,
+      "cross_joins": 6,
+      "original_verify": true,
+      "original_apply": true
+    },
+    {
+      "source": "/tmp/metadata-native.wim",
+      "target": 50,
+      "integrity": 2,
+      "mutation": "append",
+      "unsupported_equal": true
+    },
+    {
+      "source": "/tmp/metadata-native.wim",
+      "target": 1000,
+      "integrity": 0,
+      "mutation": "none",
+      "parts": 1,
+      "cross_joins": 6,
+      "original_verify": true,
+      "original_apply": true
+    },
+    {
+      "source": "/tmp/metadata-native.wim",
+      "target": 1000,
+      "integrity": 0,
+      "mutation": "delete",
+      "parts": 1,
+      "cross_joins": 6,
+      "original_verify": true,
+      "original_apply": true
+    },
+    {
+      "source": "/tmp/metadata-native.wim",
+      "target": 1000,
+      "integrity": 0,
+      "mutation": "append",
+      "unsupported_equal": true
+    },
+    {
+      "source": "/tmp/metadata-native.wim",
+      "target": 1000,
+      "integrity": 1,
+      "mutation": "none",
+      "parts": 1,
+      "cross_joins": 6,
+      "original_verify": true,
+      "original_apply": true
+    },
+    {
+      "source": "/tmp/metadata-native.wim",
+      "target": 1000,
+      "integrity": 1,
+      "mutation": "delete",
+      "parts": 1,
+      "cross_joins": 6,
+      "original_verify": true,
+      "original_apply": true
+    },
+    {
+      "source": "/tmp/metadata-native.wim",
+      "target": 1000,
+      "integrity": 1,
+      "mutation": "append",
+      "unsupported_equal": true
+    },
+    {
+      "source": "/tmp/metadata-native.wim",
+      "target": 1000,
+      "integrity": 2,
+      "mutation": "none",
+      "parts": 1,
+      "cross_joins": 6,
+      "original_verify": true,
+      "original_apply": true
+    },
+    {
+      "source": "/tmp/metadata-native.wim",
+      "target": 1000,
+      "integrity": 2,
+      "mutation": "delete",
+      "parts": 1,
+      "cross_joins": 6,
+      "original_verify": true,
+      "original_apply": true
+    },
+    {
+      "source": "/tmp/metadata-native.wim",
+      "target": 1000,
+      "integrity": 2,
+      "mutation": "append",
+      "unsupported_equal": true
+    },
+    {
+      "source": "/tmp/metadata-native.wim",
+      "target": 1000000,
+      "integrity": 0,
+      "mutation": "none",
+      "parts": 1,
+      "cross_joins": 6,
+      "original_verify": true,
+      "original_apply": true
+    },
+    {
+      "source": "/tmp/metadata-native.wim",
+      "target": 1000000,
+      "integrity": 0,
+      "mutation": "delete",
+      "parts": 1,
+      "cross_joins": 6,
+      "original_verify": true,
+      "original_apply": true
+    },
+    {
+      "source": "/tmp/metadata-native.wim",
+      "target": 1000000,
+      "integrity": 0,
+      "mutation": "append",
+      "unsupported_equal": true
+    },
+    {
+      "source": "/tmp/metadata-native.wim",
+      "target": 1000000,
+      "integrity": 1,
+      "mutation": "none",
+      "parts": 1,
+      "cross_joins": 6,
+      "original_verify": true,
+      "original_apply": true
+    },
+    {
+      "source": "/tmp/metadata-native.wim",
+      "target": 1000000,
+      "integrity": 1,
+      "mutation": "delete",
+      "parts": 1,
+      "cross_joins": 6,
+      "original_verify": true,
+      "original_apply": true
+    },
+    {
+      "source": "/tmp/metadata-native.wim",
+      "target": 1000000,
+      "integrity": 1,
+      "mutation": "append",
+      "unsupported_equal": true
+    },
+    {
+      "source": "/tmp/metadata-native.wim",
+      "target": 1000000,
+      "integrity": 2,
+      "mutation": "none",
+      "parts": 1,
+      "cross_joins": 6,
+      "original_verify": true,
+      "original_apply": true
+    },
+    {
+      "source": "/tmp/metadata-native.wim",
+      "target": 1000000,
+      "integrity": 2,
+      "mutation": "delete",
+      "parts": 1,
+      "cross_joins": 6,
+      "original_verify": true,
+      "original_apply": true
+    },
+    {
+      "source": "/tmp/metadata-native.wim",
+      "target": 1000000,
+      "integrity": 2,
+      "mutation": "append",
+      "unsupported_equal": true
+    },
+    {
+      "source": "/tmp/wim-resource-xpress.wim",
+      "target": 1,
+      "integrity": 0,
+      "mutation": "none",
+      "parts": 2,
+      "cross_joins": 6,
+      "original_verify": true,
+      "original_apply": true
+    },
+    {
+      "source": "/tmp/wim-resource-xpress.wim",
+      "target": 1,
+      "integrity": 0,
+      "mutation": "delete",
+      "parts": 1,
+      "cross_joins": 6,
+      "original_verify": true,
+      "original_apply": true
+    },
+    {
+      "source": "/tmp/wim-resource-xpress.wim",
+      "target": 1,
+      "integrity": 0,
+      "mutation": "append",
+      "unsupported_equal": true
+    },
+    {
+      "source": "/tmp/wim-resource-xpress.wim",
+      "target": 1,
+      "integrity": 1,
+      "mutation": "none",
+      "parts": 2,
+      "cross_joins": 6,
+      "original_verify": true,
+      "original_apply": true
+    },
+    {
+      "source": "/tmp/wim-resource-xpress.wim",
+      "target": 1,
+      "integrity": 1,
+      "mutation": "delete",
+      "parts": 1,
+      "cross_joins": 6,
+      "original_verify": true,
+      "original_apply": true
+    },
+    {
+      "source": "/tmp/wim-resource-xpress.wim",
+      "target": 1,
+      "integrity": 1,
+      "mutation": "append",
+      "unsupported_equal": true
+    },
+    {
+      "source": "/tmp/wim-resource-xpress.wim",
+      "target": 1,
+      "integrity": 2,
+      "mutation": "none",
+      "parts": 2,
+      "cross_joins": 6,
+      "original_verify": true,
+      "original_apply": true
+    },
+    {
+      "source": "/tmp/wim-resource-xpress.wim",
+      "target": 1,
+      "integrity": 2,
+      "mutation": "delete",
+      "parts": 1,
+      "cross_joins": 6,
+      "original_verify": true,
+      "original_apply": true
+    },
+    {
+      "source": "/tmp/wim-resource-xpress.wim",
+      "target": 1,
+      "integrity": 2,
+      "mutation": "append",
+      "unsupported_equal": true
+    },
+    {
+      "source": "/tmp/wim-resource-xpress.wim",
+      "target": 50,
+      "integrity": 0,
+      "mutation": "none",
+      "parts": 2,
+      "cross_joins": 6,
+      "original_verify": true,
+      "original_apply": true
+    },
+    {
+      "source": "/tmp/wim-resource-xpress.wim",
+      "target": 50,
+      "integrity": 0,
+      "mutation": "delete",
+      "parts": 1,
+      "cross_joins": 6,
+      "original_verify": true,
+      "original_apply": true
+    },
+    {
+      "source": "/tmp/wim-resource-xpress.wim",
+      "target": 50,
+      "integrity": 0,
+      "mutation": "append",
+      "unsupported_equal": true
+    },
+    {
+      "source": "/tmp/wim-resource-xpress.wim",
+      "target": 50,
+      "integrity": 1,
+      "mutation": "none",
+      "parts": 2,
+      "cross_joins": 6,
+      "original_verify": true,
+      "original_apply": true
+    },
+    {
+      "source": "/tmp/wim-resource-xpress.wim",
+      "target": 50,
+      "integrity": 1,
+      "mutation": "delete",
+      "parts": 1,
+      "cross_joins": 6,
+      "original_verify": true,
+      "original_apply": true
+    },
+    {
+      "source": "/tmp/wim-resource-xpress.wim",
+      "target": 50,
+      "integrity": 1,
+      "mutation": "append",
+      "unsupported_equal": true
+    },
+    {
+      "source": "/tmp/wim-resource-xpress.wim",
+      "target": 50,
+      "integrity": 2,
+      "mutation": "none",
+      "parts": 2,
+      "cross_joins": 6,
+      "original_verify": true,
+      "original_apply": true
+    },
+    {
+      "source": "/tmp/wim-resource-xpress.wim",
+      "target": 50,
+      "integrity": 2,
+      "mutation": "delete",
+      "parts": 1,
+      "cross_joins": 6,
+      "original_verify": true,
+      "original_apply": true
+    },
+    {
+      "source": "/tmp/wim-resource-xpress.wim",
+      "target": 50,
+      "integrity": 2,
+      "mutation": "append",
+      "unsupported_equal": true
+    },
+    {
+      "source": "/tmp/wim-resource-xpress.wim",
+      "target": 1000,
+      "integrity": 0,
+      "mutation": "none",
+      "parts": 2,
+      "cross_joins": 6,
+      "original_verify": true,
+      "original_apply": true
+    },
+    {
+      "source": "/tmp/wim-resource-xpress.wim",
+      "target": 1000,
+      "integrity": 0,
+      "mutation": "delete",
+      "parts": 1,
+      "cross_joins": 6,
+      "original_verify": true,
+      "original_apply": true
+    },
+    {
+      "source": "/tmp/wim-resource-xpress.wim",
+      "target": 1000,
+      "integrity": 0,
+      "mutation": "append",
+      "unsupported_equal": true
+    },
+    {
+      "source": "/tmp/wim-resource-xpress.wim",
+      "target": 1000,
+      "integrity": 1,
+      "mutation": "none",
+      "parts": 2,
+      "cross_joins": 6,
+      "original_verify": true,
+      "original_apply": true
+    },
+    {
+      "source": "/tmp/wim-resource-xpress.wim",
+      "target": 1000,
+      "integrity": 1,
+      "mutation": "delete",
+      "parts": 1,
+      "cross_joins": 6,
+      "original_verify": true,
+      "original_apply": true
+    },
+    {
+      "source": "/tmp/wim-resource-xpress.wim",
+      "target": 1000,
+      "integrity": 1,
+      "mutation": "append",
+      "unsupported_equal": true
+    },
+    {
+      "source": "/tmp/wim-resource-xpress.wim",
+      "target": 1000,
+      "integrity": 2,
+      "mutation": "none",
+      "parts": 2,
+      "cross_joins": 6,
+      "original_verify": true,
+      "original_apply": true
+    },
+    {
+      "source": "/tmp/wim-resource-xpress.wim",
+      "target": 1000,
+      "integrity": 2,
+      "mutation": "delete",
+      "parts": 1,
+      "cross_joins": 6,
+      "original_verify": true,
+      "original_apply": true
+    },
+    {
+      "source": "/tmp/wim-resource-xpress.wim",
+      "target": 1000,
+      "integrity": 2,
+      "mutation": "append",
+      "unsupported_equal": true
+    },
+    {
+      "source": "/tmp/wim-resource-xpress.wim",
+      "target": 1000000,
+      "integrity": 0,
+      "mutation": "none",
+      "parts": 1,
+      "cross_joins": 6,
+      "original_verify": true,
+      "original_apply": true
+    },
+    {
+      "source": "/tmp/wim-resource-xpress.wim",
+      "target": 1000000,
+      "integrity": 0,
+      "mutation": "delete",
+      "parts": 1,
+      "cross_joins": 6,
+      "original_verify": true,
+      "original_apply": true
+    },
+    {
+      "source": "/tmp/wim-resource-xpress.wim",
+      "target": 1000000,
+      "integrity": 0,
+      "mutation": "append",
+      "unsupported_equal": true
+    },
+    {
+      "source": "/tmp/wim-resource-xpress.wim",
+      "target": 1000000,
+      "integrity": 1,
+      "mutation": "none",
+      "parts": 1,
+      "cross_joins": 6,
+      "original_verify": true,
+      "original_apply": true
+    },
+    {
+      "source": "/tmp/wim-resource-xpress.wim",
+      "target": 1000000,
+      "integrity": 1,
+      "mutation": "delete",
+      "parts": 1,
+      "cross_joins": 6,
+      "original_verify": true,
+      "original_apply": true
+    },
+    {
+      "source": "/tmp/wim-resource-xpress.wim",
+      "target": 1000000,
+      "integrity": 1,
+      "mutation": "append",
+      "unsupported_equal": true
+    },
+    {
+      "source": "/tmp/wim-resource-xpress.wim",
+      "target": 1000000,
+      "integrity": 2,
+      "mutation": "none",
+      "parts": 1,
+      "cross_joins": 6,
+      "original_verify": true,
+      "original_apply": true
+    },
+    {
+      "source": "/tmp/wim-resource-xpress.wim",
+      "target": 1000000,
+      "integrity": 2,
+      "mutation": "delete",
+      "parts": 1,
+      "cross_joins": 6,
+      "original_verify": true,
+      "original_apply": true
+    },
+    {
+      "source": "/tmp/wim-resource-xpress.wim",
+      "target": 1000000,
+      "integrity": 2,
+      "mutation": "append",
+      "unsupported_equal": true
+    },
+    {
+      "source": "/tmp/wim-resource-pipable.wim",
+      "target": 1,
+      "integrity": 0,
+      "mutation": "none",
+      "parts": 2,
+      "cross_joins": 6,
+      "original_verify": true,
+      "original_apply": true
+    },
+    {
+      "source": "/tmp/wim-resource-pipable.wim",
+      "target": 1,
+      "integrity": 0,
+      "mutation": "append",
+      "unsupported_equal": true
+    },
+    {
+      "source": "/tmp/wim-resource-pipable.wim",
+      "target": 1,
+      "integrity": 1,
+      "mutation": "none",
+      "parts": 2,
+      "cross_joins": 6,
+      "original_verify": true,
+      "original_apply": true
+    },
+    {
+      "source": "/tmp/wim-resource-pipable.wim",
+      "target": 1,
+      "integrity": 1,
+      "mutation": "append",
+      "unsupported_equal": true
+    },
+    {
+      "source": "/tmp/wim-resource-pipable.wim",
+      "target": 1,
+      "integrity": 2,
+      "mutation": "none",
+      "parts": 2,
+      "cross_joins": 6,
+      "original_verify": true,
+      "original_apply": true
+    },
+    {
+      "source": "/tmp/wim-resource-pipable.wim",
+      "target": 1,
+      "integrity": 2,
+      "mutation": "append",
+      "unsupported_equal": true
+    },
+    {
+      "source": "/tmp/wim-resource-pipable.wim",
+      "target": 50,
+      "integrity": 0,
+      "mutation": "none",
+      "parts": 2,
+      "cross_joins": 6,
+      "original_verify": true,
+      "original_apply": true
+    },
+    {
+      "source": "/tmp/wim-resource-pipable.wim",
+      "target": 50,
+      "integrity": 0,
+      "mutation": "append",
+      "unsupported_equal": true
+    },
+    {
+      "source": "/tmp/wim-resource-pipable.wim",
+      "target": 50,
+      "integrity": 1,
+      "mutation": "none",
+      "parts": 2,
+      "cross_joins": 6,
+      "original_verify": true,
+      "original_apply": true
+    },
+    {
+      "source": "/tmp/wim-resource-pipable.wim",
+      "target": 50,
+      "integrity": 1,
+      "mutation": "append",
+      "unsupported_equal": true
+    },
+    {
+      "source": "/tmp/wim-resource-pipable.wim",
+      "target": 50,
+      "integrity": 2,
+      "mutation": "none",
+      "parts": 2,
+      "cross_joins": 6,
+      "original_verify": true,
+      "original_apply": true
+    },
+    {
+      "source": "/tmp/wim-resource-pipable.wim",
+      "target": 50,
+      "integrity": 2,
+      "mutation": "append",
+      "unsupported_equal": true
+    },
+    {
+      "source": "/tmp/wim-resource-pipable.wim",
+      "target": 1000,
+      "integrity": 0,
+      "mutation": "none",
+      "parts": 2,
+      "cross_joins": 6,
+      "original_verify": true,
+      "original_apply": true
+    },
+    {
+      "source": "/tmp/wim-resource-pipable.wim",
+      "target": 1000,
+      "integrity": 0,
+      "mutation": "append",
+      "unsupported_equal": true
+    },
+    {
+      "source": "/tmp/wim-resource-pipable.wim",
+      "target": 1000,
+      "integrity": 1,
+      "mutation": "none",
+      "parts": 2,
+      "cross_joins": 6,
+      "original_verify": true,
+      "original_apply": true
+    },
+    {
+      "source": "/tmp/wim-resource-pipable.wim",
+      "target": 1000,
+      "integrity": 1,
+      "mutation": "append",
+      "unsupported_equal": true
+    },
+    {
+      "source": "/tmp/wim-resource-pipable.wim",
+      "target": 1000,
+      "integrity": 2,
+      "mutation": "none",
+      "parts": 2,
+      "cross_joins": 6,
+      "original_verify": true,
+      "original_apply": true
+    },
+    {
+      "source": "/tmp/wim-resource-pipable.wim",
+      "target": 1000,
+      "integrity": 2,
+      "mutation": "append",
+      "unsupported_equal": true
+    },
+    {
+      "source": "/tmp/wim-resource-pipable.wim",
+      "target": 1000000,
+      "integrity": 0,
+      "mutation": "none",
+      "parts": 1,
+      "cross_joins": 6,
+      "original_verify": true,
+      "original_apply": true
+    },
+    {
+      "source": "/tmp/wim-resource-pipable.wim",
+      "target": 1000000,
+      "integrity": 0,
+      "mutation": "append",
+      "unsupported_equal": true
+    },
+    {
+      "source": "/tmp/wim-resource-pipable.wim",
+      "target": 1000000,
+      "integrity": 1,
+      "mutation": "none",
+      "parts": 1,
+      "cross_joins": 6,
+      "original_verify": true,
+      "original_apply": true
+    },
+    {
+      "source": "/tmp/wim-resource-pipable.wim",
+      "target": 1000000,
+      "integrity": 1,
+      "mutation": "append",
+      "unsupported_equal": true
+    },
+    {
+      "source": "/tmp/wim-resource-pipable.wim",
+      "target": 1000000,
+      "integrity": 2,
+      "mutation": "none",
+      "parts": 1,
+      "cross_joins": 6,
+      "original_verify": true,
+      "original_apply": true
+    },
+    {
+      "source": "/tmp/wim-resource-pipable.wim",
+      "target": 1000000,
+      "integrity": 2,
+      "mutation": "append",
+      "unsupported_equal": true
+    }
+  ],
+  "input_sources_preserved": true,
+  "oracle_disabled_cpu_feature": "sse4.2"
+}

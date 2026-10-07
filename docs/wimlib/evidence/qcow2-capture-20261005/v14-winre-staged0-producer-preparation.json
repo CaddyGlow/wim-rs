@@ -1,0 +1,109 @@
+{
+  "schema": 1,
+  "scope": "Isolated causal experiment producer preparation, WinREStaged state0; capture/media not yet published and no installation success claim",
+  "pinned_manifest_rows": 3038,
+  "actual_snapshot_files": 3040,
+  "only_source_change": [
+    {
+      "before": {
+        "path": "crates/windows-uup/src/capture_disk.rs",
+        "bytes": 121145,
+        "sha256": "ab13874612a55641d8d96ff01021619f7f31904ac6f9c19d23f0e3e9d8b2ae98"
+      },
+      "after": {
+        "path": "crates/windows-uup/src/capture_disk.rs",
+        "bytes": 121145,
+        "sha256": "8bfd53e9861142a25daee8ca6bcb28b9fee5b66a36d0cf8c76a98c28e6e9e983"
+      }
+    }
+  ],
+  "producer_sha256": "f994dc47597f41b6c2589e364a1fb9ecfca1cf2c5190bc88ff40e0857277ac01",
+  "build_exit": 0,
+  "snapshot_unchanged_after_build": true,
+  "scoped_fmt_clippy": [
+    {
+      "name": "fmt",
+      "argv": [
+        "cargo",
+        "fmt",
+        "--all",
+        "--check"
+      ],
+      "exit": 0,
+      "started": 1791244568.593295,
+      "finished": 1791244571.227158
+    },
+    {
+      "name": "clippy",
+      "argv": [
+        "cargo",
+        "clippy",
+        "-p",
+        "windows-uup",
+        "-p",
+        "windows-ntfs",
+        "--all-targets",
+        "--all-features",
+        "--locked",
+        "--",
+        "-D",
+        "warnings"
+      ],
+      "exit": 0,
+      "started": 1791244571.2271616,
+      "finished": 1791244602.8502853
+    }
+  ],
+  "experimental_XML_validation_checks": 3,
+  "experimental_XML_validation_passed": true,
+  "canonical_policy_expected1": "Canonical actual archive checker will remain unchanged; state0 recovery gate intentional failure retained separately",
+  "capture_session": 37006,
+  "capture_terminal": false,
+  "artifacts": [
+    {
+      "path": "/data/cache/qcow2-winre-staged-zero-control-20261006/producer-source-manifest-delta.json",
+      "bytes": 1234658,
+      "sha256": "f3f5862fb6ef560b92f18bb232977387029d789f1dbf2b8a4ff71b838b377077"
+    },
+    {
+      "path": "/data/cache/qcow2-winre-staged-zero-control-20261006/producer-build-proof.json",
+      "bytes": 645,
+      "sha256": "116fb93f7072a4d009004087d1300a554a1e3d4e3af0fd499b83296779098a9d"
+    },
+    {
+      "path": "/data/cache/qcow2-winre-staged-zero-control-20261006/producer-build.log",
+      "bytes": 8694,
+      "sha256": "4972812ac0fa72af7843d9dc1a02f39f3bd990a46ecd3d937a8bc9830f3c44a9"
+    },
+    {
+      "path": "/data/cache/qcow2-winre-staged-zero-control-20261006/scoped-host-checks.json",
+      "bytes": 535,
+      "sha256": "f0c17941b80c0fe0427c1ef9caf9effd405006e4a29444ef22f4205c2f3c9e11"
+    },
+    {
+      "path": "/data/cache/qcow2-winre-staged-zero-control-20261006/fmt.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/data/cache/qcow2-winre-staged-zero-control-20261006/clippy.log",
+      "bytes": 8704,
+      "sha256": "0f1b917c2eda45542d6e91b169195970962b98d97ba2089e411cac34de5e0f8f"
+    },
+    {
+      "path": "/data/cache/qcow2-winre-staged-zero-control-20261006/experimental-checker-delta.json",
+      "bytes": 738,
+      "sha256": "e4a081ccd6344a80eca4b14d857b3cc4447a2017c2f3813b5d29530168b4969a"
+    },
+    {
+      "path": "/data/cache/qcow2-winre-staged-zero-control-20261006/experimental-xml-validator-tests.json",
+      "bytes": 5460,
+      "sha256": "3cde06ec613d245782f4de7ca36673b5ce056db9fa3d2894cacdc30f8104fd6e"
+    },
+    {
+      "path": "/data/cache/qcow2-winre-staged-zero-control-20261006/capture-launch.json",
+      "bytes": 1328,
+      "sha256": "aaf7fb6f57b7b1d470db9d03d10f3d7abc346ee63e283ccf8770368ec1acdb87"
+    }
+  ]
+}

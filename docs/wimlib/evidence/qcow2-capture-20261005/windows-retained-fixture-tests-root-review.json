@@ -1,0 +1,16 @@
+{
+  "source_receipt_sha256": "3222b014a9178d0610701d520bab5677586026a1602b3a9f72c4825d7f6a79bf",
+  "verified_actual_logs": {
+    "case-test.log": "6ea5bd5f0ea72163feaebc235e1b81c4539a9a1ed2790e969942ad97bc23f625",
+    "attribute-list-test.log": "cbfe1728e40bf83544d43f4d0d99975b570afd4683068a41ef2194cafcca4d90",
+    "oversized-index-test.log": "6afc0a58f9e87dc04272815245dab86fbb0a7542e39bb2fb1f0233e0fae66cf0"
+  },
+  "independent_post_test_full_hashes": {
+    "case-fixture.qcow2": "03f58bdceda2c9c55394909ea1ff5880cc12c4c7a8b8df218d3f1158bc0497c8",
+    "ads-fixture.qcow2": "af527ee9d49ba2671d74aaa801633f04a5f7bbf004cb71684165f1c34bd4f314",
+    "case-fixture.ntfs.raw": "a8e802268867b2f76f129da2feff8c4d3319301a44e2b244d7d94449a52d6a4f",
+    "ads-fixture.disk.raw": "126ecb27c9cda12abf0ceb4f0e223b87a980a1a0c19895fab1e6b136911e33b0"
+  },
+  "three_remaining_fixture_tests_passed": true,
+  "scope": "Parser regression gates on actual Windows-created retained fixtures; does not prove complete metadata installation fidelity."
+}

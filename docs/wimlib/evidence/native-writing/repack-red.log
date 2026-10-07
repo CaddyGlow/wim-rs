@@ -1,0 +1,22 @@
+   Compiling wim-format v0.1.0 (/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/wim-format)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.29s
+     Running unittests src/lib.rs (crates/wimlib-rs/target/debug/deps/wim_format-9ab82c210701a128)
+
+running 1 test
+test repack::tests::original_images_roundtrip_with_metadata_xml_hashes_and_integrity ... FAILED
+
+failures:
+
+---- repack::tests::original_images_roundtrip_with_metadata_xml_hashes_and_integrity stdout ----
+
+thread 'repack::tests::original_images_roundtrip_with_metadata_xml_hashes_and_integrity' (883) panicked at wim-format/src/repack.rs:21:68:
+called `Result::unwrap()` on an `Err` value: Unsupported
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+
+failures:
+    repack::tests::original_images_roundtrip_with_metadata_xml_hashes_and_integrity
+
+test result: FAILED. 0 passed; 1 failed; 0 ignored; 0 measured; 11 filtered out; finished in 0.00s
+
+error: test failed, to rerun pass `-p wim-format --lib`

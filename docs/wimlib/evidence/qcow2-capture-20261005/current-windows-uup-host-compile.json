@@ -1,0 +1,32 @@
+{
+  "scope": "Current windows-uup host compile only; not Windows runtime correctness or fullworkspace validation",
+  "command": "CARGO_TARGET_DIR=/data/cache/qcow2-current-validation-target cargo check --locked -p windows-uup --all-targets",
+  "exit": 0,
+  "seconds": 26.64,
+  "source_hashes_after_check": {
+    "Cargo.lock": "bec522beef4ac79b8597cde5ceebee318d3ba6e0e209c3baf7fe3d127054a873",
+    "crates/windows-uup/src/capture_disk.rs": "ab13874612a55641d8d96ff01021619f7f31904ac6f9c19d23f0e3e9d8b2ae98",
+    "crates/windows-ntfs/src/lib.rs": "a02edef521433f4c2eff0a4fb76e7f9efabc6ae98ef75ea34157a699e1d0750c",
+    "crates/wim/src/engine/capture/api.rs": "ce418a91950c585a94c9e96a1de3d39f3b9c5e9f759333b34f163c4de12b48ff"
+  },
+  "clippy": {
+    "command": "cargo clippy --locked -p windows-uup --all-targets --all-features -- -D warnings",
+    "exit": 0,
+    "seconds": 10.69,
+    "scope": "windows-uup package and dependencies, not fullworkspace test validation"
+  },
+  "host_tests": {
+    "command": "TMPDIR=/data/cache CARGO_TARGET_DIR=/data/cache/qcow2-current-validation-target cargo test --locked -p windows-uup --quiet",
+    "exit": 0,
+    "ignored": 9,
+    "scope": "Current windows-uup host package tests; Windows runtime gates not proven by host tests",
+    "passed": 341
+  },
+  "windows_cross_check": {
+    "command": "nix develop --command env TMPDIR=/data/cache CARGO_TARGET_DIR=/data/cache/qcow2-current-validation-target XWIN_CACHE_DIR=/data/cache/qcow2-current-validation-xwin cargo xwin check --locked -p windows-uup --target x86_64-pc-windows-msvc --all-targets",
+    "exit": 0,
+    "compile_seconds": 21.7,
+    "scope": "Current Windows MSVC compilation; does not prove runtime installation fidelity",
+    "initial_attempt": "Plain-shell cargo-xwin failed to execute due missing runtime loader; repository development environment succeeded"
+  }
+}

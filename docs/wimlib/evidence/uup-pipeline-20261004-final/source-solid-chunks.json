@@ -1,0 +1,7 @@
+{
+  "exit": 0,
+  "signal": null,
+  "stdout": "[\r\n    {\r\n        \"offset\":  \"106208379\",\r\n        \"uncompressed\":  952328623,\r\n        \"chunk\":  67108864,\r\n        \"compression\":  3\r\n    },\r\n    {\r\n        \"offset\":  \"370958393\",\r\n        \"uncompressed\":  580435489,\r\n        \"chunk\":  67108864,\r\n        \"compression\":  3\r\n    },\r\n    {\r\n        \"offset\":  \"73259167\",\r\n        \"uncompressed\":  190427118,\r\n        \"chunk\":  67108864,\r\n        \"compression\":  3\r\n    }\r\n]\r\n",
+  "stderr": "",
+  "stdout_truncated": false
+}

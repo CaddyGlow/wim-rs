@@ -1,0 +1,911 @@
+{
+  "baseline": "cd5e231c348c255ae5088873b5a66ee0eb96fa07",
+  "header_sha256": "3769368886f5efc0e62ae2ecd7270697c57e21639b35808f70def87cec9dadc6",
+  "scope": "Selected wimlib-style C export presence and recorded host behavior; custom allocator registration deliberately removed; historical evidence predates this change",
+  "symbols": [
+    {
+      "symbol": "wimlib_add_empty_image",
+      "source_line": 2664,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-image-mutation/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-image-mutation/README.md"
+      ],
+      "required_gate": "Complete remaining allocator, platform, lifecycle, flags and callback gates listed in evidence"
+    },
+    {
+      "symbol": "wimlib_add_image",
+      "source_line": 2720,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-capture/README.md",
+        "evidence/native-windows-capture/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-capture/README.md",
+        "evidence/native-windows-capture/README.md"
+      ],
+      "required_gate": "Complete deferred consumer, allocator, flags, callback, Windows/NTFS and platform capture gates listed in evidence"
+    },
+    {
+      "symbol": "wimlib_add_image_multisource",
+      "source_line": 2737,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-capture/README.md",
+        "evidence/native-windows-capture/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-capture/README.md",
+        "evidence/native-windows-capture/README.md"
+      ],
+      "required_gate": "Complete deferred consumer, allocator, flags, callback, Windows/NTFS and platform capture gates listed in evidence"
+    },
+    {
+      "symbol": "wimlib_add_tree",
+      "source_line": 2754,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-capture/README.md",
+        "evidence/native-windows-capture/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-capture/README.md",
+        "evidence/native-windows-capture/README.md"
+      ],
+      "required_gate": "Complete deferred consumer, allocator, flags, callback, Windows/NTFS and platform capture gates listed in evidence"
+    },
+    {
+      "symbol": "wimlib_create_new_wim",
+      "source_line": 2787,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-handles/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-handles/README.md"
+      ],
+      "required_gate": "Complete remaining allocator, platform, lifecycle and behavior gates listed in evidence"
+    },
+    {
+      "symbol": "wimlib_delete_image",
+      "source_line": 2818,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-image-mutation/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-image-mutation/README.md"
+      ],
+      "required_gate": "Complete remaining allocator, platform, lifecycle, flags and callback gates listed in evidence"
+    },
+    {
+      "symbol": "wimlib_delete_path",
+      "source_line": 2829,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-path-mutation/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-path-mutation/README.md"
+      ],
+      "required_gate": "Complete internal allocation failure, Windows, broader metadata, timestamp and multi-command transaction gates listed in evidence"
+    },
+    {
+      "symbol": "wimlib_export_image",
+      "source_line": 2901,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-export/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-export/README.md"
+      ],
+      "required_gate": "Complete remaining ownership, allocator, platform, lifecycle, flags and callback gates listed in evidence"
+    },
+    {
+      "symbol": "wimlib_extract_image",
+      "source_line": 3020,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-extract/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-extract/README.md"
+      ],
+      "required_gate": "Complete Windows/NTFS, other Unix, allocator, scale and remaining extraction policies listed in evidence"
+    },
+    {
+      "symbol": "wimlib_extract_image_from_pipe",
+      "source_line": 3062,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-pipe-extract/differential-baseline.json"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-pipe-extract/README.md"
+      ],
+      "required_gate": "Complete streaming corruption/recovery and split transitions, allocator failure, scale, other Unix and Windows/NTFS gates; baseline Linux differential only"
+    },
+    {
+      "symbol": "wimlib_extract_image_from_pipe_with_progress",
+      "source_line": 3076,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-pipe-extract/differential-baseline.json"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-pipe-extract/README.md"
+      ],
+      "required_gate": "Complete streaming corruption/recovery and split transitions, allocator failure, scale, other Unix and Windows/NTFS gates; baseline Linux differential only"
+    },
+    {
+      "symbol": "wimlib_extract_pathlist",
+      "source_line": 3103,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-extract-paths/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-extract-paths/README.md"
+      ],
+      "required_gate": "Complete remaining allocator, platform, flags, lifecycle and behavior gates listed in evidence"
+    },
+    {
+      "symbol": "wimlib_extract_paths",
+      "source_line": 3178,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-extract-paths/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-extract-paths/README.md"
+      ],
+      "required_gate": "Complete remaining allocator, platform, flags, lifecycle and behavior gates listed in evidence"
+    },
+    {
+      "symbol": "wimlib_extract_xml_data",
+      "source_line": 3200,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-xml-data/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-xml-data/README.md"
+      ],
+      "required_gate": "Complete remaining ownership, allocator, platform, lifecycle, flags and callback gates listed in evidence"
+    },
+    {
+      "symbol": "wimlib_free",
+      "source_line": 3215,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-handles/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-handles/README.md"
+      ],
+      "required_gate": "Complete remaining allocator, platform, lifecycle and behavior gates listed in evidence"
+    },
+    {
+      "symbol": "wimlib_get_compression_type_string",
+      "source_line": 3231,
+      "status": "host_verified",
+      "abi_evidence": [
+        "evidence/native-ffi-info/exported-symbols.log",
+        "evidence/native-ffi-info/client-differential.json",
+        "evidence/native-windows-abi/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-info/original-client.log",
+        "evidence/native-ffi-info/native-client.log",
+        "evidence/native-ffi-info/default-tests.log",
+        "evidence/native-ffi-info/all-feature-tests.log",
+        "evidence/native-windows-abi/README.md"
+      ],
+      "required_gate": "Linux unchanged C client and selected Windows wide-character/runtime comparisons pass; complete platform matrix and distributable-package gates remain"
+    },
+    {
+      "symbol": "wimlib_get_error_string",
+      "source_line": 3247,
+      "status": "host_verified",
+      "abi_evidence": [
+        "evidence/native-ffi-info/exported-symbols.log",
+        "evidence/native-ffi-info/client-differential.json",
+        "evidence/native-windows-abi/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-info/original-client.log",
+        "evidence/native-ffi-info/native-client.log",
+        "evidence/native-ffi-info/default-tests.log",
+        "evidence/native-ffi-info/all-feature-tests.log",
+        "evidence/native-windows-abi/README.md"
+      ],
+      "required_gate": "Linux unchanged C client and selected Windows wide-character/runtime comparisons pass; complete platform matrix and distributable-package gates remain"
+    },
+    {
+      "symbol": "wimlib_get_image_description",
+      "source_line": 3256,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-properties/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-properties/README.md"
+      ],
+      "required_gate": "Complete remaining allocator, platform, lifecycle and behavior gates listed in evidence"
+    },
+    {
+      "symbol": "wimlib_get_image_name",
+      "source_line": 3267,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-properties/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-properties/README.md"
+      ],
+      "required_gate": "Complete remaining allocator, platform, lifecycle and behavior gates listed in evidence"
+    },
+    {
+      "symbol": "wimlib_get_image_property",
+      "source_line": 3298,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-properties/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-properties/README.md"
+      ],
+      "required_gate": "Complete remaining allocator, platform, lifecycle and behavior gates listed in evidence"
+    },
+    {
+      "symbol": "wimlib_get_version",
+      "source_line": 3313,
+      "status": "host_verified",
+      "abi_evidence": [
+        "evidence/native-ffi-info/exported-symbols.log",
+        "evidence/native-ffi-info/client-differential.json",
+        "evidence/native-windows-abi/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-info/original-client.log",
+        "evidence/native-ffi-info/native-client.log",
+        "evidence/native-ffi-info/default-tests.log",
+        "evidence/native-ffi-info/all-feature-tests.log",
+        "evidence/native-windows-abi/README.md"
+      ],
+      "required_gate": "Linux unchanged C client and selected Windows wide-character/runtime comparisons pass; complete platform matrix and distributable-package gates remain"
+    },
+    {
+      "symbol": "wimlib_get_version_string",
+      "source_line": 3323,
+      "status": "host_verified",
+      "abi_evidence": [
+        "evidence/native-ffi-info/exported-symbols.log",
+        "evidence/native-ffi-info/client-differential.json",
+        "evidence/native-windows-abi/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-info/original-client.log",
+        "evidence/native-ffi-info/native-client.log",
+        "evidence/native-ffi-info/default-tests.log",
+        "evidence/native-ffi-info/all-feature-tests.log",
+        "evidence/native-windows-abi/README.md"
+      ],
+      "required_gate": "Linux unchanged C client and selected Windows wide-character/runtime comparisons pass; complete platform matrix and distributable-package gates remain"
+    },
+    {
+      "symbol": "wimlib_get_wim_info",
+      "source_line": 3340,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-wim-info/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-wim-info/README.md"
+      ],
+      "required_gate": "Complete remaining allocator, platform, lifecycle and behavior gates listed in evidence"
+    },
+    {
+      "symbol": "wimlib_get_xml_data",
+      "source_line": 3370,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-xml-data/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-xml-data/README.md"
+      ],
+      "required_gate": "Complete remaining ownership, allocator, platform, lifecycle, flags and callback gates listed in evidence"
+    },
+    {
+      "symbol": "wimlib_global_init",
+      "source_line": 3391,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-diagnostics/README.md",
+        "evidence/native-windows-capture/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-diagnostics/README.md",
+        "evidence/native-windows-capture/README.md"
+      ],
+      "required_gate": "Complete remaining platform, allocation, stdio and lifecycle gates listed in evidence"
+    },
+    {
+      "symbol": "wimlib_global_cleanup",
+      "source_line": 3400,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-diagnostics/README.md",
+        "evidence/native-windows-capture/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-diagnostics/README.md",
+        "evidence/native-windows-capture/README.md"
+      ],
+      "required_gate": "Complete remaining platform, allocation, stdio and lifecycle gates listed in evidence"
+    },
+    {
+      "symbol": "wimlib_image_name_in_use",
+      "source_line": 3419,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-properties/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-properties/README.md"
+      ],
+      "required_gate": "Complete remaining allocator, platform, lifecycle and behavior gates listed in evidence"
+    },
+    {
+      "symbol": "wimlib_iterate_dir_tree",
+      "source_line": 3466,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-dir-tree/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-dir-tree/README.md"
+      ],
+      "required_gate": "Complete remaining ownership, allocator, platform, lifecycle, flags and callback gates listed in evidence"
+    },
+    {
+      "symbol": "wimlib_iterate_lookup_table",
+      "source_line": 3500,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-lookup/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-lookup/README.md"
+      ],
+      "required_gate": "Complete remaining allocator, platform, lifecycle and behavior gates listed in evidence"
+    },
+    {
+      "symbol": "wimlib_join",
+      "source_line": 3541,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-split-join/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-split-join/README.md"
+      ],
+      "required_gate": "Complete remaining ownership, allocator, platform, lifecycle, flags and callback gates listed in evidence"
+    },
+    {
+      "symbol": "wimlib_join_with_progress",
+      "source_line": 3559,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-progress/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-progress/README.md"
+      ],
+      "required_gate": "Complete writer codec, allocator, platform, bounded I/O and flag gates listed in evidence"
+    },
+    {
+      "symbol": "wimlib_load_text_file",
+      "source_line": 3583,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-text-file/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-text-file/README.md"
+      ],
+      "required_gate": "Complete remaining allocator, platform, lifecycle, streaming and callback gates listed in evidence"
+    },
+    {
+      "symbol": "wimlib_mount_image",
+      "source_line": 3662,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-mount-disabled/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-mount-disabled/README.md"
+      ],
+      "required_gate": "Disabled-FUSE build capability only; implement and verify real FUSE filesystem, unmount IPC, staged writes and transactional commit; Windows unsupported-build contracts remain"
+    },
+    {
+      "symbol": "wimlib_open_wim",
+      "source_line": 3738,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-handles/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-handles/README.md"
+      ],
+      "required_gate": "Complete remaining allocator, platform, lifecycle and behavior gates listed in evidence"
+    },
+    {
+      "symbol": "wimlib_open_wim_with_progress",
+      "source_line": 3754,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-open-progress/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-open-progress/README.md"
+      ],
+      "required_gate": "Complete remaining allocator, platform, lifecycle, streaming and failure-timing gates listed in evidence"
+    },
+    {
+      "symbol": "wimlib_overwrite",
+      "source_line": 3820,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-overwrite/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-overwrite/README.md"
+      ],
+      "required_gate": "Complete remaining allocator, platform, flags, lifecycle and behavior gates listed in evidence"
+    },
+    {
+      "symbol": "wimlib_print_available_images",
+      "source_line": 3843,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-print/README.md",
+        "evidence/native-windows-print/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-print/README.md",
+        "evidence/native-windows-print/README.md"
+      ],
+      "required_gate": "Complete remaining platform, allocation, stdio and lifecycle gates listed in evidence"
+    },
+    {
+      "symbol": "wimlib_print_header",
+      "source_line": 3851,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-print/README.md",
+        "evidence/native-windows-print/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-print/README.md",
+        "evidence/native-windows-print/README.md"
+      ],
+      "required_gate": "Complete remaining platform, allocation, stdio and lifecycle gates listed in evidence"
+    },
+    {
+      "symbol": "wimlib_reference_resource_files",
+      "source_line": 3895,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-references/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-references/README.md"
+      ],
+      "required_gate": "Complete remaining allocator, platform, lifecycle, streaming and callback gates listed in evidence"
+    },
+    {
+      "symbol": "wimlib_reference_resources",
+      "source_line": 3922,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-references/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-references/README.md"
+      ],
+      "required_gate": "Complete remaining allocator, platform, lifecycle, streaming and callback gates listed in evidence"
+    },
+    {
+      "symbol": "wimlib_reference_template_image",
+      "source_line": 3988,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-template/differential.json"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-template/README.md"
+      ],
+      "required_gate": "Complete allocator, changed metadata/named streams, alias order after graph edits, resource kinds/collision and platform gates; baseline and sixteen incremental cases only"
+    },
+    {
+      "symbol": "wimlib_register_progress_function",
+      "source_line": 4008,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-progress/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-progress/README.md"
+      ],
+      "required_gate": "Complete remaining allocator, platform, lifecycle, streaming and callback gates listed in evidence"
+    },
+    {
+      "symbol": "wimlib_rename_path",
+      "source_line": 4022,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-path-mutation/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-path-mutation/README.md"
+      ],
+      "required_gate": "Complete internal allocation failure, Windows, broader metadata, timestamp and multi-command transaction gates listed in evidence"
+    },
+    {
+      "symbol": "wimlib_resolve_image",
+      "source_line": 4056,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-properties/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-properties/README.md"
+      ],
+      "required_gate": "Complete remaining allocator, platform, lifecycle and behavior gates listed in evidence"
+    },
+    {
+      "symbol": "wimlib_set_error_file",
+      "source_line": 4074,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-diagnostics/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-diagnostics/README.md"
+      ],
+      "required_gate": "Complete remaining platform, allocation, stdio and lifecycle gates listed in evidence"
+    },
+    {
+      "symbol": "wimlib_set_error_file_by_name",
+      "source_line": 4091,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-diagnostics/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-diagnostics/README.md"
+      ],
+      "required_gate": "Complete remaining platform, allocation, stdio and lifecycle gates listed in evidence"
+    },
+    {
+      "symbol": "wimlib_set_image_descripton",
+      "source_line": 4102,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-properties/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-properties/README.md"
+      ],
+      "required_gate": "Complete remaining allocator, platform, lifecycle and behavior gates listed in evidence"
+    },
+    {
+      "symbol": "wimlib_set_image_flags",
+      "source_line": 4113,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-properties/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-properties/README.md"
+      ],
+      "required_gate": "Complete remaining allocator, platform, lifecycle and behavior gates listed in evidence"
+    },
+    {
+      "symbol": "wimlib_set_image_name",
+      "source_line": 4122,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-properties/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-properties/README.md"
+      ],
+      "required_gate": "Complete remaining allocator, platform, lifecycle and behavior gates listed in evidence"
+    },
+    {
+      "symbol": "wimlib_set_image_property",
+      "source_line": 4162,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-properties/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-properties/README.md"
+      ],
+      "required_gate": "Complete remaining allocator, platform, lifecycle and behavior gates listed in evidence"
+    },
+    {
+      "symbol": "wimlib_set_memory_allocator",
+      "source_line": 4195,
+      "status": "removed",
+      "abi_evidence": [
+        "evidence/native-ffi-allocator/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-allocator/README.md"
+      ],
+      "required_gate": "Deliberately removed: Rust containers use the global allocator; C-owned output buffers use the fixed host C runtime. No allocator-hook compatibility is promised."
+    },
+    {
+      "symbol": "wimlib_set_output_chunk_size",
+      "source_line": 4225,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-wim-info/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-wim-info/README.md"
+      ],
+      "required_gate": "Complete remaining allocator, platform, lifecycle and behavior gates listed in evidence"
+    },
+    {
+      "symbol": "wimlib_set_output_pack_chunk_size",
+      "source_line": 4234,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-wim-info/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-wim-info/README.md"
+      ],
+      "required_gate": "Complete remaining allocator, platform, lifecycle and behavior gates listed in evidence"
+    },
+    {
+      "symbol": "wimlib_set_output_compression_type",
+      "source_line": 4256,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-wim-info/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-wim-info/README.md"
+      ],
+      "required_gate": "Complete remaining allocator, platform, lifecycle and behavior gates listed in evidence"
+    },
+    {
+      "symbol": "wimlib_set_output_pack_compression_type",
+      "source_line": 4266,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-wim-info/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-wim-info/README.md"
+      ],
+      "required_gate": "Complete remaining allocator, platform, lifecycle and behavior gates listed in evidence"
+    },
+    {
+      "symbol": "wimlib_set_print_errors",
+      "source_line": 4289,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-diagnostics/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-diagnostics/README.md"
+      ],
+      "required_gate": "Complete remaining platform, allocation, stdio and lifecycle gates listed in evidence"
+    },
+    {
+      "symbol": "wimlib_set_wim_info",
+      "source_line": 4315,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-wim-info/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-wim-info/README.md"
+      ],
+      "required_gate": "Complete remaining allocator, platform, lifecycle and behavior gates listed in evidence"
+    },
+    {
+      "symbol": "wimlib_split",
+      "source_line": 4359,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-split-join/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-split-join/README.md"
+      ],
+      "required_gate": "Complete remaining ownership, allocator, platform, lifecycle, flags and callback gates listed in evidence"
+    },
+    {
+      "symbol": "wimlib_verify_wim",
+      "source_line": 4402,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-verify/README.md",
+        "evidence/native-ffi-progress/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-verify/README.md",
+        "evidence/native-ffi-progress/README.md"
+      ],
+      "required_gate": "Complete remaining allocator, platform, lifecycle, flags and callback gates listed in evidence"
+    },
+    {
+      "symbol": "wimlib_unmount_image",
+      "source_line": 4438,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-mount-disabled/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-mount-disabled/README.md"
+      ],
+      "required_gate": "Disabled-FUSE build capability only; implement and verify real FUSE filesystem, unmount IPC, staged writes and transactional commit; Windows unsupported-build contracts remain"
+    },
+    {
+      "symbol": "wimlib_unmount_image_with_progress",
+      "source_line": 4449,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-mount-disabled/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-mount-disabled/README.md"
+      ],
+      "required_gate": "Disabled-FUSE build capability only; implement and verify real FUSE filesystem, unmount IPC, staged writes and transactional commit; Windows unsupported-build contracts remain"
+    },
+    {
+      "symbol": "wimlib_update_image",
+      "source_line": 4545,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-update/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-update/README.md"
+      ],
+      "required_gate": "Implement ADD capture integration and complete remaining allocator, platform, transaction and behavior gates listed in evidence"
+    },
+    {
+      "symbol": "wimlib_write",
+      "source_line": 4613,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-write/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-write/README.md"
+      ],
+      "required_gate": "Complete remaining allocator, platform, lifecycle, flags and callback gates listed in evidence"
+    },
+    {
+      "symbol": "wimlib_write_to_fd",
+      "source_line": 4640,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-write/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-write/README.md"
+      ],
+      "required_gate": "Complete remaining allocator, platform, lifecycle, flags and callback gates listed in evidence"
+    },
+    {
+      "symbol": "wimlib_set_default_compression_level",
+      "source_line": 4698,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-compress/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-compress/README.md"
+      ],
+      "required_gate": "Complete allocator, lifetime, compression-policy, platform and failure guarantees listed in evidence"
+    },
+    {
+      "symbol": "wimlib_get_compressor_needed_memory",
+      "source_line": 4709,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-compression-memory/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-compression-memory/README.md"
+      ],
+      "required_gate": "Complete allocator, lifetime, compression-policy, platform and failure guarantees listed in evidence"
+    },
+    {
+      "symbol": "wimlib_create_compressor",
+      "source_line": 4784,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-compress/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-compress/README.md"
+      ],
+      "required_gate": "Complete allocator, lifetime, compression-policy, platform and failure guarantees listed in evidence"
+    },
+    {
+      "symbol": "wimlib_compress",
+      "source_line": 4810,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-compress/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-compress/README.md"
+      ],
+      "required_gate": "Complete allocator, lifetime, compression-policy, platform and failure guarantees listed in evidence"
+    },
+    {
+      "symbol": "wimlib_free_compressor",
+      "source_line": 4821,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-compress/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-compress/README.md"
+      ],
+      "required_gate": "Complete allocator, lifetime, compression-policy, platform and failure guarantees listed in evidence"
+    },
+    {
+      "symbol": "wimlib_create_decompressor",
+      "source_line": 4857,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-decompress/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-decompress/README.md"
+      ],
+      "required_gate": "Complete allocator, lifetime, compression-policy, platform and failure guarantees listed in evidence"
+    },
+    {
+      "symbol": "wimlib_decompress",
+      "source_line": 4889,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-decompress/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-decompress/README.md"
+      ],
+      "required_gate": "Complete allocator, lifetime, compression-policy, platform and failure guarantees listed in evidence"
+    },
+    {
+      "symbol": "wimlib_free_decompressor",
+      "source_line": 4900,
+      "status": "partial",
+      "abi_evidence": [
+        "evidence/native-ffi-decompress/README.md"
+      ],
+      "behavior_evidence": [
+        "evidence/native-ffi-decompress/README.md"
+      ],
+      "required_gate": "Complete allocator, lifetime, compression-policy, platform and failure guarantees listed in evidence"
+    }
+  ]
+}

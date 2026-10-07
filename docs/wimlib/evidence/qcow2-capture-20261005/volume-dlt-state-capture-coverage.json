@@ -1,0 +1,229 @@
+{
+  "schema": 1,
+  "scope": "Read-only strict native audit of frozen source, installed baseline and original/reboot scratch volume DLT state; no volume identity mutations",
+  "roles": [
+    {
+      "role": "source",
+      "image": "/data/cache/qcow2-oobe-preparation-control-20261005/vm-state/overlay.qcow2",
+      "partition": "3",
+      "authorized_backings": [
+        "/home/rick/.cache/windows-capture-recovery-20261005/prepared-source.qcow2",
+        "/home/rick/projects-caddy/windows-uup/vm-state/qcow2-source-1005/overlay.qcow2",
+        "/home/rick/.vm-base/win11-secure/disk.qcow2"
+      ],
+      "strict_clean_ntfs_open": true,
+      "complete_objid_index_validated_by_native_open": true,
+      "volume_object_id_hex": "66810d707d6c0c45bedea5101764417b",
+      "tracking_log_present": true,
+      "tracking_log_length": 20480,
+      "tracking_log_sha256": "4a99647a65ab69c1a7b211f217273c31a5af0773ab65038992069a5269ae916a",
+      "raw_system_attributes": [
+        {
+          "path": "$Volume",
+          "type": "ObjectId",
+          "name": "",
+          "length": 16,
+          "sha256": "e6188e596a698ab6adac811d14ca05f013f35301754ef5494e58fdbb30541e82"
+        },
+        {
+          "path": "$Extend",
+          "type": "IndexRoot",
+          "name": "$I30",
+          "length": 656,
+          "sha256": "4707ed559abf6fc543a3c6512acc29b8608cab54941500d08931a91fd279ed2b"
+        },
+        {
+          "path": "$Extend/$ObjId",
+          "type": "IndexRoot",
+          "name": "$O",
+          "length": 56,
+          "sha256": "fa05a0cb713278d51d2d961373f4e1baedfd00b33ce29a0e654a56b1c30eefbb"
+        },
+        {
+          "path": "$Extend/$ObjId",
+          "type": "IndexAllocation",
+          "name": "$O",
+          "length": 4096,
+          "sha256": "bb822136f74513737898211eb3d78bf69900a7e6666c4034dc2b8493539cc445"
+        },
+        {
+          "path": "$Extend/$ObjId",
+          "type": "Bitmap",
+          "name": "$O",
+          "length": 8,
+          "sha256": "7c9fa136d4413fa6173637e883b6998d32e1d675f88cddff9dcbcf331820f4b8"
+        }
+      ],
+      "artifact": "/data/cache/qcow2-v12-offline-audit/source-volume-dlt-complete.json",
+      "artifact_sha256": "d4032136bd0b04d385d1abb0bce48bd170dc9a6895ab578151d7c0de887e28de"
+    },
+    {
+      "role": "target",
+      "image": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/immutable-pre-servicing-baseline/disk.qcow2",
+      "partition": "3",
+      "authorized_backings": [
+        "/home/rick/.vm-base/win11-24h2-installer/disk.qcow2"
+      ],
+      "strict_clean_ntfs_open": true,
+      "complete_objid_index_validated_by_native_open": true,
+      "volume_object_id_hex": "5cf084c6d6be1c468ce8ab9cbce61782",
+      "tracking_log_present": true,
+      "tracking_log_length": 20480,
+      "tracking_log_sha256": "e3c3d8eab0f6803fce4ae580183905900e686ac52998dd155b7d5a800af4d1e2",
+      "raw_system_attributes": [
+        {
+          "path": "$Volume",
+          "type": "ObjectId",
+          "name": "",
+          "length": 16,
+          "sha256": "b37ead98d1e598b6378fc021d2714eae7340ea1c6c1e27cc4ee3833036fb6290"
+        },
+        {
+          "path": "$Extend",
+          "type": "IndexRoot",
+          "name": "$I30",
+          "length": 656,
+          "sha256": "78d65d01bbce7e14d2bbfed4f4c68dd35ffb0bfe318009f77574e2f7dabc2a70"
+        },
+        {
+          "path": "$Extend/$ObjId",
+          "type": "IndexRoot",
+          "name": "$O",
+          "length": 56,
+          "sha256": "fa05a0cb713278d51d2d961373f4e1baedfd00b33ce29a0e654a56b1c30eefbb"
+        },
+        {
+          "path": "$Extend/$ObjId",
+          "type": "IndexAllocation",
+          "name": "$O",
+          "length": 4096,
+          "sha256": "6b3374252f478978b41fda8884e7ba882e10e33d95a55d762bc92a0d6f6fd8d1"
+        },
+        {
+          "path": "$Extend/$ObjId",
+          "type": "Bitmap",
+          "name": "$O",
+          "length": 8,
+          "sha256": "7c9fa136d4413fa6173637e883b6998d32e1d675f88cddff9dcbcf331820f4b8"
+        }
+      ],
+      "artifact": "/data/cache/qcow2-v12-offline-audit/target-volume-dlt-complete.json",
+      "artifact_sha256": "c3796294d8ad8db8211da00e85126d0f6328da9e85e097fb0b2466366ee0a1f3"
+    },
+    {
+      "role": "scratch",
+      "image": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/diagnostic-scratch.qcow2",
+      "partition": "2",
+      "authorized_backings": [],
+      "strict_clean_ntfs_open": true,
+      "complete_objid_index_validated_by_native_open": true,
+      "volume_object_id_hex": null,
+      "tracking_log_present": false,
+      "tracking_log_length": null,
+      "tracking_log_sha256": null,
+      "raw_system_attributes": [
+        {
+          "path": "$Extend",
+          "type": "IndexRoot",
+          "name": "$I30",
+          "length": 552,
+          "sha256": "614ebcfd06fef3d3726237c68f86b31c382a763b00c4e8236f7999af4786efa7"
+        },
+        {
+          "path": "$Extend/$ObjId",
+          "type": "IndexRoot",
+          "name": "$O",
+          "length": 136,
+          "sha256": "a63821f0571948f6882b0afa499afc0d697fae93c91792f8ffd00e7dc8181117"
+        }
+      ],
+      "artifact": "/data/cache/qcow2-v12-offline-audit/scratch-volume-dlt-complete.json",
+      "artifact_sha256": "39ea430e5621cdcc0619c075d3fc0a3a5cd33f331dc1744e34b91b7a75ec94c4",
+      "resident_objid_index_entries": [
+        {
+          "object_id": "7e7356a406c1f111b4b3a9be630d8cb9",
+          "full_file_reference": 281474976710705,
+          "birth48_hex": "66810d707d6c0c45bedea5101764417b663d9b6da3c0f111b4a8998f604d14a300000000000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "role": "reboot-scratch",
+      "image": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/prior-scratch-reboot-child.qcow2",
+      "partition": "2",
+      "authorized_backings": [
+        "/data/cache/qcow2-installation-autologon-disabled-1005-v12/diagnostic-scratch.qcow2"
+      ],
+      "strict_clean_ntfs_open": true,
+      "complete_objid_index_validated_by_native_open": true,
+      "volume_object_id_hex": "cc5ec5dd4c7fa24da1b41b2c2ac3826d",
+      "tracking_log_present": true,
+      "tracking_log_length": 20480,
+      "tracking_log_sha256": "892f68e66492b921344dccaf21c197901d6018c7aab165319b9d8078fabf06b2",
+      "raw_system_attributes": [
+        {
+          "path": "$Volume",
+          "type": "ObjectId",
+          "name": "",
+          "length": 16,
+          "sha256": "23f0a89910f487b0fbd7a87e9eac031070a8437daac96a5c87d4b0f4f3898849"
+        },
+        {
+          "path": "$Extend",
+          "type": "IndexRoot",
+          "name": "$I30",
+          "length": 552,
+          "sha256": "614ebcfd06fef3d3726237c68f86b31c382a763b00c4e8236f7999af4786efa7"
+        },
+        {
+          "path": "$Extend/$ObjId",
+          "type": "IndexRoot",
+          "name": "$O",
+          "length": 224,
+          "sha256": "b1d1010c44b3503878d6cc66ac75ca3a0926d590b599494b92c9de21ec12cdf9"
+        }
+      ],
+      "artifact": "/data/cache/qcow2-v12-offline-audit/reboot-scratch-volume-dlt-complete.json",
+      "artifact_sha256": "3bd739b54fe1a31820924046aa08387d3f8fdfb0361a9dd4ba1d3a80e1b88156",
+      "resident_objid_index_entries": [
+        {
+          "object_id": "7e7356a406c1f111b4b3a9be630d8cb9",
+          "full_file_reference": 281474976710705,
+          "birth48_hex": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "object_id": "cc5ec5dd4c7fa24da1b41b2c2ac3826d",
+          "full_file_reference": 844424930131971,
+          "birth48_hex": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        }
+      ]
+    }
+  ],
+  "capture_coverage": {
+    "volume_record3_excluded": true,
+    "extend_record11_subtree_excluded": true,
+    "raw_objid_index_not_emitted": true,
+    "objid_index_used_to_validate_file_ids_and_expand_birth48": true,
+    "tracking_log_explicitly_excluded_by_system_volume_information_capture_filter": true,
+    "volume_serial_is_not_volume_object_id": true
+  },
+  "facts": [
+    "Original scratch has no volume ObjectID and no tracking.log; reboot child acquires both while the same file ObjectID16/identity survives and its48extended bytes zero.",
+    "Scratch source-copied BirthVolumeID66810d707d6c0c45bedea5101764417b equals immutable source volumeObjectID.",
+    "Installed fresh volume ObjectID differs source."
+  ],
+  "limits": [
+    "Correlation does not establish exact TrkWks code branch or causality.",
+    "No proposal to restore original volume identity onto a fresh installation; audit fields should record source/target context and explicit exclusion."
+  ],
+  "audit_field_proposal": [
+    "Optional source volume_object_id raw16 plus attribute presence and raw file3 provenance.",
+    "ObjectID index entry count/hash, source birth-volume associations and unresolved foreign volume associations.",
+    "tracking.log presence/length/SHA256 and explicit excluded=true; do not copy tracking state by default."
+  ],
+  "primary_sources": [
+    "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-dltw/535f4e4b-5eda-4314-8ca5-45f406a84de2",
+    "https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/fsutil-objectid"
+  ],
+  "helper_source_sha256": "704a6f6c59472fc26954ae8e62b70535e7a0b4a604d1801eb787f9f01e101ee2"
+}

@@ -1,0 +1,112 @@
+//! Inspect native C compatibility layouts independently of the header probe.
+use std::mem::{offset_of, size_of};
+use wim::ffi::{
+    AddCommand, CaptureSource, DeleteCommand, ExtractProgress, ProgressCallback, ProgressInfo,
+    RenameCommand, ScanProgress, TChar, UnmountProgress, UpdateCommand, WimDirEntry, WimInfo,
+    WimResourceEntry, WimStreamEntry, WimTimespec, WriteStreamsProgress,
+};
+
+const LABELS: &[&str] = &[
+    "pointer_size",
+    "size_t_size",
+    "long_size",
+    "tchar_size",
+    "timespec_size",
+    "timespec_nsec_offset",
+    "timespec_nsec_size",
+    "wim_info_size",
+    "wim_info_total_bytes_offset",
+    "wim_info_reserved_offset",
+    "resource_entry_size",
+    "resource_hash_offset",
+    "resource_refcount_offset",
+    "resource_raw_offset",
+    "stream_entry_size",
+    "stream_resource_offset",
+    "dir_entry_size",
+    "dir_depth_offset",
+    "dir_attributes_offset",
+    "dir_creation_offset",
+    "dir_write_offset",
+    "dir_access_offset",
+    "dir_unix_uid_offset",
+    "dir_streams_offset",
+    "progress_info_size",
+    "progress_extract_size",
+    "progress_extract_bytes_offset",
+    "progress_extract_guid_offset",
+    "progress_write_size",
+    "progress_write_bytes_offset",
+    "update_command_size",
+    "update_add_offset",
+    "update_add_size",
+    "update_delete_size",
+    "update_rename_size",
+    "compression_enum_size",
+    "error_enum_size",
+    "progress_callback_size",
+    "progress_scan_size",
+    "progress_scan_bytes_offset",
+    "capture_source_size",
+    "capture_reserved_offset",
+    "capture_reserved_size",
+    "progress_unmount_size",
+];
+
+#[used]
+#[unsafe(link_section = ".wlabi")]
+static VALUES: [u64; LABELS.len()] = [
+    size_of::<*const ()>() as u64,
+    size_of::<usize>() as u64,
+    size_of::<std::ffi::c_long>() as u64,
+    size_of::<TChar>() as u64,
+    size_of::<WimTimespec>() as u64,
+    offset_of!(WimTimespec, tv_nsec) as u64,
+    size_of::<std::ffi::c_long>() as u64,
+    size_of::<WimInfo>() as u64,
+    offset_of!(WimInfo, total_bytes) as u64,
+    offset_of!(WimInfo, reserved) as u64,
+    size_of::<WimResourceEntry>() as u64,
+    offset_of!(WimResourceEntry, sha1_hash) as u64,
+    offset_of!(WimResourceEntry, reference_count) as u64,
+    offset_of!(WimResourceEntry, raw_resource_offset_in_wim) as u64,
+    size_of::<WimStreamEntry>() as u64,
+    offset_of!(WimStreamEntry, resource) as u64,
+    size_of::<WimDirEntry>() as u64,
+    offset_of!(WimDirEntry, depth) as u64,
+    offset_of!(WimDirEntry, attributes) as u64,
+    offset_of!(WimDirEntry, creation_time) as u64,
+    offset_of!(WimDirEntry, last_write_time) as u64,
+    offset_of!(WimDirEntry, last_access_time) as u64,
+    offset_of!(WimDirEntry, unix_uid) as u64,
+    offset_of!(WimDirEntry, streams) as u64,
+    size_of::<ProgressInfo>() as u64,
+    size_of::<ExtractProgress>() as u64,
+    offset_of!(ExtractProgress, total_bytes) as u64,
+    offset_of!(ExtractProgress, guid) as u64,
+    size_of::<WriteStreamsProgress>() as u64,
+    offset_of!(WriteStreamsProgress, total_bytes) as u64,
+    size_of::<UpdateCommand>() as u64,
+    offset_of!(UpdateCommand, data) as u64,
+    size_of::<AddCommand>() as u64,
+    size_of::<DeleteCommand>() as u64,
+    size_of::<RenameCommand>() as u64,
+    size_of::<wim_format::Compression>() as u64,
+    size_of::<wim_format::ParseError>() as u64,
+    size_of::<ProgressCallback>() as u64,
+    size_of::<ScanProgress>() as u64,
+    offset_of!(ScanProgress, bytes) as u64,
+    size_of::<CaptureSource>() as u64,
+    offset_of!(CaptureSource, reserved) as u64,
+    size_of::<std::ffi::c_long>() as u64,
+    size_of::<UnmountProgress>() as u64,
+];
+
+fn main() {
+    println!("{{");
+    for (index, (label, value)) in LABELS.iter().zip(VALUES).enumerate() {
+        let comma = if index + 1 == LABELS.len() { "" } else { "," };
+        println!("  \"{label}\": {value}{comma}");
+    }
+    println!("}}");
+}

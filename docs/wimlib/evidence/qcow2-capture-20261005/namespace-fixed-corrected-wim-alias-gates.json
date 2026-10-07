@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "scope": "Independent libwim resource decode and bounded raw metadata traversal versus raw-index-proven corrected source aliases, including required empty POSIX short names; no installed lookup claim",
+  "nodes": 175812,
+  "correct_alias_paths": 101168,
+  "required_empty_posix_paths": 601,
+  "differences": [],
+  "passes": true,
+  "wim_sha256_bound_to_root_full_hash": "6fe084f644eb631349d4e385a155d1c5ce334d0810b633464ecfdd61b528884b",
+  "source_artifacts": [
+    {
+      "path": "/data/cache/qcow2-oobe-preparation-control-20261005/offline-audit/namespace-correct-distinct-dos-alias-selectors.json",
+      "sha256": "f7e3ec0a40b56beccb0c48690c1195da95da1928a051e308bdd8e5cecd00f26c"
+    },
+    {
+      "path": "/data/cache/qcow2-oobe-preparation-control-20261005/offline-audit/old-spurious-posix-dos-alias-selectors.json",
+      "sha256": "2b1187ea696e640614e16820f7000d424cca68eb62bc24e9a947517100479293"
+    }
+  ],
+  "decoder": {
+    "path": "/home/rick/projects-caddy/windows-uup/scripts/wimlib/compare-whole-wim-metadata.py",
+    "sha256": "3033ed9ad25303c6e28638d198d26c1e71649e846596eb0df94ee78a9c224b4b"
+  },
+  "result": {
+    "path": "/data/cache/qcow2-namespace-fixed-20261006/capture/root-corrected-wim-alias-comparison.json",
+    "sha256": "2d8c54c90c639b03b29393f2fdf38c1771ed6ac8de13b7ae79111887f3acff92"
+  },
+  "checker": {
+    "path": "/data/cache/qcow2-namespace-fixed-20261006/root-check-corrected-wim-aliases.py",
+    "sha256": "0683ad10e7950bfcfefcbae0b8687bd99ad240aa55cefd37b7eec434d1e5cc6b"
+  },
+  "exit": 0
+}

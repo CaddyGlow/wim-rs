@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "scope": "Root independent artifact digests and candidate/gate accounting; no setter or physical-disk rehash performed here",
+  "artifacts": [
+    {
+      "path": "/data/cache/qcow2-oobe-preparation-control-20261005/offline-audit/complete-source-object-id-inventory-basic4.json",
+      "sha256": "e3ed2da453783097545ca04394936e542b1e531dc55d49ee8bc859b7da7711b8"
+    },
+    {
+      "path": "/data/cache/qcow2-namespace-fixed-20261006/capture/job/capture-report.json",
+      "sha256": "4a75acb2d38e7b90dd8ae8a8bc048fb977c64ec26dfbb585f8ebbaff57d777d2"
+    },
+    {
+      "path": "/data/cache/qcow2-v12-offline-audit/source-volume-dlt-complete.json",
+      "sha256": "d4032136bd0b04d385d1abb0bce48bd170dc9a6895ab578151d7c0de887e28de"
+    },
+    {
+      "path": "/data/cache/qcow2-oobe-preparation-control-20261005/offline-audit/source-object-id-independent-index-comparison.json",
+      "sha256": "df5601b5aed83d015a51cedf1f43e8acc72f21256c92e61f752a7c6ce5f73198"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-namespace-fixed-1006-v13/objectid-get-observer/actual-child-target-planner-evidence.json",
+      "sha256": "292c5a2012970bfea3da2c4bc2fe94db34fc8a12e29bbb429e3d8b06ae286a1a"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-namespace-fixed-1006-v13/objectid-get-observer/actual-child-volume-dlt.json",
+      "sha256": "257960f9aa6365dfb5a9f5d21842a6271ba4aca0982b2feffb9ae31f4bda2019"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-namespace-fixed-1006-v13/objectid-get-observer/actual-child-target-context-receipt.json",
+      "sha256": "ccc1d5138c8ec983e55aa14ecff8abc4dc355c7769c00f56653081dbd04d763c"
+    }
+  ],
+  "plan": {
+    "path": "/data/cache/qcow2-installation-namespace-fixed-1006-v13/objectid-get-observer/actual-child-non-executable-plan.json",
+    "sha256": "1b1e1c47b2c34f22f88fa52de6b191a4e371cc9425a1ed42a65a82c8130f4fc3"
+  },
+  "candidate_groups": 19,
+  "candidate_paths": 24,
+  "execution_gates_all_false": true,
+  "source64_fidelity": false
+}

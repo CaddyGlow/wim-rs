@@ -1,0 +1,53 @@
+{
+  "timestamp_utc": "2026-10-05T19:09:08.688588+00:00",
+  "scope": "Current worktree locked host tests, format, full all-target all-feature denied-warnings Clippy, and windows-uup Windows MSVC check; no installed-runtime completion claim",
+  "tests": {
+    "passed": 2367,
+    "failed": 0,
+    "ignored": 51,
+    "suites": 296
+  },
+  "logs": {
+    "host-tests-validation-agent.log": {
+      "path": "/data/cache/qcow2-recovered-20261005/host-tests-validation-agent.log",
+      "bytes": 241258,
+      "sha256": "8498feae5f92e98f1b39a330799293deb8d43b42afe8e3c1998dd629f6f6615e",
+      "exit": 0
+    },
+    "clippy-validation-agent.log": {
+      "path": "/data/cache/qcow2-recovered-20261005/clippy-validation-agent.log",
+      "bytes": 1229,
+      "sha256": "0e23eeb5463efbf5f3963bd224bec6da203a38e40210f53a0ccfcdc33edc03ef",
+      "exit": 0
+    },
+    "fmt-validation-agent.log": {
+      "path": "/data/cache/qcow2-recovered-20261005/fmt-validation-agent.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exit": 0
+    },
+    "windows-validation-agent.log": {
+      "path": "/data/cache/qcow2-recovered-20261005/windows-validation-agent.log",
+      "bytes": 1025,
+      "sha256": "7f3f3276d7d94bb42c876920dccf642e1e227ee630cb614b6644815a62b42446",
+      "exit": 0
+    }
+  },
+  "commands": [
+    "cargo test --locked",
+    "cargo clippy --all-targets --all-features --locked -- -D warnings",
+    "cargo fmt --all -- --check",
+    "nix develop --command cargo xwin check --locked --target x86_64-pc-windows-msvc -p windows-uup"
+  ],
+  "environment": {
+    "CARGO_TARGET_DIR": "/data/cache/rust",
+    "TMPDIR": "/data/cache",
+    "XWIN_CACHE_DIR": "/home/rick/projects-caddy/windows-uup/target/xwin-msvc"
+  },
+  "fresh_installation_proven": false,
+  "limitations": [
+    "Checks observe the current shared worktree during each command; concurrent later source changes require their own validation.",
+    "Cross-check is compilation only, not Windows runtime testing.",
+    "The prior LZMA test compilation failure no longer reproduces; this agent made no production code changes."
+  ]
+}

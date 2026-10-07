@@ -1,0 +1,90 @@
+{
+  "scope": "New supportedAudit/AutologonDisable/Sysprep preparedsource immutable offline audit versus originalbf frozen source; source-only changes retained explicitly, no originalbaseline rewrite.",
+  "child": "/data/cache/qcow2-oobe-preparation-control-20261005/vm-state/overlay.qcow2",
+  "backing": "/home/rick/.cache/windows-capture-recovery-20261005/prepared-source.qcow2",
+  "child_bytes": 1978662912,
+  "child_hash_owner": "fresh_install handles exacthash+allparentguards; this audit does notduplicatewholehash",
+  "strict_clean_NTFS_open_passed": true,
+  "registry": {
+    "AutoAdminLogon": null,
+    "DefaultPasswordPresent": false,
+    "ImageState": "IMAGE_STATE_GENERALIZE_RESEAL_TO_OOBE",
+    "LSA_secret_contents_read": false,
+    "SystemSetupInProgress": 1,
+    "hives_clean": true
+  },
+  "Sysprep_final_success_time": "2026-10-05 20:40:39",
+  "fixture": {
+    "all9_entries_entireJSON_exact": true,
+    "all331_streams_exact": true,
+    "full64_ObjectID_nonzero_birthfields_exact": true,
+    "fullEAs_RP_security_times_attributes_fileIDs_exact": true
+  },
+  "reservedSACL": {
+    "original5727paths_retained": true,
+    "original_reservedACEbytes_all_exact": true,
+    "entireSDexact": 5703,
+    "owner_group_DACL_changes": 24,
+    "SACL_changes": 0,
+    "newprocess_trust_paths": 5,
+    "current_process_trust_paths": 5730,
+    "current_resource_attribute_paths": 2
+  },
+  "all_filtered_node_counts": {
+    "original": 176484,
+    "current": 175812,
+    "difference": -672,
+    "whole_nonreserved_tree_difference_not_yet_inventoried": true
+  },
+  "original_runtime_gates_preserved": "Original9/331/full64+5725ACE20+2ACE18 remain required; 5newlabels and24SDdifferences are preparationchanges separatelyretained, not silentnormalization.",
+  "artifacts": {
+    "fixture-metadata.json": {
+      "path": "/data/cache/qcow2-oobe-preparation-control-20261005/offline-audit/fixture-metadata.json",
+      "sha256": "99eed6783313e1c4743b7f6a6295dc001e303485890253ebd3a0e1b64c265e6e"
+    },
+    "qcow-info.json": {
+      "path": "/data/cache/qcow2-oobe-preparation-control-20261005/offline-audit/qcow-info.json",
+      "sha256": "bce39e147f6819327ae1138c051069cc9f095db5a40b7dbb0cd7f671e4323061"
+    },
+    "fixture-comparison.json": {
+      "path": "/data/cache/qcow2-oobe-preparation-control-20261005/offline-audit/fixture-comparison.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    "reserved-sacl-comparison.json": {
+      "path": "/data/cache/qcow2-oobe-preparation-control-20261005/offline-audit/reserved-sacl-comparison.json",
+      "sha256": "c8be8a0fc217a94799f42d32242344ca4980170c5da5fcac72a5978a47252735"
+    },
+    "reserved-sacl-inventory.json": {
+      "path": "/data/cache/qcow2-oobe-preparation-control-20261005/offline-audit/reserved-sacl-inventory.json",
+      "sha256": "86318243cf75acde3be9468d1c485c85d77ad25874c431af4536b2bb49d7cc5c"
+    },
+    "reserved-sd-component-differences.json": {
+      "path": "/data/cache/qcow2-oobe-preparation-control-20261005/offline-audit/reserved-sd-component-differences.json",
+      "sha256": "999754b073799033e249e4fd3c95f396805999470d110982ef6160c6047d5b6f"
+    },
+    "preparation-state.json": {
+      "path": "/data/cache/qcow2-oobe-preparation-control-20261005/offline-audit/preparation-state.json",
+      "sha256": "cf6bde1d35d63860347527fff6e2d6efedb7d6c20ca579c8ab8b8e2081d348f3"
+    },
+    "logs/winre-locations.json": {
+      "path": "/data/cache/qcow2-oobe-preparation-control-20261005/offline-audit/logs/winre-locations.json",
+      "sha256": "cd096c8e918cfe5dbf626b5478d011990dfc7c497ce1af3a582f2d5eeb1e6c91"
+    },
+    "logs/Windows_System32_Sysprep_Panther_setupact.log": {
+      "path": "/data/cache/qcow2-oobe-preparation-control-20261005/offline-audit/logs/Windows_System32_Sysprep_Panther_setupact.log",
+      "sha256": "4aeca070ca2247ce7d2cb3f3b4c54c243fe05820e773c9486769f4b4c4c3e878"
+    },
+    "logs/Windows_Panther_setuperr.log": {
+      "path": "/data/cache/qcow2-oobe-preparation-control-20261005/offline-audit/logs/Windows_Panther_setuperr.log",
+      "sha256": "1a98734ba4950509c5852e71d0ee12b517a02baf6991162a63f6f8edc54f274f"
+    },
+    "logs/Windows_System32_Sysprep_Panther_setuperr.log": {
+      "path": "/data/cache/qcow2-oobe-preparation-control-20261005/offline-audit/logs/Windows_System32_Sysprep_Panther_setuperr.log",
+      "sha256": "b134249b252a94bd9ba30aed867e4bd90da04a609cb72f67bf170506625c8ef3"
+    },
+    "logs/Windows_Panther_setupact.log": {
+      "path": "/data/cache/qcow2-oobe-preparation-control-20261005/offline-audit/logs/Windows_Panther_setupact.log",
+      "sha256": "12319a907279ae6f173886dd1ced83d3c456d6bd866c30db27de149a8225cd0f"
+    }
+  }
+}

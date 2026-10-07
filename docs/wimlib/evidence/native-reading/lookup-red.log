@@ -1,0 +1,58 @@
+
+running 9 tests
+test lookup::tests::disk_record_retains_exact_layout_and_rejects_every_truncation ... ok
+test lookup::tests::filtering_does_not_bypass_uncompressed_size_validation ... ok
+test lookup::tests::absent_metadata_reconciles_first_part_image_count_and_ignores_trailing_bytes ... FAILED
+test lookup::tests::first_duplicate_wins_and_metadata_follows_table_order ... FAILED
+test lookup::tests::ignores_zero_hash_empty_wrong_part_and_unreferenced_metadata ... FAILED
+test lookup::tests::ordinary_version_ignores_solid_flag_and_metadata_requires_single_reference ... FAILED
+test lookup::tests::solid_blobs_use_concatenated_resource_offsets_and_descriptor_size_as_blob_length ... FAILED
+test lookup::tests::solid_metadata_and_missing_backing_resource_are_rejected ... ok
+test lookup::tests::solid_overlaps_are_rejected_but_out_of_order_disjoint_blobs_are_accepted ... FAILED
+
+failures:
+
+---- lookup::tests::absent_metadata_reconciles_first_part_image_count_and_ignores_trailing_bytes stdout ----
+
+thread 'lookup::tests::absent_metadata_reconciles_first_part_image_count_and_ignores_trailing_bytes' (46) panicked at /home/rick/projects-caddy/windows-uup/crates/wimlib-rs/wim-format/src/lookup.rs:168:85:
+called `Result::unwrap()` on an `Err` value: InvalidLookupTableEntry
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+---- lookup::tests::first_duplicate_wins_and_metadata_follows_table_order stdout ----
+
+thread 'lookup::tests::first_duplicate_wins_and_metadata_follows_table_order' (49) panicked at /home/rick/projects-caddy/windows-uup/crates/wimlib-rs/wim-format/src/lookup.rs:158:54:
+called `Result::unwrap()` on an `Err` value: InvalidLookupTableEntry
+
+---- lookup::tests::ignores_zero_hash_empty_wrong_part_and_unreferenced_metadata stdout ----
+
+thread 'lookup::tests::ignores_zero_hash_empty_wrong_part_and_unreferenced_metadata' (50) panicked at /home/rick/projects-caddy/windows-uup/crates/wimlib-rs/wim-format/src/lookup.rs:185:121:
+called `Result::unwrap()` on an `Err` value: InvalidLookupTableEntry
+
+---- lookup::tests::ordinary_version_ignores_solid_flag_and_metadata_requires_single_reference stdout ----
+
+thread 'lookup::tests::ordinary_version_ignores_solid_flag_and_metadata_requires_single_reference' (51) panicked at /home/rick/projects-caddy/windows-uup/crates/wimlib-rs/wim-format/src/lookup.rs:192:74:
+called `Result::unwrap()` on an `Err` value: InvalidLookupTableEntry
+
+---- lookup::tests::solid_blobs_use_concatenated_resource_offsets_and_descriptor_size_as_blob_length stdout ----
+
+thread 'lookup::tests::solid_blobs_use_concatenated_resource_offsets_and_descriptor_size_as_blob_length' (52) panicked at /home/rick/projects-caddy/windows-uup/crates/wimlib-rs/wim-format/src/lookup.rs:211:117:
+called `Result::unwrap()` on an `Err` value: InvalidLookupTableEntry
+
+---- lookup::tests::solid_overlaps_are_rejected_but_out_of_order_disjoint_blobs_are_accepted stdout ----
+
+thread 'lookup::tests::solid_overlaps_are_rejected_but_out_of_order_disjoint_blobs_are_accepted' (54) panicked at /home/rick/projects-caddy/windows-uup/crates/wimlib-rs/wim-format/src/lookup.rs:223:13:
+assertion `left == right` failed
+  left: false
+ right: true
+
+
+failures:
+    lookup::tests::absent_metadata_reconciles_first_part_image_count_and_ignores_trailing_bytes
+    lookup::tests::first_duplicate_wins_and_metadata_follows_table_order
+    lookup::tests::ignores_zero_hash_empty_wrong_part_and_unreferenced_metadata
+    lookup::tests::ordinary_version_ignores_solid_flag_and_metadata_requires_single_reference
+    lookup::tests::solid_blobs_use_concatenated_resource_offsets_and_descriptor_size_as_blob_length
+    lookup::tests::solid_overlaps_are_rejected_but_out_of_order_disjoint_blobs_are_accepted
+
+test result: FAILED. 3 passed; 6 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

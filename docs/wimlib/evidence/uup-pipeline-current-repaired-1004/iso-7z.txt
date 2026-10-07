@@ -1,0 +1,32 @@
+
+7-Zip [64] 17.05 : Copyright (c) 1999-2021 Igor Pavlov : 2017-08-28
+p7zip Version 17.05 (locale=C.UTF-8,Utf16=on,HugeFiles=on,64 bits,24 CPUs x64)
+
+Scanning the drive for archives:
+1 file, 4528449536 bytes (4319 MiB)
+
+Testing archive: /data/cache/wim-uup-current-1004-validated.iso
+
+WARNINGS:
+There are data after the end of archive
+
+--
+Path = /data/cache/wim-uup-current-1004-validated.iso
+Type = Udf
+WARNINGS:
+There are data after the end of archive
+Physical Size = 4527925248
+Tail Size = 524288
+Comment = WINDOWS_UUP
+Cluster Size = 2048
+Created = 2026-01-01 02:00:00
+
+Everything is Ok
+
+Archives with Warnings: 1
+
+Warnings: 1
+Folders: 84
+Files: 900
+Size:       4524099310
+Compressed: 4528449536

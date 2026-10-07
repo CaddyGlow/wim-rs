@@ -1,0 +1,51 @@
+{
+  "schema": 1,
+  "scope": "Direct current frozen source raw security descriptors and full64 ObjectID tags against upstream-decoded published WIM; no installed fidelity credit",
+  "wim_sha256_bound_to_prior_full_verified_report": "6fe084f644eb631349d4e385a155d1c5ce334d0810b633464ecfdd61b528884b",
+  "wim_bytes": 8234056851,
+  "source_inputs": {
+    "reserved-sacl-inventory.json": "86318243cf75acde3be9468d1c485c85d77ad25874c431af4536b2bb49d7cc5c",
+    "complete-source-object-id-inventory.json": "d500cfd026cb6cc12e958b355da46f7cd33fec06d9459ccc0534f4e0d4179641",
+    "original-reserved-second-pass.json": "f2b08e04f6d3074cd8b44564debf88901374c80c41347fe7cf3a731c1531881e"
+  },
+  "wim_nodes": 175812,
+  "reserved_expected": 5732,
+  "reserved_compared": 5732,
+  "reserved_missing": [],
+  "reserved_differences": [],
+  "object_id_groups_expected": 19,
+  "object_id_paths_expected": 24,
+  "object_id_paths_compared": 24,
+  "object_id_missing": [],
+  "object_id_differences": [],
+  "passes": true,
+  "original_5727_gate": {
+    "expected": 5727,
+    "compared": 5727,
+    "passes": true
+  },
+  "added_five_gate": {
+    "expected": 5,
+    "compared": 5,
+    "passes": true,
+    "paths": [
+      "/Program Files/WindowsApps/Microsoft.WindowsNotepad_11.2501.31.0_x64__8wekyb3d8bbwe/microsoft.system.package.metadata/resources.06083b26.pri",
+      "/Program Files/WindowsApps/Microsoft.WindowsCalculator_11.2502.2.0_x64__8wekyb3d8bbwe/microsoft.system.package.metadata/resources.cb8c8aa6.pri",
+      "/Program Files/WindowsApps/Microsoft.Windows.Photos_24.24070.23002.0_x64__8wekyb3d8bbwe/microsoft.system.package.metadata/resources.e03c90a0.pri",
+      "/Program Files/WindowsApps/Microsoft.ScreenSketch_11.2307.61.0_x64__8wekyb3d8bbwe/microsoft.system.package.metadata/resources.f10c4cc5.pri",
+      "/Program Files/WindowsApps/Microsoft.Paint_11.2412.295.0_x64__8wekyb3d8bbwe/microsoft.system.package.metadata/resources.089c0f44.pri"
+    ]
+  },
+  "all_wim_object_id_path_count": 24,
+  "exit": 0,
+  "report": {
+    "path": "/data/cache/qcow2-namespace-fixed-20261006/capture/independent-source-security-objectids.json",
+    "bytes": 18300112,
+    "sha256": "46957803616c47e12461aa21f7913805f6469dd8d901f4a6c2cff2223e5cf856"
+  },
+  "checker": {
+    "path": "/data/cache/qcow2-namespace-fixed-20261006/check-source-security-objectids.py",
+    "bytes": 3625,
+    "sha256": "8ae86b251c8c13c602fdee4b607f4945c3029a26555748c9f0dcba5c1763503e"
+  }
+}

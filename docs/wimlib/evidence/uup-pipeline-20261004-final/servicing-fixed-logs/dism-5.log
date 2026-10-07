@@ -1,0 +1,251 @@
+﻿2026-10-04 06:41:51, Info                  DISM   PID=6072 TID=6336 Scratch directory set to 'C:\WINDOWS\SystemTemp\'. - CDISMManager::put_ScratchDir
+2026-10-04 06:41:51, Info                  DISM   PID=6072 TID=6336 DismCore.dll version: 10.0.26100.7920 - CDISMManager::FinalConstruct
+2026-10-04 06:41:51, Info                  DISM   Initialized Panther logging at C:\wim-uup-validation-1791090913159215058\servicing-fixed\logs\dism-5.log
+2026-10-04 06:41:51, Info                  DISM   PID=6072 TID=6336 Successfully loaded the ImageSession at "C:\WINDOWS\system32\Dism" - CDISMManager::LoadLocalImageSession
+2026-10-04 06:41:51, Info                  DISM   Initialized Panther logging at C:\wim-uup-validation-1791090913159215058\servicing-fixed\logs\dism-5.log
+2026-10-04 06:41:51, Info                  DISM   DISM Provider Store: PID=6072 TID=6336 Found and Initialized the DISM Logger. - CDISMProviderStore::Internal_InitializeLogger
+2026-10-04 06:41:51, Info                  DISM   Initialized Panther logging at C:\wim-uup-validation-1791090913159215058\servicing-fixed\logs\dism-5.log
+2026-10-04 06:41:51, Info                  DISM   DISM Manager: PID=6072 TID=6336 Successfully created the local image session and provider store. - CDISMManager::CreateLocalImageSession
+2026-10-04 06:41:51, Info                  DISM   DISM.EXE: 
+2026-10-04 06:41:51, Info                  DISM   DISM.EXE: <----- Starting Dism.exe session ----->
+2026-10-04 06:41:51, Info                  DISM   DISM.EXE: 
+2026-10-04 06:41:51, Info                  DISM   DISM.EXE: Host machine information: OS Version=10.0.26200, Running architecture=amd64, Number of processors=4
+2026-10-04 06:41:51, Info                  DISM   DISM.EXE: Instance information: Parent process=C:\wim-uup-validation-1791090913159215058\servicing-fixed.exe, Parent process PID=752
+2026-10-04 06:41:51, Info                  DISM   DISM.EXE: Dism.exe version: 10.0.26100.5074
+2026-10-04 06:41:51, Info                  DISM   DISM.EXE: Executing command line: "dism.exe" /Image:C:\wim-uup-validation-1791090913159215058\servicing-fixed\mount /Get-PackageInfo /PackagePath:D:\UUPs\SSU-19041.7714-x64.cab /LogPath:C:\wim-uup-validation-1791090913159215058\servicing-fixed\logs\dism-5.log /English /NoRestart
+2026-10-04 06:41:51, Info                  DISM   DISM FFU Provider: PID=6072 TID=6336 [C:\wim-uup-validation-1791090913159215058\servicing-fixed\mount] is not recognized by the DISM FFU provider. - CFfuImage::Initialize
+2026-10-04 06:41:51, Info                  DISM   DISM Imaging Provider: PID=6072 TID=6336 The provider FfuManager does not support CreateDismImage on C:\wim-uup-validation-1791090913159215058\servicing-fixed\mount - CGenericImagingManager::CreateDismImage
+2026-10-04 06:41:51, Info                  DISM   DISM VHD Provider: PID=6072 TID=6336 [C:\wim-uup-validation-1791090913159215058\servicing-fixed\mount] is not recognized by the DISM VHD provider. - CVhdImage::Initialize
+2026-10-04 06:41:51, Info                  DISM   DISM Imaging Provider: PID=6072 TID=6336 The provider VHDManager does not support CreateDismImage on C:\wim-uup-validation-1791090913159215058\servicing-fixed\mount - CGenericImagingManager::CreateDismImage
+2026-10-04 06:41:51, Info                  DISM   DISM Manager: PID=6072 TID=6336 physical location path: C:\wim-uup-validation-1791090913159215058\servicing-fixed\mount - CDISMManager::CreateImageSession
+2026-10-04 06:41:51, Info                  DISM   DISM Manager: PID=6072 TID=6336 Event name for current DISM session is Global\__?_Volume{f8ca6cb5-12a2-470c-bfdf-fe35d8c84a63}__1343813490_131072_197430 - CDISMManager::CheckSessionAndLock
+2026-10-04 06:41:51, Info                  DISM   DISM Manager: PID=6072 TID=6336 Create session event 0x2b8 for current DISM session and event name is Global\__?_Volume{f8ca6cb5-12a2-470c-bfdf-fe35d8c84a63}__1343813490_131072_197430  - CDISMManager::CheckSessionAndLock
+2026-10-04 06:41:51, Info                  DISM   DISM Manager: PID=6072 TID=6336 Copying DISM from "C:\wim-uup-validation-1791090913159215058\servicing-fixed\mount\Windows\System32\Dism" - CDISMManager::CreateImageSessionFromLocation
+2026-10-04 06:41:52, Info                  DISM   DISM Manager: PID=6072 TID=6336 Successfully loaded the ImageSession at "C:\WINDOWS\SystemTemp\E52211F6-395D-44BC-9E98-3130B412D4BF" - CDISMManager::LoadRemoteImageSession
+2026-10-04 06:41:52, Info                  DISM   DISM Image Session: PID=7100 TID=6668 Instantiating the Provider Store. - CDISMImageSession::get_ProviderStore
+2026-10-04 06:41:52, Info                  DISM   DISM Provider Store: PID=7100 TID=6668 Initializing a provider store for the IMAGE session type. - CDISMProviderStore::Final_OnConnect
+2026-10-04 06:41:52, Info                  DISM   DISM Provider Store: PID=7100 TID=6668 Connecting to the provider located at C:\WINDOWS\SystemTemp\E52211F6-395D-44BC-9E98-3130B412D4BF\OSProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 06:41:52, Info                  DISM   DISM OS Provider: PID=7100 TID=6668 Defaulting SystemPath to C:\wim-uup-validation-1791090913159215058\servicing-fixed\mount - CDISMOSServiceManager::Final_OnConnect
+2026-10-04 06:41:52, Info                  DISM   DISM OS Provider: PID=7100 TID=6668 Defaulting Windows folder to C:\wim-uup-validation-1791090913159215058\servicing-fixed\mount\Windows - CDISMOSServiceManager::Final_OnConnect
+2026-10-04 06:41:52, Info                  DISM   DISM Provider Store: PID=7100 TID=6668 Attempting to initialize the logger from the Image Session. - CDISMProviderStore::Final_OnConnect
+2026-10-04 06:41:52, Info                  DISM   DISM Provider Store: PID=7100 TID=6668 Connecting to the provider located at C:\WINDOWS\SystemTemp\E52211F6-395D-44BC-9E98-3130B412D4BF\LogProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 06:41:52, Info                  DISM   Initialized Panther logging at C:\wim-uup-validation-1791090913159215058\servicing-fixed\logs\dism-5.log
+2026-10-04 06:41:52, Info                  DISM   DISM Provider Store: PID=7100 TID=6668 Found and Initialized the DISM Logger. - CDISMProviderStore::Internal_InitializeLogger
+2026-10-04 06:41:52, Warning               DISM   DISM Provider Store: PID=7100 TID=6668 Failed to load the provider: C:\WINDOWS\SystemTemp\E52211F6-395D-44BC-9E98-3130B412D4BF\PEProvider.dll. - CDISMProviderStore::Internal_GetProvider(hr:0x8007007e)
+2026-10-04 06:41:52, Info                  DISM   DISM Provider Store: PID=7100 TID=6668 Failed to get and initialize the PE Provider.  Continuing by assuming that it is not a WinPE image. - CDISMProviderStore::Final_OnConnect
+2026-10-04 06:41:52, Info                  DISM   DISM Provider Store: PID=7100 TID=6668 Finished initializing the Provider Map. - CDISMProviderStore::Final_OnConnect
+2026-10-04 06:41:52, Info                  DISM   Initialized Panther logging at C:\wim-uup-validation-1791090913159215058\servicing-fixed\logs\dism-5.log
+2026-10-04 06:41:52, Info                  DISM   Initialized Panther logging at C:\wim-uup-validation-1791090913159215058\servicing-fixed\logs\dism-5.log
+2026-10-04 06:41:52, Info                  DISM   DISM Manager: PID=6072 TID=6336 Image session successfully loaded from location: C:\WINDOWS\SystemTemp\E52211F6-395D-44BC-9E98-3130B412D4BF - CDISMManager::CreateImageSession
+2026-10-04 06:41:52, Info                  DISM   DISM OS Provider: PID=7100 TID=8212 Setting SystemPath to C:\wim-uup-validation-1791090913159215058\servicing-fixed\mount - CDISMOSServiceManager::SetSystemPath
+2026-10-04 06:41:52, Info                  DISM   DISM.EXE: Target image information: OS Version=10.0.19041.1, Image architecture=amd64
+2026-10-04 06:41:52, Info                  DISM   DISM.EXE: Image session version: 10.0.19041.1
+2026-10-04 06:41:52, Info                  DISM   DISM Provider Store: PID=7100 TID=8212 Getting the collection of providers from an image provider store type. - CDISMProviderStore::GetProviderCollection
+2026-10-04 06:41:52, Info                  DISM   DISM Provider Store: PID=7100 TID=8212 Connecting to the provider located at C:\WINDOWS\SystemTemp\E52211F6-395D-44BC-9E98-3130B412D4BF\CbsProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 06:41:52, Info                  DISM   DISM Provider Store: PID=7100 TID=8212 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 06:41:52, Info                  CSI    00000001 Shim considered [l:184]'\??\C:\wim-uup-validation-1791090913159215058\servicing-fixed\mount\Windows\Servicing\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.19041.1_none_bf506ecc66a800df\wcp.dll' : got STATUS_OBJECT_PATH_NOT_FOUND
+2026-10-04 06:41:52, Info                  CSI    00000002 Shim considered [l:181]'\??\C:\wim-uup-validation-1791090913159215058\servicing-fixed\mount\Windows\WinSxS\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.19041.1_none_bf506ecc66a800df\wcp.dll' : got STATUS_SUCCESS
+2026-10-04 06:41:52, Info                  DISM   DISM OS Provider: PID=7100 TID=8212 Determined System directory to be C:\wim-uup-validation-1791090913159215058\servicing-fixed\mount\Windows\System32 - CDISMOSServiceManager::get_SystemDirectory
+2026-10-04 06:41:52, Info                  DISM   DISM Package Manager: PID=7100 TID=8212 Finished initializing the CbsConUI Handler. - CCbsConUIHandler::Initialize
+2026-10-04 06:41:52, Info                  CSI    00000001 Shim considered [l:184]'\??\C:\wim-uup-validation-1791090913159215058\servicing-fixed\mount\Windows\Servicing\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.19041.1_none_bf506ecc66a800df\wcp.dll' : got STATUS_OBJECT_PATH_NOT_FOUND
+2026-10-04 06:41:52, Info                  CSI    00000002 Shim considered [l:181]'\??\C:\wim-uup-validation-1791090913159215058\servicing-fixed\mount\Windows\WinSxS\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.19041.1_none_bf506ecc66a800df\wcp.dll' : got STATUS_SUCCESS
+2026-10-04 06:41:52, Info                  CSI    00000001 Shim considered [l:184]'\??\C:\wim-uup-validation-1791090913159215058\servicing-fixed\mount\Windows\Servicing\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.19041.1_none_bf506ecc66a800df\wcp.dll' : got STATUS_OBJECT_PATH_NOT_FOUND
+2026-10-04 06:41:52, Info                  CSI    00000002 Shim considered [l:181]'\??\C:\wim-uup-validation-1791090913159215058\servicing-fixed\mount\Windows\WinSxS\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.19041.1_none_bf506ecc66a800df\wcp.dll' : got STATUS_SUCCESS
+2026-10-04 06:41:52, Info                  CBS    Universal Time is: 2026-10-04 06:41:52.565
+2026-10-04 06:41:52, Info                  CBS    Failed to find a matching version for servicing stack: C:\wim-uup-validation-1791090913159215058\servicing-fixed\mount\Windows\WinSxS\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.19041.1_none_bf506ecc66a800df\ [HRESULT = 0x80070490 - ERROR_NOT_FOUND]
+2026-10-04 06:41:52, Info                  CBS    Failed to find servicing stack directory in online store. [HRESULT = 0x80070490 - ERROR_NOT_FOUND]
+2026-10-04 06:41:52, Info                  CBS    Offline servicing, using stack version from: C:\wim-uup-validation-1791090913159215058\servicing-fixed\mount\Windows\WinSxS\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.19041.1_none_bf506ecc66a800df\cbscore.dll
+2026-10-04 06:41:52, Info                  CBS    Loaded Servicing Stack v10.0.19041.1 with Core: C:\wim-uup-validation-1791090913159215058\servicing-fixed\mount\Windows\WinSxS\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.19041.1_none_bf506ecc66a800df\cbscore.dll
+2026-10-04 06:41:52, Info                  CBS    Setting core mode: CbsCoreModeOffline
+2026-10-04 06:41:52, Info                  CSI    00000001@2026/10/4:06:41:52.567 WcpInitialize: wcp.dll version 10.0.19041.1 (WinBuild.160101.0800)
+2026-10-04 06:41:52, Info                  CBS    Lock: New lock added: CCbsSessionManager, level: 11, total lock:9
+2026-10-04 06:41:52, Info                  CBS    Lock: New lock added: CSIInventoryCriticalSection, level: 64, total lock:10
+2026-10-04 06:41:52, Info                  DISM   DISM Package Manager: PID=7100 TID=8212 Loaded servicing stack for offline use only. - CDISMPackageManager::CreateCbsSession
+2026-10-04 06:41:52, Info                  CBS    Lazy store initialization mode
+2026-10-04 06:41:52, Info                  DISM   DISM Provider Store: PID=7100 TID=8212 Connecting to the provider located at C:\WINDOWS\SystemTemp\E52211F6-395D-44BC-9E98-3130B412D4BF\MsiProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 06:41:52, Info                  DISM   DISM Provider Store: PID=7100 TID=8212 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 06:41:52, Info                  DISM   DISM Provider Store: PID=7100 TID=8212 Connecting to the provider located at C:\WINDOWS\SystemTemp\E52211F6-395D-44BC-9E98-3130B412D4BF\IntlProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 06:41:52, Info                  DISM   DISM Provider Store: PID=7100 TID=8212 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 06:41:52, Info                  DISM   DISM Provider Store: PID=7100 TID=8212 Connecting to the provider located at C:\WINDOWS\SystemTemp\E52211F6-395D-44BC-9E98-3130B412D4BF\IBSProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 06:41:52, Info                  DISM   DISM Provider Store: PID=7100 TID=8212 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 06:41:52, Info                  DISM   DISM Provider Store: PID=7100 TID=8212 Connecting to the provider located at C:\WINDOWS\SystemTemp\E52211F6-395D-44BC-9E98-3130B412D4BF\DmiProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 06:41:52, Info                  DISM   DISM Provider Store: PID=7100 TID=8212 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 06:41:52, Info                  CSI    00000001 Shim considered [l:184]'\??\C:\wim-uup-validation-1791090913159215058\servicing-fixed\mount\Windows\Servicing\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.19041.1_none_bf506ecc66a800df\wcp.dll' : got STATUS_OBJECT_PATH_NOT_FOUND
+2026-10-04 06:41:52, Info                  CSI    00000002 Shim considered [l:181]'\??\C:\wim-uup-validation-1791090913159215058\servicing-fixed\mount\Windows\WinSxS\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.19041.1_none_bf506ecc66a800df\wcp.dll' : got STATUS_SUCCESS
+2026-10-04 06:41:53, Info                  DISM   DISM Driver Manager: PID=7100 TID=8212 Further logs for driver related operations can be found in the target operating system at %WINDIR%\inf\setupapi.offline.log - CDriverManager::Initialize
+2026-10-04 06:41:53, Info                  DISM   DISM Provider Store: PID=7100 TID=8212 Connecting to the provider located at C:\WINDOWS\SystemTemp\E52211F6-395D-44BC-9E98-3130B412D4BF\UnattendProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 06:41:53, Info                  DISM   DISM Provider Store: PID=7100 TID=8212 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 06:41:53, Info                  DISM   DISM Provider Store: PID=7100 TID=8212 Connecting to the provider located at C:\WINDOWS\SystemTemp\E52211F6-395D-44BC-9E98-3130B412D4BF\SmiProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 06:41:53, Info                  DISM   DISM Provider Store: PID=7100 TID=8212 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 06:41:53, Warning               DISM   DISM Provider Store: PID=7100 TID=8212 Failed to load the provider: C:\WINDOWS\SystemTemp\E52211F6-395D-44BC-9E98-3130B412D4BF\EmbeddedProvider.dll. - CDISMProviderStore::Internal_GetProvider(hr:0x8007007e)
+2026-10-04 06:41:53, Info                  DISM   DISM Provider Store: PID=7100 TID=8212 Connecting to the provider located at C:\WINDOWS\SystemTemp\E52211F6-395D-44BC-9E98-3130B412D4BF\AppxProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 06:41:53, Info                  DISM   DISM Provider Store: PID=7100 TID=8212 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 06:41:53, Info                  DISM   DISM Provider Store: PID=7100 TID=8212 Connecting to the provider located at C:\WINDOWS\SystemTemp\E52211F6-395D-44BC-9E98-3130B412D4BF\ProvProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 06:41:53, Info                  DISM   DISM Provider Store: PID=7100 TID=8212 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 06:41:53, Info                  DISM   DISM Provider Store: PID=7100 TID=8212 Connecting to the provider located at C:\WINDOWS\SystemTemp\E52211F6-395D-44BC-9E98-3130B412D4BF\AssocProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 06:41:53, Info                  DISM   DISM Provider Store: PID=7100 TID=8212 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 06:41:53, Info                  DISM   DISM Provider Store: PID=7100 TID=8212 Connecting to the provider located at C:\WINDOWS\SystemTemp\E52211F6-395D-44BC-9E98-3130B412D4BF\GenericProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 06:41:53, Info                  DISM   DISM Provider Store: PID=7100 TID=8212 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 06:41:53, Info                  DISM   DISM Provider Store: PID=7100 TID=8212 Connecting to the provider located at C:\WINDOWS\SystemTemp\E52211F6-395D-44BC-9E98-3130B412D4BF\OfflineSetupProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 06:41:53, Info                  DISM   DISM Provider Store: PID=7100 TID=8212 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 06:41:53, Info                  DISM   DISM Provider Store: PID=7100 TID=8212 Connecting to the provider located at C:\WINDOWS\SystemTemp\E52211F6-395D-44BC-9E98-3130B412D4BF\SysprepProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 06:41:53, Info                  DISM   DISM Provider Store: PID=7100 TID=8212 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 06:41:53, Info                  DISM   DISM Provider Store: PID=7100 TID=8212 Connecting to the provider located at C:\WINDOWS\SystemTemp\E52211F6-395D-44BC-9E98-3130B412D4BF\TransmogProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 06:41:53, Info                  DISM   DISM Provider Store: PID=7100 TID=8212 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 06:41:53, Info                  DISM   DISM Transmog Provider: PID=7100 TID=8212 Current image session is [OFFLINE] - CTransmogManager::GetMode
+2026-10-04 06:41:53, Info                  DISM   DISM Transmog Provider: PID=7100 TID=8212 Determined WinDir path = [C:\wim-uup-validation-1791090913159215058\servicing-fixed\mount\Windows] - CTransmogManager::GetWinDirPath
+2026-10-04 06:41:53, Info                  DISM   DISM Transmog Provider: PID=7100 TID=8212 GetProductType: ProductType = [WinNT] - CTransmogManager::GetProductType
+2026-10-04 06:41:53, Info                  DISM   DISM Transmog Provider: PID=7100 TID=8212 Product Type: [WinNT] - CTransmogManager::Initialize
+2026-10-04 06:41:53, Info                  DISM   DISM Transmog Provider: PID=7100 TID=8212 Product Type ServerNT : [No] - CTransmogManager::Initialize
+2026-10-04 06:41:53, Info                  DISM   DISM Provider Store: PID=7100 TID=8212 Connecting to the provider located at C:\WINDOWS\SystemTemp\E52211F6-395D-44BC-9E98-3130B412D4BF\SetupPlatformProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 06:41:53, Info                  DISM   DISM Provider Store: PID=7100 TID=8212 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 06:41:53, Info                  DISM   DISM Package Manager: PID=7100 TID=6668 Processing the top level command token(get-packageinfo). - CPackageManagerCLIHandler::Private_ValidateCmdLine
+2026-10-04 06:41:53, Info                  DISM   DISM Package Manager: PID=7100 TID=6668 Attempting to route to appropriate command handler. - CPackageManagerCLIHandler::ExecuteCmdLine
+2026-10-04 06:41:53, Info                  DISM   DISM Package Manager: PID=7100 TID=6668 Routing the command... - CPackageManagerCLIHandler::ExecuteCmdLine
+2026-10-04 06:41:53, Info                  DISM   DISM Package Manager: PID=7100 TID=6668 Encountered the option "packagepath" with value "D:\UUPs\SSU-19041.7714-x64.cab" - CPackageManagerCLIHandler::Private_GetPackagesFromCommandLine
+2026-10-04 06:41:53, Info                  CBS    Lazy store initialization mode, fully initialize.
+2026-10-04 06:41:53, Info                  CBS    Offline image is writable
+2026-10-04 06:41:53, Info                  CBS    Loading offline registry hive: SOFTWARE, into registry key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/wim-uup-validation-1791090913159215058/servicing-fixed/mount/Windows/System32/config/SOFTWARE' from path '\\?\C:\wim-uup-validation-1791090913159215058\servicing-fixed\mount\Windows\System32\config\SOFTWARE'.
+2026-10-04 06:41:53, Info                  CBS    Loading offline registry hive: SYSTEM, into registry key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/wim-uup-validation-1791090913159215058/servicing-fixed/mount/Windows/System32/config/SYSTEM' from path '\\?\C:\wim-uup-validation-1791090913159215058\servicing-fixed\mount\Windows\System32\config\SYSTEM'.
+2026-10-04 06:41:53, Info                  CBS    Loading offline registry hive: SECURITY, into registry key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/wim-uup-validation-1791090913159215058/servicing-fixed/mount/Windows/System32/config/SECURITY' from path '\\?\C:\wim-uup-validation-1791090913159215058\servicing-fixed\mount\Windows\System32\config\SECURITY'.
+2026-10-04 06:41:53, Info                  CBS    Loading offline registry hive: SAM, into registry key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/wim-uup-validation-1791090913159215058/servicing-fixed/mount/Windows/System32/config/SAM' from path '\\?\C:\wim-uup-validation-1791090913159215058\servicing-fixed\mount\Windows\System32\config\SAM'.
+2026-10-04 06:41:53, Info                  CBS    Loading offline registry hive: COMPONENTS, into registry key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/wim-uup-validation-1791090913159215058/servicing-fixed/mount/Windows/System32/config/COMPONENTS' from path '\\?\C:\wim-uup-validation-1791090913159215058\servicing-fixed\mount\Windows\System32\config\COMPONENTS'.
+2026-10-04 06:41:53, Info                  CBS    Loading offline registry hive: DRIVERS, into registry key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/wim-uup-validation-1791090913159215058/servicing-fixed/mount/Windows/System32/config/DRIVERS' from path '\\?\C:\wim-uup-validation-1791090913159215058\servicing-fixed\mount\Windows\System32\config\DRIVERS'.
+2026-10-04 06:41:53, Info                  CBS    Loading offline registry hive: DEFAULT, into registry key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/wim-uup-validation-1791090913159215058/servicing-fixed/mount/Windows/System32/config/DEFAULT' from path '\\?\C:\wim-uup-validation-1791090913159215058\servicing-fixed\mount\Windows\System32\config\DEFAULT'.
+2026-10-04 06:41:53, Info                  CBS    Loading offline registry hive: ntuser.dat, into registry key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/wim-uup-validation-1791090913159215058/servicing-fixed/mount/Users/Default/ntuser.dat' from path '\\?\C:\wim-uup-validation-1791090913159215058\servicing-fixed\mount\Users\Default\ntuser.dat'.
+2026-10-04 06:41:53, Info                  CBS    Loading offline registry hive: schema.dat, into registry key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/wim-uup-validation-1791090913159215058/servicing-fixed/mount/Windows/system32/smi/store/Machine/schema.dat' from path '\\?\C:\wim-uup-validation-1791090913159215058\servicing-fixed\mount\Windows\system32\smi\store\Machine\schema.dat'.
+2026-10-04 06:41:53, Info                  CSI    00000002 CSI Store 1984666239968 initialized
+2026-10-04 06:41:53, Info                  CBS    Build: 19041.1.amd64fre.vb_release.191206-1406
+2026-10-04 06:41:53, Info                  CBS    Session: 7100_23459703 initialized by client DISM Package Manager Provider, external staging directory: (null), external registry directory: (null)
+2026-10-04 06:41:53, Info                  DPX    Started DPX phase: Resume and Download Job
+2026-10-04 06:41:53, Info                  DPX    Started DPX phase: Apply Deltas Provided In File
+2026-10-04 06:41:53, Info                  DPX    Ended DPX phase: Apply Deltas Provided In File
+2026-10-04 06:41:53, Info                  DPX    Started DPX phase: Apply Deltas Provided In File
+2026-10-04 06:41:53, Info                  DPX    Ended DPX phase: Apply Deltas Provided In File
+2026-10-04 06:41:53, Info                  DPX    CJob::Resume completed with status: 0x0
+2026-10-04 06:41:53, Info                  DPX    Ended DPX phase: Resume and Download Job
+2026-10-04 06:41:53, Info                  CBS    Opened cabinet package, package directory: \\?\D:\UUPs\, sandbox location: \\?\C:\WINDOWS\SystemTemp\FB3B5A10-E14A-4A2A-8EC7-E7AD6416A248\, cabinet location: \\?\D:\UUPs\SSU-19041.7714-x64.cab, manifest location: \\?\C:\WINDOWS\SystemTemp\FB3B5A10-E14A-4A2A-8EC7-E7AD6416A248\update.mum
+2026-10-04 06:41:53, Info                  DPX    Started DPX phase: Resume and Download Job
+2026-10-04 06:41:53, Info                  DPX    Started DPX phase: Apply Deltas Provided In File
+2026-10-04 06:41:53, Info                  DPX    Ended DPX phase: Apply Deltas Provided In File
+2026-10-04 06:41:53, Info                  DPX    CJob::Resume completed with status: 0x0
+2026-10-04 06:41:53, Info                  DPX    Ended DPX phase: Resume and Download Job
+2026-10-04 06:41:53, Info                  DPX    Extraction of file: update.ses failed because it is not present in the container (\\?\D:\UUPs\SSU-19041.7714-x64.cab).
+2026-10-04 06:41:53, Info                  DPX    DpxException hr=0x80070002 code=0x020109
+2026-10-04 06:41:53, Info                  CBS    Not able to add file to extract: update.ses [HRESULT = 0x80070002 - ERROR_FILE_NOT_FOUND]
+2026-10-04 06:41:53, Info                  CBS    Appl: detect Parent, Package: Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3, Parent: Microsoft-Windows-CoreCountrySpecificEdition~31bf3856ad364e35~amd64~~10.0.19041.1, Disposition = Detect, VersionComp: EQ, BuildComp: EQ, RevisionComp: GE, Exist: present
+2026-10-04 06:41:53, Info                  CBS    Appl: detectParent: no parent found, go absent
+2026-10-04 06:41:53, Info                  CBS    Appl: detect Parent, Package: Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3, Parent: Microsoft-Windows-CoreEdition~31bf3856ad364e35~amd64~~10.0.19041.1, Disposition = Detect, VersionComp: EQ, BuildComp: EQ, RevisionComp: GE, Exist: present
+2026-10-04 06:41:53, Info                  CBS    Appl: detectParent: no parent found, go absent
+2026-10-04 06:41:53, Info                  CBS    Appl: detect Parent, Package: Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3, Parent: Microsoft-Windows-CoreNEdition~31bf3856ad364e35~amd64~~10.0.19041.1, Disposition = Detect, VersionComp: EQ, BuildComp: EQ, RevisionComp: GE, Exist: present
+2026-10-04 06:41:53, Info                  CBS    Appl: detectParent: no parent found, go absent
+2026-10-04 06:41:53, Info                  CBS    Appl: detect Parent, Package: Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3, Parent: Microsoft-Windows-EnterpriseEvalEdition~31bf3856ad364e35~amd64~~10.0.19041.1, Disposition = Detect, VersionComp: EQ, BuildComp: EQ, RevisionComp: GE, Exist: present
+2026-10-04 06:41:53, Info                  CBS    Appl: detectParent: no parent found, go absent
+2026-10-04 06:41:53, Info                  CBS    Appl: detect Parent, Package: Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3, Parent: Microsoft-Windows-EnterpriseGEdition~31bf3856ad364e35~amd64~~10.0.19041.1, Disposition = Detect, VersionComp: EQ, BuildComp: EQ, RevisionComp: GE, Exist: present
+2026-10-04 06:41:53, Info                  CBS    Appl: detectParent: no parent found, go absent
+2026-10-04 06:41:53, Info                  CBS    Appl: detect Parent, Package: Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3, Parent: Microsoft-Windows-EnterpriseSEdition~31bf3856ad364e35~amd64~~10.0.19041.1, Disposition = Detect, VersionComp: EQ, BuildComp: EQ, RevisionComp: GE, Exist: present
+2026-10-04 06:41:53, Info                  CBS    Appl: detectParent: no parent found, go absent
+2026-10-04 06:41:53, Info                  CBS    Appl: detect Parent, Package: Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3, Parent: Microsoft-Windows-EnterpriseSEvalEdition~31bf3856ad364e35~amd64~~10.0.19041.1, Disposition = Detect, VersionComp: EQ, BuildComp: EQ, RevisionComp: GE, Exist: present
+2026-10-04 06:41:53, Info                  CBS    Appl: detectParent: no parent found, go absent
+2026-10-04 06:41:53, Info                  CBS    Appl: detect Parent, Package: Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3, Parent: Microsoft-Windows-EnterpriseSNEdition~31bf3856ad364e35~amd64~~10.0.19041.1, Disposition = Detect, VersionComp: EQ, BuildComp: EQ, RevisionComp: GE, Exist: present
+2026-10-04 06:41:53, Info                  CBS    Appl: detectParent: no parent found, go absent
+2026-10-04 06:41:53, Info                  CBS    Appl: detect Parent, Package: Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3, Parent: Microsoft-Windows-EnterpriseSNEvalEdition~31bf3856ad364e35~amd64~~10.0.19041.1, Disposition = Detect, VersionComp: EQ, BuildComp: EQ, RevisionComp: GE, Exist: present
+2026-10-04 06:41:53, Info                  CBS    Appl: detectParent: no parent found, go absent
+2026-10-04 06:41:53, Info                  CBS    Appl: detect Parent, Package: Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3, Parent: Microsoft-Windows-PPIProEdition~31bf3856ad364e35~amd64~~10.0.19041.1, Disposition = Detect, VersionComp: EQ, BuildComp: EQ, RevisionComp: GE, Exist: present
+2026-10-04 06:41:53, Info                  CBS    Appl: detectParent: no parent found, go absent
+2026-10-04 06:41:53, Info                  CBS    Appl: detect Parent, Package: Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3, Parent: Microsoft-Windows-ProfessionalEdition~31bf3856ad364e35~amd64~~10.0.19041.1, Disposition = Detect, VersionComp: EQ, BuildComp: EQ, RevisionComp: GE, Exist: present
+2026-10-04 06:41:53, Info                  CBS    Appl: detectParent: parent found: Microsoft-Windows-ProfessionalEdition~31bf3856ad364e35~amd64~~10.0.19041.1, state: Installed
+2026-10-04 06:41:53, Info                  CBS    Appl: Evaluating package applicability for package Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3, applicable state: Installed
+2026-10-04 06:41:53, Info                  CBS    External EvaluateApplicability, package: Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3, package applicable State: Installed, highest update applicable state: Installed, resulting applicable state:Installed
+2026-10-04 06:41:53, Info                  CBS    External EvaluateApplicability, package: Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3, package applicable State: Installed, highest update applicable state: Installed, resulting applicable state:Installed
+2026-10-04 06:41:53, Info                  DISM   DISM Package Manager: PID=7100 TID=6668 Package Package_for_ServicingStack_7714~31bf3856ad364e35~amd64~~19041.7714.1.3 with CBS state 0(CbsInstallStateAbsent) being mapped to dism state 1(DISM_INSTALL_STATE_NOTPRESENT) - CDISMPackage::LogInstallStateMapping
+2026-10-04 06:41:53, Info                  DISM   DISM Provider Store: PID=7100 TID=6668 Found the OSServices.  Waiting to finalize it until all other providers are unloaded. - CDISMProviderStore::Final_OnDisconnect
+2026-10-04 06:41:53, Info                  DISM   DISM Provider Store: PID=7100 TID=6668 Found the OSServices.  Waiting to finalize it until all other providers are unloaded. - CDISMProviderStore::Final_OnDisconnect
+2026-10-04 06:41:53, Info                  DISM   DISM Provider Store: PID=7100 TID=6668 Found the PE Provider.  Waiting to finalize it until all other providers are unloaded. - CDISMProviderStore::Final_OnDisconnect
+2026-10-04 06:41:53, Info                  DISM   DISM Provider Store: PID=7100 TID=6668 Finalizing the servicing provider(DISM Package Manager) - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 06:41:53, Info                  CBS    Deleting directory: \\?\C:\wim-uup-validation-1791090913159215058\servicing-fixed\mount\Windows\CbsTemp\7100_23459703\
+2026-10-04 06:41:53, Info                  CBS    Moving directory from \\?\C:\wim-uup-validation-1791090913159215058\servicing-fixed\mount\Windows\CbsTemp\7100_23459703\ to \\?\C:\wim-uup-validation-1791090913159215058\servicing-fixed\mount\Windows\CbsTemp\7100_23459703\{A87FD393-4C82-43C0-9D47-21B377211072}
+2026-10-04 06:41:53, Info                  CBS    Failed to move \\?\C:\wim-uup-validation-1791090913159215058\servicing-fixed\mount\Windows\CbsTemp\7100_23459703\ to temp directory \\?\C:\wim-uup-validation-1791090913159215058\servicing-fixed\mount\Windows\CbsTemp\7100_23459703\{A87FD393-4C82-43C0-9D47-21B377211072} [HRESULT = 0x80070057 - E_INVALIDARG]
+2026-10-04 06:41:53, Info                  CBS    Failed moving directory: \\?\C:\wim-uup-validation-1791090913159215058\servicing-fixed\mount\Windows\CbsTemp\7100_23459703\ to temp, will delete in-place instead [HRESULT = 0x80070057 - E_INVALIDARG]
+2026-10-04 06:41:53, Info                  CBS    Deletion of: \\?\C:\wim-uup-validation-1791090913159215058\servicing-fixed\mount\Windows\CbsTemp\7100_23459703\ successful
+2026-10-04 06:41:53, Info                  CBS    Force unloading offline registry hive: {bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/wim-uup-validation-1791090913159215058/servicing-fixed/mount/Windows/System32/config/SOFTWARE
+2026-10-04 06:41:53, Info                  CBS    Force unloading offline registry hive: {bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/wim-uup-validation-1791090913159215058/servicing-fixed/mount/Windows/System32/config/SYSTEM
+2026-10-04 06:41:53, Info                  CBS    Force unloading offline registry hive: {bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/wim-uup-validation-1791090913159215058/servicing-fixed/mount/Windows/System32/config/SECURITY
+2026-10-04 06:41:53, Info                  CBS    Force unloading offline registry hive: {bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/wim-uup-validation-1791090913159215058/servicing-fixed/mount/Windows/System32/config/SAM
+2026-10-04 06:41:53, Info                  CBS    Force unloading offline registry hive: {bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/wim-uup-validation-1791090913159215058/servicing-fixed/mount/Windows/System32/config/COMPONENTS
+2026-10-04 06:41:53, Info                  CBS    Force unloading offline registry hive: {bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/wim-uup-validation-1791090913159215058/servicing-fixed/mount/Windows/System32/config/DRIVERS
+2026-10-04 06:41:53, Info                  CBS    Force unloading offline registry hive: {bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/wim-uup-validation-1791090913159215058/servicing-fixed/mount/Windows/System32/config/DEFAULT
+2026-10-04 06:41:53, Info                  CBS    Force unloading offline registry hive: {bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/wim-uup-validation-1791090913159215058/servicing-fixed/mount/Users/Default/ntuser.dat
+2026-10-04 06:41:53, Info                  CBS    Force unloading offline registry hive: {bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/wim-uup-validation-1791090913159215058/servicing-fixed/mount/Windows/system32/smi/store/Machine/schema.dat
+2026-10-04 06:41:53, Info                  CSI    00000003 Direct SIL provider: Number of files opened: 4.
+2026-10-04 06:41:53, Info                  DISM   DISM Package Manager: PID=7100 TID=6668 Finalizing CBS core. - CDISMPackageManager::Finalize
+2026-10-04 06:41:53, Info                  CBS    CbsCoreFinalize: ExecutionEngineFinalize
+2026-10-04 06:41:53, Info                  CBS    Execution Engine Finalize
+2026-10-04 06:41:53, Info                  CBS    Execution Engine Finalize
+2026-10-04 06:41:53, Info                  CBS    CbsCoreFinalize: ComponentAnalyzerFinalize
+2026-10-04 06:41:53, Info                  CBS    CbsCoreFinalize: PackageTrackerFinalize
+2026-10-04 06:41:53, Info                  CBS    CbsCoreFinalize: CoreResourcesUnload
+2026-10-04 06:41:53, Info                  CBS    CbsCoreFinalize: SessionManagerFinalize
+2026-10-04 06:41:53, Info                  CBS    Lock: Lock removed: CSIInventoryCriticalSection, level: 64, total lock:10
+2026-10-04 06:41:53, Info                  CBS    Lock: Lock removed: CCbsSessionManager, level: 11, total lock:9
+2026-10-04 06:41:53, Info                  CBS    CbsCoreFinalize: CapabilityManagerFinalize
+2026-10-04 06:41:53, Info                  CBS    CbsCoreFinalize: GetPublicObjectMonitor::Audit
+2026-10-04 06:41:53, Info                  CBS    CbsCoreFinalize: PublicObjectMonitorFinalize
+2026-10-04 06:41:53, Info                  CBS    CbsCoreFinalize: Enter vCoreInitializeLock
+2026-10-04 06:41:53, Info                  CBS    CbsCoreFinalize: WcpUnload
+2026-10-04 06:41:53, Info                  CBS    CbsCoreFinalize: DrupUnload
+2026-10-04 06:41:53, Info                  CBS    CbsCoreFinalize: CfgMgr32Unload
+2026-10-04 06:41:53, Info                  CBS    CbsCoreFinalize: DpxUnload
+2026-10-04 06:41:53, Info                  CBS    CbsCoreFinalize: SrUnload
+2026-10-04 06:41:53, Info                  CBS    CbsCoreFinalize: CbsEsdUnload
+2026-10-04 06:41:53, Info                  CBS    CbsCoreFinalize: CbsTraceInfoUninitialize
+2026-10-04 06:41:53, Info                  CBS    CbsCoreFinalize: CbsEventUnregister
+2026-10-04 06:41:53, Info                  CBS    CbsCoreFinalize: AppContainerUnload
+2026-10-04 06:41:53, Info                  CBS    CbsCoreFinalize: WdsUnload, logging from cbscore will end.
+2026-10-04 06:41:53, Info                  DISM   DISM Provider Store: PID=7100 TID=6668 Disconnecting Provider: DISM Package Manager - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 06:41:53, Info                  DISM   DISM Provider Store: PID=7100 TID=6668 Finalizing the servicing provider(MsiManager) - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 06:41:53, Info                  DISM   DISM Provider Store: PID=7100 TID=6668 Disconnecting Provider: MsiManager - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 06:41:53, Info                  DISM   DISM Provider Store: PID=7100 TID=6668 Finalizing the servicing provider(IntlManager) - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 06:41:53, Info                  DISM   DISM Provider Store: PID=7100 TID=6668 Disconnecting Provider: IntlManager - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 06:41:53, Info                  DISM   DISM Provider Store: PID=7100 TID=6668 Finalizing the servicing provider(IBSManager) - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 06:41:53, Info                  DISM   DISM Provider Store: PID=7100 TID=6668 Disconnecting Provider: IBSManager - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 06:41:53, Info                  DISM   DISM Provider Store: PID=7100 TID=6668 Finalizing the servicing provider(DriverManager) - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 06:41:53, Info                  DISM   DISM Provider Store: PID=7100 TID=6668 Disconnecting Provider: DriverManager - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 06:41:53, Info                  DISM   DISM Provider Store: PID=7100 TID=6668 Finalizing the servicing provider(DISM Unattend Manager) - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 06:41:53, Info                  DISM   DISM Provider Store: PID=7100 TID=6668 Disconnecting Provider: DISM Unattend Manager - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 06:41:53, Info                  DISM   DISM Provider Store: PID=7100 TID=6668 Finalizing the servicing provider(SmiManager) - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 06:41:53, Info                  DISM   DISM Provider Store: PID=7100 TID=6668 Disconnecting Provider: SmiManager - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 06:41:53, Info                  DISM   DISM Provider Store: PID=7100 TID=6668 Finalizing the servicing provider(AppxManager) - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 06:41:53, Info                  DISM   DISM Provider Store: PID=7100 TID=6668 Disconnecting Provider: AppxManager - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 06:41:53, Info                  DISM   DISM Provider Store: PID=7100 TID=6668 Finalizing the servicing provider(ProvManager) - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 06:41:53, Info                  DISM   DISM Provider Store: PID=7100 TID=6668 Disconnecting Provider: ProvManager - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 06:41:53, Info                  DISM   DISM Provider Store: PID=7100 TID=6668 Finalizing the servicing provider(AssocManager) - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 06:41:53, Info                  DISM   DISM Provider Store: PID=7100 TID=6668 Disconnecting Provider: AssocManager - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 06:41:53, Info                  DISM   DISM Provider Store: PID=7100 TID=6668 Finalizing the servicing provider(GenericManager) - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 06:41:53, Info                  DISM   DISM Provider Store: PID=7100 TID=6668 Disconnecting Provider: GenericManager - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 06:41:53, Info                  DISM   DISM Provider Store: PID=7100 TID=6668 Finalizing the servicing provider(OfflineSetupManager) - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 06:41:53, Info                  DISM   DISM Provider Store: PID=7100 TID=6668 Disconnecting Provider: OfflineSetupManager - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 06:41:53, Info                  DISM   DISM Provider Store: PID=7100 TID=6668 Finalizing the servicing provider(SysprepManager) - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 06:41:53, Info                  DISM   DISM Provider Store: PID=7100 TID=6668 Disconnecting Provider: SysprepManager - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 06:41:53, Info                  DISM   DISM Provider Store: PID=7100 TID=6668 Finalizing the servicing provider(Edition Manager) - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 06:41:53, Info                  DISM   DISM Provider Store: PID=7100 TID=6668 Disconnecting Provider: Edition Manager - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 06:41:53, Info                  DISM   DISM Provider Store: PID=7100 TID=6668 Finalizing the servicing provider(SetupPlatformManager) - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 06:41:53, Info                  DISM   DISM Provider Store: PID=7100 TID=6668 Disconnecting Provider: SetupPlatformManager - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 06:41:53, Info                  DISM   DISM Provider Store: PID=7100 TID=6668 Releasing the local reference to OSServices. - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 06:41:53, Info                  DISM   DISM Provider Store: PID=7100 TID=6668 Disconnecting Provider: OSServices - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 06:41:53, Info                  DISM   Offline Registry: PID=7100 TID=6668 Hive is not mounted at HKLM\{bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/wim-uup-validation-1791090913159215058/servicing-fixed/mount/Windows/system32/config/SOFTWARE. - CRegistryMapping::Init
+2026-10-04 06:41:53, Info                  DISM   Offline Registry: PID=7100 TID=6668 Hive is not mounted at HKLM\{bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/wim-uup-validation-1791090913159215058/servicing-fixed/mount/Windows/system32/config/SYSTEM. - CRegistryMapping::Init
+2026-10-04 06:41:53, Info                  DISM   Offline Registry: PID=7100 TID=6668 Hive is not mounted at HKLM\{bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/wim-uup-validation-1791090913159215058/servicing-fixed/mount/Windows/system32/config/SECURITY. - CRegistryMapping::Init
+2026-10-04 06:41:53, Info                  DISM   Offline Registry: PID=7100 TID=6668 Hive is not mounted at HKLM\{bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/wim-uup-validation-1791090913159215058/servicing-fixed/mount/Windows/system32/config/SAM. - CRegistryMapping::Init
+2026-10-04 06:41:53, Info                  DISM   Offline Registry: PID=7100 TID=6668 Hive is not mounted at HKLM\{bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/wim-uup-validation-1791090913159215058/servicing-fixed/mount/Windows/system32/config/DEFAULT. - CRegistryMapping::Init
+2026-10-04 06:41:53, Info                  DISM   Offline Registry: PID=7100 TID=6668 Hive is not mounted at HKLM\{bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/wim-uup-validation-1791090913159215058/servicing-fixed/mount/Users/Default/NTUSER.DAT. - CRegistryMapping::Init
+2026-10-04 06:41:53, Info                  DISM   Offline Registry: PID=7100 TID=6668 Hive is not mounted at HKLM\{bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/wim-uup-validation-1791090913159215058/servicing-fixed/mount/Windows/system32/config/COMPONENTS. - CRegistryMapping::Init
+2026-10-04 06:41:53, Info                  DISM   Offline Registry: PID=7100 TID=6668 Hive is not mounted at HKLM\{bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/wim-uup-validation-1791090913159215058/servicing-fixed/mount/Windows/system32/config/DRIVERS. - CRegistryMapping::Init
+2026-10-04 06:41:53, Info                  DISM   DISM OS Provider: PID=7100 TID=6668 Successfully unloaded all registry hives. - CDISMOSServiceManager::Final_OnDisconnect
+2026-10-04 06:41:53, Info                  DISM   DISM Provider Store: PID=7100 TID=6668 Releasing the local reference to DISMLogger.  Stop logging. - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 06:41:53, Info                  DISM   DISM Manager: PID=6072 TID=6336 Closing session event handle 0x2b8 - CDISMManager::CleanupImageSessionEntry
+2026-10-04 06:41:53, Info                  DISM   DISM Manager: DeletePath: Attempting to obliterate [C:\WINDOWS\SystemTemp\E52211F6-395D-44BC-9E98-3130B412D4BF] (final path [\\?\Volume{f8ca6cb5-12a2-470c-bfdf-fe35d8c84a63}\Windows\SystemTemp\E52211F6-395D-44BC-9E98-3130B412D4BF]).
+2026-10-04 06:41:53, Info                  DISM   DISM.EXE: Image session has been closed. Reboot required=no.
+2026-10-04 06:41:53, Info                  DISM   DISM.EXE: 
+2026-10-04 06:41:53, Info                  DISM   DISM.EXE: <----- Ending Dism.exe session ----->
+2026-10-04 06:41:53, Info                  DISM   DISM.EXE: 

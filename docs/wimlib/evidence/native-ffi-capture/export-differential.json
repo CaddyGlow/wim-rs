@@ -1,0 +1,1236 @@
+{
+  "cases": 24,
+  "equal": 15,
+  "native_sha256": "5782049cd0ae8b252adcb7436931f3eabd62ae38358040163d95a29ae32d5744",
+  "results": [
+    {
+      "phase": 0,
+      "flags": 0,
+      "kind": "ordinary",
+      "original": "source 0\ndestination 0\ncapture 0\nexport 0\nverify 0\nwrite 0\n",
+      "native": "source 0\ndestination 0\ncapture 0\nexport 0\nverify 0\nwrite 0\n",
+      "equal": true,
+      "original_reader_status": [
+        0,
+        0
+      ],
+      "apply": [
+        {
+          "entries": [
+            [
+              "file",
+              420,
+              [
+                "file",
+                "e13bd12c2c1101a32ffa4fbbac45d30728baa60edf21e0790d75c57129809a7e"
+              ]
+            ]
+          ],
+          "hardlinks": [
+            [
+              "file"
+            ]
+          ]
+        },
+        {
+          "entries": [
+            [
+              "file",
+              420,
+              [
+                "file",
+                "e13bd12c2c1101a32ffa4fbbac45d30728baa60edf21e0790d75c57129809a7e"
+              ]
+            ]
+          ],
+          "hardlinks": [
+            [
+              "file"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "phase": 0,
+      "flags": 0,
+      "kind": "hardlinks",
+      "original": "source 0\ndestination 0\ncapture 0\nexport 0\nverify 0\nwrite 0\n",
+      "native": "source 0\ndestination 0\ncapture 0\nexport 0\nverify 0\nwrite 0\n",
+      "equal": true,
+      "original_reader_status": [
+        0,
+        0
+      ],
+      "apply": [
+        {
+          "entries": [
+            [
+              "alias",
+              420,
+              [
+                "file",
+                "e13bd12c2c1101a32ffa4fbbac45d30728baa60edf21e0790d75c57129809a7e"
+              ]
+            ],
+            [
+              "file",
+              420,
+              [
+                "file",
+                "e13bd12c2c1101a32ffa4fbbac45d30728baa60edf21e0790d75c57129809a7e"
+              ]
+            ]
+          ],
+          "hardlinks": [
+            [
+              "alias",
+              "file"
+            ]
+          ]
+        },
+        {
+          "entries": [
+            [
+              "alias",
+              420,
+              [
+                "file",
+                "e13bd12c2c1101a32ffa4fbbac45d30728baa60edf21e0790d75c57129809a7e"
+              ]
+            ],
+            [
+              "file",
+              420,
+              [
+                "file",
+                "e13bd12c2c1101a32ffa4fbbac45d30728baa60edf21e0790d75c57129809a7e"
+              ]
+            ]
+          ],
+          "hardlinks": [
+            [
+              "alias",
+              "file"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "phase": 0,
+      "flags": 0,
+      "kind": "symlink",
+      "original": "source 0\ndestination 0\ncapture 0\nexport 0\nverify 0\nwrite 0\n",
+      "native": "source 0\ndestination 0\ncapture 0\nexport 0\nverify 0\nwrite 0\n",
+      "equal": true,
+      "original_reader_status": [
+        0,
+        0
+      ],
+      "apply": [
+        {
+          "entries": [
+            [
+              "file",
+              420,
+              [
+                "file",
+                "e13bd12c2c1101a32ffa4fbbac45d30728baa60edf21e0790d75c57129809a7e"
+              ]
+            ],
+            [
+              "link",
+              511,
+              [
+                "link",
+                "file"
+              ]
+            ]
+          ],
+          "hardlinks": [
+            [
+              "file"
+            ]
+          ]
+        },
+        {
+          "entries": [
+            [
+              "file",
+              420,
+              [
+                "file",
+                "e13bd12c2c1101a32ffa4fbbac45d30728baa60edf21e0790d75c57129809a7e"
+              ]
+            ],
+            [
+              "link",
+              511,
+              [
+                "link",
+                "file"
+              ]
+            ]
+          ],
+          "hardlinks": [
+            [
+              "file"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "phase": 0,
+      "flags": 2,
+      "kind": "ordinary",
+      "original": "source 0\ndestination 0\ncapture 0\nexport 0\nverify 0\nwrite 0\n",
+      "native": "source 0\ndestination 0\ncapture 0\nexport 0\nverify 0\nwrite 0\n",
+      "equal": true,
+      "original_reader_status": [
+        0,
+        0
+      ],
+      "apply": [
+        {
+          "entries": [
+            [
+              "file",
+              420,
+              [
+                "file",
+                "e13bd12c2c1101a32ffa4fbbac45d30728baa60edf21e0790d75c57129809a7e"
+              ]
+            ]
+          ],
+          "hardlinks": [
+            [
+              "file"
+            ]
+          ]
+        },
+        {
+          "entries": [
+            [
+              "file",
+              420,
+              [
+                "file",
+                "e13bd12c2c1101a32ffa4fbbac45d30728baa60edf21e0790d75c57129809a7e"
+              ]
+            ]
+          ],
+          "hardlinks": [
+            [
+              "file"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "phase": 0,
+      "flags": 2,
+      "kind": "hardlinks",
+      "original": "source 0\ndestination 0\ncapture 0\nexport 0\nverify 0\nwrite 0\n",
+      "native": "source 0\ndestination 0\ncapture 0\nexport 0\nverify 0\nwrite 0\n",
+      "equal": true,
+      "original_reader_status": [
+        0,
+        0
+      ],
+      "apply": [
+        {
+          "entries": [
+            [
+              "alias",
+              420,
+              [
+                "file",
+                "e13bd12c2c1101a32ffa4fbbac45d30728baa60edf21e0790d75c57129809a7e"
+              ]
+            ],
+            [
+              "file",
+              420,
+              [
+                "file",
+                "e13bd12c2c1101a32ffa4fbbac45d30728baa60edf21e0790d75c57129809a7e"
+              ]
+            ]
+          ],
+          "hardlinks": [
+            [
+              "alias",
+              "file"
+            ]
+          ]
+        },
+        {
+          "entries": [
+            [
+              "alias",
+              420,
+              [
+                "file",
+                "e13bd12c2c1101a32ffa4fbbac45d30728baa60edf21e0790d75c57129809a7e"
+              ]
+            ],
+            [
+              "file",
+              420,
+              [
+                "file",
+                "e13bd12c2c1101a32ffa4fbbac45d30728baa60edf21e0790d75c57129809a7e"
+              ]
+            ]
+          ],
+          "hardlinks": [
+            [
+              "alias",
+              "file"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "phase": 0,
+      "flags": 2,
+      "kind": "symlink",
+      "original": "source 0\ndestination 0\ncapture 0\nexport 0\nverify 0\nwrite 0\n",
+      "native": "source 0\ndestination 0\ncapture 0\nexport 0\nverify 0\nwrite 0\n",
+      "equal": true,
+      "original_reader_status": [
+        0,
+        0
+      ],
+      "apply": [
+        {
+          "entries": [
+            [
+              "file",
+              420,
+              [
+                "file",
+                "e13bd12c2c1101a32ffa4fbbac45d30728baa60edf21e0790d75c57129809a7e"
+              ]
+            ],
+            [
+              "link",
+              511,
+              [
+                "link",
+                "file"
+              ]
+            ]
+          ],
+          "hardlinks": [
+            [
+              "file"
+            ]
+          ]
+        },
+        {
+          "entries": [
+            [
+              "file",
+              420,
+              [
+                "file",
+                "e13bd12c2c1101a32ffa4fbbac45d30728baa60edf21e0790d75c57129809a7e"
+              ]
+            ],
+            [
+              "link",
+              511,
+              [
+                "link",
+                "file"
+              ]
+            ]
+          ],
+          "hardlinks": [
+            [
+              "file"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "phase": 0,
+      "flags": 4,
+      "kind": "ordinary",
+      "original": "source 0\ndestination 0\ncapture 0\nexport 0\nverify 0\nwrite 0\n",
+      "native": "source 0\ndestination 0\ncapture 0\nexport 0\nverify 0\nwrite 0\n",
+      "equal": true,
+      "original_reader_status": [
+        0,
+        0
+      ],
+      "apply": [
+        {
+          "entries": [
+            [
+              "file",
+              420,
+              [
+                "file",
+                "e13bd12c2c1101a32ffa4fbbac45d30728baa60edf21e0790d75c57129809a7e"
+              ]
+            ]
+          ],
+          "hardlinks": [
+            [
+              "file"
+            ]
+          ]
+        },
+        {
+          "entries": [
+            [
+              "file",
+              420,
+              [
+                "file",
+                "e13bd12c2c1101a32ffa4fbbac45d30728baa60edf21e0790d75c57129809a7e"
+              ]
+            ]
+          ],
+          "hardlinks": [
+            [
+              "file"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "phase": 0,
+      "flags": 4,
+      "kind": "hardlinks",
+      "original": "source 0\ndestination 0\ncapture 0\nexport 0\nverify 0\nwrite 0\n",
+      "native": "source 0\ndestination 0\ncapture 0\nexport 0\nverify 0\nwrite 0\n",
+      "equal": true,
+      "original_reader_status": [
+        0,
+        0
+      ],
+      "apply": [
+        {
+          "entries": [
+            [
+              "alias",
+              420,
+              [
+                "file",
+                "e13bd12c2c1101a32ffa4fbbac45d30728baa60edf21e0790d75c57129809a7e"
+              ]
+            ],
+            [
+              "file",
+              420,
+              [
+                "file",
+                "e13bd12c2c1101a32ffa4fbbac45d30728baa60edf21e0790d75c57129809a7e"
+              ]
+            ]
+          ],
+          "hardlinks": [
+            [
+              "alias",
+              "file"
+            ]
+          ]
+        },
+        {
+          "entries": [
+            [
+              "alias",
+              420,
+              [
+                "file",
+                "e13bd12c2c1101a32ffa4fbbac45d30728baa60edf21e0790d75c57129809a7e"
+              ]
+            ],
+            [
+              "file",
+              420,
+              [
+                "file",
+                "e13bd12c2c1101a32ffa4fbbac45d30728baa60edf21e0790d75c57129809a7e"
+              ]
+            ]
+          ],
+          "hardlinks": [
+            [
+              "alias",
+              "file"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "phase": 0,
+      "flags": 4,
+      "kind": "symlink",
+      "original": "source 0\ndestination 0\ncapture 0\nexport 0\nverify 0\nwrite 0\n",
+      "native": "source 0\ndestination 0\ncapture 0\nexport 0\nverify 0\nwrite 0\n",
+      "equal": true,
+      "original_reader_status": [
+        0,
+        0
+      ],
+      "apply": [
+        {
+          "entries": [
+            [
+              "file",
+              420,
+              [
+                "file",
+                "e13bd12c2c1101a32ffa4fbbac45d30728baa60edf21e0790d75c57129809a7e"
+              ]
+            ],
+            [
+              "link",
+              511,
+              [
+                "link",
+                "file"
+              ]
+            ]
+          ],
+          "hardlinks": [
+            [
+              "file"
+            ]
+          ]
+        },
+        {
+          "entries": [
+            [
+              "file",
+              420,
+              [
+                "file",
+                "e13bd12c2c1101a32ffa4fbbac45d30728baa60edf21e0790d75c57129809a7e"
+              ]
+            ],
+            [
+              "link",
+              511,
+              [
+                "link",
+                "file"
+              ]
+            ]
+          ],
+          "hardlinks": [
+            [
+              "file"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "phase": 0,
+      "flags": 8,
+      "kind": "ordinary",
+      "original": "source 0\ndestination 0\ncapture 0\nexport 0\nverify 0\nwrite 0\n",
+      "native": "source 0\ndestination 0\ncapture 0\nexport 0\nverify 0\nwrite 0\n",
+      "equal": true,
+      "original_reader_status": [
+        0,
+        0
+      ],
+      "apply": [
+        {
+          "entries": [
+            [
+              "file",
+              420,
+              [
+                "file",
+                "e13bd12c2c1101a32ffa4fbbac45d30728baa60edf21e0790d75c57129809a7e"
+              ]
+            ]
+          ],
+          "hardlinks": [
+            [
+              "file"
+            ]
+          ]
+        },
+        {
+          "entries": [
+            [
+              "file",
+              420,
+              [
+                "file",
+                "e13bd12c2c1101a32ffa4fbbac45d30728baa60edf21e0790d75c57129809a7e"
+              ]
+            ]
+          ],
+          "hardlinks": [
+            [
+              "file"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "phase": 0,
+      "flags": 8,
+      "kind": "hardlinks",
+      "original": "source 0\ndestination 0\ncapture 0\nexport 0\nverify 0\nwrite 0\n",
+      "native": "source 0\ndestination 0\ncapture 0\nexport 0\nverify 0\nwrite 0\n",
+      "equal": true,
+      "original_reader_status": [
+        0,
+        0
+      ],
+      "apply": [
+        {
+          "entries": [
+            [
+              "alias",
+              420,
+              [
+                "file",
+                "e13bd12c2c1101a32ffa4fbbac45d30728baa60edf21e0790d75c57129809a7e"
+              ]
+            ],
+            [
+              "file",
+              420,
+              [
+                "file",
+                "e13bd12c2c1101a32ffa4fbbac45d30728baa60edf21e0790d75c57129809a7e"
+              ]
+            ]
+          ],
+          "hardlinks": [
+            [
+              "alias",
+              "file"
+            ]
+          ]
+        },
+        {
+          "entries": [
+            [
+              "alias",
+              420,
+              [
+                "file",
+                "e13bd12c2c1101a32ffa4fbbac45d30728baa60edf21e0790d75c57129809a7e"
+              ]
+            ],
+            [
+              "file",
+              420,
+              [
+                "file",
+                "e13bd12c2c1101a32ffa4fbbac45d30728baa60edf21e0790d75c57129809a7e"
+              ]
+            ]
+          ],
+          "hardlinks": [
+            [
+              "alias",
+              "file"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "phase": 0,
+      "flags": 8,
+      "kind": "symlink",
+      "original": "source 0\ndestination 0\ncapture 0\nexport 0\nverify 0\nwrite 0\n",
+      "native": "source 0\ndestination 0\ncapture 0\nexport 0\nverify 0\nwrite 0\n",
+      "equal": true,
+      "original_reader_status": [
+        0,
+        0
+      ],
+      "apply": [
+        {
+          "entries": [
+            [
+              "file",
+              420,
+              [
+                "file",
+                "e13bd12c2c1101a32ffa4fbbac45d30728baa60edf21e0790d75c57129809a7e"
+              ]
+            ],
+            [
+              "link",
+              511,
+              [
+                "link",
+                "file"
+              ]
+            ]
+          ],
+          "hardlinks": [
+            [
+              "file"
+            ]
+          ]
+        },
+        {
+          "entries": [
+            [
+              "file",
+              420,
+              [
+                "file",
+                "e13bd12c2c1101a32ffa4fbbac45d30728baa60edf21e0790d75c57129809a7e"
+              ]
+            ],
+            [
+              "link",
+              511,
+              [
+                "link",
+                "file"
+              ]
+            ]
+          ],
+          "hardlinks": [
+            [
+              "file"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "phase": 1,
+      "flags": 0,
+      "kind": "ordinary",
+      "original": "source 0\ndestination 0\ncapture 0\nfirst-write 0\nexport 0\nverify 0\nwrite 0\n",
+      "native": "source 0\ndestination 0\ncapture 0\nfirst-write 0\nexport 0\nverify 0\nwrite 0\n",
+      "equal": false,
+      "original_reader_status": [
+        55,
+        0
+      ],
+      "apply": [
+        null,
+        {
+          "entries": [
+            [
+              "file",
+              420,
+              [
+                "file",
+                "e13bd12c2c1101a32ffa4fbbac45d30728baa60edf21e0790d75c57129809a7e"
+              ]
+            ]
+          ],
+          "hardlinks": [
+            [
+              "file"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "phase": 1,
+      "flags": 0,
+      "kind": "hardlinks",
+      "original": "source 0\ndestination 0\ncapture 0\nfirst-write 0\nexport 0\nverify 0\nwrite 0\n",
+      "native": "source 0\ndestination 0\ncapture 0\nfirst-write 0\nexport 0\nverify 0\nwrite 0\n",
+      "equal": false,
+      "original_reader_status": [
+        55,
+        0
+      ],
+      "apply": [
+        null,
+        {
+          "entries": [
+            [
+              "alias",
+              420,
+              [
+                "file",
+                "e13bd12c2c1101a32ffa4fbbac45d30728baa60edf21e0790d75c57129809a7e"
+              ]
+            ],
+            [
+              "file",
+              420,
+              [
+                "file",
+                "e13bd12c2c1101a32ffa4fbbac45d30728baa60edf21e0790d75c57129809a7e"
+              ]
+            ]
+          ],
+          "hardlinks": [
+            [
+              "alias",
+              "file"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "phase": 1,
+      "flags": 0,
+      "kind": "symlink",
+      "original": "source 0\ndestination 0\ncapture 0\nfirst-write 0\nexport 0\nverify 0\nwrite 0\n",
+      "native": "source 0\ndestination 0\ncapture 0\nfirst-write 0\nexport 0\nverify 0\nwrite 0\n",
+      "equal": false,
+      "original_reader_status": [
+        55,
+        0
+      ],
+      "apply": [
+        null,
+        {
+          "entries": [
+            [
+              "file",
+              420,
+              [
+                "file",
+                "e13bd12c2c1101a32ffa4fbbac45d30728baa60edf21e0790d75c57129809a7e"
+              ]
+            ],
+            [
+              "link",
+              511,
+              [
+                "link",
+                "file"
+              ]
+            ]
+          ],
+          "hardlinks": [
+            [
+              "file"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "phase": 1,
+      "flags": 2,
+      "kind": "ordinary",
+      "original": "source 0\ndestination 0\ncapture 0\nfirst-write 0\nexport 0\nverify 0\nwrite 0\n",
+      "native": "source 0\ndestination 0\ncapture 0\nfirst-write 0\nexport 0\nverify 0\nwrite 0\n",
+      "equal": false,
+      "original_reader_status": [
+        55,
+        0
+      ],
+      "apply": [
+        null,
+        {
+          "entries": [
+            [
+              "file",
+              420,
+              [
+                "file",
+                "e13bd12c2c1101a32ffa4fbbac45d30728baa60edf21e0790d75c57129809a7e"
+              ]
+            ]
+          ],
+          "hardlinks": [
+            [
+              "file"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "phase": 1,
+      "flags": 2,
+      "kind": "hardlinks",
+      "original": "source 0\ndestination 0\ncapture 0\nfirst-write 0\nexport 0\nverify 0\nwrite 0\n",
+      "native": "source 0\ndestination 0\ncapture 0\nfirst-write 0\nexport 0\nverify 0\nwrite 0\n",
+      "equal": false,
+      "original_reader_status": [
+        55,
+        0
+      ],
+      "apply": [
+        null,
+        {
+          "entries": [
+            [
+              "alias",
+              420,
+              [
+                "file",
+                "e13bd12c2c1101a32ffa4fbbac45d30728baa60edf21e0790d75c57129809a7e"
+              ]
+            ],
+            [
+              "file",
+              420,
+              [
+                "file",
+                "e13bd12c2c1101a32ffa4fbbac45d30728baa60edf21e0790d75c57129809a7e"
+              ]
+            ]
+          ],
+          "hardlinks": [
+            [
+              "alias",
+              "file"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "phase": 1,
+      "flags": 2,
+      "kind": "symlink",
+      "original": "source 0\ndestination 0\ncapture 0\nfirst-write 0\nexport 0\nverify 0\nwrite 0\n",
+      "native": "source 0\ndestination 0\ncapture 0\nfirst-write 0\nexport 0\nverify 0\nwrite 0\n",
+      "equal": false,
+      "original_reader_status": [
+        55,
+        0
+      ],
+      "apply": [
+        null,
+        {
+          "entries": [
+            [
+              "file",
+              420,
+              [
+                "file",
+                "e13bd12c2c1101a32ffa4fbbac45d30728baa60edf21e0790d75c57129809a7e"
+              ]
+            ],
+            [
+              "link",
+              511,
+              [
+                "link",
+                "file"
+              ]
+            ]
+          ],
+          "hardlinks": [
+            [
+              "file"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "phase": 1,
+      "flags": 4,
+      "kind": "ordinary",
+      "original": "source 0\ndestination 0\ncapture 0\nfirst-write 0\nexport 0\nverify 0\nwrite 0\n",
+      "native": "source 0\ndestination 0\ncapture 0\nfirst-write 0\nexport 0\nverify 0\nwrite 0\n",
+      "equal": false,
+      "original_reader_status": [
+        55,
+        0
+      ],
+      "apply": [
+        null,
+        {
+          "entries": [
+            [
+              "file",
+              420,
+              [
+                "file",
+                "e13bd12c2c1101a32ffa4fbbac45d30728baa60edf21e0790d75c57129809a7e"
+              ]
+            ]
+          ],
+          "hardlinks": [
+            [
+              "file"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "phase": 1,
+      "flags": 4,
+      "kind": "hardlinks",
+      "original": "source 0\ndestination 0\ncapture 0\nfirst-write 0\nexport 0\nverify 0\nwrite 0\n",
+      "native": "source 0\ndestination 0\ncapture 0\nfirst-write 0\nexport 0\nverify 0\nwrite 0\n",
+      "equal": false,
+      "original_reader_status": [
+        55,
+        0
+      ],
+      "apply": [
+        null,
+        {
+          "entries": [
+            [
+              "alias",
+              420,
+              [
+                "file",
+                "e13bd12c2c1101a32ffa4fbbac45d30728baa60edf21e0790d75c57129809a7e"
+              ]
+            ],
+            [
+              "file",
+              420,
+              [
+                "file",
+                "e13bd12c2c1101a32ffa4fbbac45d30728baa60edf21e0790d75c57129809a7e"
+              ]
+            ]
+          ],
+          "hardlinks": [
+            [
+              "alias",
+              "file"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "phase": 1,
+      "flags": 4,
+      "kind": "symlink",
+      "original": "source 0\ndestination 0\ncapture 0\nfirst-write 0\nexport 0\nverify 0\nwrite 0\n",
+      "native": "source 0\ndestination 0\ncapture 0\nfirst-write 0\nexport 0\nverify 0\nwrite 0\n",
+      "equal": false,
+      "original_reader_status": [
+        55,
+        0
+      ],
+      "apply": [
+        null,
+        {
+          "entries": [
+            [
+              "file",
+              420,
+              [
+                "file",
+                "e13bd12c2c1101a32ffa4fbbac45d30728baa60edf21e0790d75c57129809a7e"
+              ]
+            ],
+            [
+              "link",
+              511,
+              [
+                "link",
+                "file"
+              ]
+            ]
+          ],
+          "hardlinks": [
+            [
+              "file"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "phase": 1,
+      "flags": 8,
+      "kind": "ordinary",
+      "original": "source 0\ndestination 0\ncapture 0\nfirst-write 0\nexport 0\nverify 0\nwrite 0\n",
+      "native": "source 0\ndestination 0\ncapture 0\nfirst-write 0\nexport 0\nverify 0\nwrite 0\n",
+      "equal": true,
+      "original_reader_status": [
+        0,
+        0
+      ],
+      "apply": [
+        {
+          "entries": [
+            [
+              "file",
+              420,
+              [
+                "file",
+                "e13bd12c2c1101a32ffa4fbbac45d30728baa60edf21e0790d75c57129809a7e"
+              ]
+            ]
+          ],
+          "hardlinks": [
+            [
+              "file"
+            ]
+          ]
+        },
+        {
+          "entries": [
+            [
+              "file",
+              420,
+              [
+                "file",
+                "e13bd12c2c1101a32ffa4fbbac45d30728baa60edf21e0790d75c57129809a7e"
+              ]
+            ]
+          ],
+          "hardlinks": [
+            [
+              "file"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "phase": 1,
+      "flags": 8,
+      "kind": "hardlinks",
+      "original": "source 0\ndestination 0\ncapture 0\nfirst-write 0\nexport 0\nverify 0\nwrite 0\n",
+      "native": "source 0\ndestination 0\ncapture 0\nfirst-write 0\nexport 0\nverify 0\nwrite 0\n",
+      "equal": true,
+      "original_reader_status": [
+        0,
+        0
+      ],
+      "apply": [
+        {
+          "entries": [
+            [
+              "alias",
+              420,
+              [
+                "file",
+                "e13bd12c2c1101a32ffa4fbbac45d30728baa60edf21e0790d75c57129809a7e"
+              ]
+            ],
+            [
+              "file",
+              420,
+              [
+                "file",
+                "e13bd12c2c1101a32ffa4fbbac45d30728baa60edf21e0790d75c57129809a7e"
+              ]
+            ]
+          ],
+          "hardlinks": [
+            [
+              "alias",
+              "file"
+            ]
+          ]
+        },
+        {
+          "entries": [
+            [
+              "alias",
+              420,
+              [
+                "file",
+                "e13bd12c2c1101a32ffa4fbbac45d30728baa60edf21e0790d75c57129809a7e"
+              ]
+            ],
+            [
+              "file",
+              420,
+              [
+                "file",
+                "e13bd12c2c1101a32ffa4fbbac45d30728baa60edf21e0790d75c57129809a7e"
+              ]
+            ]
+          ],
+          "hardlinks": [
+            [
+              "alias",
+              "file"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "phase": 1,
+      "flags": 8,
+      "kind": "symlink",
+      "original": "source 0\ndestination 0\ncapture 0\nfirst-write 0\nexport 0\nverify 0\nwrite 0\n",
+      "native": "source 0\ndestination 0\ncapture 0\nfirst-write 0\nexport 0\nverify 0\nwrite 0\n",
+      "equal": true,
+      "original_reader_status": [
+        0,
+        0
+      ],
+      "apply": [
+        {
+          "entries": [
+            [
+              "file",
+              420,
+              [
+                "file",
+                "e13bd12c2c1101a32ffa4fbbac45d30728baa60edf21e0790d75c57129809a7e"
+              ]
+            ],
+            [
+              "link",
+              511,
+              [
+                "link",
+                "file"
+              ]
+            ]
+          ],
+          "hardlinks": [
+            [
+              "file"
+            ]
+          ]
+        },
+        {
+          "entries": [
+            [
+              "file",
+              420,
+              [
+                "file",
+                "e13bd12c2c1101a32ffa4fbbac45d30728baa60edf21e0790d75c57129809a7e"
+              ]
+            ],
+            [
+              "link",
+              511,
+              [
+                "link",
+                "file"
+              ]
+            ]
+          ],
+          "hardlinks": [
+            [
+              "file"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "files": [
+    {
+      "path": "/data/cache/qcow2-installation-1005-v2/offline-failure-logs/partition-3/qcow2-failure/target-bt-panther/setupact.log",
+      "bytes": 839198,
+      "sha256": "9df533d15bfbb9e68f7062b2790f74d0a09ae5b458b979cafe21d8345f8d029f"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-1005-v2/offline-failure-logs/partition-3/qcow2-failure/target-bt-panther/setuperr.log",
+      "bytes": 4937,
+      "sha256": "37ecfd7ca32c72197f683f2401a89d8cc93135249f0758306dbaeb49e8735789"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-1005-v2/offline-failure-logs/partition-3/qcow2-failure/newos-panther/unattend-original.xml",
+      "bytes": 8492,
+      "sha256": "fcf46205398a7126488ee421ebfddb874685255d78329d68e3a72e9c9d0418d5"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-1005-v2/offline-failure-logs/partition-3/qcow2-failure/newos-panther/unattend.xml",
+      "bytes": 5136,
+      "sha256": "fc06fd0754c92a024fd672cf20a5601e80de4dac08bba43878a2630884314808"
+    }
+  ],
+  "finding": "Setup compact ApplyWIM completed successfully at setupact.log line7557. CAddUnattend failed at9952 saving Windows/Panther/unattend-original.xml with0x80070050. Capture fresh-install policy excludes exactly two cached Panther answer files while retaining other Panther and Sysprep logs. This is our profile policy, not a claim about Microsoft default exclusions."
+}

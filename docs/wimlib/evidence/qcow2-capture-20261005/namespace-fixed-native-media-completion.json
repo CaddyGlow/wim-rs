@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "scope": "Pinned native namespace-fixed ISO assembly completion; independent ISO semantics/installation pending",
+  "producer_sha256": "c948be738f19b9d0e4ee50808bf377fb8f3ff1b95ab988ab11f7c5ca9fe7e458",
+  "PATH": "/nonexistent",
+  "default_limits": true,
+  "exit": 0,
+  "seconds": 169.5908386707306,
+  "iso_reported_sha256": "92fe21f6c129a95b68a39ae1c66ce3b0364afc675ed91dd62c47bc8cd8c7ea20",
+  "setup_absolute_links_verified": 46,
+  "winre_verified": 1,
+  "artifacts": [
+    {
+      "path": "/data/cache/qcow2-namespace-fixed-20261006/media-launch.json",
+      "sha256": "eb00d19f952011baaf6eadcc31908150537b2f764b486f61d33defad3d3d2690"
+    },
+    {
+      "path": "/data/cache/qcow2-namespace-fixed-20261006/capture/media-stdout.json",
+      "sha256": "afb9243b4fb7d3dcfcab6f0191ea7514e7c86d8148647b95e4f195bb4c12c4e6"
+    }
+  ]
+}

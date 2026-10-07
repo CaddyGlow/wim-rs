@@ -1,0 +1,11 @@
+   Compiling wim-ffi v0.1.0 (/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/wim-ffi)
+error[E0432]: unresolved imports `wim::WimResourceEntry`, `wim::wimlib_iterate_lookup_table`
+ --> wim-ffi/tests/lookup.rs:2:11
+  |
+2 | use wim::{WimResourceEntry, wimlib_iterate_lookup_table};
+  |           ^^^^^^^^^^^^^^^^  ^^^^^^^^^^^^^^^^^^^^^^^^^^^ no `wimlib_iterate_lookup_table` in the root
+  |           |
+  |           no `WimResourceEntry` in the root
+
+For more information about this error, try `rustc --explain E0432`.
+error: could not compile `wim-ffi` (test "lookup") due to 1 previous error

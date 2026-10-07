@@ -1,0 +1,167 @@
+﻿2026-10-04 12:04:16, Info                  DISM   PID=6644 TID=4812 Scratch directory set to 'C:\WINDOWS\SystemTemp\'. - CDISMManager::put_ScratchDir
+2026-10-04 12:04:16, Info                  DISM   PID=6644 TID=4812 DismCore.dll version: 10.0.26100.7920 - CDISMManager::FinalConstruct
+2026-10-04 12:04:16, Info                  DISM   Initialized Panther logging at C:\wim-uup-validation-1791110582335113548\assembly\logs\dism-44.log
+2026-10-04 12:04:16, Info                  DISM   PID=6644 TID=4812 Successfully loaded the ImageSession at "C:\WINDOWS\system32\Dism" - CDISMManager::LoadLocalImageSession
+2026-10-04 12:04:16, Info                  DISM   Initialized Panther logging at C:\wim-uup-validation-1791110582335113548\assembly\logs\dism-44.log
+2026-10-04 12:04:16, Info                  DISM   DISM Provider Store: PID=6644 TID=4812 Found and Initialized the DISM Logger. - CDISMProviderStore::Internal_InitializeLogger
+2026-10-04 12:04:16, Info                  DISM   Initialized Panther logging at C:\wim-uup-validation-1791110582335113548\assembly\logs\dism-44.log
+2026-10-04 12:04:16, Info                  DISM   DISM Manager: PID=6644 TID=4812 Successfully created the local image session and provider store. - CDISMManager::CreateLocalImageSession
+2026-10-04 12:04:16, Info                  DISM   DISM.EXE: 
+2026-10-04 12:04:16, Info                  DISM   DISM.EXE: <----- Starting Dism.exe session ----->
+2026-10-04 12:04:16, Info                  DISM   DISM.EXE: 
+2026-10-04 12:04:16, Info                  DISM   DISM.EXE: Host machine information: OS Version=10.0.26200, Running architecture=amd64, Number of processors=4
+2026-10-04 12:04:16, Info                  DISM   DISM.EXE: Instance information: Parent process=C:\wim-uup-validation-1791110582335113548\windows-uup-fixed.exe, Parent process PID=5296
+2026-10-04 12:04:16, Info                  DISM   DISM.EXE: Dism.exe version: 10.0.26100.5074
+2026-10-04 12:04:16, Info                  DISM   DISM.EXE: Executing command line: "dism.exe" /Image:C:\wim-uup-validation-1791110582335113548\assembly\mount /Set-TargetPath:X:\$windows.~bt\ /LogPath:C:\wim-uup-validation-1791110582335113548\assembly\logs\dism-44.log /English /NoRestart
+2026-10-04 12:04:16, Info                  DISM   DISM FFU Provider: PID=6644 TID=4812 [C:\wim-uup-validation-1791110582335113548\assembly\mount] is not recognized by the DISM FFU provider. - CFfuImage::Initialize
+2026-10-04 12:04:16, Info                  DISM   DISM Imaging Provider: PID=6644 TID=4812 The provider FfuManager does not support CreateDismImage on C:\wim-uup-validation-1791110582335113548\assembly\mount - CGenericImagingManager::CreateDismImage
+2026-10-04 12:04:16, Info                  DISM   DISM VHD Provider: PID=6644 TID=4812 [C:\wim-uup-validation-1791110582335113548\assembly\mount] is not recognized by the DISM VHD provider. - CVhdImage::Initialize
+2026-10-04 12:04:16, Info                  DISM   DISM Imaging Provider: PID=6644 TID=4812 The provider VHDManager does not support CreateDismImage on C:\wim-uup-validation-1791110582335113548\assembly\mount - CGenericImagingManager::CreateDismImage
+2026-10-04 12:04:16, Info                  DISM   DISM Manager: PID=6644 TID=4812 physical location path: C:\wim-uup-validation-1791110582335113548\assembly\mount - CDISMManager::CreateImageSession
+2026-10-04 12:04:16, Info                  DISM   DISM Manager: PID=6644 TID=4812 Event name for current DISM session is Global\__?_Volume{f8ca6cb5-12a2-470c-bfdf-fe35d8c84a63}__1343813490_393216_141827 - CDISMManager::CheckSessionAndLock
+2026-10-04 12:04:16, Info                  DISM   DISM Manager: PID=6644 TID=4812 Create session event 0x2b8 for current DISM session and event name is Global\__?_Volume{f8ca6cb5-12a2-470c-bfdf-fe35d8c84a63}__1343813490_393216_141827  - CDISMManager::CheckSessionAndLock
+2026-10-04 12:04:16, Info                  DISM   DISM Manager: PID=6644 TID=4812 Copying DISM from "C:\wim-uup-validation-1791110582335113548\assembly\mount\Windows\System32\Dism" - CDISMManager::CreateImageSessionFromLocation
+2026-10-04 12:04:17, Info                  DISM   DISM Manager: PID=6644 TID=4812 Successfully loaded the ImageSession at "C:\WINDOWS\SystemTemp\D51DCF3F-C51A-4CE4-86F8-5EE7362A1B52" - CDISMManager::LoadRemoteImageSession
+2026-10-04 12:04:17, Info                  DISM   DISM Image Session: PID=9732 TID=9784 Instantiating the Provider Store. - CDISMImageSession::get_ProviderStore
+2026-10-04 12:04:17, Info                  DISM   DISM Provider Store: PID=9732 TID=9784 Initializing a provider store for the IMAGE session type. - CDISMProviderStore::Final_OnConnect
+2026-10-04 12:04:17, Info                  DISM   DISM Provider Store: PID=9732 TID=9784 Connecting to the provider located at C:\WINDOWS\SystemTemp\D51DCF3F-C51A-4CE4-86F8-5EE7362A1B52\OSProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 12:04:17, Info                  DISM   DISM OS Provider: PID=9732 TID=9784 Defaulting SystemPath to C:\wim-uup-validation-1791110582335113548\assembly\mount - CDISMOSServiceManager::Final_OnConnect
+2026-10-04 12:04:17, Info                  DISM   DISM OS Provider: PID=9732 TID=9784 Defaulting Windows folder to C:\wim-uup-validation-1791110582335113548\assembly\mount\Windows - CDISMOSServiceManager::Final_OnConnect
+2026-10-04 12:04:17, Info                  DISM   DISM Provider Store: PID=9732 TID=9784 Attempting to initialize the logger from the Image Session. - CDISMProviderStore::Final_OnConnect
+2026-10-04 12:04:17, Info                  DISM   DISM Provider Store: PID=9732 TID=9784 Connecting to the provider located at C:\WINDOWS\SystemTemp\D51DCF3F-C51A-4CE4-86F8-5EE7362A1B52\LogProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 12:04:17, Info                  DISM   Initialized Panther logging at C:\wim-uup-validation-1791110582335113548\assembly\logs\dism-44.log
+2026-10-04 12:04:17, Info                  DISM   DISM Provider Store: PID=9732 TID=9784 Found and Initialized the DISM Logger. - CDISMProviderStore::Internal_InitializeLogger
+2026-10-04 12:04:17, Info                  DISM   DISM Provider Store: PID=9732 TID=9784 Connecting to the provider located at C:\WINDOWS\SystemTemp\D51DCF3F-C51A-4CE4-86F8-5EE7362A1B52\PEProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 12:04:17, Info                  DISM   DISM Provider Store: PID=9732 TID=9784 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 12:04:17, Info                  DISM   PE Provider: CPEImg::Attach: Attach requested to offline image
+2026-10-04 12:04:17, Info                  DISM   PE Provider: CPEImg::Attach: windir=C:\wim-uup-validation-1791110582335113548\assembly\mount\Windows.
+2026-10-04 12:04:17, Info                  DISM   PE Provider: CPEImg::Attach: Attach succeeded.
+2026-10-04 12:04:17, Info                  DISM   PE Provider: CPEImg::GetInstallRoot: Successfully retrieved installroot X:\
+2026-10-04 12:04:17, Info                  DISM   PE Provider: CPEImg::GetInstallRoot: Successfully retrieved installroot X:\
+2026-10-04 12:04:17, Info                  DISM   PE Provider: CPEImg::SetInstallRoot: Old installroot == new installroot; not performing any operation.
+2026-10-04 12:04:17, Info                  DISM   DISM Provider Store: PID=9732 TID=9784 Finished initializing the Provider Map. - CDISMProviderStore::Final_OnConnect
+2026-10-04 12:04:17, Info                  DISM   Initialized Panther logging at C:\wim-uup-validation-1791110582335113548\assembly\logs\dism-44.log
+2026-10-04 12:04:17, Info                  DISM   Initialized Panther logging at C:\wim-uup-validation-1791110582335113548\assembly\logs\dism-44.log
+2026-10-04 12:04:17, Info                  DISM   DISM Manager: PID=6644 TID=4812 Image session successfully loaded from location: C:\WINDOWS\SystemTemp\D51DCF3F-C51A-4CE4-86F8-5EE7362A1B52 - CDISMManager::CreateImageSession
+2026-10-04 12:04:17, Info                  DISM   DISM OS Provider: PID=9732 TID=5328 Setting SystemPath to C:\wim-uup-validation-1791110582335113548\assembly\mount - CDISMOSServiceManager::SetSystemPath
+2026-10-04 12:04:17, Info                  DISM   Offline Registry: PID=9732 TID=5328 Hive already mounted at HKLM\{bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/wim-uup-validation-1791110582335113548/assembly/mount/Windows/system32/config/SOFTWARE. - CRegistryMapping::Init
+2026-10-04 12:04:17, Info                  DISM   DISM.EXE: Target image information: OS Version=10.0.19041.1, Image architecture=amd64
+2026-10-04 12:04:17, Info                  DISM   DISM.EXE: Image session version: 10.0.19041.1
+2026-10-04 12:04:17, Info                  DISM   DISM Provider Store: PID=9732 TID=5328 Getting the collection of providers from an image provider store type. - CDISMProviderStore::GetProviderCollection
+2026-10-04 12:04:17, Info                  DISM   DISM Provider Store: PID=9732 TID=5328 Connecting to the provider located at C:\WINDOWS\SystemTemp\D51DCF3F-C51A-4CE4-86F8-5EE7362A1B52\CbsProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 12:04:17, Info                  DISM   DISM Provider Store: PID=9732 TID=5328 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 12:04:17, Info                  CSI    00000001 Shim considered [l:177]'\??\C:\wim-uup-validation-1791110582335113548\assembly\mount\Windows\Servicing\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.19041.1_none_bf506ecc66a800df\wcp.dll' : got STATUS_OBJECT_PATH_NOT_FOUND
+2026-10-04 12:04:17, Info                  CSI    00000002 Shim considered [l:174]'\??\C:\wim-uup-validation-1791110582335113548\assembly\mount\Windows\WinSxS\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.19041.1_none_bf506ecc66a800df\wcp.dll' : got STATUS_SUCCESS
+2026-10-04 12:04:17, Info                  DISM   DISM OS Provider: PID=9732 TID=5328 Determined System directory to be C:\wim-uup-validation-1791110582335113548\assembly\mount\Windows\System32 - CDISMOSServiceManager::get_SystemDirectory
+2026-10-04 12:04:17, Info                  DISM   DISM Package Manager: PID=9732 TID=5328 Finished initializing the CbsConUI Handler. - CCbsConUIHandler::Initialize
+2026-10-04 12:04:17, Info                  CSI    00000001 Shim considered [l:177]'\??\C:\wim-uup-validation-1791110582335113548\assembly\mount\Windows\Servicing\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.19041.1_none_bf506ecc66a800df\wcp.dll' : got STATUS_OBJECT_PATH_NOT_FOUND
+2026-10-04 12:04:17, Info                  CSI    00000002 Shim considered [l:174]'\??\C:\wim-uup-validation-1791110582335113548\assembly\mount\Windows\WinSxS\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.19041.1_none_bf506ecc66a800df\wcp.dll' : got STATUS_SUCCESS
+2026-10-04 12:04:17, Info                  CSI    00000001 Shim considered [l:177]'\??\C:\wim-uup-validation-1791110582335113548\assembly\mount\Windows\Servicing\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.19041.1_none_bf506ecc66a800df\wcp.dll' : got STATUS_OBJECT_PATH_NOT_FOUND
+2026-10-04 12:04:17, Info                  CSI    00000002 Shim considered [l:174]'\??\C:\wim-uup-validation-1791110582335113548\assembly\mount\Windows\WinSxS\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.19041.1_none_bf506ecc66a800df\wcp.dll' : got STATUS_SUCCESS
+2026-10-04 12:04:17, Info                  CBS    Universal Time is: 2026-10-04 12:04:17.910
+2026-10-04 12:04:17, Info                  CBS    Failed to find a matching version for servicing stack: C:\wim-uup-validation-1791110582335113548\assembly\mount\Windows\WinSxS\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.19041.1_none_bf506ecc66a800df\ [HRESULT = 0x80070490 - ERROR_NOT_FOUND]
+2026-10-04 12:04:17, Info                  CBS    Failed to find servicing stack directory in online store. [HRESULT = 0x80070490 - ERROR_NOT_FOUND]
+2026-10-04 12:04:17, Info                  CBS    Offline servicing, using stack version from: C:\wim-uup-validation-1791110582335113548\assembly\mount\Windows\WinSxS\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.19041.1_none_bf506ecc66a800df\cbscore.dll
+2026-10-04 12:04:17, Info                  CBS    Loaded Servicing Stack v10.0.19041.1 with Core: C:\wim-uup-validation-1791110582335113548\assembly\mount\Windows\WinSxS\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.19041.1_none_bf506ecc66a800df\cbscore.dll
+2026-10-04 12:04:17, Info                  CBS    Setting core mode: CbsCoreModeOffline
+2026-10-04 12:04:17, Info                  CSI    00000001@2026/10/4:12:04:17.953 WcpInitialize: wcp.dll version 10.0.19041.1 (WinBuild.160101.0800)
+2026-10-04 12:04:17, Info                  CBS    Lock: New lock added: CCbsSessionManager, level: 11, total lock:9
+2026-10-04 12:04:17, Info                  CBS    Lock: New lock added: CSIInventoryCriticalSection, level: 64, total lock:10
+2026-10-04 12:04:17, Info                  DISM   DISM Package Manager: PID=9732 TID=5328 Loaded servicing stack for offline use only. - CDISMPackageManager::CreateCbsSession
+2026-10-04 12:04:17, Info                  CBS    Lazy store initialization mode
+2026-10-04 12:04:17, Warning               DISM   DISM Provider Store: PID=9732 TID=5328 Failed to load the provider: C:\WINDOWS\SystemTemp\D51DCF3F-C51A-4CE4-86F8-5EE7362A1B52\MsiProvider.dll. - CDISMProviderStore::Internal_GetProvider(hr:0x8007007e)
+2026-10-04 12:04:17, Info                  DISM   DISM Provider Store: PID=9732 TID=5328 Connecting to the provider located at C:\WINDOWS\SystemTemp\D51DCF3F-C51A-4CE4-86F8-5EE7362A1B52\IntlProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 12:04:17, Info                  DISM   DISM Provider Store: PID=9732 TID=5328 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 12:04:17, Warning               DISM   DISM Provider Store: PID=9732 TID=5328 Failed to load the provider: C:\WINDOWS\SystemTemp\D51DCF3F-C51A-4CE4-86F8-5EE7362A1B52\IBSProvider.dll. - CDISMProviderStore::Internal_GetProvider(hr:0x8007007e)
+2026-10-04 12:04:17, Info                  DISM   DISM Provider Store: PID=9732 TID=5328 Connecting to the provider located at C:\WINDOWS\SystemTemp\D51DCF3F-C51A-4CE4-86F8-5EE7362A1B52\DmiProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 12:04:17, Info                  DISM   DISM Provider Store: PID=9732 TID=5328 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 12:04:17, Info                  CSI    00000001 Shim considered [l:177]'\??\C:\wim-uup-validation-1791110582335113548\assembly\mount\Windows\Servicing\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.19041.1_none_bf506ecc66a800df\wcp.dll' : got STATUS_OBJECT_PATH_NOT_FOUND
+2026-10-04 12:04:17, Info                  CSI    00000002 Shim considered [l:174]'\??\C:\wim-uup-validation-1791110582335113548\assembly\mount\Windows\WinSxS\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.19041.1_none_bf506ecc66a800df\wcp.dll' : got STATUS_SUCCESS
+2026-10-04 12:04:18, Info                  DISM   Offline Registry: PID=9732 TID=5328 Hive already mounted at HKLM\{bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/wim-uup-validation-1791110582335113548/assembly/mount/Windows/system32/config/SOFTWARE. - CRegistryMapping::Init
+2026-10-04 12:04:18, Info                  DISM   Offline Registry: PID=9732 TID=5328 Hive already mounted at HKLM\{bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/wim-uup-validation-1791110582335113548/assembly/mount/Windows/system32/config/SOFTWARE. - CRegistryMapping::Init
+2026-10-04 12:04:18, Info                  DISM   DISM Driver Manager: PID=9732 TID=5328 Further logs for driver related operations can be found in the target operating system at %WINDIR%\inf\setupapi.offline.log - CDriverManager::Initialize
+2026-10-04 12:04:18, Info                  DISM   DISM Provider Store: PID=9732 TID=5328 Connecting to the provider located at C:\WINDOWS\SystemTemp\D51DCF3F-C51A-4CE4-86F8-5EE7362A1B52\UnattendProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 12:04:18, Info                  DISM   DISM Provider Store: PID=9732 TID=5328 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 12:04:18, Info                  DISM   DISM Provider Store: PID=9732 TID=5328 Connecting to the provider located at C:\WINDOWS\SystemTemp\D51DCF3F-C51A-4CE4-86F8-5EE7362A1B52\SmiProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 12:04:18, Info                  DISM   DISM Provider Store: PID=9732 TID=5328 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 12:04:18, Warning               DISM   DISM Provider Store: PID=9732 TID=5328 Failed to load the provider: C:\WINDOWS\SystemTemp\D51DCF3F-C51A-4CE4-86F8-5EE7362A1B52\EmbeddedProvider.dll. - CDISMProviderStore::Internal_GetProvider(hr:0x8007007e)
+2026-10-04 12:04:18, Warning               DISM   DISM Provider Store: PID=9732 TID=5328 Failed to load the provider: C:\WINDOWS\SystemTemp\D51DCF3F-C51A-4CE4-86F8-5EE7362A1B52\AppxProvider.dll. - CDISMProviderStore::Internal_GetProvider(hr:0x8007007e)
+2026-10-04 12:04:18, Info                  DISM   DISM Provider Store: PID=9732 TID=5328 Connecting to the provider located at C:\WINDOWS\SystemTemp\D51DCF3F-C51A-4CE4-86F8-5EE7362A1B52\ProvProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 12:04:18, Info                  DISM   DISM Provider Store: PID=9732 TID=5328 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 12:04:18, Warning               DISM   DISM Provider Store: PID=9732 TID=5328 Failed to load the provider: C:\WINDOWS\SystemTemp\D51DCF3F-C51A-4CE4-86F8-5EE7362A1B52\AssocProvider.dll. - CDISMProviderStore::Internal_GetProvider(hr:0x8007007e)
+2026-10-04 12:04:18, Info                  DISM   DISM Provider Store: PID=9732 TID=5328 Connecting to the provider located at C:\WINDOWS\SystemTemp\D51DCF3F-C51A-4CE4-86F8-5EE7362A1B52\GenericProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 12:04:18, Info                  DISM   DISM Provider Store: PID=9732 TID=5328 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 12:04:18, Info                  DISM   DISM Provider Store: PID=9732 TID=5328 Connecting to the provider located at C:\WINDOWS\SystemTemp\D51DCF3F-C51A-4CE4-86F8-5EE7362A1B52\OfflineSetupProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 12:04:18, Info                  DISM   DISM Provider Store: PID=9732 TID=5328 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2026-10-04 12:04:18, Warning               DISM   DISM Provider Store: PID=9732 TID=5328 Failed to load the provider: C:\WINDOWS\SystemTemp\D51DCF3F-C51A-4CE4-86F8-5EE7362A1B52\SysprepProvider.dll. - CDISMProviderStore::Internal_GetProvider(hr:0x8007007e)
+2026-10-04 12:04:18, Warning               DISM   DISM Provider Store: PID=9732 TID=5328 Failed to load the provider: C:\WINDOWS\SystemTemp\D51DCF3F-C51A-4CE4-86F8-5EE7362A1B52\TransmogProvider.dll. - CDISMProviderStore::Internal_GetProvider(hr:0x8007007e)
+2026-10-04 12:04:18, Warning               DISM   DISM Provider Store: PID=9732 TID=5328 Failed to load the provider: C:\WINDOWS\SystemTemp\D51DCF3F-C51A-4CE4-86F8-5EE7362A1B52\SetupPlatformProvider.dll. - CDISMProviderStore::Internal_GetProvider(hr:0x8007007e)
+2026-10-04 12:04:18, Info                  DISM   Windows PE Image Manager: PID=9732 TID=5328 Routing the command... - CPEImageManagerCLIHandler::ExecuteCmdLine
+2026-10-04 12:04:18, Info                  DISM   DISM Provider Store: PID=9732 TID=5328 Found the OSServices.  Waiting to finalize it until all other providers are unloaded. - CDISMProviderStore::Final_OnDisconnect
+2026-10-04 12:04:18, Info                  DISM   DISM Provider Store: PID=9732 TID=5328 Found the OSServices.  Waiting to finalize it until all other providers are unloaded. - CDISMProviderStore::Final_OnDisconnect
+2026-10-04 12:04:18, Info                  DISM   DISM Provider Store: PID=9732 TID=5328 Found the PE Provider.  Waiting to finalize it until all other providers are unloaded. - CDISMProviderStore::Final_OnDisconnect
+2026-10-04 12:04:18, Info                  DISM   DISM Provider Store: PID=9732 TID=5328 Finalizing the servicing provider(DISM Package Manager) - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 12:04:18, Info                  DISM   DISM Package Manager: PID=9732 TID=5328 Finalizing CBS core. - CDISMPackageManager::Finalize
+2026-10-04 12:04:18, Info                  CBS    CbsCoreFinalize: ExecutionEngineFinalize
+2026-10-04 12:04:18, Info                  CBS    Execution Engine Finalize
+2026-10-04 12:04:18, Info                  CBS    Execution Engine Finalize
+2026-10-04 12:04:18, Info                  CBS    CbsCoreFinalize: ComponentAnalyzerFinalize
+2026-10-04 12:04:18, Info                  CBS    CbsCoreFinalize: PackageTrackerFinalize
+2026-10-04 12:04:18, Info                  CBS    CbsCoreFinalize: CoreResourcesUnload
+2026-10-04 12:04:18, Info                  CBS    CbsCoreFinalize: SessionManagerFinalize
+2026-10-04 12:04:18, Info                  CBS    Lock: Lock removed: CSIInventoryCriticalSection, level: 64, total lock:10
+2026-10-04 12:04:18, Info                  CBS    Lock: Lock removed: CCbsSessionManager, level: 11, total lock:9
+2026-10-04 12:04:18, Info                  CBS    CbsCoreFinalize: CapabilityManagerFinalize
+2026-10-04 12:04:18, Info                  CBS    CbsCoreFinalize: GetPublicObjectMonitor::Audit
+2026-10-04 12:04:18, Info                  CBS    CbsCoreFinalize: PublicObjectMonitorFinalize
+2026-10-04 12:04:18, Info                  CBS    CbsCoreFinalize: Enter vCoreInitializeLock
+2026-10-04 12:04:18, Info                  CBS    CbsCoreFinalize: WcpUnload
+2026-10-04 12:04:18, Info                  CBS    CbsCoreFinalize: DrupUnload
+2026-10-04 12:04:18, Info                  CBS    CbsCoreFinalize: CfgMgr32Unload
+2026-10-04 12:04:18, Info                  CBS    CbsCoreFinalize: DpxUnload
+2026-10-04 12:04:18, Info                  CBS    CbsCoreFinalize: SrUnload
+2026-10-04 12:04:18, Info                  CBS    CbsCoreFinalize: CbsEsdUnload
+2026-10-04 12:04:18, Info                  CBS    CbsCoreFinalize: CbsTraceInfoUninitialize
+2026-10-04 12:04:18, Info                  CBS    CbsCoreFinalize: CbsEventUnregister
+2026-10-04 12:04:18, Info                  CBS    CbsCoreFinalize: AppContainerUnload
+2026-10-04 12:04:18, Info                  CBS    CbsCoreFinalize: WdsUnload, logging from cbscore will end.
+2026-10-04 12:04:18, Info                  DISM   DISM Provider Store: PID=9732 TID=5328 Disconnecting Provider: DISM Package Manager - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 12:04:18, Info                  DISM   DISM Provider Store: PID=9732 TID=5328 Finalizing the servicing provider(IntlManager) - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 12:04:18, Info                  DISM   DISM Provider Store: PID=9732 TID=5328 Disconnecting Provider: IntlManager - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 12:04:18, Info                  DISM   DISM Provider Store: PID=9732 TID=5328 Finalizing the servicing provider(DriverManager) - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 12:04:18, Info                  DISM   DISM Provider Store: PID=9732 TID=5328 Disconnecting Provider: DriverManager - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 12:04:18, Info                  DISM   DISM Provider Store: PID=9732 TID=5328 Finalizing the servicing provider(DISM Unattend Manager) - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 12:04:18, Info                  DISM   DISM Provider Store: PID=9732 TID=5328 Disconnecting Provider: DISM Unattend Manager - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 12:04:18, Info                  DISM   DISM Provider Store: PID=9732 TID=5328 Finalizing the servicing provider(SmiManager) - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 12:04:18, Info                  DISM   DISM Provider Store: PID=9732 TID=5328 Disconnecting Provider: SmiManager - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 12:04:18, Info                  DISM   DISM Provider Store: PID=9732 TID=5328 Finalizing the servicing provider(ProvManager) - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 12:04:18, Info                  DISM   DISM Provider Store: PID=9732 TID=5328 Disconnecting Provider: ProvManager - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 12:04:18, Info                  DISM   DISM Provider Store: PID=9732 TID=5328 Finalizing the servicing provider(GenericManager) - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 12:04:18, Info                  DISM   DISM Provider Store: PID=9732 TID=5328 Disconnecting Provider: GenericManager - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 12:04:18, Info                  DISM   DISM Provider Store: PID=9732 TID=5328 Finalizing the servicing provider(OfflineSetupManager) - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 12:04:18, Info                  DISM   DISM Provider Store: PID=9732 TID=5328 Disconnecting Provider: OfflineSetupManager - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 12:04:18, Info                  DISM   DISM Provider Store: PID=9732 TID=5328 Finalizing the servicing provider(PE Provider) - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 12:04:18, Info                  DISM   PE Provider: CPEImg::GetInstallRoot: Successfully retrieved installroot X:\
+2026-10-04 12:04:18, Info                  DISM   PE Provider: CPEImg::SetInstallRoot: Changing installroot from X:\ to X:\$windows.~bt\.
+2026-10-04 12:04:19, Info                  DISM   PE Provider: CPEImg::SetInstallRoot: Successfully changed installroot from X:\ to X:\$windows.~bt\.
+2026-10-04 12:04:19, Info                  DISM   PE Provider: CPEImg::SetInstallRoot: Successfully changed paging-related registry values.
+2026-10-04 12:04:19, Info                  DISM   PE Provider: CPEImg::Detach: Detach succeeded.
+2026-10-04 12:04:19, Info                  DISM   DISM Provider Store: PID=9732 TID=5328 Disconnecting Provider: PE Provider - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 12:04:19, Info                  DISM   DISM Provider Store: PID=9732 TID=5328 Releasing the local reference to OSServices. - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 12:04:19, Info                  DISM   DISM Provider Store: PID=9732 TID=5328 Disconnecting Provider: OSServices - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 12:04:19, Info                  DISM   Offline Registry: PID=9732 TID=5328 Hive is not mounted at HKLM\{bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/wim-uup-validation-1791110582335113548/assembly/mount/Windows/system32/config/SOFTWARE. - CRegistryMapping::Init
+2026-10-04 12:04:19, Info                  DISM   Offline Registry: PID=9732 TID=5328 Hive is not mounted at HKLM\{bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/wim-uup-validation-1791110582335113548/assembly/mount/Windows/system32/config/SYSTEM. - CRegistryMapping::Init
+2026-10-04 12:04:19, Info                  DISM   Offline Registry: PID=9732 TID=5328 Hive is not mounted at HKLM\{bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/wim-uup-validation-1791110582335113548/assembly/mount/Windows/system32/config/SECURITY. - CRegistryMapping::Init
+2026-10-04 12:04:19, Info                  DISM   Offline Registry: PID=9732 TID=5328 Hive is not mounted at HKLM\{bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/wim-uup-validation-1791110582335113548/assembly/mount/Windows/system32/config/SAM. - CRegistryMapping::Init
+2026-10-04 12:04:19, Info                  DISM   Offline Registry: PID=9732 TID=5328 Hive is not mounted at HKLM\{bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/wim-uup-validation-1791110582335113548/assembly/mount/Windows/system32/config/DEFAULT. - CRegistryMapping::Init
+2026-10-04 12:04:19, Info                  DISM   Offline Registry: PID=9732 TID=5328 Hive is not mounted at HKLM\{bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/wim-uup-validation-1791110582335113548/assembly/mount/Users/Default/NTUSER.DAT. - CRegistryMapping::Init
+2026-10-04 12:04:19, Info                  DISM   Offline Registry: PID=9732 TID=5328 Hive is not mounted at HKLM\{bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/wim-uup-validation-1791110582335113548/assembly/mount/Windows/system32/config/COMPONENTS. - CRegistryMapping::Init
+2026-10-04 12:04:19, Info                  DISM   Offline Registry: PID=9732 TID=5328 Hive is not mounted at HKLM\{bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/wim-uup-validation-1791110582335113548/assembly/mount/Windows/system32/config/DRIVERS. - CRegistryMapping::Init
+2026-10-04 12:04:19, Info                  DISM   DISM OS Provider: PID=9732 TID=5328 Successfully unloaded all registry hives. - CDISMOSServiceManager::Final_OnDisconnect
+2026-10-04 12:04:19, Info                  DISM   DISM Provider Store: PID=9732 TID=5328 Releasing the local reference to DISMLogger.  Stop logging. - CDISMProviderStore::Internal_DisconnectProvider
+2026-10-04 12:04:19, Info                  DISM   DISM Manager: PID=6644 TID=4812 Closing session event handle 0x2b8 - CDISMManager::CleanupImageSessionEntry
+2026-10-04 12:04:19, Info                  DISM   DISM Manager: DeletePath: Attempting to obliterate [C:\WINDOWS\SystemTemp\D51DCF3F-C51A-4CE4-86F8-5EE7362A1B52] (final path [\\?\Volume{f8ca6cb5-12a2-470c-bfdf-fe35d8c84a63}\Windows\SystemTemp\D51DCF3F-C51A-4CE4-86F8-5EE7362A1B52]).
+2026-10-04 12:04:19, Info                  DISM   DISM.EXE: Image session has been closed. Reboot required=no.
+2026-10-04 12:04:19, Info                  DISM   DISM.EXE: 
+2026-10-04 12:04:19, Info                  DISM   DISM.EXE: <----- Ending Dism.exe session ----->
+2026-10-04 12:04:19, Info                  DISM   DISM.EXE: 

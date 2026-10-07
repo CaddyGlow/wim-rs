@@ -1,0 +1,17 @@
+   Compiling wim-format v0.1.0 (/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/wim-format)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.29s
+     Running tests/integrity.rs (crates/wimlib-rs/target/debug/deps/integrity-ee6c79fbf3db7b63)
+
+running 9 tests
+test absence_uses_offset_and_bad_coverage_is_rejected ... ok
+test archive_integrity_progress_preserves_absence_and_callback_failure_precedence ... ok
+test covered_corruption_fails_but_header_and_xml_corruption_are_outside_coverage ... ok
+test malformed_table_fields_are_rejected ... ok
+test progress_reports_initial_and_completed_chunks_and_cancels_after_chunk ... ok
+test truncation_is_distinct_from_mismatch_and_initial_cancellation_wins ... ok
+test upstream_accepts_nonstandard_chunk_size_and_partial_fourth_chunk ... ok
+test upstream_generated_integrity_table_verifies_and_recalculates_identically ... ok
+test chunk_boundaries_empty_and_partial_final_chunks_roundtrip ... ok
+
+test result: ok. 9 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

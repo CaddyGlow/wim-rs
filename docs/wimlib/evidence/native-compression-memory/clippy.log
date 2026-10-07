@@ -1,0 +1,3 @@
+    Checking wim-codec v0.1.0 (/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/wim-codec)
+    Checking wim-ffi v0.1.0 (/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/wim-ffi)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.27s

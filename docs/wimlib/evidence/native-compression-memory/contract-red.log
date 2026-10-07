@@ -1,0 +1,80 @@
+   Compiling wim-ffi v0.1.0 (/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/wim-ffi)
+warning: unused import: `Codec`
+ --> wim-ffi/src/memory.rs:6:26
+  |
+6 | use wim_codec::context::{Codec, CompressionConfig};
+  |                          ^^^^^
+  |
+  = note: `#[warn(unused_imports)]` (part of `#[warn(unused)]`) on by default
+
+warning: unused import: `memory::*`
+  --> wim-ffi/src/lib.rs:14:9
+   |
+14 | pub use memory::*;
+   |         ^^^^^^^^^
+
+warning: unused import: `memory::*`
+  --> wim-ffi/src/lib.rs:14:9
+   |
+14 | pub use memory::*;
+   |         ^^^^^^^^^
+   |
+   = note: `#[warn(unused_imports)]` (part of `#[warn(unused)]`) on by default
+
+warning: function `default_compression_level` is never used
+  --> wim-ffi/src/compress.rs:15:15
+   |
+15 | pub(crate) fn default_compression_level(codec: i32) -> u32 {
+   |               ^^^^^^^^^^^^^^^^^^^^^^^^^
+   |
+   = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: function `needed_memory` is never used
+ --> wim-ffi/src/memory.rs:8:4
+  |
+8 | fn needed_memory(_config: CompressionConfig) -> u64 {
+  |    ^^^^^^^^^^^^^
+
+warning: `wim-ffi` (lib) generated 4 warnings (run `cargo fix --lib -p wim-ffi` to apply 2 suggestions)
+warning: `wim-ffi` (lib test) generated 2 warnings (1 duplicate) (run `cargo fix --lib -p wim-ffi --tests` to apply 1 suggestion)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.15s
+     Running unittests src/lib.rs (crates/wimlib-rs/target/debug/deps/wim-69bc7f571d19836c)
+
+running 3 tests
+test memory::tests::lzms_estimate_changes_at_suffix_array_and_interval_width_thresholds ... FAILED
+test memory::tests::lzx_estimate_changes_at_fast_level_and_position_width_thresholds ... FAILED
+test memory::tests::xpress_estimate_changes_at_near_optimal_threshold ... FAILED
+
+failures:
+
+---- memory::tests::lzms_estimate_changes_at_suffix_array_and_interval_width_thresholds stdout ----
+
+thread 'memory::tests::lzms_estimate_changes_at_suffix_array_and_interval_width_thresholds' (299) panicked at wim-ffi/src/memory.rs:42:9:
+assertion `left == right` failed
+  left: 0
+ right: 1241593
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+---- memory::tests::lzx_estimate_changes_at_fast_level_and_position_width_thresholds stdout ----
+
+thread 'memory::tests::lzx_estimate_changes_at_fast_level_and_position_width_thresholds' (300) panicked at wim-ffi/src/memory.rs:36:9:
+assertion `left == right` failed
+  left: 0
+ right: 740776
+
+---- memory::tests::xpress_estimate_changes_at_near_optimal_threshold stdout ----
+
+thread 'memory::tests::xpress_estimate_changes_at_near_optimal_threshold' (301) panicked at wim-ffi/src/memory.rs:25:9:
+assertion `left == right` failed
+  left: 0
+ right: 528952
+
+
+failures:
+    memory::tests::lzms_estimate_changes_at_suffix_array_and_interval_width_thresholds
+    memory::tests::lzx_estimate_changes_at_fast_level_and_position_width_thresholds
+    memory::tests::xpress_estimate_changes_at_near_optimal_threshold
+
+test result: FAILED. 0 passed; 3 failed; 0 ignored; 0 measured; 2 filtered out; finished in 0.00s
+
+error: test failed, to rerun pass `-p wim-ffi --lib`

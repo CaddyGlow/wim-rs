@@ -1,0 +1,500 @@
+{
+  "schema": 1,
+  "scope": "Root direct raw frozen SACL ACE parsing for all60 source-bound scratch cases; no kernel/production generalization",
+  "artifacts": [
+    {
+      "path": "/data/cache/qcow2-v13-backup-security-controls-20261006/actual-controls-report.json",
+      "sha256": "e612b31f7f53acf30d177b6c50ca90d711e1b0bb1c5aa707b55c28f638b99c60"
+    },
+    {
+      "path": "/data/cache/qcow2-v13-backup-security-controls-20261006/native-all180-metadata.json",
+      "sha256": "9b52bb545c6c1ced0a9550d22b41eecc04166dd7752092164fa3b5d178439252"
+    }
+  ],
+  "strict_clean_ntfs_open": true,
+  "counts": [
+    {
+      "api": "SetSecurityInfo",
+      "ace_type": null,
+      "byte_exact": null,
+      "cases": 2
+    },
+    {
+      "api": "SetSecurityInfo",
+      "ace_type": 20,
+      "byte_exact": false,
+      "cases": 14
+    },
+    {
+      "api": "SetSecurityInfo",
+      "ace_type": 18,
+      "byte_exact": false,
+      "cases": 3
+    },
+    {
+      "api": "SetSecurityInfo",
+      "ace_type": 18,
+      "byte_exact": true,
+      "cases": 1
+    },
+    {
+      "api": "BackupWrite",
+      "ace_type": null,
+      "byte_exact": null,
+      "cases": 2
+    },
+    {
+      "api": "BackupWrite",
+      "ace_type": 20,
+      "byte_exact": false,
+      "cases": 14
+    },
+    {
+      "api": "BackupWrite",
+      "ace_type": 18,
+      "byte_exact": true,
+      "cases": 4
+    },
+    {
+      "api": "NtSetSecurityObject",
+      "ace_type": null,
+      "byte_exact": null,
+      "cases": 2
+    },
+    {
+      "api": "NtSetSecurityObject",
+      "ace_type": 20,
+      "byte_exact": false,
+      "cases": 14
+    },
+    {
+      "api": "NtSetSecurityObject",
+      "ace_type": 18,
+      "byte_exact": true,
+      "cases": 4
+    }
+  ],
+  "rows": [
+    {
+      "api": "SetSecurityInfo",
+      "kind": "File",
+      "path": "/backup-security-scratch-312093c01de74aafb16d94cf1d4704c7/SetSecurityInfo-File-0",
+      "ace_type": null,
+      "requested_ace_byte_exact_in_raw_SACL": null
+    },
+    {
+      "api": "SetSecurityInfo",
+      "kind": "File",
+      "path": "/backup-security-scratch-312093c01de74aafb16d94cf1d4704c7/SetSecurityInfo-File-1",
+      "ace_type": 20,
+      "requested_ace_byte_exact_in_raw_SACL": false
+    },
+    {
+      "api": "SetSecurityInfo",
+      "kind": "File",
+      "path": "/backup-security-scratch-312093c01de74aafb16d94cf1d4704c7/SetSecurityInfo-File-2",
+      "ace_type": 20,
+      "requested_ace_byte_exact_in_raw_SACL": false
+    },
+    {
+      "api": "SetSecurityInfo",
+      "kind": "File",
+      "path": "/backup-security-scratch-312093c01de74aafb16d94cf1d4704c7/SetSecurityInfo-File-3",
+      "ace_type": 20,
+      "requested_ace_byte_exact_in_raw_SACL": false
+    },
+    {
+      "api": "SetSecurityInfo",
+      "kind": "File",
+      "path": "/backup-security-scratch-312093c01de74aafb16d94cf1d4704c7/SetSecurityInfo-File-4",
+      "ace_type": 20,
+      "requested_ace_byte_exact_in_raw_SACL": false
+    },
+    {
+      "api": "SetSecurityInfo",
+      "kind": "File",
+      "path": "/backup-security-scratch-312093c01de74aafb16d94cf1d4704c7/SetSecurityInfo-File-5",
+      "ace_type": 20,
+      "requested_ace_byte_exact_in_raw_SACL": false
+    },
+    {
+      "api": "SetSecurityInfo",
+      "kind": "File",
+      "path": "/backup-security-scratch-312093c01de74aafb16d94cf1d4704c7/SetSecurityInfo-File-6",
+      "ace_type": 20,
+      "requested_ace_byte_exact_in_raw_SACL": false
+    },
+    {
+      "api": "SetSecurityInfo",
+      "kind": "File",
+      "path": "/backup-security-scratch-312093c01de74aafb16d94cf1d4704c7/SetSecurityInfo-File-7",
+      "ace_type": 20,
+      "requested_ace_byte_exact_in_raw_SACL": false
+    },
+    {
+      "api": "SetSecurityInfo",
+      "kind": "File",
+      "path": "/backup-security-scratch-312093c01de74aafb16d94cf1d4704c7/SetSecurityInfo-File-8",
+      "ace_type": 18,
+      "requested_ace_byte_exact_in_raw_SACL": false
+    },
+    {
+      "api": "SetSecurityInfo",
+      "kind": "File",
+      "path": "/backup-security-scratch-312093c01de74aafb16d94cf1d4704c7/SetSecurityInfo-File-9",
+      "ace_type": 18,
+      "requested_ace_byte_exact_in_raw_SACL": false
+    },
+    {
+      "api": "SetSecurityInfo",
+      "kind": "Directory",
+      "path": "/backup-security-scratch-312093c01de74aafb16d94cf1d4704c7/SetSecurityInfo-Directory-0",
+      "ace_type": null,
+      "requested_ace_byte_exact_in_raw_SACL": null
+    },
+    {
+      "api": "SetSecurityInfo",
+      "kind": "Directory",
+      "path": "/backup-security-scratch-312093c01de74aafb16d94cf1d4704c7/SetSecurityInfo-Directory-1",
+      "ace_type": 20,
+      "requested_ace_byte_exact_in_raw_SACL": false
+    },
+    {
+      "api": "SetSecurityInfo",
+      "kind": "Directory",
+      "path": "/backup-security-scratch-312093c01de74aafb16d94cf1d4704c7/SetSecurityInfo-Directory-2",
+      "ace_type": 20,
+      "requested_ace_byte_exact_in_raw_SACL": false
+    },
+    {
+      "api": "SetSecurityInfo",
+      "kind": "Directory",
+      "path": "/backup-security-scratch-312093c01de74aafb16d94cf1d4704c7/SetSecurityInfo-Directory-3",
+      "ace_type": 20,
+      "requested_ace_byte_exact_in_raw_SACL": false
+    },
+    {
+      "api": "SetSecurityInfo",
+      "kind": "Directory",
+      "path": "/backup-security-scratch-312093c01de74aafb16d94cf1d4704c7/SetSecurityInfo-Directory-4",
+      "ace_type": 20,
+      "requested_ace_byte_exact_in_raw_SACL": false
+    },
+    {
+      "api": "SetSecurityInfo",
+      "kind": "Directory",
+      "path": "/backup-security-scratch-312093c01de74aafb16d94cf1d4704c7/SetSecurityInfo-Directory-5",
+      "ace_type": 20,
+      "requested_ace_byte_exact_in_raw_SACL": false
+    },
+    {
+      "api": "SetSecurityInfo",
+      "kind": "Directory",
+      "path": "/backup-security-scratch-312093c01de74aafb16d94cf1d4704c7/SetSecurityInfo-Directory-6",
+      "ace_type": 20,
+      "requested_ace_byte_exact_in_raw_SACL": false
+    },
+    {
+      "api": "SetSecurityInfo",
+      "kind": "Directory",
+      "path": "/backup-security-scratch-312093c01de74aafb16d94cf1d4704c7/SetSecurityInfo-Directory-7",
+      "ace_type": 20,
+      "requested_ace_byte_exact_in_raw_SACL": false
+    },
+    {
+      "api": "SetSecurityInfo",
+      "kind": "Directory",
+      "path": "/backup-security-scratch-312093c01de74aafb16d94cf1d4704c7/SetSecurityInfo-Directory-8",
+      "ace_type": 18,
+      "requested_ace_byte_exact_in_raw_SACL": true
+    },
+    {
+      "api": "SetSecurityInfo",
+      "kind": "Directory",
+      "path": "/backup-security-scratch-312093c01de74aafb16d94cf1d4704c7/SetSecurityInfo-Directory-9",
+      "ace_type": 18,
+      "requested_ace_byte_exact_in_raw_SACL": false
+    },
+    {
+      "api": "BackupWrite",
+      "kind": "File",
+      "path": "/backup-security-scratch-312093c01de74aafb16d94cf1d4704c7/BackupWrite-File-0",
+      "ace_type": null,
+      "requested_ace_byte_exact_in_raw_SACL": null
+    },
+    {
+      "api": "BackupWrite",
+      "kind": "File",
+      "path": "/backup-security-scratch-312093c01de74aafb16d94cf1d4704c7/BackupWrite-File-1",
+      "ace_type": 20,
+      "requested_ace_byte_exact_in_raw_SACL": false
+    },
+    {
+      "api": "BackupWrite",
+      "kind": "File",
+      "path": "/backup-security-scratch-312093c01de74aafb16d94cf1d4704c7/BackupWrite-File-2",
+      "ace_type": 20,
+      "requested_ace_byte_exact_in_raw_SACL": false
+    },
+    {
+      "api": "BackupWrite",
+      "kind": "File",
+      "path": "/backup-security-scratch-312093c01de74aafb16d94cf1d4704c7/BackupWrite-File-3",
+      "ace_type": 20,
+      "requested_ace_byte_exact_in_raw_SACL": false
+    },
+    {
+      "api": "BackupWrite",
+      "kind": "File",
+      "path": "/backup-security-scratch-312093c01de74aafb16d94cf1d4704c7/BackupWrite-File-4",
+      "ace_type": 20,
+      "requested_ace_byte_exact_in_raw_SACL": false
+    },
+    {
+      "api": "BackupWrite",
+      "kind": "File",
+      "path": "/backup-security-scratch-312093c01de74aafb16d94cf1d4704c7/BackupWrite-File-5",
+      "ace_type": 20,
+      "requested_ace_byte_exact_in_raw_SACL": false
+    },
+    {
+      "api": "BackupWrite",
+      "kind": "File",
+      "path": "/backup-security-scratch-312093c01de74aafb16d94cf1d4704c7/BackupWrite-File-6",
+      "ace_type": 20,
+      "requested_ace_byte_exact_in_raw_SACL": false
+    },
+    {
+      "api": "BackupWrite",
+      "kind": "File",
+      "path": "/backup-security-scratch-312093c01de74aafb16d94cf1d4704c7/BackupWrite-File-7",
+      "ace_type": 20,
+      "requested_ace_byte_exact_in_raw_SACL": false
+    },
+    {
+      "api": "BackupWrite",
+      "kind": "File",
+      "path": "/backup-security-scratch-312093c01de74aafb16d94cf1d4704c7/BackupWrite-File-8",
+      "ace_type": 18,
+      "requested_ace_byte_exact_in_raw_SACL": true
+    },
+    {
+      "api": "BackupWrite",
+      "kind": "File",
+      "path": "/backup-security-scratch-312093c01de74aafb16d94cf1d4704c7/BackupWrite-File-9",
+      "ace_type": 18,
+      "requested_ace_byte_exact_in_raw_SACL": true
+    },
+    {
+      "api": "BackupWrite",
+      "kind": "Directory",
+      "path": "/backup-security-scratch-312093c01de74aafb16d94cf1d4704c7/BackupWrite-Directory-0",
+      "ace_type": null,
+      "requested_ace_byte_exact_in_raw_SACL": null
+    },
+    {
+      "api": "BackupWrite",
+      "kind": "Directory",
+      "path": "/backup-security-scratch-312093c01de74aafb16d94cf1d4704c7/BackupWrite-Directory-1",
+      "ace_type": 20,
+      "requested_ace_byte_exact_in_raw_SACL": false
+    },
+    {
+      "api": "BackupWrite",
+      "kind": "Directory",
+      "path": "/backup-security-scratch-312093c01de74aafb16d94cf1d4704c7/BackupWrite-Directory-2",
+      "ace_type": 20,
+      "requested_ace_byte_exact_in_raw_SACL": false
+    },
+    {
+      "api": "BackupWrite",
+      "kind": "Directory",
+      "path": "/backup-security-scratch-312093c01de74aafb16d94cf1d4704c7/BackupWrite-Directory-3",
+      "ace_type": 20,
+      "requested_ace_byte_exact_in_raw_SACL": false
+    },
+    {
+      "api": "BackupWrite",
+      "kind": "Directory",
+      "path": "/backup-security-scratch-312093c01de74aafb16d94cf1d4704c7/BackupWrite-Directory-4",
+      "ace_type": 20,
+      "requested_ace_byte_exact_in_raw_SACL": false
+    },
+    {
+      "api": "BackupWrite",
+      "kind": "Directory",
+      "path": "/backup-security-scratch-312093c01de74aafb16d94cf1d4704c7/BackupWrite-Directory-5",
+      "ace_type": 20,
+      "requested_ace_byte_exact_in_raw_SACL": false
+    },
+    {
+      "api": "BackupWrite",
+      "kind": "Directory",
+      "path": "/backup-security-scratch-312093c01de74aafb16d94cf1d4704c7/BackupWrite-Directory-6",
+      "ace_type": 20,
+      "requested_ace_byte_exact_in_raw_SACL": false
+    },
+    {
+      "api": "BackupWrite",
+      "kind": "Directory",
+      "path": "/backup-security-scratch-312093c01de74aafb16d94cf1d4704c7/BackupWrite-Directory-7",
+      "ace_type": 20,
+      "requested_ace_byte_exact_in_raw_SACL": false
+    },
+    {
+      "api": "BackupWrite",
+      "kind": "Directory",
+      "path": "/backup-security-scratch-312093c01de74aafb16d94cf1d4704c7/BackupWrite-Directory-8",
+      "ace_type": 18,
+      "requested_ace_byte_exact_in_raw_SACL": true
+    },
+    {
+      "api": "BackupWrite",
+      "kind": "Directory",
+      "path": "/backup-security-scratch-312093c01de74aafb16d94cf1d4704c7/BackupWrite-Directory-9",
+      "ace_type": 18,
+      "requested_ace_byte_exact_in_raw_SACL": true
+    },
+    {
+      "api": "NtSetSecurityObject",
+      "kind": "File",
+      "path": "/backup-security-scratch-312093c01de74aafb16d94cf1d4704c7/NtSetSecurityObject-File-0",
+      "ace_type": null,
+      "requested_ace_byte_exact_in_raw_SACL": null
+    },
+    {
+      "api": "NtSetSecurityObject",
+      "kind": "File",
+      "path": "/backup-security-scratch-312093c01de74aafb16d94cf1d4704c7/NtSetSecurityObject-File-1",
+      "ace_type": 20,
+      "requested_ace_byte_exact_in_raw_SACL": false
+    },
+    {
+      "api": "NtSetSecurityObject",
+      "kind": "File",
+      "path": "/backup-security-scratch-312093c01de74aafb16d94cf1d4704c7/NtSetSecurityObject-File-2",
+      "ace_type": 20,
+      "requested_ace_byte_exact_in_raw_SACL": false
+    },
+    {
+      "api": "NtSetSecurityObject",
+      "kind": "File",
+      "path": "/backup-security-scratch-312093c01de74aafb16d94cf1d4704c7/NtSetSecurityObject-File-3",
+      "ace_type": 20,
+      "requested_ace_byte_exact_in_raw_SACL": false
+    },
+    {
+      "api": "NtSetSecurityObject",
+      "kind": "File",
+      "path": "/backup-security-scratch-312093c01de74aafb16d94cf1d4704c7/NtSetSecurityObject-File-4",
+      "ace_type": 20,
+      "requested_ace_byte_exact_in_raw_SACL": false
+    },
+    {
+      "api": "NtSetSecurityObject",
+      "kind": "File",
+      "path": "/backup-security-scratch-312093c01de74aafb16d94cf1d4704c7/NtSetSecurityObject-File-5",
+      "ace_type": 20,
+      "requested_ace_byte_exact_in_raw_SACL": false
+    },
+    {
+      "api": "NtSetSecurityObject",
+      "kind": "File",
+      "path": "/backup-security-scratch-312093c01de74aafb16d94cf1d4704c7/NtSetSecurityObject-File-6",
+      "ace_type": 20,
+      "requested_ace_byte_exact_in_raw_SACL": false
+    },
+    {
+      "api": "NtSetSecurityObject",
+      "kind": "File",
+      "path": "/backup-security-scratch-312093c01de74aafb16d94cf1d4704c7/NtSetSecurityObject-File-7",
+      "ace_type": 20,
+      "requested_ace_byte_exact_in_raw_SACL": false
+    },
+    {
+      "api": "NtSetSecurityObject",
+      "kind": "File",
+      "path": "/backup-security-scratch-312093c01de74aafb16d94cf1d4704c7/NtSetSecurityObject-File-8",
+      "ace_type": 18,
+      "requested_ace_byte_exact_in_raw_SACL": true
+    },
+    {
+      "api": "NtSetSecurityObject",
+      "kind": "File",
+      "path": "/backup-security-scratch-312093c01de74aafb16d94cf1d4704c7/NtSetSecurityObject-File-9",
+      "ace_type": 18,
+      "requested_ace_byte_exact_in_raw_SACL": true
+    },
+    {
+      "api": "NtSetSecurityObject",
+      "kind": "Directory",
+      "path": "/backup-security-scratch-312093c01de74aafb16d94cf1d4704c7/NtSetSecurityObject-Directory-0",
+      "ace_type": null,
+      "requested_ace_byte_exact_in_raw_SACL": null
+    },
+    {
+      "api": "NtSetSecurityObject",
+      "kind": "Directory",
+      "path": "/backup-security-scratch-312093c01de74aafb16d94cf1d4704c7/NtSetSecurityObject-Directory-1",
+      "ace_type": 20,
+      "requested_ace_byte_exact_in_raw_SACL": false
+    },
+    {
+      "api": "NtSetSecurityObject",
+      "kind": "Directory",
+      "path": "/backup-security-scratch-312093c01de74aafb16d94cf1d4704c7/NtSetSecurityObject-Directory-2",
+      "ace_type": 20,
+      "requested_ace_byte_exact_in_raw_SACL": false
+    },
+    {
+      "api": "NtSetSecurityObject",
+      "kind": "Directory",
+      "path": "/backup-security-scratch-312093c01de74aafb16d94cf1d4704c7/NtSetSecurityObject-Directory-3",
+      "ace_type": 20,
+      "requested_ace_byte_exact_in_raw_SACL": false
+    },
+    {
+      "api": "NtSetSecurityObject",
+      "kind": "Directory",
+      "path": "/backup-security-scratch-312093c01de74aafb16d94cf1d4704c7/NtSetSecurityObject-Directory-4",
+      "ace_type": 20,
+      "requested_ace_byte_exact_in_raw_SACL": false
+    },
+    {
+      "api": "NtSetSecurityObject",
+      "kind": "Directory",
+      "path": "/backup-security-scratch-312093c01de74aafb16d94cf1d4704c7/NtSetSecurityObject-Directory-5",
+      "ace_type": 20,
+      "requested_ace_byte_exact_in_raw_SACL": false
+    },
+    {
+      "api": "NtSetSecurityObject",
+      "kind": "Directory",
+      "path": "/backup-security-scratch-312093c01de74aafb16d94cf1d4704c7/NtSetSecurityObject-Directory-6",
+      "ace_type": 20,
+      "requested_ace_byte_exact_in_raw_SACL": false
+    },
+    {
+      "api": "NtSetSecurityObject",
+      "kind": "Directory",
+      "path": "/backup-security-scratch-312093c01de74aafb16d94cf1d4704c7/NtSetSecurityObject-Directory-7",
+      "ace_type": 20,
+      "requested_ace_byte_exact_in_raw_SACL": false
+    },
+    {
+      "api": "NtSetSecurityObject",
+      "kind": "Directory",
+      "path": "/backup-security-scratch-312093c01de74aafb16d94cf1d4704c7/NtSetSecurityObject-Directory-8",
+      "ace_type": 18,
+      "requested_ace_byte_exact_in_raw_SACL": true
+    },
+    {
+      "api": "NtSetSecurityObject",
+      "kind": "Directory",
+      "path": "/backup-security-scratch-312093c01de74aafb16d94cf1d4704c7/NtSetSecurityObject-Directory-9",
+      "ace_type": 18,
+      "requested_ace_byte_exact_in_raw_SACL": true
+    }
+  ],
+  "production_restore_proven": false
+}

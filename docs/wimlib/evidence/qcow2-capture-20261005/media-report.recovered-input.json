@@ -1,0 +1,26 @@
+{
+  "limits": {
+    "source_bytes": 1099511627776,
+    "virtual_bytes": 17592186044416,
+    "entries": 2000000,
+    "logical_bytes": 70368744177664,
+    "metadata_bytes": 2147483648,
+    "cache_bytes": 536870912,
+    "recursion_depth": 512,
+    "work_items": 16777216,
+    "decompressed_bytes": 68719476736,
+    "decompression_buffer_bytes": 2097152,
+    "attribute_bytes": 67108864,
+    "attribute_list_records": 65536
+  },
+  "iso_sha256": "b0bdf9dba457b0b8edbcb1701d1cede25a1163fce37dbf5c298399bdf94a298a",
+  "image_count": 1,
+  "setup_boot_index": 2,
+  "winre_verified": 1,
+  "warnings": [],
+  "omitted_setup_controls": [
+    "sources/EI.CFG"
+  ],
+  "setup_absolute_links_verified": 46,
+  "staging": "/data/cache/qcow2-recovered-20261005/capture/media-job-v2"
+}

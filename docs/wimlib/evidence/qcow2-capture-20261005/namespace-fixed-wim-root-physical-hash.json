@@ -1,0 +1,8 @@
+{
+  "schema": 1,
+  "scope": "Root independent complete physical WIM hash; no archive semantics gate",
+  "path": "/data/cache/qcow2-namespace-fixed-20261006/capture/install.wim",
+  "bytes": 8234056851,
+  "sha256": "6fe084f644eb631349d4e385a155d1c5ce334d0810b633464ecfdd61b528884b",
+  "matches_capture_report": true
+}

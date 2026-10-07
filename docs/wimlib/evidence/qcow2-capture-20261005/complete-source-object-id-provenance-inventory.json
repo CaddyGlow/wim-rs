@@ -1,0 +1,84 @@
+{
+  "schema": 1,
+  "scope": "Provenance-bound complete frozen59da ordinary-record ObjectID inventory; no source setter or production finalizer",
+  "image": "/data/cache/qcow2-oobe-preparation-control-20261005/vm-state/overlay.qcow2",
+  "image_sha256_bound_to_existing_immutable_handoff_and_recent_native_after_audit_guard": "59da49ab227850c6d62a2d555f40a43bf19a8f8a7af3d10eedb2395b62799282",
+  "native_all_ordinary_manifest_nodes": 175841,
+  "application_capture_nodes": 175812,
+  "ordinary_file_groups": 19,
+  "ordinary_paths": 24,
+  "all19groups_birth48_nonzero": true,
+  "all24object_paths_within_existing_application_capture_scope": true,
+  "all19groups_consistent_full64_attrs_times_rawSD_across_hardlinks": true,
+  "independent_raw_objid_index": {
+    "raw_index_entries": 20,
+    "ordinary_file_groups": 19,
+    "ordinary_paths": 24,
+    "internal_index_entries_excluded": [
+      {
+        "object_id": "66810d707d6c0c45bedea5101764417b",
+        "file_reference": 844424930131971,
+        "full64": "66810d707d6c0c45bedea5101764417b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      }
+    ],
+    "all_ordinary_full64_exact_independent_raw_index": true
+  },
+  "default_limits_unchanged": true,
+  "strict_clean_decrypted_ntfs_open": true,
+  "inventory_helper_clippy_exit": 0,
+  "independent_checker_unit_tests": 5,
+  "potential_later_scope": [
+    "19sourceordinaryfilegroups/24rawUTF16paths, source GUID16 and birth48 retained byteexact.",
+    "Source fileReference is source provenance only; target references must be independently observed and all target hardlink path identities matched.",
+    "Require target own ObjectID16 equals intended source GUID and target initialized volume ObjectID/tracking context audited before considering any setter.",
+    "No volumeGUID copying, service changes, recurring hook, installed restoration, or production finalizer implemented.",
+    "Source basic timestamps/rawSD are evidence; legitimate target SID remapping and installed mutations require explicit comparison before any modification."
+  ],
+  "artifacts": [
+    {
+      "path": "/data/cache/qcow2-oobe-preparation-control-20261005/offline-audit/complete-source-object-id-inventory.json",
+      "sha256": "d500cfd026cb6cc12e958b355da46f7cd33fec06d9459ccc0534f4e0d4179641"
+    },
+    {
+      "path": "/data/cache/qcow2-oobe-preparation-control-20261005/offline-audit/source-object-id-independent-index-comparison.json",
+      "sha256": "df5601b5aed83d015a51cedf1f43e8acc72f21256c92e61f752a7c6ce5f73198"
+    },
+    {
+      "path": "/data/cache/qcow2-oobe-preparation-control-20261005/offline-audit/child-all-paths.json",
+      "sha256": "f661e648e246343af8febc03e868298132ea8003cf52c4081de55611fac8b1d8"
+    },
+    {
+      "path": "/data/cache/qcow2-v12-offline-audit/source-volume-dlt-complete.json",
+      "sha256": "d4032136bd0b04d385d1abb0bce48bd170dc9a6895ab578151d7c0de887e28de"
+    },
+    {
+      "path": "/data/cache/qcow2-recovered-20261005/native-extract/src/bin/object_id_inventory.rs",
+      "sha256": "03b8688c3eed93ebe5978cf1b65b82e7cc4a0f9bcdcb5b80d59630c8cf1ea5ab"
+    },
+    {
+      "path": "scripts/wimlib/check-source-object-id-inventory.py",
+      "sha256": "dc288d3051d88169cb9585741fd57a877f5abbc46635d672e8a719e228b08242"
+    },
+    {
+      "path": "scripts/wimlib/test_source_object_id_inventory.py",
+      "sha256": "045d20c37267e02ba2d38536112851824a29f2e30da007086181401020d9dc67"
+    },
+    {
+      "path": "/data/cache/qcow2-oobe-preparation-control-20261005/offline-audit/source-object-id-raw-standard-info-basic4.json",
+      "sha256": "e2386c9d60beed0aed2db17512a8d1387f8bb2d5f26e29ddd366a8c2fcb8ae32"
+    },
+    {
+      "path": "/data/cache/qcow2-oobe-preparation-control-20261005/offline-audit/complete-source-object-id-inventory-basic4.json",
+      "sha256": "e3ed2da453783097545ca04394936e542b1e531dc55d49ee8bc859b7da7711b8"
+    },
+    {
+      "path": "/data/cache/qcow2-recovered-20261005/native-extract/src/bin/object_id_basic4_audit.rs",
+      "sha256": "5dbf030cb3f6066ae532235aca8c9c97b6d46eb469bd8a858a400326f77d9da4"
+    }
+  ],
+  "raw_standard_information_all19_fullreferences_and_basic4_exact": true,
+  "raw_standard_information_creation_access_write_exact_native_manifest": true,
+  "source_change_time_added_as_audit_field_only": true,
+  "raw_basic4_accounting": "ReadBudgetUsage { metadata_bytes: 3344172, cache_bytes: 3890940, work_items: 15211, decompressed_bytes: 0 }",
+  "basic4_helper_clippy_exit": 0
+}

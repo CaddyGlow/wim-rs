@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "scope": "Root planner review and actual full-scope rerun; no setters",
+  "artifacts": [
+    {
+      "path": "/data/cache/qcow2-v13-offline-audit/root-reviewed-alias-plan.json",
+      "sha256": "7b458321ee7d2e79efcfe189947b6757f980e717e3b70b808ea5f79c4eb83b4d"
+    },
+    {
+      "path": "/home/rick/projects-caddy/windows-uup/scripts/wimlib/plan-offline-alias-restoration.py",
+      "sha256": "6befcd0fce0ed370b12321f865d87620c11eb49ca8dad541b9090c579309aa4d"
+    },
+    {
+      "path": "/home/rick/projects-caddy/windows-uup/scripts/wimlib/test_alias_restoration_plan.py",
+      "sha256": "3c13e5b8367eb21937f5291e36270494d6625f38f04867500705136c70fe103e"
+    }
+  ],
+  "tests_passed": 16,
+  "actual_run_exit": 0,
+  "source_desired": 101168,
+  "affected_target_files": 2519,
+  "blocking_counts": {
+    "missing_target_long_path": 26,
+    "target_desired_namespace_changed": 42,
+    "POSIX_namespace_or_path_changed": 5,
+    "unknown_occupant_without_source_DOS_requirement": 3,
+    "existing_DOS_in_other_parent": 37
+  },
+  "protocol_blockers": [
+    "actual_target_NTFS_upcase_collision_proof_missing",
+    "complete_affected_metadata_invariants_missing",
+    "independent_expected_input_hash_binding_missing"
+  ],
+  "executable": false,
+  "complete": false,
+  "review_fixes": [
+    "Combined namespace name collision checks",
+    "Literal UTF16 including unpaired units",
+    "Windows stream/drive escaping rejected",
+    "Bounded actual input read including invariant evidence, not stat-only check"
+  ]
+}

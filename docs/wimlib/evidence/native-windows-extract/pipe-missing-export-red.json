@@ -1,0 +1,461 @@
+{
+  "scope": "Actual Windows anonymous pipe, matching MSVCRT fd, original-generated pipable input; drain only after API return",
+  "implementation": "native-missing",
+  "dll_sha256": "08801a2e5dfc078c56cb9516282b53423ff7654e04a15b5e320e735978980aea",
+  "caller_sha256": "b6d7e122e3e532e04f19d2961e3d0a8c53d7749a302306e04056b277cbf2c4c8",
+  "generation": {
+    "exit": 0,
+    "signal": null,
+    "stdout_base64": "b3BlbiAwDQp3cml0ZSAwDQo=",
+    "stdout": "open 0\r\nwrite 0\r\n",
+    "stderr": "",
+    "stdout_truncated": false
+  },
+  "input_size": 3576,
+  "input_sha256": "f99c00c17bdea08c1b254efcb5ab11f09c2231fea4ccd9898a619aa9d515a56a",
+  "source_preserved": true,
+  "cases": [
+    {
+      "image": "1",
+      "flags": 0,
+      "chunk": 7,
+      "stop": -1,
+      "status": 0,
+      "callback": 1,
+      "result": {
+        "exit": 77,
+        "signal": null,
+        "stdout_base64": "",
+        "stdout": "",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": null
+    },
+    {
+      "image": "1",
+      "flags": 0,
+      "chunk": 65536,
+      "stop": -1,
+      "status": 0,
+      "callback": 1,
+      "result": {
+        "exit": 77,
+        "signal": null,
+        "stdout_base64": "",
+        "stdout": "",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": null
+    },
+    {
+      "image": "Capture-\u00e9\u6f22\ud834\udd1e",
+      "flags": 0,
+      "chunk": 7,
+      "stop": -1,
+      "status": 0,
+      "callback": 1,
+      "result": {
+        "exit": 77,
+        "signal": null,
+        "stdout_base64": "",
+        "stdout": "",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": null
+    },
+    {
+      "image": "Capture-\u00e9\u6f22\ud834\udd1e",
+      "flags": 0,
+      "chunk": 65536,
+      "stop": -1,
+      "status": 0,
+      "callback": 1,
+      "result": {
+        "exit": 77,
+        "signal": null,
+        "stdout_base64": "",
+        "stdout": "",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": null
+    },
+    {
+      "image": "2",
+      "flags": 0,
+      "chunk": 7,
+      "stop": -1,
+      "status": 0,
+      "callback": 1,
+      "result": {
+        "exit": 77,
+        "signal": null,
+        "stdout_base64": "",
+        "stdout": "",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": null
+    },
+    {
+      "image": "2",
+      "flags": 0,
+      "chunk": 65536,
+      "stop": -1,
+      "status": 0,
+      "callback": 1,
+      "result": {
+        "exit": 77,
+        "signal": null,
+        "stdout_base64": "",
+        "stdout": "",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": null
+    },
+    {
+      "image": "-null",
+      "flags": 0,
+      "chunk": 7,
+      "stop": -1,
+      "status": 0,
+      "callback": 1,
+      "result": {
+        "exit": 77,
+        "signal": null,
+        "stdout_base64": "",
+        "stdout": "",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": null
+    },
+    {
+      "image": "-null",
+      "flags": 0,
+      "chunk": 65536,
+      "stop": -1,
+      "status": 0,
+      "callback": 1,
+      "result": {
+        "exit": 77,
+        "signal": null,
+        "stdout_base64": "",
+        "stdout": "",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": null
+    },
+    {
+      "image": "1",
+      "flags": 64,
+      "chunk": 7,
+      "stop": -1,
+      "status": 0,
+      "callback": 1,
+      "result": {
+        "exit": 77,
+        "signal": null,
+        "stdout_base64": "",
+        "stdout": "",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": null
+    },
+    {
+      "image": "1",
+      "flags": 64,
+      "chunk": 65536,
+      "stop": -1,
+      "status": 0,
+      "callback": 1,
+      "result": {
+        "exit": 77,
+        "signal": null,
+        "stdout_base64": "",
+        "stdout": "",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": null
+    },
+    {
+      "image": "1",
+      "flags": 1073741824,
+      "chunk": 7,
+      "stop": -1,
+      "status": 0,
+      "callback": 1,
+      "result": {
+        "exit": 77,
+        "signal": null,
+        "stdout_base64": "",
+        "stdout": "",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": null
+    },
+    {
+      "image": "1",
+      "flags": 1073741824,
+      "chunk": 65536,
+      "stop": -1,
+      "status": 0,
+      "callback": 1,
+      "result": {
+        "exit": 77,
+        "signal": null,
+        "stdout_base64": "",
+        "stdout": "",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": null
+    },
+    {
+      "image": "1",
+      "flags": 0,
+      "chunk": 7,
+      "stop": 0,
+      "status": 1,
+      "callback": 1,
+      "result": {
+        "exit": 77,
+        "signal": null,
+        "stdout_base64": "",
+        "stdout": "",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": null
+    },
+    {
+      "image": "1",
+      "flags": 0,
+      "chunk": 7,
+      "stop": 0,
+      "status": 2,
+      "callback": 1,
+      "result": {
+        "exit": 77,
+        "signal": null,
+        "stdout_base64": "",
+        "stdout": "",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": null
+    },
+    {
+      "image": "1",
+      "flags": 0,
+      "chunk": 7,
+      "stop": 3,
+      "status": 1,
+      "callback": 1,
+      "result": {
+        "exit": 77,
+        "signal": null,
+        "stdout_base64": "",
+        "stdout": "",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": null
+    },
+    {
+      "image": "1",
+      "flags": 0,
+      "chunk": 7,
+      "stop": 3,
+      "status": 2,
+      "callback": 1,
+      "result": {
+        "exit": 77,
+        "signal": null,
+        "stdout_base64": "",
+        "stdout": "",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": null
+    },
+    {
+      "image": "1",
+      "flags": 0,
+      "chunk": 7,
+      "stop": 4,
+      "status": 1,
+      "callback": 1,
+      "result": {
+        "exit": 77,
+        "signal": null,
+        "stdout_base64": "",
+        "stdout": "",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": null
+    },
+    {
+      "image": "1",
+      "flags": 0,
+      "chunk": 7,
+      "stop": 4,
+      "status": 2,
+      "callback": 1,
+      "result": {
+        "exit": 77,
+        "signal": null,
+        "stdout_base64": "",
+        "stdout": "",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": null
+    },
+    {
+      "image": "1",
+      "flags": 0,
+      "chunk": 7,
+      "stop": 5,
+      "status": 1,
+      "callback": 1,
+      "result": {
+        "exit": 77,
+        "signal": null,
+        "stdout_base64": "",
+        "stdout": "",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": null
+    },
+    {
+      "image": "1",
+      "flags": 0,
+      "chunk": 7,
+      "stop": 5,
+      "status": 2,
+      "callback": 1,
+      "result": {
+        "exit": 77,
+        "signal": null,
+        "stdout_base64": "",
+        "stdout": "",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": null
+    },
+    {
+      "image": "1",
+      "flags": 0,
+      "chunk": 7,
+      "stop": 6,
+      "status": 1,
+      "callback": 1,
+      "result": {
+        "exit": 77,
+        "signal": null,
+        "stdout_base64": "",
+        "stdout": "",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": null
+    },
+    {
+      "image": "1",
+      "flags": 0,
+      "chunk": 7,
+      "stop": 6,
+      "status": 2,
+      "callback": 1,
+      "result": {
+        "exit": 77,
+        "signal": null,
+        "stdout_base64": "",
+        "stdout": "",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": null
+    },
+    {
+      "image": "1",
+      "flags": 0,
+      "chunk": 7,
+      "stop": 7,
+      "status": 1,
+      "callback": 1,
+      "result": {
+        "exit": 77,
+        "signal": null,
+        "stdout_base64": "",
+        "stdout": "",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": null
+    },
+    {
+      "image": "1",
+      "flags": 0,
+      "chunk": 7,
+      "stop": 7,
+      "status": 2,
+      "callback": 1,
+      "result": {
+        "exit": 77,
+        "signal": null,
+        "stdout_base64": "",
+        "stdout": "",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": null
+    },
+    {
+      "image": "1",
+      "flags": 0,
+      "chunk": 7,
+      "stop": -1,
+      "status": 0,
+      "callback": 0,
+      "result": {
+        "exit": 77,
+        "signal": null,
+        "stdout_base64": "",
+        "stdout": "",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": null
+    },
+    {
+      "image": "1",
+      "flags": 0,
+      "chunk": 65536,
+      "stop": -1,
+      "status": 0,
+      "callback": 0,
+      "result": {
+        "exit": 77,
+        "signal": null,
+        "stdout_base64": "",
+        "stdout": "",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": null
+    }
+  ]
+}

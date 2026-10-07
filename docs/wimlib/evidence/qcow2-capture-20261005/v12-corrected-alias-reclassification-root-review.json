@@ -1,0 +1,8 @@
+{
+  "schema": 1,
+  "report_sha256": "575395ed6553bb19f12c808b6a58c8f910483f403aa46f3393ecaf82ddaf0a43",
+  "artifact_hashes_verified": 213,
+  "correct_scope": 101168,
+  "genuine_runtime_failures": 2549,
+  "scope": "Independent retained report accounting and full referenced artifact hashes; no new target runtime observation."
+}

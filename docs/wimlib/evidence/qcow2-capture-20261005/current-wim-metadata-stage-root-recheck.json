@@ -1,0 +1,16 @@
+{
+  "scope": "Recheck retained exact-current-WIM source metadata comparisons; no fresh source capture or application cause proof",
+  "wim_sha256": "21859652805ff9758be028a55cfaa7333485b265ea9b1e8a8f197d69bda7d184",
+  "retained_comparison_pins": {
+    "independent-source-security-objectids.json": "a82ccca54d77c12ea3d9c0f60abb0302be551dcea6d8d82bdbf724ccfb17bbd7",
+    "root-corrected-wim-alias-comparison.json": "03f754ded3d937f87bd69cef94595054a1af652f6da218a9390f305aa30f7381"
+  },
+  "full64_object_id_paths_recompared": 24,
+  "raw_security_descriptors_recompared": 5732,
+  "retained_alias_gate_paths": 101168,
+  "retained_empty_posix_gate_paths": 601,
+  "source_to_wim_selected_metadata_exact": true,
+  "installed_fidelity_established": false,
+  "causal_limit": "Divergence is after capture for these compared values; WIM application versus later Setup/boot remains to isolate",
+  "source_leaf_currently_missing": true
+}

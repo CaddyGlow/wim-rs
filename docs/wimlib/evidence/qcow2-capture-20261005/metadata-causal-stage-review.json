@@ -1,0 +1,112 @@
+{
+  "schema": 1,
+  "scope": "Read-only retained-evidence review; no VM actions, disk reads, source substitution or production acceptance. Current59da source leaf missing; no fresh source recomputation.",
+  "current_wim_sha256": "21859652805ff9758be028a55cfaa7333485b265ea9b1e8a8f197d69bda7d184",
+  "current_target_sha256": "ea5fce165bc26e19dcca16e3a0ccb0415878675efb71328596c2e22206ff81e1",
+  "matrix": [
+    {
+      "metadata": "DOS shortnames",
+      "capture": "Current WIM2185 retained independent gate:101168 correct aliases exact;601 POSIX names correctly empty. Earlier601 false aliases were a Rust capture bug, fixed.",
+      "earliest_divergence": "Representative old-BF standard-Setup first-reboot aliases already bind wrong target files before target OS boot. Current V14 complete101168 scope has2275 wrong bindings/244 missing DOS/24 missing long paths.",
+      "limits": "Old preboot whole count2306 uses pre-fix selectors and is not a complete namespace-correct current-source stage proof. Exact current all-path apply boundary untested."
+    },
+    {
+      "metadata": "ObjectID full64",
+      "capture": "Current independent WIM matches19 source groups/24 paths full64.",
+      "earliest_divergence": "Old-BF9-node fixture full64 exact at standard-Setup first reboot; installed V14 all24 differ:16 extended48 zeroed,8 BirthVolumeId-only changes.",
+      "limits": "Scratch boot trace attributes one successful SET_OBJECT_ID_EXTENDED to TrkWks; not an all19 installed-object operation trace. No source/target volume identity equality required."
+    },
+    {
+      "metadata": "Reserved security ACE18/20",
+      "capture": "Current independent WIM5732 raw descriptors exact.",
+      "earliest_divergence": "Old-BF complete5727 selected paths present but all reserved ACE18/20 absent immediately after never-booted fullWindows DISM, exactWinPE DISM, and standardSetup first-reboot controls.",
+      "limits": "Old-source full stage evidence; currentV14 restores some ACE20 later, others absent/inherited-bit-changed. Tested Windows setter masks fail; not proof every possible setter unsupported."
+    },
+    {
+      "metadata": "Hardlink topology",
+      "capture": "Existing complete decoded WIM metadata equivalence gates retain hardlink grouping; fixture apply checks also exact.",
+      "earliest_divergence": "Current installed V14:34004/34007 source groups unchanged;3 WindowsApps package metadata groups gain target SID-named links.",
+      "limits": "No full current pre-first-boot hardlink snapshot comparison. A gained link is a topology difference, not automatically a split or data corruption."
+    },
+    {
+      "metadata": "WinRE access timestamps",
+      "capture": "Captured outer Winre.wim logical bytes exact sourceSHA5a7b; source-to-WIM complete stream comparison has only declared ReAgent.xml replacement.",
+      "earliest_divergence": "Earliest registered installed V14 WinRE:708/25450 internal entries have changed access times, creation/write unchanged; captured before later diagnostics/servicing.",
+      "limits": "Copy/apply/registration precise operation not isolated. These are internal WinRE times, not all installed OS atimes."
+    },
+    {
+      "metadata": "OS change timestamps",
+      "capture": "Do not claim WIM stores change-time: WIM conventional timestamp fields are creation/access/write. Raw NTFS source ChangeTime separately retained.",
+      "earliest_divergence": "All24 source ObjectID paths:creation/access/write/attrs exact installed;ChangeTime differs24.",
+      "limits": "This is separate from WinRE access-time failure. Scratch supported Basic4 restoration proven for ordinaryfiles/readonlydirs, no installed restoration executed."
+    }
+  ],
+  "bindings": [
+    {
+      "path": "/data/cache/qcow2-winre-staged-zero-control-20261006/capture/root-corrected-wim-alias-comparison.json",
+      "bytes": 1139,
+      "sha256": "03f754ded3d937f87bd69cef94595054a1af652f6da218a9390f305aa30f7381"
+    },
+    {
+      "path": "/data/cache/qcow2-winre-staged-zero-control-20261006/capture/independent-source-security-objectids.json",
+      "bytes": 18300071,
+      "sha256": "a82ccca54d77c12ea3d9c0f60abb0302be551dcea6d8d82bdbf724ccfb17bbd7"
+    },
+    {
+      "path": "/data/cache/qcow2-v14-offline-audit/full-offline-audit-summary.json",
+      "bytes": 4711,
+      "sha256": "c8c3bea5e6a0de71c810d7c89a8869ec24e7be02790b9a2320cf61e9394acd7f"
+    },
+    {
+      "path": "/data/cache/qcow2-v14-offline-audit/whole-source-target-paths-attributes-hardlinks.json",
+      "bytes": 896627,
+      "sha256": "6ce500d6849f6ce382f1b48bbc82cca5abaee7e931747250f298b0a4c7e294ee"
+    },
+    {
+      "path": "/data/cache/qcow2-v14-offline-audit/all-source-objectid-basic4-security-comparison.json",
+      "bytes": 48085,
+      "sha256": "1d74545bd0ac5c7cc5019fc122d9ef848a8f2f56093a3e9d24c0f25e3b41a590"
+    },
+    {
+      "path": "/home/rick/projects-caddy/windows-uup/docs/wimlib/evidence/qcow2-capture-20261005/standard-setup-first-reboot-metadata.json",
+      "bytes": 5258,
+      "sha256": "2e7401a93770cd78d8d43914242287371906206c03f2434285ed66b95253a9d3"
+    },
+    {
+      "path": "/home/rick/projects-caddy/windows-uup/docs/wimlib/evidence/qcow2-capture-20261005/exact-winpe-dism-apply-stage-control.json",
+      "bytes": 4129,
+      "sha256": "75151c55253ca8f10befd5158237068a2b0e8e1b851b003267872ba694061a5b"
+    },
+    {
+      "path": "/home/rick/projects-caddy/windows-uup/docs/wimlib/evidence/qcow2-capture-20261005/full-windows-dism-apply-stage-control.json",
+      "bytes": 4860,
+      "sha256": "32c13bbde05131111d79a60ce5aa6f2de1d9506b028220fdbc125bf5092d3eb5"
+    },
+    {
+      "path": "/home/rick/projects-caddy/windows-uup/docs/wimlib/evidence/qcow2-capture-20261005/standard-setup-preboot-dos-alias-diagnosis.json",
+      "bytes": 2608,
+      "sha256": "6bc0ccd3e8e64c3cda59d28b6e82035554065b53f26f6acece5ede852ed23f8b"
+    },
+    {
+      "path": "/home/rick/projects-caddy/windows-uup/docs/wimlib/evidence/qcow2-capture-20261005/object-id-boottrace-independent-service-attribution.json",
+      "bytes": 24271,
+      "sha256": "f8a50a1467980faabc9f34a6e391ec81fa2fe7de968c07a5ff746f7b10d6aaa6"
+    },
+    {
+      "path": "/home/rick/projects-caddy/windows-uup/docs/wimlib/evidence/qcow2-capture-20261005/v14-winre-access-times-root-review.json",
+      "bytes": 688,
+      "sha256": "ebcb5891c7f78b9bfbc69179f5ab50e6718af7fe1ece434a8defa03c2a41bf19"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-winre-unstaged-1006-v14/earliest-winre-whole-metadata-delta.json",
+      "bytes": 10213022,
+      "sha256": "79b5cb2f441d63acb2cc44ddadac0ef504d401aa4ef3f6c44756ab9436d48e02"
+    },
+    {
+      "path": "/data/cache/qcow2-source-to-wim-stream-audit-20261006/complete-independent-source-wim-logical-comparison.json",
+      "bytes": 9921,
+      "sha256": "524869bcdd9a8893f337c40a6a59cc9b979f49dc649865baa72c4fb718aa5ec3"
+    }
+  ],
+  "conclusion": "Remaining measured metadata divergence is not evidence of a RustNTFS capture omission for current selected aliases/full64/rawSD: independent WIM bytes match. Windows apply/runtime divergence is proven for specified controls. Historical Rust alias-pairing and LZNT1 reader bugs were real and fixed. Untraced operations and incomplete full-reparse source proof remain unresolved."
+}

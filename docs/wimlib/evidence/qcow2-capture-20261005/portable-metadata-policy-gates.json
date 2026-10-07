@@ -1,0 +1,75 @@
+{
+  "status": "host_verified_windows_apply_pending",
+  "implementation": "current_worktree_not_existing_full_install_wim",
+  "tests": {
+    "offline_capture": {
+      "passed": 13,
+      "failed": 0,
+      "ignored": 2,
+      "log": "/data/cache/qcow2-capture-20261005/wim-profile-audit-tests.log"
+    },
+    "clippy": {
+      "scope": "wim all-targets all-features locked deny-warnings",
+      "exit_code": 0,
+      "log": "/data/cache/qcow2-capture-20261005/wim-profile-audit-clippy.log"
+    }
+  },
+  "policies": {
+    "portable_ea": "Exclude only ASCII-case-insensitive $KERNEL. EA names; validate omitted records; retain complete source manifest. Report omission counts.",
+    "sparse": "TAG3 little-endian u64 start/end logical hole pairs; reject invalid or overlapping ranges.",
+    "storage_class": "TAG4 u32 class 1/2 from validated native $DSC.",
+    "setup_links": "Explicit verified C: profile preserves internal absolute C: targets with NOT_FIXED; default remains portable X: root relocation. Reject external preservation or unverified/other installation drive."
+  },
+  "fixture": {
+    "path": "/data/cache/qcow2-oracle-1005/native-portable-metadata-v2.wim",
+    "sha256": "01583d5f85ef10aa010e56634056a77d2d002ddfc320c45a241d89781114d7fc",
+    "audit": {
+      "omitted_kernel_eas": 1,
+      "nodes_with_omitted_kernel_eas": 1,
+      "storage_class_nodes": 1,
+      "sparse_files": 1,
+      "sparse_hole_ranges": 1
+    },
+    "source_preservation": {
+      "overlay_sha256": "cfa75f1df1c0328f2ef19e0752678a6714d67ed0787c75626d7d2f8cfebb5762",
+      "backing_sha256": "35299ad09fb946d45374f9637ccc4344acb3488b482d9571854d007b666b2abe",
+      "matches_frozen_baseline": true,
+      "evidence": "/data/cache/qcow2-oracle-1005/native-portable-metadata-v2-source-after.sha256"
+    }
+  },
+  "limitations": [
+    "Full new Setup installation is pending; tiny independent apply is verified for listed metadata gates.",
+    "Process trust-label restoration is unresolved; raw WIM retention does not establish destination preservation.",
+    "Full workspace validation remains necessary."
+  ],
+  "windows_apply": {
+    "status": "passed_reported_metadata_gates",
+    "scope": "Independent Microsoft DISM /EA apply of small native archive to fresh isolated 256 MiB NTFS volume; not full Windows Setup",
+    "exit_code": 0,
+    "evidence": "/data/cache/qcow2-oracle-1005/portable-v2-metadata.json",
+    "checks": {
+      "sparse_allocation_ranges": [
+        [
+          0,
+          65536
+        ],
+        [
+          7340032,
+          1048576
+        ]
+      ],
+      "desired_storage_class": 2,
+      "desired_storage_flags": 0,
+      "full_64_byte_object_id": "exact",
+      "fixture_streams": "331 exact",
+      "wof_logical_hash": "exact",
+      "internal_junction": "working destination relocation",
+      "retained_ci_ea": "exact bytes and flags",
+      "dism_warning_error_lines": []
+    },
+    "pending": [
+      "Full destination security profile and Setup installation"
+    ],
+    "evidence_summary": "portable-metadata-apply-and-trust-probe.json"
+  }
+}

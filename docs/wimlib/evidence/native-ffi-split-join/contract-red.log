@@ -1,0 +1,73 @@
+   Compiling wim-ffi v0.1.0 (/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/wim-ffi)
+error[E0063]: missing field `identity` in initializer of `EmptyImage`
+  --> wim-ffi/src/image_mutation.rs:87:43
+   |
+87 |     handle.images.push(HandleImage::Empty(EmptyImage {
+   |                                           ^^^^^^^^^^ missing `identity`
+
+error[E0004]: non-exhaustive patterns: `&HandleImage::Owned(_)` not covered
+  --> wim-ffi/src/verify.rs:11:28
+   |
+11 |         let source = match image {
+   |                            ^^^^^ pattern `&HandleImage::Owned(_)` not covered
+   |
+note: `HandleImage` defined here
+  --> wim-ffi/src/handles.rs:14:10
+   |
+14 | pub enum HandleImage {
+   |          ^^^^^^^^^^^
+...
+20 |     Owned(OwnedImage),
+   |     ----- not covered
+   = note: the matched value is of type `&HandleImage`
+help: ensure that all possible cases are being handled by adding a match arm with a wildcard pattern or an explicit pattern as shown
+   |
+32 ~             HandleImage::Empty(image) => image.metadata.as_slice(),
+33 ~             &HandleImage::Owned(_) => todo!(),
+   |
+
+error[E0004]: non-exhaustive patterns: `&HandleImage::Owned(_)` not covered
+   --> wim-ffi/src/lookup.rs:90:27
+    |
+ 90 |         let entry = match image {
+    |                           ^^^^^ pattern `&HandleImage::Owned(_)` not covered
+    |
+note: `HandleImage` defined here
+   --> wim-ffi/src/handles.rs:14:10
+    |
+ 14 | pub enum HandleImage {
+    |          ^^^^^^^^^^^
+...
+ 20 |     Owned(OwnedImage),
+    |     ----- not covered
+    = note: the matched value is of type `&HandleImage`
+help: ensure that all possible cases are being handled by adding a match arm with a wildcard pattern or an explicit pattern as shown
+    |
+109 ~             },
+110 ~             &HandleImage::Owned(_) => todo!(),
+    |
+
+error[E0004]: non-exhaustive patterns: `&HandleImage::Owned(_)` not covered
+   --> wim-ffi/src/write.rs:118:27
+    |
+118 |         let bytes = match wim.images.get(index).ok_or(ParseError::InvalidImage)? {
+    |                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ pattern `&HandleImage::Owned(_)` not covered
+    |
+note: `HandleImage` defined here
+   --> wim-ffi/src/handles.rs:14:10
+    |
+ 14 | pub enum HandleImage {
+    |          ^^^^^^^^^^^
+...
+ 20 |     Owned(OwnedImage),
+    |     ----- not covered
+    = note: the matched value is of type `&HandleImage`
+help: ensure that all possible cases are being handled by adding a match arm with a wildcard pattern or an explicit pattern as shown
+    |
+137 ~             },
+138 +             &HandleImage::Owned(_) => todo!()
+    |
+
+Some errors have detailed explanations: E0004, E0063.
+For more information about an error, try `rustc --explain E0004`.
+error: could not compile `wim-ffi` (lib) due to 4 previous errors

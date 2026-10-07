@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "scope": "Representative TelnetClient servicing and supported reboot on disposable V14 installed child",
+  "root_review": "/data/cache/qcow2-v14-diagnostic-health-20261006/servicing-actual-e737649fff6e4fbbb6891551c13c2540/root-servicing-reboot-review.json",
+  "root_review_sha256": "9d1864e13ade5056bc2c57164b98889cd092752a701a8dc0f62cc4967e1542b6",
+  "review": {
+    "schema": 1,
+    "supported_reboot_verified": true,
+    "feature_enabled_after_changed_boot": true,
+    "same_qmp_chain_and_ready_desktop_verified": true,
+    "source_guards_match": true,
+    "bindings": {
+      "reboot-poststate.json": "bfd2da21d1324cb0a85fef5c69d70b66737a11ffed6f274d4085d5a7d63b1e49",
+      "reboot-qmp-after.json": "deeb0e8151bf605bd3e3b2f8f68eb265426c0afbf69ec70a5ec8080c8e71f650",
+      "reboot-final-parent-guard.json": "3db4e6deca6a17a956fa72f01d304f26cc1af8a5d9bb9a9f07f9dd1ea44a2f61",
+      "reboot-final-backing-guards.json": "3a7892da6646298e6cfde277eff4f099339d55f96f1ee41349705470f36503ba"
+    },
+    "full_metadata_fidelity": false
+  },
+  "full_windows_metadata_reliability": false
+}

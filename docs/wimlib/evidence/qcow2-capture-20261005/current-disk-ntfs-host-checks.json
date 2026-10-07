@@ -1,0 +1,107 @@
+{
+  "scope": "Current disk/NTFS crate checks only; not full workspace or Windows installed metadata fidelity",
+  "completed_utc": "2026-10-05T21:58:12.442599+00:00",
+  "commands": [
+    {
+      "command": "CARGO_TARGET_DIR=/data/cache/qcow2-current-validation-target cargo test --locked -p windows-disk -p windows-ntfs",
+      "exit": 0,
+      "passed": 53,
+      "ignored": 14
+    },
+    {
+      "command": "TMPDIR=/data/cache CARGO_TARGET_DIR=/data/cache/qcow2-current-validation-target cargo test --locked -p windows-disk -- --ignored",
+      "exit": 0,
+      "passed": 6,
+      "remaining_ntfs_ignored": 8
+    },
+    {
+      "command": "cargo test --locked -p windows-ntfs --test ntfs3g captures_independently_formatted_ntfs_and_ads_without_mounting -- --ignored",
+      "environment": "Retained ntfs3g2022.10.3 bin on PATH; DATA target and TMPDIR",
+      "exit": 0,
+      "passed": 1
+    },
+    {
+      "command": "cargo test --locked -p windows-ntfs --test ntfs3g caller_tightened_metadata_cache_attribute_and_work_limits_reject_real_ntfs -- --ignored",
+      "environment": "Retained ntfs3g2022.10.3 bin on PATH; DATA target and TMPDIR",
+      "exit": 0,
+      "passed": 1
+    },
+    {
+      "command": "CARGO_TARGET_DIR=/data/cache/qcow2-current-validation-target cargo clippy --locked -p windows-disk -p windows-ntfs --all-targets --all-features -- -D warnings",
+      "exit": 0,
+      "scope": "Disk and NTFS crates only"
+    },
+    {
+      "command": "cargo test --locked -p windows-ntfs --test ntfs3g caller_tightened_depth_rejects_a_real_directory_subtree_without_modifying_volume -- --ignored",
+      "exit": 0,
+      "passed": 1,
+      "fixture": "New sparse extraction of immutable independently Windows-formatted scratch partition2; source SHA unchanged"
+    },
+    {
+      "command": "cargo test --locked -p windows-ntfs --test ntfs3g rejects_dirty_and_unknown_volume_flags_before_metadata_capture -- --ignored",
+      "fixture": "Read-only nested-depth fixture; DATA temporary corruption copies",
+      "exit": 0,
+      "passed": 1
+    },
+    {
+      "command": "cargo test --locked -p windows-ntfs --test ntfs3g rejects_inconsistent_secure_index_before_capturing_acls -- --ignored",
+      "fixture": "Read-only nested-depth fixture; DATA temporary corruption copy",
+      "exit": 101,
+      "failed": 1,
+      "observed": "Volume open rejects corruption, but ErrorKind Other rather than required InvalidData at ntfs3g.rs250",
+      "resolution": "pending diagnosis; test not waived"
+    },
+    {
+      "command": "cargo test --locked -p windows-ntfs --test ntfs3g rejects_inconsistent_secure_index_before_capturing_acls -- --ignored",
+      "exit": 0,
+      "passed": 1,
+      "owner_session": 55564,
+      "fix": "Malformed VCN classification and $Secure:$SII source context",
+      "review": "Logical nonstructural typed error cases still under review"
+    },
+    {
+      "command": "cargo test --locked -p windows-ntfs --lib",
+      "passed": 18,
+      "exit": 0,
+      "scope": "Includes four new error-classification tests",
+      "evidence": "ntfs-secure-index-error-classification-regression.json"
+    }
+  ],
+  "source_hashes_after_checks": {
+    "Cargo.lock": "bec522beef4ac79b8597cde5ceebee318d3ba6e0e209c3baf7fe3d127054a873",
+    "Cargo.toml": "5658cf34c686745fd34a611ad0499d56be92363c2b65b7f628a45c7019bcd058",
+    "crates/windows-disk/Cargo.toml": "8f5cee33d78f9668a047ed707dfc436797ce72fe28fe234d843337fef752ebbe",
+    "crates/windows-disk/src/lib.rs": "0a2d48033513929b784db60e1f4fc07705855df54323e47ae8c0587cbc460bc9",
+    "crates/windows-disk/src/partition.rs": "9f73c33560c7866d3ca6b9158e89f2a887610e3aa8103645f51e7a242a3a4d4c",
+    "crates/windows-disk/src/policy.rs": "f8730e0ae44b471c6e0f56df50024ec9c0d20eac1579c85459277bdf2fa131c0",
+    "crates/windows-disk/src/qcow2/validation.rs": "5d64799d3bf2604c396d33851178b6a3a297d4ed017e905ca39b7bbc188dc776",
+    "crates/windows-disk/src/qcow2.rs": "45660f888899e1f97326702d0fb23b4dd25bae8cfa2054cc213e7f38281c82d1",
+    "crates/windows-disk/tests/partitions.rs": "6ba1535f54a79aec9604802d0363b46cf500341e6e8ea4fdab25762ee9a4d6f1",
+    "crates/windows-disk/tests/qcow2.rs": "5e21ec5c37b16814590054541f2752e2606e0ed8ca28d791c0d7df26ae6c8172",
+    "crates/windows-ntfs/Cargo.toml": "2d2f0f07361dec65b0a87faf73fac87a1b1e455ede5e5f162885c2a55017c509",
+    "crates/windows-ntfs/examples/disk_view_proof.rs": "93066867aaf597c158366a7a2871672ecdda6639ad8c137563c1a6c0cd6cb627",
+    "crates/windows-ntfs/examples/dos_alias_inventory.rs": "70a57f5ce9d4f93477a9229d5311f967d4a86f6a94afebe52e5a669c1372fa8f",
+    "crates/windows-ntfs/examples/extract_setup_logs.rs": "a75502ddd84d874f84559bf867022814dae7123275d823920ef9824f00e1987c",
+    "crates/windows-ntfs/examples/frozen_metadata.rs": "c9669fea69c893e20e02ef28e91bc6fb8ccafd1057deed6a4940ad1f03f9bc38",
+    "crates/windows-ntfs/examples/inspect.rs": "0c97848060dff6e92d459143cf93a38c306586b97116f023345605f879cab724",
+    "crates/windows-ntfs/examples/manifest_diagnostics.rs": "3126bd41c3bc8996de94ce452981f65702fd217503e9d59a1d5bc6294bf00128",
+    "crates/windows-ntfs/examples/read_file.rs": "a9c8a3b436be93866b93b6fcbb8518ab3a7113337ba50f5943e70099a0299238",
+    "crates/windows-ntfs/examples/recover_verified_file.rs": "c22ab3e0bb83d13d42b08df40768b431c36fadac23d9af3800bab2e797a88e0d",
+    "crates/windows-ntfs/examples/reserved_security_inventory.rs": "5d4605389e88a41ea901d7b5b0e9d329abf9ac626dbb2ab4583de5510fafc9ca",
+    "crates/windows-ntfs/examples/security_path.rs": "6acb980e93aad231a2cf069cc04092e0724bcb102c1587f64cdffcfa253ac24f",
+    "crates/windows-ntfs/examples/trust_inventory.rs": "bc6373983a072472467dd265b6d8b836119a47886d66398751b672d995f94788",
+    "crates/windows-ntfs/examples/utf16_fixture.rs": "2ae7b94c72b2a78fc2d14c3afc043c52a22df83599e9dc8bc720ac60d1b3f04b",
+    "crates/windows-ntfs/src/attributes.rs": "1e0973b464a667205a9167cee13f1fd222947a62a45848790c696a09db0ccd7a",
+    "crates/windows-ntfs/src/lib.rs": "8940ff14461fe875d320f3e6bdc48fd159e6327034fab87d8ff50e14f8f549bc",
+    "crates/windows-ntfs/src/objects.rs": "4e492e73a5cbdaf4f96d19dcc95af4dc7cb57937aefd6f451f55905755146b66",
+    "crates/windows-ntfs/src/security.rs": "1457e34e7d6ecd6ee4920ee41f09516b3333128a635a0208fbdadca06c3b6b95",
+    "crates/windows-ntfs/src/stream.rs": "f4ba56b5cea8578e7362dc919ffba8fb9a22ebe1d6151ba217992224d305bcc7",
+    "crates/windows-ntfs/tests/error_conversion.rs": "e10ba5d6cc7888ead4ebc6912120fba97f584d4351db3eb89cef4706835d03fa",
+    "crates/windows-ntfs/tests/ntfs3g.rs": "130017194e4d08bb2638a1a11844809ecfd9c997ead0e2e9668d5d66de62e965"
+  },
+  "current_total_passed": 68,
+  "remaining_ntfs_fixture_tests_unrun": 3,
+  "current_failing_checks": 0,
+  "converter_review_pending": false,
+  "final_error_classification_evidence": "ntfs-secure-index-error-classification-regression.json"
+}

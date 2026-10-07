@@ -1,0 +1,24 @@
+   Compiling wim-codec v0.1.0 (/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/wim-codec)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.13s
+     Running tests/decode_allocations.rs (crates/wimlib-rs/target/debug/deps/decode_allocations-a4c3a7af3358510e)
+
+running 1 test
+test reusable_lzms_success_and_failures_allocate_nothing ... FAILED
+
+failures:
+
+---- reusable_lzms_success_and_failures_allocate_nothing stdout ----
+
+thread 'reusable_lzms_success_and_failures_allocate_nothing' (192) panicked at wim-codec/tests/decode_allocations.rs:49:5:
+assertion `left == right` failed
+  left: 348
+ right: 0
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+
+failures:
+    reusable_lzms_success_and_failures_allocate_nothing
+
+test result: FAILED. 0 passed; 1 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s
+
+error: test failed, to rerun pass `-p wim-codec --test decode_allocations`

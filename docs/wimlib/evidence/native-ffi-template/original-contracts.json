@@ -1,0 +1,5771 @@
+{
+  "source_commit": "cd5e231c348c255ae5088873b5a66ee0eb96fa07",
+  "library_sha256": {
+    "original": "62eb9c97f9ec6e3dae6c7e995b0a65a2e94a4d9b41491666947ba788a15bb74a",
+    "native": "5fede666f2a274dc7812a5f50d9fdb2a725372f9a3123b507f789c25ca1f280f"
+  },
+  "cases": 576,
+  "scope": "original reference only",
+  "results": [
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": -1,
+        "template_image": -1,
+        "flags": 0,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": -1,
+        "template_image": -1,
+        "flags": 0,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": -1,
+        "template_image": -1,
+        "flags": 0,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": -1,
+        "template_image": -1,
+        "flags": 0,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": -1,
+        "template_image": -1,
+        "flags": 1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": -1,
+        "template_image": -1,
+        "flags": 1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": -1,
+        "template_image": -1,
+        "flags": 1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": -1,
+        "template_image": -1,
+        "flags": 1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": -1,
+        "template_image": -1,
+        "flags": -1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": -1,
+        "template_image": -1,
+        "flags": -1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": -1,
+        "template_image": -1,
+        "flags": -1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": -1,
+        "template_image": -1,
+        "flags": -1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": -1,
+        "template_image": 0,
+        "flags": 0,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": -1,
+        "template_image": 0,
+        "flags": 0,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": -1,
+        "template_image": 0,
+        "flags": 0,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": -1,
+        "template_image": 0,
+        "flags": 0,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": -1,
+        "template_image": 0,
+        "flags": 1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": -1,
+        "template_image": 0,
+        "flags": 1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": -1,
+        "template_image": 0,
+        "flags": 1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": -1,
+        "template_image": 0,
+        "flags": 1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": -1,
+        "template_image": 0,
+        "flags": -1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": -1,
+        "template_image": 0,
+        "flags": -1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": -1,
+        "template_image": 0,
+        "flags": -1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": -1,
+        "template_image": 0,
+        "flags": -1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": -1,
+        "template_image": 1,
+        "flags": 0,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": -1,
+        "template_image": 1,
+        "flags": 0,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": -1,
+        "template_image": 1,
+        "flags": 0,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": -1,
+        "template_image": 1,
+        "flags": 0,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": -1,
+        "template_image": 1,
+        "flags": 1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": -1,
+        "template_image": 1,
+        "flags": 1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": -1,
+        "template_image": 1,
+        "flags": 1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": -1,
+        "template_image": 1,
+        "flags": 1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": -1,
+        "template_image": 1,
+        "flags": -1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": -1,
+        "template_image": 1,
+        "flags": -1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": -1,
+        "template_image": 1,
+        "flags": -1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": -1,
+        "template_image": 1,
+        "flags": -1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": -1,
+        "template_image": 2,
+        "flags": 0,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": -1,
+        "template_image": 2,
+        "flags": 0,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": -1,
+        "template_image": 2,
+        "flags": 0,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": -1,
+        "template_image": 2,
+        "flags": 0,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": -1,
+        "template_image": 2,
+        "flags": 1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": -1,
+        "template_image": 2,
+        "flags": 1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": -1,
+        "template_image": 2,
+        "flags": 1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": -1,
+        "template_image": 2,
+        "flags": 1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": -1,
+        "template_image": 2,
+        "flags": -1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": -1,
+        "template_image": 2,
+        "flags": -1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": -1,
+        "template_image": 2,
+        "flags": -1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": -1,
+        "template_image": 2,
+        "flags": -1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 0,
+        "template_image": -1,
+        "flags": 0,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 0,
+        "template_image": -1,
+        "flags": 0,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 0,
+        "template_image": -1,
+        "flags": 0,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 0,
+        "template_image": -1,
+        "flags": 0,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 0,
+        "template_image": -1,
+        "flags": 1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 0,
+        "template_image": -1,
+        "flags": 1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 0,
+        "template_image": -1,
+        "flags": 1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 0,
+        "template_image": -1,
+        "flags": 1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 0,
+        "template_image": -1,
+        "flags": -1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 0,
+        "template_image": -1,
+        "flags": -1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 0,
+        "template_image": -1,
+        "flags": -1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 0,
+        "template_image": -1,
+        "flags": -1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 0,
+        "template_image": 0,
+        "flags": 0,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 0,
+        "template_image": 0,
+        "flags": 0,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 0,
+        "template_image": 0,
+        "flags": 0,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 0,
+        "template_image": 0,
+        "flags": 0,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 0,
+        "template_image": 0,
+        "flags": 1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 0,
+        "template_image": 0,
+        "flags": 1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 0,
+        "template_image": 0,
+        "flags": 1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 0,
+        "template_image": 0,
+        "flags": 1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 0,
+        "template_image": 0,
+        "flags": -1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 0,
+        "template_image": 0,
+        "flags": -1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 0,
+        "template_image": 0,
+        "flags": -1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 0,
+        "template_image": 0,
+        "flags": -1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 0,
+        "template_image": 1,
+        "flags": 0,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 0,
+        "template_image": 1,
+        "flags": 0,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 0,
+        "template_image": 1,
+        "flags": 0,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 0,
+        "template_image": 1,
+        "flags": 0,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 0,
+        "template_image": 1,
+        "flags": 1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 0,
+        "template_image": 1,
+        "flags": 1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 0,
+        "template_image": 1,
+        "flags": 1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 0,
+        "template_image": 1,
+        "flags": 1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 0,
+        "template_image": 1,
+        "flags": -1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 0,
+        "template_image": 1,
+        "flags": -1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 0,
+        "template_image": 1,
+        "flags": -1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 0,
+        "template_image": 1,
+        "flags": -1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 0,
+        "template_image": 2,
+        "flags": 0,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 0,
+        "template_image": 2,
+        "flags": 0,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 0,
+        "template_image": 2,
+        "flags": 0,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 0,
+        "template_image": 2,
+        "flags": 0,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 0,
+        "template_image": 2,
+        "flags": 1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 0,
+        "template_image": 2,
+        "flags": 1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 0,
+        "template_image": 2,
+        "flags": 1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 0,
+        "template_image": 2,
+        "flags": 1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 0,
+        "template_image": 2,
+        "flags": -1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 0,
+        "template_image": 2,
+        "flags": -1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 0,
+        "template_image": 2,
+        "flags": -1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 0,
+        "template_image": 2,
+        "flags": -1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 1,
+        "template_image": -1,
+        "flags": 0,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 1,
+        "template_image": -1,
+        "flags": 0,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 1,
+        "template_image": -1,
+        "flags": 0,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 1,
+        "template_image": -1,
+        "flags": 0,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 1,
+        "template_image": -1,
+        "flags": 1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 1,
+        "template_image": -1,
+        "flags": 1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 1,
+        "template_image": -1,
+        "flags": 1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 1,
+        "template_image": -1,
+        "flags": 1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 1,
+        "template_image": -1,
+        "flags": -1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 1,
+        "template_image": -1,
+        "flags": -1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 1,
+        "template_image": -1,
+        "flags": -1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 1,
+        "template_image": -1,
+        "flags": -1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 1,
+        "template_image": 0,
+        "flags": 0,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 1,
+        "template_image": 0,
+        "flags": 0,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 1,
+        "template_image": 0,
+        "flags": 0,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 1,
+        "template_image": 0,
+        "flags": 0,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 1,
+        "template_image": 0,
+        "flags": 1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 1,
+        "template_image": 0,
+        "flags": 1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 1,
+        "template_image": 0,
+        "flags": 1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 1,
+        "template_image": 0,
+        "flags": 1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 1,
+        "template_image": 0,
+        "flags": -1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 1,
+        "template_image": 0,
+        "flags": -1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 1,
+        "template_image": 0,
+        "flags": -1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 1,
+        "template_image": 0,
+        "flags": -1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 1,
+        "template_image": 1,
+        "flags": 0,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 0 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 1,
+        "template_image": 1,
+        "flags": 0,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 1,
+        "template_image": 1,
+        "flags": 0,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 1,
+        "template_image": 1,
+        "flags": 0,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 1,
+        "template_image": 1,
+        "flags": 1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 1,
+        "template_image": 1,
+        "flags": 1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 1,
+        "template_image": 1,
+        "flags": 1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 1,
+        "template_image": 1,
+        "flags": 1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 1,
+        "template_image": 1,
+        "flags": -1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 1,
+        "template_image": 1,
+        "flags": -1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 1,
+        "template_image": 1,
+        "flags": -1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 1,
+        "template_image": 1,
+        "flags": -1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 1,
+        "template_image": 2,
+        "flags": 0,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 1,
+        "template_image": 2,
+        "flags": 0,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 1,
+        "template_image": 2,
+        "flags": 0,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 1,
+        "template_image": 2,
+        "flags": 0,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 1,
+        "template_image": 2,
+        "flags": 1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 1,
+        "template_image": 2,
+        "flags": 1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 1,
+        "template_image": 2,
+        "flags": 1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 1,
+        "template_image": 2,
+        "flags": 1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 1,
+        "template_image": 2,
+        "flags": -1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 1,
+        "template_image": 2,
+        "flags": -1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 1,
+        "template_image": 2,
+        "flags": -1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 1,
+        "template_image": 2,
+        "flags": -1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 2,
+        "template_image": -1,
+        "flags": 0,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 2,
+        "template_image": -1,
+        "flags": 0,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 2,
+        "template_image": -1,
+        "flags": 0,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 2,
+        "template_image": -1,
+        "flags": 0,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 2,
+        "template_image": -1,
+        "flags": 1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 2,
+        "template_image": -1,
+        "flags": 1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 2,
+        "template_image": -1,
+        "flags": 1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 2,
+        "template_image": -1,
+        "flags": 1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 2,
+        "template_image": -1,
+        "flags": -1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 2,
+        "template_image": -1,
+        "flags": -1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 2,
+        "template_image": -1,
+        "flags": -1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 2,
+        "template_image": -1,
+        "flags": -1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 2,
+        "template_image": 0,
+        "flags": 0,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 2,
+        "template_image": 0,
+        "flags": 0,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 2,
+        "template_image": 0,
+        "flags": 0,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 2,
+        "template_image": 0,
+        "flags": 0,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 2,
+        "template_image": 0,
+        "flags": 1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 2,
+        "template_image": 0,
+        "flags": 1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 2,
+        "template_image": 0,
+        "flags": 1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 2,
+        "template_image": 0,
+        "flags": 1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 2,
+        "template_image": 0,
+        "flags": -1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 2,
+        "template_image": 0,
+        "flags": -1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 2,
+        "template_image": 0,
+        "flags": -1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 2,
+        "template_image": 0,
+        "flags": -1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 2,
+        "template_image": 1,
+        "flags": 0,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 2,
+        "template_image": 1,
+        "flags": 0,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 2,
+        "template_image": 1,
+        "flags": 0,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 2,
+        "template_image": 1,
+        "flags": 0,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 2,
+        "template_image": 1,
+        "flags": 1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 2,
+        "template_image": 1,
+        "flags": 1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 2,
+        "template_image": 1,
+        "flags": 1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 2,
+        "template_image": 1,
+        "flags": 1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 2,
+        "template_image": 1,
+        "flags": -1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 2,
+        "template_image": 1,
+        "flags": -1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 2,
+        "template_image": 1,
+        "flags": -1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 2,
+        "template_image": 1,
+        "flags": -1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 2,
+        "template_image": 2,
+        "flags": 0,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 2,
+        "template_image": 2,
+        "flags": 0,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 2,
+        "template_image": 2,
+        "flags": 0,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 2,
+        "template_image": 2,
+        "flags": 0,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 2,
+        "template_image": 2,
+        "flags": 1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 2,
+        "template_image": 2,
+        "flags": 1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 2,
+        "template_image": 2,
+        "flags": 1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 2,
+        "template_image": 2,
+        "flags": 1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 2,
+        "template_image": 2,
+        "flags": -1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 2,
+        "template_image": 2,
+        "flags": -1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 2,
+        "template_image": 2,
+        "flags": -1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "empty",
+        "new_image": 2,
+        "template_image": 2,
+        "flags": -1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": -1,
+        "template_image": -1,
+        "flags": 0,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": -1,
+        "template_image": -1,
+        "flags": 0,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": -1,
+        "template_image": -1,
+        "flags": 0,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": -1,
+        "template_image": -1,
+        "flags": 0,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": -1,
+        "template_image": -1,
+        "flags": 1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": -1,
+        "template_image": -1,
+        "flags": 1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": -1,
+        "template_image": -1,
+        "flags": 1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": -1,
+        "template_image": -1,
+        "flags": 1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": -1,
+        "template_image": -1,
+        "flags": -1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": -1,
+        "template_image": -1,
+        "flags": -1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": -1,
+        "template_image": -1,
+        "flags": -1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": -1,
+        "template_image": -1,
+        "flags": -1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": -1,
+        "template_image": 0,
+        "flags": 0,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": -1,
+        "template_image": 0,
+        "flags": 0,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": -1,
+        "template_image": 0,
+        "flags": 0,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": -1,
+        "template_image": 0,
+        "flags": 0,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": -1,
+        "template_image": 0,
+        "flags": 1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": -1,
+        "template_image": 0,
+        "flags": 1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": -1,
+        "template_image": 0,
+        "flags": 1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": -1,
+        "template_image": 0,
+        "flags": 1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": -1,
+        "template_image": 0,
+        "flags": -1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": -1,
+        "template_image": 0,
+        "flags": -1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": -1,
+        "template_image": 0,
+        "flags": -1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": -1,
+        "template_image": 0,
+        "flags": -1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": -1,
+        "template_image": 1,
+        "flags": 0,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": -1,
+        "template_image": 1,
+        "flags": 0,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": -1,
+        "template_image": 1,
+        "flags": 0,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": -1,
+        "template_image": 1,
+        "flags": 0,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": -1,
+        "template_image": 1,
+        "flags": 1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": -1,
+        "template_image": 1,
+        "flags": 1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": -1,
+        "template_image": 1,
+        "flags": 1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": -1,
+        "template_image": 1,
+        "flags": 1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": -1,
+        "template_image": 1,
+        "flags": -1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": -1,
+        "template_image": 1,
+        "flags": -1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": -1,
+        "template_image": 1,
+        "flags": -1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": -1,
+        "template_image": 1,
+        "flags": -1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": -1,
+        "template_image": 2,
+        "flags": 0,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": -1,
+        "template_image": 2,
+        "flags": 0,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": -1,
+        "template_image": 2,
+        "flags": 0,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": -1,
+        "template_image": 2,
+        "flags": 0,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": -1,
+        "template_image": 2,
+        "flags": 1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": -1,
+        "template_image": 2,
+        "flags": 1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": -1,
+        "template_image": 2,
+        "flags": 1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": -1,
+        "template_image": 2,
+        "flags": 1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": -1,
+        "template_image": 2,
+        "flags": -1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": -1,
+        "template_image": 2,
+        "flags": -1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": -1,
+        "template_image": 2,
+        "flags": -1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": -1,
+        "template_image": 2,
+        "flags": -1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 0,
+        "template_image": -1,
+        "flags": 0,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 0,
+        "template_image": -1,
+        "flags": 0,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 0,
+        "template_image": -1,
+        "flags": 0,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 0,
+        "template_image": -1,
+        "flags": 0,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 0,
+        "template_image": -1,
+        "flags": 1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 0,
+        "template_image": -1,
+        "flags": 1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 0,
+        "template_image": -1,
+        "flags": 1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 0,
+        "template_image": -1,
+        "flags": 1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 0,
+        "template_image": -1,
+        "flags": -1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 0,
+        "template_image": -1,
+        "flags": -1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 0,
+        "template_image": -1,
+        "flags": -1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 0,
+        "template_image": -1,
+        "flags": -1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 0,
+        "template_image": 0,
+        "flags": 0,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 0,
+        "template_image": 0,
+        "flags": 0,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 0,
+        "template_image": 0,
+        "flags": 0,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 0,
+        "template_image": 0,
+        "flags": 0,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 0,
+        "template_image": 0,
+        "flags": 1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 0,
+        "template_image": 0,
+        "flags": 1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 0,
+        "template_image": 0,
+        "flags": 1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 0,
+        "template_image": 0,
+        "flags": 1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 0,
+        "template_image": 0,
+        "flags": -1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 0,
+        "template_image": 0,
+        "flags": -1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 0,
+        "template_image": 0,
+        "flags": -1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 0,
+        "template_image": 0,
+        "flags": -1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 0,
+        "template_image": 1,
+        "flags": 0,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 0,
+        "template_image": 1,
+        "flags": 0,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 0,
+        "template_image": 1,
+        "flags": 0,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 0,
+        "template_image": 1,
+        "flags": 0,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 0,
+        "template_image": 1,
+        "flags": 1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 0,
+        "template_image": 1,
+        "flags": 1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 0,
+        "template_image": 1,
+        "flags": 1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 0,
+        "template_image": 1,
+        "flags": 1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 0,
+        "template_image": 1,
+        "flags": -1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 0,
+        "template_image": 1,
+        "flags": -1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 0,
+        "template_image": 1,
+        "flags": -1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 0,
+        "template_image": 1,
+        "flags": -1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 0,
+        "template_image": 2,
+        "flags": 0,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 0,
+        "template_image": 2,
+        "flags": 0,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 0,
+        "template_image": 2,
+        "flags": 0,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 0,
+        "template_image": 2,
+        "flags": 0,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 0,
+        "template_image": 2,
+        "flags": 1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 0,
+        "template_image": 2,
+        "flags": 1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 0,
+        "template_image": 2,
+        "flags": 1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 0,
+        "template_image": 2,
+        "flags": 1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 0,
+        "template_image": 2,
+        "flags": -1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 0,
+        "template_image": 2,
+        "flags": -1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 0,
+        "template_image": 2,
+        "flags": -1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 0,
+        "template_image": 2,
+        "flags": -1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 1,
+        "template_image": -1,
+        "flags": 0,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 1,
+        "template_image": -1,
+        "flags": 0,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 1,
+        "template_image": -1,
+        "flags": 0,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 1,
+        "template_image": -1,
+        "flags": 0,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 1,
+        "template_image": -1,
+        "flags": 1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 1,
+        "template_image": -1,
+        "flags": 1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 1,
+        "template_image": -1,
+        "flags": 1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 1,
+        "template_image": -1,
+        "flags": 1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 1,
+        "template_image": -1,
+        "flags": -1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 1,
+        "template_image": -1,
+        "flags": -1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 1,
+        "template_image": -1,
+        "flags": -1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 1,
+        "template_image": -1,
+        "flags": -1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 1,
+        "template_image": 0,
+        "flags": 0,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 1,
+        "template_image": 0,
+        "flags": 0,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 1,
+        "template_image": 0,
+        "flags": 0,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 1,
+        "template_image": 0,
+        "flags": 0,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 1,
+        "template_image": 0,
+        "flags": 1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 1,
+        "template_image": 0,
+        "flags": 1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 1,
+        "template_image": 0,
+        "flags": 1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 1,
+        "template_image": 0,
+        "flags": 1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 1,
+        "template_image": 0,
+        "flags": -1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 1,
+        "template_image": 0,
+        "flags": -1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 1,
+        "template_image": 0,
+        "flags": -1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 1,
+        "template_image": 0,
+        "flags": -1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 1,
+        "template_image": 1,
+        "flags": 0,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 1,
+        "template_image": 1,
+        "flags": 0,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 1,
+        "template_image": 1,
+        "flags": 0,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 1,
+        "template_image": 1,
+        "flags": 0,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 1,
+        "template_image": 1,
+        "flags": 1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 1,
+        "template_image": 1,
+        "flags": 1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 1,
+        "template_image": 1,
+        "flags": 1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 1,
+        "template_image": 1,
+        "flags": 1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 1,
+        "template_image": 1,
+        "flags": -1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 1,
+        "template_image": 1,
+        "flags": -1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 1,
+        "template_image": 1,
+        "flags": -1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 1,
+        "template_image": 1,
+        "flags": -1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 1,
+        "template_image": 2,
+        "flags": 0,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 1,
+        "template_image": 2,
+        "flags": 0,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 1,
+        "template_image": 2,
+        "flags": 0,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 1,
+        "template_image": 2,
+        "flags": 0,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 1,
+        "template_image": 2,
+        "flags": 1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 1,
+        "template_image": 2,
+        "flags": 1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 1,
+        "template_image": 2,
+        "flags": 1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 1,
+        "template_image": 2,
+        "flags": 1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 1,
+        "template_image": 2,
+        "flags": -1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 1,
+        "template_image": 2,
+        "flags": -1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 1,
+        "template_image": 2,
+        "flags": -1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 1,
+        "template_image": 2,
+        "flags": -1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 2,
+        "template_image": -1,
+        "flags": 0,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 2,
+        "template_image": -1,
+        "flags": 0,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 2,
+        "template_image": -1,
+        "flags": 0,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 2,
+        "template_image": -1,
+        "flags": 0,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 2,
+        "template_image": -1,
+        "flags": 1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 2,
+        "template_image": -1,
+        "flags": 1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 2,
+        "template_image": -1,
+        "flags": 1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 2,
+        "template_image": -1,
+        "flags": 1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 2,
+        "template_image": -1,
+        "flags": -1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 2,
+        "template_image": -1,
+        "flags": -1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 2,
+        "template_image": -1,
+        "flags": -1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 2,
+        "template_image": -1,
+        "flags": -1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 2,
+        "template_image": 0,
+        "flags": 0,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 2,
+        "template_image": 0,
+        "flags": 0,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 2,
+        "template_image": 0,
+        "flags": 0,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 2,
+        "template_image": 0,
+        "flags": 0,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 2,
+        "template_image": 0,
+        "flags": 1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 2,
+        "template_image": 0,
+        "flags": 1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 2,
+        "template_image": 0,
+        "flags": 1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 2,
+        "template_image": 0,
+        "flags": 1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 2,
+        "template_image": 0,
+        "flags": -1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 2,
+        "template_image": 0,
+        "flags": -1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 2,
+        "template_image": 0,
+        "flags": -1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 2,
+        "template_image": 0,
+        "flags": -1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 2,
+        "template_image": 1,
+        "flags": 0,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 2,
+        "template_image": 1,
+        "flags": 0,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 2,
+        "template_image": 1,
+        "flags": 0,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 2,
+        "template_image": 1,
+        "flags": 0,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 2,
+        "template_image": 1,
+        "flags": 1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 2,
+        "template_image": 1,
+        "flags": 1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 2,
+        "template_image": 1,
+        "flags": 1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 2,
+        "template_image": 1,
+        "flags": 1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 2,
+        "template_image": 1,
+        "flags": -1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 2,
+        "template_image": 1,
+        "flags": -1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 2,
+        "template_image": 1,
+        "flags": -1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 2,
+        "template_image": 1,
+        "flags": -1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 2,
+        "template_image": 2,
+        "flags": 0,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 2,
+        "template_image": 2,
+        "flags": 0,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 2,
+        "template_image": 2,
+        "flags": 0,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 2,
+        "template_image": 2,
+        "flags": 0,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 2,
+        "template_image": 2,
+        "flags": 1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 2,
+        "template_image": 2,
+        "flags": 1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 2,
+        "template_image": 2,
+        "flags": 1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 2,
+        "template_image": 2,
+        "flags": 1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 2,
+        "template_image": 2,
+        "flags": -1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 2,
+        "template_image": 2,
+        "flags": -1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 2,
+        "template_image": 2,
+        "flags": -1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "clean",
+        "new_image": 2,
+        "template_image": 2,
+        "flags": -1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": -1,
+        "template_image": -1,
+        "flags": 0,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": -1,
+        "template_image": -1,
+        "flags": 0,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": -1,
+        "template_image": -1,
+        "flags": 0,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": -1,
+        "template_image": -1,
+        "flags": 0,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": -1,
+        "template_image": -1,
+        "flags": 1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": -1,
+        "template_image": -1,
+        "flags": 1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": -1,
+        "template_image": -1,
+        "flags": 1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": -1,
+        "template_image": -1,
+        "flags": 1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": -1,
+        "template_image": -1,
+        "flags": -1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": -1,
+        "template_image": -1,
+        "flags": -1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": -1,
+        "template_image": -1,
+        "flags": -1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": -1,
+        "template_image": -1,
+        "flags": -1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": -1,
+        "template_image": 0,
+        "flags": 0,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": -1,
+        "template_image": 0,
+        "flags": 0,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": -1,
+        "template_image": 0,
+        "flags": 0,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": -1,
+        "template_image": 0,
+        "flags": 0,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": -1,
+        "template_image": 0,
+        "flags": 1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": -1,
+        "template_image": 0,
+        "flags": 1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": -1,
+        "template_image": 0,
+        "flags": 1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": -1,
+        "template_image": 0,
+        "flags": 1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": -1,
+        "template_image": 0,
+        "flags": -1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": -1,
+        "template_image": 0,
+        "flags": -1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": -1,
+        "template_image": 0,
+        "flags": -1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": -1,
+        "template_image": 0,
+        "flags": -1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": -1,
+        "template_image": 1,
+        "flags": 0,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": -1,
+        "template_image": 1,
+        "flags": 0,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": -1,
+        "template_image": 1,
+        "flags": 0,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": -1,
+        "template_image": 1,
+        "flags": 0,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": -1,
+        "template_image": 1,
+        "flags": 1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": -1,
+        "template_image": 1,
+        "flags": 1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": -1,
+        "template_image": 1,
+        "flags": 1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": -1,
+        "template_image": 1,
+        "flags": 1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": -1,
+        "template_image": 1,
+        "flags": -1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": -1,
+        "template_image": 1,
+        "flags": -1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": -1,
+        "template_image": 1,
+        "flags": -1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": -1,
+        "template_image": 1,
+        "flags": -1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": -1,
+        "template_image": 2,
+        "flags": 0,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": -1,
+        "template_image": 2,
+        "flags": 0,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": -1,
+        "template_image": 2,
+        "flags": 0,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": -1,
+        "template_image": 2,
+        "flags": 0,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": -1,
+        "template_image": 2,
+        "flags": 1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": -1,
+        "template_image": 2,
+        "flags": 1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": -1,
+        "template_image": 2,
+        "flags": 1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": -1,
+        "template_image": 2,
+        "flags": 1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": -1,
+        "template_image": 2,
+        "flags": -1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": -1,
+        "template_image": 2,
+        "flags": -1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": -1,
+        "template_image": 2,
+        "flags": -1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": -1,
+        "template_image": 2,
+        "flags": -1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 0,
+        "template_image": -1,
+        "flags": 0,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 0,
+        "template_image": -1,
+        "flags": 0,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 0,
+        "template_image": -1,
+        "flags": 0,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 0,
+        "template_image": -1,
+        "flags": 0,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 0,
+        "template_image": -1,
+        "flags": 1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 0,
+        "template_image": -1,
+        "flags": 1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 0,
+        "template_image": -1,
+        "flags": 1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 0,
+        "template_image": -1,
+        "flags": 1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 0,
+        "template_image": -1,
+        "flags": -1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 0,
+        "template_image": -1,
+        "flags": -1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 0,
+        "template_image": -1,
+        "flags": -1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 0,
+        "template_image": -1,
+        "flags": -1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 0,
+        "template_image": 0,
+        "flags": 0,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 0,
+        "template_image": 0,
+        "flags": 0,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 0,
+        "template_image": 0,
+        "flags": 0,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 0,
+        "template_image": 0,
+        "flags": 0,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 0,
+        "template_image": 0,
+        "flags": 1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 0,
+        "template_image": 0,
+        "flags": 1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 0,
+        "template_image": 0,
+        "flags": 1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 0,
+        "template_image": 0,
+        "flags": 1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 0,
+        "template_image": 0,
+        "flags": -1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 0,
+        "template_image": 0,
+        "flags": -1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 0,
+        "template_image": 0,
+        "flags": -1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 0,
+        "template_image": 0,
+        "flags": -1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 0,
+        "template_image": 1,
+        "flags": 0,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 0,
+        "template_image": 1,
+        "flags": 0,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 0,
+        "template_image": 1,
+        "flags": 0,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 0,
+        "template_image": 1,
+        "flags": 0,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 0,
+        "template_image": 1,
+        "flags": 1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 0,
+        "template_image": 1,
+        "flags": 1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 0,
+        "template_image": 1,
+        "flags": 1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 0,
+        "template_image": 1,
+        "flags": 1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 0,
+        "template_image": 1,
+        "flags": -1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 0,
+        "template_image": 1,
+        "flags": -1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 0,
+        "template_image": 1,
+        "flags": -1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 0,
+        "template_image": 1,
+        "flags": -1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 0,
+        "template_image": 2,
+        "flags": 0,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 0,
+        "template_image": 2,
+        "flags": 0,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 0,
+        "template_image": 2,
+        "flags": 0,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 0,
+        "template_image": 2,
+        "flags": 0,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 0,
+        "template_image": 2,
+        "flags": 1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 0,
+        "template_image": 2,
+        "flags": 1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 0,
+        "template_image": 2,
+        "flags": 1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 0,
+        "template_image": 2,
+        "flags": 1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 0,
+        "template_image": 2,
+        "flags": -1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 0,
+        "template_image": 2,
+        "flags": -1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 0,
+        "template_image": 2,
+        "flags": -1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 0,
+        "template_image": 2,
+        "flags": -1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 1,
+        "template_image": -1,
+        "flags": 0,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 1,
+        "template_image": -1,
+        "flags": 0,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 1,
+        "template_image": -1,
+        "flags": 0,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 1,
+        "template_image": -1,
+        "flags": 0,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 1,
+        "template_image": -1,
+        "flags": 1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 1,
+        "template_image": -1,
+        "flags": 1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 1,
+        "template_image": -1,
+        "flags": 1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 1,
+        "template_image": -1,
+        "flags": 1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 1,
+        "template_image": -1,
+        "flags": -1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 1,
+        "template_image": -1,
+        "flags": -1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 1,
+        "template_image": -1,
+        "flags": -1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 1,
+        "template_image": -1,
+        "flags": -1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 1,
+        "template_image": 0,
+        "flags": 0,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 1,
+        "template_image": 0,
+        "flags": 0,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 1,
+        "template_image": 0,
+        "flags": 0,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 1,
+        "template_image": 0,
+        "flags": 0,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 1,
+        "template_image": 0,
+        "flags": 1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 1,
+        "template_image": 0,
+        "flags": 1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 1,
+        "template_image": 0,
+        "flags": 1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 1,
+        "template_image": 0,
+        "flags": 1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 1,
+        "template_image": 0,
+        "flags": -1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 1,
+        "template_image": 0,
+        "flags": -1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 1,
+        "template_image": 0,
+        "flags": -1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 1,
+        "template_image": 0,
+        "flags": -1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 1,
+        "template_image": 1,
+        "flags": 0,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 0 errno 123\nblob 76810 2 11642cabc223b9b3a1e812098d72df1eaa51fc0b\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 1,
+        "template_image": 1,
+        "flags": 0,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 1,
+        "template_image": 1,
+        "flags": 0,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 1,
+        "template_image": 1,
+        "flags": 0,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 1,
+        "template_image": 1,
+        "flags": 1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 1,
+        "template_image": 1,
+        "flags": 1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 1,
+        "template_image": 1,
+        "flags": 1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 1,
+        "template_image": 1,
+        "flags": 1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 1,
+        "template_image": 1,
+        "flags": -1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 1,
+        "template_image": 1,
+        "flags": -1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 1,
+        "template_image": 1,
+        "flags": -1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 1,
+        "template_image": 1,
+        "flags": -1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 1,
+        "template_image": 2,
+        "flags": 0,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 1,
+        "template_image": 2,
+        "flags": 0,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 1,
+        "template_image": 2,
+        "flags": 0,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 1,
+        "template_image": 2,
+        "flags": 0,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 1,
+        "template_image": 2,
+        "flags": 1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 1,
+        "template_image": 2,
+        "flags": 1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 1,
+        "template_image": 2,
+        "flags": 1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 1,
+        "template_image": 2,
+        "flags": 1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 1,
+        "template_image": 2,
+        "flags": -1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 1,
+        "template_image": 2,
+        "flags": -1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 1,
+        "template_image": 2,
+        "flags": -1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 1,
+        "template_image": 2,
+        "flags": -1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 2,
+        "template_image": -1,
+        "flags": 0,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 2,
+        "template_image": -1,
+        "flags": 0,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 2,
+        "template_image": -1,
+        "flags": 0,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 2,
+        "template_image": -1,
+        "flags": 0,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 2,
+        "template_image": -1,
+        "flags": 1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 2,
+        "template_image": -1,
+        "flags": 1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 2,
+        "template_image": -1,
+        "flags": 1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 2,
+        "template_image": -1,
+        "flags": 1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 2,
+        "template_image": -1,
+        "flags": -1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 2,
+        "template_image": -1,
+        "flags": -1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 2,
+        "template_image": -1,
+        "flags": -1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 2,
+        "template_image": -1,
+        "flags": -1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 2,
+        "template_image": 0,
+        "flags": 0,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 2,
+        "template_image": 0,
+        "flags": 0,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 2,
+        "template_image": 0,
+        "flags": 0,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 2,
+        "template_image": 0,
+        "flags": 0,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 2,
+        "template_image": 0,
+        "flags": 1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 2,
+        "template_image": 0,
+        "flags": 1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 2,
+        "template_image": 0,
+        "flags": 1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 2,
+        "template_image": 0,
+        "flags": 1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 2,
+        "template_image": 0,
+        "flags": -1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 2,
+        "template_image": 0,
+        "flags": -1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 2,
+        "template_image": 0,
+        "flags": -1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 2,
+        "template_image": 0,
+        "flags": -1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 2,
+        "template_image": 1,
+        "flags": 0,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 2,
+        "template_image": 1,
+        "flags": 0,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 2,
+        "template_image": 1,
+        "flags": 0,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 2,
+        "template_image": 1,
+        "flags": 0,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 2,
+        "template_image": 1,
+        "flags": 1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 2,
+        "template_image": 1,
+        "flags": 1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 2,
+        "template_image": 1,
+        "flags": 1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 2,
+        "template_image": 1,
+        "flags": 1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 2,
+        "template_image": 1,
+        "flags": -1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 2,
+        "template_image": 1,
+        "flags": -1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 2,
+        "template_image": 1,
+        "flags": -1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 2,
+        "template_image": 1,
+        "flags": -1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 2,
+        "template_image": 2,
+        "flags": 0,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 18 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 2,
+        "template_image": 2,
+        "flags": 0,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 2,
+        "template_image": 2,
+        "flags": 0,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 2,
+        "template_image": 2,
+        "flags": 0,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 2,
+        "template_image": 2,
+        "flags": 1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 2,
+        "template_image": 2,
+        "flags": 1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 2,
+        "template_image": 2,
+        "flags": 1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 2,
+        "template_image": 2,
+        "flags": 1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 2,
+        "template_image": 2,
+        "flags": -1,
+        "mode": 0
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 2,
+        "template_image": 2,
+        "flags": -1,
+        "mode": 1
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 2,
+        "template_image": 2,
+        "flags": -1,
+        "mode": 2
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    },
+    {
+      "case": {
+        "kind": "capture",
+        "new_image": 2,
+        "template_image": 2,
+        "flags": -1,
+        "mode": 3
+      },
+      "original": "prepare 0\ntemplate 24 errno 123\nblob 76810 2 0000000000000000000000000000000000000000\nlookup 0\n"
+    }
+  ]
+}

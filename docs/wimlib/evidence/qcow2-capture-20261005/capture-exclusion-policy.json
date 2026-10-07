@@ -1,0 +1,154 @@
+{
+  "purpose": "Versioned fresh Windows Setup capture policy; not Microsoft default exclusions.",
+  "versions": [
+    {
+      "version": "windows-setup-capture-v1",
+      "rules": [
+        {
+          "path": "pagefile.sys",
+          "match": "rooted-component-prefix",
+          "case_comparison": "ASCII case folding over UTF-16 code units; no volume $UpCase table"
+        },
+        {
+          "path": "swapfile.sys",
+          "match": "rooted-component-prefix",
+          "case_comparison": "ASCII case folding over UTF-16 code units; no volume $UpCase table"
+        },
+        {
+          "path": "hiberfil.sys",
+          "match": "rooted-component-prefix",
+          "case_comparison": "ASCII case folding over UTF-16 code units; no volume $UpCase table"
+        },
+        {
+          "path": "System Volume Information",
+          "match": "rooted-component-prefix",
+          "case_comparison": "ASCII case folding over UTF-16 code units; no volume $UpCase table"
+        },
+        {
+          "path": "$Recycle.Bin",
+          "match": "rooted-component-prefix",
+          "case_comparison": "ASCII case folding over UTF-16 code units; no volume $UpCase table"
+        },
+        {
+          "path": "Windows/CSC",
+          "match": "rooted-component-prefix",
+          "case_comparison": "ASCII case folding over UTF-16 code units; no volume $UpCase table"
+        }
+      ],
+      "capture_reports": [
+        "capture-report.setup-failed.json",
+        "capture-report.answer-collision.json"
+      ],
+      "producer_sha256": null,
+      "producer_evidence": "Historical producer checksum not retained here; policy reconstructed from immutable capture reports."
+    },
+    {
+      "version": "windows-setup-capture-v2",
+      "rules": [
+        {
+          "path": "pagefile.sys",
+          "match": "rooted-component-prefix",
+          "case_comparison": "ASCII case folding over UTF-16 code units; no volume $UpCase table"
+        },
+        {
+          "path": "swapfile.sys",
+          "match": "rooted-component-prefix",
+          "case_comparison": "ASCII case folding over UTF-16 code units; no volume $UpCase table"
+        },
+        {
+          "path": "hiberfil.sys",
+          "match": "rooted-component-prefix",
+          "case_comparison": "ASCII case folding over UTF-16 code units; no volume $UpCase table"
+        },
+        {
+          "path": "System Volume Information",
+          "match": "rooted-component-prefix",
+          "case_comparison": "ASCII case folding over UTF-16 code units; no volume $UpCase table"
+        },
+        {
+          "path": "$Recycle.Bin",
+          "match": "rooted-component-prefix",
+          "case_comparison": "ASCII case folding over UTF-16 code units; no volume $UpCase table"
+        },
+        {
+          "path": "Windows/CSC",
+          "match": "rooted-component-prefix",
+          "case_comparison": "ASCII case folding over UTF-16 code units; no volume $UpCase table"
+        },
+        {
+          "path": "Windows/Panther/unattend.xml",
+          "match": "exact-rooted-path",
+          "case_comparison": "ASCII case folding over UTF-16 code units; no volume $UpCase table"
+        },
+        {
+          "path": "Windows/Panther/unattend-original.xml",
+          "match": "exact-rooted-path",
+          "case_comparison": "ASCII case folding over UTF-16 code units; no volume $UpCase table"
+        }
+      ],
+      "capture_reports": [
+        "capture-report.windows-old-collision.json"
+      ],
+      "producer_sha256": null,
+      "producer_evidence": "Historical producer checksum not retained here; policy reconstructed from immutable capture reports."
+    },
+    {
+      "version": "windows-setup-capture-v3",
+      "rules": [
+        {
+          "path": "pagefile.sys",
+          "match": "rooted-component-prefix",
+          "case_comparison": "ASCII case folding over UTF-16 code units; no volume $UpCase table"
+        },
+        {
+          "path": "swapfile.sys",
+          "match": "rooted-component-prefix",
+          "case_comparison": "ASCII case folding over UTF-16 code units; no volume $UpCase table"
+        },
+        {
+          "path": "hiberfil.sys",
+          "match": "rooted-component-prefix",
+          "case_comparison": "ASCII case folding over UTF-16 code units; no volume $UpCase table"
+        },
+        {
+          "path": "System Volume Information",
+          "match": "rooted-component-prefix",
+          "case_comparison": "ASCII case folding over UTF-16 code units; no volume $UpCase table"
+        },
+        {
+          "path": "$Recycle.Bin",
+          "match": "rooted-component-prefix",
+          "case_comparison": "ASCII case folding over UTF-16 code units; no volume $UpCase table"
+        },
+        {
+          "path": "Windows/CSC",
+          "match": "rooted-component-prefix",
+          "case_comparison": "ASCII case folding over UTF-16 code units; no volume $UpCase table"
+        },
+        {
+          "path": "Windows.old",
+          "match": "rooted-component-prefix",
+          "case_comparison": "ASCII case folding over UTF-16 code units; no volume $UpCase table"
+        },
+        {
+          "path": "Windows/Panther/unattend.xml",
+          "match": "exact-rooted-path",
+          "case_comparison": "ASCII case folding over UTF-16 code units; no volume $UpCase table"
+        },
+        {
+          "path": "Windows/Panther/unattend-original.xml",
+          "match": "exact-rooted-path",
+          "case_comparison": "ASCII case folding over UTF-16 code units; no volume $UpCase table"
+        }
+      ],
+      "capture_reports": [
+        "capture-report.explicit-fifth-input.json",
+        "capture-report.selected-recovery-positive.json"
+      ],
+      "producer_sha256": "de73aac10d0a9fd2283483c6139452808b93f0bbcf8d74e31e9e7840a87be287",
+      "producer_evidence": "/data/cache/qcow2-capture-positive-20261005/producer-final.json"
+    }
+  ],
+  "source_preservation": "Rules filter read-only source traversal; source files are never deleted.",
+  "hibernation": "Source hibernation/fast-startup is rejected before filtering; excluding hiberfil.sys is not permission to capture hibernated Windows."
+}

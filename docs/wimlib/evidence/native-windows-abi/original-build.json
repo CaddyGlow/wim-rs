@@ -1,0 +1,30 @@
+{
+  "scope": "Original Windows oracle implementation/header unchanged; disposable build copy inherited two modified Linux test runners, neither built or executed",
+  "source_commit": "cd5e231c348c255ae5088873b5a66ee0eb96fa07",
+  "tracked_files_compared": 275,
+  "different_inherited_test_scripts": [
+    "tests/test-imagex-capture_and_apply",
+    "tests/test-imagex-ntfs"
+  ],
+  "implementation_header_changes": [],
+  "header_sha256": "3769368886f5efc0e62ae2ecd7270697c57e21639b35808f70def87cec9dadc6",
+  "dll_sha256": "fc740013e9ae9dee84fbe8ee47bb09dbeb7b3a535c2882e90764d66fa4a1c209",
+  "dll_path": "/tmp/wimlib-windows-oracle/.libs/libwim-15.dll",
+  "dll_imports": [
+    "ADVAPI32.dll",
+    "KERNEL32.dll",
+    "msvcrt.dll",
+    "ntdll.dll",
+    "USER32.dll"
+  ],
+  "configure_options": [
+    "--host=x86_64-w64-mingw32",
+    "--without-fuse",
+    "--without-ntfs-3g",
+    "--disable-static",
+    "--enable-shared"
+  ],
+  "compiler": "/nix/store/lpp6p3im2kx8drha091yxhbpv0nvrdpa-x86_64-w64-mingw32-gcc-wrapper-15.3.0/bin/x86_64-w64-mingw32-gcc",
+  "extra_library_path": "/nix/store/s1bvib8va2pimdzy1mzfq605amd83gdc-mcfgthread-x86_64-w64-mingw32-2.3.2/lib",
+  "caller_crt": "Original matching MinGW/MSVCRT caller, native matching MSVC/UCRT caller"
+}

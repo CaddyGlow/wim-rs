@@ -1,0 +1,84 @@
+{
+  "status": "capture_failed_no_wim_published; bounded_read_optimization_in_progress",
+  "producer": "298411947b9445f3a29fb9547b42df84c796f60b67345f5cdfa1a39ffd97082a",
+  "capture_exit": 1,
+  "published_wim_exists": false,
+  "remaining_temporary_outputs": [],
+  "original_abi_error": "WIM operation failed (50): Could not read data from a file",
+  "replay_original": {
+    "pass": 1,
+    "stream_index": 61951,
+    "logical_bytes_before_failure": 6146278493,
+    "failure": "work exceeds configured parser limit 16777216"
+  },
+  "replay_mapping_cache": {
+    "pass": 1,
+    "stream_index": 66143,
+    "logical_bytes_before_failure": 6922490812,
+    "failure": "cache exceeds configured parser limit 536870912"
+  },
+  "replay_mapping_cache_and_eof_release": {
+    "first_pass": {
+      "unique_streams": 97547,
+      "logical_bytes": 16782130403,
+      "metadata_bytes": 1520798999,
+      "live_cache_bytes": 415238812,
+      "work_items": 13539808,
+      "decompressed_bytes": 12220116893
+    },
+    "second_pass": {
+      "stream_index": 66555,
+      "logical_bytes_before_failure": 7002226560,
+      "failure": "work exceeds configured parser limit 16777216"
+    }
+  },
+  "limits_raised": false,
+  "source_preservation": [
+    {
+      "path": "/data/cache/qcow2-source-prepared-1005-v2/vm-state/overlay.qcow2",
+      "sha256": "bf7bc3cecfb9d696c82f0869cd8f3c04c74bd644648c690405132399f4091a0a",
+      "unchanged": true
+    },
+    {
+      "path": "/home/rick/projects-caddy/windows-uup/vm-state/qcow2-source-1005/overlay.qcow2",
+      "sha256": "cfa75f1df1c0328f2ef19e0752678a6714d67ed0787c75626d7d2f8cfebb5762",
+      "unchanged": true
+    },
+    {
+      "path": "/home/rick/.vm-base/win11-secure/disk.qcow2",
+      "sha256": "35299ad09fb946d45374f9637ccc4344acb3488b482d9571854d007b666b2abe",
+      "unchanged": true
+    }
+  ],
+  "next_gate": "Complete bounded two-pass replay and new pinned native WIM capture before Setup boot",
+  "logs": {
+    "capture.log": {
+      "path": "/data/cache/qcow2-capture-sixth-20261005/capture.log",
+      "sha256": "d407a1075f32286c842f003677214216fae02d4bafb9698de17b802d2af208af"
+    },
+    "invocation.json": {
+      "path": "/data/cache/qcow2-capture-sixth-20261005/invocation.json",
+      "sha256": "9f68d140a04a71856931ac96b130b774d6395e89a1f8d8caeeff063ed97fbacc"
+    },
+    "capture-exit.json": {
+      "path": "/data/cache/qcow2-capture-sixth-20261005/capture-exit.json",
+      "sha256": "5cc319f54b05a38799195a491c303aa686eab7caccfdbbf1e8b8c07405cb7392"
+    },
+    "replay-streams.log": {
+      "path": "/data/cache/qcow2-capture-sixth-20261005/replay-streams.log",
+      "sha256": "a54398a8d81fdeec143683a20c8f3a4eddd1024513fcaade4942df173c2d384d"
+    },
+    "replay-streams-cached.log": {
+      "path": "/data/cache/qcow2-capture-sixth-20261005/replay-streams-cached.log",
+      "sha256": "70d5fc6e909bdd58ca90117c20ee21b24c27c47f5639e8f9de01d5f794e4e3c9"
+    },
+    "replay-streams-cached-eof.log": {
+      "path": "/data/cache/qcow2-capture-sixth-20261005/replay-streams-cached-eof.log",
+      "sha256": "960be676badcb6cde65a5c561037dc0f3d4314773e197522d60847bbfe4c3f1d"
+    },
+    "replay-source-preservation.json": {
+      "path": "/data/cache/qcow2-capture-sixth-20261005/replay-source-preservation.json",
+      "sha256": "450d23addc31b64ed28955882800404c79a5b0d827082d15e3eecfe2a9f75b9a"
+    }
+  }
+}

@@ -1,0 +1,402 @@
+   Compiling wim-codec v0.1.0 (/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/wim-codec)
+   Compiling wim-ffi v0.1.0 (/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/wim-ffi)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 6.46s
+     Running unittests src/lib.rs (crates/wimlib-rs/target/debug/deps/wim_codec-7cdd579068c22680)
+
+running 10 tests
+test lzms::tests::backwards_words_supply_high_bits_first_and_zero_pad_exhaustion ... ok
+test lzms::tests::delta_copy_overlaps_with_bytewise_wrapping_arithmetic ... ok
+test lzms::tests::delta_copy_power_scales_both_offset_and_span ... ok
+test lzms::tests::delta_copy_rejects_overflow_underrun_and_output_overrun ... ok
+test lzms::tests::repeat_queues_delay_new_source_for_all_three_indices ... ok
+test lzms::tests::unrepresentable_allocation_returns_recoverable_error ... ok
+test xpress_encode::tests::single_symbol_uses_complete_two_symbol_tree ... ok
+test xpress_encode::tests::pathological_huffman_depth_has_complete_bounded_fallback ... ok
+test lzms::tests::x86_filter_ignores_first_byte_and_last_sixteen_bytes ... ok
+test lzms::tests::bounded_huffman_lengths_match_original_c_for_deep_fibonacci_tree ... ok
+
+test result: ok. 10 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s
+
+     Running tests/context.rs (crates/wimlib-rs/target/debug/deps/context-ffdc3d9cd48d2432)
+
+running 5 tests
+test compressor_defaults_resolve_zero_and_preserve_raw_default_bits ... ok
+test reused_decoder_recovers_after_oversize_and_malformed_calls ... ok
+test contexts_validate_each_codec_limit_and_numeric_type ... ok
+test safe_codec_contexts_remain_send_sync_and_transfer_between_threads ... ok
+test fixed_strategy_handles_reuse_all_three_codecs_without_mutating_input ... ok
+
+test result: ok. 5 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.04s
+
+     Running tests/decode_allocations.rs (crates/wimlib-rs/target/debug/deps/decode_allocations-b04c22a6d61aefb3)
+
+running 2 tests
+test reusable_lzms_success_and_failures_allocate_nothing ... ok
+test every_lzms_workspace_allocation_failure_is_recoverable ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.06s
+
+     Running tests/differential.rs (crates/wimlib-rs/target/debug/deps/differential-b6095d69a545b770)
+
+running 1 test
+test native_decoder_matches_original_c_on_valid_corrupted_and_truncated_blocks ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.19s
+
+     Running tests/lzms.rs (crates/wimlib-rs/target/debug/deps/lzms-ca70c2d18a4a1b78)
+
+running 4 tests
+test decoder_rejects_odd_sized_and_short_blocks ... ok
+test empty_output_still_requires_valid_word_stream_structure ... ok
+test tiny_output_alphabets_reject_match_sources_before_output ... ok
+test tiny_output_alphabets_decode_literals_without_upstream_zero_symbol_crash ... ok
+
+test result: ok. 4 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.11s
+
+     Running tests/lzms_differential.rs (crates/wimlib-rs/target/debug/deps/lzms_differential-8a21e0b314774f1a)
+
+running 1 test
+test native_decoder_matches_original_c_on_valid_corrupted_and_truncated_blocks ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 6.83s
+
+     Running tests/lzms_encode.rs (crates/wimlib-rs/target/debug/deps/lzms_encode-39751707e1f74647)
+
+running 6 tests
+test capacity_and_short_input_are_rejected ... ok
+test arithmetic_ramp_uses_delta_matches ... ok
+test random_literals_rebuild_adaptive_codes ... ok
+test real_matches_roundtrip_and_compress ... ok
+test long_length_slot_and_exact_capacity_roundtrip ... ok
+test delta_spans_and_x86_preprocessing_roundtrip ... ok
+
+test result: ok. 6 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.11s
+
+     Running tests/lzx.rs (crates/wimlib-rs/target/debug/deps/lzx-3729e30bc63d21fb)
+
+running 32 tests
+test all_extended_window_orders_use_24_bit_block_sizes ... ok
+test block_larger_than_requested_output_is_rejected ... ok
+test e8_does_not_process_instruction_starting_in_last_ten_bytes ... ok
+test aligned_offset_symbol_supplies_low_three_offset_bits ... ok
+test e8_inverse_compensates_negative_target_in_valid_range ... ok
+test e8_inverse_transforms_absolute_target_to_relative ... ok
+test empty_output_succeeds_without_reading_any_header ... ok
+test identical_length_run_rejects_precode_symbol_above_seventeen ... ok
+test invalid_maximum_capacity_is_rejected ... ok
+test aligned_empty_tables_emit_zeroes_using_bit_padding ... ok
+test explicit_offset_slot_three_matches_previous_literal ... ok
+test identical_length_runs_decode_delta_from_first_previous_length ... ok
+test missing_final_odd_padding_byte_is_permitted ... ok
+test long_zero_runs_allow_documented_fifty_length_scratch_overrun ... ok
+test length_header_seven_reads_empty_length_code_as_zero ... ok
+test huffman_lengths_are_delta_encoded_against_previous_block ... ok
+test output_beyond_capacity_is_rejected_before_reading_input ... ok
+test match_cannot_cross_its_block_end ... ok
+test missing_header_zero_padding_yields_invalid_block_type ... ok
+test non_power_of_two_capacity_rounds_window_up ... ok
+test repeated_offset_one_slot_uses_initial_offset_one ... ok
+test uncompressed_block_copies_literal_bytes ... ok
+test short_zero_runs_allow_documented_code_length_scratch_overrun ... ok
+test repeated_offset_two_does_not_demote_recent_offset_one ... ok
+test repeated_offset_two_slot_uses_initial_offset_one ... ok
+test repeated_offset_zero_slot_uses_initial_offset_one ... ok
+test uncompressed_literals_are_not_zero_padded ... ok
+test zero_maximum_capacity_is_rejected ... ok
+test uncompressed_header_already_aligned_discards_an_extra_coding_word ... ok
+test zero_recent_offset_is_rejected ... ok
+test verbatim_empty_tables_emit_zeroes_using_bit_padding ... ok
+test verbatim_seventeen_bit_offset_reads_across_coding_word_boundary ... ok
+
+test result: ok. 32 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/lzx_differential.rs (crates/wimlib-rs/target/debug/deps/lzx_differential-5460034630478c2d)
+
+running 1 test
+test native_lzx_matches_original_c_for_all_windows_and_malformed_blocks ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 1.09s
+
+     Running tests/lzx_encode.rs (crates/wimlib-rs/target/debug/deps/lzx_encode-7ca763b73529c9e2)
+
+running 6 tests
+test validates_configuration_and_empty_input ... ok
+test e8_relative_targets_roundtrip_and_preserve_input ... ok
+test matches_compress_repetition_substantially ... ok
+test output_capacity_accepts_exact_size_and_rejects_one_less ... ok
+test literals_roundtrip_all_byte_values_and_small_sizes ... ok
+test large_window_and_far_offsets_roundtrip ... ok
+
+test result: ok. 6 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.02s
+
+     Running tests/xpress.rs (crates/wimlib-rs/target/debug/deps/xpress-2c1cbff2fca09efe)
+
+running 20 tests
+test byte_length_extension_is_after_prefetched_coding_words ... ok
+test complete_header_is_required_even_for_empty_output ... ok
+test empty_output_accepts_empty_huffman_code ... ok
+test decodes_literal_without_end_marker ... ok
+test empty_huffman_table_decodes_zero_literals_without_consuming_bits ... ok
+test match_before_any_literals_is_rejected ... ok
+test incomplete_final_coding_word_is_ignored_like_original ... ok
+test incomplete_nonempty_huffman_code_is_rejected ... ok
+test maximum_fifteen_bit_codeword_decodes_correctly ... ok
+test match_past_output_end_is_rejected ... ok
+test missing_length_extension_byte_is_zero_padded ... ok
+test missing_u16_length_extension_is_zero_padded ... ok
+test oversubscribed_huffman_code_is_rejected_even_for_empty_output ... ok
+test overlapping_offset_one_match_repeats_previous_literal ... ok
+test nonoverlapping_offset_three_match_copies_prefix ... ok
+test overlapping_offset_two_match_repeats_two_literals ... ok
+test reads_little_endian_words_with_most_significant_bit_first ... ok
+test trailing_data_is_not_required_to_be_end_marker ... ok
+test u16_length_extension_replaces_both_short_length_fields ... ok
+test maximum_u16_length_extension_is_bounded_by_output ... ok
+
+test result: ok. 20 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/xpress_encode.rs (crates/wimlib-rs/target/debug/deps/xpress_encode-1d4107cf481f600a)
+
+running 8 tests
+test block_above_xpress_limit_is_rejected ... ok
+test insufficient_capacity_has_no_partial_output ... ok
+test short_input_has_no_compressed_block ... ok
+test random_bytes_expand_when_capacity_permits ... ok
+test capacity_requires_two_trailing_bytes_after_output ... ok
+test periodic_binary_data_roundtrips_and_compresses ... ok
+test overlapping_long_matches_roundtrip ... ok
+test generated_low_entropy_inputs_roundtrip ... ok
+
+test result: ok. 8 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.04s
+
+     Running unittests src/lib.rs (crates/wimlib-rs/target/debug/deps/wim-a7817a07da527f46)
+
+running 14 tests
+test memory::tests::invalid_query_parameters_return_zero_without_allocating ... ok
+test memory::tests::lzms_estimate_changes_at_suffix_array_and_interval_width_thresholds ... ok
+test memory::tests::xpress_estimate_changes_at_near_optimal_threshold ... ok
+test progress::tests::byte_progress_threshold_tracks_original_terminal_and_gib_rules ... ok
+test memory::tests::lzx_estimate_changes_at_fast_level_and_position_width_thresholds ... ok
+test progress::tests::dispatcher_preserves_context_and_maps_every_callback_status ... ok
+test progress::tests::selected_structures_match_original_64_bit_layout ... ok
+test properties::tests::cached_getter_storage_survives_other_cache_insertions_and_failed_mutations ... ok
+test properties::tests::platform_text_supports_utf8_names_and_tracks_indexed_paths ... ok
+test properties::tests::property_validation_precedes_image_validation_and_empty_values_delete ... ok
+test tests::version_uses_original_bit_layout ... ok
+test tests::static_strings_preserve_lifetime_and_sparse_error_values ... ok
+test text_file::tests::bom_and_initial_ascii_nul_detection_match_original ... ok
+test text_file::tests::unix_utf8_copy_keeps_invalid_bytes_and_embedded_nuls ... ok
+
+test result: ok. 14 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/compress.rs (crates/wimlib-rs/target/debug/deps/compress-e51ad55804bc3137)
+
+running 2 tests
+test compressor_factory_preserves_output_pointer_on_validation_failure ... ok
+test compressor_reuses_handle_after_capacity_and_maximum_failures ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.02s
+
+     Running tests/compress_allocation.rs (crates/wimlib-rs/target/debug/deps/compress_allocation-57efd65f55850f24)
+
+running 1 test
+test factory_maps_every_workspace_and_handle_allocation_failure_to_nomem ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.22s
+
+     Running tests/decompress.rs (crates/wimlib-rs/target/debug/deps/decompress-8aa5e444ba342436)
+
+running 2 tests
+test factory_preserves_failed_output_and_prioritizes_invalid_codec ... ok
+test oversized_request_does_not_dereference_null_buffers ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/decompress_allocation.rs (crates/wimlib-rs/target/debug/deps/decompress_allocation-232c738ee963a668)
+
+running 1 test
+test factory_maps_every_workspace_and_handle_allocation_failure_to_nomem ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.09s
+
+     Running tests/dir_tree.rs (crates/wimlib-rs/target/debug/deps/dir_tree-845bffa8231002bf)
+
+running 3 tests
+test resources_needed_checks_skipped_parent_before_children_callback ... ok
+test callback_nonzero_result_stops_before_later_children ... ok
+test children_and_recursive_flags_preserve_absolute_paths_and_preorder ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/export.rs (crates/wimlib-rs/target/debug/deps/export-93dc7804b6206e19)
+
+running 6 tests
+test invalid_flags_and_empty_same_handle_exports_follow_validation_order ... ok
+test repeated_and_round_trip_exports_reject_shared_image_identity ... ok
+test exported_pending_metadata_survives_source_release ... ok
+test invalid_export_name_leaves_destination_unchanged ... ok
+test export_suppression_boot_and_wimboot_flags_change_owned_xml ... ok
+test writing_one_export_owner_materializes_the_same_root_in_every_owner ... ok
+
+test result: ok. 6 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/extract.rs (crates/wimlib-rs/target/debug/deps/extract-2264312dd251d0eb)
+
+running 5 tests
+test pending_rootless_image_fails_path_lookup_while_empty_selection_has_no_output ... ok
+test existing_parent_symlink_is_rejected_without_writing_outside_target ... ok
+test utf16_pathlist_selects_quoted_paths_and_ignores_comments ... ok
+test exported_image_extracts_sparse_hardlinks_after_source_and_backing_are_removed ... ok
+test selected_paths_preserve_ancestors_and_flatten_selected_hardlink_aliases ... ok
+
+test result: ok. 5 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s
+
+     Running tests/handles.rs (crates/wimlib-rs/target/debug/deps/handles-5e74e7c385544d00)
+
+running 3 tests
+test create_failure_preserves_output_and_parameter_precedence ... ok
+test invalid_open_preserves_output ... ok
+test new_handles_keep_input_and_output_compression_separate ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/image_mutation.rs (crates/wimlib-rs/target/debug/deps/image_mutation-55cd185c9eff453a)
+
+running 3 tests
+test invalid_name_does_not_append_an_image_or_change_index ... ok
+test empty_image_owns_a_real_security_table_and_null_root ... ok
+test empty_image_deletion_aligns_xml_owned_images_and_boot_index ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/image_owners.rs (crates/wimlib-rs/target/debug/deps/image_owners-68fabe22be7fff16)
+
+running 1 test
+test exported_image_owner_count_tracks_reexport_delete_and_handle_release ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/info.rs (crates/wimlib-rs/target/debug/deps/info-7cbe736963932aae)
+
+running 3 tests
+test integrity_presence_uses_header_offset_not_resource_size ... ok
+test wim_info_has_original_layout_and_masked_mutations_are_atomic ... ok
+test output_compression_settings_repair_chunks_and_preserve_input_info ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/lookup.rs (crates/wimlib-rs/target/debug/deps/lookup-8a57fa607aaf82c0)
+
+running 2 tests
+test invalid_lookup_flags_are_rejected_before_handle_access ... ok
+test resource_entry_matches_host_c_layout ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/lookup_allocations.rs (crates/wimlib-rs/target/debug/deps/lookup_allocations-8c651119143237d3)
+
+running 1 test
+test repeated_lookup_iteration_allocates_nothing ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/open_progress.rs (crates/wimlib-rs/target/debug/deps/open_progress-e65dfdc78d6356cf)
+
+running 2 tests
+test callback_abort_and_unknown_status_leave_output_unchanged ... ok
+test successful_open_reports_chunks_and_retains_borrowed_registration ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/overwrite.rs (crates/wimlib-rs/target/debug/deps/overwrite-553268c3c36d8877)
+
+running 3 tests
+test append_conflicting_lock_returns_already_locked_without_changing_file ... ok
+test append_updates_xml_without_replacing_original_inode_or_blob_table ... ok
+test abort_after_atomic_rename_keeps_committed_rebuild_and_reports_abort ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.02s
+
+     Running tests/references.rs (crates/wimlib-rs/target/debug/deps/references-72b503e853642c64)
+
+running 3 tests
+test null_entry_validation_precedes_any_handle_reference_changes ... ok
+test handle_references_keep_data_after_source_release_and_do_not_import_images ... ok
+test file_reference_failure_rolls_back_new_resources_and_success_keeps_snapshot ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/split_join.rs (crates/wimlib-rs/target/debug/deps/split_join-cafa840ae8e0a7eb)
+
+running 2 tests
+test split_and_join_validate_empty_names_sizes_and_part_counts ... ok
+test split_filenames_and_reverse_join_preserve_content_and_current_xml ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.02s
+
+     Running tests/text_file.rs (crates/wimlib-rs/target/debug/deps/text_file-fbb8e96a51da4236)
+
+running 2 tests
+test malformed_utf16_keeps_both_output_parameters_unchanged ... ok
+test output_length_counts_embedded_nuls_and_c_free_releases_the_allocation ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/verify.rs (crates/wimlib-rs/target/debug/deps/verify-3df4426a90fa16b7)
+
+running 1 test
+test verify_rejects_invalid_arguments_and_accepts_empty_wim ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/write.rs (crates/wimlib-rs/target/debug/deps/write-b8ad75bb738d2d44)
+
+running 3 tests
+test write_rejects_invalid_arguments_before_touching_output ... ok
+test write_to_nonseekable_descriptor_requires_pipable_and_preserves_descriptor_ownership ... ok
+test buffered_writer_persists_pending_empty_images_with_independent_solid_settings ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.03s
+
+     Running tests/write_progress.rs (crates/wimlib-rs/target/debug/deps/write_progress-0430d317c6252ad0)
+
+running 3 tests
+test metadata_abort_preserves_original_materialization_and_partial_file_boundaries ... ok
+test unregister_during_initial_stream_event_keeps_snapshot_until_phase_returns ... ok
+test only_dirty_metadata_refreshes_statistics_before_writing ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s
+
+     Running tests/xml_data.rs (crates/wimlib-rs/target/debug/deps/xml_data-35b6183417bd992c)
+
+running 1 test
+test new_handle_xml_returns_empty_original_resource_and_validates_outputs ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src/lib.rs (crates/wimlib-rs/target/debug/deps/wim_memory-30ffec5be2a3c233)
+
+running 2 tests
+test tests::default_rust_storage_rejects_unrepresentable_lengths ... ok
+test tests::callback_storage_initializes_reuses_and_frees_without_extra_allocation ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests wim_codec
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests wim
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests wim_memory
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

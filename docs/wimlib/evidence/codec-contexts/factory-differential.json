@@ -1,0 +1,796 @@
+{
+  "source_commit": "cd5e231c348c255ae5088873b5a66ee0eb96fa07",
+  "scope": "factory configuration validation; compressor creation allocations not reproduced; boundary memory values recorded, not matched",
+  "cases": [
+    {
+      "codec": -2,
+      "maximum": 0,
+      "level": 0,
+      "decoder": 16,
+      "compressor_config": 16
+    },
+    {
+      "codec": -2,
+      "maximum": 0,
+      "level": 16777216,
+      "decoder": 16,
+      "compressor_config": 16
+    },
+    {
+      "codec": -2,
+      "maximum": 1,
+      "level": 0,
+      "decoder": 16,
+      "compressor_config": 16
+    },
+    {
+      "codec": -2,
+      "maximum": 1,
+      "level": 16777216,
+      "decoder": 16,
+      "compressor_config": 16
+    },
+    {
+      "codec": -1,
+      "maximum": 0,
+      "level": 0,
+      "decoder": 16,
+      "compressor_config": 16
+    },
+    {
+      "codec": -1,
+      "maximum": 0,
+      "level": 16777216,
+      "decoder": 16,
+      "compressor_config": 16
+    },
+    {
+      "codec": -1,
+      "maximum": 1,
+      "level": 0,
+      "decoder": 16,
+      "compressor_config": 16
+    },
+    {
+      "codec": -1,
+      "maximum": 1,
+      "level": 16777216,
+      "decoder": 16,
+      "compressor_config": 16
+    },
+    {
+      "codec": 0,
+      "maximum": 0,
+      "level": 0,
+      "decoder": 16,
+      "compressor_config": 16
+    },
+    {
+      "codec": 0,
+      "maximum": 0,
+      "level": 16777216,
+      "decoder": 16,
+      "compressor_config": 16
+    },
+    {
+      "codec": 0,
+      "maximum": 1,
+      "level": 0,
+      "decoder": 16,
+      "compressor_config": 16
+    },
+    {
+      "codec": 0,
+      "maximum": 1,
+      "level": 16777216,
+      "decoder": 16,
+      "compressor_config": 16
+    },
+    {
+      "codec": 4,
+      "maximum": 0,
+      "level": 0,
+      "decoder": 16,
+      "compressor_config": 16
+    },
+    {
+      "codec": 4,
+      "maximum": 0,
+      "level": 16777216,
+      "decoder": 16,
+      "compressor_config": 16
+    },
+    {
+      "codec": 4,
+      "maximum": 1,
+      "level": 0,
+      "decoder": 16,
+      "compressor_config": 16
+    },
+    {
+      "codec": 4,
+      "maximum": 1,
+      "level": 16777216,
+      "decoder": 16,
+      "compressor_config": 16
+    },
+    {
+      "codec": 2147483647,
+      "maximum": 0,
+      "level": 0,
+      "decoder": 16,
+      "compressor_config": 16
+    },
+    {
+      "codec": 2147483647,
+      "maximum": 0,
+      "level": 16777216,
+      "decoder": 16,
+      "compressor_config": 16
+    },
+    {
+      "codec": 2147483647,
+      "maximum": 1,
+      "level": 0,
+      "decoder": 16,
+      "compressor_config": 16
+    },
+    {
+      "codec": 2147483647,
+      "maximum": 1,
+      "level": 16777216,
+      "decoder": 16,
+      "compressor_config": 16
+    },
+    {
+      "codec": 1,
+      "maximum": 0,
+      "level": 0,
+      "decoder": 24,
+      "compressor_config": 24
+    },
+    {
+      "codec": 1,
+      "maximum": 0,
+      "level": 1,
+      "decoder": 24,
+      "compressor_config": 24
+    },
+    {
+      "codec": 1,
+      "maximum": 0,
+      "level": 50,
+      "decoder": 24,
+      "compressor_config": 24
+    },
+    {
+      "codec": 1,
+      "maximum": 0,
+      "level": 16777215,
+      "decoder": 24,
+      "compressor_config": 24
+    },
+    {
+      "codec": 1,
+      "maximum": 0,
+      "level": 16777216,
+      "decoder": 24,
+      "compressor_config": 24
+    },
+    {
+      "codec": 1,
+      "maximum": 0,
+      "level": 2147483648,
+      "decoder": 24,
+      "compressor_config": 24
+    },
+    {
+      "codec": 1,
+      "maximum": 0,
+      "level": 2164260863,
+      "decoder": 24,
+      "compressor_config": 24
+    },
+    {
+      "codec": 1,
+      "maximum": 0,
+      "level": 4294967295,
+      "decoder": 24,
+      "compressor_config": 24
+    },
+    {
+      "codec": 1,
+      "maximum": 1,
+      "level": 0,
+      "decoder": 0,
+      "compressor_config": 0
+    },
+    {
+      "codec": 1,
+      "maximum": 1,
+      "level": 1,
+      "decoder": 0,
+      "compressor_config": 0
+    },
+    {
+      "codec": 1,
+      "maximum": 1,
+      "level": 50,
+      "decoder": 0,
+      "compressor_config": 0
+    },
+    {
+      "codec": 1,
+      "maximum": 1,
+      "level": 16777215,
+      "decoder": 0,
+      "compressor_config": 0
+    },
+    {
+      "codec": 1,
+      "maximum": 1,
+      "level": 16777216,
+      "decoder": 0,
+      "compressor_config": 24
+    },
+    {
+      "codec": 1,
+      "maximum": 1,
+      "level": 2147483648,
+      "decoder": 0,
+      "compressor_config": 0
+    },
+    {
+      "codec": 1,
+      "maximum": 1,
+      "level": 2164260863,
+      "decoder": 0,
+      "compressor_config": 0
+    },
+    {
+      "codec": 1,
+      "maximum": 1,
+      "level": 4294967295,
+      "decoder": 0,
+      "compressor_config": 24
+    },
+    {
+      "codec": 1,
+      "maximum": 65537,
+      "level": 0,
+      "decoder": 24,
+      "compressor_config": 24
+    },
+    {
+      "codec": 1,
+      "maximum": 65537,
+      "level": 1,
+      "decoder": 24,
+      "compressor_config": 24
+    },
+    {
+      "codec": 1,
+      "maximum": 65537,
+      "level": 50,
+      "decoder": 24,
+      "compressor_config": 24
+    },
+    {
+      "codec": 1,
+      "maximum": 65537,
+      "level": 16777215,
+      "decoder": 24,
+      "compressor_config": 24
+    },
+    {
+      "codec": 1,
+      "maximum": 65537,
+      "level": 16777216,
+      "decoder": 24,
+      "compressor_config": 24
+    },
+    {
+      "codec": 1,
+      "maximum": 65537,
+      "level": 2147483648,
+      "decoder": 24,
+      "compressor_config": 24
+    },
+    {
+      "codec": 1,
+      "maximum": 65537,
+      "level": 2164260863,
+      "decoder": 24,
+      "compressor_config": 24
+    },
+    {
+      "codec": 1,
+      "maximum": 65537,
+      "level": 4294967295,
+      "decoder": 24,
+      "compressor_config": 24
+    },
+    {
+      "codec": 2,
+      "maximum": 0,
+      "level": 0,
+      "decoder": 24,
+      "compressor_config": 24
+    },
+    {
+      "codec": 2,
+      "maximum": 0,
+      "level": 1,
+      "decoder": 24,
+      "compressor_config": 24
+    },
+    {
+      "codec": 2,
+      "maximum": 0,
+      "level": 50,
+      "decoder": 24,
+      "compressor_config": 24
+    },
+    {
+      "codec": 2,
+      "maximum": 0,
+      "level": 16777215,
+      "decoder": 24,
+      "compressor_config": 24
+    },
+    {
+      "codec": 2,
+      "maximum": 0,
+      "level": 16777216,
+      "decoder": 24,
+      "compressor_config": 24
+    },
+    {
+      "codec": 2,
+      "maximum": 0,
+      "level": 2147483648,
+      "decoder": 24,
+      "compressor_config": 24
+    },
+    {
+      "codec": 2,
+      "maximum": 0,
+      "level": 2164260863,
+      "decoder": 24,
+      "compressor_config": 24
+    },
+    {
+      "codec": 2,
+      "maximum": 0,
+      "level": 4294967295,
+      "decoder": 24,
+      "compressor_config": 24
+    },
+    {
+      "codec": 2,
+      "maximum": 1,
+      "level": 0,
+      "decoder": 0,
+      "compressor_config": 0
+    },
+    {
+      "codec": 2,
+      "maximum": 1,
+      "level": 1,
+      "decoder": 0,
+      "compressor_config": 0
+    },
+    {
+      "codec": 2,
+      "maximum": 1,
+      "level": 50,
+      "decoder": 0,
+      "compressor_config": 0
+    },
+    {
+      "codec": 2,
+      "maximum": 1,
+      "level": 16777215,
+      "decoder": 0,
+      "compressor_config": 0
+    },
+    {
+      "codec": 2,
+      "maximum": 1,
+      "level": 16777216,
+      "decoder": 0,
+      "compressor_config": 24
+    },
+    {
+      "codec": 2,
+      "maximum": 1,
+      "level": 2147483648,
+      "decoder": 0,
+      "compressor_config": 0
+    },
+    {
+      "codec": 2,
+      "maximum": 1,
+      "level": 2164260863,
+      "decoder": 0,
+      "compressor_config": 0
+    },
+    {
+      "codec": 2,
+      "maximum": 1,
+      "level": 4294967295,
+      "decoder": 0,
+      "compressor_config": 24
+    },
+    {
+      "codec": 2,
+      "maximum": 2097153,
+      "level": 0,
+      "decoder": 24,
+      "compressor_config": 24
+    },
+    {
+      "codec": 2,
+      "maximum": 2097153,
+      "level": 1,
+      "decoder": 24,
+      "compressor_config": 24
+    },
+    {
+      "codec": 2,
+      "maximum": 2097153,
+      "level": 50,
+      "decoder": 24,
+      "compressor_config": 24
+    },
+    {
+      "codec": 2,
+      "maximum": 2097153,
+      "level": 16777215,
+      "decoder": 24,
+      "compressor_config": 24
+    },
+    {
+      "codec": 2,
+      "maximum": 2097153,
+      "level": 16777216,
+      "decoder": 24,
+      "compressor_config": 24
+    },
+    {
+      "codec": 2,
+      "maximum": 2097153,
+      "level": 2147483648,
+      "decoder": 24,
+      "compressor_config": 24
+    },
+    {
+      "codec": 2,
+      "maximum": 2097153,
+      "level": 2164260863,
+      "decoder": 24,
+      "compressor_config": 24
+    },
+    {
+      "codec": 2,
+      "maximum": 2097153,
+      "level": 4294967295,
+      "decoder": 24,
+      "compressor_config": 24
+    },
+    {
+      "codec": 3,
+      "maximum": 0,
+      "level": 0,
+      "decoder": 24,
+      "compressor_config": 24
+    },
+    {
+      "codec": 3,
+      "maximum": 0,
+      "level": 1,
+      "decoder": 24,
+      "compressor_config": 24
+    },
+    {
+      "codec": 3,
+      "maximum": 0,
+      "level": 50,
+      "decoder": 24,
+      "compressor_config": 24
+    },
+    {
+      "codec": 3,
+      "maximum": 0,
+      "level": 16777215,
+      "decoder": 24,
+      "compressor_config": 24
+    },
+    {
+      "codec": 3,
+      "maximum": 0,
+      "level": 16777216,
+      "decoder": 24,
+      "compressor_config": 24
+    },
+    {
+      "codec": 3,
+      "maximum": 0,
+      "level": 2147483648,
+      "decoder": 24,
+      "compressor_config": 24
+    },
+    {
+      "codec": 3,
+      "maximum": 0,
+      "level": 2164260863,
+      "decoder": 24,
+      "compressor_config": 24
+    },
+    {
+      "codec": 3,
+      "maximum": 0,
+      "level": 4294967295,
+      "decoder": 24,
+      "compressor_config": 24
+    },
+    {
+      "codec": 3,
+      "maximum": 1,
+      "level": 0,
+      "decoder": 0,
+      "compressor_config": 0
+    },
+    {
+      "codec": 3,
+      "maximum": 1,
+      "level": 1,
+      "decoder": 0,
+      "compressor_config": 0
+    },
+    {
+      "codec": 3,
+      "maximum": 1,
+      "level": 50,
+      "decoder": 0,
+      "compressor_config": 0
+    },
+    {
+      "codec": 3,
+      "maximum": 1,
+      "level": 16777215,
+      "decoder": 0,
+      "compressor_config": 0
+    },
+    {
+      "codec": 3,
+      "maximum": 1,
+      "level": 16777216,
+      "decoder": 0,
+      "compressor_config": 24
+    },
+    {
+      "codec": 3,
+      "maximum": 1,
+      "level": 2147483648,
+      "decoder": 0,
+      "compressor_config": 0
+    },
+    {
+      "codec": 3,
+      "maximum": 1,
+      "level": 2164260863,
+      "decoder": 0,
+      "compressor_config": 0
+    },
+    {
+      "codec": 3,
+      "maximum": 1,
+      "level": 4294967295,
+      "decoder": 0,
+      "compressor_config": 24
+    },
+    {
+      "codec": 3,
+      "maximum": 1073741825,
+      "level": 0,
+      "decoder": 24,
+      "compressor_config": 24
+    },
+    {
+      "codec": 3,
+      "maximum": 1073741825,
+      "level": 1,
+      "decoder": 24,
+      "compressor_config": 24
+    },
+    {
+      "codec": 3,
+      "maximum": 1073741825,
+      "level": 50,
+      "decoder": 24,
+      "compressor_config": 24
+    },
+    {
+      "codec": 3,
+      "maximum": 1073741825,
+      "level": 16777215,
+      "decoder": 24,
+      "compressor_config": 24
+    },
+    {
+      "codec": 3,
+      "maximum": 1073741825,
+      "level": 16777216,
+      "decoder": 24,
+      "compressor_config": 24
+    },
+    {
+      "codec": 3,
+      "maximum": 1073741825,
+      "level": 2147483648,
+      "decoder": 24,
+      "compressor_config": 24
+    },
+    {
+      "codec": 3,
+      "maximum": 1073741825,
+      "level": 2164260863,
+      "decoder": 24,
+      "compressor_config": 24
+    },
+    {
+      "codec": 3,
+      "maximum": 1073741825,
+      "level": 4294967295,
+      "decoder": 24,
+      "compressor_config": 24
+    }
+  ],
+  "maximum_boundary_cases": [
+    {
+      "codec": 1,
+      "maximum": 65536,
+      "level": 0,
+      "decoder": 0,
+      "original_compressor_memory": 856632,
+      "native_configuration_valid": true
+    },
+    {
+      "codec": 1,
+      "maximum": 65536,
+      "level": 1,
+      "decoder": 0,
+      "original_compressor_memory": 856632,
+      "native_configuration_valid": true
+    },
+    {
+      "codec": 1,
+      "maximum": 65536,
+      "level": 50,
+      "decoder": 0,
+      "original_compressor_memory": 856632,
+      "native_configuration_valid": true
+    },
+    {
+      "codec": 1,
+      "maximum": 65536,
+      "level": 16777215,
+      "decoder": 0,
+      "original_compressor_memory": 6298212,
+      "native_configuration_valid": true
+    },
+    {
+      "codec": 1,
+      "maximum": 65536,
+      "level": 2147483648,
+      "decoder": 0,
+      "original_compressor_memory": 856632,
+      "native_configuration_valid": true
+    },
+    {
+      "codec": 1,
+      "maximum": 65536,
+      "level": 2164260863,
+      "decoder": 0,
+      "original_compressor_memory": 6298212,
+      "native_configuration_valid": true
+    },
+    {
+      "codec": 2,
+      "maximum": 2097152,
+      "level": 0,
+      "decoder": 0,
+      "original_compressor_memory": 24696308,
+      "native_configuration_valid": true
+    },
+    {
+      "codec": 2,
+      "maximum": 2097152,
+      "level": 1,
+      "decoder": 0,
+      "original_compressor_memory": 11324840,
+      "native_configuration_valid": true
+    },
+    {
+      "codec": 2,
+      "maximum": 2097152,
+      "level": 50,
+      "decoder": 0,
+      "original_compressor_memory": 24696308,
+      "native_configuration_valid": true
+    },
+    {
+      "codec": 2,
+      "maximum": 2097152,
+      "level": 16777215,
+      "decoder": 0,
+      "original_compressor_memory": 24696308,
+      "native_configuration_valid": true
+    },
+    {
+      "codec": 2,
+      "maximum": 2097152,
+      "level": 2147483648,
+      "decoder": 0,
+      "original_compressor_memory": 22599156,
+      "native_configuration_valid": true
+    },
+    {
+      "codec": 2,
+      "maximum": 2097152,
+      "level": 2164260863,
+      "decoder": 0,
+      "original_compressor_memory": 22599156,
+      "native_configuration_valid": true
+    },
+    {
+      "codec": 3,
+      "maximum": 1073741824,
+      "level": 0,
+      "decoder": 0,
+      "original_compressor_memory": 13959622172,
+      "native_configuration_valid": true
+    },
+    {
+      "codec": 3,
+      "maximum": 1073741824,
+      "level": 1,
+      "decoder": 0,
+      "original_compressor_memory": 13959622172,
+      "native_configuration_valid": true
+    },
+    {
+      "codec": 3,
+      "maximum": 1073741824,
+      "level": 50,
+      "decoder": 0,
+      "original_compressor_memory": 13959622172,
+      "native_configuration_valid": true
+    },
+    {
+      "codec": 3,
+      "maximum": 1073741824,
+      "level": 16777215,
+      "decoder": 0,
+      "original_compressor_memory": 13959622172,
+      "native_configuration_valid": true
+    },
+    {
+      "codec": 3,
+      "maximum": 1073741824,
+      "level": 2147483648,
+      "decoder": 0,
+      "original_compressor_memory": 12885880348,
+      "native_configuration_valid": true
+    },
+    {
+      "codec": 3,
+      "maximum": 1073741824,
+      "level": 2164260863,
+      "decoder": 0,
+      "original_compressor_memory": 12885880348,
+      "native_configuration_valid": true
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "scope": "isolated instrumented boot; immutable original controls retained",
+  "launcher_terminal_exit": 0,
+  "native_pml_sha256": "178b84e8d0d17857b0dc137d8224d5d38e71d948a7c5d2001fae8763b9604596",
+  "all_csv_events": 816091,
+  "all_native_xml_events": 816091,
+  "successful_extended_setter_events": 1,
+  "process": 2068,
+  "service": "TrkWks",
+  "event_time": "22:20:36.4959853",
+  "first_get": "22:20:40.2800549",
+  "native_stack_trkwks_rvas": [
+    "0xcfab",
+    "0xfdf2",
+    "0xc4a2",
+    "0x51a9",
+    "0x7c8a",
+    "0x1143"
+  ],
+  "timeline_samples": 30,
+  "timeline_get_rows": 90,
+  "extended48_zero_all_samples": true,
+  "input_buffer_capture": "not exposed by CSV or raw stack XML",
+  "symbols": "native module+RVA; no downloaded symbol claim",
+  "dropped_events": "counter not observed; no zero-drop claim",
+  "no_service_disable_or_existing_objectid_setter": true,
+  "proofs": [
+    {
+      "path": "/data/cache/qcow2-object-id-boottrace-20261006/branch-preparation.json",
+      "sha256": "5e737a1d6227bad1b7b103fcbb9f2f071cd1df4b3817dec7071122bed9295634"
+    },
+    {
+      "path": "/data/cache/qcow2-object-id-boottrace-20261006/procmon-actual-signature-version.json",
+      "sha256": "373355b4d7b3a65e29048cdfb94a6d5e8705af466b1c74d534c66bf616321c08"
+    },
+    {
+      "path": "/data/cache/qcow2-object-id-boottrace-20261006/procmon-bootlogging-flat-driver-proof-v2.json",
+      "sha256": "0d96c1641dceccd4a1421a78d667f8c578a04aa37505e9e2a5475480b586aca5"
+    },
+    {
+      "path": "/data/cache/qcow2-object-id-boottrace-20261006/traced-boot-preparation.json",
+      "sha256": "a0d89642ffe3bc9ed082a0d741c060bdf6f79e577d2764a4786f5d61a14abf97"
+    },
+    {
+      "path": "/data/cache/qcow2-object-id-boottrace-20261006/traced-boot-actual-qmp.json",
+      "sha256": "c6c441490299e49ab891f7cfa3c1559779afa9532bc72a0cbad65d304274aeb7"
+    },
+    {
+      "path": "/data/cache/qcow2-object-id-boottrace-20261006/native-pml-host-retrieval.json",
+      "sha256": "c77860cc463c45e0bcca367c567d780b4e02308c15513ac445150322c979cb8f"
+    },
+    {
+      "path": "/data/cache/qcow2-object-id-boottrace-20261006/boot-all-events.csv.host-proof.json",
+      "sha256": "f6ae288fbf18b824d8475566882e83cc0ee71bf9951777bd2586a089a69b568b"
+    },
+    {
+      "path": "/data/cache/qcow2-object-id-boottrace-20261006/boot-all-events-stacks.xml.host-proof.json",
+      "sha256": "174f465698b6181e9f9eb61402137c83586bba57a0e2129b6394763b18c2393a"
+    },
+    {
+      "path": "/data/cache/qcow2-object-id-boottrace-20261006/get-only-timeline.zip.host-proof.json",
+      "sha256": "62536e936bc8f093d2728dd11747ef45945d9ecb69576118f8849491fdc57c02"
+    },
+    {
+      "path": "/data/cache/qcow2-object-id-boottrace-20261006/actual-process-2068-service-modules.json",
+      "sha256": "c0bbe01cd466b0d470e14dc53b7e7ecb8bc27e5de5ebefca85bad514fcf1cf57"
+    },
+    {
+      "path": "/data/cache/qcow2-object-id-boottrace-20261006/native-process-2068.xml",
+      "sha256": "371752fe52b9123a9ed2febdea8943b899ab0f36b746b502b4f096872eecf435"
+    },
+    {
+      "path": "/data/cache/qcow2-object-id-boottrace-20261006/native-setter-event-0.xml",
+      "sha256": "00d47b917f0d58329e49b019844369ac861d31a3f2e926485fd05bc05a0dc829"
+    },
+    {
+      "path": "/data/cache/qcow2-object-id-boottrace-20261006/native-setter-stack-extraction.json",
+      "sha256": "0298288cc6eda0ef4139bf59da4f7d87e983eb0e0cc95c488c7163a4d33a4f8a"
+    },
+    {
+      "path": "/data/cache/qcow2-object-id-boottrace-20261006/traced-boot-clean-offline-handoff.json",
+      "sha256": "ebc6311b68ca88a3b75e1548d4a8aac17c529cb462ec02ee0724e6f5aead6802"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "actual_partition_role_artifact": {
+    "path": "/data/cache/qcow2-installation-winre-unstaged-1006-v14/actual-recovery-partition-role.json",
+    "sha256": "e5083149c9cac3d0ba5093324272f631a319746e420c0f2f354ee8a322c962b6"
+  },
+  "registered_recovery_partition_number": 4,
+  "registered_disk_offset_bcd_correspondence": true,
+  "production_change": "WinREStaged state1 to state0; unbound destination schema retained",
+  "validation": {
+    "capture_disk_tests": {
+      "passed": 21,
+      "ignored": 1
+    },
+    "recovery_configuration_python_regressions": 3,
+    "cargo_fmt_check_exit": 0,
+    "all_targets_all_features_locked_clippy_deny_warnings_exit": 0,
+    "windows_uup_library_tests": {
+      "passed": 67,
+      "ignored": 3
+    }
+  },
+  "strict_winre_access_time_gate_passes": false,
+  "installed_metadata_acceptance_passes": false,
+  "recovery_boot_pending": true,
+  "historical_state1_receipts_preserved": true
+}

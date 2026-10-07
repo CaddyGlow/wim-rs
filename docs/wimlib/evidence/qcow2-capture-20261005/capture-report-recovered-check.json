@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "capture_root": "/data/cache/qcow2-recovered-20261005/capture",
+  "entries": 176484,
+  "metadata_audit": {
+    "nodes_with_omitted_kernel_eas": 9311,
+    "omitted_kernel_eas": 14478,
+    "sparse_files": 1,
+    "sparse_hole_ranges": 1,
+    "storage_class_nodes": 144900
+  },
+  "limits_match_original_defaults": true,
+  "all_source_identities_unchanged": true,
+  "historical_wim_sha256": "f698dcc7c59c4b0af62d1c76255f6e470b7ee936702bd6fa8aaf93cde9838ea2",
+  "regenerated_wim_sha256": "749c692cf7dd0aa7442ef3d1e96f1e0351e60b21a2aefa0a2d0f6b38ed9e8ea8",
+  "wim_hash_identical": false,
+  "scope": "Post-publication native report/default limit/source identity comparison; independent archive/installation checks remain separate"
+}

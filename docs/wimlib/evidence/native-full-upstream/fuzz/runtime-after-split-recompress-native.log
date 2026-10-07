@@ -1,0 +1,774 @@
+Starting wlfuzz with time limit of 10 seconds
+--> iteration 1
+:::op__apply_and_capture_test
+--> iteration 2
+:::op__apply_and_capture_test
+--> iteration 3
+:::op__apply_and_capture_test
+--> iteration 4
+:::op__apply_and_capture_test
+--> iteration 5
+:::op__apply_and_capture_test
+--> iteration 6
+:::op__apply_and_capture_test
+--> iteration 7
+:::op__delete_random_image_from_random_wim
+--> iteration 8
+:::op__apply_and_capture_test
+--> iteration 9
+:::op__delete_random_image_from_random_wim
+--> iteration 10
+:::op__apply_and_capture_test
+--> iteration 11
+:::op__set_compression_level
+Changing compression levels to 31
+--> iteration 12
+:::op__create_new_wim
+Creating wim0 with write flags 0x00002000, compression_type=XPRESS, chunk_size=4096, solid_chunk_size=0
+--> iteration 13
+:::op__apply_and_capture_test
+Opening wim0 with flags 0x00000001
+generated wim0 image 1
+overwrite with flags: 0x000088e8
+Opening wim0 with flags 0x00000001
+applying in UNIX mode
+overwrite with flags: 0x00004031
+Opening wim0 with flags 0x00000000
+--> iteration 14
+:::op__delete_random_wim
+Deleted wim0
+--> iteration 15
+:::op__apply_and_capture_test
+--> iteration 16
+:::op__apply_and_capture_test
+--> iteration 17
+:::op__create_new_wim
+Creating wim0 with write flags 0x00004000, compression_type=LZMS, chunk_size=16777216, solid_chunk_size=67108864
+--> iteration 18
+:::op__export_random_image
+--> iteration 19
+:::op__set_compression_level
+Changing compression levels to 52
+--> iteration 20
+:::op__split_test
+Opening wim0 with flags 0x00000001
+splitting WIM wim0: part_size=976091, write_flags=0x00006000
+--> iteration 21
+:::op__delete_random_wim
+Deleted wim0
+--> iteration 22
+:::op__overwrite_with_no_changes
+--> iteration 23
+:::op__apply_and_capture_test
+--> iteration 24
+:::op__split_test
+--> iteration 25
+:::op__apply_and_capture_test
+--> iteration 26
+:::op__verify_random_wim
+--> iteration 27
+:::op__export_random_image
+--> iteration 28
+:::op__apply_and_capture_test
+--> iteration 29
+:::op__overwrite_with_no_changes
+--> iteration 30
+:::op__apply_and_capture_test
+--> iteration 31
+:::op__apply_and_capture_test
+--> iteration 32
+:::op__delete_random_image_from_random_wim
+--> iteration 33
+:::op__apply_and_capture_test
+--> iteration 34
+:::op__delete_random_wim
+--> iteration 35
+:::op__apply_and_capture_test
+--> iteration 36
+:::op__overwrite_with_no_changes
+--> iteration 37
+:::op__verify_random_wim
+--> iteration 38
+:::op__set_compression_level
+Changing compression levels to 12
+--> iteration 39
+:::op__apply_and_capture_test
+--> iteration 40
+:::op__export_random_image
+--> iteration 41
+:::op__verify_random_wim
+--> iteration 42
+:::op__overwrite_with_no_changes
+--> iteration 43
+:::op__delete_random_wim
+--> iteration 44
+:::op__create_new_wim
+Creating wim0 with write flags 0x00005000, compression_type=LZMS, chunk_size=2097152, solid_chunk_size=2097152
+--> iteration 45
+:::op__add_empty_image_to_random_wim
+Opening wim0 with flags 0x00000001
+Adding empty image to wim0 at index 1
+overwrite with flags: 0x000041c4
+--> iteration 46
+:::op__delete_random_wim
+Deleted wim0
+--> iteration 47
+:::op__apply_and_capture_test
+--> iteration 48
+:::op__apply_and_capture_test
+--> iteration 49
+:::op__set_compression_level
+Changing compression levels to 19
+--> iteration 50
+:::op__delete_random_wim
+--> iteration 51
+:::op__delete_random_wim
+--> iteration 52
+:::op__create_new_wim
+Creating wim0 with write flags 0x00006000, compression_type=None, chunk_size=0, solid_chunk_size=0
+--> iteration 53
+:::op__apply_and_capture_test
+Opening wim0 with flags 0x00000000
+generated wim0 image 1
+overwrite with flags: 0x000069a2
+Opening wim0 with flags 0x00000001
+applying in UNIX mode
+overwrite with flags: 0x00004030
+Opening wim0 with flags 0x00000000
+--> iteration 54
+:::op__delete_random_image_from_random_wim
+Opening wim0 with flags 0x00000001
+Deleting image 2 from wim0
+overwrite with flags: 0x000009fa
+--> iteration 55
+:::op__export_random_image
+--> iteration 56
+:::op__create_new_wim
+Creating wim1 with write flags 0x00000001, compression_type=None, chunk_size=0, solid_chunk_size=0
+--> iteration 57
+:::op__delete_random_wim
+Deleted wim1
+--> iteration 58
+:::op__export_random_image
+--> iteration 59
+:::op__add_empty_image_to_random_wim
+Opening wim0 with flags 0x00000000
+Adding empty image to wim0 at index 2
+overwrite with flags: 0x00003041
+--> iteration 60
+:::op__delete_random_wim
+Deleted wim0
+--> iteration 61
+:::op__delete_random_wim
+--> iteration 62
+:::op__set_compression_level
+Changing compression levels to 60
+--> iteration 63
+:::op__apply_and_capture_test
+--> iteration 64
+:::op__delete_random_image_from_random_wim
+--> iteration 65
+:::op__delete_random_image_from_random_wim
+--> iteration 66
+:::op__set_compression_level
+Changing compression levels to 17
+--> iteration 67
+:::op__overwrite_with_no_changes
+--> iteration 68
+:::op__delete_random_wim
+--> iteration 69
+:::op__set_compression_level
+Changing compression levels to 99
+--> iteration 70
+:::op__delete_random_wim
+--> iteration 71
+:::op__apply_and_capture_test
+--> iteration 72
+:::op__add_empty_image_to_random_wim
+--> iteration 73
+:::op__apply_and_capture_test
+--> iteration 74
+:::op__overwrite_with_no_changes
+--> iteration 75
+:::op__apply_and_capture_test
+--> iteration 76
+:::op__apply_and_capture_test
+--> iteration 77
+:::op__split_test
+--> iteration 78
+:::op__apply_and_capture_test
+--> iteration 79
+:::op__split_test
+--> iteration 80
+:::op__delete_random_wim
+--> iteration 81
+:::op__delete_random_wim
+--> iteration 82
+:::op__apply_and_capture_test
+--> iteration 83
+:::op__set_compression_level
+Changing compression levels to 94
+--> iteration 84
+:::op__verify_random_wim
+--> iteration 85
+:::op__apply_and_capture_test
+--> iteration 86
+:::op__apply_and_capture_test
+--> iteration 87
+:::op__apply_and_capture_test
+--> iteration 88
+:::op__add_empty_image_to_random_wim
+--> iteration 89
+:::op__apply_and_capture_test
+--> iteration 90
+:::op__overwrite_with_no_changes
+--> iteration 91
+:::op__verify_random_wim
+--> iteration 92
+:::op__apply_and_capture_test
+--> iteration 93
+:::op__apply_and_capture_test
+--> iteration 94
+:::op__set_compression_level
+Changing compression levels to 41
+--> iteration 95
+:::op__split_test
+--> iteration 96
+:::op__delete_random_wim
+--> iteration 97
+:::op__overwrite_with_no_changes
+--> iteration 98
+:::op__add_empty_image_to_random_wim
+--> iteration 99
+:::op__apply_and_capture_test
+--> iteration 100
+:::op__apply_and_capture_test
+--> iteration 101
+:::op__split_test
+--> iteration 102
+:::op__delete_random_wim
+--> iteration 103
+:::op__set_compression_level
+Changing compression levels to 98
+--> iteration 104
+:::op__overwrite_with_no_changes
+--> iteration 105
+:::op__delete_random_wim
+--> iteration 106
+:::op__verify_random_wim
+--> iteration 107
+:::op__apply_and_capture_test
+--> iteration 108
+:::op__overwrite_with_no_changes
+--> iteration 109
+:::op__delete_random_image_from_random_wim
+--> iteration 110
+:::op__verify_random_wim
+--> iteration 111
+:::op__delete_random_wim
+--> iteration 112
+:::op__overwrite_with_no_changes
+--> iteration 113
+:::op__apply_and_capture_test
+--> iteration 114
+:::op__apply_and_capture_test
+--> iteration 115
+:::op__delete_random_wim
+--> iteration 116
+:::op__delete_random_wim
+--> iteration 117
+:::op__apply_and_capture_test
+--> iteration 118
+:::op__set_compression_level
+Changing compression levels to 42
+--> iteration 119
+:::op__verify_random_wim
+--> iteration 120
+:::op__delete_random_wim
+--> iteration 121
+:::op__add_empty_image_to_random_wim
+--> iteration 122
+:::op__create_new_wim
+Creating wim0 with write flags 0x00004000, compression_type=LZMS, chunk_size=524288, solid_chunk_size=268435456
+--> iteration 123
+:::op__overwrite_with_no_changes
+Opening wim0 with flags 0x00000000
+overwrite with flags: 0x000050b1
+--> iteration 124
+:::op__create_new_wim
+Creating wim1 with write flags 0x00004001, compression_type=LZMS, chunk_size=4194304, solid_chunk_size=8388608
+--> iteration 125
+:::op__create_new_wim
+Creating wim2 with write flags 0x00000001, compression_type=None, chunk_size=0, solid_chunk_size=0
+--> iteration 126
+:::op__add_empty_image_to_random_wim
+Opening wim1 with flags 0x00000001
+Adding empty image to wim1 at index 1
+overwrite with flags: 0x00006991
+--> iteration 127
+:::op__split_test
+Opening wim1 with flags 0x00000000
+splitting WIM wim1: part_size=491738, write_flags=0x00000001
+--> iteration 128
+:::op__apply_and_capture_test
+Opening wim2 with flags 0x00000000
+generated wim2 image 1
+overwrite with flags: 0x00006982
+Opening wim2 with flags 0x00000000
+applying in UNIX mode
+overwrite with flags: 0x00004825
+Opening wim2 with flags 0x00000001
+--> iteration 129
+:::op__add_empty_image_to_random_wim
+Opening wim2 with flags 0x00000000
+Adding empty image to wim2 at index 3
+overwrite with flags: 0x00004040
+--> iteration 130
+:::op__set_compression_level
+Changing compression levels to 37
+--> iteration 131
+:::op__verify_random_wim
+Opening wim1 with flags 0x00000000
+Verified wim1
+--> iteration 132
+:::op__delete_random_wim
+Deleted wim0
+--> iteration 133
+:::op__delete_random_wim
+Deleted wim2
+--> iteration 134
+:::op__overwrite_with_no_changes
+Opening wim1 with flags 0x00000000
+overwrite with flags: 0x00004050
+--> iteration 135
+:::op__add_empty_image_to_random_wim
+Opening wim1 with flags 0x00000000
+Adding empty image to wim1 at index 2
+overwrite with flags: 0x000069b8
+--> iteration 136
+:::op__apply_and_capture_test
+Opening wim1 with flags 0x00000001
+generated wim1 image 3
+overwrite with flags: 0x00002155
+Opening wim1 with flags 0x00000000
+applying in UNIX mode
+overwrite with flags: 0x00006861
+Opening wim1 with flags 0x00000000
+--> iteration 137
+:::op__delete_random_wim
+Deleted wim1
+--> iteration 138
+:::op__split_test
+--> iteration 139
+:::op__apply_and_capture_test
+--> iteration 140
+:::op__create_new_wim
+Creating wim0 with write flags 0x00004001, compression_type=LZX, chunk_size=65536, solid_chunk_size=0
+--> iteration 141
+:::op__split_test
+Opening wim0 with flags 0x00000001
+splitting WIM wim0: part_size=640395, write_flags=0x00006001
+--> iteration 142
+:::op__apply_and_capture_test
+Opening wim0 with flags 0x00000000
+generated wim0 image 1
+overwrite with flags: 0x000068c2
+Opening wim0 with flags 0x00000000
+applying in UNIX mode
+overwrite with flags: 0x000008f0
+Opening wim0 with flags 0x00000000
+--> iteration 143
+:::op__apply_and_capture_test
+Opening wim0 with flags 0x00000001
+generated wim0 image 3
+overwrite with flags: 0x00002930
+Opening wim0 with flags 0x00000001
+applying in UNIX mode
+overwrite with flags: 0x000069a0
+Opening wim0 with flags 0x00000001
+--> iteration 144
+:::op__set_compression_level
+Changing compression levels to 12
+--> iteration 145
+:::op__apply_and_capture_test
+Opening wim0 with flags 0x00000001
+generated wim0 image 5
+overwrite with flags: 0x0000e9e0
+Opening wim0 with flags 0x00000001
+applying in UNIX mode
+overwrite with flags: 0x000028c0
+Opening wim0 with flags 0x00000000
+--> iteration 146
+:::op__split_test
+Opening wim0 with flags 0x00000000
+splitting WIM wim0: part_size=270942, write_flags=0x00004000
+--> iteration 147
+:::op__apply_and_capture_test
+Opening wim0 with flags 0x00000000
+generated wim0 image 7
+overwrite with flags: 0x00004091
+Opening wim0 with flags 0x00000001
+applying in UNIX mode
+overwrite with flags: 0x00004052
+Opening wim0 with flags 0x00000001
+--> iteration 148
+:::op__apply_and_capture_test
+Opening wim0 with flags 0x00000001
+generated wim0 image 9
+overwrite with flags: 0x00006001
+Opening wim0 with flags 0x00000000
+applying in UNIX mode
+overwrite with flags: 0x00000071
+Opening wim0 with flags 0x00000000
+--> iteration 149
+:::op__verify_random_wim
+Opening wim0 with flags 0x00000001
+Verified wim0
+--> iteration 150
+:::op__apply_and_capture_test
+Opening wim0 with flags 0x00000000
+generated wim0 image 11
+overwrite with flags: 0x00004010
+Opening wim0 with flags 0x00000001
+applying in UNIX mode
+overwrite with flags: 0x000069b4
+Opening wim0 with flags 0x00000001
+--> iteration 151
+:::op__delete_random_wim
+Deleted wim0
+--> iteration 152
+:::op__apply_and_capture_test
+--> iteration 153
+:::op__apply_and_capture_test
+--> iteration 154
+:::op__export_random_image
+--> iteration 155
+:::op__apply_and_capture_test
+--> iteration 156
+:::op__delete_random_wim
+--> iteration 157
+:::op__apply_and_capture_test
+--> iteration 158
+:::op__export_random_image
+--> iteration 159
+:::op__delete_random_image_from_random_wim
+--> iteration 160
+:::op__split_test
+--> iteration 161
+:::op__create_new_wim
+Creating wim0 with write flags 0x00004000, compression_type=LZMS, chunk_size=65536, solid_chunk_size=2097152
+--> iteration 162
+:::op__delete_random_wim
+Deleted wim0
+--> iteration 163
+:::op__overwrite_with_no_changes
+--> iteration 164
+:::op__delete_random_wim
+--> iteration 165
+:::op__apply_and_capture_test
+--> iteration 166
+:::op__delete_random_wim
+--> iteration 167
+:::op__apply_and_capture_test
+--> iteration 168
+:::op__apply_and_capture_test
+--> iteration 169
+:::op__apply_and_capture_test
+--> iteration 170
+:::op__apply_and_capture_test
+--> iteration 171
+:::op__apply_and_capture_test
+--> iteration 172
+:::op__apply_and_capture_test
+--> iteration 173
+:::op__overwrite_with_no_changes
+--> iteration 174
+:::op__verify_random_wim
+--> iteration 175
+:::op__delete_random_wim
+--> iteration 176
+:::op__apply_and_capture_test
+--> iteration 177
+:::op__apply_and_capture_test
+--> iteration 178
+:::op__apply_and_capture_test
+--> iteration 179
+:::op__export_random_image
+--> iteration 180
+:::op__apply_and_capture_test
+--> iteration 181
+:::op__delete_random_image_from_random_wim
+--> iteration 182
+:::op__apply_and_capture_test
+--> iteration 183
+:::op__export_random_image
+--> iteration 184
+:::op__export_random_image
+--> iteration 185
+:::op__delete_random_wim
+--> iteration 186
+:::op__apply_and_capture_test
+--> iteration 187
+:::op__delete_random_image_from_random_wim
+--> iteration 188
+:::op__set_compression_level
+Changing compression levels to 67
+--> iteration 189
+:::op__delete_random_wim
+--> iteration 190
+:::op__split_test
+--> iteration 191
+:::op__apply_and_capture_test
+--> iteration 192
+:::op__add_empty_image_to_random_wim
+--> iteration 193
+:::op__create_new_wim
+Creating wim0 with write flags 0x00004001, compression_type=LZX, chunk_size=1048576, solid_chunk_size=0
+--> iteration 194
+:::op__delete_random_wim
+Deleted wim0
+--> iteration 195
+:::op__delete_random_image_from_random_wim
+--> iteration 196
+:::op__split_test
+--> iteration 197
+:::op__split_test
+--> iteration 198
+:::op__delete_random_image_from_random_wim
+--> iteration 199
+:::op__apply_and_capture_test
+--> iteration 200
+:::op__apply_and_capture_test
+--> iteration 201
+:::op__apply_and_capture_test
+--> iteration 202
+:::op__overwrite_with_no_changes
+--> iteration 203
+:::op__export_random_image
+--> iteration 204
+:::op__add_empty_image_to_random_wim
+--> iteration 205
+:::op__apply_and_capture_test
+--> iteration 206
+:::op__verify_random_wim
+--> iteration 207
+:::op__export_random_image
+--> iteration 208
+:::op__split_test
+--> iteration 209
+:::op__verify_random_wim
+--> iteration 210
+:::op__delete_random_wim
+--> iteration 211
+:::op__apply_and_capture_test
+--> iteration 212
+:::op__delete_random_wim
+--> iteration 213
+:::op__delete_random_wim
+--> iteration 214
+:::op__split_test
+--> iteration 215
+:::op__apply_and_capture_test
+--> iteration 216
+:::op__overwrite_with_no_changes
+--> iteration 217
+:::op__overwrite_with_no_changes
+--> iteration 218
+:::op__apply_and_capture_test
+--> iteration 219
+:::op__split_test
+--> iteration 220
+:::op__apply_and_capture_test
+--> iteration 221
+:::op__apply_and_capture_test
+--> iteration 222
+:::op__apply_and_capture_test
+--> iteration 223
+:::op__split_test
+--> iteration 224
+:::op__add_empty_image_to_random_wim
+--> iteration 225
+:::op__delete_random_wim
+--> iteration 226
+:::op__apply_and_capture_test
+--> iteration 227
+:::op__create_new_wim
+Creating wim0 with write flags 0x00006001, compression_type=None, chunk_size=0, solid_chunk_size=0
+--> iteration 228
+:::op__apply_and_capture_test
+Opening wim0 with flags 0x00000001
+generated wim0 image 1
+overwrite with flags: 0x00000910
+Opening wim0 with flags 0x00000001
+applying in UNIX mode
+overwrite with flags: 0x00000810
+Opening wim0 with flags 0x00000000
+--> iteration 229
+:::op__apply_and_capture_test
+Opening wim0 with flags 0x00000000
+generated wim0 image 3
+overwrite with flags: 0x00000100
+Opening wim0 with flags 0x00000001
+applying in UNIX mode
+overwrite with flags: 0x000058b1
+Opening wim0 with flags 0x00000000
+--> iteration 230
+:::op__delete_random_wim
+Deleted wim0
+--> iteration 231
+:::op__split_test
+--> iteration 232
+:::op__delete_random_wim
+--> iteration 233
+:::op__add_empty_image_to_random_wim
+--> iteration 234
+:::op__apply_and_capture_test
+--> iteration 235
+:::op__apply_and_capture_test
+--> iteration 236
+:::op__set_compression_level
+Changing compression levels to 1
+--> iteration 237
+:::op__set_compression_level
+Changing compression levels to 66
+--> iteration 238
+:::op__export_random_image
+--> iteration 239
+:::op__split_test
+--> iteration 240
+:::op__create_new_wim
+Creating wim0 with write flags 0x00000005, compression_type=None, chunk_size=0, solid_chunk_size=0
+--> iteration 241
+:::op__apply_and_capture_test
+Opening wim0 with flags 0x00000000
+generated wim0 image 1
+overwrite with flags: 0x00002945
+Opening wim0 with flags 0x00000001
+applying in UNIX mode
+overwrite with flags: 0x000020e1
+Opening wim0 with flags 0x00000001
+--> iteration 242
+:::op__delete_random_image_from_random_wim
+Opening wim0 with flags 0x00000000
+Deleting image 2 from wim0
+overwrite with flags: 0x000071d8
+--> iteration 243
+:::op__split_test
+Opening wim0 with flags 0x00000000
+--> iteration 244
+:::op__set_compression_level
+Changing compression levels to 39
+--> iteration 245
+:::op__apply_and_capture_test
+Opening wim0 with flags 0x00000001
+generated wim0 image 2
+overwrite with flags: 0x00006176
+Opening wim0 with flags 0x00000001
+applying in UNIX mode
+overwrite with flags: 0x00002848
+Opening wim0 with flags 0x00000000
+--> iteration 246
+:::op__apply_and_capture_test
+Opening wim0 with flags 0x00000000
+generated wim0 image 4
+overwrite with flags: 0x00008921
+Opening wim0 with flags 0x00000001
+applying in UNIX mode
+overwrite with flags: 0x0000e1e0
+Opening wim0 with flags 0x00000000
+--> iteration 247
+:::op__apply_and_capture_test
+Opening wim0 with flags 0x00000001
+generated wim0 image 6
+overwrite with flags: 0x0000c081
+Opening wim0 with flags 0x00000001
+applying in UNIX mode
+overwrite with flags: 0x00009002
+Opening wim0 with flags 0x00000001
+--> iteration 248
+:::op__export_random_image
+--> iteration 249
+:::op__split_test
+Opening wim0 with flags 0x00000001
+splitting WIM wim0: part_size=572626, write_flags=0x00004001
+--> iteration 250
+:::op__apply_and_capture_test
+Opening wim0 with flags 0x00000001
+generated wim0 image 8
+overwrite with flags: 0x00006190
+Opening wim0 with flags 0x00000001
+applying in UNIX mode
+overwrite with flags: 0x00006800
+Opening wim0 with flags 0x00000001
+--> iteration 251
+:::op__overwrite_with_no_changes
+Opening wim0 with flags 0x00000001
+overwrite with flags: 0x00004900
+--> iteration 252
+:::op__split_test
+Opening wim0 with flags 0x00000001
+splitting WIM wim0: part_size=355229, write_flags=0x00000000
+--> iteration 253
+:::op__apply_and_capture_test
+Opening wim0 with flags 0x00000001
+generated wim0 image 10
+overwrite with flags: 0x0000a8c8
+Opening wim0 with flags 0x00000001
+applying in UNIX mode
+overwrite with flags: 0x00000074
+Opening wim0 with flags 0x00000001
+--> iteration 254
+:::op__add_empty_image_to_random_wim
+Opening wim0 with flags 0x00000001
+Adding empty image to wim0 at index 12
+overwrite with flags: 0x0000485a
+--> iteration 255
+:::op__apply_and_capture_test
+Opening wim0 with flags 0x00000001
+generated wim0 image 13
+overwrite with flags: 0x0000e942
+Opening wim0 with flags 0x00000000
+applying in UNIX mode
+overwrite with flags: 0x0000804a
+Opening wim0 with flags 0x00000001
+--> iteration 256
+:::op__apply_and_capture_test
+Opening wim0 with flags 0x00000001
+generated wim0 image 15
+overwrite with flags: 0x00004089
+Opening wim0 with flags 0x00000001
+applying in UNIX mode
+overwrite with flags: 0x00004800
+Opening wim0 with flags 0x00000001
+--> iteration 257
+:::op__apply_and_capture_test
+Opening wim0 with flags 0x00000000
+generated wim0 image 17
+overwrite with flags: 0x000041f2
+Opening wim0 with flags 0x00000001
+applying in UNIX mode
+overwrite with flags: 0x000020c1
+Opening wim0 with flags 0x00000000
+--> iteration 258
+:::op__delete_random_image_from_random_wim
+Opening wim0 with flags 0x00000001
+Deleting image 3 from wim0
+overwrite with flags: 0x000069a6
+--> iteration 259
+:::op__apply_and_capture_test
+Opening wim0 with flags 0x00000000
+generated wim0 image 18
+overwrite with flags: 0x000041d2
+Opening wim0 with flags 0x00000000
+applying in UNIX mode
+overwrite with flags: 0x00006960
+Opening wim0 with flags 0x00000001
+--> iteration 260
+:::op__apply_and_capture_test
+Opening wim0 with flags 0x00000001
+generated wim0 image 20
+overwrite with flags: 0x00002128
+Opening wim0 with flags 0x00000000
+applying in UNIX mode
+overwrite with flags: 0x0000c1c0
+Opening wim0 with flags 0x00000000

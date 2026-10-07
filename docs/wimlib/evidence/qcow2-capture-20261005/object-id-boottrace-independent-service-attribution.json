@@ -1,0 +1,655 @@
+{
+  "schema": 1,
+  "scope": "Read-only analysis of disposable boot trace; no restored installed metadata credit",
+  "bindings": [
+    {
+      "path": "/data/cache/qcow2-object-id-boottrace-20261006/boot-all-events.csv",
+      "sha256": "915d16841b3f076e31406a95a4f9db260287fc436fff019701f622840bda12b6",
+      "bytes": 148068944
+    },
+    {
+      "path": "/data/cache/qcow2-object-id-boottrace-20261006/actual-process-2068-service-modules.json",
+      "sha256": "c0bbe01cd466b0d470e14dc53b7e7ecb8bc27e5de5ebefca85bad514fcf1cf57",
+      "bytes": 6559
+    },
+    {
+      "path": "/data/cache/qcow2-object-id-boottrace-20261006/trace-collection-module-events.json",
+      "sha256": "9617c6a61621d6c571ee1518683dc03203f4cc20f51436ccc8fdc858e229b294",
+      "bytes": 19224
+    }
+  ],
+  "csv_rows": 816091,
+  "process_start": [
+    {
+      "csv_data_row": 414710,
+      "time": "10:20:36.0589868 PM",
+      "parent_pid": 888,
+      "command_line": "C:\\WINDOWS\\System32\\svchost.exe -k LocalSystemNetworkRestricted -p -s TrkWks"
+    }
+  ],
+  "trkwks_load_events": [
+    {
+      "csv_data_row": 427000,
+      "Time of Day": "10:20:36.2945445 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "Load Image",
+      "Path": "C:\\Windows\\System32\\trkwks.dll",
+      "Result": "SUCCESS",
+      "Detail": "Image Base: 0x7ffc54870000, Image Size: 0x23000"
+    }
+  ],
+  "actual_process_receipt": {
+    "ProcessId": 2068,
+    "ParentProcessId": 888,
+    "CreationDate": "/Date(1791238836047)/",
+    "ExecutablePath": "C:\\WINDOWS\\System32\\svchost.exe",
+    "CommandLine": "C:\\WINDOWS\\System32\\svchost.exe -k LocalSystemNetworkRestricted -p -s TrkWks"
+  },
+  "actual_services_receipt": [
+    {
+      "Name": "TrkWks",
+      "DisplayName": "Distributed Link Tracking Client",
+      "ProcessId": 2068,
+      "State": "Running",
+      "PathName": "C:\\WINDOWS\\System32\\svchost.exe -k LocalSystemNetworkRestricted -p",
+      "StartMode": "Auto"
+    }
+  ],
+  "trkwks_module_receipt": [
+    {
+      "Name": "trkwks.dll",
+      "Path": "c:\\windows\\system32\\trkwks.dll",
+      "Version": "10.0.26100.1 (WinBuild.160101.0800)",
+      "SHA256": "CBE0DE35D618165F0BF49E565206D1F3739A9678F5A228113E7842177D149B12"
+    }
+  ],
+  "object_id_events": [
+    {
+      "csv_data_row": 437340,
+      "Time of Day": "10:20:36.4959853 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "FileSystemControl",
+      "Path": "T:\\objectid-scratch-8e13fcf95dd746739b3ba4f1b14a64af\\alias-0.bin",
+      "Result": "SUCCESS",
+      "Detail": "Control: FSCTL_SET_OBJECT_ID_EXTENDED"
+    },
+    {
+      "csv_data_row": 618742,
+      "Time of Day": "10:20:40.2800549 PM",
+      "Process Name": "powershell.exe",
+      "PID": "2192",
+      "Operation": "FileSystemControl",
+      "Path": "T:\\objectid-scratch-8e13fcf95dd746739b3ba4f1b14a64af\\scratch long object identifier challenge 0.bin",
+      "Result": "SUCCESS",
+      "Detail": "Control: FSCTL_GET_OBJECT_ID"
+    },
+    {
+      "csv_data_row": 622308,
+      "Time of Day": "10:20:40.3559499 PM",
+      "Process Name": "powershell.exe",
+      "PID": "2192",
+      "Operation": "FileSystemControl",
+      "Path": "T:\\objectid-scratch-8e13fcf95dd746739b3ba4f1b14a64af\\alias-0.bin",
+      "Result": "SUCCESS",
+      "Detail": "Control: FSCTL_GET_OBJECT_ID"
+    },
+    {
+      "csv_data_row": 622508,
+      "Time of Day": "10:20:40.3602096 PM",
+      "Process Name": "powershell.exe",
+      "PID": "2192",
+      "Operation": "FileSystemControl",
+      "Path": "T:\\objectid-scratch-8e13fcf95dd746739b3ba4f1b14a64af\\scratch long object identifier challenge 0.bin",
+      "Result": "SUCCESS",
+      "Detail": "Control: FSCTL_GET_OBJECT_ID"
+    },
+    {
+      "csv_data_row": 727514,
+      "Time of Day": "10:20:42.6697387 PM",
+      "Process Name": "powershell.exe",
+      "PID": "2192",
+      "Operation": "FileSystemControl",
+      "Path": "T:\\objectid-scratch-8e13fcf95dd746739b3ba4f1b14a64af\\scratch long object identifier challenge 0.bin",
+      "Result": "SUCCESS",
+      "Detail": "Control: FSCTL_GET_OBJECT_ID"
+    },
+    {
+      "csv_data_row": 727685,
+      "Time of Day": "10:20:42.6744384 PM",
+      "Process Name": "powershell.exe",
+      "PID": "2192",
+      "Operation": "FileSystemControl",
+      "Path": "T:\\objectid-scratch-8e13fcf95dd746739b3ba4f1b14a64af\\alias-0.bin",
+      "Result": "SUCCESS",
+      "Detail": "Control: FSCTL_GET_OBJECT_ID"
+    },
+    {
+      "csv_data_row": 727710,
+      "Time of Day": "10:20:42.6754383 PM",
+      "Process Name": "powershell.exe",
+      "PID": "2192",
+      "Operation": "FileSystemControl",
+      "Path": "T:\\objectid-scratch-8e13fcf95dd746739b3ba4f1b14a64af\\scratch long object identifier challenge 0.bin",
+      "Result": "SUCCESS",
+      "Detail": "Control: FSCTL_GET_OBJECT_ID"
+    },
+    {
+      "csv_data_row": 743065,
+      "Time of Day": "10:20:43.7698330 PM",
+      "Process Name": "powershell.exe",
+      "PID": "2192",
+      "Operation": "FileSystemControl",
+      "Path": "T:\\objectid-scratch-8e13fcf95dd746739b3ba4f1b14a64af\\scratch long object identifier challenge 0.bin",
+      "Result": "SUCCESS",
+      "Detail": "Control: FSCTL_GET_OBJECT_ID"
+    },
+    {
+      "csv_data_row": 743072,
+      "Time of Day": "10:20:43.7711753 PM",
+      "Process Name": "powershell.exe",
+      "PID": "2192",
+      "Operation": "FileSystemControl",
+      "Path": "T:\\objectid-scratch-8e13fcf95dd746739b3ba4f1b14a64af\\alias-0.bin",
+      "Result": "SUCCESS",
+      "Detail": "Control: FSCTL_GET_OBJECT_ID"
+    },
+    {
+      "csv_data_row": 743077,
+      "Time of Day": "10:20:43.7723280 PM",
+      "Process Name": "powershell.exe",
+      "PID": "2192",
+      "Operation": "FileSystemControl",
+      "Path": "T:\\objectid-scratch-8e13fcf95dd746739b3ba4f1b14a64af\\scratch long object identifier challenge 0.bin",
+      "Result": "SUCCESS",
+      "Detail": "Control: FSCTL_GET_OBJECT_ID"
+    },
+    {
+      "csv_data_row": 756933,
+      "Time of Day": "10:20:44.8502035 PM",
+      "Process Name": "powershell.exe",
+      "PID": "2192",
+      "Operation": "FileSystemControl",
+      "Path": "T:\\objectid-scratch-8e13fcf95dd746739b3ba4f1b14a64af\\scratch long object identifier challenge 0.bin",
+      "Result": "SUCCESS",
+      "Detail": "Control: FSCTL_GET_OBJECT_ID"
+    },
+    {
+      "csv_data_row": 756959,
+      "Time of Day": "10:20:44.8510353 PM",
+      "Process Name": "powershell.exe",
+      "PID": "2192",
+      "Operation": "FileSystemControl",
+      "Path": "T:\\objectid-scratch-8e13fcf95dd746739b3ba4f1b14a64af\\alias-0.bin",
+      "Result": "SUCCESS",
+      "Detail": "Control: FSCTL_GET_OBJECT_ID"
+    },
+    {
+      "csv_data_row": 756984,
+      "Time of Day": "10:20:44.8518464 PM",
+      "Process Name": "powershell.exe",
+      "PID": "2192",
+      "Operation": "FileSystemControl",
+      "Path": "T:\\objectid-scratch-8e13fcf95dd746739b3ba4f1b14a64af\\scratch long object identifier challenge 0.bin",
+      "Result": "SUCCESS",
+      "Detail": "Control: FSCTL_GET_OBJECT_ID"
+    },
+    {
+      "csv_data_row": 771150,
+      "Time of Day": "10:20:46.0900673 PM",
+      "Process Name": "powershell.exe",
+      "PID": "2192",
+      "Operation": "FileSystemControl",
+      "Path": "T:\\objectid-scratch-8e13fcf95dd746739b3ba4f1b14a64af\\scratch long object identifier challenge 0.bin",
+      "Result": "SUCCESS",
+      "Detail": "Control: FSCTL_GET_OBJECT_ID"
+    },
+    {
+      "csv_data_row": 771164,
+      "Time of Day": "10:20:46.0908268 PM",
+      "Process Name": "powershell.exe",
+      "PID": "2192",
+      "Operation": "FileSystemControl",
+      "Path": "T:\\objectid-scratch-8e13fcf95dd746739b3ba4f1b14a64af\\alias-0.bin",
+      "Result": "SUCCESS",
+      "Detail": "Control: FSCTL_GET_OBJECT_ID"
+    },
+    {
+      "csv_data_row": 771203,
+      "Time of Day": "10:20:46.1003859 PM",
+      "Process Name": "powershell.exe",
+      "PID": "2192",
+      "Operation": "FileSystemControl",
+      "Path": "T:\\objectid-scratch-8e13fcf95dd746739b3ba4f1b14a64af\\scratch long object identifier challenge 0.bin",
+      "Result": "SUCCESS",
+      "Detail": "Control: FSCTL_GET_OBJECT_ID"
+    },
+    {
+      "csv_data_row": 773617,
+      "Time of Day": "10:20:47.1962327 PM",
+      "Process Name": "powershell.exe",
+      "PID": "2192",
+      "Operation": "FileSystemControl",
+      "Path": "T:\\objectid-scratch-8e13fcf95dd746739b3ba4f1b14a64af\\scratch long object identifier challenge 0.bin",
+      "Result": "SUCCESS",
+      "Detail": "Control: FSCTL_GET_OBJECT_ID"
+    },
+    {
+      "csv_data_row": 773623,
+      "Time of Day": "10:20:47.1970320 PM",
+      "Process Name": "powershell.exe",
+      "PID": "2192",
+      "Operation": "FileSystemControl",
+      "Path": "T:\\objectid-scratch-8e13fcf95dd746739b3ba4f1b14a64af\\alias-0.bin",
+      "Result": "SUCCESS",
+      "Detail": "Control: FSCTL_GET_OBJECT_ID"
+    },
+    {
+      "csv_data_row": 773628,
+      "Time of Day": "10:20:47.1977572 PM",
+      "Process Name": "powershell.exe",
+      "PID": "2192",
+      "Operation": "FileSystemControl",
+      "Path": "T:\\objectid-scratch-8e13fcf95dd746739b3ba4f1b14a64af\\scratch long object identifier challenge 0.bin",
+      "Result": "SUCCESS",
+      "Detail": "Control: FSCTL_GET_OBJECT_ID"
+    },
+    {
+      "csv_data_row": 775978,
+      "Time of Day": "10:20:48.2895935 PM",
+      "Process Name": "powershell.exe",
+      "PID": "2192",
+      "Operation": "FileSystemControl",
+      "Path": "T:\\objectid-scratch-8e13fcf95dd746739b3ba4f1b14a64af\\scratch long object identifier challenge 0.bin",
+      "Result": "SUCCESS",
+      "Detail": "Control: FSCTL_GET_OBJECT_ID"
+    },
+    {
+      "csv_data_row": 775983,
+      "Time of Day": "10:20:48.2907254 PM",
+      "Process Name": "powershell.exe",
+      "PID": "2192",
+      "Operation": "FileSystemControl",
+      "Path": "T:\\objectid-scratch-8e13fcf95dd746739b3ba4f1b14a64af\\alias-0.bin",
+      "Result": "SUCCESS",
+      "Detail": "Control: FSCTL_GET_OBJECT_ID"
+    },
+    {
+      "csv_data_row": 775990,
+      "Time of Day": "10:20:48.2920115 PM",
+      "Process Name": "powershell.exe",
+      "PID": "2192",
+      "Operation": "FileSystemControl",
+      "Path": "T:\\objectid-scratch-8e13fcf95dd746739b3ba4f1b14a64af\\scratch long object identifier challenge 0.bin",
+      "Result": "SUCCESS",
+      "Detail": "Control: FSCTL_GET_OBJECT_ID"
+    },
+    {
+      "csv_data_row": 779719,
+      "Time of Day": "10:20:49.4073385 PM",
+      "Process Name": "powershell.exe",
+      "PID": "2192",
+      "Operation": "FileSystemControl",
+      "Path": "T:\\objectid-scratch-8e13fcf95dd746739b3ba4f1b14a64af\\scratch long object identifier challenge 0.bin",
+      "Result": "SUCCESS",
+      "Detail": "Control: FSCTL_GET_OBJECT_ID"
+    },
+    {
+      "csv_data_row": 779724,
+      "Time of Day": "10:20:49.4085250 PM",
+      "Process Name": "powershell.exe",
+      "PID": "2192",
+      "Operation": "FileSystemControl",
+      "Path": "T:\\objectid-scratch-8e13fcf95dd746739b3ba4f1b14a64af\\alias-0.bin",
+      "Result": "SUCCESS",
+      "Detail": "Control: FSCTL_GET_OBJECT_ID"
+    },
+    {
+      "csv_data_row": 779731,
+      "Time of Day": "10:20:49.4093185 PM",
+      "Process Name": "powershell.exe",
+      "PID": "2192",
+      "Operation": "FileSystemControl",
+      "Path": "T:\\objectid-scratch-8e13fcf95dd746739b3ba4f1b14a64af\\scratch long object identifier challenge 0.bin",
+      "Result": "SUCCESS",
+      "Detail": "Control: FSCTL_GET_OBJECT_ID"
+    },
+    {
+      "csv_data_row": 781987,
+      "Time of Day": "10:20:50.4840289 PM",
+      "Process Name": "powershell.exe",
+      "PID": "2192",
+      "Operation": "FileSystemControl",
+      "Path": "T:\\objectid-scratch-8e13fcf95dd746739b3ba4f1b14a64af\\scratch long object identifier challenge 0.bin",
+      "Result": "SUCCESS",
+      "Detail": "Control: FSCTL_GET_OBJECT_ID"
+    },
+    {
+      "csv_data_row": 781992,
+      "Time of Day": "10:20:50.4850916 PM",
+      "Process Name": "powershell.exe",
+      "PID": "2192",
+      "Operation": "FileSystemControl",
+      "Path": "T:\\objectid-scratch-8e13fcf95dd746739b3ba4f1b14a64af\\alias-0.bin",
+      "Result": "SUCCESS",
+      "Detail": "Control: FSCTL_GET_OBJECT_ID"
+    },
+    {
+      "csv_data_row": 781997,
+      "Time of Day": "10:20:50.4863285 PM",
+      "Process Name": "powershell.exe",
+      "PID": "2192",
+      "Operation": "FileSystemControl",
+      "Path": "T:\\objectid-scratch-8e13fcf95dd746739b3ba4f1b14a64af\\scratch long object identifier challenge 0.bin",
+      "Result": "SUCCESS",
+      "Detail": "Control: FSCTL_GET_OBJECT_ID"
+    },
+    {
+      "csv_data_row": 784293,
+      "Time of Day": "10:20:51.5846591 PM",
+      "Process Name": "powershell.exe",
+      "PID": "2192",
+      "Operation": "FileSystemControl",
+      "Path": "T:\\objectid-scratch-8e13fcf95dd746739b3ba4f1b14a64af\\scratch long object identifier challenge 0.bin",
+      "Result": "SUCCESS",
+      "Detail": "Control: FSCTL_GET_OBJECT_ID"
+    },
+    {
+      "csv_data_row": 784298,
+      "Time of Day": "10:20:51.5856863 PM",
+      "Process Name": "powershell.exe",
+      "PID": "2192",
+      "Operation": "FileSystemControl",
+      "Path": "T:\\objectid-scratch-8e13fcf95dd746739b3ba4f1b14a64af\\alias-0.bin",
+      "Result": "SUCCESS",
+      "Detail": "Control: FSCTL_GET_OBJECT_ID"
+    },
+    {
+      "csv_data_row": 784303,
+      "Time of Day": "10:20:51.5868864 PM",
+      "Process Name": "powershell.exe",
+      "PID": "2192",
+      "Operation": "FileSystemControl",
+      "Path": "T:\\objectid-scratch-8e13fcf95dd746739b3ba4f1b14a64af\\scratch long object identifier challenge 0.bin",
+      "Result": "SUCCESS",
+      "Detail": "Control: FSCTL_GET_OBJECT_ID"
+    },
+    {
+      "csv_data_row": 787607,
+      "Time of Day": "10:20:52.6880510 PM",
+      "Process Name": "powershell.exe",
+      "PID": "2192",
+      "Operation": "FileSystemControl",
+      "Path": "T:\\objectid-scratch-8e13fcf95dd746739b3ba4f1b14a64af\\scratch long object identifier challenge 0.bin",
+      "Result": "SUCCESS",
+      "Detail": "Control: FSCTL_GET_OBJECT_ID"
+    },
+    {
+      "csv_data_row": 787612,
+      "Time of Day": "10:20:52.6892907 PM",
+      "Process Name": "powershell.exe",
+      "PID": "2192",
+      "Operation": "FileSystemControl",
+      "Path": "T:\\objectid-scratch-8e13fcf95dd746739b3ba4f1b14a64af\\alias-0.bin",
+      "Result": "SUCCESS",
+      "Detail": "Control: FSCTL_GET_OBJECT_ID"
+    },
+    {
+      "csv_data_row": 787617,
+      "Time of Day": "10:20:52.6904833 PM",
+      "Process Name": "powershell.exe",
+      "PID": "2192",
+      "Operation": "FileSystemControl",
+      "Path": "T:\\objectid-scratch-8e13fcf95dd746739b3ba4f1b14a64af\\scratch long object identifier challenge 0.bin",
+      "Result": "SUCCESS",
+      "Detail": "Control: FSCTL_GET_OBJECT_ID"
+    },
+    {
+      "csv_data_row": 789918,
+      "Time of Day": "10:20:53.7983092 PM",
+      "Process Name": "powershell.exe",
+      "PID": "2192",
+      "Operation": "FileSystemControl",
+      "Path": "T:\\objectid-scratch-8e13fcf95dd746739b3ba4f1b14a64af\\scratch long object identifier challenge 0.bin",
+      "Result": "SUCCESS",
+      "Detail": "Control: FSCTL_GET_OBJECT_ID"
+    },
+    {
+      "csv_data_row": 789923,
+      "Time of Day": "10:20:53.7988439 PM",
+      "Process Name": "powershell.exe",
+      "PID": "2192",
+      "Operation": "FileSystemControl",
+      "Path": "T:\\objectid-scratch-8e13fcf95dd746739b3ba4f1b14a64af\\alias-0.bin",
+      "Result": "SUCCESS",
+      "Detail": "Control: FSCTL_GET_OBJECT_ID"
+    },
+    {
+      "csv_data_row": 789928,
+      "Time of Day": "10:20:53.7993492 PM",
+      "Process Name": "powershell.exe",
+      "PID": "2192",
+      "Operation": "FileSystemControl",
+      "Path": "T:\\objectid-scratch-8e13fcf95dd746739b3ba4f1b14a64af\\scratch long object identifier challenge 0.bin",
+      "Result": "SUCCESS",
+      "Detail": "Control: FSCTL_GET_OBJECT_ID"
+    },
+    {
+      "csv_data_row": 792937,
+      "Time of Day": "10:20:54.8719881 PM",
+      "Process Name": "powershell.exe",
+      "PID": "2192",
+      "Operation": "FileSystemControl",
+      "Path": "T:\\objectid-scratch-8e13fcf95dd746739b3ba4f1b14a64af\\scratch long object identifier challenge 0.bin",
+      "Result": "SUCCESS",
+      "Detail": "Control: FSCTL_GET_OBJECT_ID"
+    },
+    {
+      "csv_data_row": 792942,
+      "Time of Day": "10:20:54.8725608 PM",
+      "Process Name": "powershell.exe",
+      "PID": "2192",
+      "Operation": "FileSystemControl",
+      "Path": "T:\\objectid-scratch-8e13fcf95dd746739b3ba4f1b14a64af\\alias-0.bin",
+      "Result": "SUCCESS",
+      "Detail": "Control: FSCTL_GET_OBJECT_ID"
+    },
+    {
+      "csv_data_row": 792947,
+      "Time of Day": "10:20:54.8731116 PM",
+      "Process Name": "powershell.exe",
+      "PID": "2192",
+      "Operation": "FileSystemControl",
+      "Path": "T:\\objectid-scratch-8e13fcf95dd746739b3ba4f1b14a64af\\scratch long object identifier challenge 0.bin",
+      "Result": "SUCCESS",
+      "Detail": "Control: FSCTL_GET_OBJECT_ID"
+    },
+    {
+      "csv_data_row": 795226,
+      "Time of Day": "10:20:55.9665694 PM",
+      "Process Name": "powershell.exe",
+      "PID": "2192",
+      "Operation": "FileSystemControl",
+      "Path": "T:\\objectid-scratch-8e13fcf95dd746739b3ba4f1b14a64af\\scratch long object identifier challenge 0.bin",
+      "Result": "SUCCESS",
+      "Detail": "Control: FSCTL_GET_OBJECT_ID"
+    },
+    {
+      "csv_data_row": 795231,
+      "Time of Day": "10:20:55.9676042 PM",
+      "Process Name": "powershell.exe",
+      "PID": "2192",
+      "Operation": "FileSystemControl",
+      "Path": "T:\\objectid-scratch-8e13fcf95dd746739b3ba4f1b14a64af\\alias-0.bin",
+      "Result": "SUCCESS",
+      "Detail": "Control: FSCTL_GET_OBJECT_ID"
+    },
+    {
+      "csv_data_row": 795236,
+      "Time of Day": "10:20:55.9688069 PM",
+      "Process Name": "powershell.exe",
+      "PID": "2192",
+      "Operation": "FileSystemControl",
+      "Path": "T:\\objectid-scratch-8e13fcf95dd746739b3ba4f1b14a64af\\scratch long object identifier challenge 0.bin",
+      "Result": "SUCCESS",
+      "Detail": "Control: FSCTL_GET_OBJECT_ID"
+    },
+    {
+      "csv_data_row": 797618,
+      "Time of Day": "10:20:57.1105216 PM",
+      "Process Name": "powershell.exe",
+      "PID": "2192",
+      "Operation": "FileSystemControl",
+      "Path": "T:\\objectid-scratch-8e13fcf95dd746739b3ba4f1b14a64af\\scratch long object identifier challenge 0.bin",
+      "Result": "SUCCESS",
+      "Detail": "Control: FSCTL_GET_OBJECT_ID"
+    },
+    {
+      "csv_data_row": 797623,
+      "Time of Day": "10:20:57.1120161 PM",
+      "Process Name": "powershell.exe",
+      "PID": "2192",
+      "Operation": "FileSystemControl",
+      "Path": "T:\\objectid-scratch-8e13fcf95dd746739b3ba4f1b14a64af\\alias-0.bin",
+      "Result": "SUCCESS",
+      "Detail": "Control: FSCTL_GET_OBJECT_ID"
+    },
+    {
+      "csv_data_row": 797628,
+      "Time of Day": "10:20:57.1132495 PM",
+      "Process Name": "powershell.exe",
+      "PID": "2192",
+      "Operation": "FileSystemControl",
+      "Path": "T:\\objectid-scratch-8e13fcf95dd746739b3ba4f1b14a64af\\scratch long object identifier challenge 0.bin",
+      "Result": "SUCCESS",
+      "Detail": "Control: FSCTL_GET_OBJECT_ID"
+    },
+    {
+      "csv_data_row": 800930,
+      "Time of Day": "10:20:58.3620953 PM",
+      "Process Name": "powershell.exe",
+      "PID": "2192",
+      "Operation": "FileSystemControl",
+      "Path": "T:\\objectid-scratch-8e13fcf95dd746739b3ba4f1b14a64af\\scratch long object identifier challenge 0.bin",
+      "Result": "SUCCESS",
+      "Detail": "Control: FSCTL_GET_OBJECT_ID"
+    },
+    {
+      "csv_data_row": 800935,
+      "Time of Day": "10:20:58.3633377 PM",
+      "Process Name": "powershell.exe",
+      "PID": "2192",
+      "Operation": "FileSystemControl",
+      "Path": "T:\\objectid-scratch-8e13fcf95dd746739b3ba4f1b14a64af\\alias-0.bin",
+      "Result": "SUCCESS",
+      "Detail": "Control: FSCTL_GET_OBJECT_ID"
+    },
+    {
+      "csv_data_row": 800940,
+      "Time of Day": "10:20:58.3644069 PM",
+      "Process Name": "powershell.exe",
+      "PID": "2192",
+      "Operation": "FileSystemControl",
+      "Path": "T:\\objectid-scratch-8e13fcf95dd746739b3ba4f1b14a64af\\scratch long object identifier challenge 0.bin",
+      "Result": "SUCCESS",
+      "Detail": "Control: FSCTL_GET_OBJECT_ID"
+    },
+    {
+      "csv_data_row": 803239,
+      "Time of Day": "10:20:59.6177218 PM",
+      "Process Name": "powershell.exe",
+      "PID": "2192",
+      "Operation": "FileSystemControl",
+      "Path": "T:\\objectid-scratch-8e13fcf95dd746739b3ba4f1b14a64af\\scratch long object identifier challenge 0.bin",
+      "Result": "SUCCESS",
+      "Detail": "Control: FSCTL_GET_OBJECT_ID"
+    },
+    {
+      "csv_data_row": 803244,
+      "Time of Day": "10:20:59.6214011 PM",
+      "Process Name": "powershell.exe",
+      "PID": "2192",
+      "Operation": "FileSystemControl",
+      "Path": "T:\\objectid-scratch-8e13fcf95dd746739b3ba4f1b14a64af\\alias-0.bin",
+      "Result": "SUCCESS",
+      "Detail": "Control: FSCTL_GET_OBJECT_ID"
+    },
+    {
+      "csv_data_row": 803251,
+      "Time of Day": "10:20:59.6291325 PM",
+      "Process Name": "powershell.exe",
+      "PID": "2192",
+      "Operation": "FileSystemControl",
+      "Path": "T:\\objectid-scratch-8e13fcf95dd746739b3ba4f1b14a64af\\scratch long object identifier challenge 0.bin",
+      "Result": "SUCCESS",
+      "Detail": "Control: FSCTL_GET_OBJECT_ID"
+    },
+    {
+      "csv_data_row": 806989,
+      "Time of Day": "10:21:00.9049159 PM",
+      "Process Name": "powershell.exe",
+      "PID": "2192",
+      "Operation": "FileSystemControl",
+      "Path": "T:\\objectid-scratch-8e13fcf95dd746739b3ba4f1b14a64af\\scratch long object identifier challenge 0.bin",
+      "Result": "SUCCESS",
+      "Detail": "Control: FSCTL_GET_OBJECT_ID"
+    },
+    {
+      "csv_data_row": 806994,
+      "Time of Day": "10:21:00.9058064 PM",
+      "Process Name": "powershell.exe",
+      "PID": "2192",
+      "Operation": "FileSystemControl",
+      "Path": "T:\\objectid-scratch-8e13fcf95dd746739b3ba4f1b14a64af\\alias-0.bin",
+      "Result": "SUCCESS",
+      "Detail": "Control: FSCTL_GET_OBJECT_ID"
+    },
+    {
+      "csv_data_row": 806999,
+      "Time of Day": "10:21:00.9065979 PM",
+      "Process Name": "powershell.exe",
+      "PID": "2192",
+      "Operation": "FileSystemControl",
+      "Path": "T:\\objectid-scratch-8e13fcf95dd746739b3ba4f1b14a64af\\scratch long object identifier challenge 0.bin",
+      "Result": "SUCCESS",
+      "Detail": "Control: FSCTL_GET_OBJECT_ID"
+    },
+    {
+      "csv_data_row": 810023,
+      "Time of Day": "10:21:02.0689010 PM",
+      "Process Name": "powershell.exe",
+      "PID": "2192",
+      "Operation": "FileSystemControl",
+      "Path": "T:\\objectid-scratch-8e13fcf95dd746739b3ba4f1b14a64af\\scratch long object identifier challenge 0.bin",
+      "Result": "SUCCESS",
+      "Detail": "Control: FSCTL_GET_OBJECT_ID"
+    },
+    {
+      "csv_data_row": 810028,
+      "Time of Day": "10:21:02.0796985 PM",
+      "Process Name": "powershell.exe",
+      "PID": "2192",
+      "Operation": "FileSystemControl",
+      "Path": "T:\\objectid-scratch-8e13fcf95dd746739b3ba4f1b14a64af\\alias-0.bin",
+      "Result": "SUCCESS",
+      "Detail": "Control: FSCTL_GET_OBJECT_ID"
+    },
+    {
+      "csv_data_row": 810033,
+      "Time of Day": "10:21:02.0816803 PM",
+      "Process Name": "powershell.exe",
+      "PID": "2192",
+      "Operation": "FileSystemControl",
+      "Path": "T:\\objectid-scratch-8e13fcf95dd746739b3ba4f1b14a64af\\scratch long object identifier challenge 0.bin",
+      "Result": "SUCCESS",
+      "Detail": "Control: FSCTL_GET_OBJECT_ID"
+    }
+  ],
+  "conclusion": "The traced PID2068 issuing successful FSCTL_SET_OBJECT_ID_EXTENDED is attributed to svchost -s TrkWks by its Process Start command line, matching the runtime service receipt; trkwks.dll was loaded before the request.",
+  "limits": [
+    "CSV does not expose FSCTL input buffer or prove its bytes were zero.",
+    "Module load and service attribution do not prove a particular internal function called the FSCTL; PML stack pending.",
+    "This disposable trace alone does not establish the cause of every original first-install ObjectID loss or authorize disabling services."
+  ]
+}

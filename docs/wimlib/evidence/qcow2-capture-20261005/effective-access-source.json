@@ -1,0 +1,73 @@
+{
+  "scope": "Independent Windows API source baseline on readonly exact frozen Windows partition view",
+  "source_partition_proof": "dism-oracle-source-view.json",
+  "observations": {
+    "Control": [
+      {
+        "Context": "current-system",
+        "UserSid": "S-1-5-18",
+        "Administrator": true,
+        "PrivilegesDisabled": true,
+        "AccessCheckAllowsRead": true,
+        "ActualReadHandleOpened": true,
+        "GrantedAccess": 1,
+        "ReadError": 0
+      },
+      {
+        "Context": "filtered-standard",
+        "UserSid": "S-1-5-21-2560912277-3891518701-1883913929-1000",
+        "Administrator": false,
+        "PrivilegesDisabled": true,
+        "AccessCheckAllowsRead": true,
+        "ActualReadHandleOpened": true,
+        "GrantedAccess": 1,
+        "ReadError": 0
+      },
+      {
+        "Context": "administrator",
+        "UserSid": "S-1-5-21-2560912277-3891518701-1883913929-1000",
+        "Administrator": true,
+        "PrivilegesDisabled": true,
+        "AccessCheckAllowsRead": true,
+        "ActualReadHandleOpened": true,
+        "GrantedAccess": 1,
+        "ReadError": 0
+      }
+    ],
+    "Protected": [
+      {
+        "Context": "current-system",
+        "UserSid": "S-1-5-18",
+        "Administrator": true,
+        "PrivilegesDisabled": true,
+        "AccessCheckAllowsRead": false,
+        "ActualReadHandleOpened": false,
+        "GrantedAccess": 0,
+        "ReadError": 5
+      },
+      {
+        "Context": "filtered-standard",
+        "UserSid": "S-1-5-21-2560912277-3891518701-1883913929-1000",
+        "Administrator": false,
+        "PrivilegesDisabled": true,
+        "AccessCheckAllowsRead": false,
+        "ActualReadHandleOpened": false,
+        "GrantedAccess": 0,
+        "ReadError": 5
+      },
+      {
+        "Context": "administrator",
+        "UserSid": "S-1-5-21-2560912277-3891518701-1883913929-1000",
+        "Administrator": true,
+        "PrivilegesDisabled": true,
+        "AccessCheckAllowsRead": false,
+        "ActualReadHandleOpened": false,
+        "GrantedAccess": 0,
+        "ReadError": 5
+      }
+    ]
+  },
+  "raw_path": "/data/cache/qcow2-oracle-1005/effective-access-source.json",
+  "raw_sha256": "1921e19c1891775144b2132dd49e186fdb20f3fda7ffde9a1f78464e723c80f4",
+  "limitations": "Source baseline only; corresponding fresh installed-system permissions comparison is pending. Privileges disabled deliberately to test access without backup/restore bypass."
+}

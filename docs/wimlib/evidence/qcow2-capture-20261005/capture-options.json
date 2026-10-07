@@ -1,0 +1,17 @@
+{
+  "input": "/home/rick/projects-caddy/windows-uup/vm-state/qcow2-source-1005/overlay.qcow2",
+  "backing_paths": [
+    "/home/rick/.vm-base/win11-secure/disk.qcow2"
+  ],
+  "partition": 3,
+  "sector_size": 512,
+  "output": "/data/cache/qcow2-capture-20261005/install-v5.wim",
+  "name": "Native QCOW2 Windows 11 Pro",
+  "job": "/data/cache/qcow2-capture-20261005/capture-job-6",
+  "recovery_partition": null,
+  "winre": null,
+  "verified_volume_aliases": [
+    "\\??\\C:"
+  ],
+  "alias_provenance": "/data/cache/qcow2-capture-20261005/capture-preparation-6/alias-provenance.json"
+}

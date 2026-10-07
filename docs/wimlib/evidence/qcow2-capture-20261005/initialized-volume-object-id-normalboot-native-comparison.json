@@ -1,0 +1,62 @@
+{
+  "scope": "New source48 scratchchallenge on initializedvolume with existingvolumeOD/tracking context; GET-only after actualboot, no setter aftercreation",
+  "image_sha256_after": "876bd25908d522f4b175e1d126a6ce82c6f4c61c2ac7fad95007e0be74ec1d74",
+  "strictclean_native_before_after": true,
+  "checks": [
+    {
+      "path_utf16_le": "54003a005c006f0062006a00650063007400690064002d0073006300720061007400630068002d00370032006600390065003600320030006500620030006500340062006300320039003400390033006100300062006400650065003000300063003800620034005c00730063007200610074006300680020006c006f006e00670020006f0062006a0065006300740020006900640065006e0074006900660069006500720020006300680061006c006c0065006e0067006500200030002e00620069006e00",
+      "full64_exact_before_after": true,
+      "identity24_exact": true,
+      "full64_after_raw": "3f466f4c0dc1f111b4b4aa88f9886e1166810d707d6c0c45bedea5101764417b663d9b6da3c0f111b4a8998f604d14a300000000000000000000000000000000"
+    },
+    {
+      "path_utf16_le": "54003a005c006f0062006a00650063007400690064002d0073006300720061007400630068002d00370032006600390065003600320030006500620030006500340062006300320039003400390033006100300062006400650065003000300063003800620034005c0061006c006900610073002d0030002e00620069006e00",
+      "full64_exact_before_after": true,
+      "identity24_exact": true,
+      "full64_after_raw": "3f466f4c0dc1f111b4b4aa88f9886e1166810d707d6c0c45bedea5101764417b663d9b6da3c0f111b4a8998f604d14a300000000000000000000000000000000"
+    },
+    {
+      "path_utf16_le": "54003a005c006f0062006a00650063007400690064002d0073006300720061007400630068002d00370032006600390065003600320030006500620030006500340062006300320039003400390033006100300062006400650065003000300063003800620034005c00730063007200610074006300680020006c006f006e00670020006f0062006a0065006300740020006900640065006e0074006900660069006500720020006300680061006c006c0065006e0067006500200030002e00620069006e00",
+      "full64_exact_before_after": true,
+      "identity24_exact": true,
+      "full64_after_raw": "3f466f4c0dc1f111b4b4aa88f9886e1166810d707d6c0c45bedea5101764417b663d9b6da3c0f111b4a8998f604d14a300000000000000000000000000000000"
+    }
+  ],
+  "online_all_passed": true,
+  "all3full64_and24_persist_after_normalboot_and_supportedshutdown": true,
+  "limits": [
+    "Only initializedscratch experiment; originalfirst-initialization control48loss retained.",
+    "No installedmetadata restoration or fullWindowsreliability claim.",
+    "Volumecontext helper comparison supplied independently by parent, not rerun here."
+  ],
+  "artifacts": [
+    {
+      "path": "/data/cache/qcow2-object-id-initialized-control-20261006/new-challenge-before-native.json",
+      "sha256": "700fbcf062871be852c734733bbce0bba5532f4183d81751a977ea541ce403b2"
+    },
+    {
+      "path": "/data/cache/qcow2-object-id-initialized-control-20261006/new-challenge-after-native.json",
+      "sha256": "700fbcf062871be852c734733bbce0bba5532f4183d81751a977ea541ce403b2"
+    },
+    {
+      "path": "/data/cache/qcow2-object-id-initialized-control-20261006/new-challenge-creation-report.json",
+      "sha256": "ae0e8f88225c7676d37a33afdd784a049f3433fe3d4b61d4940bf694804997ba"
+    },
+    {
+      "path": "/data/cache/qcow2-object-id-initialized-control-20261006/initialized-observer-input.json",
+      "sha256": "81f3bd3aae1a5db36da6020e0c61c23b30efc9645f37ac59660b9d9dfdedf042"
+    },
+    {
+      "path": "/data/cache/qcow2-object-id-initialized-control-20261006/after-reboot-get-only-report.json",
+      "sha256": "0ec16adaf324b24d4a37ebd888728996e734a7c74e833f3b3fa755b2fff43751"
+    },
+    {
+      "path": "/data/cache/qcow2-object-id-initialized-control-20261006/before-reboot-clean-offline-handoff.json",
+      "sha256": "18356c9ec49a76b2fc7362b7b1c9daa0a7d765ddb7be1fee00cfbbdd63602566"
+    },
+    {
+      "path": "/data/cache/qcow2-object-id-initialized-control-20261006/after-reboot-clean-offline-handoff.json",
+      "sha256": "3be29134adbc6f453e8205b2cec32b6db0b4d2b1773a8635a1d2726c940b01ca"
+    }
+  ]
+}

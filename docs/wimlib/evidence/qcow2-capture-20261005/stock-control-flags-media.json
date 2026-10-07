@@ -1,0 +1,48 @@
+{
+  "scope": "Independent Microsoft capture FLAGS-only Setup control; no native capture or successful installation claim",
+  "original_stock_sha256": "9ba5122cb6f79fb2f5735e42695c8184a4212f57793e15d8301077b2696a5b09",
+  "derivative_wim_sha256": "d05652a4566059b36657f6a94a3587d3f938b6a607c1573ec74b516e569af65c",
+  "iso_sha256": "03417bb57901860209f54d6ed101e18345766d617e53e171b428c4537ecdf9ba",
+  "iso": "/data/cache/qcow2-stock-control-flags-20261005/stock-control-flags.iso",
+  "only_XML_value_change": "IMAGE/FLAGS=Professional",
+  "serialization_change": "Upstream writer reorders root IMAGE/TOTALBYTES elements; other values exact",
+  "full_independent_verify_exit": 0,
+  "native_iso_writer_exit": 0,
+  "all_967_other_setup_file_hashes_match_native": true,
+  "independent_boot_catalog_passed": true,
+  "same_v7_external_seed_required": true,
+  "evidence": {
+    "flags-only-equivalence.json": {
+      "path": "/data/cache/qcow2-stock-control-flags-20261005/flags-only-equivalence.json",
+      "sha256": "8608acae790850f7ab8221807a4d7ab83cd52ad813cc7c1f8a1afa9f4ef2e4e6"
+    },
+    "modified.xml": {
+      "path": "/data/cache/qcow2-stock-control-flags-20261005/modified.xml",
+      "sha256": "a65fea46716c1ea4f114f12fb9bb78bb9ebe82b68623c2c543ec7ddf3c6544bf"
+    },
+    "flags-change.log": {
+      "path": "/data/cache/qcow2-stock-control-flags-20261005/flags-change.log",
+      "sha256": "d02e320ae68d51bdac80da501f18cb381036a5e77bae893a73be91bfe0f628b2"
+    },
+    "verify.log": {
+      "path": "/data/cache/qcow2-stock-control-flags-20261005/verify.log",
+      "sha256": "483b8ae836137cbaf64f58f849064ceed151e013959d6fe4ae126682ca092240"
+    },
+    "setup-file-equivalence.json": {
+      "path": "/data/cache/qcow2-stock-control-flags-20261005/setup-file-equivalence.json",
+      "sha256": "82087e48d2b699f32fe46a2df9a7a96a766dfdde4f5f209b1ffe46868ff6b3db"
+    },
+    "independent-iso-boot.json": {
+      "path": "/data/cache/qcow2-stock-control-flags-20261005/independent-iso-boot.json",
+      "sha256": "97733d6d1dde52684e4d4ef584dbf0eb7cd4d0e1ab11f778f0151f4778225429"
+    },
+    "payload-hashes.txt": {
+      "path": "/data/cache/qcow2-stock-control-flags-20261005/payload-hashes.txt",
+      "sha256": "5a2539602662f9c7e713976b3d7e85828870e3ecf5131df4a24b9053778044b9"
+    },
+    "iso.log": {
+      "path": "/data/cache/qcow2-stock-control-flags-20261005/iso.log",
+      "sha256": "5dd37e34ebb074f1b2202da0d22ba07aec66a691dfea056daee7287a6b728f39"
+    }
+  }
+}

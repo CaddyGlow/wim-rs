@@ -1,0 +1,49 @@
+[
+  {
+    "file": "pipe-none.wim",
+    "sha256": "088fb344a4fab661e2d3db9801cf5ffcd64fa0d23a1e435d2ab941d5c3fce0b9",
+    "command": [
+      "/tmp/wimlib-native-oracle/wimlib-imagex",
+      "capture",
+      "/tmp/pipe-codec-fixture-qlpm9cv3/source",
+      "crates/wimlib-rs/wim-format/tests/fixtures/pipe-none.wim",
+      "--compress=none",
+      "--pipable",
+      "--no-acls",
+      "--nocheck",
+      "--threads=1"
+    ]
+  },
+  {
+    "file": "pipe-lzx.wim",
+    "sha256": "46761c3cfa1f2eae260d630cc1cb907a58dc99bcc08517fc707afceb1a3c2385",
+    "command": [
+      "/tmp/wimlib-native-oracle/wimlib-imagex",
+      "capture",
+      "/tmp/pipe-codec-fixture-qlpm9cv3/source",
+      "crates/wimlib-rs/wim-format/tests/fixtures/pipe-lzx.wim",
+      "--compress=LZX",
+      "--pipable",
+      "--no-acls",
+      "--nocheck",
+      "--threads=1",
+      "--chunk-size=32768"
+    ]
+  },
+  {
+    "file": "pipe-lzms.wim",
+    "sha256": "f97919b16d3522620bb39101b516c53dfc137926f3e39c66e24dc35d0c0361f0",
+    "command": [
+      "/tmp/wimlib-native-oracle/wimlib-imagex",
+      "capture",
+      "/tmp/pipe-codec-fixture-qlpm9cv3/source",
+      "crates/wimlib-rs/wim-format/tests/fixtures/pipe-lzms.wim",
+      "--compress=LZMS",
+      "--pipable",
+      "--no-acls",
+      "--nocheck",
+      "--threads=1",
+      "--chunk-size=32768"
+    ]
+  }
+]

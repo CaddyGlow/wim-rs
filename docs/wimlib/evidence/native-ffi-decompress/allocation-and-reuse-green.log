@@ -1,0 +1,17 @@
+   Compiling wim-codec v0.1.0 (/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/wim-codec)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.11s
+     Running tests/decode_allocations.rs (crates/wimlib-rs/target/debug/deps/decode_allocations-a4c3a7af3358510e)
+
+running 2 tests
+test every_lzms_workspace_allocation_failure_is_recoverable ... ok
+test reusable_lzms_success_and_failures_allocate_nothing ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.05s
+
+     Running tests/lzms_differential.rs (crates/wimlib-rs/target/debug/deps/lzms_differential-80385b59e12bb446)
+
+running 1 test
+test native_decoder_matches_original_c_on_valid_corrupted_and_truncated_blocks ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 4.90s
+

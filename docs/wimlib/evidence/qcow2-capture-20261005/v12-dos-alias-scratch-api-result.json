@@ -1,0 +1,44 @@
+{
+  "scope": "Actual isolated Windows scratch API experiment; no installed/source aliases modified",
+  "raw_report": {
+    "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/diagnostic-scratch-alias-report.json",
+    "sha256": "b65b8f5df5d43d8cc62c4a99cfd1333609ea6edc06f2117ca5769b9f8509cf8a"
+  },
+  "initial_validation_rejection": "scratch root identity missing: validator wrongly required a subdirectory above generated child on legitimate T: volume-root Parent",
+  "corrected_root_contract": "Drive-root or nested local parent accepted; generated QCOW2-AliasScratch UUID required, parent traversal rejected, raw UTF16 root checked",
+  "regression_tests_passed": 7,
+  "result": {
+    "pair_permutation_passed": true,
+    "hardlink_all_alias_setters_succeeded": false,
+    "directory_alias_passed": true,
+    "security_scope": "owner/group/DACL only; SACL untested",
+    "installed_alias_restoration_proven": false
+  },
+  "actual_statuses": {
+    "SetupStatuses": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "CollisionStatus": 183,
+    "LongNameCollisionStatus": 183,
+    "PermutationStatuses": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "HardlinkStatuses": [
+      0,
+      0,
+      0,
+      0,
+      183,
+      183
+    ],
+    "DirectoryStatus": 0
+  },
+  "interpretation": "Pair permutation and directory alias succeed with unchanged full24-byte identities, payloads and owner/group/DACL. Hardlink setters succeed for first link but return collision183 for second/third links; arbitrary per-dentry hardlink alias restoration remains unproven. No SACL preservation claim.",
+  "validator_sha256": "b995cf36fb172ca6f7f1cdf4547e5be4ec333e3ecc1e4e98f64dbdadcdb6e741"
+}

@@ -1,0 +1,151 @@
+{
+  "cases": 24,
+  "equal": true,
+  "mismatches": [],
+  "observations": [
+    {
+      "path": "@EMPTY",
+      "fail_at": 0,
+      "extract": false,
+      "sha256": "79c9fb8946c851acd5510c8332fbb7662fc539a672a549f633e13ab59c1d8178"
+    },
+    {
+      "path": "@EMPTY",
+      "fail_at": 0,
+      "extract": true,
+      "sha256": "7bd62f9423a4c023fc78b7e7b751f2c69c11d5d7b169473dbbf31ab5c7807873"
+    },
+    {
+      "path": "@EMPTY",
+      "fail_at": 1,
+      "extract": false,
+      "sha256": "642f732dfa4276471002bf28371a43447d7deb3598662f0d41b78909a6993dd3"
+    },
+    {
+      "path": "@EMPTY",
+      "fail_at": 1,
+      "extract": true,
+      "sha256": "f432ad2e3feffed17f771c1a574efc13cdca4bc2f83c02204178c0d87004882a"
+    },
+    {
+      "path": "@EMPTY",
+      "fail_at": 2,
+      "extract": false,
+      "sha256": "79c9fb8946c851acd5510c8332fbb7662fc539a672a549f633e13ab59c1d8178"
+    },
+    {
+      "path": "@EMPTY",
+      "fail_at": 2,
+      "extract": true,
+      "sha256": "7bd62f9423a4c023fc78b7e7b751f2c69c11d5d7b169473dbbf31ab5c7807873"
+    },
+    {
+      "path": "@EMPTY",
+      "fail_at": 3,
+      "extract": false,
+      "sha256": "79c9fb8946c851acd5510c8332fbb7662fc539a672a549f633e13ab59c1d8178"
+    },
+    {
+      "path": "@EMPTY",
+      "fail_at": 3,
+      "extract": true,
+      "sha256": "7bd62f9423a4c023fc78b7e7b751f2c69c11d5d7b169473dbbf31ab5c7807873"
+    },
+    {
+      "path": "docs/wimlib/evidence/native-ffi-write/default-cpu-crash-original.wim",
+      "fail_at": 0,
+      "extract": false,
+      "sha256": "a1cb26de10c3c90f52d8661308e854db810b0bc8752c2d9de08cec81f4ca0416"
+    },
+    {
+      "path": "docs/wimlib/evidence/native-ffi-write/default-cpu-crash-original.wim",
+      "fail_at": 0,
+      "extract": true,
+      "sha256": "feba0bb96deddb9efd70d6ee5ca2e0aaa2cdf827686ad310e51e4f201c26096e"
+    },
+    {
+      "path": "docs/wimlib/evidence/native-ffi-write/default-cpu-crash-original.wim",
+      "fail_at": 1,
+      "extract": false,
+      "sha256": "6d2da8c1d4bfaa0f8c375e6ba756622149a1c38cc2b8418831b965085d5c574a"
+    },
+    {
+      "path": "docs/wimlib/evidence/native-ffi-write/default-cpu-crash-original.wim",
+      "fail_at": 1,
+      "extract": true,
+      "sha256": "54acbbc874393c7426bf19370c480edcfc027880d368a23bc5c7b2087561b1a9"
+    },
+    {
+      "path": "docs/wimlib/evidence/native-ffi-write/default-cpu-crash-original.wim",
+      "fail_at": 2,
+      "extract": false,
+      "sha256": "a1cb26de10c3c90f52d8661308e854db810b0bc8752c2d9de08cec81f4ca0416"
+    },
+    {
+      "path": "docs/wimlib/evidence/native-ffi-write/default-cpu-crash-original.wim",
+      "fail_at": 2,
+      "extract": true,
+      "sha256": "feba0bb96deddb9efd70d6ee5ca2e0aaa2cdf827686ad310e51e4f201c26096e"
+    },
+    {
+      "path": "docs/wimlib/evidence/native-ffi-write/default-cpu-crash-original.wim",
+      "fail_at": 3,
+      "extract": false,
+      "sha256": "a1cb26de10c3c90f52d8661308e854db810b0bc8752c2d9de08cec81f4ca0416"
+    },
+    {
+      "path": "docs/wimlib/evidence/native-ffi-write/default-cpu-crash-original.wim",
+      "fail_at": 3,
+      "extract": true,
+      "sha256": "feba0bb96deddb9efd70d6ee5ca2e0aaa2cdf827686ad310e51e4f201c26096e"
+    },
+    {
+      "path": "docs/wimlib/evidence/native-ffi-write/default-cpu-crash-native.wim",
+      "fail_at": 0,
+      "extract": false,
+      "sha256": "adcbf95707782f7f76e22857d5dabf4a75e44f0545a1b7154676225f4ed60aab"
+    },
+    {
+      "path": "docs/wimlib/evidence/native-ffi-write/default-cpu-crash-native.wim",
+      "fail_at": 0,
+      "extract": true,
+      "sha256": "feba0bb96deddb9efd70d6ee5ca2e0aaa2cdf827686ad310e51e4f201c26096e"
+    },
+    {
+      "path": "docs/wimlib/evidence/native-ffi-write/default-cpu-crash-native.wim",
+      "fail_at": 1,
+      "extract": false,
+      "sha256": "6d2da8c1d4bfaa0f8c375e6ba756622149a1c38cc2b8418831b965085d5c574a"
+    },
+    {
+      "path": "docs/wimlib/evidence/native-ffi-write/default-cpu-crash-native.wim",
+      "fail_at": 1,
+      "extract": true,
+      "sha256": "54acbbc874393c7426bf19370c480edcfc027880d368a23bc5c7b2087561b1a9"
+    },
+    {
+      "path": "docs/wimlib/evidence/native-ffi-write/default-cpu-crash-native.wim",
+      "fail_at": 2,
+      "extract": false,
+      "sha256": "adcbf95707782f7f76e22857d5dabf4a75e44f0545a1b7154676225f4ed60aab"
+    },
+    {
+      "path": "docs/wimlib/evidence/native-ffi-write/default-cpu-crash-native.wim",
+      "fail_at": 2,
+      "extract": true,
+      "sha256": "feba0bb96deddb9efd70d6ee5ca2e0aaa2cdf827686ad310e51e4f201c26096e"
+    },
+    {
+      "path": "docs/wimlib/evidence/native-ffi-write/default-cpu-crash-native.wim",
+      "fail_at": 3,
+      "extract": false,
+      "sha256": "adcbf95707782f7f76e22857d5dabf4a75e44f0545a1b7154676225f4ed60aab"
+    },
+    {
+      "path": "docs/wimlib/evidence/native-ffi-write/default-cpu-crash-native.wim",
+      "fail_at": 3,
+      "extract": true,
+      "sha256": "feba0bb96deddb9efd70d6ee5ca2e0aaa2cdf827686ad310e51e4f201c26096e"
+    }
+  ]
+}

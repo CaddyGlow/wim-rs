@@ -1,0 +1,8 @@
+{
+  "exit": 0,
+  "signal": null,
+  "stdout": "\nrunning 4 tests\ntest whole_image_restores_file_directory_and_empty_named_streams_and_hardlinks ... ok\ntest selected_paths_ignore_unselected_unsupported_metadata_and_flatten_aliases ... ok\ntest wildcard_and_utf16_pathlist_extract_only_matching_subtrees ... ok\ntest encrypted_capture_restores_raw_data_before_and_after_wim_serialization ... ok\n\ntest result: ok. 4 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.13s\n\n",
+  "stderr": "",
+  "stdout_truncated": false,
+  "binary_sha256": "ca207c081e8d6b966a992eabbe6453678401924c4d4852ab8046a49f14c9619f"
+}

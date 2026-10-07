@@ -1,0 +1,51 @@
+{
+  "stock": {
+    "image_attributes": {
+      "INDEX": "1"
+    },
+    "outer_image_properties": {
+      "DIRCOUNT": "33490",
+      "FILECOUNT": "142993",
+      "TOTALBYTES": "29932892823",
+      "HARDLINKBYTES": "13150762929",
+      "CREATIONTIME": "0x01DD54F20x0E98124D",
+      "LASTMODIFICATIONTIME": "0x01DD54F20x0ED8DD94",
+      "WIMBOOT": "0",
+      "NAME": "SixthFrozenSourceOracle"
+    },
+    "root_properties": {
+      "TOTALBYTES": "8581534747"
+    }
+  },
+  "native": {
+    "image_attributes": {
+      "INDEX": "1"
+    },
+    "outer_image_properties": {
+      "DIRCOUNT": "33537",
+      "FILECOUNT": "142947",
+      "TOTALBYTES": "29932912684",
+      "HARDLINKBYTES": "13150763432",
+      "NAME": "Custom Windows",
+      "CREATIONTIME": "0x01DD54F90xAC8E6641",
+      "LASTMODIFICATIONTIME": "0x01DD54F90xACB1439D",
+      "DESCRIPTION": "Microsoft\u00ae Windows\u00ae Operating System",
+      "DISPLAYNAME": "Custom Windows",
+      "DISPLAYDESCRIPTION": "Microsoft\u00ae Windows\u00ae Operating System",
+      "FLAGS": "Professional",
+      "WINDOWS_UUP": "C:"
+    },
+    "root_properties": {
+      "TOTALBYTES": "8245067861"
+    }
+  },
+  "scope": "Read-only outer WIM XML difference; generic stock V8 Setup failure observed, precise cause remains pending logs",
+  "stock_wim_original_sha256": "9ba5122cb6f79fb2f5735e42695c8184a4212f57793e15d8301077b2696a5b09",
+  "native_wim_sha256": "749c692cf7dd0aa7442ef3d1e96f1e0351e60b21a2aefa0a2d0f6b38ed9e8ea8",
+  "primary_source": "https://learn.microsoft.com/en-us/intune/configmgr/mdt/use-the-mdt",
+  "inference": "Absent stock FLAGS may prevent Setup edition selection; not established by generic failure screenshot. A separately named FLAGS-only derivative would test this without modifying original stock.",
+  "xml_files": {
+    "/data/cache/qcow2-stock-control-20261005/stock-original.xml": "c788eacd2db00a2b169703998ed22231c4e9ad94a25cc45da3091291f7c6a4cb",
+    "/data/cache/qcow2-recovered-20261005/capture/independent-oracle/install.xml": "5da0bd159219b8ac9bd24fac673353c09967326e8a20f25758c85de4a7b75bae"
+  }
+}

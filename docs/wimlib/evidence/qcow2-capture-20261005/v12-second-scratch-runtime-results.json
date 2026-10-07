@@ -1,0 +1,118 @@
+{
+  "scope": "second disposable branch, new isolated scratch; no installed metadata restoration",
+  "resource_attribute_four_controls_strict_passed": false,
+  "hardlink_selected_first_statuses": [
+    [
+      0,
+      183,
+      183
+    ],
+    [
+      0,
+      183,
+      183
+    ],
+    [
+      0,
+      183,
+      183
+    ]
+  ],
+  "all_three_hardlink_aliases_preserved": false,
+  "object_id_before_reboot_full64_exact": true,
+  "object_id_after_reboot_full64_exact": false,
+  "object_id_after_reboot_extended48": "allzero; first16andfull24fileidentity unchanged; noAPIerror",
+  "offline_confirmation": "pending normalshutdown",
+  "proofs": [
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/second-experiment-results/Directory-maximum-execute.json",
+      "bytes": 552,
+      "sha256": "2595d88a57e4ba2bb0639043c0cf58982fd7bfe31da1a70b80146160b892f47b"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/second-experiment-results/File-maximum-report.json",
+      "bytes": 32503,
+      "sha256": "eae6c640ed7eaa6632a55aac4686b5c517859d64166bbe540da2449102c938c1"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/second-experiment-results/File-explicit-execute.json",
+      "bytes": 552,
+      "sha256": "2595d88a57e4ba2bb0639043c0cf58982fd7bfe31da1a70b80146160b892f47b"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/second-experiment-results/objectid-observer-before-execute.json",
+      "bytes": 118,
+      "sha256": "aac612aad7858839ef66346818338dbe61336164f1bc41c875016c805f41b15e"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/second-experiment-results/supported-shutdown-request.json",
+      "bytes": 282,
+      "sha256": "f1e9742071fc4d47a40de2eca906da8e88761a209104bac98c8fa91196d6896b"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/second-experiment-results/Directory-explicit-execute.json",
+      "bytes": 552,
+      "sha256": "2595d88a57e4ba2bb0639043c0cf58982fd7bfe31da1a70b80146160b892f47b"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/second-experiment-results/objectid-observer-after-execute.json",
+      "bytes": 605,
+      "sha256": "02ecbc50aa377e919f48e9d44c62cf73aa08ede56c7e08c05841fe1727fc5342"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/second-experiment-results/reboot-request.json",
+      "bytes": 306,
+      "sha256": "37a66b969982deae3c151577c6a42af7507d68684afbb53fbb1aa1db36be963c"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/second-experiment-results/File-explicit-report.json",
+      "bytes": 32504,
+      "sha256": "ddd315330c7e30edc0e548988aee94ee6bc0b5ccd6e1073d046a7e5a472f8cb2"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/second-experiment-results/File-maximum-execute.json",
+      "bytes": 552,
+      "sha256": "2595d88a57e4ba2bb0639043c0cf58982fd7bfe31da1a70b80146160b892f47b"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/second-experiment-results/alias-report.json",
+      "bytes": 133897,
+      "sha256": "ab5a0f606d8b2723726a78d7477155b225b43046696ab9e3d72a8f89dbb3c13c"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/second-experiment-results/alias-execute.json",
+      "bytes": 428493,
+      "sha256": "4f7efac0d68d5c64ea8ea0adf8dc2e3bc52cd51c4fdd46dfd95d7f3080f01414"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/second-experiment-results/objectid-observer-before-report.json",
+      "bytes": 2689,
+      "sha256": "97e2f5133b19b07d6e108d935709dcbaaa952e25d989db3c264fa1f3053c1f8b"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/second-experiment-results/reboot-after-boot.json",
+      "bytes": 190,
+      "sha256": "c9128f11252bbfcaac048d06d934b741d39dcbdc2bd431f2c2e5929f9e05756e"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/second-experiment-results/format.json",
+      "bytes": 339,
+      "sha256": "a7923940bb30cea3222c39b7fccda8e5d786028da7845a8b792baf722df541b8"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/second-experiment-results/Directory-explicit-report.json",
+      "bytes": 36411,
+      "sha256": "ae14807526584b88473457aa4ee16322b963d6ee539b62a46d2127305ebafba6"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/second-experiment-results/Directory-maximum-report.json",
+      "bytes": 36040,
+      "sha256": "1ffc044d98fa9fb26fd9f7e012176eb414992cff15ee92c3b2445b35e4fc3b86"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/second-experiment-results/objectid-observer-after-report.json",
+      "bytes": 2693,
+      "sha256": "847e7b25e8564869b24b3f7962230539ace2f66e7c1ea671cb128d8f9226224c"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "validation_only": true,
+  "checks": [
+    {
+      "command": [
+        "qemu-img",
+        "check",
+        "--output=json",
+        "vm-state/qcow2-source-1005/overlay.qcow2"
+      ],
+      "exit": 0,
+      "result": {
+        "image-end-offset": 4352770048,
+        "total-clusters": 1048576,
+        "check-errors": 0,
+        "allocated-clusters": 64951,
+        "filename": "vm-state/qcow2-source-1005/overlay.qcow2",
+        "format": "qcow2",
+        "fragmented-clusters": 8055
+      },
+      "stderr": ""
+    },
+    {
+      "command": [
+        "qemu-img",
+        "check",
+        "--output=json",
+        "/home/rick/.vm-base/win11-secure/disk.qcow2"
+      ],
+      "exit": 0,
+      "result": {
+        "image-end-offset": 10026090496,
+        "total-clusters": 1048576,
+        "check-errors": 0,
+        "allocated-clusters": 152950,
+        "filename": "/home/rick/.vm-base/win11-secure/disk.qcow2",
+        "format": "qcow2",
+        "fragmented-clusters": 4
+      },
+      "stderr": ""
+    }
+  ]
+}

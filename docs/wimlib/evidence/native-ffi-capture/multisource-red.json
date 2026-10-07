@@ -1,0 +1,3893 @@
+{
+  "cases": 542,
+  "observations": 3378,
+  "normalization": "current wall-clock timestamps on synthetic filler directories only",
+  "mismatches": [
+    {
+      "case": 16,
+      "mode": 0,
+      "flags": 4,
+      "status": 0,
+      "sources": [
+        [
+          "a",
+          "/"
+        ],
+        [
+          "b",
+          "/"
+        ]
+      ],
+      "original_output": [
+        0,
+        "create 0\nscan 9 0 0 0 0\nscan 10 0 0 1 4\nscan 10 0 1 1 4\nscan 10 0 1 2 9\nscan 10 0 1 3 41\nscan 10 0 1 4 41\nscan 10 0 2 4 41\nscan 11 0 2 4 41\nscan 9 0 0 0 0\nscan 10 0 0 1 0\nscan 10 0 0 2 4\nscan 10 0 0 3 4\nscan 10 0 1 3 4\nscan 11 0 1 3 4\nprogress 23\nprogress 23\nadd 0 images 1 boot 0 rpfix 1\nwrite 0\n"
+      ],
+      "native_output": [
+        0,
+        "create 0\nscan 9 0 0 0 0\nscan 10 0 0 1 4\nscan 10 0 1 1 4\nscan 10 0 1 2 9\nscan 10 0 1 3 41\nscan 10 0 1 4 41\nscan 10 0 2 4 41\nscan 11 0 2 4 41\nscan 9 0 0 0 0\nscan 10 0 0 1 5\nscan 10 0 0 2 9\nscan 10 0 0 3 9\nscan 10 0 1 3 9\nscan 11 0 1 3 9\nprogress 23\nprogress 23\nadd 0 images 1 boot 0 rpfix 1\nwrite 0\n"
+      ],
+      "apply_codes": [
+        0,
+        0
+      ],
+      "original_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f616c696173",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        },
+        {
+          "path": "2f64617461",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 1,
+          "sha1": "a295e0bdde1938d1fbfd343e5a3e569e868e1465",
+          "size": 4,
+          "xattrs": {}
+        },
+        {
+          "path": "2f656d707479",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 2,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "size": 0,
+          "xattrs": {}
+        },
+        {
+          "path": "2f6c696e6b",
+          "mode": 41471,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 3,
+          "target": "64617461",
+          "xattrs": {}
+        },
+        {
+          "path": "2f6e6573746564",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f6e65737465642f64656570",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 4,
+          "sha1": "3dde59ff3d79fc2322f4192f74c1d1af30d32cc6",
+          "size": 4,
+          "xattrs": {}
+        }
+      ],
+      "native_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f616c696173",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        },
+        {
+          "path": "2f64617461",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 1,
+          "sha1": "a295e0bdde1938d1fbfd343e5a3e569e868e1465",
+          "size": 4,
+          "xattrs": {}
+        },
+        {
+          "path": "2f656d707479",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 2,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "size": 0,
+          "xattrs": {}
+        },
+        {
+          "path": "2f6c696e6b",
+          "mode": 41471,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 3,
+          "target": "64617461",
+          "xattrs": {}
+        },
+        {
+          "path": "2f6e6573746564",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f6e65737465642f64656570",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 4,
+          "sha1": "3dde59ff3d79fc2322f4192f74c1d1af30d32cc6",
+          "size": 4,
+          "xattrs": {}
+        }
+      ]
+    },
+    {
+      "case": 17,
+      "mode": 0,
+      "flags": 4,
+      "status": 0,
+      "sources": [
+        [
+          "a",
+          "/A"
+        ],
+        [
+          "b",
+          "/B"
+        ]
+      ],
+      "original_output": [
+        0,
+        "create 0\nscan 9 0 0 0 0\nscan 10 0 0 1 4\nscan 10 0 1 1 4\nscan 10 0 1 2 9\nscan 10 0 1 3 41\nscan 10 0 1 4 41\nscan 10 0 2 4 41\nscan 11 0 2 4 41\nscan 9 0 0 0 0\nscan 10 0 0 1 0\nscan 10 0 0 2 4\nscan 10 0 0 3 4\nscan 10 0 1 3 4\nscan 11 0 1 3 4\nadd 0 images 1 boot 0 rpfix 0\nwrite 0\n"
+      ],
+      "native_output": [
+        0,
+        "create 0\nscan 9 0 0 0 0\nscan 10 0 0 1 4\nscan 10 0 1 1 4\nscan 10 0 1 2 9\nscan 10 0 1 3 41\nscan 10 0 1 4 41\nscan 10 0 2 4 41\nscan 11 0 2 4 41\nscan 9 0 0 0 0\nscan 10 0 0 1 5\nscan 10 0 0 2 9\nscan 10 0 0 3 9\nscan 10 0 1 3 9\nscan 11 0 1 3 9\nadd 0 images 1 boot 0 rpfix 0\nwrite 0\n"
+      ],
+      "apply_codes": [
+        0,
+        0
+      ],
+      "original_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": "unrestored filesystem creation time",
+          "atime": "unrestored filesystem creation time",
+          "xattrs": {}
+        },
+        {
+          "path": "2f41",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f412f64617461",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        },
+        {
+          "path": "2f412f656d707479",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 1,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "size": 0,
+          "xattrs": {}
+        },
+        {
+          "path": "2f412f6c696e6b",
+          "mode": 41471,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 2,
+          "target": "64617461",
+          "xattrs": {}
+        },
+        {
+          "path": "2f412f6e6573746564",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f412f6e65737465642f64656570",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 3,
+          "sha1": "3dde59ff3d79fc2322f4192f74c1d1af30d32cc6",
+          "size": 4,
+          "xattrs": {}
+        },
+        {
+          "path": "2f42",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f422f616c696173",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        },
+        {
+          "path": "2f422f64617461",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 4,
+          "sha1": "a295e0bdde1938d1fbfd343e5a3e569e868e1465",
+          "size": 4,
+          "xattrs": {}
+        },
+        {
+          "path": "2f422f656d707479",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 1,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "size": 0,
+          "xattrs": {}
+        }
+      ],
+      "native_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": "unrestored filesystem creation time",
+          "atime": "unrestored filesystem creation time",
+          "xattrs": {}
+        },
+        {
+          "path": "2f41",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f412f64617461",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        },
+        {
+          "path": "2f412f656d707479",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 1,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "size": 0,
+          "xattrs": {}
+        },
+        {
+          "path": "2f412f6c696e6b",
+          "mode": 41471,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 2,
+          "target": "64617461",
+          "xattrs": {}
+        },
+        {
+          "path": "2f412f6e6573746564",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f412f6e65737465642f64656570",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 3,
+          "sha1": "3dde59ff3d79fc2322f4192f74c1d1af30d32cc6",
+          "size": 4,
+          "xattrs": {}
+        },
+        {
+          "path": "2f42",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f422f616c696173",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        },
+        {
+          "path": "2f422f64617461",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 4,
+          "sha1": "a295e0bdde1938d1fbfd343e5a3e569e868e1465",
+          "size": 4,
+          "xattrs": {}
+        },
+        {
+          "path": "2f422f656d707479",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 1,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "size": 0,
+          "xattrs": {}
+        }
+      ]
+    },
+    {
+      "case": 20,
+      "mode": 0,
+      "flags": 4,
+      "status": 0,
+      "sources": [
+        [
+          "a/data",
+          "/same"
+        ],
+        [
+          "b",
+          "/same"
+        ]
+      ],
+      "original_output": [
+        0,
+        "create 0\nscan 9 0 0 0 0\nscan 10 0 0 1 5\nscan 11 0 0 1 5\nscan 9 0 0 0 0\nscan 10 0 0 1 0\nscan 10 0 0 2 4\nscan 10 0 0 3 4\nscan 10 0 1 3 4\nscan 11 0 1 3 4\nadd 40 images 0 boot 0 rpfix 0\nerrno 0\n"
+      ],
+      "native_output": [
+        0,
+        "create 0\nscan 9 0 0 0 0\nscan 10 0 0 1 5\nscan 11 0 0 1 5\nscan 9 0 0 0 0\nscan 10 0 0 1 5\nscan 10 0 0 2 9\nscan 10 0 0 3 9\nscan 10 0 1 3 9\nscan 11 0 1 3 9\nadd 40 images 0 boot 0 rpfix 0\nerrno 0\n"
+      ],
+      "apply_codes": [
+        null,
+        null
+      ],
+      "original_tree": [],
+      "native_tree": []
+    },
+    {
+      "case": 23,
+      "mode": 0,
+      "flags": 4,
+      "status": 0,
+      "sources": [
+        [
+          "a/data",
+          "/one"
+        ],
+        [
+          "b/alias",
+          "/two"
+        ]
+      ],
+      "original_output": [
+        0,
+        "create 0\nscan 9 0 0 0 0\nscan 10 0 0 1 5\nscan 11 0 0 1 5\nscan 9 0 0 0 0\nscan 10 0 0 1 0\nscan 11 0 0 1 0\nadd 0 images 1 boot 0 rpfix 0\nwrite 0\n"
+      ],
+      "native_output": [
+        0,
+        "create 0\nscan 9 0 0 0 0\nscan 10 0 0 1 5\nscan 11 0 0 1 5\nscan 9 0 0 0 0\nscan 10 0 0 1 5\nscan 11 0 0 1 5\nadd 0 images 1 boot 0 rpfix 0\nwrite 0\n"
+      ],
+      "apply_codes": [
+        0,
+        0
+      ],
+      "original_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": "unrestored filesystem creation time",
+          "atime": "unrestored filesystem creation time",
+          "xattrs": {}
+        },
+        {
+          "path": "2f6f6e65",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        },
+        {
+          "path": "2f74776f",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        }
+      ],
+      "native_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": "unrestored filesystem creation time",
+          "atime": "unrestored filesystem creation time",
+          "xattrs": {}
+        },
+        {
+          "path": "2f6f6e65",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        },
+        {
+          "path": "2f74776f",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        }
+      ]
+    },
+    {
+      "case": 44,
+      "mode": 0,
+      "flags": 20,
+      "status": 0,
+      "sources": [
+        [
+          "a",
+          "/"
+        ],
+        [
+          "b",
+          "/"
+        ]
+      ],
+      "original_output": [
+        0,
+        "create 0\nscan 9 0 0 0 0\nscan 10 0 0 1 4\nscan 10 0 1 1 4\nscan 10 0 1 2 9\nscan 10 0 1 3 41\nscan 10 0 1 4 41\nscan 10 0 2 4 41\nscan 11 0 2 4 41\nscan 9 0 0 0 0\nscan 10 0 0 1 0\nscan 10 0 0 2 4\nscan 10 0 0 3 4\nscan 10 0 1 3 4\nscan 11 0 1 3 4\nprogress 23\nprogress 23\nadd 0 images 1 boot 0 rpfix 1\nwrite 0\n"
+      ],
+      "native_output": [
+        0,
+        "create 0\nscan 9 0 0 0 0\nscan 10 0 0 1 4\nscan 10 0 1 1 4\nscan 10 0 1 2 9\nscan 10 0 1 3 41\nscan 10 0 1 4 41\nscan 10 0 2 4 41\nscan 11 0 2 4 41\nscan 9 0 0 0 0\nscan 10 0 0 1 5\nscan 10 0 0 2 9\nscan 10 0 0 3 9\nscan 10 0 1 3 9\nscan 11 0 1 3 9\nprogress 23\nprogress 23\nadd 0 images 1 boot 0 rpfix 1\nwrite 0\n"
+      ],
+      "apply_codes": [
+        0,
+        0
+      ],
+      "original_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f616c696173",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        },
+        {
+          "path": "2f64617461",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 1,
+          "sha1": "a295e0bdde1938d1fbfd343e5a3e569e868e1465",
+          "size": 4,
+          "xattrs": {}
+        },
+        {
+          "path": "2f656d707479",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 2,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "size": 0,
+          "xattrs": {}
+        },
+        {
+          "path": "2f6c696e6b",
+          "mode": 41471,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 3,
+          "target": "64617461",
+          "xattrs": {}
+        },
+        {
+          "path": "2f6e6573746564",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f6e65737465642f64656570",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 4,
+          "sha1": "3dde59ff3d79fc2322f4192f74c1d1af30d32cc6",
+          "size": 4,
+          "xattrs": {}
+        }
+      ],
+      "native_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f616c696173",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        },
+        {
+          "path": "2f64617461",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 1,
+          "sha1": "a295e0bdde1938d1fbfd343e5a3e569e868e1465",
+          "size": 4,
+          "xattrs": {}
+        },
+        {
+          "path": "2f656d707479",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 2,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "size": 0,
+          "xattrs": {}
+        },
+        {
+          "path": "2f6c696e6b",
+          "mode": 41471,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 3,
+          "target": "64617461",
+          "xattrs": {}
+        },
+        {
+          "path": "2f6e6573746564",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f6e65737465642f64656570",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 4,
+          "sha1": "3dde59ff3d79fc2322f4192f74c1d1af30d32cc6",
+          "size": 4,
+          "xattrs": {}
+        }
+      ]
+    },
+    {
+      "case": 45,
+      "mode": 0,
+      "flags": 20,
+      "status": 0,
+      "sources": [
+        [
+          "a",
+          "/A"
+        ],
+        [
+          "b",
+          "/B"
+        ]
+      ],
+      "original_output": [
+        0,
+        "create 0\nscan 9 0 0 0 0\nscan 10 0 0 1 4\nscan 10 0 1 1 4\nscan 10 0 1 2 9\nscan 10 0 1 3 41\nscan 10 0 1 4 41\nscan 10 0 2 4 41\nscan 11 0 2 4 41\nscan 9 0 0 0 0\nscan 10 0 0 1 0\nscan 10 0 0 2 4\nscan 10 0 0 3 4\nscan 10 0 1 3 4\nscan 11 0 1 3 4\nadd 0 images 1 boot 0 rpfix 0\nwrite 0\n"
+      ],
+      "native_output": [
+        0,
+        "create 0\nscan 9 0 0 0 0\nscan 10 0 0 1 4\nscan 10 0 1 1 4\nscan 10 0 1 2 9\nscan 10 0 1 3 41\nscan 10 0 1 4 41\nscan 10 0 2 4 41\nscan 11 0 2 4 41\nscan 9 0 0 0 0\nscan 10 0 0 1 5\nscan 10 0 0 2 9\nscan 10 0 0 3 9\nscan 10 0 1 3 9\nscan 11 0 1 3 9\nadd 0 images 1 boot 0 rpfix 0\nwrite 0\n"
+      ],
+      "apply_codes": [
+        0,
+        0
+      ],
+      "original_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": "unrestored filesystem creation time",
+          "atime": "unrestored filesystem creation time",
+          "xattrs": {}
+        },
+        {
+          "path": "2f41",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f412f64617461",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        },
+        {
+          "path": "2f412f656d707479",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 1,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "size": 0,
+          "xattrs": {}
+        },
+        {
+          "path": "2f412f6c696e6b",
+          "mode": 41471,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 2,
+          "target": "64617461",
+          "xattrs": {}
+        },
+        {
+          "path": "2f412f6e6573746564",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f412f6e65737465642f64656570",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 3,
+          "sha1": "3dde59ff3d79fc2322f4192f74c1d1af30d32cc6",
+          "size": 4,
+          "xattrs": {}
+        },
+        {
+          "path": "2f42",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f422f616c696173",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        },
+        {
+          "path": "2f422f64617461",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 4,
+          "sha1": "a295e0bdde1938d1fbfd343e5a3e569e868e1465",
+          "size": 4,
+          "xattrs": {}
+        },
+        {
+          "path": "2f422f656d707479",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 1,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "size": 0,
+          "xattrs": {}
+        }
+      ],
+      "native_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": "unrestored filesystem creation time",
+          "atime": "unrestored filesystem creation time",
+          "xattrs": {}
+        },
+        {
+          "path": "2f41",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f412f64617461",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        },
+        {
+          "path": "2f412f656d707479",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 1,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "size": 0,
+          "xattrs": {}
+        },
+        {
+          "path": "2f412f6c696e6b",
+          "mode": 41471,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 2,
+          "target": "64617461",
+          "xattrs": {}
+        },
+        {
+          "path": "2f412f6e6573746564",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f412f6e65737465642f64656570",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 3,
+          "sha1": "3dde59ff3d79fc2322f4192f74c1d1af30d32cc6",
+          "size": 4,
+          "xattrs": {}
+        },
+        {
+          "path": "2f42",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f422f616c696173",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        },
+        {
+          "path": "2f422f64617461",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 4,
+          "sha1": "a295e0bdde1938d1fbfd343e5a3e569e868e1465",
+          "size": 4,
+          "xattrs": {}
+        },
+        {
+          "path": "2f422f656d707479",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 1,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "size": 0,
+          "xattrs": {}
+        }
+      ]
+    },
+    {
+      "case": 48,
+      "mode": 0,
+      "flags": 20,
+      "status": 0,
+      "sources": [
+        [
+          "a/data",
+          "/same"
+        ],
+        [
+          "b",
+          "/same"
+        ]
+      ],
+      "original_output": [
+        0,
+        "create 0\nscan 9 0 0 0 0\nscan 10 0 0 1 5\nscan 11 0 0 1 5\nscan 9 0 0 0 0\nscan 10 0 0 1 0\nscan 10 0 0 2 4\nscan 10 0 0 3 4\nscan 10 0 1 3 4\nscan 11 0 1 3 4\nadd 40 images 0 boot 0 rpfix 0\nerrno 0\n"
+      ],
+      "native_output": [
+        0,
+        "create 0\nscan 9 0 0 0 0\nscan 10 0 0 1 5\nscan 11 0 0 1 5\nscan 9 0 0 0 0\nscan 10 0 0 1 5\nscan 10 0 0 2 9\nscan 10 0 0 3 9\nscan 10 0 1 3 9\nscan 11 0 1 3 9\nadd 40 images 0 boot 0 rpfix 0\nerrno 0\n"
+      ],
+      "apply_codes": [
+        null,
+        null
+      ],
+      "original_tree": [],
+      "native_tree": []
+    },
+    {
+      "case": 51,
+      "mode": 0,
+      "flags": 20,
+      "status": 0,
+      "sources": [
+        [
+          "a/data",
+          "/one"
+        ],
+        [
+          "b/alias",
+          "/two"
+        ]
+      ],
+      "original_output": [
+        0,
+        "create 0\nscan 9 0 0 0 0\nscan 10 0 0 1 5\nscan 11 0 0 1 5\nscan 9 0 0 0 0\nscan 10 0 0 1 0\nscan 11 0 0 1 0\nadd 0 images 1 boot 0 rpfix 0\nwrite 0\n"
+      ],
+      "native_output": [
+        0,
+        "create 0\nscan 9 0 0 0 0\nscan 10 0 0 1 5\nscan 11 0 0 1 5\nscan 9 0 0 0 0\nscan 10 0 0 1 5\nscan 11 0 0 1 5\nadd 0 images 1 boot 0 rpfix 0\nwrite 0\n"
+      ],
+      "apply_codes": [
+        0,
+        0
+      ],
+      "original_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": "unrestored filesystem creation time",
+          "atime": "unrestored filesystem creation time",
+          "xattrs": {}
+        },
+        {
+          "path": "2f6f6e65",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        },
+        {
+          "path": "2f74776f",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        }
+      ],
+      "native_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": "unrestored filesystem creation time",
+          "atime": "unrestored filesystem creation time",
+          "xattrs": {}
+        },
+        {
+          "path": "2f6f6e65",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        },
+        {
+          "path": "2f74776f",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        }
+      ]
+    },
+    {
+      "case": 72,
+      "mode": 0,
+      "flags": 8196,
+      "status": 0,
+      "sources": [
+        [
+          "a",
+          "/"
+        ],
+        [
+          "b",
+          "/"
+        ]
+      ],
+      "original_output": [
+        0,
+        "create 0\nscan 9 0 0 0 0\nscan 10 0 0 1 4\nscan 10 0 1 1 4\nscan 10 0 1 2 9\nscan 10 0 1 3 41\nscan 10 0 1 4 41\nscan 10 0 2 4 41\nscan 11 0 2 4 41\nscan 9 0 0 0 0\nscan 10 0 0 1 0\nscan 10 0 0 2 4\nscan 10 0 0 3 4\nscan 10 0 1 3 4\nscan 11 0 1 3 4\nadd 23 images 0 boot 0 rpfix 0\nerrno 0\n"
+      ],
+      "native_output": [
+        0,
+        "create 0\nscan 9 0 0 0 0\nscan 10 0 0 1 4\nscan 10 0 1 1 4\nscan 10 0 1 2 9\nscan 10 0 1 3 41\nscan 10 0 1 4 41\nscan 10 0 2 4 41\nscan 11 0 2 4 41\nscan 9 0 0 0 0\nscan 10 0 0 1 5\nscan 10 0 0 2 9\nscan 10 0 0 3 9\nscan 10 0 1 3 9\nscan 11 0 1 3 9\nadd 23 images 0 boot 0 rpfix 0\nerrno 0\n"
+      ],
+      "apply_codes": [
+        null,
+        null
+      ],
+      "original_tree": [],
+      "native_tree": []
+    },
+    {
+      "case": 73,
+      "mode": 0,
+      "flags": 8196,
+      "status": 0,
+      "sources": [
+        [
+          "a",
+          "/A"
+        ],
+        [
+          "b",
+          "/B"
+        ]
+      ],
+      "original_output": [
+        0,
+        "create 0\nscan 9 0 0 0 0\nscan 10 0 0 1 4\nscan 10 0 1 1 4\nscan 10 0 1 2 9\nscan 10 0 1 3 41\nscan 10 0 1 4 41\nscan 10 0 2 4 41\nscan 11 0 2 4 41\nscan 9 0 0 0 0\nscan 10 0 0 1 0\nscan 10 0 0 2 4\nscan 10 0 0 3 4\nscan 10 0 1 3 4\nscan 11 0 1 3 4\nadd 0 images 1 boot 0 rpfix 0\nwrite 0\n"
+      ],
+      "native_output": [
+        0,
+        "create 0\nscan 9 0 0 0 0\nscan 10 0 0 1 4\nscan 10 0 1 1 4\nscan 10 0 1 2 9\nscan 10 0 1 3 41\nscan 10 0 1 4 41\nscan 10 0 2 4 41\nscan 11 0 2 4 41\nscan 9 0 0 0 0\nscan 10 0 0 1 5\nscan 10 0 0 2 9\nscan 10 0 0 3 9\nscan 10 0 1 3 9\nscan 11 0 1 3 9\nadd 0 images 1 boot 0 rpfix 0\nwrite 0\n"
+      ],
+      "apply_codes": [
+        0,
+        0
+      ],
+      "original_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": "unrestored filesystem creation time",
+          "atime": "unrestored filesystem creation time",
+          "xattrs": {}
+        },
+        {
+          "path": "2f41",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f412f64617461",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        },
+        {
+          "path": "2f412f656d707479",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 1,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "size": 0,
+          "xattrs": {}
+        },
+        {
+          "path": "2f412f6c696e6b",
+          "mode": 41471,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 2,
+          "target": "64617461",
+          "xattrs": {}
+        },
+        {
+          "path": "2f412f6e6573746564",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f412f6e65737465642f64656570",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 3,
+          "sha1": "3dde59ff3d79fc2322f4192f74c1d1af30d32cc6",
+          "size": 4,
+          "xattrs": {}
+        },
+        {
+          "path": "2f42",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f422f616c696173",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        },
+        {
+          "path": "2f422f64617461",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 4,
+          "sha1": "a295e0bdde1938d1fbfd343e5a3e569e868e1465",
+          "size": 4,
+          "xattrs": {}
+        },
+        {
+          "path": "2f422f656d707479",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 1,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "size": 0,
+          "xattrs": {}
+        }
+      ],
+      "native_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": "unrestored filesystem creation time",
+          "atime": "unrestored filesystem creation time",
+          "xattrs": {}
+        },
+        {
+          "path": "2f41",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f412f64617461",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        },
+        {
+          "path": "2f412f656d707479",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 1,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "size": 0,
+          "xattrs": {}
+        },
+        {
+          "path": "2f412f6c696e6b",
+          "mode": 41471,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 2,
+          "target": "64617461",
+          "xattrs": {}
+        },
+        {
+          "path": "2f412f6e6573746564",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f412f6e65737465642f64656570",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 3,
+          "sha1": "3dde59ff3d79fc2322f4192f74c1d1af30d32cc6",
+          "size": 4,
+          "xattrs": {}
+        },
+        {
+          "path": "2f42",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f422f616c696173",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        },
+        {
+          "path": "2f422f64617461",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 4,
+          "sha1": "a295e0bdde1938d1fbfd343e5a3e569e868e1465",
+          "size": 4,
+          "xattrs": {}
+        },
+        {
+          "path": "2f422f656d707479",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 1,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "size": 0,
+          "xattrs": {}
+        }
+      ]
+    },
+    {
+      "case": 76,
+      "mode": 0,
+      "flags": 8196,
+      "status": 0,
+      "sources": [
+        [
+          "a/data",
+          "/same"
+        ],
+        [
+          "b",
+          "/same"
+        ]
+      ],
+      "original_output": [
+        0,
+        "create 0\nscan 9 0 0 0 0\nscan 10 0 0 1 5\nscan 11 0 0 1 5\nscan 9 0 0 0 0\nscan 10 0 0 1 0\nscan 10 0 0 2 4\nscan 10 0 0 3 4\nscan 10 0 1 3 4\nscan 11 0 1 3 4\nadd 40 images 0 boot 0 rpfix 0\nerrno 0\n"
+      ],
+      "native_output": [
+        0,
+        "create 0\nscan 9 0 0 0 0\nscan 10 0 0 1 5\nscan 11 0 0 1 5\nscan 9 0 0 0 0\nscan 10 0 0 1 5\nscan 10 0 0 2 9\nscan 10 0 0 3 9\nscan 10 0 1 3 9\nscan 11 0 1 3 9\nadd 40 images 0 boot 0 rpfix 0\nerrno 0\n"
+      ],
+      "apply_codes": [
+        null,
+        null
+      ],
+      "original_tree": [],
+      "native_tree": []
+    },
+    {
+      "case": 79,
+      "mode": 0,
+      "flags": 8196,
+      "status": 0,
+      "sources": [
+        [
+          "a/data",
+          "/one"
+        ],
+        [
+          "b/alias",
+          "/two"
+        ]
+      ],
+      "original_output": [
+        0,
+        "create 0\nscan 9 0 0 0 0\nscan 10 0 0 1 5\nscan 11 0 0 1 5\nscan 9 0 0 0 0\nscan 10 0 0 1 0\nscan 11 0 0 1 0\nadd 0 images 1 boot 0 rpfix 0\nwrite 0\n"
+      ],
+      "native_output": [
+        0,
+        "create 0\nscan 9 0 0 0 0\nscan 10 0 0 1 5\nscan 11 0 0 1 5\nscan 9 0 0 0 0\nscan 10 0 0 1 5\nscan 11 0 0 1 5\nadd 0 images 1 boot 0 rpfix 0\nwrite 0\n"
+      ],
+      "apply_codes": [
+        0,
+        0
+      ],
+      "original_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": "unrestored filesystem creation time",
+          "atime": "unrestored filesystem creation time",
+          "xattrs": {}
+        },
+        {
+          "path": "2f6f6e65",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        },
+        {
+          "path": "2f74776f",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        }
+      ],
+      "native_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": "unrestored filesystem creation time",
+          "atime": "unrestored filesystem creation time",
+          "xattrs": {}
+        },
+        {
+          "path": "2f6f6e65",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        },
+        {
+          "path": "2f74776f",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        }
+      ]
+    },
+    {
+      "case": 168,
+      "mode": 2,
+      "flags": 4,
+      "status": 0,
+      "sources": [
+        [
+          "a",
+          "/"
+        ],
+        [
+          "b",
+          "/"
+        ]
+      ],
+      "original_output": [
+        0,
+        "create 0\ncommand 21 0 388 0 2\nscan 9 0 0 0 0\nscan 10 0 0 1 4\nscan 10 0 1 1 4\nscan 10 0 1 2 9\nscan 10 0 1 3 41\nscan 10 0 1 4 41\nscan 10 0 2 4 41\nscan 11 0 2 4 41\ncommand 22 0 388 1 2\ncommand 21 0 388 1 2\nscan 9 0 0 0 0\nscan 10 0 0 1 0\nscan 10 0 0 2 4\nscan 10 0 0 3 4\nscan 10 0 1 3 4\nscan 11 0 1 3 4\nprogress 23\nprogress 23\ncommand 22 0 388 2 2\nadd 0 images 1 boot 0 rpfix 1\nwrite 0\n"
+      ],
+      "native_output": [
+        0,
+        "create 0\ncommand 21 0 388 0 2\nscan 9 0 0 0 0\nscan 10 0 0 1 4\nscan 10 0 1 1 4\nscan 10 0 1 2 9\nscan 10 0 1 3 41\nscan 10 0 1 4 41\nscan 10 0 2 4 41\nscan 11 0 2 4 41\ncommand 22 0 388 1 2\ncommand 21 0 388 1 2\nscan 9 0 0 0 0\nscan 10 0 0 1 5\nscan 10 0 0 2 9\nscan 10 0 0 3 9\nscan 10 0 1 3 9\nscan 11 0 1 3 9\nprogress 23\nprogress 23\ncommand 22 0 388 2 2\nadd 0 images 1 boot 0 rpfix 1\nwrite 0\n"
+      ],
+      "apply_codes": [
+        0,
+        0
+      ],
+      "original_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f616c696173",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        },
+        {
+          "path": "2f64617461",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 1,
+          "sha1": "a295e0bdde1938d1fbfd343e5a3e569e868e1465",
+          "size": 4,
+          "xattrs": {}
+        },
+        {
+          "path": "2f656d707479",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 2,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "size": 0,
+          "xattrs": {}
+        },
+        {
+          "path": "2f6c696e6b",
+          "mode": 41471,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 3,
+          "target": "64617461",
+          "xattrs": {}
+        },
+        {
+          "path": "2f6e6573746564",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f6e65737465642f64656570",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 4,
+          "sha1": "3dde59ff3d79fc2322f4192f74c1d1af30d32cc6",
+          "size": 4,
+          "xattrs": {}
+        }
+      ],
+      "native_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f616c696173",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        },
+        {
+          "path": "2f64617461",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 1,
+          "sha1": "a295e0bdde1938d1fbfd343e5a3e569e868e1465",
+          "size": 4,
+          "xattrs": {}
+        },
+        {
+          "path": "2f656d707479",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 2,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "size": 0,
+          "xattrs": {}
+        },
+        {
+          "path": "2f6c696e6b",
+          "mode": 41471,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 3,
+          "target": "64617461",
+          "xattrs": {}
+        },
+        {
+          "path": "2f6e6573746564",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f6e65737465642f64656570",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 4,
+          "sha1": "3dde59ff3d79fc2322f4192f74c1d1af30d32cc6",
+          "size": 4,
+          "xattrs": {}
+        }
+      ]
+    },
+    {
+      "case": 169,
+      "mode": 2,
+      "flags": 4,
+      "status": 0,
+      "sources": [
+        [
+          "a",
+          "/A"
+        ],
+        [
+          "b",
+          "/B"
+        ]
+      ],
+      "original_output": [
+        0,
+        "create 0\ncommand 21 0 132 0 2\nscan 9 0 0 0 0\nscan 10 0 0 1 4\nscan 10 0 1 1 4\nscan 10 0 1 2 9\nscan 10 0 1 3 41\nscan 10 0 1 4 41\nscan 10 0 2 4 41\nscan 11 0 2 4 41\ncommand 22 0 132 1 2\ncommand 21 0 132 1 2\nscan 9 0 0 0 0\nscan 10 0 0 1 0\nscan 10 0 0 2 4\nscan 10 0 0 3 4\nscan 10 0 1 3 4\nscan 11 0 1 3 4\ncommand 22 0 132 2 2\nadd 0 images 1 boot 0 rpfix 0\nwrite 0\n"
+      ],
+      "native_output": [
+        0,
+        "create 0\ncommand 21 0 132 0 2\nscan 9 0 0 0 0\nscan 10 0 0 1 4\nscan 10 0 1 1 4\nscan 10 0 1 2 9\nscan 10 0 1 3 41\nscan 10 0 1 4 41\nscan 10 0 2 4 41\nscan 11 0 2 4 41\ncommand 22 0 132 1 2\ncommand 21 0 132 1 2\nscan 9 0 0 0 0\nscan 10 0 0 1 5\nscan 10 0 0 2 9\nscan 10 0 0 3 9\nscan 10 0 1 3 9\nscan 11 0 1 3 9\ncommand 22 0 132 2 2\nadd 0 images 1 boot 0 rpfix 0\nwrite 0\n"
+      ],
+      "apply_codes": [
+        0,
+        0
+      ],
+      "original_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": "unrestored filesystem creation time",
+          "atime": "unrestored filesystem creation time",
+          "xattrs": {}
+        },
+        {
+          "path": "2f41",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f412f64617461",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        },
+        {
+          "path": "2f412f656d707479",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 1,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "size": 0,
+          "xattrs": {}
+        },
+        {
+          "path": "2f412f6c696e6b",
+          "mode": 41471,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 2,
+          "target": "64617461",
+          "xattrs": {}
+        },
+        {
+          "path": "2f412f6e6573746564",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f412f6e65737465642f64656570",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 3,
+          "sha1": "3dde59ff3d79fc2322f4192f74c1d1af30d32cc6",
+          "size": 4,
+          "xattrs": {}
+        },
+        {
+          "path": "2f42",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f422f616c696173",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        },
+        {
+          "path": "2f422f64617461",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 4,
+          "sha1": "a295e0bdde1938d1fbfd343e5a3e569e868e1465",
+          "size": 4,
+          "xattrs": {}
+        },
+        {
+          "path": "2f422f656d707479",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 1,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "size": 0,
+          "xattrs": {}
+        }
+      ],
+      "native_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": "unrestored filesystem creation time",
+          "atime": "unrestored filesystem creation time",
+          "xattrs": {}
+        },
+        {
+          "path": "2f41",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f412f64617461",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        },
+        {
+          "path": "2f412f656d707479",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 1,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "size": 0,
+          "xattrs": {}
+        },
+        {
+          "path": "2f412f6c696e6b",
+          "mode": 41471,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 2,
+          "target": "64617461",
+          "xattrs": {}
+        },
+        {
+          "path": "2f412f6e6573746564",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f412f6e65737465642f64656570",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 3,
+          "sha1": "3dde59ff3d79fc2322f4192f74c1d1af30d32cc6",
+          "size": 4,
+          "xattrs": {}
+        },
+        {
+          "path": "2f42",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f422f616c696173",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        },
+        {
+          "path": "2f422f64617461",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 4,
+          "sha1": "a295e0bdde1938d1fbfd343e5a3e569e868e1465",
+          "size": 4,
+          "xattrs": {}
+        },
+        {
+          "path": "2f422f656d707479",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 1,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "size": 0,
+          "xattrs": {}
+        }
+      ]
+    },
+    {
+      "case": 172,
+      "mode": 2,
+      "flags": 4,
+      "status": 0,
+      "sources": [
+        [
+          "a/data",
+          "/same"
+        ],
+        [
+          "b",
+          "/same"
+        ]
+      ],
+      "original_output": [
+        0,
+        "create 0\ncommand 21 0 132 0 2\nscan 9 0 0 0 0\nscan 10 0 0 1 5\nscan 11 0 0 1 5\ncommand 22 0 132 1 2\ncommand 21 0 132 1 2\nscan 9 0 0 0 0\nscan 10 0 0 1 0\nscan 10 0 0 2 4\nscan 10 0 0 3 4\nscan 10 0 1 3 4\nscan 11 0 1 3 4\nadd 40 images 1 boot 0 rpfix 0\nerrno 0\n"
+      ],
+      "native_output": [
+        0,
+        "create 0\ncommand 21 0 132 0 2\nscan 9 0 0 0 0\nscan 10 0 0 1 5\nscan 11 0 0 1 5\ncommand 22 0 132 1 2\ncommand 21 0 132 1 2\nscan 9 0 0 0 0\nscan 10 0 0 1 5\nscan 10 0 0 2 9\nscan 10 0 0 3 9\nscan 10 0 1 3 9\nscan 11 0 1 3 9\nadd 40 images 1 boot 0 rpfix 0\nerrno 0\n"
+      ],
+      "apply_codes": [
+        null,
+        null
+      ],
+      "original_tree": [],
+      "native_tree": []
+    },
+    {
+      "case": 175,
+      "mode": 2,
+      "flags": 4,
+      "status": 0,
+      "sources": [
+        [
+          "a/data",
+          "/one"
+        ],
+        [
+          "b/alias",
+          "/two"
+        ]
+      ],
+      "original_output": [
+        0,
+        "create 0\ncommand 21 0 132 0 2\nscan 9 0 0 0 0\nscan 10 0 0 1 5\nscan 11 0 0 1 5\ncommand 22 0 132 1 2\ncommand 21 0 132 1 2\nscan 9 0 0 0 0\nscan 10 0 0 1 0\nscan 11 0 0 1 0\ncommand 22 0 132 2 2\nadd 0 images 1 boot 0 rpfix 0\nwrite 0\n"
+      ],
+      "native_output": [
+        0,
+        "create 0\ncommand 21 0 132 0 2\nscan 9 0 0 0 0\nscan 10 0 0 1 5\nscan 11 0 0 1 5\ncommand 22 0 132 1 2\ncommand 21 0 132 1 2\nscan 9 0 0 0 0\nscan 10 0 0 1 5\nscan 11 0 0 1 5\ncommand 22 0 132 2 2\nadd 0 images 1 boot 0 rpfix 0\nwrite 0\n"
+      ],
+      "apply_codes": [
+        0,
+        0
+      ],
+      "original_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": "unrestored filesystem creation time",
+          "atime": "unrestored filesystem creation time",
+          "xattrs": {}
+        },
+        {
+          "path": "2f6f6e65",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        },
+        {
+          "path": "2f74776f",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        }
+      ],
+      "native_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": "unrestored filesystem creation time",
+          "atime": "unrestored filesystem creation time",
+          "xattrs": {}
+        },
+        {
+          "path": "2f6f6e65",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        },
+        {
+          "path": "2f74776f",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        }
+      ]
+    },
+    {
+      "case": 196,
+      "mode": 2,
+      "flags": 20,
+      "status": 0,
+      "sources": [
+        [
+          "a",
+          "/"
+        ],
+        [
+          "b",
+          "/"
+        ]
+      ],
+      "original_output": [
+        0,
+        "create 0\ncommand 21 0 404 0 2\nscan 9 0 0 0 0\nscan 10 0 0 1 4\nscan 10 0 1 1 4\nscan 10 0 1 2 9\nscan 10 0 1 3 41\nscan 10 0 1 4 41\nscan 10 0 2 4 41\nscan 11 0 2 4 41\ncommand 22 0 404 1 2\ncommand 21 0 404 1 2\nscan 9 0 0 0 0\nscan 10 0 0 1 0\nscan 10 0 0 2 4\nscan 10 0 0 3 4\nscan 10 0 1 3 4\nscan 11 0 1 3 4\nprogress 23\nprogress 23\ncommand 22 0 404 2 2\nadd 0 images 1 boot 0 rpfix 1\nwrite 0\n"
+      ],
+      "native_output": [
+        0,
+        "create 0\ncommand 21 0 404 0 2\nscan 9 0 0 0 0\nscan 10 0 0 1 4\nscan 10 0 1 1 4\nscan 10 0 1 2 9\nscan 10 0 1 3 41\nscan 10 0 1 4 41\nscan 10 0 2 4 41\nscan 11 0 2 4 41\ncommand 22 0 404 1 2\ncommand 21 0 404 1 2\nscan 9 0 0 0 0\nscan 10 0 0 1 5\nscan 10 0 0 2 9\nscan 10 0 0 3 9\nscan 10 0 1 3 9\nscan 11 0 1 3 9\nprogress 23\nprogress 23\ncommand 22 0 404 2 2\nadd 0 images 1 boot 0 rpfix 1\nwrite 0\n"
+      ],
+      "apply_codes": [
+        0,
+        0
+      ],
+      "original_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f616c696173",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        },
+        {
+          "path": "2f64617461",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 1,
+          "sha1": "a295e0bdde1938d1fbfd343e5a3e569e868e1465",
+          "size": 4,
+          "xattrs": {}
+        },
+        {
+          "path": "2f656d707479",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 2,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "size": 0,
+          "xattrs": {}
+        },
+        {
+          "path": "2f6c696e6b",
+          "mode": 41471,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 3,
+          "target": "64617461",
+          "xattrs": {}
+        },
+        {
+          "path": "2f6e6573746564",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f6e65737465642f64656570",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 4,
+          "sha1": "3dde59ff3d79fc2322f4192f74c1d1af30d32cc6",
+          "size": 4,
+          "xattrs": {}
+        }
+      ],
+      "native_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f616c696173",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        },
+        {
+          "path": "2f64617461",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 1,
+          "sha1": "a295e0bdde1938d1fbfd343e5a3e569e868e1465",
+          "size": 4,
+          "xattrs": {}
+        },
+        {
+          "path": "2f656d707479",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 2,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "size": 0,
+          "xattrs": {}
+        },
+        {
+          "path": "2f6c696e6b",
+          "mode": 41471,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 3,
+          "target": "64617461",
+          "xattrs": {}
+        },
+        {
+          "path": "2f6e6573746564",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f6e65737465642f64656570",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 4,
+          "sha1": "3dde59ff3d79fc2322f4192f74c1d1af30d32cc6",
+          "size": 4,
+          "xattrs": {}
+        }
+      ]
+    },
+    {
+      "case": 197,
+      "mode": 2,
+      "flags": 20,
+      "status": 0,
+      "sources": [
+        [
+          "a",
+          "/A"
+        ],
+        [
+          "b",
+          "/B"
+        ]
+      ],
+      "original_output": [
+        0,
+        "create 0\ncommand 21 0 148 0 2\nscan 9 0 0 0 0\nscan 10 0 0 1 4\nscan 10 0 1 1 4\nscan 10 0 1 2 9\nscan 10 0 1 3 41\nscan 10 0 1 4 41\nscan 10 0 2 4 41\nscan 11 0 2 4 41\ncommand 22 0 148 1 2\ncommand 21 0 148 1 2\nscan 9 0 0 0 0\nscan 10 0 0 1 0\nscan 10 0 0 2 4\nscan 10 0 0 3 4\nscan 10 0 1 3 4\nscan 11 0 1 3 4\ncommand 22 0 148 2 2\nadd 0 images 1 boot 0 rpfix 0\nwrite 0\n"
+      ],
+      "native_output": [
+        0,
+        "create 0\ncommand 21 0 148 0 2\nscan 9 0 0 0 0\nscan 10 0 0 1 4\nscan 10 0 1 1 4\nscan 10 0 1 2 9\nscan 10 0 1 3 41\nscan 10 0 1 4 41\nscan 10 0 2 4 41\nscan 11 0 2 4 41\ncommand 22 0 148 1 2\ncommand 21 0 148 1 2\nscan 9 0 0 0 0\nscan 10 0 0 1 5\nscan 10 0 0 2 9\nscan 10 0 0 3 9\nscan 10 0 1 3 9\nscan 11 0 1 3 9\ncommand 22 0 148 2 2\nadd 0 images 1 boot 0 rpfix 0\nwrite 0\n"
+      ],
+      "apply_codes": [
+        0,
+        0
+      ],
+      "original_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": "unrestored filesystem creation time",
+          "atime": "unrestored filesystem creation time",
+          "xattrs": {}
+        },
+        {
+          "path": "2f41",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f412f64617461",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        },
+        {
+          "path": "2f412f656d707479",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 1,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "size": 0,
+          "xattrs": {}
+        },
+        {
+          "path": "2f412f6c696e6b",
+          "mode": 41471,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 2,
+          "target": "64617461",
+          "xattrs": {}
+        },
+        {
+          "path": "2f412f6e6573746564",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f412f6e65737465642f64656570",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 3,
+          "sha1": "3dde59ff3d79fc2322f4192f74c1d1af30d32cc6",
+          "size": 4,
+          "xattrs": {}
+        },
+        {
+          "path": "2f42",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f422f616c696173",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        },
+        {
+          "path": "2f422f64617461",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 4,
+          "sha1": "a295e0bdde1938d1fbfd343e5a3e569e868e1465",
+          "size": 4,
+          "xattrs": {}
+        },
+        {
+          "path": "2f422f656d707479",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 1,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "size": 0,
+          "xattrs": {}
+        }
+      ],
+      "native_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": "unrestored filesystem creation time",
+          "atime": "unrestored filesystem creation time",
+          "xattrs": {}
+        },
+        {
+          "path": "2f41",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f412f64617461",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        },
+        {
+          "path": "2f412f656d707479",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 1,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "size": 0,
+          "xattrs": {}
+        },
+        {
+          "path": "2f412f6c696e6b",
+          "mode": 41471,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 2,
+          "target": "64617461",
+          "xattrs": {}
+        },
+        {
+          "path": "2f412f6e6573746564",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f412f6e65737465642f64656570",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 3,
+          "sha1": "3dde59ff3d79fc2322f4192f74c1d1af30d32cc6",
+          "size": 4,
+          "xattrs": {}
+        },
+        {
+          "path": "2f42",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f422f616c696173",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        },
+        {
+          "path": "2f422f64617461",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 4,
+          "sha1": "a295e0bdde1938d1fbfd343e5a3e569e868e1465",
+          "size": 4,
+          "xattrs": {}
+        },
+        {
+          "path": "2f422f656d707479",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 1,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "size": 0,
+          "xattrs": {}
+        }
+      ]
+    },
+    {
+      "case": 200,
+      "mode": 2,
+      "flags": 20,
+      "status": 0,
+      "sources": [
+        [
+          "a/data",
+          "/same"
+        ],
+        [
+          "b",
+          "/same"
+        ]
+      ],
+      "original_output": [
+        0,
+        "create 0\ncommand 21 0 148 0 2\nscan 9 0 0 0 0\nscan 10 0 0 1 5\nscan 11 0 0 1 5\ncommand 22 0 148 1 2\ncommand 21 0 148 1 2\nscan 9 0 0 0 0\nscan 10 0 0 1 0\nscan 10 0 0 2 4\nscan 10 0 0 3 4\nscan 10 0 1 3 4\nscan 11 0 1 3 4\nadd 40 images 1 boot 0 rpfix 0\nerrno 0\n"
+      ],
+      "native_output": [
+        0,
+        "create 0\ncommand 21 0 148 0 2\nscan 9 0 0 0 0\nscan 10 0 0 1 5\nscan 11 0 0 1 5\ncommand 22 0 148 1 2\ncommand 21 0 148 1 2\nscan 9 0 0 0 0\nscan 10 0 0 1 5\nscan 10 0 0 2 9\nscan 10 0 0 3 9\nscan 10 0 1 3 9\nscan 11 0 1 3 9\nadd 40 images 1 boot 0 rpfix 0\nerrno 0\n"
+      ],
+      "apply_codes": [
+        null,
+        null
+      ],
+      "original_tree": [],
+      "native_tree": []
+    },
+    {
+      "case": 203,
+      "mode": 2,
+      "flags": 20,
+      "status": 0,
+      "sources": [
+        [
+          "a/data",
+          "/one"
+        ],
+        [
+          "b/alias",
+          "/two"
+        ]
+      ],
+      "original_output": [
+        0,
+        "create 0\ncommand 21 0 148 0 2\nscan 9 0 0 0 0\nscan 10 0 0 1 5\nscan 11 0 0 1 5\ncommand 22 0 148 1 2\ncommand 21 0 148 1 2\nscan 9 0 0 0 0\nscan 10 0 0 1 0\nscan 11 0 0 1 0\ncommand 22 0 148 2 2\nadd 0 images 1 boot 0 rpfix 0\nwrite 0\n"
+      ],
+      "native_output": [
+        0,
+        "create 0\ncommand 21 0 148 0 2\nscan 9 0 0 0 0\nscan 10 0 0 1 5\nscan 11 0 0 1 5\ncommand 22 0 148 1 2\ncommand 21 0 148 1 2\nscan 9 0 0 0 0\nscan 10 0 0 1 5\nscan 11 0 0 1 5\ncommand 22 0 148 2 2\nadd 0 images 1 boot 0 rpfix 0\nwrite 0\n"
+      ],
+      "apply_codes": [
+        0,
+        0
+      ],
+      "original_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": "unrestored filesystem creation time",
+          "atime": "unrestored filesystem creation time",
+          "xattrs": {}
+        },
+        {
+          "path": "2f6f6e65",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        },
+        {
+          "path": "2f74776f",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        }
+      ],
+      "native_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": "unrestored filesystem creation time",
+          "atime": "unrestored filesystem creation time",
+          "xattrs": {}
+        },
+        {
+          "path": "2f6f6e65",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        },
+        {
+          "path": "2f74776f",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        }
+      ]
+    },
+    {
+      "case": 224,
+      "mode": 2,
+      "flags": 8196,
+      "status": 0,
+      "sources": [
+        [
+          "a",
+          "/"
+        ],
+        [
+          "b",
+          "/"
+        ]
+      ],
+      "original_output": [
+        0,
+        "create 0\ncommand 21 0 8580 0 2\nscan 9 0 0 0 0\nscan 10 0 0 1 4\nscan 10 0 1 1 4\nscan 10 0 1 2 9\nscan 10 0 1 3 41\nscan 10 0 1 4 41\nscan 10 0 2 4 41\nscan 11 0 2 4 41\ncommand 22 0 8580 1 2\ncommand 21 0 8580 1 2\nscan 9 0 0 0 0\nscan 10 0 0 1 0\nscan 10 0 0 2 4\nscan 10 0 0 3 4\nscan 10 0 1 3 4\nscan 11 0 1 3 4\nadd 23 images 1 boot 0 rpfix 0\nerrno 0\n"
+      ],
+      "native_output": [
+        0,
+        "create 0\ncommand 21 0 8580 0 2\nscan 9 0 0 0 0\nscan 10 0 0 1 4\nscan 10 0 1 1 4\nscan 10 0 1 2 9\nscan 10 0 1 3 41\nscan 10 0 1 4 41\nscan 10 0 2 4 41\nscan 11 0 2 4 41\ncommand 22 0 8580 1 2\ncommand 21 0 8580 1 2\nscan 9 0 0 0 0\nscan 10 0 0 1 5\nscan 10 0 0 2 9\nscan 10 0 0 3 9\nscan 10 0 1 3 9\nscan 11 0 1 3 9\nadd 23 images 1 boot 0 rpfix 0\nerrno 0\n"
+      ],
+      "apply_codes": [
+        null,
+        null
+      ],
+      "original_tree": [],
+      "native_tree": []
+    },
+    {
+      "case": 225,
+      "mode": 2,
+      "flags": 8196,
+      "status": 0,
+      "sources": [
+        [
+          "a",
+          "/A"
+        ],
+        [
+          "b",
+          "/B"
+        ]
+      ],
+      "original_output": [
+        0,
+        "create 0\ncommand 21 0 8324 0 2\nscan 9 0 0 0 0\nscan 10 0 0 1 4\nscan 10 0 1 1 4\nscan 10 0 1 2 9\nscan 10 0 1 3 41\nscan 10 0 1 4 41\nscan 10 0 2 4 41\nscan 11 0 2 4 41\ncommand 22 0 8324 1 2\ncommand 21 0 8324 1 2\nscan 9 0 0 0 0\nscan 10 0 0 1 0\nscan 10 0 0 2 4\nscan 10 0 0 3 4\nscan 10 0 1 3 4\nscan 11 0 1 3 4\ncommand 22 0 8324 2 2\nadd 0 images 1 boot 0 rpfix 0\nwrite 0\n"
+      ],
+      "native_output": [
+        0,
+        "create 0\ncommand 21 0 8324 0 2\nscan 9 0 0 0 0\nscan 10 0 0 1 4\nscan 10 0 1 1 4\nscan 10 0 1 2 9\nscan 10 0 1 3 41\nscan 10 0 1 4 41\nscan 10 0 2 4 41\nscan 11 0 2 4 41\ncommand 22 0 8324 1 2\ncommand 21 0 8324 1 2\nscan 9 0 0 0 0\nscan 10 0 0 1 5\nscan 10 0 0 2 9\nscan 10 0 0 3 9\nscan 10 0 1 3 9\nscan 11 0 1 3 9\ncommand 22 0 8324 2 2\nadd 0 images 1 boot 0 rpfix 0\nwrite 0\n"
+      ],
+      "apply_codes": [
+        0,
+        0
+      ],
+      "original_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": "unrestored filesystem creation time",
+          "atime": "unrestored filesystem creation time",
+          "xattrs": {}
+        },
+        {
+          "path": "2f41",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f412f64617461",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        },
+        {
+          "path": "2f412f656d707479",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 1,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "size": 0,
+          "xattrs": {}
+        },
+        {
+          "path": "2f412f6c696e6b",
+          "mode": 41471,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 2,
+          "target": "64617461",
+          "xattrs": {}
+        },
+        {
+          "path": "2f412f6e6573746564",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f412f6e65737465642f64656570",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 3,
+          "sha1": "3dde59ff3d79fc2322f4192f74c1d1af30d32cc6",
+          "size": 4,
+          "xattrs": {}
+        },
+        {
+          "path": "2f42",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f422f616c696173",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        },
+        {
+          "path": "2f422f64617461",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 4,
+          "sha1": "a295e0bdde1938d1fbfd343e5a3e569e868e1465",
+          "size": 4,
+          "xattrs": {}
+        },
+        {
+          "path": "2f422f656d707479",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 1,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "size": 0,
+          "xattrs": {}
+        }
+      ],
+      "native_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": "unrestored filesystem creation time",
+          "atime": "unrestored filesystem creation time",
+          "xattrs": {}
+        },
+        {
+          "path": "2f41",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f412f64617461",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        },
+        {
+          "path": "2f412f656d707479",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 1,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "size": 0,
+          "xattrs": {}
+        },
+        {
+          "path": "2f412f6c696e6b",
+          "mode": 41471,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 2,
+          "target": "64617461",
+          "xattrs": {}
+        },
+        {
+          "path": "2f412f6e6573746564",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f412f6e65737465642f64656570",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 3,
+          "sha1": "3dde59ff3d79fc2322f4192f74c1d1af30d32cc6",
+          "size": 4,
+          "xattrs": {}
+        },
+        {
+          "path": "2f42",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f422f616c696173",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        },
+        {
+          "path": "2f422f64617461",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 4,
+          "sha1": "a295e0bdde1938d1fbfd343e5a3e569e868e1465",
+          "size": 4,
+          "xattrs": {}
+        },
+        {
+          "path": "2f422f656d707479",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 1,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "size": 0,
+          "xattrs": {}
+        }
+      ]
+    },
+    {
+      "case": 228,
+      "mode": 2,
+      "flags": 8196,
+      "status": 0,
+      "sources": [
+        [
+          "a/data",
+          "/same"
+        ],
+        [
+          "b",
+          "/same"
+        ]
+      ],
+      "original_output": [
+        0,
+        "create 0\ncommand 21 0 8324 0 2\nscan 9 0 0 0 0\nscan 10 0 0 1 5\nscan 11 0 0 1 5\ncommand 22 0 8324 1 2\ncommand 21 0 8324 1 2\nscan 9 0 0 0 0\nscan 10 0 0 1 0\nscan 10 0 0 2 4\nscan 10 0 0 3 4\nscan 10 0 1 3 4\nscan 11 0 1 3 4\nadd 40 images 1 boot 0 rpfix 0\nerrno 0\n"
+      ],
+      "native_output": [
+        0,
+        "create 0\ncommand 21 0 8324 0 2\nscan 9 0 0 0 0\nscan 10 0 0 1 5\nscan 11 0 0 1 5\ncommand 22 0 8324 1 2\ncommand 21 0 8324 1 2\nscan 9 0 0 0 0\nscan 10 0 0 1 5\nscan 10 0 0 2 9\nscan 10 0 0 3 9\nscan 10 0 1 3 9\nscan 11 0 1 3 9\nadd 40 images 1 boot 0 rpfix 0\nerrno 0\n"
+      ],
+      "apply_codes": [
+        null,
+        null
+      ],
+      "original_tree": [],
+      "native_tree": []
+    },
+    {
+      "case": 231,
+      "mode": 2,
+      "flags": 8196,
+      "status": 0,
+      "sources": [
+        [
+          "a/data",
+          "/one"
+        ],
+        [
+          "b/alias",
+          "/two"
+        ]
+      ],
+      "original_output": [
+        0,
+        "create 0\ncommand 21 0 8324 0 2\nscan 9 0 0 0 0\nscan 10 0 0 1 5\nscan 11 0 0 1 5\ncommand 22 0 8324 1 2\ncommand 21 0 8324 1 2\nscan 9 0 0 0 0\nscan 10 0 0 1 0\nscan 11 0 0 1 0\ncommand 22 0 8324 2 2\nadd 0 images 1 boot 0 rpfix 0\nwrite 0\n"
+      ],
+      "native_output": [
+        0,
+        "create 0\ncommand 21 0 8324 0 2\nscan 9 0 0 0 0\nscan 10 0 0 1 5\nscan 11 0 0 1 5\ncommand 22 0 8324 1 2\ncommand 21 0 8324 1 2\nscan 9 0 0 0 0\nscan 10 0 0 1 5\nscan 11 0 0 1 5\ncommand 22 0 8324 2 2\nadd 0 images 1 boot 0 rpfix 0\nwrite 0\n"
+      ],
+      "apply_codes": [
+        0,
+        0
+      ],
+      "original_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": "unrestored filesystem creation time",
+          "atime": "unrestored filesystem creation time",
+          "xattrs": {}
+        },
+        {
+          "path": "2f6f6e65",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        },
+        {
+          "path": "2f74776f",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        }
+      ],
+      "native_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": "unrestored filesystem creation time",
+          "atime": "unrestored filesystem creation time",
+          "xattrs": {}
+        },
+        {
+          "path": "2f6f6e65",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        },
+        {
+          "path": "2f74776f",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        }
+      ]
+    },
+    {
+      "case": 503,
+      "mode": 2,
+      "flags": 16388,
+      "status": 123,
+      "sources": [
+        [
+          "a",
+          "/"
+        ],
+        [
+          "b",
+          "/"
+        ]
+      ],
+      "original_output": [
+        0,
+        "create 0\ncommand 21 0 16772 0 2\nscan 9 0 0 0 0\nprogress 30\nprogress 30\nprogress 30\nscan 10 0 0 1 4\nscan 10 0 1 1 4\nprogress 30\nscan 10 0 1 2 9\nprogress 30\nscan 10 0 1 3 41\nprogress 30\nscan 10 0 1 4 41\nscan 10 0 2 4 41\nscan 11 0 2 4 41\ncommand 22 0 16772 1 2\ncommand 21 0 16772 1 2\nscan 9 0 0 0 0\nprogress 30\nprogress 30\nscan 10 0 0 1 0\nprogress 30\nscan 10 0 0 2 4\nprogress 30\nscan 10 0 0 3 4\nscan 10 0 1 3 4\nscan 11 0 1 3 4\nprogress 23\nadd 76 images 1 boot 0 rpfix 0\nerrno 0\n"
+      ],
+      "native_output": [
+        0,
+        "create 0\ncommand 21 0 16772 0 2\nscan 9 0 0 0 0\nprogress 30\nprogress 30\nprogress 30\nscan 10 0 0 1 4\nscan 10 0 1 1 4\nprogress 30\nscan 10 0 1 2 9\nprogress 30\nscan 10 0 1 3 41\nprogress 30\nscan 10 0 1 4 41\nscan 10 0 2 4 41\nscan 11 0 2 4 41\ncommand 22 0 16772 1 2\ncommand 21 0 16772 1 2\nscan 9 0 0 0 0\nprogress 30\nprogress 30\nscan 10 0 0 1 5\nprogress 30\nscan 10 0 0 2 9\nprogress 30\nscan 10 0 0 3 9\nscan 10 0 1 3 9\nscan 11 0 1 3 9\nprogress 23\nadd 76 images 1 boot 0 rpfix 0\nerrno 0\n"
+      ],
+      "apply_codes": [
+        null,
+        null
+      ],
+      "original_tree": [],
+      "native_tree": []
+    },
+    {
+      "case": 509,
+      "mode": 2,
+      "flags": 16388,
+      "status": 131,
+      "sources": [
+        [
+          "a",
+          "/"
+        ],
+        [
+          "b",
+          "/"
+        ]
+      ],
+      "original_output": [
+        0,
+        "create 0\ncommand 21 0 16772 0 2\nscan 9 0 0 0 0\nprogress 30\nprogress 30\nprogress 30\nscan 10 0 0 1 4\nscan 10 0 1 1 4\nprogress 30\nscan 10 0 1 2 9\nprogress 30\nscan 10 0 1 3 41\nprogress 30\nscan 10 0 1 4 41\nscan 10 0 2 4 41\nscan 11 0 2 4 41\ncommand 22 0 16772 1 2\ncommand 21 0 16772 1 2\nscan 9 0 0 0 0\nprogress 30\nprogress 30\nscan 10 0 0 1 0\nprogress 30\nscan 10 0 0 2 4\nprogress 30\nscan 10 0 0 3 4\nscan 10 0 1 3 4\nscan 11 0 1 3 4\nprogress 23\nprogress 23\ncommand 22 0 16772 2 2\nadd 0 images 1 boot 0 rpfix 1\nwrite 0\n"
+      ],
+      "native_output": [
+        0,
+        "create 0\ncommand 21 0 16772 0 2\nscan 9 0 0 0 0\nprogress 30\nprogress 30\nprogress 30\nscan 10 0 0 1 4\nscan 10 0 1 1 4\nprogress 30\nscan 10 0 1 2 9\nprogress 30\nscan 10 0 1 3 41\nprogress 30\nscan 10 0 1 4 41\nscan 10 0 2 4 41\nscan 11 0 2 4 41\ncommand 22 0 16772 1 2\ncommand 21 0 16772 1 2\nscan 9 0 0 0 0\nprogress 30\nprogress 30\nscan 10 0 0 1 5\nprogress 30\nscan 10 0 0 2 9\nprogress 30\nscan 10 0 0 3 9\nscan 10 0 1 3 9\nscan 11 0 1 3 9\nprogress 23\nprogress 23\ncommand 22 0 16772 2 2\nadd 0 images 1 boot 0 rpfix 1\nwrite 0\n"
+      ],
+      "apply_codes": [
+        0,
+        0
+      ],
+      "original_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f616c696173",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        },
+        {
+          "path": "2f64617461",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 1,
+          "sha1": "a295e0bdde1938d1fbfd343e5a3e569e868e1465",
+          "size": 4,
+          "xattrs": {}
+        },
+        {
+          "path": "2f656d707479",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 2,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "size": 0,
+          "xattrs": {}
+        },
+        {
+          "path": "2f6c696e6b",
+          "mode": 41471,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 3,
+          "target": "64617461",
+          "xattrs": {}
+        },
+        {
+          "path": "2f6e6573746564",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f6e65737465642f64656570",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 4,
+          "sha1": "3dde59ff3d79fc2322f4192f74c1d1af30d32cc6",
+          "size": 4,
+          "xattrs": {}
+        }
+      ],
+      "native_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f616c696173",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        },
+        {
+          "path": "2f64617461",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 1,
+          "sha1": "a295e0bdde1938d1fbfd343e5a3e569e868e1465",
+          "size": 4,
+          "xattrs": {}
+        },
+        {
+          "path": "2f656d707479",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 2,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "size": 0,
+          "xattrs": {}
+        },
+        {
+          "path": "2f6c696e6b",
+          "mode": 41471,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 3,
+          "target": "64617461",
+          "xattrs": {}
+        },
+        {
+          "path": "2f6e6573746564",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f6e65737465642f64656570",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 4,
+          "sha1": "3dde59ff3d79fc2322f4192f74c1d1af30d32cc6",
+          "size": 4,
+          "xattrs": {}
+        }
+      ]
+    },
+    {
+      "case": 527,
+      "mode": 2,
+      "flags": 16388,
+      "status": 223,
+      "sources": [
+        [
+          "a",
+          "/"
+        ],
+        [
+          "b",
+          "/"
+        ]
+      ],
+      "original_output": [
+        0,
+        "create 0\ncommand 21 0 16772 0 2\nscan 9 0 0 0 0\nprogress 30\nprogress 30\nprogress 30\nscan 10 0 0 1 4\nscan 10 0 1 1 4\nprogress 30\nscan 10 0 1 2 9\nprogress 30\nscan 10 0 1 3 41\nprogress 30\nscan 10 0 1 4 41\nscan 10 0 2 4 41\nscan 11 0 2 4 41\ncommand 22 0 16772 1 2\ncommand 21 0 16772 1 2\nscan 9 0 0 0 0\nprogress 30\nprogress 30\nscan 10 0 0 1 0\nprogress 30\nscan 10 0 0 2 4\nprogress 30\nscan 10 0 0 3 4\nscan 10 0 1 3 4\nscan 11 0 1 3 4\nprogress 23\nadd 77 images 1 boot 0 rpfix 0\nerrno 0\n"
+      ],
+      "native_output": [
+        0,
+        "create 0\ncommand 21 0 16772 0 2\nscan 9 0 0 0 0\nprogress 30\nprogress 30\nprogress 30\nscan 10 0 0 1 4\nscan 10 0 1 1 4\nprogress 30\nscan 10 0 1 2 9\nprogress 30\nscan 10 0 1 3 41\nprogress 30\nscan 10 0 1 4 41\nscan 10 0 2 4 41\nscan 11 0 2 4 41\ncommand 22 0 16772 1 2\ncommand 21 0 16772 1 2\nscan 9 0 0 0 0\nprogress 30\nprogress 30\nscan 10 0 0 1 5\nprogress 30\nscan 10 0 0 2 9\nprogress 30\nscan 10 0 0 3 9\nscan 10 0 1 3 9\nscan 11 0 1 3 9\nprogress 23\nadd 77 images 1 boot 0 rpfix 0\nerrno 0\n"
+      ],
+      "apply_codes": [
+        null,
+        null
+      ],
+      "original_tree": [],
+      "native_tree": []
+    },
+    {
+      "case": 533,
+      "mode": 2,
+      "flags": 16388,
+      "status": 231,
+      "sources": [
+        [
+          "a",
+          "/"
+        ],
+        [
+          "b",
+          "/"
+        ]
+      ],
+      "original_output": [
+        0,
+        "create 0\ncommand 21 0 16772 0 2\nscan 9 0 0 0 0\nprogress 30\nprogress 30\nprogress 30\nscan 10 0 0 1 4\nscan 10 0 1 1 4\nprogress 30\nscan 10 0 1 2 9\nprogress 30\nscan 10 0 1 3 41\nprogress 30\nscan 10 0 1 4 41\nscan 10 0 2 4 41\nscan 11 0 2 4 41\ncommand 22 0 16772 1 2\ncommand 21 0 16772 1 2\nscan 9 0 0 0 0\nprogress 30\nprogress 30\nscan 10 0 0 1 0\nprogress 30\nscan 10 0 0 2 4\nprogress 30\nscan 10 0 0 3 4\nscan 10 0 1 3 4\nscan 11 0 1 3 4\nprogress 23\nprogress 23\ncommand 22 0 16772 2 2\nadd 0 images 1 boot 0 rpfix 1\nwrite 0\n"
+      ],
+      "native_output": [
+        0,
+        "create 0\ncommand 21 0 16772 0 2\nscan 9 0 0 0 0\nprogress 30\nprogress 30\nprogress 30\nscan 10 0 0 1 4\nscan 10 0 1 1 4\nprogress 30\nscan 10 0 1 2 9\nprogress 30\nscan 10 0 1 3 41\nprogress 30\nscan 10 0 1 4 41\nscan 10 0 2 4 41\nscan 11 0 2 4 41\ncommand 22 0 16772 1 2\ncommand 21 0 16772 1 2\nscan 9 0 0 0 0\nprogress 30\nprogress 30\nscan 10 0 0 1 5\nprogress 30\nscan 10 0 0 2 9\nprogress 30\nscan 10 0 0 3 9\nscan 10 0 1 3 9\nscan 11 0 1 3 9\nprogress 23\nprogress 23\ncommand 22 0 16772 2 2\nadd 0 images 1 boot 0 rpfix 1\nwrite 0\n"
+      ],
+      "apply_codes": [
+        0,
+        0
+      ],
+      "original_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f616c696173",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        },
+        {
+          "path": "2f64617461",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 1,
+          "sha1": "a295e0bdde1938d1fbfd343e5a3e569e868e1465",
+          "size": 4,
+          "xattrs": {}
+        },
+        {
+          "path": "2f656d707479",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 2,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "size": 0,
+          "xattrs": {}
+        },
+        {
+          "path": "2f6c696e6b",
+          "mode": 41471,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 3,
+          "target": "64617461",
+          "xattrs": {}
+        },
+        {
+          "path": "2f6e6573746564",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f6e65737465642f64656570",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 4,
+          "sha1": "3dde59ff3d79fc2322f4192f74c1d1af30d32cc6",
+          "size": 4,
+          "xattrs": {}
+        }
+      ],
+      "native_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f616c696173",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        },
+        {
+          "path": "2f64617461",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 1,
+          "sha1": "a295e0bdde1938d1fbfd343e5a3e569e868e1465",
+          "size": 4,
+          "xattrs": {}
+        },
+        {
+          "path": "2f656d707479",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 2,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "size": 0,
+          "xattrs": {}
+        },
+        {
+          "path": "2f6c696e6b",
+          "mode": 41471,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 3,
+          "target": "64617461",
+          "xattrs": {}
+        },
+        {
+          "path": "2f6e6573746564",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f6e65737465642f64656570",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 4,
+          "sha1": "3dde59ff3d79fc2322f4192f74c1d1af30d32cc6",
+          "size": 4,
+          "xattrs": {}
+        }
+      ]
+    },
+    {
+      "case": 536,
+      "mode": 2,
+      "flags": 16388,
+      "status": 300,
+      "sources": [
+        [
+          "a",
+          "/"
+        ],
+        [
+          "b",
+          "/"
+        ]
+      ],
+      "original_output": [
+        0,
+        "create 0\ncommand 21 0 16772 0 2\nscan 9 0 0 0 0\nprogress 30\nprogress 30\nprogress 30\nscan 10 0 0 1 4\nscan 10 0 1 1 4\nprogress 30\nscan 10 0 1 2 9\nprogress 30\nscan 10 0 1 3 41\nprogress 30\nscan 10 0 1 4 41\nscan 10 0 2 4 41\nscan 11 0 2 4 41\ncommand 22 0 16772 1 2\ncommand 21 0 16772 1 2\nscan 9 0 0 0 0\nprogress 30\nprogress 30\nscan 10 0 0 1 0\nprogress 30\nscan 10 0 0 2 4\nprogress 30\nscan 10 0 0 3 4\nscan 10 0 1 3 4\nscan 11 0 1 3 4\nprogress 23\nprogress 23\ncommand 22 0 16772 2 2\nadd 0 images 1 boot 0 rpfix 1\nwrite 0\n"
+      ],
+      "native_output": [
+        0,
+        "create 0\ncommand 21 0 16772 0 2\nscan 9 0 0 0 0\nprogress 30\nprogress 30\nprogress 30\nscan 10 0 0 1 4\nscan 10 0 1 1 4\nprogress 30\nscan 10 0 1 2 9\nprogress 30\nscan 10 0 1 3 41\nprogress 30\nscan 10 0 1 4 41\nscan 10 0 2 4 41\nscan 11 0 2 4 41\ncommand 22 0 16772 1 2\ncommand 21 0 16772 1 2\nscan 9 0 0 0 0\nprogress 30\nprogress 30\nscan 10 0 0 1 5\nprogress 30\nscan 10 0 0 2 9\nprogress 30\nscan 10 0 0 3 9\nscan 10 0 1 3 9\nscan 11 0 1 3 9\nprogress 23\nprogress 23\ncommand 22 0 16772 2 2\nadd 0 images 1 boot 0 rpfix 1\nwrite 0\n"
+      ],
+      "apply_codes": [
+        0,
+        0
+      ],
+      "original_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f616c696173",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        },
+        {
+          "path": "2f64617461",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 1,
+          "sha1": "a295e0bdde1938d1fbfd343e5a3e569e868e1465",
+          "size": 4,
+          "xattrs": {}
+        },
+        {
+          "path": "2f656d707479",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 2,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "size": 0,
+          "xattrs": {}
+        },
+        {
+          "path": "2f6c696e6b",
+          "mode": 41471,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 3,
+          "target": "64617461",
+          "xattrs": {}
+        },
+        {
+          "path": "2f6e6573746564",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f6e65737465642f64656570",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 4,
+          "sha1": "3dde59ff3d79fc2322f4192f74c1d1af30d32cc6",
+          "size": 4,
+          "xattrs": {}
+        }
+      ],
+      "native_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f616c696173",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 0,
+          "sha1": "be76331b95dfc399cd776d2fc68021e0db03cc4f",
+          "size": 5,
+          "xattrs": {}
+        },
+        {
+          "path": "2f64617461",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 1,
+          "sha1": "a295e0bdde1938d1fbfd343e5a3e569e868e1465",
+          "size": 4,
+          "xattrs": {}
+        },
+        {
+          "path": "2f656d707479",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 2,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "size": 0,
+          "xattrs": {}
+        },
+        {
+          "path": "2f6c696e6b",
+          "mode": 41471,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 3,
+          "target": "64617461",
+          "xattrs": {}
+        },
+        {
+          "path": "2f6e6573746564",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "xattrs": {}
+        },
+        {
+          "path": "2f6e65737465642f64656570",
+          "mode": 33188,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": 1600000001765432100,
+          "atime": 1600000000123456700,
+          "inode_group": 4,
+          "sha1": "3dde59ff3d79fc2322f4192f74c1d1af30d32cc6",
+          "size": 4,
+          "xattrs": {}
+        }
+      ]
+    },
+    {
+      "case": 538,
+      "mode": 2,
+      "flags": 16388,
+      "status": 300,
+      "sources": [
+        [
+          "missing",
+          "/"
+        ]
+      ],
+      "original_output": [
+        0,
+        "create 0\ncommand 21 0 16772 0 1\nscan 9 0 0 0 0\nprogress 30\nprogress 31\nscan 11 0 0 0 0\ncommand 22 0 16772 1 1\nadd 0 images 1 boot 0 rpfix 1\nwrite 0\n"
+      ],
+      "native_output": [
+        0,
+        "create 0\ncommand 21 0 16772 0 1\nscan 9 0 0 0 0\nprogress 30\nprogress 31\nscan 11 0 0 0 0\ncommand 22 0 16772 1 1\nadd 0 images 1 boot 0 rpfix 1\nwrite 21\nerrno 2\n"
+      ],
+      "apply_codes": [
+        0,
+        null
+      ],
+      "original_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": "unrestored filesystem creation time",
+          "atime": "unrestored filesystem creation time",
+          "xattrs": {}
+        }
+      ],
+      "native_tree": []
+    },
+    {
+      "case": 540,
+      "mode": 2,
+      "flags": 16388,
+      "status": 400,
+      "sources": [
+        [
+          "a/data",
+          "/same"
+        ],
+        [
+          "b/data",
+          "/same"
+        ]
+      ],
+      "original_output": [
+        0,
+        "create 0\ncommand 21 0 16516 0 2\nscan 9 0 0 0 0\nprogress 30\nscan 10 1 0 0 0\nscan 11 1 0 0 0\ncommand 22 0 16516 1 2\ncommand 21 0 16516 1 2\nscan 9 0 0 0 0\nprogress 30\nscan 10 1 0 0 0\nscan 11 1 0 0 0\ncommand 22 0 16516 2 2\nadd 0 images 1 boot 0 rpfix 0\nwrite 0\n"
+      ],
+      "native_output": [
+        0,
+        "create 0\ncommand 21 0 16516 0 2\nscan 9 0 0 0 0\nprogress 30\nscan 10 1 0 0 0\nscan 11 1 0 0 0\ncommand 22 0 16516 1 2\ncommand 21 0 16516 1 2\nscan 9 0 0 0 0\nprogress 30\nscan 10 1 0 0 0\nscan 11 1 0 0 0\ncommand 22 0 16516 2 2\nadd 0 images 1 boot 0 rpfix 0\nwrite 21\nerrno 123\n"
+      ],
+      "apply_codes": [
+        0,
+        null
+      ],
+      "original_tree": [
+        {
+          "path": "",
+          "mode": 16877,
+          "uid": 1000,
+          "gid": 100,
+          "mtime": "unrestored filesystem creation time",
+          "atime": "unrestored filesystem creation time",
+          "xattrs": {}
+        }
+      ],
+      "native_tree": []
+    }
+  ]
+}

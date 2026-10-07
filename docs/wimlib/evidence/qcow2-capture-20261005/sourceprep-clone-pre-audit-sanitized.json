@@ -1,0 +1,7 @@
+{
+  "exit": 0,
+  "signal": null,
+  "stdout": "{\r\n    \"ImageState\":  \"IMAGE_STATE_UNDEPLOYABLE\",\r\n    \"AutoAdminLogon\":  null,\r\n    \"DefaultUserName\":  null,\r\n    \"DefaultPasswordPresent\":  true,\r\n    \"DefaultPasswordNonempty\":  false,\r\n    \"SecureBoot\":  true,\r\n    \"Desktop\":  [\r\n\r\n                ]\r\n}\r\n",
+  "stderr": "",
+  "stdout_truncated": false
+}

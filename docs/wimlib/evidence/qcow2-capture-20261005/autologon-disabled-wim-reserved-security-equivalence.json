@@ -1,0 +1,35 @@
+{
+  "scope": "Independent upstream decoded new WIM all reserved ACEs and full raw security descriptors versus current frozen NTFS; no installed restoration claim",
+  "nodes": 175812,
+  "process_trust_paths": 5730,
+  "resource_attribute_paths": 2,
+  "groups": {
+    "original_5727": {
+      "paths": 5727,
+      "passes": true,
+      "differences": []
+    },
+    "added_5": {
+      "paths": 5,
+      "passes": true,
+      "differences": []
+    },
+    "current_all_5732": {
+      "paths": 5732,
+      "passes": true,
+      "differences": []
+    }
+  },
+  "passes": true,
+  "input_sha256": {
+    "/data/cache/qcow2-oobe-preparation-control-20261005/offline-audit/reserved-sacl-inventory.json": "86318243cf75acde3be9468d1c485c85d77ad25874c431af4536b2bb49d7cc5c",
+    "/data/cache/qcow2-oobe-preparation-control-20261005/offline-audit/original-reserved-second-pass.json": "f2b08e04f6d3074cd8b44564debf88901374c80c41347fe7cf3a731c1531881e",
+    "/data/cache/qcow2-autologon-disabled-20261005/capture/current-wim-trust.json": "b2e2cb66b263a230b67db661001a7887ed5ad9664676ead71f9cdf3e3e49f18c",
+    "/data/cache/qcow2-autologon-disabled-20261005/capture/current-wim-resource.json": "2bd6cd32c61c5d1b0272cb0ecc5cacd7aee1b8fcd0332290134ecd3f9dc71142"
+  },
+  "raw_evidence": {
+    "path": "/data/cache/qcow2-autologon-disabled-20261005/capture/current-wim-reserved-source-equivalence.json",
+    "sha256": "34c67ba964a14290b2ec451f7954d13602d33417631a36fce42518ed958e78e7"
+  },
+  "wim_sha256_from_capture_report": "9791aae2127f1688c99f9928e61fe4ff41b37f184566d880d80fe4d619117f73"
+}

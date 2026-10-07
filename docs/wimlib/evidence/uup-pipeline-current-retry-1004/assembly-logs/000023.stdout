@@ -1,0 +1,20 @@
+Microsoft (R) File Expansion Utility
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-20\$filehashes$.dat to Extraction Queue
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-20\amd64_microsoft-windows-wordpad-fod-deployment_31bf3856ad364e35_10.0.19041.1_none_d776612be798985a.manifest to Extraction Queue
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-20\amd64_microsoft-windows-wordpad_31bf3856ad364e35_10.0.19041.1_none_e3ab86b70c430b3c\wordpad.exe to Extraction Queue
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-20\amd64_microsoft-windows-wordpad_31bf3856ad364e35_10.0.19041.1_none_e3ab86b70c430b3c\Wordpad.lnk to Extraction Queue
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-20\amd64_microsoft-windows-wordpad_31bf3856ad364e35_10.0.19041.1_none_e3ab86b70c430b3c\WordpadFilter.dll to Extraction Queue
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-20\amd64_microsoft-windows-wordpad_31bf3856ad364e35_10.0.19041.1_none_e3ab86b70c430b3c.manifest to Extraction Queue
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-20\amd64_microsoft-windows-write_31bf3856ad364e35_10.0.19041.1_none_1573dfb37c7563ca\write.exe to Extraction Queue
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-20\amd64_microsoft-windows-write_31bf3856ad364e35_10.0.19041.1_none_1573dfb37c7563ca.manifest to Extraction Queue
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-20\Microsoft-Windows-WordPad-FoD-Package~31bf3856ad364e35~amd64~~10.0.19041.1.cat to Extraction Queue
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-20\Microsoft-Windows-WordPad-FoD-Package~31bf3856ad364e35~amd64~~10.0.19041.1.mum to Extraction Queue
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-20\update.cat to Extraction Queue
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-20\update.mum to Extraction Queue
+
+Expanding Files ....
+
+Expanding Files Complete ...
+12 files total.

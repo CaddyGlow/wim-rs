@@ -1,0 +1,1907 @@
+{
+  "work": "/tmp/wim-generator-api-3lfrb456",
+  "sha256": {
+    "original": "62eb9c97f9ec6e3dae6c7e995b0a65a2e94a4d9b41491666947ba788a15bb74a",
+    "native": "141e0a5af4e69379e3f9d968816b86256b1e79508d6044887a8d3461a28b2ccb"
+  },
+  "cases": 72,
+  "exact": 48,
+  "rows": [
+    {
+      "seed": 0,
+      "stop": -1,
+      "flags": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nblob=5944 refs=1 flags=00 offset=0 packed=0 part=0 hash=80566f542e4e4b3375ad4e28bbd2d0046d2da195\nblob=1235 refs=1 flags=00 offset=0 packed=0 part=0 hash=01e22903e6dd5dd499a642f677d96fa037bafb7f\nblob=130205 refs=1 flags=00 offset=0 packed=0 part=0 hash=01848d180e450833e3b1445af5c7a663a28ab4b7\nblob=25806 refs=1 flags=00 offset=0 packed=0 part=0 hash=020fb93d7c747bbad6e5a86140089f9af0cac97b\nblob=540 refs=1 flags=00 offset=0 packed=0 part=0 hash=829a69d68aa1f42567109d75f6812dfcf64df9d5\nblob=2326 refs=1 flags=00 offset=0 packed=0 part=0 hash=83b51b658efd6281a0f1bfe8e3985dac206d8435\nblob=781 refs=1 flags=00 offset=0 packed=0 part=0 hash=032f1b761a26b1d7662e6b0a5a8194b70bd10a4f\nblob=3589 refs=1 flags=00 offset=0 packed=0 part=0 hash=03c3419abb1a20da516b920d727efd3ae6addd1e\nblob=2455 refs=1 flags=00 offset=0 packed=0 part=0 hash=85fc74c0e91aaf43f2b0a1aceb13c0fcb89a6be6\nblob=5601 refs=1 flags=00 offset=0 packed=0 part=0 hash=081c9f7726f64d88e5f960c2de3705a7ced05eb0\nblob=1390 refs=1 flags=00 offset=0 packed=0 part=0 hash=0938bbbf594fe38fe0f1bb34e924e69abfe3a1e9\nblob=172245 refs=1 flags=00 offset=0 packed=0 part=0 hash=0a7ddacd0a5d9da5c11449f67f6f1d534f61cdff\nblob=25021 refs=1 flags=00 offset=0 packed=0 part=0 hash=8b3f4dde0356c517d3cde6e231181a260fa96391\nblob=17219 refs=1 flags=00 offset=0 packed=0 part=0 hash=8ce4b8d5807c8812635b9755607382c563075682\nblob=29017 refs=2 flags=00 offset=0 packed=0 part=0 hash=0dd7039328ea9a4ce4ee9c4d103d16df999f1134\nblob=23324 refs=1 flags=00 offset=0 packed=0 part=0 hash=8db2fcfaad37c150b04539be38fd8b38c78cf95a\nblob=22 refs=1 flags=00 offset=0 packed=0 part=0 hash=0ed5b4624b031bae7d85a9d771a2b14176260f02\nblob=38 refs=1 flags=00 offset=0 packed=0 part=0 hash=0e4387993a6196b206e739b5cecd4d0716b715ed\nblob=9398 refs=1 flags=00 offset=0 packed=0 part=0 hash=0ee54ceb49cec2beb583d5c1cd69b1111f37aefc\nblob=19984 refs=1 flags=00 offset=0 packed=0 part=0 hash=8f66f9003ac4e8eeb52ff70a454217254fb93f1f\nblob=3464 refs=2 flags=00 offset=0 packed=0 part=0 hash=102b8d918a62f0f07ffa465f763cef070dacdbcb\nblob=214945 refs=1 flags=00 offset=0 packed=0 part=0 hash=90d646f77fd10eb7d8414ddca722d4851c3a47f5\nblob=1 refs=1 flags=00 offset=0 packed=0 part=0 hash=10687feb9716c9502d9a40fdfe3bb339055c8651\nblob=608 refs=1 flags=00 offset=0 packed=0 part=0 hash=9132c0d3862b3d20b7058943ad515484bb483c8e\nblob=25821 refs=1 flags=00 offset=0 packed=0 part=0 hash=918b5c5143ea066929f62d7624fe9615ada1cea5\nblob=10479 refs=1 flags=00 offset=0 packed=0 part=0 hash=13a7831cf2553216db8c65026771edf67158240f\nblob=5 refs=1 flags=00 offset=0 packed=0 part=0 hash=943920a4120cf5296f26295e0948515bf975ded6\nblob=137341 refs=1 flags=00 offset=0 packed=0 part=0 hash=15c1aa2c6d6bc51dda916d29795204c64d7e2f09\nblob=1575 refs=1 flags=00 offset=0 packed=0 part=0 hash=161f16583270d8b5205df4dbf8778f1a255d7008\nblob=3041 refs=1 flags=00 offset=0 packed=0 part=0 hash=967d88040ecad5db413e9818d1995c5be3372b4b\nblob=2909 refs=2 flags=00 offset=0 packed=0 part=0 hash=165c2a245397801bc96b18740d37a3282b9a9187\nblob=123180 refs=1 flags=00 offset=0 packed=0 part=0 hash=975c74f0394709a7e042ddab9f1a66fce7e69c15\nblob=149185 refs=1 flags=00 offset=0 packed=0 part=0 hash=9c3afd96d66cda33c10b57cd514bb60a1012da04\nblob=260732 refs=1 flags=00 offset=0 packed=0 part=0 hash=9d8002c20d8381e18d9bfe0753b6591bcd1f6717\nblob=2808 refs=1 flags=00 offset=0 packed=0 part=0 hash=1ee056105c727ac400e3282fd8bc973e4b4f27e3\nblob=157623 refs=1 flags=00 offset=0 packed=0 part=0 hash=9e27d86d7b8bd7d43a6c6f06d6d8eded261fc377\nblob=26244 refs=1 flags=00 offset=0 packed=0 part=0 hash=1e92d6154adcc94788eb51c34ce5e5150e0540d5\nblob=23372 refs=1 flags=00 offset=0 packed=0 part=0 hash=9f6dd038e345bba0d6209ad7c9358e2f58e49a35\nblob=2677 refs=1 flags=00 offset=0 packed=0 part=0 hash=1f0740753da6d4b66a9f4543f3f10a9c04cbcce4\nblob=9100 refs=1 flags=00 offset=0 packed=0 part=0 hash=21147233729c5f60089e41dec8c07c62da242784\nblob=3057 refs=1 flags=00 offset=0 packed=0 part=0 hash=25db55695d0bd7e18cae463a7c3aea15d52614dd\nblob=22 refs=1 flags=00 offset=0 packed=0 part=0 hash=250ca0f06742d23cbb2fd43b6ad0897fd9425dab\nblob=5721 refs=1 flags=00 offset=0 packed=0 part=0 hash=a6ec97c730eb07afcbc065cac98624e65aae8ac7\nblob=2540 refs=1 flags=00 offset=0 packed=0 part=0 hash=26b765cb936dfdb9eb1730c011c6594acea87233\nblob=24493 refs=1 flags=00 offset=0 packed=0 part=0 hash=27c252f9b31919df33b3bbab3e74b66eabea91b6\nblob=549 refs=1 flags=00 offset=0 packed=0 part=0 hash=28b1731467c359e791966d7348b569528f0ffd58\nblob=12093 refs=1 flags=00 offset=0 packed=0 part=0 hash=a81fcf478be90c8d201a022f3a4d8b4e8ad322f0\nblob=118450 refs=1 flags=00 offset=0 packed=0 part=0 hash=a9b1d1ef87a4c931f526aee29cb01cafd8fa553c\nblob=2177 refs=1 flags=00 offset=0 packed=0 part=0 hash=aa121d40876fde9c111144f6fb2be7bb93d8f63e\nblob=3691 refs=1 flags=00 offset=0 packed=0 part=0 hash=aa7d145b4d14f557221794434c44c06e285f499f\nblob=29688 refs=1 flags=00 offset=0 packed=0 part=0 hash=2d48bfb36249f93ffeeef7e49640b14b0c5c801a\nblob=1513 refs=1 flags=00 offset=0 packed=0 part=0 hash=b211ad56f0877edbca8eb928e9900b94073e4663\nblob=40 refs=1 flags=00 offset=0 packed=0 part=0 hash=33929e099af119869b11a47b973e2ec9b41a5970\nblob=16070 refs=1 flags=00 offset=0 packed=0 part=0 hash=b49df010f74c615b5a3ccc7fc9df9f435193eac4\nblob=686 refs=1 flags=00 offset=0 packed=0 part=0 hash=348037b2223814e10e3cfc353f7d6e00e58f9093\nblob=23804 refs=1 flags=00 offset=0 packed=0 part=0 hash=35c5841a36b00ede20b537dee6bf9302a5655f33\nblob=245889 refs=1 flags=00 offset=0 packed=0 part=0 hash=b5d253512bd2deb55486691c5a507d8975320cf0\nblob=363 refs=1 flags=00 offset=0 packed=0 part=0 hash=37d1b9ceaf1fb4b7146563ff801114234ec90ac3\nblob=46 refs=1 flags=00 offset=0 packed=0 part=0 hash=3abf15b5c13ff1b5233eacb8fff0491201cca59c\nblob=2769 refs=1 flags=00 offset=0 packed=0 part=0 hash=bbd3833cd4161beedd67918be72e0831f16a277f\nblob=2053 refs=1 flags=00 offset=0 packed=0 part=0 hash=3bf996954966a719b27b8db188a4ecb4eb14a10f\nblob=60 refs=1 flags=00 offset=0 packed=0 part=0 hash=3c339bebe5d66090bb222474a384d5980e7c2351\nblob=543 refs=1 flags=00 offset=0 packed=0 part=0 hash=bd9053fea93c64aa6eb394f5e0e237d78df5e532\nblob=1204 refs=1 flags=00 offset=0 packed=0 part=0 hash=be155c0ca905ab9ff678814fe6316e6aba084e52\nblob=2934 refs=1 flags=00 offset=0 packed=0 part=0 hash=3e0cd5e0df25a7f70a543492fdeba238684aa26b\nblob=11 refs=1 flags=00 offset=0 packed=0 part=0 hash=3fa2181e542db26dbebce9b34cdebd1aba84fd21\nblob=1728 refs=1 flags=00 offset=0 packed=0 part=0 hash=bf5100262062feeca23b55d10082014f737df281\nblob=29830 refs=1 flags=00 offset=0 packed=0 part=0 hash=c207a269600e381dab551c2ba92205d867c479d7\nblob=1692 refs=1 flags=00 offset=0 packed=0 part=0 hash=c3a09c161a5ac2ad5d4fcf8e8b8a8b02b56c3542\nblob=2808 refs=1 flags=00 offset=0 packed=0 part=0 hash=437431dddca2f16d708128f1bf6aca15e13dc2fa\nblob=28033 refs=1 flags=00 offset=0 packed=0 part=0 hash=4405757eae1c5dc09a144fd89ba9208ee67731fb\nblob=509 refs=1 flags=00 offset=0 packed=0 part=0 hash=45dbaf1b73616df03d6404e0ed447da2c4c932cb\nblob=163555 refs=1 flags=00 offset=0 packed=0 part=0 hash=455c36ad8625a6184b0f150d890938f3ef1f2639\nblob=13307 refs=1 flags=00 offset=0 packed=0 part=0 hash=c67accd58a6345e78450012233cd018cbd849e0d\nblob=50 refs=1 flags=00 offset=0 packed=0 part=0 hash=48d634cfcbf63bcd81cb68ef5df0b9483281b1e9\nblob=72 refs=1 flags=00 offset=0 packed=0 part=0 hash=c8b0b2d0b800d8bb9f7f023684ddbb7c83cca26c\nblob=138361 refs=1 flags=00 offset=0 packed=0 part=0 hash=4ee8043293d68687341ac24d2b12cf0b3dc7f2b4\nblob=59440 refs=1 flags=00 offset=0 packed=0 part=0 hash=53841acfb0a176ef4206b399de007879a979e696\nblob=99311 refs=1 flags=00 offset=0 packed=0 part=0 hash=543ea27785ff64211d609799548fdbe89bff40ef\nblob=14512 refs=1 flags=00 offset=0 packed=0 part=0 hash=d6f71ebbd4e17f183265263c4d61860b8b6e64b6\nblob=2172 refs=1 flags=00 offset=0 packed=0 part=0 hash=566bd3404dd1c0afc52541cf62fef6886082920a\nblob=22808 refs=1 flags=00 offset=0 packed=0 part=0 hash=d91a7073645ede2f68c485407cfee0f979c821cd\nblob=60 refs=1 flags=00 offset=0 packed=0 part=0 hash=d9880b6af8b2bf86fc6a5d9dfd930c39d58ec6ee\nblob=50013 refs=1 flags=00 offset=0 packed=0 part=0 hash=d9bbf85759978ad7d124e465efe859d2cdf3278d\nblob=106 refs=1 flags=00 offset=0 packed=0 part=0 hash=d936259184aa3c399219fe9fec874d21727aa8cc\nblob=7941 refs=1 flags=00 offset=0 packed=0 part=0 hash=db730618be2287108adc8847a75f725d17f0da8f\nblob=13186 refs=1 flags=00 offset=0 packed=0 part=0 hash=5caadc0351686ec466bca5f10968ce341b18937e\nblob=3098 refs=1 flags=00 offset=0 packed=0 part=0 hash=5dc209f8eb1edd43493c4a08f6ba23010604b371\nblob=27363 refs=1 flags=00 offset=0 packed=0 part=0 hash=5d59ccb2fce1c0a6773d7c1845f1ceeb9e724d17\nblob=23386 refs=1 flags=00 offset=0 packed=0 part=0 hash=5fe9645277e028776daf61b1264c6cd052498b0c\nblob=1065 refs=1 flags=00 offset=0 packed=0 part=0 hash=603a6f2b1697a1589eb98a4d28c6e44c8f7e18b0\nblob=11047 refs=1 flags=00 offset=0 packed=0 part=0 hash=60492646e4e0ea19f37843ec983778cfe8cc5910\nblob=835 refs=1 flags=00 offset=0 packed=0 part=0 hash=e1c6cae20bcc972bdc0d2fdfa6172b4386ac3630\nblob=2569 refs=1 flags=00 offset=0 packed=0 part=0 hash=e32259786df8132d07aaa245040d7ff29320dcec\nblob=5 refs=1 flags=00 offset=0 packed=0 part=0 hash=6716a1703aa2572ee2960c5f2d6cb78bee20746f\nblob=3143 refs=1 flags=00 offset=0 packed=0 part=0 hash=6981ea589941474a59e84bb38e2cfcf75e7330f3\nblob=23763 refs=1 flags=00 offset=0 packed=0 part=0 hash=6a0d3c42379d2e48fd05fec7a6119956c1c23126\nblob=1107 refs=1 flags=00 offset=0 packed=0 part=0 hash=eb1e7fd64d84ba6e94c29a831beed3fa19e11c60\nblob=287 refs=1 flags=00 offset=0 packed=0 part=0 hash=6ba8980871c828535c0d999252fb4e81b0c327fc\nblob=2152 refs=1 flags=00 offset=0 packed=0 part=0 hash=ec3e3ae61244076f464be61e0821c2d411f2d65d\nblob=36 refs=1 flags=00 offset=0 packed=0 part=0 hash=edb74e193640b7c13630992832855f11c6cbf71b\nblob=3200 refs=1 flags=00 offset=0 packed=0 part=0 hash=ee5127b6693b13bbef311ec5f553608b0f5f3812\nblob=53515 refs=1 flags=00 offset=0 packed=0 part=0 hash=6e4afbd60d4839b628b4a3eb5f1cb7014187d92f\nblob=8048 refs=1 flags=00 offset=0 packed=0 part=0 hash=6ea1d4262993542c7c5a8f814ca003b02ded5390\nblob=60 refs=1 flags=00 offset=0 packed=0 part=0 hash=ef81509393157a4e7f48e745bb1ccf142f05352b\nblob=1141 refs=1 flags=00 offset=0 packed=0 part=0 hash=f1692720e1967eebd50812a08edf6d6bab386782\nblob=23648 refs=1 flags=00 offset=0 packed=0 part=0 hash=7354375f2f0b1b05aeb0bf3ac417859a379c02f8\nblob=1632 refs=1 flags=00 offset=0 packed=0 part=0 hash=f668676c5323d632ce8fa2ce1ed680663af20d09\nblob=7690 refs=1 flags=00 offset=0 packed=0 part=0 hash=76c11ccee16f0802899ac4b78f98e8773657d400\nblob=426 refs=1 flags=00 offset=0 packed=0 part=0 hash=799cea9b181cca472fbadae09532573b555e587d\nblob=39 refs=1 flags=00 offset=0 packed=0 part=0 hash=fa8e80cef239cc17a5dd89fe6e2e3634ba8283ce\nblob=8253 refs=1 flags=00 offset=0 packed=0 part=0 hash=fb81f1f903301f7bd81ab5318c91b91de0844d2d\nblob=31434 refs=1 flags=00 offset=0 packed=0 part=0 hash=fb1f9a4c6c6914b67e6bce05b908e816bafef816\nblob=1322 refs=1 flags=00 offset=0 packed=0 part=0 hash=7c36bf4e1e17823e284a2f3c99797e8e85d63de2\nblob=3621 refs=1 flags=00 offset=0 packed=0 part=0 hash=7c4aceb9fa64ceaeae055e1c0e2c24d45837f399\nblob=708 refs=1 flags=00 offset=0 packed=0 part=0 hash=7eb315ba59bb182aee9addf3d978670c28b23db4\nblob=3142 refs=1 flags=00 offset=0 packed=0 part=0 hash=ff596fa0680a1126b391036faf9fc6bf9dc0e392\nblob=3825 refs=1 flags=00 offset=0 packed=0 part=0 hash=7f3a3e761999d98eb9282478c6544d8232e99fbf\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true,
+          "verify": {
+            "status": 0,
+            "stderr": "\n[WARNING] \"/tmp/wim-generator-api-3lfrb456/original-0--1-0.wim\" does not contain integrity information.  Skipping integrity check.\n"
+          }
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nblob=5721 refs=1 flags=00 offset=0 packed=0 part=0 hash=a6ec97c730eb07afcbc065cac98624e65aae8ac7\nblob=8048 refs=1 flags=00 offset=0 packed=0 part=0 hash=6ea1d4262993542c7c5a8f814ca003b02ded5390\nblob=31434 refs=1 flags=00 offset=0 packed=0 part=0 hash=fb1f9a4c6c6914b67e6bce05b908e816bafef816\nblob=2540 refs=1 flags=00 offset=0 packed=0 part=0 hash=26b765cb936dfdb9eb1730c011c6594acea87233\nblob=22808 refs=1 flags=00 offset=0 packed=0 part=0 hash=d91a7073645ede2f68c485407cfee0f979c821cd\nblob=1322 refs=1 flags=00 offset=0 packed=0 part=0 hash=7c36bf4e1e17823e284a2f3c99797e8e85d63de2\nblob=40 refs=1 flags=00 offset=0 packed=0 part=0 hash=33929e099af119869b11a47b973e2ec9b41a5970\nblob=3041 refs=1 flags=00 offset=0 packed=0 part=0 hash=967d88040ecad5db413e9818d1995c5be3372b4b\nblob=549 refs=1 flags=00 offset=0 packed=0 part=0 hash=28b1731467c359e791966d7348b569528f0ffd58\nblob=16070 refs=1 flags=00 offset=0 packed=0 part=0 hash=b49df010f74c615b5a3ccc7fc9df9f435193eac4\nblob=25021 refs=1 flags=00 offset=0 packed=0 part=0 hash=8b3f4dde0356c517d3cde6e231181a260fa96391\nblob=835 refs=1 flags=00 offset=0 packed=0 part=0 hash=e1c6cae20bcc972bdc0d2fdfa6172b4386ac3630\nblob=5601 refs=1 flags=00 offset=0 packed=0 part=0 hash=081c9f7726f64d88e5f960c2de3705a7ced05eb0\nblob=5 refs=1 flags=00 offset=0 packed=0 part=0 hash=943920a4120cf5296f26295e0948515bf975ded6\nblob=28033 refs=1 flags=00 offset=0 packed=0 part=0 hash=4405757eae1c5dc09a144fd89ba9208ee67731fb\nblob=38 refs=1 flags=00 offset=0 packed=0 part=0 hash=0e4387993a6196b206e739b5cecd4d0716b715ed\nblob=8253 refs=1 flags=00 offset=0 packed=0 part=0 hash=fb81f1f903301f7bd81ab5318c91b91de0844d2d\nblob=123180 refs=1 flags=00 offset=0 packed=0 part=0 hash=975c74f0394709a7e042ddab9f1a66fce7e69c15\nblob=60 refs=1 flags=00 offset=0 packed=0 part=0 hash=3c339bebe5d66090bb222474a384d5980e7c2351\nblob=19984 refs=1 flags=00 offset=0 packed=0 part=0 hash=8f66f9003ac4e8eeb52ff70a454217254fb93f1f\nblob=13307 refs=1 flags=00 offset=0 packed=0 part=0 hash=c67accd58a6345e78450012233cd018cbd849e0d\nblob=59440 refs=1 flags=00 offset=0 packed=0 part=0 hash=53841acfb0a176ef4206b399de007879a979e696\nblob=118450 refs=1 flags=00 offset=0 packed=0 part=0 hash=a9b1d1ef87a4c931f526aee29cb01cafd8fa553c\nblob=11047 refs=1 flags=00 offset=0 packed=0 part=0 hash=60492646e4e0ea19f37843ec983778cfe8cc5910\nblob=106 refs=1 flags=00 offset=0 packed=0 part=0 hash=d936259184aa3c399219fe9fec874d21727aa8cc\nblob=1065 refs=1 flags=00 offset=0 packed=0 part=0 hash=603a6f2b1697a1589eb98a4d28c6e44c8f7e18b0\nblob=5944 refs=1 flags=00 offset=0 packed=0 part=0 hash=80566f542e4e4b3375ad4e28bbd2d0046d2da195\nblob=1692 refs=1 flags=00 offset=0 packed=0 part=0 hash=c3a09c161a5ac2ad5d4fcf8e8b8a8b02b56c3542\nblob=3200 refs=1 flags=00 offset=0 packed=0 part=0 hash=ee5127b6693b13bbef311ec5f553608b0f5f3812\nblob=3464 refs=2 flags=00 offset=0 packed=0 part=0 hash=102b8d918a62f0f07ffa465f763cef070dacdbcb\nblob=608 refs=1 flags=00 offset=0 packed=0 part=0 hash=9132c0d3862b3d20b7058943ad515484bb483c8e\nblob=138361 refs=1 flags=00 offset=0 packed=0 part=0 hash=4ee8043293d68687341ac24d2b12cf0b3dc7f2b4\nblob=1575 refs=1 flags=00 offset=0 packed=0 part=0 hash=161f16583270d8b5205df4dbf8778f1a255d7008\nblob=2177 refs=1 flags=00 offset=0 packed=0 part=0 hash=aa121d40876fde9c111144f6fb2be7bb93d8f63e\nblob=2172 refs=1 flags=00 offset=0 packed=0 part=0 hash=566bd3404dd1c0afc52541cf62fef6886082920a\nblob=50 refs=1 flags=00 offset=0 packed=0 part=0 hash=48d634cfcbf63bcd81cb68ef5df0b9483281b1e9\nblob=1107 refs=1 flags=00 offset=0 packed=0 part=0 hash=eb1e7fd64d84ba6e94c29a831beed3fa19e11c60\nblob=22 refs=1 flags=00 offset=0 packed=0 part=0 hash=250ca0f06742d23cbb2fd43b6ad0897fd9425dab\nblob=26244 refs=1 flags=00 offset=0 packed=0 part=0 hash=1e92d6154adcc94788eb51c34ce5e5150e0540d5\nblob=23804 refs=1 flags=00 offset=0 packed=0 part=0 hash=35c5841a36b00ede20b537dee6bf9302a5655f33\nblob=2053 refs=1 flags=00 offset=0 packed=0 part=0 hash=3bf996954966a719b27b8db188a4ecb4eb14a10f\nblob=363 refs=1 flags=00 offset=0 packed=0 part=0 hash=37d1b9ceaf1fb4b7146563ff801114234ec90ac3\nblob=3825 refs=1 flags=00 offset=0 packed=0 part=0 hash=7f3a3e761999d98eb9282478c6544d8232e99fbf\nblob=149185 refs=1 flags=00 offset=0 packed=0 part=0 hash=9c3afd96d66cda33c10b57cd514bb60a1012da04\nblob=23763 refs=1 flags=00 offset=0 packed=0 part=0 hash=6a0d3c42379d2e48fd05fec7a6119956c1c23126\nblob=3589 refs=1 flags=00 offset=0 packed=0 part=0 hash=03c3419abb1a20da516b920d727efd3ae6addd1e\nblob=1 refs=1 flags=00 offset=0 packed=0 part=0 hash=10687feb9716c9502d9a40fdfe3bb339055c8651\nblob=540 refs=1 flags=00 offset=0 packed=0 part=0 hash=829a69d68aa1f42567109d75f6812dfcf64df9d5\nblob=7690 refs=1 flags=00 offset=0 packed=0 part=0 hash=76c11ccee16f0802899ac4b78f98e8773657d400\nblob=1235 refs=1 flags=00 offset=0 packed=0 part=0 hash=01e22903e6dd5dd499a642f677d96fa037bafb7f\nblob=3143 refs=1 flags=00 offset=0 packed=0 part=0 hash=6981ea589941474a59e84bb38e2cfcf75e7330f3\nblob=2569 refs=1 flags=00 offset=0 packed=0 part=0 hash=e32259786df8132d07aaa245040d7ff29320dcec\nblob=23324 refs=1 flags=00 offset=0 packed=0 part=0 hash=8db2fcfaad37c150b04539be38fd8b38c78cf95a\nblob=3057 refs=1 flags=00 offset=0 packed=0 part=0 hash=25db55695d0bd7e18cae463a7c3aea15d52614dd\nblob=686 refs=1 flags=00 offset=0 packed=0 part=0 hash=348037b2223814e10e3cfc353f7d6e00e58f9093\nblob=46 refs=1 flags=00 offset=0 packed=0 part=0 hash=3abf15b5c13ff1b5233eacb8fff0491201cca59c\nblob=12093 refs=1 flags=00 offset=0 packed=0 part=0 hash=a81fcf478be90c8d201a022f3a4d8b4e8ad322f0\nblob=509 refs=1 flags=00 offset=0 packed=0 part=0 hash=45dbaf1b73616df03d6404e0ed447da2c4c932cb\nblob=1632 refs=1 flags=00 offset=0 packed=0 part=0 hash=f668676c5323d632ce8fa2ce1ed680663af20d09\nblob=137341 refs=1 flags=00 offset=0 packed=0 part=0 hash=15c1aa2c6d6bc51dda916d29795204c64d7e2f09\nblob=708 refs=1 flags=00 offset=0 packed=0 part=0 hash=7eb315ba59bb182aee9addf3d978670c28b23db4\nblob=13186 refs=1 flags=00 offset=0 packed=0 part=0 hash=5caadc0351686ec466bca5f10968ce341b18937e\nblob=9100 refs=1 flags=00 offset=0 packed=0 part=0 hash=21147233729c5f60089e41dec8c07c62da242784\nblob=29688 refs=1 flags=00 offset=0 packed=0 part=0 hash=2d48bfb36249f93ffeeef7e49640b14b0c5c801a\nblob=2326 refs=1 flags=00 offset=0 packed=0 part=0 hash=83b51b658efd6281a0f1bfe8e3985dac206d8435\nblob=60 refs=1 flags=00 offset=0 packed=0 part=0 hash=d9880b6af8b2bf86fc6a5d9dfd930c39d58ec6ee\nblob=3621 refs=1 flags=00 offset=0 packed=0 part=0 hash=7c4aceb9fa64ceaeae055e1c0e2c24d45837f399\nblob=543 refs=1 flags=00 offset=0 packed=0 part=0 hash=bd9053fea93c64aa6eb394f5e0e237d78df5e532\nblob=426 refs=1 flags=00 offset=0 packed=0 part=0 hash=799cea9b181cca472fbadae09532573b555e587d\nblob=2909 refs=2 flags=00 offset=0 packed=0 part=0 hash=165c2a245397801bc96b18740d37a3282b9a9187\nblob=60 refs=1 flags=00 offset=0 packed=0 part=0 hash=ef81509393157a4e7f48e745bb1ccf142f05352b\nblob=25806 refs=1 flags=00 offset=0 packed=0 part=0 hash=020fb93d7c747bbad6e5a86140089f9af0cac97b\nblob=9398 refs=1 flags=00 offset=0 packed=0 part=0 hash=0ee54ceb49cec2beb583d5c1cd69b1111f37aefc\nblob=781 refs=1 flags=00 offset=0 packed=0 part=0 hash=032f1b761a26b1d7662e6b0a5a8194b70bd10a4f\nblob=23372 refs=1 flags=00 offset=0 packed=0 part=0 hash=9f6dd038e345bba0d6209ad7c9358e2f58e49a35\nblob=214945 refs=1 flags=00 offset=0 packed=0 part=0 hash=90d646f77fd10eb7d8414ddca722d4851c3a47f5\nblob=2677 refs=1 flags=00 offset=0 packed=0 part=0 hash=1f0740753da6d4b66a9f4543f3f10a9c04cbcce4\nblob=260732 refs=1 flags=00 offset=0 packed=0 part=0 hash=9d8002c20d8381e18d9bfe0753b6591bcd1f6717\nblob=1141 refs=1 flags=00 offset=0 packed=0 part=0 hash=f1692720e1967eebd50812a08edf6d6bab386782\nblob=1390 refs=1 flags=00 offset=0 packed=0 part=0 hash=0938bbbf594fe38fe0f1bb34e924e69abfe3a1e9\nblob=130205 refs=1 flags=00 offset=0 packed=0 part=0 hash=01848d180e450833e3b1445af5c7a663a28ab4b7\nblob=287 refs=1 flags=00 offset=0 packed=0 part=0 hash=6ba8980871c828535c0d999252fb4e81b0c327fc\nblob=2455 refs=1 flags=00 offset=0 packed=0 part=0 hash=85fc74c0e91aaf43f2b0a1aceb13c0fcb89a6be6\nblob=2808 refs=1 flags=00 offset=0 packed=0 part=0 hash=437431dddca2f16d708128f1bf6aca15e13dc2fa\nblob=2769 refs=1 flags=00 offset=0 packed=0 part=0 hash=bbd3833cd4161beedd67918be72e0831f16a277f\nblob=50013 refs=1 flags=00 offset=0 packed=0 part=0 hash=d9bbf85759978ad7d124e465efe859d2cdf3278d\nblob=72 refs=1 flags=00 offset=0 packed=0 part=0 hash=c8b0b2d0b800d8bb9f7f023684ddbb7c83cca26c\nblob=3098 refs=1 flags=00 offset=0 packed=0 part=0 hash=5dc209f8eb1edd43493c4a08f6ba23010604b371\nblob=11 refs=1 flags=00 offset=0 packed=0 part=0 hash=3fa2181e542db26dbebce9b34cdebd1aba84fd21\nblob=22 refs=1 flags=00 offset=0 packed=0 part=0 hash=0ed5b4624b031bae7d85a9d771a2b14176260f02\nblob=14512 refs=1 flags=00 offset=0 packed=0 part=0 hash=d6f71ebbd4e17f183265263c4d61860b8b6e64b6\nblob=172245 refs=1 flags=00 offset=0 packed=0 part=0 hash=0a7ddacd0a5d9da5c11449f67f6f1d534f61cdff\nblob=27363 refs=1 flags=00 offset=0 packed=0 part=0 hash=5d59ccb2fce1c0a6773d7c1845f1ceeb9e724d17\nblob=2934 refs=1 flags=00 offset=0 packed=0 part=0 hash=3e0cd5e0df25a7f70a543492fdeba238684aa26b\nblob=29017 refs=2 flags=00 offset=0 packed=0 part=0 hash=0dd7039328ea9a4ce4ee9c4d103d16df999f1134\nblob=163555 refs=1 flags=00 offset=0 packed=0 part=0 hash=455c36ad8625a6184b0f150d890938f3ef1f2639\nblob=2152 refs=1 flags=00 offset=0 packed=0 part=0 hash=ec3e3ae61244076f464be61e0821c2d411f2d65d\nblob=3691 refs=1 flags=00 offset=0 packed=0 part=0 hash=aa7d145b4d14f557221794434c44c06e285f499f\nblob=23386 refs=1 flags=00 offset=0 packed=0 part=0 hash=5fe9645277e028776daf61b1264c6cd052498b0c\nblob=5 refs=1 flags=00 offset=0 packed=0 part=0 hash=6716a1703aa2572ee2960c5f2d6cb78bee20746f\nblob=1513 refs=1 flags=00 offset=0 packed=0 part=0 hash=b211ad56f0877edbca8eb928e9900b94073e4663\nblob=25821 refs=1 flags=00 offset=0 packed=0 part=0 hash=918b5c5143ea066929f62d7624fe9615ada1cea5\nblob=2808 refs=1 flags=00 offset=0 packed=0 part=0 hash=1ee056105c727ac400e3282fd8bc973e4b4f27e3\nblob=3142 refs=1 flags=00 offset=0 packed=0 part=0 hash=ff596fa0680a1126b391036faf9fc6bf9dc0e392\nblob=245889 refs=1 flags=00 offset=0 packed=0 part=0 hash=b5d253512bd2deb55486691c5a507d8975320cf0\nblob=10479 refs=1 flags=00 offset=0 packed=0 part=0 hash=13a7831cf2553216db8c65026771edf67158240f\nblob=157623 refs=1 flags=00 offset=0 packed=0 part=0 hash=9e27d86d7b8bd7d43a6c6f06d6d8eded261fc377\nblob=39 refs=1 flags=00 offset=0 packed=0 part=0 hash=fa8e80cef239cc17a5dd89fe6e2e3634ba8283ce\nblob=24493 refs=1 flags=00 offset=0 packed=0 part=0 hash=27c252f9b31919df33b3bbab3e74b66eabea91b6\nblob=1204 refs=1 flags=00 offset=0 packed=0 part=0 hash=be155c0ca905ab9ff678814fe6316e6aba084e52\nblob=29830 refs=1 flags=00 offset=0 packed=0 part=0 hash=c207a269600e381dab551c2ba92205d867c479d7\nblob=17219 refs=1 flags=00 offset=0 packed=0 part=0 hash=8ce4b8d5807c8812635b9755607382c563075682\nblob=1728 refs=1 flags=00 offset=0 packed=0 part=0 hash=bf5100262062feeca23b55d10082014f737df281\nblob=99311 refs=1 flags=00 offset=0 packed=0 part=0 hash=543ea27785ff64211d609799548fdbe89bff40ef\nblob=7941 refs=1 flags=00 offset=0 packed=0 part=0 hash=db730618be2287108adc8847a75f725d17f0da8f\nblob=53515 refs=1 flags=00 offset=0 packed=0 part=0 hash=6e4afbd60d4839b628b4a3eb5f1cb7014187d92f\nblob=23648 refs=1 flags=00 offset=0 packed=0 part=0 hash=7354375f2f0b1b05aeb0bf3ac417859a379c02f8\nblob=36 refs=1 flags=00 offset=0 packed=0 part=0 hash=edb74e193640b7c13630992832855f11c6cbf71b\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true,
+          "verify": {
+            "status": 0,
+            "stderr": "\n[WARNING] \"/tmp/wim-generator-api-3lfrb456/native-0--1-0.wim\" does not contain integrity information.  Skipping integrity check.\n"
+          }
+        }
+      },
+      "exact": false,
+      "original_graph_comparison": {
+        "status": 0,
+        "stdout": "open=0,0\ncompare=0\n",
+        "stderr": ""
+      }
+    },
+    {
+      "seed": 0,
+      "stop": -1,
+      "flags": 4,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nblob=5944 refs=1 flags=00 offset=0 packed=0 part=0 hash=80566f542e4e4b3375ad4e28bbd2d0046d2da195\nblob=1235 refs=1 flags=00 offset=0 packed=0 part=0 hash=01e22903e6dd5dd499a642f677d96fa037bafb7f\nblob=130205 refs=1 flags=00 offset=0 packed=0 part=0 hash=01848d180e450833e3b1445af5c7a663a28ab4b7\nblob=25806 refs=1 flags=00 offset=0 packed=0 part=0 hash=020fb93d7c747bbad6e5a86140089f9af0cac97b\nblob=540 refs=1 flags=00 offset=0 packed=0 part=0 hash=829a69d68aa1f42567109d75f6812dfcf64df9d5\nblob=2326 refs=1 flags=00 offset=0 packed=0 part=0 hash=83b51b658efd6281a0f1bfe8e3985dac206d8435\nblob=781 refs=1 flags=00 offset=0 packed=0 part=0 hash=032f1b761a26b1d7662e6b0a5a8194b70bd10a4f\nblob=3589 refs=1 flags=00 offset=0 packed=0 part=0 hash=03c3419abb1a20da516b920d727efd3ae6addd1e\nblob=2455 refs=1 flags=00 offset=0 packed=0 part=0 hash=85fc74c0e91aaf43f2b0a1aceb13c0fcb89a6be6\nblob=5601 refs=1 flags=00 offset=0 packed=0 part=0 hash=081c9f7726f64d88e5f960c2de3705a7ced05eb0\nblob=1390 refs=1 flags=00 offset=0 packed=0 part=0 hash=0938bbbf594fe38fe0f1bb34e924e69abfe3a1e9\nblob=172245 refs=1 flags=00 offset=0 packed=0 part=0 hash=0a7ddacd0a5d9da5c11449f67f6f1d534f61cdff\nblob=25021 refs=1 flags=00 offset=0 packed=0 part=0 hash=8b3f4dde0356c517d3cde6e231181a260fa96391\nblob=17219 refs=1 flags=00 offset=0 packed=0 part=0 hash=8ce4b8d5807c8812635b9755607382c563075682\nblob=29017 refs=2 flags=00 offset=0 packed=0 part=0 hash=0dd7039328ea9a4ce4ee9c4d103d16df999f1134\nblob=23324 refs=1 flags=00 offset=0 packed=0 part=0 hash=8db2fcfaad37c150b04539be38fd8b38c78cf95a\nblob=22 refs=1 flags=00 offset=0 packed=0 part=0 hash=0ed5b4624b031bae7d85a9d771a2b14176260f02\nblob=38 refs=1 flags=00 offset=0 packed=0 part=0 hash=0e4387993a6196b206e739b5cecd4d0716b715ed\nblob=9398 refs=1 flags=00 offset=0 packed=0 part=0 hash=0ee54ceb49cec2beb583d5c1cd69b1111f37aefc\nblob=19984 refs=1 flags=00 offset=0 packed=0 part=0 hash=8f66f9003ac4e8eeb52ff70a454217254fb93f1f\nblob=3464 refs=2 flags=00 offset=0 packed=0 part=0 hash=102b8d918a62f0f07ffa465f763cef070dacdbcb\nblob=214945 refs=1 flags=00 offset=0 packed=0 part=0 hash=90d646f77fd10eb7d8414ddca722d4851c3a47f5\nblob=1 refs=1 flags=00 offset=0 packed=0 part=0 hash=10687feb9716c9502d9a40fdfe3bb339055c8651\nblob=608 refs=1 flags=00 offset=0 packed=0 part=0 hash=9132c0d3862b3d20b7058943ad515484bb483c8e\nblob=25821 refs=1 flags=00 offset=0 packed=0 part=0 hash=918b5c5143ea066929f62d7624fe9615ada1cea5\nblob=10479 refs=1 flags=00 offset=0 packed=0 part=0 hash=13a7831cf2553216db8c65026771edf67158240f\nblob=5 refs=1 flags=00 offset=0 packed=0 part=0 hash=943920a4120cf5296f26295e0948515bf975ded6\nblob=137341 refs=1 flags=00 offset=0 packed=0 part=0 hash=15c1aa2c6d6bc51dda916d29795204c64d7e2f09\nblob=1575 refs=1 flags=00 offset=0 packed=0 part=0 hash=161f16583270d8b5205df4dbf8778f1a255d7008\nblob=3041 refs=1 flags=00 offset=0 packed=0 part=0 hash=967d88040ecad5db413e9818d1995c5be3372b4b\nblob=2909 refs=2 flags=00 offset=0 packed=0 part=0 hash=165c2a245397801bc96b18740d37a3282b9a9187\nblob=123180 refs=1 flags=00 offset=0 packed=0 part=0 hash=975c74f0394709a7e042ddab9f1a66fce7e69c15\nblob=149185 refs=1 flags=00 offset=0 packed=0 part=0 hash=9c3afd96d66cda33c10b57cd514bb60a1012da04\nblob=260732 refs=1 flags=00 offset=0 packed=0 part=0 hash=9d8002c20d8381e18d9bfe0753b6591bcd1f6717\nblob=2808 refs=1 flags=00 offset=0 packed=0 part=0 hash=1ee056105c727ac400e3282fd8bc973e4b4f27e3\nblob=157623 refs=1 flags=00 offset=0 packed=0 part=0 hash=9e27d86d7b8bd7d43a6c6f06d6d8eded261fc377\nblob=26244 refs=1 flags=00 offset=0 packed=0 part=0 hash=1e92d6154adcc94788eb51c34ce5e5150e0540d5\nblob=23372 refs=1 flags=00 offset=0 packed=0 part=0 hash=9f6dd038e345bba0d6209ad7c9358e2f58e49a35\nblob=2677 refs=1 flags=00 offset=0 packed=0 part=0 hash=1f0740753da6d4b66a9f4543f3f10a9c04cbcce4\nblob=9100 refs=1 flags=00 offset=0 packed=0 part=0 hash=21147233729c5f60089e41dec8c07c62da242784\nblob=3057 refs=1 flags=00 offset=0 packed=0 part=0 hash=25db55695d0bd7e18cae463a7c3aea15d52614dd\nblob=22 refs=1 flags=00 offset=0 packed=0 part=0 hash=250ca0f06742d23cbb2fd43b6ad0897fd9425dab\nblob=5721 refs=1 flags=00 offset=0 packed=0 part=0 hash=a6ec97c730eb07afcbc065cac98624e65aae8ac7\nblob=2540 refs=1 flags=00 offset=0 packed=0 part=0 hash=26b765cb936dfdb9eb1730c011c6594acea87233\nblob=24493 refs=1 flags=00 offset=0 packed=0 part=0 hash=27c252f9b31919df33b3bbab3e74b66eabea91b6\nblob=549 refs=1 flags=00 offset=0 packed=0 part=0 hash=28b1731467c359e791966d7348b569528f0ffd58\nblob=12093 refs=1 flags=00 offset=0 packed=0 part=0 hash=a81fcf478be90c8d201a022f3a4d8b4e8ad322f0\nblob=118450 refs=1 flags=00 offset=0 packed=0 part=0 hash=a9b1d1ef87a4c931f526aee29cb01cafd8fa553c\nblob=2177 refs=1 flags=00 offset=0 packed=0 part=0 hash=aa121d40876fde9c111144f6fb2be7bb93d8f63e\nblob=3691 refs=1 flags=00 offset=0 packed=0 part=0 hash=aa7d145b4d14f557221794434c44c06e285f499f\nblob=29688 refs=1 flags=00 offset=0 packed=0 part=0 hash=2d48bfb36249f93ffeeef7e49640b14b0c5c801a\nblob=1513 refs=1 flags=00 offset=0 packed=0 part=0 hash=b211ad56f0877edbca8eb928e9900b94073e4663\nblob=40 refs=1 flags=00 offset=0 packed=0 part=0 hash=33929e099af119869b11a47b973e2ec9b41a5970\nblob=16070 refs=1 flags=00 offset=0 packed=0 part=0 hash=b49df010f74c615b5a3ccc7fc9df9f435193eac4\nblob=686 refs=1 flags=00 offset=0 packed=0 part=0 hash=348037b2223814e10e3cfc353f7d6e00e58f9093\nblob=23804 refs=1 flags=00 offset=0 packed=0 part=0 hash=35c5841a36b00ede20b537dee6bf9302a5655f33\nblob=245889 refs=1 flags=00 offset=0 packed=0 part=0 hash=b5d253512bd2deb55486691c5a507d8975320cf0\nblob=363 refs=1 flags=00 offset=0 packed=0 part=0 hash=37d1b9ceaf1fb4b7146563ff801114234ec90ac3\nblob=46 refs=1 flags=00 offset=0 packed=0 part=0 hash=3abf15b5c13ff1b5233eacb8fff0491201cca59c\nblob=2769 refs=1 flags=00 offset=0 packed=0 part=0 hash=bbd3833cd4161beedd67918be72e0831f16a277f\nblob=2053 refs=1 flags=00 offset=0 packed=0 part=0 hash=3bf996954966a719b27b8db188a4ecb4eb14a10f\nblob=60 refs=1 flags=00 offset=0 packed=0 part=0 hash=3c339bebe5d66090bb222474a384d5980e7c2351\nblob=543 refs=1 flags=00 offset=0 packed=0 part=0 hash=bd9053fea93c64aa6eb394f5e0e237d78df5e532\nblob=1204 refs=1 flags=00 offset=0 packed=0 part=0 hash=be155c0ca905ab9ff678814fe6316e6aba084e52\nblob=2934 refs=1 flags=00 offset=0 packed=0 part=0 hash=3e0cd5e0df25a7f70a543492fdeba238684aa26b\nblob=11 refs=1 flags=00 offset=0 packed=0 part=0 hash=3fa2181e542db26dbebce9b34cdebd1aba84fd21\nblob=1728 refs=1 flags=00 offset=0 packed=0 part=0 hash=bf5100262062feeca23b55d10082014f737df281\nblob=29830 refs=1 flags=00 offset=0 packed=0 part=0 hash=c207a269600e381dab551c2ba92205d867c479d7\nblob=1692 refs=1 flags=00 offset=0 packed=0 part=0 hash=c3a09c161a5ac2ad5d4fcf8e8b8a8b02b56c3542\nblob=2808 refs=1 flags=00 offset=0 packed=0 part=0 hash=437431dddca2f16d708128f1bf6aca15e13dc2fa\nblob=28033 refs=1 flags=00 offset=0 packed=0 part=0 hash=4405757eae1c5dc09a144fd89ba9208ee67731fb\nblob=509 refs=1 flags=00 offset=0 packed=0 part=0 hash=45dbaf1b73616df03d6404e0ed447da2c4c932cb\nblob=163555 refs=1 flags=00 offset=0 packed=0 part=0 hash=455c36ad8625a6184b0f150d890938f3ef1f2639\nblob=13307 refs=1 flags=00 offset=0 packed=0 part=0 hash=c67accd58a6345e78450012233cd018cbd849e0d\nblob=50 refs=1 flags=00 offset=0 packed=0 part=0 hash=48d634cfcbf63bcd81cb68ef5df0b9483281b1e9\nblob=72 refs=1 flags=00 offset=0 packed=0 part=0 hash=c8b0b2d0b800d8bb9f7f023684ddbb7c83cca26c\nblob=138361 refs=1 flags=00 offset=0 packed=0 part=0 hash=4ee8043293d68687341ac24d2b12cf0b3dc7f2b4\nblob=59440 refs=1 flags=00 offset=0 packed=0 part=0 hash=53841acfb0a176ef4206b399de007879a979e696\nblob=99311 refs=1 flags=00 offset=0 packed=0 part=0 hash=543ea27785ff64211d609799548fdbe89bff40ef\nblob=14512 refs=1 flags=00 offset=0 packed=0 part=0 hash=d6f71ebbd4e17f183265263c4d61860b8b6e64b6\nblob=2172 refs=1 flags=00 offset=0 packed=0 part=0 hash=566bd3404dd1c0afc52541cf62fef6886082920a\nblob=22808 refs=1 flags=00 offset=0 packed=0 part=0 hash=d91a7073645ede2f68c485407cfee0f979c821cd\nblob=60 refs=1 flags=00 offset=0 packed=0 part=0 hash=d9880b6af8b2bf86fc6a5d9dfd930c39d58ec6ee\nblob=50013 refs=1 flags=00 offset=0 packed=0 part=0 hash=d9bbf85759978ad7d124e465efe859d2cdf3278d\nblob=106 refs=1 flags=00 offset=0 packed=0 part=0 hash=d936259184aa3c399219fe9fec874d21727aa8cc\nblob=7941 refs=1 flags=00 offset=0 packed=0 part=0 hash=db730618be2287108adc8847a75f725d17f0da8f\nblob=13186 refs=1 flags=00 offset=0 packed=0 part=0 hash=5caadc0351686ec466bca5f10968ce341b18937e\nblob=3098 refs=1 flags=00 offset=0 packed=0 part=0 hash=5dc209f8eb1edd43493c4a08f6ba23010604b371\nblob=27363 refs=1 flags=00 offset=0 packed=0 part=0 hash=5d59ccb2fce1c0a6773d7c1845f1ceeb9e724d17\nblob=23386 refs=1 flags=00 offset=0 packed=0 part=0 hash=5fe9645277e028776daf61b1264c6cd052498b0c\nblob=1065 refs=1 flags=00 offset=0 packed=0 part=0 hash=603a6f2b1697a1589eb98a4d28c6e44c8f7e18b0\nblob=11047 refs=1 flags=00 offset=0 packed=0 part=0 hash=60492646e4e0ea19f37843ec983778cfe8cc5910\nblob=835 refs=1 flags=00 offset=0 packed=0 part=0 hash=e1c6cae20bcc972bdc0d2fdfa6172b4386ac3630\nblob=2569 refs=1 flags=00 offset=0 packed=0 part=0 hash=e32259786df8132d07aaa245040d7ff29320dcec\nblob=5 refs=1 flags=00 offset=0 packed=0 part=0 hash=6716a1703aa2572ee2960c5f2d6cb78bee20746f\nblob=3143 refs=1 flags=00 offset=0 packed=0 part=0 hash=6981ea589941474a59e84bb38e2cfcf75e7330f3\nblob=23763 refs=1 flags=00 offset=0 packed=0 part=0 hash=6a0d3c42379d2e48fd05fec7a6119956c1c23126\nblob=1107 refs=1 flags=00 offset=0 packed=0 part=0 hash=eb1e7fd64d84ba6e94c29a831beed3fa19e11c60\nblob=287 refs=1 flags=00 offset=0 packed=0 part=0 hash=6ba8980871c828535c0d999252fb4e81b0c327fc\nblob=2152 refs=1 flags=00 offset=0 packed=0 part=0 hash=ec3e3ae61244076f464be61e0821c2d411f2d65d\nblob=36 refs=1 flags=00 offset=0 packed=0 part=0 hash=edb74e193640b7c13630992832855f11c6cbf71b\nblob=3200 refs=1 flags=00 offset=0 packed=0 part=0 hash=ee5127b6693b13bbef311ec5f553608b0f5f3812\nblob=53515 refs=1 flags=00 offset=0 packed=0 part=0 hash=6e4afbd60d4839b628b4a3eb5f1cb7014187d92f\nblob=8048 refs=1 flags=00 offset=0 packed=0 part=0 hash=6ea1d4262993542c7c5a8f814ca003b02ded5390\nblob=60 refs=1 flags=00 offset=0 packed=0 part=0 hash=ef81509393157a4e7f48e745bb1ccf142f05352b\nblob=1141 refs=1 flags=00 offset=0 packed=0 part=0 hash=f1692720e1967eebd50812a08edf6d6bab386782\nblob=23648 refs=1 flags=00 offset=0 packed=0 part=0 hash=7354375f2f0b1b05aeb0bf3ac417859a379c02f8\nblob=1632 refs=1 flags=00 offset=0 packed=0 part=0 hash=f668676c5323d632ce8fa2ce1ed680663af20d09\nblob=7690 refs=1 flags=00 offset=0 packed=0 part=0 hash=76c11ccee16f0802899ac4b78f98e8773657d400\nblob=426 refs=1 flags=00 offset=0 packed=0 part=0 hash=799cea9b181cca472fbadae09532573b555e587d\nblob=39 refs=1 flags=00 offset=0 packed=0 part=0 hash=fa8e80cef239cc17a5dd89fe6e2e3634ba8283ce\nblob=8253 refs=1 flags=00 offset=0 packed=0 part=0 hash=fb81f1f903301f7bd81ab5318c91b91de0844d2d\nblob=31434 refs=1 flags=00 offset=0 packed=0 part=0 hash=fb1f9a4c6c6914b67e6bce05b908e816bafef816\nblob=1322 refs=1 flags=00 offset=0 packed=0 part=0 hash=7c36bf4e1e17823e284a2f3c99797e8e85d63de2\nblob=3621 refs=1 flags=00 offset=0 packed=0 part=0 hash=7c4aceb9fa64ceaeae055e1c0e2c24d45837f399\nblob=708 refs=1 flags=00 offset=0 packed=0 part=0 hash=7eb315ba59bb182aee9addf3d978670c28b23db4\nblob=3142 refs=1 flags=00 offset=0 packed=0 part=0 hash=ff596fa0680a1126b391036faf9fc6bf9dc0e392\nblob=3825 refs=1 flags=00 offset=0 packed=0 part=0 hash=7f3a3e761999d98eb9282478c6544d8232e99fbf\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true,
+          "verify": {
+            "status": 0,
+            "stderr": "\n[WARNING] \"/tmp/wim-generator-api-3lfrb456/original-0--1-4.wim\" does not contain integrity information.  Skipping integrity check.\n"
+          }
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nblob=5721 refs=1 flags=00 offset=0 packed=0 part=0 hash=a6ec97c730eb07afcbc065cac98624e65aae8ac7\nblob=8048 refs=1 flags=00 offset=0 packed=0 part=0 hash=6ea1d4262993542c7c5a8f814ca003b02ded5390\nblob=31434 refs=1 flags=00 offset=0 packed=0 part=0 hash=fb1f9a4c6c6914b67e6bce05b908e816bafef816\nblob=2540 refs=1 flags=00 offset=0 packed=0 part=0 hash=26b765cb936dfdb9eb1730c011c6594acea87233\nblob=22808 refs=1 flags=00 offset=0 packed=0 part=0 hash=d91a7073645ede2f68c485407cfee0f979c821cd\nblob=1322 refs=1 flags=00 offset=0 packed=0 part=0 hash=7c36bf4e1e17823e284a2f3c99797e8e85d63de2\nblob=40 refs=1 flags=00 offset=0 packed=0 part=0 hash=33929e099af119869b11a47b973e2ec9b41a5970\nblob=3041 refs=1 flags=00 offset=0 packed=0 part=0 hash=967d88040ecad5db413e9818d1995c5be3372b4b\nblob=549 refs=1 flags=00 offset=0 packed=0 part=0 hash=28b1731467c359e791966d7348b569528f0ffd58\nblob=16070 refs=1 flags=00 offset=0 packed=0 part=0 hash=b49df010f74c615b5a3ccc7fc9df9f435193eac4\nblob=25021 refs=1 flags=00 offset=0 packed=0 part=0 hash=8b3f4dde0356c517d3cde6e231181a260fa96391\nblob=835 refs=1 flags=00 offset=0 packed=0 part=0 hash=e1c6cae20bcc972bdc0d2fdfa6172b4386ac3630\nblob=5601 refs=1 flags=00 offset=0 packed=0 part=0 hash=081c9f7726f64d88e5f960c2de3705a7ced05eb0\nblob=5 refs=1 flags=00 offset=0 packed=0 part=0 hash=943920a4120cf5296f26295e0948515bf975ded6\nblob=28033 refs=1 flags=00 offset=0 packed=0 part=0 hash=4405757eae1c5dc09a144fd89ba9208ee67731fb\nblob=38 refs=1 flags=00 offset=0 packed=0 part=0 hash=0e4387993a6196b206e739b5cecd4d0716b715ed\nblob=8253 refs=1 flags=00 offset=0 packed=0 part=0 hash=fb81f1f903301f7bd81ab5318c91b91de0844d2d\nblob=123180 refs=1 flags=00 offset=0 packed=0 part=0 hash=975c74f0394709a7e042ddab9f1a66fce7e69c15\nblob=60 refs=1 flags=00 offset=0 packed=0 part=0 hash=3c339bebe5d66090bb222474a384d5980e7c2351\nblob=19984 refs=1 flags=00 offset=0 packed=0 part=0 hash=8f66f9003ac4e8eeb52ff70a454217254fb93f1f\nblob=13307 refs=1 flags=00 offset=0 packed=0 part=0 hash=c67accd58a6345e78450012233cd018cbd849e0d\nblob=59440 refs=1 flags=00 offset=0 packed=0 part=0 hash=53841acfb0a176ef4206b399de007879a979e696\nblob=118450 refs=1 flags=00 offset=0 packed=0 part=0 hash=a9b1d1ef87a4c931f526aee29cb01cafd8fa553c\nblob=11047 refs=1 flags=00 offset=0 packed=0 part=0 hash=60492646e4e0ea19f37843ec983778cfe8cc5910\nblob=106 refs=1 flags=00 offset=0 packed=0 part=0 hash=d936259184aa3c399219fe9fec874d21727aa8cc\nblob=1065 refs=1 flags=00 offset=0 packed=0 part=0 hash=603a6f2b1697a1589eb98a4d28c6e44c8f7e18b0\nblob=5944 refs=1 flags=00 offset=0 packed=0 part=0 hash=80566f542e4e4b3375ad4e28bbd2d0046d2da195\nblob=1692 refs=1 flags=00 offset=0 packed=0 part=0 hash=c3a09c161a5ac2ad5d4fcf8e8b8a8b02b56c3542\nblob=3200 refs=1 flags=00 offset=0 packed=0 part=0 hash=ee5127b6693b13bbef311ec5f553608b0f5f3812\nblob=3464 refs=2 flags=00 offset=0 packed=0 part=0 hash=102b8d918a62f0f07ffa465f763cef070dacdbcb\nblob=608 refs=1 flags=00 offset=0 packed=0 part=0 hash=9132c0d3862b3d20b7058943ad515484bb483c8e\nblob=138361 refs=1 flags=00 offset=0 packed=0 part=0 hash=4ee8043293d68687341ac24d2b12cf0b3dc7f2b4\nblob=1575 refs=1 flags=00 offset=0 packed=0 part=0 hash=161f16583270d8b5205df4dbf8778f1a255d7008\nblob=2177 refs=1 flags=00 offset=0 packed=0 part=0 hash=aa121d40876fde9c111144f6fb2be7bb93d8f63e\nblob=2172 refs=1 flags=00 offset=0 packed=0 part=0 hash=566bd3404dd1c0afc52541cf62fef6886082920a\nblob=50 refs=1 flags=00 offset=0 packed=0 part=0 hash=48d634cfcbf63bcd81cb68ef5df0b9483281b1e9\nblob=1107 refs=1 flags=00 offset=0 packed=0 part=0 hash=eb1e7fd64d84ba6e94c29a831beed3fa19e11c60\nblob=22 refs=1 flags=00 offset=0 packed=0 part=0 hash=250ca0f06742d23cbb2fd43b6ad0897fd9425dab\nblob=26244 refs=1 flags=00 offset=0 packed=0 part=0 hash=1e92d6154adcc94788eb51c34ce5e5150e0540d5\nblob=23804 refs=1 flags=00 offset=0 packed=0 part=0 hash=35c5841a36b00ede20b537dee6bf9302a5655f33\nblob=2053 refs=1 flags=00 offset=0 packed=0 part=0 hash=3bf996954966a719b27b8db188a4ecb4eb14a10f\nblob=363 refs=1 flags=00 offset=0 packed=0 part=0 hash=37d1b9ceaf1fb4b7146563ff801114234ec90ac3\nblob=3825 refs=1 flags=00 offset=0 packed=0 part=0 hash=7f3a3e761999d98eb9282478c6544d8232e99fbf\nblob=149185 refs=1 flags=00 offset=0 packed=0 part=0 hash=9c3afd96d66cda33c10b57cd514bb60a1012da04\nblob=23763 refs=1 flags=00 offset=0 packed=0 part=0 hash=6a0d3c42379d2e48fd05fec7a6119956c1c23126\nblob=3589 refs=1 flags=00 offset=0 packed=0 part=0 hash=03c3419abb1a20da516b920d727efd3ae6addd1e\nblob=1 refs=1 flags=00 offset=0 packed=0 part=0 hash=10687feb9716c9502d9a40fdfe3bb339055c8651\nblob=540 refs=1 flags=00 offset=0 packed=0 part=0 hash=829a69d68aa1f42567109d75f6812dfcf64df9d5\nblob=7690 refs=1 flags=00 offset=0 packed=0 part=0 hash=76c11ccee16f0802899ac4b78f98e8773657d400\nblob=1235 refs=1 flags=00 offset=0 packed=0 part=0 hash=01e22903e6dd5dd499a642f677d96fa037bafb7f\nblob=3143 refs=1 flags=00 offset=0 packed=0 part=0 hash=6981ea589941474a59e84bb38e2cfcf75e7330f3\nblob=2569 refs=1 flags=00 offset=0 packed=0 part=0 hash=e32259786df8132d07aaa245040d7ff29320dcec\nblob=23324 refs=1 flags=00 offset=0 packed=0 part=0 hash=8db2fcfaad37c150b04539be38fd8b38c78cf95a\nblob=3057 refs=1 flags=00 offset=0 packed=0 part=0 hash=25db55695d0bd7e18cae463a7c3aea15d52614dd\nblob=686 refs=1 flags=00 offset=0 packed=0 part=0 hash=348037b2223814e10e3cfc353f7d6e00e58f9093\nblob=46 refs=1 flags=00 offset=0 packed=0 part=0 hash=3abf15b5c13ff1b5233eacb8fff0491201cca59c\nblob=12093 refs=1 flags=00 offset=0 packed=0 part=0 hash=a81fcf478be90c8d201a022f3a4d8b4e8ad322f0\nblob=509 refs=1 flags=00 offset=0 packed=0 part=0 hash=45dbaf1b73616df03d6404e0ed447da2c4c932cb\nblob=1632 refs=1 flags=00 offset=0 packed=0 part=0 hash=f668676c5323d632ce8fa2ce1ed680663af20d09\nblob=137341 refs=1 flags=00 offset=0 packed=0 part=0 hash=15c1aa2c6d6bc51dda916d29795204c64d7e2f09\nblob=708 refs=1 flags=00 offset=0 packed=0 part=0 hash=7eb315ba59bb182aee9addf3d978670c28b23db4\nblob=13186 refs=1 flags=00 offset=0 packed=0 part=0 hash=5caadc0351686ec466bca5f10968ce341b18937e\nblob=9100 refs=1 flags=00 offset=0 packed=0 part=0 hash=21147233729c5f60089e41dec8c07c62da242784\nblob=29688 refs=1 flags=00 offset=0 packed=0 part=0 hash=2d48bfb36249f93ffeeef7e49640b14b0c5c801a\nblob=2326 refs=1 flags=00 offset=0 packed=0 part=0 hash=83b51b658efd6281a0f1bfe8e3985dac206d8435\nblob=60 refs=1 flags=00 offset=0 packed=0 part=0 hash=d9880b6af8b2bf86fc6a5d9dfd930c39d58ec6ee\nblob=3621 refs=1 flags=00 offset=0 packed=0 part=0 hash=7c4aceb9fa64ceaeae055e1c0e2c24d45837f399\nblob=543 refs=1 flags=00 offset=0 packed=0 part=0 hash=bd9053fea93c64aa6eb394f5e0e237d78df5e532\nblob=426 refs=1 flags=00 offset=0 packed=0 part=0 hash=799cea9b181cca472fbadae09532573b555e587d\nblob=2909 refs=2 flags=00 offset=0 packed=0 part=0 hash=165c2a245397801bc96b18740d37a3282b9a9187\nblob=60 refs=1 flags=00 offset=0 packed=0 part=0 hash=ef81509393157a4e7f48e745bb1ccf142f05352b\nblob=25806 refs=1 flags=00 offset=0 packed=0 part=0 hash=020fb93d7c747bbad6e5a86140089f9af0cac97b\nblob=9398 refs=1 flags=00 offset=0 packed=0 part=0 hash=0ee54ceb49cec2beb583d5c1cd69b1111f37aefc\nblob=781 refs=1 flags=00 offset=0 packed=0 part=0 hash=032f1b761a26b1d7662e6b0a5a8194b70bd10a4f\nblob=23372 refs=1 flags=00 offset=0 packed=0 part=0 hash=9f6dd038e345bba0d6209ad7c9358e2f58e49a35\nblob=214945 refs=1 flags=00 offset=0 packed=0 part=0 hash=90d646f77fd10eb7d8414ddca722d4851c3a47f5\nblob=2677 refs=1 flags=00 offset=0 packed=0 part=0 hash=1f0740753da6d4b66a9f4543f3f10a9c04cbcce4\nblob=260732 refs=1 flags=00 offset=0 packed=0 part=0 hash=9d8002c20d8381e18d9bfe0753b6591bcd1f6717\nblob=1141 refs=1 flags=00 offset=0 packed=0 part=0 hash=f1692720e1967eebd50812a08edf6d6bab386782\nblob=1390 refs=1 flags=00 offset=0 packed=0 part=0 hash=0938bbbf594fe38fe0f1bb34e924e69abfe3a1e9\nblob=130205 refs=1 flags=00 offset=0 packed=0 part=0 hash=01848d180e450833e3b1445af5c7a663a28ab4b7\nblob=287 refs=1 flags=00 offset=0 packed=0 part=0 hash=6ba8980871c828535c0d999252fb4e81b0c327fc\nblob=2455 refs=1 flags=00 offset=0 packed=0 part=0 hash=85fc74c0e91aaf43f2b0a1aceb13c0fcb89a6be6\nblob=2808 refs=1 flags=00 offset=0 packed=0 part=0 hash=437431dddca2f16d708128f1bf6aca15e13dc2fa\nblob=2769 refs=1 flags=00 offset=0 packed=0 part=0 hash=bbd3833cd4161beedd67918be72e0831f16a277f\nblob=50013 refs=1 flags=00 offset=0 packed=0 part=0 hash=d9bbf85759978ad7d124e465efe859d2cdf3278d\nblob=72 refs=1 flags=00 offset=0 packed=0 part=0 hash=c8b0b2d0b800d8bb9f7f023684ddbb7c83cca26c\nblob=3098 refs=1 flags=00 offset=0 packed=0 part=0 hash=5dc209f8eb1edd43493c4a08f6ba23010604b371\nblob=11 refs=1 flags=00 offset=0 packed=0 part=0 hash=3fa2181e542db26dbebce9b34cdebd1aba84fd21\nblob=22 refs=1 flags=00 offset=0 packed=0 part=0 hash=0ed5b4624b031bae7d85a9d771a2b14176260f02\nblob=14512 refs=1 flags=00 offset=0 packed=0 part=0 hash=d6f71ebbd4e17f183265263c4d61860b8b6e64b6\nblob=172245 refs=1 flags=00 offset=0 packed=0 part=0 hash=0a7ddacd0a5d9da5c11449f67f6f1d534f61cdff\nblob=27363 refs=1 flags=00 offset=0 packed=0 part=0 hash=5d59ccb2fce1c0a6773d7c1845f1ceeb9e724d17\nblob=2934 refs=1 flags=00 offset=0 packed=0 part=0 hash=3e0cd5e0df25a7f70a543492fdeba238684aa26b\nblob=29017 refs=2 flags=00 offset=0 packed=0 part=0 hash=0dd7039328ea9a4ce4ee9c4d103d16df999f1134\nblob=163555 refs=1 flags=00 offset=0 packed=0 part=0 hash=455c36ad8625a6184b0f150d890938f3ef1f2639\nblob=2152 refs=1 flags=00 offset=0 packed=0 part=0 hash=ec3e3ae61244076f464be61e0821c2d411f2d65d\nblob=3691 refs=1 flags=00 offset=0 packed=0 part=0 hash=aa7d145b4d14f557221794434c44c06e285f499f\nblob=23386 refs=1 flags=00 offset=0 packed=0 part=0 hash=5fe9645277e028776daf61b1264c6cd052498b0c\nblob=5 refs=1 flags=00 offset=0 packed=0 part=0 hash=6716a1703aa2572ee2960c5f2d6cb78bee20746f\nblob=1513 refs=1 flags=00 offset=0 packed=0 part=0 hash=b211ad56f0877edbca8eb928e9900b94073e4663\nblob=25821 refs=1 flags=00 offset=0 packed=0 part=0 hash=918b5c5143ea066929f62d7624fe9615ada1cea5\nblob=2808 refs=1 flags=00 offset=0 packed=0 part=0 hash=1ee056105c727ac400e3282fd8bc973e4b4f27e3\nblob=3142 refs=1 flags=00 offset=0 packed=0 part=0 hash=ff596fa0680a1126b391036faf9fc6bf9dc0e392\nblob=245889 refs=1 flags=00 offset=0 packed=0 part=0 hash=b5d253512bd2deb55486691c5a507d8975320cf0\nblob=10479 refs=1 flags=00 offset=0 packed=0 part=0 hash=13a7831cf2553216db8c65026771edf67158240f\nblob=157623 refs=1 flags=00 offset=0 packed=0 part=0 hash=9e27d86d7b8bd7d43a6c6f06d6d8eded261fc377\nblob=39 refs=1 flags=00 offset=0 packed=0 part=0 hash=fa8e80cef239cc17a5dd89fe6e2e3634ba8283ce\nblob=24493 refs=1 flags=00 offset=0 packed=0 part=0 hash=27c252f9b31919df33b3bbab3e74b66eabea91b6\nblob=1204 refs=1 flags=00 offset=0 packed=0 part=0 hash=be155c0ca905ab9ff678814fe6316e6aba084e52\nblob=29830 refs=1 flags=00 offset=0 packed=0 part=0 hash=c207a269600e381dab551c2ba92205d867c479d7\nblob=17219 refs=1 flags=00 offset=0 packed=0 part=0 hash=8ce4b8d5807c8812635b9755607382c563075682\nblob=1728 refs=1 flags=00 offset=0 packed=0 part=0 hash=bf5100262062feeca23b55d10082014f737df281\nblob=99311 refs=1 flags=00 offset=0 packed=0 part=0 hash=543ea27785ff64211d609799548fdbe89bff40ef\nblob=7941 refs=1 flags=00 offset=0 packed=0 part=0 hash=db730618be2287108adc8847a75f725d17f0da8f\nblob=53515 refs=1 flags=00 offset=0 packed=0 part=0 hash=6e4afbd60d4839b628b4a3eb5f1cb7014187d92f\nblob=23648 refs=1 flags=00 offset=0 packed=0 part=0 hash=7354375f2f0b1b05aeb0bf3ac417859a379c02f8\nblob=36 refs=1 flags=00 offset=0 packed=0 part=0 hash=edb74e193640b7c13630992832855f11c6cbf71b\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true,
+          "verify": {
+            "status": 0,
+            "stderr": "\n[WARNING] \"/tmp/wim-generator-api-3lfrb456/native-0--1-4.wim\" does not contain integrity information.  Skipping integrity check.\n"
+          }
+        }
+      },
+      "exact": false,
+      "original_graph_comparison": {
+        "status": 0,
+        "stdout": "open=0,0\ncompare=0\n",
+        "stderr": ""
+      }
+    },
+    {
+      "seed": 0,
+      "stop": -1,
+      "flags": 4096,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nblob=5944 refs=1 flags=00 offset=0 packed=0 part=0 hash=80566f542e4e4b3375ad4e28bbd2d0046d2da195\nblob=1235 refs=1 flags=00 offset=0 packed=0 part=0 hash=01e22903e6dd5dd499a642f677d96fa037bafb7f\nblob=130205 refs=1 flags=00 offset=0 packed=0 part=0 hash=01848d180e450833e3b1445af5c7a663a28ab4b7\nblob=25806 refs=1 flags=00 offset=0 packed=0 part=0 hash=020fb93d7c747bbad6e5a86140089f9af0cac97b\nblob=540 refs=1 flags=00 offset=0 packed=0 part=0 hash=829a69d68aa1f42567109d75f6812dfcf64df9d5\nblob=2326 refs=1 flags=00 offset=0 packed=0 part=0 hash=83b51b658efd6281a0f1bfe8e3985dac206d8435\nblob=781 refs=1 flags=00 offset=0 packed=0 part=0 hash=032f1b761a26b1d7662e6b0a5a8194b70bd10a4f\nblob=3589 refs=1 flags=00 offset=0 packed=0 part=0 hash=03c3419abb1a20da516b920d727efd3ae6addd1e\nblob=2455 refs=1 flags=00 offset=0 packed=0 part=0 hash=85fc74c0e91aaf43f2b0a1aceb13c0fcb89a6be6\nblob=5601 refs=1 flags=00 offset=0 packed=0 part=0 hash=081c9f7726f64d88e5f960c2de3705a7ced05eb0\nblob=1390 refs=1 flags=00 offset=0 packed=0 part=0 hash=0938bbbf594fe38fe0f1bb34e924e69abfe3a1e9\nblob=172245 refs=1 flags=00 offset=0 packed=0 part=0 hash=0a7ddacd0a5d9da5c11449f67f6f1d534f61cdff\nblob=25021 refs=1 flags=00 offset=0 packed=0 part=0 hash=8b3f4dde0356c517d3cde6e231181a260fa96391\nblob=17219 refs=1 flags=00 offset=0 packed=0 part=0 hash=8ce4b8d5807c8812635b9755607382c563075682\nblob=29017 refs=2 flags=00 offset=0 packed=0 part=0 hash=0dd7039328ea9a4ce4ee9c4d103d16df999f1134\nblob=23324 refs=1 flags=00 offset=0 packed=0 part=0 hash=8db2fcfaad37c150b04539be38fd8b38c78cf95a\nblob=22 refs=1 flags=00 offset=0 packed=0 part=0 hash=0ed5b4624b031bae7d85a9d771a2b14176260f02\nblob=38 refs=1 flags=00 offset=0 packed=0 part=0 hash=0e4387993a6196b206e739b5cecd4d0716b715ed\nblob=9398 refs=1 flags=00 offset=0 packed=0 part=0 hash=0ee54ceb49cec2beb583d5c1cd69b1111f37aefc\nblob=19984 refs=1 flags=00 offset=0 packed=0 part=0 hash=8f66f9003ac4e8eeb52ff70a454217254fb93f1f\nblob=3464 refs=2 flags=00 offset=0 packed=0 part=0 hash=102b8d918a62f0f07ffa465f763cef070dacdbcb\nblob=214945 refs=1 flags=00 offset=0 packed=0 part=0 hash=90d646f77fd10eb7d8414ddca722d4851c3a47f5\nblob=1 refs=1 flags=00 offset=0 packed=0 part=0 hash=10687feb9716c9502d9a40fdfe3bb339055c8651\nblob=608 refs=1 flags=00 offset=0 packed=0 part=0 hash=9132c0d3862b3d20b7058943ad515484bb483c8e\nblob=25821 refs=1 flags=00 offset=0 packed=0 part=0 hash=918b5c5143ea066929f62d7624fe9615ada1cea5\nblob=10479 refs=1 flags=00 offset=0 packed=0 part=0 hash=13a7831cf2553216db8c65026771edf67158240f\nblob=5 refs=1 flags=00 offset=0 packed=0 part=0 hash=943920a4120cf5296f26295e0948515bf975ded6\nblob=137341 refs=1 flags=00 offset=0 packed=0 part=0 hash=15c1aa2c6d6bc51dda916d29795204c64d7e2f09\nblob=1575 refs=1 flags=00 offset=0 packed=0 part=0 hash=161f16583270d8b5205df4dbf8778f1a255d7008\nblob=3041 refs=1 flags=00 offset=0 packed=0 part=0 hash=967d88040ecad5db413e9818d1995c5be3372b4b\nblob=2909 refs=2 flags=00 offset=0 packed=0 part=0 hash=165c2a245397801bc96b18740d37a3282b9a9187\nblob=123180 refs=1 flags=00 offset=0 packed=0 part=0 hash=975c74f0394709a7e042ddab9f1a66fce7e69c15\nblob=149185 refs=1 flags=00 offset=0 packed=0 part=0 hash=9c3afd96d66cda33c10b57cd514bb60a1012da04\nblob=260732 refs=1 flags=00 offset=0 packed=0 part=0 hash=9d8002c20d8381e18d9bfe0753b6591bcd1f6717\nblob=2808 refs=1 flags=00 offset=0 packed=0 part=0 hash=1ee056105c727ac400e3282fd8bc973e4b4f27e3\nblob=157623 refs=1 flags=00 offset=0 packed=0 part=0 hash=9e27d86d7b8bd7d43a6c6f06d6d8eded261fc377\nblob=26244 refs=1 flags=00 offset=0 packed=0 part=0 hash=1e92d6154adcc94788eb51c34ce5e5150e0540d5\nblob=23372 refs=1 flags=00 offset=0 packed=0 part=0 hash=9f6dd038e345bba0d6209ad7c9358e2f58e49a35\nblob=2677 refs=1 flags=00 offset=0 packed=0 part=0 hash=1f0740753da6d4b66a9f4543f3f10a9c04cbcce4\nblob=9100 refs=1 flags=00 offset=0 packed=0 part=0 hash=21147233729c5f60089e41dec8c07c62da242784\nblob=3057 refs=1 flags=00 offset=0 packed=0 part=0 hash=25db55695d0bd7e18cae463a7c3aea15d52614dd\nblob=22 refs=1 flags=00 offset=0 packed=0 part=0 hash=250ca0f06742d23cbb2fd43b6ad0897fd9425dab\nblob=5721 refs=1 flags=00 offset=0 packed=0 part=0 hash=a6ec97c730eb07afcbc065cac98624e65aae8ac7\nblob=2540 refs=1 flags=00 offset=0 packed=0 part=0 hash=26b765cb936dfdb9eb1730c011c6594acea87233\nblob=24493 refs=1 flags=00 offset=0 packed=0 part=0 hash=27c252f9b31919df33b3bbab3e74b66eabea91b6\nblob=549 refs=1 flags=00 offset=0 packed=0 part=0 hash=28b1731467c359e791966d7348b569528f0ffd58\nblob=12093 refs=1 flags=00 offset=0 packed=0 part=0 hash=a81fcf478be90c8d201a022f3a4d8b4e8ad322f0\nblob=118450 refs=1 flags=00 offset=0 packed=0 part=0 hash=a9b1d1ef87a4c931f526aee29cb01cafd8fa553c\nblob=2177 refs=1 flags=00 offset=0 packed=0 part=0 hash=aa121d40876fde9c111144f6fb2be7bb93d8f63e\nblob=3691 refs=1 flags=00 offset=0 packed=0 part=0 hash=aa7d145b4d14f557221794434c44c06e285f499f\nblob=29688 refs=1 flags=00 offset=0 packed=0 part=0 hash=2d48bfb36249f93ffeeef7e49640b14b0c5c801a\nblob=1513 refs=1 flags=00 offset=0 packed=0 part=0 hash=b211ad56f0877edbca8eb928e9900b94073e4663\nblob=40 refs=1 flags=00 offset=0 packed=0 part=0 hash=33929e099af119869b11a47b973e2ec9b41a5970\nblob=16070 refs=1 flags=00 offset=0 packed=0 part=0 hash=b49df010f74c615b5a3ccc7fc9df9f435193eac4\nblob=686 refs=1 flags=00 offset=0 packed=0 part=0 hash=348037b2223814e10e3cfc353f7d6e00e58f9093\nblob=23804 refs=1 flags=00 offset=0 packed=0 part=0 hash=35c5841a36b00ede20b537dee6bf9302a5655f33\nblob=245889 refs=1 flags=00 offset=0 packed=0 part=0 hash=b5d253512bd2deb55486691c5a507d8975320cf0\nblob=363 refs=1 flags=00 offset=0 packed=0 part=0 hash=37d1b9ceaf1fb4b7146563ff801114234ec90ac3\nblob=46 refs=1 flags=00 offset=0 packed=0 part=0 hash=3abf15b5c13ff1b5233eacb8fff0491201cca59c\nblob=2769 refs=1 flags=00 offset=0 packed=0 part=0 hash=bbd3833cd4161beedd67918be72e0831f16a277f\nblob=2053 refs=1 flags=00 offset=0 packed=0 part=0 hash=3bf996954966a719b27b8db188a4ecb4eb14a10f\nblob=60 refs=1 flags=00 offset=0 packed=0 part=0 hash=3c339bebe5d66090bb222474a384d5980e7c2351\nblob=543 refs=1 flags=00 offset=0 packed=0 part=0 hash=bd9053fea93c64aa6eb394f5e0e237d78df5e532\nblob=1204 refs=1 flags=00 offset=0 packed=0 part=0 hash=be155c0ca905ab9ff678814fe6316e6aba084e52\nblob=2934 refs=1 flags=00 offset=0 packed=0 part=0 hash=3e0cd5e0df25a7f70a543492fdeba238684aa26b\nblob=11 refs=1 flags=00 offset=0 packed=0 part=0 hash=3fa2181e542db26dbebce9b34cdebd1aba84fd21\nblob=1728 refs=1 flags=00 offset=0 packed=0 part=0 hash=bf5100262062feeca23b55d10082014f737df281\nblob=29830 refs=1 flags=00 offset=0 packed=0 part=0 hash=c207a269600e381dab551c2ba92205d867c479d7\nblob=1692 refs=1 flags=00 offset=0 packed=0 part=0 hash=c3a09c161a5ac2ad5d4fcf8e8b8a8b02b56c3542\nblob=2808 refs=1 flags=00 offset=0 packed=0 part=0 hash=437431dddca2f16d708128f1bf6aca15e13dc2fa\nblob=28033 refs=1 flags=00 offset=0 packed=0 part=0 hash=4405757eae1c5dc09a144fd89ba9208ee67731fb\nblob=509 refs=1 flags=00 offset=0 packed=0 part=0 hash=45dbaf1b73616df03d6404e0ed447da2c4c932cb\nblob=163555 refs=1 flags=00 offset=0 packed=0 part=0 hash=455c36ad8625a6184b0f150d890938f3ef1f2639\nblob=13307 refs=1 flags=00 offset=0 packed=0 part=0 hash=c67accd58a6345e78450012233cd018cbd849e0d\nblob=50 refs=1 flags=00 offset=0 packed=0 part=0 hash=48d634cfcbf63bcd81cb68ef5df0b9483281b1e9\nblob=72 refs=1 flags=00 offset=0 packed=0 part=0 hash=c8b0b2d0b800d8bb9f7f023684ddbb7c83cca26c\nblob=138361 refs=1 flags=00 offset=0 packed=0 part=0 hash=4ee8043293d68687341ac24d2b12cf0b3dc7f2b4\nblob=59440 refs=1 flags=00 offset=0 packed=0 part=0 hash=53841acfb0a176ef4206b399de007879a979e696\nblob=99311 refs=1 flags=00 offset=0 packed=0 part=0 hash=543ea27785ff64211d609799548fdbe89bff40ef\nblob=14512 refs=1 flags=00 offset=0 packed=0 part=0 hash=d6f71ebbd4e17f183265263c4d61860b8b6e64b6\nblob=2172 refs=1 flags=00 offset=0 packed=0 part=0 hash=566bd3404dd1c0afc52541cf62fef6886082920a\nblob=22808 refs=1 flags=00 offset=0 packed=0 part=0 hash=d91a7073645ede2f68c485407cfee0f979c821cd\nblob=60 refs=1 flags=00 offset=0 packed=0 part=0 hash=d9880b6af8b2bf86fc6a5d9dfd930c39d58ec6ee\nblob=50013 refs=1 flags=00 offset=0 packed=0 part=0 hash=d9bbf85759978ad7d124e465efe859d2cdf3278d\nblob=106 refs=1 flags=00 offset=0 packed=0 part=0 hash=d936259184aa3c399219fe9fec874d21727aa8cc\nblob=7941 refs=1 flags=00 offset=0 packed=0 part=0 hash=db730618be2287108adc8847a75f725d17f0da8f\nblob=13186 refs=1 flags=00 offset=0 packed=0 part=0 hash=5caadc0351686ec466bca5f10968ce341b18937e\nblob=3098 refs=1 flags=00 offset=0 packed=0 part=0 hash=5dc209f8eb1edd43493c4a08f6ba23010604b371\nblob=27363 refs=1 flags=00 offset=0 packed=0 part=0 hash=5d59ccb2fce1c0a6773d7c1845f1ceeb9e724d17\nblob=23386 refs=1 flags=00 offset=0 packed=0 part=0 hash=5fe9645277e028776daf61b1264c6cd052498b0c\nblob=1065 refs=1 flags=00 offset=0 packed=0 part=0 hash=603a6f2b1697a1589eb98a4d28c6e44c8f7e18b0\nblob=11047 refs=1 flags=00 offset=0 packed=0 part=0 hash=60492646e4e0ea19f37843ec983778cfe8cc5910\nblob=835 refs=1 flags=00 offset=0 packed=0 part=0 hash=e1c6cae20bcc972bdc0d2fdfa6172b4386ac3630\nblob=2569 refs=1 flags=00 offset=0 packed=0 part=0 hash=e32259786df8132d07aaa245040d7ff29320dcec\nblob=5 refs=1 flags=00 offset=0 packed=0 part=0 hash=6716a1703aa2572ee2960c5f2d6cb78bee20746f\nblob=3143 refs=1 flags=00 offset=0 packed=0 part=0 hash=6981ea589941474a59e84bb38e2cfcf75e7330f3\nblob=23763 refs=1 flags=00 offset=0 packed=0 part=0 hash=6a0d3c42379d2e48fd05fec7a6119956c1c23126\nblob=1107 refs=1 flags=00 offset=0 packed=0 part=0 hash=eb1e7fd64d84ba6e94c29a831beed3fa19e11c60\nblob=287 refs=1 flags=00 offset=0 packed=0 part=0 hash=6ba8980871c828535c0d999252fb4e81b0c327fc\nblob=2152 refs=1 flags=00 offset=0 packed=0 part=0 hash=ec3e3ae61244076f464be61e0821c2d411f2d65d\nblob=36 refs=1 flags=00 offset=0 packed=0 part=0 hash=edb74e193640b7c13630992832855f11c6cbf71b\nblob=3200 refs=1 flags=00 offset=0 packed=0 part=0 hash=ee5127b6693b13bbef311ec5f553608b0f5f3812\nblob=53515 refs=1 flags=00 offset=0 packed=0 part=0 hash=6e4afbd60d4839b628b4a3eb5f1cb7014187d92f\nblob=8048 refs=1 flags=00 offset=0 packed=0 part=0 hash=6ea1d4262993542c7c5a8f814ca003b02ded5390\nblob=60 refs=1 flags=00 offset=0 packed=0 part=0 hash=ef81509393157a4e7f48e745bb1ccf142f05352b\nblob=1141 refs=1 flags=00 offset=0 packed=0 part=0 hash=f1692720e1967eebd50812a08edf6d6bab386782\nblob=23648 refs=1 flags=00 offset=0 packed=0 part=0 hash=7354375f2f0b1b05aeb0bf3ac417859a379c02f8\nblob=1632 refs=1 flags=00 offset=0 packed=0 part=0 hash=f668676c5323d632ce8fa2ce1ed680663af20d09\nblob=7690 refs=1 flags=00 offset=0 packed=0 part=0 hash=76c11ccee16f0802899ac4b78f98e8773657d400\nblob=426 refs=1 flags=00 offset=0 packed=0 part=0 hash=799cea9b181cca472fbadae09532573b555e587d\nblob=39 refs=1 flags=00 offset=0 packed=0 part=0 hash=fa8e80cef239cc17a5dd89fe6e2e3634ba8283ce\nblob=8253 refs=1 flags=00 offset=0 packed=0 part=0 hash=fb81f1f903301f7bd81ab5318c91b91de0844d2d\nblob=31434 refs=1 flags=00 offset=0 packed=0 part=0 hash=fb1f9a4c6c6914b67e6bce05b908e816bafef816\nblob=1322 refs=1 flags=00 offset=0 packed=0 part=0 hash=7c36bf4e1e17823e284a2f3c99797e8e85d63de2\nblob=3621 refs=1 flags=00 offset=0 packed=0 part=0 hash=7c4aceb9fa64ceaeae055e1c0e2c24d45837f399\nblob=708 refs=1 flags=00 offset=0 packed=0 part=0 hash=7eb315ba59bb182aee9addf3d978670c28b23db4\nblob=3142 refs=1 flags=00 offset=0 packed=0 part=0 hash=ff596fa0680a1126b391036faf9fc6bf9dc0e392\nblob=3825 refs=1 flags=00 offset=0 packed=0 part=0 hash=7f3a3e761999d98eb9282478c6544d8232e99fbf\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true,
+          "verify": {
+            "status": 0,
+            "stderr": "\n[WARNING] \"/tmp/wim-generator-api-3lfrb456/original-0--1-4096.wim\" does not contain integrity information.  Skipping integrity check.\n"
+          }
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nblob=5721 refs=1 flags=00 offset=0 packed=0 part=0 hash=a6ec97c730eb07afcbc065cac98624e65aae8ac7\nblob=8048 refs=1 flags=00 offset=0 packed=0 part=0 hash=6ea1d4262993542c7c5a8f814ca003b02ded5390\nblob=31434 refs=1 flags=00 offset=0 packed=0 part=0 hash=fb1f9a4c6c6914b67e6bce05b908e816bafef816\nblob=2540 refs=1 flags=00 offset=0 packed=0 part=0 hash=26b765cb936dfdb9eb1730c011c6594acea87233\nblob=22808 refs=1 flags=00 offset=0 packed=0 part=0 hash=d91a7073645ede2f68c485407cfee0f979c821cd\nblob=1322 refs=1 flags=00 offset=0 packed=0 part=0 hash=7c36bf4e1e17823e284a2f3c99797e8e85d63de2\nblob=40 refs=1 flags=00 offset=0 packed=0 part=0 hash=33929e099af119869b11a47b973e2ec9b41a5970\nblob=3041 refs=1 flags=00 offset=0 packed=0 part=0 hash=967d88040ecad5db413e9818d1995c5be3372b4b\nblob=549 refs=1 flags=00 offset=0 packed=0 part=0 hash=28b1731467c359e791966d7348b569528f0ffd58\nblob=16070 refs=1 flags=00 offset=0 packed=0 part=0 hash=b49df010f74c615b5a3ccc7fc9df9f435193eac4\nblob=25021 refs=1 flags=00 offset=0 packed=0 part=0 hash=8b3f4dde0356c517d3cde6e231181a260fa96391\nblob=835 refs=1 flags=00 offset=0 packed=0 part=0 hash=e1c6cae20bcc972bdc0d2fdfa6172b4386ac3630\nblob=5601 refs=1 flags=00 offset=0 packed=0 part=0 hash=081c9f7726f64d88e5f960c2de3705a7ced05eb0\nblob=5 refs=1 flags=00 offset=0 packed=0 part=0 hash=943920a4120cf5296f26295e0948515bf975ded6\nblob=28033 refs=1 flags=00 offset=0 packed=0 part=0 hash=4405757eae1c5dc09a144fd89ba9208ee67731fb\nblob=38 refs=1 flags=00 offset=0 packed=0 part=0 hash=0e4387993a6196b206e739b5cecd4d0716b715ed\nblob=8253 refs=1 flags=00 offset=0 packed=0 part=0 hash=fb81f1f903301f7bd81ab5318c91b91de0844d2d\nblob=123180 refs=1 flags=00 offset=0 packed=0 part=0 hash=975c74f0394709a7e042ddab9f1a66fce7e69c15\nblob=60 refs=1 flags=00 offset=0 packed=0 part=0 hash=3c339bebe5d66090bb222474a384d5980e7c2351\nblob=19984 refs=1 flags=00 offset=0 packed=0 part=0 hash=8f66f9003ac4e8eeb52ff70a454217254fb93f1f\nblob=13307 refs=1 flags=00 offset=0 packed=0 part=0 hash=c67accd58a6345e78450012233cd018cbd849e0d\nblob=59440 refs=1 flags=00 offset=0 packed=0 part=0 hash=53841acfb0a176ef4206b399de007879a979e696\nblob=118450 refs=1 flags=00 offset=0 packed=0 part=0 hash=a9b1d1ef87a4c931f526aee29cb01cafd8fa553c\nblob=11047 refs=1 flags=00 offset=0 packed=0 part=0 hash=60492646e4e0ea19f37843ec983778cfe8cc5910\nblob=106 refs=1 flags=00 offset=0 packed=0 part=0 hash=d936259184aa3c399219fe9fec874d21727aa8cc\nblob=1065 refs=1 flags=00 offset=0 packed=0 part=0 hash=603a6f2b1697a1589eb98a4d28c6e44c8f7e18b0\nblob=5944 refs=1 flags=00 offset=0 packed=0 part=0 hash=80566f542e4e4b3375ad4e28bbd2d0046d2da195\nblob=1692 refs=1 flags=00 offset=0 packed=0 part=0 hash=c3a09c161a5ac2ad5d4fcf8e8b8a8b02b56c3542\nblob=3200 refs=1 flags=00 offset=0 packed=0 part=0 hash=ee5127b6693b13bbef311ec5f553608b0f5f3812\nblob=3464 refs=2 flags=00 offset=0 packed=0 part=0 hash=102b8d918a62f0f07ffa465f763cef070dacdbcb\nblob=608 refs=1 flags=00 offset=0 packed=0 part=0 hash=9132c0d3862b3d20b7058943ad515484bb483c8e\nblob=138361 refs=1 flags=00 offset=0 packed=0 part=0 hash=4ee8043293d68687341ac24d2b12cf0b3dc7f2b4\nblob=1575 refs=1 flags=00 offset=0 packed=0 part=0 hash=161f16583270d8b5205df4dbf8778f1a255d7008\nblob=2177 refs=1 flags=00 offset=0 packed=0 part=0 hash=aa121d40876fde9c111144f6fb2be7bb93d8f63e\nblob=2172 refs=1 flags=00 offset=0 packed=0 part=0 hash=566bd3404dd1c0afc52541cf62fef6886082920a\nblob=50 refs=1 flags=00 offset=0 packed=0 part=0 hash=48d634cfcbf63bcd81cb68ef5df0b9483281b1e9\nblob=1107 refs=1 flags=00 offset=0 packed=0 part=0 hash=eb1e7fd64d84ba6e94c29a831beed3fa19e11c60\nblob=22 refs=1 flags=00 offset=0 packed=0 part=0 hash=250ca0f06742d23cbb2fd43b6ad0897fd9425dab\nblob=26244 refs=1 flags=00 offset=0 packed=0 part=0 hash=1e92d6154adcc94788eb51c34ce5e5150e0540d5\nblob=23804 refs=1 flags=00 offset=0 packed=0 part=0 hash=35c5841a36b00ede20b537dee6bf9302a5655f33\nblob=2053 refs=1 flags=00 offset=0 packed=0 part=0 hash=3bf996954966a719b27b8db188a4ecb4eb14a10f\nblob=363 refs=1 flags=00 offset=0 packed=0 part=0 hash=37d1b9ceaf1fb4b7146563ff801114234ec90ac3\nblob=3825 refs=1 flags=00 offset=0 packed=0 part=0 hash=7f3a3e761999d98eb9282478c6544d8232e99fbf\nblob=149185 refs=1 flags=00 offset=0 packed=0 part=0 hash=9c3afd96d66cda33c10b57cd514bb60a1012da04\nblob=23763 refs=1 flags=00 offset=0 packed=0 part=0 hash=6a0d3c42379d2e48fd05fec7a6119956c1c23126\nblob=3589 refs=1 flags=00 offset=0 packed=0 part=0 hash=03c3419abb1a20da516b920d727efd3ae6addd1e\nblob=1 refs=1 flags=00 offset=0 packed=0 part=0 hash=10687feb9716c9502d9a40fdfe3bb339055c8651\nblob=540 refs=1 flags=00 offset=0 packed=0 part=0 hash=829a69d68aa1f42567109d75f6812dfcf64df9d5\nblob=7690 refs=1 flags=00 offset=0 packed=0 part=0 hash=76c11ccee16f0802899ac4b78f98e8773657d400\nblob=1235 refs=1 flags=00 offset=0 packed=0 part=0 hash=01e22903e6dd5dd499a642f677d96fa037bafb7f\nblob=3143 refs=1 flags=00 offset=0 packed=0 part=0 hash=6981ea589941474a59e84bb38e2cfcf75e7330f3\nblob=2569 refs=1 flags=00 offset=0 packed=0 part=0 hash=e32259786df8132d07aaa245040d7ff29320dcec\nblob=23324 refs=1 flags=00 offset=0 packed=0 part=0 hash=8db2fcfaad37c150b04539be38fd8b38c78cf95a\nblob=3057 refs=1 flags=00 offset=0 packed=0 part=0 hash=25db55695d0bd7e18cae463a7c3aea15d52614dd\nblob=686 refs=1 flags=00 offset=0 packed=0 part=0 hash=348037b2223814e10e3cfc353f7d6e00e58f9093\nblob=46 refs=1 flags=00 offset=0 packed=0 part=0 hash=3abf15b5c13ff1b5233eacb8fff0491201cca59c\nblob=12093 refs=1 flags=00 offset=0 packed=0 part=0 hash=a81fcf478be90c8d201a022f3a4d8b4e8ad322f0\nblob=509 refs=1 flags=00 offset=0 packed=0 part=0 hash=45dbaf1b73616df03d6404e0ed447da2c4c932cb\nblob=1632 refs=1 flags=00 offset=0 packed=0 part=0 hash=f668676c5323d632ce8fa2ce1ed680663af20d09\nblob=137341 refs=1 flags=00 offset=0 packed=0 part=0 hash=15c1aa2c6d6bc51dda916d29795204c64d7e2f09\nblob=708 refs=1 flags=00 offset=0 packed=0 part=0 hash=7eb315ba59bb182aee9addf3d978670c28b23db4\nblob=13186 refs=1 flags=00 offset=0 packed=0 part=0 hash=5caadc0351686ec466bca5f10968ce341b18937e\nblob=9100 refs=1 flags=00 offset=0 packed=0 part=0 hash=21147233729c5f60089e41dec8c07c62da242784\nblob=29688 refs=1 flags=00 offset=0 packed=0 part=0 hash=2d48bfb36249f93ffeeef7e49640b14b0c5c801a\nblob=2326 refs=1 flags=00 offset=0 packed=0 part=0 hash=83b51b658efd6281a0f1bfe8e3985dac206d8435\nblob=60 refs=1 flags=00 offset=0 packed=0 part=0 hash=d9880b6af8b2bf86fc6a5d9dfd930c39d58ec6ee\nblob=3621 refs=1 flags=00 offset=0 packed=0 part=0 hash=7c4aceb9fa64ceaeae055e1c0e2c24d45837f399\nblob=543 refs=1 flags=00 offset=0 packed=0 part=0 hash=bd9053fea93c64aa6eb394f5e0e237d78df5e532\nblob=426 refs=1 flags=00 offset=0 packed=0 part=0 hash=799cea9b181cca472fbadae09532573b555e587d\nblob=2909 refs=2 flags=00 offset=0 packed=0 part=0 hash=165c2a245397801bc96b18740d37a3282b9a9187\nblob=60 refs=1 flags=00 offset=0 packed=0 part=0 hash=ef81509393157a4e7f48e745bb1ccf142f05352b\nblob=25806 refs=1 flags=00 offset=0 packed=0 part=0 hash=020fb93d7c747bbad6e5a86140089f9af0cac97b\nblob=9398 refs=1 flags=00 offset=0 packed=0 part=0 hash=0ee54ceb49cec2beb583d5c1cd69b1111f37aefc\nblob=781 refs=1 flags=00 offset=0 packed=0 part=0 hash=032f1b761a26b1d7662e6b0a5a8194b70bd10a4f\nblob=23372 refs=1 flags=00 offset=0 packed=0 part=0 hash=9f6dd038e345bba0d6209ad7c9358e2f58e49a35\nblob=214945 refs=1 flags=00 offset=0 packed=0 part=0 hash=90d646f77fd10eb7d8414ddca722d4851c3a47f5\nblob=2677 refs=1 flags=00 offset=0 packed=0 part=0 hash=1f0740753da6d4b66a9f4543f3f10a9c04cbcce4\nblob=260732 refs=1 flags=00 offset=0 packed=0 part=0 hash=9d8002c20d8381e18d9bfe0753b6591bcd1f6717\nblob=1141 refs=1 flags=00 offset=0 packed=0 part=0 hash=f1692720e1967eebd50812a08edf6d6bab386782\nblob=1390 refs=1 flags=00 offset=0 packed=0 part=0 hash=0938bbbf594fe38fe0f1bb34e924e69abfe3a1e9\nblob=130205 refs=1 flags=00 offset=0 packed=0 part=0 hash=01848d180e450833e3b1445af5c7a663a28ab4b7\nblob=287 refs=1 flags=00 offset=0 packed=0 part=0 hash=6ba8980871c828535c0d999252fb4e81b0c327fc\nblob=2455 refs=1 flags=00 offset=0 packed=0 part=0 hash=85fc74c0e91aaf43f2b0a1aceb13c0fcb89a6be6\nblob=2808 refs=1 flags=00 offset=0 packed=0 part=0 hash=437431dddca2f16d708128f1bf6aca15e13dc2fa\nblob=2769 refs=1 flags=00 offset=0 packed=0 part=0 hash=bbd3833cd4161beedd67918be72e0831f16a277f\nblob=50013 refs=1 flags=00 offset=0 packed=0 part=0 hash=d9bbf85759978ad7d124e465efe859d2cdf3278d\nblob=72 refs=1 flags=00 offset=0 packed=0 part=0 hash=c8b0b2d0b800d8bb9f7f023684ddbb7c83cca26c\nblob=3098 refs=1 flags=00 offset=0 packed=0 part=0 hash=5dc209f8eb1edd43493c4a08f6ba23010604b371\nblob=11 refs=1 flags=00 offset=0 packed=0 part=0 hash=3fa2181e542db26dbebce9b34cdebd1aba84fd21\nblob=22 refs=1 flags=00 offset=0 packed=0 part=0 hash=0ed5b4624b031bae7d85a9d771a2b14176260f02\nblob=14512 refs=1 flags=00 offset=0 packed=0 part=0 hash=d6f71ebbd4e17f183265263c4d61860b8b6e64b6\nblob=172245 refs=1 flags=00 offset=0 packed=0 part=0 hash=0a7ddacd0a5d9da5c11449f67f6f1d534f61cdff\nblob=27363 refs=1 flags=00 offset=0 packed=0 part=0 hash=5d59ccb2fce1c0a6773d7c1845f1ceeb9e724d17\nblob=2934 refs=1 flags=00 offset=0 packed=0 part=0 hash=3e0cd5e0df25a7f70a543492fdeba238684aa26b\nblob=29017 refs=2 flags=00 offset=0 packed=0 part=0 hash=0dd7039328ea9a4ce4ee9c4d103d16df999f1134\nblob=163555 refs=1 flags=00 offset=0 packed=0 part=0 hash=455c36ad8625a6184b0f150d890938f3ef1f2639\nblob=2152 refs=1 flags=00 offset=0 packed=0 part=0 hash=ec3e3ae61244076f464be61e0821c2d411f2d65d\nblob=3691 refs=1 flags=00 offset=0 packed=0 part=0 hash=aa7d145b4d14f557221794434c44c06e285f499f\nblob=23386 refs=1 flags=00 offset=0 packed=0 part=0 hash=5fe9645277e028776daf61b1264c6cd052498b0c\nblob=5 refs=1 flags=00 offset=0 packed=0 part=0 hash=6716a1703aa2572ee2960c5f2d6cb78bee20746f\nblob=1513 refs=1 flags=00 offset=0 packed=0 part=0 hash=b211ad56f0877edbca8eb928e9900b94073e4663\nblob=25821 refs=1 flags=00 offset=0 packed=0 part=0 hash=918b5c5143ea066929f62d7624fe9615ada1cea5\nblob=2808 refs=1 flags=00 offset=0 packed=0 part=0 hash=1ee056105c727ac400e3282fd8bc973e4b4f27e3\nblob=3142 refs=1 flags=00 offset=0 packed=0 part=0 hash=ff596fa0680a1126b391036faf9fc6bf9dc0e392\nblob=245889 refs=1 flags=00 offset=0 packed=0 part=0 hash=b5d253512bd2deb55486691c5a507d8975320cf0\nblob=10479 refs=1 flags=00 offset=0 packed=0 part=0 hash=13a7831cf2553216db8c65026771edf67158240f\nblob=157623 refs=1 flags=00 offset=0 packed=0 part=0 hash=9e27d86d7b8bd7d43a6c6f06d6d8eded261fc377\nblob=39 refs=1 flags=00 offset=0 packed=0 part=0 hash=fa8e80cef239cc17a5dd89fe6e2e3634ba8283ce\nblob=24493 refs=1 flags=00 offset=0 packed=0 part=0 hash=27c252f9b31919df33b3bbab3e74b66eabea91b6\nblob=1204 refs=1 flags=00 offset=0 packed=0 part=0 hash=be155c0ca905ab9ff678814fe6316e6aba084e52\nblob=29830 refs=1 flags=00 offset=0 packed=0 part=0 hash=c207a269600e381dab551c2ba92205d867c479d7\nblob=17219 refs=1 flags=00 offset=0 packed=0 part=0 hash=8ce4b8d5807c8812635b9755607382c563075682\nblob=1728 refs=1 flags=00 offset=0 packed=0 part=0 hash=bf5100262062feeca23b55d10082014f737df281\nblob=99311 refs=1 flags=00 offset=0 packed=0 part=0 hash=543ea27785ff64211d609799548fdbe89bff40ef\nblob=7941 refs=1 flags=00 offset=0 packed=0 part=0 hash=db730618be2287108adc8847a75f725d17f0da8f\nblob=53515 refs=1 flags=00 offset=0 packed=0 part=0 hash=6e4afbd60d4839b628b4a3eb5f1cb7014187d92f\nblob=23648 refs=1 flags=00 offset=0 packed=0 part=0 hash=7354375f2f0b1b05aeb0bf3ac417859a379c02f8\nblob=36 refs=1 flags=00 offset=0 packed=0 part=0 hash=edb74e193640b7c13630992832855f11c6cbf71b\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true,
+          "verify": {
+            "status": 0,
+            "stderr": "\n[WARNING] \"/tmp/wim-generator-api-3lfrb456/native-0--1-4096.wim\" does not contain integrity information.  Skipping integrity check.\n"
+          }
+        }
+      },
+      "exact": false,
+      "original_graph_comparison": {
+        "status": 0,
+        "stdout": "open=0,0\ncompare=0\n",
+        "stderr": ""
+      }
+    },
+    {
+      "seed": 0,
+      "stop": 9,
+      "flags": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        }
+      },
+      "exact": true,
+      "original_graph_comparison": null
+    },
+    {
+      "seed": 0,
+      "stop": 9,
+      "flags": 4,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        }
+      },
+      "exact": true,
+      "original_graph_comparison": null
+    },
+    {
+      "seed": 0,
+      "stop": 9,
+      "flags": 4096,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        }
+      },
+      "exact": true,
+      "original_graph_comparison": null
+    },
+    {
+      "seed": 0,
+      "stop": 11,
+      "flags": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        }
+      },
+      "exact": true,
+      "original_graph_comparison": null
+    },
+    {
+      "seed": 0,
+      "stop": 11,
+      "flags": 4,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        }
+      },
+      "exact": true,
+      "original_graph_comparison": null
+    },
+    {
+      "seed": 0,
+      "stop": 11,
+      "flags": 4096,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        }
+      },
+      "exact": true,
+      "original_graph_comparison": null
+    },
+    {
+      "seed": 1,
+      "stop": -1,
+      "flags": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true,
+          "verify": {
+            "status": 0,
+            "stderr": "\n[WARNING] \"/tmp/wim-generator-api-3lfrb456/original-1--1-0.wim\" does not contain integrity information.  Skipping integrity check.\n"
+          }
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true,
+          "verify": {
+            "status": 0,
+            "stderr": "\n[WARNING] \"/tmp/wim-generator-api-3lfrb456/native-1--1-0.wim\" does not contain integrity information.  Skipping integrity check.\n"
+          }
+        }
+      },
+      "exact": false,
+      "original_graph_comparison": {
+        "status": 0,
+        "stdout": "open=0,0\ncompare=0\n",
+        "stderr": ""
+      }
+    },
+    {
+      "seed": 1,
+      "stop": -1,
+      "flags": 4,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true,
+          "verify": {
+            "status": 0,
+            "stderr": "\n[WARNING] \"/tmp/wim-generator-api-3lfrb456/original-1--1-4.wim\" does not contain integrity information.  Skipping integrity check.\n"
+          }
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true,
+          "verify": {
+            "status": 0,
+            "stderr": "\n[WARNING] \"/tmp/wim-generator-api-3lfrb456/native-1--1-4.wim\" does not contain integrity information.  Skipping integrity check.\n"
+          }
+        }
+      },
+      "exact": false,
+      "original_graph_comparison": {
+        "status": 0,
+        "stdout": "open=0,0\ncompare=0\n",
+        "stderr": ""
+      }
+    },
+    {
+      "seed": 1,
+      "stop": -1,
+      "flags": 4096,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true,
+          "verify": {
+            "status": 0,
+            "stderr": "\n[WARNING] \"/tmp/wim-generator-api-3lfrb456/original-1--1-4096.wim\" does not contain integrity information.  Skipping integrity check.\n"
+          }
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true,
+          "verify": {
+            "status": 0,
+            "stderr": "\n[WARNING] \"/tmp/wim-generator-api-3lfrb456/native-1--1-4096.wim\" does not contain integrity information.  Skipping integrity check.\n"
+          }
+        }
+      },
+      "exact": false,
+      "original_graph_comparison": {
+        "status": 0,
+        "stdout": "open=0,0\ncompare=0\n",
+        "stderr": ""
+      }
+    },
+    {
+      "seed": 1,
+      "stop": 9,
+      "flags": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        }
+      },
+      "exact": true,
+      "original_graph_comparison": null
+    },
+    {
+      "seed": 1,
+      "stop": 9,
+      "flags": 4,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        }
+      },
+      "exact": true,
+      "original_graph_comparison": null
+    },
+    {
+      "seed": 1,
+      "stop": 9,
+      "flags": 4096,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        }
+      },
+      "exact": true,
+      "original_graph_comparison": null
+    },
+    {
+      "seed": 1,
+      "stop": 11,
+      "flags": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        }
+      },
+      "exact": true,
+      "original_graph_comparison": null
+    },
+    {
+      "seed": 1,
+      "stop": 11,
+      "flags": 4,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        }
+      },
+      "exact": true,
+      "original_graph_comparison": null
+    },
+    {
+      "seed": 1,
+      "stop": 11,
+      "flags": 4096,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        }
+      },
+      "exact": true,
+      "original_graph_comparison": null
+    },
+    {
+      "seed": 2,
+      "stop": -1,
+      "flags": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true,
+          "verify": {
+            "status": 0,
+            "stderr": "\n[WARNING] \"/tmp/wim-generator-api-3lfrb456/original-2--1-0.wim\" does not contain integrity information.  Skipping integrity check.\n"
+          }
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true,
+          "verify": {
+            "status": 0,
+            "stderr": "\n[WARNING] \"/tmp/wim-generator-api-3lfrb456/native-2--1-0.wim\" does not contain integrity information.  Skipping integrity check.\n"
+          }
+        }
+      },
+      "exact": false,
+      "original_graph_comparison": {
+        "status": 0,
+        "stdout": "open=0,0\ncompare=0\n",
+        "stderr": ""
+      }
+    },
+    {
+      "seed": 2,
+      "stop": -1,
+      "flags": 4,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true,
+          "verify": {
+            "status": 0,
+            "stderr": "\n[WARNING] \"/tmp/wim-generator-api-3lfrb456/original-2--1-4.wim\" does not contain integrity information.  Skipping integrity check.\n"
+          }
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true,
+          "verify": {
+            "status": 0,
+            "stderr": "\n[WARNING] \"/tmp/wim-generator-api-3lfrb456/native-2--1-4.wim\" does not contain integrity information.  Skipping integrity check.\n"
+          }
+        }
+      },
+      "exact": false,
+      "original_graph_comparison": {
+        "status": 0,
+        "stdout": "open=0,0\ncompare=0\n",
+        "stderr": ""
+      }
+    },
+    {
+      "seed": 2,
+      "stop": -1,
+      "flags": 4096,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true,
+          "verify": {
+            "status": 0,
+            "stderr": "\n[WARNING] \"/tmp/wim-generator-api-3lfrb456/original-2--1-4096.wim\" does not contain integrity information.  Skipping integrity check.\n"
+          }
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true,
+          "verify": {
+            "status": 0,
+            "stderr": "\n[WARNING] \"/tmp/wim-generator-api-3lfrb456/native-2--1-4096.wim\" does not contain integrity information.  Skipping integrity check.\n"
+          }
+        }
+      },
+      "exact": false,
+      "original_graph_comparison": {
+        "status": 0,
+        "stdout": "open=0,0\ncompare=0\n",
+        "stderr": ""
+      }
+    },
+    {
+      "seed": 2,
+      "stop": 9,
+      "flags": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        }
+      },
+      "exact": true,
+      "original_graph_comparison": null
+    },
+    {
+      "seed": 2,
+      "stop": 9,
+      "flags": 4,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        }
+      },
+      "exact": true,
+      "original_graph_comparison": null
+    },
+    {
+      "seed": 2,
+      "stop": 9,
+      "flags": 4096,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        }
+      },
+      "exact": true,
+      "original_graph_comparison": null
+    },
+    {
+      "seed": 2,
+      "stop": 11,
+      "flags": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        }
+      },
+      "exact": true,
+      "original_graph_comparison": null
+    },
+    {
+      "seed": 2,
+      "stop": 11,
+      "flags": 4,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        }
+      },
+      "exact": true,
+      "original_graph_comparison": null
+    },
+    {
+      "seed": 2,
+      "stop": 11,
+      "flags": 4096,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        }
+      },
+      "exact": true,
+      "original_graph_comparison": null
+    },
+    {
+      "seed": 3,
+      "stop": -1,
+      "flags": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nblob=28 refs=1 flags=00 offset=0 packed=0 part=0 hash=45fc5c539f0478f383e62ea10182e7855da32d93\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true,
+          "verify": {
+            "status": 0,
+            "stderr": "\n[WARNING] \"/tmp/wim-generator-api-3lfrb456/original-3--1-0.wim\" does not contain integrity information.  Skipping integrity check.\n"
+          }
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nblob=28 refs=1 flags=00 offset=0 packed=0 part=0 hash=45fc5c539f0478f383e62ea10182e7855da32d93\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true,
+          "verify": {
+            "status": 0,
+            "stderr": "\n[WARNING] \"/tmp/wim-generator-api-3lfrb456/native-3--1-0.wim\" does not contain integrity information.  Skipping integrity check.\n"
+          }
+        }
+      },
+      "exact": false,
+      "original_graph_comparison": {
+        "status": 0,
+        "stdout": "open=0,0\ncompare=0\n",
+        "stderr": ""
+      }
+    },
+    {
+      "seed": 3,
+      "stop": -1,
+      "flags": 4,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nblob=28 refs=1 flags=00 offset=0 packed=0 part=0 hash=45fc5c539f0478f383e62ea10182e7855da32d93\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true,
+          "verify": {
+            "status": 0,
+            "stderr": "\n[WARNING] \"/tmp/wim-generator-api-3lfrb456/original-3--1-4.wim\" does not contain integrity information.  Skipping integrity check.\n"
+          }
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nblob=28 refs=1 flags=00 offset=0 packed=0 part=0 hash=45fc5c539f0478f383e62ea10182e7855da32d93\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true,
+          "verify": {
+            "status": 0,
+            "stderr": "\n[WARNING] \"/tmp/wim-generator-api-3lfrb456/native-3--1-4.wim\" does not contain integrity information.  Skipping integrity check.\n"
+          }
+        }
+      },
+      "exact": false,
+      "original_graph_comparison": {
+        "status": 0,
+        "stdout": "open=0,0\ncompare=0\n",
+        "stderr": ""
+      }
+    },
+    {
+      "seed": 3,
+      "stop": -1,
+      "flags": 4096,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nblob=28 refs=1 flags=00 offset=0 packed=0 part=0 hash=45fc5c539f0478f383e62ea10182e7855da32d93\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true,
+          "verify": {
+            "status": 0,
+            "stderr": "\n[WARNING] \"/tmp/wim-generator-api-3lfrb456/original-3--1-4096.wim\" does not contain integrity information.  Skipping integrity check.\n"
+          }
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nblob=28 refs=1 flags=00 offset=0 packed=0 part=0 hash=45fc5c539f0478f383e62ea10182e7855da32d93\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true,
+          "verify": {
+            "status": 0,
+            "stderr": "\n[WARNING] \"/tmp/wim-generator-api-3lfrb456/native-3--1-4096.wim\" does not contain integrity information.  Skipping integrity check.\n"
+          }
+        }
+      },
+      "exact": false,
+      "original_graph_comparison": {
+        "status": 0,
+        "stdout": "open=0,0\ncompare=0\n",
+        "stderr": ""
+      }
+    },
+    {
+      "seed": 3,
+      "stop": 9,
+      "flags": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        }
+      },
+      "exact": true,
+      "original_graph_comparison": null
+    },
+    {
+      "seed": 3,
+      "stop": 9,
+      "flags": 4,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        }
+      },
+      "exact": true,
+      "original_graph_comparison": null
+    },
+    {
+      "seed": 3,
+      "stop": 9,
+      "flags": 4096,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        }
+      },
+      "exact": true,
+      "original_graph_comparison": null
+    },
+    {
+      "seed": 3,
+      "stop": 11,
+      "flags": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        }
+      },
+      "exact": true,
+      "original_graph_comparison": null
+    },
+    {
+      "seed": 3,
+      "stop": 11,
+      "flags": 4,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        }
+      },
+      "exact": true,
+      "original_graph_comparison": null
+    },
+    {
+      "seed": 3,
+      "stop": 11,
+      "flags": 4096,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        }
+      },
+      "exact": true,
+      "original_graph_comparison": null
+    },
+    {
+      "seed": 4,
+      "stop": -1,
+      "flags": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true,
+          "verify": {
+            "status": 0,
+            "stderr": "\n[WARNING] \"/tmp/wim-generator-api-3lfrb456/original-4--1-0.wim\" does not contain integrity information.  Skipping integrity check.\n"
+          }
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true,
+          "verify": {
+            "status": 0,
+            "stderr": "\n[WARNING] \"/tmp/wim-generator-api-3lfrb456/native-4--1-0.wim\" does not contain integrity information.  Skipping integrity check.\n"
+          }
+        }
+      },
+      "exact": false,
+      "original_graph_comparison": {
+        "status": 0,
+        "stdout": "open=0,0\ncompare=0\n",
+        "stderr": ""
+      }
+    },
+    {
+      "seed": 4,
+      "stop": -1,
+      "flags": 4,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true,
+          "verify": {
+            "status": 0,
+            "stderr": "\n[WARNING] \"/tmp/wim-generator-api-3lfrb456/original-4--1-4.wim\" does not contain integrity information.  Skipping integrity check.\n"
+          }
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true,
+          "verify": {
+            "status": 0,
+            "stderr": "\n[WARNING] \"/tmp/wim-generator-api-3lfrb456/native-4--1-4.wim\" does not contain integrity information.  Skipping integrity check.\n"
+          }
+        }
+      },
+      "exact": false,
+      "original_graph_comparison": {
+        "status": 0,
+        "stdout": "open=0,0\ncompare=0\n",
+        "stderr": ""
+      }
+    },
+    {
+      "seed": 4,
+      "stop": -1,
+      "flags": 4096,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true,
+          "verify": {
+            "status": 0,
+            "stderr": "\n[WARNING] \"/tmp/wim-generator-api-3lfrb456/original-4--1-4096.wim\" does not contain integrity information.  Skipping integrity check.\n"
+          }
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true,
+          "verify": {
+            "status": 0,
+            "stderr": "\n[WARNING] \"/tmp/wim-generator-api-3lfrb456/native-4--1-4096.wim\" does not contain integrity information.  Skipping integrity check.\n"
+          }
+        }
+      },
+      "exact": false,
+      "original_graph_comparison": {
+        "status": 0,
+        "stdout": "open=0,0\ncompare=0\n",
+        "stderr": ""
+      }
+    },
+    {
+      "seed": 4,
+      "stop": 9,
+      "flags": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        }
+      },
+      "exact": true,
+      "original_graph_comparison": null
+    },
+    {
+      "seed": 4,
+      "stop": 9,
+      "flags": 4,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        }
+      },
+      "exact": true,
+      "original_graph_comparison": null
+    },
+    {
+      "seed": 4,
+      "stop": 9,
+      "flags": 4096,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        }
+      },
+      "exact": true,
+      "original_graph_comparison": null
+    },
+    {
+      "seed": 4,
+      "stop": 11,
+      "flags": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        }
+      },
+      "exact": true,
+      "original_graph_comparison": null
+    },
+    {
+      "seed": 4,
+      "stop": 11,
+      "flags": 4,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        }
+      },
+      "exact": true,
+      "original_graph_comparison": null
+    },
+    {
+      "seed": 4,
+      "stop": 11,
+      "flags": 4096,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        }
+      },
+      "exact": true,
+      "original_graph_comparison": null
+    },
+    {
+      "seed": 5,
+      "stop": -1,
+      "flags": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nblob=15526 refs=3 flags=00 offset=0 packed=0 part=0 hash=81ecb5f3c7c2548658400f4d319f421fe5ed2cc2\nblob=165232 refs=1 flags=00 offset=0 packed=0 part=0 hash=0180c68b82c68df56516c9cf92c122606e7a1457\nblob=4010 refs=2 flags=00 offset=0 packed=0 part=0 hash=0292e63649b193232f73ebab6756e4855ecfa5ab\nblob=19062 refs=2 flags=00 offset=0 packed=0 part=0 hash=8397916c45a22571b1d7e804f46caf6650389c50\nblob=80130 refs=1 flags=00 offset=0 packed=0 part=0 hash=033896c59fd388efc6e8dbf69bd2b6cd2f589263\nblob=135487 refs=1 flags=00 offset=0 packed=0 part=0 hash=86fcc6e2e0d65049cba4816701b1feb4732c47a9\nblob=175079 refs=1 flags=00 offset=0 packed=0 part=0 hash=079ee9fde14135b553fc4e01a376588d01f6d8cb\nblob=3093 refs=1 flags=00 offset=0 packed=0 part=0 hash=8ed58140bbad497ec777608cb163929f1a054ea7\nblob=4 refs=1 flags=00 offset=0 packed=0 part=0 hash=10898a5ed5346ee18d6c4c2a703a33e3ce6623f6\nblob=185662 refs=1 flags=00 offset=0 packed=0 part=0 hash=10cf89938afa2757e7b8013038643d8a5fff338c\nblob=53 refs=1 flags=00 offset=0 packed=0 part=0 hash=10956ef8e2badf596735892105ac2943f9b13f00\nblob=1788 refs=1 flags=00 offset=0 packed=0 part=0 hash=917ad4c464e998ab6f7a866b54ad1943021c8643\nblob=31422 refs=1 flags=00 offset=0 packed=0 part=0 hash=95151bb7ab79521e47295a3082ff6973c2307bc5\nblob=206291 refs=1 flags=00 offset=0 packed=0 part=0 hash=176400ca0328f6dda6e3a188d4210ab2ee562658\nblob=2906 refs=1 flags=00 offset=0 packed=0 part=0 hash=19a441a7b14f91b98d9edf9f45415152eb223161\nblob=48 refs=1 flags=00 offset=0 packed=0 part=0 hash=99e50d65ee149f61953ea67e07f36083b7ff098f\nblob=3223 refs=1 flags=00 offset=0 packed=0 part=0 hash=1b90b1e240d95668ae1e39148b3b93e10482c9c6\nblob=26088 refs=1 flags=00 offset=0 packed=0 part=0 hash=1c54b57f8c60cff10bcefec68e7f52acd19d593a\nblob=3007 refs=1 flags=00 offset=0 packed=0 part=0 hash=1c86acc4c5b67912d634918ca8030611a35b8bf9\nblob=410 refs=1 flags=00 offset=0 packed=0 part=0 hash=9f7ddb2a52218fe3cd3b78587a9ff7db98e5b045\nblob=11768 refs=1 flags=00 offset=0 packed=0 part=0 hash=20a81b3b8f1dd1337cf58f7a10447b5cee456e16\nblob=3909 refs=1 flags=00 offset=0 packed=0 part=0 hash=a0035b6f6a1898893d0fcb5c55b89b1c22e888ea\nblob=20 refs=1 flags=00 offset=0 packed=0 part=0 hash=20f1275d680361dff8183a0d9826ed3c7639697d\nblob=625 refs=1 flags=00 offset=0 packed=0 part=0 hash=24b933952f03d203607182e2241160aa48057745\nblob=243 refs=1 flags=00 offset=0 packed=0 part=0 hash=24ff8e439f4cbbfe81b88d4e485a747e6b42401a\nblob=43 refs=1 flags=00 offset=0 packed=0 part=0 hash=a64278b8e21acb85f35500b7d9e2098f2f5a2f4d\nblob=17349 refs=2 flags=00 offset=0 packed=0 part=0 hash=27a4742c1374d48314007b4f569e09dc0713056c\nblob=57219 refs=1 flags=00 offset=0 packed=0 part=0 hash=a7f9e1c03fa60b68855e4c8643e86f1f8b4886f5\nblob=150880 refs=1 flags=00 offset=0 packed=0 part=0 hash=a764f2f8256efa2b714f68b741bd069772641c71\nblob=240703 refs=1 flags=00 offset=0 packed=0 part=0 hash=28b2e29c807d49e505c9551221822861ac6f4a61\nblob=24 refs=1 flags=00 offset=0 packed=0 part=0 hash=a8ef0cb52add1d58a49fd566b264d3fbe01de13f\nblob=31929 refs=1 flags=00 offset=0 packed=0 part=0 hash=a8f659c4ee830bf5caeefdf9744d10af574753c3\nblob=569 refs=2 flags=00 offset=0 packed=0 part=0 hash=28f678404188ef2c5872524de9aa3a1d1af58e77\nblob=50 refs=1 flags=00 offset=0 packed=0 part=0 hash=a922039836829ab3ad1617def30fdd751827abc7\nblob=18267 refs=2 flags=00 offset=0 packed=0 part=0 hash=ab5651496d6a97a436a37bb9bf78951478b8b4d5\nblob=2628 refs=1 flags=00 offset=0 packed=0 part=0 hash=ab4bd97ff7aecc46c708db8e69dacf6931df4279\nblob=1581 refs=1 flags=00 offset=0 packed=0 part=0 hash=acacd67fd13bb4c37ce4d9a99a7da940a62fea40\nblob=142204 refs=2 flags=00 offset=0 packed=0 part=0 hash=2d63ef902258c891dacf5ccb8bb70297b2b4645d\nblob=31717 refs=1 flags=00 offset=0 packed=0 part=0 hash=2d433d43d7d6cfb44aad491992a1c2b32172c643\nblob=5656 refs=1 flags=00 offset=0 packed=0 part=0 hash=b0c8049be465c8675e70896d1960881f34b89d96\nblob=2919 refs=1 flags=00 offset=0 packed=0 part=0 hash=303f3011251246387126fa8eef88f3c8e4e50230\nblob=6144 refs=1 flags=00 offset=0 packed=0 part=0 hash=b3f2ef15389b93aba98169fdd87cd3a7d9f0d350\nblob=907 refs=2 flags=00 offset=0 packed=0 part=0 hash=b46694bbc6533913387205229880537bbff59ad5\nblob=1601 refs=1 flags=00 offset=0 packed=0 part=0 hash=b614f85b7abdc7646b10458126a956be60d865d5\nblob=1837 refs=1 flags=00 offset=0 packed=0 part=0 hash=3958cc2e42b5192dcb4da2be42d7ede5891cefe9\nblob=31862 refs=1 flags=00 offset=0 packed=0 part=0 hash=bf4eb38a2ca981c48aa1f56dc855b3f57ef0e175\nblob=179520 refs=1 flags=00 offset=0 packed=0 part=0 hash=4076053a1782483bd12f7c5b700cf55f99c93709\nblob=2879 refs=1 flags=00 offset=0 packed=0 part=0 hash=401cdfa80668f63819bac932c39041f4d4e706ba\nblob=937 refs=1 flags=00 offset=0 packed=0 part=0 hash=c1c1adfff48feba2bc12e882885a1d3438573a48\nblob=814 refs=1 flags=00 offset=0 packed=0 part=0 hash=c894aa72734ea200ba5e955a593be494aa27b653\nblob=1493 refs=1 flags=00 offset=0 packed=0 part=0 hash=c93456dea4ec72f771030e3280105c7501dabbb4\nblob=30503 refs=1 flags=00 offset=0 packed=0 part=0 hash=ca236e548355fac1aad00d6188eba853c567ae63\nblob=156428 refs=1 flags=00 offset=0 packed=0 part=0 hash=4cc17eb0101b9a203881bcb4df83897f835eff92\nblob=40 refs=1 flags=00 offset=0 packed=0 part=0 hash=4e90dfcdc44a43d89b8f004cfcfebf3daf6dc4f1\nblob=200 refs=1 flags=00 offset=0 packed=0 part=0 hash=cf5a92587de237937eaf8579767c989042b7f3a8\nblob=34234 refs=1 flags=00 offset=0 packed=0 part=0 hash=cf357a94218298f31a053c9f31e180bce8a31bb3\nblob=2936 refs=1 flags=00 offset=0 packed=0 part=0 hash=cfecf73c49d625937b3331050ba0e0029bdcf963\nblob=3510 refs=1 flags=00 offset=0 packed=0 part=0 hash=50c46e1dc4544d6111ab00c128b849112074847e\nblob=2571 refs=1 flags=00 offset=0 packed=0 part=0 hash=52eaa20905a45d31c547e005e922f94277a3fcb9\nblob=29483 refs=1 flags=00 offset=0 packed=0 part=0 hash=d3a846e0f7875c0594f53b139dd331e2e6a7f3ca\nblob=108 refs=1 flags=00 offset=0 packed=0 part=0 hash=d3ff278717f9ceff5c788d9bb22e1dcd0ec17a3e\nblob=13 refs=1 flags=00 offset=0 packed=0 part=0 hash=d4739b81db5bcad534fcd8197407e930247eae43\nblob=261533 refs=1 flags=00 offset=0 packed=0 part=0 hash=d5454ad6ebce1fb9d8f614140969b1db7c23f1c2\nblob=148 refs=1 flags=00 offset=0 packed=0 part=0 hash=d591956dbf469e071e62d646b23557d4a6629ec4\nblob=140750 refs=1 flags=00 offset=0 packed=0 part=0 hash=d65bcc388ca7963b00e99f4b4f5451de610622e1\nblob=25058 refs=1 flags=00 offset=0 packed=0 part=0 hash=57d5674fbffd785c35336882f81cd7764d004702\nblob=2155 refs=1 flags=00 offset=0 packed=0 part=0 hash=577cec4acf32466f92436cdb6f1ad5ad13be7e0a\nblob=107393 refs=1 flags=00 offset=0 packed=0 part=0 hash=d7d72e8ef8ced9c9f7f85ba4486f38b456fb2172\nblob=40 refs=1 flags=00 offset=0 packed=0 part=0 hash=586d2f3c36ef078c9116fb437fba5cf2347cc17e\nblob=64 refs=1 flags=00 offset=0 packed=0 part=0 hash=59811dc2626b1e471bdc88756ce94bb87e91556a\nblob=351 refs=1 flags=00 offset=0 packed=0 part=0 hash=59d7564a38a34e36b5ff2b6cce1e9e3d75e3b653\nblob=3328 refs=1 flags=00 offset=0 packed=0 part=0 hash=daf00d1ca13d298d96a816c7e3ea02e15f5435ac\nblob=35198 refs=1 flags=00 offset=0 packed=0 part=0 hash=da45bd69bc4d3f445836b2e07a0d7cd31335588b\nblob=19 refs=1 flags=00 offset=0 packed=0 part=0 hash=5a686d4e7f4b7ea43b27a525659449fed3f6e2e7\nblob=2271 refs=1 flags=00 offset=0 packed=0 part=0 hash=5bfbfd077733b020147440503c9d397f4b727c4d\nblob=48 refs=1 flags=00 offset=0 packed=0 part=0 hash=5be5e2e7df07415fed3b99668495707b431841ea\nblob=1071 refs=1 flags=00 offset=0 packed=0 part=0 hash=5c463e8935b723bab7f812ac7b15020df509ccf0\nblob=20101 refs=1 flags=00 offset=0 packed=0 part=0 hash=5d5ac3455ff890057341255aec8a71f0ce3c4a80\nblob=104 refs=2 flags=00 offset=0 packed=0 part=0 hash=5f5ead10f5065eeef29486bea284496ed0d3efa5\nblob=52 refs=1 flags=00 offset=0 packed=0 part=0 hash=dfaa3f2becd9047ee8351984ba131be6bcb2c738\nblob=3657 refs=1 flags=00 offset=0 packed=0 part=0 hash=60382f1f3fab9cce6a8a6d9e49a3abf510633e2e\nblob=2889 refs=1 flags=00 offset=0 packed=0 part=0 hash=e14cc38c4bd56cf8d98200e8ea0a83125123197a\nblob=32211 refs=1 flags=00 offset=0 packed=0 part=0 hash=611d571f0ce5607a2c517c6213708eb39c5d7301\nblob=317 refs=1 flags=00 offset=0 packed=0 part=0 hash=e2dfd195d4b51b0f51b6b356601c3f33ed5252a7\nblob=21474 refs=1 flags=00 offset=0 packed=0 part=0 hash=6265c4decd612a853c18203d5a7b1e7eff150382\nblob=28128 refs=1 flags=00 offset=0 packed=0 part=0 hash=e5c5b359fcb3dff9453ce99c0077f547ea55c54c\nblob=6597 refs=1 flags=00 offset=0 packed=0 part=0 hash=6539d85bdeced1b783e044a49d50a041e297fcbd\nblob=5311 refs=1 flags=00 offset=0 packed=0 part=0 hash=e6f1c3e5976dcc377be598027ac7c3dd267fb020\nblob=2816 refs=2 flags=00 offset=0 packed=0 part=0 hash=66b13a53681fc4fa953f68c7e6ed70a25761ba5e\nblob=254258 refs=1 flags=00 offset=0 packed=0 part=0 hash=6887cda46b45c7d6f394dc9b835aa1814c9d0001\nblob=27533 refs=1 flags=00 offset=0 packed=0 part=0 hash=ec2b48cbaf6525055a725841b729b3eba62096d8\nblob=17215 refs=1 flags=00 offset=0 packed=0 part=0 hash=eeeacc8171c41709a8cf4e1f08fa1ae1a084d278\nblob=18087 refs=1 flags=00 offset=0 packed=0 part=0 hash=efc4e9eaedbeead8ce253cadf4b43bd579fa54d9\nblob=14281 refs=1 flags=00 offset=0 packed=0 part=0 hash=ef7256b5266d7435d4354a429538607ffadc442c\nblob=80 refs=1 flags=00 offset=0 packed=0 part=0 hash=f2c1e005eb1cad719d3e6946cec783f659b95816\nblob=2519 refs=1 flags=00 offset=0 packed=0 part=0 hash=f8b8c53369fc9699845d01b4c3bed3cc9c953a9b\nblob=3279 refs=1 flags=00 offset=0 packed=0 part=0 hash=79805d88af643ff8240cc370a9813515f984f985\nblob=19365 refs=2 flags=00 offset=0 packed=0 part=0 hash=79a3dd79ca707871c7834e4e39078947abd150fc\nblob=23055 refs=1 flags=00 offset=0 packed=0 part=0 hash=7bb51a1d968cb66db0bb4c6d6561ebe67310da67\nblob=23777 refs=1 flags=00 offset=0 packed=0 part=0 hash=7c7f316299418bbb6890f44652f0ad38c2e6b8c5\nblob=32 refs=1 flags=00 offset=0 packed=0 part=0 hash=7cf745d3133cb42fc4fd080dc0e915494cee2441\nblob=16079 refs=1 flags=00 offset=0 packed=0 part=0 hash=fdd7e64acc099781bd76fd6aeca74ab0dab417f9\nblob=104 refs=1 flags=00 offset=0 packed=0 part=0 hash=ffac534bd6b10adb7f72174c181fc3161eeae41f\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true,
+          "verify": {
+            "status": 0,
+            "stderr": "\n[WARNING] \"/tmp/wim-generator-api-3lfrb456/original-5--1-0.wim\" does not contain integrity information.  Skipping integrity check.\n"
+          }
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nblob=19365 refs=2 flags=00 offset=0 packed=0 part=0 hash=79a3dd79ca707871c7834e4e39078947abd150fc\nblob=3279 refs=1 flags=00 offset=0 packed=0 part=0 hash=79805d88af643ff8240cc370a9813515f984f985\nblob=175079 refs=1 flags=00 offset=0 packed=0 part=0 hash=079ee9fde14135b553fc4e01a376588d01f6d8cb\nblob=13 refs=1 flags=00 offset=0 packed=0 part=0 hash=d4739b81db5bcad534fcd8197407e930247eae43\nblob=6597 refs=1 flags=00 offset=0 packed=0 part=0 hash=6539d85bdeced1b783e044a49d50a041e297fcbd\nblob=4 refs=1 flags=00 offset=0 packed=0 part=0 hash=10898a5ed5346ee18d6c4c2a703a33e3ce6623f6\nblob=18087 refs=1 flags=00 offset=0 packed=0 part=0 hash=efc4e9eaedbeead8ce253cadf4b43bd579fa54d9\nblob=32211 refs=1 flags=00 offset=0 packed=0 part=0 hash=611d571f0ce5607a2c517c6213708eb39c5d7301\nblob=140750 refs=1 flags=00 offset=0 packed=0 part=0 hash=d65bcc388ca7963b00e99f4b4f5451de610622e1\nblob=625 refs=1 flags=00 offset=0 packed=0 part=0 hash=24b933952f03d203607182e2241160aa48057745\nblob=35198 refs=1 flags=00 offset=0 packed=0 part=0 hash=da45bd69bc4d3f445836b2e07a0d7cd31335588b\nblob=18267 refs=2 flags=00 offset=0 packed=0 part=0 hash=ab5651496d6a97a436a37bb9bf78951478b8b4d5\nblob=179520 refs=1 flags=00 offset=0 packed=0 part=0 hash=4076053a1782483bd12f7c5b700cf55f99c93709\nblob=31929 refs=1 flags=00 offset=0 packed=0 part=0 hash=a8f659c4ee830bf5caeefdf9744d10af574753c3\nblob=40 refs=1 flags=00 offset=0 packed=0 part=0 hash=4e90dfcdc44a43d89b8f004cfcfebf3daf6dc4f1\nblob=11768 refs=1 flags=00 offset=0 packed=0 part=0 hash=20a81b3b8f1dd1337cf58f7a10447b5cee456e16\nblob=19062 refs=2 flags=00 offset=0 packed=0 part=0 hash=8397916c45a22571b1d7e804f46caf6650389c50\nblob=16079 refs=1 flags=00 offset=0 packed=0 part=0 hash=fdd7e64acc099781bd76fd6aeca74ab0dab417f9\nblob=80 refs=1 flags=00 offset=0 packed=0 part=0 hash=f2c1e005eb1cad719d3e6946cec783f659b95816\nblob=937 refs=1 flags=00 offset=0 packed=0 part=0 hash=c1c1adfff48feba2bc12e882885a1d3438573a48\nblob=20 refs=1 flags=00 offset=0 packed=0 part=0 hash=20f1275d680361dff8183a0d9826ed3c7639697d\nblob=24 refs=1 flags=00 offset=0 packed=0 part=0 hash=a8ef0cb52add1d58a49fd566b264d3fbe01de13f\nblob=156428 refs=1 flags=00 offset=0 packed=0 part=0 hash=4cc17eb0101b9a203881bcb4df83897f835eff92\nblob=3510 refs=1 flags=00 offset=0 packed=0 part=0 hash=50c46e1dc4544d6111ab00c128b849112074847e\nblob=26088 refs=1 flags=00 offset=0 packed=0 part=0 hash=1c54b57f8c60cff10bcefec68e7f52acd19d593a\nblob=4010 refs=2 flags=00 offset=0 packed=0 part=0 hash=0292e63649b193232f73ebab6756e4855ecfa5ab\nblob=50 refs=1 flags=00 offset=0 packed=0 part=0 hash=a922039836829ab3ad1617def30fdd751827abc7\nblob=17215 refs=1 flags=00 offset=0 packed=0 part=0 hash=eeeacc8171c41709a8cf4e1f08fa1ae1a084d278\nblob=2155 refs=1 flags=00 offset=0 packed=0 part=0 hash=577cec4acf32466f92436cdb6f1ad5ad13be7e0a\nblob=32 refs=1 flags=00 offset=0 packed=0 part=0 hash=7cf745d3133cb42fc4fd080dc0e915494cee2441\nblob=2571 refs=1 flags=00 offset=0 packed=0 part=0 hash=52eaa20905a45d31c547e005e922f94277a3fcb9\nblob=2936 refs=1 flags=00 offset=0 packed=0 part=0 hash=cfecf73c49d625937b3331050ba0e0029bdcf963\nblob=31422 refs=1 flags=00 offset=0 packed=0 part=0 hash=95151bb7ab79521e47295a3082ff6973c2307bc5\nblob=31862 refs=1 flags=00 offset=0 packed=0 part=0 hash=bf4eb38a2ca981c48aa1f56dc855b3f57ef0e175\nblob=142204 refs=2 flags=00 offset=0 packed=0 part=0 hash=2d63ef902258c891dacf5ccb8bb70297b2b4645d\nblob=23777 refs=1 flags=00 offset=0 packed=0 part=0 hash=7c7f316299418bbb6890f44652f0ad38c2e6b8c5\nblob=108 refs=1 flags=00 offset=0 packed=0 part=0 hash=d3ff278717f9ceff5c788d9bb22e1dcd0ec17a3e\nblob=1837 refs=1 flags=00 offset=0 packed=0 part=0 hash=3958cc2e42b5192dcb4da2be42d7ede5891cefe9\nblob=31717 refs=1 flags=00 offset=0 packed=0 part=0 hash=2d433d43d7d6cfb44aad491992a1c2b32172c643\nblob=317 refs=1 flags=00 offset=0 packed=0 part=0 hash=e2dfd195d4b51b0f51b6b356601c3f33ed5252a7\nblob=410 refs=1 flags=00 offset=0 packed=0 part=0 hash=9f7ddb2a52218fe3cd3b78587a9ff7db98e5b045\nblob=40 refs=1 flags=00 offset=0 packed=0 part=0 hash=586d2f3c36ef078c9116fb437fba5cf2347cc17e\nblob=2906 refs=1 flags=00 offset=0 packed=0 part=0 hash=19a441a7b14f91b98d9edf9f45415152eb223161\nblob=240703 refs=1 flags=00 offset=0 packed=0 part=0 hash=28b2e29c807d49e505c9551221822861ac6f4a61\nblob=2879 refs=1 flags=00 offset=0 packed=0 part=0 hash=401cdfa80668f63819bac932c39041f4d4e706ba\nblob=3328 refs=1 flags=00 offset=0 packed=0 part=0 hash=daf00d1ca13d298d96a816c7e3ea02e15f5435ac\nblob=107393 refs=1 flags=00 offset=0 packed=0 part=0 hash=d7d72e8ef8ced9c9f7f85ba4486f38b456fb2172\nblob=43 refs=1 flags=00 offset=0 packed=0 part=0 hash=a64278b8e21acb85f35500b7d9e2098f2f5a2f4d\nblob=48 refs=1 flags=00 offset=0 packed=0 part=0 hash=99e50d65ee149f61953ea67e07f36083b7ff098f\nblob=814 refs=1 flags=00 offset=0 packed=0 part=0 hash=c894aa72734ea200ba5e955a593be494aa27b653\nblob=52 refs=1 flags=00 offset=0 packed=0 part=0 hash=dfaa3f2becd9047ee8351984ba131be6bcb2c738\nblob=3093 refs=1 flags=00 offset=0 packed=0 part=0 hash=8ed58140bbad497ec777608cb163929f1a054ea7\nblob=2919 refs=1 flags=00 offset=0 packed=0 part=0 hash=303f3011251246387126fa8eef88f3c8e4e50230\nblob=104 refs=1 flags=00 offset=0 packed=0 part=0 hash=ffac534bd6b10adb7f72174c181fc3161eeae41f\nblob=261533 refs=1 flags=00 offset=0 packed=0 part=0 hash=d5454ad6ebce1fb9d8f614140969b1db7c23f1c2\nblob=21474 refs=1 flags=00 offset=0 packed=0 part=0 hash=6265c4decd612a853c18203d5a7b1e7eff150382\nblob=148 refs=1 flags=00 offset=0 packed=0 part=0 hash=d591956dbf469e071e62d646b23557d4a6629ec4\nblob=206291 refs=1 flags=00 offset=0 packed=0 part=0 hash=176400ca0328f6dda6e3a188d4210ab2ee562658\nblob=5656 refs=1 flags=00 offset=0 packed=0 part=0 hash=b0c8049be465c8675e70896d1960881f34b89d96\nblob=243 refs=1 flags=00 offset=0 packed=0 part=0 hash=24ff8e439f4cbbfe81b88d4e485a747e6b42401a\nblob=29483 refs=1 flags=00 offset=0 packed=0 part=0 hash=d3a846e0f7875c0594f53b139dd331e2e6a7f3ca\nblob=185662 refs=1 flags=00 offset=0 packed=0 part=0 hash=10cf89938afa2757e7b8013038643d8a5fff338c\nblob=25058 refs=1 flags=00 offset=0 packed=0 part=0 hash=57d5674fbffd785c35336882f81cd7764d004702\nblob=3909 refs=1 flags=00 offset=0 packed=0 part=0 hash=a0035b6f6a1898893d0fcb5c55b89b1c22e888ea\nblob=200 refs=1 flags=00 offset=0 packed=0 part=0 hash=cf5a92587de237937eaf8579767c989042b7f3a8\nblob=14281 refs=1 flags=00 offset=0 packed=0 part=0 hash=ef7256b5266d7435d4354a429538607ffadc442c\nblob=80130 refs=1 flags=00 offset=0 packed=0 part=0 hash=033896c59fd388efc6e8dbf69bd2b6cd2f589263\nblob=150880 refs=1 flags=00 offset=0 packed=0 part=0 hash=a764f2f8256efa2b714f68b741bd069772641c71\nblob=64 refs=1 flags=00 offset=0 packed=0 part=0 hash=59811dc2626b1e471bdc88756ce94bb87e91556a\nblob=15526 refs=3 flags=00 offset=0 packed=0 part=0 hash=81ecb5f3c7c2548658400f4d319f421fe5ed2cc2\nblob=2816 refs=2 flags=00 offset=0 packed=0 part=0 hash=66b13a53681fc4fa953f68c7e6ed70a25761ba5e\nblob=254258 refs=1 flags=00 offset=0 packed=0 part=0 hash=6887cda46b45c7d6f394dc9b835aa1814c9d0001\nblob=19 refs=1 flags=00 offset=0 packed=0 part=0 hash=5a686d4e7f4b7ea43b27a525659449fed3f6e2e7\nblob=907 refs=2 flags=00 offset=0 packed=0 part=0 hash=b46694bbc6533913387205229880537bbff59ad5\nblob=57219 refs=1 flags=00 offset=0 packed=0 part=0 hash=a7f9e1c03fa60b68855e4c8643e86f1f8b4886f5\nblob=6144 refs=1 flags=00 offset=0 packed=0 part=0 hash=b3f2ef15389b93aba98169fdd87cd3a7d9f0d350\nblob=28128 refs=1 flags=00 offset=0 packed=0 part=0 hash=e5c5b359fcb3dff9453ce99c0077f547ea55c54c\nblob=2889 refs=1 flags=00 offset=0 packed=0 part=0 hash=e14cc38c4bd56cf8d98200e8ea0a83125123197a\nblob=17349 refs=2 flags=00 offset=0 packed=0 part=0 hash=27a4742c1374d48314007b4f569e09dc0713056c\nblob=30503 refs=1 flags=00 offset=0 packed=0 part=0 hash=ca236e548355fac1aad00d6188eba853c567ae63\nblob=3223 refs=1 flags=00 offset=0 packed=0 part=0 hash=1b90b1e240d95668ae1e39148b3b93e10482c9c6\nblob=3007 refs=1 flags=00 offset=0 packed=0 part=0 hash=1c86acc4c5b67912d634918ca8030611a35b8bf9\nblob=1493 refs=1 flags=00 offset=0 packed=0 part=0 hash=c93456dea4ec72f771030e3280105c7501dabbb4\nblob=104 refs=2 flags=00 offset=0 packed=0 part=0 hash=5f5ead10f5065eeef29486bea284496ed0d3efa5\nblob=135487 refs=1 flags=00 offset=0 packed=0 part=0 hash=86fcc6e2e0d65049cba4816701b1feb4732c47a9\nblob=569 refs=2 flags=00 offset=0 packed=0 part=0 hash=28f678404188ef2c5872524de9aa3a1d1af58e77\nblob=3657 refs=1 flags=00 offset=0 packed=0 part=0 hash=60382f1f3fab9cce6a8a6d9e49a3abf510633e2e\nblob=2271 refs=1 flags=00 offset=0 packed=0 part=0 hash=5bfbfd077733b020147440503c9d397f4b727c4d\nblob=1581 refs=1 flags=00 offset=0 packed=0 part=0 hash=acacd67fd13bb4c37ce4d9a99a7da940a62fea40\nblob=23055 refs=1 flags=00 offset=0 packed=0 part=0 hash=7bb51a1d968cb66db0bb4c6d6561ebe67310da67\nblob=2628 refs=1 flags=00 offset=0 packed=0 part=0 hash=ab4bd97ff7aecc46c708db8e69dacf6931df4279\nblob=27533 refs=1 flags=00 offset=0 packed=0 part=0 hash=ec2b48cbaf6525055a725841b729b3eba62096d8\nblob=53 refs=1 flags=00 offset=0 packed=0 part=0 hash=10956ef8e2badf596735892105ac2943f9b13f00\nblob=165232 refs=1 flags=00 offset=0 packed=0 part=0 hash=0180c68b82c68df56516c9cf92c122606e7a1457\nblob=1071 refs=1 flags=00 offset=0 packed=0 part=0 hash=5c463e8935b723bab7f812ac7b15020df509ccf0\nblob=48 refs=1 flags=00 offset=0 packed=0 part=0 hash=5be5e2e7df07415fed3b99668495707b431841ea\nblob=34234 refs=1 flags=00 offset=0 packed=0 part=0 hash=cf357a94218298f31a053c9f31e180bce8a31bb3\nblob=5311 refs=1 flags=00 offset=0 packed=0 part=0 hash=e6f1c3e5976dcc377be598027ac7c3dd267fb020\nblob=20101 refs=1 flags=00 offset=0 packed=0 part=0 hash=5d5ac3455ff890057341255aec8a71f0ce3c4a80\nblob=2519 refs=1 flags=00 offset=0 packed=0 part=0 hash=f8b8c53369fc9699845d01b4c3bed3cc9c953a9b\nblob=1601 refs=1 flags=00 offset=0 packed=0 part=0 hash=b614f85b7abdc7646b10458126a956be60d865d5\nblob=1788 refs=1 flags=00 offset=0 packed=0 part=0 hash=917ad4c464e998ab6f7a866b54ad1943021c8643\nblob=351 refs=1 flags=00 offset=0 packed=0 part=0 hash=59d7564a38a34e36b5ff2b6cce1e9e3d75e3b653\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true,
+          "verify": {
+            "status": 0,
+            "stderr": "\n[WARNING] \"/tmp/wim-generator-api-3lfrb456/native-5--1-0.wim\" does not contain integrity information.  Skipping integrity check.\n"
+          }
+        }
+      },
+      "exact": false,
+      "original_graph_comparison": {
+        "status": 0,
+        "stdout": "open=0,0\ncompare=0\n",
+        "stderr": ""
+      }
+    },
+    {
+      "seed": 5,
+      "stop": -1,
+      "flags": 4,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nblob=15526 refs=3 flags=00 offset=0 packed=0 part=0 hash=81ecb5f3c7c2548658400f4d319f421fe5ed2cc2\nblob=165232 refs=1 flags=00 offset=0 packed=0 part=0 hash=0180c68b82c68df56516c9cf92c122606e7a1457\nblob=4010 refs=2 flags=00 offset=0 packed=0 part=0 hash=0292e63649b193232f73ebab6756e4855ecfa5ab\nblob=19062 refs=2 flags=00 offset=0 packed=0 part=0 hash=8397916c45a22571b1d7e804f46caf6650389c50\nblob=80130 refs=1 flags=00 offset=0 packed=0 part=0 hash=033896c59fd388efc6e8dbf69bd2b6cd2f589263\nblob=135487 refs=1 flags=00 offset=0 packed=0 part=0 hash=86fcc6e2e0d65049cba4816701b1feb4732c47a9\nblob=175079 refs=1 flags=00 offset=0 packed=0 part=0 hash=079ee9fde14135b553fc4e01a376588d01f6d8cb\nblob=3093 refs=1 flags=00 offset=0 packed=0 part=0 hash=8ed58140bbad497ec777608cb163929f1a054ea7\nblob=4 refs=1 flags=00 offset=0 packed=0 part=0 hash=10898a5ed5346ee18d6c4c2a703a33e3ce6623f6\nblob=185662 refs=1 flags=00 offset=0 packed=0 part=0 hash=10cf89938afa2757e7b8013038643d8a5fff338c\nblob=53 refs=1 flags=00 offset=0 packed=0 part=0 hash=10956ef8e2badf596735892105ac2943f9b13f00\nblob=1788 refs=1 flags=00 offset=0 packed=0 part=0 hash=917ad4c464e998ab6f7a866b54ad1943021c8643\nblob=31422 refs=1 flags=00 offset=0 packed=0 part=0 hash=95151bb7ab79521e47295a3082ff6973c2307bc5\nblob=206291 refs=1 flags=00 offset=0 packed=0 part=0 hash=176400ca0328f6dda6e3a188d4210ab2ee562658\nblob=2906 refs=1 flags=00 offset=0 packed=0 part=0 hash=19a441a7b14f91b98d9edf9f45415152eb223161\nblob=48 refs=1 flags=00 offset=0 packed=0 part=0 hash=99e50d65ee149f61953ea67e07f36083b7ff098f\nblob=3223 refs=1 flags=00 offset=0 packed=0 part=0 hash=1b90b1e240d95668ae1e39148b3b93e10482c9c6\nblob=26088 refs=1 flags=00 offset=0 packed=0 part=0 hash=1c54b57f8c60cff10bcefec68e7f52acd19d593a\nblob=3007 refs=1 flags=00 offset=0 packed=0 part=0 hash=1c86acc4c5b67912d634918ca8030611a35b8bf9\nblob=410 refs=1 flags=00 offset=0 packed=0 part=0 hash=9f7ddb2a52218fe3cd3b78587a9ff7db98e5b045\nblob=11768 refs=1 flags=00 offset=0 packed=0 part=0 hash=20a81b3b8f1dd1337cf58f7a10447b5cee456e16\nblob=3909 refs=1 flags=00 offset=0 packed=0 part=0 hash=a0035b6f6a1898893d0fcb5c55b89b1c22e888ea\nblob=20 refs=1 flags=00 offset=0 packed=0 part=0 hash=20f1275d680361dff8183a0d9826ed3c7639697d\nblob=625 refs=1 flags=00 offset=0 packed=0 part=0 hash=24b933952f03d203607182e2241160aa48057745\nblob=243 refs=1 flags=00 offset=0 packed=0 part=0 hash=24ff8e439f4cbbfe81b88d4e485a747e6b42401a\nblob=43 refs=1 flags=00 offset=0 packed=0 part=0 hash=a64278b8e21acb85f35500b7d9e2098f2f5a2f4d\nblob=17349 refs=2 flags=00 offset=0 packed=0 part=0 hash=27a4742c1374d48314007b4f569e09dc0713056c\nblob=57219 refs=1 flags=00 offset=0 packed=0 part=0 hash=a7f9e1c03fa60b68855e4c8643e86f1f8b4886f5\nblob=150880 refs=1 flags=00 offset=0 packed=0 part=0 hash=a764f2f8256efa2b714f68b741bd069772641c71\nblob=240703 refs=1 flags=00 offset=0 packed=0 part=0 hash=28b2e29c807d49e505c9551221822861ac6f4a61\nblob=24 refs=1 flags=00 offset=0 packed=0 part=0 hash=a8ef0cb52add1d58a49fd566b264d3fbe01de13f\nblob=31929 refs=1 flags=00 offset=0 packed=0 part=0 hash=a8f659c4ee830bf5caeefdf9744d10af574753c3\nblob=569 refs=2 flags=00 offset=0 packed=0 part=0 hash=28f678404188ef2c5872524de9aa3a1d1af58e77\nblob=50 refs=1 flags=00 offset=0 packed=0 part=0 hash=a922039836829ab3ad1617def30fdd751827abc7\nblob=18267 refs=2 flags=00 offset=0 packed=0 part=0 hash=ab5651496d6a97a436a37bb9bf78951478b8b4d5\nblob=2628 refs=1 flags=00 offset=0 packed=0 part=0 hash=ab4bd97ff7aecc46c708db8e69dacf6931df4279\nblob=1581 refs=1 flags=00 offset=0 packed=0 part=0 hash=acacd67fd13bb4c37ce4d9a99a7da940a62fea40\nblob=142204 refs=2 flags=00 offset=0 packed=0 part=0 hash=2d63ef902258c891dacf5ccb8bb70297b2b4645d\nblob=31717 refs=1 flags=00 offset=0 packed=0 part=0 hash=2d433d43d7d6cfb44aad491992a1c2b32172c643\nblob=5656 refs=1 flags=00 offset=0 packed=0 part=0 hash=b0c8049be465c8675e70896d1960881f34b89d96\nblob=2919 refs=1 flags=00 offset=0 packed=0 part=0 hash=303f3011251246387126fa8eef88f3c8e4e50230\nblob=6144 refs=1 flags=00 offset=0 packed=0 part=0 hash=b3f2ef15389b93aba98169fdd87cd3a7d9f0d350\nblob=907 refs=2 flags=00 offset=0 packed=0 part=0 hash=b46694bbc6533913387205229880537bbff59ad5\nblob=1601 refs=1 flags=00 offset=0 packed=0 part=0 hash=b614f85b7abdc7646b10458126a956be60d865d5\nblob=1837 refs=1 flags=00 offset=0 packed=0 part=0 hash=3958cc2e42b5192dcb4da2be42d7ede5891cefe9\nblob=31862 refs=1 flags=00 offset=0 packed=0 part=0 hash=bf4eb38a2ca981c48aa1f56dc855b3f57ef0e175\nblob=179520 refs=1 flags=00 offset=0 packed=0 part=0 hash=4076053a1782483bd12f7c5b700cf55f99c93709\nblob=2879 refs=1 flags=00 offset=0 packed=0 part=0 hash=401cdfa80668f63819bac932c39041f4d4e706ba\nblob=937 refs=1 flags=00 offset=0 packed=0 part=0 hash=c1c1adfff48feba2bc12e882885a1d3438573a48\nblob=814 refs=1 flags=00 offset=0 packed=0 part=0 hash=c894aa72734ea200ba5e955a593be494aa27b653\nblob=1493 refs=1 flags=00 offset=0 packed=0 part=0 hash=c93456dea4ec72f771030e3280105c7501dabbb4\nblob=30503 refs=1 flags=00 offset=0 packed=0 part=0 hash=ca236e548355fac1aad00d6188eba853c567ae63\nblob=156428 refs=1 flags=00 offset=0 packed=0 part=0 hash=4cc17eb0101b9a203881bcb4df83897f835eff92\nblob=40 refs=1 flags=00 offset=0 packed=0 part=0 hash=4e90dfcdc44a43d89b8f004cfcfebf3daf6dc4f1\nblob=200 refs=1 flags=00 offset=0 packed=0 part=0 hash=cf5a92587de237937eaf8579767c989042b7f3a8\nblob=34234 refs=1 flags=00 offset=0 packed=0 part=0 hash=cf357a94218298f31a053c9f31e180bce8a31bb3\nblob=2936 refs=1 flags=00 offset=0 packed=0 part=0 hash=cfecf73c49d625937b3331050ba0e0029bdcf963\nblob=3510 refs=1 flags=00 offset=0 packed=0 part=0 hash=50c46e1dc4544d6111ab00c128b849112074847e\nblob=2571 refs=1 flags=00 offset=0 packed=0 part=0 hash=52eaa20905a45d31c547e005e922f94277a3fcb9\nblob=29483 refs=1 flags=00 offset=0 packed=0 part=0 hash=d3a846e0f7875c0594f53b139dd331e2e6a7f3ca\nblob=108 refs=1 flags=00 offset=0 packed=0 part=0 hash=d3ff278717f9ceff5c788d9bb22e1dcd0ec17a3e\nblob=13 refs=1 flags=00 offset=0 packed=0 part=0 hash=d4739b81db5bcad534fcd8197407e930247eae43\nblob=261533 refs=1 flags=00 offset=0 packed=0 part=0 hash=d5454ad6ebce1fb9d8f614140969b1db7c23f1c2\nblob=148 refs=1 flags=00 offset=0 packed=0 part=0 hash=d591956dbf469e071e62d646b23557d4a6629ec4\nblob=140750 refs=1 flags=00 offset=0 packed=0 part=0 hash=d65bcc388ca7963b00e99f4b4f5451de610622e1\nblob=25058 refs=1 flags=00 offset=0 packed=0 part=0 hash=57d5674fbffd785c35336882f81cd7764d004702\nblob=2155 refs=1 flags=00 offset=0 packed=0 part=0 hash=577cec4acf32466f92436cdb6f1ad5ad13be7e0a\nblob=107393 refs=1 flags=00 offset=0 packed=0 part=0 hash=d7d72e8ef8ced9c9f7f85ba4486f38b456fb2172\nblob=40 refs=1 flags=00 offset=0 packed=0 part=0 hash=586d2f3c36ef078c9116fb437fba5cf2347cc17e\nblob=64 refs=1 flags=00 offset=0 packed=0 part=0 hash=59811dc2626b1e471bdc88756ce94bb87e91556a\nblob=351 refs=1 flags=00 offset=0 packed=0 part=0 hash=59d7564a38a34e36b5ff2b6cce1e9e3d75e3b653\nblob=3328 refs=1 flags=00 offset=0 packed=0 part=0 hash=daf00d1ca13d298d96a816c7e3ea02e15f5435ac\nblob=35198 refs=1 flags=00 offset=0 packed=0 part=0 hash=da45bd69bc4d3f445836b2e07a0d7cd31335588b\nblob=19 refs=1 flags=00 offset=0 packed=0 part=0 hash=5a686d4e7f4b7ea43b27a525659449fed3f6e2e7\nblob=2271 refs=1 flags=00 offset=0 packed=0 part=0 hash=5bfbfd077733b020147440503c9d397f4b727c4d\nblob=48 refs=1 flags=00 offset=0 packed=0 part=0 hash=5be5e2e7df07415fed3b99668495707b431841ea\nblob=1071 refs=1 flags=00 offset=0 packed=0 part=0 hash=5c463e8935b723bab7f812ac7b15020df509ccf0\nblob=20101 refs=1 flags=00 offset=0 packed=0 part=0 hash=5d5ac3455ff890057341255aec8a71f0ce3c4a80\nblob=104 refs=2 flags=00 offset=0 packed=0 part=0 hash=5f5ead10f5065eeef29486bea284496ed0d3efa5\nblob=52 refs=1 flags=00 offset=0 packed=0 part=0 hash=dfaa3f2becd9047ee8351984ba131be6bcb2c738\nblob=3657 refs=1 flags=00 offset=0 packed=0 part=0 hash=60382f1f3fab9cce6a8a6d9e49a3abf510633e2e\nblob=2889 refs=1 flags=00 offset=0 packed=0 part=0 hash=e14cc38c4bd56cf8d98200e8ea0a83125123197a\nblob=32211 refs=1 flags=00 offset=0 packed=0 part=0 hash=611d571f0ce5607a2c517c6213708eb39c5d7301\nblob=317 refs=1 flags=00 offset=0 packed=0 part=0 hash=e2dfd195d4b51b0f51b6b356601c3f33ed5252a7\nblob=21474 refs=1 flags=00 offset=0 packed=0 part=0 hash=6265c4decd612a853c18203d5a7b1e7eff150382\nblob=28128 refs=1 flags=00 offset=0 packed=0 part=0 hash=e5c5b359fcb3dff9453ce99c0077f547ea55c54c\nblob=6597 refs=1 flags=00 offset=0 packed=0 part=0 hash=6539d85bdeced1b783e044a49d50a041e297fcbd\nblob=5311 refs=1 flags=00 offset=0 packed=0 part=0 hash=e6f1c3e5976dcc377be598027ac7c3dd267fb020\nblob=2816 refs=2 flags=00 offset=0 packed=0 part=0 hash=66b13a53681fc4fa953f68c7e6ed70a25761ba5e\nblob=254258 refs=1 flags=00 offset=0 packed=0 part=0 hash=6887cda46b45c7d6f394dc9b835aa1814c9d0001\nblob=27533 refs=1 flags=00 offset=0 packed=0 part=0 hash=ec2b48cbaf6525055a725841b729b3eba62096d8\nblob=17215 refs=1 flags=00 offset=0 packed=0 part=0 hash=eeeacc8171c41709a8cf4e1f08fa1ae1a084d278\nblob=18087 refs=1 flags=00 offset=0 packed=0 part=0 hash=efc4e9eaedbeead8ce253cadf4b43bd579fa54d9\nblob=14281 refs=1 flags=00 offset=0 packed=0 part=0 hash=ef7256b5266d7435d4354a429538607ffadc442c\nblob=80 refs=1 flags=00 offset=0 packed=0 part=0 hash=f2c1e005eb1cad719d3e6946cec783f659b95816\nblob=2519 refs=1 flags=00 offset=0 packed=0 part=0 hash=f8b8c53369fc9699845d01b4c3bed3cc9c953a9b\nblob=3279 refs=1 flags=00 offset=0 packed=0 part=0 hash=79805d88af643ff8240cc370a9813515f984f985\nblob=19365 refs=2 flags=00 offset=0 packed=0 part=0 hash=79a3dd79ca707871c7834e4e39078947abd150fc\nblob=23055 refs=1 flags=00 offset=0 packed=0 part=0 hash=7bb51a1d968cb66db0bb4c6d6561ebe67310da67\nblob=23777 refs=1 flags=00 offset=0 packed=0 part=0 hash=7c7f316299418bbb6890f44652f0ad38c2e6b8c5\nblob=32 refs=1 flags=00 offset=0 packed=0 part=0 hash=7cf745d3133cb42fc4fd080dc0e915494cee2441\nblob=16079 refs=1 flags=00 offset=0 packed=0 part=0 hash=fdd7e64acc099781bd76fd6aeca74ab0dab417f9\nblob=104 refs=1 flags=00 offset=0 packed=0 part=0 hash=ffac534bd6b10adb7f72174c181fc3161eeae41f\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true,
+          "verify": {
+            "status": 0,
+            "stderr": "\n[WARNING] \"/tmp/wim-generator-api-3lfrb456/original-5--1-4.wim\" does not contain integrity information.  Skipping integrity check.\n"
+          }
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nblob=19365 refs=2 flags=00 offset=0 packed=0 part=0 hash=79a3dd79ca707871c7834e4e39078947abd150fc\nblob=3279 refs=1 flags=00 offset=0 packed=0 part=0 hash=79805d88af643ff8240cc370a9813515f984f985\nblob=175079 refs=1 flags=00 offset=0 packed=0 part=0 hash=079ee9fde14135b553fc4e01a376588d01f6d8cb\nblob=13 refs=1 flags=00 offset=0 packed=0 part=0 hash=d4739b81db5bcad534fcd8197407e930247eae43\nblob=6597 refs=1 flags=00 offset=0 packed=0 part=0 hash=6539d85bdeced1b783e044a49d50a041e297fcbd\nblob=4 refs=1 flags=00 offset=0 packed=0 part=0 hash=10898a5ed5346ee18d6c4c2a703a33e3ce6623f6\nblob=18087 refs=1 flags=00 offset=0 packed=0 part=0 hash=efc4e9eaedbeead8ce253cadf4b43bd579fa54d9\nblob=32211 refs=1 flags=00 offset=0 packed=0 part=0 hash=611d571f0ce5607a2c517c6213708eb39c5d7301\nblob=140750 refs=1 flags=00 offset=0 packed=0 part=0 hash=d65bcc388ca7963b00e99f4b4f5451de610622e1\nblob=625 refs=1 flags=00 offset=0 packed=0 part=0 hash=24b933952f03d203607182e2241160aa48057745\nblob=35198 refs=1 flags=00 offset=0 packed=0 part=0 hash=da45bd69bc4d3f445836b2e07a0d7cd31335588b\nblob=18267 refs=2 flags=00 offset=0 packed=0 part=0 hash=ab5651496d6a97a436a37bb9bf78951478b8b4d5\nblob=179520 refs=1 flags=00 offset=0 packed=0 part=0 hash=4076053a1782483bd12f7c5b700cf55f99c93709\nblob=31929 refs=1 flags=00 offset=0 packed=0 part=0 hash=a8f659c4ee830bf5caeefdf9744d10af574753c3\nblob=40 refs=1 flags=00 offset=0 packed=0 part=0 hash=4e90dfcdc44a43d89b8f004cfcfebf3daf6dc4f1\nblob=11768 refs=1 flags=00 offset=0 packed=0 part=0 hash=20a81b3b8f1dd1337cf58f7a10447b5cee456e16\nblob=19062 refs=2 flags=00 offset=0 packed=0 part=0 hash=8397916c45a22571b1d7e804f46caf6650389c50\nblob=16079 refs=1 flags=00 offset=0 packed=0 part=0 hash=fdd7e64acc099781bd76fd6aeca74ab0dab417f9\nblob=80 refs=1 flags=00 offset=0 packed=0 part=0 hash=f2c1e005eb1cad719d3e6946cec783f659b95816\nblob=937 refs=1 flags=00 offset=0 packed=0 part=0 hash=c1c1adfff48feba2bc12e882885a1d3438573a48\nblob=20 refs=1 flags=00 offset=0 packed=0 part=0 hash=20f1275d680361dff8183a0d9826ed3c7639697d\nblob=24 refs=1 flags=00 offset=0 packed=0 part=0 hash=a8ef0cb52add1d58a49fd566b264d3fbe01de13f\nblob=156428 refs=1 flags=00 offset=0 packed=0 part=0 hash=4cc17eb0101b9a203881bcb4df83897f835eff92\nblob=3510 refs=1 flags=00 offset=0 packed=0 part=0 hash=50c46e1dc4544d6111ab00c128b849112074847e\nblob=26088 refs=1 flags=00 offset=0 packed=0 part=0 hash=1c54b57f8c60cff10bcefec68e7f52acd19d593a\nblob=4010 refs=2 flags=00 offset=0 packed=0 part=0 hash=0292e63649b193232f73ebab6756e4855ecfa5ab\nblob=50 refs=1 flags=00 offset=0 packed=0 part=0 hash=a922039836829ab3ad1617def30fdd751827abc7\nblob=17215 refs=1 flags=00 offset=0 packed=0 part=0 hash=eeeacc8171c41709a8cf4e1f08fa1ae1a084d278\nblob=2155 refs=1 flags=00 offset=0 packed=0 part=0 hash=577cec4acf32466f92436cdb6f1ad5ad13be7e0a\nblob=32 refs=1 flags=00 offset=0 packed=0 part=0 hash=7cf745d3133cb42fc4fd080dc0e915494cee2441\nblob=2571 refs=1 flags=00 offset=0 packed=0 part=0 hash=52eaa20905a45d31c547e005e922f94277a3fcb9\nblob=2936 refs=1 flags=00 offset=0 packed=0 part=0 hash=cfecf73c49d625937b3331050ba0e0029bdcf963\nblob=31422 refs=1 flags=00 offset=0 packed=0 part=0 hash=95151bb7ab79521e47295a3082ff6973c2307bc5\nblob=31862 refs=1 flags=00 offset=0 packed=0 part=0 hash=bf4eb38a2ca981c48aa1f56dc855b3f57ef0e175\nblob=142204 refs=2 flags=00 offset=0 packed=0 part=0 hash=2d63ef902258c891dacf5ccb8bb70297b2b4645d\nblob=23777 refs=1 flags=00 offset=0 packed=0 part=0 hash=7c7f316299418bbb6890f44652f0ad38c2e6b8c5\nblob=108 refs=1 flags=00 offset=0 packed=0 part=0 hash=d3ff278717f9ceff5c788d9bb22e1dcd0ec17a3e\nblob=1837 refs=1 flags=00 offset=0 packed=0 part=0 hash=3958cc2e42b5192dcb4da2be42d7ede5891cefe9\nblob=31717 refs=1 flags=00 offset=0 packed=0 part=0 hash=2d433d43d7d6cfb44aad491992a1c2b32172c643\nblob=317 refs=1 flags=00 offset=0 packed=0 part=0 hash=e2dfd195d4b51b0f51b6b356601c3f33ed5252a7\nblob=410 refs=1 flags=00 offset=0 packed=0 part=0 hash=9f7ddb2a52218fe3cd3b78587a9ff7db98e5b045\nblob=40 refs=1 flags=00 offset=0 packed=0 part=0 hash=586d2f3c36ef078c9116fb437fba5cf2347cc17e\nblob=2906 refs=1 flags=00 offset=0 packed=0 part=0 hash=19a441a7b14f91b98d9edf9f45415152eb223161\nblob=240703 refs=1 flags=00 offset=0 packed=0 part=0 hash=28b2e29c807d49e505c9551221822861ac6f4a61\nblob=2879 refs=1 flags=00 offset=0 packed=0 part=0 hash=401cdfa80668f63819bac932c39041f4d4e706ba\nblob=3328 refs=1 flags=00 offset=0 packed=0 part=0 hash=daf00d1ca13d298d96a816c7e3ea02e15f5435ac\nblob=107393 refs=1 flags=00 offset=0 packed=0 part=0 hash=d7d72e8ef8ced9c9f7f85ba4486f38b456fb2172\nblob=43 refs=1 flags=00 offset=0 packed=0 part=0 hash=a64278b8e21acb85f35500b7d9e2098f2f5a2f4d\nblob=48 refs=1 flags=00 offset=0 packed=0 part=0 hash=99e50d65ee149f61953ea67e07f36083b7ff098f\nblob=814 refs=1 flags=00 offset=0 packed=0 part=0 hash=c894aa72734ea200ba5e955a593be494aa27b653\nblob=52 refs=1 flags=00 offset=0 packed=0 part=0 hash=dfaa3f2becd9047ee8351984ba131be6bcb2c738\nblob=3093 refs=1 flags=00 offset=0 packed=0 part=0 hash=8ed58140bbad497ec777608cb163929f1a054ea7\nblob=2919 refs=1 flags=00 offset=0 packed=0 part=0 hash=303f3011251246387126fa8eef88f3c8e4e50230\nblob=104 refs=1 flags=00 offset=0 packed=0 part=0 hash=ffac534bd6b10adb7f72174c181fc3161eeae41f\nblob=261533 refs=1 flags=00 offset=0 packed=0 part=0 hash=d5454ad6ebce1fb9d8f614140969b1db7c23f1c2\nblob=21474 refs=1 flags=00 offset=0 packed=0 part=0 hash=6265c4decd612a853c18203d5a7b1e7eff150382\nblob=148 refs=1 flags=00 offset=0 packed=0 part=0 hash=d591956dbf469e071e62d646b23557d4a6629ec4\nblob=206291 refs=1 flags=00 offset=0 packed=0 part=0 hash=176400ca0328f6dda6e3a188d4210ab2ee562658\nblob=5656 refs=1 flags=00 offset=0 packed=0 part=0 hash=b0c8049be465c8675e70896d1960881f34b89d96\nblob=243 refs=1 flags=00 offset=0 packed=0 part=0 hash=24ff8e439f4cbbfe81b88d4e485a747e6b42401a\nblob=29483 refs=1 flags=00 offset=0 packed=0 part=0 hash=d3a846e0f7875c0594f53b139dd331e2e6a7f3ca\nblob=185662 refs=1 flags=00 offset=0 packed=0 part=0 hash=10cf89938afa2757e7b8013038643d8a5fff338c\nblob=25058 refs=1 flags=00 offset=0 packed=0 part=0 hash=57d5674fbffd785c35336882f81cd7764d004702\nblob=3909 refs=1 flags=00 offset=0 packed=0 part=0 hash=a0035b6f6a1898893d0fcb5c55b89b1c22e888ea\nblob=200 refs=1 flags=00 offset=0 packed=0 part=0 hash=cf5a92587de237937eaf8579767c989042b7f3a8\nblob=14281 refs=1 flags=00 offset=0 packed=0 part=0 hash=ef7256b5266d7435d4354a429538607ffadc442c\nblob=80130 refs=1 flags=00 offset=0 packed=0 part=0 hash=033896c59fd388efc6e8dbf69bd2b6cd2f589263\nblob=150880 refs=1 flags=00 offset=0 packed=0 part=0 hash=a764f2f8256efa2b714f68b741bd069772641c71\nblob=64 refs=1 flags=00 offset=0 packed=0 part=0 hash=59811dc2626b1e471bdc88756ce94bb87e91556a\nblob=15526 refs=3 flags=00 offset=0 packed=0 part=0 hash=81ecb5f3c7c2548658400f4d319f421fe5ed2cc2\nblob=2816 refs=2 flags=00 offset=0 packed=0 part=0 hash=66b13a53681fc4fa953f68c7e6ed70a25761ba5e\nblob=254258 refs=1 flags=00 offset=0 packed=0 part=0 hash=6887cda46b45c7d6f394dc9b835aa1814c9d0001\nblob=19 refs=1 flags=00 offset=0 packed=0 part=0 hash=5a686d4e7f4b7ea43b27a525659449fed3f6e2e7\nblob=907 refs=2 flags=00 offset=0 packed=0 part=0 hash=b46694bbc6533913387205229880537bbff59ad5\nblob=57219 refs=1 flags=00 offset=0 packed=0 part=0 hash=a7f9e1c03fa60b68855e4c8643e86f1f8b4886f5\nblob=6144 refs=1 flags=00 offset=0 packed=0 part=0 hash=b3f2ef15389b93aba98169fdd87cd3a7d9f0d350\nblob=28128 refs=1 flags=00 offset=0 packed=0 part=0 hash=e5c5b359fcb3dff9453ce99c0077f547ea55c54c\nblob=2889 refs=1 flags=00 offset=0 packed=0 part=0 hash=e14cc38c4bd56cf8d98200e8ea0a83125123197a\nblob=17349 refs=2 flags=00 offset=0 packed=0 part=0 hash=27a4742c1374d48314007b4f569e09dc0713056c\nblob=30503 refs=1 flags=00 offset=0 packed=0 part=0 hash=ca236e548355fac1aad00d6188eba853c567ae63\nblob=3223 refs=1 flags=00 offset=0 packed=0 part=0 hash=1b90b1e240d95668ae1e39148b3b93e10482c9c6\nblob=3007 refs=1 flags=00 offset=0 packed=0 part=0 hash=1c86acc4c5b67912d634918ca8030611a35b8bf9\nblob=1493 refs=1 flags=00 offset=0 packed=0 part=0 hash=c93456dea4ec72f771030e3280105c7501dabbb4\nblob=104 refs=2 flags=00 offset=0 packed=0 part=0 hash=5f5ead10f5065eeef29486bea284496ed0d3efa5\nblob=135487 refs=1 flags=00 offset=0 packed=0 part=0 hash=86fcc6e2e0d65049cba4816701b1feb4732c47a9\nblob=569 refs=2 flags=00 offset=0 packed=0 part=0 hash=28f678404188ef2c5872524de9aa3a1d1af58e77\nblob=3657 refs=1 flags=00 offset=0 packed=0 part=0 hash=60382f1f3fab9cce6a8a6d9e49a3abf510633e2e\nblob=2271 refs=1 flags=00 offset=0 packed=0 part=0 hash=5bfbfd077733b020147440503c9d397f4b727c4d\nblob=1581 refs=1 flags=00 offset=0 packed=0 part=0 hash=acacd67fd13bb4c37ce4d9a99a7da940a62fea40\nblob=23055 refs=1 flags=00 offset=0 packed=0 part=0 hash=7bb51a1d968cb66db0bb4c6d6561ebe67310da67\nblob=2628 refs=1 flags=00 offset=0 packed=0 part=0 hash=ab4bd97ff7aecc46c708db8e69dacf6931df4279\nblob=27533 refs=1 flags=00 offset=0 packed=0 part=0 hash=ec2b48cbaf6525055a725841b729b3eba62096d8\nblob=53 refs=1 flags=00 offset=0 packed=0 part=0 hash=10956ef8e2badf596735892105ac2943f9b13f00\nblob=165232 refs=1 flags=00 offset=0 packed=0 part=0 hash=0180c68b82c68df56516c9cf92c122606e7a1457\nblob=1071 refs=1 flags=00 offset=0 packed=0 part=0 hash=5c463e8935b723bab7f812ac7b15020df509ccf0\nblob=48 refs=1 flags=00 offset=0 packed=0 part=0 hash=5be5e2e7df07415fed3b99668495707b431841ea\nblob=34234 refs=1 flags=00 offset=0 packed=0 part=0 hash=cf357a94218298f31a053c9f31e180bce8a31bb3\nblob=5311 refs=1 flags=00 offset=0 packed=0 part=0 hash=e6f1c3e5976dcc377be598027ac7c3dd267fb020\nblob=20101 refs=1 flags=00 offset=0 packed=0 part=0 hash=5d5ac3455ff890057341255aec8a71f0ce3c4a80\nblob=2519 refs=1 flags=00 offset=0 packed=0 part=0 hash=f8b8c53369fc9699845d01b4c3bed3cc9c953a9b\nblob=1601 refs=1 flags=00 offset=0 packed=0 part=0 hash=b614f85b7abdc7646b10458126a956be60d865d5\nblob=1788 refs=1 flags=00 offset=0 packed=0 part=0 hash=917ad4c464e998ab6f7a866b54ad1943021c8643\nblob=351 refs=1 flags=00 offset=0 packed=0 part=0 hash=59d7564a38a34e36b5ff2b6cce1e9e3d75e3b653\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true,
+          "verify": {
+            "status": 0,
+            "stderr": "\n[WARNING] \"/tmp/wim-generator-api-3lfrb456/native-5--1-4.wim\" does not contain integrity information.  Skipping integrity check.\n"
+          }
+        }
+      },
+      "exact": false,
+      "original_graph_comparison": {
+        "status": 0,
+        "stdout": "open=0,0\ncompare=0\n",
+        "stderr": ""
+      }
+    },
+    {
+      "seed": 5,
+      "stop": -1,
+      "flags": 4096,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nblob=15526 refs=3 flags=00 offset=0 packed=0 part=0 hash=81ecb5f3c7c2548658400f4d319f421fe5ed2cc2\nblob=165232 refs=1 flags=00 offset=0 packed=0 part=0 hash=0180c68b82c68df56516c9cf92c122606e7a1457\nblob=4010 refs=2 flags=00 offset=0 packed=0 part=0 hash=0292e63649b193232f73ebab6756e4855ecfa5ab\nblob=19062 refs=2 flags=00 offset=0 packed=0 part=0 hash=8397916c45a22571b1d7e804f46caf6650389c50\nblob=80130 refs=1 flags=00 offset=0 packed=0 part=0 hash=033896c59fd388efc6e8dbf69bd2b6cd2f589263\nblob=135487 refs=1 flags=00 offset=0 packed=0 part=0 hash=86fcc6e2e0d65049cba4816701b1feb4732c47a9\nblob=175079 refs=1 flags=00 offset=0 packed=0 part=0 hash=079ee9fde14135b553fc4e01a376588d01f6d8cb\nblob=3093 refs=1 flags=00 offset=0 packed=0 part=0 hash=8ed58140bbad497ec777608cb163929f1a054ea7\nblob=4 refs=1 flags=00 offset=0 packed=0 part=0 hash=10898a5ed5346ee18d6c4c2a703a33e3ce6623f6\nblob=185662 refs=1 flags=00 offset=0 packed=0 part=0 hash=10cf89938afa2757e7b8013038643d8a5fff338c\nblob=53 refs=1 flags=00 offset=0 packed=0 part=0 hash=10956ef8e2badf596735892105ac2943f9b13f00\nblob=1788 refs=1 flags=00 offset=0 packed=0 part=0 hash=917ad4c464e998ab6f7a866b54ad1943021c8643\nblob=31422 refs=1 flags=00 offset=0 packed=0 part=0 hash=95151bb7ab79521e47295a3082ff6973c2307bc5\nblob=206291 refs=1 flags=00 offset=0 packed=0 part=0 hash=176400ca0328f6dda6e3a188d4210ab2ee562658\nblob=2906 refs=1 flags=00 offset=0 packed=0 part=0 hash=19a441a7b14f91b98d9edf9f45415152eb223161\nblob=48 refs=1 flags=00 offset=0 packed=0 part=0 hash=99e50d65ee149f61953ea67e07f36083b7ff098f\nblob=3223 refs=1 flags=00 offset=0 packed=0 part=0 hash=1b90b1e240d95668ae1e39148b3b93e10482c9c6\nblob=26088 refs=1 flags=00 offset=0 packed=0 part=0 hash=1c54b57f8c60cff10bcefec68e7f52acd19d593a\nblob=3007 refs=1 flags=00 offset=0 packed=0 part=0 hash=1c86acc4c5b67912d634918ca8030611a35b8bf9\nblob=410 refs=1 flags=00 offset=0 packed=0 part=0 hash=9f7ddb2a52218fe3cd3b78587a9ff7db98e5b045\nblob=11768 refs=1 flags=00 offset=0 packed=0 part=0 hash=20a81b3b8f1dd1337cf58f7a10447b5cee456e16\nblob=3909 refs=1 flags=00 offset=0 packed=0 part=0 hash=a0035b6f6a1898893d0fcb5c55b89b1c22e888ea\nblob=20 refs=1 flags=00 offset=0 packed=0 part=0 hash=20f1275d680361dff8183a0d9826ed3c7639697d\nblob=625 refs=1 flags=00 offset=0 packed=0 part=0 hash=24b933952f03d203607182e2241160aa48057745\nblob=243 refs=1 flags=00 offset=0 packed=0 part=0 hash=24ff8e439f4cbbfe81b88d4e485a747e6b42401a\nblob=43 refs=1 flags=00 offset=0 packed=0 part=0 hash=a64278b8e21acb85f35500b7d9e2098f2f5a2f4d\nblob=17349 refs=2 flags=00 offset=0 packed=0 part=0 hash=27a4742c1374d48314007b4f569e09dc0713056c\nblob=57219 refs=1 flags=00 offset=0 packed=0 part=0 hash=a7f9e1c03fa60b68855e4c8643e86f1f8b4886f5\nblob=150880 refs=1 flags=00 offset=0 packed=0 part=0 hash=a764f2f8256efa2b714f68b741bd069772641c71\nblob=240703 refs=1 flags=00 offset=0 packed=0 part=0 hash=28b2e29c807d49e505c9551221822861ac6f4a61\nblob=24 refs=1 flags=00 offset=0 packed=0 part=0 hash=a8ef0cb52add1d58a49fd566b264d3fbe01de13f\nblob=31929 refs=1 flags=00 offset=0 packed=0 part=0 hash=a8f659c4ee830bf5caeefdf9744d10af574753c3\nblob=569 refs=2 flags=00 offset=0 packed=0 part=0 hash=28f678404188ef2c5872524de9aa3a1d1af58e77\nblob=50 refs=1 flags=00 offset=0 packed=0 part=0 hash=a922039836829ab3ad1617def30fdd751827abc7\nblob=18267 refs=2 flags=00 offset=0 packed=0 part=0 hash=ab5651496d6a97a436a37bb9bf78951478b8b4d5\nblob=2628 refs=1 flags=00 offset=0 packed=0 part=0 hash=ab4bd97ff7aecc46c708db8e69dacf6931df4279\nblob=1581 refs=1 flags=00 offset=0 packed=0 part=0 hash=acacd67fd13bb4c37ce4d9a99a7da940a62fea40\nblob=142204 refs=2 flags=00 offset=0 packed=0 part=0 hash=2d63ef902258c891dacf5ccb8bb70297b2b4645d\nblob=31717 refs=1 flags=00 offset=0 packed=0 part=0 hash=2d433d43d7d6cfb44aad491992a1c2b32172c643\nblob=5656 refs=1 flags=00 offset=0 packed=0 part=0 hash=b0c8049be465c8675e70896d1960881f34b89d96\nblob=2919 refs=1 flags=00 offset=0 packed=0 part=0 hash=303f3011251246387126fa8eef88f3c8e4e50230\nblob=6144 refs=1 flags=00 offset=0 packed=0 part=0 hash=b3f2ef15389b93aba98169fdd87cd3a7d9f0d350\nblob=907 refs=2 flags=00 offset=0 packed=0 part=0 hash=b46694bbc6533913387205229880537bbff59ad5\nblob=1601 refs=1 flags=00 offset=0 packed=0 part=0 hash=b614f85b7abdc7646b10458126a956be60d865d5\nblob=1837 refs=1 flags=00 offset=0 packed=0 part=0 hash=3958cc2e42b5192dcb4da2be42d7ede5891cefe9\nblob=31862 refs=1 flags=00 offset=0 packed=0 part=0 hash=bf4eb38a2ca981c48aa1f56dc855b3f57ef0e175\nblob=179520 refs=1 flags=00 offset=0 packed=0 part=0 hash=4076053a1782483bd12f7c5b700cf55f99c93709\nblob=2879 refs=1 flags=00 offset=0 packed=0 part=0 hash=401cdfa80668f63819bac932c39041f4d4e706ba\nblob=937 refs=1 flags=00 offset=0 packed=0 part=0 hash=c1c1adfff48feba2bc12e882885a1d3438573a48\nblob=814 refs=1 flags=00 offset=0 packed=0 part=0 hash=c894aa72734ea200ba5e955a593be494aa27b653\nblob=1493 refs=1 flags=00 offset=0 packed=0 part=0 hash=c93456dea4ec72f771030e3280105c7501dabbb4\nblob=30503 refs=1 flags=00 offset=0 packed=0 part=0 hash=ca236e548355fac1aad00d6188eba853c567ae63\nblob=156428 refs=1 flags=00 offset=0 packed=0 part=0 hash=4cc17eb0101b9a203881bcb4df83897f835eff92\nblob=40 refs=1 flags=00 offset=0 packed=0 part=0 hash=4e90dfcdc44a43d89b8f004cfcfebf3daf6dc4f1\nblob=200 refs=1 flags=00 offset=0 packed=0 part=0 hash=cf5a92587de237937eaf8579767c989042b7f3a8\nblob=34234 refs=1 flags=00 offset=0 packed=0 part=0 hash=cf357a94218298f31a053c9f31e180bce8a31bb3\nblob=2936 refs=1 flags=00 offset=0 packed=0 part=0 hash=cfecf73c49d625937b3331050ba0e0029bdcf963\nblob=3510 refs=1 flags=00 offset=0 packed=0 part=0 hash=50c46e1dc4544d6111ab00c128b849112074847e\nblob=2571 refs=1 flags=00 offset=0 packed=0 part=0 hash=52eaa20905a45d31c547e005e922f94277a3fcb9\nblob=29483 refs=1 flags=00 offset=0 packed=0 part=0 hash=d3a846e0f7875c0594f53b139dd331e2e6a7f3ca\nblob=108 refs=1 flags=00 offset=0 packed=0 part=0 hash=d3ff278717f9ceff5c788d9bb22e1dcd0ec17a3e\nblob=13 refs=1 flags=00 offset=0 packed=0 part=0 hash=d4739b81db5bcad534fcd8197407e930247eae43\nblob=261533 refs=1 flags=00 offset=0 packed=0 part=0 hash=d5454ad6ebce1fb9d8f614140969b1db7c23f1c2\nblob=148 refs=1 flags=00 offset=0 packed=0 part=0 hash=d591956dbf469e071e62d646b23557d4a6629ec4\nblob=140750 refs=1 flags=00 offset=0 packed=0 part=0 hash=d65bcc388ca7963b00e99f4b4f5451de610622e1\nblob=25058 refs=1 flags=00 offset=0 packed=0 part=0 hash=57d5674fbffd785c35336882f81cd7764d004702\nblob=2155 refs=1 flags=00 offset=0 packed=0 part=0 hash=577cec4acf32466f92436cdb6f1ad5ad13be7e0a\nblob=107393 refs=1 flags=00 offset=0 packed=0 part=0 hash=d7d72e8ef8ced9c9f7f85ba4486f38b456fb2172\nblob=40 refs=1 flags=00 offset=0 packed=0 part=0 hash=586d2f3c36ef078c9116fb437fba5cf2347cc17e\nblob=64 refs=1 flags=00 offset=0 packed=0 part=0 hash=59811dc2626b1e471bdc88756ce94bb87e91556a\nblob=351 refs=1 flags=00 offset=0 packed=0 part=0 hash=59d7564a38a34e36b5ff2b6cce1e9e3d75e3b653\nblob=3328 refs=1 flags=00 offset=0 packed=0 part=0 hash=daf00d1ca13d298d96a816c7e3ea02e15f5435ac\nblob=35198 refs=1 flags=00 offset=0 packed=0 part=0 hash=da45bd69bc4d3f445836b2e07a0d7cd31335588b\nblob=19 refs=1 flags=00 offset=0 packed=0 part=0 hash=5a686d4e7f4b7ea43b27a525659449fed3f6e2e7\nblob=2271 refs=1 flags=00 offset=0 packed=0 part=0 hash=5bfbfd077733b020147440503c9d397f4b727c4d\nblob=48 refs=1 flags=00 offset=0 packed=0 part=0 hash=5be5e2e7df07415fed3b99668495707b431841ea\nblob=1071 refs=1 flags=00 offset=0 packed=0 part=0 hash=5c463e8935b723bab7f812ac7b15020df509ccf0\nblob=20101 refs=1 flags=00 offset=0 packed=0 part=0 hash=5d5ac3455ff890057341255aec8a71f0ce3c4a80\nblob=104 refs=2 flags=00 offset=0 packed=0 part=0 hash=5f5ead10f5065eeef29486bea284496ed0d3efa5\nblob=52 refs=1 flags=00 offset=0 packed=0 part=0 hash=dfaa3f2becd9047ee8351984ba131be6bcb2c738\nblob=3657 refs=1 flags=00 offset=0 packed=0 part=0 hash=60382f1f3fab9cce6a8a6d9e49a3abf510633e2e\nblob=2889 refs=1 flags=00 offset=0 packed=0 part=0 hash=e14cc38c4bd56cf8d98200e8ea0a83125123197a\nblob=32211 refs=1 flags=00 offset=0 packed=0 part=0 hash=611d571f0ce5607a2c517c6213708eb39c5d7301\nblob=317 refs=1 flags=00 offset=0 packed=0 part=0 hash=e2dfd195d4b51b0f51b6b356601c3f33ed5252a7\nblob=21474 refs=1 flags=00 offset=0 packed=0 part=0 hash=6265c4decd612a853c18203d5a7b1e7eff150382\nblob=28128 refs=1 flags=00 offset=0 packed=0 part=0 hash=e5c5b359fcb3dff9453ce99c0077f547ea55c54c\nblob=6597 refs=1 flags=00 offset=0 packed=0 part=0 hash=6539d85bdeced1b783e044a49d50a041e297fcbd\nblob=5311 refs=1 flags=00 offset=0 packed=0 part=0 hash=e6f1c3e5976dcc377be598027ac7c3dd267fb020\nblob=2816 refs=2 flags=00 offset=0 packed=0 part=0 hash=66b13a53681fc4fa953f68c7e6ed70a25761ba5e\nblob=254258 refs=1 flags=00 offset=0 packed=0 part=0 hash=6887cda46b45c7d6f394dc9b835aa1814c9d0001\nblob=27533 refs=1 flags=00 offset=0 packed=0 part=0 hash=ec2b48cbaf6525055a725841b729b3eba62096d8\nblob=17215 refs=1 flags=00 offset=0 packed=0 part=0 hash=eeeacc8171c41709a8cf4e1f08fa1ae1a084d278\nblob=18087 refs=1 flags=00 offset=0 packed=0 part=0 hash=efc4e9eaedbeead8ce253cadf4b43bd579fa54d9\nblob=14281 refs=1 flags=00 offset=0 packed=0 part=0 hash=ef7256b5266d7435d4354a429538607ffadc442c\nblob=80 refs=1 flags=00 offset=0 packed=0 part=0 hash=f2c1e005eb1cad719d3e6946cec783f659b95816\nblob=2519 refs=1 flags=00 offset=0 packed=0 part=0 hash=f8b8c53369fc9699845d01b4c3bed3cc9c953a9b\nblob=3279 refs=1 flags=00 offset=0 packed=0 part=0 hash=79805d88af643ff8240cc370a9813515f984f985\nblob=19365 refs=2 flags=00 offset=0 packed=0 part=0 hash=79a3dd79ca707871c7834e4e39078947abd150fc\nblob=23055 refs=1 flags=00 offset=0 packed=0 part=0 hash=7bb51a1d968cb66db0bb4c6d6561ebe67310da67\nblob=23777 refs=1 flags=00 offset=0 packed=0 part=0 hash=7c7f316299418bbb6890f44652f0ad38c2e6b8c5\nblob=32 refs=1 flags=00 offset=0 packed=0 part=0 hash=7cf745d3133cb42fc4fd080dc0e915494cee2441\nblob=16079 refs=1 flags=00 offset=0 packed=0 part=0 hash=fdd7e64acc099781bd76fd6aeca74ab0dab417f9\nblob=104 refs=1 flags=00 offset=0 packed=0 part=0 hash=ffac534bd6b10adb7f72174c181fc3161eeae41f\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true,
+          "verify": {
+            "status": 0,
+            "stderr": "\n[WARNING] \"/tmp/wim-generator-api-3lfrb456/original-5--1-4096.wim\" does not contain integrity information.  Skipping integrity check.\n"
+          }
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nblob=19365 refs=2 flags=00 offset=0 packed=0 part=0 hash=79a3dd79ca707871c7834e4e39078947abd150fc\nblob=3279 refs=1 flags=00 offset=0 packed=0 part=0 hash=79805d88af643ff8240cc370a9813515f984f985\nblob=175079 refs=1 flags=00 offset=0 packed=0 part=0 hash=079ee9fde14135b553fc4e01a376588d01f6d8cb\nblob=13 refs=1 flags=00 offset=0 packed=0 part=0 hash=d4739b81db5bcad534fcd8197407e930247eae43\nblob=6597 refs=1 flags=00 offset=0 packed=0 part=0 hash=6539d85bdeced1b783e044a49d50a041e297fcbd\nblob=4 refs=1 flags=00 offset=0 packed=0 part=0 hash=10898a5ed5346ee18d6c4c2a703a33e3ce6623f6\nblob=18087 refs=1 flags=00 offset=0 packed=0 part=0 hash=efc4e9eaedbeead8ce253cadf4b43bd579fa54d9\nblob=32211 refs=1 flags=00 offset=0 packed=0 part=0 hash=611d571f0ce5607a2c517c6213708eb39c5d7301\nblob=140750 refs=1 flags=00 offset=0 packed=0 part=0 hash=d65bcc388ca7963b00e99f4b4f5451de610622e1\nblob=625 refs=1 flags=00 offset=0 packed=0 part=0 hash=24b933952f03d203607182e2241160aa48057745\nblob=35198 refs=1 flags=00 offset=0 packed=0 part=0 hash=da45bd69bc4d3f445836b2e07a0d7cd31335588b\nblob=18267 refs=2 flags=00 offset=0 packed=0 part=0 hash=ab5651496d6a97a436a37bb9bf78951478b8b4d5\nblob=179520 refs=1 flags=00 offset=0 packed=0 part=0 hash=4076053a1782483bd12f7c5b700cf55f99c93709\nblob=31929 refs=1 flags=00 offset=0 packed=0 part=0 hash=a8f659c4ee830bf5caeefdf9744d10af574753c3\nblob=40 refs=1 flags=00 offset=0 packed=0 part=0 hash=4e90dfcdc44a43d89b8f004cfcfebf3daf6dc4f1\nblob=11768 refs=1 flags=00 offset=0 packed=0 part=0 hash=20a81b3b8f1dd1337cf58f7a10447b5cee456e16\nblob=19062 refs=2 flags=00 offset=0 packed=0 part=0 hash=8397916c45a22571b1d7e804f46caf6650389c50\nblob=16079 refs=1 flags=00 offset=0 packed=0 part=0 hash=fdd7e64acc099781bd76fd6aeca74ab0dab417f9\nblob=80 refs=1 flags=00 offset=0 packed=0 part=0 hash=f2c1e005eb1cad719d3e6946cec783f659b95816\nblob=937 refs=1 flags=00 offset=0 packed=0 part=0 hash=c1c1adfff48feba2bc12e882885a1d3438573a48\nblob=20 refs=1 flags=00 offset=0 packed=0 part=0 hash=20f1275d680361dff8183a0d9826ed3c7639697d\nblob=24 refs=1 flags=00 offset=0 packed=0 part=0 hash=a8ef0cb52add1d58a49fd566b264d3fbe01de13f\nblob=156428 refs=1 flags=00 offset=0 packed=0 part=0 hash=4cc17eb0101b9a203881bcb4df83897f835eff92\nblob=3510 refs=1 flags=00 offset=0 packed=0 part=0 hash=50c46e1dc4544d6111ab00c128b849112074847e\nblob=26088 refs=1 flags=00 offset=0 packed=0 part=0 hash=1c54b57f8c60cff10bcefec68e7f52acd19d593a\nblob=4010 refs=2 flags=00 offset=0 packed=0 part=0 hash=0292e63649b193232f73ebab6756e4855ecfa5ab\nblob=50 refs=1 flags=00 offset=0 packed=0 part=0 hash=a922039836829ab3ad1617def30fdd751827abc7\nblob=17215 refs=1 flags=00 offset=0 packed=0 part=0 hash=eeeacc8171c41709a8cf4e1f08fa1ae1a084d278\nblob=2155 refs=1 flags=00 offset=0 packed=0 part=0 hash=577cec4acf32466f92436cdb6f1ad5ad13be7e0a\nblob=32 refs=1 flags=00 offset=0 packed=0 part=0 hash=7cf745d3133cb42fc4fd080dc0e915494cee2441\nblob=2571 refs=1 flags=00 offset=0 packed=0 part=0 hash=52eaa20905a45d31c547e005e922f94277a3fcb9\nblob=2936 refs=1 flags=00 offset=0 packed=0 part=0 hash=cfecf73c49d625937b3331050ba0e0029bdcf963\nblob=31422 refs=1 flags=00 offset=0 packed=0 part=0 hash=95151bb7ab79521e47295a3082ff6973c2307bc5\nblob=31862 refs=1 flags=00 offset=0 packed=0 part=0 hash=bf4eb38a2ca981c48aa1f56dc855b3f57ef0e175\nblob=142204 refs=2 flags=00 offset=0 packed=0 part=0 hash=2d63ef902258c891dacf5ccb8bb70297b2b4645d\nblob=23777 refs=1 flags=00 offset=0 packed=0 part=0 hash=7c7f316299418bbb6890f44652f0ad38c2e6b8c5\nblob=108 refs=1 flags=00 offset=0 packed=0 part=0 hash=d3ff278717f9ceff5c788d9bb22e1dcd0ec17a3e\nblob=1837 refs=1 flags=00 offset=0 packed=0 part=0 hash=3958cc2e42b5192dcb4da2be42d7ede5891cefe9\nblob=31717 refs=1 flags=00 offset=0 packed=0 part=0 hash=2d433d43d7d6cfb44aad491992a1c2b32172c643\nblob=317 refs=1 flags=00 offset=0 packed=0 part=0 hash=e2dfd195d4b51b0f51b6b356601c3f33ed5252a7\nblob=410 refs=1 flags=00 offset=0 packed=0 part=0 hash=9f7ddb2a52218fe3cd3b78587a9ff7db98e5b045\nblob=40 refs=1 flags=00 offset=0 packed=0 part=0 hash=586d2f3c36ef078c9116fb437fba5cf2347cc17e\nblob=2906 refs=1 flags=00 offset=0 packed=0 part=0 hash=19a441a7b14f91b98d9edf9f45415152eb223161\nblob=240703 refs=1 flags=00 offset=0 packed=0 part=0 hash=28b2e29c807d49e505c9551221822861ac6f4a61\nblob=2879 refs=1 flags=00 offset=0 packed=0 part=0 hash=401cdfa80668f63819bac932c39041f4d4e706ba\nblob=3328 refs=1 flags=00 offset=0 packed=0 part=0 hash=daf00d1ca13d298d96a816c7e3ea02e15f5435ac\nblob=107393 refs=1 flags=00 offset=0 packed=0 part=0 hash=d7d72e8ef8ced9c9f7f85ba4486f38b456fb2172\nblob=43 refs=1 flags=00 offset=0 packed=0 part=0 hash=a64278b8e21acb85f35500b7d9e2098f2f5a2f4d\nblob=48 refs=1 flags=00 offset=0 packed=0 part=0 hash=99e50d65ee149f61953ea67e07f36083b7ff098f\nblob=814 refs=1 flags=00 offset=0 packed=0 part=0 hash=c894aa72734ea200ba5e955a593be494aa27b653\nblob=52 refs=1 flags=00 offset=0 packed=0 part=0 hash=dfaa3f2becd9047ee8351984ba131be6bcb2c738\nblob=3093 refs=1 flags=00 offset=0 packed=0 part=0 hash=8ed58140bbad497ec777608cb163929f1a054ea7\nblob=2919 refs=1 flags=00 offset=0 packed=0 part=0 hash=303f3011251246387126fa8eef88f3c8e4e50230\nblob=104 refs=1 flags=00 offset=0 packed=0 part=0 hash=ffac534bd6b10adb7f72174c181fc3161eeae41f\nblob=261533 refs=1 flags=00 offset=0 packed=0 part=0 hash=d5454ad6ebce1fb9d8f614140969b1db7c23f1c2\nblob=21474 refs=1 flags=00 offset=0 packed=0 part=0 hash=6265c4decd612a853c18203d5a7b1e7eff150382\nblob=148 refs=1 flags=00 offset=0 packed=0 part=0 hash=d591956dbf469e071e62d646b23557d4a6629ec4\nblob=206291 refs=1 flags=00 offset=0 packed=0 part=0 hash=176400ca0328f6dda6e3a188d4210ab2ee562658\nblob=5656 refs=1 flags=00 offset=0 packed=0 part=0 hash=b0c8049be465c8675e70896d1960881f34b89d96\nblob=243 refs=1 flags=00 offset=0 packed=0 part=0 hash=24ff8e439f4cbbfe81b88d4e485a747e6b42401a\nblob=29483 refs=1 flags=00 offset=0 packed=0 part=0 hash=d3a846e0f7875c0594f53b139dd331e2e6a7f3ca\nblob=185662 refs=1 flags=00 offset=0 packed=0 part=0 hash=10cf89938afa2757e7b8013038643d8a5fff338c\nblob=25058 refs=1 flags=00 offset=0 packed=0 part=0 hash=57d5674fbffd785c35336882f81cd7764d004702\nblob=3909 refs=1 flags=00 offset=0 packed=0 part=0 hash=a0035b6f6a1898893d0fcb5c55b89b1c22e888ea\nblob=200 refs=1 flags=00 offset=0 packed=0 part=0 hash=cf5a92587de237937eaf8579767c989042b7f3a8\nblob=14281 refs=1 flags=00 offset=0 packed=0 part=0 hash=ef7256b5266d7435d4354a429538607ffadc442c\nblob=80130 refs=1 flags=00 offset=0 packed=0 part=0 hash=033896c59fd388efc6e8dbf69bd2b6cd2f589263\nblob=150880 refs=1 flags=00 offset=0 packed=0 part=0 hash=a764f2f8256efa2b714f68b741bd069772641c71\nblob=64 refs=1 flags=00 offset=0 packed=0 part=0 hash=59811dc2626b1e471bdc88756ce94bb87e91556a\nblob=15526 refs=3 flags=00 offset=0 packed=0 part=0 hash=81ecb5f3c7c2548658400f4d319f421fe5ed2cc2\nblob=2816 refs=2 flags=00 offset=0 packed=0 part=0 hash=66b13a53681fc4fa953f68c7e6ed70a25761ba5e\nblob=254258 refs=1 flags=00 offset=0 packed=0 part=0 hash=6887cda46b45c7d6f394dc9b835aa1814c9d0001\nblob=19 refs=1 flags=00 offset=0 packed=0 part=0 hash=5a686d4e7f4b7ea43b27a525659449fed3f6e2e7\nblob=907 refs=2 flags=00 offset=0 packed=0 part=0 hash=b46694bbc6533913387205229880537bbff59ad5\nblob=57219 refs=1 flags=00 offset=0 packed=0 part=0 hash=a7f9e1c03fa60b68855e4c8643e86f1f8b4886f5\nblob=6144 refs=1 flags=00 offset=0 packed=0 part=0 hash=b3f2ef15389b93aba98169fdd87cd3a7d9f0d350\nblob=28128 refs=1 flags=00 offset=0 packed=0 part=0 hash=e5c5b359fcb3dff9453ce99c0077f547ea55c54c\nblob=2889 refs=1 flags=00 offset=0 packed=0 part=0 hash=e14cc38c4bd56cf8d98200e8ea0a83125123197a\nblob=17349 refs=2 flags=00 offset=0 packed=0 part=0 hash=27a4742c1374d48314007b4f569e09dc0713056c\nblob=30503 refs=1 flags=00 offset=0 packed=0 part=0 hash=ca236e548355fac1aad00d6188eba853c567ae63\nblob=3223 refs=1 flags=00 offset=0 packed=0 part=0 hash=1b90b1e240d95668ae1e39148b3b93e10482c9c6\nblob=3007 refs=1 flags=00 offset=0 packed=0 part=0 hash=1c86acc4c5b67912d634918ca8030611a35b8bf9\nblob=1493 refs=1 flags=00 offset=0 packed=0 part=0 hash=c93456dea4ec72f771030e3280105c7501dabbb4\nblob=104 refs=2 flags=00 offset=0 packed=0 part=0 hash=5f5ead10f5065eeef29486bea284496ed0d3efa5\nblob=135487 refs=1 flags=00 offset=0 packed=0 part=0 hash=86fcc6e2e0d65049cba4816701b1feb4732c47a9\nblob=569 refs=2 flags=00 offset=0 packed=0 part=0 hash=28f678404188ef2c5872524de9aa3a1d1af58e77\nblob=3657 refs=1 flags=00 offset=0 packed=0 part=0 hash=60382f1f3fab9cce6a8a6d9e49a3abf510633e2e\nblob=2271 refs=1 flags=00 offset=0 packed=0 part=0 hash=5bfbfd077733b020147440503c9d397f4b727c4d\nblob=1581 refs=1 flags=00 offset=0 packed=0 part=0 hash=acacd67fd13bb4c37ce4d9a99a7da940a62fea40\nblob=23055 refs=1 flags=00 offset=0 packed=0 part=0 hash=7bb51a1d968cb66db0bb4c6d6561ebe67310da67\nblob=2628 refs=1 flags=00 offset=0 packed=0 part=0 hash=ab4bd97ff7aecc46c708db8e69dacf6931df4279\nblob=27533 refs=1 flags=00 offset=0 packed=0 part=0 hash=ec2b48cbaf6525055a725841b729b3eba62096d8\nblob=53 refs=1 flags=00 offset=0 packed=0 part=0 hash=10956ef8e2badf596735892105ac2943f9b13f00\nblob=165232 refs=1 flags=00 offset=0 packed=0 part=0 hash=0180c68b82c68df56516c9cf92c122606e7a1457\nblob=1071 refs=1 flags=00 offset=0 packed=0 part=0 hash=5c463e8935b723bab7f812ac7b15020df509ccf0\nblob=48 refs=1 flags=00 offset=0 packed=0 part=0 hash=5be5e2e7df07415fed3b99668495707b431841ea\nblob=34234 refs=1 flags=00 offset=0 packed=0 part=0 hash=cf357a94218298f31a053c9f31e180bce8a31bb3\nblob=5311 refs=1 flags=00 offset=0 packed=0 part=0 hash=e6f1c3e5976dcc377be598027ac7c3dd267fb020\nblob=20101 refs=1 flags=00 offset=0 packed=0 part=0 hash=5d5ac3455ff890057341255aec8a71f0ce3c4a80\nblob=2519 refs=1 flags=00 offset=0 packed=0 part=0 hash=f8b8c53369fc9699845d01b4c3bed3cc9c953a9b\nblob=1601 refs=1 flags=00 offset=0 packed=0 part=0 hash=b614f85b7abdc7646b10458126a956be60d865d5\nblob=1788 refs=1 flags=00 offset=0 packed=0 part=0 hash=917ad4c464e998ab6f7a866b54ad1943021c8643\nblob=351 refs=1 flags=00 offset=0 packed=0 part=0 hash=59d7564a38a34e36b5ff2b6cce1e9e3d75e3b653\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true,
+          "verify": {
+            "status": 0,
+            "stderr": "\n[WARNING] \"/tmp/wim-generator-api-3lfrb456/native-5--1-4096.wim\" does not contain integrity information.  Skipping integrity check.\n"
+          }
+        }
+      },
+      "exact": false,
+      "original_graph_comparison": {
+        "status": 0,
+        "stdout": "open=0,0\ncompare=0\n",
+        "stderr": ""
+      }
+    },
+    {
+      "seed": 5,
+      "stop": 9,
+      "flags": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        }
+      },
+      "exact": true,
+      "original_graph_comparison": null
+    },
+    {
+      "seed": 5,
+      "stop": 9,
+      "flags": 4,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        }
+      },
+      "exact": true,
+      "original_graph_comparison": null
+    },
+    {
+      "seed": 5,
+      "stop": 9,
+      "flags": 4096,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        }
+      },
+      "exact": true,
+      "original_graph_comparison": null
+    },
+    {
+      "seed": 5,
+      "stop": 11,
+      "flags": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        }
+      },
+      "exact": true,
+      "original_graph_comparison": null
+    },
+    {
+      "seed": 5,
+      "stop": 11,
+      "flags": 4,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        }
+      },
+      "exact": true,
+      "original_graph_comparison": null
+    },
+    {
+      "seed": 5,
+      "stop": 11,
+      "flags": 4096,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        }
+      },
+      "exact": true,
+      "original_graph_comparison": null
+    },
+    {
+      "seed": 6,
+      "stop": -1,
+      "flags": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true,
+          "verify": {
+            "status": 0,
+            "stderr": "\n[WARNING] \"/tmp/wim-generator-api-3lfrb456/original-6--1-0.wim\" does not contain integrity information.  Skipping integrity check.\n"
+          }
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true,
+          "verify": {
+            "status": 0,
+            "stderr": "\n[WARNING] \"/tmp/wim-generator-api-3lfrb456/native-6--1-0.wim\" does not contain integrity information.  Skipping integrity check.\n"
+          }
+        }
+      },
+      "exact": false,
+      "original_graph_comparison": {
+        "status": 0,
+        "stdout": "open=0,0\ncompare=0\n",
+        "stderr": ""
+      }
+    },
+    {
+      "seed": 6,
+      "stop": -1,
+      "flags": 4,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true,
+          "verify": {
+            "status": 0,
+            "stderr": "\n[WARNING] \"/tmp/wim-generator-api-3lfrb456/original-6--1-4.wim\" does not contain integrity information.  Skipping integrity check.\n"
+          }
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true,
+          "verify": {
+            "status": 0,
+            "stderr": "\n[WARNING] \"/tmp/wim-generator-api-3lfrb456/native-6--1-4.wim\" does not contain integrity information.  Skipping integrity check.\n"
+          }
+        }
+      },
+      "exact": false,
+      "original_graph_comparison": {
+        "status": 0,
+        "stdout": "open=0,0\ncompare=0\n",
+        "stderr": ""
+      }
+    },
+    {
+      "seed": 6,
+      "stop": -1,
+      "flags": 4096,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true,
+          "verify": {
+            "status": 0,
+            "stderr": "\n[WARNING] \"/tmp/wim-generator-api-3lfrb456/original-6--1-4096.wim\" does not contain integrity information.  Skipping integrity check.\n"
+          }
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true,
+          "verify": {
+            "status": 0,
+            "stderr": "\n[WARNING] \"/tmp/wim-generator-api-3lfrb456/native-6--1-4096.wim\" does not contain integrity information.  Skipping integrity check.\n"
+          }
+        }
+      },
+      "exact": false,
+      "original_graph_comparison": {
+        "status": 0,
+        "stdout": "open=0,0\ncompare=0\n",
+        "stderr": ""
+      }
+    },
+    {
+      "seed": 6,
+      "stop": 9,
+      "flags": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        }
+      },
+      "exact": true,
+      "original_graph_comparison": null
+    },
+    {
+      "seed": 6,
+      "stop": 9,
+      "flags": 4,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        }
+      },
+      "exact": true,
+      "original_graph_comparison": null
+    },
+    {
+      "seed": 6,
+      "stop": 9,
+      "flags": 4096,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        }
+      },
+      "exact": true,
+      "original_graph_comparison": null
+    },
+    {
+      "seed": 6,
+      "stop": 11,
+      "flags": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        }
+      },
+      "exact": true,
+      "original_graph_comparison": null
+    },
+    {
+      "seed": 6,
+      "stop": 11,
+      "flags": 4,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        }
+      },
+      "exact": true,
+      "original_graph_comparison": null
+    },
+    {
+      "seed": 6,
+      "stop": 11,
+      "flags": 4096,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        }
+      },
+      "exact": true,
+      "original_graph_comparison": null
+    },
+    {
+      "seed": 7,
+      "stop": -1,
+      "flags": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true,
+          "verify": {
+            "status": 0,
+            "stderr": "\n[WARNING] \"/tmp/wim-generator-api-3lfrb456/original-7--1-0.wim\" does not contain integrity information.  Skipping integrity check.\n"
+          }
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true,
+          "verify": {
+            "status": 0,
+            "stderr": "\n[WARNING] \"/tmp/wim-generator-api-3lfrb456/native-7--1-0.wim\" does not contain integrity information.  Skipping integrity check.\n"
+          }
+        }
+      },
+      "exact": false,
+      "original_graph_comparison": {
+        "status": 0,
+        "stdout": "open=0,0\ncompare=0\n",
+        "stderr": ""
+      }
+    },
+    {
+      "seed": 7,
+      "stop": -1,
+      "flags": 4,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true,
+          "verify": {
+            "status": 0,
+            "stderr": "\n[WARNING] \"/tmp/wim-generator-api-3lfrb456/original-7--1-4.wim\" does not contain integrity information.  Skipping integrity check.\n"
+          }
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true,
+          "verify": {
+            "status": 0,
+            "stderr": "\n[WARNING] \"/tmp/wim-generator-api-3lfrb456/native-7--1-4.wim\" does not contain integrity information.  Skipping integrity check.\n"
+          }
+        }
+      },
+      "exact": false,
+      "original_graph_comparison": {
+        "status": 0,
+        "stdout": "open=0,0\ncompare=0\n",
+        "stderr": ""
+      }
+    },
+    {
+      "seed": 7,
+      "stop": -1,
+      "flags": 4096,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true,
+          "verify": {
+            "status": 0,
+            "stderr": "\n[WARNING] \"/tmp/wim-generator-api-3lfrb456/original-7--1-4096.wim\" does not contain integrity information.  Skipping integrity check.\n"
+          }
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=0 count=1\nblob=0 refs=1 flags=10 offset=0 packed=0 part=0 hash=0000000000000000000000000000000000000000\nlookup=0\nwrite=0\n",
+          "stderr": "",
+          "exists": true,
+          "verify": {
+            "status": 0,
+            "stderr": "\n[WARNING] \"/tmp/wim-generator-api-3lfrb456/native-7--1-4096.wim\" does not contain integrity information.  Skipping integrity check.\n"
+          }
+        }
+      },
+      "exact": false,
+      "original_graph_comparison": {
+        "status": 0,
+        "stdout": "open=0,0\ncompare=0\n",
+        "stderr": ""
+      }
+    },
+    {
+      "seed": 7,
+      "stop": 9,
+      "flags": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        }
+      },
+      "exact": true,
+      "original_graph_comparison": null
+    },
+    {
+      "seed": 7,
+      "stop": 9,
+      "flags": 4,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        }
+      },
+      "exact": true,
+      "original_graph_comparison": null
+    },
+    {
+      "seed": 7,
+      "stop": 9,
+      "flags": 4096,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        }
+      },
+      "exact": true,
+      "original_graph_comparison": null
+    },
+    {
+      "seed": 7,
+      "stop": 11,
+      "flags": 0,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        }
+      },
+      "exact": true,
+      "original_graph_comparison": null
+    },
+    {
+      "seed": 7,
+      "stop": 11,
+      "flags": 4,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        }
+      },
+      "exact": true,
+      "original_graph_comparison": null
+    },
+    {
+      "seed": 7,
+      "stop": 11,
+      "flags": 4096,
+      "observations": {
+        "original": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        },
+        "native": {
+          "status": 0,
+          "stdout": "event=9 dirs=0 files=0 bytes=0 current=0\nevent=11 dirs=0 files=0 bytes=0 current=0\nadd=76 count=0\nlookup=0\n",
+          "stderr": "",
+          "exists": false,
+          "verify": null
+        }
+      },
+      "exact": true,
+      "original_graph_comparison": null
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "standard_windows_setup": true,
+  "passes": false,
+  "vm_instance": "qcow2-installed-1005",
+  "iso_sha256": "e7b46935750ae90b8d88dab21c7b6b983651ffe3a241f22d47dd1771dee4d1ff",
+  "blank_base_sha256": "19eb403b49ebb8007177a5f8cc49713c69a517d81c30fb31673336e5dd298cc3",
+  "seed_sha256": "04181ce1b6eb115cf6d78fe71e44f92c21d359735d8764cf817d8811c16eb3b1",
+  "failure": {
+    "passes": false,
+    "visible_error": "Windows 11 installation has failed",
+    "error_code": "0x8007000D",
+    "earliest_visible_path": "NativeDiskCapture/relative.link",
+    "log_export": "F:\\qcow2-failure",
+    "shutdown_requested_utc": 1791201390.0145073,
+    "shutdown_command": "wpeutil shutdown",
+    "screenshots": [
+      "setup-failed.png",
+      "setup-failure-volumes.png",
+      "setup-log-export.png",
+      "setup-error-log.png"
+    ],
+    "remaining_gates": "No OOBE, installed identity, metadata restoration, servicing, reboot or WinRE boot gates ran.",
+    "target_sha256_after_shutdown": "9ee8986fc0465273fc5b8d7262135cb554fd1b767c4b02fd9912724a8f66b107",
+    "target_bytes": 13200719872,
+    "shutdown_confirmed": true,
+    "native_log_error_chain": [
+      "ApplyReparseFixup(4667): 0x8007000D",
+      "RestoreReparsePoint(1817): 0x8007000D",
+      "RestoreFileData(3186): 0x8007000D",
+      "RestoreRefNode(1870): 0x8007000D",
+      "SPWIMCallback: NativeDiskCapture/relative.link GLE13",
+      "CApplyWIM: image1 compact 0x8007000D"
+    ]
+  },
+  "screenshots": {
+    "setup-failed.png": "daa7c9b8ec19aaec4718720fa290f3a4211cfbec2f4be5a24884e53053e9bd6a",
+    "setup-failure-volumes.png": "70ad61fbd3568b7dcf4dc9bf5664cf0bb121672ecabaa08dee001c592954c490",
+    "setup-log-export.png": "9b484f1d0cea2ecd5ddf903d0b218f596ee270a16e5353b881bf5ba8d0905563",
+    "setup-error-log.png": "1e01b8c124cb9208378e4813ce7ccb953cb59711f6853b59a17c8f77ea596787"
+  },
+  "cache_evidence": "/data/cache/qcow2-installation-1005",
+  "limitations": [
+    "No installed-target, metadata restoration, servicing, post-install reboot or WinRE boot gate passed.",
+    "Fatal failure is independently established inside reparse restoration; corrected writer requires a new standard Setup run."
+  ],
+  "offline_logs": "/data/cache/qcow2-installation-1005/offline-failure-logs-v2",
+  "offline_log_sha256": {
+    "extraction.txt": "e23e6c6df4b7c5ca531d9b6bd07d887c296fe1efb7bd42e60af31b59113f8219",
+    "partition-3/qcow2-failure/file-list.txt": "bea17c939713a012be1292448402a6e1d64283f0f8bfa0551b889811c5bff93e",
+    "partition-3/$WINDOWS.~BT/Sources/Panther/setuperr.log": "71f986ff7d94815e06a55fbfaf3f48f3d7b15903b41b0785abf816b3bd586612",
+    "partition-3/$WINDOWS.~BT/Sources/Panther/setupact.log": "3445183c717273ff901ea7fef10fef83140a965d80b9487aa4ac0bb8fa094972",
+    "partition-3/qcow2-failure/x-panther/_s_B061.tmp": "6b5d4b32236a921bacdefe19852ec0699ca2eacd72d4e57f50a2de06ede21c8e",
+    "partition-3/qcow2-failure/target-bt-panther/setuperr.log": "71f986ff7d94815e06a55fbfaf3f48f3d7b15903b41b0785abf816b3bd586612",
+    "partition-3/qcow2-failure/target-bt-panther/DlTel-Merge.etl": "0dc971fbc13bd6b8dab50496025d51ab9e11ed86a5e1c633e4074ee64888c57b",
+    "partition-3/qcow2-failure/target-bt-panther/windlp.state.xml": "033950469f60ae2ec98e8badc4b083093adcea5ae2eace7726a30cc4c1a0b704",
+    "partition-3/qcow2-failure/target-bt-panther/DlTel.etl": "c6f48239e938b19ff8385b819535db1a74cb16549937688aed2855ffb6d8f3f0",
+    "partition-3/qcow2-failure/target-bt-panther/diagerr.xml": "5a82f45cf6731260669463916ada705fba2facc430fa9cf71ff027c3cac727c3",
+    "partition-3/qcow2-failure/target-bt-panther/diagwrn.xml": "536f758af192a966429e09cc054cef8790ea6893f1910c09db3c2e0e40789ec1",
+    "partition-3/qcow2-failure/target-bt-panther/setupact.log": "3445183c717273ff901ea7fef10fef83140a965d80b9487aa4ac0bb8fa094972",
+    "partition-3/qcow2-failure/target-bt-panther/_s_B061.tmp": "6b5d4b32236a921bacdefe19852ec0699ca2eacd72d4e57f50a2de06ede21c8e",
+    "partition-3/qcow2-failure/target-bt-panther/CompatData_2026_10_05_11_50_08_00000001.xml": "4905f0f2e83bf41a62208e2ede3ab231f042f556a8b8fed6981a65655e2dad71",
+    "partition-3/qcow2-failure/target-bt-panther/DlTel.Merge.00001.etl": "41f90f46045086153a3b3f307ba1205e61108c0a8dbbf32f1740137b376377a0",
+    "partition-3/qcow2-failure/target-bt-panther/windlp.state-old.xml": "033950469f60ae2ec98e8badc4b083093adcea5ae2eace7726a30cc4c1a0b704",
+    "partition-3/qcow2-failure/target-bt-panther/compatscancache.dat": "4705b30af7f5c11f6097f2e4b1eb4c8195868db581ad3d17c52db6d1abfd3607",
+    "partition-3/qcow2-failure/x-bt-panther/setuperr.log": "bde0ca3bbc32ff79f24c7288121ddcdc65ba7d907174d0aad5f1ac38cfb81875",
+    "partition-3/qcow2-failure/x-bt-panther/diagerr.xml": "85b506cb1398e9c726afe2a2bc7efecebe139c4e2454400b021cf491fe64588f",
+    "partition-3/qcow2-failure/x-bt-panther/diagwrn.xml": "63bdd53b0ff398a32184ad8ef7bdaf31d66100016c6f92dc5aebe1d0e93c737d",
+    "partition-3/qcow2-failure/x-bt-panther/setupact.log": "23df7891d8087655514f443b25e2d3d45b1bb1c36d53db139f283ba9ed488a69",
+    "partition-3/qcow2-failure/x-bt-panther/CompatData_2026_10_05_11_50_08_00000001.xml": "4905f0f2e83bf41a62208e2ede3ab231f042f556a8b8fed6981a65655e2dad71",
+    "partition-3/qcow2-failure/x-bt-panther/compatscancache.dat": "4705b30af7f5c11f6097f2e4b1eb4c8195868db581ad3d17c52db6d1abfd3607"
+  }
+}

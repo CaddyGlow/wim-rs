@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "scope": "Root full physical WIM hash and upstream complete verification of experimental staged0 capture; not installation proof",
+  "wim": {
+    "path": "/data/cache/qcow2-winre-staged-zero-control-20261006/capture/install.wim",
+    "bytes": 8234056851,
+    "sha256": "21859652805ff9758be028a55cfaa7333485b265ea9b1e8a8f197d69bda7d184"
+  },
+  "upstream_verify_exit": 0,
+  "upstream_log": {
+    "path": "/data/cache/qcow2-winre-staged-zero-control-20261006/root-upstream-verify.log",
+    "sha256": "00c36d77479a2cefcf2e246e10c446513b7896a57e9d8a4868af75cd25b0750a"
+  },
+  "experimental_staged_zero": true,
+  "production_fix_proven": false
+}

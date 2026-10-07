@@ -1,0 +1,1885 @@
+{
+  "write_flags": "4",
+  "codec": "0",
+  "native_sha256": "356de471790eb9648b9068a3a93ef037fe602545b16111bc82236908aba43623",
+  "cases": 44,
+  "exact": 44,
+  "results": [
+    {
+      "hardlinks": false,
+      "flags": 0,
+      "mutation": 0,
+      "original": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nprogress 13\nprogress 14\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nwrite 0\n",
+        "checks": {
+          "verify_status": 0,
+          "apply_status": 0,
+          "tree": [
+            [
+              "data",
+              "309a6ca2c5768b3242ffce854333d966c1ff3c6f81bef5c3dfc0fe1fb0a2ddfe"
+            ],
+            [
+              "dir",
+              "directory"
+            ],
+            [
+              "link",
+              "link:data"
+            ]
+          ],
+          "verify_stderr": "\r[WARNING] \"/tmp/capture-write-oracle-5kyvv7j2/output.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "native": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nprogress 13\nprogress 14\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nwrite 0\n",
+        "checks": {
+          "verify_status": 0,
+          "apply_status": 0,
+          "tree": [
+            [
+              "data",
+              "309a6ca2c5768b3242ffce854333d966c1ff3c6f81bef5c3dfc0fe1fb0a2ddfe"
+            ],
+            [
+              "dir",
+              "directory"
+            ],
+            [
+              "link",
+              "link:data"
+            ]
+          ],
+          "verify_stderr": "\r[WARNING] \"/tmp/capture-write-oracle-5kyvv7j2/output.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "exact": true,
+      "equal_apply": true
+    },
+    {
+      "hardlinks": false,
+      "flags": 0,
+      "mutation": 1,
+      "original": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite 47\nerrno 2\n",
+        "checks": null
+      },
+      "native": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite 47\nerrno 2\n",
+        "checks": null
+      },
+      "exact": true,
+      "equal_apply": true
+    },
+    {
+      "hardlinks": false,
+      "flags": 0,
+      "mutation": 2,
+      "original": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite 88\nerrno 22\n",
+        "checks": null
+      },
+      "native": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite 88\nerrno 22\n",
+        "checks": null
+      },
+      "exact": true,
+      "equal_apply": true
+    },
+    {
+      "hardlinks": false,
+      "flags": 0,
+      "mutation": 3,
+      "original": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite 88\nerrno 22\n",
+        "checks": null
+      },
+      "native": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite 88\nerrno 22\n",
+        "checks": null
+      },
+      "exact": true,
+      "equal_apply": true
+    },
+    {
+      "hardlinks": false,
+      "flags": 0,
+      "mutation": 4,
+      "original": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nprogress 13\nprogress 14\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nwrite 0\n",
+        "checks": {
+          "verify_status": 0,
+          "apply_status": 0,
+          "tree": [
+            [
+              "data",
+              "daa04c6eb48b80edf51f3e1513640d5bcc24673126e6380d6c53fc8bd2d4c0b5"
+            ],
+            [
+              "dir",
+              "directory"
+            ],
+            [
+              "link",
+              "link:data"
+            ]
+          ],
+          "verify_stderr": "\r[WARNING] \"/tmp/capture-write-oracle-5kyvv7j2/output.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "native": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nprogress 13\nprogress 14\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nwrite 0\n",
+        "checks": {
+          "verify_status": 0,
+          "apply_status": 0,
+          "tree": [
+            [
+              "data",
+              "daa04c6eb48b80edf51f3e1513640d5bcc24673126e6380d6c53fc8bd2d4c0b5"
+            ],
+            [
+              "dir",
+              "directory"
+            ],
+            [
+              "link",
+              "link:data"
+            ]
+          ],
+          "verify_stderr": "\r[WARNING] \"/tmp/capture-write-oracle-5kyvv7j2/output.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "exact": true,
+      "equal_apply": true
+    },
+    {
+      "hardlinks": false,
+      "flags": 0,
+      "mutation": 5,
+      "original": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nprogress 13\nprogress 14\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nwrite 0\n",
+        "checks": {
+          "verify_status": 0,
+          "apply_status": 0,
+          "tree": [
+            [
+              "data",
+              "daa04c6eb48b80edf51f3e1513640d5bcc24673126e6380d6c53fc8bd2d4c0b5"
+            ],
+            [
+              "dir",
+              "directory"
+            ],
+            [
+              "link",
+              "link:data"
+            ]
+          ],
+          "verify_stderr": "\r[WARNING] \"/tmp/capture-write-oracle-5kyvv7j2/output.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "native": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nprogress 13\nprogress 14\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nwrite 0\n",
+        "checks": {
+          "verify_status": 0,
+          "apply_status": 0,
+          "tree": [
+            [
+              "data",
+              "daa04c6eb48b80edf51f3e1513640d5bcc24673126e6380d6c53fc8bd2d4c0b5"
+            ],
+            [
+              "dir",
+              "directory"
+            ],
+            [
+              "link",
+              "link:data"
+            ]
+          ],
+          "verify_stderr": "\r[WARNING] \"/tmp/capture-write-oracle-5kyvv7j2/output.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "exact": true,
+      "equal_apply": true
+    },
+    {
+      "hardlinks": false,
+      "flags": 4,
+      "mutation": 0,
+      "original": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 10 0 1 0 0\nscan 10 0 1 1 12\nscan 10 0 1 2 44\nscan 10 0 2 2 44\nscan 11 0 2 2 44\nadd 0 images 1 boot 0 rpfix 1\nprogress 13\nprogress 14\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nwrite 0\n",
+        "checks": {
+          "verify_status": 0,
+          "apply_status": 0,
+          "tree": [
+            [
+              "data",
+              "309a6ca2c5768b3242ffce854333d966c1ff3c6f81bef5c3dfc0fe1fb0a2ddfe"
+            ],
+            [
+              "dir",
+              "directory"
+            ],
+            [
+              "link",
+              "link:data"
+            ]
+          ],
+          "verify_stderr": "\r[WARNING] \"/tmp/capture-write-oracle-5kyvv7j2/output.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "native": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 10 0 1 0 0\nscan 10 0 1 1 12\nscan 10 0 1 2 44\nscan 10 0 2 2 44\nscan 11 0 2 2 44\nadd 0 images 1 boot 0 rpfix 1\nprogress 13\nprogress 14\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nwrite 0\n",
+        "checks": {
+          "verify_status": 0,
+          "apply_status": 0,
+          "tree": [
+            [
+              "data",
+              "309a6ca2c5768b3242ffce854333d966c1ff3c6f81bef5c3dfc0fe1fb0a2ddfe"
+            ],
+            [
+              "dir",
+              "directory"
+            ],
+            [
+              "link",
+              "link:data"
+            ]
+          ],
+          "verify_stderr": "\r[WARNING] \"/tmp/capture-write-oracle-5kyvv7j2/output.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "exact": true,
+      "equal_apply": true
+    },
+    {
+      "hardlinks": false,
+      "flags": 4,
+      "mutation": 1,
+      "original": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 10 0 1 0 0\nscan 10 0 1 1 12\nscan 10 0 1 2 44\nscan 10 0 2 2 44\nscan 11 0 2 2 44\nadd 0 images 1 boot 0 rpfix 1\nwrite 47\nerrno 2\n",
+        "checks": null
+      },
+      "native": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 10 0 1 0 0\nscan 10 0 1 1 12\nscan 10 0 1 2 44\nscan 10 0 2 2 44\nscan 11 0 2 2 44\nadd 0 images 1 boot 0 rpfix 1\nwrite 47\nerrno 2\n",
+        "checks": null
+      },
+      "exact": true,
+      "equal_apply": true
+    },
+    {
+      "hardlinks": false,
+      "flags": 4,
+      "mutation": 2,
+      "original": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 10 0 1 0 0\nscan 10 0 1 1 12\nscan 10 0 1 2 44\nscan 10 0 2 2 44\nscan 11 0 2 2 44\nadd 0 images 1 boot 0 rpfix 1\nwrite 88\nerrno 22\n",
+        "checks": null
+      },
+      "native": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 10 0 1 0 0\nscan 10 0 1 1 12\nscan 10 0 1 2 44\nscan 10 0 2 2 44\nscan 11 0 2 2 44\nadd 0 images 1 boot 0 rpfix 1\nwrite 88\nerrno 22\n",
+        "checks": null
+      },
+      "exact": true,
+      "equal_apply": true
+    },
+    {
+      "hardlinks": false,
+      "flags": 4,
+      "mutation": 3,
+      "original": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 10 0 1 0 0\nscan 10 0 1 1 12\nscan 10 0 1 2 44\nscan 10 0 2 2 44\nscan 11 0 2 2 44\nadd 0 images 1 boot 0 rpfix 1\nwrite 88\nerrno 22\n",
+        "checks": null
+      },
+      "native": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 10 0 1 0 0\nscan 10 0 1 1 12\nscan 10 0 1 2 44\nscan 10 0 2 2 44\nscan 11 0 2 2 44\nadd 0 images 1 boot 0 rpfix 1\nwrite 88\nerrno 22\n",
+        "checks": null
+      },
+      "exact": true,
+      "equal_apply": true
+    },
+    {
+      "hardlinks": false,
+      "flags": 4,
+      "mutation": 4,
+      "original": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 10 0 1 0 0\nscan 10 0 1 1 12\nscan 10 0 1 2 44\nscan 10 0 2 2 44\nscan 11 0 2 2 44\nadd 0 images 1 boot 0 rpfix 1\nprogress 13\nprogress 14\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nwrite 0\n",
+        "checks": {
+          "verify_status": 0,
+          "apply_status": 0,
+          "tree": [
+            [
+              "data",
+              "daa04c6eb48b80edf51f3e1513640d5bcc24673126e6380d6c53fc8bd2d4c0b5"
+            ],
+            [
+              "dir",
+              "directory"
+            ],
+            [
+              "link",
+              "link:data"
+            ]
+          ],
+          "verify_stderr": "\r[WARNING] \"/tmp/capture-write-oracle-5kyvv7j2/output.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "native": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 10 0 1 0 0\nscan 10 0 1 1 12\nscan 10 0 1 2 44\nscan 10 0 2 2 44\nscan 11 0 2 2 44\nadd 0 images 1 boot 0 rpfix 1\nprogress 13\nprogress 14\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nwrite 0\n",
+        "checks": {
+          "verify_status": 0,
+          "apply_status": 0,
+          "tree": [
+            [
+              "data",
+              "daa04c6eb48b80edf51f3e1513640d5bcc24673126e6380d6c53fc8bd2d4c0b5"
+            ],
+            [
+              "dir",
+              "directory"
+            ],
+            [
+              "link",
+              "link:data"
+            ]
+          ],
+          "verify_stderr": "\r[WARNING] \"/tmp/capture-write-oracle-5kyvv7j2/output.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "exact": true,
+      "equal_apply": true
+    },
+    {
+      "hardlinks": false,
+      "flags": 4,
+      "mutation": 5,
+      "original": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 10 0 1 0 0\nscan 10 0 1 1 12\nscan 10 0 1 2 44\nscan 10 0 2 2 44\nscan 11 0 2 2 44\nadd 0 images 1 boot 0 rpfix 1\nprogress 13\nprogress 14\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nwrite 0\n",
+        "checks": {
+          "verify_status": 0,
+          "apply_status": 0,
+          "tree": [
+            [
+              "data",
+              "daa04c6eb48b80edf51f3e1513640d5bcc24673126e6380d6c53fc8bd2d4c0b5"
+            ],
+            [
+              "dir",
+              "directory"
+            ],
+            [
+              "link",
+              "link:data"
+            ]
+          ],
+          "verify_stderr": "\r[WARNING] \"/tmp/capture-write-oracle-5kyvv7j2/output.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "native": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 10 0 1 0 0\nscan 10 0 1 1 12\nscan 10 0 1 2 44\nscan 10 0 2 2 44\nscan 11 0 2 2 44\nadd 0 images 1 boot 0 rpfix 1\nprogress 13\nprogress 14\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nwrite 0\n",
+        "checks": {
+          "verify_status": 0,
+          "apply_status": 0,
+          "tree": [
+            [
+              "data",
+              "daa04c6eb48b80edf51f3e1513640d5bcc24673126e6380d6c53fc8bd2d4c0b5"
+            ],
+            [
+              "dir",
+              "directory"
+            ],
+            [
+              "link",
+              "link:data"
+            ]
+          ],
+          "verify_stderr": "\r[WARNING] \"/tmp/capture-write-oracle-5kyvv7j2/output.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "exact": true,
+      "equal_apply": true
+    },
+    {
+      "hardlinks": false,
+      "flags": 16,
+      "mutation": 0,
+      "original": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nprogress 13\nprogress 14\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nwrite 0\n",
+        "checks": {
+          "verify_status": 0,
+          "apply_status": 0,
+          "tree": [
+            [
+              "data",
+              "309a6ca2c5768b3242ffce854333d966c1ff3c6f81bef5c3dfc0fe1fb0a2ddfe"
+            ],
+            [
+              "dir",
+              "directory"
+            ],
+            [
+              "link",
+              "link:data"
+            ]
+          ],
+          "verify_stderr": "\r[WARNING] \"/tmp/capture-write-oracle-5kyvv7j2/output.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "native": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nprogress 13\nprogress 14\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nwrite 0\n",
+        "checks": {
+          "verify_status": 0,
+          "apply_status": 0,
+          "tree": [
+            [
+              "data",
+              "309a6ca2c5768b3242ffce854333d966c1ff3c6f81bef5c3dfc0fe1fb0a2ddfe"
+            ],
+            [
+              "dir",
+              "directory"
+            ],
+            [
+              "link",
+              "link:data"
+            ]
+          ],
+          "verify_stderr": "\r[WARNING] \"/tmp/capture-write-oracle-5kyvv7j2/output.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "exact": true,
+      "equal_apply": true
+    },
+    {
+      "hardlinks": false,
+      "flags": 20,
+      "mutation": 0,
+      "original": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 10 0 1 0 0\nscan 10 0 1 1 12\nscan 10 0 1 2 44\nscan 10 0 2 2 44\nscan 11 0 2 2 44\nadd 0 images 1 boot 0 rpfix 1\nprogress 13\nprogress 14\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nwrite 0\n",
+        "checks": {
+          "verify_status": 0,
+          "apply_status": 0,
+          "tree": [
+            [
+              "data",
+              "309a6ca2c5768b3242ffce854333d966c1ff3c6f81bef5c3dfc0fe1fb0a2ddfe"
+            ],
+            [
+              "dir",
+              "directory"
+            ],
+            [
+              "link",
+              "link:data"
+            ]
+          ],
+          "verify_stderr": "\r[WARNING] \"/tmp/capture-write-oracle-5kyvv7j2/output.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "native": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 10 0 1 0 0\nscan 10 0 1 1 12\nscan 10 0 1 2 44\nscan 10 0 2 2 44\nscan 11 0 2 2 44\nadd 0 images 1 boot 0 rpfix 1\nprogress 13\nprogress 14\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nwrite 0\n",
+        "checks": {
+          "verify_status": 0,
+          "apply_status": 0,
+          "tree": [
+            [
+              "data",
+              "309a6ca2c5768b3242ffce854333d966c1ff3c6f81bef5c3dfc0fe1fb0a2ddfe"
+            ],
+            [
+              "dir",
+              "directory"
+            ],
+            [
+              "link",
+              "link:data"
+            ]
+          ],
+          "verify_stderr": "\r[WARNING] \"/tmp/capture-write-oracle-5kyvv7j2/output.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "exact": true,
+      "equal_apply": true
+    },
+    {
+      "hardlinks": false,
+      "flags": 8,
+      "mutation": 0,
+      "original": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 1 rpfix 1\nprogress 13\nprogress 14\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nwrite 0\n",
+        "checks": {
+          "verify_status": 0,
+          "apply_status": 0,
+          "tree": [
+            [
+              "data",
+              "309a6ca2c5768b3242ffce854333d966c1ff3c6f81bef5c3dfc0fe1fb0a2ddfe"
+            ],
+            [
+              "dir",
+              "directory"
+            ],
+            [
+              "link",
+              "link:data"
+            ]
+          ],
+          "verify_stderr": "\r[WARNING] \"/tmp/capture-write-oracle-5kyvv7j2/output.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "native": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 1 rpfix 1\nprogress 13\nprogress 14\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nwrite 0\n",
+        "checks": {
+          "verify_status": 0,
+          "apply_status": 0,
+          "tree": [
+            [
+              "data",
+              "309a6ca2c5768b3242ffce854333d966c1ff3c6f81bef5c3dfc0fe1fb0a2ddfe"
+            ],
+            [
+              "dir",
+              "directory"
+            ],
+            [
+              "link",
+              "link:data"
+            ]
+          ],
+          "verify_stderr": "\r[WARNING] \"/tmp/capture-write-oracle-5kyvv7j2/output.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "exact": true,
+      "equal_apply": true
+    },
+    {
+      "hardlinks": false,
+      "flags": 256,
+      "mutation": 0,
+      "original": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nprogress 13\nprogress 14\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nwrite 0\n",
+        "checks": {
+          "verify_status": 0,
+          "apply_status": 0,
+          "tree": [
+            [
+              "data",
+              "309a6ca2c5768b3242ffce854333d966c1ff3c6f81bef5c3dfc0fe1fb0a2ddfe"
+            ],
+            [
+              "dir",
+              "directory"
+            ],
+            [
+              "link",
+              "link:data"
+            ]
+          ],
+          "verify_stderr": "\r[WARNING] \"/tmp/capture-write-oracle-5kyvv7j2/output.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "native": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nprogress 13\nprogress 14\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nwrite 0\n",
+        "checks": {
+          "verify_status": 0,
+          "apply_status": 0,
+          "tree": [
+            [
+              "data",
+              "309a6ca2c5768b3242ffce854333d966c1ff3c6f81bef5c3dfc0fe1fb0a2ddfe"
+            ],
+            [
+              "dir",
+              "directory"
+            ],
+            [
+              "link",
+              "link:data"
+            ]
+          ],
+          "verify_stderr": "\r[WARNING] \"/tmp/capture-write-oracle-5kyvv7j2/output.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "exact": true,
+      "equal_apply": true
+    },
+    {
+      "hardlinks": false,
+      "flags": 768,
+      "mutation": 0,
+      "original": {
+        "status": 0,
+        "output": "create 0\nadd 24 images 0 boot 0 rpfix 0\nerrno 123\n",
+        "checks": null
+      },
+      "native": {
+        "status": 0,
+        "output": "create 0\nadd 24 images 0 boot 0 rpfix 0\nerrno 123\n",
+        "checks": null
+      },
+      "exact": true,
+      "equal_apply": true
+    },
+    {
+      "hardlinks": false,
+      "flags": 32768,
+      "mutation": 0,
+      "original": {
+        "status": 0,
+        "output": "create 0\nadd 68 images 0 boot 0 rpfix 0\nerrno 123\n",
+        "checks": null
+      },
+      "native": {
+        "status": 0,
+        "output": "create 0\nadd 68 images 0 boot 0 rpfix 0\nerrno 123\n",
+        "checks": null
+      },
+      "exact": true,
+      "equal_apply": true
+    },
+    {
+      "hardlinks": false,
+      "flags": 1048576,
+      "mutation": 0,
+      "original": {
+        "status": 0,
+        "output": "create 0\nadd 24 images 0 boot 0 rpfix 0\nerrno 123\n",
+        "checks": null
+      },
+      "native": {
+        "status": 0,
+        "output": "create 0\nadd 24 images 0 boot 0 rpfix 0\nerrno 123\n",
+        "checks": null
+      },
+      "exact": true,
+      "equal_apply": true
+    },
+    {
+      "hardlinks": false,
+      "flags": 32,
+      "mutation": 0,
+      "original": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nprogress 13\nprogress 14\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nwrite 0\n",
+        "checks": {
+          "verify_status": 0,
+          "apply_status": 0,
+          "tree": [
+            [
+              "data",
+              "309a6ca2c5768b3242ffce854333d966c1ff3c6f81bef5c3dfc0fe1fb0a2ddfe"
+            ],
+            [
+              "dir",
+              "directory"
+            ],
+            [
+              "link",
+              "link:data"
+            ]
+          ],
+          "verify_stderr": "\r[WARNING] \"/tmp/capture-write-oracle-5kyvv7j2/output.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "native": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nprogress 13\nprogress 14\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nwrite 0\n",
+        "checks": {
+          "verify_status": 0,
+          "apply_status": 0,
+          "tree": [
+            [
+              "data",
+              "309a6ca2c5768b3242ffce854333d966c1ff3c6f81bef5c3dfc0fe1fb0a2ddfe"
+            ],
+            [
+              "dir",
+              "directory"
+            ],
+            [
+              "link",
+              "link:data"
+            ]
+          ],
+          "verify_stderr": "\r[WARNING] \"/tmp/capture-write-oracle-5kyvv7j2/output.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "exact": true,
+      "equal_apply": true
+    },
+    {
+      "hardlinks": false,
+      "flags": 64,
+      "mutation": 0,
+      "original": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nprogress 13\nprogress 14\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nwrite 0\n",
+        "checks": {
+          "verify_status": 0,
+          "apply_status": 0,
+          "tree": [
+            [
+              "data",
+              "309a6ca2c5768b3242ffce854333d966c1ff3c6f81bef5c3dfc0fe1fb0a2ddfe"
+            ],
+            [
+              "dir",
+              "directory"
+            ],
+            [
+              "link",
+              "link:data"
+            ]
+          ],
+          "verify_stderr": "\r[WARNING] \"/tmp/capture-write-oracle-5kyvv7j2/output.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "native": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nprogress 13\nprogress 14\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nwrite 0\n",
+        "checks": {
+          "verify_status": 0,
+          "apply_status": 0,
+          "tree": [
+            [
+              "data",
+              "309a6ca2c5768b3242ffce854333d966c1ff3c6f81bef5c3dfc0fe1fb0a2ddfe"
+            ],
+            [
+              "dir",
+              "directory"
+            ],
+            [
+              "link",
+              "link:data"
+            ]
+          ],
+          "verify_stderr": "\r[WARNING] \"/tmp/capture-write-oracle-5kyvv7j2/output.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "exact": true,
+      "equal_apply": true
+    },
+    {
+      "hardlinks": false,
+      "flags": 96,
+      "mutation": 0,
+      "original": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nprogress 13\nprogress 14\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nwrite 0\n",
+        "checks": {
+          "verify_status": 0,
+          "apply_status": 0,
+          "tree": [
+            [
+              "data",
+              "309a6ca2c5768b3242ffce854333d966c1ff3c6f81bef5c3dfc0fe1fb0a2ddfe"
+            ],
+            [
+              "dir",
+              "directory"
+            ],
+            [
+              "link",
+              "link:data"
+            ]
+          ],
+          "verify_stderr": "\r[WARNING] \"/tmp/capture-write-oracle-5kyvv7j2/output.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "native": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nprogress 13\nprogress 14\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nwrite 0\n",
+        "checks": {
+          "verify_status": 0,
+          "apply_status": 0,
+          "tree": [
+            [
+              "data",
+              "309a6ca2c5768b3242ffce854333d966c1ff3c6f81bef5c3dfc0fe1fb0a2ddfe"
+            ],
+            [
+              "dir",
+              "directory"
+            ],
+            [
+              "link",
+              "link:data"
+            ]
+          ],
+          "verify_stderr": "\r[WARNING] \"/tmp/capture-write-oracle-5kyvv7j2/output.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "exact": true,
+      "equal_apply": true
+    },
+    {
+      "hardlinks": true,
+      "flags": 0,
+      "mutation": 0,
+      "original": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nprogress 13\nprogress 14\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nwrite 0\n",
+        "checks": {
+          "verify_status": 0,
+          "apply_status": 0,
+          "tree": [
+            [
+              "alias",
+              "309a6ca2c5768b3242ffce854333d966c1ff3c6f81bef5c3dfc0fe1fb0a2ddfe"
+            ],
+            [
+              "data",
+              "309a6ca2c5768b3242ffce854333d966c1ff3c6f81bef5c3dfc0fe1fb0a2ddfe"
+            ],
+            [
+              "dir",
+              "directory"
+            ],
+            [
+              "link",
+              "link:data"
+            ]
+          ],
+          "verify_stderr": "\r[WARNING] \"/tmp/capture-write-oracle-5kyvv7j2/output.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "native": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nprogress 13\nprogress 14\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nwrite 0\n",
+        "checks": {
+          "verify_status": 0,
+          "apply_status": 0,
+          "tree": [
+            [
+              "alias",
+              "309a6ca2c5768b3242ffce854333d966c1ff3c6f81bef5c3dfc0fe1fb0a2ddfe"
+            ],
+            [
+              "data",
+              "309a6ca2c5768b3242ffce854333d966c1ff3c6f81bef5c3dfc0fe1fb0a2ddfe"
+            ],
+            [
+              "dir",
+              "directory"
+            ],
+            [
+              "link",
+              "link:data"
+            ]
+          ],
+          "verify_stderr": "\r[WARNING] \"/tmp/capture-write-oracle-5kyvv7j2/output.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "exact": true,
+      "equal_apply": true
+    },
+    {
+      "hardlinks": true,
+      "flags": 0,
+      "mutation": 1,
+      "original": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nprogress 13\nprogress 14\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nwrite 0\n",
+        "checks": {
+          "verify_status": 0,
+          "apply_status": 0,
+          "tree": [
+            [
+              "alias",
+              "309a6ca2c5768b3242ffce854333d966c1ff3c6f81bef5c3dfc0fe1fb0a2ddfe"
+            ],
+            [
+              "data",
+              "309a6ca2c5768b3242ffce854333d966c1ff3c6f81bef5c3dfc0fe1fb0a2ddfe"
+            ],
+            [
+              "dir",
+              "directory"
+            ],
+            [
+              "link",
+              "link:data"
+            ]
+          ],
+          "verify_stderr": "\r[WARNING] \"/tmp/capture-write-oracle-5kyvv7j2/output.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "native": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nprogress 13\nprogress 14\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nwrite 0\n",
+        "checks": {
+          "verify_status": 0,
+          "apply_status": 0,
+          "tree": [
+            [
+              "alias",
+              "309a6ca2c5768b3242ffce854333d966c1ff3c6f81bef5c3dfc0fe1fb0a2ddfe"
+            ],
+            [
+              "data",
+              "309a6ca2c5768b3242ffce854333d966c1ff3c6f81bef5c3dfc0fe1fb0a2ddfe"
+            ],
+            [
+              "dir",
+              "directory"
+            ],
+            [
+              "link",
+              "link:data"
+            ]
+          ],
+          "verify_stderr": "\r[WARNING] \"/tmp/capture-write-oracle-5kyvv7j2/output.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "exact": true,
+      "equal_apply": true
+    },
+    {
+      "hardlinks": true,
+      "flags": 0,
+      "mutation": 2,
+      "original": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite 88\nerrno 22\n",
+        "checks": null
+      },
+      "native": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite 88\nerrno 22\n",
+        "checks": null
+      },
+      "exact": true,
+      "equal_apply": true
+    },
+    {
+      "hardlinks": true,
+      "flags": 0,
+      "mutation": 3,
+      "original": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite 88\nerrno 22\n",
+        "checks": null
+      },
+      "native": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nwrite 88\nerrno 22\n",
+        "checks": null
+      },
+      "exact": true,
+      "equal_apply": true
+    },
+    {
+      "hardlinks": true,
+      "flags": 0,
+      "mutation": 4,
+      "original": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nprogress 13\nprogress 14\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nwrite 0\n",
+        "checks": {
+          "verify_status": 0,
+          "apply_status": 0,
+          "tree": [
+            [
+              "alias",
+              "daa04c6eb48b80edf51f3e1513640d5bcc24673126e6380d6c53fc8bd2d4c0b5"
+            ],
+            [
+              "data",
+              "daa04c6eb48b80edf51f3e1513640d5bcc24673126e6380d6c53fc8bd2d4c0b5"
+            ],
+            [
+              "dir",
+              "directory"
+            ],
+            [
+              "link",
+              "link:data"
+            ]
+          ],
+          "verify_stderr": "\r[WARNING] \"/tmp/capture-write-oracle-5kyvv7j2/output.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "native": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nprogress 13\nprogress 14\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nwrite 0\n",
+        "checks": {
+          "verify_status": 0,
+          "apply_status": 0,
+          "tree": [
+            [
+              "alias",
+              "daa04c6eb48b80edf51f3e1513640d5bcc24673126e6380d6c53fc8bd2d4c0b5"
+            ],
+            [
+              "data",
+              "daa04c6eb48b80edf51f3e1513640d5bcc24673126e6380d6c53fc8bd2d4c0b5"
+            ],
+            [
+              "dir",
+              "directory"
+            ],
+            [
+              "link",
+              "link:data"
+            ]
+          ],
+          "verify_stderr": "\r[WARNING] \"/tmp/capture-write-oracle-5kyvv7j2/output.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "exact": true,
+      "equal_apply": true
+    },
+    {
+      "hardlinks": true,
+      "flags": 0,
+      "mutation": 5,
+      "original": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nprogress 13\nprogress 14\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nwrite 0\n",
+        "checks": {
+          "verify_status": 0,
+          "apply_status": 0,
+          "tree": [
+            [
+              "alias",
+              "daa04c6eb48b80edf51f3e1513640d5bcc24673126e6380d6c53fc8bd2d4c0b5"
+            ],
+            [
+              "data",
+              "daa04c6eb48b80edf51f3e1513640d5bcc24673126e6380d6c53fc8bd2d4c0b5"
+            ],
+            [
+              "dir",
+              "directory"
+            ],
+            [
+              "link",
+              "link:data"
+            ]
+          ],
+          "verify_stderr": "\r[WARNING] \"/tmp/capture-write-oracle-5kyvv7j2/output.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "native": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nprogress 13\nprogress 14\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nwrite 0\n",
+        "checks": {
+          "verify_status": 0,
+          "apply_status": 0,
+          "tree": [
+            [
+              "alias",
+              "daa04c6eb48b80edf51f3e1513640d5bcc24673126e6380d6c53fc8bd2d4c0b5"
+            ],
+            [
+              "data",
+              "daa04c6eb48b80edf51f3e1513640d5bcc24673126e6380d6c53fc8bd2d4c0b5"
+            ],
+            [
+              "dir",
+              "directory"
+            ],
+            [
+              "link",
+              "link:data"
+            ]
+          ],
+          "verify_stderr": "\r[WARNING] \"/tmp/capture-write-oracle-5kyvv7j2/output.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "exact": true,
+      "equal_apply": true
+    },
+    {
+      "hardlinks": true,
+      "flags": 4,
+      "mutation": 0,
+      "original": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 10 0 1 0 0\nscan 10 0 1 1 12\nscan 10 0 1 2 12\nscan 10 0 1 3 44\nscan 10 0 2 3 44\nscan 11 0 2 3 44\nadd 0 images 1 boot 0 rpfix 1\nprogress 13\nprogress 14\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nwrite 0\n",
+        "checks": {
+          "verify_status": 0,
+          "apply_status": 0,
+          "tree": [
+            [
+              "alias",
+              "309a6ca2c5768b3242ffce854333d966c1ff3c6f81bef5c3dfc0fe1fb0a2ddfe"
+            ],
+            [
+              "data",
+              "309a6ca2c5768b3242ffce854333d966c1ff3c6f81bef5c3dfc0fe1fb0a2ddfe"
+            ],
+            [
+              "dir",
+              "directory"
+            ],
+            [
+              "link",
+              "link:data"
+            ]
+          ],
+          "verify_stderr": "\r[WARNING] \"/tmp/capture-write-oracle-5kyvv7j2/output.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "native": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 10 0 1 0 0\nscan 10 0 1 1 12\nscan 10 0 1 2 12\nscan 10 0 1 3 44\nscan 10 0 2 3 44\nscan 11 0 2 3 44\nadd 0 images 1 boot 0 rpfix 1\nprogress 13\nprogress 14\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nwrite 0\n",
+        "checks": {
+          "verify_status": 0,
+          "apply_status": 0,
+          "tree": [
+            [
+              "alias",
+              "309a6ca2c5768b3242ffce854333d966c1ff3c6f81bef5c3dfc0fe1fb0a2ddfe"
+            ],
+            [
+              "data",
+              "309a6ca2c5768b3242ffce854333d966c1ff3c6f81bef5c3dfc0fe1fb0a2ddfe"
+            ],
+            [
+              "dir",
+              "directory"
+            ],
+            [
+              "link",
+              "link:data"
+            ]
+          ],
+          "verify_stderr": "\r[WARNING] \"/tmp/capture-write-oracle-5kyvv7j2/output.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "exact": true,
+      "equal_apply": true
+    },
+    {
+      "hardlinks": true,
+      "flags": 4,
+      "mutation": 1,
+      "original": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 10 0 1 0 0\nscan 10 0 1 1 12\nscan 10 0 1 2 12\nscan 10 0 1 3 44\nscan 10 0 2 3 44\nscan 11 0 2 3 44\nadd 0 images 1 boot 0 rpfix 1\nprogress 13\nprogress 14\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nwrite 0\n",
+        "checks": {
+          "verify_status": 0,
+          "apply_status": 0,
+          "tree": [
+            [
+              "alias",
+              "309a6ca2c5768b3242ffce854333d966c1ff3c6f81bef5c3dfc0fe1fb0a2ddfe"
+            ],
+            [
+              "data",
+              "309a6ca2c5768b3242ffce854333d966c1ff3c6f81bef5c3dfc0fe1fb0a2ddfe"
+            ],
+            [
+              "dir",
+              "directory"
+            ],
+            [
+              "link",
+              "link:data"
+            ]
+          ],
+          "verify_stderr": "\r[WARNING] \"/tmp/capture-write-oracle-5kyvv7j2/output.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "native": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 10 0 1 0 0\nscan 10 0 1 1 12\nscan 10 0 1 2 12\nscan 10 0 1 3 44\nscan 10 0 2 3 44\nscan 11 0 2 3 44\nadd 0 images 1 boot 0 rpfix 1\nprogress 13\nprogress 14\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nwrite 0\n",
+        "checks": {
+          "verify_status": 0,
+          "apply_status": 0,
+          "tree": [
+            [
+              "alias",
+              "309a6ca2c5768b3242ffce854333d966c1ff3c6f81bef5c3dfc0fe1fb0a2ddfe"
+            ],
+            [
+              "data",
+              "309a6ca2c5768b3242ffce854333d966c1ff3c6f81bef5c3dfc0fe1fb0a2ddfe"
+            ],
+            [
+              "dir",
+              "directory"
+            ],
+            [
+              "link",
+              "link:data"
+            ]
+          ],
+          "verify_stderr": "\r[WARNING] \"/tmp/capture-write-oracle-5kyvv7j2/output.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "exact": true,
+      "equal_apply": true
+    },
+    {
+      "hardlinks": true,
+      "flags": 4,
+      "mutation": 2,
+      "original": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 10 0 1 0 0\nscan 10 0 1 1 12\nscan 10 0 1 2 12\nscan 10 0 1 3 44\nscan 10 0 2 3 44\nscan 11 0 2 3 44\nadd 0 images 1 boot 0 rpfix 1\nwrite 88\nerrno 22\n",
+        "checks": null
+      },
+      "native": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 10 0 1 0 0\nscan 10 0 1 1 12\nscan 10 0 1 2 12\nscan 10 0 1 3 44\nscan 10 0 2 3 44\nscan 11 0 2 3 44\nadd 0 images 1 boot 0 rpfix 1\nwrite 88\nerrno 22\n",
+        "checks": null
+      },
+      "exact": true,
+      "equal_apply": true
+    },
+    {
+      "hardlinks": true,
+      "flags": 4,
+      "mutation": 3,
+      "original": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 10 0 1 0 0\nscan 10 0 1 1 12\nscan 10 0 1 2 12\nscan 10 0 1 3 44\nscan 10 0 2 3 44\nscan 11 0 2 3 44\nadd 0 images 1 boot 0 rpfix 1\nwrite 88\nerrno 22\n",
+        "checks": null
+      },
+      "native": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 10 0 1 0 0\nscan 10 0 1 1 12\nscan 10 0 1 2 12\nscan 10 0 1 3 44\nscan 10 0 2 3 44\nscan 11 0 2 3 44\nadd 0 images 1 boot 0 rpfix 1\nwrite 88\nerrno 22\n",
+        "checks": null
+      },
+      "exact": true,
+      "equal_apply": true
+    },
+    {
+      "hardlinks": true,
+      "flags": 4,
+      "mutation": 4,
+      "original": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 10 0 1 0 0\nscan 10 0 1 1 12\nscan 10 0 1 2 12\nscan 10 0 1 3 44\nscan 10 0 2 3 44\nscan 11 0 2 3 44\nadd 0 images 1 boot 0 rpfix 1\nprogress 13\nprogress 14\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nwrite 0\n",
+        "checks": {
+          "verify_status": 0,
+          "apply_status": 0,
+          "tree": [
+            [
+              "alias",
+              "daa04c6eb48b80edf51f3e1513640d5bcc24673126e6380d6c53fc8bd2d4c0b5"
+            ],
+            [
+              "data",
+              "daa04c6eb48b80edf51f3e1513640d5bcc24673126e6380d6c53fc8bd2d4c0b5"
+            ],
+            [
+              "dir",
+              "directory"
+            ],
+            [
+              "link",
+              "link:data"
+            ]
+          ],
+          "verify_stderr": "\r[WARNING] \"/tmp/capture-write-oracle-5kyvv7j2/output.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "native": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 10 0 1 0 0\nscan 10 0 1 1 12\nscan 10 0 1 2 12\nscan 10 0 1 3 44\nscan 10 0 2 3 44\nscan 11 0 2 3 44\nadd 0 images 1 boot 0 rpfix 1\nprogress 13\nprogress 14\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nwrite 0\n",
+        "checks": {
+          "verify_status": 0,
+          "apply_status": 0,
+          "tree": [
+            [
+              "alias",
+              "daa04c6eb48b80edf51f3e1513640d5bcc24673126e6380d6c53fc8bd2d4c0b5"
+            ],
+            [
+              "data",
+              "daa04c6eb48b80edf51f3e1513640d5bcc24673126e6380d6c53fc8bd2d4c0b5"
+            ],
+            [
+              "dir",
+              "directory"
+            ],
+            [
+              "link",
+              "link:data"
+            ]
+          ],
+          "verify_stderr": "\r[WARNING] \"/tmp/capture-write-oracle-5kyvv7j2/output.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "exact": true,
+      "equal_apply": true
+    },
+    {
+      "hardlinks": true,
+      "flags": 4,
+      "mutation": 5,
+      "original": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 10 0 1 0 0\nscan 10 0 1 1 12\nscan 10 0 1 2 12\nscan 10 0 1 3 44\nscan 10 0 2 3 44\nscan 11 0 2 3 44\nadd 0 images 1 boot 0 rpfix 1\nprogress 13\nprogress 14\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nwrite 0\n",
+        "checks": {
+          "verify_status": 0,
+          "apply_status": 0,
+          "tree": [
+            [
+              "alias",
+              "daa04c6eb48b80edf51f3e1513640d5bcc24673126e6380d6c53fc8bd2d4c0b5"
+            ],
+            [
+              "data",
+              "daa04c6eb48b80edf51f3e1513640d5bcc24673126e6380d6c53fc8bd2d4c0b5"
+            ],
+            [
+              "dir",
+              "directory"
+            ],
+            [
+              "link",
+              "link:data"
+            ]
+          ],
+          "verify_stderr": "\r[WARNING] \"/tmp/capture-write-oracle-5kyvv7j2/output.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "native": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 10 0 1 0 0\nscan 10 0 1 1 12\nscan 10 0 1 2 12\nscan 10 0 1 3 44\nscan 10 0 2 3 44\nscan 11 0 2 3 44\nadd 0 images 1 boot 0 rpfix 1\nprogress 13\nprogress 14\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nwrite 0\n",
+        "checks": {
+          "verify_status": 0,
+          "apply_status": 0,
+          "tree": [
+            [
+              "alias",
+              "daa04c6eb48b80edf51f3e1513640d5bcc24673126e6380d6c53fc8bd2d4c0b5"
+            ],
+            [
+              "data",
+              "daa04c6eb48b80edf51f3e1513640d5bcc24673126e6380d6c53fc8bd2d4c0b5"
+            ],
+            [
+              "dir",
+              "directory"
+            ],
+            [
+              "link",
+              "link:data"
+            ]
+          ],
+          "verify_stderr": "\r[WARNING] \"/tmp/capture-write-oracle-5kyvv7j2/output.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "exact": true,
+      "equal_apply": true
+    },
+    {
+      "hardlinks": true,
+      "flags": 16,
+      "mutation": 0,
+      "original": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nprogress 13\nprogress 14\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nwrite 0\n",
+        "checks": {
+          "verify_status": 0,
+          "apply_status": 0,
+          "tree": [
+            [
+              "alias",
+              "309a6ca2c5768b3242ffce854333d966c1ff3c6f81bef5c3dfc0fe1fb0a2ddfe"
+            ],
+            [
+              "data",
+              "309a6ca2c5768b3242ffce854333d966c1ff3c6f81bef5c3dfc0fe1fb0a2ddfe"
+            ],
+            [
+              "dir",
+              "directory"
+            ],
+            [
+              "link",
+              "link:data"
+            ]
+          ],
+          "verify_stderr": "\r[WARNING] \"/tmp/capture-write-oracle-5kyvv7j2/output.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "native": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nprogress 13\nprogress 14\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nwrite 0\n",
+        "checks": {
+          "verify_status": 0,
+          "apply_status": 0,
+          "tree": [
+            [
+              "alias",
+              "309a6ca2c5768b3242ffce854333d966c1ff3c6f81bef5c3dfc0fe1fb0a2ddfe"
+            ],
+            [
+              "data",
+              "309a6ca2c5768b3242ffce854333d966c1ff3c6f81bef5c3dfc0fe1fb0a2ddfe"
+            ],
+            [
+              "dir",
+              "directory"
+            ],
+            [
+              "link",
+              "link:data"
+            ]
+          ],
+          "verify_stderr": "\r[WARNING] \"/tmp/capture-write-oracle-5kyvv7j2/output.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "exact": true,
+      "equal_apply": true
+    },
+    {
+      "hardlinks": true,
+      "flags": 20,
+      "mutation": 0,
+      "original": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 10 0 1 0 0\nscan 10 0 1 1 12\nscan 10 0 1 2 12\nscan 10 0 1 3 44\nscan 10 0 2 3 44\nscan 11 0 2 3 44\nadd 0 images 1 boot 0 rpfix 1\nprogress 13\nprogress 14\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nwrite 0\n",
+        "checks": {
+          "verify_status": 0,
+          "apply_status": 0,
+          "tree": [
+            [
+              "alias",
+              "309a6ca2c5768b3242ffce854333d966c1ff3c6f81bef5c3dfc0fe1fb0a2ddfe"
+            ],
+            [
+              "data",
+              "309a6ca2c5768b3242ffce854333d966c1ff3c6f81bef5c3dfc0fe1fb0a2ddfe"
+            ],
+            [
+              "dir",
+              "directory"
+            ],
+            [
+              "link",
+              "link:data"
+            ]
+          ],
+          "verify_stderr": "\r[WARNING] \"/tmp/capture-write-oracle-5kyvv7j2/output.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "native": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 10 0 1 0 0\nscan 10 0 1 1 12\nscan 10 0 1 2 12\nscan 10 0 1 3 44\nscan 10 0 2 3 44\nscan 11 0 2 3 44\nadd 0 images 1 boot 0 rpfix 1\nprogress 13\nprogress 14\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nwrite 0\n",
+        "checks": {
+          "verify_status": 0,
+          "apply_status": 0,
+          "tree": [
+            [
+              "alias",
+              "309a6ca2c5768b3242ffce854333d966c1ff3c6f81bef5c3dfc0fe1fb0a2ddfe"
+            ],
+            [
+              "data",
+              "309a6ca2c5768b3242ffce854333d966c1ff3c6f81bef5c3dfc0fe1fb0a2ddfe"
+            ],
+            [
+              "dir",
+              "directory"
+            ],
+            [
+              "link",
+              "link:data"
+            ]
+          ],
+          "verify_stderr": "\r[WARNING] \"/tmp/capture-write-oracle-5kyvv7j2/output.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "exact": true,
+      "equal_apply": true
+    },
+    {
+      "hardlinks": true,
+      "flags": 8,
+      "mutation": 0,
+      "original": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 1 rpfix 1\nprogress 13\nprogress 14\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nwrite 0\n",
+        "checks": {
+          "verify_status": 0,
+          "apply_status": 0,
+          "tree": [
+            [
+              "alias",
+              "309a6ca2c5768b3242ffce854333d966c1ff3c6f81bef5c3dfc0fe1fb0a2ddfe"
+            ],
+            [
+              "data",
+              "309a6ca2c5768b3242ffce854333d966c1ff3c6f81bef5c3dfc0fe1fb0a2ddfe"
+            ],
+            [
+              "dir",
+              "directory"
+            ],
+            [
+              "link",
+              "link:data"
+            ]
+          ],
+          "verify_stderr": "\r[WARNING] \"/tmp/capture-write-oracle-5kyvv7j2/output.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "native": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 1 rpfix 1\nprogress 13\nprogress 14\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nwrite 0\n",
+        "checks": {
+          "verify_status": 0,
+          "apply_status": 0,
+          "tree": [
+            [
+              "alias",
+              "309a6ca2c5768b3242ffce854333d966c1ff3c6f81bef5c3dfc0fe1fb0a2ddfe"
+            ],
+            [
+              "data",
+              "309a6ca2c5768b3242ffce854333d966c1ff3c6f81bef5c3dfc0fe1fb0a2ddfe"
+            ],
+            [
+              "dir",
+              "directory"
+            ],
+            [
+              "link",
+              "link:data"
+            ]
+          ],
+          "verify_stderr": "\r[WARNING] \"/tmp/capture-write-oracle-5kyvv7j2/output.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "exact": true,
+      "equal_apply": true
+    },
+    {
+      "hardlinks": true,
+      "flags": 256,
+      "mutation": 0,
+      "original": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nprogress 13\nprogress 14\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nwrite 0\n",
+        "checks": {
+          "verify_status": 0,
+          "apply_status": 0,
+          "tree": [
+            [
+              "alias",
+              "309a6ca2c5768b3242ffce854333d966c1ff3c6f81bef5c3dfc0fe1fb0a2ddfe"
+            ],
+            [
+              "data",
+              "309a6ca2c5768b3242ffce854333d966c1ff3c6f81bef5c3dfc0fe1fb0a2ddfe"
+            ],
+            [
+              "dir",
+              "directory"
+            ],
+            [
+              "link",
+              "link:data"
+            ]
+          ],
+          "verify_stderr": "\r[WARNING] \"/tmp/capture-write-oracle-5kyvv7j2/output.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "native": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nprogress 13\nprogress 14\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nwrite 0\n",
+        "checks": {
+          "verify_status": 0,
+          "apply_status": 0,
+          "tree": [
+            [
+              "alias",
+              "309a6ca2c5768b3242ffce854333d966c1ff3c6f81bef5c3dfc0fe1fb0a2ddfe"
+            ],
+            [
+              "data",
+              "309a6ca2c5768b3242ffce854333d966c1ff3c6f81bef5c3dfc0fe1fb0a2ddfe"
+            ],
+            [
+              "dir",
+              "directory"
+            ],
+            [
+              "link",
+              "link:data"
+            ]
+          ],
+          "verify_stderr": "\r[WARNING] \"/tmp/capture-write-oracle-5kyvv7j2/output.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "exact": true,
+      "equal_apply": true
+    },
+    {
+      "hardlinks": true,
+      "flags": 768,
+      "mutation": 0,
+      "original": {
+        "status": 0,
+        "output": "create 0\nadd 24 images 0 boot 0 rpfix 0\nerrno 123\n",
+        "checks": null
+      },
+      "native": {
+        "status": 0,
+        "output": "create 0\nadd 24 images 0 boot 0 rpfix 0\nerrno 123\n",
+        "checks": null
+      },
+      "exact": true,
+      "equal_apply": true
+    },
+    {
+      "hardlinks": true,
+      "flags": 32768,
+      "mutation": 0,
+      "original": {
+        "status": 0,
+        "output": "create 0\nadd 68 images 0 boot 0 rpfix 0\nerrno 123\n",
+        "checks": null
+      },
+      "native": {
+        "status": 0,
+        "output": "create 0\nadd 68 images 0 boot 0 rpfix 0\nerrno 123\n",
+        "checks": null
+      },
+      "exact": true,
+      "equal_apply": true
+    },
+    {
+      "hardlinks": true,
+      "flags": 1048576,
+      "mutation": 0,
+      "original": {
+        "status": 0,
+        "output": "create 0\nadd 24 images 0 boot 0 rpfix 0\nerrno 123\n",
+        "checks": null
+      },
+      "native": {
+        "status": 0,
+        "output": "create 0\nadd 24 images 0 boot 0 rpfix 0\nerrno 123\n",
+        "checks": null
+      },
+      "exact": true,
+      "equal_apply": true
+    },
+    {
+      "hardlinks": true,
+      "flags": 32,
+      "mutation": 0,
+      "original": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nprogress 13\nprogress 14\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nwrite 0\n",
+        "checks": {
+          "verify_status": 0,
+          "apply_status": 0,
+          "tree": [
+            [
+              "alias",
+              "309a6ca2c5768b3242ffce854333d966c1ff3c6f81bef5c3dfc0fe1fb0a2ddfe"
+            ],
+            [
+              "data",
+              "309a6ca2c5768b3242ffce854333d966c1ff3c6f81bef5c3dfc0fe1fb0a2ddfe"
+            ],
+            [
+              "dir",
+              "directory"
+            ],
+            [
+              "link",
+              "link:data"
+            ]
+          ],
+          "verify_stderr": "\r[WARNING] \"/tmp/capture-write-oracle-5kyvv7j2/output.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "native": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nprogress 13\nprogress 14\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nwrite 0\n",
+        "checks": {
+          "verify_status": 0,
+          "apply_status": 0,
+          "tree": [
+            [
+              "alias",
+              "309a6ca2c5768b3242ffce854333d966c1ff3c6f81bef5c3dfc0fe1fb0a2ddfe"
+            ],
+            [
+              "data",
+              "309a6ca2c5768b3242ffce854333d966c1ff3c6f81bef5c3dfc0fe1fb0a2ddfe"
+            ],
+            [
+              "dir",
+              "directory"
+            ],
+            [
+              "link",
+              "link:data"
+            ]
+          ],
+          "verify_stderr": "\r[WARNING] \"/tmp/capture-write-oracle-5kyvv7j2/output.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "exact": true,
+      "equal_apply": true
+    },
+    {
+      "hardlinks": true,
+      "flags": 64,
+      "mutation": 0,
+      "original": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nprogress 13\nprogress 14\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nwrite 0\n",
+        "checks": {
+          "verify_status": 0,
+          "apply_status": 0,
+          "tree": [
+            [
+              "alias",
+              "309a6ca2c5768b3242ffce854333d966c1ff3c6f81bef5c3dfc0fe1fb0a2ddfe"
+            ],
+            [
+              "data",
+              "309a6ca2c5768b3242ffce854333d966c1ff3c6f81bef5c3dfc0fe1fb0a2ddfe"
+            ],
+            [
+              "dir",
+              "directory"
+            ],
+            [
+              "link",
+              "link:data"
+            ]
+          ],
+          "verify_stderr": "\r[WARNING] \"/tmp/capture-write-oracle-5kyvv7j2/output.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "native": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nprogress 13\nprogress 14\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nwrite 0\n",
+        "checks": {
+          "verify_status": 0,
+          "apply_status": 0,
+          "tree": [
+            [
+              "alias",
+              "309a6ca2c5768b3242ffce854333d966c1ff3c6f81bef5c3dfc0fe1fb0a2ddfe"
+            ],
+            [
+              "data",
+              "309a6ca2c5768b3242ffce854333d966c1ff3c6f81bef5c3dfc0fe1fb0a2ddfe"
+            ],
+            [
+              "dir",
+              "directory"
+            ],
+            [
+              "link",
+              "link:data"
+            ]
+          ],
+          "verify_stderr": "\r[WARNING] \"/tmp/capture-write-oracle-5kyvv7j2/output.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "exact": true,
+      "equal_apply": true
+    },
+    {
+      "hardlinks": true,
+      "flags": 96,
+      "mutation": 0,
+      "original": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nprogress 13\nprogress 14\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nwrite 0\n",
+        "checks": {
+          "verify_status": 0,
+          "apply_status": 0,
+          "tree": [
+            [
+              "alias",
+              "309a6ca2c5768b3242ffce854333d966c1ff3c6f81bef5c3dfc0fe1fb0a2ddfe"
+            ],
+            [
+              "data",
+              "309a6ca2c5768b3242ffce854333d966c1ff3c6f81bef5c3dfc0fe1fb0a2ddfe"
+            ],
+            [
+              "dir",
+              "directory"
+            ],
+            [
+              "link",
+              "link:data"
+            ]
+          ],
+          "verify_stderr": "\r[WARNING] \"/tmp/capture-write-oracle-5kyvv7j2/output.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "native": {
+        "status": 0,
+        "output": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nprogress 13\nprogress 14\nwrite-progress 44 2 0 0\nwrite-progress 44 2 12 1\nwrite-progress 44 2 44 2\nwrite 0\n",
+        "checks": {
+          "verify_status": 0,
+          "apply_status": 0,
+          "tree": [
+            [
+              "alias",
+              "309a6ca2c5768b3242ffce854333d966c1ff3c6f81bef5c3dfc0fe1fb0a2ddfe"
+            ],
+            [
+              "data",
+              "309a6ca2c5768b3242ffce854333d966c1ff3c6f81bef5c3dfc0fe1fb0a2ddfe"
+            ],
+            [
+              "dir",
+              "directory"
+            ],
+            [
+              "link",
+              "link:data"
+            ]
+          ],
+          "verify_stderr": "\r[WARNING] \"/tmp/capture-write-oracle-5kyvv7j2/output.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "exact": true,
+      "equal_apply": true
+    }
+  ]
+}

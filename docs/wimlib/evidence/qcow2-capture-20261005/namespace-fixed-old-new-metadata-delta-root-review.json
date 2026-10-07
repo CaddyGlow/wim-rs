@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "scope": "Complete independent decoded old/new archive metadata delta; reference is historical V12 archive, not a new direct source capture or installed-target proof",
+  "nodes_each": 175812,
+  "path_sets_exact": true,
+  "all_hardlink_groups_exact": true,
+  "windows_properties_exact": true,
+  "only_differences": {
+    "short_name_utf16": 601
+  },
+  "all_differences_exact_removed_POSIX_assignment_set": true,
+  "all_other_decoded_fields_exact": true,
+  "stream_hash_scope": "SHA1 resource identities/lengths; new archive independently fully verified, prior archive verification retained separately",
+  "old_wim_sha256_bound_to_retained_publication": "9791aae2127f1688c99f9928e61fe4ff41b37f184566d880d80fe4d619117f73",
+  "new_wim_sha256_bound_to_root_full_hash": "6fe084f644eb631349d4e385a155d1c5ce334d0810b633464ecfdd61b528884b",
+  "artifacts": [
+    {
+      "path": "/data/cache/qcow2-namespace-fixed-20261006/capture/root-old-new-whole-metadata-delta.json",
+      "sha256": "2a001f01c7b5c3868fe803cd9c03431d142f35886316c2fb30b422c8ed386126"
+    },
+    {
+      "path": "/data/cache/qcow2-oobe-preparation-control-20261005/offline-audit/old-spurious-posix-dos-alias-selectors.json",
+      "sha256": "2b1187ea696e640614e16820f7000d424cca68eb62bc24e9a947517100479293"
+    },
+    {
+      "path": "scripts/wimlib/compare-whole-wim-metadata.py",
+      "sha256": "3033ed9ad25303c6e28638d198d26c1e71649e846596eb0df94ee78a9c224b4b"
+    }
+  ]
+}

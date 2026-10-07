@@ -1,0 +1,63 @@
+{
+  "schema": 1,
+  "scope": "Typed NTFS corruption/error classification plus $Secure:$SII context; no fixture weakening",
+  "actual_prior_failure": {
+    "session": 92977,
+    "exit": 101,
+    "kind": "Other",
+    "typed_error": "VcnOutOfBoundsInIndexAllocation",
+    "position": 8687616,
+    "vcn": 4294967294,
+    "interpretation": "Existing corruption mutation targets a nonleaf $SII index childVCN on this large-index Windows fixture; not a descriptor key. Out-of-bounds child must fail closed as InvalidData."
+  },
+  "fix": {
+    "wrapped_io": "Preserve original error and kind",
+    "logical_requests": "AttributeNotFound=NotFound;BufferTooSmall/AttributeOfDifferentType/InvalidFileRecordNumber/InvalidTime/UnexpectedAttribute* contractcases=InvalidInput;NotADirectory=NotADirectory",
+    "unsupported": "Four explicit Unsupported* variants preserve Unsupported",
+    "known_structural_corruption": "Explicit enumvariant list maps InvalidData, preserving typed cause",
+    "future_unknown": "Other, requiring review",
+    "security_context": "validate $Secure:$SII source-context operation retained"
+  },
+  "validation": {
+    "unit_tests": {
+      "passed": 18,
+      "failed": 0,
+      "new_regressions": "Typed out-of-bounds index, originalIo kinds, Unsupported feature, logical request distinctions"
+    },
+    "actual_secureindex_regression": {
+      "session": 53196,
+      "exit": 0,
+      "passed": 1,
+      "failed": 0,
+      "filtered_out": 7,
+      "seconds": 1.55,
+      "assertions": "InvalidData and $SII unchanged; debugerror added"
+    },
+    "clippy": {
+      "session": 5575,
+      "exit": 0,
+      "scope": "windows-ntfs alltargets allfeatures --locked -Dwarnings"
+    }
+  },
+  "fixture": {
+    "path": "/data/cache/qcow2-v12-offline-audit/nested-depth-fixture.ntfs.raw",
+    "role": "independent clean Windows NTFS volume for corruption-copy regression; does not establish case-sensitive directory behavior",
+    "sha256_after_initial_nested_depth_test": "353f017ea2006ca7b3cfd6df972f81ae78f0357ee57fb855612123ba6033de08"
+  },
+  "environment": {
+    "CARGO_TARGET_DIR": "/data/cache/qcow2-current-validation-target",
+    "TMPDIR": "/data/cache"
+  },
+  "artifacts": {
+    "crates/windows-ntfs/src/lib.rs": {
+      "path": "/home/rick/projects-caddy/windows-uup/crates/windows-ntfs/src/lib.rs",
+      "sha256": "a02edef521433f4c2eff0a4fb76e7f9efabc6ae98ef75ea34157a699e1d0750c",
+      "bytes": 32474
+    },
+    "crates/windows-ntfs/tests/ntfs3g.rs": {
+      "path": "/home/rick/projects-caddy/windows-uup/crates/windows-ntfs/tests/ntfs3g.rs",
+      "sha256": "50f60ffa892d1d143bc0a6c33597c163c2fd349828442ffd184bd48ed8f8c4e5",
+      "bytes": 19710
+    }
+  }
+}

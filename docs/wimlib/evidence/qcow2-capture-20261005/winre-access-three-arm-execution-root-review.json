@@ -1,0 +1,16 @@
+{
+  "actual_report_path": "/data/cache/qcow2-winre-access-causal-control-20261006/actual-causal-report.json",
+  "actual_report_sha256": "3c3f6b931052cf46c94b0f75cbff2ea4a370aafacfb5396789b1e113c2a00b2a",
+  "all_three_completed": true,
+  "source_hash_unchanged": true,
+  "copy_discard_physical_wim_hash_unchanged": true,
+  "arm_output_hashes": {
+    "mount-commit-no-boot-copy": "718a453ce1d985214d303d9be4b0476d39812a645aeceb70937389009d932d49",
+    "mount-boot-copy-discard": "5a7b51e7271284a3204234a71386c4d8cbc81665e9f7bc451d7d70fb464a3047",
+    "mount-boot-copy-commit": "cbfeb994f10faa2e285e692fbfe245751bb9fbc1d591dbb1abad7e453ee9eb01"
+  },
+  "independent_output_retrieval_hashes_pending": true,
+  "full_logical_timestamp_content_sd_comparison_pending": true,
+  "standard_setup_causality_proven": false,
+  "copy_operation_approximation": "robocopy reads approximate the logged Setup Boot-copy operation; not identical Setup APIs"
+}

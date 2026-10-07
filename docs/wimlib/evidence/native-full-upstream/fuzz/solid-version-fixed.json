@@ -1,0 +1,22 @@
+{
+  "work": "/tmp/wim-solid-version-check-nl_eb72_",
+  "runs": {
+    "original": {
+      "status": 0,
+      "calls": "[[\"wimlib_create_new_wim\", 0], [\"wimlib_add_image\", 0], [\"wimlib_write\", 0], [\"wimlib_open_wim\", 0], [\"wimlib_add_empty_image\", 0], [\"wimlib_overwrite\", 0], [\"wimlib_open_wim\", 0], [\"wimlib_verify_wim\", 0]]\n",
+      "stderr": "",
+      "original_reader_verify": 0,
+      "version": 3584,
+      "library_sha256": "62eb9c97f9ec6e3dae6c7e995b0a65a2e94a4d9b41491666947ba788a15bb74a"
+    },
+    "native": {
+      "status": 0,
+      "calls": "[[\"wimlib_create_new_wim\", 0], [\"wimlib_add_image\", 0], [\"wimlib_write\", 0], [\"wimlib_open_wim\", 0], [\"wimlib_add_empty_image\", 0], [\"wimlib_overwrite\", 0], [\"wimlib_open_wim\", 0], [\"wimlib_verify_wim\", 0]]\n",
+      "stderr": "",
+      "original_reader_verify": 0,
+      "version": 3584,
+      "library_sha256": "5d597f0246873bba8e42b924f74c82cc099f6f4eb7fd0b99c3545a13ac4de2fe"
+    }
+  },
+  "probe_source": "\nimport ctypes as c,sys,pathlib,json\nlib=c.CDLL(sys.argv[1]); h=c.c_void_p(); statuses=[]\ndef call(name,*args):\n    status=getattr(lib,name)(*args); statuses.append([name,status]); assert status==0,(name,status)\np=pathlib.Path(sys.argv[2]); file=str(p/'archive.wim').encode(); source=str(p/'source').encode()\ncall('wimlib_create_new_wim',2,c.byref(h))\ncall('wimlib_add_image',h,source,None,None,0)\ncall('wimlib_write',h,file,-1,0x1000,1);lib.wimlib_free(h)\ncall('wimlib_open_wim',file,0,c.byref(h))\ncall('wimlib_add_empty_image',h,None,None)\ncall('wimlib_overwrite',h,0x4900,1);lib.wimlib_free(h)\ncall('wimlib_open_wim',file,0,c.byref(h));call('wimlib_verify_wim',h,0);lib.wimlib_free(h)\nprint(json.dumps(statuses))\n"
+}

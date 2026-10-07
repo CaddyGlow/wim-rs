@@ -1,0 +1,5045 @@
+{
+  "scope": "original/native differential",
+  "native_sha256": "a3675a1562ce63a36b7eed36f086e47c1d011793705e3abdb39606ad35c026a8",
+  "layout": "ordinary",
+  "codec": "lzms",
+  "unicode_names": false,
+  "ignore_case": false,
+  "cases": 387,
+  "original_verified_written_archives": 124,
+  "equal_original_applied_pairs": 62,
+  "original_capture_disabled_cpu_feature": "sse4.2",
+  "results": [
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "file",
+        "",
+        "0",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "file",
+        "",
+        "1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "file",
+        "",
+        "2",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "file",
+        "",
+        "3",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "file",
+        "",
+        "4",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "file",
+        "",
+        "-1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "/file",
+        "",
+        "0",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "/file",
+        "",
+        "1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "/file",
+        "",
+        "2",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "/file",
+        "",
+        "3",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "/file",
+        "",
+        "4",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "/file",
+        "",
+        "-1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "\\dir\\child",
+        "",
+        "0",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "\\dir\\child",
+        "",
+        "1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "\\dir\\child",
+        "",
+        "2",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "\\dir\\child",
+        "",
+        "3",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "\\dir\\child",
+        "",
+        "4",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "\\dir\\child",
+        "",
+        "-1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "dir",
+        "",
+        "0",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "dir",
+        "",
+        "1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "dir",
+        "",
+        "2",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "dir",
+        "",
+        "3",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "dir",
+        "",
+        "4",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "dir",
+        "",
+        "-1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "empty",
+        "",
+        "0",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "empty",
+        "",
+        "1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "empty",
+        "",
+        "2",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "empty",
+        "",
+        "3",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "empty",
+        "",
+        "4",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "empty",
+        "",
+        "-1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "/",
+        "",
+        "0",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "/",
+        "",
+        "1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "/",
+        "",
+        "2",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "/",
+        "",
+        "3",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "/",
+        "",
+        "4",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "/",
+        "",
+        "-1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "",
+        "",
+        "0",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "",
+        "",
+        "1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "",
+        "",
+        "2",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "",
+        "",
+        "3",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "",
+        "",
+        "4",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "",
+        "",
+        "-1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "@NULL",
+        "",
+        "0",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "@NULL",
+        "",
+        "1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "@NULL",
+        "",
+        "2",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "@NULL",
+        "",
+        "3",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "@NULL",
+        "",
+        "4",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "@NULL",
+        "",
+        "-1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "missing",
+        "",
+        "0",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "missing",
+        "",
+        "1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "missing",
+        "",
+        "2",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "missing",
+        "",
+        "3",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "missing",
+        "",
+        "4",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "missing",
+        "",
+        "-1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "file/child",
+        "",
+        "0",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "file/child",
+        "",
+        "1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "file/child",
+        "",
+        "2",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "file/child",
+        "",
+        "3",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "file/child",
+        "",
+        "4",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "file/child",
+        "",
+        "-1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "dir/../file",
+        "",
+        "0",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "dir/../file",
+        "",
+        "1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "dir/../file",
+        "",
+        "2",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "dir/../file",
+        "",
+        "3",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "dir/../file",
+        "",
+        "4",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "dir/../file",
+        "",
+        "-1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "alias",
+        "",
+        "0",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "alias",
+        "",
+        "1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "alias",
+        "",
+        "2",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "alias",
+        "",
+        "3",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "alias",
+        "",
+        "4",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "-1",
+        "alias",
+        "",
+        "-1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "file",
+        "",
+        "0",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "file",
+        "",
+        "1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "file",
+        "",
+        "2",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "file",
+        "",
+        "3",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "file",
+        "",
+        "4",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "file",
+        "",
+        "-1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "/file",
+        "",
+        "0",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "/file",
+        "",
+        "1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "/file",
+        "",
+        "2",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "/file",
+        "",
+        "3",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "/file",
+        "",
+        "4",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "/file",
+        "",
+        "-1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "\\dir\\child",
+        "",
+        "0",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "\\dir\\child",
+        "",
+        "1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "\\dir\\child",
+        "",
+        "2",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "\\dir\\child",
+        "",
+        "3",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "\\dir\\child",
+        "",
+        "4",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "\\dir\\child",
+        "",
+        "-1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "dir",
+        "",
+        "0",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "dir",
+        "",
+        "1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "dir",
+        "",
+        "2",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "dir",
+        "",
+        "3",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "dir",
+        "",
+        "4",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "dir",
+        "",
+        "-1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "empty",
+        "",
+        "0",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "empty",
+        "",
+        "1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "empty",
+        "",
+        "2",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "empty",
+        "",
+        "3",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "empty",
+        "",
+        "4",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "empty",
+        "",
+        "-1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "/",
+        "",
+        "0",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "/",
+        "",
+        "1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "/",
+        "",
+        "2",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "/",
+        "",
+        "3",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "/",
+        "",
+        "4",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "/",
+        "",
+        "-1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "",
+        "",
+        "0",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "",
+        "",
+        "1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "",
+        "",
+        "2",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "",
+        "",
+        "3",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "",
+        "",
+        "4",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "",
+        "",
+        "-1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "@NULL",
+        "",
+        "0",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "@NULL",
+        "",
+        "1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "@NULL",
+        "",
+        "2",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "@NULL",
+        "",
+        "3",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "@NULL",
+        "",
+        "4",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "@NULL",
+        "",
+        "-1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "missing",
+        "",
+        "0",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "missing",
+        "",
+        "1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "missing",
+        "",
+        "2",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "missing",
+        "",
+        "3",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "missing",
+        "",
+        "4",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "missing",
+        "",
+        "-1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "file/child",
+        "",
+        "0",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "file/child",
+        "",
+        "1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "file/child",
+        "",
+        "2",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "file/child",
+        "",
+        "3",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "file/child",
+        "",
+        "4",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "file/child",
+        "",
+        "-1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "dir/../file",
+        "",
+        "0",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "dir/../file",
+        "",
+        "1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "dir/../file",
+        "",
+        "2",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "dir/../file",
+        "",
+        "3",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "dir/../file",
+        "",
+        "4",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "dir/../file",
+        "",
+        "-1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "alias",
+        "",
+        "0",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "alias",
+        "",
+        "1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "alias",
+        "",
+        "2",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "alias",
+        "",
+        "3",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "alias",
+        "",
+        "4",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "0",
+        "alias",
+        "",
+        "-1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "file",
+        "",
+        "0",
+        "single"
+      ],
+      "stdout": "result:0:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "02c9a8cbe9f88a66750eeb62dae7afa23af79f923a702a6f2f92dda6ef0cda30"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "file",
+        "",
+        "1",
+        "single"
+      ],
+      "stdout": "result:0:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "02c9a8cbe9f88a66750eeb62dae7afa23af79f923a702a6f2f92dda6ef0cda30"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "file",
+        "",
+        "2",
+        "single"
+      ],
+      "stdout": "result:0:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "02c9a8cbe9f88a66750eeb62dae7afa23af79f923a702a6f2f92dda6ef0cda30"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "file",
+        "",
+        "3",
+        "single"
+      ],
+      "stdout": "result:0:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "02c9a8cbe9f88a66750eeb62dae7afa23af79f923a702a6f2f92dda6ef0cda30"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "file",
+        "",
+        "4",
+        "single"
+      ],
+      "stdout": "result:24:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "3636c4eccc5107c300388b212a46a14c0755c28cc1b57c97175759416579f32e"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "file",
+        "",
+        "-1",
+        "single"
+      ],
+      "stdout": "result:24:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "3636c4eccc5107c300388b212a46a14c0755c28cc1b57c97175759416579f32e"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "/file",
+        "",
+        "0",
+        "single"
+      ],
+      "stdout": "result:0:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "02c9a8cbe9f88a66750eeb62dae7afa23af79f923a702a6f2f92dda6ef0cda30"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "/file",
+        "",
+        "1",
+        "single"
+      ],
+      "stdout": "result:0:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "02c9a8cbe9f88a66750eeb62dae7afa23af79f923a702a6f2f92dda6ef0cda30"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "/file",
+        "",
+        "2",
+        "single"
+      ],
+      "stdout": "result:0:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "02c9a8cbe9f88a66750eeb62dae7afa23af79f923a702a6f2f92dda6ef0cda30"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "/file",
+        "",
+        "3",
+        "single"
+      ],
+      "stdout": "result:0:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "02c9a8cbe9f88a66750eeb62dae7afa23af79f923a702a6f2f92dda6ef0cda30"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "/file",
+        "",
+        "4",
+        "single"
+      ],
+      "stdout": "result:24:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "3636c4eccc5107c300388b212a46a14c0755c28cc1b57c97175759416579f32e"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "/file",
+        "",
+        "-1",
+        "single"
+      ],
+      "stdout": "result:24:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "3636c4eccc5107c300388b212a46a14c0755c28cc1b57c97175759416579f32e"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "\\dir\\child",
+        "",
+        "0",
+        "single"
+      ],
+      "stdout": "result:0:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "2429b66d7a9b708978354e9ae5a8ffe1424376e7c8e2f2bff15fb6f5d3793b56"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "\\dir\\child",
+        "",
+        "1",
+        "single"
+      ],
+      "stdout": "result:0:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "2429b66d7a9b708978354e9ae5a8ffe1424376e7c8e2f2bff15fb6f5d3793b56"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "\\dir\\child",
+        "",
+        "2",
+        "single"
+      ],
+      "stdout": "result:0:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "2429b66d7a9b708978354e9ae5a8ffe1424376e7c8e2f2bff15fb6f5d3793b56"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "\\dir\\child",
+        "",
+        "3",
+        "single"
+      ],
+      "stdout": "result:0:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "2429b66d7a9b708978354e9ae5a8ffe1424376e7c8e2f2bff15fb6f5d3793b56"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "\\dir\\child",
+        "",
+        "4",
+        "single"
+      ],
+      "stdout": "result:24:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "3636c4eccc5107c300388b212a46a14c0755c28cc1b57c97175759416579f32e"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "\\dir\\child",
+        "",
+        "-1",
+        "single"
+      ],
+      "stdout": "result:24:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "3636c4eccc5107c300388b212a46a14c0755c28cc1b57c97175759416579f32e"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "dir",
+        "",
+        "0",
+        "single"
+      ],
+      "stdout": "result:32:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "cac60de2740d4992b5f91c2e13898cf9454168d1a1ca23ca81f25cae4f109e05"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "dir",
+        "",
+        "1",
+        "single"
+      ],
+      "stdout": "result:32:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "cac60de2740d4992b5f91c2e13898cf9454168d1a1ca23ca81f25cae4f109e05"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "dir",
+        "",
+        "2",
+        "single"
+      ],
+      "stdout": "result:0:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "536bbf72e55f67527b7d2f11fca54a6fa4be82c5b5bd5316835cf8c3e3905ea1"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "dir",
+        "",
+        "3",
+        "single"
+      ],
+      "stdout": "result:0:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "536bbf72e55f67527b7d2f11fca54a6fa4be82c5b5bd5316835cf8c3e3905ea1"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "dir",
+        "",
+        "4",
+        "single"
+      ],
+      "stdout": "result:24:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "3636c4eccc5107c300388b212a46a14c0755c28cc1b57c97175759416579f32e"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "dir",
+        "",
+        "-1",
+        "single"
+      ],
+      "stdout": "result:24:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "3636c4eccc5107c300388b212a46a14c0755c28cc1b57c97175759416579f32e"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "empty",
+        "",
+        "0",
+        "single"
+      ],
+      "stdout": "result:32:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "cac60de2740d4992b5f91c2e13898cf9454168d1a1ca23ca81f25cae4f109e05"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "empty",
+        "",
+        "1",
+        "single"
+      ],
+      "stdout": "result:32:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "cac60de2740d4992b5f91c2e13898cf9454168d1a1ca23ca81f25cae4f109e05"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "empty",
+        "",
+        "2",
+        "single"
+      ],
+      "stdout": "result:0:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "a9bc28f53cb8fc10f8894b8ded2a738b041991273b52f868522de74c2990a6ef"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "empty",
+        "",
+        "3",
+        "single"
+      ],
+      "stdout": "result:0:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "a9bc28f53cb8fc10f8894b8ded2a738b041991273b52f868522de74c2990a6ef"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "empty",
+        "",
+        "4",
+        "single"
+      ],
+      "stdout": "result:24:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "3636c4eccc5107c300388b212a46a14c0755c28cc1b57c97175759416579f32e"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "empty",
+        "",
+        "-1",
+        "single"
+      ],
+      "stdout": "result:24:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "3636c4eccc5107c300388b212a46a14c0755c28cc1b57c97175759416579f32e"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "/",
+        "",
+        "0",
+        "single"
+      ],
+      "stdout": "result:32:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "cac60de2740d4992b5f91c2e13898cf9454168d1a1ca23ca81f25cae4f109e05"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "/",
+        "",
+        "1",
+        "single"
+      ],
+      "stdout": "result:32:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "cac60de2740d4992b5f91c2e13898cf9454168d1a1ca23ca81f25cae4f109e05"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "/",
+        "",
+        "2",
+        "single"
+      ],
+      "stdout": "result:0:errno:0\ntree:49\n",
+      "stderr": "",
+      "stdout_sha256": "eb1c9afe6d4c48a99724034dfe95f0e426850f82e0f122f4b7d2fadbd6a35b1d"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "/",
+        "",
+        "3",
+        "single"
+      ],
+      "stdout": "result:0:errno:0\ntree:49\n",
+      "stderr": "",
+      "stdout_sha256": "eb1c9afe6d4c48a99724034dfe95f0e426850f82e0f122f4b7d2fadbd6a35b1d"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "/",
+        "",
+        "4",
+        "single"
+      ],
+      "stdout": "result:24:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "3636c4eccc5107c300388b212a46a14c0755c28cc1b57c97175759416579f32e"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "/",
+        "",
+        "-1",
+        "single"
+      ],
+      "stdout": "result:24:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "3636c4eccc5107c300388b212a46a14c0755c28cc1b57c97175759416579f32e"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "",
+        "",
+        "0",
+        "single"
+      ],
+      "stdout": "result:32:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "cac60de2740d4992b5f91c2e13898cf9454168d1a1ca23ca81f25cae4f109e05"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "",
+        "",
+        "1",
+        "single"
+      ],
+      "stdout": "result:32:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "cac60de2740d4992b5f91c2e13898cf9454168d1a1ca23ca81f25cae4f109e05"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "",
+        "",
+        "2",
+        "single"
+      ],
+      "stdout": "result:0:errno:0\ntree:49\n",
+      "stderr": "",
+      "stdout_sha256": "eb1c9afe6d4c48a99724034dfe95f0e426850f82e0f122f4b7d2fadbd6a35b1d"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "",
+        "",
+        "3",
+        "single"
+      ],
+      "stdout": "result:0:errno:0\ntree:49\n",
+      "stderr": "",
+      "stdout_sha256": "eb1c9afe6d4c48a99724034dfe95f0e426850f82e0f122f4b7d2fadbd6a35b1d"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "",
+        "",
+        "4",
+        "single"
+      ],
+      "stdout": "result:24:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "3636c4eccc5107c300388b212a46a14c0755c28cc1b57c97175759416579f32e"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "",
+        "",
+        "-1",
+        "single"
+      ],
+      "stdout": "result:24:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "3636c4eccc5107c300388b212a46a14c0755c28cc1b57c97175759416579f32e"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "@NULL",
+        "",
+        "0",
+        "single"
+      ],
+      "stdout": "result:32:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "cac60de2740d4992b5f91c2e13898cf9454168d1a1ca23ca81f25cae4f109e05"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "@NULL",
+        "",
+        "1",
+        "single"
+      ],
+      "stdout": "result:32:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "cac60de2740d4992b5f91c2e13898cf9454168d1a1ca23ca81f25cae4f109e05"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "@NULL",
+        "",
+        "2",
+        "single"
+      ],
+      "stdout": "result:0:errno:0\ntree:49\n",
+      "stderr": "",
+      "stdout_sha256": "eb1c9afe6d4c48a99724034dfe95f0e426850f82e0f122f4b7d2fadbd6a35b1d"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "@NULL",
+        "",
+        "3",
+        "single"
+      ],
+      "stdout": "result:0:errno:0\ntree:49\n",
+      "stderr": "",
+      "stdout_sha256": "eb1c9afe6d4c48a99724034dfe95f0e426850f82e0f122f4b7d2fadbd6a35b1d"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "@NULL",
+        "",
+        "4",
+        "single"
+      ],
+      "stdout": "result:24:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "3636c4eccc5107c300388b212a46a14c0755c28cc1b57c97175759416579f32e"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "@NULL",
+        "",
+        "-1",
+        "single"
+      ],
+      "stdout": "result:24:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "3636c4eccc5107c300388b212a46a14c0755c28cc1b57c97175759416579f32e"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "missing",
+        "",
+        "0",
+        "single"
+      ],
+      "stdout": "result:49:errno:2\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "5f1242b1d397df725486543723f27c3681a76d27e6412ddca9ca793aa7286380"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "missing",
+        "",
+        "1",
+        "single"
+      ],
+      "stdout": "result:0:errno:2\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "f154f5a55cf35405cf8191ffff4987869673bf4ed1fe1e4624343e51edf101f0"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "missing",
+        "",
+        "2",
+        "single"
+      ],
+      "stdout": "result:49:errno:2\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "5f1242b1d397df725486543723f27c3681a76d27e6412ddca9ca793aa7286380"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "missing",
+        "",
+        "3",
+        "single"
+      ],
+      "stdout": "result:0:errno:2\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "f154f5a55cf35405cf8191ffff4987869673bf4ed1fe1e4624343e51edf101f0"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "missing",
+        "",
+        "4",
+        "single"
+      ],
+      "stdout": "result:24:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "3636c4eccc5107c300388b212a46a14c0755c28cc1b57c97175759416579f32e"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "missing",
+        "",
+        "-1",
+        "single"
+      ],
+      "stdout": "result:24:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "3636c4eccc5107c300388b212a46a14c0755c28cc1b57c97175759416579f32e"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "file/child",
+        "",
+        "0",
+        "single"
+      ],
+      "stdout": "result:49:errno:20\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "e917c53b0dfd933287bc525accff1a6648208abcf9235bf5bf8e34aef47133cd"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "file/child",
+        "",
+        "1",
+        "single"
+      ],
+      "stdout": "result:0:errno:20\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "5efe4318877f6c969c0c093c39d9a4f3c0a0352120e43176a0e29f19bb086a50"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "file/child",
+        "",
+        "2",
+        "single"
+      ],
+      "stdout": "result:49:errno:20\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "e917c53b0dfd933287bc525accff1a6648208abcf9235bf5bf8e34aef47133cd"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "file/child",
+        "",
+        "3",
+        "single"
+      ],
+      "stdout": "result:0:errno:20\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "5efe4318877f6c969c0c093c39d9a4f3c0a0352120e43176a0e29f19bb086a50"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "file/child",
+        "",
+        "4",
+        "single"
+      ],
+      "stdout": "result:24:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "3636c4eccc5107c300388b212a46a14c0755c28cc1b57c97175759416579f32e"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "file/child",
+        "",
+        "-1",
+        "single"
+      ],
+      "stdout": "result:24:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "3636c4eccc5107c300388b212a46a14c0755c28cc1b57c97175759416579f32e"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "dir/../file",
+        "",
+        "0",
+        "single"
+      ],
+      "stdout": "result:49:errno:2\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "5f1242b1d397df725486543723f27c3681a76d27e6412ddca9ca793aa7286380"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "dir/../file",
+        "",
+        "1",
+        "single"
+      ],
+      "stdout": "result:0:errno:2\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "f154f5a55cf35405cf8191ffff4987869673bf4ed1fe1e4624343e51edf101f0"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "dir/../file",
+        "",
+        "2",
+        "single"
+      ],
+      "stdout": "result:49:errno:2\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "5f1242b1d397df725486543723f27c3681a76d27e6412ddca9ca793aa7286380"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "dir/../file",
+        "",
+        "3",
+        "single"
+      ],
+      "stdout": "result:0:errno:2\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "f154f5a55cf35405cf8191ffff4987869673bf4ed1fe1e4624343e51edf101f0"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "dir/../file",
+        "",
+        "4",
+        "single"
+      ],
+      "stdout": "result:24:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "3636c4eccc5107c300388b212a46a14c0755c28cc1b57c97175759416579f32e"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "dir/../file",
+        "",
+        "-1",
+        "single"
+      ],
+      "stdout": "result:24:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "3636c4eccc5107c300388b212a46a14c0755c28cc1b57c97175759416579f32e"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "alias",
+        "",
+        "0",
+        "single"
+      ],
+      "stdout": "result:0:errno:0\nentry:/:16:0\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "5156a48991dedebab36932231b35cecffaa54cb655d7da7d626c226d76ca7f71"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "alias",
+        "",
+        "1",
+        "single"
+      ],
+      "stdout": "result:0:errno:0\nentry:/:16:0\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "5156a48991dedebab36932231b35cecffaa54cb655d7da7d626c226d76ca7f71"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "alias",
+        "",
+        "2",
+        "single"
+      ],
+      "stdout": "result:0:errno:0\nentry:/:16:0\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "5156a48991dedebab36932231b35cecffaa54cb655d7da7d626c226d76ca7f71"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "alias",
+        "",
+        "3",
+        "single"
+      ],
+      "stdout": "result:0:errno:0\nentry:/:16:0\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "5156a48991dedebab36932231b35cecffaa54cb655d7da7d626c226d76ca7f71"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "alias",
+        "",
+        "4",
+        "single"
+      ],
+      "stdout": "result:24:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "3636c4eccc5107c300388b212a46a14c0755c28cc1b57c97175759416579f32e"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "alias",
+        "",
+        "-1",
+        "single"
+      ],
+      "stdout": "result:24:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "3636c4eccc5107c300388b212a46a14c0755c28cc1b57c97175759416579f32e"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "file",
+        "",
+        "0",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "file",
+        "",
+        "1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "file",
+        "",
+        "2",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "file",
+        "",
+        "3",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "file",
+        "",
+        "4",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "file",
+        "",
+        "-1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "/file",
+        "",
+        "0",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "/file",
+        "",
+        "1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "/file",
+        "",
+        "2",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "/file",
+        "",
+        "3",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "/file",
+        "",
+        "4",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "/file",
+        "",
+        "-1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "\\dir\\child",
+        "",
+        "0",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "\\dir\\child",
+        "",
+        "1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "\\dir\\child",
+        "",
+        "2",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "\\dir\\child",
+        "",
+        "3",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "\\dir\\child",
+        "",
+        "4",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "\\dir\\child",
+        "",
+        "-1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "dir",
+        "",
+        "0",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "dir",
+        "",
+        "1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "dir",
+        "",
+        "2",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "dir",
+        "",
+        "3",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "dir",
+        "",
+        "4",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "dir",
+        "",
+        "-1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "empty",
+        "",
+        "0",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "empty",
+        "",
+        "1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "empty",
+        "",
+        "2",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "empty",
+        "",
+        "3",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "empty",
+        "",
+        "4",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "empty",
+        "",
+        "-1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "/",
+        "",
+        "0",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "/",
+        "",
+        "1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "/",
+        "",
+        "2",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "/",
+        "",
+        "3",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "/",
+        "",
+        "4",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "/",
+        "",
+        "-1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "",
+        "",
+        "0",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "",
+        "",
+        "1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "",
+        "",
+        "2",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "",
+        "",
+        "3",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "",
+        "",
+        "4",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "",
+        "",
+        "-1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "@NULL",
+        "",
+        "0",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "@NULL",
+        "",
+        "1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "@NULL",
+        "",
+        "2",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "@NULL",
+        "",
+        "3",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "@NULL",
+        "",
+        "4",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "@NULL",
+        "",
+        "-1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "missing",
+        "",
+        "0",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "missing",
+        "",
+        "1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "missing",
+        "",
+        "2",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "missing",
+        "",
+        "3",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "missing",
+        "",
+        "4",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "missing",
+        "",
+        "-1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "file/child",
+        "",
+        "0",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "file/child",
+        "",
+        "1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "file/child",
+        "",
+        "2",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "file/child",
+        "",
+        "3",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "file/child",
+        "",
+        "4",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "file/child",
+        "",
+        "-1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "dir/../file",
+        "",
+        "0",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "dir/../file",
+        "",
+        "1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "dir/../file",
+        "",
+        "2",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "dir/../file",
+        "",
+        "3",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "dir/../file",
+        "",
+        "4",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "dir/../file",
+        "",
+        "-1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "alias",
+        "",
+        "0",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "alias",
+        "",
+        "1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "alias",
+        "",
+        "2",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "alias",
+        "",
+        "3",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "alias",
+        "",
+        "4",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "delete",
+        "2",
+        "alias",
+        "",
+        "-1",
+        "single"
+      ],
+      "stdout": "result:18:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "550b2fa798a182a64f39b59555a24e737167007a3bfbe0fd79a2554a89c3b828"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "file",
+        "new",
+        "0",
+        "single"
+      ],
+      "stdout": "result:0:errno:2\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/new:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "4065d69dd0ecedc0e761a695ebd5c6adbae940995b588765cd5306542b5a329b"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "file",
+        "other-file",
+        "0",
+        "single"
+      ],
+      "stdout": "result:0:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/other:16:0\nentry:/other-file:128:2176\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "eea0865ebb4b197a6a74d5716988ed8875a28a728a2661e25bddfad4093bb8f0"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "file",
+        "file",
+        "0",
+        "single"
+      ],
+      "stdout": "result:0:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "c4a2508b87876356d84c0ba79163c19848575aecf8c1a671f1ff2521e52d304a"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "file",
+        "dir",
+        "0",
+        "single"
+      ],
+      "stdout": "result:32:errno:21\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "30f3b8ef4b377c8cc99f94ea3df06c162d055c3cb9e199950c7e9d4b96e26f9a"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "file",
+        "empty",
+        "0",
+        "single"
+      ],
+      "stdout": "result:32:errno:21\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "30f3b8ef4b377c8cc99f94ea3df06c162d055c3cb9e199950c7e9d4b96e26f9a"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "file",
+        "dir/child",
+        "0",
+        "single"
+      ],
+      "stdout": "result:0:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:2176\nentry:/empty:16:0\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "99163f2d550ff85a30484a170bc4a78b5c255b81d4726404cc686f664cda6cdb"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "file",
+        "dir/new",
+        "0",
+        "single"
+      ],
+      "stdout": "result:0:errno:2\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/dir/new:128:2176\nentry:/empty:16:0\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "94180d8087c43b4124e892935481668c24d9e6750cf44087c46738ebe6916dfb"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "file",
+        "missing/new",
+        "0",
+        "single"
+      ],
+      "stdout": "result:49:errno:2\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "5f1242b1d397df725486543723f27c3681a76d27e6412ddca9ca793aa7286380"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "file",
+        "file/new",
+        "0",
+        "single"
+      ],
+      "stdout": "result:40:errno:20\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "8da3f1cb1c770d1395d44a35aa6830d764fe0c4d7e141dda59415269f16e6268"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "file",
+        "/",
+        "0",
+        "single"
+      ],
+      "stdout": "result:32:errno:21\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "30f3b8ef4b377c8cc99f94ea3df06c162d055c3cb9e199950c7e9d4b96e26f9a"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "file",
+        "",
+        "0",
+        "single"
+      ],
+      "stdout": "result:32:errno:21\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "30f3b8ef4b377c8cc99f94ea3df06c162d055c3cb9e199950c7e9d4b96e26f9a"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "file",
+        "@NULL",
+        "0",
+        "single"
+      ],
+      "stdout": "result:32:errno:21\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "30f3b8ef4b377c8cc99f94ea3df06c162d055c3cb9e199950c7e9d4b96e26f9a"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "file",
+        "\\other\\renamed",
+        "0",
+        "single"
+      ],
+      "stdout": "result:0:errno:2\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/other:16:0\nentry:/other/renamed:128:2176\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "bc7a9c33be0b1b2ba138c174fc73f9620a889b8941c78e44dca466fa528b44ca"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "dir",
+        "new",
+        "0",
+        "single"
+      ],
+      "stdout": "result:0:errno:2\nentry:/:16:0\nentry:/alias:128:2176\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/new:16:0\nentry:/new/child:128:6\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "4bf1dc1d57e82a8b4aa820c0a27952b10ccf85e042de0d00f17f56467b628a6c"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "dir",
+        "other-file",
+        "0",
+        "single"
+      ],
+      "stdout": "result:40:errno:20\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "8da3f1cb1c770d1395d44a35aa6830d764fe0c4d7e141dda59415269f16e6268"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "dir",
+        "file",
+        "0",
+        "single"
+      ],
+      "stdout": "result:40:errno:20\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "8da3f1cb1c770d1395d44a35aa6830d764fe0c4d7e141dda59415269f16e6268"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "dir",
+        "dir",
+        "0",
+        "single"
+      ],
+      "stdout": "result:0:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "c4a2508b87876356d84c0ba79163c19848575aecf8c1a671f1ff2521e52d304a"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "dir",
+        "empty",
+        "0",
+        "single"
+      ],
+      "stdout": "result:0:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/empty:16:0\nentry:/empty/child:128:6\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "6d303c91973edc4492f08c6ad90519684d0bd591607d7a7bf6a56c039df1258a"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "dir",
+        "dir/child",
+        "0",
+        "single"
+      ],
+      "stdout": "result:40:errno:20\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "8da3f1cb1c770d1395d44a35aa6830d764fe0c4d7e141dda59415269f16e6268"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "dir",
+        "dir/new",
+        "0",
+        "single"
+      ],
+      "stdout": "result:41:errno:16\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "d09c3bc156b2efd962a277ffc0fc693c1e1df88a62526f6bb798d5d75bf62f16"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "dir",
+        "missing/new",
+        "0",
+        "single"
+      ],
+      "stdout": "result:49:errno:2\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "5f1242b1d397df725486543723f27c3681a76d27e6412ddca9ca793aa7286380"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "dir",
+        "file/new",
+        "0",
+        "single"
+      ],
+      "stdout": "result:40:errno:20\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "8da3f1cb1c770d1395d44a35aa6830d764fe0c4d7e141dda59415269f16e6268"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "dir",
+        "/",
+        "0",
+        "single"
+      ],
+      "stdout": "result:41:errno:39\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "56afdbdbf3a356d1269a742367e2f721f45542d763f4620e01573b52c8824840"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "dir",
+        "",
+        "0",
+        "single"
+      ],
+      "stdout": "result:41:errno:39\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "56afdbdbf3a356d1269a742367e2f721f45542d763f4620e01573b52c8824840"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "dir",
+        "@NULL",
+        "0",
+        "single"
+      ],
+      "stdout": "result:41:errno:39\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "56afdbdbf3a356d1269a742367e2f721f45542d763f4620e01573b52c8824840"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "dir",
+        "\\other\\renamed",
+        "0",
+        "single"
+      ],
+      "stdout": "result:0:errno:2\nentry:/:16:0\nentry:/alias:128:2176\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other/renamed:16:0\nentry:/other/renamed/child:128:6\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "7befbb991e60046ddd00bace6b0d789f70a5f1bd2be90fb28337c5a62580b792"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "empty",
+        "new",
+        "0",
+        "single"
+      ],
+      "stdout": "result:0:errno:2\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/file:128:2176\nentry:/new:16:0\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "842a77208d183bce02e459c5adf787c16a77f4164befe765be9c8710b2f12876"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "empty",
+        "other-file",
+        "0",
+        "single"
+      ],
+      "stdout": "result:40:errno:20\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "8da3f1cb1c770d1395d44a35aa6830d764fe0c4d7e141dda59415269f16e6268"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "empty",
+        "file",
+        "0",
+        "single"
+      ],
+      "stdout": "result:40:errno:20\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "8da3f1cb1c770d1395d44a35aa6830d764fe0c4d7e141dda59415269f16e6268"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "empty",
+        "dir",
+        "0",
+        "single"
+      ],
+      "stdout": "result:41:errno:39\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "56afdbdbf3a356d1269a742367e2f721f45542d763f4620e01573b52c8824840"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "empty",
+        "empty",
+        "0",
+        "single"
+      ],
+      "stdout": "result:0:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "c4a2508b87876356d84c0ba79163c19848575aecf8c1a671f1ff2521e52d304a"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "empty",
+        "dir/child",
+        "0",
+        "single"
+      ],
+      "stdout": "result:40:errno:20\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "8da3f1cb1c770d1395d44a35aa6830d764fe0c4d7e141dda59415269f16e6268"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "empty",
+        "dir/new",
+        "0",
+        "single"
+      ],
+      "stdout": "result:0:errno:2\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/dir/new:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "d76630a7572e5a5d1f00de76aeabdcb543477242b9f0ef730ae345e8b00aba27"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "empty",
+        "missing/new",
+        "0",
+        "single"
+      ],
+      "stdout": "result:49:errno:2\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "5f1242b1d397df725486543723f27c3681a76d27e6412ddca9ca793aa7286380"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "empty",
+        "file/new",
+        "0",
+        "single"
+      ],
+      "stdout": "result:40:errno:20\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "8da3f1cb1c770d1395d44a35aa6830d764fe0c4d7e141dda59415269f16e6268"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "empty",
+        "/",
+        "0",
+        "single"
+      ],
+      "stdout": "result:41:errno:39\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "56afdbdbf3a356d1269a742367e2f721f45542d763f4620e01573b52c8824840"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "empty",
+        "",
+        "0",
+        "single"
+      ],
+      "stdout": "result:41:errno:39\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "56afdbdbf3a356d1269a742367e2f721f45542d763f4620e01573b52c8824840"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "empty",
+        "@NULL",
+        "0",
+        "single"
+      ],
+      "stdout": "result:41:errno:39\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "56afdbdbf3a356d1269a742367e2f721f45542d763f4620e01573b52c8824840"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "empty",
+        "\\other\\renamed",
+        "0",
+        "single"
+      ],
+      "stdout": "result:0:errno:2\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other/renamed:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "1f3b1b094086deb2c002b1bf62cd81959f444ca1b03327904bae588966443a1b"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "/",
+        "new",
+        "0",
+        "single"
+      ],
+      "stdout": "result:41:errno:16\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "d09c3bc156b2efd962a277ffc0fc693c1e1df88a62526f6bb798d5d75bf62f16"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "/",
+        "other-file",
+        "0",
+        "single"
+      ],
+      "stdout": "result:40:errno:20\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "8da3f1cb1c770d1395d44a35aa6830d764fe0c4d7e141dda59415269f16e6268"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "/",
+        "file",
+        "0",
+        "single"
+      ],
+      "stdout": "result:40:errno:20\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "8da3f1cb1c770d1395d44a35aa6830d764fe0c4d7e141dda59415269f16e6268"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "/",
+        "dir",
+        "0",
+        "single"
+      ],
+      "stdout": "result:41:errno:39\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "56afdbdbf3a356d1269a742367e2f721f45542d763f4620e01573b52c8824840"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "/",
+        "empty",
+        "0",
+        "single"
+      ],
+      "stdout": "result:41:errno:16\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "d09c3bc156b2efd962a277ffc0fc693c1e1df88a62526f6bb798d5d75bf62f16"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "/",
+        "dir/child",
+        "0",
+        "single"
+      ],
+      "stdout": "result:40:errno:20\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "8da3f1cb1c770d1395d44a35aa6830d764fe0c4d7e141dda59415269f16e6268"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "/",
+        "dir/new",
+        "0",
+        "single"
+      ],
+      "stdout": "result:41:errno:16\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "d09c3bc156b2efd962a277ffc0fc693c1e1df88a62526f6bb798d5d75bf62f16"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "/",
+        "missing/new",
+        "0",
+        "single"
+      ],
+      "stdout": "result:49:errno:2\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "5f1242b1d397df725486543723f27c3681a76d27e6412ddca9ca793aa7286380"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "/",
+        "file/new",
+        "0",
+        "single"
+      ],
+      "stdout": "result:40:errno:20\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "8da3f1cb1c770d1395d44a35aa6830d764fe0c4d7e141dda59415269f16e6268"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "/",
+        "/",
+        "0",
+        "single"
+      ],
+      "stdout": "result:0:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "c4a2508b87876356d84c0ba79163c19848575aecf8c1a671f1ff2521e52d304a"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "/",
+        "",
+        "0",
+        "single"
+      ],
+      "stdout": "result:0:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "c4a2508b87876356d84c0ba79163c19848575aecf8c1a671f1ff2521e52d304a"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "/",
+        "@NULL",
+        "0",
+        "single"
+      ],
+      "stdout": "result:0:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "c4a2508b87876356d84c0ba79163c19848575aecf8c1a671f1ff2521e52d304a"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "/",
+        "\\other\\renamed",
+        "0",
+        "single"
+      ],
+      "stdout": "result:41:errno:16\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "d09c3bc156b2efd962a277ffc0fc693c1e1df88a62526f6bb798d5d75bf62f16"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "missing",
+        "new",
+        "0",
+        "single"
+      ],
+      "stdout": "result:49:errno:2\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "5f1242b1d397df725486543723f27c3681a76d27e6412ddca9ca793aa7286380"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "missing",
+        "other-file",
+        "0",
+        "single"
+      ],
+      "stdout": "result:49:errno:2\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "5f1242b1d397df725486543723f27c3681a76d27e6412ddca9ca793aa7286380"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "missing",
+        "file",
+        "0",
+        "single"
+      ],
+      "stdout": "result:49:errno:2\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "5f1242b1d397df725486543723f27c3681a76d27e6412ddca9ca793aa7286380"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "missing",
+        "dir",
+        "0",
+        "single"
+      ],
+      "stdout": "result:49:errno:2\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "5f1242b1d397df725486543723f27c3681a76d27e6412ddca9ca793aa7286380"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "missing",
+        "empty",
+        "0",
+        "single"
+      ],
+      "stdout": "result:49:errno:2\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "5f1242b1d397df725486543723f27c3681a76d27e6412ddca9ca793aa7286380"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "missing",
+        "dir/child",
+        "0",
+        "single"
+      ],
+      "stdout": "result:49:errno:2\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "5f1242b1d397df725486543723f27c3681a76d27e6412ddca9ca793aa7286380"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "missing",
+        "dir/new",
+        "0",
+        "single"
+      ],
+      "stdout": "result:49:errno:2\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "5f1242b1d397df725486543723f27c3681a76d27e6412ddca9ca793aa7286380"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "missing",
+        "missing/new",
+        "0",
+        "single"
+      ],
+      "stdout": "result:49:errno:2\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "5f1242b1d397df725486543723f27c3681a76d27e6412ddca9ca793aa7286380"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "missing",
+        "file/new",
+        "0",
+        "single"
+      ],
+      "stdout": "result:49:errno:2\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "5f1242b1d397df725486543723f27c3681a76d27e6412ddca9ca793aa7286380"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "missing",
+        "/",
+        "0",
+        "single"
+      ],
+      "stdout": "result:49:errno:2\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "5f1242b1d397df725486543723f27c3681a76d27e6412ddca9ca793aa7286380"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "missing",
+        "",
+        "0",
+        "single"
+      ],
+      "stdout": "result:49:errno:2\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "5f1242b1d397df725486543723f27c3681a76d27e6412ddca9ca793aa7286380"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "missing",
+        "@NULL",
+        "0",
+        "single"
+      ],
+      "stdout": "result:49:errno:2\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "5f1242b1d397df725486543723f27c3681a76d27e6412ddca9ca793aa7286380"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "missing",
+        "\\other\\renamed",
+        "0",
+        "single"
+      ],
+      "stdout": "result:49:errno:2\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "5f1242b1d397df725486543723f27c3681a76d27e6412ddca9ca793aa7286380"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "alias",
+        "new",
+        "0",
+        "single"
+      ],
+      "stdout": "result:0:errno:2\nentry:/:16:0\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/new:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "83f7db4835b7ba779758629a5689074e0fcdc9083ac0e426951765ebae2fa9d5"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "alias",
+        "other-file",
+        "0",
+        "single"
+      ],
+      "stdout": "result:0:errno:0\nentry:/:16:0\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:2176\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "20ac97c0286a20bda63ef224fc046aea6aab44dc31a7eed2f22b0449ff65241e"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "alias",
+        "file",
+        "0",
+        "single"
+      ],
+      "stdout": "result:0:errno:0\nentry:/:16:0\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "5156a48991dedebab36932231b35cecffaa54cb655d7da7d626c226d76ca7f71"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "alias",
+        "dir",
+        "0",
+        "single"
+      ],
+      "stdout": "result:32:errno:21\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "30f3b8ef4b377c8cc99f94ea3df06c162d055c3cb9e199950c7e9d4b96e26f9a"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "alias",
+        "empty",
+        "0",
+        "single"
+      ],
+      "stdout": "result:32:errno:21\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "30f3b8ef4b377c8cc99f94ea3df06c162d055c3cb9e199950c7e9d4b96e26f9a"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "alias",
+        "dir/child",
+        "0",
+        "single"
+      ],
+      "stdout": "result:0:errno:0\nentry:/:16:0\nentry:/dir:16:0\nentry:/dir/child:128:2176\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "e62575a1b14c9b9b2cdc2517e7a49de5cdf8c69d65870fe2aaaadc5767a3801c"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "alias",
+        "dir/new",
+        "0",
+        "single"
+      ],
+      "stdout": "result:0:errno:2\nentry:/:16:0\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/dir/new:128:2176\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "cd0f65965bff60efff62dadabe6deefc31d43186653898cdb7a486ddeb072164"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "alias",
+        "missing/new",
+        "0",
+        "single"
+      ],
+      "stdout": "result:49:errno:2\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "5f1242b1d397df725486543723f27c3681a76d27e6412ddca9ca793aa7286380"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "alias",
+        "file/new",
+        "0",
+        "single"
+      ],
+      "stdout": "result:40:errno:20\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "8da3f1cb1c770d1395d44a35aa6830d764fe0c4d7e141dda59415269f16e6268"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "alias",
+        "/",
+        "0",
+        "single"
+      ],
+      "stdout": "result:32:errno:21\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "30f3b8ef4b377c8cc99f94ea3df06c162d055c3cb9e199950c7e9d4b96e26f9a"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "alias",
+        "",
+        "0",
+        "single"
+      ],
+      "stdout": "result:32:errno:21\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "30f3b8ef4b377c8cc99f94ea3df06c162d055c3cb9e199950c7e9d4b96e26f9a"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "alias",
+        "@NULL",
+        "0",
+        "single"
+      ],
+      "stdout": "result:32:errno:21\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "30f3b8ef4b377c8cc99f94ea3df06c162d055c3cb9e199950c7e9d4b96e26f9a"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "alias",
+        "\\other\\renamed",
+        "0",
+        "single"
+      ],
+      "stdout": "result:0:errno:2\nentry:/:16:0\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other/renamed:128:2176\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "cc6a81bb1d325ae4380a6d24a8d50f9e0fe6369bf9563af41d46f050bea39e5d"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "@NULL",
+        "new",
+        "0",
+        "single"
+      ],
+      "stdout": "result:41:errno:16\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "d09c3bc156b2efd962a277ffc0fc693c1e1df88a62526f6bb798d5d75bf62f16"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "@NULL",
+        "other-file",
+        "0",
+        "single"
+      ],
+      "stdout": "result:40:errno:20\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "8da3f1cb1c770d1395d44a35aa6830d764fe0c4d7e141dda59415269f16e6268"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "@NULL",
+        "file",
+        "0",
+        "single"
+      ],
+      "stdout": "result:40:errno:20\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "8da3f1cb1c770d1395d44a35aa6830d764fe0c4d7e141dda59415269f16e6268"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "@NULL",
+        "dir",
+        "0",
+        "single"
+      ],
+      "stdout": "result:41:errno:39\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "56afdbdbf3a356d1269a742367e2f721f45542d763f4620e01573b52c8824840"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "@NULL",
+        "empty",
+        "0",
+        "single"
+      ],
+      "stdout": "result:41:errno:16\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "d09c3bc156b2efd962a277ffc0fc693c1e1df88a62526f6bb798d5d75bf62f16"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "@NULL",
+        "dir/child",
+        "0",
+        "single"
+      ],
+      "stdout": "result:40:errno:20\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "8da3f1cb1c770d1395d44a35aa6830d764fe0c4d7e141dda59415269f16e6268"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "@NULL",
+        "dir/new",
+        "0",
+        "single"
+      ],
+      "stdout": "result:41:errno:16\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "d09c3bc156b2efd962a277ffc0fc693c1e1df88a62526f6bb798d5d75bf62f16"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "@NULL",
+        "missing/new",
+        "0",
+        "single"
+      ],
+      "stdout": "result:49:errno:2\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "5f1242b1d397df725486543723f27c3681a76d27e6412ddca9ca793aa7286380"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "@NULL",
+        "file/new",
+        "0",
+        "single"
+      ],
+      "stdout": "result:40:errno:20\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "8da3f1cb1c770d1395d44a35aa6830d764fe0c4d7e141dda59415269f16e6268"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "@NULL",
+        "/",
+        "0",
+        "single"
+      ],
+      "stdout": "result:0:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "c4a2508b87876356d84c0ba79163c19848575aecf8c1a671f1ff2521e52d304a"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "@NULL",
+        "",
+        "0",
+        "single"
+      ],
+      "stdout": "result:0:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "c4a2508b87876356d84c0ba79163c19848575aecf8c1a671f1ff2521e52d304a"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "@NULL",
+        "@NULL",
+        "0",
+        "single"
+      ],
+      "stdout": "result:0:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "c4a2508b87876356d84c0ba79163c19848575aecf8c1a671f1ff2521e52d304a"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "@NULL",
+        "\\other\\renamed",
+        "0",
+        "single"
+      ],
+      "stdout": "result:41:errno:16\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "d09c3bc156b2efd962a277ffc0fc693c1e1df88a62526f6bb798d5d75bf62f16"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "file",
+        "new",
+        "0",
+        "shared"
+      ],
+      "stdout": "share:0\nresult:86:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "3cdcf50392ba7ec7336732e3d04123782573ceded0380183263fe6389a882e9c"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "file",
+        "new",
+        "0",
+        "dest-shared"
+      ],
+      "stdout": "share:0\nresult:86:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "3cdcf50392ba7ec7336732e3d04123782573ceded0380183263fe6389a882e9c"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "file",
+        "new",
+        "0",
+        "dest-released"
+      ],
+      "stdout": "share:0\nresult:0:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "4a8b2f10ae6b2a08576e545337a71ad9f974121e387e431b85cb90ae54abbfee"
+    },
+    {
+      "arguments": [
+        "delete",
+        "1",
+        "file",
+        "new",
+        "0",
+        "source-released"
+      ],
+      "stdout": "share:0\nresult:0:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "4a8b2f10ae6b2a08576e545337a71ad9f974121e387e431b85cb90ae54abbfee"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "file",
+        "new",
+        "0",
+        "shared"
+      ],
+      "stdout": "share:0\nresult:86:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "3cdcf50392ba7ec7336732e3d04123782573ceded0380183263fe6389a882e9c"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "file",
+        "new",
+        "0",
+        "dest-shared"
+      ],
+      "stdout": "share:0\nresult:86:errno:0\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/file:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "3cdcf50392ba7ec7336732e3d04123782573ceded0380183263fe6389a882e9c"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "file",
+        "new",
+        "0",
+        "dest-released"
+      ],
+      "stdout": "share:0\nresult:0:errno:2\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/new:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "d6a20d7cee929d6c409d7809adc562e16391d1e45b0b5c0c9204b742817766c8"
+    },
+    {
+      "arguments": [
+        "rename",
+        "1",
+        "file",
+        "new",
+        "0",
+        "source-released"
+      ],
+      "stdout": "share:0\nresult:0:errno:2\nentry:/:16:0\nentry:/alias:128:2176\nentry:/dir:16:0\nentry:/dir/child:128:6\nentry:/empty:16:0\nentry:/new:128:2176\nentry:/other:16:0\nentry:/other-file:128:11\nentry:/symlink:1024:32\ntree:0\n",
+      "stderr": "",
+      "stdout_sha256": "d6a20d7cee929d6c409d7809adc562e16391d1e45b0b5c0c9204b742817766c8"
+    }
+  ]
+}

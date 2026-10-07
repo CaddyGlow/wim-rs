@@ -1,0 +1,36 @@
+[package]
+name = "wim"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.99.0"
+license = "LGPL-2.1-or-later OR GPL-3.0-or-later"
+publish = false
+
+[lib]
+name = "wim"
+crate-type = ["cdylib", "rlib"]
+
+[features]
+test-support = []
+disk-capture = ["dep:windows-disk", "dep:windows-ntfs"]
+
+[dependencies]
+ms-compress = { version = "0.1.0", path = "../../../ms-compress" }
+wim-format = { version = "0.1.0", path = "../wim-format" }
+hashbrown = { version = "0.15.5", default-features = false, features = ["default-hasher"] }
+sha1 = "0.10"
+libc = "=0.2.190"
+windows-disk = { version = "0.1.0", path = "../../../windows-uup/crates/windows-disk", optional = true }
+windows-ntfs = { version = "0.1.0", path = "../../../windows-uup/crates/windows-ntfs", optional = true }
+
+[lints.rust]
+unsafe_op_in_unsafe_fn = "deny"
+
+[lints.clippy]
+chunks_exact_to_as_chunks = "allow"
+
+[workspace]
+resolver = "3"
+
+[patch.crates-io]
+ntfs = { path = "../../../windows-uup/vendor/ntfs" }

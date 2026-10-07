@@ -1,0 +1,12 @@
+   Compiling wim-codec v0.1.0 (/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/wim-codec)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.09s
+     Running tests/context.rs (crates/wimlib-rs/target/debug/deps/context-ede0650fb478ddde)
+
+running 4 tests
+test compressor_defaults_resolve_zero_and_preserve_raw_default_bits ... ok
+test contexts_validate_each_codec_limit_and_numeric_type ... ok
+test reused_decoder_recovers_after_oversize_and_malformed_calls ... ok
+test fixed_strategy_handles_reuse_all_three_codecs_without_mutating_input ... ok
+
+test result: ok. 4 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.02s
+

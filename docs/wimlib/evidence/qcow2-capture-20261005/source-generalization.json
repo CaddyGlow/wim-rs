@@ -1,0 +1,27 @@
+{
+  "guest": "qcow2-source-1005",
+  "shutdown_observed": true,
+  "shutdown_evidence": "Owned vm-run process session86119 exited0 and guest sockets disappeared; source has not been rebooted.",
+  "generalized": true,
+  "native_log_reader": "windows-ntfs frozen_metadata example over authorized QCOW2 chain",
+  "success_time_guest": "2026-10-05 10:21:14",
+  "success_evidence": [
+    "FCreateTagFile:Successfully created tag file C:\\Windows\\System32\\Sysprep\\Sysprep_succeeded.tag",
+    "ProcessShutdown:Successfully called InitiateSystemShutdownEx to shutdown the computer"
+  ],
+  "warnings": [
+    "BCD firmware export failed c000000d at 2026-10-05 10:21:01; generalization subsequently completed. Fresh Setup must create and boot its own EFI/BCD state."
+  ],
+  "logs": [
+    {
+      "path": "/data/cache/qcow2-capture-20261005/panther-native/Windows_System32_Sysprep_Panther_setupact.log",
+      "bytes": 504979,
+      "sha256": "8ada5cc043dca93147c07264c83d9bd7d5a434b3970bfb7e0b5c67652128fa47"
+    },
+    {
+      "path": "/data/cache/qcow2-capture-20261005/panther-native/Windows_System32_Sysprep_Panther_setuperr.log",
+      "bytes": 797,
+      "sha256": "7b0caea417b4456429cc081bffe63ebc3427484000ecf2868465598066075d73"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+# Extended Object ID API semantics review (2026-10-06)
+
+Microsoft [MS-FSCC section 2.3.79](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-fscc/757bc8fa-f24f-44cf-86dc-adb2c113589d) defines the setter input as exactly 48 application-defined bytes, opaque to NTFS. The filesystem does not enforce a particular meaning for those bytes. Thus arbitrary fixture extension bytes are a valid filesystem challenge; interpreting them as link-tracking lineage is an application concern. This does not justify weakening the full-byte preservation gate.
+
+Microsoft [Distributed Link Tracking and Object Identifiers](https://learn.microsoft.com/en-us/windows/win32/fileio/distributed-link-tracking-and-object-identifiers) explains that link tracking uses object identifiers and that backup/restore operations preserve them. This description does not establish that an independently reconstructed installed volume retains every extended byte through its normal first boot. The actual strict capture/archive checks and reboot observations remain separate evidence.
+
+The preserved boot trace records TrkWks issuing a successful extended setter before the first GET sample finds zeros. The CSV does not contain the setter input bytes. The next causal check must inspect the captured stack and, if necessary, observe the actual 48-byte input on an independent disposable branch with unchanged service configuration. Repeated restoration or disabling link tracking would not prove normal Windows metadata preservation.

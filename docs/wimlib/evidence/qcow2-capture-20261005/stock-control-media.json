@@ -1,0 +1,36 @@
+{
+  "scope": "Independent Microsoft stock capture causal-control media; no native capture/WinRE staging or installed metadata gate credit",
+  "writer_exit": 0,
+  "writer_producer_sha256": "60dc5c1a8741e8284733bcd7a6a9bb280f01695838ffa90b8c81f39a2896c9e4",
+  "iso": "/data/cache/qcow2-stock-control-20261005/stock-control.iso",
+  "iso_bytes": 9392879616,
+  "actual_iso_sha256": "63c84e4e5fbb823f1301bc63c93e1b2c0e6314fed22cc4f17895d99c548dce2d",
+  "actual_stock_wim_sha256": "9ba5122cb6f79fb2f5735e42695c8184a4212f57793e15d8301077b2696a5b09",
+  "unchanged_setup_files": 967,
+  "only_changed_staging_path": "sources/install.wim",
+  "EI_CFG_absent_both": true,
+  "catalog_passed": true,
+  "same_v7_external_seed_required": true,
+  "evidence": {
+    "preparation.json": {
+      "path": "/data/cache/qcow2-stock-control-20261005/preparation.json",
+      "sha256": "339d064e9a086eadb5ffe142df3afb9216f93fac222142d6d7a089e459e58cba"
+    },
+    "setup-file-equivalence.json": {
+      "path": "/data/cache/qcow2-stock-control-20261005/setup-file-equivalence.json",
+      "sha256": "dc6058e3554c5eae8a1be1d384c99eeb0a48e2e96aecc472e40871cf22ae1cdd"
+    },
+    "independent-iso-boot.json": {
+      "path": "/data/cache/qcow2-stock-control-20261005/independent-iso-boot.json",
+      "sha256": "a1c8416c4e6119b121072a02618b3a6368504435e9bfb04389b6bf071079cb23"
+    },
+    "actual-payload-hashes.txt": {
+      "path": "/data/cache/qcow2-stock-control-20261005/actual-payload-hashes.txt",
+      "sha256": "68271a6744514b061a0728ae7c70098f4cd798303b4dd1998108fd2591a46b31"
+    },
+    "iso.log": {
+      "path": "/data/cache/qcow2-stock-control-20261005/iso.log",
+      "sha256": "a86440c22a180250fc47611a6ae23173627d180b060672bf4f6ac7e214f0acef"
+    }
+  }
+}

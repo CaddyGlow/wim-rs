@@ -1,0 +1,195 @@
+   Compiling wim-format v0.1.0 (/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/wim-format)
+   Compiling wim-codec v0.1.0 (/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/wim-codec)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.63s
+     Running unittests src/lib.rs (crates/wimlib-rs/target/debug/deps/wim_codec-4fd85906a1f66005)
+
+running 8 tests
+test lzms::tests::backwards_words_supply_high_bits_first_and_zero_pad_exhaustion ... ok
+test lzms::tests::delta_copy_overlaps_with_bytewise_wrapping_arithmetic ... ok
+test lzms::tests::delta_copy_rejects_overflow_underrun_and_output_overrun ... ok
+test lzms::tests::delta_copy_power_scales_both_offset_and_span ... ok
+test lzms::tests::unrepresentable_allocation_returns_recoverable_error ... ok
+test lzms::tests::repeat_queues_delay_new_source_for_all_three_indices ... ok
+test lzms::tests::x86_filter_ignores_first_byte_and_last_sixteen_bytes ... ok
+test lzms::tests::bounded_huffman_lengths_match_original_c_for_deep_fibonacci_tree ... ok
+
+test result: ok. 8 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/differential.rs (crates/wimlib-rs/target/debug/deps/differential-02d6f975a4ce4c98)
+
+running 1 test
+test native_decoder_matches_original_c_on_valid_corrupted_and_truncated_blocks ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.19s
+
+     Running tests/lzms.rs (crates/wimlib-rs/target/debug/deps/lzms-b09883fd746f15d3)
+
+running 4 tests
+test decoder_rejects_odd_sized_and_short_blocks ... ok
+test empty_output_still_requires_valid_word_stream_structure ... ok
+test tiny_output_alphabets_decode_literals_without_upstream_zero_symbol_crash ... ok
+test tiny_output_alphabets_reject_match_sources_before_output ... ok
+
+test result: ok. 4 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.03s
+
+     Running tests/lzms_differential.rs (crates/wimlib-rs/target/debug/deps/lzms_differential-80385b59e12bb446)
+
+running 1 test
+test native_decoder_matches_original_c_on_valid_corrupted_and_truncated_blocks ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 1.68s
+
+     Running tests/lzx.rs (crates/wimlib-rs/target/debug/deps/lzx-d7e67547db05ffca)
+
+running 32 tests
+test block_larger_than_requested_output_is_rejected ... ok
+test all_extended_window_orders_use_24_bit_block_sizes ... ok
+test e8_does_not_process_instruction_starting_in_last_ten_bytes ... ok
+test e8_inverse_compensates_negative_target_in_valid_range ... ok
+test e8_inverse_transforms_absolute_target_to_relative ... ok
+test aligned_offset_symbol_supplies_low_three_offset_bits ... ok
+test empty_output_succeeds_without_reading_any_header ... ok
+test identical_length_run_rejects_precode_symbol_above_seventeen ... ok
+test invalid_maximum_capacity_is_rejected ... ok
+test explicit_offset_slot_three_matches_previous_literal ... ok
+test identical_length_runs_decode_delta_from_first_previous_length ... ok
+test long_zero_runs_allow_documented_fifty_length_scratch_overrun ... ok
+test missing_final_odd_padding_byte_is_permitted ... ok
+test length_header_seven_reads_empty_length_code_as_zero ... ok
+test non_power_of_two_capacity_rounds_window_up ... ok
+test missing_header_zero_padding_yields_invalid_block_type ... ok
+test aligned_empty_tables_emit_zeroes_using_bit_padding ... ok
+test huffman_lengths_are_delta_encoded_against_previous_block ... ok
+test output_beyond_capacity_is_rejected_before_reading_input ... ok
+test match_cannot_cross_its_block_end ... ok
+test uncompressed_block_copies_literal_bytes ... ok
+test uncompressed_literals_are_not_zero_padded ... ok
+test repeated_offset_one_slot_uses_initial_offset_one ... ok
+test repeated_offset_two_does_not_demote_recent_offset_one ... ok
+test zero_maximum_capacity_is_rejected ... ok
+test short_zero_runs_allow_documented_code_length_scratch_overrun ... ok
+test repeated_offset_two_slot_uses_initial_offset_one ... ok
+test zero_recent_offset_is_rejected ... ok
+test repeated_offset_zero_slot_uses_initial_offset_one ... ok
+test uncompressed_header_already_aligned_discards_an_extra_coding_word ... ok
+test verbatim_empty_tables_emit_zeroes_using_bit_padding ... ok
+test verbatim_seventeen_bit_offset_reads_across_coding_word_boundary ... ok
+
+test result: ok. 32 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/lzx_differential.rs (crates/wimlib-rs/target/debug/deps/lzx_differential-cfd5f3bed94c09d9)
+
+running 1 test
+test native_lzx_matches_original_c_for_all_windows_and_malformed_blocks ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 1.12s
+
+     Running tests/xpress.rs (crates/wimlib-rs/target/debug/deps/xpress-8e7614dd04d2e9c4)
+
+running 20 tests
+test complete_header_is_required_even_for_empty_output ... ok
+test byte_length_extension_is_after_prefetched_coding_words ... ok
+test decodes_literal_without_end_marker ... ok
+test empty_huffman_table_decodes_zero_literals_without_consuming_bits ... ok
+test incomplete_final_coding_word_is_ignored_like_original ... ok
+test empty_output_accepts_empty_huffman_code ... ok
+test incomplete_nonempty_huffman_code_is_rejected ... ok
+test match_before_any_literals_is_rejected ... ok
+test match_past_output_end_is_rejected ... ok
+test maximum_fifteen_bit_codeword_decodes_correctly ... ok
+test missing_length_extension_byte_is_zero_padded ... ok
+test missing_u16_length_extension_is_zero_padded ... ok
+test nonoverlapping_offset_three_match_copies_prefix ... ok
+test overlapping_offset_one_match_repeats_previous_literal ... ok
+test overlapping_offset_two_match_repeats_two_literals ... ok
+test oversubscribed_huffman_code_is_rejected_even_for_empty_output ... ok
+test trailing_data_is_not_required_to_be_end_marker ... ok
+test reads_little_endian_words_with_most_significant_bit_first ... ok
+test u16_length_extension_replaces_both_short_length_fields ... ok
+test maximum_u16_length_extension_is_bounded_by_output ... ok
+
+test result: ok. 20 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src/lib.rs (crates/wimlib-rs/target/debug/deps/wim_format-63788e36dcb36272)
+
+running 9 tests
+test lookup::tests::absent_metadata_reconciles_first_part_image_count_and_ignores_trailing_bytes ... ok
+test lookup::tests::disk_record_retains_exact_layout_and_rejects_every_truncation ... ok
+test lookup::tests::filtering_does_not_bypass_uncompressed_size_validation ... ok
+test lookup::tests::first_duplicate_wins_and_metadata_follows_table_order ... ok
+test lookup::tests::ignores_zero_hash_empty_wrong_part_and_unreferenced_metadata ... ok
+test lookup::tests::ordinary_version_ignores_solid_flag_and_metadata_requires_single_reference ... ok
+test lookup::tests::solid_blobs_use_concatenated_resource_offsets_and_descriptor_size_as_blob_length ... ok
+test lookup::tests::solid_metadata_and_missing_backing_resource_are_rejected ... ok
+test lookup::tests::solid_overlaps_are_rejected_but_out_of_order_disjoint_blobs_are_accepted ... ok
+
+test result: ok. 9 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/header.rs (crates/wimlib-rs/target/debug/deps/header-8fdcfe48835d21cf)
+
+running 11 tests
+test basic_field_errors_match_upstream_order ... ok
+test compression_precedence_and_chunk_bounds_match_c ... ok
+test every_truncated_header_returns_eof ... ok
+test file_size_guard_and_zero_image_count_match_upstream ... ok
+test pipable_magic_and_noncanonical_flags_are_not_rejected ... ok
+test reserved_bytes_roundtrip_but_canonical_writer_zeros_them ... ok
+test resource_uses_56_bit_size_and_preserves_unknown_flags ... ok
+test seekable_pipable_ignores_placeholder_header_fields ... ok
+test seekable_pipable_retains_initial_magic_without_validating_final_magic ... ok
+test seekable_pipable_uses_final_header ... ok
+test upstream_header_roundtrips ... ok
+
+test result: ok. 11 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/resource.rs (crates/wimlib-rs/target/debug/deps/resource-c3d371a3d8e0813a)
+
+running 8 tests
+test malformed_ranges_and_chunk_offsets_return_errors ... ok
+test raw_chunks_and_partial_last_chunk_are_copied_without_decoder ... ok
+test pipable_and_solid_raw_chunk_layouts_decode ... ok
+test resources_larger_than_32bits_use_64bit_offsets_before_allocating ... ok
+test uncompressed_reads_use_requested_uncompressed_size ... ok
+test upstream_xpress_resource_matches_original_payload ... ok
+test upstream_pipable_and_solid_xpress_resources_match_payload ... ok
+test solid_last_chunk_table_entry_is_ignored_and_algorithm_is_22bit ... ok
+
+test result: ok. 8 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src/lib.rs (crates/wimlib-rs/target/debug/deps/wim_types-da8c1d62226ee7e0)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.12s
+
+     Running tests/contracts.rs (crates/wimlib-rs/target/debug/deps/contracts-950ac3b0ef3e559b)
+
+running 7 tests
+test compression_numbers_roundtrip_and_reject_negative_or_unknown_values ... ok
+test compression_chunk_limits_are_format_specific ... ok
+test all_upstream_error_discriminants_roundtrip_without_filling_reserved_gaps ... ok
+test native_names_encode_supplementary_unicode_losslessly ... ok
+test uncompressed_chunks_require_zero_and_compressed_chunks_reject_zero ... ok
+test errors_preserve_sparse_upstream_numbers ... ok
+test native_names_preserve_unpaired_surrogates_and_nuls ... ok
+
+test result: ok. 7 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests wim_codec
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests wim_format
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests wim_types
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

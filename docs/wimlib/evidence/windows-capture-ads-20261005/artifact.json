@@ -1,0 +1,7 @@
+{
+  "sha256": "50970311304f5eb376054dedf3dfcbdf6f32038a5ad0a0afe4f392c33704e70b",
+  "target": "x86_64-pc-windows-msvc",
+  "static_crt": true,
+  "guest_instance": "wim-capture-ads-1005",
+  "base": "win11-dev"
+}

@@ -1,0 +1,11 @@
+   Compiling wim-format v0.1.0 (/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/wim-format)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.25s
+     Running tests/solid_write.rs (crates/wimlib-rs/target/debug/deps/solid_write-8a2fb55c845f2ded)
+
+running 3 tests
+test solid_writer_rejects_none_compression_and_split_source ... ok
+test solid_writer_preserves_boot_metadata_and_rejects_missing_content ... ok
+test solid_writer_roundtrips_all_source_layouts_and_compressors ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.35s
+

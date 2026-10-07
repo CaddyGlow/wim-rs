@@ -1,0 +1,1646 @@
+{
+  "scope": "Probe loader infrastructure failure: frozen SONAME15 library lacked libwim.so.15 symlink; all native processes exited127 before API entry. Not an implementation mismatch.",
+  "cases": 182,
+  "observations": 1010,
+  "mismatches": [
+    {
+      "case": 0,
+      "source": "source",
+      "flags": 0,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 11 0 0 0 0', b'add 0 images 1 boot 0 rpfix 1'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 1,
+      "source": "source",
+      "flags": 4,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 10 0 1 0 0', b'scan 10 0 1 1 12', b'scan 10 3 1 1 12', b'scan 10 0 1 2 60', b'scan 10 0 1 3 60', b'scan 10 2 1 3 60', b'scan 10 0 1 4 92', b'scan 10 0 2 4 92', b'scan 11 0 2 4 92', b'add 0 images 1 boot 0 rpfix 1'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 2,
+      "source": "source",
+      "flags": 16,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 11 0 0 0 0', b'add 0 images 1 boot 0 rpfix 1'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 3,
+      "source": "source",
+      "flags": 20,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 10 0 1 0 0', b'scan 10 0 1 1 12', b'scan 10 3 1 1 12', b'scan 10 0 1 2 60', b'scan 10 0 1 3 60', b'scan 10 0 1 4 60', b'scan 10 0 1 5 92', b'scan 10 0 2 5 92', b'scan 11 0 2 5 92', b'add 0 images 1 boot 0 rpfix 1'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 4,
+      "source": "source",
+      "flags": 2,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 11 0 0 0 0', b'add 0 images 1 boot 0 rpfix 1'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 5,
+      "source": "source",
+      "flags": 18,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 11 0 0 0 0', b'add 0 images 1 boot 0 rpfix 1'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 6,
+      "source": "source",
+      "flags": 260,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 10 0 1 0 0', b'scan 10 0 1 1 12', b'scan 10 3 1 1 12', b'scan 10 0 1 2 60', b'scan 10 0 1 3 60', b'scan 10 2 1 3 60', b'scan 10 0 1 4 92', b'scan 10 0 2 4 92', b'scan 11 0 2 4 92', b'add 0 images 1 boot 0 rpfix 1'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 7,
+      "source": "source",
+      "flags": 516,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 10 0 1 0 0', b'scan 10 0 1 1 12', b'scan 10 0 1 2 208', b'scan 10 0 1 3 208', b'scan 10 2 1 3 208', b'scan 10 0 1 4 240', b'scan 10 0 2 4 240', b'scan 11 0 2 4 240', b'add 0 images 1 boot 0 rpfix 0'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 8,
+      "source": "source",
+      "flags": 768,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'add 24 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 9,
+      "source": "source",
+      "flags": 1024,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'progress 31', b'add 69 images 0 boot 0 rpfix 0', b'errno 0'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 10,
+      "source": "source",
+      "flags": 1028,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 10 0 1 0 0', b'scan 10 0 1 1 12', b'scan 10 3 1 1 12', b'scan 10 0 1 2 60', b'scan 10 0 1 3 60', b'progress 31', b'progress 31', b'add 69 images 0 boot 0 rpfix 0', b'errno 0'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 11,
+      "source": "source",
+      "flags": 2048,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 11 0 0 0 0', b'add 0 images 1 boot 0 rpfix 1'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 12,
+      "source": "source",
+      "flags": 2052,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 10 0 1 0 0', b'scan 10 0 1 1 12', b'scan 10 3 1 1 12', b'scan 10 0 1 2 60', b'scan 10 0 1 3 60', b'scan 10 2 1 3 60', b'scan 10 0 1 4 92', b'scan 10 0 2 4 92', b'scan 11 0 2 4 92', b'add 0 images 1 boot 0 rpfix 1'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 13,
+      "source": "source",
+      "flags": 4096,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 11 0 0 0 0', b'add 0 images 1 boot 0 rpfix 1'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 14,
+      "source": "source",
+      "flags": 4116,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 10 0 1 0 0', b'scan 10 0 1 1 12', b'scan 10 3 1 1 12', b'scan 10 0 1 2 60', b'scan 10 0 1 3 60', b'scan 10 0 1 4 60', b'scan 10 0 1 5 92', b'scan 10 0 2 5 92', b'scan 11 0 2 5 92', b'add 0 images 1 boot 0 rpfix 1'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 15,
+      "source": "source",
+      "flags": 8192,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 11 0 0 0 0', b'add 0 images 1 boot 0 rpfix 1'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 16,
+      "source": "source",
+      "flags": 16384,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 30', b'progress 30', b'progress 30', b'progress 30', b'progress 30', b'progress 30', b'progress 30', b'scan 11 0 0 0 0', b'add 0 images 1 boot 0 rpfix 1'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 17,
+      "source": "source",
+      "flags": 32768,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'add 68 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 18,
+      "source": "source",
+      "flags": 65536,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 11 0 0 0 0', b'add 0 images 1 boot 0 rpfix 1'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 19,
+      "source": "source",
+      "flags": 131072,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'add 24 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 20,
+      "source": "source",
+      "flags": 8,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 11 0 0 0 0', b'add 0 images 1 boot 1 rpfix 1'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 21,
+      "source": "source",
+      "flags": 1,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'add 68 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 22,
+      "source": "source/data",
+      "flags": 0,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 11 0 0 0 0', b'add 40 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 23,
+      "source": "source/data",
+      "flags": 4,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 10 0 0 1 12', b'scan 11 0 0 1 12', b'add 40 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 24,
+      "source": "source/data",
+      "flags": 16,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 11 0 0 0 0', b'add 40 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 25,
+      "source": "source/data",
+      "flags": 20,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 10 0 0 1 12', b'scan 11 0 0 1 12', b'add 40 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 26,
+      "source": "source/data",
+      "flags": 2,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 11 0 0 0 0', b'add 40 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 27,
+      "source": "source/data",
+      "flags": 18,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 11 0 0 0 0', b'add 40 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 28,
+      "source": "source/data",
+      "flags": 260,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 10 0 0 1 12', b'scan 11 0 0 1 12', b'add 40 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 29,
+      "source": "source/data",
+      "flags": 516,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 10 0 0 1 12', b'scan 11 0 0 1 12', b'add 40 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 30,
+      "source": "source/data",
+      "flags": 768,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'add 24 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 31,
+      "source": "source/data",
+      "flags": 1024,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 11 0 0 0 0', b'add 40 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 32,
+      "source": "source/data",
+      "flags": 1028,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 10 0 0 1 12', b'scan 11 0 0 1 12', b'add 40 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 33,
+      "source": "source/data",
+      "flags": 2048,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 11 0 0 0 0', b'add 40 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 34,
+      "source": "source/data",
+      "flags": 2052,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 10 0 0 1 12', b'scan 11 0 0 1 12', b'add 40 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 35,
+      "source": "source/data",
+      "flags": 4096,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 11 0 0 0 0', b'add 40 images 0 boot 0 rpfix 0', b'errno 20'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 36,
+      "source": "source/data",
+      "flags": 4116,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 10 0 0 1 12', b'scan 11 0 0 1 12', b'add 40 images 0 boot 0 rpfix 0', b'errno 20'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 37,
+      "source": "source/data",
+      "flags": 8192,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 11 0 0 0 0', b'add 40 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 38,
+      "source": "source/data",
+      "flags": 16384,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 30', b'scan 11 0 0 0 0', b'add 40 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 39,
+      "source": "source/data",
+      "flags": 32768,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'add 68 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 40,
+      "source": "source/data",
+      "flags": 65536,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 11 0 0 0 0', b'add 40 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 41,
+      "source": "source/data",
+      "flags": 131072,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'add 24 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 42,
+      "source": "source/data",
+      "flags": 8,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 11 0 0 0 0', b'add 40 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 43,
+      "source": "source/data",
+      "flags": 1,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'add 68 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 44,
+      "source": "source/link",
+      "flags": 0,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 11 0 0 0 0', b'add 40 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 45,
+      "source": "source/link",
+      "flags": 4,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 10 0 0 1 12', b'scan 11 0 0 1 12', b'add 40 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 46,
+      "source": "source/link",
+      "flags": 16,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 11 0 0 0 0', b'add 40 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 47,
+      "source": "source/link",
+      "flags": 20,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 10 0 0 1 12', b'scan 11 0 0 1 12', b'add 40 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 48,
+      "source": "source/link",
+      "flags": 2,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 11 0 0 0 0', b'add 40 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 49,
+      "source": "source/link",
+      "flags": 18,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 11 0 0 0 0', b'add 40 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 50,
+      "source": "source/link",
+      "flags": 260,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 10 0 0 1 12', b'scan 11 0 0 1 12', b'add 40 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 51,
+      "source": "source/link",
+      "flags": 516,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 10 0 0 1 12', b'scan 11 0 0 1 12', b'add 40 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 52,
+      "source": "source/link",
+      "flags": 768,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'add 24 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 53,
+      "source": "source/link",
+      "flags": 1024,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 11 0 0 0 0', b'add 40 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 54,
+      "source": "source/link",
+      "flags": 1028,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 10 0 0 1 12', b'scan 11 0 0 1 12', b'add 40 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 55,
+      "source": "source/link",
+      "flags": 2048,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 11 0 0 0 0', b'add 40 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 56,
+      "source": "source/link",
+      "flags": 2052,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 10 0 0 1 12', b'scan 11 0 0 1 12', b'add 40 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 57,
+      "source": "source/link",
+      "flags": 4096,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 11 0 0 0 0', b'add 40 images 0 boot 0 rpfix 0', b'errno 20'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 58,
+      "source": "source/link",
+      "flags": 4116,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 10 0 0 1 12', b'scan 11 0 0 1 12', b'add 40 images 0 boot 0 rpfix 0', b'errno 20'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 59,
+      "source": "source/link",
+      "flags": 8192,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 11 0 0 0 0', b'add 40 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 60,
+      "source": "source/link",
+      "flags": 16384,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 30', b'scan 11 0 0 0 0', b'add 40 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 61,
+      "source": "source/link",
+      "flags": 32768,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'add 68 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 62,
+      "source": "source/link",
+      "flags": 65536,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 11 0 0 0 0', b'add 40 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 63,
+      "source": "source/link",
+      "flags": 131072,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'add 24 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 64,
+      "source": "source/link",
+      "flags": 8,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 11 0 0 0 0', b'add 40 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 65,
+      "source": "source/link",
+      "flags": 1,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'add 68 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 66,
+      "source": "source/missing",
+      "flags": 0,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'add 63 images 0 boot 0 rpfix 0', b'errno 2'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 67,
+      "source": "source/missing",
+      "flags": 4,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'add 63 images 0 boot 0 rpfix 0', b'errno 2'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 68,
+      "source": "source/missing",
+      "flags": 16,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'add 63 images 0 boot 0 rpfix 0', b'errno 2'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 69,
+      "source": "source/missing",
+      "flags": 20,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'add 63 images 0 boot 0 rpfix 0', b'errno 2'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 70,
+      "source": "source/missing",
+      "flags": 2,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'add 63 images 0 boot 0 rpfix 0', b'errno 2'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 71,
+      "source": "source/missing",
+      "flags": 18,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'add 63 images 0 boot 0 rpfix 0', b'errno 2'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 72,
+      "source": "source/missing",
+      "flags": 260,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'add 63 images 0 boot 0 rpfix 0', b'errno 2'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 73,
+      "source": "source/missing",
+      "flags": 516,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'add 63 images 0 boot 0 rpfix 0', b'errno 2'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 74,
+      "source": "source/missing",
+      "flags": 768,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'add 24 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 75,
+      "source": "source/missing",
+      "flags": 1024,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'add 63 images 0 boot 0 rpfix 0', b'errno 2'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 76,
+      "source": "source/missing",
+      "flags": 1028,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'add 63 images 0 boot 0 rpfix 0', b'errno 2'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 77,
+      "source": "source/missing",
+      "flags": 2048,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'add 63 images 0 boot 0 rpfix 0', b'errno 2'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 78,
+      "source": "source/missing",
+      "flags": 2052,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'add 63 images 0 boot 0 rpfix 0', b'errno 2'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 79,
+      "source": "source/missing",
+      "flags": 4096,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'add 63 images 0 boot 0 rpfix 0', b'errno 2'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 80,
+      "source": "source/missing",
+      "flags": 4116,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'add 63 images 0 boot 0 rpfix 0', b'errno 2'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 81,
+      "source": "source/missing",
+      "flags": 8192,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'add 63 images 0 boot 0 rpfix 0', b'errno 2'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 82,
+      "source": "source/missing",
+      "flags": 16384,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 30', b'progress 31', b'add 63 images 0 boot 0 rpfix 0', b'errno 2'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 83,
+      "source": "source/missing",
+      "flags": 32768,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'add 68 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 84,
+      "source": "source/missing",
+      "flags": 65536,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'add 63 images 0 boot 0 rpfix 0', b'errno 2'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 85,
+      "source": "source/missing",
+      "flags": 131072,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'add 24 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 86,
+      "source": "source/missing",
+      "flags": 8,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'add 63 images 0 boot 0 rpfix 0', b'errno 2'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 87,
+      "source": "source/missing",
+      "flags": 1,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'add 68 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 88,
+      "source": "raw",
+      "flags": 0,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 11 0 0 0 0', b'add 0 images 1 boot 0 rpfix 1'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 89,
+      "source": "raw",
+      "flags": 4,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 10 0 0 1 3', b'scan 10 0 1 1 3', b'scan 11 0 1 1 3', b'add 0 images 1 boot 0 rpfix 1'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 90,
+      "source": "raw",
+      "flags": 16,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 11 0 0 0 0', b'add 0 images 1 boot 0 rpfix 1'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 91,
+      "source": "raw",
+      "flags": 20,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 10 0 0 1 3', b'scan 10 0 1 1 3', b'scan 11 0 1 1 3', b'add 0 images 1 boot 0 rpfix 1'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 92,
+      "source": "raw",
+      "flags": 2,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 11 0 0 0 0', b'add 0 images 1 boot 0 rpfix 1'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 93,
+      "source": "raw",
+      "flags": 18,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 11 0 0 0 0', b'add 0 images 1 boot 0 rpfix 1'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 94,
+      "source": "raw",
+      "flags": 260,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 10 0 0 1 3', b'scan 10 0 1 1 3', b'scan 11 0 1 1 3', b'add 0 images 1 boot 0 rpfix 1'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 95,
+      "source": "raw",
+      "flags": 516,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 10 0 0 1 3', b'scan 10 0 1 1 3', b'scan 11 0 1 1 3', b'add 0 images 1 boot 0 rpfix 0'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 96,
+      "source": "raw",
+      "flags": 768,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'add 24 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 97,
+      "source": "raw",
+      "flags": 1024,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 11 0 0 0 0', b'add 0 images 1 boot 0 rpfix 1'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 98,
+      "source": "raw",
+      "flags": 1028,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 10 0 0 1 3', b'scan 10 0 1 1 3', b'scan 11 0 1 1 3', b'add 0 images 1 boot 0 rpfix 1'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 99,
+      "source": "raw",
+      "flags": 2048,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 11 0 0 0 0', b'add 0 images 1 boot 0 rpfix 1'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 100,
+      "source": "raw",
+      "flags": 2052,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 10 0 0 1 3', b'scan 10 0 1 1 3', b'scan 11 0 1 1 3', b'add 0 images 1 boot 0 rpfix 1'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 101,
+      "source": "raw",
+      "flags": 4096,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 11 0 0 0 0', b'add 0 images 1 boot 0 rpfix 1'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 102,
+      "source": "raw",
+      "flags": 4116,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 10 0 0 1 3', b'scan 10 0 1 1 3', b'scan 11 0 1 1 3', b'add 0 images 1 boot 0 rpfix 1'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 103,
+      "source": "raw",
+      "flags": 8192,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 11 0 0 0 0', b'add 0 images 1 boot 0 rpfix 1'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 104,
+      "source": "raw",
+      "flags": 16384,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 30', b'progress 30', b'scan 11 0 0 0 0', b'add 0 images 1 boot 0 rpfix 1'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 105,
+      "source": "raw",
+      "flags": 32768,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'add 68 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 106,
+      "source": "raw",
+      "flags": 65536,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 11 0 0 0 0', b'add 0 images 1 boot 0 rpfix 1'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 107,
+      "source": "raw",
+      "flags": 131072,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'add 24 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 108,
+      "source": "raw",
+      "flags": 8,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 11 0 0 0 0', b'add 0 images 1 boot 1 rpfix 1'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 109,
+      "source": "raw",
+      "flags": 1,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'add 68 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 110,
+      "source": "bad",
+      "flags": 0,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'progress 31', b'add 31 images 0 boot 0 rpfix 0', b'errno 84'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 111,
+      "source": "bad",
+      "flags": 4,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'progress 31', b'add 31 images 0 boot 0 rpfix 0', b'errno 84'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 112,
+      "source": "bad",
+      "flags": 16,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'progress 31', b'add 31 images 0 boot 0 rpfix 0', b'errno 84'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 113,
+      "source": "bad",
+      "flags": 20,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'progress 31', b'add 31 images 0 boot 0 rpfix 0', b'errno 84'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 114,
+      "source": "bad",
+      "flags": 2,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'progress 31', b'add 31 images 0 boot 0 rpfix 0', b'errno 84'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 115,
+      "source": "bad",
+      "flags": 18,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'progress 31', b'add 31 images 0 boot 0 rpfix 0', b'errno 84'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 116,
+      "source": "bad",
+      "flags": 260,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'progress 31', b'add 31 images 0 boot 0 rpfix 0', b'errno 84'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 117,
+      "source": "bad",
+      "flags": 516,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'progress 31', b'add 31 images 0 boot 0 rpfix 0', b'errno 84'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 118,
+      "source": "bad",
+      "flags": 768,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'add 24 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 119,
+      "source": "bad",
+      "flags": 1024,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'progress 31', b'add 31 images 0 boot 0 rpfix 0', b'errno 84'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 120,
+      "source": "bad",
+      "flags": 1028,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'progress 31', b'add 31 images 0 boot 0 rpfix 0', b'errno 84'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 121,
+      "source": "bad",
+      "flags": 2048,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'progress 31', b'add 31 images 0 boot 0 rpfix 0', b'errno 84'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 122,
+      "source": "bad",
+      "flags": 2052,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'progress 31', b'add 31 images 0 boot 0 rpfix 0', b'errno 84'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 123,
+      "source": "bad",
+      "flags": 4096,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'progress 31', b'add 31 images 0 boot 0 rpfix 0', b'errno 84'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 124,
+      "source": "bad",
+      "flags": 4116,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'progress 31', b'add 31 images 0 boot 0 rpfix 0', b'errno 84'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 125,
+      "source": "bad",
+      "flags": 8192,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'progress 31', b'add 31 images 0 boot 0 rpfix 0', b'errno 84'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 126,
+      "source": "bad",
+      "flags": 16384,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 30', b'progress 30', b'progress 31', b'progress 31', b'add 31 images 0 boot 0 rpfix 0', b'errno 84'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 127,
+      "source": "bad",
+      "flags": 32768,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'add 68 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 128,
+      "source": "bad",
+      "flags": 65536,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'progress 31', b'add 31 images 0 boot 0 rpfix 0', b'errno 84'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 129,
+      "source": "bad",
+      "flags": 131072,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'add 24 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 130,
+      "source": "bad",
+      "flags": 8,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'progress 31', b'add 31 images 0 boot 0 rpfix 0', b'errno 84'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 131,
+      "source": "bad",
+      "flags": 1,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'add 68 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 132,
+      "source": "source",
+      "flags": 0,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 11 0 0 0 0', b'add 0 images 1 boot 0 rpfix 1'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 133,
+      "source": "source",
+      "flags": 4,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 10 0 1 0 0', b'scan 10 0 1 1 12', b'scan 10 3 1 1 12', b'scan 10 0 1 2 60', b'scan 10 0 1 3 60', b'scan 10 2 1 3 60', b'scan 10 0 1 4 92', b'scan 10 0 2 4 92', b'scan 11 0 2 4 92', b'add 0 images 1 boot 0 rpfix 1'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 134,
+      "source": "source",
+      "flags": 20,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 10 0 1 0 0', b'scan 10 0 1 1 12', b'scan 10 3 1 1 12', b'scan 10 0 1 2 60', b'scan 10 0 1 3 60', b'scan 10 0 1 4 60', b'scan 10 0 1 5 92', b'scan 10 0 2 5 92', b'scan 11 0 2 5 92', b'add 0 images 1 boot 0 rpfix 1'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 135,
+      "source": "source",
+      "flags": 2048,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 11 0 0 0 0', b'add 0 images 1 boot 0 rpfix 1'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 136,
+      "source": "source",
+      "flags": 4096,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 11 0 0 0 0', b'add 0 images 1 boot 0 rpfix 1'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 137,
+      "source": "source",
+      "flags": 6144,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 11 0 0 0 0', b'add 0 images 1 boot 0 rpfix 1'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 138,
+      "source": "source",
+      "flags": 0,
+      "config": "exclude",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 11 0 0 0 0', b'add 0 images 1 boot 0 rpfix 1'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 139,
+      "source": "source",
+      "flags": 4,
+      "config": "exclude",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 10 1 0 0 0', b'scan 10 0 0 1 12', b'scan 10 3 0 1 12', b'scan 10 0 0 2 60', b'scan 10 1 0 2 60', b'scan 10 2 0 2 60', b'scan 10 0 0 3 92', b'scan 10 0 1 3 92', b'scan 11 0 1 3 92', b'add 0 images 1 boot 0 rpfix 1'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 140,
+      "source": "source",
+      "flags": 20,
+      "config": "exclude",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 10 1 0 0 0', b'scan 10 0 0 1 12', b'scan 10 3 0 1 12', b'scan 10 0 0 2 60', b'scan 10 1 0 2 60', b'scan 10 0 0 3 60', b'scan 10 0 0 4 92', b'scan 10 0 1 4 92', b'scan 11 0 1 4 92', b'add 0 images 1 boot 0 rpfix 1'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 141,
+      "source": "source",
+      "flags": 2048,
+      "config": "exclude",
+      "status": 0,
+      "original": "(0, [b'create 0', b'add 24 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 142,
+      "source": "source",
+      "flags": 4096,
+      "config": "exclude",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 11 0 0 0 0', b'add 0 images 1 boot 0 rpfix 1'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 143,
+      "source": "source",
+      "flags": 6144,
+      "config": "exclude",
+      "status": 0,
+      "original": "(0, [b'create 0', b'add 24 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 144,
+      "source": "source",
+      "flags": 0,
+      "config": "exception",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 11 0 0 0 0', b'add 0 images 1 boot 0 rpfix 1'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 145,
+      "source": "source",
+      "flags": 4,
+      "config": "exception",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 10 1 0 0 0', b'scan 10 1 0 0 0', b'scan 10 1 0 0 0', b'scan 10 0 0 1 12', b'scan 10 1 0 1 12', b'scan 10 1 0 1 12', b'scan 10 0 1 1 12', b'scan 11 0 1 1 12', b'add 0 images 1 boot 0 rpfix 1'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 146,
+      "source": "source",
+      "flags": 20,
+      "config": "exception",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 10 1 0 0 0', b'scan 10 1 0 0 0', b'scan 10 1 0 0 0', b'scan 10 0 0 1 12', b'scan 10 1 0 1 12', b'scan 10 1 0 1 12', b'scan 10 0 1 1 12', b'scan 11 0 1 1 12', b'add 0 images 1 boot 0 rpfix 1'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 147,
+      "source": "source",
+      "flags": 2048,
+      "config": "exception",
+      "status": 0,
+      "original": "(0, [b'create 0', b'add 24 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 148,
+      "source": "source",
+      "flags": 4096,
+      "config": "exception",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 11 0 0 0 0', b'add 0 images 1 boot 0 rpfix 1'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 149,
+      "source": "source",
+      "flags": 6144,
+      "config": "exception",
+      "status": 0,
+      "original": "(0, [b'create 0', b'add 24 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 150,
+      "source": "source",
+      "flags": 0,
+      "config": "invalid",
+      "status": 0,
+      "original": "(0, [b'create 0', b'add 14 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 151,
+      "source": "source",
+      "flags": 4,
+      "config": "invalid",
+      "status": 0,
+      "original": "(0, [b'create 0', b'add 14 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 152,
+      "source": "source",
+      "flags": 20,
+      "config": "invalid",
+      "status": 0,
+      "original": "(0, [b'create 0', b'add 14 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 153,
+      "source": "source",
+      "flags": 2048,
+      "config": "invalid",
+      "status": 0,
+      "original": "(0, [b'create 0', b'add 24 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 154,
+      "source": "source",
+      "flags": 4096,
+      "config": "invalid",
+      "status": 0,
+      "original": "(0, [b'create 0', b'add 14 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 155,
+      "source": "source",
+      "flags": 6144,
+      "config": "invalid",
+      "status": 0,
+      "original": "(0, [b'create 0', b'add 24 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 156,
+      "source": "source",
+      "flags": 0,
+      "config": "quote",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 11 0 0 0 0', b'add 0 images 1 boot 0 rpfix 1'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 157,
+      "source": "source",
+      "flags": 4,
+      "config": "quote",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 10 0 1 0 0', b'scan 10 0 1 1 12', b'scan 10 3 1 1 12', b'scan 10 0 1 2 60', b'scan 10 1 1 2 60', b'scan 10 2 1 2 60', b'scan 10 0 1 3 92', b'scan 10 0 2 3 92', b'scan 11 0 2 3 92', b'add 0 images 1 boot 0 rpfix 1'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 158,
+      "source": "source",
+      "flags": 20,
+      "config": "quote",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 10 0 1 0 0', b'scan 10 0 1 1 12', b'scan 10 3 1 1 12', b'scan 10 0 1 2 60', b'scan 10 1 1 2 60', b'scan 10 0 1 3 60', b'scan 10 0 1 4 92', b'scan 10 0 2 4 92', b'scan 11 0 2 4 92', b'add 0 images 1 boot 0 rpfix 1'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 159,
+      "source": "source",
+      "flags": 2048,
+      "config": "quote",
+      "status": 0,
+      "original": "(0, [b'create 0', b'add 24 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 160,
+      "source": "source",
+      "flags": 4096,
+      "config": "quote",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 11 0 0 0 0', b'add 0 images 1 boot 0 rpfix 1'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 161,
+      "source": "source",
+      "flags": 6144,
+      "config": "quote",
+      "status": 0,
+      "original": "(0, [b'create 0', b'add 24 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 162,
+      "source": "source",
+      "flags": 0,
+      "config": "unknown",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 11 0 0 0 0', b'add 0 images 1 boot 0 rpfix 1'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 163,
+      "source": "source",
+      "flags": 4,
+      "config": "unknown",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 10 0 1 0 0', b'scan 10 0 1 1 12', b'scan 10 3 1 1 12', b'scan 10 0 1 2 60', b'scan 10 0 1 3 60', b'scan 10 2 1 3 60', b'scan 10 0 1 4 92', b'scan 10 0 2 4 92', b'scan 11 0 2 4 92', b'add 0 images 1 boot 0 rpfix 1'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 164,
+      "source": "source",
+      "flags": 20,
+      "config": "unknown",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 10 0 1 0 0', b'scan 10 0 1 1 12', b'scan 10 3 1 1 12', b'scan 10 0 1 2 60', b'scan 10 0 1 3 60', b'scan 10 0 1 4 60', b'scan 10 0 1 5 92', b'scan 10 0 2 5 92', b'scan 11 0 2 5 92', b'add 0 images 1 boot 0 rpfix 1'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 165,
+      "source": "source",
+      "flags": 2048,
+      "config": "unknown",
+      "status": 0,
+      "original": "(0, [b'create 0', b'add 24 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 166,
+      "source": "source",
+      "flags": 4096,
+      "config": "unknown",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 11 0 0 0 0', b'add 0 images 1 boot 0 rpfix 1'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 167,
+      "source": "source",
+      "flags": 6144,
+      "config": "unknown",
+      "status": 0,
+      "original": "(0, [b'create 0', b'add 24 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 168,
+      "source": "source",
+      "flags": 0,
+      "config": "utf16",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 11 0 0 0 0', b'add 0 images 1 boot 0 rpfix 1'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 169,
+      "source": "source",
+      "flags": 4,
+      "config": "utf16",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 10 0 1 0 0', b'scan 10 0 1 1 12', b'scan 10 3 1 1 12', b'scan 10 0 1 2 60', b'scan 10 1 1 2 60', b'scan 10 2 1 2 60', b'scan 10 0 1 3 92', b'scan 10 0 2 3 92', b'scan 11 0 2 3 92', b'add 0 images 1 boot 0 rpfix 1'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 170,
+      "source": "source",
+      "flags": 20,
+      "config": "utf16",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 10 0 1 0 0', b'scan 10 0 1 1 12', b'scan 10 3 1 1 12', b'scan 10 0 1 2 60', b'scan 10 1 1 2 60', b'scan 10 0 1 3 60', b'scan 10 0 1 4 92', b'scan 10 0 2 4 92', b'scan 11 0 2 4 92', b'add 0 images 1 boot 0 rpfix 1'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 171,
+      "source": "source",
+      "flags": 2048,
+      "config": "utf16",
+      "status": 0,
+      "original": "(0, [b'create 0', b'add 24 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 172,
+      "source": "source",
+      "flags": 4096,
+      "config": "utf16",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 11 0 0 0 0', b'add 0 images 1 boot 0 rpfix 1'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 173,
+      "source": "source",
+      "flags": 6144,
+      "config": "utf16",
+      "status": 0,
+      "original": "(0, [b'create 0', b'add 24 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 174,
+      "source": "source",
+      "flags": 16388,
+      "config": "none",
+      "status": 109,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'add 76 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 175,
+      "source": "source",
+      "flags": 16388,
+      "config": "none",
+      "status": 110,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 30', b'progress 30', b'scan 10 0 1 0 0', b'add 76 images 0 boot 0 rpfix 0', b'errno 0'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 176,
+      "source": "source",
+      "flags": 16388,
+      "config": "none",
+      "status": 111,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 30', b'progress 30', b'scan 10 0 1 0 0', b'progress 30', b'scan 10 0 1 1 12', b'progress 30', b'scan 10 3 1 1 12', b'scan 10 0 1 2 60', b'progress 30', b'scan 10 0 1 3 60', b'progress 30', b'scan 10 2 1 3 60', b'progress 30', b'scan 10 0 1 4 92', b'scan 10 0 2 4 92', b'scan 11 0 2 4 92', b'add 76 images 0 boot 0 rpfix 0', b'errno 0'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 177,
+      "source": "source",
+      "flags": 16388,
+      "config": "none",
+      "status": 209,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'add 77 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 178,
+      "source": "source",
+      "flags": 16388,
+      "config": "none",
+      "status": 210,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 30', b'progress 30', b'scan 10 0 1 0 0', b'add 77 images 0 boot 0 rpfix 0', b'errno 0'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 179,
+      "source": "source",
+      "flags": 16388,
+      "config": "none",
+      "status": 211,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 30', b'progress 30', b'scan 10 0 1 0 0', b'progress 30', b'scan 10 0 1 1 12', b'progress 30', b'scan 10 3 1 1 12', b'scan 10 0 1 2 60', b'progress 30', b'scan 10 0 1 3 60', b'progress 30', b'scan 10 2 1 3 60', b'progress 30', b'scan 10 0 1 4 92', b'scan 10 0 2 4 92', b'scan 11 0 2 4 92', b'add 77 images 0 boot 0 rpfix 0', b'errno 0'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 180,
+      "source": "source",
+      "flags": 16388,
+      "config": "none",
+      "status": 130,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 30', b'add 76 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    },
+    {
+      "case": 181,
+      "source": "source",
+      "flags": 16388,
+      "config": "none",
+      "status": 230,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 30', b'add 77 images 0 boot 0 rpfix 0', b'errno 123'])",
+      "native": "(127, [])"
+    }
+  ],
+  "native_library_sha256": "52e0564a95902160ddcee6eb652286288799a7ac59157a2e553c9a3974db2ad8"
+}

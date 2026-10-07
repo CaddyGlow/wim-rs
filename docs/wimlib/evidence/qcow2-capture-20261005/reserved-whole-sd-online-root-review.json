@@ -1,0 +1,23 @@
+{
+  "report_path": "/data/cache/qcow2-reserved-whole-sd-control-20261006/actual-controls-report.json",
+  "report_sha256": "c5a7f815656946f0876fe27a28ad4e67980705d3b281665a18f5da259e5eb8b0",
+  "input_sha256": "85c66884ea3950d0cfea6deb012671c4454f92fe8fd8ee45950b36aedc2a6bd7",
+  "helper_sha256": "af74341c61254d2ce196ff29619c8180cc78bb397d77cb27dbf8574822180f1b",
+  "counts": [
+    {
+      "api": "NtSet1008F",
+      "own_descriptor_positive_success": 2,
+      "source_ace20_access_denied": 14,
+      "readonly_negative_unchanged": 16
+    },
+    {
+      "api": "NtSet101FF",
+      "own_descriptor_positive_success": 2,
+      "source_ace20_access_denied": 14,
+      "readonly_negative_unchanged": 16
+    }
+  ],
+  "full_raw_native_correlation_pending": true,
+  "production_restoration_passes": false,
+  "scope": "Two explicitly tested reserved wholeSD masks only; no conclusion for every possible restoration mechanism"
+}

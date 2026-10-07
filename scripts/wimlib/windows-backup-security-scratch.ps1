@@ -1,0 +1,81 @@
+# PREPARED ONLY. Execute only on a NEW dedicated disposable NTFS volume after owner authorization.
+param([Parameter(Mandatory=$true)][string]$InputJson,[Parameter(Mandatory=$true)][string]$ExpectedInputSHA256,
+ [Parameter(Mandatory=$true)][string]$ScratchVolumeRoot,[Parameter(Mandatory=$true)][ValidateNotNullOrEmpty()][string]$ExpectedDiskSerial,
+ [Parameter(Mandatory=$true)][string]$ReportPath)
+$ErrorActionPreference='Stop'
+if(Test-Path -LiteralPath $ReportPath){throw 'Existing report forbidden'}
+if((Get-FileHash -LiteralPath $InputJson -Algorithm SHA256).Hash.ToLowerInvariant() -cne $ExpectedInputSHA256.ToLowerInvariant()){throw 'Input hash mismatch'}
+$inputData=Get-Content -LiteralPath $InputJson -Raw|ConvertFrom-Json
+if($inputData.helper_sha256 -cne (Get-FileHash -LiteralPath $PSCommandPath -Algorithm SHA256).Hash.ToLowerInvariant()){throw 'Helper digest mismatch'}
+if($inputData.schema -ne 1 -or $inputData.mode -cne 'scratch-backup-security' -or $inputData.challenges.Count -lt 1 -or $inputData.challenges.Count -gt 16){throw 'Input bounds/mode'}
+$drive=Get-Item -LiteralPath $ScratchVolumeRoot
+if($drive.FullName -notmatch '^[A-Za-z]:\\$' -or $drive.FullName.Substring(0,2) -ieq $env:SystemDrive){throw 'Dedicated non-system scratch volume required'}
+$partition=Get-Partition -DriveLetter $drive.FullName.Substring(0,1);$disk=$partition|Get-Disk;$volume=Get-Volume -DriveLetter $drive.FullName.Substring(0,1)
+if($disk.IsBoot -or $disk.IsSystem -or $disk.SerialNumber.Trim() -cne $ExpectedDiskSerial -or $volume.FileSystem -cne 'NTFS'){throw 'Scratch physical identity/NTFS guard'}
+Add-Type -TypeDefinition @'
+using System;
+using System.Runtime.InteropServices;
+using System.ComponentModel;
+using Microsoft.Win32.SafeHandles;
+public static class BackupSecurityScratch {
+ [StructLayout(LayoutKind.Sequential)] struct Luid{public uint low;public int high;}
+ [StructLayout(LayoutKind.Sequential)] struct Priv{public uint count;public Luid luid;public uint attributes;}
+ [DllImport("kernel32.dll")] static extern IntPtr GetCurrentProcess();
+ [DllImport("kernel32.dll")] static extern bool CloseHandle(IntPtr p);
+ [DllImport("advapi32.dll",SetLastError=true)] static extern bool OpenProcessToken(IntPtr p,uint access,out IntPtr t);
+ [DllImport("advapi32.dll",CharSet=CharSet.Unicode,SetLastError=true)] static extern bool LookupPrivilegeValue(string system,string name,out Luid id);
+ [DllImport("advapi32.dll",SetLastError=true)] static extern bool AdjustTokenPrivileges(IntPtr t,bool disable,ref Priv p,uint size,IntPtr old,IntPtr needed);
+ [DllImport("kernel32.dll",CharSet=CharSet.Unicode,SetLastError=true)] static extern SafeFileHandle CreateFileW(string p,uint access,uint share,IntPtr sd,uint disposition,uint flags,IntPtr template);
+ [DllImport("kernel32.dll",CharSet=CharSet.Unicode,SetLastError=true)] static extern bool CreateHardLinkW(string path,string existing,IntPtr sa);
+ [DllImport("kernel32.dll",SetLastError=true)] static extern bool GetFileInformationByHandleEx(SafeFileHandle h,int kind,byte[] b,uint size);
+ [DllImport("ntdll.dll")] static extern int NtQuerySecurityObject(SafeFileHandle h,uint information,byte[] b,uint size,out uint needed);
+ [DllImport("ntdll.dll")] static extern int NtSetSecurityObject(SafeFileHandle h,uint information,IntPtr sd);
+ [DllImport("advapi32.dll")] static extern uint SetSecurityInfo(SafeFileHandle h,uint kind,uint information,IntPtr o,IntPtr g,IntPtr d,IntPtr s);
+ [DllImport("kernel32.dll",SetLastError=true)] static extern bool BackupWrite(SafeFileHandle h,byte[] buffer,uint size,out uint written,bool abort,bool security,ref IntPtr context);
+ static void Error(){throw new Win32Exception(Marshal.GetLastWin32Error());}
+ public static void Enable(){IntPtr t;if(!OpenProcessToken(GetCurrentProcess(),0x28,out t))Error();try{foreach(string name in new[]{"SeBackupPrivilege","SeRestorePrivilege","SeSecurityPrivilege"}){Priv p=new Priv{count=1,attributes=2};if(!LookupPrivilegeValue(null,name,out p.luid)||!AdjustTokenPrivileges(t,false,ref p,0,IntPtr.Zero,IntPtr.Zero))Error();int e=Marshal.GetLastWin32Error();if(e!=0)throw new Win32Exception(e);}}finally{CloseHandle(t);}}
+ public static void Link(string p,string existing){if(!CreateHardLinkW(p,existing,IntPtr.Zero))Error();}
+ static SafeFileHandle Open(string path,bool write){var h=CreateFileW(path,0x01020080u|(write?0x000c0000u:0),7,IntPtr.Zero,3,0x02200000,IntPtr.Zero);if(h.IsInvalid)Error();return h;}
+ public static byte[][] Observe(string path){using(var h=Open(path,false)){var basic=new byte[40];var id=new byte[24];if(!GetFileInformationByHandleEx(h,0,basic,40)||!GetFileInformationByHandleEx(h,18,id,24))Error();if((BitConverter.ToUInt32(basic,32)&0x400)!=0)throw new Exception("Reparse forbidden");var sd=new byte[1048576];uint n;int status=NtQuerySecurityObject(h,0x10000,sd,(uint)sd.Length,out n);if(status<0||n<20||n>sd.Length)throw new Exception("Query backup SD status "+status);Array.Resize(ref sd,(int)n);return new[]{sd,basic,id};}}
+ public static uint Protection(ushort control){return ((control&0x1000)!=0?0x80000000u:0x20000000u)|((control&0x2000)!=0?0x40000000u:0x10000000u);}
+ static IntPtr Part(IntPtr p,byte[] sd,int field){int offset=checked((int)BitConverter.ToUInt32(sd,field));if(offset==0)return IntPtr.Zero;if(offset<20||offset>=sd.Length)throw new Exception("SD offset");return IntPtr.Add(p,offset);}
+ public static uint Apply(string path,byte[] sd,string api,bool write){if(sd.Length<20||sd.Length>1048576||sd[0]!=1||(BitConverter.ToUInt16(sd,2)&0x8000)==0)throw new Exception("SD envelope");using(var h=Open(path,write)){
+  if(api=="NtSetSecurityObject"){var pinned=GCHandle.Alloc(sd,GCHandleType.Pinned);try{return unchecked((uint)NtSetSecurityObject(h,0x1000fu|Protection(BitConverter.ToUInt16(sd,2)),pinned.AddrOfPinnedObject()));}finally{pinned.Free();}}
+  if(api=="SetSecurityInfo"){
+   var pinned=GCHandle.Alloc(sd,GCHandleType.Pinned);try{var p=pinned.AddrOfPinnedObject();return SetSecurityInfo(h,1,0x1000fu|Protection(BitConverter.ToUInt16(sd,2)),Part(p,sd,4),Part(p,sd,8),Part(p,sd,16),Part(p,sd,12));}finally{pinned.Free();}
+  }
+  if(api!="BackupWrite")throw new Exception("Unknown API");
+  // Emit only documented BACKUP_SECURITY_DATA=3; no payload/EA/ADS records.
+  var stream=new byte[20+sd.Length];Array.Copy(BitConverter.GetBytes(3u),0,stream,0,4);Array.Copy(BitConverter.GetBytes(2u),0,stream,4,4);Array.Copy(BitConverter.GetBytes((ulong)sd.Length),0,stream,8,8);Array.Copy(sd,0,stream,20,sd.Length);
+  IntPtr context=IntPtr.Zero;uint written;uint error=0;try{int offset=0;while(offset<stream.Length){var remaining=new byte[stream.Length-offset];Array.Copy(stream,offset,remaining,0,remaining.Length);if(!BackupWrite(h,remaining,(uint)remaining.Length,out written,false,true,ref context)){error=(uint)Marshal.GetLastWin32Error();break;}if(written==0||written>remaining.Length)throw new Exception("BackupWrite progress");offset+=checked((int)written);}}finally{if(!BackupWrite(h,new byte[0],0,out written,true,true,ref context)&&error==0)error=(uint)Marshal.GetLastWin32Error();}return error;
+ }}
+}
+'@
+function Hex([byte[]]$b){[BitConverter]::ToString($b).Replace('-','').ToLowerInvariant()}
+function Unhex([string]$s){if($s -cnotmatch '^(?:[0-9a-f]{2})+$'){throw 'Invalid hex'};[byte[]]$b=for($i=0;$i -lt $s.Length;$i+=2){[Convert]::ToByte($s.Substring($i,2),16)};return ,$b}
+function Parts([byte[]]$b){
+ if($b.Length -lt 20 -or $b.Length -gt 1048576 -or $b[0] -ne 1 -or ([BitConverter]::ToUInt16($b,2) -band 0x8000) -eq 0){throw 'SD header'}
+ $parts=@{};foreach($pair in @(@('owner',4),@('group',8),@('sacl',12),@('dacl',16))){$o=[BitConverter]::ToUInt32($b,$pair[1]);if($o -eq 0){$parts[$pair[0]]=[byte[]]@();continue};if($o -lt 20 -or $o+8 -gt $b.Length){throw 'SD component bounds'};$n=if($pair[0] -in @('owner','group')){8+4*$b[$o+1]}else{[BitConverter]::ToUInt16($b,$o+2)};if($n -lt 8 -or $o+$n -gt $b.Length){throw 'Component length'};$parts[$pair[0]]=[byte[]]$b[$o..($o+$n-1)]};$parts.control=[BitConverter]::ToUInt16($b,2);return $parts
+}
+function Logical([byte[]]$b){$p=Parts $b;$result=@{control=$p.control;owner=(Hex $p.owner);group=(Hex $p.group)};foreach($name in @('dacl','sacl')){$acl=$p[$name];$aces=@();if($acl.Length){$cursor=8;$count=[BitConverter]::ToUInt16($acl,4);for($i=0;$i -lt $count;$i++){if($cursor+4 -gt $acl.Length){throw 'ACE header'};$n=[BitConverter]::ToUInt16($acl,$cursor+2);if($n -lt 4 -or $n%4 -or $cursor+$n -gt $acl.Length){throw 'ACE bounds'};$aces+=@{type=[int]$acl[$cursor];flags=[int]$acl[$cursor+1];raw=(Hex ([byte[]]$acl[$cursor..($cursor+$n-1)]))};$cursor+=$n}};$result[$name]=@{present=$(if($name -eq 'dacl'){($p.control-band4)-ne0}else{($p.control-band16)-ne0});null=($acl.Length-eq0);revision=$(if($acl.Length){$acl[0]}else{$null});aces=$aces}};return $result}
+function Desired([byte[]]$before,[byte[]]$ace,[int]$revision){if(-not $ace.Length){return ,$before};if($ace.Length-lt4 -or $ace.Length-gt65500 -or $ace.Length%4 -or $ace[0]-notin@(18,20) -or [BitConverter]::ToUInt16($ace,2)-ne$ace.Length){throw 'Opaque ACE envelope'};$p=Parts $before;$acl=$p.sacl;if(-not $acl.Length){$acl=[byte[]]@(2,0,8,0,0,0,0,0)};$used=8;$count=[BitConverter]::ToUInt16($acl,4);for($i=0;$i-lt$count;$i++){if($used+4-gt$acl.Length){throw 'Original ACL header'};$length=[BitConverter]::ToUInt16($acl,$used+2);if($length-lt4-or$length%4-or$used+$length-gt$acl.Length){throw 'Original ACL bounds'};$used+=$length};$acl=[byte[]]$acl[0..($used-1)];$size=$acl.Length+$ace.Length;if($size-gt65535){throw 'ACL bound'};$new=[byte[]]::new($size);$acl.CopyTo($new,0);$ace.CopyTo($new,$acl.Length);$new[0]=[byte][Math]::Max($revision,$acl[0]);[BitConverter]::GetBytes([UInt16]$size).CopyTo($new,2);[BitConverter]::GetBytes([UInt16]([BitConverter]::ToUInt16($acl,4)+1)).CopyTo($new,4);$p.sacl=$new;$p.control=$p.control-bor16;$n=20;foreach($name in @('owner','group','sacl','dacl')){$n+=$p[$name].Length};$out=[byte[]]::new($n);[Array]::Copy($before,$out,20);[BitConverter]::GetBytes([UInt16]$p.control).CopyTo($out,2);$o=20;foreach($pair in @(@('owner',4),@('group',8),@('sacl',12),@('dacl',16))){$part=$p[$pair[0]];[BitConverter]::GetBytes([UInt32]$(if($part.Length){$o}else{0})).CopyTo($out,$pair[1]);if($part.Length){$part.CopyTo($out,$o);$o+=$part.Length}};return ,$out}
+function Observation([string]$path){$b=[BackupSecurityScratch]::Observe($path);return @{path=$path;raw_sd=(Hex $b[0]);logical_sd=(Logical $b[0]);basic4=@{creation_time=[BitConverter]::ToUInt64($b[1],0);access_time=[BitConverter]::ToUInt64($b[1],8);write_time=[BitConverter]::ToUInt64($b[1],16);change_time=[BitConverter]::ToUInt64($b[1],24);attributes=[BitConverter]::ToUInt32($b[1],32)};basic36=(Hex ([byte[]]$b[1][0..35]));basic40=(Hex $b[1]);file_id_info24=(Hex $b[2])}}
+function EqualAcl($a,$b){foreach($field in @('present','null','revision')){if($a[$field] -cne $b[$field]){return $false}};if($a.aces.Count -ne $b.aces.Count){return $false};for($i=0;$i -lt $a.aces.Count;$i++){foreach($field in @('type','flags','raw')){if($a.aces[$i][$field] -cne $b.aces[$i][$field]){return $false}}};return $true}
+function Equal($a,$b){foreach($field in @('control','owner','group')){if($a[$field] -cne $b[$field]){return $false}};foreach($name in @('dacl','sacl')){if(-not(EqualAcl $a[$name] $b[$name])){return $false}};return $true}
+
+$privilegesBefore=(& whoami.exe /all|Out-String);[BackupSecurityScratch]::Enable();$privilegesAfter=(& whoami.exe /all|Out-String)
+$root=Join-Path $drive.FullName ('backup-security-scratch-'+[Guid]::NewGuid().ToString('N'));if(Test-Path -LiteralPath $root){throw 'Collision'};New-Item -ItemType Directory -Path $root|Out-Null
+$challenges=@(@{name='own-descriptor-positive';ace_hex='';acl_revision=2})+@($inputData.challenges);$results=@()
+foreach($api in @('SetSecurityInfo','BackupWrite','NtSetSecurityObject')){foreach($kind in @('File','Directory')){for($i=0;$i -lt $challenges.Count;$i++){
+ $path=Join-Path $root ($api+'-'+$kind+'-'+$i);$sibling=$path+'-sibling';[IO.File]::WriteAllText($sibling,'isolated-sibling');if($kind-eq'File'){[IO.File]::WriteAllText($path,'isolated-file');$related=$path+'-hardlink';[BackupSecurityScratch]::Link($related,$path)}else{New-Item -ItemType Directory -Path $path|Out-Null;$related=Join-Path $path 'child';[IO.File]::WriteAllText($related,'isolated-child')}
+ $before=Observation $path;$relatedBefore=Observation $related;$siblingBefore=Observation $sibling;$ace=if($challenges[$i].ace_hex){Unhex $challenges[$i].ace_hex}else{[byte[]]@()};$desired=Desired (Unhex $before.raw_sd) $ace $challenges[$i].acl_revision;$desiredLogical=Logical $desired
+ $negativeStatus=[BackupSecurityScratch]::Apply($path,$desired,$api,$false);$afterNegative=Observation $path;$status=[BackupSecurityScratch]::Apply($path,$desired,$api,$true);$after=Observation $path;$relatedAfter=Observation $related;$siblingAfter=Observation $sibling
+ $negativeUnchanged=(Equal $before.logical_sd $afterNegative.logical_sd)-and$before.basic36-ceq$afterNegative.basic36-and$before.file_id_info24-ceq$afterNegative.file_id_info24
+ $securityExact=Equal $desiredLogical $after.logical_sd;$metadataPreserved=$before.basic36-ceq$after.basic36-and$before.file_id_info24-ceq$after.file_id_info24
+ $relatedInvariant=if($kind-eq'File'){$relatedBefore.file_id_info24-ceq$before.file_id_info24-and$relatedAfter.file_id_info24-ceq$after.file_id_info24-and(Equal $relatedAfter.logical_sd $after.logical_sd)-and$relatedAfter.basic36-ceq$after.basic36}else{(Equal $relatedBefore.logical_sd $relatedAfter.logical_sd)-and$relatedBefore.basic36-ceq$relatedAfter.basic36-and$relatedBefore.file_id_info24-ceq$relatedAfter.file_id_info24}
+ $siblingInvariant=(Equal $siblingBefore.logical_sd $siblingAfter.logical_sd)-and$siblingBefore.basic36-ceq$siblingAfter.basic36-and$siblingBefore.file_id_info24-ceq$siblingAfter.file_id_info24
+ $results+=@{owner_group_dacl_preserved=($before.logical_sd.owner-ceq$after.logical_sd.owner-and$before.logical_sd.group-ceq$after.logical_sd.group-and(EqualAcl $before.logical_sd.dacl $after.logical_sd.dacl));basic4_preservation_unproven=$true;api=$api;kind=$kind;challenge=$challenges[$i];path=$path;before=$before;desired_raw_sd=(Hex $desired);desired_logical_sd=$desiredLogical;explicit_protection_flags=[BackupSecurityScratch]::Protection([UInt16]$before.logical_sd.control);negative_status=$negativeStatus;negative_unchanged=$negativeUnchanged;after_negative=$afterNegative;set_status=$status;after_reopen=$after;related_before=$relatedBefore;related_after=$relatedAfter;sibling_before=$siblingBefore;sibling_after=$siblingAfter;logical_security_exact=$securityExact;raw_packing_exact=($after.raw_sd-ceq(Hex $desired));metadata_preserved=$metadataPreserved;related_invariants=$relatedInvariant;sibling_invariants=$siblingInvariant;passed=($negativeStatus-eq$(if($api-eq'NtSetSecurityObject'){[UInt32]3221225506}else{[UInt32]5})-and$negativeUnchanged-and$status-eq0-and$securityExact-and$metadataPreserved-and$relatedInvariant-and$siblingInvariant)}
+}}}
+$report=@{schema=1;mode='scratch-backup-security';executed=$true;production_executable=$false;scratch_root=$root;input_sha256=$ExpectedInputSHA256;helper_sha256=(Get-FileHash -LiteralPath $PSCommandPath -Algorithm SHA256).Hash;source_inventory_sha256=$inputData.source_inventory_sha256;disk_serial=$disk.SerialNumber;volume_unique_id=$volume.UniqueId;kernel=[Environment]::OSVersion.Version.ToString();privileges_before=$privilegesBefore;privileges_after=$privilegesAfter;results=$results;all_passed=(@($results|Where-Object {-not $_.passed}).Count-eq0);scope='Fresh scratch own owner/group/DACL; source opaque ACE18/20 buffers appended only. SetSecurityInfo BACKUP|OWNER|GROUP|DACL|SACL + original explicit protection flags vs documented BackupWrite BACKUP_SECURITY_DATA vs native NtSetSecurityObject BACKUP+same explicit protection flags (NTSTATUS retained; reserved behavior unproven). Failures preserved; no installed restoration claim.'}
+$stream=[IO.File]::Open($ReportPath,[IO.FileMode]::CreateNew);try{$writer=[IO.StreamWriter]::new($stream);$writer.Write(($report|ConvertTo-Json -Depth 30));$writer.Flush()}finally{$stream.Dispose()}
+if(-not$report.all_passed){throw 'Backup-mode scratch gate failed; evidence preserved'}

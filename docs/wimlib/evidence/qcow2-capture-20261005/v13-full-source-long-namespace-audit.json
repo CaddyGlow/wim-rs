@@ -1,0 +1,48 @@
+{
+  "schema": 1,
+  "scope": "Every captured-scope source longdentry namespace, originalUTF16 and exact rawINDEX fullrefs; DOS rows never attributed to POSIX by shared parent/inode",
+  "source_captured_nodes": 175812,
+  "source_long_namespace_counts": {
+    "Win32": 101168,
+    "Posix": 49831,
+    "Win32AndDos": 24812
+  },
+  "source_target_namespace_counts": {
+    "Win32": {
+      "namespace_exact": 101100,
+      "missing_path": 26,
+      "changed_to_Posix": 42
+    },
+    "Posix": {
+      "namespace_exact": 49781,
+      "changed_to_Win32": 50
+    },
+    "Win32AndDos": {
+      "namespace_exact": 24662,
+      "changed_to_Posix": 138,
+      "missing_path": 12
+    }
+  },
+  "all_source_namespace_exact": false,
+  "inputs": [
+    {
+      "path": "/data/cache/qcow2-oobe-preparation-control-20261005/offline-audit/current-source-raw-directory-index.json",
+      "sha256": "07d15e3b281949b30b7a31f8cdd09570fd226d273eb43e0ac6a6877beb24a42c"
+    },
+    {
+      "path": "/data/cache/qcow2-v13-offline-audit/target-raw-directory-index.json",
+      "sha256": "6192d602399a93812d95325d20943f233e9fb18e8ec8382fd4283071085938ad"
+    },
+    {
+      "path": "/data/cache/qcow2-oobe-preparation-control-20261005/offline-audit/child-all-paths.json",
+      "sha256": "f661e648e246343af8febc03e868298132ea8003cf52c4081de55611fac8b1d8"
+    }
+  ],
+  "policy": "Original601 is only oldspurious subset; all sourcePOSIX/Win32AndDos/Win32 namespace rows compared. No Setup changes waived.",
+  "changed_rows": 230,
+  "missing_rows": 38,
+  "report": {
+    "path": "/data/cache/qcow2-v13-offline-audit/full-source-long-namespace-comparison.json",
+    "sha256": "1e0c01ec36165924e9a92041bf88851350c84817e224c032274284d41cb01a49"
+  }
+}

@@ -1,0 +1,56 @@
+﻿2026-10-04 06:22:01, Info                  DISM   PID=10092 TID=9180 Scratch directory set to 'C:\WINDOWS\SystemTemp\'. - CDISMManager::put_ScratchDir
+2026-10-04 06:22:01, Info                  DISM   PID=10092 TID=9180 DismCore.dll version: 10.0.26100.7920 - CDISMManager::FinalConstruct
+2026-10-04 06:22:01, Info                  DISM   Initialized Panther logging at C:\wim-uup-validation-1791090913159215058\servicing\logs\dism-3.log
+2026-10-04 06:22:01, Info                  DISM   PID=10092 TID=9180 Successfully loaded the ImageSession at "C:\WINDOWS\system32\Dism" - CDISMManager::LoadLocalImageSession
+2026-10-04 06:22:01, Info                  DISM   Initialized Panther logging at C:\wim-uup-validation-1791090913159215058\servicing\logs\dism-3.log
+2026-10-04 06:22:01, Info                  DISM   DISM Provider Store: PID=10092 TID=9180 Found and Initialized the DISM Logger. - CDISMProviderStore::Internal_InitializeLogger
+2026-10-04 06:22:01, Info                  DISM   Initialized Panther logging at C:\wim-uup-validation-1791090913159215058\servicing\logs\dism-3.log
+2026-10-04 06:22:01, Info                  DISM   DISM Manager: PID=10092 TID=9180 Successfully created the local image session and provider store. - CDISMManager::CreateLocalImageSession
+2026-10-04 06:22:01, Info                  DISM   DISM.EXE: 
+2026-10-04 06:22:01, Info                  DISM   DISM.EXE: <----- Starting Dism.exe session ----->
+2026-10-04 06:22:01, Info                  DISM   DISM.EXE: 
+2026-10-04 06:22:01, Info                  DISM   DISM.EXE: Host machine information: OS Version=10.0.26200, Running architecture=amd64, Number of processors=4
+2026-10-04 06:22:01, Info                  DISM   DISM.EXE: Instance information: Parent process=C:\wim-uup-validation-1791090913159215058\servicing.exe, Parent process PID=1788
+2026-10-04 06:22:01, Info                  DISM   DISM.EXE: Dism.exe version: 10.0.26100.5074
+2026-10-04 06:22:01, Info                  DISM   DISM.EXE: Executing command line: "dism.exe" /Mount-Image /ImageFile:C:\wim-uup-validation-1791090913159215058\servicing\install.wim /Index:1 /MountDir:C:\wim-uup-validation-1791090913159215058\servicing\mount /CheckIntegrity /LogPath:C:\wim-uup-validation-1791090913159215058\servicing\logs\dism-3.log /English /NoRestart
+2026-10-04 06:22:01, Info                  DISM   DISM Imaging Provider: PID=10092 TID=9180 WIM image specified - CGenericImagingManager::GetImageInfoCollection
+[10092.9180] Mounting new image.
+Wim:         [C:\wim-uup-validation-1791090913159215058\servicing\install.wim]
+Image Index: [1]
+Mount Guid:  [ee8c0795-0cc7-4697-97c2-07bfbda23152]
+Mount Path:  [C:\wim-uup-validation-1791090913159215058\servicing\mount]
+[10092.9180] Wimserv process started for mount guid ee8c0795-0cc7-4697-97c2-07bfbda23152; PID is 9620
+[9620.8364] Registered log file(s) for mount of wim at C:\wim-uup-validation-1791090913159215058\servicing\install.wim.
+[9620.8364] Mount complete.
+2026-10-04 06:22:37, Info                  DISM   DISM.EXE: Image session has been closed. Reboot required=no.
+2026-10-04 06:22:37, Info                  DISM   DISM.EXE: 
+2026-10-04 06:22:37, Info                  DISM   DISM.EXE: <----- Ending Dism.exe session ----->
+2026-10-04 06:22:37, Info                  DISM   DISM.EXE: 
+[9620.8792] GetSysVolRefNodePath:(1841)
+[9620.8792] WIMMountExtractDirToHandle:(88)
+[9620.8792] WIMExtractToHandleFromMountReparseDataEx:(406)
+[9620.8792] ImageExtractToHandle:(450)
+[9620.8792] ImageExtract:(143)
+[9620.8792] ProcessReparseData:(174)
+[9620.3428] GetSysVolRefNodePath:(1841)
+[9620.3428] WIMMountExtractDirToHandle:(88)
+[9620.3428] WIMExtractToHandleFromMountReparseDataEx:(406)
+[9620.3428] ImageExtractToHandle:(450)
+[9620.3428] ImageExtract:(143)
+[9620.3428] ProcessReparseData:(174)
+[9620.1908] GetSysVolRefNodePath:(1841)
+[9620.1908] WIMMountExtractDirToHandle:(88)
+[9620.1908] WIMExtractToHandleFromMountReparseDataEx:(406)
+[9620.1908] ImageExtractToHandle:(450)
+[9620.1908] ImageExtract:(143)
+[9620.1908] ProcessReparseData:(174)
+[9620.8044] GetSysVolRefNodePath:(1841)
+[9620.8044] WIMMountExtractDirToHandle:(88)
+[9620.8044] WIMExtractToHandleFromMountReparseDataEx:(406)
+[9620.8044] ImageExtractToHandle:(450)
+[9620.8044] ImageExtract:(143)
+[9620.8044] ProcessReparseData:(174)
+[9620.7216] Received unmount request.
+[9620.7216] Unmount complete.
+[9620.6380] Wimserv exiting per terminate event.
+[9620.6380] Wimserv stopped.

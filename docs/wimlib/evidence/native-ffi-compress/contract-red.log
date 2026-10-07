@@ -1,0 +1,36 @@
+   Compiling wim-ffi v0.1.0 (/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/wim-ffi)
+error[E0583]: file not found for module `compress`
+ --> wim-ffi/src/lib.rs:9:1
+  |
+9 | pub mod compress;
+  | ^^^^^^^^^^^^^^^^^
+  |
+  = help: to create the module `compress`, create file "wim-ffi/src/compress.rs" or "wim-ffi/src/compress/mod.rs"
+  = note: if there is a `mod compress` elsewhere in the crate already, import it with `use crate::...` instead
+
+error[E0583]: file not found for module `memory`
+  --> wim-ffi/src/lib.rs:11:1
+   |
+11 | pub mod memory;
+   | ^^^^^^^^^^^^^^^
+   |
+   = help: to create the module `memory`, create file "wim-ffi/src/memory.rs" or "wim-ffi/src/memory/mod.rs"
+   = note: if there is a `mod memory` elsewhere in the crate already, import it with `use crate::...` instead
+
+warning: unused import: `compress::*`
+  --> wim-ffi/src/lib.rs:12:9
+   |
+12 | pub use compress::*;
+   |         ^^^^^^^^^^^
+   |
+   = note: `#[warn(unused_imports)]` (part of `#[warn(unused)]`) on by default
+
+warning: unused import: `memory::*`
+  --> wim-ffi/src/lib.rs:14:9
+   |
+14 | pub use memory::*;
+   |         ^^^^^^^^^
+
+For more information about this error, try `rustc --explain E0583`.
+warning: `wim-ffi` (lib) generated 2 warnings
+error: could not compile `wim-ffi` (lib) due to 2 previous errors; 2 warnings emitted

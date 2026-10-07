@@ -1,0 +1,205 @@
+{
+  "scope": "scan/state only; writer payload compatibility separately required",
+  "cases": 182,
+  "observations": 1010,
+  "mismatches": [
+    {
+      "case": 35,
+      "source": "source/data",
+      "flags": 4096,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 11 0 0 0 0', b'add 40 images 0 boot 0 rpfix 0', b'errno 20'])",
+      "native": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 11 0 0 0 0', b'add 40 images 0 boot 0 rpfix 0', b'errno 14'])"
+    },
+    {
+      "case": 36,
+      "source": "source/data",
+      "flags": 4116,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 10 0 0 1 12', b'scan 11 0 0 1 12', b'add 40 images 0 boot 0 rpfix 0', b'errno 20'])",
+      "native": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 10 0 0 1 12', b'scan 11 0 0 1 12', b'add 40 images 0 boot 0 rpfix 0', b'errno 14'])"
+    },
+    {
+      "case": 57,
+      "source": "source/link",
+      "flags": 4096,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 11 0 0 0 0', b'add 40 images 0 boot 0 rpfix 0', b'errno 20'])",
+      "native": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 11 0 0 0 0', b'add 40 images 0 boot 0 rpfix 0', b'errno 14'])"
+    },
+    {
+      "case": 58,
+      "source": "source/link",
+      "flags": 4116,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 10 0 0 1 12', b'scan 11 0 0 1 12', b'add 40 images 0 boot 0 rpfix 0', b'errno 20'])",
+      "native": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 10 0 0 1 12', b'scan 11 0 0 1 12', b'add 40 images 0 boot 0 rpfix 0', b'errno 14'])"
+    },
+    {
+      "case": 66,
+      "source": "source/missing",
+      "flags": 0,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'add 63 images 0 boot 0 rpfix 0', b'errno 2'])",
+      "native": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'add 63 images 0 boot 0 rpfix 0', b'errno 14'])"
+    },
+    {
+      "case": 67,
+      "source": "source/missing",
+      "flags": 4,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'add 63 images 0 boot 0 rpfix 0', b'errno 2'])",
+      "native": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'add 63 images 0 boot 0 rpfix 0', b'errno 14'])"
+    },
+    {
+      "case": 68,
+      "source": "source/missing",
+      "flags": 16,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'add 63 images 0 boot 0 rpfix 0', b'errno 2'])",
+      "native": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'add 63 images 0 boot 0 rpfix 0', b'errno 14'])"
+    },
+    {
+      "case": 69,
+      "source": "source/missing",
+      "flags": 20,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'add 63 images 0 boot 0 rpfix 0', b'errno 2'])",
+      "native": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'add 63 images 0 boot 0 rpfix 0', b'errno 14'])"
+    },
+    {
+      "case": 70,
+      "source": "source/missing",
+      "flags": 2,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'add 63 images 0 boot 0 rpfix 0', b'errno 2'])",
+      "native": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'add 63 images 0 boot 0 rpfix 0', b'errno 14'])"
+    },
+    {
+      "case": 71,
+      "source": "source/missing",
+      "flags": 18,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'add 63 images 0 boot 0 rpfix 0', b'errno 2'])",
+      "native": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'add 63 images 0 boot 0 rpfix 0', b'errno 14'])"
+    },
+    {
+      "case": 72,
+      "source": "source/missing",
+      "flags": 260,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'add 63 images 0 boot 0 rpfix 0', b'errno 2'])",
+      "native": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'add 63 images 0 boot 0 rpfix 0', b'errno 14'])"
+    },
+    {
+      "case": 73,
+      "source": "source/missing",
+      "flags": 516,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'add 63 images 0 boot 0 rpfix 0', b'errno 2'])",
+      "native": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'add 63 images 0 boot 0 rpfix 0', b'errno 14'])"
+    },
+    {
+      "case": 75,
+      "source": "source/missing",
+      "flags": 1024,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'add 63 images 0 boot 0 rpfix 0', b'errno 2'])",
+      "native": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'add 63 images 0 boot 0 rpfix 0', b'errno 14'])"
+    },
+    {
+      "case": 76,
+      "source": "source/missing",
+      "flags": 1028,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'add 63 images 0 boot 0 rpfix 0', b'errno 2'])",
+      "native": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'add 63 images 0 boot 0 rpfix 0', b'errno 14'])"
+    },
+    {
+      "case": 77,
+      "source": "source/missing",
+      "flags": 2048,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'add 63 images 0 boot 0 rpfix 0', b'errno 2'])",
+      "native": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'add 63 images 0 boot 0 rpfix 0', b'errno 14'])"
+    },
+    {
+      "case": 78,
+      "source": "source/missing",
+      "flags": 2052,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'add 63 images 0 boot 0 rpfix 0', b'errno 2'])",
+      "native": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'add 63 images 0 boot 0 rpfix 0', b'errno 14'])"
+    },
+    {
+      "case": 81,
+      "source": "source/missing",
+      "flags": 8192,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'add 63 images 0 boot 0 rpfix 0', b'errno 2'])",
+      "native": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'add 63 images 0 boot 0 rpfix 0', b'errno 14'])"
+    },
+    {
+      "case": 82,
+      "source": "source/missing",
+      "flags": 16384,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 30', b'progress 31', b'add 63 images 0 boot 0 rpfix 0', b'errno 2'])",
+      "native": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 30', b'progress 31', b'add 63 images 0 boot 0 rpfix 0', b'errno 14'])"
+    },
+    {
+      "case": 84,
+      "source": "source/missing",
+      "flags": 65536,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'add 63 images 0 boot 0 rpfix 0', b'errno 2'])",
+      "native": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'add 63 images 0 boot 0 rpfix 0', b'errno 14'])"
+    },
+    {
+      "case": 86,
+      "source": "source/missing",
+      "flags": 8,
+      "config": "none",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'add 63 images 0 boot 0 rpfix 0', b'errno 2'])",
+      "native": "(0, [b'create 0', b'scan 9 0 0 0 0', b'progress 31', b'add 63 images 0 boot 0 rpfix 0', b'errno 14'])"
+    },
+    {
+      "case": 145,
+      "source": "source",
+      "flags": 4,
+      "config": "exception",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 10 1 0 0 0', b'scan 10 1 0 0 0', b'scan 10 1 0 0 0', b'scan 10 0 0 1 12', b'scan 10 1 0 1 12', b'scan 10 1 0 1 12', b'scan 10 0 1 1 12', b'scan 11 0 1 1 12', b'add 0 images 1 boot 0 rpfix 1'])",
+      "native": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 10 1 0 0 0', b'scan 11 1 0 0 0', b'add 0 images 1 boot 0 rpfix 1'])"
+    },
+    {
+      "case": 146,
+      "source": "source",
+      "flags": 20,
+      "config": "exception",
+      "status": 0,
+      "original": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 10 1 0 0 0', b'scan 10 1 0 0 0', b'scan 10 1 0 0 0', b'scan 10 0 0 1 12', b'scan 10 1 0 1 12', b'scan 10 1 0 1 12', b'scan 10 0 1 1 12', b'scan 11 0 1 1 12', b'add 0 images 1 boot 0 rpfix 1'])",
+      "native": "(0, [b'create 0', b'scan 9 0 0 0 0', b'scan 10 1 0 0 0', b'scan 11 1 0 0 0', b'add 0 images 1 boot 0 rpfix 1'])"
+    }
+  ]
+}

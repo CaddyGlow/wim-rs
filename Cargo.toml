@@ -1,0 +1,23 @@
+[workspace]
+members = ["crates/wim-format", "crates/wim-types"]
+exclude = ["fuzz", "crates/wim"]
+resolver = "3"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.99"
+license = "LGPL-2.1-or-later OR GPL-3.0-or-later"
+repository = "https://github.com/CaddyGlow/wim-rs"
+
+[workspace.lints.rust]
+unsafe_op_in_unsafe_fn = "deny"
+
+[profile.release]
+lto = "thin"
+strip = true
+
+
+[workspace.lints.clippy]
+# Preserve established iterator/remainder handling during the Rust 1.99 upgrade.
+chunks_exact_to_as_chunks = "allow"

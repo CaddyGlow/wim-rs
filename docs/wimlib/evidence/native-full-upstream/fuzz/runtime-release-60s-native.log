@@ -1,0 +1,58 @@
+Starting wlfuzz with time limit of 60 seconds
+--> iteration 1
+:::op__create_new_wim
+Creating wim0 with write flags 0x00004000, compression_type=LZX, chunk_size=131072, solid_chunk_size=0
+--> iteration 2
+:::op__apply_and_capture_test
+Opening wim0 with flags 0x00000001
+generated wim0 image 1
+overwrite with flags: 0x000069f2
+Opening wim0 with flags 0x00000000
+applying in UNIX mode
+overwrite with flags: 0x00007802
+Opening wim0 with flags 0x00000001
+--> iteration 3
+:::op__set_compression_level
+Changing compression levels to 39
+--> iteration 4
+:::op__apply_and_capture_test
+Opening wim0 with flags 0x00000001
+generated wim0 image 3
+overwrite with flags: 0x00002870
+Opening wim0 with flags 0x00000000
+applying in UNIX mode
+overwrite with flags: 0x0000c102
+Opening wim0 with flags 0x00000001
+--> iteration 5
+:::op__overwrite_with_no_changes
+Opening wim0 with flags 0x00000000
+overwrite with flags: 0x00000891
+--> iteration 6
+:::op__verify_random_wim
+Opening wim0 with flags 0x00000000
+Verified wim0
+--> iteration 7
+:::op__split_test
+Opening wim0 with flags 0x00000001
+splitting WIM wim0: part_size=355002, write_flags=0x00004000
+--> iteration 8
+:::op__apply_and_capture_test
+Opening wim0 with flags 0x00000000
+generated wim0 image 5
+overwrite with flags: 0x000071b2
+Opening wim0 with flags 0x00000000
+applying in UNIX mode
+overwrite with flags: 0x00003120
+Opening wim0 with flags 0x00000001
+--> iteration 9
+:::op__split_test
+Opening wim0 with flags 0x00000000
+--> iteration 10
+:::op__add_empty_image_to_random_wim
+Opening wim0 with flags 0x00000000
+Adding empty image to wim0 at index 7
+overwrite with flags: 0x00004900
+--> iteration 11
+:::op__apply_and_capture_test
+Opening wim0 with flags 0x00000000
+ASSERTION FAILED at line 413: An entry in the WIM's lookup table is invalid

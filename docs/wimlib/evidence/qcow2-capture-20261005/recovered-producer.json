@@ -1,0 +1,16 @@
+{
+  "build_exit": 0,
+  "optimized": true,
+  "source_files_changed_during_build": [],
+  "production_inputs_unchanged_during_build": true,
+  "environment": {
+    "CARGO_TARGET_DIR": "/data/cache/qcow2-recovered-producer-20261005/build",
+    "TMPDIR": "/data/cache",
+    "CARGO_PROFILE_RELEASE_LTO": "false",
+    "CARGO_PROFILE_RELEASE_CODEGEN_UNITS": "16",
+    "CARGO_BUILD_JOBS": "16"
+  },
+  "old_producers_preserved": true,
+  "binary": "/data/cache/qcow2-recovered-producer-20261005/windows-uup",
+  "sha256": "60dc5c1a8741e8284733bcd7a6a9bb280f01695838ffa90b8c81f39a2896c9e4"
+}

@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "provenance_report_sha256": "60d4d6a6a488e675d51c5290e2c44204d99f5a8394addc0be58a11cd756081be",
+  "all_referenced_artifacts_rehashed": 10,
+  "ordinary_groups": 19,
+  "ordinary_paths": 24,
+  "raw_index_entries": 20,
+  "change_time_scope": "Audit evidence only; no restoration or WIM schema claim",
+  "scope": "Root independent artifact hash review; no target setter or new native inventory execution"
+}

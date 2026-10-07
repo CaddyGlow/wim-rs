@@ -1,0 +1,24 @@
+[
+  {
+    "unix_data": false,
+    "original_size": 792,
+    "native_size": 792,
+    "native_sha1": "01b056de5f013b61e6fdf2cb46be306f15a0b7f3",
+    "directory_equal": true,
+    "verify": true,
+    "apply_payload": true,
+    "hardlinks": true,
+    "symlink": true
+  },
+  {
+    "unix_data": true,
+    "original_size": 936,
+    "native_size": 936,
+    "native_sha1": "1c1120e4edcaacd1543bef08ea85c3317f6ccea8",
+    "directory_equal": true,
+    "verify": true,
+    "apply_payload": true,
+    "hardlinks": true,
+    "symlink": true
+  }
+]

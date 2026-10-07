@@ -1,0 +1,9 @@
+{
+  "native_compressor_original_decoder_cases": 90,
+  "level_policy": "fixed strategy; tuning incomplete",
+  "unchanged_header": true,
+  "factory_original_comparisons": 120,
+  "registered_allocations": 1278,
+  "balanced_frees": 1278,
+  "reused_calls_allocate_nothing": true
+}

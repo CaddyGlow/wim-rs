@@ -1,0 +1,34 @@
+[
+  {
+    "basename": "plain",
+    "filenames": [
+      "plain",
+      "plain2"
+    ],
+    "equal": true
+  },
+  {
+    "basename": ".swm",
+    "filenames": [
+      ".swm",
+      "2.swm"
+    ],
+    "equal": true
+  },
+  {
+    "basename": "many.dots.swm",
+    "filenames": [
+      "many.dots.swm",
+      "many.dots2.swm"
+    ],
+    "equal": true
+  },
+  {
+    "basename": "unicodé.swm",
+    "filenames": [
+      "unicodé.swm",
+      "unicodé2.swm"
+    ],
+    "equal": true
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "source": "/home/rick/projects-caddy/windows-uup/vm-state/qcow2-source-1005/overlay.qcow2",
+  "source_sha256": "cfa75f1df1c0328f2ef19e0752678a6714d67ed0787c75626d7d2f8cfebb5762",
+  "backing_sources": [
+    {
+      "path": "/home/rick/.vm-base/win11-secure/disk.qcow2",
+      "sha256": "35299ad09fb946d45374f9637ccc4344acb3488b482d9571854d007b666b2abe"
+    }
+  ],
+  "partition_index": 3,
+  "partition_guid": "1ae7a557-11d3-4b74-b404-80ee70ed67f2",
+  "volume_aliases": [
+    "\\??\\C:"
+  ],
+  "source_shutdown": true,
+  "generalized": false,
+  "preparation_evidence": "/home/rick/projects-caddy/windows-uup/docs/wimlib/evidence/qcow2-capture-20261005/source-before-sysprep.json",
+  "preparation_evidence_sha256": "1709ade33311028cd96f8cc661c3cbc4b5fd7b1df57ada66731d638b65f216f0",
+  "alias_markers": [
+    {
+      "alias": "\\??\\C:",
+      "relative_path": "NativeDiskCapture",
+      "file_id": 562949953455898,
+      "volume_serial": 873875793,
+      "observation_evidence": "/home/rick/projects-caddy/windows-uup/docs/wimlib/evidence/qcow2-capture-20261005/source-fixture-metadata.json",
+      "observation_evidence_sha256": "28a113f7654314f9f4c2c370670449b96f21a1c825bb713725316aa5a620eeae",
+      "mapping_attestation": "Observed C:\\NativeDiskCapture through QGA MetadataProbe before Sysprep; frozen selected volume must contain the same marker file index and Win32 volume serial."
+    }
+  ]
+}

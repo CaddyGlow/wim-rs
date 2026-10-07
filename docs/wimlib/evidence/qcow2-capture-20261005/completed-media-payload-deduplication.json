@@ -1,0 +1,85 @@
+{
+  "rows": [
+    {
+      "retained_wim": "/data/cache/qcow2-capture-20261005/install.wim",
+      "staging_path": "/data/cache/qcow2-capture-20261005/media-job/sources/install.wim",
+      "sha256": "743ae98de5ef02637e5921558bad745e003c102720b616aecbb9f098c05502ad",
+      "bytes": 8258615192,
+      "old_stage_inode": 155355628,
+      "shared_inode": 155324428,
+      "old_wim_mode": "0o600",
+      "mode": "0o400",
+      "read_only": true,
+      "content_unchanged": true,
+      "recovered_allocated_bytes": 8258621440
+    },
+    {
+      "retained_wim": "/data/cache/qcow2-capture-20261005/install-v2.wim",
+      "staging_path": "/data/cache/qcow2-capture-20261005/media-job-2/sources/install.wim",
+      "sha256": "acf003b556a7e3d5efcb02e1b5b8d4d1e9adba4b03c0bdcc3029637468ac05a4",
+      "bytes": 8258616136,
+      "old_stage_inode": 155358936,
+      "shared_inode": 155324626,
+      "old_wim_mode": "0o600",
+      "mode": "0o400",
+      "read_only": true,
+      "content_unchanged": true,
+      "recovered_allocated_bytes": 8258621440
+    },
+    {
+      "retained_wim": "/data/cache/qcow2-capture-20261005/install-v3.wim",
+      "staging_path": "/data/cache/qcow2-capture-20261005/media-job-3/sources/install.wim",
+      "sha256": "3146d2ef80f8165cb9d0ff2a35e6425ce9f6634a550f880fec534d7f00215e51",
+      "bytes": 8258616246,
+      "old_stage_inode": 155608547,
+      "shared_inode": 155325937,
+      "old_wim_mode": "0o600",
+      "mode": "0o400",
+      "read_only": true,
+      "content_unchanged": true,
+      "recovered_allocated_bytes": 8258621440
+    },
+    {
+      "retained_wim": "/data/cache/qcow2-capture-20261005/install-v4.wim",
+      "staging_path": "/data/cache/qcow2-capture-20261005/media-job-4/sources/install.wim",
+      "sha256": "558c59e0ccba22f1f3989f747df7cc9cbec8f8de21c5369951938b2fcb9b6818",
+      "bytes": 8258611390,
+      "old_stage_inode": 155321895,
+      "shared_inode": 155320331,
+      "old_wim_mode": "0o600",
+      "mode": "0o400",
+      "read_only": true,
+      "content_unchanged": true,
+      "recovered_allocated_bytes": 8258621440
+    },
+    {
+      "retained_wim": "/data/cache/qcow2-capture-20261005/install-v5.wim",
+      "staging_path": "/data/cache/qcow2-capture-20261005/media-job-5/sources/install.wim",
+      "sha256": "31e22fe2b8a79dbcf467e81b7c5f001e63caae0d26d14445fc37c61386de46c0",
+      "bytes": 8258611574,
+      "old_stage_inode": 155328258,
+      "shared_inode": 155321924,
+      "old_wim_mode": "0o600",
+      "mode": "0o400",
+      "read_only": true,
+      "content_unchanged": true,
+      "recovered_allocated_bytes": 8258621440
+    },
+    {
+      "retained_wim": "/data/cache/qcow2-capture-positive-20261005/explicit-install-v3.wim",
+      "staging_path": "/data/cache/qcow2-capture-positive-20261005/media-job-fifth/sources/install.wim",
+      "sha256": "6c63877fc079854e261044c4b9d9f521d5d59b9118baaf5489385b9f0d9c5297",
+      "bytes": 8258612616,
+      "old_stage_inode": 156394004,
+      "shared_inode": 156149762,
+      "old_wim_mode": "0o600",
+      "mode": "0o400",
+      "read_only": true,
+      "content_unchanged": true,
+      "recovered_allocated_bytes": 8258617344
+    }
+  ],
+  "unique_payloads_deleted": false,
+  "completed_generated_media_only": true,
+  "storage_contract": "Each preserved staged WIM and its retained generated input now share a read-only inode. Independent stage inode identity changed; payload bytes and paths remain intact."
+}

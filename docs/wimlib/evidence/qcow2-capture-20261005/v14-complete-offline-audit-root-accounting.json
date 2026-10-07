@@ -1,0 +1,18 @@
+{
+  "summary_path": "/data/cache/qcow2-v14-offline-audit/full-offline-audit-summary.json",
+  "summary_sha256": "c8c3bea5e6a0de71c810d7c89a8869ec24e7be02790b9a2320cf61e9394acd7f",
+  "bound_reports_rehashed": 13,
+  "helpers_and_selectors_rehashed": 8,
+  "physical_input_hash_receipts_before_after_exact": true,
+  "full_scope_counts_consistent": true,
+  "fixture_entries": 9,
+  "fixture_streams": 331,
+  "production_acceptance": false,
+  "limitations_retained": [
+    "24 owner/group/DACL component differences retained; new target SID-role binding not independently audited here.",
+    "Original helper fixture root argument included leading slash incompatible component filter, resulting in empty extraction; that artifact remains diagnostic, corrected v2 extraction has9/331 and is authoritative.",
+    "Source-to-target change time differs on all24ObjectID paths; fresh-volume file identities intentionally differ and are not judged against source IDs.",
+    "Security descriptor packing retained separately from logical components; missing/inherited ACE changes remain fidelity failures.",
+    "No alias/security/ObjectID restoration executed on installed baseline."
+  ]
+}

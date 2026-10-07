@@ -1,0 +1,50 @@
+{
+  "work": "/tmp/wim-full-upstream-ebx6gx5p",
+  "cli_sha256": "cf828ebefe0a4204122edc919b9b18cbd9632e45cf81abe5cbed714934223472",
+  "native_sha256": "9eb32063b9e41563c8d5339bcd919ccd1b825ca134dd594e4a63bce899a77ae3",
+  "original_sha256": "62eb9c97f9ec6e3dae6c7e995b0a65a2e94a4d9b41491666947ba788a15bb74a",
+  "runs": [
+    {
+      "library": "original",
+      "script": "test-imagex",
+      "script_sha256": "b63d7ca1df98ba2ddc289c99d9d3bc36368025b8d697a67fb9c958f49a1bf70a",
+      "status": 0,
+      "log": "docs/wimlib/evidence/native-full-upstream/original-test-imagex.log"
+    },
+    {
+      "library": "original",
+      "script": "test-imagex-capture_and_apply",
+      "script_sha256": "f1d6e242e1337f6f5f01e13d6c091e30743d36a09b7570b482cd197a315d263e",
+      "status": 0,
+      "log": "docs/wimlib/evidence/native-full-upstream/original-test-imagex-capture_and_apply.log"
+    },
+    {
+      "library": "original",
+      "script": "test-imagex-update_and_extract",
+      "script_sha256": "400039bcf2a7f610d38b000d444520e59a030bb839646e86fbd9920113a74b95",
+      "status": 0,
+      "log": "docs/wimlib/evidence/native-full-upstream/original-test-imagex-update_and_extract.log"
+    },
+    {
+      "library": "native",
+      "script": "test-imagex",
+      "script_sha256": "b63d7ca1df98ba2ddc289c99d9d3bc36368025b8d697a67fb9c958f49a1bf70a",
+      "status": 0,
+      "log": "docs/wimlib/evidence/native-full-upstream/native-test-imagex.log"
+    },
+    {
+      "library": "native",
+      "script": "test-imagex-capture_and_apply",
+      "script_sha256": "f1d6e242e1337f6f5f01e13d6c091e30743d36a09b7570b482cd197a315d263e",
+      "status": 0,
+      "log": "docs/wimlib/evidence/native-full-upstream/native-test-imagex-capture_and_apply.log"
+    },
+    {
+      "library": "native",
+      "script": "test-imagex-update_and_extract",
+      "script_sha256": "400039bcf2a7f610d38b000d444520e59a030bb839646e86fbd9920113a74b95",
+      "status": 0,
+      "log": "docs/wimlib/evidence/native-full-upstream/native-test-imagex-update_and_extract.log"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "hardlinks": false,
+    "output": "create 0\nscan 9 0 0 0 0\nscan 10 0 0 1 12\nscan 10 0 0 2 24\nscan 10 0 1 2 24\nscan 11 0 1 2 24\nadd 0 images 1 boot 0 rpfix 1\nlookup-before\nresource 0 1 1 0 0000000000000000000000000000000000000000\nresource 12 1 0 0 0000000000000000000000000000000000000000\nresource 12 1 0 0 0000000000000000000000000000000000000000\nlookup-status 0\nwrite-progress 24 2 0 0\nwrite-progress 24 2 12 1\nwrite-progress 12 1 12 1\nprogress 13\nprogress 14\nwrite 0\nlookup-after\nresource 0 1 1 0 9070fe635a6b9fb7022b89f91aa7abbcd6170089\nresource 12 2 0 0 e758258fbe0171c0fc4be9139858fdc459399ebd\nlookup-status 0\n"
+  },
+  {
+    "hardlinks": true,
+    "output": "create 0\nscan 9 0 0 0 0\nscan 10 0 0 1 12\nscan 10 0 0 2 12\nscan 10 0 1 2 12\nscan 11 0 1 2 12\nadd 0 images 1 boot 0 rpfix 1\nlookup-before\nresource 0 1 1 0 0000000000000000000000000000000000000000\nresource 12 2 0 0 0000000000000000000000000000000000000000\nlookup-status 0\nwrite-progress 12 1 0 0\nwrite-progress 12 1 12 1\nprogress 13\nprogress 14\nwrite 0\nlookup-after\nresource 0 1 1 0 1918bb948e72643c27a8e66e5d1c7f8626c6df45\nresource 12 2 0 0 e758258fbe0171c0fc4be9139858fdc459399ebd\nlookup-status 0\n"
+  }
+]

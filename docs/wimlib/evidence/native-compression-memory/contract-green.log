@@ -1,0 +1,24 @@
+   Compiling wim-ffi v0.1.0 (/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/wim-ffi)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.14s
+     Running unittests src/lib.rs (crates/wimlib-rs/target/debug/deps/wim-69bc7f571d19836c)
+
+running 4 tests
+test memory::tests::invalid_query_parameters_return_zero_without_allocating ... ok
+test memory::tests::lzms_estimate_changes_at_suffix_array_and_interval_width_thresholds ... ok
+test memory::tests::lzx_estimate_changes_at_fast_level_and_position_width_thresholds ... ok
+test memory::tests::xpress_estimate_changes_at_near_optimal_threshold ... ok
+
+test result: ok. 4 passed; 0 failed; 0 ignored; 0 measured; 2 filtered out; finished in 0.00s
+
+     Running tests/compress.rs (crates/wimlib-rs/target/debug/deps/compress-1c0474f962b2c982)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 2 filtered out; finished in 0.00s
+
+     Running tests/decompress.rs (crates/wimlib-rs/target/debug/deps/decompress-d4dd0f5149daddd3)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 2 filtered out; finished in 0.00s
+

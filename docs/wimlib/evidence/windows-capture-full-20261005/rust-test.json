@@ -1,0 +1,10 @@
+{
+  "sha256": "73f4ace46b01dbd9a5df69abeee921d677255945014cca5808df67cbb60ca7d1",
+  "result": {
+    "exit": 0,
+    "signal": null,
+    "stdout": "\nrunning 2 tests\ntest capture_rejects_directory_case_sensitivity_that_apply_cannot_restore ... ok\ntest named_streams_survive_capture_write_and_apply_on_files_directories_and_hard_links ... ok\n\ntest result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.33s\n\n",
+    "stderr": "",
+    "stdout_truncated": false
+  }
+}

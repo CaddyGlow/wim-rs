@@ -1,0 +1,34 @@
+{
+  "command": [
+    "/nix/store/lpp6p3im2kx8drha091yxhbpv0nvrdpa-x86_64-w64-mingw32-gcc-wrapper-15.3.0/bin/x86_64-w64-mingw32-gcc",
+    "-municode",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-I/tmp/wimlib/include",
+    "/home/rick/projects-caddy/windows-uup/scripts/wimlib/probe-windows-capture-multi.c",
+    "-o",
+    "/tmp/probe-windows-capture-multi.exe",
+    "-ladvapi32",
+    "-L/nix/store/s1bvib8va2pimdzy1mzfq605amd83gdc-mcfgthread-x86_64-w64-mingw32-2.3.2/lib"
+  ],
+  "exit_code": 0,
+  "stdout": "",
+  "stderr": "",
+  "source_sha256": "a25a205d828644dc98e5a3ca4e13c22b69649b706d63e67d459787951c119cca",
+  "original_header_sha256": "3769368886f5efc0e62ae2ecd7270697c57e21639b35808f70def87cec9dadc6",
+  "owned_guest_fixture": "C:\\wim-capture-multi-20261003",
+  "guest_arguments": [
+    "<dll>",
+    "<scenario 0..4>",
+    "<output-wim or ->"
+  ],
+  "scenarios": {
+    "0": "same update: ACL then NO_ACLS",
+    "1": "same update: NO_ACLS then ACL",
+    "2": "same update: source DACL changes after first scan",
+    "3": "separate updates: ACL then NO_ACLS",
+    "4": "separate updates: source DACL changes before second"
+  },
+  "probe_sha256": "7ed4edec429937bfdd02feae553abe93ba874c4742d63d46c5db8dce272097b5"
+}

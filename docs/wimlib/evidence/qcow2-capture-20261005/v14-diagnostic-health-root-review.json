@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "scope": "Actual V14 disposable installed child diagnostic health; source image preserved; no metadata acceptance waiver",
+  "dism_scanhealth_clean": true,
+  "sfc_verifyonly_clean": true,
+  "original_sfc_guest_parser_false_preserved": true,
+  "host_presentation_review_separate": true,
+  "artifacts": {
+    "/data/cache/qcow2-v14-diagnostic-health-20261006/actual-6ef2c27ad5694164b4ee574b85ba96c4/result.json": "3aed6eec242963da78f25133d28541caf76d9648ccd925bdc505b5ea5847c71f",
+    "/data/cache/qcow2-v14-diagnostic-health-20261006/actual-6ef2c27ad5694164b4ee574b85ba96c4/root-diagnostic-output-review.json": "0343380a1c64fc9eb33d8c5d8bc423ed4f683295282f7fd22c2452aba6010b63",
+    "/data/cache/qcow2-v14-diagnostic-health-20261006/actual-6ef2c27ad5694164b4ee574b85ba96c4/final-parent-guard.json": "3db4e6deca6a17a956fa72f01d304f26cc1af8a5d9bb9a9f07f9dd1ea44a2f61",
+    "/data/cache/qcow2-v14-diagnostic-health-20261006/actual-6ef2c27ad5694164b4ee574b85ba96c4/final-backing-guards.json": "3a7892da6646298e6cfde277eff4f099339d55f96f1ee41349705470f36503ba"
+  },
+  "representative_servicing_verified": false,
+  "full_metadata_fidelity": false
+}

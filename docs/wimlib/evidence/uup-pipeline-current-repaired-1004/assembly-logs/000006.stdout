@@ -1,0 +1,30 @@
+Microsoft (R) File Expansion Utility
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-3\$filehashes$.dat to Extraction Queue
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-3\amd64_microsoft-windows-hello-face-deployment_31bf3856ad364e35_10.0.19041.1_none_8f569f3e14b32c1b.manifest to Extraction Queue
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-3\amd64_microsoft-windows-hello-face_31bf3856ad364e35_10.0.19041.1_none_b73dd41cd20a0d41\FaceDetectorResources.dll to Extraction Queue
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-3\amd64_microsoft-windows-hello-face_31bf3856ad364e35_10.0.19041.1_none_b73dd41cd20a0d41\FaceProcessor.dll to Extraction Queue
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-3\amd64_microsoft-windows-hello-face_31bf3856ad364e35_10.0.19041.1_none_b73dd41cd20a0d41\FaceProcessorCore.dll to Extraction Queue
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-3\amd64_microsoft-windows-hello-face_31bf3856ad364e35_10.0.19041.1_none_b73dd41cd20a0d41\FaceRecognitionEngineAdapter.dll to Extraction Queue
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-3\amd64_microsoft-windows-hello-face_31bf3856ad364e35_10.0.19041.1_none_b73dd41cd20a0d41\FaceRecognitionEngineAdapterResourcesCore.dll to Extraction Queue
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-3\amd64_microsoft-windows-hello-face_31bf3856ad364e35_10.0.19041.1_none_b73dd41cd20a0d41\FaceRecognitionEngineAdapterResourcesSecure.dll to Extraction Queue
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-3\amd64_microsoft-windows-hello-face_31bf3856ad364e35_10.0.19041.1_none_b73dd41cd20a0d41\FaceRecognitionEngineAdapterResources_v4.dll to Extraction Queue
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-3\amd64_microsoft-windows-hello-face_31bf3856ad364e35_10.0.19041.1_none_b73dd41cd20a0d41\FaceRecognitionSensorAdapter.dll to Extraction Queue
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-3\amd64_microsoft-windows-hello-face_31bf3856ad364e35_10.0.19041.1_none_b73dd41cd20a0d41\FaceRecognitionSensorAdapterResources.dll to Extraction Queue
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-3\amd64_microsoft-windows-hello-face_31bf3856ad364e35_10.0.19041.1_none_b73dd41cd20a0d41\FaceRecognitionSensorAdapterVsm.dll to Extraction Queue
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-3\amd64_microsoft-windows-hello-face_31bf3856ad364e35_10.0.19041.1_none_b73dd41cd20a0d41\FaceRecognitionSensorAdapterVsmSecure.dll to Extraction Queue
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-3\amd64_microsoft-windows-hello-face_31bf3856ad364e35_10.0.19041.1_none_b73dd41cd20a0d41\FaceTrackerInternal.dll to Extraction Queue
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-3\amd64_microsoft-windows-hello-face_31bf3856ad364e35_10.0.19041.1_none_b73dd41cd20a0d41\HelloFace.cat to Extraction Queue
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-3\amd64_microsoft-windows-hello-face_31bf3856ad364e35_10.0.19041.1_none_b73dd41cd20a0d41\HelloFace.dll to Extraction Queue
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-3\amd64_microsoft-windows-hello-face_31bf3856ad364e35_10.0.19041.1_none_b73dd41cd20a0d41\HelloFace.inf to Extraction Queue
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-3\amd64_microsoft-windows-hello-face_31bf3856ad364e35_10.0.19041.1_none_b73dd41cd20a0d41.manifest to Extraction Queue
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-3\Microsoft-Windows-Hello-Face-Package~31bf3856ad364e35~amd64~~10.0.19041.1.cat to Extraction Queue
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-3\Microsoft-Windows-Hello-Face-Package~31bf3856ad364e35~amd64~~10.0.19041.1.mum to Extraction Queue
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-3\update.cat to Extraction Queue
+Adding C:\wim-uup-validation-1791110582335113548\assembly\feature-3\update.mum to Extraction Queue
+
+Expanding Files ....
+
+Expanding Files Complete ...
+22 files total.

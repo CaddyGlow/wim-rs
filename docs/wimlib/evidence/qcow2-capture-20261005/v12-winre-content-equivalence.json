@@ -1,0 +1,99 @@
+{
+  "schema": 1,
+  "kind": "winre-full-equivalence",
+  "source_sha256": "5a7b51e7271284a3204234a71386c4d8cbc81665e9f7bc451d7d70fb464a3047",
+  "target_sha256": "dfe71fec47e0fc2d75e5e97a20352ef6ea10b3ab5573da23fffe15e314072858",
+  "entry_count": 25450,
+  "stream_count": 20913,
+  "differences": [],
+  "source_identity": {
+    "architecture": 9,
+    "build": 26100,
+    "revision": 8031,
+    "kernel_sha256": "9f4835840e59eae356847944044db6363bf58d61256a806e04c971fff5551d9b"
+  },
+  "target_identity": {
+    "architecture": 9,
+    "build": 26100,
+    "revision": 8031,
+    "kernel_sha256": "9f4835840e59eae356847944044db6363bf58d61256a806e04c971fff5551d9b"
+  },
+  "artifacts": {
+    "source_wim": {
+      "path": "/data/cache/qcow2-autologon-disabled-20261005/capture/independent-oracle/Winre.wim",
+      "sha256": "5a7b51e7271284a3204234a71386c4d8cbc81665e9f7bc451d7d70fb464a3047"
+    },
+    "source_verify": {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/independent-winre-equivalence/source-verify.log",
+      "sha256": "bb80d446bf7dd7b5ca29647ba301fe714821e64379981c8d7427589b59233bbe"
+    },
+    "source_manifest": {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/independent-winre-equivalence/source-manifest.json",
+      "sha256": "a3982305891cc5f970e004d8e75210dfcfb880180d456668a6c194ecc6822fa7"
+    },
+    "source_xml": {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/independent-winre-equivalence/source-xml.xml",
+      "sha256": "092942b5d561db3ec1b767984ca12b987d0d581eed61f4681da9d1f7b11e6bb6"
+    },
+    "source_kernel": {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/independent-winre-equivalence/source-ntoskrnl.exe",
+      "sha256": "9f4835840e59eae356847944044db6363bf58d61256a806e04c971fff5551d9b"
+    },
+    "target_wim": {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/registered-target-winre.wim",
+      "sha256": "dfe71fec47e0fc2d75e5e97a20352ef6ea10b3ab5573da23fffe15e314072858"
+    },
+    "target_verify": {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/independent-winre-equivalence/target-verify.log",
+      "sha256": "7b082e0e5a2866ac8f8cdd85887f06aa1c6dbee2b738ed44fb2c9237037185fc"
+    },
+    "target_manifest": {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/independent-winre-equivalence/target-manifest.json",
+      "sha256": "a3982305891cc5f970e004d8e75210dfcfb880180d456668a6c194ecc6822fa7"
+    },
+    "target_xml": {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/independent-winre-equivalence/target-xml.xml",
+      "sha256": "819641779b84fa0d44cec67de73ecb271ad26a5fd325950c4bc2c1c33da1d987"
+    },
+    "target_kernel": {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/independent-winre-equivalence/target-ntoskrnl.exe",
+      "sha256": "9f4835840e59eae356847944044db6363bf58d61256a806e04c971fff5551d9b"
+    }
+  },
+  "provenance": {
+    "wimlib": {
+      "path": "/nix/store/fd0zfsysr7gl769wv31n80a6j67xgd78-wimlib-1.14.5/bin/wimlib-imagex",
+      "sha256": "a5ca2da7539c1289384096f9f83e516574dddc0d7d651df704ed5171853732cf"
+    },
+    "library": {
+      "path": "/nix/store/fd0zfsysr7gl769wv31n80a6j67xgd78-wimlib-1.14.5/lib/libwim.so.15.27.0",
+      "sha256": "55a17214bfddb19d3a6159afaab3dcdc85e302f490b6a373130f1db1efb4e837"
+    },
+    "producer": {
+      "path": "/home/rick/projects-caddy/windows-uup/scripts/wimlib/compare-winre-full-equivalence.py",
+      "sha256": "db61db151afeae318f5712e2e1f2ef2eb90b3e9f1f682b8c4856f8232a88b247"
+    },
+    "source_verify": {
+      "command": [
+        "/nix/store/fd0zfsysr7gl769wv31n80a6j67xgd78-wimlib-1.14.5/bin/wimlib-imagex",
+        "verify",
+        "/data/cache/qcow2-autologon-disabled-20261005/capture/independent-oracle/Winre.wim"
+      ],
+      "exit_code": 0
+    },
+    "target_verify": {
+      "command": [
+        "/nix/store/fd0zfsysr7gl769wv31n80a6j67xgd78-wimlib-1.14.5/bin/wimlib-imagex",
+        "verify",
+        "/data/cache/qcow2-installation-autologon-disabled-1005-v12/registered-target-winre.wim"
+      ],
+      "exit_code": 0
+    },
+    "wimlib_version": "wimlib-imagex 1.14.5 (using wimlib 1.14.5)\nCopyright 2012-2023 Eric Biggers\nLicense GPLv3+; GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>.\nThis is free software: you are free to change and redistribute it.\nThere is NO WARRANTY, to the extent permitted by law.\n\nReport bugs to https://wimlib.net/forums/."
+  },
+  "raw_evidence": {
+    "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/independent-winre-equivalence/equivalence.json",
+    "sha256": "7cd0bc3f256dbf54ec13de9bd774abae762bcbb232b8008cb89e8caf4eade2ce"
+  },
+  "supplemental_strict_metadata_result": "Failed:708access-time-only differences, cause unproven; see v12-winre-whole-metadata-classification.json"
+}

@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-05",
+  "scope": "Additional phase1-5 evidence gaps; no production binary replacement or whole-Windows recapture.",
+  "capture_unit_tests": {
+    "command": "TMPDIR=/data/cache cargo test --locked -p windows-uup --lib capture_disk::tests",
+    "passed": 17,
+    "failed": 0,
+    "includes": "Valid tiny boot WIM architecture/build incompatibility; missing recovery path; hardlink identity; publication controls."
+  },
+  "capture_cli_tests": {
+    "command": "TMPDIR=/data/cache cargo test --locked -p windows-uup --test capture_disk",
+    "passed": 8,
+    "failed": 0,
+    "includes": "Actual CLI rejects bounded repeated growth of a disposable 512MiB sparse source while hashing; no output or finalreport; failure journal retained."
+  },
+  "raw_ntfs_wim_vertical_slice": {
+    "command": "TMPDIR=/data/cache nix-shell -p ntfs3g wimlib --run 'cargo test --locked -p wim --features disk-capture --test offline_capture raw_ntfs_volume_captures_through_wim_with_independent_stream_bytes -- --ignored --nocapture'",
+    "passed": 1,
+    "failed": 0,
+    "volume_bytes": 33554432,
+    "cluster_bytes": 512,
+    "source_sha1_before_after": "9c8375c59d267f158d2e94baed66e8b377203f23",
+    "exact_source_byte_equality": true,
+    "checks": [
+      "Independently mkntfs/ntfscp-generated raw NTFS -> native manifest -> deferred WIM capture/write after dropping Volume",
+      "Unnamed nonresident data and ADS bytes match independently supplied source bytes",
+      "Raw security descriptor, Win32 attributes and write timestamp retained",
+      "Native WIM verification and independent upstream wimlib-imagex verification pass without warnings"
+    ],
+    "fixture_retention": "Ephemeral test fixture removed after assertions; test recreates independent source and compares its full bytes before/after. SHA1 is recorded as an identifier; exact equality is the mutation proof."
+  },
+  "limitations": "These host fixtures do not establish Windows whole-source DISM equivalence, unusual UTF16/attribute-list fixtures, cross-drive effective permissions, fresh Setup or recovery runtime."
+}

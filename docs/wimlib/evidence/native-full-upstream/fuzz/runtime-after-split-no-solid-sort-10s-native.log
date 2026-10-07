@@ -1,0 +1,53 @@
+ASSERTION FAILED at line 831: A difference was detected between the two images being compared
+Starting wlfuzz with time limit of 10 seconds
+--> iteration 1
+:::op__apply_and_capture_test
+--> iteration 2
+:::op__apply_and_capture_test
+--> iteration 3
+:::op__add_empty_image_to_random_wim
+--> iteration 4
+:::op__create_new_wim
+Creating wim0 with write flags 0x00000001, compression_type=LZMS, chunk_size=2097152, solid_chunk_size=268435456
+--> iteration 5
+:::op__create_new_wim
+Creating wim1 with write flags 0x00002001, compression_type=None, chunk_size=0, solid_chunk_size=0
+--> iteration 6
+:::op__delete_random_wim
+Deleted wim1
+--> iteration 7
+:::op__apply_and_capture_test
+Opening wim0 with flags 0x00000000
+generated wim0 image 1
+overwrite with flags: 0x00006885
+Opening wim0 with flags 0x00000001
+applying in UNIX mode
+overwrite with flags: 0x000009e0
+Opening wim0 with flags 0x00000001
+--> iteration 8
+:::op__apply_and_capture_test
+Opening wim0 with flags 0x00000000
+generated wim0 image 3
+overwrite with flags: 0x000021d1
+Opening wim0 with flags 0x00000001
+applying in UNIX mode
+overwrite with flags: 0x00006190
+Opening wim0 with flags 0x00000001
+--> iteration 9
+:::op__apply_and_capture_test
+Opening wim0 with flags 0x00000000
+generated wim0 image 5
+overwrite with flags: 0x000008c1
+Opening wim0 with flags 0x00000001
+applying in UNIX mode
+overwrite with flags: 0x00004952
+Opening wim0 with flags 0x00000000
+--> iteration 10
+:::op__apply_and_capture_test
+Opening wim0 with flags 0x00000001
+generated wim0 image 7
+overwrite with flags: 0x000008c1
+Opening wim0 with flags 0x00000000
+applying in UNIX mode
+overwrite with flags: 0x000060b0
+Opening wim0 with flags 0x00000001

@@ -1,0 +1,16 @@
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.01s
+     Running tests/resource_write.rs (crates/wimlib-rs/target/debug/deps/resource_write-5a7ca9093460f31f)
+
+running 9 tests
+test compressor_error_is_propagated ... ok
+test empty_resource_is_uncompressed ... ok
+test ineffective_compression_uses_raw_chunk ... ok
+test invalid_chunk_size_rejected_before_compressor ... ok
+test none_compression_avoids_chunk_framing ... ok
+test ordinary_offsets_exclude_table_bytes ... ok
+test pipable_offsets_exclude_chunk_headers ... ok
+test solid_table_contains_all_chunk_lengths ... ok
+test raw_chunks_round_trip_all_layouts_at_chunk_boundaries ... ok
+
+test result: ok. 9 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

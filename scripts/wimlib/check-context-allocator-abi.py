@@ -1,0 +1,6 @@
+#!/usr/bin/env python3
+"""Retired custom-allocator gate; historical C probes remain upstream-only."""
+import argparse
+from pathlib import Path
+p=argparse.ArgumentParser(description=__doc__);p.add_argument('--native',type=Path,required=True);p.add_argument('--original',type=Path,default=Path('/tmp/wimlib-native-oracle/.libs'));p.add_argument('--include-inner-failure-gates',action='store_true');p.add_argument('--decoder-only',action='store_true');p.add_argument('--codec-contexts-only',action='store_true');p.add_argument('--handle-contexts-only',action='store_true');p.add_argument('--maximum-failure-index',type=int);a=p.parse_args()
+raise SystemExit("Retired native allocator-hook gate: wimlib_set_memory_allocator was deliberately removed. Historical probes and evidence remain available for upstream analysis.")

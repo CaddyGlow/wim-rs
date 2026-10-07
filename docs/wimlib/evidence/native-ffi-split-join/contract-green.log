@@ -1,0 +1,10 @@
+   Compiling wim-ffi v0.1.0 (/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/wim-ffi)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.11s
+     Running tests/split_join.rs (crates/wimlib-rs/target/debug/deps/split_join-3f07637175c2db94)
+
+running 2 tests
+test split_and_join_validate_empty_names_sizes_and_part_counts ... ok
+test split_filenames_and_reverse_join_preserve_content_and_current_xml ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.02s
+

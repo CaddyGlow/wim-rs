@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "scope": "Root review of completed comparison accounting; physical input hashes and raw-reader correctness remain separate receipts",
+  "target_baseline_sha256": "945ade80271e6a84cbe4673a3cf4a596322382940b43d0641a9ff125c806aa90",
+  "artifacts": [
+    {
+      "path": "/data/cache/qcow2-v13-offline-audit/raw-full-source-alias-comparison.json",
+      "sha256": "571c5a82076eba4c0fc35e6cdf75b9bd8794daf831ef3e96567a3ce131c13770"
+    },
+    {
+      "path": "/data/cache/qcow2-v13-offline-audit/all-source-objectid-comparison.json",
+      "sha256": "602cd77e2168173c8f822259898d639b95d0e168c7f6c538b1e13f875480957a"
+    },
+    {
+      "path": "/data/cache/qcow2-v13-offline-audit/reserved-security-comparison.json",
+      "sha256": "5548a27c5fe865b10450c4da0648a995972644025704e6c6d0614e81d9ac8ad6"
+    },
+    {
+      "path": "/data/cache/qcow2-v13-offline-audit/fixture-comparison.json",
+      "sha256": "abca3af555a973c56fcd9bd59eb9fadcfaab8635b53b7f03acb01844e6bd5412"
+    }
+  ],
+  "alias_counts": {
+    "exact_binding": 98623,
+    "missing_expected_DOS": 244,
+    "expected_DOS_binds_other_file": 2275,
+    "missing_long_path": 26
+  },
+  "posix_counts": {
+    "POSIX_namespace_empty_short_exact": 596,
+    "target_namespace_changed": 5
+  },
+  "objectid_counts": {
+    "BirthVolumeId_only_changed": 8,
+    "extended48_zeroed_first16_exact": 16
+  },
+  "fixture_differences": {
+    "ObjectIdRaw": 2
+  },
+  "strict_installed_fidelity_passed": false
+}

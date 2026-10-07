@@ -1,0 +1,33 @@
+Microsoft (R) File Expansion Utility
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-21\$filehashes$.dat to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-21\amd64_libressl-components-onecore_31bf3856ad364e35_10.0.19041.1_none_a51f330973ed5c23\libcrypto.dll to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-21\amd64_libressl-components-onecore_31bf3856ad364e35_10.0.19041.1_none_a51f330973ed5c23.manifest to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-21\amd64_microsoft-onecore-libressl-deployment_31bf3856ad364e35_10.0.19041.1_none_d3687ff0c0c3175d.manifest to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-21\amd64_microsoft-onecore-o..h-common-deployment_31bf3856ad364e35_10.0.19041.1_none_c55a0647a359a96d.manifest to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-21\amd64_microsoft-onecore-o..ientonly-deployment_31bf3856ad364e35_10.0.19041.1_none_eaf25defb35c731d.manifest to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-21\amd64_openssh-client-components-onecore_31bf3856ad364e35_10.0.19041.1_none_b5ee49ccbbfbfddb\sftp.exe to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-21\amd64_openssh-client-components-onecore_31bf3856ad364e35_10.0.19041.1_none_b5ee49ccbbfbfddb\ssh-keyscan.exe to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-21\amd64_openssh-client-components-onecore_31bf3856ad364e35_10.0.19041.1_none_b5ee49ccbbfbfddb\ssh.exe to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-21\amd64_openssh-client-components-onecore_31bf3856ad364e35_10.0.19041.1_none_b5ee49ccbbfbfddb.manifest to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-21\amd64_openssh-common-components-onecore_31bf3856ad364e35_10.0.19041.1_none_72978a504f1cdef7\scp.exe to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-21\amd64_openssh-common-components-onecore_31bf3856ad364e35_10.0.19041.1_none_72978a504f1cdef7\ssh-add.exe to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-21\amd64_openssh-common-components-onecore_31bf3856ad364e35_10.0.19041.1_none_72978a504f1cdef7\ssh-agent.exe to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-21\amd64_openssh-common-components-onecore_31bf3856ad364e35_10.0.19041.1_none_72978a504f1cdef7\ssh-keygen.exe to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-21\amd64_openssh-common-components-onecore_31bf3856ad364e35_10.0.19041.1_none_72978a504f1cdef7.manifest to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-21\Microsoft-OneCore-LibreSSL-Package~31bf3856ad364e35~amd64~~10.0.19041.1.cat to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-21\Microsoft-OneCore-LibreSSL-Package~31bf3856ad364e35~amd64~~10.0.19041.1.mum to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-21\Microsoft-OneCore-OpenSSH-ClientOnly-Package~31bf3856ad364e35~amd64~~10.0.19041.1.cat to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-21\Microsoft-OneCore-OpenSSH-ClientOnly-Package~31bf3856ad364e35~amd64~~10.0.19041.1.mum to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-21\Microsoft-OneCore-OpenSSH-Common-Package~31bf3856ad364e35~amd64~~10.0.19041.1.cat to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-21\Microsoft-OneCore-OpenSSH-Common-Package~31bf3856ad364e35~amd64~~10.0.19041.1.mum to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-21\OpenSSH-Client-Package~31bf3856ad364e35~amd64~~10.0.19041.1.cat to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-21\OpenSSH-Client-Package~31bf3856ad364e35~amd64~~10.0.19041.1.mum to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-21\update.cat to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-21\update.mum to Extraction Queue
+
+Expanding Files ....
+
+Expanding Files Complete ...
+25 files total.

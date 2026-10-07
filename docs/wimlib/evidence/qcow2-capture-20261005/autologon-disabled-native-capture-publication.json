@@ -1,0 +1,65 @@
+{
+  "scope": "Successful native capture publication and source preservation only; independent archive and installed runtime gates pending",
+  "capture_exit": 0,
+  "entries": 175812,
+  "four_qcow2_layers": true,
+  "before_after_sources_exact": true,
+  "default_limits_unchanged": true,
+  "wim_sha256_reported": "9791aae2127f1688c99f9928e61fe4ff41b37f184566d880d80fe4d619117f73",
+  "sources": [
+    {
+      "path": "/data/cache/qcow2-oobe-preparation-control-20261005/vm-state/overlay.qcow2",
+      "sha256": "59da49ab227850c6d62a2d555f40a43bf19a8f8a7af3d10eedb2395b62799282",
+      "bytes": 1978662912,
+      "file_identity": [
+        66306,
+        150353811
+      ]
+    },
+    {
+      "path": "/home/rick/.cache/windows-capture-recovery-20261005/prepared-source.qcow2",
+      "sha256": "bf7bc3cecfb9d696c82f0869cd8f3c04c74bd644648c690405132399f4091a0a",
+      "bytes": 1950679040,
+      "file_identity": [
+        66309,
+        108167571
+      ]
+    },
+    {
+      "path": "/home/rick/projects-caddy/windows-uup/vm-state/qcow2-source-1005/overlay.qcow2",
+      "sha256": "cfa75f1df1c0328f2ef19e0752678a6714d67ed0787c75626d7d2f8cfebb5762",
+      "bytes": 4352770048,
+      "file_identity": [
+        66309,
+        124527323
+      ]
+    },
+    {
+      "path": "/home/rick/.vm-base/win11-secure/disk.qcow2",
+      "sha256": "35299ad09fb946d45374f9637ccc4344acb3488b482d9571854d007b666b2abe",
+      "bytes": 10026090496,
+      "file_identity": [
+        66309,
+        110639073
+      ]
+    },
+    {
+      "path": "/data/cache/qcow2-oobe-preparation-control-20261005/offline-source/Windows_System32_Recovery_Winre.wim",
+      "sha256": "5a7b51e7271284a3204234a71386c4d8cbc81665e9f7bc451d7d70fb464a3047",
+      "bytes": 682662589,
+      "file_identity": [
+        66306,
+        150355364
+      ]
+    }
+  ],
+  "independent_archive_passed": false,
+  "installed_runtime_passed": false,
+  "inputs": {
+    "/data/cache/qcow2-autologon-disabled-20261005/capture/capture-report.json": "35f42f7216be21e7de5aae2a58cdf71264304bfd74e3518f4a98d0e1bea146e7",
+    "/data/cache/qcow2-autologon-disabled-20261005/capture/job/source-before.json": "17b7a877413e5906e856ce1a89efa2743782b35315bbfbaa666d3d14cf6f9d19",
+    "/data/cache/qcow2-autologon-disabled-20261005/capture/job/source-after.json": "17b7a877413e5906e856ce1a89efa2743782b35315bbfbaa666d3d14cf6f9d19",
+    "/data/cache/qcow2-autologon-disabled-20261005/capture/job/capture-limits.json": "e32ed925b4490d76edff0c086c473f62fb818521d2b89102f70dadad12e1a1be",
+    "/data/cache/qcow2-autologon-disabled-20261005/capture/invocation.json": "a505fea920481206a494ea4c6e1e094f30919c15412cebd84177d71f4f85efd3"
+  }
+}

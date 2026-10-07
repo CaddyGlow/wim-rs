@@ -1,0 +1,17 @@
+{
+  "status": 1,
+  "work": "/tmp/wlfuzz-after-solid-sort-zn7xpj7u",
+  "native_sha256": "5aa2b81198eaebbddfd7b65c23e55e2ce42ede16db09c121a16a87d913c776b0",
+  "command": [
+    "cc",
+    "-DHAVE_CONFIG_H",
+    "-I/tmp/wimlib-native-oracle",
+    "-I/tmp/wimlib/include",
+    "/tmp/wimlib/tests/wlfuzz.c",
+    "-L/tmp/wlfuzz-after-solid-sort-zn7xpj7u/native",
+    "-Wl,-rpath,/tmp/wlfuzz-after-solid-sort-zn7xpj7u/native",
+    "-lwim",
+    "-o",
+    "/tmp/wlfuzz-after-solid-sort-zn7xpj7u/wlfuzz"
+  ]
+}

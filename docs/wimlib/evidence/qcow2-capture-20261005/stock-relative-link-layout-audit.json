@@ -1,0 +1,91 @@
+{
+  "stock": {
+    "attributes": 1056,
+    "header_flags": 131074,
+    "inode": 281477661065228,
+    "raw_dentry_hex": "a0000000000000002004000005000000000000000000000000000000000000000000000000000000f98feae5b054dd01eaf50bf1b254dd01eaf50bf1b254dd010000000000000000000000000000000000000000000000000c0000a000000100030018001a00720065006c00610074006900760065002e006c0069006e006b000000520045004c004100540049007e0031002e004c0049004e00000000000000",
+    "extra_streams": [
+      [
+        "a94080ab2d3122615a2819d8b877944c0170e3b2",
+        ""
+      ],
+      [
+        "aa922f6057f34f775cf66958ebdb380907dfb782",
+        "link-owned"
+      ],
+      [
+        "0000000000000000000000000000000000000000",
+        ""
+      ]
+    ],
+    "reparse_blob_hex": "1600160000001600010000007000610079006c006f00610064002e00620069006e007000610079006c006f00610064002e00620069006e00",
+    "reparse_fields": {
+      "Tag": 2684354572,
+      "Sub": "payload.bin",
+      "Print": "payload.bin",
+      "Flags": 1
+    }
+  },
+  "native": {
+    "attributes": 1056,
+    "header_flags": 262274,
+    "inode": 281477661065228,
+    "raw_dentry_hex": "a000000000000000200400008c010000000000000000000000000000000000000000000000000000f98feae5b054dd01eaf50bf1b254dd01eaf50bf1b254dd010000000000000000000000000000000000000000000000000c0000a000000100030018001a00720065006c00610074006900760065002e006c0069006e006b000000520045004c004100540049007e0031002e004c0049004e00000000000000",
+    "extra_streams": [
+      [
+        "a94080ab2d3122615a2819d8b877944c0170e3b2",
+        ""
+      ],
+      [
+        "0000000000000000000000000000000000000000",
+        ""
+      ],
+      [
+        "aa922f6057f34f775cf66958ebdb380907dfb782",
+        "link-owned"
+      ]
+    ],
+    "reparse_blob_hex": "1600160000001600010000007000610079006c006f00610064002e00620069006e007000610079006c006f00610064002e00620069006e00",
+    "reparse_fields": {
+      "Tag": 2684354572,
+      "Sub": "payload.bin",
+      "Print": "payload.bin",
+      "Flags": 1
+    }
+  },
+  "frozen_source_fixture": {
+    "Path": "\\relative.link",
+    "ReparseRaw": "0c0000a0380000001600160000001600010000007000610079006c006f00610064002e00620069006e007000610079006c006f00610064002e00620069006e00",
+    "Streams": [
+      {
+        "Hash": "",
+        "Length": 0,
+        "Name": ""
+      },
+      {
+        "Hash": "06df4f7e1394f1c57cc6583fba4d8060a5a66f4f4771c14aeff6b9af8a28c9b3",
+        "Length": 3,
+        "Name": "link-owned"
+      }
+    ]
+  },
+  "scope": "Read-only precise stock V9 Setup failing relative.link versus native WIM and recovered frozen source",
+  "observations": {
+    "reparse_blob_byte_exact": true,
+    "per_entry_inode_and_fixup_flags_exact": true,
+    "extra_stream_order_differs": true,
+    "stock_order": [
+      "unnamed reparse",
+      "named link-owned ADS",
+      "unnamed zero DATA"
+    ],
+    "native_order": [
+      "unnamed reparse",
+      "unnamed zero DATA",
+      "named link-owned ADS"
+    ],
+    "header_RP_FIX_stock": false,
+    "header_RP_FIX_native": true
+  },
+  "interpretation": "Setup GLE87 on this entry may be caused by stock reparse-owned ADS ordering; raw reparse data is identical. This is a hypothesis until minimal derivative control succeeds."
+}

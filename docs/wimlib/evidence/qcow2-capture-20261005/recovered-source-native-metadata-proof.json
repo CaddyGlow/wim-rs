@@ -1,0 +1,31 @@
+{
+  "source": "/home/rick/.cache/windows-capture-recovery-20261005/prepared-source.qcow2",
+  "source_sha256": "bf7bc3cecfb9d696c82f0869cd8f3c04c74bd644648c690405132399f4091a0a",
+  "nodes": 176484,
+  "process_trust_paths": 5725,
+  "resource_attribute_paths": 2,
+  "rawSDandOriginalUTF16AllPresent": true,
+  "inventory_sha256": "f2b08e04f6d3074cd8b44564debf88901374c80c41347fe7cf3a731c1531881e",
+  "process-trust": {
+    "count": 5725,
+    "paths_file": "/data/cache/windows-capture-recovery-20261005/source-process-trust-paths-utf16.json"
+  },
+  "resource-attribute": {
+    "count": 2,
+    "paths_file": "/data/cache/windows-capture-recovery-20261005/source-resource-attribute-paths-utf16.json"
+  },
+  "scope": "Fresh read-only NTFS observations after external artifact loss; exact recovered immutable source top SHA and surviving backing chain. All original UTF16 units and complete selfrelative SD retained. Sixth installed target gates still pending.",
+  "source_fixture": {
+    "path": "/data/cache/windows-capture-recovery-20261005/source-fixture/native-metadata.json",
+    "sha256": "99eed6783313e1c4743b7f6a6295dc001e303485890253ebd3a0e1b64c265e6e",
+    "nodes": 9,
+    "coverage": "raw EAs/full64ObjectIDs/all logicalstream hashes/rawSACL/rawreparse"
+  },
+  "artifact_path": "/data/cache/windows-capture-recovery-20261005/source-reserved-sacl-inventory.json",
+  "helper_recovery": {
+    "host_pid": 4073044,
+    "state": "SIGSTOP-paused, live, descriptors retained",
+    "read_only_validation_exact_sha256": "4e2e1cc959685a54ca3b7be2438b9b8169ce2e3d19ef83825f217763d56c7582",
+    "disk_copies": "still running; no consistent-copy completion claim"
+  }
+}

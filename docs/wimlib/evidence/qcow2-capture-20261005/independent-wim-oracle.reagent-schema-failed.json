@@ -1,0 +1,144 @@
+{
+  "oracle": "upstream wimlib + independent raw metadata parser",
+  "passes": true,
+  "gates": {
+    "full_wim_verify": true,
+    "winre_verify": true,
+    "metadata_reader_warning_free": true,
+    "raw_reparse_stream_layout_and_no_cached_answers": true,
+    "all_fixture_streams_and_hardlinks": true,
+    "wim_sha256": true,
+    "winre_sha256": true,
+    "source_hashes_preserved": true,
+    "one_image": true,
+    "entry_count": true,
+    "architecture": true,
+    "build": true,
+    "revision": true,
+    "edition": true,
+    "language": true
+  },
+  "commands": [
+    {
+      "command": [
+        "python3",
+        "/home/rick/projects-caddy/windows-uup/scripts/wimlib/check-qcow2-reparse-layout.py",
+        "/data/cache/qcow2-capture-20261005/install-v4.wim",
+        "--library",
+        "/nix/store/fd0zfsysr7gl769wv31n80a6j67xgd78-wimlib-1.14.5/lib/libwim.so",
+        "--source-metadata",
+        "docs/wimlib/evidence/qcow2-capture-20261005/source-fixture-metadata.json",
+        "--output",
+        "/data/cache/qcow2-capture-20261005/independent-oracle-v4/reparse-layout.json",
+        "--absent-path",
+        "/Windows/Panther/unattend.xml",
+        "--absent-path",
+        "/Windows/Panther/unattend-original.xml"
+      ],
+      "exit": 0,
+      "log": "raw-layout.log"
+    },
+    {
+      "command": [
+        "/nix/store/fd0zfsysr7gl769wv31n80a6j67xgd78-wimlib-1.14.5/bin/wimlib-imagex",
+        "verify",
+        "/data/cache/qcow2-capture-20261005/install-v4.wim"
+      ],
+      "exit": 0,
+      "log": "verify.log"
+    },
+    {
+      "command": [
+        "/nix/store/fd0zfsysr7gl769wv31n80a6j67xgd78-wimlib-1.14.5/bin/wimlib-imagex",
+        "info",
+        "/data/cache/qcow2-capture-20261005/install-v4.wim",
+        "--extract-xml",
+        "/data/cache/qcow2-capture-20261005/independent-oracle-v4/install.xml"
+      ],
+      "exit": 0,
+      "log": "info.log"
+    },
+    {
+      "command": [
+        "/nix/store/fd0zfsysr7gl769wv31n80a6j67xgd78-wimlib-1.14.5/bin/wimlib-imagex",
+        "dir",
+        "/data/cache/qcow2-capture-20261005/install-v4.wim",
+        "1",
+        "--path=/NativeDiskCapture",
+        "--detailed"
+      ],
+      "exit": 0,
+      "log": "fixture-detailed.log"
+    },
+    {
+      "command": [
+        "/nix/store/fd0zfsysr7gl769wv31n80a6j67xgd78-wimlib-1.14.5/bin/wimlib-imagex",
+        "extract",
+        "/data/cache/qcow2-capture-20261005/install-v4.wim",
+        "1",
+        "Windows/System32/Recovery/Winre.wim",
+        "Windows/System32/ntoskrnl.exe",
+        "--dest-dir=/data/cache/qcow2-capture-20261005/independent-oracle-v4"
+      ],
+      "exit": 0,
+      "log": "extract.log"
+    },
+    {
+      "command": [
+        "/nix/store/fd0zfsysr7gl769wv31n80a6j67xgd78-wimlib-1.14.5/bin/wimlib-imagex",
+        "verify",
+        "/data/cache/qcow2-capture-20261005/independent-oracle-v4/Winre.wim"
+      ],
+      "exit": 0,
+      "log": "verify-winre.log"
+    }
+  ],
+  "wim_sha256": "558c59e0ccba22f1f3989f747df7cc9cbec8f8de21c5369951938b2fcb9b6818",
+  "wim_bytes": 8258611390,
+  "winre_sha256": "5a7b51e7271284a3204234a71386c4d8cbc81665e9f7bc451d7d70fb464a3047",
+  "source_hashes": [
+    {
+      "path": "/home/rick/projects-caddy/windows-uup/vm-state/qcow2-source-1005/overlay.qcow2",
+      "expected_sha256": "cfa75f1df1c0328f2ef19e0752678a6714d67ed0787c75626d7d2f8cfebb5762",
+      "actual_sha256": "cfa75f1df1c0328f2ef19e0752678a6714d67ed0787c75626d7d2f8cfebb5762"
+    },
+    {
+      "path": "/home/rick/.vm-base/win11-secure/disk.qcow2",
+      "expected_sha256": "35299ad09fb946d45374f9637ccc4344acb3488b482d9571854d007b666b2abe",
+      "actual_sha256": "35299ad09fb946d45374f9637ccc4344acb3488b482d9571854d007b666b2abe"
+    }
+  ],
+  "fixture_stream_rows": 331,
+  "fixture_errors": [],
+  "raw_reparse_entries": 73,
+  "metadata_reader_warnings": [],
+  "kernel_pe_machine": "0x8664",
+  "xml_windows": "<WINDOWS><ARCH>9</ARCH><EDITIONID>Professional</EDITIONID><INSTALLATIONTYPE>Client</INSTALLATIONTYPE><PRODUCTNAME>Windows 10 Pro</PRODUCTNAME><PRODUCTTYPE>WinNT</PRODUCTTYPE><SYSTEMROOT>WINDOWS</SYSTEMROOT><VERSION><MAJOR>10</MAJOR><MINOR>0</MINOR><BUILD>26200</BUILD><SPBUILD>8037</SPBUILD><SPLEVEL>0</SPLEVEL></VERSION><LANGUAGES><DEFAULT>en-US</DEFAULT><LANGUAGE>en-US</LANGUAGE></LANGUAGES></WINDOWS>",
+  "host_extraction_limitations": [
+    "Ignoring FILE_ATTRIBUTE_HIDDEN of 1 files",
+    "Ignoring FILE_ATTRIBUTE_SYSTEM of 1 files",
+    "Ignoring FILE_ATTRIBUTE_NOT_CONTENT_INDEXED of 1 files",
+    "Ignoring Windows NT security descriptors of 2 files",
+    "Ignoring extended attributes of 1 files",
+    "Ignoring DOS names of 1 files"
+  ],
+  "winre_verification_caveats": [
+    "\"/data/cache/qcow2-capture-20261005/independent-oracle-v4/Winre.wim\" does not contain integrity information.  Skipping integrity check."
+  ],
+  "capture_report_sha256": "87d86cfdbc4fd2cf90b7e5df743ede9c277053aa0696b53a40b3fa95f82495ca",
+  "cache_evidence": "/data/cache/qcow2-capture-20261005/independent-oracle-v4",
+  "evidence_sha256": {
+    "verify-winre.log": "0137893fe453951dd75b7e17f38f8d0d499999748ad5a0e6a4f9a22df8bbcb7b",
+    "extract.log": "15cdf72653e8d4bcdb5c8ad0214f4dfe9e49b311fdec4e62691d7809cccd2534",
+    "verify.log": "03596181120313abeb42e391a60ca8997fc36b3ea6cd62978ef92d82e0f335d2",
+    "raw-layout.log": "84d7e9b1932a5122bb8c88f1139c3aa71d754bb166c5d560a1f1e570f00e52d0",
+    "fixture-detailed.log": "8cfc4bb34b0877aa77c101315161d0c3fe6e854ac5b3a4442cff1fec9102eb3a",
+    "fixture-streams.json": "cd886d8ee09c6ba157a7fe53d56898cbac4726d5db534c7e1c21415a05e8504b",
+    "reparse-layout.json": "4ea614a6c9acbd354a830c54ad60bfaf58cf1d7953513dc56964f26dd0715251",
+    "info.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "install.xml": "bd962d8ff7a3bd174401874755e14b68e91597b84aa46316d29d9d5083217db9"
+  },
+  "limitations": [
+    "Archive/source stream verification does not prove successful Windows Setup, NTFS metadata restoration, servicing or WinRE boot."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "scope": "Independent decoded current WIM short UTF16 names versus actual current source native index-proven aliases; no installed Windows resolution claim",
+  "nodes": 175812,
+  "groups": {
+    "current_all": {
+      "paths": 101769,
+      "passes": true,
+      "differences": [],
+      "source_sha256": "9f803f79ae46cd1d3dc7f745b2fb48e64c347ab101a78daf3ebebb0dd8da2271"
+    },
+    "original_601": {
+      "paths": 601,
+      "passes": true,
+      "differences": [],
+      "source_sha256": "0eae14ade3bc5a741f3066e692d2f38813aca1aa7df8745c797d0ba57b24b894"
+    }
+  },
+  "passes": true,
+  "raw_evidence": {
+    "path": "/data/cache/qcow2-autologon-disabled-20261005/capture/current-wim-dos-alias-comparison.json",
+    "sha256": "05270950134264cd90443df0c8b2bc123a8a8608c9d0c635aae3a5169f844a33"
+  },
+  "wim_sha256_from_capture_report": "9791aae2127f1688c99f9928e61fe4ff41b37f184566d880d80fe4d619117f73"
+}

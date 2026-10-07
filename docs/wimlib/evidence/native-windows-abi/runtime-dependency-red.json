@@ -1,0 +1,56 @@
+{
+  "scope": "Actual Windows guest execution of unchanged-header C against native DLL only; original Windows DLL comparison still required",
+  "guest_system": {
+    "exit": 0,
+    "signal": null,
+    "stdout": "Microsoft Windows NT 10.0.26200.0\r\n",
+    "stderr": "",
+    "stdout_truncated": false,
+    "stderr_truncated": false
+  },
+  "artifacts": {
+    "probe": {
+      "sha256": "c60427d8b3ea2b102527c1ccd8f037f7692e9de269e98daaaede67c08f7c5e62",
+      "size": 30208,
+      "host_path": "crates/wimlib-rs/target/windows-abi-probe/probe-windows-abi.exe",
+      "guest_path": "C:\\wim-abi-20261003\\probe.exe"
+    },
+    "native_dll": {
+      "sha256": "60d170ab2fdbfabd21c392417bda82c609f28fe309971a568c88683c418f4cc1",
+      "size": 2553856,
+      "host_path": "crates/wimlib-rs/target/x86_64-pc-windows-msvc/debug/wim.dll",
+      "guest_path": "C:\\wim-abi-20261003\\wim.dll"
+    },
+    "fixture": {
+      "sha256": "e65fba091ffffbdc80f5196e6010393fcb79260b117a0d0de5c2b154aa415b96",
+      "size": 2949,
+      "host_path": "crates/wimlib-rs/wim-format/tests/fixtures/xpress-resource.wim",
+      "guest_path": "C:\\wim-abi-20261003\\fixture-A\u00e9\u6f22.wim"
+    },
+    "native_layout": {
+      "sha256": "e7455d1c626c48747bea8cc0e4c4ece41e415953d5d913d64ab60f957034dafa",
+      "size": 134656,
+      "host_path": "crates/wimlib-rs/target/x86_64-pc-windows-msvc/debug/examples/abi_layout.exe",
+      "guest_path": "C:\\wim-abi-20261003\\abi-layout.exe"
+    }
+  },
+  "C_probe": {
+    "exit": null,
+    "signal": -1073741515,
+    "stdout": "",
+    "stderr": "",
+    "stdout_truncated": false,
+    "stderr_truncated": false
+  },
+  "native_layout": {
+    "exit": null,
+    "signal": -1073741515,
+    "stdout": "",
+    "stderr": "",
+    "stdout_truncated": false,
+    "stderr_truncated": false
+  },
+  "common_layout_fields": 0,
+  "layout_mismatches": null,
+  "missing_exports": []
+}

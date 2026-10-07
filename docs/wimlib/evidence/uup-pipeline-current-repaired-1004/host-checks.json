@@ -1,0 +1,40 @@
+{
+  "checks": [
+    {
+      "command": "cargo test --locked -p wim",
+      "exit": 0
+    },
+    {
+      "command": "cargo test --locked -p wim --lib --test overwrite",
+      "exit": 0,
+      "lib_tests": 24,
+      "overwrite_tests": 5
+    },
+    {
+      "command": "cargo test --locked -p windows-uup",
+      "exit": 0
+    },
+    {
+      "command": "cargo clippy --all-targets --all-features --locked -p wim -p windows-uup -- -D warnings",
+      "exit": 0
+    },
+    {
+      "command": "RUSTFLAGS='-C target-feature=+crt-static' cargo clippy --all-targets --all-features --locked --target x86_64-pc-windows-msvc -p wim -p windows-uup -- -D warnings",
+      "exit": 0
+    },
+    {
+      "command": "cargo clippy --all-targets --all-features --locked -- -D warnings",
+      "exit": 101,
+      "failure": "Concurrent unrelated WSUS work: wsus-client missing download module; wsus-server dead-code warning read_counter"
+    },
+    {
+      "command": "cargo fmt --all",
+      "exit": 1,
+      "failure": "Concurrent unrelated WSUS work: missing download/catalog modules"
+    },
+    {
+      "command": "rustfmt --edition 2024 crates/wim/src/engine/write_plan.rs crates/wim/tests/overwrite.rs",
+      "exit": 0
+    }
+  ]
+}

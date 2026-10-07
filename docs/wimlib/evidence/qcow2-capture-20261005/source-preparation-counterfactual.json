@@ -1,0 +1,115 @@
+{
+  "scope": "controlled disposable source-preparation experiment, pending full offline challenge comparison and fresh native installation",
+  "source_parent_sha256": "bf7bc3cecfb9d696c82f0869cd8f3c04c74bd644648c690405132399f4091a0a",
+  "child": "/data/cache/qcow2-oobe-preparation-control-20261005/vm-state/overlay.qcow2",
+  "supported_steps": [
+    "Microsoft Sysprep /audit /reboot",
+    "Existing deploy administrator normal interactive sign-in after native AuditAdministrator auto-login failure",
+    "Microsoft Sysinternals Autologon3.10 GUI Disable, explicit confirmation",
+    "Microsoft Sysprep /generalize /oobe /shutdown"
+  ],
+  "autologon_tool_sha256": "5d96bbc4e5b726d87c7cf547f5fe98f8f05434ec2130bd60cbf5671fd3a7381b",
+  "lsa_secret_contents_read": false,
+  "launcher_terminal": {
+    "session": 69956,
+    "exit": 0
+  },
+  "proofs": [
+    {
+      "path": "docs/wimlib/evidence/qcow2-capture-20261005/sourceprep-clone-pre-audit-sanitized.json",
+      "sha256": "a03c316e12024071f1cdd0d5785fc47eae3a072a049e074180193d236e746716"
+    },
+    {
+      "path": "docs/wimlib/evidence/qcow2-capture-20261005/sourceprep-audit-administrator-credential-probe.json",
+      "sha256": "739748d6c40641ca4f480ca893059bb9ba3a34d9dd9fe9cc45386b769b6bbdc4"
+    },
+    {
+      "path": "docs/wimlib/evidence/qcow2-capture-20261005/sourceprep-source-deploy-desktop.json",
+      "sha256": "0dc6ce305ad40c7442475914ceeddca687289b6a625494644f806fb7cd70cf9d"
+    },
+    {
+      "path": "docs/wimlib/evidence/qcow2-capture-20261005/sourceprep-autologon-gui-launch.json",
+      "sha256": "ee09a99bc558ffe4fbadc8249e90581c0fe04e8cecce18d6462a7775c86281db"
+    },
+    {
+      "path": "docs/wimlib/evidence/qcow2-capture-20261005/sourceprep-autologon-disable-after-sanitized.json",
+      "sha256": "e50fea059f4ed0b162c4e4ce49e86da5ace88361e3d3096ae25d84fc59ac527b"
+    },
+    {
+      "path": "docs/wimlib/evidence/qcow2-capture-20261005/sourceprep-generalize-oobe-shutdown-request.json",
+      "sha256": "72abe024b2a75ea6fa18d3fd5df319dc8e6f6475d8969fe2022c2b5299e0c0f1"
+    },
+    {
+      "path": "docs/wimlib/evidence/qcow2-capture-20261005/sourceprep-autologon-disable-confirmation.png",
+      "sha256": "e714075c628dc277bacf00dc3620b7a7adac7dd0df4d90001598499967a3a586"
+    },
+    {
+      "path": "docs/wimlib/evidence/qcow2-capture-20261005/sourceprep-source-deploy-desktop.png",
+      "sha256": "1854889b976ec5f57ebfcef04cf6f43d55700d2f602a9c2ffa7cba34dd5d8137"
+    }
+  ],
+  "metadata_preservation": "pending independent full64 ObjectID, 331streams, all5727reservedpath comparison; any changes remain failures",
+  "immutable_sources_after": [
+    {
+      "path": "/home/rick/.cache/windows-capture-recovery-20261005/prepared-source.qcow2",
+      "sha256": "bf7bc3cecfb9d696c82f0869cd8f3c04c74bd644648c690405132399f4091a0a",
+      "bytes": 1950679040,
+      "observed_sha256": "bf7bc3cecfb9d696c82f0869cd8f3c04c74bd644648c690405132399f4091a0a",
+      "matches": true
+    },
+    {
+      "path": "/home/rick/projects-caddy/windows-uup/vm-state/qcow2-source-1005/overlay.qcow2",
+      "sha256": "cfa75f1df1c0328f2ef19e0752678a6714d67ed0787c75626d7d2f8cfebb5762",
+      "bytes": 4352770048,
+      "observed_sha256": "cfa75f1df1c0328f2ef19e0752678a6714d67ed0787c75626d7d2f8cfebb5762",
+      "matches": true
+    },
+    {
+      "path": "/home/rick/.vm-base/win11-secure/disk.qcow2",
+      "sha256": "35299ad09fb946d45374f9637ccc4344acb3488b482d9571854d007b666b2abe",
+      "bytes": 10026090496,
+      "observed_sha256": "35299ad09fb946d45374f9637ccc4344acb3488b482d9571854d007b666b2abe",
+      "matches": true
+    }
+  ],
+  "source_immutability_passed": true,
+  "stopped_child_info": {
+    "children": [
+      {
+        "name": "file",
+        "info": {
+          "children": [],
+          "virtual-size": 1978662912,
+          "filename": "/data/cache/qcow2-oobe-preparation-control-20261005/vm-state/overlay.qcow2",
+          "format": "file",
+          "actual-size": 1963986944,
+          "format-specific": {
+            "type": "file",
+            "data": {}
+          },
+          "dirty-flag": false
+        }
+      }
+    ],
+    "backing-filename-format": "qcow2",
+    "virtual-size": 68719476736,
+    "filename": "/data/cache/qcow2-oobe-preparation-control-20261005/vm-state/overlay.qcow2",
+    "cluster-size": 65536,
+    "format": "qcow2",
+    "actual-size": 1963986944,
+    "format-specific": {
+      "type": "qcow2",
+      "data": {
+        "compat": "1.1",
+        "compression-type": "zlib",
+        "lazy-refcounts": false,
+        "refcount-bits": 16,
+        "corrupt": false,
+        "extended-l2": false
+      }
+    },
+    "full-backing-filename": "/home/rick/.cache/windows-capture-recovery-20261005/prepared-source.qcow2",
+    "backing-filename": "/home/rick/.cache/windows-capture-recovery-20261005/prepared-source.qcow2",
+    "dirty-flag": false
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "scope": "Trace preparation only; effective trace and metadata actor remain unproven",
+  "receipt": "/data/cache/qcow2-object-id-boottrace-20261006/traced-boot-preparation.json",
+  "sha256": "a0d89642ffe3bc9ed082a0d741c060bdf6f79e577d2764a4786f5d61a14abf97",
+  "recorded": {
+    "setup_launcher_session": 7033,
+    "setup_launcher_terminal_exit": 0,
+    "instrumentation_disk": "/data/cache/qcow2-object-id-boottrace-20261006/frozen-instrumentation/disk.qcow2",
+    "instrumentation_disk_sha256": "e1204fbc1c15ee91e96de76e6289a1e0196c704c1329a1751e0d5503f4568f67",
+    "traced_os_child": "/data/cache/qcow2-object-id-boottrace-20261006/vm-state/overlay.qcow2",
+    "scratch_child": "/data/cache/qcow2-object-id-boottrace-20261006/traced-challenge-child.qcow2",
+    "scratch_parent": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/diagnostic-scratch.qcow2",
+    "scratch_parent_sha256": "e18af50347659268f1edc0a037b6c9b8b0614e9fd778bd0cdc6c8f9e7e27940b",
+    "initial_attachment_required": true,
+    "prepared_utc": 1791238299.2861977
+  }
+}

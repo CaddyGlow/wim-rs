@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "scope": "V14 earliest registered partition4 WinRE before diagnostics/servicing/recovery; independent archive comparisons, no VM mutation",
+  "source_sha256": "5a7b51e7271284a3204234a71386c4d8cbc81665e9f7bc451d7d70fb464a3047",
+  "target_sha256": "603d5afd9823802aef8d51e9893b7eb8f81c5603f43b1f8fb2148bc7920977d6",
+  "target_bytes": 684495831,
+  "entries": 25450,
+  "logical_streams": 20913,
+  "full_content_attributes_kernel_pass": true,
+  "all_raw_security_descriptors_pass": true,
+  "paths_hardlinks_tags_short_names_windows_properties_pass": true,
+  "creation_and_write_timestamps_pass": true,
+  "access_timestamp_differences": 708,
+  "v13_changed_path_set_exact": true,
+  "strict_all_metadata_pass": false,
+  "cause": "unproven",
+  "recovery_ui_gate": "not established by this receipt",
+  "evidence": [
+    {
+      "path": "/data/cache/qcow2-installation-winre-unstaged-1006-v14/earliest-registered-winre-retrieval.json",
+      "sha256": "62f73456c73db585fca28532698d936bdce6055074fdb441b28ac9b36d318331"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-winre-unstaged-1006-v14/independent-earliest-winre-equivalence/equivalence.json",
+      "sha256": "c57bae13da561c4e2bc366c1d94d73b7499ad2dd94ea89229e27f6928db1c67e"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-winre-unstaged-1006-v14/earliest-winre-whole-metadata-delta.json",
+      "sha256": "79b5cb2f441d63acb2cc44ddadac0ef504d401aa4ef3f6c44756ab9436d48e02"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-winre-unstaged-1006-v14/earliest-winre-raw-security-equivalence.json",
+      "sha256": "3252619fb4340f56a3a90e8b366421a8908b7638154d5384d34180353a5f3a44"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-winre-unstaged-1006-v14/earliest-winre-v13-v14-timestamp-comparison.json",
+      "sha256": "a7ac8152b05f8112609f05eebce88bbd52006e55ba1935d9faa3dea7e9fb74d2"
+    }
+  ]
+}

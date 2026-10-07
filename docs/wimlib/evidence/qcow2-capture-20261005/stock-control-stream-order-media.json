@@ -1,0 +1,53 @@
+{
+  "scope": "Independent stock-control-only stream-order normalized derivative; no native capture or OOBE completion claim",
+  "parent_wim_sha256": "d05652a4566059b36657f6a94a3587d3f938b6a607c1573ec74b516e569af65c",
+  "wim_sha256": "ff5e734ed067948c7734448a6f80f75e96e73ad4e4e3e8c8d30d171aa2d21881",
+  "iso_sha256": "a09d931bb514783f629c4ac5d17b94e167a324bd64f095e473dd12c967ecd247",
+  "iso": "/data/cache/qcow2-stock-control-streams-20261005/stock-control-streams.iso",
+  "changed_entry": "/NativeDiskCapture/relative.link",
+  "change": "Stable unnamed-before-named extra stream ordering only; RP and DATA before named ADS",
+  "metadata_outside_changed_span_byte_exact": true,
+  "all_content_blob_descriptors_exact": true,
+  "all_XML_bytes_exact_to_FLAGS_parent": true,
+  "full_upstream_decoded_resource_verify_exit": 0,
+  "iso_writer_exit": 0,
+  "967_other_Setup_file_hashes_native_exact": true,
+  "catalog_passed": true,
+  "integrity_caveat": "Original container integrity table removed because appended metadata changes its coverage; full upstream decoded metadata/blob SHA1 verification passed. Container SHA256 independently computed.",
+  "originals_preserved": true,
+  "same_v7_external_seed_required": true,
+  "evidence": {
+    "stream-order-change.json": {
+      "path": "/data/cache/qcow2-stock-control-streams-20261005/stream-order-change.json",
+      "sha256": "0c84f23ae04e9745c573062e969848037cd09b84b75d6529eaf297ff0d001651"
+    },
+    "independent-metadata-equivalence.json": {
+      "path": "/data/cache/qcow2-stock-control-streams-20261005/independent-metadata-equivalence.json",
+      "sha256": "c27b036f0ce8c2810833be8318b4b4cc6d0f4fc0b72b20671008af0f0128c5df"
+    },
+    "modified.xml": {
+      "path": "/data/cache/qcow2-stock-control-streams-20261005/modified.xml",
+      "sha256": "a65fea46716c1ea4f114f12fb9bb78bb9ebe82b68623c2c543ec7ddf3c6544bf"
+    },
+    "verify.log": {
+      "path": "/data/cache/qcow2-stock-control-streams-20261005/verify.log",
+      "sha256": "2b200649fe29791a55ff077718715abe86d3ad7856177131bfbb4bb9a1df7687"
+    },
+    "setup-file-equivalence.json": {
+      "path": "/data/cache/qcow2-stock-control-streams-20261005/setup-file-equivalence.json",
+      "sha256": "566c2c7c412e2ef26aaf8eda7b989cc68fdf1d2b89fd2cc352767eeac4612104"
+    },
+    "independent-iso-boot.json": {
+      "path": "/data/cache/qcow2-stock-control-streams-20261005/independent-iso-boot.json",
+      "sha256": "233f4abfb7d5bda00c508a74eae4a9e69286ae673c85611f441dec9222196eab"
+    },
+    "payload-hashes.txt": {
+      "path": "/data/cache/qcow2-stock-control-streams-20261005/payload-hashes.txt",
+      "sha256": "cdc2baa5995c6cf3fd139e2b4547ac546d67976fbf57418bb70a812e0afbe376"
+    },
+    "iso.log": {
+      "path": "/data/cache/qcow2-stock-control-streams-20261005/iso.log",
+      "sha256": "293243966c180d83a6211845c8573a05541b679c83cff3100ce68bf09901d60f"
+    }
+  }
+}

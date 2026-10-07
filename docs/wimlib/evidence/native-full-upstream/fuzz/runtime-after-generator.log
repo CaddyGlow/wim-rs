@@ -1,0 +1,47 @@
+Starting wlfuzz with time limit of 2 seconds
+--> iteration 1
+:::op__add_empty_image_to_random_wim
+--> iteration 2
+:::op__delete_random_image_from_random_wim
+--> iteration 3
+:::op__overwrite_with_no_changes
+--> iteration 4
+:::op__split_test
+--> iteration 5
+:::op__add_empty_image_to_random_wim
+--> iteration 6
+:::op__set_compression_level
+Changing compression levels to 5
+--> iteration 7
+:::op__overwrite_with_no_changes
+--> iteration 8
+:::op__split_test
+--> iteration 9
+:::op__overwrite_with_no_changes
+--> iteration 10
+:::op__delete_random_wim
+--> iteration 11
+:::op__apply_and_capture_test
+--> iteration 12
+:::op__apply_and_capture_test
+--> iteration 13
+:::op__apply_and_capture_test
+--> iteration 14
+:::op__export_random_image
+--> iteration 15
+:::op__apply_and_capture_test
+--> iteration 16
+:::op__add_empty_image_to_random_wim
+--> iteration 17
+:::op__verify_random_wim
+--> iteration 18
+:::op__create_new_wim
+Creating wim0 with write flags 0x00002001, compression_type=LZX, chunk_size=32768, solid_chunk_size=0
+--> iteration 19
+:::op__apply_and_capture_test
+Opening wim0 with flags 0x00000001
+generated wim0 image 1
+overwrite with flags: 0x00005810
+
+STDERR
+ASSERTION FAILED at line 498: The requested operation is unsupported

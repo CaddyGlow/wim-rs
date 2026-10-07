@@ -1,0 +1,35 @@
+{
+  "target": "native NTFS sparse-volume parser",
+  "status": "passed",
+  "date": "2026-10-05",
+  "independent_seed": {
+    "producer": "ntfs-3g mkntfs 2026.7.7, quick format, 512-byte clusters",
+    "raw_volume_bytes": 33554432,
+    "sparse_corpus_bytes": 2291040,
+    "nonzero_sectors": 4440,
+    "path": "/data/cache/qcow2-capture-20261005/ntfs-fuzz/corpus/formatted.ntfs-sparse",
+    "reaches_native_manifest": true
+  },
+  "deterministic_tests": "Both malformed-boot and independently formatted seed mutation/truncation tests passed",
+  "instrumented_campaign": {
+    "tool": "honggfuzz 0.5.62",
+    "arguments": "-n 1 -t 5 -N 1000 -F 4194304 --exit_upon_crash",
+    "iterations": 1001,
+    "crashes": 0,
+    "timeouts": 0,
+    "new_units": 274,
+    "branch_coverage_percent": 15,
+    "peak_rss_mb": 472,
+    "exit_code": 0,
+    "build_path": "/data/cache/qcow2-capture-20261005/ntfs-fuzz/build"
+  },
+  "bounds": {
+    "input_bytes": 4194304,
+    "source_read_calls": 4096,
+    "source_read_bytes": 16777216,
+    "traversal_entries": 64,
+    "sampled_streams_per_entry": 16,
+    "sampled_stream_block_bytes": 4096
+  },
+  "limitations": "Short software-instrumented smoke campaign, without sanitizer guarantees. Read/work bounds do not replace production parser allocation ceilings; peak process RSS is retained. Not exhaustive NTFS corruption, metadata or whole-Windows reliability proof."
+}

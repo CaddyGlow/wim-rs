@@ -1,0 +1,21 @@
+{
+  "cases": 170,
+  "command": [
+    "cc",
+    "-DHAVE_CONFIG_H",
+    "-I/tmp/wimlib-native-oracle",
+    "-I/tmp/wimlib/include",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "scripts/wimlib/probe-generator-primitives.c",
+    "/tmp/wimlib-native-oracle/.libs/libwim.a",
+    "-Wl,--gc-sections",
+    "-lm",
+    "-o",
+    "/tmp/wim-generator-primitives-swo0nyes/original"
+  ],
+  "work": "/tmp/wim-generator-primitives-swo0nyes",
+  "original_source_sha256": "4791290cff03a7bfd201a1b379f152d45915cb89a2d422ab420844813405ee9b",
+  "original_static_library_sha256": "b8d6ad002c1270468b55cf55fc746127c032001fe0efc4d31c4bfd1b5954847a",
+  "fixture_sha256": "4f7a525d1f4503995cf7c1b615577ba85a79ee35d69f027517135eef55dbf73a"
+}

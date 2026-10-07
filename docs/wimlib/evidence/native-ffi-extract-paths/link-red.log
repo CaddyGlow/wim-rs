@@ -1,0 +1,4 @@
+/nix/store/bikkd0jwr8jkd3r6r5mcr28fm17yvb0z-binutils-2.46/bin/ld.bfd: /tmp/ccxoXov9.o: in function `main':
+probe-extract-paths-api.c:(.text+0x21f): undefined reference to `wimlib_extract_paths'
+/nix/store/bikkd0jwr8jkd3r6r5mcr28fm17yvb0z-binutils-2.46/bin/ld.bfd: probe-extract-paths-api.c:(.text+0x28e): undefined reference to `wimlib_extract_pathlist'
+collect2: error: ld returned 1 exit status

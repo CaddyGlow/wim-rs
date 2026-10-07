@@ -1,0 +1,19 @@
+   Compiling wim-codec v0.1.0 (/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/wim-codec)
+   Compiling wim-format v0.1.0 (/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/wim-format)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.34s
+     Running tests/metadata_write.rs (crates/wimlib-rs/target/debug/deps/metadata_write-0df444f5c7b77dc4)
+
+running 10 tests
+test child_cycle_is_rejected ... ok
+test duplicate_names_are_rejected ... ok
+test odd_utf16_names_are_rejected ... ok
+test invalid_security_id_normalizes_when_imported ... ok
+test newly_constructed_named_stream_writes_upstream_terminator_and_alignment ... ok
+test original_metadata_lossless_write_preserves_every_byte ... ok
+test unreachable_nodes_are_rejected ... ok
+test rebuilt_offsets_retain_nested_tree_and_hardlinks ... ok
+test owned_original_metadata_preserves_visible_inode_fields ... ok
+test windows_opaque_fields_survive_construction ... ok
+
+test result: ok. 10 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

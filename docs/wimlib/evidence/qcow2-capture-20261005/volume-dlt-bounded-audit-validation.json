@@ -1,0 +1,46 @@
+{
+  "scope": "Bounded follow-up validation of frozen volume DLT audit; raw metadata unchanged",
+  "audits": [
+    {
+      "role": "source",
+      "artifact": "/data/cache/qcow2-v12-offline-audit/source-volume-dlt-bounded.json",
+      "sha256": "5de6dcf1266688abe313a0bdf1c65788d120821ebc25510a4934a55164dd9052",
+      "accounting": "ReadBudgetUsage { metadata_bytes: 3221652, cache_bytes: 3897558, work_items: 12113, decompressed_bytes: 0 }",
+      "limits": "ParserLimits { metadata_bytes: 2147483648, cache_bytes: 536870912, recursion_depth: 512, work_items: 16777216, decompressed_bytes: 68719476736, decompression_buffer_bytes: 2097152, attribute_bytes: 67108864, attribute_list_records: 65536 }",
+      "exact_raw_fields_match_prior_audit": true
+    },
+    {
+      "role": "target",
+      "artifact": "/data/cache/qcow2-v12-offline-audit/target-volume-dlt-bounded.json",
+      "sha256": "9ab734175d6a6228fbcd5ab12afb2b66bcffd3a7fb4b86c60d08cbee6ea46d16",
+      "accounting": "ReadBudgetUsage { metadata_bytes: 2520580, cache_bytes: 2961294, work_items: 9821, decompressed_bytes: 0 }",
+      "limits": "ParserLimits { metadata_bytes: 2147483648, cache_bytes: 536870912, recursion_depth: 512, work_items: 16777216, decompressed_bytes: 68719476736, decompression_buffer_bytes: 2097152, attribute_bytes: 67108864, attribute_list_records: 65536 }",
+      "exact_raw_fields_match_prior_audit": true
+    },
+    {
+      "role": "scratch",
+      "artifact": "/data/cache/qcow2-v12-offline-audit/scratch-volume-dlt-bounded.json",
+      "sha256": "72824901deb581f1d417977cefc89aabbffc1b64309f428d7a8e0ea24d7cebfd",
+      "accounting": "ReadBudgetUsage { metadata_bytes: 463296, cache_bytes: 673238, work_items: 701, decompressed_bytes: 0 }",
+      "limits": "ParserLimits { metadata_bytes: 2147483648, cache_bytes: 536870912, recursion_depth: 512, work_items: 16777216, decompressed_bytes: 68719476736, decompression_buffer_bytes: 2097152, attribute_bytes: 67108864, attribute_list_records: 65536 }",
+      "exact_raw_fields_match_prior_audit": true
+    },
+    {
+      "role": "reboot-scratch",
+      "artifact": "/data/cache/qcow2-v12-offline-audit/reboot-scratch-volume-dlt-bounded.json",
+      "sha256": "18ba23e9c930cdcc32267401860bf2dc12e59b420b8df42619a542a498a65403",
+      "accounting": "ReadBudgetUsage { metadata_bytes: 551408, cache_bytes: 676478, work_items: 725, decompressed_bytes: 0 }",
+      "limits": "ParserLimits { metadata_bytes: 2147483648, cache_bytes: 536870912, recursion_depth: 512, work_items: 16777216, decompressed_bytes: 68719476736, decompression_buffer_bytes: 2097152, attribute_bytes: 67108864, attribute_list_records: 65536 }",
+      "exact_raw_fields_match_prior_audit": true
+    }
+  ],
+  "helper_source": "/data/cache/qcow2-recovered-20261005/native-extract/src/bin/volume_dlt_audit_bounded.rs",
+  "helper_sha256": "f321c880b68594e8fc726153c374c823ff04bbcb5eb4ecc0fa0f8dd2a9685be1",
+  "bounds": [
+    "Native strict open shares default ReadBudget with independent raw Ntfs cursor.",
+    "Each raw cursor read charged metadata; attribute/directory iterations charged work and metadata.",
+    "System raw attributes capped64MiB and allocated/read exactly declared length; reject trailing bytes.",
+    "Raw+hex allocations charged threefold; trackinglog capped1MiB and charged fourfold.",
+    "Output CreateNew; no input writes or source mutation."
+  ]
+}

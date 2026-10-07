@@ -1,0 +1,16 @@
+{
+  "pointer_size": 8,
+  "size_t_size": 8,
+  "tchar_size": 1,
+  "timespec_size": 16,
+  "wim_info_size": 88,
+  "resource_entry_size": 88,
+  "dir_entry_size": 248,
+  "stream_entry_size": 128,
+  "progress_info_size": 112,
+  "capture_source_size": 24,
+  "update_command_size": 40,
+  "compression_enum_size": 4,
+  "error_enum_size": 4,
+  "version": 1062917
+}

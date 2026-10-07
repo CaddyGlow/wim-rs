@@ -1,0 +1,10 @@
+   Compiling wim-ffi v0.1.0 (/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/wim-ffi)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.18s
+     Running tests/text_file.rs (crates/wimlib-rs/target/debug/deps/text_file-de09d4208fc5292b)
+
+running 2 tests
+test malformed_utf16_keeps_both_output_parameters_unchanged ... ok
+test output_length_counts_embedded_nuls_and_c_free_releases_the_allocation ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

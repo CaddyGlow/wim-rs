@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "scope": "Reconstructed opaque stock Microsoft Setup input only; native capture/media build remains Rust",
+  "passes": true,
+  "source": {
+    "path": "/data/cache/win11-uup-26100.1742/installed-gate/source.iso",
+    "bytes": 5387960320,
+    "sha256": "755a90d43e826a74b9e1932a34788b898e028272439b777e5593dee8d53622ae",
+    "provenance": "Surviving Microsoft stock 26100.1742 CENA_X64FREE_EN-US_DV9 media, pinned as new recovered Setup input; historical exact Setup ISO identity unproven"
+  },
+  "setup_media": "/data/cache/qcow2-recovered-setup-20261005/setup-media",
+  "setup_boot_index": 2,
+  "boot_images": [
+    {
+      "index": 1,
+      "name": "Microsoft Windows PE (amd64)",
+      "architecture": 9,
+      "edition": "WindowsPE",
+      "installation_type": "WindowsPE",
+      "build": 26100,
+      "revision": 1742
+    },
+    {
+      "index": 2,
+      "name": "Microsoft Windows Setup (amd64)",
+      "architecture": 9,
+      "edition": "WindowsPE",
+      "installation_type": "WindowsPE",
+      "build": 26100,
+      "revision": 1742
+    }
+  ],
+  "files": 968,
+  "setup_bytes": 806784961,
+  "excluded": [
+    "sources/install.wim",
+    "sources/install.esd",
+    "sources/install*.swm"
+  ],
+  "independent_verify_exit": 0,
+  "verify_warning": "Stock boot.wim has no integrity table; full resource verification completed successfully",
+  "extraction": {
+    "tool": "7z 17.05",
+    "exit": 0,
+    "source_readonly": true,
+    "warnings": []
+  },
+  "historical_setup_iso_byte_identity": "unproven; this new verified input is explicitly pinned",
+  "artifacts": {
+    "source-iso.json": {
+      "path": "/data/cache/qcow2-recovered-setup-20261005/source-iso.json",
+      "sha256": "3d441515fef3e8c02b350811327c101ea3feef4d063b4b3cb4163508cfc3df5a"
+    },
+    "setup-assets.json": {
+      "path": "/data/cache/qcow2-recovered-setup-20261005/setup-assets.json",
+      "sha256": "936bea59cac1e903d2e8f1ed7d29e145b95bc3b5d0a9cf332376801a1c77f0bc"
+    },
+    "boot-info.xml": {
+      "path": "/data/cache/qcow2-recovered-setup-20261005/boot-info.xml",
+      "sha256": "de02c9558239aa6d61dc7dd8c5b64d0fc97380b4b019099843eb10c7fade8696"
+    },
+    "boot-info.log": {
+      "path": "/data/cache/qcow2-recovered-setup-20261005/boot-info.log",
+      "sha256": "d55e7f28dd440b6dceeed98f41a0d35930862d84de5b56ad655d66c095198c98"
+    },
+    "boot-verify.log": {
+      "path": "/data/cache/qcow2-recovered-setup-20261005/boot-verify.log",
+      "sha256": "017722c9a1f524532aad29adaa546f9662394e461342e5b5a96eb8acfdde1d9f"
+    }
+  }
+}

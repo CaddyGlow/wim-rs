@@ -1,0 +1,20 @@
+{
+  "scope": "Original unchanged public Windows header, real MinGW MSVCRT dynamic callers; no replacement header declarations",
+  "compiler": "/nix/store/lpp6p3im2kx8drha091yxhbpv0nvrdpa-x86_64-w64-mingw32-gcc-wrapper-15.3.0/bin/x86_64-w64-mingw32-gcc",
+  "pipe_flags": [
+    "-municode",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-Wno-cast-function-type",
+    "-I/tmp/wimlib/include"
+  ],
+  "cast_exception": "GetProcAddress dynamic Windows calling-convention casts only",
+  "files": {
+    "/tmp/wimlib/include/wimlib.h": "3769368886f5efc0e62ae2ecd7270697c57e21639b35808f70def87cec9dadc6",
+    "scripts/wimlib/probe-windows-extract.c": "1c636fdee6af4b14b3c27e4b1c2fbc29997084d2496ae5b45d55a6ac367ddeb0",
+    "scripts/wimlib/probe-windows-extract-pipe.c": "720ccee0fce732f044d25f63facdddff0275a99d4ca87a18c9474942f38992cd",
+    "crates/wimlib-rs/target/windows-abi-probe/probe-windows-extract.exe": "881a10896d09a5abf4331992a7b6d7bdb27ec8149cdf8425ef01db66741f7e40",
+    "crates/wimlib-rs/target/windows-abi-probe/probe-windows-extract-pipe.exe": "b6d7e122e3e532e04f19d2961e3d0a8c53d7749a302306e04056b277cbf2c4c8"
+  }
+}

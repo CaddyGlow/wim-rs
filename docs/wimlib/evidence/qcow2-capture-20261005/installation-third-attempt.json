@@ -1,0 +1,309 @@
+{
+  "attempt": 3,
+  "instance": "qcow2-installed-1005-v3",
+  "state_directory": "/data/cache/qcow2-installation-1005-v3",
+  "source_wim": "/data/cache/qcow2-capture-20261005/install-v4.wim",
+  "source_wim_sha256": "558c59e0ccba22f1f3989f747df7cc9cbec8f8de21c5369951938b2fcb9b6818",
+  "iso": "/data/cache/qcow2-capture-20261005/native-captured-v3.iso",
+  "iso_sha256": "0ff8b92ec6dfda7096cc0e7169ea15de32ba8ecc1f5de63d872c2366e180589e",
+  "preservation": {
+    "target_overlay": "/data/cache/qcow2-installation-1005-v3/vm-state/overlay.qcow2",
+    "sha256": "05e917b5342c21b271bcf62756c77e76ca8a2d5085341b34eb887c9fdac82bdb",
+    "bytes": 13064404992,
+    "shutdown": "wpeutil shutdown; qemu-img info dirty=false",
+    "error": "offline Sysprep specialization 0x8007000D; Pre-Finalize"
+  },
+  "inputs": {
+    "iso_unchanged": true,
+    "blank_base_unchanged": true
+  },
+  "standard_setup": true,
+  "image_apply_success": true,
+  "installation_pass": false,
+  "failure": {
+    "phase": "Pre-Finalize / offline Sysprep specialization",
+    "code": "0x8007000D",
+    "provider": "WinRE_Specialize_Offline",
+    "cause": "ReAgent.xml parser ReadKnownTags fails 0xd: required ImageLocation, OsInstallLocation, CustomImageLocation, IsOsInstallAvailable elements absent",
+    "log": "partition-3/qcow2-failure/target-bt-panther/setupact.log",
+    "causal_line": 11604,
+    "context_first_line": 11567,
+    "context_last_line": 11618
+  },
+  "unreached_gates": [
+    "OOBE",
+    "installed_metadata",
+    "fresh_machine_identity",
+    "servicing",
+    "reboot",
+    "WinRE_boot"
+  ],
+  "log_directory": "/data/cache/qcow2-installation-1005-v3/offline-failure-logs",
+  "log_files": [
+    {
+      "path": "extraction.txt",
+      "bytes": 6019,
+      "sha256": "1f28f875ded94209d664713580d736a7a5c517666c5e34abf31d965364e79bb8"
+    },
+    {
+      "path": "partition-3/$WINDOWS.~BT/Sources/Panther/setupact.log",
+      "bytes": 1076386,
+      "sha256": "c9b9b159f4828b9473158d701d71ee622d3eeb540d986a74a238e154ffaf2377"
+    },
+    {
+      "path": "partition-3/$WINDOWS.~BT/Sources/Panther/setuperr.log",
+      "bytes": 4841,
+      "sha256": "42933605808be095367774c0b4eb00f14f7bac1276044ffc7a5258b22f195eb6"
+    },
+    {
+      "path": "partition-3/qcow2-failure/file-list.txt",
+      "bytes": 5673,
+      "sha256": "2a14e85c964586ccec20adbd1826f1249d640140319c00077375b1afbc131a54"
+    },
+    {
+      "path": "partition-3/qcow2-failure/newos-panther/CompatData_2026_09_20_12_03_13_00000001.xml",
+      "bytes": 1395,
+      "sha256": "4905f0f2e83bf41a62208e2ede3ab231f042f556a8b8fed6981a65655e2dad71"
+    },
+    {
+      "path": "partition-3/qcow2-failure/newos-panther/DDACLSys.log",
+      "bytes": 5830,
+      "sha256": "50d1bd9acb264a53a9d0961a6f54db20a30f2f338a29c10c49870dc0bdfa1bba"
+    },
+    {
+      "path": "partition-3/qcow2-failure/newos-panther/DlTel-Merge.etl",
+      "bytes": 327680,
+      "sha256": "32c4a192568f285efc594a957798579f6562669aebeadda02b2ff523dec6f537"
+    },
+    {
+      "path": "partition-3/qcow2-failure/newos-panther/DlTel.Merge.00001.etl",
+      "bytes": 11539,
+      "sha256": "b7a42bb6c12cfee4b447bc3344fcd3530aa79e547f0a9eb1370216b1274acb82"
+    },
+    {
+      "path": "partition-3/qcow2-failure/newos-panther/DlTel.etl",
+      "bytes": 65536,
+      "sha256": "e0d9784f0a82a4be276eec260470d57cbf78822c4eef038d20aa3ea7cfc1428a"
+    },
+    {
+      "path": "partition-3/qcow2-failure/newos-panther/FirstBootTel-M1.etl",
+      "bytes": 327680,
+      "sha256": "bbff12affb78bc6bcb11f2f0aee867eae55d3bf3b7e72176a07e4071584eca99"
+    },
+    {
+      "path": "partition-3/qcow2-failure/newos-panther/FirstBootTel-M2.etl",
+      "bytes": 327680,
+      "sha256": "2b34e4a7ea767065fa42cf22493756d4ffc20c2bf998e93b21365f116a295ba8"
+    },
+    {
+      "path": "partition-3/qcow2-failure/newos-panther/UnattendGC/diagerr.xml",
+      "bytes": 11769,
+      "sha256": "9c8aafdabda26bdfbfd85ad69321753899af80cb470cf9fd47ea8863d3868bcf"
+    },
+    {
+      "path": "partition-3/qcow2-failure/newos-panther/UnattendGC/diagwrn.xml",
+      "bytes": 13832,
+      "sha256": "7cf93fa244dfce0205786f51f76ccbda4aa0a46c6658181d5f1ef75282814f3a"
+    },
+    {
+      "path": "partition-3/qcow2-failure/newos-panther/UnattendGC/setupact.log",
+      "bytes": 102626,
+      "sha256": "2bb27bb6b7779aeba7e82e39944e0583a444c01d633f2711e8feb47507ec327c"
+    },
+    {
+      "path": "partition-3/qcow2-failure/newos-panther/UnattendGC/setuperr.log",
+      "bytes": 173,
+      "sha256": "b3fa8c30e8de798df88b91be4dacfe7c8c5b1a26bc5080fc86bb36ab41028665"
+    },
+    {
+      "path": "partition-3/qcow2-failure/newos-panther/_s_510E.tmp",
+      "bytes": 128342,
+      "sha256": "6b5d4b32236a921bacdefe19852ec0699ca2eacd72d4e57f50a2de06ede21c8e"
+    },
+    {
+      "path": "partition-3/qcow2-failure/newos-panther/actionqueue/generalize.uaq",
+      "bytes": 46,
+      "sha256": "3414e35d8ecd1757ff85cca179c8a019fe622bdd8cb81b607ca293589fa2804e"
+    },
+    {
+      "path": "partition-3/qcow2-failure/newos-panther/actionqueue/oobeSystem.uaq",
+      "bytes": 1032,
+      "sha256": "c376e7bb1fcbdba3f626d261eabca39426446f19f8142207c4ce44497f0bf300"
+    },
+    {
+      "path": "partition-3/qcow2-failure/newos-panther/actionqueue/specialize.uaq",
+      "bytes": 1019,
+      "sha256": "88a7305b88d6fdf72a3308fb58e0cd98f66a013b036d554758316d685f27c7e3"
+    },
+    {
+      "path": "partition-3/qcow2-failure/newos-panther/compatscancache.dat",
+      "bytes": 4352,
+      "sha256": "84132ddd167c6d03628e8d0a6887c108e0cd47259dc78745a241fd44b05cf6c0"
+    },
+    {
+      "path": "partition-3/qcow2-failure/newos-panther/diagerr.xml",
+      "bytes": 2175,
+      "sha256": "97c72de58b6566180530581d49339a9996581b59a3de87c78cb7668f21583af5"
+    },
+    {
+      "path": "partition-3/qcow2-failure/newos-panther/diagwrn.xml",
+      "bytes": 7758,
+      "sha256": "0c07fbd19ba5492754a94ba5bc314e0955ef88d7558e7e2bcb618905869cebfd"
+    },
+    {
+      "path": "partition-3/qcow2-failure/newos-panther/setup.etl",
+      "bytes": 1740800,
+      "sha256": "bb058eb71a60f1237c22e16ffd030652f432e9b1ce7374fcb9ccf0aea1e3ad7d"
+    },
+    {
+      "path": "partition-3/qcow2-failure/newos-panther/setupact.log",
+      "bytes": 164706,
+      "sha256": "6cb2f3f9095b8c02ab85d7eb1711953e9df025a7b4ca65b59b56a035c5f1deb7"
+    },
+    {
+      "path": "partition-3/qcow2-failure/newos-panther/setuperr.log",
+      "bytes": 85,
+      "sha256": "4722dc2bf418cc2c16aa12ee38e7082d366395b9de48776cfd76a0f27be26273"
+    },
+    {
+      "path": "partition-3/qcow2-failure/newos-panther/unattend-original.xml",
+      "bytes": 5136,
+      "sha256": "fc06fd0754c92a024fd672cf20a5601e80de4dac08bba43878a2630884314808"
+    },
+    {
+      "path": "partition-3/qcow2-failure/newos-panther/unattend.xml",
+      "bytes": 5136,
+      "sha256": "fc06fd0754c92a024fd672cf20a5601e80de4dac08bba43878a2630884314808"
+    },
+    {
+      "path": "partition-3/qcow2-failure/newos-panther/windlp.state-old.xml",
+      "bytes": 61532,
+      "sha256": "f6a243affd2b42a3cfe8a39f535fe43253cd837cabd4b6ebe75be621ff14e0ae"
+    },
+    {
+      "path": "partition-3/qcow2-failure/newos-panther/windlp.state.xml",
+      "bytes": 61532,
+      "sha256": "f6a243affd2b42a3cfe8a39f535fe43253cd837cabd4b6ebe75be621ff14e0ae"
+    },
+    {
+      "path": "partition-3/qcow2-failure/seed-payload/autounattend.xml",
+      "bytes": 5136,
+      "sha256": "fc06fd0754c92a024fd672cf20a5601e80de4dac08bba43878a2630884314808"
+    },
+    {
+      "path": "partition-3/qcow2-failure/sysprep-panther/diagerr.xml",
+      "bytes": 6119,
+      "sha256": "7ac5c87e8e3e0777d66c813cb0c2fb95ef4db2968966fcf471d8b0ed62822943"
+    },
+    {
+      "path": "partition-3/qcow2-failure/sysprep-panther/diagwrn.xml",
+      "bytes": 10995,
+      "sha256": "15c066dd72839d676d231f3137d2b9e3e7e737455b429a0aad9af54255fc2895"
+    },
+    {
+      "path": "partition-3/qcow2-failure/sysprep-panther/setupact.log",
+      "bytes": 504979,
+      "sha256": "8ada5cc043dca93147c07264c83d9bd7d5a434b3970bfb7e0b5c67652128fa47"
+    },
+    {
+      "path": "partition-3/qcow2-failure/sysprep-panther/setuperr.log",
+      "bytes": 797,
+      "sha256": "7b0caea417b4456429cc081bffe63ebc3427484000ecf2868465598066075d73"
+    },
+    {
+      "path": "partition-3/qcow2-failure/target-bt-panther/CompatData_2026_10_05_12_58_47_00000001.xml",
+      "bytes": 1395,
+      "sha256": "4905f0f2e83bf41a62208e2ede3ab231f042f556a8b8fed6981a65655e2dad71"
+    },
+    {
+      "path": "partition-3/qcow2-failure/target-bt-panther/DlTel-Merge.etl",
+      "bytes": 327680,
+      "sha256": "7374516366850391f2d77f4c2a26ee1e5e6dab42dd12ace5e3f18a760a5a93b2"
+    },
+    {
+      "path": "partition-3/qcow2-failure/target-bt-panther/DlTel.Merge.00001.etl",
+      "bytes": 6770,
+      "sha256": "5aa2b3dbd478a594ca0472385e1c3bf95324b624b56bfb82163ff11e0a455173"
+    },
+    {
+      "path": "partition-3/qcow2-failure/target-bt-panther/DlTel.etl",
+      "bytes": 65536,
+      "sha256": "0110d8a9719ff0acc025b751850e73ca065d3ed55129d331bc71567b4b959243"
+    },
+    {
+      "path": "partition-3/qcow2-failure/target-bt-panther/_s_D66C.tmp",
+      "bytes": 128342,
+      "sha256": "6b5d4b32236a921bacdefe19852ec0699ca2eacd72d4e57f50a2de06ede21c8e"
+    },
+    {
+      "path": "partition-3/qcow2-failure/target-bt-panther/compatscancache.dat",
+      "bytes": 4352,
+      "sha256": "0f7458dd9ff1c8d64e3de8f2f9f748456e42715180c43b11867d0bc2d8f53f9b"
+    },
+    {
+      "path": "partition-3/qcow2-failure/target-bt-panther/diagerr.xml",
+      "bytes": 15014,
+      "sha256": "f7b0501177799c2f1d54d02cee6ff476d28c4aed713f675de1cc5bc43b6e5eac"
+    },
+    {
+      "path": "partition-3/qcow2-failure/target-bt-panther/diagwrn.xml",
+      "bytes": 86862,
+      "sha256": "b0bb438b312e9e0c318d09bdea51d510122edac82c42036a652659a6b3c43942"
+    },
+    {
+      "path": "partition-3/qcow2-failure/target-bt-panther/setupact.log",
+      "bytes": 1076386,
+      "sha256": "c9b9b159f4828b9473158d701d71ee622d3eeb540d986a74a238e154ffaf2377"
+    },
+    {
+      "path": "partition-3/qcow2-failure/target-bt-panther/setuperr.log",
+      "bytes": 4841,
+      "sha256": "42933605808be095367774c0b4eb00f14f7bac1276044ffc7a5258b22f195eb6"
+    },
+    {
+      "path": "partition-3/qcow2-failure/target-bt-panther/windlp.state-old.xml",
+      "bytes": 18072,
+      "sha256": "9945e7b0a02acd4c600827381ad133eb9c54e8512d3d4fffd451078dcf5154eb"
+    },
+    {
+      "path": "partition-3/qcow2-failure/target-bt-panther/windlp.state.xml",
+      "bytes": 18072,
+      "sha256": "9945e7b0a02acd4c600827381ad133eb9c54e8512d3d4fffd451078dcf5154eb"
+    },
+    {
+      "path": "partition-3/qcow2-failure/x-bt-panther/CompatData_2026_10_05_12_58_47_00000001.xml",
+      "bytes": 1395,
+      "sha256": "4905f0f2e83bf41a62208e2ede3ab231f042f556a8b8fed6981a65655e2dad71"
+    },
+    {
+      "path": "partition-3/qcow2-failure/x-bt-panther/compatscancache.dat",
+      "bytes": 4352,
+      "sha256": "0f7458dd9ff1c8d64e3de8f2f9f748456e42715180c43b11867d0bc2d8f53f9b"
+    },
+    {
+      "path": "partition-3/qcow2-failure/x-bt-panther/diagerr.xml",
+      "bytes": 6524,
+      "sha256": "a3bf720aaf4592ac876c8e4f58119714dad21f8bb1c8113555b600af2767161a"
+    },
+    {
+      "path": "partition-3/qcow2-failure/x-bt-panther/diagwrn.xml",
+      "bytes": 46038,
+      "sha256": "6a8d281d714dbd782954ea3860fb2890cbe3f8925c9e25b0ba2c5fb73317f3d7"
+    },
+    {
+      "path": "partition-3/qcow2-failure/x-bt-panther/setupact.log",
+      "bytes": 213885,
+      "sha256": "9a6dd92939ff1be045f156ae5626618bb00259d517fa911017ece18b415de7c0"
+    },
+    {
+      "path": "partition-3/qcow2-failure/x-bt-panther/setuperr.log",
+      "bytes": 2257,
+      "sha256": "b91afcaa7d86c9bf45ef5f1004b06c8d343fbc9bd9c77d7ebc944949d0643370"
+    },
+    {
+      "path": "partition-3/qcow2-failure/x-panther/_s_D66C.tmp",
+      "bytes": 128342,
+      "sha256": "6b5d4b32236a921bacdefe19852ec0699ca2eacd72d4e57f50a2de06ede21c8e"
+    }
+  ]
+}

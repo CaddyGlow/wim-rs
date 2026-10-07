@@ -1,0 +1,54 @@
+{
+  "schema": 1,
+  "scope": "Root independent six-path online-to-frozen native basic4/SD/ObjectID/identity comparison; normal reboot remains unverified",
+  "artifacts": [
+    {
+      "path": "/data/cache/qcow2-object-id-basic4-control-20261006/actual-basic4-report.json",
+      "sha256": "09be24a69b93e4bbb6bfd49901822df0f7670e8a6cc07d1a604643644dc2a708"
+    },
+    {
+      "path": "/data/cache/qcow2-object-id-basic4-control-20261006/observer-preparation/native-six-preboot-metadata.json",
+      "sha256": "02643530c425d81f08f0768fc6aaa61351db0caad19bf36da01a79ffad2ebfbd"
+    },
+    {
+      "path": "/data/cache/qcow2-object-id-basic4-control-20261006/observer-preparation/native-four-preboot-basic4.json",
+      "sha256": "9224b1313ae7813dd9eef4fbfee20db9dcc8fa469a2b06ec1dbff83f6026bdb9"
+    }
+  ],
+  "rows": [
+    {
+      "case": "positive-basic4-roundtrip",
+      "role": "path",
+      "all4_times_attributes_identity_security_objectid_exact": true
+    },
+    {
+      "case": "positive-basic4-roundtrip",
+      "role": "alias",
+      "all4_times_attributes_identity_security_objectid_exact": true
+    },
+    {
+      "case": "positive-basic4-roundtrip",
+      "role": "sibling",
+      "all4_times_attributes_identity_security_objectid_exact": true
+    },
+    {
+      "case": "extended48-and-basic4-restore",
+      "role": "path",
+      "all4_times_attributes_identity_security_objectid_exact": true
+    },
+    {
+      "case": "extended48-and-basic4-restore",
+      "role": "alias",
+      "all4_times_attributes_identity_security_objectid_exact": true
+    },
+    {
+      "case": "extended48-and-basic4-restore",
+      "role": "sibling",
+      "all4_times_attributes_identity_security_objectid_exact": true
+    }
+  ],
+  "offline_preboot_passed": true,
+  "normal_reboot_verified": false,
+  "readonly_directory_coverage_proven": false,
+  "production_executable": false
+}

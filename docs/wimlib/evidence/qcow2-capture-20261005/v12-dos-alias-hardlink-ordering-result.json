@@ -1,0 +1,285 @@
+{
+  "schema": 1,
+  "report_path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/second-experiment-results/alias-report.json",
+  "report_sha256": "ab5a0f606d8b2723726a78d7477155b225b43046696ab9e3d72a8f89dbb3c13c",
+  "execution": {
+    "session": 52533,
+    "terminal_exit_code": 0,
+    "confirmation": "fresh_install sole VM owner"
+  },
+  "validator": {
+    "hardlink_ordering": [
+      {
+        "first_link": 0,
+        "setter_statuses": [
+          0,
+          183,
+          183
+        ],
+        "all_three_aliases_preserved": false
+      },
+      {
+        "first_link": 1,
+        "setter_statuses": [
+          0,
+          183,
+          183
+        ],
+        "all_three_aliases_preserved": false
+      },
+      {
+        "first_link": 2,
+        "setter_statuses": [
+          0,
+          183,
+          183
+        ],
+        "all_three_aliases_preserved": false
+      }
+    ],
+    "pair_permutation_passed": true,
+    "hardlink_all_alias_setters_succeeded": false,
+    "directory_alias_passed": true,
+    "security_scope": "owner/group/DACL only; SACL untested",
+    "installed_alias_restoration_proven": false
+  },
+  "ordering_rounds": [
+    {
+      "first_link": 0,
+      "clear_statuses": [
+        0,
+        0,
+        0
+      ],
+      "set_results": [
+        {
+          "LinkIndex": 0,
+          "Status": 0
+        },
+        {
+          "LinkIndex": 1,
+          "Status": 183
+        },
+        {
+          "LinkIndex": 2,
+          "Status": 183
+        }
+      ],
+      "final_parent_entries": [
+        {
+          "Parent": "U:\\QCOW2-AliasScratch-cdafc686fcdc48eaa00ee05759059c41\\hardlinks",
+          "LongName": "HardlinkedOne.bin",
+          "LongNameUtf16": "48006100720064006C0069006E006B00650064004F006E0065002E00620069006E00",
+          "Alias": "HARD~1.BIN",
+          "AliasUtf16": "48004100520044007E0031002E00420049004E00",
+          "LongID": "B743B24C75B24CA24E000000000001000000000000000000",
+          "AliasID": "B743B24C75B24CA24E000000000001000000000000000000"
+        },
+        {
+          "Parent": "U:\\QCOW2-AliasScratch-cdafc686fcdc48eaa00ee05759059c41\\hardlinks",
+          "LongName": "HardlinkedTwo.bin",
+          "LongNameUtf16": "48006100720064006C0069006E006B0065006400540077006F002E00620069006E00",
+          "Alias": "",
+          "AliasUtf16": "",
+          "LongID": "B743B24C75B24CA24E000000000001000000000000000000",
+          "AliasID": null
+        },
+        {
+          "Parent": "U:\\QCOW2-AliasScratch-cdafc686fcdc48eaa00ee05759059c41\\other",
+          "LongName": "HardlinkedThree.bin",
+          "LongNameUtf16": "48006100720064006C0069006E006B0065006400540068007200650065002E00620069006E00",
+          "Alias": "",
+          "AliasUtf16": "",
+          "LongID": "B743B24C75B24CA24E000000000001000000000000000000",
+          "AliasID": null
+        }
+      ],
+      "metadata_changes": [
+        {
+          "path": "U:\\QCOW2-AliasScratch-cdafc686fcdc48eaa00ee05759059c41\\hardlinks\\HardlinkedOne.bin",
+          "changed_fields": [
+            "change_time"
+          ],
+          "before_raw": "882E9FC51455DD01882E9FC51455DD01882E9FC51455DD012C60ADC51455DD012000000000000000:080000000000000003000000000000000300000000000000",
+          "after_raw": "882E9FC51455DD01882E9FC51455DD01882E9FC51455DD017A43BDC51455DD012000000000000000:080000000000000003000000000000000300000000000000"
+        },
+        {
+          "path": "U:\\QCOW2-AliasScratch-cdafc686fcdc48eaa00ee05759059c41\\hardlinks\\HardlinkedTwo.bin",
+          "changed_fields": [
+            "change_time"
+          ],
+          "before_raw": "882E9FC51455DD01882E9FC51455DD01882E9FC51455DD012C60ADC51455DD012000000000000000:080000000000000003000000000000000300000000000000",
+          "after_raw": "882E9FC51455DD01882E9FC51455DD01882E9FC51455DD017A43BDC51455DD012000000000000000:080000000000000003000000000000000300000000000000"
+        },
+        {
+          "path": "U:\\QCOW2-AliasScratch-cdafc686fcdc48eaa00ee05759059c41\\other\\HardlinkedThree.bin",
+          "changed_fields": [
+            "change_time"
+          ],
+          "before_raw": "882E9FC51455DD01882E9FC51455DD01882E9FC51455DD012C60ADC51455DD012000000000000000:080000000000000003000000000000000300000000000000",
+          "after_raw": "882E9FC51455DD01882E9FC51455DD01882E9FC51455DD017A43BDC51455DD012000000000000000:080000000000000003000000000000000300000000000000"
+        }
+      ],
+      "identity_payload_owner_group_dacl_preserved": true
+    },
+    {
+      "first_link": 1,
+      "clear_statuses": [
+        0,
+        0,
+        0
+      ],
+      "set_results": [
+        {
+          "LinkIndex": 1,
+          "Status": 0
+        },
+        {
+          "LinkIndex": 0,
+          "Status": 183
+        },
+        {
+          "LinkIndex": 2,
+          "Status": 183
+        }
+      ],
+      "final_parent_entries": [
+        {
+          "Parent": "U:\\QCOW2-AliasScratch-cdafc686fcdc48eaa00ee05759059c41\\hardlinks",
+          "LongName": "HardlinkedOne.bin",
+          "LongNameUtf16": "48006100720064006C0069006E006B00650064004F006E0065002E00620069006E00",
+          "Alias": "",
+          "AliasUtf16": "",
+          "LongID": "B743B24C75B24CA24E000000000001000000000000000000",
+          "AliasID": null
+        },
+        {
+          "Parent": "U:\\QCOW2-AliasScratch-cdafc686fcdc48eaa00ee05759059c41\\hardlinks",
+          "LongName": "HardlinkedTwo.bin",
+          "LongNameUtf16": "48006100720064006C0069006E006B0065006400540077006F002E00620069006E00",
+          "Alias": "HARD~2.BIN",
+          "AliasUtf16": "48004100520044007E0032002E00420049004E00",
+          "LongID": "B743B24C75B24CA24E000000000001000000000000000000",
+          "AliasID": "B743B24C75B24CA24E000000000001000000000000000000"
+        },
+        {
+          "Parent": "U:\\QCOW2-AliasScratch-cdafc686fcdc48eaa00ee05759059c41\\other",
+          "LongName": "HardlinkedThree.bin",
+          "LongNameUtf16": "48006100720064006C0069006E006B0065006400540068007200650065002E00620069006E00",
+          "Alias": "",
+          "AliasUtf16": "",
+          "LongID": "B743B24C75B24CA24E000000000001000000000000000000",
+          "AliasID": null
+        }
+      ],
+      "metadata_changes": [
+        {
+          "path": "U:\\QCOW2-AliasScratch-cdafc686fcdc48eaa00ee05759059c41\\hardlinks\\HardlinkedOne.bin",
+          "changed_fields": [
+            "change_time"
+          ],
+          "before_raw": "882E9FC51455DD01882E9FC51455DD01882E9FC51455DD017A43BDC51455DD012000000000000000:080000000000000003000000000000000300000000000000",
+          "after_raw": "882E9FC51455DD01882E9FC51455DD01882E9FC51455DD01BAECC4C51455DD012000000000000000:080000000000000003000000000000000300000000000000"
+        },
+        {
+          "path": "U:\\QCOW2-AliasScratch-cdafc686fcdc48eaa00ee05759059c41\\hardlinks\\HardlinkedTwo.bin",
+          "changed_fields": [
+            "change_time"
+          ],
+          "before_raw": "882E9FC51455DD01882E9FC51455DD01882E9FC51455DD017A43BDC51455DD012000000000000000:080000000000000003000000000000000300000000000000",
+          "after_raw": "882E9FC51455DD01882E9FC51455DD01882E9FC51455DD01BAECC4C51455DD012000000000000000:080000000000000003000000000000000300000000000000"
+        },
+        {
+          "path": "U:\\QCOW2-AliasScratch-cdafc686fcdc48eaa00ee05759059c41\\other\\HardlinkedThree.bin",
+          "changed_fields": [
+            "change_time"
+          ],
+          "before_raw": "882E9FC51455DD01882E9FC51455DD01882E9FC51455DD017A43BDC51455DD012000000000000000:080000000000000003000000000000000300000000000000",
+          "after_raw": "882E9FC51455DD01882E9FC51455DD01882E9FC51455DD01BAECC4C51455DD012000000000000000:080000000000000003000000000000000300000000000000"
+        }
+      ],
+      "identity_payload_owner_group_dacl_preserved": true
+    },
+    {
+      "first_link": 2,
+      "clear_statuses": [
+        0,
+        0,
+        0
+      ],
+      "set_results": [
+        {
+          "LinkIndex": 2,
+          "Status": 0
+        },
+        {
+          "LinkIndex": 0,
+          "Status": 183
+        },
+        {
+          "LinkIndex": 1,
+          "Status": 183
+        }
+      ],
+      "final_parent_entries": [
+        {
+          "Parent": "U:\\QCOW2-AliasScratch-cdafc686fcdc48eaa00ee05759059c41\\hardlinks",
+          "LongName": "HardlinkedOne.bin",
+          "LongNameUtf16": "48006100720064006C0069006E006B00650064004F006E0065002E00620069006E00",
+          "Alias": "",
+          "AliasUtf16": "",
+          "LongID": "B743B24C75B24CA24E000000000001000000000000000000",
+          "AliasID": null
+        },
+        {
+          "Parent": "U:\\QCOW2-AliasScratch-cdafc686fcdc48eaa00ee05759059c41\\hardlinks",
+          "LongName": "HardlinkedTwo.bin",
+          "LongNameUtf16": "48006100720064006C0069006E006B0065006400540077006F002E00620069006E00",
+          "Alias": "",
+          "AliasUtf16": "",
+          "LongID": "B743B24C75B24CA24E000000000001000000000000000000",
+          "AliasID": null
+        },
+        {
+          "Parent": "U:\\QCOW2-AliasScratch-cdafc686fcdc48eaa00ee05759059c41\\other",
+          "LongName": "HardlinkedThree.bin",
+          "LongNameUtf16": "48006100720064006C0069006E006B0065006400540068007200650065002E00620069006E00",
+          "Alias": "HARD~3.BIN",
+          "AliasUtf16": "48004100520044007E0033002E00420049004E00",
+          "LongID": "B743B24C75B24CA24E000000000001000000000000000000",
+          "AliasID": "B743B24C75B24CA24E000000000001000000000000000000"
+        }
+      ],
+      "metadata_changes": [
+        {
+          "path": "U:\\QCOW2-AliasScratch-cdafc686fcdc48eaa00ee05759059c41\\hardlinks\\HardlinkedOne.bin",
+          "changed_fields": [
+            "change_time"
+          ],
+          "before_raw": "882E9FC51455DD01882E9FC51455DD01882E9FC51455DD01BAECC4C51455DD012000000000000000:080000000000000003000000000000000300000000000000",
+          "after_raw": "882E9FC51455DD01882E9FC51455DD01882E9FC51455DD01A190C9C51455DD012000000000000000:080000000000000003000000000000000300000000000000"
+        },
+        {
+          "path": "U:\\QCOW2-AliasScratch-cdafc686fcdc48eaa00ee05759059c41\\hardlinks\\HardlinkedTwo.bin",
+          "changed_fields": [
+            "change_time"
+          ],
+          "before_raw": "882E9FC51455DD01882E9FC51455DD01882E9FC51455DD01BAECC4C51455DD012000000000000000:080000000000000003000000000000000300000000000000",
+          "after_raw": "882E9FC51455DD01882E9FC51455DD01882E9FC51455DD01A190C9C51455DD012000000000000000:080000000000000003000000000000000300000000000000"
+        },
+        {
+          "path": "U:\\QCOW2-AliasScratch-cdafc686fcdc48eaa00ee05759059c41\\other\\HardlinkedThree.bin",
+          "changed_fields": [
+            "change_time"
+          ],
+          "before_raw": "882E9FC51455DD01882E9FC51455DD01882E9FC51455DD01BAECC4C51455DD012000000000000000:080000000000000003000000000000000300000000000000",
+          "after_raw": "882E9FC51455DD01882E9FC51455DD01882E9FC51455DD01A190C9C51455DD012000000000000000:080000000000000003000000000000000300000000000000"
+        }
+      ],
+      "identity_payload_owner_group_dacl_preserved": true
+    }
+  ],
+  "scope": "New isolated scratch only; no installed alias restoration credit",
+  "full_metadata_invariance": false,
+  "sacl_tested": false
+}

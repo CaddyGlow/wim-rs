@@ -1,0 +1,56 @@
+{
+  "source": "\\\\?\\GLOBALROOT\\Device\\HarddiskVolumeShadowCopy7\\Windows",
+  "snapshot": {
+    "ID": "{E7EA588F-5D40-4455-9333-127D69F98536}",
+    "DeviceObject": "\\\\?\\GLOBALROOT\\Device\\HarddiskVolumeShadowCopy7"
+  },
+  "environment": {
+    "exit": 0,
+    "signal": null,
+    "stdout": "{\r\n    \"CurrentBuildNumber\":  \"26200\",\r\n    \"UBR\":  8037\r\n}\r\n",
+    "stderr": "",
+    "stdout_truncated": false
+  },
+  "cases": [
+    {
+      "label": "original",
+      "result": {
+        "exit": 0,
+        "signal": null,
+        "stdout": "tree 0\r\n",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "passes": true,
+      "elapsed_seconds": 92.39,
+      "nodes": 157160,
+      "manifest_sha256": "837a76af4dc80b6c1ebbc07bde83bcaa02c20d8edd478180b9ca5ccd5bc68678"
+    },
+    {
+      "label": "rust",
+      "result": {
+        "exit": 0,
+        "signal": null,
+        "stdout": "tree 0\r\n",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "passes": true,
+      "elapsed_seconds": 277.31,
+      "nodes": 157160,
+      "manifest_sha256": "837a76af4dc80b6c1ebbc07bde83bcaa02c20d8edd478180b9ca5ccd5bc68678"
+    }
+  ],
+  "artifacts": {
+    "original.dll": "fc740013e9ae9dee84fbe8ee47bb09dbeb7b3a535c2882e90764d66fa4a1c209",
+    "rust-tree.dll": "16063a6f7720fe83a8bc0776c21ddd1b61776921ce2a70bebd418032eb9da5fc",
+    "tree.exe": "ff6e0746d2ea22d5982c4af4566c73faf505c330b1c7b6897ac46bd8e0ae7aa0"
+  },
+  "missing_count": 0,
+  "extra_count": 0,
+  "difference_count": 0,
+  "missing": [],
+  "extra": [],
+  "differences": [],
+  "passes": true
+}

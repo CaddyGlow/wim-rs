@@ -1,0 +1,83 @@
+{
+  "schema": 1,
+  "scope": "Experimental raw new-output patch/USA primitives only; no alias planner, growth/rebalance or installed restoration credit",
+  "runs": [
+    {
+      "command": [
+        "cargo",
+        "test",
+        "-p",
+        "windows-ntfs",
+        "--locked",
+        "--test",
+        "transaction"
+      ],
+      "exit_code": 0,
+      "log": "/data/cache/qcow2-offline-alias-transaction-20261006/unit.log",
+      "log_sha256": "baf0d864eca79b49f1f59edc5614715e8d451b6bcd61935fcb58e945fb02532f"
+    },
+    {
+      "command": [
+        "cargo",
+        "test",
+        "-p",
+        "windows-ntfs",
+        "--locked",
+        "--test",
+        "transaction",
+        "--",
+        "--ignored"
+      ],
+      "exit_code": 0,
+      "log": "/data/cache/qcow2-offline-alias-transaction-20261006/fixture.log",
+      "log_sha256": "cf0545e83c36c0ffc16160ba102770efa6e121fc578b211f2f9394b13ba5d5df"
+    },
+    {
+      "command": [
+        "cargo",
+        "clippy",
+        "-p",
+        "windows-ntfs",
+        "--all-targets",
+        "--all-features",
+        "--locked",
+        "--",
+        "-D",
+        "warnings"
+      ],
+      "exit_code": 0,
+      "log": "/data/cache/qcow2-offline-alias-transaction-20261006/clippy.log",
+      "log_sha256": "b87ea5eb5334c9de764357bf2066997d58799cd52bbf768a315dadbce8bd2950"
+    },
+    {
+      "command": [
+        "rustfmt",
+        "--check",
+        "--edition",
+        "2024",
+        "crates/windows-ntfs/src/transaction.rs",
+        "crates/windows-ntfs/tests/transaction.rs"
+      ],
+      "exit_code": 0,
+      "log": "/data/cache/qcow2-offline-alias-transaction-20261006/fmt.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "production_source_hashes": {
+    "crates/windows-ntfs/src/transaction.rs": "33050cbfe3327b6066e878f6bea1b260d1b8d94f0b245e3e1946d2fb0722e802",
+    "crates/windows-ntfs/tests/transaction.rs": "8b210ecc36bd75d16d61737db484d72cc6c14107193ebcfd1b1d4f8a01af9bc5",
+    "crates/windows-ntfs/Cargo.toml": "8487fe850342d25ebc1a3661f197b7c36f9acfadadab7e0dd73829623b252006"
+  },
+  "tests": {
+    "ordinary_passed": 9,
+    "independent_real_ntfs_root_reprotection_passed": 1
+  },
+  "fixture": "/data/cache/qcow2-retained-fixtures-20261006/case-fixture.ntfs.raw",
+  "limitations": [
+    "Caller must keep input exclusively immutable; hash checks cannot prevent ABA changes.",
+    "New failed output is retained without receipt and must not be published.",
+    "Independent fixture verifies root record/index parsing; it does not restore aliases."
+  ],
+  "fixture_bytes": 535756800,
+  "fixture_sha256": "a8e802268867b2f76f129da2feff8c4d3319301a44e2b244d7d94449a52d6a4f"
+}

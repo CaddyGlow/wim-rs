@@ -1,0 +1,25 @@
+{
+  "scope": "Disposable instrumentation branch configuration only; effective boot trace and cause unproven",
+  "receipt": "/data/cache/qcow2-object-id-boottrace-20261006/procmon-bootlogging-flat-driver-proof-v2.json",
+  "sha256": "0d96c1641dceccd4a1421a78d667f8c578a04aa37505e9e2a5475480b586aca5",
+  "actual_guest_driver_configuration": {
+    "Driver": {
+      "Start": 0,
+      "Group": "FSFilter Activity Monitor",
+      "Type": 1,
+      "ImagePath": "System32\\Drivers\\PROCMON25.SYS",
+      "SupportedFeatures": 15
+    },
+    "Files": [
+      {
+        "Path": "C:\\Windows\\System32\\Drivers\\PROCMON25.SYS",
+        "SHA256": "BB9917CEC05955BA257BB65A12045BBD7988B23EDE97EE35237DA5889B48BC30",
+        "Version": "4.11",
+        "Signature": "Valid",
+        "Signer": "CN=Microsoft Windows Hardware Compatibility Publisher, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+      }
+    ],
+    "ChallengeAbsent": true
+  },
+  "effective_boot_trace_observed": false
+}

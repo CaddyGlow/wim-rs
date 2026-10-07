@@ -1,0 +1,44 @@
+{
+  "scope": "Current WIM crate only; installed metadata fidelity remains failed",
+  "change": "Reject unsupported opaque generator flag before capture source pointers are decoded when test-support feature is absent",
+  "file": "crates/wim/src/engine/capture/api.rs",
+  "sha256": "ce418a91950c585a94c9e96a1de3d39f3b9c5e9f759333b34f163c4de12b48ff",
+  "initial_failure": "test_support_guard exited SIGSEGV",
+  "checks": [
+    {
+      "command": "cargo check --locked -p wim --features disk-capture --all-targets",
+      "exit": 0
+    },
+    {
+      "command": "cargo test --locked -p wim --features disk-capture --test test_support_guard",
+      "exit": 0
+    },
+    {
+      "command": "cargo test --locked -p wim --features disk-capture",
+      "exit": 0,
+      "ignored": 2
+    },
+    {
+      "command": "cargo clippy --locked -p wim --all-targets --all-features -- -D warnings",
+      "exit": 0
+    },
+    {
+      "command": "cargo test --locked -p wim --features disk-capture --test offline_capture -- --ignored",
+      "exit": 0,
+      "passed": 2,
+      "independent_tools": [
+        "ntfs3g2022.10.3",
+        "upstream wimlib1.14.5"
+      ],
+      "scope": "Independent raw NTFS-to-WIM streams and owned-link archive interoperability"
+    }
+  ],
+  "regression_coverage": {
+    "entry_points": [
+      "wimlib_add_image",
+      "wimlib_add_image_multisource"
+    ],
+    "passed": 2,
+    "multisource_test_sha256": "9304acfd0a474d5456156fe66f846fa1e6886dfe21f0313d9c794c90f966a20d"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "pre_context": {
+    "volume_object_id": "cc5ec5dd4c7fa24da1b41b2c2ac3826d",
+    "tracking_log_length": 20480,
+    "tracking_log_sha256": "892f68e66492b921344dccaf21c197901d6018c7aab165319b9d8078fabf06b2"
+  },
+  "post_context": {
+    "volume_object_id": "cc5ec5dd4c7fa24da1b41b2c2ac3826d",
+    "tracking_log_length": 20480,
+    "tracking_log_sha256": "892f68e66492b921344dccaf21c197901d6018c7aab165319b9d8078fabf06b2"
+  },
+  "post_qcow2_sha256": "876bd25908d522f4b175e1d126a6ce82c6f4c61c2ac7fad95007e0be74ec1d74",
+  "post_raw_receipt_sha256": "f2eda0424b0fbfeb33ed813b73f9da27b357ce76a431c4ece9fd6957c62f7d2d",
+  "strict_clean_ntfs_open": true,
+  "scope": "Independent native bounded post-reboot context exact; challenge file full64 audit is separately required."
+}

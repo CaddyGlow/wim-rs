@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "scope": "Earliest actual registered V13 WinRE retrieved before other metadata audits/servicing/recovery, independent complete file-only comparison. No target QCOW read or repair.",
+  "source_sha256": "5a7b51e7271284a3204234a71386c4d8cbc81665e9f7bc451d7d70fb464a3047",
+  "target_sha256": "0acfbdd63a1443000f43d53cb39bc2495ad3659f7e318a25073a70be69f57dff",
+  "entry_count": 25450,
+  "stream_count": 20913,
+  "full_source_verify_exit": 0,
+  "full_target_verify_exit": 0,
+  "content_attributes_identity_kernel_equivalence_passed": true,
+  "raw_full_security_descriptors_exact": true,
+  "all_paths_equal": true,
+  "hardlink_groups_equal": true,
+  "windows_properties_equal": true,
+  "strict_whole_metadata_gate_passed": false,
+  "strict_differences": {
+    "access_time_only": 708
+  },
+  "cause": "Unproven; observation is access-time-only, no documented transformation or waiver inferred.",
+  "artifacts": [
+    {
+      "path": "/data/cache/qcow2-installation-namespace-fixed-1006-v13/independent-earliest-winre-equivalence/equivalence.json",
+      "bytes": 4610,
+      "sha256": "2c2acb59641adace0844ba4b054282dc0b02320a9c6800780508242b24d65487"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-namespace-fixed-1006-v13/earliest-winre-whole-metadata-delta.json",
+      "bytes": 10213022,
+      "sha256": "54034e511a1acb9bc2e92201ace3c038e61f0e9db71c5554222214071aa98be2"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-namespace-fixed-1006-v13/earliest-winre-raw-security-equivalence.json",
+      "bytes": 98,
+      "sha256": "3252619fb4340f56a3a90e8b366421a8908b7638154d5384d34180353a5f3a44"
+    },
+    {
+      "path": "/data/cache/qcow2-installation-namespace-fixed-1006-v13/earliest-registered-winre-retrieval.json",
+      "bytes": 1219,
+      "sha256": "f7169d737fabed5770fcfe0eb1f64f482b0b5e73feb315beea737ef09ab78820"
+    }
+  ],
+  "terminal_content_session": {
+    "session": 28562,
+    "exit": 0
+  }
+}

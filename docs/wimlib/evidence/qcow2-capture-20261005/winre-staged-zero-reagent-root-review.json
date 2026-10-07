@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "scope": "Root independent upstream extraction of both generated ReAgent payloads; exact sole byte change; complete schema and destination unbinding retained",
+  "artifacts": [
+    {
+      "path": "/data/cache/qcow2-winre-staged-zero-control-20261006/root-parent-reagent/ReAgent.xml",
+      "bytes": 1016,
+      "sha256": "aec4ad0cc5b5aa1e01fe8c6c98af10f0c08b7dfeaf62fc5f6881324dbc5512b0"
+    },
+    {
+      "path": "/data/cache/qcow2-winre-staged-zero-control-20261006/root-control-reagent/ReAgent.xml",
+      "bytes": 1016,
+      "sha256": "a9f405f893cda1eafbe2f1293ce026cc4b0555ea36892fd4b196ed5ee35a2ffa"
+    }
+  ],
+  "only_payload_delta": "WinREStaged state1 to0",
+  "unbound_destination_retained": true,
+  "installation_effect_proven": false
+}

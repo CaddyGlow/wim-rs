@@ -1,0 +1,3 @@
+    Checking wim-format v0.1.0 (/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/wim-format)
+    Checking wim-ffi v0.1.0 (/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/wim-ffi)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1.07s

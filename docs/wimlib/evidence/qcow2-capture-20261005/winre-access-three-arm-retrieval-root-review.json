@@ -1,0 +1,24 @@
+{
+  "all_three_full_host_file_hashes_recomputed_exact": true,
+  "arms": [
+    {
+      "arm": "mount-commit-no-boot-copy",
+      "path": "/data/cache/qcow2-winre-access-causal-control-20261006/actual-arm-outputs/mount-commit-no-boot-copy/control.wim",
+      "bytes": 684495733,
+      "sha256": "718a453ce1d985214d303d9be4b0476d39812a645aeceb70937389009d932d49"
+    },
+    {
+      "arm": "mount-boot-copy-discard",
+      "path": "/data/cache/qcow2-winre-access-causal-control-20261006/actual-arm-outputs/mount-boot-copy-discard/control.wim",
+      "bytes": 682662589,
+      "sha256": "5a7b51e7271284a3204234a71386c4d8cbc81665e9f7bc451d7d70fb464a3047"
+    },
+    {
+      "arm": "mount-boot-copy-commit",
+      "path": "/data/cache/qcow2-winre-access-causal-control-20261006/actual-arm-outputs/mount-boot-copy-commit/control.wim",
+      "bytes": 684495735,
+      "sha256": "cbfeb994f10faa2e285e692fbfe245751bb9fbc1d591dbb1abad7e453ee9eb01"
+    }
+  ],
+  "logical_metadata_comparison_pending": true
+}

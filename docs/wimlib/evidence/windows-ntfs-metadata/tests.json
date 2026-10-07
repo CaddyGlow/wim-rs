@@ -1,0 +1,9 @@
+{
+  "exit": 0,
+  "signal": null,
+  "stdout": "\nrunning 4 tests\ntest encrypted_capture_restores_raw_data_before_and_after_wim_serialization ... ok\ntest selected_paths_ignore_unselected_unsupported_metadata_and_flatten_aliases ... ok\ntest whole_image_restores_file_directory_and_empty_named_streams_and_hardlinks ... ok\ntest wildcard_and_utf16_pathlist_extract_only_matching_subtrees ... ok\n\ntest result: ok. 4 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.16s\n\n",
+  "stderr": "",
+  "stdout_truncated": false,
+  "executable_sha256": "cae8c38133943e59535b70017ff8c59ed906815068668ca7d0155634a9d44d0a",
+  "command": "windows_extract.exe --include-ignored --nocapture --test-threads=1"
+}

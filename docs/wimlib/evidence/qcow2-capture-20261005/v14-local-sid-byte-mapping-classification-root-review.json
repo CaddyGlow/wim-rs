@@ -1,0 +1,232 @@
+{
+  "source_comparison_sha256": "cd82a50a5e2da7910e9ff59f2e8ceff603992ca222200d0112204315dfd4cac3",
+  "selected_paths": 24,
+  "component_match_counts_after_exact_observed_owner_group_sid_substitution": {
+    "owner": 24,
+    "group": 24,
+    "dacl": 24,
+    "sacl": 0
+  },
+  "rows": [
+    {
+      "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/ActionsMcpHost.exe",
+      "source_owner": "0105000000000005150000001ed4705d62f85a039b069591e8030000",
+      "target_owner": "0105000000000005150000003be0e4c1ac6d5e69116d3312e8030000",
+      "source_group": "0105000000000005150000001ed4705d62f85a039b06959101020000",
+      "target_group": "0105000000000005150000003be0e4c1ac6d5e69116d331201020000",
+      "owner_group_dacl_matches_under_exact_sid_byte_substitution": true,
+      "sacl_matches_under_same_substitution": false
+    },
+    {
+      "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe/WindowsPackageManagerServer.exe",
+      "source_owner": "0105000000000005150000001ed4705d62f85a039b069591e8030000",
+      "target_owner": "0105000000000005150000003be0e4c1ac6d5e69116d3312e8030000",
+      "source_group": "0105000000000005150000001ed4705d62f85a039b06959101020000",
+      "target_group": "0105000000000005150000003be0e4c1ac6d5e69116d331201020000",
+      "owner_group_dacl_matches_under_exact_sid_byte_substitution": true,
+      "sacl_matches_under_same_substitution": false
+    },
+    {
+      "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe/python.exe",
+      "source_owner": "0105000000000005150000001ed4705d62f85a039b069591e8030000",
+      "target_owner": "0105000000000005150000003be0e4c1ac6d5e69116d3312e8030000",
+      "source_group": "0105000000000005150000001ed4705d62f85a039b06959101020000",
+      "target_group": "0105000000000005150000003be0e4c1ac6d5e69116d331201020000",
+      "owner_group_dacl_matches_under_exact_sid_byte_substitution": true,
+      "sacl_matches_under_same_substitution": false
+    },
+    {
+      "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe/python3.exe",
+      "source_owner": "0105000000000005150000001ed4705d62f85a039b069591e8030000",
+      "target_owner": "0105000000000005150000003be0e4c1ac6d5e69116d3312e8030000",
+      "source_group": "0105000000000005150000001ed4705d62f85a039b06959101020000",
+      "target_group": "0105000000000005150000003be0e4c1ac6d5e69116d331201020000",
+      "owner_group_dacl_matches_under_exact_sid_byte_substitution": true,
+      "sacl_matches_under_same_substitution": false
+    },
+    {
+      "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe/winget.exe",
+      "source_owner": "0105000000000005150000001ed4705d62f85a039b069591e8030000",
+      "target_owner": "0105000000000005150000003be0e4c1ac6d5e69116d3312e8030000",
+      "source_group": "0105000000000005150000001ed4705d62f85a039b06959101020000",
+      "target_group": "0105000000000005150000003be0e4c1ac6d5e69116d331201020000",
+      "owner_group_dacl_matches_under_exact_sid_byte_substitution": true,
+      "sacl_matches_under_same_substitution": false
+    },
+    {
+      "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/Microsoft.Paint_8wekyb3d8bbwe/mspaint.exe",
+      "source_owner": "0105000000000005150000001ed4705d62f85a039b069591e8030000",
+      "target_owner": "0105000000000005150000003be0e4c1ac6d5e69116d3312e8030000",
+      "source_group": "0105000000000005150000001ed4705d62f85a039b06959101020000",
+      "target_group": "0105000000000005150000003be0e4c1ac6d5e69116d331201020000",
+      "owner_group_dacl_matches_under_exact_sid_byte_substitution": true,
+      "sacl_matches_under_same_substitution": false
+    },
+    {
+      "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/Microsoft.Paint_8wekyb3d8bbwe/pbrush.exe",
+      "source_owner": "0105000000000005150000001ed4705d62f85a039b069591e8030000",
+      "target_owner": "0105000000000005150000003be0e4c1ac6d5e69116d3312e8030000",
+      "source_group": "0105000000000005150000001ed4705d62f85a039b06959101020000",
+      "target_group": "0105000000000005150000003be0e4c1ac6d5e69116d331201020000",
+      "owner_group_dacl_matches_under_exact_sid_byte_substitution": true,
+      "sacl_matches_under_same_substitution": false
+    },
+    {
+      "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/Microsoft.ScreenSketch_8wekyb3d8bbwe/SnippingTool.exe",
+      "source_owner": "0105000000000005150000001ed4705d62f85a039b069591e8030000",
+      "target_owner": "0105000000000005150000003be0e4c1ac6d5e69116d3312e8030000",
+      "source_group": "0105000000000005150000001ed4705d62f85a039b06959101020000",
+      "target_group": "0105000000000005150000003be0e4c1ac6d5e69116d331201020000",
+      "owner_group_dacl_matches_under_exact_sid_byte_substitution": true,
+      "sacl_matches_under_same_substitution": false
+    },
+    {
+      "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/Microsoft.WindowsNotepad_8wekyb3d8bbwe/notepad.exe",
+      "source_owner": "0105000000000005150000001ed4705d62f85a039b069591e8030000",
+      "target_owner": "0105000000000005150000003be0e4c1ac6d5e69116d3312e8030000",
+      "source_group": "0105000000000005150000001ed4705d62f85a039b06959101020000",
+      "target_group": "0105000000000005150000003be0e4c1ac6d5e69116d331201020000",
+      "owner_group_dacl_matches_under_exact_sid_byte_substitution": true,
+      "sacl_matches_under_same_substitution": false
+    },
+    {
+      "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/Microsoft.WindowsTerminal_8wekyb3d8bbwe/wt.exe",
+      "source_owner": "0105000000000005150000001ed4705d62f85a039b069591e8030000",
+      "target_owner": "0105000000000005150000003be0e4c1ac6d5e69116d3312e8030000",
+      "source_group": "0105000000000005150000001ed4705d62f85a039b06959101020000",
+      "target_group": "0105000000000005150000003be0e4c1ac6d5e69116d331201020000",
+      "owner_group_dacl_matches_under_exact_sid_byte_substitution": true,
+      "sacl_matches_under_same_substitution": false
+    },
+    {
+      "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/MicrosoftWindows.Client.CBS_cw5n1h2txyewy/ActionsMcpHost.exe",
+      "source_owner": "0105000000000005150000001ed4705d62f85a039b069591e8030000",
+      "target_owner": "0105000000000005150000003be0e4c1ac6d5e69116d3312e8030000",
+      "source_group": "0105000000000005150000001ed4705d62f85a039b06959101020000",
+      "target_group": "0105000000000005150000003be0e4c1ac6d5e69116d331201020000",
+      "owner_group_dacl_matches_under_exact_sid_byte_substitution": true,
+      "sacl_matches_under_same_substitution": false
+    },
+    {
+      "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/MicrosoftWindows.Client.CBS_cw5n1h2txyewy/MicrosoftWindows.DesktopStickerEditorCentennial.exe",
+      "source_owner": "0105000000000005150000001ed4705d62f85a039b069591e8030000",
+      "target_owner": "0105000000000005150000003be0e4c1ac6d5e69116d3312e8030000",
+      "source_group": "0105000000000005150000001ed4705d62f85a039b06959101020000",
+      "target_group": "0105000000000005150000003be0e4c1ac6d5e69116d331201020000",
+      "owner_group_dacl_matches_under_exact_sid_byte_substitution": true,
+      "sacl_matches_under_same_substitution": false
+    },
+    {
+      "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/MicrosoftWindows.DesktopStickerEditorCentennial.exe",
+      "source_owner": "0105000000000005150000001ed4705d62f85a039b069591e8030000",
+      "target_owner": "0105000000000005150000003be0e4c1ac6d5e69116d3312e8030000",
+      "source_group": "0105000000000005150000001ed4705d62f85a039b06959101020000",
+      "target_group": "0105000000000005150000003be0e4c1ac6d5e69116d331201020000",
+      "owner_group_dacl_matches_under_exact_sid_byte_substitution": true,
+      "sacl_matches_under_same_substitution": false
+    },
+    {
+      "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/SnippingTool.exe",
+      "source_owner": "0105000000000005150000001ed4705d62f85a039b069591e8030000",
+      "target_owner": "0105000000000005150000003be0e4c1ac6d5e69116d3312e8030000",
+      "source_group": "0105000000000005150000001ed4705d62f85a039b06959101020000",
+      "target_group": "0105000000000005150000003be0e4c1ac6d5e69116d331201020000",
+      "owner_group_dacl_matches_under_exact_sid_byte_substitution": true,
+      "sacl_matches_under_same_substitution": false
+    },
+    {
+      "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/WindowsPackageManagerServer.exe",
+      "source_owner": "0105000000000005150000001ed4705d62f85a039b069591e8030000",
+      "target_owner": "0105000000000005150000003be0e4c1ac6d5e69116d3312e8030000",
+      "source_group": "0105000000000005150000001ed4705d62f85a039b06959101020000",
+      "target_group": "0105000000000005150000003be0e4c1ac6d5e69116d331201020000",
+      "owner_group_dacl_matches_under_exact_sid_byte_substitution": true,
+      "sacl_matches_under_same_substitution": false
+    },
+    {
+      "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/mspaint.exe",
+      "source_owner": "0105000000000005150000001ed4705d62f85a039b069591e8030000",
+      "target_owner": "0105000000000005150000003be0e4c1ac6d5e69116d3312e8030000",
+      "source_group": "0105000000000005150000001ed4705d62f85a039b06959101020000",
+      "target_group": "0105000000000005150000003be0e4c1ac6d5e69116d331201020000",
+      "owner_group_dacl_matches_under_exact_sid_byte_substitution": true,
+      "sacl_matches_under_same_substitution": false
+    },
+    {
+      "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/notepad.exe",
+      "source_owner": "0105000000000005150000001ed4705d62f85a039b069591e8030000",
+      "target_owner": "0105000000000005150000003be0e4c1ac6d5e69116d3312e8030000",
+      "source_group": "0105000000000005150000001ed4705d62f85a039b06959101020000",
+      "target_group": "0105000000000005150000003be0e4c1ac6d5e69116d331201020000",
+      "owner_group_dacl_matches_under_exact_sid_byte_substitution": true,
+      "sacl_matches_under_same_substitution": false
+    },
+    {
+      "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/pbrush.exe",
+      "source_owner": "0105000000000005150000001ed4705d62f85a039b069591e8030000",
+      "target_owner": "0105000000000005150000003be0e4c1ac6d5e69116d3312e8030000",
+      "source_group": "0105000000000005150000001ed4705d62f85a039b06959101020000",
+      "target_group": "0105000000000005150000003be0e4c1ac6d5e69116d331201020000",
+      "owner_group_dacl_matches_under_exact_sid_byte_substitution": true,
+      "sacl_matches_under_same_substitution": false
+    },
+    {
+      "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/python.exe",
+      "source_owner": "0105000000000005150000001ed4705d62f85a039b069591e8030000",
+      "target_owner": "0105000000000005150000003be0e4c1ac6d5e69116d3312e8030000",
+      "source_group": "0105000000000005150000001ed4705d62f85a039b06959101020000",
+      "target_group": "0105000000000005150000003be0e4c1ac6d5e69116d331201020000",
+      "owner_group_dacl_matches_under_exact_sid_byte_substitution": true,
+      "sacl_matches_under_same_substitution": false
+    },
+    {
+      "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/python3.exe",
+      "source_owner": "0105000000000005150000001ed4705d62f85a039b069591e8030000",
+      "target_owner": "0105000000000005150000003be0e4c1ac6d5e69116d3312e8030000",
+      "source_group": "0105000000000005150000001ed4705d62f85a039b06959101020000",
+      "target_group": "0105000000000005150000003be0e4c1ac6d5e69116d331201020000",
+      "owner_group_dacl_matches_under_exact_sid_byte_substitution": true,
+      "sacl_matches_under_same_substitution": false
+    },
+    {
+      "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/winget.exe",
+      "source_owner": "0105000000000005150000001ed4705d62f85a039b069591e8030000",
+      "target_owner": "0105000000000005150000003be0e4c1ac6d5e69116d3312e8030000",
+      "source_group": "0105000000000005150000001ed4705d62f85a039b06959101020000",
+      "target_group": "0105000000000005150000003be0e4c1ac6d5e69116d331201020000",
+      "owner_group_dacl_matches_under_exact_sid_byte_substitution": true,
+      "sacl_matches_under_same_substitution": false
+    },
+    {
+      "path": "/Users/deploy/AppData/Local/Microsoft/WindowsApps/wt.exe",
+      "source_owner": "0105000000000005150000001ed4705d62f85a039b069591e8030000",
+      "target_owner": "0105000000000005150000003be0e4c1ac6d5e69116d3312e8030000",
+      "source_group": "0105000000000005150000001ed4705d62f85a039b06959101020000",
+      "target_group": "0105000000000005150000003be0e4c1ac6d5e69116d331201020000",
+      "owner_group_dacl_matches_under_exact_sid_byte_substitution": true,
+      "sacl_matches_under_same_substitution": false
+    },
+    {
+      "path": "/Users/deploy/Downloads",
+      "source_owner": "0105000000000005150000001ed4705d62f85a039b069591e8030000",
+      "target_owner": "0105000000000005150000003be0e4c1ac6d5e69116d3312e8030000",
+      "source_group": "0105000000000005150000001ed4705d62f85a039b06959101020000",
+      "target_group": "0105000000000005150000003be0e4c1ac6d5e69116d331201020000",
+      "owner_group_dacl_matches_under_exact_sid_byte_substitution": true,
+      "sacl_matches_under_same_substitution": false
+    },
+    {
+      "path": "/Users/deploy/Downloads/desktop.ini",
+      "source_owner": "0105000000000005150000001ed4705d62f85a039b069591e8030000",
+      "target_owner": "0105000000000005150000003be0e4c1ac6d5e69116d3312e8030000",
+      "source_group": "0105000000000005150000001ed4705d62f85a039b06959101020000",
+      "target_group": "0105000000000005150000003be0e4c1ac6d5e69116d331201020000",
+      "owner_group_dacl_matches_under_exact_sid_byte_substitution": true,
+      "sacl_matches_under_same_substitution": false
+    }
+  ],
+  "classification_scope": "Read-only byte substitution analysis only; account semantic bindings not yet independently verified",
+  "semantic_sid_migration_gate_passes": false,
+  "strict_raw_sd_gate_passes": false,
+  "production_source_sd_restore_authorized": false
+}

@@ -1,0 +1,9 @@
+   Compiling wim-ffi v0.1.0 (/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/wim-ffi)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.20s
+     Running tests/lookup_allocations.rs (crates/wimlib-rs/target/debug/deps/lookup_allocations-d608d116585d05a0)
+
+running 1 test
+test repeated_lookup_iteration_allocates_nothing ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

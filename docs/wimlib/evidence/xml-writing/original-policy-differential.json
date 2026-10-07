@@ -1,0 +1,159 @@
+{
+  "cases": 11,
+  "results": [
+    {
+      "codec": "None",
+      "layout": "ordinary",
+      "original": {
+        "table_end": 77359,
+        "xml_totalbytes": 77359,
+        "preliminary_omitted": false
+      },
+      "native": {
+        "table_end": 77359,
+        "xml_totalbytes": 77359,
+        "preliminary_omitted": false
+      }
+    },
+    {
+      "codec": "None",
+      "layout": "pipable",
+      "original": {
+        "table_end": 78235,
+        "xml_totalbytes": 78235,
+        "preliminary_omitted": true
+      },
+      "native": {
+        "table_end": 78235,
+        "xml_totalbytes": 78235,
+        "preliminary_omitted": true
+      }
+    },
+    {
+      "codec": "XPRESS",
+      "layout": "ordinary",
+      "original": {
+        "table_end": 2135,
+        "xml_totalbytes": 2135,
+        "preliminary_omitted": false
+      },
+      "native": {
+        "table_end": 2131,
+        "xml_totalbytes": 2131,
+        "preliminary_omitted": false
+      }
+    },
+    {
+      "codec": "XPRESS",
+      "layout": "pipable",
+      "original": {
+        "table_end": 3027,
+        "xml_totalbytes": 3027,
+        "preliminary_omitted": true
+      },
+      "native": {
+        "table_end": 3023,
+        "xml_totalbytes": 3023,
+        "preliminary_omitted": true
+      }
+    },
+    {
+      "codec": "XPRESS",
+      "layout": "solid",
+      "original": {
+        "table_end": 2205,
+        "xml_totalbytes": 2205,
+        "preliminary_omitted": false
+      },
+      "native": {
+        "table_end": 2201,
+        "xml_totalbytes": 2201,
+        "preliminary_omitted": false
+      }
+    },
+    {
+      "codec": "LZX",
+      "layout": "ordinary",
+      "original": {
+        "table_end": 1592,
+        "xml_totalbytes": 1592,
+        "preliminary_omitted": false
+      },
+      "native": {
+        "table_end": 3144,
+        "xml_totalbytes": 3144,
+        "preliminary_omitted": false
+      }
+    },
+    {
+      "codec": "LZX",
+      "layout": "pipable",
+      "original": {
+        "table_end": 2484,
+        "xml_totalbytes": 2484,
+        "preliminary_omitted": true
+      },
+      "native": {
+        "table_end": 4036,
+        "xml_totalbytes": 4036,
+        "preliminary_omitted": true
+      }
+    },
+    {
+      "codec": "LZX",
+      "layout": "solid",
+      "original": {
+        "table_end": 1662,
+        "xml_totalbytes": 1662,
+        "preliminary_omitted": false
+      },
+      "native": {
+        "table_end": 3214,
+        "xml_totalbytes": 3214,
+        "preliminary_omitted": false
+      }
+    },
+    {
+      "codec": "LZMS",
+      "layout": "ordinary",
+      "original": {
+        "table_end": 412,
+        "xml_totalbytes": 412,
+        "preliminary_omitted": false
+      },
+      "native": {
+        "table_end": 446,
+        "xml_totalbytes": 446,
+        "preliminary_omitted": false
+      }
+    },
+    {
+      "codec": "LZMS",
+      "layout": "pipable",
+      "original": {
+        "table_end": 1296,
+        "xml_totalbytes": 1296,
+        "preliminary_omitted": true
+      },
+      "native": {
+        "table_end": 1338,
+        "xml_totalbytes": 1338,
+        "preliminary_omitted": true
+      }
+    },
+    {
+      "codec": "LZMS",
+      "layout": "solid",
+      "original": {
+        "table_end": 482,
+        "xml_totalbytes": 482,
+        "preliminary_omitted": false
+      },
+      "native": {
+        "table_end": 516,
+        "xml_totalbytes": 516,
+        "preliminary_omitted": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,1129 @@
+{
+  "scope": "Actual Windows anonymous pipe, matching MSVCRT fd, original-generated pipable input; drain only after API return",
+  "implementation": "native-pipe-first",
+  "dll_sha256": "4146e3b76980ec4e13523134603e1089cbeaaf26583c10db0abc12204dabb2e4",
+  "caller_sha256": "b6d7e122e3e532e04f19d2961e3d0a8c53d7749a302306e04056b277cbf2c4c8",
+  "generation": {
+    "exit": 0,
+    "signal": null,
+    "stdout_base64": "b3BlbiAwDQp3cml0ZSAwDQo=",
+    "stdout": "open 0\r\nwrite 0\r\n",
+    "stderr": "",
+    "stdout_truncated": false
+  },
+  "input_path": "C:\\wim-pipe-extract-20261003\\native-pipe-first-1791013268978141911\\actual-original-pipable.wim",
+  "input_size": 3576,
+  "input_sha256": "77e19361909e9bdb70db50a851a08972f6f381d705fc45b892c2bbd5bf392338",
+  "source_preserved": true,
+  "cases": [
+    {
+      "image": "1",
+      "flags": 0,
+      "chunk": 7,
+      "stop": -1,
+      "status": 0,
+      "callback": 1,
+      "result": {
+        "exit": 0,
+        "signal": null,
+        "stdout_base64": "ZXZlbnQgMCBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAwLzE2IHN0cmVhbXMgMC8yIGZpbGVzIDAvMA0KZXZlbnQgMyBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAwLzE2IHN0cmVhbXMgMC8yIGZpbGVzIDAvNw0KZXZlbnQgMyBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAwLzE2IHN0cmVhbXMgMC8yIGZpbGVzIDcvNw0KZXZlbnQgNSBwYXJ0IDEvMQ0KZXZlbnQgNCBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAxMi8xNiBzdHJlYW1zIDEvMiBmaWxlcyA3LzcNCmV2ZW50IDQgaW1hZ2UgMSBmbGFncyAyNTYgYnl0ZXMgMTYvMTYgc3RyZWFtcyAyLzIgZmlsZXMgNy83DQpldmVudCA2IGltYWdlIDEgZmxhZ3MgMjU2IGJ5dGVzIDE2LzE2IHN0cmVhbXMgMi8yIGZpbGVzIDAvNw0KZXZlbnQgNiBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAxNi8xNiBzdHJlYW1zIDIvMiBmaWxlcyA3LzcNCmV2ZW50IDcgaW1hZ2UgMSBmbGFncyAyNTYgYnl0ZXMgMTYvMTYgc3RyZWFtcyAyLzIgZmlsZXMgNy83DQpleHRyYWN0IDAgZmQtdmFsaWQgMCBtb2RlLWJpbmFyeSAwDQp3cml0dGVuIDM1NzYgZHJhaW5lZCAxMjIwIGFwaS1yZWFkIDIzNTYgZmVlZGVyLWVycm9yIDAgY2xvc2UgLTENCg==",
+        "stdout": "event 0 image 1 flags 256 bytes 0/16 streams 0/2 files 0/0\r\nevent 3 image 1 flags 256 bytes 0/16 streams 0/2 files 0/7\r\nevent 3 image 1 flags 256 bytes 0/16 streams 0/2 files 7/7\r\nevent 5 part 1/1\r\nevent 4 image 1 flags 256 bytes 12/16 streams 1/2 files 7/7\r\nevent 4 image 1 flags 256 bytes 16/16 streams 2/2 files 7/7\r\nevent 6 image 1 flags 256 bytes 16/16 streams 2/2 files 0/7\r\nevent 6 image 1 flags 256 bytes 16/16 streams 2/2 files 7/7\r\nevent 7 image 1 flags 256 bytes 16/16 streams 2/2 files 7/7\r\nextract 0 fd-valid 0 mode-binary 0\r\nwritten 3576 drained 1220 api-read 2356 feeder-error 0 close -1\r\n",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": [
+        {
+          "Path": "\\sub",
+          "Directory": true,
+          "Attrs": 16,
+          "Hash": {}
+        },
+        {
+          "Path": "\\a.bin",
+          "Directory": false,
+          "Attrs": 33,
+          "Hash": "5FC94324CAA9E1D5ED54725D86A5095D918257E192E1092BD09ECEFA82763CD7"
+        },
+        {
+          "Path": "\\empty.txt",
+          "Directory": false,
+          "Attrs": 32,
+          "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+        },
+        {
+          "Path": "\\link.bin",
+          "Directory": false,
+          "Attrs": 33,
+          "Hash": "5FC94324CAA9E1D5ED54725D86A5095D918257E192E1092BD09ECEFA82763CD7"
+        },
+        {
+          "Path": "\\\u00e9\u6f22\ud834\udd1e.bin",
+          "Directory": false,
+          "Attrs": 34,
+          "Hash": "5D8D910591D272938AEF5F966E0816E374BEAF7B5ADF02CCA5F8F770596C2CE3"
+        },
+        {
+          "Path": "\\sub\\third.bin",
+          "Directory": false,
+          "Attrs": 33,
+          "Hash": "5FC94324CAA9E1D5ED54725D86A5095D918257E192E1092BD09ECEFA82763CD7"
+        }
+      ]
+    },
+    {
+      "image": "1",
+      "flags": 0,
+      "chunk": 65536,
+      "stop": -1,
+      "status": 0,
+      "callback": 1,
+      "result": {
+        "exit": 0,
+        "signal": null,
+        "stdout_base64": "ZXZlbnQgMCBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAwLzE2IHN0cmVhbXMgMC8yIGZpbGVzIDAvMA0KZXZlbnQgMyBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAwLzE2IHN0cmVhbXMgMC8yIGZpbGVzIDAvNw0KZXZlbnQgMyBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAwLzE2IHN0cmVhbXMgMC8yIGZpbGVzIDcvNw0KZXZlbnQgNSBwYXJ0IDEvMQ0KZXZlbnQgNCBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAxMi8xNiBzdHJlYW1zIDEvMiBmaWxlcyA3LzcNCmV2ZW50IDQgaW1hZ2UgMSBmbGFncyAyNTYgYnl0ZXMgMTYvMTYgc3RyZWFtcyAyLzIgZmlsZXMgNy83DQpldmVudCA2IGltYWdlIDEgZmxhZ3MgMjU2IGJ5dGVzIDE2LzE2IHN0cmVhbXMgMi8yIGZpbGVzIDAvNw0KZXZlbnQgNiBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAxNi8xNiBzdHJlYW1zIDIvMiBmaWxlcyA3LzcNCmV2ZW50IDcgaW1hZ2UgMSBmbGFncyAyNTYgYnl0ZXMgMTYvMTYgc3RyZWFtcyAyLzIgZmlsZXMgNy83DQpleHRyYWN0IDAgZmQtdmFsaWQgMCBtb2RlLWJpbmFyeSAwDQp3cml0dGVuIDM1NzYgZHJhaW5lZCAxMjIwIGFwaS1yZWFkIDIzNTYgZmVlZGVyLWVycm9yIDAgY2xvc2UgLTENCg==",
+        "stdout": "event 0 image 1 flags 256 bytes 0/16 streams 0/2 files 0/0\r\nevent 3 image 1 flags 256 bytes 0/16 streams 0/2 files 0/7\r\nevent 3 image 1 flags 256 bytes 0/16 streams 0/2 files 7/7\r\nevent 5 part 1/1\r\nevent 4 image 1 flags 256 bytes 12/16 streams 1/2 files 7/7\r\nevent 4 image 1 flags 256 bytes 16/16 streams 2/2 files 7/7\r\nevent 6 image 1 flags 256 bytes 16/16 streams 2/2 files 0/7\r\nevent 6 image 1 flags 256 bytes 16/16 streams 2/2 files 7/7\r\nevent 7 image 1 flags 256 bytes 16/16 streams 2/2 files 7/7\r\nextract 0 fd-valid 0 mode-binary 0\r\nwritten 3576 drained 1220 api-read 2356 feeder-error 0 close -1\r\n",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": [
+        {
+          "Path": "\\sub",
+          "Directory": true,
+          "Attrs": 16,
+          "Hash": {}
+        },
+        {
+          "Path": "\\a.bin",
+          "Directory": false,
+          "Attrs": 33,
+          "Hash": "5FC94324CAA9E1D5ED54725D86A5095D918257E192E1092BD09ECEFA82763CD7"
+        },
+        {
+          "Path": "\\empty.txt",
+          "Directory": false,
+          "Attrs": 32,
+          "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+        },
+        {
+          "Path": "\\link.bin",
+          "Directory": false,
+          "Attrs": 33,
+          "Hash": "5FC94324CAA9E1D5ED54725D86A5095D918257E192E1092BD09ECEFA82763CD7"
+        },
+        {
+          "Path": "\\\u00e9\u6f22\ud834\udd1e.bin",
+          "Directory": false,
+          "Attrs": 34,
+          "Hash": "5D8D910591D272938AEF5F966E0816E374BEAF7B5ADF02CCA5F8F770596C2CE3"
+        },
+        {
+          "Path": "\\sub\\third.bin",
+          "Directory": false,
+          "Attrs": 33,
+          "Hash": "5FC94324CAA9E1D5ED54725D86A5095D918257E192E1092BD09ECEFA82763CD7"
+        }
+      ]
+    },
+    {
+      "image": "Capture-\u00e9\u6f22\ud834\udd1e",
+      "flags": 0,
+      "chunk": 7,
+      "stop": -1,
+      "status": 0,
+      "callback": 1,
+      "result": {
+        "exit": 0,
+        "signal": null,
+        "stdout_base64": "ZXZlbnQgMCBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAwLzE2IHN0cmVhbXMgMC8yIGZpbGVzIDAvMA0KZXZlbnQgMyBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAwLzE2IHN0cmVhbXMgMC8yIGZpbGVzIDAvNw0KZXZlbnQgMyBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAwLzE2IHN0cmVhbXMgMC8yIGZpbGVzIDcvNw0KZXZlbnQgNSBwYXJ0IDEvMQ0KZXZlbnQgNCBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAxMi8xNiBzdHJlYW1zIDEvMiBmaWxlcyA3LzcNCmV2ZW50IDQgaW1hZ2UgMSBmbGFncyAyNTYgYnl0ZXMgMTYvMTYgc3RyZWFtcyAyLzIgZmlsZXMgNy83DQpldmVudCA2IGltYWdlIDEgZmxhZ3MgMjU2IGJ5dGVzIDE2LzE2IHN0cmVhbXMgMi8yIGZpbGVzIDAvNw0KZXZlbnQgNiBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAxNi8xNiBzdHJlYW1zIDIvMiBmaWxlcyA3LzcNCmV2ZW50IDcgaW1hZ2UgMSBmbGFncyAyNTYgYnl0ZXMgMTYvMTYgc3RyZWFtcyAyLzIgZmlsZXMgNy83DQpleHRyYWN0IDAgZmQtdmFsaWQgMCBtb2RlLWJpbmFyeSAwDQp3cml0dGVuIDM1NzYgZHJhaW5lZCAxMjIwIGFwaS1yZWFkIDIzNTYgZmVlZGVyLWVycm9yIDAgY2xvc2UgLTENCg==",
+        "stdout": "event 0 image 1 flags 256 bytes 0/16 streams 0/2 files 0/0\r\nevent 3 image 1 flags 256 bytes 0/16 streams 0/2 files 0/7\r\nevent 3 image 1 flags 256 bytes 0/16 streams 0/2 files 7/7\r\nevent 5 part 1/1\r\nevent 4 image 1 flags 256 bytes 12/16 streams 1/2 files 7/7\r\nevent 4 image 1 flags 256 bytes 16/16 streams 2/2 files 7/7\r\nevent 6 image 1 flags 256 bytes 16/16 streams 2/2 files 0/7\r\nevent 6 image 1 flags 256 bytes 16/16 streams 2/2 files 7/7\r\nevent 7 image 1 flags 256 bytes 16/16 streams 2/2 files 7/7\r\nextract 0 fd-valid 0 mode-binary 0\r\nwritten 3576 drained 1220 api-read 2356 feeder-error 0 close -1\r\n",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": [
+        {
+          "Path": "\\sub",
+          "Directory": true,
+          "Attrs": 16,
+          "Hash": {}
+        },
+        {
+          "Path": "\\a.bin",
+          "Directory": false,
+          "Attrs": 33,
+          "Hash": "5FC94324CAA9E1D5ED54725D86A5095D918257E192E1092BD09ECEFA82763CD7"
+        },
+        {
+          "Path": "\\empty.txt",
+          "Directory": false,
+          "Attrs": 32,
+          "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+        },
+        {
+          "Path": "\\link.bin",
+          "Directory": false,
+          "Attrs": 33,
+          "Hash": "5FC94324CAA9E1D5ED54725D86A5095D918257E192E1092BD09ECEFA82763CD7"
+        },
+        {
+          "Path": "\\\u00e9\u6f22\ud834\udd1e.bin",
+          "Directory": false,
+          "Attrs": 34,
+          "Hash": "5D8D910591D272938AEF5F966E0816E374BEAF7B5ADF02CCA5F8F770596C2CE3"
+        },
+        {
+          "Path": "\\sub\\third.bin",
+          "Directory": false,
+          "Attrs": 33,
+          "Hash": "5FC94324CAA9E1D5ED54725D86A5095D918257E192E1092BD09ECEFA82763CD7"
+        }
+      ]
+    },
+    {
+      "image": "Capture-\u00e9\u6f22\ud834\udd1e",
+      "flags": 0,
+      "chunk": 65536,
+      "stop": -1,
+      "status": 0,
+      "callback": 1,
+      "result": {
+        "exit": 0,
+        "signal": null,
+        "stdout_base64": "ZXZlbnQgMCBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAwLzE2IHN0cmVhbXMgMC8yIGZpbGVzIDAvMA0KZXZlbnQgMyBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAwLzE2IHN0cmVhbXMgMC8yIGZpbGVzIDAvNw0KZXZlbnQgMyBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAwLzE2IHN0cmVhbXMgMC8yIGZpbGVzIDcvNw0KZXZlbnQgNSBwYXJ0IDEvMQ0KZXZlbnQgNCBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAxMi8xNiBzdHJlYW1zIDEvMiBmaWxlcyA3LzcNCmV2ZW50IDQgaW1hZ2UgMSBmbGFncyAyNTYgYnl0ZXMgMTYvMTYgc3RyZWFtcyAyLzIgZmlsZXMgNy83DQpldmVudCA2IGltYWdlIDEgZmxhZ3MgMjU2IGJ5dGVzIDE2LzE2IHN0cmVhbXMgMi8yIGZpbGVzIDAvNw0KZXZlbnQgNiBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAxNi8xNiBzdHJlYW1zIDIvMiBmaWxlcyA3LzcNCmV2ZW50IDcgaW1hZ2UgMSBmbGFncyAyNTYgYnl0ZXMgMTYvMTYgc3RyZWFtcyAyLzIgZmlsZXMgNy83DQpleHRyYWN0IDAgZmQtdmFsaWQgMCBtb2RlLWJpbmFyeSAwDQp3cml0dGVuIDM1NzYgZHJhaW5lZCAxMjIwIGFwaS1yZWFkIDIzNTYgZmVlZGVyLWVycm9yIDAgY2xvc2UgLTENCg==",
+        "stdout": "event 0 image 1 flags 256 bytes 0/16 streams 0/2 files 0/0\r\nevent 3 image 1 flags 256 bytes 0/16 streams 0/2 files 0/7\r\nevent 3 image 1 flags 256 bytes 0/16 streams 0/2 files 7/7\r\nevent 5 part 1/1\r\nevent 4 image 1 flags 256 bytes 12/16 streams 1/2 files 7/7\r\nevent 4 image 1 flags 256 bytes 16/16 streams 2/2 files 7/7\r\nevent 6 image 1 flags 256 bytes 16/16 streams 2/2 files 0/7\r\nevent 6 image 1 flags 256 bytes 16/16 streams 2/2 files 7/7\r\nevent 7 image 1 flags 256 bytes 16/16 streams 2/2 files 7/7\r\nextract 0 fd-valid 0 mode-binary 0\r\nwritten 3576 drained 1220 api-read 2356 feeder-error 0 close -1\r\n",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": [
+        {
+          "Path": "\\sub",
+          "Directory": true,
+          "Attrs": 16,
+          "Hash": {}
+        },
+        {
+          "Path": "\\a.bin",
+          "Directory": false,
+          "Attrs": 33,
+          "Hash": "5FC94324CAA9E1D5ED54725D86A5095D918257E192E1092BD09ECEFA82763CD7"
+        },
+        {
+          "Path": "\\empty.txt",
+          "Directory": false,
+          "Attrs": 32,
+          "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+        },
+        {
+          "Path": "\\link.bin",
+          "Directory": false,
+          "Attrs": 33,
+          "Hash": "5FC94324CAA9E1D5ED54725D86A5095D918257E192E1092BD09ECEFA82763CD7"
+        },
+        {
+          "Path": "\\\u00e9\u6f22\ud834\udd1e.bin",
+          "Directory": false,
+          "Attrs": 34,
+          "Hash": "5D8D910591D272938AEF5F966E0816E374BEAF7B5ADF02CCA5F8F770596C2CE3"
+        },
+        {
+          "Path": "\\sub\\third.bin",
+          "Directory": false,
+          "Attrs": 33,
+          "Hash": "5FC94324CAA9E1D5ED54725D86A5095D918257E192E1092BD09ECEFA82763CD7"
+        }
+      ]
+    },
+    {
+      "image": "2",
+      "flags": 0,
+      "chunk": 7,
+      "stop": -1,
+      "status": 0,
+      "callback": 1,
+      "result": {
+        "exit": 0,
+        "signal": null,
+        "stdout_base64": "ZXh0cmFjdCAxOCBmZC12YWxpZCAwIG1vZGUtYmluYXJ5IDANCndyaXR0ZW4gMzU3NiBkcmFpbmVkIDI2MDQgYXBpLXJlYWQgOTcyIGZlZWRlci1lcnJvciAwIGNsb3NlIC0xDQo=",
+        "stdout": "extract 18 fd-valid 0 mode-binary 0\r\nwritten 3576 drained 2604 api-read 972 feeder-error 0 close -1\r\n",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": null
+    },
+    {
+      "image": "2",
+      "flags": 0,
+      "chunk": 65536,
+      "stop": -1,
+      "status": 0,
+      "callback": 1,
+      "result": {
+        "exit": 0,
+        "signal": null,
+        "stdout_base64": "ZXh0cmFjdCAxOCBmZC12YWxpZCAwIG1vZGUtYmluYXJ5IDANCndyaXR0ZW4gMzU3NiBkcmFpbmVkIDI2MDQgYXBpLXJlYWQgOTcyIGZlZWRlci1lcnJvciAwIGNsb3NlIC0xDQo=",
+        "stdout": "extract 18 fd-valid 0 mode-binary 0\r\nwritten 3576 drained 2604 api-read 972 feeder-error 0 close -1\r\n",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": null
+    },
+    {
+      "image": "-null",
+      "flags": 0,
+      "chunk": 7,
+      "stop": -1,
+      "status": 0,
+      "callback": 1,
+      "result": {
+        "exit": 0,
+        "signal": null,
+        "stdout_base64": "ZXZlbnQgMCBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAwLzE2IHN0cmVhbXMgMC8yIGZpbGVzIDAvMA0KZXZlbnQgMyBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAwLzE2IHN0cmVhbXMgMC8yIGZpbGVzIDAvNw0KZXZlbnQgMyBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAwLzE2IHN0cmVhbXMgMC8yIGZpbGVzIDcvNw0KZXZlbnQgNSBwYXJ0IDEvMQ0KZXZlbnQgNCBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAxMi8xNiBzdHJlYW1zIDEvMiBmaWxlcyA3LzcNCmV2ZW50IDQgaW1hZ2UgMSBmbGFncyAyNTYgYnl0ZXMgMTYvMTYgc3RyZWFtcyAyLzIgZmlsZXMgNy83DQpldmVudCA2IGltYWdlIDEgZmxhZ3MgMjU2IGJ5dGVzIDE2LzE2IHN0cmVhbXMgMi8yIGZpbGVzIDAvNw0KZXZlbnQgNiBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAxNi8xNiBzdHJlYW1zIDIvMiBmaWxlcyA3LzcNCmV2ZW50IDcgaW1hZ2UgMSBmbGFncyAyNTYgYnl0ZXMgMTYvMTYgc3RyZWFtcyAyLzIgZmlsZXMgNy83DQpleHRyYWN0IDAgZmQtdmFsaWQgMCBtb2RlLWJpbmFyeSAwDQp3cml0dGVuIDM1NzYgZHJhaW5lZCAxMjIwIGFwaS1yZWFkIDIzNTYgZmVlZGVyLWVycm9yIDAgY2xvc2UgLTENCg==",
+        "stdout": "event 0 image 1 flags 256 bytes 0/16 streams 0/2 files 0/0\r\nevent 3 image 1 flags 256 bytes 0/16 streams 0/2 files 0/7\r\nevent 3 image 1 flags 256 bytes 0/16 streams 0/2 files 7/7\r\nevent 5 part 1/1\r\nevent 4 image 1 flags 256 bytes 12/16 streams 1/2 files 7/7\r\nevent 4 image 1 flags 256 bytes 16/16 streams 2/2 files 7/7\r\nevent 6 image 1 flags 256 bytes 16/16 streams 2/2 files 0/7\r\nevent 6 image 1 flags 256 bytes 16/16 streams 2/2 files 7/7\r\nevent 7 image 1 flags 256 bytes 16/16 streams 2/2 files 7/7\r\nextract 0 fd-valid 0 mode-binary 0\r\nwritten 3576 drained 1220 api-read 2356 feeder-error 0 close -1\r\n",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": [
+        {
+          "Path": "\\sub",
+          "Directory": true,
+          "Attrs": 16,
+          "Hash": {}
+        },
+        {
+          "Path": "\\a.bin",
+          "Directory": false,
+          "Attrs": 33,
+          "Hash": "5FC94324CAA9E1D5ED54725D86A5095D918257E192E1092BD09ECEFA82763CD7"
+        },
+        {
+          "Path": "\\empty.txt",
+          "Directory": false,
+          "Attrs": 32,
+          "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+        },
+        {
+          "Path": "\\link.bin",
+          "Directory": false,
+          "Attrs": 33,
+          "Hash": "5FC94324CAA9E1D5ED54725D86A5095D918257E192E1092BD09ECEFA82763CD7"
+        },
+        {
+          "Path": "\\\u00e9\u6f22\ud834\udd1e.bin",
+          "Directory": false,
+          "Attrs": 34,
+          "Hash": "5D8D910591D272938AEF5F966E0816E374BEAF7B5ADF02CCA5F8F770596C2CE3"
+        },
+        {
+          "Path": "\\sub\\third.bin",
+          "Directory": false,
+          "Attrs": 33,
+          "Hash": "5FC94324CAA9E1D5ED54725D86A5095D918257E192E1092BD09ECEFA82763CD7"
+        }
+      ]
+    },
+    {
+      "image": "-null",
+      "flags": 0,
+      "chunk": 65536,
+      "stop": -1,
+      "status": 0,
+      "callback": 1,
+      "result": {
+        "exit": 0,
+        "signal": null,
+        "stdout_base64": "ZXZlbnQgMCBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAwLzE2IHN0cmVhbXMgMC8yIGZpbGVzIDAvMA0KZXZlbnQgMyBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAwLzE2IHN0cmVhbXMgMC8yIGZpbGVzIDAvNw0KZXZlbnQgMyBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAwLzE2IHN0cmVhbXMgMC8yIGZpbGVzIDcvNw0KZXZlbnQgNSBwYXJ0IDEvMQ0KZXZlbnQgNCBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAxMi8xNiBzdHJlYW1zIDEvMiBmaWxlcyA3LzcNCmV2ZW50IDQgaW1hZ2UgMSBmbGFncyAyNTYgYnl0ZXMgMTYvMTYgc3RyZWFtcyAyLzIgZmlsZXMgNy83DQpldmVudCA2IGltYWdlIDEgZmxhZ3MgMjU2IGJ5dGVzIDE2LzE2IHN0cmVhbXMgMi8yIGZpbGVzIDAvNw0KZXZlbnQgNiBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAxNi8xNiBzdHJlYW1zIDIvMiBmaWxlcyA3LzcNCmV2ZW50IDcgaW1hZ2UgMSBmbGFncyAyNTYgYnl0ZXMgMTYvMTYgc3RyZWFtcyAyLzIgZmlsZXMgNy83DQpleHRyYWN0IDAgZmQtdmFsaWQgMCBtb2RlLWJpbmFyeSAwDQp3cml0dGVuIDM1NzYgZHJhaW5lZCAxMjIwIGFwaS1yZWFkIDIzNTYgZmVlZGVyLWVycm9yIDAgY2xvc2UgLTENCg==",
+        "stdout": "event 0 image 1 flags 256 bytes 0/16 streams 0/2 files 0/0\r\nevent 3 image 1 flags 256 bytes 0/16 streams 0/2 files 0/7\r\nevent 3 image 1 flags 256 bytes 0/16 streams 0/2 files 7/7\r\nevent 5 part 1/1\r\nevent 4 image 1 flags 256 bytes 12/16 streams 1/2 files 7/7\r\nevent 4 image 1 flags 256 bytes 16/16 streams 2/2 files 7/7\r\nevent 6 image 1 flags 256 bytes 16/16 streams 2/2 files 0/7\r\nevent 6 image 1 flags 256 bytes 16/16 streams 2/2 files 7/7\r\nevent 7 image 1 flags 256 bytes 16/16 streams 2/2 files 7/7\r\nextract 0 fd-valid 0 mode-binary 0\r\nwritten 3576 drained 1220 api-read 2356 feeder-error 0 close -1\r\n",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": [
+        {
+          "Path": "\\sub",
+          "Directory": true,
+          "Attrs": 16,
+          "Hash": {}
+        },
+        {
+          "Path": "\\a.bin",
+          "Directory": false,
+          "Attrs": 33,
+          "Hash": "5FC94324CAA9E1D5ED54725D86A5095D918257E192E1092BD09ECEFA82763CD7"
+        },
+        {
+          "Path": "\\empty.txt",
+          "Directory": false,
+          "Attrs": 32,
+          "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+        },
+        {
+          "Path": "\\link.bin",
+          "Directory": false,
+          "Attrs": 33,
+          "Hash": "5FC94324CAA9E1D5ED54725D86A5095D918257E192E1092BD09ECEFA82763CD7"
+        },
+        {
+          "Path": "\\\u00e9\u6f22\ud834\udd1e.bin",
+          "Directory": false,
+          "Attrs": 34,
+          "Hash": "5D8D910591D272938AEF5F966E0816E374BEAF7B5ADF02CCA5F8F770596C2CE3"
+        },
+        {
+          "Path": "\\sub\\third.bin",
+          "Directory": false,
+          "Attrs": 33,
+          "Hash": "5FC94324CAA9E1D5ED54725D86A5095D918257E192E1092BD09ECEFA82763CD7"
+        }
+      ]
+    },
+    {
+      "image": "1",
+      "flags": 64,
+      "chunk": 7,
+      "stop": -1,
+      "status": 0,
+      "callback": 1,
+      "result": {
+        "exit": 0,
+        "signal": null,
+        "stdout_base64": "ZXZlbnQgMCBpbWFnZSAxIGZsYWdzIDMyMCBieXRlcyAwLzE2IHN0cmVhbXMgMC8yIGZpbGVzIDAvMA0KZXZlbnQgMyBpbWFnZSAxIGZsYWdzIDMyMCBieXRlcyAwLzE2IHN0cmVhbXMgMC8yIGZpbGVzIDAvNw0KZXZlbnQgMyBpbWFnZSAxIGZsYWdzIDMyMCBieXRlcyAwLzE2IHN0cmVhbXMgMC8yIGZpbGVzIDcvNw0KZXZlbnQgNSBwYXJ0IDEvMQ0KZXZlbnQgNCBpbWFnZSAxIGZsYWdzIDMyMCBieXRlcyAxMi8xNiBzdHJlYW1zIDEvMiBmaWxlcyA3LzcNCmV2ZW50IDQgaW1hZ2UgMSBmbGFncyAzMjAgYnl0ZXMgMTYvMTYgc3RyZWFtcyAyLzIgZmlsZXMgNy83DQpldmVudCA2IGltYWdlIDEgZmxhZ3MgMzIwIGJ5dGVzIDE2LzE2IHN0cmVhbXMgMi8yIGZpbGVzIDAvNw0KZXZlbnQgNiBpbWFnZSAxIGZsYWdzIDMyMCBieXRlcyAxNi8xNiBzdHJlYW1zIDIvMiBmaWxlcyA3LzcNCmV2ZW50IDcgaW1hZ2UgMSBmbGFncyAzMjAgYnl0ZXMgMTYvMTYgc3RyZWFtcyAyLzIgZmlsZXMgNy83DQpleHRyYWN0IDAgZmQtdmFsaWQgMCBtb2RlLWJpbmFyeSAwDQp3cml0dGVuIDM1NzYgZHJhaW5lZCAxMjIwIGFwaS1yZWFkIDIzNTYgZmVlZGVyLWVycm9yIDAgY2xvc2UgLTENCg==",
+        "stdout": "event 0 image 1 flags 320 bytes 0/16 streams 0/2 files 0/0\r\nevent 3 image 1 flags 320 bytes 0/16 streams 0/2 files 0/7\r\nevent 3 image 1 flags 320 bytes 0/16 streams 0/2 files 7/7\r\nevent 5 part 1/1\r\nevent 4 image 1 flags 320 bytes 12/16 streams 1/2 files 7/7\r\nevent 4 image 1 flags 320 bytes 16/16 streams 2/2 files 7/7\r\nevent 6 image 1 flags 320 bytes 16/16 streams 2/2 files 0/7\r\nevent 6 image 1 flags 320 bytes 16/16 streams 2/2 files 7/7\r\nevent 7 image 1 flags 320 bytes 16/16 streams 2/2 files 7/7\r\nextract 0 fd-valid 0 mode-binary 0\r\nwritten 3576 drained 1220 api-read 2356 feeder-error 0 close -1\r\n",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": [
+        {
+          "Path": "\\sub",
+          "Directory": true,
+          "Attrs": 16,
+          "Hash": {}
+        },
+        {
+          "Path": "\\a.bin",
+          "Directory": false,
+          "Attrs": 33,
+          "Hash": "5FC94324CAA9E1D5ED54725D86A5095D918257E192E1092BD09ECEFA82763CD7"
+        },
+        {
+          "Path": "\\empty.txt",
+          "Directory": false,
+          "Attrs": 32,
+          "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+        },
+        {
+          "Path": "\\link.bin",
+          "Directory": false,
+          "Attrs": 33,
+          "Hash": "5FC94324CAA9E1D5ED54725D86A5095D918257E192E1092BD09ECEFA82763CD7"
+        },
+        {
+          "Path": "\\\u00e9\u6f22\ud834\udd1e.bin",
+          "Directory": false,
+          "Attrs": 34,
+          "Hash": "5D8D910591D272938AEF5F966E0816E374BEAF7B5ADF02CCA5F8F770596C2CE3"
+        },
+        {
+          "Path": "\\sub\\third.bin",
+          "Directory": false,
+          "Attrs": 33,
+          "Hash": "5FC94324CAA9E1D5ED54725D86A5095D918257E192E1092BD09ECEFA82763CD7"
+        }
+      ]
+    },
+    {
+      "image": "1",
+      "flags": 64,
+      "chunk": 65536,
+      "stop": -1,
+      "status": 0,
+      "callback": 1,
+      "result": {
+        "exit": 0,
+        "signal": null,
+        "stdout_base64": "ZXZlbnQgMCBpbWFnZSAxIGZsYWdzIDMyMCBieXRlcyAwLzE2IHN0cmVhbXMgMC8yIGZpbGVzIDAvMA0KZXZlbnQgMyBpbWFnZSAxIGZsYWdzIDMyMCBieXRlcyAwLzE2IHN0cmVhbXMgMC8yIGZpbGVzIDAvNw0KZXZlbnQgMyBpbWFnZSAxIGZsYWdzIDMyMCBieXRlcyAwLzE2IHN0cmVhbXMgMC8yIGZpbGVzIDcvNw0KZXZlbnQgNSBwYXJ0IDEvMQ0KZXZlbnQgNCBpbWFnZSAxIGZsYWdzIDMyMCBieXRlcyAxMi8xNiBzdHJlYW1zIDEvMiBmaWxlcyA3LzcNCmV2ZW50IDQgaW1hZ2UgMSBmbGFncyAzMjAgYnl0ZXMgMTYvMTYgc3RyZWFtcyAyLzIgZmlsZXMgNy83DQpldmVudCA2IGltYWdlIDEgZmxhZ3MgMzIwIGJ5dGVzIDE2LzE2IHN0cmVhbXMgMi8yIGZpbGVzIDAvNw0KZXZlbnQgNiBpbWFnZSAxIGZsYWdzIDMyMCBieXRlcyAxNi8xNiBzdHJlYW1zIDIvMiBmaWxlcyA3LzcNCmV2ZW50IDcgaW1hZ2UgMSBmbGFncyAzMjAgYnl0ZXMgMTYvMTYgc3RyZWFtcyAyLzIgZmlsZXMgNy83DQpleHRyYWN0IDAgZmQtdmFsaWQgMCBtb2RlLWJpbmFyeSAwDQp3cml0dGVuIDM1NzYgZHJhaW5lZCAxMjIwIGFwaS1yZWFkIDIzNTYgZmVlZGVyLWVycm9yIDAgY2xvc2UgLTENCg==",
+        "stdout": "event 0 image 1 flags 320 bytes 0/16 streams 0/2 files 0/0\r\nevent 3 image 1 flags 320 bytes 0/16 streams 0/2 files 0/7\r\nevent 3 image 1 flags 320 bytes 0/16 streams 0/2 files 7/7\r\nevent 5 part 1/1\r\nevent 4 image 1 flags 320 bytes 12/16 streams 1/2 files 7/7\r\nevent 4 image 1 flags 320 bytes 16/16 streams 2/2 files 7/7\r\nevent 6 image 1 flags 320 bytes 16/16 streams 2/2 files 0/7\r\nevent 6 image 1 flags 320 bytes 16/16 streams 2/2 files 7/7\r\nevent 7 image 1 flags 320 bytes 16/16 streams 2/2 files 7/7\r\nextract 0 fd-valid 0 mode-binary 0\r\nwritten 3576 drained 1220 api-read 2356 feeder-error 0 close -1\r\n",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": [
+        {
+          "Path": "\\sub",
+          "Directory": true,
+          "Attrs": 16,
+          "Hash": {}
+        },
+        {
+          "Path": "\\a.bin",
+          "Directory": false,
+          "Attrs": 33,
+          "Hash": "5FC94324CAA9E1D5ED54725D86A5095D918257E192E1092BD09ECEFA82763CD7"
+        },
+        {
+          "Path": "\\empty.txt",
+          "Directory": false,
+          "Attrs": 32,
+          "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+        },
+        {
+          "Path": "\\link.bin",
+          "Directory": false,
+          "Attrs": 33,
+          "Hash": "5FC94324CAA9E1D5ED54725D86A5095D918257E192E1092BD09ECEFA82763CD7"
+        },
+        {
+          "Path": "\\\u00e9\u6f22\ud834\udd1e.bin",
+          "Directory": false,
+          "Attrs": 34,
+          "Hash": "5D8D910591D272938AEF5F966E0816E374BEAF7B5ADF02CCA5F8F770596C2CE3"
+        },
+        {
+          "Path": "\\sub\\third.bin",
+          "Directory": false,
+          "Attrs": 33,
+          "Hash": "5FC94324CAA9E1D5ED54725D86A5095D918257E192E1092BD09ECEFA82763CD7"
+        }
+      ]
+    },
+    {
+      "image": "1",
+      "flags": 1073741824,
+      "chunk": 7,
+      "stop": -1,
+      "status": 0,
+      "callback": 1,
+      "result": {
+        "exit": 0,
+        "signal": null,
+        "stdout_base64": "ZXh0cmFjdCAyNCBmZC12YWxpZCAxIG1vZGUtYmluYXJ5IDENCndyaXR0ZW4gMzU3NiBkcmFpbmVkIDM1NzYgYXBpLXJlYWQgMCBmZWVkZXItZXJyb3IgMCBjbG9zZSAwDQo=",
+        "stdout": "extract 24 fd-valid 1 mode-binary 1\r\nwritten 3576 drained 3576 api-read 0 feeder-error 0 close 0\r\n",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": null
+    },
+    {
+      "image": "1",
+      "flags": 1073741824,
+      "chunk": 65536,
+      "stop": -1,
+      "status": 0,
+      "callback": 1,
+      "result": {
+        "exit": 0,
+        "signal": null,
+        "stdout_base64": "ZXh0cmFjdCAyNCBmZC12YWxpZCAxIG1vZGUtYmluYXJ5IDENCndyaXR0ZW4gMzU3NiBkcmFpbmVkIDM1NzYgYXBpLXJlYWQgMCBmZWVkZXItZXJyb3IgMCBjbG9zZSAwDQo=",
+        "stdout": "extract 24 fd-valid 1 mode-binary 1\r\nwritten 3576 drained 3576 api-read 0 feeder-error 0 close 0\r\n",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": null
+    },
+    {
+      "image": "1",
+      "flags": 0,
+      "chunk": 7,
+      "stop": 0,
+      "status": 1,
+      "callback": 1,
+      "result": {
+        "exit": 0,
+        "signal": null,
+        "stdout_base64": "ZXZlbnQgMCBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAwLzE2IHN0cmVhbXMgMC8yIGZpbGVzIDAvMA0KZXh0cmFjdCA3NiBmZC12YWxpZCAwIG1vZGUtYmluYXJ5IDANCndyaXR0ZW4gMzU3NiBkcmFpbmVkIDEzMTYgYXBpLXJlYWQgMjI2MCBmZWVkZXItZXJyb3IgMCBjbG9zZSAtMQ0K",
+        "stdout": "event 0 image 1 flags 256 bytes 0/16 streams 0/2 files 0/0\r\nextract 76 fd-valid 0 mode-binary 0\r\nwritten 3576 drained 1316 api-read 2260 feeder-error 0 close -1\r\n",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": null
+    },
+    {
+      "image": "1",
+      "flags": 0,
+      "chunk": 7,
+      "stop": 0,
+      "status": 2,
+      "callback": 1,
+      "result": {
+        "exit": 0,
+        "signal": null,
+        "stdout_base64": "ZXZlbnQgMCBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAwLzE2IHN0cmVhbXMgMC8yIGZpbGVzIDAvMA0KZXh0cmFjdCA3NyBmZC12YWxpZCAwIG1vZGUtYmluYXJ5IDANCndyaXR0ZW4gMzU3NiBkcmFpbmVkIDEzMTYgYXBpLXJlYWQgMjI2MCBmZWVkZXItZXJyb3IgMCBjbG9zZSAtMQ0K",
+        "stdout": "event 0 image 1 flags 256 bytes 0/16 streams 0/2 files 0/0\r\nextract 77 fd-valid 0 mode-binary 0\r\nwritten 3576 drained 1316 api-read 2260 feeder-error 0 close -1\r\n",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": null
+    },
+    {
+      "image": "1",
+      "flags": 0,
+      "chunk": 7,
+      "stop": 3,
+      "status": 1,
+      "callback": 1,
+      "result": {
+        "exit": 0,
+        "signal": null,
+        "stdout_base64": "ZXZlbnQgMCBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAwLzE2IHN0cmVhbXMgMC8yIGZpbGVzIDAvMA0KZXZlbnQgMyBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAwLzE2IHN0cmVhbXMgMC8yIGZpbGVzIDAvNw0KZXh0cmFjdCA3NiBmZC12YWxpZCAwIG1vZGUtYmluYXJ5IDANCndyaXR0ZW4gMzU3NiBkcmFpbmVkIDEzMTYgYXBpLXJlYWQgMjI2MCBmZWVkZXItZXJyb3IgMCBjbG9zZSAtMQ0K",
+        "stdout": "event 0 image 1 flags 256 bytes 0/16 streams 0/2 files 0/0\r\nevent 3 image 1 flags 256 bytes 0/16 streams 0/2 files 0/7\r\nextract 76 fd-valid 0 mode-binary 0\r\nwritten 3576 drained 1316 api-read 2260 feeder-error 0 close -1\r\n",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": []
+    },
+    {
+      "image": "1",
+      "flags": 0,
+      "chunk": 7,
+      "stop": 3,
+      "status": 2,
+      "callback": 1,
+      "result": {
+        "exit": 0,
+        "signal": null,
+        "stdout_base64": "ZXZlbnQgMCBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAwLzE2IHN0cmVhbXMgMC8yIGZpbGVzIDAvMA0KZXZlbnQgMyBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAwLzE2IHN0cmVhbXMgMC8yIGZpbGVzIDAvNw0KZXh0cmFjdCA3NyBmZC12YWxpZCAwIG1vZGUtYmluYXJ5IDANCndyaXR0ZW4gMzU3NiBkcmFpbmVkIDEzMTYgYXBpLXJlYWQgMjI2MCBmZWVkZXItZXJyb3IgMCBjbG9zZSAtMQ0K",
+        "stdout": "event 0 image 1 flags 256 bytes 0/16 streams 0/2 files 0/0\r\nevent 3 image 1 flags 256 bytes 0/16 streams 0/2 files 0/7\r\nextract 77 fd-valid 0 mode-binary 0\r\nwritten 3576 drained 1316 api-read 2260 feeder-error 0 close -1\r\n",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": []
+    },
+    {
+      "image": "1",
+      "flags": 0,
+      "chunk": 7,
+      "stop": 4,
+      "status": 1,
+      "callback": 1,
+      "result": {
+        "exit": 0,
+        "signal": null,
+        "stdout_base64": "ZXZlbnQgMCBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAwLzE2IHN0cmVhbXMgMC8yIGZpbGVzIDAvMA0KZXZlbnQgMyBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAwLzE2IHN0cmVhbXMgMC8yIGZpbGVzIDAvNw0KZXZlbnQgMyBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAwLzE2IHN0cmVhbXMgMC8yIGZpbGVzIDcvNw0KZXZlbnQgNSBwYXJ0IDEvMQ0KZXZlbnQgNCBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAxMi8xNiBzdHJlYW1zIDEvMiBmaWxlcyA3LzcNCmV4dHJhY3QgNzYgZmQtdmFsaWQgMCBtb2RlLWJpbmFyeSAwDQp3cml0dGVuIDM1NzYgZHJhaW5lZCAxMjY0IGFwaS1yZWFkIDIzMTIgZmVlZGVyLWVycm9yIDAgY2xvc2UgLTENCg==",
+        "stdout": "event 0 image 1 flags 256 bytes 0/16 streams 0/2 files 0/0\r\nevent 3 image 1 flags 256 bytes 0/16 streams 0/2 files 0/7\r\nevent 3 image 1 flags 256 bytes 0/16 streams 0/2 files 7/7\r\nevent 5 part 1/1\r\nevent 4 image 1 flags 256 bytes 12/16 streams 1/2 files 7/7\r\nextract 76 fd-valid 0 mode-binary 0\r\nwritten 3576 drained 1264 api-read 2312 feeder-error 0 close -1\r\n",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": [
+        {
+          "Path": "\\sub",
+          "Directory": true,
+          "Attrs": 20,
+          "Hash": {}
+        },
+        {
+          "Path": "\\a.bin",
+          "Directory": false,
+          "Attrs": 36,
+          "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+        },
+        {
+          "Path": "\\empty.txt",
+          "Directory": false,
+          "Attrs": 36,
+          "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+        },
+        {
+          "Path": "\\link.bin",
+          "Directory": false,
+          "Attrs": 36,
+          "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+        },
+        {
+          "Path": "\\\u00e9\u6f22\ud834\udd1e.bin",
+          "Directory": false,
+          "Attrs": 36,
+          "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+        },
+        {
+          "Path": "\\sub\\third.bin",
+          "Directory": false,
+          "Attrs": 36,
+          "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+        }
+      ]
+    },
+    {
+      "image": "1",
+      "flags": 0,
+      "chunk": 7,
+      "stop": 4,
+      "status": 2,
+      "callback": 1,
+      "result": {
+        "exit": 0,
+        "signal": null,
+        "stdout_base64": "ZXZlbnQgMCBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAwLzE2IHN0cmVhbXMgMC8yIGZpbGVzIDAvMA0KZXZlbnQgMyBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAwLzE2IHN0cmVhbXMgMC8yIGZpbGVzIDAvNw0KZXZlbnQgMyBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAwLzE2IHN0cmVhbXMgMC8yIGZpbGVzIDcvNw0KZXZlbnQgNSBwYXJ0IDEvMQ0KZXZlbnQgNCBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAxMi8xNiBzdHJlYW1zIDEvMiBmaWxlcyA3LzcNCmV4dHJhY3QgNzcgZmQtdmFsaWQgMCBtb2RlLWJpbmFyeSAwDQp3cml0dGVuIDM1NzYgZHJhaW5lZCAxMjY0IGFwaS1yZWFkIDIzMTIgZmVlZGVyLWVycm9yIDAgY2xvc2UgLTENCg==",
+        "stdout": "event 0 image 1 flags 256 bytes 0/16 streams 0/2 files 0/0\r\nevent 3 image 1 flags 256 bytes 0/16 streams 0/2 files 0/7\r\nevent 3 image 1 flags 256 bytes 0/16 streams 0/2 files 7/7\r\nevent 5 part 1/1\r\nevent 4 image 1 flags 256 bytes 12/16 streams 1/2 files 7/7\r\nextract 77 fd-valid 0 mode-binary 0\r\nwritten 3576 drained 1264 api-read 2312 feeder-error 0 close -1\r\n",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": [
+        {
+          "Path": "\\sub",
+          "Directory": true,
+          "Attrs": 20,
+          "Hash": {}
+        },
+        {
+          "Path": "\\a.bin",
+          "Directory": false,
+          "Attrs": 36,
+          "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+        },
+        {
+          "Path": "\\empty.txt",
+          "Directory": false,
+          "Attrs": 36,
+          "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+        },
+        {
+          "Path": "\\link.bin",
+          "Directory": false,
+          "Attrs": 36,
+          "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+        },
+        {
+          "Path": "\\\u00e9\u6f22\ud834\udd1e.bin",
+          "Directory": false,
+          "Attrs": 36,
+          "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+        },
+        {
+          "Path": "\\sub\\third.bin",
+          "Directory": false,
+          "Attrs": 36,
+          "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+        }
+      ]
+    },
+    {
+      "image": "1",
+      "flags": 0,
+      "chunk": 7,
+      "stop": 5,
+      "status": 1,
+      "callback": 1,
+      "result": {
+        "exit": 0,
+        "signal": null,
+        "stdout_base64": "ZXZlbnQgMCBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAwLzE2IHN0cmVhbXMgMC8yIGZpbGVzIDAvMA0KZXZlbnQgMyBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAwLzE2IHN0cmVhbXMgMC8yIGZpbGVzIDAvNw0KZXZlbnQgMyBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAwLzE2IHN0cmVhbXMgMC8yIGZpbGVzIDcvNw0KZXZlbnQgNSBwYXJ0IDEvMQ0KZXh0cmFjdCA3NiBmZC12YWxpZCAwIG1vZGUtYmluYXJ5IDANCndyaXR0ZW4gMzU3NiBkcmFpbmVkIDEzMTYgYXBpLXJlYWQgMjI2MCBmZWVkZXItZXJyb3IgMCBjbG9zZSAtMQ0K",
+        "stdout": "event 0 image 1 flags 256 bytes 0/16 streams 0/2 files 0/0\r\nevent 3 image 1 flags 256 bytes 0/16 streams 0/2 files 0/7\r\nevent 3 image 1 flags 256 bytes 0/16 streams 0/2 files 7/7\r\nevent 5 part 1/1\r\nextract 76 fd-valid 0 mode-binary 0\r\nwritten 3576 drained 1316 api-read 2260 feeder-error 0 close -1\r\n",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": [
+        {
+          "Path": "\\sub",
+          "Directory": true,
+          "Attrs": 20,
+          "Hash": {}
+        },
+        {
+          "Path": "\\a.bin",
+          "Directory": false,
+          "Attrs": 36,
+          "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+        },
+        {
+          "Path": "\\empty.txt",
+          "Directory": false,
+          "Attrs": 36,
+          "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+        },
+        {
+          "Path": "\\link.bin",
+          "Directory": false,
+          "Attrs": 36,
+          "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+        },
+        {
+          "Path": "\\\u00e9\u6f22\ud834\udd1e.bin",
+          "Directory": false,
+          "Attrs": 36,
+          "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+        },
+        {
+          "Path": "\\sub\\third.bin",
+          "Directory": false,
+          "Attrs": 36,
+          "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+        }
+      ]
+    },
+    {
+      "image": "1",
+      "flags": 0,
+      "chunk": 7,
+      "stop": 5,
+      "status": 2,
+      "callback": 1,
+      "result": {
+        "exit": 0,
+        "signal": null,
+        "stdout_base64": "ZXZlbnQgMCBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAwLzE2IHN0cmVhbXMgMC8yIGZpbGVzIDAvMA0KZXZlbnQgMyBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAwLzE2IHN0cmVhbXMgMC8yIGZpbGVzIDAvNw0KZXZlbnQgMyBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAwLzE2IHN0cmVhbXMgMC8yIGZpbGVzIDcvNw0KZXZlbnQgNSBwYXJ0IDEvMQ0KZXh0cmFjdCA3NyBmZC12YWxpZCAwIG1vZGUtYmluYXJ5IDANCndyaXR0ZW4gMzU3NiBkcmFpbmVkIDEzMTYgYXBpLXJlYWQgMjI2MCBmZWVkZXItZXJyb3IgMCBjbG9zZSAtMQ0K",
+        "stdout": "event 0 image 1 flags 256 bytes 0/16 streams 0/2 files 0/0\r\nevent 3 image 1 flags 256 bytes 0/16 streams 0/2 files 0/7\r\nevent 3 image 1 flags 256 bytes 0/16 streams 0/2 files 7/7\r\nevent 5 part 1/1\r\nextract 77 fd-valid 0 mode-binary 0\r\nwritten 3576 drained 1316 api-read 2260 feeder-error 0 close -1\r\n",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": [
+        {
+          "Path": "\\sub",
+          "Directory": true,
+          "Attrs": 20,
+          "Hash": {}
+        },
+        {
+          "Path": "\\a.bin",
+          "Directory": false,
+          "Attrs": 36,
+          "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+        },
+        {
+          "Path": "\\empty.txt",
+          "Directory": false,
+          "Attrs": 36,
+          "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+        },
+        {
+          "Path": "\\link.bin",
+          "Directory": false,
+          "Attrs": 36,
+          "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+        },
+        {
+          "Path": "\\\u00e9\u6f22\ud834\udd1e.bin",
+          "Directory": false,
+          "Attrs": 36,
+          "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+        },
+        {
+          "Path": "\\sub\\third.bin",
+          "Directory": false,
+          "Attrs": 36,
+          "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+        }
+      ]
+    },
+    {
+      "image": "1",
+      "flags": 0,
+      "chunk": 7,
+      "stop": 6,
+      "status": 1,
+      "callback": 1,
+      "result": {
+        "exit": 0,
+        "signal": null,
+        "stdout_base64": "ZXZlbnQgMCBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAwLzE2IHN0cmVhbXMgMC8yIGZpbGVzIDAvMA0KZXZlbnQgMyBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAwLzE2IHN0cmVhbXMgMC8yIGZpbGVzIDAvNw0KZXZlbnQgMyBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAwLzE2IHN0cmVhbXMgMC8yIGZpbGVzIDcvNw0KZXZlbnQgNSBwYXJ0IDEvMQ0KZXZlbnQgNCBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAxMi8xNiBzdHJlYW1zIDEvMiBmaWxlcyA3LzcNCmV2ZW50IDQgaW1hZ2UgMSBmbGFncyAyNTYgYnl0ZXMgMTYvMTYgc3RyZWFtcyAyLzIgZmlsZXMgNy83DQpldmVudCA2IGltYWdlIDEgZmxhZ3MgMjU2IGJ5dGVzIDE2LzE2IHN0cmVhbXMgMi8yIGZpbGVzIDAvNw0KZXh0cmFjdCA3NiBmZC12YWxpZCAwIG1vZGUtYmluYXJ5IDANCndyaXR0ZW4gMzU3NiBkcmFpbmVkIDEyMjAgYXBpLXJlYWQgMjM1NiBmZWVkZXItZXJyb3IgMCBjbG9zZSAtMQ0K",
+        "stdout": "event 0 image 1 flags 256 bytes 0/16 streams 0/2 files 0/0\r\nevent 3 image 1 flags 256 bytes 0/16 streams 0/2 files 0/7\r\nevent 3 image 1 flags 256 bytes 0/16 streams 0/2 files 7/7\r\nevent 5 part 1/1\r\nevent 4 image 1 flags 256 bytes 12/16 streams 1/2 files 7/7\r\nevent 4 image 1 flags 256 bytes 16/16 streams 2/2 files 7/7\r\nevent 6 image 1 flags 256 bytes 16/16 streams 2/2 files 0/7\r\nextract 76 fd-valid 0 mode-binary 0\r\nwritten 3576 drained 1220 api-read 2356 feeder-error 0 close -1\r\n",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": [
+        {
+          "Path": "\\sub",
+          "Directory": true,
+          "Attrs": 20,
+          "Hash": {}
+        },
+        {
+          "Path": "\\a.bin",
+          "Directory": false,
+          "Attrs": 36,
+          "Hash": "5FC94324CAA9E1D5ED54725D86A5095D918257E192E1092BD09ECEFA82763CD7"
+        },
+        {
+          "Path": "\\empty.txt",
+          "Directory": false,
+          "Attrs": 36,
+          "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+        },
+        {
+          "Path": "\\link.bin",
+          "Directory": false,
+          "Attrs": 36,
+          "Hash": "5FC94324CAA9E1D5ED54725D86A5095D918257E192E1092BD09ECEFA82763CD7"
+        },
+        {
+          "Path": "\\\u00e9\u6f22\ud834\udd1e.bin",
+          "Directory": false,
+          "Attrs": 36,
+          "Hash": "5D8D910591D272938AEF5F966E0816E374BEAF7B5ADF02CCA5F8F770596C2CE3"
+        },
+        {
+          "Path": "\\sub\\third.bin",
+          "Directory": false,
+          "Attrs": 36,
+          "Hash": "5FC94324CAA9E1D5ED54725D86A5095D918257E192E1092BD09ECEFA82763CD7"
+        }
+      ]
+    },
+    {
+      "image": "1",
+      "flags": 0,
+      "chunk": 7,
+      "stop": 6,
+      "status": 2,
+      "callback": 1,
+      "result": {
+        "exit": 0,
+        "signal": null,
+        "stdout_base64": "ZXZlbnQgMCBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAwLzE2IHN0cmVhbXMgMC8yIGZpbGVzIDAvMA0KZXZlbnQgMyBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAwLzE2IHN0cmVhbXMgMC8yIGZpbGVzIDAvNw0KZXZlbnQgMyBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAwLzE2IHN0cmVhbXMgMC8yIGZpbGVzIDcvNw0KZXZlbnQgNSBwYXJ0IDEvMQ0KZXZlbnQgNCBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAxMi8xNiBzdHJlYW1zIDEvMiBmaWxlcyA3LzcNCmV2ZW50IDQgaW1hZ2UgMSBmbGFncyAyNTYgYnl0ZXMgMTYvMTYgc3RyZWFtcyAyLzIgZmlsZXMgNy83DQpldmVudCA2IGltYWdlIDEgZmxhZ3MgMjU2IGJ5dGVzIDE2LzE2IHN0cmVhbXMgMi8yIGZpbGVzIDAvNw0KZXh0cmFjdCA3NyBmZC12YWxpZCAwIG1vZGUtYmluYXJ5IDANCndyaXR0ZW4gMzU3NiBkcmFpbmVkIDEyMjAgYXBpLXJlYWQgMjM1NiBmZWVkZXItZXJyb3IgMCBjbG9zZSAtMQ0K",
+        "stdout": "event 0 image 1 flags 256 bytes 0/16 streams 0/2 files 0/0\r\nevent 3 image 1 flags 256 bytes 0/16 streams 0/2 files 0/7\r\nevent 3 image 1 flags 256 bytes 0/16 streams 0/2 files 7/7\r\nevent 5 part 1/1\r\nevent 4 image 1 flags 256 bytes 12/16 streams 1/2 files 7/7\r\nevent 4 image 1 flags 256 bytes 16/16 streams 2/2 files 7/7\r\nevent 6 image 1 flags 256 bytes 16/16 streams 2/2 files 0/7\r\nextract 77 fd-valid 0 mode-binary 0\r\nwritten 3576 drained 1220 api-read 2356 feeder-error 0 close -1\r\n",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": [
+        {
+          "Path": "\\sub",
+          "Directory": true,
+          "Attrs": 20,
+          "Hash": {}
+        },
+        {
+          "Path": "\\a.bin",
+          "Directory": false,
+          "Attrs": 36,
+          "Hash": "5FC94324CAA9E1D5ED54725D86A5095D918257E192E1092BD09ECEFA82763CD7"
+        },
+        {
+          "Path": "\\empty.txt",
+          "Directory": false,
+          "Attrs": 36,
+          "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+        },
+        {
+          "Path": "\\link.bin",
+          "Directory": false,
+          "Attrs": 36,
+          "Hash": "5FC94324CAA9E1D5ED54725D86A5095D918257E192E1092BD09ECEFA82763CD7"
+        },
+        {
+          "Path": "\\\u00e9\u6f22\ud834\udd1e.bin",
+          "Directory": false,
+          "Attrs": 36,
+          "Hash": "5D8D910591D272938AEF5F966E0816E374BEAF7B5ADF02CCA5F8F770596C2CE3"
+        },
+        {
+          "Path": "\\sub\\third.bin",
+          "Directory": false,
+          "Attrs": 36,
+          "Hash": "5FC94324CAA9E1D5ED54725D86A5095D918257E192E1092BD09ECEFA82763CD7"
+        }
+      ]
+    },
+    {
+      "image": "1",
+      "flags": 0,
+      "chunk": 7,
+      "stop": 7,
+      "status": 1,
+      "callback": 1,
+      "result": {
+        "exit": 0,
+        "signal": null,
+        "stdout_base64": "ZXZlbnQgMCBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAwLzE2IHN0cmVhbXMgMC8yIGZpbGVzIDAvMA0KZXZlbnQgMyBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAwLzE2IHN0cmVhbXMgMC8yIGZpbGVzIDAvNw0KZXZlbnQgMyBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAwLzE2IHN0cmVhbXMgMC8yIGZpbGVzIDcvNw0KZXZlbnQgNSBwYXJ0IDEvMQ0KZXZlbnQgNCBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAxMi8xNiBzdHJlYW1zIDEvMiBmaWxlcyA3LzcNCmV2ZW50IDQgaW1hZ2UgMSBmbGFncyAyNTYgYnl0ZXMgMTYvMTYgc3RyZWFtcyAyLzIgZmlsZXMgNy83DQpldmVudCA2IGltYWdlIDEgZmxhZ3MgMjU2IGJ5dGVzIDE2LzE2IHN0cmVhbXMgMi8yIGZpbGVzIDAvNw0KZXZlbnQgNiBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAxNi8xNiBzdHJlYW1zIDIvMiBmaWxlcyA3LzcNCmV2ZW50IDcgaW1hZ2UgMSBmbGFncyAyNTYgYnl0ZXMgMTYvMTYgc3RyZWFtcyAyLzIgZmlsZXMgNy83DQpleHRyYWN0IDc2IGZkLXZhbGlkIDAgbW9kZS1iaW5hcnkgMA0Kd3JpdHRlbiAzNTc2IGRyYWluZWQgMTIyMCBhcGktcmVhZCAyMzU2IGZlZWRlci1lcnJvciAwIGNsb3NlIC0xDQo=",
+        "stdout": "event 0 image 1 flags 256 bytes 0/16 streams 0/2 files 0/0\r\nevent 3 image 1 flags 256 bytes 0/16 streams 0/2 files 0/7\r\nevent 3 image 1 flags 256 bytes 0/16 streams 0/2 files 7/7\r\nevent 5 part 1/1\r\nevent 4 image 1 flags 256 bytes 12/16 streams 1/2 files 7/7\r\nevent 4 image 1 flags 256 bytes 16/16 streams 2/2 files 7/7\r\nevent 6 image 1 flags 256 bytes 16/16 streams 2/2 files 0/7\r\nevent 6 image 1 flags 256 bytes 16/16 streams 2/2 files 7/7\r\nevent 7 image 1 flags 256 bytes 16/16 streams 2/2 files 7/7\r\nextract 76 fd-valid 0 mode-binary 0\r\nwritten 3576 drained 1220 api-read 2356 feeder-error 0 close -1\r\n",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": [
+        {
+          "Path": "\\sub",
+          "Directory": true,
+          "Attrs": 16,
+          "Hash": {}
+        },
+        {
+          "Path": "\\a.bin",
+          "Directory": false,
+          "Attrs": 33,
+          "Hash": "5FC94324CAA9E1D5ED54725D86A5095D918257E192E1092BD09ECEFA82763CD7"
+        },
+        {
+          "Path": "\\empty.txt",
+          "Directory": false,
+          "Attrs": 32,
+          "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+        },
+        {
+          "Path": "\\link.bin",
+          "Directory": false,
+          "Attrs": 33,
+          "Hash": "5FC94324CAA9E1D5ED54725D86A5095D918257E192E1092BD09ECEFA82763CD7"
+        },
+        {
+          "Path": "\\\u00e9\u6f22\ud834\udd1e.bin",
+          "Directory": false,
+          "Attrs": 34,
+          "Hash": "5D8D910591D272938AEF5F966E0816E374BEAF7B5ADF02CCA5F8F770596C2CE3"
+        },
+        {
+          "Path": "\\sub\\third.bin",
+          "Directory": false,
+          "Attrs": 33,
+          "Hash": "5FC94324CAA9E1D5ED54725D86A5095D918257E192E1092BD09ECEFA82763CD7"
+        }
+      ]
+    },
+    {
+      "image": "1",
+      "flags": 0,
+      "chunk": 7,
+      "stop": 7,
+      "status": 2,
+      "callback": 1,
+      "result": {
+        "exit": 0,
+        "signal": null,
+        "stdout_base64": "ZXZlbnQgMCBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAwLzE2IHN0cmVhbXMgMC8yIGZpbGVzIDAvMA0KZXZlbnQgMyBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAwLzE2IHN0cmVhbXMgMC8yIGZpbGVzIDAvNw0KZXZlbnQgMyBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAwLzE2IHN0cmVhbXMgMC8yIGZpbGVzIDcvNw0KZXZlbnQgNSBwYXJ0IDEvMQ0KZXZlbnQgNCBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAxMi8xNiBzdHJlYW1zIDEvMiBmaWxlcyA3LzcNCmV2ZW50IDQgaW1hZ2UgMSBmbGFncyAyNTYgYnl0ZXMgMTYvMTYgc3RyZWFtcyAyLzIgZmlsZXMgNy83DQpldmVudCA2IGltYWdlIDEgZmxhZ3MgMjU2IGJ5dGVzIDE2LzE2IHN0cmVhbXMgMi8yIGZpbGVzIDAvNw0KZXZlbnQgNiBpbWFnZSAxIGZsYWdzIDI1NiBieXRlcyAxNi8xNiBzdHJlYW1zIDIvMiBmaWxlcyA3LzcNCmV2ZW50IDcgaW1hZ2UgMSBmbGFncyAyNTYgYnl0ZXMgMTYvMTYgc3RyZWFtcyAyLzIgZmlsZXMgNy83DQpleHRyYWN0IDc3IGZkLXZhbGlkIDAgbW9kZS1iaW5hcnkgMA0Kd3JpdHRlbiAzNTc2IGRyYWluZWQgMTIyMCBhcGktcmVhZCAyMzU2IGZlZWRlci1lcnJvciAwIGNsb3NlIC0xDQo=",
+        "stdout": "event 0 image 1 flags 256 bytes 0/16 streams 0/2 files 0/0\r\nevent 3 image 1 flags 256 bytes 0/16 streams 0/2 files 0/7\r\nevent 3 image 1 flags 256 bytes 0/16 streams 0/2 files 7/7\r\nevent 5 part 1/1\r\nevent 4 image 1 flags 256 bytes 12/16 streams 1/2 files 7/7\r\nevent 4 image 1 flags 256 bytes 16/16 streams 2/2 files 7/7\r\nevent 6 image 1 flags 256 bytes 16/16 streams 2/2 files 0/7\r\nevent 6 image 1 flags 256 bytes 16/16 streams 2/2 files 7/7\r\nevent 7 image 1 flags 256 bytes 16/16 streams 2/2 files 7/7\r\nextract 77 fd-valid 0 mode-binary 0\r\nwritten 3576 drained 1220 api-read 2356 feeder-error 0 close -1\r\n",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": [
+        {
+          "Path": "\\sub",
+          "Directory": true,
+          "Attrs": 16,
+          "Hash": {}
+        },
+        {
+          "Path": "\\a.bin",
+          "Directory": false,
+          "Attrs": 33,
+          "Hash": "5FC94324CAA9E1D5ED54725D86A5095D918257E192E1092BD09ECEFA82763CD7"
+        },
+        {
+          "Path": "\\empty.txt",
+          "Directory": false,
+          "Attrs": 32,
+          "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+        },
+        {
+          "Path": "\\link.bin",
+          "Directory": false,
+          "Attrs": 33,
+          "Hash": "5FC94324CAA9E1D5ED54725D86A5095D918257E192E1092BD09ECEFA82763CD7"
+        },
+        {
+          "Path": "\\\u00e9\u6f22\ud834\udd1e.bin",
+          "Directory": false,
+          "Attrs": 34,
+          "Hash": "5D8D910591D272938AEF5F966E0816E374BEAF7B5ADF02CCA5F8F770596C2CE3"
+        },
+        {
+          "Path": "\\sub\\third.bin",
+          "Directory": false,
+          "Attrs": 33,
+          "Hash": "5FC94324CAA9E1D5ED54725D86A5095D918257E192E1092BD09ECEFA82763CD7"
+        }
+      ]
+    },
+    {
+      "image": "1",
+      "flags": 0,
+      "chunk": 7,
+      "stop": -1,
+      "status": 0,
+      "callback": 0,
+      "result": {
+        "exit": 0,
+        "signal": null,
+        "stdout_base64": "ZXh0cmFjdCAwIGZkLXZhbGlkIDAgbW9kZS1iaW5hcnkgMA0Kd3JpdHRlbiAzNTc2IGRyYWluZWQgMTIyMCBhcGktcmVhZCAyMzU2IGZlZWRlci1lcnJvciAwIGNsb3NlIC0xDQo=",
+        "stdout": "extract 0 fd-valid 0 mode-binary 0\r\nwritten 3576 drained 1220 api-read 2356 feeder-error 0 close -1\r\n",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": [
+        {
+          "Path": "\\sub",
+          "Directory": true,
+          "Attrs": 16,
+          "Hash": {}
+        },
+        {
+          "Path": "\\a.bin",
+          "Directory": false,
+          "Attrs": 33,
+          "Hash": "5FC94324CAA9E1D5ED54725D86A5095D918257E192E1092BD09ECEFA82763CD7"
+        },
+        {
+          "Path": "\\empty.txt",
+          "Directory": false,
+          "Attrs": 32,
+          "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+        },
+        {
+          "Path": "\\link.bin",
+          "Directory": false,
+          "Attrs": 33,
+          "Hash": "5FC94324CAA9E1D5ED54725D86A5095D918257E192E1092BD09ECEFA82763CD7"
+        },
+        {
+          "Path": "\\\u00e9\u6f22\ud834\udd1e.bin",
+          "Directory": false,
+          "Attrs": 34,
+          "Hash": "5D8D910591D272938AEF5F966E0816E374BEAF7B5ADF02CCA5F8F770596C2CE3"
+        },
+        {
+          "Path": "\\sub\\third.bin",
+          "Directory": false,
+          "Attrs": 33,
+          "Hash": "5FC94324CAA9E1D5ED54725D86A5095D918257E192E1092BD09ECEFA82763CD7"
+        }
+      ]
+    },
+    {
+      "image": "1",
+      "flags": 0,
+      "chunk": 65536,
+      "stop": -1,
+      "status": 0,
+      "callback": 0,
+      "result": {
+        "exit": 0,
+        "signal": null,
+        "stdout_base64": "ZXh0cmFjdCAwIGZkLXZhbGlkIDAgbW9kZS1iaW5hcnkgMA0Kd3JpdHRlbiAzNTc2IGRyYWluZWQgMTIyMCBhcGktcmVhZCAyMzU2IGZlZWRlci1lcnJvciAwIGNsb3NlIC0xDQo=",
+        "stdout": "extract 0 fd-valid 0 mode-binary 0\r\nwritten 3576 drained 1220 api-read 2356 feeder-error 0 close -1\r\n",
+        "stderr": "",
+        "stdout_truncated": false
+      },
+      "inventory": [
+        {
+          "Path": "\\sub",
+          "Directory": true,
+          "Attrs": 16,
+          "Hash": {}
+        },
+        {
+          "Path": "\\a.bin",
+          "Directory": false,
+          "Attrs": 33,
+          "Hash": "5FC94324CAA9E1D5ED54725D86A5095D918257E192E1092BD09ECEFA82763CD7"
+        },
+        {
+          "Path": "\\empty.txt",
+          "Directory": false,
+          "Attrs": 32,
+          "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+        },
+        {
+          "Path": "\\link.bin",
+          "Directory": false,
+          "Attrs": 33,
+          "Hash": "5FC94324CAA9E1D5ED54725D86A5095D918257E192E1092BD09ECEFA82763CD7"
+        },
+        {
+          "Path": "\\\u00e9\u6f22\ud834\udd1e.bin",
+          "Directory": false,
+          "Attrs": 34,
+          "Hash": "5D8D910591D272938AEF5F966E0816E374BEAF7B5ADF02CCA5F8F770596C2CE3"
+        },
+        {
+          "Path": "\\sub\\third.bin",
+          "Directory": false,
+          "Attrs": 33,
+          "Hash": "5FC94324CAA9E1D5ED54725D86A5095D918257E192E1092BD09ECEFA82763CD7"
+        }
+      ]
+    }
+  ],
+  "differences": []
+}

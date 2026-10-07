@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "scope": "Root visual review of actual standard Setup screenshot: Installing Windows11,16% complete; no readiness/installed fidelity claim",
+  "screenshot": {
+    "path": "/data/cache/qcow2-installation-namespace-fixed-1006-v13/setup-progress-3.png",
+    "sha256": "1463a1d2c78a0238b5fa1c682812bcc8461fab7f6c5d460bf0144a91d034e4a7"
+  },
+  "observed_setup_percent": 16,
+  "preboot_release": "docs/wimlib/evidence/qcow2-capture-20261005/namespace-fixed-root-preboot-release.json",
+  "qmp_snapshot": {
+    "path": "/data/cache/qcow2-installation-namespace-fixed-1006-v13/setup-progress-3-qmp.json",
+    "sha256": "718b8e9f74765938f114dab8c92a22b13a0d1e7e8d333ba29bd44baf93684539"
+  }
+}

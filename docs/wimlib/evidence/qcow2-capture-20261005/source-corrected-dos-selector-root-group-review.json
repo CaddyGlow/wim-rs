@@ -1,0 +1,10 @@
+{
+  "correct_selector_sha256": "f7e3ec0a40b56beccb0c48690c1195da95da1928a051e308bdd8e5cecd00f26c",
+  "old_selector_sha256": "9f803f79ae46cd1d3dc7f745b2fb48e64c347ab101a78daf3ebebb0dd8da2271",
+  "correct_count": 101168,
+  "parent_reference_groups": 101168,
+  "maximum_aliases_per_file": 1,
+  "removed_assignments": 601,
+  "added_assignments": 0,
+  "scope": "Independent grouping/set comparison of hash-bound selectors derived from raw namespace audit. No current file requires more than one DOS alias."
+}

@@ -1,0 +1,70 @@
+{
+  "raw_index_sha256": "fa5d0b0f04aacc28bda97577b71190006965ada93f7b79451e795dbf70f41945",
+  "windows_report_sha256": "ac0475090f6d5f987e6510988f4b80ed3869184e0472c7dfaf804cb4421371be",
+  "nine_final_long_name_bindings": [
+    {
+      "parent": "/QCOW2-AliasCreation-76a27ca0c9ee4bc89560a02413899dec/order0/same",
+      "long_name": "FaceProcessor.dll",
+      "namespace": "Win32",
+      "expected_alias": "FACEPR~1.DLL",
+      "file_reference": 281474976710712
+    },
+    {
+      "parent": "/QCOW2-AliasCreation-76a27ca0c9ee4bc89560a02413899dec/order0/same",
+      "long_name": "FaceProcessorCore.dll",
+      "namespace": "Posix",
+      "expected_alias": "",
+      "file_reference": 281474976710712
+    },
+    {
+      "parent": "/QCOW2-AliasCreation-76a27ca0c9ee4bc89560a02413899dec/order0/other",
+      "long_name": "RenamedFaceProcessorExtra.dll",
+      "namespace": "Posix",
+      "expected_alias": "",
+      "file_reference": 281474976710712
+    },
+    {
+      "parent": "/QCOW2-AliasCreation-76a27ca0c9ee4bc89560a02413899dec/order1/same",
+      "long_name": "FaceProcessor.dll",
+      "namespace": "Posix",
+      "expected_alias": "",
+      "file_reference": 281474976710716
+    },
+    {
+      "parent": "/QCOW2-AliasCreation-76a27ca0c9ee4bc89560a02413899dec/order1/same",
+      "long_name": "FaceProcessorCore.dll",
+      "namespace": "Win32",
+      "expected_alias": "FACEPR~1.DLL",
+      "file_reference": 281474976710716
+    },
+    {
+      "parent": "/QCOW2-AliasCreation-76a27ca0c9ee4bc89560a02413899dec/order1/other",
+      "long_name": "RenamedFaceProcessorExtra.dll",
+      "namespace": "Posix",
+      "expected_alias": "",
+      "file_reference": 281474976710716
+    },
+    {
+      "parent": "/QCOW2-AliasCreation-76a27ca0c9ee4bc89560a02413899dec/order2/same",
+      "long_name": "FaceProcessor.dll",
+      "namespace": "Posix",
+      "expected_alias": "",
+      "file_reference": 281474976710720
+    },
+    {
+      "parent": "/QCOW2-AliasCreation-76a27ca0c9ee4bc89560a02413899dec/order2/same",
+      "long_name": "FaceProcessorCore.dll",
+      "namespace": "Posix",
+      "expected_alias": "",
+      "file_reference": 281474976710720
+    },
+    {
+      "parent": "/QCOW2-AliasCreation-76a27ca0c9ee4bc89560a02413899dec/order2/other",
+      "long_name": "RenamedFaceProcessorExtra.dll",
+      "namespace": "Win32",
+      "expected_alias": "RENAME~1.DLL",
+      "file_reference": 281474976710720
+    }
+  ],
+  "scope": "Independent raw namespace semantics compared with actual Windows directory enumeration. POSIX long names have no DOS alias; unique Win32 long names pair with DOS entries for same parent/reference. Does not validate frozen Windows source population."
+}

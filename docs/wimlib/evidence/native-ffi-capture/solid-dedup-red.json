@@ -1,0 +1,14 @@
+{
+  "original": {
+    "status": 0,
+    "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nlookup-before\nresource 0 1 1 0 0000000000000000000000000000000000000000\nresource 12 1 0 0 0000000000000000000000000000000000000000\nresource 12 1 0 0 0000000000000000000000000000000000000000\nlookup-status 0\nwrite-progress 24 2 0 0\nwrite-progress 12 1 0 0\nwrite-progress 12 1 12 1\nprogress 13\nprogress 14\nwrite 0\nlookup-after\nresource 0 1 1 0 0a608c5aaca42e8e236b6b20347d5d79be68ece4\nresource 12 2 0 0 51fd632806731e55567f89bdfeebe216a3dcd031\nlookup-status 0\n",
+    "stderr": "",
+    "size": 1510
+  },
+  "native": {
+    "status": 0,
+    "stdout": "create 0\nscan 9 0 0 0 0\nscan 11 0 0 0 0\nadd 0 images 1 boot 0 rpfix 1\nlookup-before\nresource 0 1 1 0 0000000000000000000000000000000000000000\nresource 12 1 0 0 0000000000000000000000000000000000000000\nresource 12 1 0 0 0000000000000000000000000000000000000000\nlookup-status 0\nwrite-progress 24 2 0 0\nwrite-progress 24 2 24 2\nprogress 13\nprogress 14\nwrite 0\nlookup-after\nresource 0 1 1 0 12b779ddd0a3f5b37444da25160b4944e03afb74\nresource 12 2 0 0 51fd632806731e55567f89bdfeebe216a3dcd031\nlookup-status 0\n",
+    "stderr": "",
+    "size": 1568
+  }
+}

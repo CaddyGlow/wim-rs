@@ -1,0 +1,11 @@
+{
+  "provenance_sha256": "59cb6f4f88d7ed76148bbdf3c664fbe8840cc905d716df8b54802d444529eb0f",
+  "all_six_provenance_files_rehashed": true,
+  "actual_reader_rerun_exit": 0,
+  "actual_output_exact_preserved_policy": true,
+  "selected_current_controlset": 1,
+  "dirty_hive": false,
+  "policy_value": "0x80000001",
+  "runtime_behavior_proven": false,
+  "winpe_causality_proven": false
+}

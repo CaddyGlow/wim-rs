@@ -1,0 +1,4 @@
+0000000000012ce0 T wimlib_get_compression_type_string
+0000000000012d60 T wimlib_get_error_string
+0000000000013490 T wimlib_get_version
+00000000000134a0 T wimlib_get_version_string

@@ -1,0 +1,409 @@
+{
+  "split_parts": 4,
+  "cases": [
+    {
+      "case": "handles-all",
+      "mode": 0,
+      "flags": 0,
+      "open_flags": 0,
+      "observations": 17,
+      "matches": true
+    },
+    {
+      "case": "files-all",
+      "mode": 1,
+      "flags": 0,
+      "open_flags": 0,
+      "observations": 14,
+      "matches": true
+    },
+    {
+      "case": "self",
+      "mode": 2,
+      "flags": 0,
+      "open_flags": 0,
+      "observations": 17,
+      "matches": true
+    },
+    {
+      "case": "null-entry",
+      "mode": 3,
+      "flags": 0,
+      "open_flags": 0,
+      "observations": 11,
+      "matches": true
+    },
+    {
+      "case": "handles-all",
+      "mode": 0,
+      "flags": 1,
+      "open_flags": 0,
+      "observations": 17,
+      "matches": true
+    },
+    {
+      "case": "files-all",
+      "mode": 1,
+      "flags": 1,
+      "open_flags": 0,
+      "observations": 14,
+      "matches": true
+    },
+    {
+      "case": "self",
+      "mode": 2,
+      "flags": 1,
+      "open_flags": 0,
+      "observations": 17,
+      "matches": true
+    },
+    {
+      "case": "null-entry",
+      "mode": 3,
+      "flags": 1,
+      "open_flags": 0,
+      "observations": 11,
+      "matches": true
+    },
+    {
+      "case": "handles-all",
+      "mode": 0,
+      "flags": 2,
+      "open_flags": 0,
+      "observations": 17,
+      "matches": true
+    },
+    {
+      "case": "files-all",
+      "mode": 1,
+      "flags": 2,
+      "open_flags": 0,
+      "observations": 14,
+      "matches": true
+    },
+    {
+      "case": "self",
+      "mode": 2,
+      "flags": 2,
+      "open_flags": 0,
+      "observations": 17,
+      "matches": true
+    },
+    {
+      "case": "null-entry",
+      "mode": 3,
+      "flags": 2,
+      "open_flags": 0,
+      "observations": 11,
+      "matches": true
+    },
+    {
+      "case": "handles-all",
+      "mode": 0,
+      "flags": 3,
+      "open_flags": 0,
+      "observations": 17,
+      "matches": true
+    },
+    {
+      "case": "files-all",
+      "mode": 1,
+      "flags": 3,
+      "open_flags": 0,
+      "observations": 14,
+      "matches": true
+    },
+    {
+      "case": "self",
+      "mode": 2,
+      "flags": 3,
+      "open_flags": 0,
+      "observations": 17,
+      "matches": true
+    },
+    {
+      "case": "null-entry",
+      "mode": 3,
+      "flags": 3,
+      "open_flags": 0,
+      "observations": 11,
+      "matches": true
+    },
+    {
+      "case": "handles-all",
+      "mode": 0,
+      "flags": 4,
+      "open_flags": 0,
+      "observations": 14,
+      "matches": true
+    },
+    {
+      "case": "files-all",
+      "mode": 1,
+      "flags": 4,
+      "open_flags": 0,
+      "observations": 11,
+      "matches": true
+    },
+    {
+      "case": "self",
+      "mode": 2,
+      "flags": 4,
+      "open_flags": 0,
+      "observations": 17,
+      "matches": true
+    },
+    {
+      "case": "null-entry",
+      "mode": 3,
+      "flags": 4,
+      "open_flags": 0,
+      "observations": 11,
+      "matches": true
+    },
+    {
+      "case": "handles-all",
+      "mode": 0,
+      "flags": -1,
+      "open_flags": 0,
+      "observations": 14,
+      "matches": true
+    },
+    {
+      "case": "files-all",
+      "mode": 1,
+      "flags": -1,
+      "open_flags": 0,
+      "observations": 11,
+      "matches": true
+    },
+    {
+      "case": "self",
+      "mode": 2,
+      "flags": -1,
+      "open_flags": 0,
+      "observations": 17,
+      "matches": true
+    },
+    {
+      "case": "null-entry",
+      "mode": 3,
+      "flags": -1,
+      "open_flags": 0,
+      "observations": 11,
+      "matches": true
+    },
+    {
+      "case": "handles-empty",
+      "mode": 0,
+      "flags": 0,
+      "open_flags": 99,
+      "observations": 11,
+      "matches": true
+    },
+    {
+      "case": "files-empty",
+      "mode": 1,
+      "flags": 0,
+      "open_flags": 99,
+      "observations": 11,
+      "matches": true
+    },
+    {
+      "case": "dedup",
+      "mode": 0,
+      "flags": 0,
+      "open_flags": 0,
+      "observations": 19,
+      "matches": true
+    },
+    {
+      "case": "repeat-parts",
+      "mode": 0,
+      "flags": 0,
+      "open_flags": 0,
+      "observations": 20,
+      "matches": true
+    },
+    {
+      "case": "one-part",
+      "mode": 0,
+      "flags": 0,
+      "open_flags": 0,
+      "observations": 13,
+      "matches": true
+    },
+    {
+      "case": "later-dest",
+      "mode": 0,
+      "flags": 0,
+      "open_flags": 0,
+      "observations": 14,
+      "matches": true
+    },
+    {
+      "case": "file-rollback-missing",
+      "mode": 1,
+      "flags": 0,
+      "open_flags": 0,
+      "observations": 11,
+      "matches": true
+    },
+    {
+      "case": "file-rollback-bad",
+      "mode": 1,
+      "flags": 0,
+      "open_flags": 0,
+      "observations": 11,
+      "matches": true
+    },
+    {
+      "case": "bad-openflags",
+      "mode": 1,
+      "flags": 0,
+      "open_flags": 8,
+      "observations": 11,
+      "matches": true
+    },
+    {
+      "case": "integrity-open",
+      "mode": 1,
+      "flags": 0,
+      "open_flags": 1,
+      "observations": 14,
+      "matches": true
+    },
+    {
+      "case": "glob-all",
+      "mode": 1,
+      "flags": 0,
+      "open_flags": 0,
+      "observations": 11,
+      "matches": true
+    },
+    {
+      "case": "glob-missing",
+      "mode": 1,
+      "flags": 0,
+      "open_flags": 0,
+      "observations": 11,
+      "matches": true
+    },
+    {
+      "case": "glob-directory",
+      "mode": 1,
+      "flags": 0,
+      "open_flags": 0,
+      "observations": 11,
+      "matches": true
+    },
+    {
+      "case": "glob-rollback",
+      "mode": 1,
+      "flags": 0,
+      "open_flags": 0,
+      "observations": 11,
+      "matches": true
+    },
+    {
+      "case": "glob-all",
+      "mode": 1,
+      "flags": 1,
+      "open_flags": 0,
+      "observations": 14,
+      "matches": true
+    },
+    {
+      "case": "glob-missing",
+      "mode": 1,
+      "flags": 1,
+      "open_flags": 0,
+      "observations": 11,
+      "matches": true
+    },
+    {
+      "case": "glob-directory",
+      "mode": 1,
+      "flags": 1,
+      "open_flags": 0,
+      "observations": 11,
+      "matches": true
+    },
+    {
+      "case": "glob-rollback",
+      "mode": 1,
+      "flags": 1,
+      "open_flags": 0,
+      "observations": 11,
+      "matches": true
+    },
+    {
+      "case": "glob-all",
+      "mode": 1,
+      "flags": 2,
+      "open_flags": 0,
+      "observations": 11,
+      "matches": true
+    },
+    {
+      "case": "glob-missing",
+      "mode": 1,
+      "flags": 2,
+      "open_flags": 0,
+      "observations": 11,
+      "matches": true
+    },
+    {
+      "case": "glob-directory",
+      "mode": 1,
+      "flags": 2,
+      "open_flags": 0,
+      "observations": 11,
+      "matches": true
+    },
+    {
+      "case": "glob-rollback",
+      "mode": 1,
+      "flags": 2,
+      "open_flags": 0,
+      "observations": 11,
+      "matches": true
+    },
+    {
+      "case": "glob-all",
+      "mode": 1,
+      "flags": 3,
+      "open_flags": 0,
+      "observations": 14,
+      "matches": true
+    },
+    {
+      "case": "glob-missing",
+      "mode": 1,
+      "flags": 3,
+      "open_flags": 0,
+      "observations": 11,
+      "matches": true
+    },
+    {
+      "case": "glob-directory",
+      "mode": 1,
+      "flags": 3,
+      "open_flags": 0,
+      "observations": 11,
+      "matches": true
+    },
+    {
+      "case": "glob-rollback",
+      "mode": 1,
+      "flags": 3,
+      "open_flags": 0,
+      "observations": 11,
+      "matches": true
+    }
+  ],
+  "failures": [],
+  "source_free_outputs_applied": 19,
+  "original_cli_disabled_cpu_feature": "sse4.2",
+  "observations": 659
+}

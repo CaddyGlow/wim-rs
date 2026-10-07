@@ -1,0 +1,31 @@
+   Compiling wim-format v0.1.0 (/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/wim-format)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.26s
+     Running tests/xml_writer.rs (crates/wimlib-rs/target/debug/deps/xml_writer-34545be08cd9c72e)
+
+running 2 tests
+test byte_statistics_update_does_not_invalidate_image_positions ... FAILED
+test selected_images_preserve_unknown_data_and_renumber_indices ... FAILED
+
+failures:
+
+---- byte_statistics_update_does_not_invalidate_image_positions stdout ----
+
+thread 'byte_statistics_update_does_not_invalidate_image_positions' (290) panicked at wim-format/tests/xml_writer.rs:5:5:
+assertion `left == right` failed
+  left: 0
+ right: 123
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+---- selected_images_preserve_unknown_data_and_renumber_indices stdout ----
+
+thread 'selected_images_preserve_unknown_data_and_renumber_indices' (291) panicked at wim-format/tests/xml_writer.rs:16:44:
+called `Result::unwrap()` on an `Err` value: Unsupported
+
+
+failures:
+    byte_statistics_update_does_not_invalidate_image_positions
+    selected_images_preserve_unknown_data_and_renumber_indices
+
+test result: FAILED. 0 passed; 2 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+error: test failed, to rerun pass `-p wim-format --test xml_writer`

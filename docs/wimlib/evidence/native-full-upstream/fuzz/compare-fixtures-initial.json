@@ -1,0 +1,7949 @@
+{
+  "work": "/tmp/wim-test-support-l6g42pwf",
+  "sha256": {
+    "original": "62eb9c97f9ec6e3dae6c7e995b0a65a2e94a4d9b41491666947ba788a15bb74a",
+    "native": "dc4104bf206edd67a66cb1cd0cdb6b8ae2f4f2e1ed44a32766814d63c36e4401"
+  },
+  "cases": 441,
+  "exact": 441,
+  "rows": [
+    {
+      "a": "pipe-none.wim",
+      "b": "pipe-none.wim",
+      "flags": 0,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-none.wim",
+      "b": "pipe-none.wim",
+      "flags": 1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-none.wim",
+      "b": "pipe-none.wim",
+      "flags": 2,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-none.wim",
+      "b": "pipe-none.wim",
+      "flags": 4,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-none.wim",
+      "b": "pipe-none.wim",
+      "flags": 8,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-none.wim",
+      "b": "pipe-none.wim",
+      "flags": 9,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-none.wim",
+      "b": "pipe-none.wim",
+      "flags": 15,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-none.wim",
+      "b": "pipe-none.wim",
+      "flags": -1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-none.wim",
+      "b": "pipe-none.wim",
+      "flags": 16,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-none.wim",
+      "b": "pipable-resource.wim",
+      "flags": 0,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-none.wim",
+      "b": "pipable-resource.wim",
+      "flags": 1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-none.wim",
+      "b": "pipable-resource.wim",
+      "flags": 2,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-none.wim",
+      "b": "pipable-resource.wim",
+      "flags": 4,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-none.wim",
+      "b": "pipable-resource.wim",
+      "flags": 8,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-none.wim",
+      "b": "pipable-resource.wim",
+      "flags": 9,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-none.wim",
+      "b": "pipable-resource.wim",
+      "flags": 15,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-none.wim",
+      "b": "pipable-resource.wim",
+      "flags": -1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-none.wim",
+      "b": "pipable-resource.wim",
+      "flags": 16,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-none.wim",
+      "b": "pipe-lzx.wim",
+      "flags": 0,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-none.wim",
+      "b": "pipe-lzx.wim",
+      "flags": 1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-none.wim",
+      "b": "pipe-lzx.wim",
+      "flags": 2,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-none.wim",
+      "b": "pipe-lzx.wim",
+      "flags": 4,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-none.wim",
+      "b": "pipe-lzx.wim",
+      "flags": 8,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-none.wim",
+      "b": "pipe-lzx.wim",
+      "flags": 9,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-none.wim",
+      "b": "pipe-lzx.wim",
+      "flags": 15,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-none.wim",
+      "b": "pipe-lzx.wim",
+      "flags": -1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-none.wim",
+      "b": "pipe-lzx.wim",
+      "flags": 16,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-none.wim",
+      "b": "pipe-lzms.wim",
+      "flags": 0,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-none.wim",
+      "b": "pipe-lzms.wim",
+      "flags": 1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-none.wim",
+      "b": "pipe-lzms.wim",
+      "flags": 2,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-none.wim",
+      "b": "pipe-lzms.wim",
+      "flags": 4,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-none.wim",
+      "b": "pipe-lzms.wim",
+      "flags": 8,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-none.wim",
+      "b": "pipe-lzms.wim",
+      "flags": 9,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-none.wim",
+      "b": "pipe-lzms.wim",
+      "flags": 15,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-none.wim",
+      "b": "pipe-lzms.wim",
+      "flags": -1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-none.wim",
+      "b": "pipe-lzms.wim",
+      "flags": 16,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-none.wim",
+      "b": "pipe-two-image.wim",
+      "flags": 0,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-none.wim",
+      "b": "pipe-two-image.wim",
+      "flags": 1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-none.wim",
+      "b": "pipe-two-image.wim",
+      "flags": 2,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-none.wim",
+      "b": "pipe-two-image.wim",
+      "flags": 4,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-none.wim",
+      "b": "pipe-two-image.wim",
+      "flags": 8,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-none.wim",
+      "b": "pipe-two-image.wim",
+      "flags": 9,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-none.wim",
+      "b": "pipe-two-image.wim",
+      "flags": 15,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-none.wim",
+      "b": "pipe-two-image.wim",
+      "flags": -1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-none.wim",
+      "b": "pipe-two-image.wim",
+      "flags": 16,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-none.wim",
+      "b": "pipe-xpress-64k.wim",
+      "flags": 0,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-none.wim",
+      "b": "pipe-xpress-64k.wim",
+      "flags": 1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-none.wim",
+      "b": "pipe-xpress-64k.wim",
+      "flags": 2,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-none.wim",
+      "b": "pipe-xpress-64k.wim",
+      "flags": 4,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-none.wim",
+      "b": "pipe-xpress-64k.wim",
+      "flags": 8,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-none.wim",
+      "b": "pipe-xpress-64k.wim",
+      "flags": 9,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-none.wim",
+      "b": "pipe-xpress-64k.wim",
+      "flags": 15,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-none.wim",
+      "b": "pipe-xpress-64k.wim",
+      "flags": -1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-none.wim",
+      "b": "pipe-xpress-64k.wim",
+      "flags": 16,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-none.wim",
+      "b": "solid-resource.wim",
+      "flags": 0,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-none.wim",
+      "b": "solid-resource.wim",
+      "flags": 1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-none.wim",
+      "b": "solid-resource.wim",
+      "flags": 2,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-none.wim",
+      "b": "solid-resource.wim",
+      "flags": 4,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-none.wim",
+      "b": "solid-resource.wim",
+      "flags": 8,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-none.wim",
+      "b": "solid-resource.wim",
+      "flags": 9,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-none.wim",
+      "b": "solid-resource.wim",
+      "flags": 15,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-none.wim",
+      "b": "solid-resource.wim",
+      "flags": -1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-none.wim",
+      "b": "solid-resource.wim",
+      "flags": 16,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipable-resource.wim",
+      "b": "pipe-none.wim",
+      "flags": 0,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipable-resource.wim",
+      "b": "pipe-none.wim",
+      "flags": 1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipable-resource.wim",
+      "b": "pipe-none.wim",
+      "flags": 2,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipable-resource.wim",
+      "b": "pipe-none.wim",
+      "flags": 4,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipable-resource.wim",
+      "b": "pipe-none.wim",
+      "flags": 8,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipable-resource.wim",
+      "b": "pipe-none.wim",
+      "flags": 9,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipable-resource.wim",
+      "b": "pipe-none.wim",
+      "flags": 15,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipable-resource.wim",
+      "b": "pipe-none.wim",
+      "flags": -1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipable-resource.wim",
+      "b": "pipe-none.wim",
+      "flags": 16,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipable-resource.wim",
+      "b": "pipable-resource.wim",
+      "flags": 0,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipable-resource.wim",
+      "b": "pipable-resource.wim",
+      "flags": 1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipable-resource.wim",
+      "b": "pipable-resource.wim",
+      "flags": 2,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipable-resource.wim",
+      "b": "pipable-resource.wim",
+      "flags": 4,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipable-resource.wim",
+      "b": "pipable-resource.wim",
+      "flags": 8,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipable-resource.wim",
+      "b": "pipable-resource.wim",
+      "flags": 9,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipable-resource.wim",
+      "b": "pipable-resource.wim",
+      "flags": 15,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipable-resource.wim",
+      "b": "pipable-resource.wim",
+      "flags": -1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipable-resource.wim",
+      "b": "pipable-resource.wim",
+      "flags": 16,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipable-resource.wim",
+      "b": "pipe-lzx.wim",
+      "flags": 0,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipable-resource.wim",
+      "b": "pipe-lzx.wim",
+      "flags": 1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipable-resource.wim",
+      "b": "pipe-lzx.wim",
+      "flags": 2,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipable-resource.wim",
+      "b": "pipe-lzx.wim",
+      "flags": 4,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipable-resource.wim",
+      "b": "pipe-lzx.wim",
+      "flags": 8,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipable-resource.wim",
+      "b": "pipe-lzx.wim",
+      "flags": 9,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipable-resource.wim",
+      "b": "pipe-lzx.wim",
+      "flags": 15,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipable-resource.wim",
+      "b": "pipe-lzx.wim",
+      "flags": -1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipable-resource.wim",
+      "b": "pipe-lzx.wim",
+      "flags": 16,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipable-resource.wim",
+      "b": "pipe-lzms.wim",
+      "flags": 0,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipable-resource.wim",
+      "b": "pipe-lzms.wim",
+      "flags": 1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipable-resource.wim",
+      "b": "pipe-lzms.wim",
+      "flags": 2,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipable-resource.wim",
+      "b": "pipe-lzms.wim",
+      "flags": 4,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipable-resource.wim",
+      "b": "pipe-lzms.wim",
+      "flags": 8,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipable-resource.wim",
+      "b": "pipe-lzms.wim",
+      "flags": 9,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipable-resource.wim",
+      "b": "pipe-lzms.wim",
+      "flags": 15,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipable-resource.wim",
+      "b": "pipe-lzms.wim",
+      "flags": -1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipable-resource.wim",
+      "b": "pipe-lzms.wim",
+      "flags": 16,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipable-resource.wim",
+      "b": "pipe-two-image.wim",
+      "flags": 0,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipable-resource.wim",
+      "b": "pipe-two-image.wim",
+      "flags": 1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipable-resource.wim",
+      "b": "pipe-two-image.wim",
+      "flags": 2,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipable-resource.wim",
+      "b": "pipe-two-image.wim",
+      "flags": 4,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipable-resource.wim",
+      "b": "pipe-two-image.wim",
+      "flags": 8,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipable-resource.wim",
+      "b": "pipe-two-image.wim",
+      "flags": 9,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipable-resource.wim",
+      "b": "pipe-two-image.wim",
+      "flags": 15,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipable-resource.wim",
+      "b": "pipe-two-image.wim",
+      "flags": -1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipable-resource.wim",
+      "b": "pipe-two-image.wim",
+      "flags": 16,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipable-resource.wim",
+      "b": "pipe-xpress-64k.wim",
+      "flags": 0,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipable-resource.wim",
+      "b": "pipe-xpress-64k.wim",
+      "flags": 1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipable-resource.wim",
+      "b": "pipe-xpress-64k.wim",
+      "flags": 2,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipable-resource.wim",
+      "b": "pipe-xpress-64k.wim",
+      "flags": 4,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipable-resource.wim",
+      "b": "pipe-xpress-64k.wim",
+      "flags": 8,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipable-resource.wim",
+      "b": "pipe-xpress-64k.wim",
+      "flags": 9,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipable-resource.wim",
+      "b": "pipe-xpress-64k.wim",
+      "flags": 15,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipable-resource.wim",
+      "b": "pipe-xpress-64k.wim",
+      "flags": -1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipable-resource.wim",
+      "b": "pipe-xpress-64k.wim",
+      "flags": 16,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipable-resource.wim",
+      "b": "solid-resource.wim",
+      "flags": 0,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipable-resource.wim",
+      "b": "solid-resource.wim",
+      "flags": 1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipable-resource.wim",
+      "b": "solid-resource.wim",
+      "flags": 2,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipable-resource.wim",
+      "b": "solid-resource.wim",
+      "flags": 4,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipable-resource.wim",
+      "b": "solid-resource.wim",
+      "flags": 8,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipable-resource.wim",
+      "b": "solid-resource.wim",
+      "flags": 9,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipable-resource.wim",
+      "b": "solid-resource.wim",
+      "flags": 15,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipable-resource.wim",
+      "b": "solid-resource.wim",
+      "flags": -1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipable-resource.wim",
+      "b": "solid-resource.wim",
+      "flags": 16,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzx.wim",
+      "b": "pipe-none.wim",
+      "flags": 0,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzx.wim",
+      "b": "pipe-none.wim",
+      "flags": 1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzx.wim",
+      "b": "pipe-none.wim",
+      "flags": 2,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzx.wim",
+      "b": "pipe-none.wim",
+      "flags": 4,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzx.wim",
+      "b": "pipe-none.wim",
+      "flags": 8,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzx.wim",
+      "b": "pipe-none.wim",
+      "flags": 9,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzx.wim",
+      "b": "pipe-none.wim",
+      "flags": 15,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzx.wim",
+      "b": "pipe-none.wim",
+      "flags": -1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzx.wim",
+      "b": "pipe-none.wim",
+      "flags": 16,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzx.wim",
+      "b": "pipable-resource.wim",
+      "flags": 0,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzx.wim",
+      "b": "pipable-resource.wim",
+      "flags": 1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzx.wim",
+      "b": "pipable-resource.wim",
+      "flags": 2,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzx.wim",
+      "b": "pipable-resource.wim",
+      "flags": 4,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzx.wim",
+      "b": "pipable-resource.wim",
+      "flags": 8,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzx.wim",
+      "b": "pipable-resource.wim",
+      "flags": 9,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzx.wim",
+      "b": "pipable-resource.wim",
+      "flags": 15,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzx.wim",
+      "b": "pipable-resource.wim",
+      "flags": -1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzx.wim",
+      "b": "pipable-resource.wim",
+      "flags": 16,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzx.wim",
+      "b": "pipe-lzx.wim",
+      "flags": 0,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzx.wim",
+      "b": "pipe-lzx.wim",
+      "flags": 1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzx.wim",
+      "b": "pipe-lzx.wim",
+      "flags": 2,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzx.wim",
+      "b": "pipe-lzx.wim",
+      "flags": 4,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzx.wim",
+      "b": "pipe-lzx.wim",
+      "flags": 8,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzx.wim",
+      "b": "pipe-lzx.wim",
+      "flags": 9,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzx.wim",
+      "b": "pipe-lzx.wim",
+      "flags": 15,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzx.wim",
+      "b": "pipe-lzx.wim",
+      "flags": -1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzx.wim",
+      "b": "pipe-lzx.wim",
+      "flags": 16,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzx.wim",
+      "b": "pipe-lzms.wim",
+      "flags": 0,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzx.wim",
+      "b": "pipe-lzms.wim",
+      "flags": 1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzx.wim",
+      "b": "pipe-lzms.wim",
+      "flags": 2,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzx.wim",
+      "b": "pipe-lzms.wim",
+      "flags": 4,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzx.wim",
+      "b": "pipe-lzms.wim",
+      "flags": 8,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzx.wim",
+      "b": "pipe-lzms.wim",
+      "flags": 9,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzx.wim",
+      "b": "pipe-lzms.wim",
+      "flags": 15,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzx.wim",
+      "b": "pipe-lzms.wim",
+      "flags": -1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzx.wim",
+      "b": "pipe-lzms.wim",
+      "flags": 16,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzx.wim",
+      "b": "pipe-two-image.wim",
+      "flags": 0,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzx.wim",
+      "b": "pipe-two-image.wim",
+      "flags": 1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzx.wim",
+      "b": "pipe-two-image.wim",
+      "flags": 2,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzx.wim",
+      "b": "pipe-two-image.wim",
+      "flags": 4,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzx.wim",
+      "b": "pipe-two-image.wim",
+      "flags": 8,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzx.wim",
+      "b": "pipe-two-image.wim",
+      "flags": 9,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzx.wim",
+      "b": "pipe-two-image.wim",
+      "flags": 15,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzx.wim",
+      "b": "pipe-two-image.wim",
+      "flags": -1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzx.wim",
+      "b": "pipe-two-image.wim",
+      "flags": 16,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzx.wim",
+      "b": "pipe-xpress-64k.wim",
+      "flags": 0,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzx.wim",
+      "b": "pipe-xpress-64k.wim",
+      "flags": 1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzx.wim",
+      "b": "pipe-xpress-64k.wim",
+      "flags": 2,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzx.wim",
+      "b": "pipe-xpress-64k.wim",
+      "flags": 4,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzx.wim",
+      "b": "pipe-xpress-64k.wim",
+      "flags": 8,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzx.wim",
+      "b": "pipe-xpress-64k.wim",
+      "flags": 9,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzx.wim",
+      "b": "pipe-xpress-64k.wim",
+      "flags": 15,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzx.wim",
+      "b": "pipe-xpress-64k.wim",
+      "flags": -1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzx.wim",
+      "b": "pipe-xpress-64k.wim",
+      "flags": 16,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzx.wim",
+      "b": "solid-resource.wim",
+      "flags": 0,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzx.wim",
+      "b": "solid-resource.wim",
+      "flags": 1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzx.wim",
+      "b": "solid-resource.wim",
+      "flags": 2,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzx.wim",
+      "b": "solid-resource.wim",
+      "flags": 4,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzx.wim",
+      "b": "solid-resource.wim",
+      "flags": 8,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzx.wim",
+      "b": "solid-resource.wim",
+      "flags": 9,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzx.wim",
+      "b": "solid-resource.wim",
+      "flags": 15,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzx.wim",
+      "b": "solid-resource.wim",
+      "flags": -1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzx.wim",
+      "b": "solid-resource.wim",
+      "flags": 16,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzms.wim",
+      "b": "pipe-none.wim",
+      "flags": 0,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzms.wim",
+      "b": "pipe-none.wim",
+      "flags": 1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzms.wim",
+      "b": "pipe-none.wim",
+      "flags": 2,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzms.wim",
+      "b": "pipe-none.wim",
+      "flags": 4,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzms.wim",
+      "b": "pipe-none.wim",
+      "flags": 8,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzms.wim",
+      "b": "pipe-none.wim",
+      "flags": 9,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzms.wim",
+      "b": "pipe-none.wim",
+      "flags": 15,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzms.wim",
+      "b": "pipe-none.wim",
+      "flags": -1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzms.wim",
+      "b": "pipe-none.wim",
+      "flags": 16,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzms.wim",
+      "b": "pipable-resource.wim",
+      "flags": 0,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzms.wim",
+      "b": "pipable-resource.wim",
+      "flags": 1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzms.wim",
+      "b": "pipable-resource.wim",
+      "flags": 2,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzms.wim",
+      "b": "pipable-resource.wim",
+      "flags": 4,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzms.wim",
+      "b": "pipable-resource.wim",
+      "flags": 8,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzms.wim",
+      "b": "pipable-resource.wim",
+      "flags": 9,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzms.wim",
+      "b": "pipable-resource.wim",
+      "flags": 15,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzms.wim",
+      "b": "pipable-resource.wim",
+      "flags": -1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzms.wim",
+      "b": "pipable-resource.wim",
+      "flags": 16,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzms.wim",
+      "b": "pipe-lzx.wim",
+      "flags": 0,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzms.wim",
+      "b": "pipe-lzx.wim",
+      "flags": 1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzms.wim",
+      "b": "pipe-lzx.wim",
+      "flags": 2,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzms.wim",
+      "b": "pipe-lzx.wim",
+      "flags": 4,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzms.wim",
+      "b": "pipe-lzx.wim",
+      "flags": 8,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzms.wim",
+      "b": "pipe-lzx.wim",
+      "flags": 9,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzms.wim",
+      "b": "pipe-lzx.wim",
+      "flags": 15,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzms.wim",
+      "b": "pipe-lzx.wim",
+      "flags": -1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzms.wim",
+      "b": "pipe-lzx.wim",
+      "flags": 16,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzms.wim",
+      "b": "pipe-lzms.wim",
+      "flags": 0,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzms.wim",
+      "b": "pipe-lzms.wim",
+      "flags": 1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzms.wim",
+      "b": "pipe-lzms.wim",
+      "flags": 2,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzms.wim",
+      "b": "pipe-lzms.wim",
+      "flags": 4,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzms.wim",
+      "b": "pipe-lzms.wim",
+      "flags": 8,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzms.wim",
+      "b": "pipe-lzms.wim",
+      "flags": 9,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzms.wim",
+      "b": "pipe-lzms.wim",
+      "flags": 15,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzms.wim",
+      "b": "pipe-lzms.wim",
+      "flags": -1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzms.wim",
+      "b": "pipe-lzms.wim",
+      "flags": 16,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzms.wim",
+      "b": "pipe-two-image.wim",
+      "flags": 0,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzms.wim",
+      "b": "pipe-two-image.wim",
+      "flags": 1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzms.wim",
+      "b": "pipe-two-image.wim",
+      "flags": 2,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzms.wim",
+      "b": "pipe-two-image.wim",
+      "flags": 4,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzms.wim",
+      "b": "pipe-two-image.wim",
+      "flags": 8,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzms.wim",
+      "b": "pipe-two-image.wim",
+      "flags": 9,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzms.wim",
+      "b": "pipe-two-image.wim",
+      "flags": 15,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzms.wim",
+      "b": "pipe-two-image.wim",
+      "flags": -1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzms.wim",
+      "b": "pipe-two-image.wim",
+      "flags": 16,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzms.wim",
+      "b": "pipe-xpress-64k.wim",
+      "flags": 0,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzms.wim",
+      "b": "pipe-xpress-64k.wim",
+      "flags": 1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzms.wim",
+      "b": "pipe-xpress-64k.wim",
+      "flags": 2,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzms.wim",
+      "b": "pipe-xpress-64k.wim",
+      "flags": 4,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzms.wim",
+      "b": "pipe-xpress-64k.wim",
+      "flags": 8,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzms.wim",
+      "b": "pipe-xpress-64k.wim",
+      "flags": 9,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzms.wim",
+      "b": "pipe-xpress-64k.wim",
+      "flags": 15,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzms.wim",
+      "b": "pipe-xpress-64k.wim",
+      "flags": -1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzms.wim",
+      "b": "pipe-xpress-64k.wim",
+      "flags": 16,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzms.wim",
+      "b": "solid-resource.wim",
+      "flags": 0,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzms.wim",
+      "b": "solid-resource.wim",
+      "flags": 1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzms.wim",
+      "b": "solid-resource.wim",
+      "flags": 2,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzms.wim",
+      "b": "solid-resource.wim",
+      "flags": 4,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzms.wim",
+      "b": "solid-resource.wim",
+      "flags": 8,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzms.wim",
+      "b": "solid-resource.wim",
+      "flags": 9,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzms.wim",
+      "b": "solid-resource.wim",
+      "flags": 15,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzms.wim",
+      "b": "solid-resource.wim",
+      "flags": -1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-lzms.wim",
+      "b": "solid-resource.wim",
+      "flags": 16,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-two-image.wim",
+      "b": "pipe-none.wim",
+      "flags": 0,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-two-image.wim",
+      "b": "pipe-none.wim",
+      "flags": 1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-two-image.wim",
+      "b": "pipe-none.wim",
+      "flags": 2,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-two-image.wim",
+      "b": "pipe-none.wim",
+      "flags": 4,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-two-image.wim",
+      "b": "pipe-none.wim",
+      "flags": 8,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-two-image.wim",
+      "b": "pipe-none.wim",
+      "flags": 9,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-two-image.wim",
+      "b": "pipe-none.wim",
+      "flags": 15,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-two-image.wim",
+      "b": "pipe-none.wim",
+      "flags": -1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-two-image.wim",
+      "b": "pipe-none.wim",
+      "flags": 16,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-two-image.wim",
+      "b": "pipable-resource.wim",
+      "flags": 0,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-two-image.wim",
+      "b": "pipable-resource.wim",
+      "flags": 1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-two-image.wim",
+      "b": "pipable-resource.wim",
+      "flags": 2,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-two-image.wim",
+      "b": "pipable-resource.wim",
+      "flags": 4,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-two-image.wim",
+      "b": "pipable-resource.wim",
+      "flags": 8,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-two-image.wim",
+      "b": "pipable-resource.wim",
+      "flags": 9,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-two-image.wim",
+      "b": "pipable-resource.wim",
+      "flags": 15,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-two-image.wim",
+      "b": "pipable-resource.wim",
+      "flags": -1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-two-image.wim",
+      "b": "pipable-resource.wim",
+      "flags": 16,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-two-image.wim",
+      "b": "pipe-lzx.wim",
+      "flags": 0,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-two-image.wim",
+      "b": "pipe-lzx.wim",
+      "flags": 1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-two-image.wim",
+      "b": "pipe-lzx.wim",
+      "flags": 2,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-two-image.wim",
+      "b": "pipe-lzx.wim",
+      "flags": 4,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-two-image.wim",
+      "b": "pipe-lzx.wim",
+      "flags": 8,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-two-image.wim",
+      "b": "pipe-lzx.wim",
+      "flags": 9,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-two-image.wim",
+      "b": "pipe-lzx.wim",
+      "flags": 15,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-two-image.wim",
+      "b": "pipe-lzx.wim",
+      "flags": -1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-two-image.wim",
+      "b": "pipe-lzx.wim",
+      "flags": 16,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-two-image.wim",
+      "b": "pipe-lzms.wim",
+      "flags": 0,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-two-image.wim",
+      "b": "pipe-lzms.wim",
+      "flags": 1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-two-image.wim",
+      "b": "pipe-lzms.wim",
+      "flags": 2,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-two-image.wim",
+      "b": "pipe-lzms.wim",
+      "flags": 4,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-two-image.wim",
+      "b": "pipe-lzms.wim",
+      "flags": 8,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-two-image.wim",
+      "b": "pipe-lzms.wim",
+      "flags": 9,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-two-image.wim",
+      "b": "pipe-lzms.wim",
+      "flags": 15,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-two-image.wim",
+      "b": "pipe-lzms.wim",
+      "flags": -1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-two-image.wim",
+      "b": "pipe-lzms.wim",
+      "flags": 16,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-two-image.wim",
+      "b": "pipe-two-image.wim",
+      "flags": 0,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-two-image.wim",
+      "b": "pipe-two-image.wim",
+      "flags": 1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-two-image.wim",
+      "b": "pipe-two-image.wim",
+      "flags": 2,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-two-image.wim",
+      "b": "pipe-two-image.wim",
+      "flags": 4,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-two-image.wim",
+      "b": "pipe-two-image.wim",
+      "flags": 8,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-two-image.wim",
+      "b": "pipe-two-image.wim",
+      "flags": 9,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-two-image.wim",
+      "b": "pipe-two-image.wim",
+      "flags": 15,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-two-image.wim",
+      "b": "pipe-two-image.wim",
+      "flags": -1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-two-image.wim",
+      "b": "pipe-two-image.wim",
+      "flags": 16,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-two-image.wim",
+      "b": "pipe-xpress-64k.wim",
+      "flags": 0,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-two-image.wim",
+      "b": "pipe-xpress-64k.wim",
+      "flags": 1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-two-image.wim",
+      "b": "pipe-xpress-64k.wim",
+      "flags": 2,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-two-image.wim",
+      "b": "pipe-xpress-64k.wim",
+      "flags": 4,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-two-image.wim",
+      "b": "pipe-xpress-64k.wim",
+      "flags": 8,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-two-image.wim",
+      "b": "pipe-xpress-64k.wim",
+      "flags": 9,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-two-image.wim",
+      "b": "pipe-xpress-64k.wim",
+      "flags": 15,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-two-image.wim",
+      "b": "pipe-xpress-64k.wim",
+      "flags": -1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-two-image.wim",
+      "b": "pipe-xpress-64k.wim",
+      "flags": 16,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-two-image.wim",
+      "b": "solid-resource.wim",
+      "flags": 0,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-two-image.wim",
+      "b": "solid-resource.wim",
+      "flags": 1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-two-image.wim",
+      "b": "solid-resource.wim",
+      "flags": 2,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-two-image.wim",
+      "b": "solid-resource.wim",
+      "flags": 4,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-two-image.wim",
+      "b": "solid-resource.wim",
+      "flags": 8,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-two-image.wim",
+      "b": "solid-resource.wim",
+      "flags": 9,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-two-image.wim",
+      "b": "solid-resource.wim",
+      "flags": 15,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-two-image.wim",
+      "b": "solid-resource.wim",
+      "flags": -1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-two-image.wim",
+      "b": "solid-resource.wim",
+      "flags": 16,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-xpress-64k.wim",
+      "b": "pipe-none.wim",
+      "flags": 0,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-xpress-64k.wim",
+      "b": "pipe-none.wim",
+      "flags": 1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-xpress-64k.wim",
+      "b": "pipe-none.wim",
+      "flags": 2,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-xpress-64k.wim",
+      "b": "pipe-none.wim",
+      "flags": 4,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-xpress-64k.wim",
+      "b": "pipe-none.wim",
+      "flags": 8,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-xpress-64k.wim",
+      "b": "pipe-none.wim",
+      "flags": 9,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-xpress-64k.wim",
+      "b": "pipe-none.wim",
+      "flags": 15,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-xpress-64k.wim",
+      "b": "pipe-none.wim",
+      "flags": -1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-xpress-64k.wim",
+      "b": "pipe-none.wim",
+      "flags": 16,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-xpress-64k.wim",
+      "b": "pipable-resource.wim",
+      "flags": 0,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-xpress-64k.wim",
+      "b": "pipable-resource.wim",
+      "flags": 1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-xpress-64k.wim",
+      "b": "pipable-resource.wim",
+      "flags": 2,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-xpress-64k.wim",
+      "b": "pipable-resource.wim",
+      "flags": 4,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-xpress-64k.wim",
+      "b": "pipable-resource.wim",
+      "flags": 8,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-xpress-64k.wim",
+      "b": "pipable-resource.wim",
+      "flags": 9,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-xpress-64k.wim",
+      "b": "pipable-resource.wim",
+      "flags": 15,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-xpress-64k.wim",
+      "b": "pipable-resource.wim",
+      "flags": -1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-xpress-64k.wim",
+      "b": "pipable-resource.wim",
+      "flags": 16,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-xpress-64k.wim",
+      "b": "pipe-lzx.wim",
+      "flags": 0,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-xpress-64k.wim",
+      "b": "pipe-lzx.wim",
+      "flags": 1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-xpress-64k.wim",
+      "b": "pipe-lzx.wim",
+      "flags": 2,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-xpress-64k.wim",
+      "b": "pipe-lzx.wim",
+      "flags": 4,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-xpress-64k.wim",
+      "b": "pipe-lzx.wim",
+      "flags": 8,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-xpress-64k.wim",
+      "b": "pipe-lzx.wim",
+      "flags": 9,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-xpress-64k.wim",
+      "b": "pipe-lzx.wim",
+      "flags": 15,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-xpress-64k.wim",
+      "b": "pipe-lzx.wim",
+      "flags": -1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-xpress-64k.wim",
+      "b": "pipe-lzx.wim",
+      "flags": 16,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-xpress-64k.wim",
+      "b": "pipe-lzms.wim",
+      "flags": 0,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-xpress-64k.wim",
+      "b": "pipe-lzms.wim",
+      "flags": 1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-xpress-64k.wim",
+      "b": "pipe-lzms.wim",
+      "flags": 2,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-xpress-64k.wim",
+      "b": "pipe-lzms.wim",
+      "flags": 4,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-xpress-64k.wim",
+      "b": "pipe-lzms.wim",
+      "flags": 8,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-xpress-64k.wim",
+      "b": "pipe-lzms.wim",
+      "flags": 9,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-xpress-64k.wim",
+      "b": "pipe-lzms.wim",
+      "flags": 15,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-xpress-64k.wim",
+      "b": "pipe-lzms.wim",
+      "flags": -1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-xpress-64k.wim",
+      "b": "pipe-lzms.wim",
+      "flags": 16,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-xpress-64k.wim",
+      "b": "pipe-two-image.wim",
+      "flags": 0,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-xpress-64k.wim",
+      "b": "pipe-two-image.wim",
+      "flags": 1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-xpress-64k.wim",
+      "b": "pipe-two-image.wim",
+      "flags": 2,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-xpress-64k.wim",
+      "b": "pipe-two-image.wim",
+      "flags": 4,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-xpress-64k.wim",
+      "b": "pipe-two-image.wim",
+      "flags": 8,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-xpress-64k.wim",
+      "b": "pipe-two-image.wim",
+      "flags": 9,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-xpress-64k.wim",
+      "b": "pipe-two-image.wim",
+      "flags": 15,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-xpress-64k.wim",
+      "b": "pipe-two-image.wim",
+      "flags": -1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-xpress-64k.wim",
+      "b": "pipe-two-image.wim",
+      "flags": 16,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-xpress-64k.wim",
+      "b": "pipe-xpress-64k.wim",
+      "flags": 0,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-xpress-64k.wim",
+      "b": "pipe-xpress-64k.wim",
+      "flags": 1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-xpress-64k.wim",
+      "b": "pipe-xpress-64k.wim",
+      "flags": 2,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-xpress-64k.wim",
+      "b": "pipe-xpress-64k.wim",
+      "flags": 4,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-xpress-64k.wim",
+      "b": "pipe-xpress-64k.wim",
+      "flags": 8,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-xpress-64k.wim",
+      "b": "pipe-xpress-64k.wim",
+      "flags": 9,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-xpress-64k.wim",
+      "b": "pipe-xpress-64k.wim",
+      "flags": 15,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-xpress-64k.wim",
+      "b": "pipe-xpress-64k.wim",
+      "flags": -1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-xpress-64k.wim",
+      "b": "pipe-xpress-64k.wim",
+      "flags": 16,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-xpress-64k.wim",
+      "b": "solid-resource.wim",
+      "flags": 0,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-xpress-64k.wim",
+      "b": "solid-resource.wim",
+      "flags": 1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-xpress-64k.wim",
+      "b": "solid-resource.wim",
+      "flags": 2,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-xpress-64k.wim",
+      "b": "solid-resource.wim",
+      "flags": 4,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-xpress-64k.wim",
+      "b": "solid-resource.wim",
+      "flags": 8,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-xpress-64k.wim",
+      "b": "solid-resource.wim",
+      "flags": 9,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-xpress-64k.wim",
+      "b": "solid-resource.wim",
+      "flags": 15,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-xpress-64k.wim",
+      "b": "solid-resource.wim",
+      "flags": -1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "pipe-xpress-64k.wim",
+      "b": "solid-resource.wim",
+      "flags": 16,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "solid-resource.wim",
+      "b": "pipe-none.wim",
+      "flags": 0,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "solid-resource.wim",
+      "b": "pipe-none.wim",
+      "flags": 1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "solid-resource.wim",
+      "b": "pipe-none.wim",
+      "flags": 2,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "solid-resource.wim",
+      "b": "pipe-none.wim",
+      "flags": 4,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "solid-resource.wim",
+      "b": "pipe-none.wim",
+      "flags": 8,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "solid-resource.wim",
+      "b": "pipe-none.wim",
+      "flags": 9,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "solid-resource.wim",
+      "b": "pipe-none.wim",
+      "flags": 15,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "solid-resource.wim",
+      "b": "pipe-none.wim",
+      "flags": -1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "solid-resource.wim",
+      "b": "pipe-none.wim",
+      "flags": 16,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "solid-resource.wim",
+      "b": "pipable-resource.wim",
+      "flags": 0,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "solid-resource.wim",
+      "b": "pipable-resource.wim",
+      "flags": 1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "solid-resource.wim",
+      "b": "pipable-resource.wim",
+      "flags": 2,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "solid-resource.wim",
+      "b": "pipable-resource.wim",
+      "flags": 4,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "solid-resource.wim",
+      "b": "pipable-resource.wim",
+      "flags": 8,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "solid-resource.wim",
+      "b": "pipable-resource.wim",
+      "flags": 9,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "solid-resource.wim",
+      "b": "pipable-resource.wim",
+      "flags": 15,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "solid-resource.wim",
+      "b": "pipable-resource.wim",
+      "flags": -1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "solid-resource.wim",
+      "b": "pipable-resource.wim",
+      "flags": 16,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "solid-resource.wim",
+      "b": "pipe-lzx.wim",
+      "flags": 0,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "solid-resource.wim",
+      "b": "pipe-lzx.wim",
+      "flags": 1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "solid-resource.wim",
+      "b": "pipe-lzx.wim",
+      "flags": 2,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "solid-resource.wim",
+      "b": "pipe-lzx.wim",
+      "flags": 4,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "solid-resource.wim",
+      "b": "pipe-lzx.wim",
+      "flags": 8,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "solid-resource.wim",
+      "b": "pipe-lzx.wim",
+      "flags": 9,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "solid-resource.wim",
+      "b": "pipe-lzx.wim",
+      "flags": 15,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "solid-resource.wim",
+      "b": "pipe-lzx.wim",
+      "flags": -1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "solid-resource.wim",
+      "b": "pipe-lzx.wim",
+      "flags": 16,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "solid-resource.wim",
+      "b": "pipe-lzms.wim",
+      "flags": 0,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "solid-resource.wim",
+      "b": "pipe-lzms.wim",
+      "flags": 1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "solid-resource.wim",
+      "b": "pipe-lzms.wim",
+      "flags": 2,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "solid-resource.wim",
+      "b": "pipe-lzms.wim",
+      "flags": 4,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "solid-resource.wim",
+      "b": "pipe-lzms.wim",
+      "flags": 8,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "solid-resource.wim",
+      "b": "pipe-lzms.wim",
+      "flags": 9,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "solid-resource.wim",
+      "b": "pipe-lzms.wim",
+      "flags": 15,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "solid-resource.wim",
+      "b": "pipe-lzms.wim",
+      "flags": -1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "solid-resource.wim",
+      "b": "pipe-lzms.wim",
+      "flags": 16,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "solid-resource.wim",
+      "b": "pipe-two-image.wim",
+      "flags": 0,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "solid-resource.wim",
+      "b": "pipe-two-image.wim",
+      "flags": 1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "solid-resource.wim",
+      "b": "pipe-two-image.wim",
+      "flags": 2,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "solid-resource.wim",
+      "b": "pipe-two-image.wim",
+      "flags": 4,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "solid-resource.wim",
+      "b": "pipe-two-image.wim",
+      "flags": 8,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "solid-resource.wim",
+      "b": "pipe-two-image.wim",
+      "flags": 9,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "solid-resource.wim",
+      "b": "pipe-two-image.wim",
+      "flags": 15,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "solid-resource.wim",
+      "b": "pipe-two-image.wim",
+      "flags": -1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "solid-resource.wim",
+      "b": "pipe-two-image.wim",
+      "flags": 16,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "solid-resource.wim",
+      "b": "pipe-xpress-64k.wim",
+      "flags": 0,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "solid-resource.wim",
+      "b": "pipe-xpress-64k.wim",
+      "flags": 1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "solid-resource.wim",
+      "b": "pipe-xpress-64k.wim",
+      "flags": 2,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "solid-resource.wim",
+      "b": "pipe-xpress-64k.wim",
+      "flags": 4,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "solid-resource.wim",
+      "b": "pipe-xpress-64k.wim",
+      "flags": 8,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "solid-resource.wim",
+      "b": "pipe-xpress-64k.wim",
+      "flags": 9,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "solid-resource.wim",
+      "b": "pipe-xpress-64k.wim",
+      "flags": 15,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "solid-resource.wim",
+      "b": "pipe-xpress-64k.wim",
+      "flags": -1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "solid-resource.wim",
+      "b": "pipe-xpress-64k.wim",
+      "flags": 16,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=200\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "solid-resource.wim",
+      "b": "solid-resource.wim",
+      "flags": 0,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "solid-resource.wim",
+      "b": "solid-resource.wim",
+      "flags": 1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "solid-resource.wim",
+      "b": "solid-resource.wim",
+      "flags": 2,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "solid-resource.wim",
+      "b": "solid-resource.wim",
+      "flags": 4,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "solid-resource.wim",
+      "b": "solid-resource.wim",
+      "flags": 8,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "solid-resource.wim",
+      "b": "solid-resource.wim",
+      "flags": 9,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "solid-resource.wim",
+      "b": "solid-resource.wim",
+      "flags": 15,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "solid-resource.wim",
+      "b": "solid-resource.wim",
+      "flags": -1,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    },
+    {
+      "a": "solid-resource.wim",
+      "b": "solid-resource.wim",
+      "flags": 16,
+      "observed": {
+        "original": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        },
+        "native": {
+          "status": 0,
+          "stdout": "open=0,0\ncompare=0\n",
+          "stderr": ""
+        }
+      },
+      "exact": true
+    }
+  ]
+}

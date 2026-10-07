@@ -1,0 +1,11 @@
+   Compiling wim-ffi v0.1.0 (/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/wim-ffi)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.33s
+     Running tests/write.rs (crates/wimlib-rs/target/debug/deps/write-fa5524442bb79650)
+
+running 3 tests
+test write_rejects_invalid_arguments_before_touching_output ... ok
+test write_to_nonseekable_descriptor_requires_pipable_and_preserves_descriptor_ownership ... ok
+test buffered_writer_persists_pending_empty_images_with_independent_solid_settings ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.04s
+

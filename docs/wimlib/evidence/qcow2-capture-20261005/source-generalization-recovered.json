@@ -1,0 +1,89 @@
+{
+  "generalized": true,
+  "source_shutdown": true,
+  "shutdown_evidence": "Recovered immutable bytes exactly match the previously frozen, QGA/QMP-absent source hash recorded in retained final capture report. Source was not booted during recovery. New native log extraction independently confirms Sysprep shutdown request; this is not a new guest shutdown observation.",
+  "historical_final_capture_report": "/home/rick/projects-caddy/windows-uup/docs/wimlib/evidence/qcow2-capture-20261005/capture-report.sixth-final-input.json",
+  "image_state": "IMAGE_STATE_GENERALIZE_RESEAL_TO_OOBE",
+  "image_state_verification": "regf-rs parsed newly extracted clean SOFTWARE hive",
+  "success_time_guest": "2026-10-05 17:01:07",
+  "warnings": [
+    "Source Sysprep logs retain BCD firmware export c000000d warning; Setup must create destination EFI/BCD."
+  ],
+  "task": {
+    "effective_enabled": true,
+    "literal_enabled_present": false,
+    "basis": "Microsoft Task Scheduler full XML schema Enabled default=true; settings present, no disabled override",
+    "schema": "https://learn.microsoft.com/en-us/windows/win32/taskschd/task-scheduler-schema"
+  },
+  "recovered_sources": [
+    {
+      "path": "/home/rick/.cache/windows-capture-recovery-20261005/prepared-source.qcow2",
+      "sha256": "bf7bc3cecfb9d696c82f0869cd8f3c04c74bd644648c690405132399f4091a0a",
+      "bytes": 1950679040
+    },
+    {
+      "path": "/home/rick/projects-caddy/windows-uup/vm-state/qcow2-source-1005/overlay.qcow2",
+      "sha256": "cfa75f1df1c0328f2ef19e0752678a6714d67ed0787c75626d7d2f8cfebb5762",
+      "bytes": 4352770048
+    },
+    {
+      "path": "/home/rick/.vm-base/win11-secure/disk.qcow2",
+      "sha256": "35299ad09fb946d45374f9637ccc4344acb3488b482d9571854d007b666b2abe",
+      "bytes": 10026090496
+    }
+  ],
+  "extracted_files": [
+    {
+      "path": "/data/cache/qcow2-recovered-20261005/offline-source/Windows_System32_Recovery_ReAgent.xml",
+      "bytes": 1079,
+      "sha256": "07f0adce301905f1b9b29e7ee60ec456c81c46a58fe747000f64972a3f669e90"
+    },
+    {
+      "path": "/data/cache/qcow2-recovered-20261005/offline-source/Windows_System32_Sysprep_Panther_setupact.log",
+      "bytes": 786437,
+      "sha256": "464dc5855ef49240e869ec2466c763d4c0451b8339f6d1744a9b86527fb1ef61"
+    },
+    {
+      "path": "/data/cache/qcow2-recovered-20261005/offline-source/Windows_System32_config_SYSTEM",
+      "bytes": 11796480,
+      "sha256": "75322dcb321dab2d9e622e9918f4bad3648d121bbd48c084033e079fc4365222"
+    },
+    {
+      "path": "/data/cache/qcow2-recovered-20261005/offline-source/Windows_System32_Tasks_Microsoft_Windows_CloudExperienceHost_CreateObjectTask",
+      "bytes": 2240,
+      "sha256": "1bd9125b5857c1db1693a6fb1ccfd2c0cfb6c245b52af03d5a1f493edb59c2dc"
+    },
+    {
+      "path": "/data/cache/qcow2-recovered-20261005/offline-source/Windows_System32_Sysprep_Sysprep_succeeded.tag",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/data/cache/qcow2-recovered-20261005/offline-source/Windows_System32_Recovery_Winre.wim",
+      "bytes": 682662589,
+      "sha256": "5a7b51e7271284a3204234a71386c4d8cbc81665e9f7bc451d7d70fb464a3047"
+    },
+    {
+      "path": "/data/cache/qcow2-recovered-20261005/offline-source/native-source-proof.json",
+      "bytes": 1934,
+      "sha256": "7524107f2b77f9fda4d92654fe6cffd8ca247ebc167282b26f58aba60704e751"
+    },
+    {
+      "path": "/data/cache/qcow2-recovered-20261005/offline-source/Windows_System32_Sysprep_Panther_setuperr.log",
+      "bytes": 1194,
+      "sha256": "eede9117ab86c68c22879f3cd7ed452559f32cec456fbfd864347d6608a5496c"
+    },
+    {
+      "path": "/data/cache/qcow2-recovered-20261005/offline-source/Windows_System32_config_SOFTWARE",
+      "bytes": 77594624,
+      "sha256": "d8e1bfa86fd15e16cba0b310543343749df5676798b349758ecd87fdfd548065"
+    }
+  ],
+  "native_identity": {
+    "marker_file_id": 562949953455898,
+    "partitions": "[Partition { index: 1, first_lba: 2048, sectors: 614400, type_guid: Some([40, 115, 42, 193, 31, 248, 210, 17, 186, 75, 0, 160, 201, 62, 201, 59]), unique_guid: Some([224, 238, 55, 40, 111, 128, 91, 77, 166, 177, 198, 206, 11, 39, 203, 161]), mbr_type: None, attributes: 9223372036854775808, name: [69, 70, 73, 32, 115, 121, 115, 116, 101, 109, 32, 112, 97, 114, 116, 105, 116, 105, 111, 110] }, Partition { index: 2, first_lba: 616448, sectors: 262144, type_guid: Some([22, 227, 201, 227, 92, 11, 184, 77, 129, 125, 249, 45, 240, 2, 21, 174]), unique_guid: Some([248, 239, 52, 198, 159, 216, 199, 73, 169, 18, 245, 84, 66, 7, 158, 21]), mbr_type: None, attributes: 9223372036854775808, name: [77, 105, 99, 114, 111, 115, 111, 102, 116, 32, 114, 101, 115, 101, 114, 118, 101, 100, 32, 112, 97, 114, 116, 105, 116, 105, 111, 110] }, Partition { index: 3, first_lba: 878592, sectors: 131729408, type_guid: Some([162, 160, 208, 235, 229, 185, 51, 68, 135, 192, 104, 182, 183, 38, 153, 199]), unique_guid: Some([87, 165, 231, 26, 211, 17, 116, 75, 180, 4, 128, 238, 112, 237, 103, 242]), mbr_type: None, attributes: 0, name: [66, 97, 115, 105, 99, 32, 100, 97, 116, 97, 32, 112, 97, 114, 116, 105, 116, 105, 111, 110] }, Partition { index: 4, first_lba: 132608000, sectors: 1605632, type_guid: Some([164, 187, 148, 222, 209, 6, 64, 77, 161, 106, 191, 213, 1, 121, 214, 172]), unique_guid: Some([104, 82, 61, 24, 171, 164, 33, 75, 174, 173, 110, 194, 252, 240, 209, 139]), mbr_type: None, attributes: 9223372036854775809, name: [] }]",
+    "qcow_validation": "Qcow2Validation { containers: 3, work_items: 1245360, metadata_extents: 102, data_descriptors: 237153, compressed_clusters: 0, referenced_clusters: 237255, refcount_entries_checked: 294912, compressed_payloads_verified: 0, compressed_bytes_verified: 0 }",
+    "volume_serial": 18029059986811144529,
+    "win32_serial": 873875793
+  }
+}

@@ -1,0 +1,4979 @@
+{
+  "native_artifact": "/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/target/debug/libwim.so",
+  "frozen_artifact": "/tmp/wim-progress-oracle-mxevnep_/libwim.so",
+  "native_sha256": "cff0fba97391a1e3641814fb2525f608225a8c1928d340adb2d68c6558f6891b",
+  "count": 113,
+  "exact_events": 107,
+  "exact_sizes": 107,
+  "source_inputs_preserved": true,
+  "cases": [
+    {
+      "matrix": "write-red.json",
+      "args": [
+        "new",
+        "write",
+        "0",
+        "0",
+        "0"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 288,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "\nVerifying file data: 0 bytes of 0 bytes (0%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": "\n[WARNING] \"/tmp/wim-progress-written.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 288,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "\nVerifying file data: 0 bytes of 0 bytes (0%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": "\n[WARNING] \"/tmp/wim-progress-written.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-red.json",
+      "args": [
+        "new",
+        "write",
+        "1",
+        "12",
+        "0"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 288,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "\nVerifying file data: 0 bytes of 0 bytes (0%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": "\n[WARNING] \"/tmp/wim-progress-written.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 288,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "\nVerifying file data: 0 bytes of 0 bytes (0%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": "\n[WARNING] \"/tmp/wim-progress-written.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-red.json",
+      "args": [
+        "new",
+        "write",
+        "1",
+        "13",
+        "0"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 13 info-null 1",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 13 info-null 1",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-red.json",
+      "args": [
+        "new",
+        "write",
+        "1",
+        "14",
+        "0"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-red.json",
+      "args": [
+        "new",
+        "write",
+        "1",
+        "17",
+        "0"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 288,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "\nVerifying file data: 0 bytes of 0 bytes (0%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": "\n[WARNING] \"/tmp/wim-progress-written.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 288,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "\nVerifying file data: 0 bytes of 0 bytes (0%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": "\n[WARNING] \"/tmp/wim-progress-written.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-red.json",
+      "args": [
+        "new",
+        "write",
+        "2",
+        "12",
+        "0"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 288,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "\nVerifying file data: 0 bytes of 0 bytes (0%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": "\n[WARNING] \"/tmp/wim-progress-written.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 288,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "\nVerifying file data: 0 bytes of 0 bytes (0%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": "\n[WARNING] \"/tmp/wim-progress-written.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-red.json",
+      "args": [
+        "new",
+        "write",
+        "0",
+        "0",
+        "1"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 13 info-null 1",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 288,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "\nVerifying file data: 0 bytes of 0 bytes (0%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": "\n[WARNING] \"/tmp/wim-progress-written.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 13 info-null 1",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 288,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "\nVerifying file data: 0 bytes of 0 bytes (0%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": "\n[WARNING] \"/tmp/wim-progress-written.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-red.json",
+      "args": [
+        "new",
+        "write",
+        "0",
+        "0",
+        "2"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 13 info-null 1",
+          "event 2 14 info-null 1",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 288,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "\nVerifying file data: 0 bytes of 0 bytes (0%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": "\n[WARNING] \"/tmp/wim-progress-written.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 13 info-null 1",
+          "event 2 14 info-null 1",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 288,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "\nVerifying file data: 0 bytes of 0 bytes (0%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": "\n[WARNING] \"/tmp/wim-progress-written.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-red.json",
+      "args": [
+        "/tmp/metadata-native.wim",
+        "write",
+        "0",
+        "0",
+        "0"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "event 1 12 write streams 1 2 bytes 15 63 threads 1 codec 0 parts 1 compressed 15",
+          "event 1 12 write streams 2 2 bytes 63 63 threads 1 codec 0 parts 1 compressed 63",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "event 1 17 integrity 0 1 bytes 0 1005 chunk 10485760",
+          "event 1 17 integrity 1 1 bytes 1005 1005 chunk 10485760",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 2047,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 0 bytes of 1005 bytes (0%) done\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 1005 bytes of 1005 bytes (100%) done\nVerifying metadata for image 1 of 1\n\nVerifying file data: 0 bytes of 63 bytes (0%) done\nVerifying file data: 15 bytes of 63 bytes (23%) done\nVerifying file data: 63 bytes of 63 bytes (100%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": ""
+        }
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "event 1 12 write streams 1 2 bytes 15 63 threads 1 codec 0 parts 1 compressed 15",
+          "event 1 12 write streams 2 2 bytes 63 63 threads 1 codec 0 parts 1 compressed 63",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "event 1 17 integrity 0 1 bytes 0 1005 chunk 10485760",
+          "event 1 17 integrity 1 1 bytes 1005 1005 chunk 10485760",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 2047,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 0 bytes of 1005 bytes (0%) done\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 1005 bytes of 1005 bytes (100%) done\nVerifying metadata for image 1 of 1\n\nVerifying file data: 0 bytes of 63 bytes (0%) done\nVerifying file data: 15 bytes of 63 bytes (23%) done\nVerifying file data: 63 bytes of 63 bytes (100%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": ""
+        }
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-red.json",
+      "args": [
+        "/tmp/metadata-native.wim",
+        "write",
+        "1",
+        "12",
+        "0"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-red.json",
+      "args": [
+        "/tmp/metadata-native.wim",
+        "write",
+        "1",
+        "13",
+        "0"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "event 1 12 write streams 1 2 bytes 15 63 threads 1 codec 0 parts 1 compressed 15",
+          "event 1 12 write streams 2 2 bytes 63 63 threads 1 codec 0 parts 1 compressed 63",
+          "event 1 13 info-null 1",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 271,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "event 1 12 write streams 1 2 bytes 15 63 threads 1 codec 0 parts 1 compressed 15",
+          "event 1 12 write streams 2 2 bytes 63 63 threads 1 codec 0 parts 1 compressed 63",
+          "event 1 13 info-null 1",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 271,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-red.json",
+      "args": [
+        "/tmp/metadata-native.wim",
+        "write",
+        "1",
+        "14",
+        "0"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "event 1 12 write streams 1 2 bytes 15 63 threads 1 codec 0 parts 1 compressed 15",
+          "event 1 12 write streams 2 2 bytes 63 63 threads 1 codec 0 parts 1 compressed 63",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 1063,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "event 1 12 write streams 1 2 bytes 15 63 threads 1 codec 0 parts 1 compressed 15",
+          "event 1 12 write streams 2 2 bytes 63 63 threads 1 codec 0 parts 1 compressed 63",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 1063,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-red.json",
+      "args": [
+        "/tmp/metadata-native.wim",
+        "write",
+        "1",
+        "17",
+        "0"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "event 1 12 write streams 1 2 bytes 15 63 threads 1 codec 0 parts 1 compressed 15",
+          "event 1 12 write streams 2 2 bytes 63 63 threads 1 codec 0 parts 1 compressed 63",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "event 1 17 integrity 0 1 bytes 0 1005 chunk 10485760",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 2015,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "event 1 12 write streams 1 2 bytes 15 63 threads 1 codec 0 parts 1 compressed 15",
+          "event 1 12 write streams 2 2 bytes 63 63 threads 1 codec 0 parts 1 compressed 63",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "event 1 17 integrity 0 1 bytes 0 1005 chunk 10485760",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 2015,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-red.json",
+      "args": [
+        "/tmp/metadata-native.wim",
+        "write",
+        "2",
+        "12",
+        "0"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "result 77"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "result 77"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-red.json",
+      "args": [
+        "/tmp/metadata-native.wim",
+        "write",
+        "0",
+        "0",
+        "1"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "event 1 12 write streams 1 2 bytes 15 63 threads 1 codec 0 parts 1 compressed 15",
+          "event 1 12 write streams 2 2 bytes 63 63 threads 1 codec 0 parts 1 compressed 63",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 2047,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 0 bytes of 1005 bytes (0%) done\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 1005 bytes of 1005 bytes (100%) done\nVerifying metadata for image 1 of 1\n\nVerifying file data: 0 bytes of 63 bytes (0%) done\nVerifying file data: 15 bytes of 63 bytes (23%) done\nVerifying file data: 63 bytes of 63 bytes (100%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": ""
+        }
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "event 1 12 write streams 1 2 bytes 15 63 threads 1 codec 0 parts 1 compressed 15",
+          "event 1 12 write streams 2 2 bytes 63 63 threads 1 codec 0 parts 1 compressed 63",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 2047,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 0 bytes of 1005 bytes (0%) done\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 1005 bytes of 1005 bytes (100%) done\nVerifying metadata for image 1 of 1\n\nVerifying file data: 0 bytes of 63 bytes (0%) done\nVerifying file data: 15 bytes of 63 bytes (23%) done\nVerifying file data: 63 bytes of 63 bytes (100%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": ""
+        }
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-red.json",
+      "args": [
+        "/tmp/metadata-native.wim",
+        "write",
+        "0",
+        "0",
+        "2"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "event 1 12 write streams 1 2 bytes 15 63 threads 1 codec 0 parts 1 compressed 15",
+          "event 1 12 write streams 2 2 bytes 63 63 threads 1 codec 0 parts 1 compressed 63",
+          "event 2 13 info-null 1",
+          "event 2 14 info-null 1",
+          "event 2 17 integrity 0 1 bytes 0 1005 chunk 10485760",
+          "event 2 17 integrity 1 1 bytes 1005 1005 chunk 10485760",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 2047,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 0 bytes of 1005 bytes (0%) done\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 1005 bytes of 1005 bytes (100%) done\nVerifying metadata for image 1 of 1\n\nVerifying file data: 0 bytes of 63 bytes (0%) done\nVerifying file data: 15 bytes of 63 bytes (23%) done\nVerifying file data: 63 bytes of 63 bytes (100%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": ""
+        }
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "event 1 12 write streams 1 2 bytes 15 63 threads 1 codec 0 parts 1 compressed 15",
+          "event 1 12 write streams 2 2 bytes 63 63 threads 1 codec 0 parts 1 compressed 63",
+          "event 2 13 info-null 1",
+          "event 2 14 info-null 1",
+          "event 2 17 integrity 0 1 bytes 0 1005 chunk 10485760",
+          "event 2 17 integrity 1 1 bytes 1005 1005 chunk 10485760",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 2047,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 0 bytes of 1005 bytes (0%) done\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 1005 bytes of 1005 bytes (100%) done\nVerifying metadata for image 1 of 1\n\nVerifying file data: 0 bytes of 63 bytes (0%) done\nVerifying file data: 15 bytes of 63 bytes (23%) done\nVerifying file data: 63 bytes of 63 bytes (100%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": ""
+        }
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-red.json",
+      "args": [
+        "/tmp/wim-resource-xpress.wim",
+        "write",
+        "0",
+        "0",
+        "0"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 1 bytes 0 76810 threads 1 codec 1 parts 1 compressed 0",
+          "event 1 12 write streams 1 1 bytes 76810 76810 threads 1 codec 1 parts 1 compressed 1587",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "event 1 17 integrity 0 1 bytes 0 1943 chunk 10485760",
+          "event 1 17 integrity 1 1 bytes 1943 1943 chunk 10485760",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 2981,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 0 bytes of 1943 bytes (0%) done\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 1943 bytes of 1943 bytes (100%) done\nVerifying metadata for image 1 of 1\n\nVerifying file data: 0 KiB of 75 KiB (0%) done\nVerifying file data: 32 KiB of 75 KiB (42%) done\nVerifying file data: 64 KiB of 75 KiB (85%) done\nVerifying file data: 75 KiB of 75 KiB (100%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": ""
+        }
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 1 bytes 0 76810 threads 1 codec 1 parts 1 compressed 0",
+          "event 1 12 write streams 1 1 bytes 76810 76810 threads 1 codec 1 parts 1 compressed 1587",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "event 1 17 integrity 0 1 bytes 0 1943 chunk 10485760",
+          "event 1 17 integrity 1 1 bytes 1943 1943 chunk 10485760",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 2981,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 0 bytes of 1943 bytes (0%) done\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 1943 bytes of 1943 bytes (100%) done\nVerifying metadata for image 1 of 1\n\nVerifying file data: 0 KiB of 75 KiB (0%) done\nVerifying file data: 32 KiB of 75 KiB (42%) done\nVerifying file data: 64 KiB of 75 KiB (85%) done\nVerifying file data: 75 KiB of 75 KiB (100%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": ""
+        }
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-red.json",
+      "args": [
+        "/tmp/wim-resource-xpress.wim",
+        "write",
+        "1",
+        "12",
+        "0"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 1 bytes 0 76810 threads 1 codec 1 parts 1 compressed 0",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 1 bytes 0 76810 threads 1 codec 1 parts 1 compressed 0",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-red.json",
+      "args": [
+        "/tmp/wim-resource-xpress.wim",
+        "write",
+        "1",
+        "13",
+        "0"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 1 bytes 0 76810 threads 1 codec 1 parts 1 compressed 0",
+          "event 1 12 write streams 1 1 bytes 76810 76810 threads 1 codec 1 parts 1 compressed 1587",
+          "event 1 13 info-null 1",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 1795,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 1 bytes 0 76810 threads 1 codec 1 parts 1 compressed 0",
+          "event 1 12 write streams 1 1 bytes 76810 76810 threads 1 codec 1 parts 1 compressed 1587",
+          "event 1 13 info-null 1",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 1795,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-red.json",
+      "args": [
+        "/tmp/wim-resource-xpress.wim",
+        "write",
+        "1",
+        "14",
+        "0"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 1 bytes 0 76810 threads 1 codec 1 parts 1 compressed 0",
+          "event 1 12 write streams 1 1 bytes 76810 76810 threads 1 codec 1 parts 1 compressed 1587",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 2051,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 1 bytes 0 76810 threads 1 codec 1 parts 1 compressed 0",
+          "event 1 12 write streams 1 1 bytes 76810 76810 threads 1 codec 1 parts 1 compressed 1587",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 2051,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-red.json",
+      "args": [
+        "/tmp/wim-resource-xpress.wim",
+        "write",
+        "1",
+        "17",
+        "0"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 1 bytes 0 76810 threads 1 codec 1 parts 1 compressed 0",
+          "event 1 12 write streams 1 1 bytes 76810 76810 threads 1 codec 1 parts 1 compressed 1587",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "event 1 17 integrity 0 1 bytes 0 1943 chunk 10485760",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 2949,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 1 bytes 0 76810 threads 1 codec 1 parts 1 compressed 0",
+          "event 1 12 write streams 1 1 bytes 76810 76810 threads 1 codec 1 parts 1 compressed 1587",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "event 1 17 integrity 0 1 bytes 0 1943 chunk 10485760",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 2949,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-red.json",
+      "args": [
+        "/tmp/wim-resource-xpress.wim",
+        "write",
+        "2",
+        "12",
+        "0"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 1 bytes 0 76810 threads 1 codec 1 parts 1 compressed 0",
+          "result 77"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 1 bytes 0 76810 threads 1 codec 1 parts 1 compressed 0",
+          "result 77"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-red.json",
+      "args": [
+        "/tmp/wim-resource-xpress.wim",
+        "write",
+        "0",
+        "0",
+        "1"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 1 bytes 0 76810 threads 1 codec 1 parts 1 compressed 0",
+          "event 1 12 write streams 1 1 bytes 76810 76810 threads 1 codec 1 parts 1 compressed 1587",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 2981,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 0 bytes of 1943 bytes (0%) done\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 1943 bytes of 1943 bytes (100%) done\nVerifying metadata for image 1 of 1\n\nVerifying file data: 0 KiB of 75 KiB (0%) done\nVerifying file data: 32 KiB of 75 KiB (42%) done\nVerifying file data: 64 KiB of 75 KiB (85%) done\nVerifying file data: 75 KiB of 75 KiB (100%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": ""
+        }
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 1 bytes 0 76810 threads 1 codec 1 parts 1 compressed 0",
+          "event 1 12 write streams 1 1 bytes 76810 76810 threads 1 codec 1 parts 1 compressed 1587",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 2981,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 0 bytes of 1943 bytes (0%) done\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 1943 bytes of 1943 bytes (100%) done\nVerifying metadata for image 1 of 1\n\nVerifying file data: 0 KiB of 75 KiB (0%) done\nVerifying file data: 32 KiB of 75 KiB (42%) done\nVerifying file data: 64 KiB of 75 KiB (85%) done\nVerifying file data: 75 KiB of 75 KiB (100%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": ""
+        }
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-red.json",
+      "args": [
+        "/tmp/wim-resource-xpress.wim",
+        "write",
+        "0",
+        "0",
+        "2"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 1 bytes 0 76810 threads 1 codec 1 parts 1 compressed 0",
+          "event 1 12 write streams 1 1 bytes 76810 76810 threads 1 codec 1 parts 1 compressed 1587",
+          "event 2 13 info-null 1",
+          "event 2 14 info-null 1",
+          "event 2 17 integrity 0 1 bytes 0 1943 chunk 10485760",
+          "event 2 17 integrity 1 1 bytes 1943 1943 chunk 10485760",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 2981,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 0 bytes of 1943 bytes (0%) done\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 1943 bytes of 1943 bytes (100%) done\nVerifying metadata for image 1 of 1\n\nVerifying file data: 0 KiB of 75 KiB (0%) done\nVerifying file data: 32 KiB of 75 KiB (42%) done\nVerifying file data: 64 KiB of 75 KiB (85%) done\nVerifying file data: 75 KiB of 75 KiB (100%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": ""
+        }
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 1 bytes 0 76810 threads 1 codec 1 parts 1 compressed 0",
+          "event 1 12 write streams 1 1 bytes 76810 76810 threads 1 codec 1 parts 1 compressed 1587",
+          "event 2 13 info-null 1",
+          "event 2 14 info-null 1",
+          "event 2 17 integrity 0 1 bytes 0 1943 chunk 10485760",
+          "event 2 17 integrity 1 1 bytes 1943 1943 chunk 10485760",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 2981,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 0 bytes of 1943 bytes (0%) done\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 1943 bytes of 1943 bytes (100%) done\nVerifying metadata for image 1 of 1\n\nVerifying file data: 0 KiB of 75 KiB (0%) done\nVerifying file data: 32 KiB of 75 KiB (42%) done\nVerifying file data: 64 KiB of 75 KiB (85%) done\nVerifying file data: 75 KiB of 75 KiB (100%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": ""
+        }
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-red.json",
+      "args": [
+        "/tmp/wim-resource-solid.wim",
+        "write",
+        "0",
+        "0",
+        "0"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 1 bytes 0 76810 threads 1 codec 3 parts 1 compressed 0",
+          "event 1 12 write streams 1 1 bytes 76810 76810 threads 1 codec 3 parts 1 compressed 1607",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "event 1 17 integrity 0 1 bytes 0 1863 chunk 10485760",
+          "event 1 17 integrity 1 1 bytes 1863 1863 chunk 10485760",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 2901,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 0 bytes of 1863 bytes (0%) done\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 1863 bytes of 1863 bytes (100%) done\nVerifying metadata for image 1 of 1\n\nVerifying file data: 0 KiB of 75 KiB (0%) done\nVerifying file data: 32 KiB of 75 KiB (42%) done\nVerifying file data: 64 KiB of 75 KiB (85%) done\nVerifying file data: 75 KiB of 75 KiB (100%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": ""
+        }
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 1 bytes 0 76810 threads 1 codec 3 parts 1 compressed 0",
+          "event 1 12 write streams 1 1 bytes 76810 76810 threads 1 codec 3 parts 1 compressed 1607",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "event 1 17 integrity 0 1 bytes 0 1863 chunk 10485760",
+          "event 1 17 integrity 1 1 bytes 1863 1863 chunk 10485760",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 2901,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 0 bytes of 1863 bytes (0%) done\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 1863 bytes of 1863 bytes (100%) done\nVerifying metadata for image 1 of 1\n\nVerifying file data: 0 KiB of 75 KiB (0%) done\nVerifying file data: 32 KiB of 75 KiB (42%) done\nVerifying file data: 64 KiB of 75 KiB (85%) done\nVerifying file data: 75 KiB of 75 KiB (100%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": ""
+        }
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-red.json",
+      "args": [
+        "/tmp/wim-resource-solid.wim",
+        "write",
+        "1",
+        "12",
+        "0"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 1 bytes 0 76810 threads 1 codec 3 parts 1 compressed 0",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 1 bytes 0 76810 threads 1 codec 3 parts 1 compressed 0",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-red.json",
+      "args": [
+        "/tmp/wim-resource-solid.wim",
+        "write",
+        "1",
+        "13",
+        "0"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 1 bytes 0 76810 threads 1 codec 3 parts 1 compressed 0",
+          "event 1 12 write streams 1 1 bytes 76810 76810 threads 1 codec 3 parts 1 compressed 1607",
+          "event 1 13 info-null 1",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 1815,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 1 bytes 0 76810 threads 1 codec 3 parts 1 compressed 0",
+          "event 1 12 write streams 1 1 bytes 76810 76810 threads 1 codec 3 parts 1 compressed 1607",
+          "event 1 13 info-null 1",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 1815,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-red.json",
+      "args": [
+        "/tmp/wim-resource-solid.wim",
+        "write",
+        "1",
+        "14",
+        "0"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 1 bytes 0 76810 threads 1 codec 3 parts 1 compressed 0",
+          "event 1 12 write streams 1 1 bytes 76810 76810 threads 1 codec 3 parts 1 compressed 1607",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 1921,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 1 bytes 0 76810 threads 1 codec 3 parts 1 compressed 0",
+          "event 1 12 write streams 1 1 bytes 76810 76810 threads 1 codec 3 parts 1 compressed 1607",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 1921,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-red.json",
+      "args": [
+        "/tmp/wim-resource-solid.wim",
+        "write",
+        "1",
+        "17",
+        "0"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 1 bytes 0 76810 threads 1 codec 3 parts 1 compressed 0",
+          "event 1 12 write streams 1 1 bytes 76810 76810 threads 1 codec 3 parts 1 compressed 1607",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "event 1 17 integrity 0 1 bytes 0 1863 chunk 10485760",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 2869,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 1 bytes 0 76810 threads 1 codec 3 parts 1 compressed 0",
+          "event 1 12 write streams 1 1 bytes 76810 76810 threads 1 codec 3 parts 1 compressed 1607",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "event 1 17 integrity 0 1 bytes 0 1863 chunk 10485760",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 2869,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-red.json",
+      "args": [
+        "/tmp/wim-resource-solid.wim",
+        "write",
+        "2",
+        "12",
+        "0"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 1 bytes 0 76810 threads 1 codec 3 parts 1 compressed 0",
+          "result 77"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 1 bytes 0 76810 threads 1 codec 3 parts 1 compressed 0",
+          "result 77"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-red.json",
+      "args": [
+        "/tmp/wim-resource-solid.wim",
+        "write",
+        "0",
+        "0",
+        "1"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 1 bytes 0 76810 threads 1 codec 3 parts 1 compressed 0",
+          "event 1 12 write streams 1 1 bytes 76810 76810 threads 1 codec 3 parts 1 compressed 1607",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 2901,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 0 bytes of 1863 bytes (0%) done\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 1863 bytes of 1863 bytes (100%) done\nVerifying metadata for image 1 of 1\n\nVerifying file data: 0 KiB of 75 KiB (0%) done\nVerifying file data: 32 KiB of 75 KiB (42%) done\nVerifying file data: 64 KiB of 75 KiB (85%) done\nVerifying file data: 75 KiB of 75 KiB (100%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": ""
+        }
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 1 bytes 0 76810 threads 1 codec 3 parts 1 compressed 0",
+          "event 1 12 write streams 1 1 bytes 76810 76810 threads 1 codec 3 parts 1 compressed 1607",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 2901,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 0 bytes of 1863 bytes (0%) done\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 1863 bytes of 1863 bytes (100%) done\nVerifying metadata for image 1 of 1\n\nVerifying file data: 0 KiB of 75 KiB (0%) done\nVerifying file data: 32 KiB of 75 KiB (42%) done\nVerifying file data: 64 KiB of 75 KiB (85%) done\nVerifying file data: 75 KiB of 75 KiB (100%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": ""
+        }
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-red.json",
+      "args": [
+        "/tmp/wim-resource-solid.wim",
+        "write",
+        "0",
+        "0",
+        "2"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 1 bytes 0 76810 threads 1 codec 3 parts 1 compressed 0",
+          "event 1 12 write streams 1 1 bytes 76810 76810 threads 1 codec 3 parts 1 compressed 1607",
+          "event 2 13 info-null 1",
+          "event 2 14 info-null 1",
+          "event 2 17 integrity 0 1 bytes 0 1863 chunk 10485760",
+          "event 2 17 integrity 1 1 bytes 1863 1863 chunk 10485760",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 2901,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 0 bytes of 1863 bytes (0%) done\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 1863 bytes of 1863 bytes (100%) done\nVerifying metadata for image 1 of 1\n\nVerifying file data: 0 KiB of 75 KiB (0%) done\nVerifying file data: 32 KiB of 75 KiB (42%) done\nVerifying file data: 64 KiB of 75 KiB (85%) done\nVerifying file data: 75 KiB of 75 KiB (100%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": ""
+        }
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 1 bytes 0 76810 threads 1 codec 3 parts 1 compressed 0",
+          "event 1 12 write streams 1 1 bytes 76810 76810 threads 1 codec 3 parts 1 compressed 1607",
+          "event 2 13 info-null 1",
+          "event 2 14 info-null 1",
+          "event 2 17 integrity 0 1 bytes 0 1863 chunk 10485760",
+          "event 2 17 integrity 1 1 bytes 1863 1863 chunk 10485760",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 2901,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 0 bytes of 1863 bytes (0%) done\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 1863 bytes of 1863 bytes (100%) done\nVerifying metadata for image 1 of 1\n\nVerifying file data: 0 KiB of 75 KiB (0%) done\nVerifying file data: 32 KiB of 75 KiB (42%) done\nVerifying file data: 64 KiB of 75 KiB (85%) done\nVerifying file data: 75 KiB of 75 KiB (100%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": ""
+        }
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-red.json",
+      "args": [
+        "/tmp/wim-write-invalid-metadata-hash.wim",
+        "write",
+        "0",
+        "0",
+        "0"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "result 21"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "result 21"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-red.json",
+      "args": [
+        "/tmp/wim-write-invalid-metadata-hash.wim",
+        "write",
+        "1",
+        "12",
+        "0"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "result 21"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "result 21"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-red.json",
+      "args": [
+        "/tmp/wim-write-invalid-metadata-hash.wim",
+        "write",
+        "1",
+        "13",
+        "0"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "result 21"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "result 21"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-red.json",
+      "args": [
+        "/tmp/wim-write-invalid-metadata-hash.wim",
+        "write",
+        "1",
+        "14",
+        "0"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "result 21"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "result 21"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-red.json",
+      "args": [
+        "/tmp/wim-write-invalid-metadata-hash.wim",
+        "write",
+        "1",
+        "17",
+        "0"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "result 21"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "result 21"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-red.json",
+      "args": [
+        "/tmp/wim-write-invalid-metadata-hash.wim",
+        "write",
+        "2",
+        "12",
+        "0"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "result 21"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "result 21"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-red.json",
+      "args": [
+        "/tmp/wim-write-invalid-metadata-hash.wim",
+        "write",
+        "0",
+        "0",
+        "1"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "result 21"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "result 21"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-red.json",
+      "args": [
+        "/tmp/wim-write-invalid-metadata-hash.wim",
+        "write",
+        "0",
+        "0",
+        "2"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "result 21"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "result 21"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-modes-red.json",
+      "args": [
+        "new",
+        "write",
+        "0",
+        "0",
+        "0",
+        "2052"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 600,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "\nVerifying file data: 0 bytes of 0 bytes (0%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": "\n[WARNING] \"/tmp/wim-progress-written.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 600,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "\nVerifying file data: 0 bytes of 0 bytes (0%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": "\n[WARNING] \"/tmp/wim-progress-written.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-modes-red.json",
+      "args": [
+        "/tmp/metadata-native.wim",
+        "write",
+        "0",
+        "0",
+        "0",
+        "2052"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "event 1 12 write streams 1 2 bytes 15 63 threads 1 codec 0 parts 1 compressed 15",
+          "event 1 12 write streams 2 2 bytes 63 63 threads 1 codec 0 parts 1 compressed 63",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 3207,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "Verifying metadata for image 1 of 1\n\nVerifying file data: 0 bytes of 63 bytes (0%) done\nVerifying file data: 15 bytes of 63 bytes (23%) done\nVerifying file data: 63 bytes of 63 bytes (100%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": "\n[WARNING] \"/tmp/wim-progress-written.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "event 1 12 write streams 1 2 bytes 15 63 threads 1 codec 0 parts 1 compressed 15",
+          "event 1 12 write streams 2 2 bytes 63 63 threads 1 codec 0 parts 1 compressed 63",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 3207,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "Verifying metadata for image 1 of 1\n\nVerifying file data: 0 bytes of 63 bytes (0%) done\nVerifying file data: 15 bytes of 63 bytes (23%) done\nVerifying file data: 63 bytes of 63 bytes (100%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": "\n[WARNING] \"/tmp/wim-progress-written.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-modes-red.json",
+      "args": [
+        "/tmp/wim-resource-xpress.wim",
+        "write",
+        "0",
+        "0",
+        "0",
+        "2052"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "event 1 12 write streams 0 1 bytes 0 76810 threads 1 codec 1 parts 1 compressed 0",
+          "event 1 12 write streams 0 1 bytes 32768 76810 threads 1 codec 1 parts 1 compressed 523",
+          "event 1 12 write streams 0 1 bytes 65536 76810 threads 1 codec 1 parts 1 compressed 1046",
+          "event 1 12 write streams 1 1 bytes 76810 76810 threads 1 codec 1 parts 1 compressed 1579",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 4113,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "Verifying metadata for image 1 of 1\n\nVerifying file data: 0 KiB of 75 KiB (0%) done\nVerifying file data: 32 KiB of 75 KiB (42%) done\nVerifying file data: 64 KiB of 75 KiB (85%) done\nVerifying file data: 75 KiB of 75 KiB (100%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": "\n[WARNING] \"/tmp/wim-progress-written.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "event 1 12 write streams 0 1 bytes 0 76810 threads 1 codec 1 parts 1 compressed 0",
+          "event 1 12 write streams 0 1 bytes 32768 76810 threads 1 codec 1 parts 1 compressed 521",
+          "event 1 12 write streams 0 1 bytes 65536 76810 threads 1 codec 1 parts 1 compressed 1042",
+          "event 1 12 write streams 1 1 bytes 76810 76810 threads 1 codec 1 parts 1 compressed 1573",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 4107,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "Verifying metadata for image 1 of 1\n\nVerifying file data: 0 KiB of 75 KiB (0%) done\nVerifying file data: 32 KiB of 75 KiB (42%) done\nVerifying file data: 64 KiB of 75 KiB (85%) done\nVerifying file data: 75 KiB of 75 KiB (100%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": "\n[WARNING] \"/tmp/wim-progress-written.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "events_equal": false,
+      "output_size_equal": false
+    },
+    {
+      "matrix": "write-modes-red.json",
+      "args": [
+        "new",
+        "write",
+        "0",
+        "0",
+        "0",
+        "2053"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 600,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "\nVerifying file data: 0 bytes of 0 bytes (0%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": "\n[WARNING] \"/tmp/wim-progress-written.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 600,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "\nVerifying file data: 0 bytes of 0 bytes (0%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": "\n[WARNING] \"/tmp/wim-progress-written.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-modes-red.json",
+      "args": [
+        "/tmp/metadata-native.wim",
+        "write",
+        "0",
+        "0",
+        "0",
+        "2053"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "event 1 12 write streams 1 2 bytes 15 63 threads 1 codec 0 parts 1 compressed 15",
+          "event 1 12 write streams 2 2 bytes 63 63 threads 1 codec 0 parts 1 compressed 63",
+          "event 1 17 integrity 0 1 bytes 0 1949 chunk 10485760",
+          "event 1 17 integrity 1 1 bytes 1949 1949 chunk 10485760",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 3239,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 0 bytes of 1949 bytes (0%) done\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 1949 bytes of 1949 bytes (100%) done\nVerifying metadata for image 1 of 1\n\nVerifying file data: 0 bytes of 63 bytes (0%) done\nVerifying file data: 15 bytes of 63 bytes (23%) done\nVerifying file data: 63 bytes of 63 bytes (100%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": ""
+        }
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "event 1 12 write streams 1 2 bytes 15 63 threads 1 codec 0 parts 1 compressed 15",
+          "event 1 12 write streams 2 2 bytes 63 63 threads 1 codec 0 parts 1 compressed 63",
+          "event 1 17 integrity 0 1 bytes 0 1949 chunk 10485760",
+          "event 1 17 integrity 1 1 bytes 1949 1949 chunk 10485760",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 3239,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 0 bytes of 1949 bytes (0%) done\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 1949 bytes of 1949 bytes (100%) done\nVerifying metadata for image 1 of 1\n\nVerifying file data: 0 bytes of 63 bytes (0%) done\nVerifying file data: 15 bytes of 63 bytes (23%) done\nVerifying file data: 63 bytes of 63 bytes (100%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": ""
+        }
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-modes-red.json",
+      "args": [
+        "/tmp/wim-resource-xpress.wim",
+        "write",
+        "0",
+        "0",
+        "0",
+        "2053"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "event 1 12 write streams 0 1 bytes 0 76810 threads 1 codec 1 parts 1 compressed 0",
+          "event 1 12 write streams 0 1 bytes 32768 76810 threads 1 codec 1 parts 1 compressed 523",
+          "event 1 12 write streams 0 1 bytes 65536 76810 threads 1 codec 1 parts 1 compressed 1046",
+          "event 1 12 write streams 1 1 bytes 76810 76810 threads 1 codec 1 parts 1 compressed 1579",
+          "event 1 17 integrity 0 1 bytes 0 2859 chunk 10485760",
+          "event 1 17 integrity 1 1 bytes 2859 2859 chunk 10485760",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 4145,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 0 bytes of 2859 bytes (0%) done\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 2859 bytes of 2859 bytes (100%) done\nVerifying metadata for image 1 of 1\n\nVerifying file data: 0 KiB of 75 KiB (0%) done\nVerifying file data: 32 KiB of 75 KiB (42%) done\nVerifying file data: 64 KiB of 75 KiB (85%) done\nVerifying file data: 75 KiB of 75 KiB (100%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": ""
+        }
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "event 1 12 write streams 0 1 bytes 0 76810 threads 1 codec 1 parts 1 compressed 0",
+          "event 1 12 write streams 0 1 bytes 32768 76810 threads 1 codec 1 parts 1 compressed 521",
+          "event 1 12 write streams 0 1 bytes 65536 76810 threads 1 codec 1 parts 1 compressed 1042",
+          "event 1 12 write streams 1 1 bytes 76810 76810 threads 1 codec 1 parts 1 compressed 1573",
+          "event 1 17 integrity 0 1 bytes 0 2853 chunk 10485760",
+          "event 1 17 integrity 1 1 bytes 2853 2853 chunk 10485760",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 4139,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 0 bytes of 2853 bytes (0%) done\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 2853 bytes of 2853 bytes (100%) done\nVerifying metadata for image 1 of 1\n\nVerifying file data: 0 KiB of 75 KiB (0%) done\nVerifying file data: 32 KiB of 75 KiB (42%) done\nVerifying file data: 64 KiB of 75 KiB (85%) done\nVerifying file data: 75 KiB of 75 KiB (100%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": ""
+        }
+      },
+      "events_equal": false,
+      "output_size_equal": false
+    },
+    {
+      "matrix": "write-modes-red.json",
+      "args": [
+        "new",
+        "write",
+        "0",
+        "0",
+        "0",
+        "6144"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 288,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "\nVerifying file data: 0 bytes of 0 bytes (0%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": "\n[WARNING] \"/tmp/wim-progress-written.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 288,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "\nVerifying file data: 0 bytes of 0 bytes (0%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": "\n[WARNING] \"/tmp/wim-progress-written.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-modes-red.json",
+      "args": [
+        "/tmp/metadata-native.wim",
+        "write",
+        "0",
+        "0",
+        "0",
+        "6144"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 3 parts 1 compressed 0",
+          "event 1 12 write streams 2 2 bytes 63 63 threads 1 codec 3 parts 1 compressed 48",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 2070,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "Verifying metadata for image 1 of 1\n\nVerifying file data: 0 bytes of 63 bytes (0%) done\nVerifying file data: 48 bytes of 63 bytes (76%) done\nVerifying file data: 63 bytes of 63 bytes (100%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": "\n[WARNING] \"/tmp/wim-progress-written.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 3 parts 1 compressed 0",
+          "event 1 12 write streams 2 2 bytes 63 63 threads 1 codec 3 parts 1 compressed 50",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 2072,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "Verifying metadata for image 1 of 1\n\nVerifying file data: 0 bytes of 63 bytes (0%) done\nVerifying file data: 15 bytes of 63 bytes (23%) done\nVerifying file data: 63 bytes of 63 bytes (100%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": "\n[WARNING] \"/tmp/wim-progress-written.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "events_equal": false,
+      "output_size_equal": false
+    },
+    {
+      "matrix": "write-modes-red.json",
+      "args": [
+        "/tmp/wim-resource-xpress.wim",
+        "write",
+        "0",
+        "0",
+        "0",
+        "6144"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 1 bytes 0 76810 threads 1 codec 3 parts 1 compressed 0",
+          "event 1 12 write streams 1 1 bytes 76810 76810 threads 1 codec 3 parts 1 compressed 26",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 1456,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "Verifying metadata for image 1 of 1\n\nVerifying file data: 0 KiB of 75 KiB (0%) done\nVerifying file data: 75 KiB of 75 KiB (100%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": "\n[WARNING] \"/tmp/wim-progress-written.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 1 bytes 0 76810 threads 1 codec 3 parts 1 compressed 0",
+          "event 1 12 write streams 1 1 bytes 76810 76810 threads 1 codec 3 parts 1 compressed 24",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 1454,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "Verifying metadata for image 1 of 1\n\nVerifying file data: 0 KiB of 75 KiB (0%) done\nVerifying file data: 75 KiB of 75 KiB (100%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": "\n[WARNING] \"/tmp/wim-progress-written.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "events_equal": false,
+      "output_size_equal": false
+    },
+    {
+      "matrix": "write-modes-red.json",
+      "args": [
+        "new",
+        "write",
+        "0",
+        "0",
+        "0",
+        "6145"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 288,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "\nVerifying file data: 0 bytes of 0 bytes (0%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": "\n[WARNING] \"/tmp/wim-progress-written.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 288,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "\nVerifying file data: 0 bytes of 0 bytes (0%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": "\n[WARNING] \"/tmp/wim-progress-written.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-modes-red.json",
+      "args": [
+        "/tmp/metadata-native.wim",
+        "write",
+        "0",
+        "0",
+        "0",
+        "6145"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 3 parts 1 compressed 0",
+          "event 1 12 write streams 2 2 bytes 63 63 threads 1 codec 3 parts 1 compressed 48",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "event 1 17 integrity 0 1 bytes 0 1060 chunk 10485760",
+          "event 1 17 integrity 1 1 bytes 1060 1060 chunk 10485760",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 2102,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 0 bytes of 1060 bytes (0%) done\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 1060 bytes of 1060 bytes (100%) done\nVerifying metadata for image 1 of 1\n\nVerifying file data: 0 bytes of 63 bytes (0%) done\nVerifying file data: 48 bytes of 63 bytes (76%) done\nVerifying file data: 63 bytes of 63 bytes (100%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": ""
+        }
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 3 parts 1 compressed 0",
+          "event 1 12 write streams 2 2 bytes 63 63 threads 1 codec 3 parts 1 compressed 50",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "event 1 17 integrity 0 1 bytes 0 1062 chunk 10485760",
+          "event 1 17 integrity 1 1 bytes 1062 1062 chunk 10485760",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 2104,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 0 bytes of 1062 bytes (0%) done\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 1062 bytes of 1062 bytes (100%) done\nVerifying metadata for image 1 of 1\n\nVerifying file data: 0 bytes of 63 bytes (0%) done\nVerifying file data: 15 bytes of 63 bytes (23%) done\nVerifying file data: 63 bytes of 63 bytes (100%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": ""
+        }
+      },
+      "events_equal": false,
+      "output_size_equal": false
+    },
+    {
+      "matrix": "write-modes-red.json",
+      "args": [
+        "/tmp/wim-resource-xpress.wim",
+        "write",
+        "0",
+        "0",
+        "0",
+        "6145"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 1 bytes 0 76810 threads 1 codec 3 parts 1 compressed 0",
+          "event 1 12 write streams 1 1 bytes 76810 76810 threads 1 codec 3 parts 1 compressed 26",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "event 1 17 integrity 0 1 bytes 0 452 chunk 10485760",
+          "event 1 17 integrity 1 1 bytes 452 452 chunk 10485760",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 1488,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 0 bytes of 452 bytes (0%) done\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 452 bytes of 452 bytes (100%) done\nVerifying metadata for image 1 of 1\n\nVerifying file data: 0 KiB of 75 KiB (0%) done\nVerifying file data: 75 KiB of 75 KiB (100%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": ""
+        }
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 1 bytes 0 76810 threads 1 codec 3 parts 1 compressed 0",
+          "event 1 12 write streams 1 1 bytes 76810 76810 threads 1 codec 3 parts 1 compressed 24",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "event 1 17 integrity 0 1 bytes 0 450 chunk 10485760",
+          "event 1 17 integrity 1 1 bytes 450 450 chunk 10485760",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 1486,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 0 bytes of 450 bytes (0%) done\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 450 bytes of 450 bytes (100%) done\nVerifying metadata for image 1 of 1\n\nVerifying file data: 0 KiB of 75 KiB (0%) done\nVerifying file data: 75 KiB of 75 KiB (100%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": ""
+        }
+      },
+      "events_equal": false,
+      "output_size_equal": false
+    },
+    {
+      "matrix": "write-modes-red.json",
+      "args": [
+        "new",
+        "write",
+        "0",
+        "0",
+        "0",
+        "2048"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 288,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "\nVerifying file data: 0 bytes of 0 bytes (0%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": "\n[WARNING] \"/tmp/wim-progress-written.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 288,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "\nVerifying file data: 0 bytes of 0 bytes (0%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": "\n[WARNING] \"/tmp/wim-progress-written.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-modes-red.json",
+      "args": [
+        "/tmp/metadata-native.wim",
+        "write",
+        "0",
+        "0",
+        "0",
+        "2048"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "event 1 12 write streams 1 2 bytes 15 63 threads 1 codec 0 parts 1 compressed 15",
+          "event 1 12 write streams 2 2 bytes 63 63 threads 1 codec 0 parts 1 compressed 63",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 2015,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "Verifying metadata for image 1 of 1\n\nVerifying file data: 0 bytes of 63 bytes (0%) done\nVerifying file data: 15 bytes of 63 bytes (23%) done\nVerifying file data: 63 bytes of 63 bytes (100%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": "\n[WARNING] \"/tmp/wim-progress-written.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "event 1 12 write streams 1 2 bytes 15 63 threads 1 codec 0 parts 1 compressed 15",
+          "event 1 12 write streams 2 2 bytes 63 63 threads 1 codec 0 parts 1 compressed 63",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 2015,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "Verifying metadata for image 1 of 1\n\nVerifying file data: 0 bytes of 63 bytes (0%) done\nVerifying file data: 15 bytes of 63 bytes (23%) done\nVerifying file data: 63 bytes of 63 bytes (100%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": "\n[WARNING] \"/tmp/wim-progress-written.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-modes-red.json",
+      "args": [
+        "/tmp/wim-resource-xpress.wim",
+        "write",
+        "0",
+        "0",
+        "0",
+        "2048"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 1 bytes 0 76810 threads 1 codec 1 parts 1 compressed 0",
+          "event 1 12 write streams 1 1 bytes 76810 76810 threads 1 codec 1 parts 1 compressed 1587",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 2949,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "Verifying metadata for image 1 of 1\n\nVerifying file data: 0 KiB of 75 KiB (0%) done\nVerifying file data: 32 KiB of 75 KiB (42%) done\nVerifying file data: 64 KiB of 75 KiB (85%) done\nVerifying file data: 75 KiB of 75 KiB (100%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": "\n[WARNING] \"/tmp/wim-progress-written.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 1 bytes 0 76810 threads 1 codec 1 parts 1 compressed 0",
+          "event 1 12 write streams 1 1 bytes 76810 76810 threads 1 codec 1 parts 1 compressed 1587",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 2949,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "Verifying metadata for image 1 of 1\n\nVerifying file data: 0 KiB of 75 KiB (0%) done\nVerifying file data: 32 KiB of 75 KiB (42%) done\nVerifying file data: 64 KiB of 75 KiB (85%) done\nVerifying file data: 75 KiB of 75 KiB (100%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": "\n[WARNING] \"/tmp/wim-progress-written.wim\" does not contain integrity information.  Skipping integrity check.\n"
+        }
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-metadata-xml-red.json",
+      "args": [
+        "empty",
+        "write",
+        "0",
+        "0",
+        "0"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "event 1 17 integrity 0 1 bytes 0 178 chunk 10485760",
+          "event 1 17 integrity 1 1 bytes 178 178 chunk 10485760",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 1180,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 0 bytes of 178 bytes (0%) done\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 178 bytes of 178 bytes (100%) done\nVerifying metadata for image 1 of 1\n\nVerifying file data: 0 bytes of 0 bytes (0%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": ""
+        }
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "event 1 17 integrity 0 1 bytes 0 178 chunk 10485760",
+          "event 1 17 integrity 1 1 bytes 178 178 chunk 10485760",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 1180,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 0 bytes of 178 bytes (0%) done\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 178 bytes of 178 bytes (100%) done\nVerifying metadata for image 1 of 1\n\nVerifying file data: 0 bytes of 0 bytes (0%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": ""
+        }
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-metadata-xml-red.json",
+      "args": [
+        "empty",
+        "write",
+        "1",
+        "13",
+        "0"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 13 info-null 1",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 13 info-null 1",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-metadata-xml-red.json",
+      "args": [
+        "empty",
+        "write",
+        "1",
+        "14",
+        "0"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 336,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 336,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-metadata-xml-red.json",
+      "args": [
+        "empty",
+        "write",
+        "0",
+        "0",
+        "0"
+      ],
+      "invalid_xml": true,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "invalid-xml-set 0",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "result 31"
+        ],
+        "stderr": "",
+        "output_size": 386,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "invalid-xml-set 0",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "result 31"
+        ],
+        "stderr": "",
+        "output_size": 386,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-metadata-xml-red.json",
+      "args": [
+        "empty",
+        "write",
+        "1",
+        "13",
+        "0"
+      ],
+      "invalid_xml": true,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "invalid-xml-set 0",
+          "event 1 13 info-null 1",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "invalid-xml-set 0",
+          "event 1 13 info-null 1",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-metadata-xml-red.json",
+      "args": [
+        "empty",
+        "write",
+        "1",
+        "14",
+        "0"
+      ],
+      "invalid_xml": true,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "invalid-xml-set 0",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 336,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "invalid-xml-set 0",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 336,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-metadata-xml-red.json",
+      "args": [
+        "/tmp/metadata-native.wim",
+        "write",
+        "0",
+        "0",
+        "0"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "event 1 12 write streams 1 2 bytes 15 63 threads 1 codec 0 parts 1 compressed 15",
+          "event 1 12 write streams 2 2 bytes 63 63 threads 1 codec 0 parts 1 compressed 63",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "event 1 17 integrity 0 1 bytes 0 1005 chunk 10485760",
+          "event 1 17 integrity 1 1 bytes 1005 1005 chunk 10485760",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 2047,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 0 bytes of 1005 bytes (0%) done\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 1005 bytes of 1005 bytes (100%) done\nVerifying metadata for image 1 of 1\n\nVerifying file data: 0 bytes of 63 bytes (0%) done\nVerifying file data: 15 bytes of 63 bytes (23%) done\nVerifying file data: 63 bytes of 63 bytes (100%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": ""
+        }
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "event 1 12 write streams 1 2 bytes 15 63 threads 1 codec 0 parts 1 compressed 15",
+          "event 1 12 write streams 2 2 bytes 63 63 threads 1 codec 0 parts 1 compressed 63",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "event 1 17 integrity 0 1 bytes 0 1005 chunk 10485760",
+          "event 1 17 integrity 1 1 bytes 1005 1005 chunk 10485760",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 2047,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 0 bytes of 1005 bytes (0%) done\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 1005 bytes of 1005 bytes (100%) done\nVerifying metadata for image 1 of 1\n\nVerifying file data: 0 bytes of 63 bytes (0%) done\nVerifying file data: 15 bytes of 63 bytes (23%) done\nVerifying file data: 63 bytes of 63 bytes (100%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": ""
+        }
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-metadata-xml-red.json",
+      "args": [
+        "/tmp/metadata-native.wim",
+        "write",
+        "1",
+        "13",
+        "0"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "event 1 12 write streams 1 2 bytes 15 63 threads 1 codec 0 parts 1 compressed 15",
+          "event 1 12 write streams 2 2 bytes 63 63 threads 1 codec 0 parts 1 compressed 63",
+          "event 1 13 info-null 1",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 271,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "event 1 12 write streams 1 2 bytes 15 63 threads 1 codec 0 parts 1 compressed 15",
+          "event 1 12 write streams 2 2 bytes 63 63 threads 1 codec 0 parts 1 compressed 63",
+          "event 1 13 info-null 1",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 271,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-metadata-xml-red.json",
+      "args": [
+        "/tmp/metadata-native.wim",
+        "write",
+        "1",
+        "14",
+        "0"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "event 1 12 write streams 1 2 bytes 15 63 threads 1 codec 0 parts 1 compressed 15",
+          "event 1 12 write streams 2 2 bytes 63 63 threads 1 codec 0 parts 1 compressed 63",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 1063,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "event 1 12 write streams 1 2 bytes 15 63 threads 1 codec 0 parts 1 compressed 15",
+          "event 1 12 write streams 2 2 bytes 63 63 threads 1 codec 0 parts 1 compressed 63",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 1063,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-metadata-xml-red.json",
+      "args": [
+        "/tmp/metadata-native.wim",
+        "write",
+        "0",
+        "0",
+        "0"
+      ],
+      "invalid_xml": true,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "invalid-xml-set 0",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "event 1 12 write streams 1 2 bytes 15 63 threads 1 codec 0 parts 1 compressed 15",
+          "event 1 12 write streams 2 2 bytes 63 63 threads 1 codec 0 parts 1 compressed 63",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "result 31"
+        ],
+        "stderr": "",
+        "output_size": 1213,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "invalid-xml-set 0",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "event 1 12 write streams 1 2 bytes 15 63 threads 1 codec 0 parts 1 compressed 15",
+          "event 1 12 write streams 2 2 bytes 63 63 threads 1 codec 0 parts 1 compressed 63",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "result 31"
+        ],
+        "stderr": "",
+        "output_size": 1213,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-metadata-xml-red.json",
+      "args": [
+        "/tmp/metadata-native.wim",
+        "write",
+        "1",
+        "13",
+        "0"
+      ],
+      "invalid_xml": true,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "invalid-xml-set 0",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "event 1 12 write streams 1 2 bytes 15 63 threads 1 codec 0 parts 1 compressed 15",
+          "event 1 12 write streams 2 2 bytes 63 63 threads 1 codec 0 parts 1 compressed 63",
+          "event 1 13 info-null 1",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 271,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "invalid-xml-set 0",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "event 1 12 write streams 1 2 bytes 15 63 threads 1 codec 0 parts 1 compressed 15",
+          "event 1 12 write streams 2 2 bytes 63 63 threads 1 codec 0 parts 1 compressed 63",
+          "event 1 13 info-null 1",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 271,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-metadata-xml-red.json",
+      "args": [
+        "/tmp/metadata-native.wim",
+        "write",
+        "1",
+        "14",
+        "0"
+      ],
+      "invalid_xml": true,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "invalid-xml-set 0",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "event 1 12 write streams 1 2 bytes 15 63 threads 1 codec 0 parts 1 compressed 15",
+          "event 1 12 write streams 2 2 bytes 63 63 threads 1 codec 0 parts 1 compressed 63",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 1063,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "invalid-xml-set 0",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "event 1 12 write streams 1 2 bytes 15 63 threads 1 codec 0 parts 1 compressed 15",
+          "event 1 12 write streams 2 2 bytes 63 63 threads 1 codec 0 parts 1 compressed 63",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 1063,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-metadata-xml-red.json",
+      "args": [
+        "/tmp/wim-write-invalid-metadata-hash.wim",
+        "write",
+        "0",
+        "0",
+        "0"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "result 21"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "result 21"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-metadata-xml-red.json",
+      "args": [
+        "/tmp/wim-write-invalid-metadata-hash.wim",
+        "write",
+        "1",
+        "13",
+        "0"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "result 21"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "result 21"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-metadata-xml-red.json",
+      "args": [
+        "/tmp/wim-write-invalid-metadata-hash.wim",
+        "write",
+        "1",
+        "14",
+        "0"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "result 21"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "result 21"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-metadata-xml-red.json",
+      "args": [
+        "/tmp/wim-write-invalid-metadata-hash.wim",
+        "write",
+        "0",
+        "0",
+        "0"
+      ],
+      "invalid_xml": true,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "invalid-xml-set 0",
+          "result 21"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "invalid-xml-set 0",
+          "result 21"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-metadata-xml-red.json",
+      "args": [
+        "/tmp/wim-write-invalid-metadata-hash.wim",
+        "write",
+        "1",
+        "13",
+        "0"
+      ],
+      "invalid_xml": true,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "invalid-xml-set 0",
+          "result 21"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "invalid-xml-set 0",
+          "result 21"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-metadata-xml-red.json",
+      "args": [
+        "/tmp/wim-write-invalid-metadata-hash.wim",
+        "write",
+        "1",
+        "14",
+        "0"
+      ],
+      "invalid_xml": true,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "invalid-xml-set 0",
+          "result 21"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "invalid-xml-set 0",
+          "result 21"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-file-state-red.json",
+      "args": [
+        "empty",
+        "write",
+        "0",
+        "0",
+        "0"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "event 1 17 integrity 0 1 bytes 0 178 chunk 10485760",
+          "event 1 17 integrity 1 1 bytes 178 178 chunk 10485760",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 1180,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 0 bytes of 178 bytes (0%) done\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 178 bytes of 178 bytes (100%) done\nVerifying metadata for image 1 of 1\n\nVerifying file data: 0 bytes of 0 bytes (0%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": ""
+        }
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "event 1 17 integrity 0 1 bytes 0 178 chunk 10485760",
+          "event 1 17 integrity 1 1 bytes 178 178 chunk 10485760",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 1180,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 0 bytes of 178 bytes (0%) done\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 178 bytes of 178 bytes (100%) done\nVerifying metadata for image 1 of 1\n\nVerifying file data: 0 bytes of 0 bytes (0%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": ""
+        }
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-file-state-red.json",
+      "args": [
+        "empty",
+        "write",
+        "1",
+        "12",
+        "0"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "event 1 17 integrity 0 1 bytes 0 178 chunk 10485760",
+          "event 1 17 integrity 1 1 bytes 178 178 chunk 10485760",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 1180,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 0 bytes of 178 bytes (0%) done\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 178 bytes of 178 bytes (100%) done\nVerifying metadata for image 1 of 1\n\nVerifying file data: 0 bytes of 0 bytes (0%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": ""
+        }
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "event 1 17 integrity 0 1 bytes 0 178 chunk 10485760",
+          "event 1 17 integrity 1 1 bytes 178 178 chunk 10485760",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 1180,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 0 bytes of 178 bytes (0%) done\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 178 bytes of 178 bytes (100%) done\nVerifying metadata for image 1 of 1\n\nVerifying file data: 0 bytes of 0 bytes (0%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": ""
+        }
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-file-state-red.json",
+      "args": [
+        "empty",
+        "write",
+        "1",
+        "13",
+        "0"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 13 info-null 1",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 13 info-null 1",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-file-state-red.json",
+      "args": [
+        "empty",
+        "write",
+        "1",
+        "14",
+        "0"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 336,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 336,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-file-state-red.json",
+      "args": [
+        "empty",
+        "write",
+        "1",
+        "17",
+        "0"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "event 1 17 integrity 0 1 bytes 0 178 chunk 10485760",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 1148,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "event 1 17 integrity 0 1 bytes 0 178 chunk 10485760",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 1148,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-file-state-red.json",
+      "args": [
+        "empty",
+        "write",
+        "0",
+        "0",
+        "0"
+      ],
+      "invalid_xml": true,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "invalid-xml-set 0",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "result 31"
+        ],
+        "stderr": "",
+        "output_size": 386,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "invalid-xml-set 0",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "result 31"
+        ],
+        "stderr": "",
+        "output_size": 386,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-file-state-red.json",
+      "args": [
+        "empty",
+        "write",
+        "1",
+        "12",
+        "0"
+      ],
+      "invalid_xml": true,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "invalid-xml-set 0",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "result 31"
+        ],
+        "stderr": "",
+        "output_size": 386,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "invalid-xml-set 0",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "result 31"
+        ],
+        "stderr": "",
+        "output_size": 386,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-file-state-red.json",
+      "args": [
+        "empty",
+        "write",
+        "1",
+        "13",
+        "0"
+      ],
+      "invalid_xml": true,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "invalid-xml-set 0",
+          "event 1 13 info-null 1",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "invalid-xml-set 0",
+          "event 1 13 info-null 1",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-file-state-red.json",
+      "args": [
+        "empty",
+        "write",
+        "1",
+        "14",
+        "0"
+      ],
+      "invalid_xml": true,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "invalid-xml-set 0",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 336,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "invalid-xml-set 0",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 336,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-file-state-red.json",
+      "args": [
+        "empty",
+        "write",
+        "1",
+        "17",
+        "0"
+      ],
+      "invalid_xml": true,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "invalid-xml-set 0",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "result 31"
+        ],
+        "stderr": "",
+        "output_size": 386,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "invalid-xml-set 0",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "result 31"
+        ],
+        "stderr": "",
+        "output_size": 386,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-file-state-red.json",
+      "args": [
+        "/tmp/metadata-native.wim",
+        "write",
+        "0",
+        "0",
+        "0"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "event 1 12 write streams 1 2 bytes 15 63 threads 1 codec 0 parts 1 compressed 15",
+          "event 1 12 write streams 2 2 bytes 63 63 threads 1 codec 0 parts 1 compressed 63",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "event 1 17 integrity 0 1 bytes 0 1005 chunk 10485760",
+          "event 1 17 integrity 1 1 bytes 1005 1005 chunk 10485760",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 2047,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 0 bytes of 1005 bytes (0%) done\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 1005 bytes of 1005 bytes (100%) done\nVerifying metadata for image 1 of 1\n\nVerifying file data: 0 bytes of 63 bytes (0%) done\nVerifying file data: 15 bytes of 63 bytes (23%) done\nVerifying file data: 63 bytes of 63 bytes (100%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": ""
+        }
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "event 1 12 write streams 1 2 bytes 15 63 threads 1 codec 0 parts 1 compressed 15",
+          "event 1 12 write streams 2 2 bytes 63 63 threads 1 codec 0 parts 1 compressed 63",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "event 1 17 integrity 0 1 bytes 0 1005 chunk 10485760",
+          "event 1 17 integrity 1 1 bytes 1005 1005 chunk 10485760",
+          "result 0"
+        ],
+        "stderr": "",
+        "output_size": 2047,
+        "output_unchanged": false,
+        "independent_verify": {
+          "exit": 0,
+          "stdout": "\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 0 bytes of 1005 bytes (0%) done\nVerifying integrity of \"/tmp/wim-progress-written.wim\": 1005 bytes of 1005 bytes (100%) done\nVerifying metadata for image 1 of 1\n\nVerifying file data: 0 bytes of 63 bytes (0%) done\nVerifying file data: 15 bytes of 63 bytes (23%) done\nVerifying file data: 63 bytes of 63 bytes (100%) done\n\n\"/tmp/wim-progress-written.wim\" was successfully verified.\n",
+          "stderr": ""
+        }
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-file-state-red.json",
+      "args": [
+        "/tmp/metadata-native.wim",
+        "write",
+        "1",
+        "12",
+        "0"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-file-state-red.json",
+      "args": [
+        "/tmp/metadata-native.wim",
+        "write",
+        "1",
+        "13",
+        "0"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "event 1 12 write streams 1 2 bytes 15 63 threads 1 codec 0 parts 1 compressed 15",
+          "event 1 12 write streams 2 2 bytes 63 63 threads 1 codec 0 parts 1 compressed 63",
+          "event 1 13 info-null 1",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 271,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "event 1 12 write streams 1 2 bytes 15 63 threads 1 codec 0 parts 1 compressed 15",
+          "event 1 12 write streams 2 2 bytes 63 63 threads 1 codec 0 parts 1 compressed 63",
+          "event 1 13 info-null 1",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 271,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-file-state-red.json",
+      "args": [
+        "/tmp/metadata-native.wim",
+        "write",
+        "1",
+        "14",
+        "0"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "event 1 12 write streams 1 2 bytes 15 63 threads 1 codec 0 parts 1 compressed 15",
+          "event 1 12 write streams 2 2 bytes 63 63 threads 1 codec 0 parts 1 compressed 63",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 1063,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "event 1 12 write streams 1 2 bytes 15 63 threads 1 codec 0 parts 1 compressed 15",
+          "event 1 12 write streams 2 2 bytes 63 63 threads 1 codec 0 parts 1 compressed 63",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 1063,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-file-state-red.json",
+      "args": [
+        "/tmp/metadata-native.wim",
+        "write",
+        "1",
+        "17",
+        "0"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "event 1 12 write streams 1 2 bytes 15 63 threads 1 codec 0 parts 1 compressed 15",
+          "event 1 12 write streams 2 2 bytes 63 63 threads 1 codec 0 parts 1 compressed 63",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "event 1 17 integrity 0 1 bytes 0 1005 chunk 10485760",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 2015,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "event 1 12 write streams 1 2 bytes 15 63 threads 1 codec 0 parts 1 compressed 15",
+          "event 1 12 write streams 2 2 bytes 63 63 threads 1 codec 0 parts 1 compressed 63",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "event 1 17 integrity 0 1 bytes 0 1005 chunk 10485760",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 2015,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-file-state-red.json",
+      "args": [
+        "/tmp/metadata-native.wim",
+        "write",
+        "0",
+        "0",
+        "0"
+      ],
+      "invalid_xml": true,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "invalid-xml-set 0",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "event 1 12 write streams 1 2 bytes 15 63 threads 1 codec 0 parts 1 compressed 15",
+          "event 1 12 write streams 2 2 bytes 63 63 threads 1 codec 0 parts 1 compressed 63",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "result 31"
+        ],
+        "stderr": "",
+        "output_size": 1213,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "invalid-xml-set 0",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "event 1 12 write streams 1 2 bytes 15 63 threads 1 codec 0 parts 1 compressed 15",
+          "event 1 12 write streams 2 2 bytes 63 63 threads 1 codec 0 parts 1 compressed 63",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "result 31"
+        ],
+        "stderr": "",
+        "output_size": 1213,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-file-state-red.json",
+      "args": [
+        "/tmp/metadata-native.wim",
+        "write",
+        "1",
+        "12",
+        "0"
+      ],
+      "invalid_xml": true,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "invalid-xml-set 0",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "invalid-xml-set 0",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-file-state-red.json",
+      "args": [
+        "/tmp/metadata-native.wim",
+        "write",
+        "1",
+        "13",
+        "0"
+      ],
+      "invalid_xml": true,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "invalid-xml-set 0",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "event 1 12 write streams 1 2 bytes 15 63 threads 1 codec 0 parts 1 compressed 15",
+          "event 1 12 write streams 2 2 bytes 63 63 threads 1 codec 0 parts 1 compressed 63",
+          "event 1 13 info-null 1",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 271,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "invalid-xml-set 0",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "event 1 12 write streams 1 2 bytes 15 63 threads 1 codec 0 parts 1 compressed 15",
+          "event 1 12 write streams 2 2 bytes 63 63 threads 1 codec 0 parts 1 compressed 63",
+          "event 1 13 info-null 1",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 271,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-file-state-red.json",
+      "args": [
+        "/tmp/metadata-native.wim",
+        "write",
+        "1",
+        "14",
+        "0"
+      ],
+      "invalid_xml": true,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "invalid-xml-set 0",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "event 1 12 write streams 1 2 bytes 15 63 threads 1 codec 0 parts 1 compressed 15",
+          "event 1 12 write streams 2 2 bytes 63 63 threads 1 codec 0 parts 1 compressed 63",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 1063,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "invalid-xml-set 0",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "event 1 12 write streams 1 2 bytes 15 63 threads 1 codec 0 parts 1 compressed 15",
+          "event 1 12 write streams 2 2 bytes 63 63 threads 1 codec 0 parts 1 compressed 63",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 1063,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-file-state-red.json",
+      "args": [
+        "/tmp/metadata-native.wim",
+        "write",
+        "1",
+        "17",
+        "0"
+      ],
+      "invalid_xml": true,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "invalid-xml-set 0",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "event 1 12 write streams 1 2 bytes 15 63 threads 1 codec 0 parts 1 compressed 15",
+          "event 1 12 write streams 2 2 bytes 63 63 threads 1 codec 0 parts 1 compressed 63",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "result 31"
+        ],
+        "stderr": "",
+        "output_size": 1213,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "invalid-xml-set 0",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "event 1 12 write streams 1 2 bytes 15 63 threads 1 codec 0 parts 1 compressed 15",
+          "event 1 12 write streams 2 2 bytes 63 63 threads 1 codec 0 parts 1 compressed 63",
+          "event 1 13 info-null 1",
+          "event 1 14 info-null 1",
+          "result 31"
+        ],
+        "stderr": "",
+        "output_size": 1213,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-file-state-red.json",
+      "args": [
+        "/tmp/wim-write-invalid-metadata-hash.wim",
+        "write",
+        "0",
+        "0",
+        "0"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "result 21"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "result 21"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-file-state-red.json",
+      "args": [
+        "/tmp/wim-write-invalid-metadata-hash.wim",
+        "write",
+        "1",
+        "12",
+        "0"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "result 21"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "result 21"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-file-state-red.json",
+      "args": [
+        "/tmp/wim-write-invalid-metadata-hash.wim",
+        "write",
+        "1",
+        "13",
+        "0"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "result 21"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "result 21"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-file-state-red.json",
+      "args": [
+        "/tmp/wim-write-invalid-metadata-hash.wim",
+        "write",
+        "1",
+        "14",
+        "0"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "result 21"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "result 21"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-file-state-red.json",
+      "args": [
+        "/tmp/wim-write-invalid-metadata-hash.wim",
+        "write",
+        "1",
+        "17",
+        "0"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "result 21"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "result 21"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-file-state-red.json",
+      "args": [
+        "/tmp/wim-write-invalid-metadata-hash.wim",
+        "write",
+        "0",
+        "0",
+        "0"
+      ],
+      "invalid_xml": true,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "invalid-xml-set 0",
+          "result 21"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "invalid-xml-set 0",
+          "result 21"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-file-state-red.json",
+      "args": [
+        "/tmp/wim-write-invalid-metadata-hash.wim",
+        "write",
+        "1",
+        "12",
+        "0"
+      ],
+      "invalid_xml": true,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "invalid-xml-set 0",
+          "result 21"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "invalid-xml-set 0",
+          "result 21"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-file-state-red.json",
+      "args": [
+        "/tmp/wim-write-invalid-metadata-hash.wim",
+        "write",
+        "1",
+        "13",
+        "0"
+      ],
+      "invalid_xml": true,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "invalid-xml-set 0",
+          "result 21"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "invalid-xml-set 0",
+          "result 21"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-file-state-red.json",
+      "args": [
+        "/tmp/wim-write-invalid-metadata-hash.wim",
+        "write",
+        "1",
+        "14",
+        "0"
+      ],
+      "invalid_xml": true,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "invalid-xml-set 0",
+          "result 21"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "invalid-xml-set 0",
+          "result 21"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-file-state-red.json",
+      "args": [
+        "/tmp/wim-write-invalid-metadata-hash.wim",
+        "write",
+        "1",
+        "17",
+        "0"
+      ],
+      "invalid_xml": true,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "invalid-xml-set 0",
+          "result 21"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "invalid-xml-set 0",
+          "result 21"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-file-state-red.json",
+      "args": [
+        "/tmp/wim-progress-corrupt-data.wim",
+        "write",
+        "0",
+        "0",
+        "0"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "event 1 12 write streams 1 2 bytes 15 63 threads 1 codec 0 parts 1 compressed 15",
+          "result 28"
+        ],
+        "stderr": "",
+        "output_size": 223,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "event 1 12 write streams 1 2 bytes 15 63 threads 1 codec 0 parts 1 compressed 15",
+          "result 28"
+        ],
+        "stderr": "",
+        "output_size": 223,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-file-state-red.json",
+      "args": [
+        "/tmp/wim-progress-corrupt-data.wim",
+        "write",
+        "1",
+        "12",
+        "0"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-file-state-red.json",
+      "args": [
+        "/tmp/wim-progress-corrupt-data.wim",
+        "write",
+        "1",
+        "13",
+        "0"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "event 1 12 write streams 1 2 bytes 15 63 threads 1 codec 0 parts 1 compressed 15",
+          "result 28"
+        ],
+        "stderr": "",
+        "output_size": 223,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "event 1 12 write streams 1 2 bytes 15 63 threads 1 codec 0 parts 1 compressed 15",
+          "result 28"
+        ],
+        "stderr": "",
+        "output_size": 223,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-file-state-red.json",
+      "args": [
+        "/tmp/wim-progress-corrupt-data.wim",
+        "write",
+        "1",
+        "14",
+        "0"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "event 1 12 write streams 1 2 bytes 15 63 threads 1 codec 0 parts 1 compressed 15",
+          "result 28"
+        ],
+        "stderr": "",
+        "output_size": 223,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "event 1 12 write streams 1 2 bytes 15 63 threads 1 codec 0 parts 1 compressed 15",
+          "result 28"
+        ],
+        "stderr": "",
+        "output_size": 223,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-file-state-red.json",
+      "args": [
+        "/tmp/wim-progress-corrupt-data.wim",
+        "write",
+        "1",
+        "17",
+        "0"
+      ],
+      "invalid_xml": false,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "event 1 12 write streams 1 2 bytes 15 63 threads 1 codec 0 parts 1 compressed 15",
+          "result 28"
+        ],
+        "stderr": "",
+        "output_size": 223,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "event 1 12 write streams 1 2 bytes 15 63 threads 1 codec 0 parts 1 compressed 15",
+          "result 28"
+        ],
+        "stderr": "",
+        "output_size": 223,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-file-state-red.json",
+      "args": [
+        "/tmp/wim-progress-corrupt-data.wim",
+        "write",
+        "0",
+        "0",
+        "0"
+      ],
+      "invalid_xml": true,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "invalid-xml-set 0",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "event 1 12 write streams 1 2 bytes 15 63 threads 1 codec 0 parts 1 compressed 15",
+          "result 28"
+        ],
+        "stderr": "",
+        "output_size": 223,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "invalid-xml-set 0",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "event 1 12 write streams 1 2 bytes 15 63 threads 1 codec 0 parts 1 compressed 15",
+          "result 28"
+        ],
+        "stderr": "",
+        "output_size": 223,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-file-state-red.json",
+      "args": [
+        "/tmp/wim-progress-corrupt-data.wim",
+        "write",
+        "1",
+        "12",
+        "0"
+      ],
+      "invalid_xml": true,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "invalid-xml-set 0",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "invalid-xml-set 0",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "result 76"
+        ],
+        "stderr": "",
+        "output_size": 208,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-file-state-red.json",
+      "args": [
+        "/tmp/wim-progress-corrupt-data.wim",
+        "write",
+        "1",
+        "13",
+        "0"
+      ],
+      "invalid_xml": true,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "invalid-xml-set 0",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "event 1 12 write streams 1 2 bytes 15 63 threads 1 codec 0 parts 1 compressed 15",
+          "result 28"
+        ],
+        "stderr": "",
+        "output_size": 223,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "invalid-xml-set 0",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "event 1 12 write streams 1 2 bytes 15 63 threads 1 codec 0 parts 1 compressed 15",
+          "result 28"
+        ],
+        "stderr": "",
+        "output_size": 223,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-file-state-red.json",
+      "args": [
+        "/tmp/wim-progress-corrupt-data.wim",
+        "write",
+        "1",
+        "14",
+        "0"
+      ],
+      "invalid_xml": true,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "invalid-xml-set 0",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "event 1 12 write streams 1 2 bytes 15 63 threads 1 codec 0 parts 1 compressed 15",
+          "result 28"
+        ],
+        "stderr": "",
+        "output_size": 223,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "invalid-xml-set 0",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "event 1 12 write streams 1 2 bytes 15 63 threads 1 codec 0 parts 1 compressed 15",
+          "result 28"
+        ],
+        "stderr": "",
+        "output_size": 223,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    },
+    {
+      "matrix": "write-file-state-red.json",
+      "args": [
+        "/tmp/wim-progress-corrupt-data.wim",
+        "write",
+        "1",
+        "17",
+        "0"
+      ],
+      "invalid_xml": true,
+      "original": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "invalid-xml-set 0",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "event 1 12 write streams 1 2 bytes 15 63 threads 1 codec 0 parts 1 compressed 15",
+          "result 28"
+        ],
+        "stderr": "",
+        "output_size": 223,
+        "output_unchanged": false
+      },
+      "native": {
+        "exit": 0,
+        "stdout": [
+          "layout union 112 align 8 image 16 streams 40 write 56 integrity 40 split 32",
+          "offset image 0 8 12 streams 0 8 16 24 32",
+          "invalid-xml-set 0",
+          "event 1 12 write streams 0 2 bytes 0 63 threads 1 codec 0 parts 1 compressed 0",
+          "event 1 12 write streams 1 2 bytes 15 63 threads 1 codec 0 parts 1 compressed 15",
+          "result 28"
+        ],
+        "stderr": "",
+        "output_size": 223,
+        "output_unchanged": false
+      },
+      "events_equal": true,
+      "output_size_equal": true
+    }
+  ]
+}

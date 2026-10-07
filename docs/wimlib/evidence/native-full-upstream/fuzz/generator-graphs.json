@@ -1,0 +1,284 @@
+{
+  "scope": "staged Rust graph and every payload; public GEN flag not yet wired",
+  "work": "/tmp/wim-generator-graphs-in2mrkb6",
+  "original_sha256": "62eb9c97f9ec6e3dae6c7e995b0a65a2e94a4d9b41491666947ba788a15bb74a",
+  "requested_seeds": 32,
+  "original_rows": [
+    {
+      "seed": 0,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 3073654,
+      "sha256": "bdc253cb9ae15540bc66d8a62153eefb489d476e86516223166680cc10ff7f79"
+    },
+    {
+      "seed": 1,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 2290,
+      "sha256": "437d00d2bb3cdfa950f7f36811451b6cd567f57186929c7875ab365f041054f9"
+    },
+    {
+      "seed": 2,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 2946,
+      "sha256": "44d98c0c7f63d388178944dfb8e42bc25f183471571b88d57f82787d4b66ff9c"
+    },
+    {
+      "seed": 3,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 10036,
+      "sha256": "901524774cc0a9a303b221206f81182bc830d276ee051c0cbda7f9adb2e004dd"
+    },
+    {
+      "seed": 4,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 1112,
+      "sha256": "f67e777b3b4ac7d4bbfb9637c6d3679b9eb3534383300f98bfa0503d0d91af91"
+    },
+    {
+      "seed": 5,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 3440928,
+      "sha256": "f210d621b8075695cdf489636eb648887fcda6c2f7f2b2a71a19b4318399ef8b"
+    },
+    {
+      "seed": 6,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 2554,
+      "sha256": "0908f06c1adb54eeecade49121c766dd78b17cc6ea29d332eb6e12e0dd179225"
+    },
+    {
+      "seed": 7,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 1112,
+      "sha256": "ed19ab91007c7049bbdbac528d89cd482cb3cec7b6b60ee072aba0212939ed80"
+    },
+    {
+      "seed": 8,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 2002,
+      "sha256": "8141ae4298ff57edb312c3fe1c5d24aa51d6d398bb73e7a39a5fd8f90f0c935c"
+    },
+    {
+      "seed": 9,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 1584,
+      "sha256": "4e024931cdec0b9b23e1dd00ebc79cdebc0ad421db7d1e895771705445efe2ec"
+    },
+    {
+      "seed": 10,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 140528,
+      "sha256": "13a79dd716d3cf940c286e610e45d0184a97845ddadad558e13b342e6b0d6572"
+    },
+    {
+      "seed": 11,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 4912,
+      "sha256": "f4a71fc8f5edb3f4aef7c8cff24d840d2cd0ddb927e5ce6c319656580aa60feb"
+    },
+    {
+      "seed": 12,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 3338,
+      "sha256": "cf5ede01d6d7b5758d2aabd95775cca9878660584983436cc2056ff3e75e6d46"
+    },
+    {
+      "seed": 13,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 1898,
+      "sha256": "d888be1438ed6f542e30404e4b8bdfbddefc3408cb0005e485afb6a78df87604"
+    },
+    {
+      "seed": 14,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 2506,
+      "sha256": "5543742dea5f9c14efebbc7fb953c9c0977f5b8851f929c9c5a8389f804c77d2"
+    },
+    {
+      "seed": 15,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 1456,
+      "sha256": "d14e9c78807567a9c8ea455ac7ee5ae7fb3162c0a11144067be9c1d6b2873958"
+    },
+    {
+      "seed": 16,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 2074,
+      "sha256": "33a006b4c7fa9d297883d32e8fdf3acb0de9baf91a703378fd70c62b277c8f31"
+    },
+    {
+      "seed": 17,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 28698,
+      "sha256": "1f455d6106a3ca733b588a56b2bc62529be43369b8df040a92dcf668c8356857"
+    },
+    {
+      "seed": 18,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 252003,
+      "sha256": "8b538ca77e6e81f1dfe26b54e0663d2c29f6f1c4daacaad5a051432c5fdb8170"
+    },
+    {
+      "seed": 19,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 1376,
+      "sha256": "88ade2caaaae11b0280f8f47f4db1b71201940a3bee86969d07a9b08c66c25a9"
+    },
+    {
+      "seed": 20,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 3338,
+      "sha256": "5cfbb71d4d401d3fd2632299ca0b39d183c704bc9cbf66688f3068b8bd97b71e"
+    },
+    {
+      "seed": 21,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 2162,
+      "sha256": "285bb819570a8bf999d0c23136cf20625401351d8dc75540b7bcef781862c4d7"
+    },
+    {
+      "seed": 22,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 1112,
+      "sha256": "5c48826a3d94a9a6ac6e1eaaef875db3e1fc922957760b0529834e7247cbfcbc"
+    },
+    {
+      "seed": 23,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 1708,
+      "sha256": "5b70a5d92f42821eb072b105a75ebca80ccbf3e778bd9addc7e1eb90197876fa"
+    },
+    {
+      "seed": 24,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 15314,
+      "sha256": "83e9b847d2112e0f6d0c615492c72523fe36510c4c13e5e2e8d43e0e7fbec1a4"
+    },
+    {
+      "seed": 25,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 1112,
+      "sha256": "d02c2cfd9e533b08594f9900941b28a9405921dbf94dc7f6595eaab5e135dbc6"
+    },
+    {
+      "seed": 26,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 1994,
+      "sha256": "9e3302a8f44c5241e4d2c6d4e614d90605ea89af7cdcc064f2c3911aa67336e0"
+    },
+    {
+      "seed": 27,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 1704,
+      "sha256": "840399bfc1885ab8d0594c7cdb7b3c50749cd3f981f6a480555dfea89d3e232e"
+    },
+    {
+      "seed": 28,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 1592,
+      "sha256": "2124f83197e1175008d164e4df6476d87f78f845fe31032e5246b27cf10f17bb"
+    },
+    {
+      "seed": 29,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 2858,
+      "sha256": "78a09984f85ae3ff43aadc28262fa9bc92cc16fdd7775753a073043d2bb18955"
+    },
+    {
+      "seed": 30,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 1224,
+      "sha256": "4dbf32506b96ab9042403b4f50bed397af7aa963e894fa0dc41b1d28263eedcc"
+    },
+    {
+      "seed": 31,
+      "status": 0,
+      "stdout": "status=0\n",
+      "stderr": "",
+      "size": 2146,
+      "sha256": "7b0a85e4a44462c25a409471d17f1b6d42966f187c659e8991c5a3350a406b8a"
+    }
+  ],
+  "native_command": [
+    "cargo",
+    "test",
+    "--manifest-path",
+    "crates/wimlib-rs/Cargo.toml",
+    "--target-dir",
+    "crates/wimlib-rs/target",
+    "-p",
+    "wim-ffi",
+    "--all-features",
+    "--locked",
+    "--lib",
+    "generated_graphs_and_payloads",
+    "--",
+    "--ignored",
+    "--nocapture"
+  ],
+  "native_test_status": 0,
+  "native_stdout": "\nrunning 1 test\ntest test_support::generate::tests::generated_graphs_and_payloads_match_original_seed_images ... ok\n\ntest result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 20 filtered out; finished in 0.14s\n\n",
+  "native_stderr": "   Compiling wim-ffi v0.1.0 (/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/wim-ffi)\n    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.55s\n     Running unittests src/lib.rs (crates/wimlib-rs/target/debug/deps/wim-5220911cd734e13a)\n"
+}

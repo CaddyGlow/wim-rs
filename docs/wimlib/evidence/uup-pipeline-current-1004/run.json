@@ -1,0 +1,13 @@
+{
+  "guest_root": "C:\\wim-uup-validation-1791110376447693649",
+  "source": "D:\\UUPs",
+  "artifacts": {},
+  "steps": [],
+  "preflight": {
+    "exit": 1,
+    "signal": null,
+    "stdout": "",
+    "stderr": "",
+    "stdout_truncated": false
+  }
+}

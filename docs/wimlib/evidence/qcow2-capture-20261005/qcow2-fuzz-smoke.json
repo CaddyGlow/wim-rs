@@ -1,0 +1,23 @@
+{
+  "command": "nix develop --command env HFUZZ_RUN_ARGS='-n 1 -t 5 -N 10000 --exit_upon_crash' task fuzz -- qcow2",
+  "date": "2026-10-05",
+  "exit": 0,
+  "iterations": 10001,
+  "crashes": 0,
+  "timeouts": 0,
+  "new_units_added": 468,
+  "slowest_unit_ms": 11,
+  "branch_coverage_percent": 10,
+  "peak_rss_mb": 466,
+  "limitations": "Short instrumented campaign with small synthetic v3 allocated/deflate seeds; not exhaustive feature or corruption coverage. Does not authorize backing paths.",
+  "repeat_after_allocation_checks": {
+    "exit": 0,
+    "iterations": 10001,
+    "crashes": 0,
+    "timeouts": 0,
+    "new_units_added": 73,
+    "slowest_unit_ms": 10,
+    "branch_coverage_percent": 10,
+    "peak_rss_mb": 35
+  }
+}

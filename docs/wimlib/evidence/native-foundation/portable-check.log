@@ -1,0 +1,30 @@
+make: Entering directory '/tmp/wimlib-native-oracle'
+make  tests/tree-cmp \
+  tests/test-imagex tests/test-imagex-capture_and_apply tests/test-imagex-update_and_extract  
+make[1]: Entering directory '/tmp/wimlib-native-oracle'
+  CC       tests/tree-cmp.o
+  CCLD     tests/tree-cmp
+make[1]: Nothing to be done for 'tests/test-imagex'.
+make[1]: Nothing to be done for 'tests/test-imagex-capture_and_apply'.
+make[1]: Nothing to be done for 'tests/test-imagex-update_and_extract'.
+make[1]: Leaving directory '/tmp/wimlib-native-oracle'
+make  check-TESTS
+make[1]: Entering directory '/tmp/wimlib-native-oracle'
+make[2]: Entering directory '/tmp/wimlib-native-oracle'
+PASS: tests/test-imagex
+PASS: tests/test-imagex-capture_and_apply
+PASS: tests/test-imagex-update_and_extract
+============================================================================
+Testsuite summary for wimlib 1.14.5
+============================================================================
+# TOTAL: 3
+# PASS:  3
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[2]: Leaving directory '/tmp/wimlib-native-oracle'
+make[1]: Leaving directory '/tmp/wimlib-native-oracle'
+make: Leaving directory '/tmp/wimlib-native-oracle'

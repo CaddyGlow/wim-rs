@@ -1,0 +1,32 @@
+﻿2026-10-04 06:38:09, Info                  DISM   PID=4276 TID=6188 Scratch directory set to 'C:\WINDOWS\SystemTemp\'. - CDISMManager::put_ScratchDir
+2026-10-04 06:38:09, Info                  DISM   PID=4276 TID=6188 DismCore.dll version: 10.0.26100.7920 - CDISMManager::FinalConstruct
+2026-10-04 06:38:09, Info                  DISM   Initialized Panther logging at C:\wim-uup-validation-1791090913159215058\assembly\logs\dism-51.log
+2026-10-04 06:38:09, Info                  DISM   PID=4276 TID=6188 Successfully loaded the ImageSession at "C:\WINDOWS\system32\Dism" - CDISMManager::LoadLocalImageSession
+2026-10-04 06:38:09, Info                  DISM   Initialized Panther logging at C:\wim-uup-validation-1791090913159215058\assembly\logs\dism-51.log
+2026-10-04 06:38:09, Info                  DISM   DISM Provider Store: PID=4276 TID=6188 Found and Initialized the DISM Logger. - CDISMProviderStore::Internal_InitializeLogger
+2026-10-04 06:38:09, Info                  DISM   Initialized Panther logging at C:\wim-uup-validation-1791090913159215058\assembly\logs\dism-51.log
+2026-10-04 06:38:09, Info                  DISM   DISM Manager: PID=4276 TID=6188 Successfully created the local image session and provider store. - CDISMManager::CreateLocalImageSession
+2026-10-04 06:38:09, Info                  DISM   DISM.EXE: 
+2026-10-04 06:38:09, Info                  DISM   DISM.EXE: <----- Starting Dism.exe session ----->
+2026-10-04 06:38:09, Info                  DISM   DISM.EXE: 
+2026-10-04 06:38:09, Info                  DISM   DISM.EXE: Host machine information: OS Version=10.0.26200, Running architecture=amd64, Number of processors=4
+2026-10-04 06:38:09, Info                  DISM   DISM.EXE: Instance information: Parent process=C:\wim-uup-validation-1791090913159215058\windows-uup-fixed.exe, Parent process PID=5192
+2026-10-04 06:38:09, Info                  DISM   DISM.EXE: Dism.exe version: 10.0.26100.5074
+2026-10-04 06:38:09, Info                  DISM   DISM.EXE: Executing command line: "dism.exe" /Mount-Image /ImageFile:C:\wim-uup-validation-1791090913159215058\assembly\base-media\sources\boot.wim /Index:2 /MountDir:C:\wim-uup-validation-1791090913159215058\assembly\mount /CheckIntegrity /LogPath:C:\wim-uup-validation-1791090913159215058\assembly\logs\dism-51.log /English /NoRestart
+2026-10-04 06:38:09, Info                  DISM   DISM Imaging Provider: PID=4276 TID=6188 WIM image specified - CGenericImagingManager::GetImageInfoCollection
+[4276.6188] Mounting new image.
+Wim:         [C:\wim-uup-validation-1791090913159215058\assembly\base-media\sources\boot.wim]
+Image Index: [2]
+Mount Guid:  [32590238-9a86-4c75-ae1e-87b12e07d16b]
+Mount Path:  [C:\wim-uup-validation-1791090913159215058\assembly\mount]
+[4276.6188] Wimserv process started for mount guid 32590238-9a86-4c75-ae1e-87b12e07d16b; PID is 6152
+[6152.6716] Registered log file(s) for mount of wim at C:\wim-uup-validation-1791090913159215058\assembly\base-media\sources\boot.wim.
+[6152.6716] Mount complete.
+2026-10-04 06:38:17, Info                  DISM   DISM.EXE: Image session has been closed. Reboot required=no.
+2026-10-04 06:38:17, Info                  DISM   DISM.EXE: 
+2026-10-04 06:38:17, Info                  DISM   DISM.EXE: <----- Ending Dism.exe session ----->
+2026-10-04 06:38:17, Info                  DISM   DISM.EXE: 
+[6152.6716] Received unmount request.
+[6152.6716] Unmount complete.
+[6152.8104] Wimserv exiting per terminate event.
+[6152.8104] Wimserv stopped.

@@ -1,0 +1,28 @@
+{
+  "scope": "Two new plain-file controls only; six paths, four MFT references. Production installed-directory coverage remains unproven.",
+  "inputs": {
+    "native-six-preboot-metadata.json": {
+      "sha256": "02643530c425d81f08f0768fc6aaa61351db0caad19bf36da01a79ffad2ebfbd"
+    },
+    "native-six-postboot-metadata.json": {
+      "sha256": "a9fc6bf00d22bb4de1cf712ef36f99c5c6a93a79755c4b66022b97891df085bf"
+    },
+    "native-four-preboot-basic4.json": {
+      "sha256": "9224b1313ae7813dd9eef4fbfee20db9dcc8fa469a2b06ec1dbff83f6026bdb9"
+    },
+    "native-four-postboot-basic4.json": {
+      "sha256": "6d48df3e99a38f964d7756db77fa14a9537641c65854d2722af3e7c3368800c3"
+    },
+    "native-preboot-volume-context.json": {
+      "sha256": "2e4a11b5f77ba2613dedc38be070bb710179af002afa2de2389e4764e69ecd72"
+    },
+    "native-postboot-volume-context.json": {
+      "sha256": "b685cea2894b44dad313d0e52e17acb8d385074616fb4e21392f19a255ed7a63"
+    }
+  },
+  "all_six_metadata_rows_byteexact": true,
+  "all_four_standard_information_rows_byteexact": true,
+  "volume_context_records_byteexact": true,
+  "original_guest_failed_report_preserved": true,
+  "production_restoration_verified": false
+}

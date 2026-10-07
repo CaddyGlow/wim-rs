@@ -1,0 +1,8 @@
+{
+  "full_selector_count": 101168,
+  "full_raw_index_count": 279868,
+  "independent_rerun_byteexact": true,
+  "comparison_sha256": "9c565d04bf405d340b8ea1587aa021cc019f6434773415c2d3d2401eff134aca",
+  "strict_alias_gate_passes": false,
+  "runtime_challenge_not_substituted_for_offline": true
+}

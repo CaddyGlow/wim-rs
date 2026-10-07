@@ -1,0 +1,19 @@
+{
+  "scope": "Independent classification of complete WinRE metadata differences; no strict metadata pass or runtime boot claim",
+  "source_nodes": 25450,
+  "target_nodes": 25450,
+  "all_full_raw_security_descriptors_exact": true,
+  "all_owner_group_DACL_SACL_exact": true,
+  "all_attributes_tags_shortnames_hardlink_groups_exact": true,
+  "all_creation_and_write_times_exact": true,
+  "access_time_changed_paths": 708,
+  "other_metadata_differences": 0,
+  "strict_all_timestamp_equivalence": false,
+  "interpretation": "Source and registered target differ only in 708 last-access timestamps within the compared metadata. Cause remains unproven; no documentation or stage control yet establishes an intended Setup transformation. Strict timestamp metadata gate remains failed.",
+  "raw_evidence": {
+    "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/winre-whole-security-equivalence.json",
+    "sha256": "b4b3841ca0e36a4ab84e05e5250f7caea9cf410b58483f78e7ab71b6c3fdef56"
+  },
+  "source_wim_sha256": "5a7b51e7271284a3204234a71386c4d8cbc81665e9f7bc451d7d70fb464a3047",
+  "target_wim_sha256": "dfe71fec47e0fc2d75e5e97a20352ef6ea10b3ab5573da23fffe15e314072858"
+}

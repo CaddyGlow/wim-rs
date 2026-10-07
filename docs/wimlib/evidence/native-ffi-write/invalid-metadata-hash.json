@@ -1,0 +1,12 @@
+{
+  "original": {
+    "exit": 0,
+    "stdout": "write 21\n",
+    "stderr": ""
+  },
+  "native": {
+    "exit": 0,
+    "stdout": "write 21\n",
+    "stderr": ""
+  }
+}

@@ -1,0 +1,391 @@
+{
+  "attempt": 4,
+  "instance": "qcow2-installed-1005-v4",
+  "state_directory": "/data/cache/qcow2-installation-1005-v4",
+  "source_wim": "/data/cache/qcow2-capture-20261005/install-v5.wim",
+  "source_wim_sha256": "31e22fe2b8a79dbcf467e81b7c5f001e63caae0d26d14445fc37c61386de46c0",
+  "iso": "/data/cache/qcow2-capture-20261005/native-captured-v4.iso",
+  "iso_sha256": "e432cc849bbb242a8e816b6ba87561065f728fa1def44b43255d9b205a4ce199",
+  "target_overlay": "/data/cache/qcow2-installation-1005-v4/vm-state/overlay.qcow2",
+  "target_overlay_sha256": "39e424b8ce98068857065271690b3210fec653389103e1456e67e6ec76148e35",
+  "target_overlay_bytes": 13759021056,
+  "clean_shutdown": true,
+  "iso_unchanged": true,
+  "blank_base_unchanged": true,
+  "standard_setup": true,
+  "observed_progress": 77,
+  "installation_pass": false,
+  "pre_guest_infrastructure_failure": {
+    "launcher_pid": 3686218,
+    "command": [
+      "vm-run",
+      "--base",
+      "win11-24h2-installer",
+      "qcow2-installed-1005-v4"
+    ],
+    "hardware": {
+      "VM_OS": "windows",
+      "VM_DISK_BUS": "sata",
+      "VM_NET": "none",
+      "VM_QGA": "1",
+      "VM_SECUREBOOT": "1",
+      "VM_TPM": "1",
+      "VM_MEM": "8192",
+      "VM_CPUS": "4"
+    },
+    "error": "qemu-img: Failed to initialize io_uring: Cannot allocate memory\n",
+    "guest_started": false,
+    "state_directory_absent": true
+  },
+  "failure": {
+    "phase": "Finalize / Relocate OS",
+    "code": "0x800700B7",
+    "cause": "CRelocateOS cannot move captured Windows.old from staged Windows.NEW because path already exists",
+    "log": "partition-3/qcow2-failure/target-bt-panther/setupact.log",
+    "causal_line": 13522,
+    "operation_failure_line": 13524
+  },
+  "unreached_gates": [
+    "OOBE",
+    "installed_metadata",
+    "fresh_identity",
+    "servicing",
+    "reboot",
+    "WinRE_boot"
+  ],
+  "log_directory": "/data/cache/qcow2-installation-1005-v4/offline-failure-logs",
+  "log_files": [
+    {
+      "path": "extraction.txt",
+      "bytes": 6742,
+      "sha256": "744b46476f5d03c1ed14b687257ca17ec6f1fe44ffbe12f0f8ac2fa318b3342f"
+    },
+    {
+      "path": "partition-3/$WINDOWS.~BT/Sources/Panther/setupact.log",
+      "bytes": 1349503,
+      "sha256": "402d0fecb589f0a3fd62963893fddc9bcce502d973c9ee34d5a2bd7745fbd6eb"
+    },
+    {
+      "path": "partition-3/$WINDOWS.~BT/Sources/Panther/setuperr.log",
+      "bytes": 5041,
+      "sha256": "2ca780ccebb170f456561f356c2761ae9a86254d4abe2284cb55616557439415"
+    },
+    {
+      "path": "partition-3/Windows/Logs/CBS/CBS.log",
+      "bytes": 3242017,
+      "sha256": "ef12cf0418b13ef76a82670927fd01d357f560a93b60042d7a3d6ca99f460d5f"
+    },
+    {
+      "path": "partition-3/Windows/Logs/DISM/dism.log",
+      "bytes": 693066,
+      "sha256": "d5c3c4e71823b8c6650c237dff997c691a8ab0f6ebb97f562c8c266a2e8ab965"
+    },
+    {
+      "path": "partition-3/Windows/Panther/UnattendGC/setupact.log",
+      "bytes": 102626,
+      "sha256": "2bb27bb6b7779aeba7e82e39944e0583a444c01d633f2711e8feb47507ec327c"
+    },
+    {
+      "path": "partition-3/Windows/Panther/UnattendGC/setuperr.log",
+      "bytes": 173,
+      "sha256": "b3fa8c30e8de798df88b91be4dacfe7c8c5b1a26bc5080fc86bb36ab41028665"
+    },
+    {
+      "path": "partition-3/Windows/Panther/setupact.log",
+      "bytes": 1349375,
+      "sha256": "0150a0aa91b555484e8db9a212ef68ab885062ccf9acb72d9401fc960e92a404"
+    },
+    {
+      "path": "partition-3/Windows/Panther/setuperr.log",
+      "bytes": 5041,
+      "sha256": "2ca780ccebb170f456561f356c2761ae9a86254d4abe2284cb55616557439415"
+    },
+    {
+      "path": "partition-3/qcow2-failure/final-recovery/reagent.xml",
+      "bytes": 1016,
+      "sha256": "aec4ad0cc5b5aa1e01fe8c6c98af10f0c08b7dfeaf62fc5f6881324dbc5512b0"
+    },
+    {
+      "path": "partition-3/qcow2-failure/final-sysprep-panther/diagerr.xml",
+      "bytes": 6119,
+      "sha256": "7ac5c87e8e3e0777d66c813cb0c2fb95ef4db2968966fcf471d8b0ed62822943"
+    },
+    {
+      "path": "partition-3/qcow2-failure/final-sysprep-panther/diagwrn.xml",
+      "bytes": 10995,
+      "sha256": "15c066dd72839d676d231f3137d2b9e3e7e737455b429a0aad9af54255fc2895"
+    },
+    {
+      "path": "partition-3/qcow2-failure/final-sysprep-panther/setupact.log",
+      "bytes": 504979,
+      "sha256": "8ada5cc043dca93147c07264c83d9bd7d5a434b3970bfb7e0b5c67652128fa47"
+    },
+    {
+      "path": "partition-3/qcow2-failure/final-sysprep-panther/setuperr.log",
+      "bytes": 797,
+      "sha256": "7b0caea417b4456429cc081bffe63ebc3427484000ecf2868465598066075d73"
+    },
+    {
+      "path": "partition-3/qcow2-failure/final-windows-panther/CompatData_2026_09_20_12_03_13_00000001.xml",
+      "bytes": 1395,
+      "sha256": "4905f0f2e83bf41a62208e2ede3ab231f042f556a8b8fed6981a65655e2dad71"
+    },
+    {
+      "path": "partition-3/qcow2-failure/final-windows-panther/CompatData_2026_10_05_13_46_02_00000001.xml",
+      "bytes": 1395,
+      "sha256": "4905f0f2e83bf41a62208e2ede3ab231f042f556a8b8fed6981a65655e2dad71"
+    },
+    {
+      "path": "partition-3/qcow2-failure/final-windows-panther/DDACLSys.log",
+      "bytes": 5830,
+      "sha256": "444f025f0ed4c69a03293b8f074217f60d3256510ac9d4641b0788d164a57438"
+    },
+    {
+      "path": "partition-3/qcow2-failure/final-windows-panther/DlTel-Merge.etl",
+      "bytes": 327680,
+      "sha256": "1f80cc29d3e8ae6de66fc40218b315c918a158962fe4284f044f35a59651a74e"
+    },
+    {
+      "path": "partition-3/qcow2-failure/final-windows-panther/DlTel-Merge00001.etl",
+      "bytes": 262144,
+      "sha256": "9ddb06602315181d4bea1613a52953a8acef5f9cdca99583d9e469fafff48814"
+    },
+    {
+      "path": "partition-3/qcow2-failure/final-windows-panther/DlTel.Merge.00001.etl",
+      "bytes": 6133,
+      "sha256": "6be61917e4cc68967b9ce3c0adae86da9d0b19c0bd75280422e810ce45baae69"
+    },
+    {
+      "path": "partition-3/qcow2-failure/final-windows-panther/DlTel.etl",
+      "bytes": 65536,
+      "sha256": "8310a40a8532d243ae82ee388065a26f9f0b99dfc291df75a9c104ec2023b597"
+    },
+    {
+      "path": "partition-3/qcow2-failure/final-windows-panther/FirstBootTel-M1.etl",
+      "bytes": 327680,
+      "sha256": "bbff12affb78bc6bcb11f2f0aee867eae55d3bf3b7e72176a07e4071584eca99"
+    },
+    {
+      "path": "partition-3/qcow2-failure/final-windows-panther/FirstBootTel-M2.etl",
+      "bytes": 327680,
+      "sha256": "2b34e4a7ea767065fa42cf22493756d4ffc20c2bf998e93b21365f116a295ba8"
+    },
+    {
+      "path": "partition-3/qcow2-failure/final-windows-panther/UnattendGC/diagerr.xml",
+      "bytes": 11769,
+      "sha256": "9c8aafdabda26bdfbfd85ad69321753899af80cb470cf9fd47ea8863d3868bcf"
+    },
+    {
+      "path": "partition-3/qcow2-failure/final-windows-panther/UnattendGC/diagwrn.xml",
+      "bytes": 13832,
+      "sha256": "7cf93fa244dfce0205786f51f76ccbda4aa0a46c6658181d5f1ef75282814f3a"
+    },
+    {
+      "path": "partition-3/qcow2-failure/final-windows-panther/UnattendGC/setupact.log",
+      "bytes": 102626,
+      "sha256": "2bb27bb6b7779aeba7e82e39944e0583a444c01d633f2711e8feb47507ec327c"
+    },
+    {
+      "path": "partition-3/qcow2-failure/final-windows-panther/UnattendGC/setuperr.log",
+      "bytes": 173,
+      "sha256": "b3fa8c30e8de798df88b91be4dacfe7c8c5b1a26bc5080fc86bb36ab41028665"
+    },
+    {
+      "path": "partition-3/qcow2-failure/final-windows-panther/_s_510E.tmp",
+      "bytes": 128342,
+      "sha256": "6b5d4b32236a921bacdefe19852ec0699ca2eacd72d4e57f50a2de06ede21c8e"
+    },
+    {
+      "path": "partition-3/qcow2-failure/final-windows-panther/_s_E272.tmp",
+      "bytes": 128342,
+      "sha256": "6b5d4b32236a921bacdefe19852ec0699ca2eacd72d4e57f50a2de06ede21c8e"
+    },
+    {
+      "path": "partition-3/qcow2-failure/final-windows-panther/actionqueue/generalize.uaq",
+      "bytes": 46,
+      "sha256": "3414e35d8ecd1757ff85cca179c8a019fe622bdd8cb81b607ca293589fa2804e"
+    },
+    {
+      "path": "partition-3/qcow2-failure/final-windows-panther/actionqueue/oobeSystem.uaq",
+      "bytes": 1032,
+      "sha256": "c376e7bb1fcbdba3f626d261eabca39426446f19f8142207c4ce44497f0bf300"
+    },
+    {
+      "path": "partition-3/qcow2-failure/final-windows-panther/actionqueue/specialize.uaq",
+      "bytes": 1019,
+      "sha256": "88a7305b88d6fdf72a3308fb58e0cd98f66a013b036d554758316d685f27c7e3"
+    },
+    {
+      "path": "partition-3/qcow2-failure/final-windows-panther/compatscancache.dat",
+      "bytes": 4352,
+      "sha256": "6d6fb7f7b16d73bfa097285c296bac70f11bc2ce3180472bb5c4f3306c52dbae"
+    },
+    {
+      "path": "partition-3/qcow2-failure/final-windows-panther/diagerr.xml",
+      "bytes": 15376,
+      "sha256": "92cff41799d243d46aaef8a8bb88ecdebacc21983bb6b8a5eda3bb38c063f578"
+    },
+    {
+      "path": "partition-3/qcow2-failure/final-windows-panther/diagwrn.xml",
+      "bytes": 91302,
+      "sha256": "6e2fff2e041ed866b3662731e86d83c6aaa98da363b05c91b70dd5e755982f35"
+    },
+    {
+      "path": "partition-3/qcow2-failure/final-windows-panther/setup.etl",
+      "bytes": 1740800,
+      "sha256": "bb058eb71a60f1237c22e16ffd030652f432e9b1ce7374fcb9ccf0aea1e3ad7d"
+    },
+    {
+      "path": "partition-3/qcow2-failure/final-windows-panther/setupact.log",
+      "bytes": 1349375,
+      "sha256": "0150a0aa91b555484e8db9a212ef68ab885062ccf9acb72d9401fc960e92a404"
+    },
+    {
+      "path": "partition-3/qcow2-failure/final-windows-panther/setuperr.log",
+      "bytes": 5041,
+      "sha256": "2ca780ccebb170f456561f356c2761ae9a86254d4abe2284cb55616557439415"
+    },
+    {
+      "path": "partition-3/qcow2-failure/final-windows-panther/unattend-original.xml",
+      "bytes": 5136,
+      "sha256": "fc06fd0754c92a024fd672cf20a5601e80de4dac08bba43878a2630884314808"
+    },
+    {
+      "path": "partition-3/qcow2-failure/final-windows-panther/unattend.xml",
+      "bytes": 5136,
+      "sha256": "fc06fd0754c92a024fd672cf20a5601e80de4dac08bba43878a2630884314808"
+    },
+    {
+      "path": "partition-3/qcow2-failure/final-windows-panther/windlp.state-old.xml",
+      "bytes": 19408,
+      "sha256": "f31ed5c3cf36cf0169562626f2548c02155dc27bb17cadff3b954891d498acf4"
+    },
+    {
+      "path": "partition-3/qcow2-failure/final-windows-panther/windlp.state.xml",
+      "bytes": 19408,
+      "sha256": "f31ed5c3cf36cf0169562626f2548c02155dc27bb17cadff3b954891d498acf4"
+    },
+    {
+      "path": "partition-3/qcow2-failure/newos-list.txt",
+      "bytes": 393,
+      "sha256": "f421bfc568295de2e7c964efb3631716c5e608e429c3cb0b57e68bb732d8b976"
+    },
+    {
+      "path": "partition-3/qcow2-failure/root-list.txt",
+      "bytes": 951,
+      "sha256": "77b5c3175edb9f480c14664a228a7172943dc5ab86f612faf8e985970ff239b4"
+    },
+    {
+      "path": "partition-3/qcow2-failure/seed-payload/autounattend.xml",
+      "bytes": 5136,
+      "sha256": "fc06fd0754c92a024fd672cf20a5601e80de4dac08bba43878a2630884314808"
+    },
+    {
+      "path": "partition-3/qcow2-failure/target-bt-panther/CompatData_2026_10_05_13_46_02_00000001.xml",
+      "bytes": 1395,
+      "sha256": "4905f0f2e83bf41a62208e2ede3ab231f042f556a8b8fed6981a65655e2dad71"
+    },
+    {
+      "path": "partition-3/qcow2-failure/target-bt-panther/DlTel-Merge.etl",
+      "bytes": 327680,
+      "sha256": "1f80cc29d3e8ae6de66fc40218b315c918a158962fe4284f044f35a59651a74e"
+    },
+    {
+      "path": "partition-3/qcow2-failure/target-bt-panther/DlTel-Merge00001.etl",
+      "bytes": 262144,
+      "sha256": "9ddb06602315181d4bea1613a52953a8acef5f9cdca99583d9e469fafff48814"
+    },
+    {
+      "path": "partition-3/qcow2-failure/target-bt-panther/DlTel.Merge.00001.etl",
+      "bytes": 6133,
+      "sha256": "6be61917e4cc68967b9ce3c0adae86da9d0b19c0bd75280422e810ce45baae69"
+    },
+    {
+      "path": "partition-3/qcow2-failure/target-bt-panther/DlTel.etl",
+      "bytes": 65536,
+      "sha256": "8310a40a8532d243ae82ee388065a26f9f0b99dfc291df75a9c104ec2023b597"
+    },
+    {
+      "path": "partition-3/qcow2-failure/target-bt-panther/_s_E272.tmp",
+      "bytes": 128342,
+      "sha256": "6b5d4b32236a921bacdefe19852ec0699ca2eacd72d4e57f50a2de06ede21c8e"
+    },
+    {
+      "path": "partition-3/qcow2-failure/target-bt-panther/compatscancache.dat",
+      "bytes": 4352,
+      "sha256": "6d6fb7f7b16d73bfa097285c296bac70f11bc2ce3180472bb5c4f3306c52dbae"
+    },
+    {
+      "path": "partition-3/qcow2-failure/target-bt-panther/diagerr.xml",
+      "bytes": 15376,
+      "sha256": "92cff41799d243d46aaef8a8bb88ecdebacc21983bb6b8a5eda3bb38c063f578"
+    },
+    {
+      "path": "partition-3/qcow2-failure/target-bt-panther/diagwrn.xml",
+      "bytes": 91622,
+      "sha256": "7cc7d0f45bbe95fb3ae3ad0542e80b8b5e8036f4ba9eee09acbc972c9ddbd6e7"
+    },
+    {
+      "path": "partition-3/qcow2-failure/target-bt-panther/setupact.log",
+      "bytes": 1349503,
+      "sha256": "402d0fecb589f0a3fd62963893fddc9bcce502d973c9ee34d5a2bd7745fbd6eb"
+    },
+    {
+      "path": "partition-3/qcow2-failure/target-bt-panther/setuperr.log",
+      "bytes": 5041,
+      "sha256": "2ca780ccebb170f456561f356c2761ae9a86254d4abe2284cb55616557439415"
+    },
+    {
+      "path": "partition-3/qcow2-failure/target-bt-panther/windlp.state-old.xml",
+      "bytes": 19408,
+      "sha256": "f31ed5c3cf36cf0169562626f2548c02155dc27bb17cadff3b954891d498acf4"
+    },
+    {
+      "path": "partition-3/qcow2-failure/target-bt-panther/windlp.state.xml",
+      "bytes": 19408,
+      "sha256": "f31ed5c3cf36cf0169562626f2548c02155dc27bb17cadff3b954891d498acf4"
+    },
+    {
+      "path": "partition-3/qcow2-failure/x-bt-panther/CompatData_2026_10_05_13_46_02_00000001.xml",
+      "bytes": 1395,
+      "sha256": "4905f0f2e83bf41a62208e2ede3ab231f042f556a8b8fed6981a65655e2dad71"
+    },
+    {
+      "path": "partition-3/qcow2-failure/x-bt-panther/compatscancache.dat",
+      "bytes": 4352,
+      "sha256": "6d6fb7f7b16d73bfa097285c296bac70f11bc2ce3180472bb5c4f3306c52dbae"
+    },
+    {
+      "path": "partition-3/qcow2-failure/x-bt-panther/diagerr.xml",
+      "bytes": 6516,
+      "sha256": "eb8a6f4f0ef10bf8c4a5d810164704833ac0ad866ba598f3f543243a634ce954"
+    },
+    {
+      "path": "partition-3/qcow2-failure/x-bt-panther/diagwrn.xml",
+      "bytes": 46036,
+      "sha256": "41df8f37b9f2c7f65f0793c2e4063f5039cc13009aca2b3f365908b3646da8df"
+    },
+    {
+      "path": "partition-3/qcow2-failure/x-bt-panther/setupact.log",
+      "bytes": 213955,
+      "sha256": "cdfe0052910f37b3e577091286530e0bb59534519759845c91474d30b4910989"
+    },
+    {
+      "path": "partition-3/qcow2-failure/x-bt-panther/setuperr.log",
+      "bytes": 2257,
+      "sha256": "2e456da28c9269301c19e457967d01d7d9ef72fc3d4cc35dbe65bc366378cce1"
+    },
+    {
+      "path": "partition-3/qcow2-failure/x-panther/_s_E272.tmp",
+      "bytes": 128342,
+      "sha256": "6b5d4b32236a921bacdefe19852ec0699ca2eacd72d4e57f50a2de06ede21c8e"
+    }
+  ],
+  "image_apply_success": {
+    "log_line": 7558
+  },
+  "offline_sysprep_specialization_success": {
+    "log_line": 11642
+  },
+  "independent_negative_regression": "/data/cache/qcow2-installation-1005-v4/windows-old-oracle-regression.json"
+}

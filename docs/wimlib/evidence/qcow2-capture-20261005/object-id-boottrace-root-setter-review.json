@@ -1,0 +1,42 @@
+{
+  "source": "/data/cache/qcow2-object-id-boottrace-20261006/boot-all-events.csv",
+  "sha256": "915d16841b3f076e31406a95a4f9db260287fc436fff019701f622840bda12b6",
+  "rows": 816091,
+  "set_object_id_events": [
+    {
+      "row": 437340,
+      "Time of Day": "10:20:36.4959853 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "FileSystemControl",
+      "Path": "T:\\objectid-scratch-8e13fcf95dd746739b3ba4f1b14a64af\\alias-0.bin",
+      "Result": "SUCCESS",
+      "Detail": "Control: FSCTL_SET_OBJECT_ID_EXTENDED"
+    }
+  ],
+  "process_start_events": [
+    {
+      "row": 414710,
+      "Time of Day": "10:20:36.0589868 PM",
+      "Process Name": "svchost.exe",
+      "PID": "2068",
+      "Operation": "Process Start",
+      "Path": "",
+      "Result": "SUCCESS",
+      "Detail": "Parent PID: 888, Command line: C:\\WINDOWS\\System32\\svchost.exe -k LocalSystemNetworkRestricted -p -s TrkWks, Current directory: C:\\WINDOWS\\system32\\, Environment: \r;\tALLUSERSPROFILE=C:\\ProgramData\r;\tAPPDATA=C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Roaming\r;\tCommonProgramFiles=C:\\Program Files\\Common Files\r;\tCommonProgramFiles(x86)=C:\\Program Files (x86)\\Common Files\r;\tCommonProgramW6432=C:\\Program Files\\Common Files\r;\tCOMPUTERNAME=QCOW2-INSTALLED\r;\tComSpec=C:\\WINDOWS\\system32\\cmd.exe\r;\tDriverData=C:\\Windows\\System32\\Drivers\\DriverData\r;\tLOCALAPPDATA=C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\r;\tNUMBER_OF_PROCESSORS=4\r;\tOS=Windows_NT\r;\tPath=C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps\r;\tPATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC\r;\tPROCESSOR_ARCHITECTURE=AMD64\r;\tPROCESSOR_IDENTIFIER=Intel64 Family 6 Model 183 Stepping 1, GenuineIntel\r;\tPROCESSOR_LEVEL=6\r;\tPROCESSOR_REVISION=b701\r;\tProgramData=C:\\ProgramData\r;\tProgramFiles=C:\\Program Files\r;\tProgramFiles(x86)=C:\\Program Files (x86)\r;\tProgramW6432=C:\\Program Files\r;\tPSModulePath=%ProgramFiles%\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\r;\tPUBLIC=C:\\Users\\Public\r;\tSystemDrive=C:\r;\tSystemRoot=C:\\WINDOWS\r;\tTEMP=C:\\WINDOWS\\TEMP\r;\tTMP=C:\\WINDOWS\\TEMP\r;\tUSERDOMAIN=WORKGROUP\r;\tUSERNAME=QCOW2-INSTALLED$\r;\tUSERPROFILE=C:\\WINDOWS\\system32\\config\\systemprofile\r;\twindir=C:\\WINDOWS"
+    }
+  ],
+  "first_get_event": [
+    {
+      "row": 618742,
+      "Time of Day": "10:20:40.2800549 PM",
+      "Process Name": "powershell.exe",
+      "PID": "2192",
+      "Operation": "FileSystemControl",
+      "Path": "T:\\objectid-scratch-8e13fcf95dd746739b3ba4f1b14a64af\\scratch long object identifier challenge 0.bin",
+      "Result": "SUCCESS",
+      "Detail": "Control: FSCTL_GET_OBJECT_ID"
+    }
+  ],
+  "conclusion": "Successful extended ObjectID setter precedes first GET on challenge alias. CSV does not record setter input bytes or native stack; causality and service identity require further evidence."
+}

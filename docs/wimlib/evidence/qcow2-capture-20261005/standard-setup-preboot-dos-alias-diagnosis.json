@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "scope": "read-only original-BF standardSetup first-reboot stage control; current V12 offline disk not yet inspected",
+  "old_source_nodes": 176484,
+  "old_source_aliases": 101713,
+  "preboot_nodes": 177956,
+  "preboot_aliases": 101988,
+  "strict_native_reference_validation_passed": true,
+  "counts": {
+    "exact_alias_binding": 99148,
+    "no_target_distinct_alias_record_for_long_path": 38,
+    "expected_alias_binds_other_target_file": 2306,
+    "expected_alias_absent_from_target_alias_index": 221
+  },
+  "all10representative_current_and_old_source_aliases_and_ids_exact": true,
+  "inference": "2306 sourceexpected short selectors bind other target file IDs already before first target OS boot in old-BF control; selected representative collisions common with current V12, but entire V12 scope requires its frozen offline audit",
+  "limitations": "Inventory may select a shared short record for multiple same-parent hardlinks; these are retained as same-ID bindings, not treated as collisions. An absent selected alias does not prove absence from the complete raw INDEX. No target alias record may mean missing path or no distinct DOS name; requires full path inventory to distinguish. File IDs are compared within each target volume only.",
+  "artifacts": {
+    "old-bf-source-native-aliases.json": {
+      "path": "/data/cache/qcow2-v12-alias-diagnosis/old-bf-source-native-aliases.json",
+      "bytes": 96017879,
+      "sha256": "36fe8dbd7ceb6a87bfe1b036c9ab08fa762a111163e15d036faadc9ce78cb97b"
+    },
+    "old-source-standard-setup-preboot-native-aliases.json": {
+      "path": "/data/cache/qcow2-v12-alias-diagnosis/old-source-standard-setup-preboot-native-aliases.json",
+      "bytes": 96178994,
+      "sha256": "417d5710f5b5037597ec08ff32c4ffa7b020fe4f5b60d67f89d4f4026bee308f"
+    },
+    "old-bf-to-preboot-full-alias-comparison.json": {
+      "path": "/data/cache/qcow2-v12-alias-diagnosis/old-bf-to-preboot-full-alias-comparison.json",
+      "bytes": 12784714,
+      "sha256": "95408426d15fdfcc6870d258a6de79faccc6f0ceee68fcf4c4a9d8a62cc6e281"
+    },
+    "representative-old-current-source-equivalence.json": {
+      "path": "/data/cache/qcow2-v12-alias-diagnosis/representative-old-current-source-equivalence.json",
+      "bytes": 30145,
+      "sha256": "54bb12d8a1e3994c6b72f4ed0589e1a96269f17ae021f0b3315cef92b54fd01b"
+    },
+    "runtime-partial-snapshot.json": {
+      "path": "/data/cache/qcow2-v12-alias-diagnosis/runtime-partial-snapshot.json",
+      "bytes": 1502220,
+      "sha256": "7ae8d3c1a8e991ef5588b703b3e409e9efd5f8f27350f4fd5f09743146eab758"
+    }
+  }
+}

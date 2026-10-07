@@ -1,0 +1,7 @@
+{
+  "exit": 0,
+  "signal": null,
+  "stdout": "{\r\n    \"Build\":  \"26200\",\r\n    \"UBR\":  8037,\r\n    \"Edition\":  \"Professional\",\r\n    \"InstallationType\":  \"Client\",\r\n    \"Marker\":  \"qcow2-native-1005\",\r\n    \"Recovery\":  \"Windows Recovery Environment (Windows RE) and system reset configuration\\r\\nInformation:\\r\\n\\r\\n    Windows RE status:         Enabled\\r\\n    Windows RE location:       \\\\\\\\?\\\\GLOBALROOT\\\\device\\\\harddisk0\\\\partition4\\\\Recovery\\\\WindowsRE\\r\\n    Boot Configuration Data (BCD) identifier: 8b2ad1f0-b52f-11f1-8103-a6e1dcfc311d\\r\\n    Recovery image location:   \\r\\n    Recovery image index:      0\\r\\n    Custom image location:     \\r\\n    Custom image index:        0\\r\\n    Windows RE Version:        10.0.26100.8031\\r\\n\\r\\nREAGENTC.EXE: Operation Successful.\\r\\n    \\r\\n\",\r\n    \"MachineGuid\":  \"9f6c71c0-b97c-4dd5-ab47-5b84f706fcd9\",\r\n    \"BITS\":  \"Manual\",\r\n    \"SourceRoot\":  \"C:\\\\NativeDiskCapture\",\r\n    \"Fixture\":  [\r\n                    {\r\n                        \"Name\":  \"alias.bin\",\r\n                        \"Length\":  256,\r\n                        \"Attributes\":  32\r\n                    },\r\n                    {\r\n                        \"Name\":  \"payload.bin\",\r\n                        \"Length\":  256,\r\n                        \"Attributes\":  32\r\n                    }\r\n                ]\r\n}\r\n",
+  "stderr": "",
+  "stdout_truncated": false
+}

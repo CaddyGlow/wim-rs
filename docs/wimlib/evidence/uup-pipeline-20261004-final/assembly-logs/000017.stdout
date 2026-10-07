@@ -1,0 +1,19 @@
+Microsoft (R) File Expansion Utility
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-14\$filehashes$.dat to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-14\amd64_microsoft-windows-p..cppc-fod-deployment_31bf3856ad364e35_10.0.19041.1_none_e3ee12bc4e80c8a8.manifest to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-14\amd64_microsoft-windows-p..erandprintui-pmcppc_31bf3856ad364e35_10.0.19041.1_none_c1594f70200f2c03\pmcsnap.dll to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-14\amd64_microsoft-windows-p..erandprintui-pmcppc_31bf3856ad364e35_10.0.19041.1_none_c1594f70200f2c03\ppcsnap.dll to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-14\amd64_microsoft-windows-p..erandprintui-pmcppc_31bf3856ad364e35_10.0.19041.1_none_c1594f70200f2c03\Print Management.lnk to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-14\amd64_microsoft-windows-p..erandprintui-pmcppc_31bf3856ad364e35_10.0.19041.1_none_c1594f70200f2c03\printmanagement.msc to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-14\amd64_microsoft-windows-p..erandprintui-pmcppc_31bf3856ad364e35_10.0.19041.1_none_c1594f70200f2c03.manifest to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-14\Microsoft-Windows-Printing-PMCPPC-FoD-Package~31bf3856ad364e35~amd64~~10.0.19041.1.cat to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-14\Microsoft-Windows-Printing-PMCPPC-FoD-Package~31bf3856ad364e35~amd64~~10.0.19041.1.mum to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-14\update.cat to Extraction Queue
+Adding C:\wim-uup-validation-1791090913159215058\assembly\feature-14\update.mum to Extraction Queue
+
+Expanding Files ....
+
+Expanding Files Complete ...
+11 files total.

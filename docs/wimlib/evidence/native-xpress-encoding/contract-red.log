@@ -1,0 +1,102 @@
+   Compiling wim-codec v0.1.0 (/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/wim-codec)
+warning: struct `Item` is never constructed
+  --> wim-codec/src/xpress_encode.rs:20:8
+   |
+20 | struct Item { symbol: usize, length: usize, offset: usize }
+   |        ^^^^
+   |
+   = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: function `allocated` is never used
+  --> wim-codec/src/xpress_encode.rs:22:4
+   |
+22 | fn allocated<T: Clone>(count: usize, value: T) -> Result<Vec<T>, EncodeError> {
+   |    ^^^^^^^^^
+
+warning: function `hash` is never used
+  --> wim-codec/src/xpress_encode.rs:29:4
+   |
+29 | fn hash(input: &[u8], position: usize) -> usize {
+   |    ^^^^
+
+warning: function `parse` is never used
+  --> wim-codec/src/xpress_encode.rs:34:4
+   |
+34 | fn parse(input: &[u8]) -> Result<(Vec<Item>, [u64; 512]), EncodeError> {
+   |    ^^^^^
+
+warning: function `code` is never used
+  --> wim-codec/src/xpress_encode.rs:80:4
+   |
+80 | fn code(frequencies: &[u64; 512]) -> ([u8; 512], [u16; 512]) {
+   |    ^^^^
+
+warning: struct `Writer` is never constructed
+   --> wim-codec/src/xpress_encode.rs:134:8
+    |
+134 | struct Writer { output: Vec<u8>, first: usize, second: usize, buffer: u32, count: usize }
+    |        ^^^^^^
+
+warning: associated items `new`, `put_word`, `bits`, and `finish` are never used
+   --> wim-codec/src/xpress_encode.rs:136:8
+    |
+135 | impl Writer {
+    | ----------- associated items in this implementation
+136 |     fn new(bound: usize) -> Result<Self, EncodeError> {
+    |        ^^^
+...
+142 |     fn put_word(&mut self, position: usize, value: u16) { self.output[position..position + 2].copy_from_slice(&value.to_le_bytes()); }
+    |        ^^^^^^^^
+143 |     fn bits(&mut self, value: u16, count: usize) {
+    |        ^^^^
+...
+154 |     fn finish(mut self) -> Vec<u8> {
+    |        ^^^^^^
+
+warning: `wim-codec` (lib) generated 7 warnings
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.23s
+     Running tests/xpress_encode.rs (crates/wimlib-rs/target/debug/deps/xpress_encode-83d045cc8eaf65a8)
+
+running 6 tests
+test insufficient_capacity_has_no_partial_output ... ok
+test block_above_xpress_limit_is_rejected ... FAILED
+test exact_capacity_accepts_block_and_one_less_rejects ... FAILED
+test overlapping_long_matches_roundtrip ... FAILED
+test short_input_has_no_compressed_block ... ok
+test periodic_binary_data_roundtrips_and_compresses ... FAILED
+
+failures:
+
+---- block_above_xpress_limit_is_rejected stdout ----
+
+thread 'block_above_xpress_limit_is_rejected' (191) panicked at wim-codec/tests/xpress_encode.rs:10:5:
+assertion `left == right` failed
+  left: Ok(None)
+ right: Err(InputTooLarge)
+
+---- exact_capacity_accepts_block_and_one_less_rejects stdout ----
+
+thread 'exact_capacity_accepts_block_and_one_less_rejects' (192) panicked at wim-codec/tests/xpress_encode.rs:38:65:
+called `Option::unwrap()` on a `None` value
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+---- overlapping_long_matches_roundtrip stdout ----
+
+thread 'overlapping_long_matches_roundtrip' (194) panicked at wim-codec/tests/xpress_encode.rs:20:69:
+called `Option::unwrap()` on a `None` value
+
+---- periodic_binary_data_roundtrips_and_compresses stdout ----
+
+thread 'periodic_binary_data_roundtrips_and_compresses' (195) panicked at wim-codec/tests/xpress_encode.rs:29:65:
+called `Option::unwrap()` on a `None` value
+
+
+failures:
+    block_above_xpress_limit_is_rejected
+    exact_capacity_accepts_block_and_one_less_rejects
+    overlapping_long_matches_roundtrip
+    periodic_binary_data_roundtrips_and_compresses
+
+test result: FAILED. 2 passed; 4 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+error: test failed, to rerun pass `-p wim-codec --test xpress_encode`

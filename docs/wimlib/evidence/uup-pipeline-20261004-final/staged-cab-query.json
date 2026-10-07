@@ -1,0 +1,7 @@
+{
+  "exit": 1920,
+  "signal": null,
+  "stdout": "{\r\n    \"Algorithm\":  \"SHA256\",\r\n    \"Hash\":  \"8CF62E387C4D23A49C261C6FF0A23313A99C1A3149255A704D6F16ABF5D8CD7B\",\r\n    \"Path\":  \"C:\\\\wim-uup-validation-1791090913159215058\\\\staged-ssu.cab\"\r\n}\r\n\r\nDeployment Image Servicing and Management tool\r\nVersion: 10.0.26100.5074\r\n\r\nImage Version: 10.0.19041.1\r\n\r\nAn error occurred trying to open - C:\\wim-uup-validation-1791090913159215058\\staged-ssu.cab Error: 0x80070780\r\n\r\nError: 1920\r\n\r\nThe file cannot be accessed by the system.\r\n\r\nThe DISM log file can be found at C:\\wim-uup-validation-1791090913159215058\\staged-query.log\r\n",
+  "stderr": "",
+  "stdout_truncated": false
+}

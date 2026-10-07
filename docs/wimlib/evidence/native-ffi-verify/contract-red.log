@@ -1,0 +1,48 @@
+   Compiling wim-ffi v0.1.0 (/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/wim-ffi)
+error[E0425]: cannot find type `HandleImage` in this scope
+  --> wim-ffi/src/handles.rs:28:21
+   |
+28 |     pub images: Vec<HandleImage>,
+   |                     ^^^^^^^^^^^ not found in this scope
+   |
+help: you might be missing a type parameter
+   |
+14 | pub struct WimHandle<HandleImage> {
+   |                     +++++++++++++
+
+error[E0433]: cannot find type `HandleImage` in this scope
+   --> wim-ffi/src/handles.rs:306:52
+    |
+306 |         images.extend((1..=header.image_count).map(HandleImage::Source));
+    |                                                    ^^^^^^^^^^^ use of undeclared type `HandleImage`
+
+error[E0308]: mismatched types
+    --> wim-ffi/src/properties.rs:36:44
+     |
+  36 |     let encoded = handle.xml_strings.entry(value.clone()).or_insert_with(|| {
+     |                                      ----- ^^^^^^^^^^^^^ expected `Vec<u8>`, found `String`
+     |                                      |
+     |                                      arguments to this method are incorrect
+     |
+     = note: expected struct `Vec<u8>`
+                found struct `String`
+help: the return type of this call is `String` due to the type of the argument passed
+    --> wim-ffi/src/properties.rs:36:19
+     |
+  36 |     let encoded = handle.xml_strings.entry(value.clone()).or_insert_with(|| {
+     |                   ^^^^^^^^^^^^^^^^^^^^^^^^^-------------^
+     |                                            |
+     |                                            this argument influences the return type of `entry`
+note: method defined here
+    --> /home/rick/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/collections/hash/map.rs:1008:12
+     |
+1008 |     pub fn entry(&mut self, key: K) -> Entry<'_, K, V, A> {
+     |            ^^^^^
+help: call `Into::into` on this expression to convert `String` into `Vec<u8>`
+     |
+  36 |     let encoded = handle.xml_strings.entry(value.clone().into()).or_insert_with(|| {
+     |                                                         +++++++
+
+Some errors have detailed explanations: E0308, E0425, E0433.
+For more information about an error, try `rustc --explain E0308`.
+error: could not compile `wim-ffi` (lib) due to 3 previous errors

@@ -1,0 +1,8 @@
+{
+  "schema": 1,
+  "scope": "Root independent physical ISO hash only; payload and boot oracle pending",
+  "path": "/data/cache/qcow2-namespace-fixed-20261006/capture/native-captured.iso",
+  "bytes": 9045383168,
+  "sha256": "92fe21f6c129a95b68a39ae1c66ce3b0364afc675ed91dd62c47bc8cd8c7ea20",
+  "matches_native_report": true
+}

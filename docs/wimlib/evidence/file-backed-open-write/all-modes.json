@@ -1,0 +1,4339 @@
+{
+  "work": "/tmp/wim-performance-lfaobdp3",
+  "cpu": 2,
+  "machine": "Linux-6.18.53-x86_64-with-glibc2.42",
+  "compilers": {
+    "cc": "gcc (GCC) 16.2.0",
+    "rustc": "rustc 1.96.0 (ac68faa20 2026-05-25)"
+  },
+  "original_cflags": "CFLAGS='-g -O2'",
+  "cpu_info": "Architecture:                            x86_64\nCPU op-mode(s):                          32-bit, 64-bit\nAddress sizes:                           46 bits physical, 48 bits virtual\nByte Order:                              Little Endian\nCPU(s):                                  24\nOn-line CPU(s) list:                     0-23\nVendor ID:                               GenuineIntel\nModel name:                              13th Gen Intel(R) Core(TM) i7-13700K\nCPU family:                              6\nModel:                                   183\nThread(s) per core:                      2\nCore(s) per socket:                      16\nSocket(s):                               1\nStepping:                                1\nMicrocode version:                       0x137\nCPU(s) scaling MHz:                      42%\nCPU max MHz:                             5400.0000\nCPU min MHz:                             800.0000\nBogoMIPS:                                6835.20\nFlags:                                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb intel_pt sha_ni xsaveopt xsavec xgetbv1 xsaves split_lock_detect user_shstk avx_vnni dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp hwp_pkg_req hfi vnmi umip pku ospke waitpkg gfni vaes vpclmulqdq rdpid movdiri movdir64b fsrm md_clear serialize pconfig arch_lbr ibt flush_l1d arch_capabilities\nVirtualization:                          VT-x\nL1d cache:                               640 KiB (16 instances)\nL1i cache:                               768 KiB (16 instances)\nL2 cache:                                24 MiB (10 instances)\nL3 cache:                                30 MiB (1 instance)\nNUMA node(s):                            1\nNUMA node0 CPU(s):                       0-23\nVulnerability Gather data sampling:      Not affected\nVulnerability Ghostwrite:                Not affected\nVulnerability Indirect target selection: Not affected\nVulnerability Itlb multihit:             Not affected\nVulnerability L1tf:                      Not affected\nVulnerability Mds:                       Not affected\nVulnerability Meltdown:                  Not affected\nVulnerability Mmio stale data:           Not affected\nVulnerability Old microcode:             Not affected\nVulnerability Reg file data sampling:    Mitigation; Clear Register File\nVulnerability Retbleed:                  Not affected\nVulnerability Spec rstack overflow:      Not affected\nVulnerability Spec store bypass:         Mitigation; Speculative Store Bypass disabled via prctl\nVulnerability Spectre v1:                Mitigation; usercopy/swapgs barriers and __user pointer sanitization\nVulnerability Spectre v2:                Mitigation; Enhanced / Automatic IBRS; IBPB conditional; PBRSB-eIBRS SW sequence; BHI BHI_DIS_S\nVulnerability Srbds:                     Not affected\nVulnerability Tsa:                       Not affected\nVulnerability Tsx async abort:           Not affected\nVulnerability Vmscape:                   Mitigation; IBPB before exit to userspace\n",
+  "loadavg_start": "1.70 2.40 3.97 2/2473 133",
+  "libraries": {
+    "original": {
+      "source": "/tmp/wimlib-native-oracle/.libs/libwim.so",
+      "sha256": "62eb9c97f9ec6e3dae6c7e995b0a65a2e94a4d9b41491666947ba788a15bb74a",
+      "caller_sha256": "9b430abb457d28dc921e9b8ab2f4e91d268eff026ef1ced4d0e6d218a667e783",
+      "compile_command": [
+        "cc",
+        "-O2",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "-I/tmp/wimlib/include",
+        "scripts/wimlib/probe-performance.c",
+        "-L/tmp/wim-performance-lfaobdp3/original",
+        "-Wl,-rpath,/tmp/wim-performance-lfaobdp3/original",
+        "-lwim",
+        "-o",
+        "/tmp/wim-performance-lfaobdp3/original/probe"
+      ]
+    },
+    "native": {
+      "source": "/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/target/release/libwim.so",
+      "sha256": "2ce25f6a1277c0fd23cc79b63159853587fdf36cceee7fb521e4b3004a07f1c1",
+      "caller_sha256": "26c445d69705a2e13463ac3659fb593412bc34031d9ea35548cf89472e9eeba4",
+      "compile_command": [
+        "cc",
+        "-O2",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "-I/tmp/wimlib/include",
+        "scripts/wimlib/probe-performance.c",
+        "-L/tmp/wim-performance-lfaobdp3/native",
+        "-Wl,-rpath,/tmp/wim-performance-lfaobdp3/native",
+        "-lwim",
+        "-o",
+        "/tmp/wim-performance-lfaobdp3/native/probe"
+      ]
+    }
+  },
+  "dataset": {
+    "dir-00/file-0000.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-00/file-0001.bin": [
+      4096,
+      "23f6098f12716cd2d00c11292ea0d167a4b79ac02f33d681c1711ede73119ff5"
+    ],
+    "dir-00/file-0002.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-00/file-0003.bin": [
+      4096,
+      "95618869650efb25a669d69dcec022cd6939afe121f0071baefa97bc8ad4ddd8"
+    ],
+    "dir-00/file-0004.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-00/file-0005.bin": [
+      4096,
+      "1a688f34d6d62a64ca39dbb534c7dd75cc7b82f154275db9573109d1ee9ea255"
+    ],
+    "dir-00/file-0006.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-00/file-0007.bin": [
+      4096,
+      "ffde0f12cc82d160a6ee6728fb80bf60ac720619f3cae16bd3865741fe5bf30e"
+    ],
+    "dir-00/file-0008.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-00/file-0009.bin": [
+      4096,
+      "d7fcf43b2cfa224590db22c647ef333c9cfac0c3895ba948679f17b20dccaac1"
+    ],
+    "dir-00/file-0010.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-00/file-0011.bin": [
+      4096,
+      "6623d2783679fafa5e60672be1f7fa8042728e7eaf639702d1fb3a4b330670d8"
+    ],
+    "dir-00/file-0012.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-00/file-0013.bin": [
+      4096,
+      "f0379d819ec8fff38a46b5c11b3d8df56c6d3fe118c01ae3a2fc90c620232926"
+    ],
+    "dir-00/file-0014.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-00/file-0015.bin": [
+      4096,
+      "ab30eb450bced8afc4359e80eea136ef4e95e60d5da2b0c23392855c5695e3f2"
+    ],
+    "dir-00/file-0016.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-00/file-0017.bin": [
+      4096,
+      "f76dc16593a47347f26171a5f69b207cb938aeb4e556dd7286d23ee2c7ed54b0"
+    ],
+    "dir-00/file-0018.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-00/file-0019.bin": [
+      4096,
+      "59fcd66bd956ba973e28bc6ddecbb96101609b4ee7ab4cf035d11081d3a62e50"
+    ],
+    "dir-00/file-0020.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-00/file-0021.bin": [
+      4096,
+      "3a02cb4b2d24d0a0d53299128c9387eb49216140700f273cbc74de1907bfb7cb"
+    ],
+    "dir-00/file-0022.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-00/file-0023.bin": [
+      4096,
+      "fa8dc26b2c5398142fd717d8c608d086eaadd8c3bd76efbf7ac37a9e13c11c2f"
+    ],
+    "dir-00/file-0024.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-00/file-0025.bin": [
+      4096,
+      "b1709a77dcde7507bcd533065b0836a08c93292cf9e9d82ad3aa7bfb8981ac7b"
+    ],
+    "dir-00/file-0026.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-00/file-0027.bin": [
+      4096,
+      "23b9d28366e0c688dabad1ab0cdff43183e344d015315228912c3f9f7770d493"
+    ],
+    "dir-00/file-0028.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-00/file-0029.bin": [
+      4096,
+      "07767be140787f991583b235050f5b02ff8f27e2e35a1089ba2627c98f439174"
+    ],
+    "dir-00/file-0030.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-00/file-0031.bin": [
+      4096,
+      "3c7836e3cf51f3c904f37458b693a8e75d94c29375123553a0749e154a567681"
+    ],
+    "dir-01/file-0032.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-01/file-0033.bin": [
+      4096,
+      "ecaea3dacb6e0c413aac7fa7ed5fcae2b449bfa579aa7a8a0bc02a9e369ba444"
+    ],
+    "dir-01/file-0034.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-01/file-0035.bin": [
+      4096,
+      "02d514d17d9c5dc95b8339c25cc774cc93653406ce7304304511e971e09a62f4"
+    ],
+    "dir-01/file-0036.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-01/file-0037.bin": [
+      4096,
+      "086627020e250e43ce2f08bf34d43aae6cd19c98f6d1651db922b3d5586c2ae0"
+    ],
+    "dir-01/file-0038.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-01/file-0039.bin": [
+      4096,
+      "183c850cb8cf9bed176d24f3441d6d9324a4bf52237d63117d769fb0827e1643"
+    ],
+    "dir-01/file-0040.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-01/file-0041.bin": [
+      4096,
+      "14319b0a6801110351442266f5dab4c2e1690f92ccb658fb41e650fbcc9d1180"
+    ],
+    "dir-01/file-0042.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-01/file-0043.bin": [
+      4096,
+      "ae155d5a69ebb8062394c04564489309d3b117c27504ece5b0053d5885368e8e"
+    ],
+    "dir-01/file-0044.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-01/file-0045.bin": [
+      4096,
+      "4969bfe132b8a945650ba840f6c36f3e42996875bc733b9846634c7622467432"
+    ],
+    "dir-01/file-0046.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-01/file-0047.bin": [
+      4096,
+      "6b957fdecfe1ff866cc6acdb620e459460bb6de88bce96dae09b3c427668fb96"
+    ],
+    "dir-01/file-0048.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-01/file-0049.bin": [
+      4096,
+      "c229335a7de3ced2aeb2a8638f1549df2afa5463d515c3cd40b8bbcfc4c555e3"
+    ],
+    "dir-01/file-0050.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-01/file-0051.bin": [
+      4096,
+      "a658dc839b559ed64eb9514497364e2113a01a650b256fabd57c1c451e35c4d0"
+    ],
+    "dir-01/file-0052.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-01/file-0053.bin": [
+      4096,
+      "70c5f8867e1160a3bb8f05d85fcd118aadc2241768cdb7cc032ddc034160e1c9"
+    ],
+    "dir-01/file-0054.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-01/file-0055.bin": [
+      4096,
+      "6778b09b356ebb47a33aafcf25d53569399fca3736b731523aa6ae592a3bd751"
+    ],
+    "dir-01/file-0056.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-01/file-0057.bin": [
+      4096,
+      "b015177b485804da732a96f439bd4c703c93fb62c2a945339a9e2f02c8316ecd"
+    ],
+    "dir-01/file-0058.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-01/file-0059.bin": [
+      4096,
+      "c90e172a15fc178281bb071094a888bb756d01f468c5075ed2dd63f00c858812"
+    ],
+    "dir-01/file-0060.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-01/file-0061.bin": [
+      4096,
+      "a50f818fcef190bfe8e36fca477741ac98b5f4aa1ee245ef4d010952b0725879"
+    ],
+    "dir-01/file-0062.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-01/file-0063.bin": [
+      4096,
+      "f17050ee6f7319821730cf8bf99b4c40888b35456ebad8b800902b7ee40f313d"
+    ],
+    "dir-02/file-0064.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-02/file-0065.bin": [
+      4096,
+      "24bc50415153e728cb6b1eb1db95e7b4a2891f57594edb6daff93fb771d1ac52"
+    ],
+    "dir-02/file-0066.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-02/file-0067.bin": [
+      4096,
+      "e592e8836fcbaa7d76276bf19b69f2008ed2a3c7ca34c0f8f02ce4c8fe359594"
+    ],
+    "dir-02/file-0068.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-02/file-0069.bin": [
+      4096,
+      "467c701cacce5cee81131ae9002f1764c7545ebf9f3850c33011d7296c5a6e36"
+    ],
+    "dir-02/file-0070.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-02/file-0071.bin": [
+      4096,
+      "f15cd1171e89082e1d8581a4f63037be94844405af87fa010ef4e96b57e1e33d"
+    ],
+    "dir-02/file-0072.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-02/file-0073.bin": [
+      4096,
+      "8b2e99cbe1602ed514850f63dd71db235b7ffe7111adec355661de8703214eeb"
+    ],
+    "dir-02/file-0074.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-02/file-0075.bin": [
+      4096,
+      "1b66427cb44cd9b81911b1aacbcd811da252b14cb527f3ce36f765a0aae53e5b"
+    ],
+    "dir-02/file-0076.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-02/file-0077.bin": [
+      4096,
+      "9a628da022b90730edc0ad30e12aa6a38551bd9996074aa4f2558b7d69170cc8"
+    ],
+    "dir-02/file-0078.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-02/file-0079.bin": [
+      4096,
+      "f9139e26c480057e053d461d3ff4d82def7a7cd2031817b6fdf55dba1249c736"
+    ],
+    "dir-02/file-0080.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-02/file-0081.bin": [
+      4096,
+      "9929779773fde894470b3dc4884157d1aee650567052ea82b9a5dfb28b36b23e"
+    ],
+    "dir-02/file-0082.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-02/file-0083.bin": [
+      4096,
+      "f57c0aa06430c081a2097d0693d1bac08070ee6ccb3cf1a122333ec1d9d49dd9"
+    ],
+    "dir-02/file-0084.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-02/file-0085.bin": [
+      4096,
+      "457b9fed08295bb926fa0b8904c4acbc4dd7751467dc4a489615b8738b0f53a5"
+    ],
+    "dir-02/file-0086.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-02/file-0087.bin": [
+      4096,
+      "39c24ba969dee72a6613e66531072bd307d6b5cea912408abadf3ae3b3fc4693"
+    ],
+    "dir-02/file-0088.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-02/file-0089.bin": [
+      4096,
+      "b88cddf8914df1ab099bdf43f81a63452f00ad113d23a001091ab8c471bca24b"
+    ],
+    "dir-02/file-0090.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-02/file-0091.bin": [
+      4096,
+      "48331118c400256e20bb7d15344b9218222f162fc264ab8e4bac9519e21f8e2e"
+    ],
+    "dir-02/file-0092.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-02/file-0093.bin": [
+      4096,
+      "65044f68467abecb323654d066992926d5d459f8ce726b48bcad532807eba126"
+    ],
+    "dir-02/file-0094.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-02/file-0095.bin": [
+      4096,
+      "e6609c6b081bf4c325748be310a7d5c02c3cd27d91d1a06c45a5a72a2c2eb940"
+    ],
+    "dir-03/file-0096.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-03/file-0097.bin": [
+      4096,
+      "f979cbcb30193956eed7d44d425454d3fb7405c50ad994b57c38c8d46deee7d3"
+    ],
+    "dir-03/file-0098.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-03/file-0099.bin": [
+      4096,
+      "1a1dfa05a738c9d990a20071ae9d6592e9ba8f4fac7930a66859de33dc96594c"
+    ],
+    "dir-03/file-0100.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-03/file-0101.bin": [
+      4096,
+      "bc204f42d52e951c1273abd4127c312d040125310c4d361db6b38e7e5f807269"
+    ],
+    "dir-03/file-0102.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-03/file-0103.bin": [
+      4096,
+      "cb66dce9ef66e96073f654b64ed172da167f5b8144c2815fea3a130beea31706"
+    ],
+    "dir-03/file-0104.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-03/file-0105.bin": [
+      4096,
+      "d7d2480d3606157856da4089f2f7fcb570d6969750e0ed54956b7b852b2d82f9"
+    ],
+    "dir-03/file-0106.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-03/file-0107.bin": [
+      4096,
+      "86f70ed87faf1f09ccc318a3b5e42076f879f9a23ddacec27fddd639b31c1269"
+    ],
+    "dir-03/file-0108.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-03/file-0109.bin": [
+      4096,
+      "42889cdb7b36e84f9b792cae12c18b22179474d8acd06fb87cb83b4e45ac92a3"
+    ],
+    "dir-03/file-0110.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-03/file-0111.bin": [
+      4096,
+      "a20424c927b4f788f6bd22f05bb1404a3380b755651339cf90286ce5f53d77c7"
+    ],
+    "dir-03/file-0112.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-03/file-0113.bin": [
+      4096,
+      "2c7f60ceff4a38468d8bbae282edab4b8f5bdea1be00f497b778b29db50e9822"
+    ],
+    "dir-03/file-0114.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-03/file-0115.bin": [
+      4096,
+      "70f476d8f48fb5c15e2a3397a72f93a6f7348518e9abf10250a595ba6eb556df"
+    ],
+    "dir-03/file-0116.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-03/file-0117.bin": [
+      4096,
+      "6f83c08bcef1c459346ce1760e58c5f104bdb74c0c99e4e809b2f6851ea9c791"
+    ],
+    "dir-03/file-0118.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-03/file-0119.bin": [
+      4096,
+      "0ca6b1dcde14d1a0d422a314af4ff26ab5cd7e43fae3e5fdae89b3acfd41ca07"
+    ],
+    "dir-03/file-0120.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-03/file-0121.bin": [
+      4096,
+      "415e1367d5b5a2c4049443ce3bdba28202213a2077d198838e75f5353f8b9bcf"
+    ],
+    "dir-03/file-0122.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-03/file-0123.bin": [
+      4096,
+      "95a4f3c3072e5deadb17615eadd8500690070042bb08cd81160a34bf81fabd7e"
+    ],
+    "dir-03/file-0124.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-03/file-0125.bin": [
+      4096,
+      "3caaa3c0305ed313bbf1c6269522a49f661f823f7d2cb275af278b07cad4246e"
+    ],
+    "dir-03/file-0126.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-03/file-0127.bin": [
+      4096,
+      "30c33a3bc183c680ac641c212e6cd25d863e70bbbb77b2cbc7c7524d00c95e77"
+    ],
+    "dir-04/file-0128.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-04/file-0129.bin": [
+      4096,
+      "a54dadf2ecddc7ee93c66f7c38c8504ac94277063b0120c5395626973c2531c2"
+    ],
+    "dir-04/file-0130.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-04/file-0131.bin": [
+      4096,
+      "37a000bc43fc799c5c99468d5866fa162470279a541a0ec57c6003348389e62d"
+    ],
+    "dir-04/file-0132.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-04/file-0133.bin": [
+      4096,
+      "24ffae2484608e9c17c482392bd615af7ae8556c45241ad35e57e44c05ed2b8e"
+    ],
+    "dir-04/file-0134.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-04/file-0135.bin": [
+      4096,
+      "96aa78428be2cfc8792be311362d8513eeee5cda879c96463e6a70b3d69a7222"
+    ],
+    "dir-04/file-0136.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-04/file-0137.bin": [
+      4096,
+      "ca066993f739cdecc77440c93f14bebd3f4d999ce684a1f15fd44e2593f2ec14"
+    ],
+    "dir-04/file-0138.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-04/file-0139.bin": [
+      4096,
+      "ebb24fe0d384a2230779e72ab613d93adf313f578b8eda2ba9e8a9c9d7653b72"
+    ],
+    "dir-04/file-0140.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-04/file-0141.bin": [
+      4096,
+      "eca48b7b8b9fe26050dfdbb3db5cd6f12a927d73e31b729b0766a08fb510e0fe"
+    ],
+    "dir-04/file-0142.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-04/file-0143.bin": [
+      4096,
+      "91edac8f0a409b4743f59e03c7de23f8a37d1d289cf97bfacbd8e51d05af0128"
+    ],
+    "dir-04/file-0144.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-04/file-0145.bin": [
+      4096,
+      "35e7bce0595091085f4d44a7720cb75704fcc639bc9bb05ebe649cad39e55a71"
+    ],
+    "dir-04/file-0146.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-04/file-0147.bin": [
+      4096,
+      "b13e2da6f18a9d93017651a9584564565967a97469a43dd777986540aac2e090"
+    ],
+    "dir-04/file-0148.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-04/file-0149.bin": [
+      4096,
+      "c9eb157d18713e94b94739aaa8045997addd15a30e043250500567b653b561ea"
+    ],
+    "dir-04/file-0150.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-04/file-0151.bin": [
+      4096,
+      "e884e81039a6e92423de1e2f4a423c81eb505d0d1efbc64555228781715c7194"
+    ],
+    "dir-04/file-0152.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-04/file-0153.bin": [
+      4096,
+      "f8821ac542c1cb2947494609b4decf22f078d9a68a45f7e5e7bc088aae25a7c8"
+    ],
+    "dir-04/file-0154.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-04/file-0155.bin": [
+      4096,
+      "c8bf1c8459dda1f90d69854eeb69ae8e824948d3bffaec6ec9646272c9e90671"
+    ],
+    "dir-04/file-0156.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-04/file-0157.bin": [
+      4096,
+      "c3874afce2d38efe2dd64432328976eb2205b61f9f8a60f6bd9e54e1a7373892"
+    ],
+    "dir-04/file-0158.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-04/file-0159.bin": [
+      4096,
+      "cc527ba6536fed5aaca64ade63a7f0a4218e1bdc0905580c30b14610f23b6601"
+    ],
+    "dir-05/file-0160.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-05/file-0161.bin": [
+      4096,
+      "aa58f556890951cc0fb48300306bf485d94d2c0497c2bc17b4007d3a0b0c60fe"
+    ],
+    "dir-05/file-0162.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-05/file-0163.bin": [
+      4096,
+      "972532f813b0b001c60c8929a45e90530a0eaf0b34b0301e521fb1936c254b26"
+    ],
+    "dir-05/file-0164.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-05/file-0165.bin": [
+      4096,
+      "c7b12e44bef1dab716aec413e3bf0777e4150c52fafea7cb2175e6e582fd110b"
+    ],
+    "dir-05/file-0166.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-05/file-0167.bin": [
+      4096,
+      "861c57c232f1ee8e2582e7dfbb7a1a6a980cc1b5f53fcd65a554c853c5fcb4a7"
+    ],
+    "dir-05/file-0168.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-05/file-0169.bin": [
+      4096,
+      "3820d46d60707c11ddb19918589ccb5ca88a9355180109a3f1a616c7182b5959"
+    ],
+    "dir-05/file-0170.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-05/file-0171.bin": [
+      4096,
+      "6dd9a371c4fe8ca5ffd51076a6c6d152117495c978be30bd99a55b264f35d002"
+    ],
+    "dir-05/file-0172.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-05/file-0173.bin": [
+      4096,
+      "862e099fc8dbd0d880a5ccf2dc9b9e13418d6d997202d91434303f502b7060b0"
+    ],
+    "dir-05/file-0174.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-05/file-0175.bin": [
+      4096,
+      "d90be1462ea42ece21bdb704de23f89b6d50c4f410ba31b913abc45ded35621c"
+    ],
+    "dir-05/file-0176.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-05/file-0177.bin": [
+      4096,
+      "c1583b98128a315337ed0a255325e1251993ec21165d16296a39c2c01237ffde"
+    ],
+    "dir-05/file-0178.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-05/file-0179.bin": [
+      4096,
+      "ac86f97a8ee1d01d8b966cd4aaadbbe7379e75935837a7ea2ce031e85f8ed3ea"
+    ],
+    "dir-05/file-0180.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-05/file-0181.bin": [
+      4096,
+      "febb94621ec9f024f069387dc6500380152231ce73272c63ede9d37e4ff3bce3"
+    ],
+    "dir-05/file-0182.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-05/file-0183.bin": [
+      4096,
+      "0df9e9254e0aa2419174ba346c5962eb4a0c456fbf823710ded7f84855242675"
+    ],
+    "dir-05/file-0184.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-05/file-0185.bin": [
+      4096,
+      "fbdd00ad029f2ffeb8063e8f6830ffff6259bc4cf26c95b0fa2490e85b09b2e1"
+    ],
+    "dir-05/file-0186.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-05/file-0187.bin": [
+      4096,
+      "5371ee4dd099ccf3f41f8e0cc60e6f6cabbbf194ba8b589039c1badd1b7865fc"
+    ],
+    "dir-05/file-0188.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-05/file-0189.bin": [
+      4096,
+      "fd5972d60cafd0c4da44e26cb465277e56691e99b8fddeca16474c1d35db66f3"
+    ],
+    "dir-05/file-0190.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-05/file-0191.bin": [
+      4096,
+      "0918353d09aeb581436e72fbe3ad13a33cebc5ad1c293f2e2bb284b7f9f610ed"
+    ],
+    "dir-06/file-0192.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-06/file-0193.bin": [
+      4096,
+      "c088806e80b90cd97c1459a403bd22a36eda27f7bfe4266dea3a95a6d9ad2707"
+    ],
+    "dir-06/file-0194.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-06/file-0195.bin": [
+      4096,
+      "660e8817bbbba925d228b66489db97b3f4790794cc3dce8bed1c761f5f28319d"
+    ],
+    "dir-06/file-0196.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-06/file-0197.bin": [
+      4096,
+      "5a44195cdbb5e8ddbe1b88c0177849c6f4dfa4c77a6391e2c44fc11e6bae3a75"
+    ],
+    "dir-06/file-0198.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-06/file-0199.bin": [
+      4096,
+      "c51141901ce336aaff803e8912b385bac6f9423dae98028cd7a6c776e761a3d5"
+    ],
+    "dir-06/file-0200.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-06/file-0201.bin": [
+      4096,
+      "aea8fa4fb6cdabda853308155ffdd11eaccea71dba2350f2e538a56d8dc8e0f7"
+    ],
+    "dir-06/file-0202.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-06/file-0203.bin": [
+      4096,
+      "a3e47556b4fb7aa6f60bd2360166f70e1d1def892ef2dbdf67af6c1c465ca7db"
+    ],
+    "dir-06/file-0204.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-06/file-0205.bin": [
+      4096,
+      "8d4a3c559c6b93fb0957e5c4c96ed91f73e4f30628857c94f37f7a039fbb039b"
+    ],
+    "dir-06/file-0206.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-06/file-0207.bin": [
+      4096,
+      "bc9e0b06bd5d70b5193971288f663491a1895f83ecc2efc26b980f5b7c6c1e72"
+    ],
+    "dir-06/file-0208.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-06/file-0209.bin": [
+      4096,
+      "d143ed142868b3cc25019a2ef314dd04d1213cf77fd017b9c510ecd03509250b"
+    ],
+    "dir-06/file-0210.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-06/file-0211.bin": [
+      4096,
+      "8a98e9509808092b4388f786e5fb55ae61d4196f89dfc2ee0fe7ab0881555d85"
+    ],
+    "dir-06/file-0212.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-06/file-0213.bin": [
+      4096,
+      "7f1077c43c5b66a8b5d5296297bf8fadeec7a622dc8298dd3ef38f657b874e92"
+    ],
+    "dir-06/file-0214.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-06/file-0215.bin": [
+      4096,
+      "1c2f50835aa9d409d3ae3dcaa2d3ba341073359401e710b744cbc18b6e08a809"
+    ],
+    "dir-06/file-0216.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-06/file-0217.bin": [
+      4096,
+      "394305105c98b8490f9e47945ae00f57128c0a529339a3875af344f42a503997"
+    ],
+    "dir-06/file-0218.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-06/file-0219.bin": [
+      4096,
+      "cb699685dc59f0e581404ff302455d79c8fcbc0c7d660fce9b761c3564cef075"
+    ],
+    "dir-06/file-0220.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-06/file-0221.bin": [
+      4096,
+      "2499ad9f2f565b2ddaba0b9df604f22ad972ee7b49a2232eb95f4bdab9d69c64"
+    ],
+    "dir-06/file-0222.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-06/file-0223.bin": [
+      4096,
+      "761970216834afd5c9fb8edf09ad14ea90ae94e8425ae40baeb23474471c0b12"
+    ],
+    "dir-07/file-0224.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-07/file-0225.bin": [
+      4096,
+      "606abab2316c17736a6e2ea30d1a0ff7306b7abb4efc0ab76fc6ae25ca60cae5"
+    ],
+    "dir-07/file-0226.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-07/file-0227.bin": [
+      4096,
+      "1e7c5bd0ff419809fe2b1775e8c682876fad9da5949b7861f94f6a7ff5e4975b"
+    ],
+    "dir-07/file-0228.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-07/file-0229.bin": [
+      4096,
+      "bdb14c9e11b5b1107937f35454888f3940ad069ff97b8a62d4cdd43e9219f114"
+    ],
+    "dir-07/file-0230.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-07/file-0231.bin": [
+      4096,
+      "5dd769c401ddff41c3b943606f5a934c2c8b3f38546294d11bc01af90366ad19"
+    ],
+    "dir-07/file-0232.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-07/file-0233.bin": [
+      4096,
+      "f1109bfaa8589b84c1802f4eb761f0047fc63bfce5460a3b49ce245319b241d4"
+    ],
+    "dir-07/file-0234.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-07/file-0235.bin": [
+      4096,
+      "64821488eb630bcca817a5bd2d7c8bbe35088a9a7dad1aacf23ae3dab2413b12"
+    ],
+    "dir-07/file-0236.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-07/file-0237.bin": [
+      4096,
+      "4b72dbf182183a3b624850af9870190c26a6491b3ca4f47d16b58e52f881c164"
+    ],
+    "dir-07/file-0238.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-07/file-0239.bin": [
+      4096,
+      "18c29cdaeedb218c8ae24eb342335993eebf2effe574d49b6e70b1b0273c6d07"
+    ],
+    "dir-07/file-0240.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-07/file-0241.bin": [
+      4096,
+      "7d9cb278f3a40e87351b06eafed00056297751c2dade4e87f07a76aa2823e5e6"
+    ],
+    "dir-07/file-0242.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-07/file-0243.bin": [
+      4096,
+      "074cf4686d51964cc1e116e6f3b90a18493caf492fc42f7cd2eca50b2ba2de83"
+    ],
+    "dir-07/file-0244.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-07/file-0245.bin": [
+      4096,
+      "6b089bacd2d00520b9606497ea7c27b962420e7b2b618a0da9c1919ee826b405"
+    ],
+    "dir-07/file-0246.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-07/file-0247.bin": [
+      4096,
+      "e5f75f400421f3011eff53808b182b1f7e494fc93aba3d49c81f8b8889e8c37d"
+    ],
+    "dir-07/file-0248.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-07/file-0249.bin": [
+      4096,
+      "f18b15c02e369f6c54c3e31628510c136a48799ef7d24b4170960ca3387baa43"
+    ],
+    "dir-07/file-0250.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-07/file-0251.bin": [
+      4096,
+      "b1585d102d8b3d6ecab8c136e9818f9c29c5f6afcb1b8ebcbf20f2aba3964465"
+    ],
+    "dir-07/file-0252.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-07/file-0253.bin": [
+      4096,
+      "333c4c16f34cdf106b5cf944447f8a5e990437cfa962552a7ca7338ca3c32261"
+    ],
+    "dir-07/file-0254.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-07/file-0255.bin": [
+      4096,
+      "61707a594c7497170b13861eae2f10510b2af0be9aa68b2cef7d2d837d0eeadc"
+    ],
+    "dir-08/file-0256.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-08/file-0257.bin": [
+      4096,
+      "badf61ce4d1c5c743d98b8e1b6b149d4a71d3c80b86cfade027efc13e9e3ff57"
+    ],
+    "dir-08/file-0258.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-08/file-0259.bin": [
+      4096,
+      "48c04b1870bc0a1aacaff2ac170743780dbd090bd3a8119ec50b24e3a9e13b24"
+    ],
+    "dir-08/file-0260.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-08/file-0261.bin": [
+      4096,
+      "127691f1560ac0e475f456ce7a8670f9ae0b20f073062a4f547c8df511aca29f"
+    ],
+    "dir-08/file-0262.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-08/file-0263.bin": [
+      4096,
+      "a241f8945fe1789165e5965a0b5ce87ae7a9077725142d14e3ee95f96090c00d"
+    ],
+    "dir-08/file-0264.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-08/file-0265.bin": [
+      4096,
+      "3f40f369f7ae2e890662d128c631491e63a5a47df030895fbbc82acd247cd3f5"
+    ],
+    "dir-08/file-0266.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-08/file-0267.bin": [
+      4096,
+      "0c18bb566a10fee22ed1b5a8cd7681ff8cb2e386f1edb7864d5ec6f56f693847"
+    ],
+    "dir-08/file-0268.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-08/file-0269.bin": [
+      4096,
+      "625786dffc9feb859305d0a62b849c96ce9b7107413c720dbf9510065a10833a"
+    ],
+    "dir-08/file-0270.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-08/file-0271.bin": [
+      4096,
+      "a9c3882384373be998718aaee6634ec7fdb6fd459954d52c044ffb66b7667f3c"
+    ],
+    "dir-08/file-0272.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-08/file-0273.bin": [
+      4096,
+      "f826f5f72abfd46e2aefecdf7c93a270033b03696e2f56efd1a0d7e44bc8e90f"
+    ],
+    "dir-08/file-0274.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-08/file-0275.bin": [
+      4096,
+      "ab85b86a5ccaebc58021c4dd11bf673ac4d0f877501208cb8aa04a99d3497882"
+    ],
+    "dir-08/file-0276.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-08/file-0277.bin": [
+      4096,
+      "66187a13fc796c88af609f609722111664ddab35ff78b61b274ad3cfc1853418"
+    ],
+    "dir-08/file-0278.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-08/file-0279.bin": [
+      4096,
+      "5bed3dc244d6a8568f9a59c58a007d001d1ddca049c415d5cd80439766a84cad"
+    ],
+    "dir-08/file-0280.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-08/file-0281.bin": [
+      4096,
+      "509df975be6eb8c3cc7266d19996083090a44531cf6606db48ff6f702ece154a"
+    ],
+    "dir-08/file-0282.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-08/file-0283.bin": [
+      4096,
+      "72f644f9e84624509d1c65e9dcc4f086a65db65e344e846033f27f024c5da830"
+    ],
+    "dir-08/file-0284.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-08/file-0285.bin": [
+      4096,
+      "b32f5a535d8141749457fc90f72f5d07a965761c2d1399e471d98f2c29dd752e"
+    ],
+    "dir-08/file-0286.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-08/file-0287.bin": [
+      4096,
+      "ee7b2328d7ce4643884e686d32be7a38e55e81e0a741d9a528f04cbbee292dcf"
+    ],
+    "dir-09/file-0288.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-09/file-0289.bin": [
+      4096,
+      "7cf02b7ba4d002e2c5d21efe80c5dc30ad9e80d80bc567ea9b5a7a7660570a79"
+    ],
+    "dir-09/file-0290.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-09/file-0291.bin": [
+      4096,
+      "ee2c896773f23afc693118a1c460ae659dd32447dc9f1ed8e0b59766655520e2"
+    ],
+    "dir-09/file-0292.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-09/file-0293.bin": [
+      4096,
+      "f0ddbef95b049eb693cd34aa2e4c642cda45f9a36459c15d55c5b3e1f291e050"
+    ],
+    "dir-09/file-0294.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-09/file-0295.bin": [
+      4096,
+      "ad1937be44d84a2366c765926098b56bded21130f25e2775a0b339c9eb5ebfbf"
+    ],
+    "dir-09/file-0296.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-09/file-0297.bin": [
+      4096,
+      "6a0aac87101e17834634d4bc7b2994c0320454b4147b708b272d90497aae9ab5"
+    ],
+    "dir-09/file-0298.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-09/file-0299.bin": [
+      4096,
+      "5899836240e6f8b704fd667e5931fdd7a98b47daaae98a697931942e6585145c"
+    ],
+    "dir-09/file-0300.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-09/file-0301.bin": [
+      4096,
+      "01abe9b5bb55f5bb05f877a2ad6b2ae42c602123c0064e325949dda705d2f557"
+    ],
+    "dir-09/file-0302.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-09/file-0303.bin": [
+      4096,
+      "5a8cd1d97f8b8e2e1e105e3cbbdaa962512269d845fbd579eaf5b3e4d975f7b8"
+    ],
+    "dir-09/file-0304.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-09/file-0305.bin": [
+      4096,
+      "9388d9d309dffb7779689d4b0cccef4ce38207fe647cfcccabd9fcda774e9935"
+    ],
+    "dir-09/file-0306.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-09/file-0307.bin": [
+      4096,
+      "f11e07bc1b4657f7690a747c900738c5976dd2c382f089bb433d990b0515028e"
+    ],
+    "dir-09/file-0308.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-09/file-0309.bin": [
+      4096,
+      "f01a9339d06ebe4022f9a3d0f933cfeb61629a6dd79b64ccb848a7f9d7d3f2bf"
+    ],
+    "dir-09/file-0310.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-09/file-0311.bin": [
+      4096,
+      "c592e3afe15dd454fc2a12c0db8b538433e6a85421fbcd95bcedcc399f757873"
+    ],
+    "dir-09/file-0312.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-09/file-0313.bin": [
+      4096,
+      "950a4e4863755ba6cc2f75e4655ad864de544fb6b8526c053b6a58d0b27322ed"
+    ],
+    "dir-09/file-0314.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-09/file-0315.bin": [
+      4096,
+      "1f4050d71079e16d994ab20150df35e981253bdd84323db961b5b8b2a635a7cf"
+    ],
+    "dir-09/file-0316.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-09/file-0317.bin": [
+      4096,
+      "152c33e1f609c27c13b59ebf5fd53cdf8d8bdfa0fdbb2d3a0167547bd1face47"
+    ],
+    "dir-09/file-0318.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-09/file-0319.bin": [
+      4096,
+      "aa1d2c6a928955c7dbda57b961688e327606569c63cf3b41996eac79f9596788"
+    ],
+    "dir-10/file-0320.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-10/file-0321.bin": [
+      4096,
+      "9366e8fde1997a2e8b48cf7636849d0e436c56c85c8c13dc11403479526c0135"
+    ],
+    "dir-10/file-0322.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-10/file-0323.bin": [
+      4096,
+      "9bdff6da23be15a7b6d3ae4367b7860def903f351c59bfe01cbd05bbbd40d2ab"
+    ],
+    "dir-10/file-0324.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-10/file-0325.bin": [
+      4096,
+      "acd13280ff90eedbfe577e2dfdf82e70253f6eeb636a843e2d8636e6910936c4"
+    ],
+    "dir-10/file-0326.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-10/file-0327.bin": [
+      4096,
+      "8f04795e3b80cba2eed2970d21d971efabac7fc7937a07e4d03345f97827dfc8"
+    ],
+    "dir-10/file-0328.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-10/file-0329.bin": [
+      4096,
+      "b3dcedb45d4744f58c2ced1dde339ac0ec5d5b8cb0107431959a2bb57db4e5b3"
+    ],
+    "dir-10/file-0330.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-10/file-0331.bin": [
+      4096,
+      "975397000085e89d2098177ff3bc548554975bd87f303899423121fe26a65380"
+    ],
+    "dir-10/file-0332.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-10/file-0333.bin": [
+      4096,
+      "4edce979529269bb8bd534e95e9ed957956c237cd00974633d97d75bab397f9f"
+    ],
+    "dir-10/file-0334.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-10/file-0335.bin": [
+      4096,
+      "16c362e7e81b4b73532935c04f6e3a465cf616d1c9f19095c5012969453e4f65"
+    ],
+    "dir-10/file-0336.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-10/file-0337.bin": [
+      4096,
+      "c5f98f7da9055d83b4fb5fddbb22f3e6102aca06f1c9b9dbf5ccfde97a84b0f1"
+    ],
+    "dir-10/file-0338.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-10/file-0339.bin": [
+      4096,
+      "635910f12d3e07c60ddb8793c9c0e4b623b73a7bf88e14136727ce913cd884a5"
+    ],
+    "dir-10/file-0340.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-10/file-0341.bin": [
+      4096,
+      "6f48478ed1954e95f9a904dfe0e9c0804f4c9764f52b133e4af3a57335629156"
+    ],
+    "dir-10/file-0342.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-10/file-0343.bin": [
+      4096,
+      "f772f1d2d972ce547d3aee04a8c028e8b94021c305d19de779fc4f086c323243"
+    ],
+    "dir-10/file-0344.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-10/file-0345.bin": [
+      4096,
+      "269dc845f9bd386c152af0e91c87b9f25c0d7fb7f2a914e850da9ab54feced50"
+    ],
+    "dir-10/file-0346.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-10/file-0347.bin": [
+      4096,
+      "d032c4963aac148e9889dc39153c474ef4117690c5dcd5d42d0b05fa19e6195a"
+    ],
+    "dir-10/file-0348.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-10/file-0349.bin": [
+      4096,
+      "90d5ba5d3ed9dfe4cd1100cfd55fc1c71780c57d03890af2b5237896f9d6457b"
+    ],
+    "dir-10/file-0350.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-10/file-0351.bin": [
+      4096,
+      "b19e148301393e16ba79487039da9b090e8c8efbd26ee1931e430b532aab61c5"
+    ],
+    "dir-11/file-0352.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-11/file-0353.bin": [
+      4096,
+      "01768a90ca5a6a6a1e369f0a6db93eaf789bcadf6040a536bee28b0ee09b907c"
+    ],
+    "dir-11/file-0354.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-11/file-0355.bin": [
+      4096,
+      "8b7f4eba477b28d62f2bf6feed01ad2482264c47785c8233d69f5f549b851924"
+    ],
+    "dir-11/file-0356.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-11/file-0357.bin": [
+      4096,
+      "e057b5cd020008b28e51886fb5c2c3372b86594a6de4dad250deb9ecfc9316cb"
+    ],
+    "dir-11/file-0358.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-11/file-0359.bin": [
+      4096,
+      "5649df2ea23b691e15bdde9ff4616f236539a792075a56956c8c76ca4ec321f5"
+    ],
+    "dir-11/file-0360.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-11/file-0361.bin": [
+      4096,
+      "3ead984b113fd787e0d1b33f75f3cfb7984daa9bd5c7d52f282eb080f5876080"
+    ],
+    "dir-11/file-0362.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-11/file-0363.bin": [
+      4096,
+      "255ead555b731ec592623d6569ab855d873501bdcd2783c4eefe2b6e65458131"
+    ],
+    "dir-11/file-0364.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-11/file-0365.bin": [
+      4096,
+      "d6abc01151553ab82787ee951ab0077ca99c0e4b2a382fa547f0242015ca0bf8"
+    ],
+    "dir-11/file-0366.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-11/file-0367.bin": [
+      4096,
+      "25b013a9f49b62f20f2aecee6b797b30c569368371afb83b87f9928e18e702bb"
+    ],
+    "dir-11/file-0368.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-11/file-0369.bin": [
+      4096,
+      "4b1de06dc1fc546f38e127e8b7f0692c6521a42e6e7c90dabcb745f4ca797a1e"
+    ],
+    "dir-11/file-0370.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-11/file-0371.bin": [
+      4096,
+      "d567181c4afb9d6741083c5f7aae4d2a27135cee304e2570df4b58e630a15e55"
+    ],
+    "dir-11/file-0372.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-11/file-0373.bin": [
+      4096,
+      "9c6d8b76dec804127207914d500e774448b53b85ecf8119c95e0a73b03d90bb9"
+    ],
+    "dir-11/file-0374.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-11/file-0375.bin": [
+      4096,
+      "8d88c8fd267e05f6c8469caa99ec02200edfda6ac9dd8b1d595624c9c53c5697"
+    ],
+    "dir-11/file-0376.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-11/file-0377.bin": [
+      4096,
+      "7772be75f916b765704992a736d1009e6a3bf6ab249f1ea71edaea3374cf5780"
+    ],
+    "dir-11/file-0378.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-11/file-0379.bin": [
+      4096,
+      "d929a97a483be1c18b63bff0b1d7acc51e202305abd1bb252ea89e3069525c19"
+    ],
+    "dir-11/file-0380.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-11/file-0381.bin": [
+      4096,
+      "0c7f78ce669b1c4242e6c79d32abf39df00061fb3db25dad02e5165d2a3fa4a9"
+    ],
+    "dir-11/file-0382.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-11/file-0383.bin": [
+      4096,
+      "10ecca5dc8d2786d44f6969e404f5b84e8168fe197a8744fa3d2dd461398803f"
+    ],
+    "dir-12/file-0384.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-12/file-0385.bin": [
+      4096,
+      "c7d6a40735a8213e2b5aaaa64190f68f84257a8754d5bfe0c69fe711b72c0fe0"
+    ],
+    "dir-12/file-0386.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-12/file-0387.bin": [
+      4096,
+      "e499511244f563f4a5f5adfbfec618594f04e72bdbb5909be46a333e68406e4c"
+    ],
+    "dir-12/file-0388.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-12/file-0389.bin": [
+      4096,
+      "c83596eb5729086adb002ba8a1d2ce310c4aff7526b10d9a9354c72813c8f955"
+    ],
+    "dir-12/file-0390.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-12/file-0391.bin": [
+      4096,
+      "f6cf25b816ccb7a455849f1e11c1a09ed483a3142ce15996f83d6a67b2f4fe9b"
+    ],
+    "dir-12/file-0392.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-12/file-0393.bin": [
+      4096,
+      "713ba72c911f1e6086e8c105068fa726d3d469e1cda1c4332dc18391531faaed"
+    ],
+    "dir-12/file-0394.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-12/file-0395.bin": [
+      4096,
+      "f9d3ff2230df2bd708ebc8c9048e196543ec2f058dbeefb56068c658a7d71392"
+    ],
+    "dir-12/file-0396.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-12/file-0397.bin": [
+      4096,
+      "c4b88154e611fb906392d73830f85542d95b3a8f35cb3d4c787193bf38195d06"
+    ],
+    "dir-12/file-0398.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-12/file-0399.bin": [
+      4096,
+      "6cbea4f9cc328720ad9a93b1c87fff93e511f852570d332663e3c5952dc84110"
+    ],
+    "dir-12/file-0400.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-12/file-0401.bin": [
+      4096,
+      "12d9e0d2fda6803fd70617036318634e34f1b5b67e1152f7d425625ae1565888"
+    ],
+    "dir-12/file-0402.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-12/file-0403.bin": [
+      4096,
+      "c90342f93a2b3e5599c3babea17d1b3f7b3dc4bbd6c51dc0e8cd7ade7431ea92"
+    ],
+    "dir-12/file-0404.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-12/file-0405.bin": [
+      4096,
+      "6caaa417389bf75156077937242b9deaddc3f0c20430dea328cc158d3c554f1b"
+    ],
+    "dir-12/file-0406.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-12/file-0407.bin": [
+      4096,
+      "87564d9b99457988ad1db1e74ddefd69b29c3a5a9f1b1f0a625894a14d4ca0db"
+    ],
+    "dir-12/file-0408.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-12/file-0409.bin": [
+      4096,
+      "e881939558d3aea6ae07d7ea3be5479a41e6084dd1ddd39d665c3027092ad2a0"
+    ],
+    "dir-12/file-0410.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-12/file-0411.bin": [
+      4096,
+      "cab2a4126ba1a1c7eac7635d3686e071a66f75a63d2f5d3e8ceaf523d56de533"
+    ],
+    "dir-12/file-0412.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-12/file-0413.bin": [
+      4096,
+      "e95a5b12e6d22cdf01474cbc26d0ba992f87211bf7721a5f4077f53bb5ce92e7"
+    ],
+    "dir-12/file-0414.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-12/file-0415.bin": [
+      4096,
+      "1728bc4a050e180d587b667589902ad77f669056fbdca2a17246e9672f926f02"
+    ],
+    "dir-13/file-0416.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-13/file-0417.bin": [
+      4096,
+      "62800032fed1be7f6ec7c3736f11b198c5345b03f36babd459f20bb88113c769"
+    ],
+    "dir-13/file-0418.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-13/file-0419.bin": [
+      4096,
+      "75619c37b20667f6c0de2589759430e4c67dce88cbed0e35615eb95e7da89ccd"
+    ],
+    "dir-13/file-0420.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-13/file-0421.bin": [
+      4096,
+      "445267c8dc461a8267af96d38c3c6c1eeae28ce40bc81c5decb9b0c18f46f808"
+    ],
+    "dir-13/file-0422.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-13/file-0423.bin": [
+      4096,
+      "d4a7b57ea9a745ee9b0ea1a0bf341c8a5182bf18869be3a6176450660a8f50de"
+    ],
+    "dir-13/file-0424.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-13/file-0425.bin": [
+      4096,
+      "2ddd7f99bb24c6725de07e9be9c2431908aaf30e0e98381b846df02d60ab0f49"
+    ],
+    "dir-13/file-0426.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-13/file-0427.bin": [
+      4096,
+      "458110ab803f2807a9b7f436f8bd3236103615e6fba6aaea9587025442b72e16"
+    ],
+    "dir-13/file-0428.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-13/file-0429.bin": [
+      4096,
+      "0277587c390559fd92a91ca498c74d4a9a79e14215e1cabb4cbe04e1ca960ecf"
+    ],
+    "dir-13/file-0430.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-13/file-0431.bin": [
+      4096,
+      "9c53e267cde14837db79b1414f247dcee5de0e905a8cb750c628c0a0150174b9"
+    ],
+    "dir-13/file-0432.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-13/file-0433.bin": [
+      4096,
+      "e40b7c57a29b079f6faa7f0a70bfec327064c2ad7203d2e458a8c2d27d269e86"
+    ],
+    "dir-13/file-0434.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-13/file-0435.bin": [
+      4096,
+      "0e3631a9d3b5091c6e370c92efa07cc523cdfeade9587c565d54df156c2708b1"
+    ],
+    "dir-13/file-0436.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-13/file-0437.bin": [
+      4096,
+      "f6706f8f283051c610db844db60f5e214ceb844bb2849c67452123bd0aca8dd6"
+    ],
+    "dir-13/file-0438.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-13/file-0439.bin": [
+      4096,
+      "19a1ac4caa77461fde0a06c25fdd0b497cbc5838f2f49455b0212fad7b408451"
+    ],
+    "dir-13/file-0440.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-13/file-0441.bin": [
+      4096,
+      "2ed43d9089c281feb4740f4f258b3f30a12f40f2c5b1d011c597b2eea420a442"
+    ],
+    "dir-13/file-0442.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-13/file-0443.bin": [
+      4096,
+      "05bd4caf8fe994b30b7c5279f1a84224ab0d479caf208f353ef9981de02a833d"
+    ],
+    "dir-13/file-0444.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-13/file-0445.bin": [
+      4096,
+      "3774102c342c39bf900501d7685eae34e0147b6b14fa11ed25776a4825f43c7f"
+    ],
+    "dir-13/file-0446.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-13/file-0447.bin": [
+      4096,
+      "d2530d906949e7f370c454b911826d22f6d39d899fcd3fbd5a8779266ea84ebd"
+    ],
+    "dir-14/file-0448.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-14/file-0449.bin": [
+      4096,
+      "d3dcabb2f275c8ab651eca6a9206a579f1e075eae450441fb6337aa06c68df52"
+    ],
+    "dir-14/file-0450.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-14/file-0451.bin": [
+      4096,
+      "32c92f1f99784670a3f72ea64149ffeaf49adc89b6038f75405d9ff2872566fc"
+    ],
+    "dir-14/file-0452.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-14/file-0453.bin": [
+      4096,
+      "075b6ec468438d9b9f1ad7707b6161efaf4a38431b6e313feeaa5d08de794633"
+    ],
+    "dir-14/file-0454.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-14/file-0455.bin": [
+      4096,
+      "cc6256945b7993cd2266d918b0922fda9ff11597e18df1a17c0114e2863d1263"
+    ],
+    "dir-14/file-0456.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-14/file-0457.bin": [
+      4096,
+      "7edefd7332b350f49a66af81d67ff213ee821b5928924632c9e9a4cfd8cc51b2"
+    ],
+    "dir-14/file-0458.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-14/file-0459.bin": [
+      4096,
+      "ac0da1b67f819b4d643ffeb88152221cb1cdffc94deaf98c452a3d51f31fbe5b"
+    ],
+    "dir-14/file-0460.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-14/file-0461.bin": [
+      4096,
+      "60bb4964f3687c5c985794460fc25495574cd982f83a60b44aac145932fe706a"
+    ],
+    "dir-14/file-0462.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-14/file-0463.bin": [
+      4096,
+      "fbbc05460712a2c38c46b81a3d876c409dfe5e972e544041ff197e4d21f11364"
+    ],
+    "dir-14/file-0464.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-14/file-0465.bin": [
+      4096,
+      "d67cdecdbbe8840cacc0dc5bf49bc882fd42b021ebf52fccd5fcc44fafd41b07"
+    ],
+    "dir-14/file-0466.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-14/file-0467.bin": [
+      4096,
+      "7bfb0f945efe754150e5048edd1139653fa8ea9e3ba34504fcbad747a6e3fb13"
+    ],
+    "dir-14/file-0468.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-14/file-0469.bin": [
+      4096,
+      "b69dac380d7f136dc40d57a448e7f52a2dd4d0a338d81c7b59c0a29626b3ed6e"
+    ],
+    "dir-14/file-0470.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-14/file-0471.bin": [
+      4096,
+      "a921416c497e6b26c5777353e14c140a96c28d98235a0799a1847569fa689df8"
+    ],
+    "dir-14/file-0472.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-14/file-0473.bin": [
+      4096,
+      "115251264e6d68ab132a326cb358a8c9c00cd362de252f79ef14f63d2bb799ed"
+    ],
+    "dir-14/file-0474.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-14/file-0475.bin": [
+      4096,
+      "b401004c015c2243a854b0c33ffb2234092f7d5c98ae27138352e9000bf82c25"
+    ],
+    "dir-14/file-0476.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-14/file-0477.bin": [
+      4096,
+      "4fe80e6c525f558b4db4710f49bc4547d2a5f07590a15a65e84386e1553568f7"
+    ],
+    "dir-14/file-0478.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-14/file-0479.bin": [
+      4096,
+      "20a180661b597bd9c0fdc484bf05fed73c9a4eac56d4b1b9ef295055fc4aaecc"
+    ],
+    "dir-15/file-0480.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-15/file-0481.bin": [
+      4096,
+      "8094548f3fd21fb70eec09f45219d462c5f189a02d4142a38a58efa6d1ddf086"
+    ],
+    "dir-15/file-0482.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-15/file-0483.bin": [
+      4096,
+      "79688ea97fb7baac0155883c2dfd58635080f743edccbc8507619cb4cd116ef4"
+    ],
+    "dir-15/file-0484.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-15/file-0485.bin": [
+      4096,
+      "75cf098658a8a157929594619c7d6a0b0152a87be987a4a7230e9a2d1fc88e4e"
+    ],
+    "dir-15/file-0486.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-15/file-0487.bin": [
+      4096,
+      "ef2cefb74fdae8bdc9099c44d9a775225565a60d4fa40ad0f6921bf6811d843c"
+    ],
+    "dir-15/file-0488.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-15/file-0489.bin": [
+      4096,
+      "b677a01f335957977fd5ed0d6c8a1e8d6093b171f441ec555de0e157b6f068de"
+    ],
+    "dir-15/file-0490.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-15/file-0491.bin": [
+      4096,
+      "2c44bb0931a950a9224d9535541ae8a6cded1a6ee63ff096cdc5c381c122759a"
+    ],
+    "dir-15/file-0492.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-15/file-0493.bin": [
+      4096,
+      "1f25debc67f3bc6da16f64478267ecaa6c39fa3e75c1208c896ca9c41b835020"
+    ],
+    "dir-15/file-0494.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-15/file-0495.bin": [
+      4096,
+      "3e6a12939e44dbaa18d778cc20cf8256e8b3321dbca6eee970bdde51150cf614"
+    ],
+    "dir-15/file-0496.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-15/file-0497.bin": [
+      4096,
+      "cf9771cef4c23ddf24e4799ea6d51fa1cb757ffe9e2abf946a06a1df5c6c238e"
+    ],
+    "dir-15/file-0498.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-15/file-0499.bin": [
+      4096,
+      "f85abe8b5c063ba014dca507ca3e7711fba7aa3a23b907cc2efdfefc39a96a74"
+    ],
+    "dir-15/file-0500.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-15/file-0501.bin": [
+      4096,
+      "c27adf2321b2424f3c02fa8bbb9f546bc54f75fda8b3a5fb0b61a02490082d15"
+    ],
+    "dir-15/file-0502.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-15/file-0503.bin": [
+      4096,
+      "49a860bc7ccd7cc42735f1bdfa3a3c94e18409d1241b241f59684a3dc305e3a1"
+    ],
+    "dir-15/file-0504.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-15/file-0505.bin": [
+      4096,
+      "17b908d52ac7610f2ac7af2480dab616f1d88eccaa781cf34d7840ee04b5ee0e"
+    ],
+    "dir-15/file-0506.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-15/file-0507.bin": [
+      4096,
+      "1ef65d3a22b50a76942f38546659021b0991ff9de354cf4f81257a6bc3d4303c"
+    ],
+    "dir-15/file-0508.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-15/file-0509.bin": [
+      4096,
+      "8a5017db6750960088c74994e22bcce0d4b67ba4b2aae471aa39cc864458e8f8"
+    ],
+    "dir-15/file-0510.bin": [
+      4096,
+      "e059f756528fe661d6f6b0684de722e81ba7fac988768249e705d25af6eb3df8"
+    ],
+    "dir-15/file-0511.bin": [
+      4096,
+      "b4c2dd3a6f251c4f183b32fecef289903f63520e822a20fcdfbcece42cc6ce88"
+    ],
+    "manifest.txt": [
+      4194304,
+      "ca1a5e9ded562c7a0f5fd6630918fe761ef977999c113b2ce6fa4713311f39dc"
+    ],
+    "pattern.bin": [
+      4194304,
+      "6b8fc9ae9b69e8fa36afaeaadc81a9aff9fdfd4b3b224328b7b9e537cef18453"
+    ],
+    "random.bin": [
+      4194304,
+      "3d73bafc89994b3d1ccfd1e3555be2a95d0cf6951371216fd4220b0e4833a9ca"
+    ],
+    "zeros.bin": [
+      4194304,
+      "bb9f8df61474d25e71fa00722318cd387396ca1736605e1248821cc0de3d3af8"
+    ]
+  },
+  "input_bytes": 18874368,
+  "repetitions": 7,
+  "threads": 1,
+  "ordinary_chunk_bytes": 32768,
+  "solid_chunk_bytes": 1048576,
+  "memory_measurement": "/proc/self/status VmHWM; ru_maxrss retained separately because it can include pre-exec launcher memory",
+  "cpu_feature_override": "sse4.2",
+  "rows": [
+    {
+      "mode": "none",
+      "library": "original",
+      "repetition": 0,
+      "write": {
+        "capture_s": 0.000929004,
+        "write_s": 0.035426136,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 3396,
+        "rusage_peak_rss_kib": 29860
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 5.4695e-05,
+        "verify_s": 0.010470448,
+        "apply_s": 0.018222794,
+        "peak_rss_kib": 3060,
+        "rusage_peak_rss_kib": 29860
+      },
+      "archive_bytes": 17929160,
+      "archive_sha256": "e583cac08b373135b5e6cee084f837f4a707548118f1ce51b4f295252b279733",
+      "correctness": "passed"
+    },
+    {
+      "mode": "none",
+      "library": "native",
+      "repetition": 0,
+      "write": {
+        "capture_s": 0.001548598,
+        "write_s": 0.037363015,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 5148,
+        "rusage_peak_rss_kib": 29860
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 0.000151928,
+        "verify_s": 0.010844147,
+        "apply_s": 0.02206872,
+        "peak_rss_kib": 5184,
+        "rusage_peak_rss_kib": 29860
+      },
+      "archive_bytes": 17929160,
+      "archive_sha256": "f3e5eb86cde1a77c5d4f9ab03b862e2e5007965747a51859620054bc14cbee3a",
+      "correctness": "passed"
+    },
+    {
+      "mode": "none",
+      "library": "native",
+      "repetition": 1,
+      "write": {
+        "capture_s": 0.001566322,
+        "write_s": 0.038595831,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 5372,
+        "rusage_peak_rss_kib": 29860
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 0.000158042,
+        "verify_s": 0.011158219,
+        "apply_s": 0.022701791,
+        "peak_rss_kib": 5120,
+        "rusage_peak_rss_kib": 29860
+      },
+      "archive_bytes": 17929160,
+      "archive_sha256": "e6f6917662cd88157727d5a48fcfc7f78b26f85485da471e93740ecaf0ad41ec",
+      "correctness": "passed"
+    },
+    {
+      "mode": "none",
+      "library": "original",
+      "repetition": 1,
+      "write": {
+        "capture_s": 0.000930213,
+        "write_s": 0.034746884,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 3436,
+        "rusage_peak_rss_kib": 29860
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 5.568e-05,
+        "verify_s": 0.01030686,
+        "apply_s": 0.01777007,
+        "peak_rss_kib": 3032,
+        "rusage_peak_rss_kib": 29860
+      },
+      "archive_bytes": 17929160,
+      "archive_sha256": "04276f20a4e476b32d7d92960871eff9767330d30d43fc76a53f262c99a0e5d2",
+      "correctness": "passed"
+    },
+    {
+      "mode": "none",
+      "library": "original",
+      "repetition": 2,
+      "write": {
+        "capture_s": 0.001786452,
+        "write_s": 0.043924599,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 3428,
+        "rusage_peak_rss_kib": 29860
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 5.7534e-05,
+        "verify_s": 0.010364783,
+        "apply_s": 0.017798848,
+        "peak_rss_kib": 3072,
+        "rusage_peak_rss_kib": 29860
+      },
+      "archive_bytes": 17929160,
+      "archive_sha256": "fc225736e818e91e403929b6809e9c290a27a009e07ee44c485b344a2a2a81d1",
+      "correctness": "passed"
+    },
+    {
+      "mode": "none",
+      "library": "native",
+      "repetition": 2,
+      "write": {
+        "capture_s": 0.001547074,
+        "write_s": 0.036979155,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 5224,
+        "rusage_peak_rss_kib": 29860
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 0.000154052,
+        "verify_s": 0.01103202,
+        "apply_s": 0.022141261,
+        "peak_rss_kib": 5080,
+        "rusage_peak_rss_kib": 29860
+      },
+      "archive_bytes": 17929160,
+      "archive_sha256": "c03a512d9b57ba0586b83e4d6d4c1e71677632fe6a88f70e7689e850e6e789cd",
+      "correctness": "passed"
+    },
+    {
+      "mode": "none",
+      "library": "native",
+      "repetition": 3,
+      "write": {
+        "capture_s": 0.001536825,
+        "write_s": 0.036836282,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 5120,
+        "rusage_peak_rss_kib": 29860
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 0.000153812,
+        "verify_s": 0.01096832,
+        "apply_s": 0.021995702,
+        "peak_rss_kib": 5196,
+        "rusage_peak_rss_kib": 29860
+      },
+      "archive_bytes": 17929160,
+      "archive_sha256": "b43930e2c8e19cddebc7961b54e2730abe542b8306c5e2402cd608870a526a74",
+      "correctness": "passed"
+    },
+    {
+      "mode": "none",
+      "library": "original",
+      "repetition": 3,
+      "write": {
+        "capture_s": 0.001614694,
+        "write_s": 0.039503793,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 3388,
+        "rusage_peak_rss_kib": 29860
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 5.7862e-05,
+        "verify_s": 0.01013223,
+        "apply_s": 0.017518181,
+        "peak_rss_kib": 3036,
+        "rusage_peak_rss_kib": 29860
+      },
+      "archive_bytes": 17929160,
+      "archive_sha256": "3fe638b1c264f8f13f1cef0d722c4dc21f42ac04b3176380e7dd504d800747b0",
+      "correctness": "passed"
+    },
+    {
+      "mode": "none",
+      "library": "original",
+      "repetition": 4,
+      "write": {
+        "capture_s": 0.001059252,
+        "write_s": 0.034542594,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 3404,
+        "rusage_peak_rss_kib": 29860
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 5.5805e-05,
+        "verify_s": 0.010339785,
+        "apply_s": 0.017859436,
+        "peak_rss_kib": 3068,
+        "rusage_peak_rss_kib": 29860
+      },
+      "archive_bytes": 17929160,
+      "archive_sha256": "9ad5de78d7ba35f7349cd621e7c23f76803a660579b3c736ca4139323f17ad20",
+      "correctness": "passed"
+    },
+    {
+      "mode": "none",
+      "library": "native",
+      "repetition": 4,
+      "write": {
+        "capture_s": 0.001532053,
+        "write_s": 0.037353462,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 5156,
+        "rusage_peak_rss_kib": 29860
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 0.000149737,
+        "verify_s": 0.010854265,
+        "apply_s": 0.022680092,
+        "peak_rss_kib": 5252,
+        "rusage_peak_rss_kib": 29860
+      },
+      "archive_bytes": 17929160,
+      "archive_sha256": "741c42d0abbbe5c6a530a863ac7ab2effa87a91bc85290223d11b99b8980ef8f",
+      "correctness": "passed"
+    },
+    {
+      "mode": "none",
+      "library": "native",
+      "repetition": 5,
+      "write": {
+        "capture_s": 0.001584243,
+        "write_s": 0.037521906,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 5300,
+        "rusage_peak_rss_kib": 29860
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 0.000155249,
+        "verify_s": 0.01094835,
+        "apply_s": 0.022818988,
+        "peak_rss_kib": 5192,
+        "rusage_peak_rss_kib": 29860
+      },
+      "archive_bytes": 17929160,
+      "archive_sha256": "b87b353b32bcd4fd130d241c37bcf9797f2bbd709a9aca6ade708db7e315bcd3",
+      "correctness": "passed"
+    },
+    {
+      "mode": "none",
+      "library": "original",
+      "repetition": 5,
+      "write": {
+        "capture_s": 0.000929306,
+        "write_s": 0.035270742,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 3412,
+        "rusage_peak_rss_kib": 29860
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 5.7879e-05,
+        "verify_s": 0.010558857,
+        "apply_s": 0.018236826,
+        "peak_rss_kib": 3052,
+        "rusage_peak_rss_kib": 29860
+      },
+      "archive_bytes": 17929160,
+      "archive_sha256": "963b9f51d6bdb296bbfd9047b7ba31875eaa06cd28816e1cb9759fdc7168411f",
+      "correctness": "passed"
+    },
+    {
+      "mode": "none",
+      "library": "original",
+      "repetition": 6,
+      "write": {
+        "capture_s": 0.000940413,
+        "write_s": 0.035135832,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 3424,
+        "rusage_peak_rss_kib": 29860
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 5.562e-05,
+        "verify_s": 0.010523848,
+        "apply_s": 0.018151863,
+        "peak_rss_kib": 3052,
+        "rusage_peak_rss_kib": 29860
+      },
+      "archive_bytes": 17929160,
+      "archive_sha256": "d364b1f43b725f5c7253ec57275552765090b58d102535231126c6781c1b8ebc",
+      "correctness": "passed"
+    },
+    {
+      "mode": "none",
+      "library": "native",
+      "repetition": 6,
+      "write": {
+        "capture_s": 0.00152146,
+        "write_s": 0.037258094,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 5276,
+        "rusage_peak_rss_kib": 29860
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 0.000155845,
+        "verify_s": 0.010817209,
+        "apply_s": 0.022511628,
+        "peak_rss_kib": 5112,
+        "rusage_peak_rss_kib": 29860
+      },
+      "archive_bytes": 17929160,
+      "archive_sha256": "17ad37a9c875b87556594b089fca08294668e18aa6c7b8d1e14bccef079ee981",
+      "correctness": "passed"
+    },
+    {
+      "mode": "xpress",
+      "library": "original",
+      "repetition": 0,
+      "write": {
+        "capture_s": 0.000947708,
+        "write_s": 0.070129083,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 3900,
+        "rusage_peak_rss_kib": 29860
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 6.0146e-05,
+        "verify_s": 0.018601317,
+        "apply_s": 0.026336879,
+        "peak_rss_kib": 3168,
+        "rusage_peak_rss_kib": 29860
+      },
+      "archive_bytes": 5903933,
+      "archive_sha256": "3b4c2411645b989a3fe784c1d821b6c280f4b4edc37b92ae22be406fb5edd04c",
+      "correctness": "passed"
+    },
+    {
+      "mode": "xpress",
+      "library": "native",
+      "repetition": 0,
+      "write": {
+        "capture_s": 0.001561468,
+        "write_s": 0.084057009,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 12020,
+        "rusage_peak_rss_kib": 29860
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 0.000152888,
+        "verify_s": 0.013005273,
+        "apply_s": 0.024770304,
+        "peak_rss_kib": 5272,
+        "rusage_peak_rss_kib": 29860
+      },
+      "archive_bytes": 5904197,
+      "archive_sha256": "49c73593cec6e8f56ddeba519d50b4b0d17aa36fe76a7a41a9dc82c1986ba88d",
+      "correctness": "passed"
+    },
+    {
+      "mode": "xpress",
+      "library": "native",
+      "repetition": 1,
+      "write": {
+        "capture_s": 0.001531835,
+        "write_s": 0.084236729,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 11964,
+        "rusage_peak_rss_kib": 29860
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 0.00016647,
+        "verify_s": 0.012964061,
+        "apply_s": 0.024869967,
+        "peak_rss_kib": 5204,
+        "rusage_peak_rss_kib": 29860
+      },
+      "archive_bytes": 5904197,
+      "archive_sha256": "5652b9e1185e06e856fcef733bd9514c1cbf1daa16e2e235afae91ebbaee17c8",
+      "correctness": "passed"
+    },
+    {
+      "mode": "xpress",
+      "library": "original",
+      "repetition": 1,
+      "write": {
+        "capture_s": 0.000943839,
+        "write_s": 0.070805813,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 3804,
+        "rusage_peak_rss_kib": 29860
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 5.6301e-05,
+        "verify_s": 0.019122717,
+        "apply_s": 0.026296793,
+        "peak_rss_kib": 3132,
+        "rusage_peak_rss_kib": 29860
+      },
+      "archive_bytes": 5903933,
+      "archive_sha256": "52896665d2b8446be9a155b6801603798f76b151fde9bc8e1ca6006afd491158",
+      "correctness": "passed"
+    },
+    {
+      "mode": "xpress",
+      "library": "original",
+      "repetition": 2,
+      "write": {
+        "capture_s": 0.001517347,
+        "write_s": 0.093410164,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 3940,
+        "rusage_peak_rss_kib": 29860
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 8.9134e-05,
+        "verify_s": 0.023498985,
+        "apply_s": 0.033520806,
+        "peak_rss_kib": 3172,
+        "rusage_peak_rss_kib": 29860
+      },
+      "archive_bytes": 5903933,
+      "archive_sha256": "6ce58b0bb4a925183b2e34d4d5f63fc68f51f11d9db7571969779e096ad88d0d",
+      "correctness": "passed"
+    },
+    {
+      "mode": "xpress",
+      "library": "native",
+      "repetition": 2,
+      "write": {
+        "capture_s": 0.002444568,
+        "write_s": 0.119035641,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 12084,
+        "rusage_peak_rss_kib": 29860
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 0.000221388,
+        "verify_s": 0.015184875,
+        "apply_s": 0.032908459,
+        "peak_rss_kib": 5200,
+        "rusage_peak_rss_kib": 29860
+      },
+      "archive_bytes": 5904197,
+      "archive_sha256": "a029e361a48c6acb3cdf15094b5e71e3648c5a31d6105bc6d9091452e29ee507",
+      "correctness": "passed"
+    },
+    {
+      "mode": "xpress",
+      "library": "native",
+      "repetition": 3,
+      "write": {
+        "capture_s": 0.00153733,
+        "write_s": 0.084107693,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 12060,
+        "rusage_peak_rss_kib": 29860
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 0.000154448,
+        "verify_s": 0.012804385,
+        "apply_s": 0.024273038,
+        "peak_rss_kib": 5220,
+        "rusage_peak_rss_kib": 29860
+      },
+      "archive_bytes": 5904197,
+      "archive_sha256": "d40909d37beb8e546adbb2b0540849207ababc8c14b90e721ec64b44f530a26c",
+      "correctness": "passed"
+    },
+    {
+      "mode": "xpress",
+      "library": "original",
+      "repetition": 3,
+      "write": {
+        "capture_s": 0.000942695,
+        "write_s": 0.070051185,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 3916,
+        "rusage_peak_rss_kib": 29860
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 5.6112e-05,
+        "verify_s": 0.018582444,
+        "apply_s": 0.026066207,
+        "peak_rss_kib": 3140,
+        "rusage_peak_rss_kib": 29860
+      },
+      "archive_bytes": 5903933,
+      "archive_sha256": "6b95bcd180e8fb586e09b17733b3cf3d7bb7771cd9e243b0f865b08a29201c14",
+      "correctness": "passed"
+    },
+    {
+      "mode": "xpress",
+      "library": "original",
+      "repetition": 4,
+      "write": {
+        "capture_s": 0.00091718,
+        "write_s": 0.069088286,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 3940,
+        "rusage_peak_rss_kib": 29860
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 5.3643e-05,
+        "verify_s": 0.018283599,
+        "apply_s": 0.026283102,
+        "peak_rss_kib": 3144,
+        "rusage_peak_rss_kib": 29860
+      },
+      "archive_bytes": 5903933,
+      "archive_sha256": "d0f8d07c7eef5245714535b3ba7d387987083eabd7cd2dce68d5b6ac4e787d25",
+      "correctness": "passed"
+    },
+    {
+      "mode": "xpress",
+      "library": "native",
+      "repetition": 4,
+      "write": {
+        "capture_s": 0.001529509,
+        "write_s": 0.084080386,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 11908,
+        "rusage_peak_rss_kib": 29860
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 0.000152733,
+        "verify_s": 0.012873459,
+        "apply_s": 0.024368845,
+        "peak_rss_kib": 5196,
+        "rusage_peak_rss_kib": 29860
+      },
+      "archive_bytes": 5904197,
+      "archive_sha256": "20df4cb5d262c3fa1f972489edd9c92c387bca0795800a66eba14ab30ca9ec33",
+      "correctness": "passed"
+    },
+    {
+      "mode": "xpress",
+      "library": "native",
+      "repetition": 5,
+      "write": {
+        "capture_s": 0.001601585,
+        "write_s": 0.083789263,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 12012,
+        "rusage_peak_rss_kib": 29860
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 0.000159898,
+        "verify_s": 0.01281936,
+        "apply_s": 0.024471126,
+        "peak_rss_kib": 5276,
+        "rusage_peak_rss_kib": 29860
+      },
+      "archive_bytes": 5904197,
+      "archive_sha256": "5e8f30dccb865f1f139cca97ba5bc262587eb97ac2f2704b54080c2859b78d03",
+      "correctness": "passed"
+    },
+    {
+      "mode": "xpress",
+      "library": "original",
+      "repetition": 5,
+      "write": {
+        "capture_s": 0.000924452,
+        "write_s": 0.070195134,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 3940,
+        "rusage_peak_rss_kib": 29860
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 5.5649e-05,
+        "verify_s": 0.018640702,
+        "apply_s": 0.026037236,
+        "peak_rss_kib": 3160,
+        "rusage_peak_rss_kib": 29860
+      },
+      "archive_bytes": 5903933,
+      "archive_sha256": "97ad705c3b26ff730e54c4d8831cf46147e682077edad259a792fce1c587ec80",
+      "correctness": "passed"
+    },
+    {
+      "mode": "xpress",
+      "library": "original",
+      "repetition": 6,
+      "write": {
+        "capture_s": 0.000926425,
+        "write_s": 0.069212093,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 3804,
+        "rusage_peak_rss_kib": 29860
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 5.6139e-05,
+        "verify_s": 0.018603832,
+        "apply_s": 0.026324801,
+        "peak_rss_kib": 3160,
+        "rusage_peak_rss_kib": 29860
+      },
+      "archive_bytes": 5903933,
+      "archive_sha256": "3cbaa6e7f1b970d26087b158a2643766477792267fc3d634825846090c755152",
+      "correctness": "passed"
+    },
+    {
+      "mode": "xpress",
+      "library": "native",
+      "repetition": 6,
+      "write": {
+        "capture_s": 0.001541752,
+        "write_s": 0.083969233,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 12072,
+        "rusage_peak_rss_kib": 29860
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 0.000172845,
+        "verify_s": 0.012951854,
+        "apply_s": 0.024608955,
+        "peak_rss_kib": 5212,
+        "rusage_peak_rss_kib": 29860
+      },
+      "archive_bytes": 5904197,
+      "archive_sha256": "d62a99aa6db75b1e78b260e8963d0e9638d031c06471ade422631a1b2c80b773",
+      "correctness": "passed"
+    },
+    {
+      "mode": "lzx",
+      "library": "original",
+      "repetition": 0,
+      "write": {
+        "capture_s": 0.000927797,
+        "write_s": 0.297187086,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 4692,
+        "rusage_peak_rss_kib": 29860
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 5.5276e-05,
+        "verify_s": 0.013003917,
+        "apply_s": 0.020527488,
+        "peak_rss_kib": 3160,
+        "rusage_peak_rss_kib": 29860
+      },
+      "archive_bytes": 5849062,
+      "archive_sha256": "0209e7f848ce5640a576b14a28125fb8f4173dc9fce6c392bf262292907627a3",
+      "correctness": "passed"
+    },
+    {
+      "mode": "lzx",
+      "library": "native",
+      "repetition": 0,
+      "write": {
+        "capture_s": 0.001533885,
+        "write_s": 0.173192705,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 13160,
+        "rusage_peak_rss_kib": 29860
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 0.000151206,
+        "verify_s": 0.017054735,
+        "apply_s": 0.028841977,
+        "peak_rss_kib": 5276,
+        "rusage_peak_rss_kib": 29860
+      },
+      "archive_bytes": 5849204,
+      "archive_sha256": "29374194cac8dd6f5b99dae728ce0d50473b7b0f1a52cc78cb4cd151e9cc354b",
+      "correctness": "passed"
+    },
+    {
+      "mode": "lzx",
+      "library": "native",
+      "repetition": 1,
+      "write": {
+        "capture_s": 0.00154817,
+        "write_s": 0.173517063,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 13188,
+        "rusage_peak_rss_kib": 29860
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 0.000158019,
+        "verify_s": 0.017218458,
+        "apply_s": 0.02845582,
+        "peak_rss_kib": 5276,
+        "rusage_peak_rss_kib": 29860
+      },
+      "archive_bytes": 5849204,
+      "archive_sha256": "589018c2698b79999d29a605c4ff52028f4e105da82ae1f9d1a87e8a3a888d5b",
+      "correctness": "passed"
+    },
+    {
+      "mode": "lzx",
+      "library": "original",
+      "repetition": 1,
+      "write": {
+        "capture_s": 0.000925926,
+        "write_s": 0.297942311,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 4684,
+        "rusage_peak_rss_kib": 29860
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 5.5748e-05,
+        "verify_s": 0.013130815,
+        "apply_s": 0.020637614,
+        "peak_rss_kib": 3136,
+        "rusage_peak_rss_kib": 29860
+      },
+      "archive_bytes": 5849062,
+      "archive_sha256": "82b5d4568411c10f71f19b9db0fc8a16d2366c097fbf744ebea5177d58bc8b68",
+      "correctness": "passed"
+    },
+    {
+      "mode": "lzx",
+      "library": "original",
+      "repetition": 2,
+      "write": {
+        "capture_s": 0.000948886,
+        "write_s": 0.305508169,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 4692,
+        "rusage_peak_rss_kib": 29860
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 6.1492e-05,
+        "verify_s": 0.012980764,
+        "apply_s": 0.02056014,
+        "peak_rss_kib": 3152,
+        "rusage_peak_rss_kib": 29860
+      },
+      "archive_bytes": 5849062,
+      "archive_sha256": "b0d4043401cc54d9daa44f93f77b8a91afb94610a42f80b295191b4e447665f9",
+      "correctness": "passed"
+    },
+    {
+      "mode": "lzx",
+      "library": "native",
+      "repetition": 2,
+      "write": {
+        "capture_s": 0.00153634,
+        "write_s": 0.173826429,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 13112,
+        "rusage_peak_rss_kib": 29860
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 0.000153847,
+        "verify_s": 0.017097721,
+        "apply_s": 0.028699344,
+        "peak_rss_kib": 5344,
+        "rusage_peak_rss_kib": 29860
+      },
+      "archive_bytes": 5849204,
+      "archive_sha256": "c53bc5a339c08d55d7978dd3fcfa4721d06f2194ad5e4723283c7900d1575dab",
+      "correctness": "passed"
+    },
+    {
+      "mode": "lzx",
+      "library": "native",
+      "repetition": 3,
+      "write": {
+        "capture_s": 0.001526875,
+        "write_s": 0.180686505,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 12988,
+        "rusage_peak_rss_kib": 29860
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 0.000192345,
+        "verify_s": 0.041843931,
+        "apply_s": 0.043165368,
+        "peak_rss_kib": 5252,
+        "rusage_peak_rss_kib": 29860
+      },
+      "archive_bytes": 5849204,
+      "archive_sha256": "d6fd18b35cd2ee0254cf49bffb42ec27974373e6e1f21ed74cbff0302f388669",
+      "correctness": "passed"
+    },
+    {
+      "mode": "lzx",
+      "library": "original",
+      "repetition": 3,
+      "write": {
+        "capture_s": 0.001127435,
+        "write_s": 0.298340214,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 4688,
+        "rusage_peak_rss_kib": 29860
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 5.6241e-05,
+        "verify_s": 0.013133231,
+        "apply_s": 0.020492109,
+        "peak_rss_kib": 3140,
+        "rusage_peak_rss_kib": 29860
+      },
+      "archive_bytes": 5849062,
+      "archive_sha256": "1f5fc8cc9351ecf4700b4b6d269c7d7a52d7927a00b43c6dc9bb3249ec9f6387",
+      "correctness": "passed"
+    },
+    {
+      "mode": "lzx",
+      "library": "original",
+      "repetition": 4,
+      "write": {
+        "capture_s": 0.000923068,
+        "write_s": 0.297615294,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 4660,
+        "rusage_peak_rss_kib": 29860
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 5.9874e-05,
+        "verify_s": 0.012875143,
+        "apply_s": 0.020546501,
+        "peak_rss_kib": 3128,
+        "rusage_peak_rss_kib": 29860
+      },
+      "archive_bytes": 5849062,
+      "archive_sha256": "9e40832d387be9050dc51b23efe633da4c4c8b3f9bfb888f3c4f44ab05b43126",
+      "correctness": "passed"
+    },
+    {
+      "mode": "lzx",
+      "library": "native",
+      "repetition": 4,
+      "write": {
+        "capture_s": 0.001724787,
+        "write_s": 0.172541492,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 13044,
+        "rusage_peak_rss_kib": 29860
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 0.000154674,
+        "verify_s": 0.017036043,
+        "apply_s": 0.028420067,
+        "peak_rss_kib": 5184,
+        "rusage_peak_rss_kib": 29860
+      },
+      "archive_bytes": 5849204,
+      "archive_sha256": "9233c8687d6a165b410c81aa3456823bd116bb41a86c94861bd9b84edeec4ee2",
+      "correctness": "passed"
+    },
+    {
+      "mode": "lzx",
+      "library": "native",
+      "repetition": 5,
+      "write": {
+        "capture_s": 0.001498511,
+        "write_s": 0.173150854,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 12992,
+        "rusage_peak_rss_kib": 29860
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 0.000155517,
+        "verify_s": 0.017257503,
+        "apply_s": 0.028727181,
+        "peak_rss_kib": 5288,
+        "rusage_peak_rss_kib": 29860
+      },
+      "archive_bytes": 5849204,
+      "archive_sha256": "da6f3ae1db2f22cad04458c66fb685f7cded3bd7461713286e487f54b5439820",
+      "correctness": "passed"
+    },
+    {
+      "mode": "lzx",
+      "library": "original",
+      "repetition": 5,
+      "write": {
+        "capture_s": 0.000947926,
+        "write_s": 0.297610912,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 4688,
+        "rusage_peak_rss_kib": 29860
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 5.5153e-05,
+        "verify_s": 0.012865155,
+        "apply_s": 0.020346026,
+        "peak_rss_kib": 3148,
+        "rusage_peak_rss_kib": 29860
+      },
+      "archive_bytes": 5849062,
+      "archive_sha256": "471a21e4e8903238432468c44ce77da959de81284645bbc03c400756924f0f2d",
+      "correctness": "passed"
+    },
+    {
+      "mode": "lzx",
+      "library": "original",
+      "repetition": 6,
+      "write": {
+        "capture_s": 0.000941946,
+        "write_s": 0.298649654,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 4660,
+        "rusage_peak_rss_kib": 29860
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 5.5019e-05,
+        "verify_s": 0.012875021,
+        "apply_s": 0.020631328,
+        "peak_rss_kib": 3128,
+        "rusage_peak_rss_kib": 29860
+      },
+      "archive_bytes": 5849062,
+      "archive_sha256": "07cec9b0e1db0109b611c887b964af263fb5afd064c36fcb1a91fe8daa0ab418",
+      "correctness": "passed"
+    },
+    {
+      "mode": "lzx",
+      "library": "native",
+      "repetition": 6,
+      "write": {
+        "capture_s": 0.001547412,
+        "write_s": 0.173543834,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 13208,
+        "rusage_peak_rss_kib": 29860
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 0.000151926,
+        "verify_s": 0.016903526,
+        "apply_s": 0.02850518,
+        "peak_rss_kib": 5328,
+        "rusage_peak_rss_kib": 29860
+      },
+      "archive_bytes": 5849204,
+      "archive_sha256": "41787c80e2eaa411dd2d11ffe0c01e444b6ef1ebcb2596629dad20f82336d1b1",
+      "correctness": "passed"
+    },
+    {
+      "mode": "lzms",
+      "library": "original",
+      "repetition": 0,
+      "write": {
+        "capture_s": 0.000926347,
+        "write_s": 0.686810003,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 4488,
+        "rusage_peak_rss_kib": 29860
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 5.5998e-05,
+        "verify_s": 0.027420231,
+        "apply_s": 0.034786683,
+        "peak_rss_kib": 3224,
+        "rusage_peak_rss_kib": 29860
+      },
+      "archive_bytes": 5816034,
+      "archive_sha256": "606193ab6e7b7af6cb5dfeaacae2a079a13717abf1cfe4c7ebfc3230adbe6be2",
+      "correctness": "passed"
+    },
+    {
+      "mode": "lzms",
+      "library": "native",
+      "repetition": 0,
+      "write": {
+        "capture_s": 0.001538271,
+        "write_s": 0.338986705,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 12380,
+        "rusage_peak_rss_kib": 29860
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 0.000157416,
+        "verify_s": 0.023321266,
+        "apply_s": 0.035423508,
+        "peak_rss_kib": 5600,
+        "rusage_peak_rss_kib": 29860
+      },
+      "archive_bytes": 5817192,
+      "archive_sha256": "38282b1a23fa76923ed4115d865316a89392e77a65af3ebd1bc7bde7407c9447",
+      "correctness": "passed"
+    },
+    {
+      "mode": "lzms",
+      "library": "native",
+      "repetition": 1,
+      "write": {
+        "capture_s": 0.001601113,
+        "write_s": 0.343262366,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 12424,
+        "rusage_peak_rss_kib": 29860
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 0.000152644,
+        "verify_s": 0.023325632,
+        "apply_s": 0.035201102,
+        "peak_rss_kib": 5476,
+        "rusage_peak_rss_kib": 29860
+      },
+      "archive_bytes": 5817192,
+      "archive_sha256": "1046bc5a9e85cf4b304424659a43ce34602b0bebdf158523628e3c2d1ebf8c91",
+      "correctness": "passed"
+    },
+    {
+      "mode": "lzms",
+      "library": "original",
+      "repetition": 1,
+      "write": {
+        "capture_s": 0.000950488,
+        "write_s": 0.683211572,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 4532,
+        "rusage_peak_rss_kib": 29860
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 6.1049e-05,
+        "verify_s": 0.027404704,
+        "apply_s": 0.034892392,
+        "peak_rss_kib": 3352,
+        "rusage_peak_rss_kib": 29860
+      },
+      "archive_bytes": 5816034,
+      "archive_sha256": "cdeecf242fa352a34d72dacdab1a57874fbabdd52d442d5bfbec0bc1c20bada9",
+      "correctness": "passed"
+    },
+    {
+      "mode": "lzms",
+      "library": "original",
+      "repetition": 2,
+      "write": {
+        "capture_s": 0.00094866,
+        "write_s": 0.683400071,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 4536,
+        "rusage_peak_rss_kib": 29860
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 5.4241e-05,
+        "verify_s": 0.027389787,
+        "apply_s": 0.034760412,
+        "peak_rss_kib": 3352,
+        "rusage_peak_rss_kib": 29860
+      },
+      "archive_bytes": 5816034,
+      "archive_sha256": "32cf2b52ecbd920f71aa32809a658699ca992f000bb9b389bdc8c386f8cddcad",
+      "correctness": "passed"
+    },
+    {
+      "mode": "lzms",
+      "library": "native",
+      "repetition": 2,
+      "write": {
+        "capture_s": 0.001534288,
+        "write_s": 0.339043098,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 12340,
+        "rusage_peak_rss_kib": 29860
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 0.000156577,
+        "verify_s": 0.023780734,
+        "apply_s": 0.035924293,
+        "peak_rss_kib": 5536,
+        "rusage_peak_rss_kib": 29860
+      },
+      "archive_bytes": 5817192,
+      "archive_sha256": "defd0319cec8b8ae259aeb01a2f88a45f007787b5939fec10ed677fdc4f8b094",
+      "correctness": "passed"
+    },
+    {
+      "mode": "lzms",
+      "library": "native",
+      "repetition": 3,
+      "write": {
+        "capture_s": 0.001572278,
+        "write_s": 0.3393236,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 12396,
+        "rusage_peak_rss_kib": 29860
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 0.000155585,
+        "verify_s": 0.02350487,
+        "apply_s": 0.035796254,
+        "peak_rss_kib": 5352,
+        "rusage_peak_rss_kib": 29860
+      },
+      "archive_bytes": 5817192,
+      "archive_sha256": "4f541d96a5a37610dd2f0b239fc8ade771c5cf39f5e7cba59fd59c484e1fe03a",
+      "correctness": "passed"
+    },
+    {
+      "mode": "lzms",
+      "library": "original",
+      "repetition": 3,
+      "write": {
+        "capture_s": 0.000941507,
+        "write_s": 0.685635774,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 4516,
+        "rusage_peak_rss_kib": 29860
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 5.6943e-05,
+        "verify_s": 0.027390839,
+        "apply_s": 0.034934287,
+        "peak_rss_kib": 3364,
+        "rusage_peak_rss_kib": 29860
+      },
+      "archive_bytes": 5816034,
+      "archive_sha256": "e30a958693092eeb1c826f5bada29a74b8404cb3c524c18dc3b4415bd95146f6",
+      "correctness": "passed"
+    },
+    {
+      "mode": "lzms",
+      "library": "original",
+      "repetition": 4,
+      "write": {
+        "capture_s": 0.000956885,
+        "write_s": 0.684985599,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 4532,
+        "rusage_peak_rss_kib": 29860
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 5.4899e-05,
+        "verify_s": 0.027435494,
+        "apply_s": 0.034840413,
+        "peak_rss_kib": 3328,
+        "rusage_peak_rss_kib": 29860
+      },
+      "archive_bytes": 5816034,
+      "archive_sha256": "d29f5e30712a16852e1bc9bb071b992c3363f2b93bef59ae732fb330705955d7",
+      "correctness": "passed"
+    },
+    {
+      "mode": "lzms",
+      "library": "native",
+      "repetition": 4,
+      "write": {
+        "capture_s": 0.001529484,
+        "write_s": 0.339791781,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 12292,
+        "rusage_peak_rss_kib": 30052
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 0.000160426,
+        "verify_s": 0.023523693,
+        "apply_s": 0.035174921,
+        "peak_rss_kib": 5440,
+        "rusage_peak_rss_kib": 30052
+      },
+      "archive_bytes": 5817192,
+      "archive_sha256": "36957dd9ef5ad12e10c2d91f1ec4c97dce6ba7305468340f70a1ea04119598c8",
+      "correctness": "passed"
+    },
+    {
+      "mode": "lzms",
+      "library": "native",
+      "repetition": 5,
+      "write": {
+        "capture_s": 0.001656588,
+        "write_s": 0.340582297,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 12412,
+        "rusage_peak_rss_kib": 30052
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 0.000154647,
+        "verify_s": 0.025292837,
+        "apply_s": 0.035565057,
+        "peak_rss_kib": 5528,
+        "rusage_peak_rss_kib": 30052
+      },
+      "archive_bytes": 5817192,
+      "archive_sha256": "72c9fe2a2996f38c37a07dd61f7a9f91face8aa44f2c01606766f75a2ac1d58f",
+      "correctness": "passed"
+    },
+    {
+      "mode": "lzms",
+      "library": "original",
+      "repetition": 5,
+      "write": {
+        "capture_s": 0.000943661,
+        "write_s": 0.686527649,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 4536,
+        "rusage_peak_rss_kib": 30052
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 5.5706e-05,
+        "verify_s": 0.027544306,
+        "apply_s": 0.034804975,
+        "peak_rss_kib": 3352,
+        "rusage_peak_rss_kib": 30052
+      },
+      "archive_bytes": 5816034,
+      "archive_sha256": "323989c29ad92e8235f8ae59251b86258997ccf97d1d0863c1b92421e49e5350",
+      "correctness": "passed"
+    },
+    {
+      "mode": "lzms",
+      "library": "original",
+      "repetition": 6,
+      "write": {
+        "capture_s": 0.000942942,
+        "write_s": 0.683043671,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 4536,
+        "rusage_peak_rss_kib": 30052
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 6.2517e-05,
+        "verify_s": 0.02754159,
+        "apply_s": 0.034790996,
+        "peak_rss_kib": 3180,
+        "rusage_peak_rss_kib": 30052
+      },
+      "archive_bytes": 5816034,
+      "archive_sha256": "77b89948c40eae0744526532382e2c007c51ab24b8f41670e635b331e1b88ba5",
+      "correctness": "passed"
+    },
+    {
+      "mode": "lzms",
+      "library": "native",
+      "repetition": 6,
+      "write": {
+        "capture_s": 0.001546386,
+        "write_s": 0.339332803,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 12464,
+        "rusage_peak_rss_kib": 30052
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 0.000154289,
+        "verify_s": 0.023433117,
+        "apply_s": 0.036216218,
+        "peak_rss_kib": 5540,
+        "rusage_peak_rss_kib": 30052
+      },
+      "archive_bytes": 5817192,
+      "archive_sha256": "caef7a5f464b5f9e5fa8235e585327c105c9452cee28cd4ca2907880f473dc86",
+      "correctness": "passed"
+    },
+    {
+      "mode": "solid-lzms",
+      "library": "original",
+      "repetition": 0,
+      "write": {
+        "capture_s": 0.000951106,
+        "write_s": 0.737294955,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 14464,
+        "rusage_peak_rss_kib": 30052
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 5.3469e-05,
+        "verify_s": 0.02017334,
+        "apply_s": 0.026606144,
+        "peak_rss_kib": 4376,
+        "rusage_peak_rss_kib": 30052
+      },
+      "archive_bytes": 5292466,
+      "archive_sha256": "157ae3da92173232dee41b7eeb3c08369a1a091b9b9ba95d119935d4e2546eab",
+      "correctness": "passed"
+    },
+    {
+      "mode": "solid-lzms",
+      "library": "native",
+      "repetition": 0,
+      "write": {
+        "capture_s": 0.001528895,
+        "write_s": 0.890565835,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 34356,
+        "rusage_peak_rss_kib": 34356
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 0.000151108,
+        "verify_s": 0.017107972,
+        "apply_s": 0.027752773,
+        "peak_rss_kib": 7624,
+        "rusage_peak_rss_kib": 30052
+      },
+      "archive_bytes": 5292852,
+      "archive_sha256": "fa7d08c810dc18da588bf2bf6a3918bc673e2114da9d40ad5f53467324628afc",
+      "correctness": "passed"
+    },
+    {
+      "mode": "solid-lzms",
+      "library": "native",
+      "repetition": 1,
+      "write": {
+        "capture_s": 0.001492668,
+        "write_s": 0.902678282,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 34224,
+        "rusage_peak_rss_kib": 34224
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 0.000146149,
+        "verify_s": 0.016863176,
+        "apply_s": 0.028128619,
+        "peak_rss_kib": 7564,
+        "rusage_peak_rss_kib": 30052
+      },
+      "archive_bytes": 5292852,
+      "archive_sha256": "f6a59ab3a3ecbea4d86807fc4a21ef2bec74dbe52b57934f09c646f57705104b",
+      "correctness": "passed"
+    },
+    {
+      "mode": "solid-lzms",
+      "library": "original",
+      "repetition": 1,
+      "write": {
+        "capture_s": 0.000938128,
+        "write_s": 0.720081887,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 14504,
+        "rusage_peak_rss_kib": 30052
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 5.1371e-05,
+        "verify_s": 0.02014313,
+        "apply_s": 0.026736876,
+        "peak_rss_kib": 4344,
+        "rusage_peak_rss_kib": 30052
+      },
+      "archive_bytes": 5292466,
+      "archive_sha256": "ee483f3f9fa008ba134c885412922547aeb8bc29c066c876eade3345eb5171e4",
+      "correctness": "passed"
+    },
+    {
+      "mode": "solid-lzms",
+      "library": "original",
+      "repetition": 2,
+      "write": {
+        "capture_s": 0.00094703,
+        "write_s": 0.72797929,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 14504,
+        "rusage_peak_rss_kib": 30052
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 5.3268e-05,
+        "verify_s": 0.020260413,
+        "apply_s": 0.027166104,
+        "peak_rss_kib": 4260,
+        "rusage_peak_rss_kib": 30052
+      },
+      "archive_bytes": 5292466,
+      "archive_sha256": "ca46fca5c462e2707d661df0a0743e29c0c63610227616a057c8ee24a6308f65",
+      "correctness": "passed"
+    },
+    {
+      "mode": "solid-lzms",
+      "library": "native",
+      "repetition": 2,
+      "write": {
+        "capture_s": 0.00153582,
+        "write_s": 0.894900488,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 34484,
+        "rusage_peak_rss_kib": 34484
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 0.000156798,
+        "verify_s": 0.016877157,
+        "apply_s": 0.028226993,
+        "peak_rss_kib": 7672,
+        "rusage_peak_rss_kib": 30052
+      },
+      "archive_bytes": 5292852,
+      "archive_sha256": "90b244e96b86cf1c4162ab73c9664aa83a48d912797886a4a4d74ec206f68311",
+      "correctness": "passed"
+    },
+    {
+      "mode": "solid-lzms",
+      "library": "native",
+      "repetition": 3,
+      "write": {
+        "capture_s": 0.001520477,
+        "write_s": 0.894457486,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 34292,
+        "rusage_peak_rss_kib": 34292
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 0.000154036,
+        "verify_s": 0.017159463,
+        "apply_s": 0.028299788,
+        "peak_rss_kib": 7540,
+        "rusage_peak_rss_kib": 30052
+      },
+      "archive_bytes": 5292852,
+      "archive_sha256": "1db9518bf73367e959b5c242156dc4122382eb49dbbb6267df2973c202c43195",
+      "correctness": "passed"
+    },
+    {
+      "mode": "solid-lzms",
+      "library": "original",
+      "repetition": 3,
+      "write": {
+        "capture_s": 0.000946936,
+        "write_s": 0.718868597,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 14472,
+        "rusage_peak_rss_kib": 30052
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 5.191e-05,
+        "verify_s": 0.019830339,
+        "apply_s": 0.026563369,
+        "peak_rss_kib": 4380,
+        "rusage_peak_rss_kib": 30052
+      },
+      "archive_bytes": 5292466,
+      "archive_sha256": "a00498197c5523ed505f28c4a00a2b5e29a11550366a7159f7a9cb1b3f7fed5f",
+      "correctness": "passed"
+    },
+    {
+      "mode": "solid-lzms",
+      "library": "original",
+      "repetition": 4,
+      "write": {
+        "capture_s": 0.000923948,
+        "write_s": 0.721194473,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 14500,
+        "rusage_peak_rss_kib": 30052
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 5.3922e-05,
+        "verify_s": 0.020119259,
+        "apply_s": 0.027155607,
+        "peak_rss_kib": 4360,
+        "rusage_peak_rss_kib": 30052
+      },
+      "archive_bytes": 5292466,
+      "archive_sha256": "f30ecf42b80bdffac59df0fc2a22821d49b020cc857daa470610926f7484fbde",
+      "correctness": "passed"
+    },
+    {
+      "mode": "solid-lzms",
+      "library": "native",
+      "repetition": 4,
+      "write": {
+        "capture_s": 0.001535327,
+        "write_s": 0.895496115,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 34424,
+        "rusage_peak_rss_kib": 34424
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 0.00014734,
+        "verify_s": 0.016765655,
+        "apply_s": 0.027398927,
+        "peak_rss_kib": 7552,
+        "rusage_peak_rss_kib": 30052
+      },
+      "archive_bytes": 5292852,
+      "archive_sha256": "efa55069ef11acac04bff89ec69a06a9139f4956100d9f661cd463b387a7addb",
+      "correctness": "passed"
+    },
+    {
+      "mode": "solid-lzms",
+      "library": "native",
+      "repetition": 5,
+      "write": {
+        "capture_s": 0.001550654,
+        "write_s": 0.891777737,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 34224,
+        "rusage_peak_rss_kib": 34224
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 0.000152177,
+        "verify_s": 0.01695053,
+        "apply_s": 0.028355148,
+        "peak_rss_kib": 7680,
+        "rusage_peak_rss_kib": 30052
+      },
+      "archive_bytes": 5292852,
+      "archive_sha256": "a63ac334ba91ac7d26706c20eebfd419dcb2575927ec24aac599ce2e4a80004a",
+      "correctness": "passed"
+    },
+    {
+      "mode": "solid-lzms",
+      "library": "original",
+      "repetition": 5,
+      "write": {
+        "capture_s": 0.000943221,
+        "write_s": 0.720915164,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 14372,
+        "rusage_peak_rss_kib": 30052
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 5.2174e-05,
+        "verify_s": 0.020366387,
+        "apply_s": 0.027110808,
+        "peak_rss_kib": 4360,
+        "rusage_peak_rss_kib": 30052
+      },
+      "archive_bytes": 5292466,
+      "archive_sha256": "547b2bccdd006ce7d4b0a347612605414799258f7a0abbc5cd05815b7c6db8be",
+      "correctness": "passed"
+    },
+    {
+      "mode": "solid-lzms",
+      "library": "original",
+      "repetition": 6,
+      "write": {
+        "capture_s": 0.001162237,
+        "write_s": 0.720239642,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 14404,
+        "rusage_peak_rss_kib": 30052
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 5.5152e-05,
+        "verify_s": 0.02059048,
+        "apply_s": 0.027287064,
+        "peak_rss_kib": 4208,
+        "rusage_peak_rss_kib": 30052
+      },
+      "archive_bytes": 5292466,
+      "archive_sha256": "1f25742341205b2ff0357e84fd2f60a12f7bd170ab88d5e5d3366e2859052765",
+      "correctness": "passed"
+    },
+    {
+      "mode": "solid-lzms",
+      "library": "native",
+      "repetition": 6,
+      "write": {
+        "capture_s": 0.001774876,
+        "write_s": 0.913785491,
+        "open_s": 0.0,
+        "verify_s": 0.0,
+        "apply_s": 0.0,
+        "peak_rss_kib": 34236,
+        "rusage_peak_rss_kib": 34236
+      },
+      "read": {
+        "capture_s": 0.0,
+        "write_s": 0.0,
+        "open_s": 0.00014959,
+        "verify_s": 0.017315696,
+        "apply_s": 0.028383003,
+        "peak_rss_kib": 7620,
+        "rusage_peak_rss_kib": 30052
+      },
+      "archive_bytes": 5292852,
+      "archive_sha256": "251d56f955b4a139b13f20a94383cdc1108afd80d1b64a5d4a3810c184d04fa3",
+      "correctness": "passed"
+    }
+  ],
+  "status": "completed",
+  "scope": "Synthetic mixed files; warm page cache; one untimed warmup per mode/library; same original-written read input; default codec levels, whose native tuning is incomplete; no fsync/durable-media throughput claim.",
+  "source_content_preserved": true,
+  "summary": [
+    {
+      "mode": "none",
+      "original": {
+        "capture_write_s": {
+          "median": 0.036200048,
+          "min": 0.035601846,
+          "max": 0.045711051
+        },
+        "open_s": {
+          "median": 5.5805e-05,
+          "min": 5.4695e-05,
+          "max": 5.7879e-05
+        },
+        "verify_s": {
+          "median": 0.010364783,
+          "min": 0.01013223,
+          "max": 0.010558857
+        },
+        "apply_s": {
+          "median": 0.017859436,
+          "min": 0.017518181,
+          "max": 0.018236826
+        },
+        "write_peak_rss_mib": {
+          "median": 3.33203125,
+          "min": 3.30859375,
+          "max": 3.35546875
+        },
+        "read_peak_rss_mib": {
+          "median": 2.98046875,
+          "min": 2.9609375,
+          "max": 3.0
+        },
+        "archive_mib": {
+          "median": 17.09857940673828,
+          "min": 17.09857940673828,
+          "max": 17.09857940673828
+        }
+      },
+      "native": {
+        "capture_write_s": {
+          "median": 0.038885514999999996,
+          "min": 0.038373107,
+          "max": 0.040162153
+        },
+        "open_s": {
+          "median": 0.000154052,
+          "min": 0.000149737,
+          "max": 0.000158042
+        },
+        "verify_s": {
+          "median": 0.01094835,
+          "min": 0.010817209,
+          "max": 0.011158219
+        },
+        "apply_s": {
+          "median": 0.022511628,
+          "min": 0.021995702,
+          "max": 0.022818988
+        },
+        "write_peak_rss_mib": {
+          "median": 5.1015625,
+          "min": 5.0,
+          "max": 5.24609375
+        },
+        "read_peak_rss_mib": {
+          "median": 5.0625,
+          "min": 4.9609375,
+          "max": 5.12890625
+        },
+        "archive_mib": {
+          "median": 17.09857940673828,
+          "min": 17.09857940673828,
+          "max": 17.09857940673828
+        }
+      }
+    },
+    {
+      "mode": "xpress",
+      "original": {
+        "capture_write_s": {
+          "median": 0.071076791,
+          "min": 0.070005466,
+          "max": 0.094927511
+        },
+        "open_s": {
+          "median": 5.6139e-05,
+          "min": 5.3643e-05,
+          "max": 8.9134e-05
+        },
+        "verify_s": {
+          "median": 0.018603832,
+          "min": 0.018283599,
+          "max": 0.023498985
+        },
+        "apply_s": {
+          "median": 0.026296793,
+          "min": 0.026037236,
+          "max": 0.033520806
+        },
+        "write_peak_rss_mib": {
+          "median": 3.82421875,
+          "min": 3.71484375,
+          "max": 3.84765625
+        },
+        "read_peak_rss_mib": {
+          "median": 3.0859375,
+          "min": 3.05859375,
+          "max": 3.09765625
+        },
+        "archive_mib": {
+          "median": 5.630429267883301,
+          "min": 5.630429267883301,
+          "max": 5.630429267883301
+        }
+      },
+      "native": {
+        "capture_write_s": {
+          "median": 0.085618477,
+          "min": 0.085390848,
+          "max": 0.12148020899999999
+        },
+        "open_s": {
+          "median": 0.000159898,
+          "min": 0.000152733,
+          "max": 0.000221388
+        },
+        "verify_s": {
+          "median": 0.012951854,
+          "min": 0.012804385,
+          "max": 0.015184875
+        },
+        "apply_s": {
+          "median": 0.024608955,
+          "min": 0.024273038,
+          "max": 0.032908459
+        },
+        "write_peak_rss_mib": {
+          "median": 11.73828125,
+          "min": 11.62890625,
+          "max": 11.80078125
+        },
+        "read_peak_rss_mib": {
+          "median": 5.08984375,
+          "min": 5.07421875,
+          "max": 5.15234375
+        },
+        "archive_mib": {
+          "median": 5.630681037902832,
+          "min": 5.630681037902832,
+          "max": 5.630681037902832
+        }
+      }
+    },
+    {
+      "mode": "lzx",
+      "original": {
+        "capture_write_s": {
+          "median": 0.29886823700000004,
+          "min": 0.298114883,
+          "max": 0.306457055
+        },
+        "open_s": {
+          "median": 5.5748e-05,
+          "min": 5.5019e-05,
+          "max": 6.1492e-05
+        },
+        "verify_s": {
+          "median": 0.012980764,
+          "min": 0.012865155,
+          "max": 0.013133231
+        },
+        "apply_s": {
+          "median": 0.020546501,
+          "min": 0.020346026,
+          "max": 0.020637614
+        },
+        "write_peak_rss_mib": {
+          "median": 4.578125,
+          "min": 4.55078125,
+          "max": 4.58203125
+        },
+        "read_peak_rss_mib": {
+          "median": 3.06640625,
+          "min": 3.0546875,
+          "max": 3.0859375
+        },
+        "archive_mib": {
+          "median": 5.578100204467773,
+          "min": 5.578100204467773,
+          "max": 5.578100204467773
+        }
+      },
+      "native": {
+        "capture_write_s": {
+          "median": 0.175065233,
+          "min": 0.174266279,
+          "max": 0.18221338
+        },
+        "open_s": {
+          "median": 0.000154674,
+          "min": 0.000151206,
+          "max": 0.000192345
+        },
+        "verify_s": {
+          "median": 0.017097721,
+          "min": 0.016903526,
+          "max": 0.041843931
+        },
+        "apply_s": {
+          "median": 0.028699344,
+          "min": 0.028420067,
+          "max": 0.043165368
+        },
+        "write_peak_rss_mib": {
+          "median": 12.8046875,
+          "min": 12.68359375,
+          "max": 12.8984375
+        },
+        "read_peak_rss_mib": {
+          "median": 5.15234375,
+          "min": 5.0625,
+          "max": 5.21875
+        },
+        "archive_mib": {
+          "median": 5.578235626220703,
+          "min": 5.578235626220703,
+          "max": 5.578235626220703
+        }
+      }
+    },
+    {
+      "mode": "lzms",
+      "original": {
+        "capture_write_s": {
+          "median": 0.685942484,
+          "min": 0.683986613,
+          "max": 0.68773635
+        },
+        "open_s": {
+          "median": 5.5998e-05,
+          "min": 5.4241e-05,
+          "max": 6.2517e-05
+        },
+        "verify_s": {
+          "median": 0.027420231,
+          "min": 0.027389787,
+          "max": 0.027544306
+        },
+        "apply_s": {
+          "median": 0.034804975,
+          "min": 0.034760412,
+          "max": 0.034934287
+        },
+        "write_peak_rss_mib": {
+          "median": 4.42578125,
+          "min": 4.3828125,
+          "max": 4.4296875
+        },
+        "read_peak_rss_mib": {
+          "median": 3.2734375,
+          "min": 3.10546875,
+          "max": 3.28515625
+        },
+        "archive_mib": {
+          "median": 5.546602249145508,
+          "min": 5.546602249145508,
+          "max": 5.546602249145508
+        }
+      },
+      "native": {
+        "capture_write_s": {
+          "median": 0.340895878,
+          "min": 0.340524976,
+          "max": 0.344863479
+        },
+        "open_s": {
+          "median": 0.000155585,
+          "min": 0.000152644,
+          "max": 0.000160426
+        },
+        "verify_s": {
+          "median": 0.02350487,
+          "min": 0.023321266,
+          "max": 0.025292837
+        },
+        "apply_s": {
+          "median": 0.035565057,
+          "min": 0.035174921,
+          "max": 0.036216218
+        },
+        "write_peak_rss_mib": {
+          "median": 12.10546875,
+          "min": 12.00390625,
+          "max": 12.171875
+        },
+        "read_peak_rss_mib": {
+          "median": 5.3984375,
+          "min": 5.2265625,
+          "max": 5.46875
+        },
+        "archive_mib": {
+          "median": 5.547706604003906,
+          "min": 5.547706604003906,
+          "max": 5.547706604003906
+        }
+      }
+    },
+    {
+      "mode": "solid-lzms",
+      "original": {
+        "capture_write_s": {
+          "median": 0.721858385,
+          "min": 0.719815533,
+          "max": 0.738246061
+        },
+        "open_s": {
+          "median": 5.3268e-05,
+          "min": 5.1371e-05,
+          "max": 5.5152e-05
+        },
+        "verify_s": {
+          "median": 0.02017334,
+          "min": 0.019830339,
+          "max": 0.02059048
+        },
+        "apply_s": {
+          "median": 0.027110808,
+          "min": 0.026563369,
+          "max": 0.027287064
+        },
+        "write_peak_rss_mib": {
+          "median": 14.1328125,
+          "min": 14.03515625,
+          "max": 14.1640625
+        },
+        "read_peak_rss_mib": {
+          "median": 4.2578125,
+          "min": 4.109375,
+          "max": 4.27734375
+        },
+        "archive_mib": {
+          "median": 5.04728889465332,
+          "min": 5.04728889465332,
+          "max": 5.04728889465332
+        }
+      },
+      "native": {
+        "capture_write_s": {
+          "median": 0.896436308,
+          "min": 0.89209473,
+          "max": 0.915560367
+        },
+        "open_s": {
+          "median": 0.000151108,
+          "min": 0.000146149,
+          "max": 0.000156798
+        },
+        "verify_s": {
+          "median": 0.01695053,
+          "min": 0.016765655,
+          "max": 0.017315696
+        },
+        "apply_s": {
+          "median": 0.028226993,
+          "min": 0.027398927,
+          "max": 0.028383003
+        },
+        "write_peak_rss_mib": {
+          "median": 33.48828125,
+          "min": 33.421875,
+          "max": 33.67578125
+        },
+        "read_peak_rss_mib": {
+          "median": 7.44140625,
+          "min": 7.36328125,
+          "max": 7.5
+        },
+        "archive_mib": {
+          "median": 5.047657012939453,
+          "min": 5.047657012939453,
+          "max": 5.047657012939453
+        }
+      }
+    }
+  ],
+  "loadavg_end": "1.98 2.38 3.89 3/2472 1498",
+  "completed_at_unix": 1791064015.8336759
+}

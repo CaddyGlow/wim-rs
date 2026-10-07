@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-05",
+  "scope": "Native offline stream replay, not Windows installation or final WIM publication",
+  "source_chain": [
+    {
+      "path": "/data/cache/qcow2-source-prepared-1005-v2/vm-state/overlay.qcow2",
+      "bytes": 1950679040,
+      "sha256": "bf7bc3cecfb9d696c82f0869cd8f3c04c74bd644648c690405132399f4091a0a",
+      "unchanged": true
+    },
+    {
+      "path": "/home/rick/projects-caddy/windows-uup/vm-state/qcow2-source-1005/overlay.qcow2",
+      "bytes": 4352770048,
+      "sha256": "cfa75f1df1c0328f2ef19e0752678a6714d67ed0787c75626d7d2f8cfebb5762",
+      "unchanged": true
+    },
+    {
+      "path": "/home/rick/.vm-base/win11-secure/disk.qcow2",
+      "bytes": 10026090496,
+      "sha256": "35299ad09fb946d45374f9637ccc4344acb3488b482d9571854d007b666b2abe",
+      "unchanged": true
+    }
+  ],
+  "chunks": 65536,
+  "exclusions": "Exact nine installation profile v3 rules; ASCII case fold",
+  "manifest_nodes": 176484,
+  "unique_reader_streams": 97547,
+  "logical_bytes_each_pass": 16782130403,
+  "failures": [
+    {
+      "session": 1519,
+      "stage": "Original readers, first pass",
+      "stream": 61951,
+      "bytes_before_failure": 6146278493,
+      "cause": "work limit16777216 exhausted"
+    },
+    {
+      "session": 94562,
+      "stage": "QCOW entry cache, first pass",
+      "stream": 66143,
+      "bytes_before_failure": 6922490812,
+      "cause": "sharedcache512MiB exhausted by retained WOF decoded chunks"
+    },
+    {
+      "session": 28758,
+      "stage": "QCOW cache + WOF EOF release, second pass",
+      "stream": 66555,
+      "bytes_before_failure": 7002226560,
+      "cause": "work limit16777216 exhausted"
+    }
+  ],
+  "success": {
+    "session": 63334,
+    "exit": 0,
+    "passes": 2,
+    "metadata_bytes": 1520798999,
+    "live_cache_bytes": 415238812,
+    "work_items": 13051354,
+    "decompressed_bytes": 24440233786,
+    "binary": "/data/cache/qcow2-capture-sixth-20261005/replay-streams-batched",
+    "binary_sha256": "574606251095d5bf43368755ad48410ae245d4317696145d384feb365dc56695",
+    "log": "/data/cache/qcow2-capture-sixth-20261005/replay-streams-batched.log",
+    "log_sha256": "b927233b0ce95525b1bfc8f4a0afa666523205ebebcce3c5f9e27703085dd889",
+    "producer_boundary": "Replay binary includes bounded immutable QCOW table cache, WOF EOF release, bounded contiguous encoded input batching; predates subsequent zero-only QCOW work-charge fix"
+  },
+  "fixes": [
+    "Immutable validated QCOW L1/L2 words use conservative128byte sharedlivecache reservations; metadata charged only on materialization; percontainer1048576entrybound",
+    "WOF completed readers release decoded chunk cache at EOF; partial reads preserve currentchunk",
+    "WOF input batches <=64KiB and callerbufferceiling; scratchleases beforeallocation; perchunkvalidation/work/decodedlimits retained",
+    "Subsequent standalone zero-only QCOW fills chargework even warmedcache"
+  ],
+  "validation": {
+    "disk_units": 6,
+    "qcow_tests": 20,
+    "independent_qemu_oracles": 5,
+    "ntfs_units": 14,
+    "clippy": "disk+NTFSalltargetsallfeatureswarningsdeniedpassed",
+    "independent_compressed_bytes": "Existing upstream C XPRESSoracle full and partial WOF reads passed"
+  },
+  "caps_raised": false
+}

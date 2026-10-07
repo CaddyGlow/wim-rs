@@ -1,0 +1,31 @@
+{
+  "wim-uup-host-suite-final.log": {
+    "sha256": "df64290f604d823b1146c81e27ac1d759b4234c78589858d4d1e345b0e4258c9",
+    "passed": 340,
+    "ignored": 1,
+    "failed_markers": false
+  },
+  "wim-format-cache-full-tests.log": {
+    "sha256": "6773c4a8fea7beb1e99e584ceafc4db5be74efb54bb5970475536b1798f29811",
+    "passed": 143,
+    "ignored": 0,
+    "failed_markers": false
+  },
+  "wim-cache-writer-tests.log": {
+    "sha256": "c15b02bb9cc1d894273ee5ebc94202274bc16fc9fba4bf9f2834dc8150811486",
+    "passed": 110,
+    "ignored": 0,
+    "failed_markers": false
+  },
+  "wim-empty-directories-host.log": {
+    "sha256": "6e46503b98199bc0f037b35af701c912824754e3ad66add2aed57f36a0bcdd93",
+    "passed": 254,
+    "failed_markers": false
+  },
+  "windows-uup-final-ntfs-tests.log": {
+    "sha256": "2b452cdd2dfe4926aada2bdbe17a8c238defa1a329fec1baee1a2195629c04f8",
+    "passed": 395,
+    "ignored": 3,
+    "failed_markers": false
+  }
+}

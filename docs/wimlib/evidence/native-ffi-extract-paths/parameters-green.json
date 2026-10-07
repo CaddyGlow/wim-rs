@@ -1,0 +1,7 @@
+{
+  "cases": 285,
+  "observations": 1781,
+  "mismatches": [],
+  "source_preserved": true,
+  "oracle_cpu_workaround": "WIMLIB_DISABLE_CPU_FEATURES=sse4.2"
+}

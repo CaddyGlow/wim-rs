@@ -1,0 +1,9 @@
+{
+  "real19group24path_plan_byteexact": true,
+  "plan_sha256": "1b1e1c47b2c34f22f88fa52de6b191a4e371cc9425a1ed42a65a82c8130f4fc3",
+  "oversized_input_bytes": 67108865,
+  "oversized_input_rejected_before_parsing": true,
+  "oversized_exit": 1,
+  "all_target_all_feature_locked_clippy_exit": 0,
+  "production_execution_gates_unchanged": true
+}

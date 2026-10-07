@@ -1,0 +1,40 @@
+{
+  "records": [
+    {
+      "original": "/home/rick/projects-caddy/windows-uup/vm-state/win11-26100-1742-installed-gate",
+      "relocated": "/data/cache/win11-26100-1742-installed-gate-relocated",
+      "files_sha256": {
+        "instance.env": "bd5565b4b9696f4d7d169b9d958780f5854934939e3c55ff042169471390341b",
+        "OVMF_VARS.fd": "1d2b7d10717583db33b121d27989060c23771769cdce3841875695249ead700e",
+        "swtpm.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "serial.log": "1469acf9a5b9e8243789736d9ff4050885ff8dbf7be167ea8d0c085a670e6b95",
+        "overlay.qcow2": "39702e9c2caa6ae0313951fe8e02fb5a370aa61d07385eb0d736e35b5b2a879d",
+        "serial2.log": "452c59807853d2004e330e1e80499d3a8d439183173c2e0c8b3684517ba562bc",
+        "tpm/.lock": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "tpm/tpm2-00.permall": "2c881db58781fc1e3592af473f586d47841886e7087d461dfc397960a7fa0336"
+      },
+      "exact_hash_match": true,
+      "dirty": false,
+      "backing": "/home/rick/.vm-base/win11-24h2-installer/disk.qcow2"
+    },
+    {
+      "original": "/home/rick/projects-caddy/windows-uup/vm-state/win11-26100-1742-installed-gate-v2",
+      "relocated": "/data/cache/win11-26100-1742-installed-gate-v2-relocated",
+      "files_sha256": {
+        "instance.env": "3e80e5d50ab17218417d9ace893dedf4de058d215fb78ae9b214e1ffb16597ee",
+        "OVMF_VARS.fd": "d06abb9bddd9fd5f38acc89f7be96d687871189ffbe233514b341474b2ff6a0a",
+        "swtpm.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "serial.log": "11f40eb1e057667dcd7299a0d963e2b03bee586ade432e3b4829a958ee00678f",
+        "overlay.qcow2": "100e574be2f85591ab2d64cc2fc0e4d2942197bcc0e4e4248ca06ad309e465b3",
+        "serial2.log": "8fe52b881352f6c69bf942f3ac969bb18717d6f5e51bd6581e2c4caf8392ed27",
+        "tpm/.lock": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "tpm/tpm2-00.permall": "68376a7f5afb97e1f5b7efd5063ab0401570b8e1864be7da42167b4e59812eb9"
+      },
+      "exact_hash_match": true,
+      "dirty": false,
+      "backing": "/home/rick/.vm-base/win11-24h2-installer/disk.qcow2"
+    }
+  ],
+  "data_deleted": false,
+  "host_process_check": "No running QEMU command referenced either historical test VM at relocation start."
+}

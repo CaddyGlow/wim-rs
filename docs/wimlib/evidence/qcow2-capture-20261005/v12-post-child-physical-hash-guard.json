@@ -1,0 +1,78 @@
+{
+  "complete": true,
+  "all_unchanged": true,
+  "launcher_terminal_exit": 0,
+  "rows": [
+    {
+      "path": "/data/cache/qcow2-oobe-preparation-control-20261005/vm-state/overlay.qcow2",
+      "bytes": 1978662912,
+      "sha256": "59da49ab227850c6d62a2d555f40a43bf19a8f8a7af3d10eedb2395b62799282",
+      "expected_sha256": "59da49ab227850c6d62a2d555f40a43bf19a8f8a7af3d10eedb2395b62799282",
+      "unchanged": true
+    },
+    {
+      "path": "/home/rick/.cache/windows-capture-recovery-20261005/prepared-source.qcow2",
+      "bytes": 1950679040,
+      "sha256": "bf7bc3cecfb9d696c82f0869cd8f3c04c74bd644648c690405132399f4091a0a",
+      "expected_sha256": "bf7bc3cecfb9d696c82f0869cd8f3c04c74bd644648c690405132399f4091a0a",
+      "unchanged": true
+    },
+    {
+      "path": "/home/rick/projects-caddy/windows-uup/vm-state/qcow2-source-1005/overlay.qcow2",
+      "bytes": 4352770048,
+      "sha256": "cfa75f1df1c0328f2ef19e0752678a6714d67ed0787c75626d7d2f8cfebb5762",
+      "expected_sha256": "cfa75f1df1c0328f2ef19e0752678a6714d67ed0787c75626d7d2f8cfebb5762",
+      "unchanged": true
+    },
+    {
+      "path": "/home/rick/.vm-base/win11-secure/disk.qcow2",
+      "bytes": 10026090496,
+      "sha256": "35299ad09fb946d45374f9637ccc4344acb3488b482d9571854d007b666b2abe",
+      "expected_sha256": "35299ad09fb946d45374f9637ccc4344acb3488b482d9571854d007b666b2abe",
+      "unchanged": true
+    },
+    {
+      "path": "/data/cache/qcow2-autologon-disabled-20261005/capture/install.wim",
+      "bytes": 8234056237,
+      "sha256": "9791aae2127f1688c99f9928e61fe4ff41b37f184566d880d80fe4d619117f73",
+      "expected_sha256": "9791aae2127f1688c99f9928e61fe4ff41b37f184566d880d80fe4d619117f73",
+      "unchanged": true
+    },
+    {
+      "path": "/data/cache/qcow2-autologon-disabled-20261005/capture/native-captured.iso",
+      "bytes": 9045383168,
+      "sha256": "d60424c635cec6d9b7bf73512c73816025fc8b82dac1783c320ffa79bbab31d4",
+      "expected_sha256": "d60424c635cec6d9b7bf73512c73816025fc8b82dac1783c320ffa79bbab31d4",
+      "unchanged": true
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/seed.iso",
+      "bytes": 376832,
+      "sha256": "b5f941af7ea093a3286ba1128a34ce06fb3fd6f6ed8b3f71ff409cd1cf4f14f1",
+      "expected_sha256": "b5f941af7ea093a3286ba1128a34ce06fb3fd6f6ed8b3f71ff409cd1cf4f14f1",
+      "unchanged": true
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/immutable-pre-servicing-baseline/disk.qcow2",
+      "bytes": 19302514688,
+      "sha256": "b3bc06631a98880fc985632ef13fee1bd2ce8c7c7a7cc0e6fbaf4f4b4226a6e1",
+      "expected_sha256": "b3bc06631a98880fc985632ef13fee1bd2ce8c7c7a7cc0e6fbaf4f4b4226a6e1",
+      "unchanged": true
+    },
+    {
+      "path": "/data/cache/qcow2-installation-autologon-disabled-1005-v12/immutable-pre-servicing-baseline/OVMF_VARS.fd",
+      "bytes": 540672,
+      "sha256": "2c807f002a6a4201f7846a4df676a4934133468dd6405d85d31cbb793863c1ca",
+      "expected_sha256": "2c807f002a6a4201f7846a4df676a4934133468dd6405d85d31cbb793863c1ca",
+      "unchanged": true
+    },
+    {
+      "path": "/home/rick/.vm-base/win11-24h2-installer/disk.qcow2",
+      "bytes": 197632,
+      "sha256": "19eb403b49ebb8007177a5f8cc49713c69a517d81c30fb31673336e5dd298cc3",
+      "expected_sha256": "19eb403b49ebb8007177a5f8cc49713c69a517d81c30fb31673336e5dd298cc3",
+      "unchanged": true
+    }
+  ],
+  "completed_utc": 1791237361.0980167
+}

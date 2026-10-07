@@ -1,0 +1,11 @@
+   Compiling wim-ffi v0.1.0 (/home/rick/projects-caddy/windows-uup/crates/wimlib-rs/wim-ffi)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.29s
+     Running tests/info.rs (crates/wimlib-rs/target/debug/deps/info-29b81156a6f81269)
+
+running 3 tests
+test integrity_presence_uses_header_offset_not_resource_size ... ok
+test wim_info_has_original_layout_and_masked_mutations_are_atomic ... ok
+test output_compression_settings_repair_chunks_and_preserve_input_info ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

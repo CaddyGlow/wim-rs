@@ -1,0 +1,133 @@
+{
+  "source": "/data/cache/qcow2-object-id-boottrace-20261006/boot-all-events-stacks.xml",
+  "export_sha256": "31f263555caf0c49ab6dc7aec44cc6be08db71b5a780541c8b433afc9500560b",
+  "event_count": 816091,
+  "process": {
+    "pid": "2068",
+    "command_line": "C:\\WINDOWS\\System32\\svchost.exe -k LocalSystemNetworkRestricted -p -s TrkWks",
+    "modules": [
+      {
+        "path": "C:\\Windows\\System32\\svchost.exe",
+        "base": "0x7ff666360000",
+        "size": "77824"
+      },
+      {
+        "path": "C:\\Windows\\System32\\trkwks.dll",
+        "base": "0x7ffc54870000",
+        "size": "143360"
+      },
+      {
+        "path": "C:\\Windows\\System32\\kernel.appcore.dll",
+        "base": "0x7ffc6a050000",
+        "size": "110592"
+      },
+      {
+        "path": "C:\\Windows\\System32\\cfgmgr32.dll",
+        "base": "0x7ffc6ae30000",
+        "size": "356352"
+      },
+      {
+        "path": "C:\\Windows\\System32\\win32u.dll",
+        "base": "0x7ffc6bd40000",
+        "size": "159744"
+      },
+      {
+        "path": "C:\\Windows\\System32\\gdi32full.dll",
+        "base": "0x7ffc6bd70000",
+        "size": "1224704"
+      },
+      {
+        "path": "C:\\Windows\\System32\\KernelBase.dll",
+        "base": "0x7ffc6bea0000",
+        "size": "4132864"
+      },
+      {
+        "path": "C:\\Windows\\System32\\msvcp_win.dll",
+        "base": "0x7ffc6c2a0000",
+        "size": "667648"
+      },
+      {
+        "path": "C:\\Windows\\System32\\bcryptprimitives.dll",
+        "base": "0x7ffc6c350000",
+        "size": "675840"
+      },
+      {
+        "path": "C:\\Windows\\System32\\ucrtbase.dll",
+        "base": "0x7ffc6c570000",
+        "size": "1355776"
+      },
+      {
+        "path": "C:\\Windows\\System32\\user32.dll",
+        "base": "0x7ffc6c780000",
+        "size": "1855488"
+      },
+      {
+        "path": "C:\\Windows\\System32\\kernel32.dll",
+        "base": "0x7ffc6c970000",
+        "size": "823296"
+      },
+      {
+        "path": "C:\\Windows\\System32\\rpcrt4.dll",
+        "base": "0x7ffc6d5d0000",
+        "size": "1146880"
+      },
+      {
+        "path": "C:\\Windows\\System32\\combase.dll",
+        "base": "0x7ffc6d920000",
+        "size": "3678208"
+      },
+      {
+        "path": "C:\\Windows\\System32\\msvcrt.dll",
+        "base": "0x7ffc6dcb0000",
+        "size": "692224"
+      },
+      {
+        "path": "C:\\Windows\\System32\\sechost.dll",
+        "base": "0x7ffc6e540000",
+        "size": "684032"
+      },
+      {
+        "path": "C:\\Windows\\System32\\gdi32.dll",
+        "base": "0x7ffc6e970000",
+        "size": "176128"
+      },
+      {
+        "path": "C:\\Windows\\System32\\ntdll.dll",
+        "base": "0x7ffc6e9e0000",
+        "size": "2519040"
+      }
+    ]
+  },
+  "setter_events_xml": [
+    "<event>\n<ProcessIndex>81</ProcessIndex>\n<Time_of_Day>10:20:36.4959853 PM</Time_of_Day>\n<Process_Name>svchost.exe</Process_Name>\n<PID>2068</PID>\n<Operation>FileSystemControl</Operation>\n<Path>T:\\objectid-scratch-8e13fcf95dd746739b3ba4f1b14a64af\\alias-0.bin</Path>\n<Result>SUCCESS</Result>\n<Detail>Control: FSCTL_SET_OBJECT_ID_EXTENDED</Detail>\n<stack>\n<frame>\n<depth>0</depth>\n<address>0xfffff806641abaaf</address>\n<path>C:\\WINDOWS\\System32\\drivers\\FLTMGR.SYS</path>\n<location>FLTMGR.SYS + 0xbaaf</location>\n</frame>\n\n<frame>\n<depth>1</depth>\n<address>0xfffff806641ab1a0</address>\n<path>C:\\WINDOWS\\System32\\drivers\\FLTMGR.SYS</path>\n<location>FLTMGR.SYS + 0xb1a0</location>\n</frame>\n\n<frame>\n<depth>2</depth>\n<address>0xfffff806641bc0ef</address>\n<path>C:\\WINDOWS\\System32\\drivers\\FLTMGR.SYS</path>\n<location>FLTMGR.SYS + 0x1c0ef</location>\n</frame>\n\n<frame>\n<depth>3</depth>\n<address>0xfffff806641fef20</address>\n<path>C:\\WINDOWS\\System32\\drivers\\FLTMGR.SYS</path>\n<location>FLTMGR.SYS + 0x5ef20</location>\n</frame>\n\n<frame>\n<depth>4</depth>\n<address>0xfffff806d29741fb</address>\n<path>C:\\WINDOWS\\system32\\ntoskrnl.exe</path>\n<location>ntoskrnl.exe + 0x3741fb</location>\n</frame>\n\n<frame>\n<depth>5</depth>\n<address>0xfffff806d2974173</address>\n<path>C:\\WINDOWS\\system32\\ntoskrnl.exe</path>\n<location>ntoskrnl.exe + 0x374173</location>\n</frame>\n\n<frame>\n<depth>6</depth>\n<address>0xfffff806d2ec34c5</address>\n<path>C:\\WINDOWS\\system32\\ntoskrnl.exe</path>\n<location>ntoskrnl.exe + 0x8c34c5</location>\n</frame>\n\n<frame>\n<depth>7</depth>\n<address>0xfffff806d2ec230c</address>\n<path>C:\\WINDOWS\\system32\\ntoskrnl.exe</path>\n<location>ntoskrnl.exe + 0x8c230c</location>\n</frame>\n\n<frame>\n<depth>8</depth>\n<address>0xfffff806d2ec115e</address>\n<path>C:\\WINDOWS\\system32\\ntoskrnl.exe</path>\n<location>ntoskrnl.exe + 0x8c115e</location>\n</frame>\n\n<frame>\n<depth>9</depth>\n<address>0xfffff806d2cbe355</address>\n<path>C:\\WINDOWS\\system32\\ntoskrnl.exe</path>\n<location>ntoskrnl.exe + 0x6be355</location>\n</frame>\n\n<frame>\n<depth>10</depth>\n<address>0x7ffc6eb421b4</address>\n<path>C:\\Windows\\System32\\ntdll.dll</path>\n<location>ntdll.dll + 0x1621b4</location>\n</frame>\n\n<frame>\n<depth>11</depth>\n<address>0x7ffc5487cfab</address>\n<path>C:\\Windows\\System32\\trkwks.dll</path>\n<location>trkwks.dll + 0xcfab</location>\n</frame>\n\n<frame>\n<depth>12</depth>\n<address>0x7ffc5487fdf2</address>\n<path>C:\\Windows\\System32\\trkwks.dll</path>\n<location>trkwks.dll + 0xfdf2</location>\n</frame>\n\n<frame>\n<depth>13</depth>\n<address>0x7ffc5487c4a2</address>\n<path>C:\\Windows\\System32\\trkwks.dll</path>\n<location>trkwks.dll + 0xc4a2</location>\n</frame>\n\n<frame>\n<depth>14</depth>\n<address>0x7ffc548751a9</address>\n<path>C:\\Windows\\System32\\trkwks.dll</path>\n<location>trkwks.dll + 0x51a9</location>\n</frame>\n\n<frame>\n<depth>15</depth>\n<address>0x7ffc54877c8a</address>\n<path>C:\\Windows\\System32\\trkwks.dll</path>\n<location>trkwks.dll + 0x7c8a</location>\n</frame>\n\n<frame>\n<depth>16</depth>\n<address>0x7ffc54871143</address>\n<path>C:\\Windows\\System32\\trkwks.dll</path>\n<location>trkwks.dll + 0x1143</location>\n</frame>\n\n<frame>\n<depth>17</depth>\n<address>0x7ffc6ea52888</address>\n<path>C:\\Windows\\System32\\ntdll.dll</path>\n<location>ntdll.dll + 0x72888</location>\n</frame>\n\n<frame>\n<depth>18</depth>\n<address>0x7ffc6ea51281</address>\n<path>C:\\Windows\\System32\\ntdll.dll</path>\n<location>ntdll.dll + 0x71281</location>\n</frame>\n\n<frame>\n<depth>19</depth>\n<address>0x7ffc6ea560a9</address>\n<path>C:\\Windows\\System32\\ntdll.dll</path>\n<location>ntdll.dll + 0x760a9</location>\n</frame>\n\n<frame>\n<depth>20</depth>\n<address>0x7ffc6c99e8d7</address>\n<path>C:\\Windows\\System32\\kernel32.dll</path>\n<location>kernel32.dll + 0x2e8d7</location>\n</frame>\n\n<frame>\n<depth>21</depth>\n<address>0x7ffc6ea6c48c</address>\n<path>C:\\Windows\\System32\\ntdll.dll</path>\n<location>ntdll.dll + 0x8c48c</location>\n</frame>\n</stack>\n</event>\n\n"
+  ],
+  "scope": "Independent bounded XML extraction; export digest supplied by verified transfer receipt. No setter input bytes inferred here.",
+  "independent_full_export_hash_verified": true,
+  "trkwks_stack": [
+    {
+      "address": "0x7ffc5487cfab",
+      "location": "trkwks.dll + 0xcfab"
+    },
+    {
+      "address": "0x7ffc5487fdf2",
+      "location": "trkwks.dll + 0xfdf2"
+    },
+    {
+      "address": "0x7ffc5487c4a2",
+      "location": "trkwks.dll + 0xc4a2"
+    },
+    {
+      "address": "0x7ffc548751a9",
+      "location": "trkwks.dll + 0x51a9"
+    },
+    {
+      "address": "0x7ffc54877c8a",
+      "location": "trkwks.dll + 0x7c8a"
+    },
+    {
+      "address": "0x7ffc54871143",
+      "location": "trkwks.dll + 0x1143"
+    }
+  ],
+  "correlation": "Observed native setter stack matches exact captured DLL zero-input caller and conditional index sweep. This establishes execution of the analyzed clearing path; zero input is inferred from those exact instructions, not directly captured from the request buffer. Higher-level trigger and a preserving restore protocol remain unresolved."
+}

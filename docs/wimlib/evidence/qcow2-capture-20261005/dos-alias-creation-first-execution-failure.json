@@ -1,0 +1,7 @@
+{
+  "receipt": "/data/cache/qcow2-retained-fixtures-20261006/alias-creation-execute-v2.json",
+  "sha256": "1ac26cf0f0ee59373c3a2df55ee21a708882853864741a024d405f295a4daf4e",
+  "exit": 1,
+  "stderr": "C:\\qcow2-fixtures\\alias-creation.ps1 : Item has already been added. Key in dictionary: 'Parent'  Key being added: \r\n'Parent'\r\nAt line:1 char:63\r\n+ ... g]::new($false); & C:\\qcow2-fixtures\\alias-creation.ps1 -Parent 'U:\\'\r\n+                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n    + CategoryInfo          : OperationStopped: (:) [alias-creation.ps1], ArgumentException\r\n    + FullyQualifiedErrorId : System.ArgumentException,alias-creation.ps1\r\n \r\n",
+  "finding": "PowerShell combines two single-row ordered dictionaries using +, raising duplicate Parent. This is a harness execution failure, not evidence of NTFS alias support or lack of support. Existing experiment root and disk preserved; explicit array concatenation fix pending."
+}

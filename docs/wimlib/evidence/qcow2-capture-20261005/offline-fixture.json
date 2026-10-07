@@ -1,0 +1,1812 @@
+{
+  "entries": [
+    {
+      "EaRaw": "",
+      "Info": {
+        "Access": 134356691415987690,
+        "Attributes": 48,
+        "Creation": 134356680024369571,
+        "Identity": "000200000000871A",
+        "Write": 134356691415965913
+      },
+      "ObjectIdRaw": "",
+      "Path": "",
+      "ReparseRaw": "",
+      "SecurityRaw": "0100048488000000980000000000000014000000020074000500000000131800ff011f000102000000000005200000002002000000131400ff011f0001010000000000051200000000131800a90012000102000000000005200000002102000000101400bf01130001010000000000050b000000001b1400000001e001010000000000050b00000001020000000000052000000020020000010100000000000512000000",
+      "Short": "NATIVE~1",
+      "Streams": [
+        {
+          "Hash": "26a66b061e8f48f39927c312f25293959729eee95978e2892d49d3512a5cc092",
+          "Length": 3,
+          "Name": "root-data"
+        }
+      ]
+    },
+    {
+      "EaRaw": "0000000080070400544553542e45410000ff1200",
+      "Info": {
+        "Access": 134356691415927790,
+        "Attributes": 32,
+        "Creation": 134356680024658977,
+        "Identity": "0002000000008720",
+        "Write": 134356691415927790
+      },
+      "ObjectIdRaw": "663d9b6da3c0f111b4a8998f604d14a366810d707d6c0c45bedea5101764417b663d9b6da3c0f111b4a8998f604d14a300000000000000000000000000000000",
+      "Path": "\\alias.bin",
+      "ReparseRaw": "",
+      "SecurityRaw": "0100048474000000840000000000000014000000020060000400000000101800ff011f000102000000000005200000002002000000101400ff011f0001010000000000051200000000101800a90012000102000000000005200000002102000000101400bf01130001010000000000050b00000001020000000000052000000020020000010100000000000512000000",
+      "Short": "",
+      "Streams": [
+        {
+          "Hash": "40aff2e9d2d8922e47afd4648e6967497158785fbd1da870e7110266bf944880",
+          "Length": 256,
+          "Name": ""
+        },
+        {
+          "Hash": "1cb38b0048cd74aa4ad03929609c295eddf70328b5e6cd4f4c87a1de75300143",
+          "Length": 23,
+          "Name": "metadata"
+        },
+        {
+          "Hash": "ae974d4a74c2371d8cfe842b7aa4f6698de8570526eeb3db1941b0b72311d470",
+          "Length": 3,
+          "Name": "stream000"
+        },
+        {
+          "Hash": "ff9b5729d5ed88f97042a190185d50112cecdbd62ff67f57dcde221e63bc95a7",
+          "Length": 3,
+          "Name": "stream001"
+        },
+        {
+          "Hash": "343dea739373f27707fd1b2da7df1e11da1df1e40778ecbc94e8a2351ad6acca",
+          "Length": 3,
+          "Name": "stream002"
+        },
+        {
+          "Hash": "2c05745ea36c2b74cad0d3454530bfebc818d14cc6d6f87293d493fe5d2e4dac",
+          "Length": 3,
+          "Name": "stream003"
+        },
+        {
+          "Hash": "caee32b9433c6af357a630e011279f9cd9eb5e523c0e0932d25fbdc77348ec8d",
+          "Length": 3,
+          "Name": "stream004"
+        },
+        {
+          "Hash": "d3fb83863766fb3a28935ba52c3ec0f132ffb66d5eca2652db67257bb03e0eab",
+          "Length": 3,
+          "Name": "stream005"
+        },
+        {
+          "Hash": "e501015a5de3f218d35d6b53d8861b1ce0e5b5a36639f0697227f8f632a3a212",
+          "Length": 3,
+          "Name": "stream006"
+        },
+        {
+          "Hash": "e709091c1247e72f9a5c09950722d9f4f83fbc18a2a70b6f2602bbcf2ca5c8d7",
+          "Length": 3,
+          "Name": "stream007"
+        },
+        {
+          "Hash": "4b95eb0b101a5d0c651ddf861aec8a9480414e25a2a633fe4e6332debb3294df",
+          "Length": 3,
+          "Name": "stream008"
+        },
+        {
+          "Hash": "255ff5c52250a1acd17fd5d96c167047f19a780afb156674056e54ff37230055",
+          "Length": 3,
+          "Name": "stream009"
+        },
+        {
+          "Hash": "08b5ee24954accc4e19536451cfcbb3aade791c400207c195916305436e30cb0",
+          "Length": 3,
+          "Name": "stream010"
+        },
+        {
+          "Hash": "00a65b0a2bdb329c64f9b76e23e74c9af5b392117095b8e468bd81caec9b538e",
+          "Length": 3,
+          "Name": "stream011"
+        },
+        {
+          "Hash": "193452fd361ba115940e722eeb6e3a3c0ad0b9a25568a973039242c3925dfa69",
+          "Length": 3,
+          "Name": "stream012"
+        },
+        {
+          "Hash": "323688123b5541ceb5a7fd18c4bc8c04f170245458687c04f8c7f935cdd7adfb",
+          "Length": 3,
+          "Name": "stream013"
+        },
+        {
+          "Hash": "ce4270d368753e3829420c4648f3e0386a193165fd793c74066d5288e7e746ae",
+          "Length": 3,
+          "Name": "stream014"
+        },
+        {
+          "Hash": "80ef1cf933e01177a07edee1eccaa46a4de5bec34fb8408305cbb5fd45374568",
+          "Length": 3,
+          "Name": "stream015"
+        },
+        {
+          "Hash": "e950b2feb3593f36b493015535849c9b8d3a4a760894225bbfa529835f322c69",
+          "Length": 3,
+          "Name": "stream016"
+        },
+        {
+          "Hash": "50696ac809b10c2097ac64e6738d1bae3650c370d9bed72d4d7a872bc35f9570",
+          "Length": 3,
+          "Name": "stream017"
+        },
+        {
+          "Hash": "c234c79b50969cd0d083f2972207156462a0a2c0729d7c4fb085d14c65900bdf",
+          "Length": 3,
+          "Name": "stream018"
+        },
+        {
+          "Hash": "8b36e884ed0835f65c95d33f9edfdae39a49098dd9cf9ab8d1d668dc10775869",
+          "Length": 3,
+          "Name": "stream019"
+        },
+        {
+          "Hash": "0b6668d57194c569c05eaa3810197d03e187fcb1cd432cd4a33ada5bf5511994",
+          "Length": 3,
+          "Name": "stream020"
+        },
+        {
+          "Hash": "f5d18f23b2a5521ff25cef3747b9c990f08298ddd0a3c3df21f49da747397774",
+          "Length": 3,
+          "Name": "stream021"
+        },
+        {
+          "Hash": "4c734446f3fd59b47558f99f65fcd3de6db8795ce790728df67c1244a07802c2",
+          "Length": 3,
+          "Name": "stream022"
+        },
+        {
+          "Hash": "d117ef6ceeecfeba7243f196ad0974d1398d2d74399b5f2e23c6673424a97290",
+          "Length": 3,
+          "Name": "stream023"
+        },
+        {
+          "Hash": "7863ef70b1765a9169a4df7aaad8bb7b8a594e3442a079fdcf714b5e16768551",
+          "Length": 3,
+          "Name": "stream024"
+        },
+        {
+          "Hash": "5a2b5308491e62960ca00594633c3ee23a4b614dcba1627395547cf2884eda9f",
+          "Length": 3,
+          "Name": "stream025"
+        },
+        {
+          "Hash": "5a898622724dbcdd96477134e615d1f2158a944a3d4a74ce9ff7d7049aa62a0c",
+          "Length": 3,
+          "Name": "stream026"
+        },
+        {
+          "Hash": "f0c0965ba833389e63b70d1c3408c0b57e85977855a234f4fc811058aa2c966b",
+          "Length": 3,
+          "Name": "stream027"
+        },
+        {
+          "Hash": "88fe9ce349adc965717c6248f121480fbd481e0b675b87b1072a25a77b633a57",
+          "Length": 3,
+          "Name": "stream028"
+        },
+        {
+          "Hash": "1b9257e2a5164c5c2ab0a1ce75d91b27b7b7f34fefb10bfe55c435311e6a930d",
+          "Length": 3,
+          "Name": "stream029"
+        },
+        {
+          "Hash": "b278186f2711852380ae036caa0f8189af335c0e9bacb99ba56e17c2bb698047",
+          "Length": 3,
+          "Name": "stream030"
+        },
+        {
+          "Hash": "be1287f7da6c4ace06746999d78ae01050f80f56b203e8088d920dee3d28299b",
+          "Length": 3,
+          "Name": "stream031"
+        },
+        {
+          "Hash": "df273432d3cf15a4b61beda6224444e86da33a5e180e626a7870174c92e48c46",
+          "Length": 3,
+          "Name": "stream032"
+        },
+        {
+          "Hash": "6d7d84d3e4cf0296a49f53931c11008bb93d566371ae14002dc7634aa35a647a",
+          "Length": 3,
+          "Name": "stream033"
+        },
+        {
+          "Hash": "4cb4e68ae538a29692d6e3f860cbb1764aba08098be10efc3d1a02469cbc6fe9",
+          "Length": 3,
+          "Name": "stream034"
+        },
+        {
+          "Hash": "7cb80551b9cbb6633594c8443cec57963c60d05dbc49d1d894fd44c96b2238ab",
+          "Length": 3,
+          "Name": "stream035"
+        },
+        {
+          "Hash": "d0d7d4400e383a4b1989cc3801846295ecbba6337723625a31b3214d3b3ec258",
+          "Length": 3,
+          "Name": "stream036"
+        },
+        {
+          "Hash": "7b48d7804dc452720878725c759aa2ed7ddd68620415c8309e345207936c61db",
+          "Length": 3,
+          "Name": "stream037"
+        },
+        {
+          "Hash": "d0e5998862fabe39fdd82e846bbb968984794b10bf809cb8628cc2942ff733d5",
+          "Length": 3,
+          "Name": "stream038"
+        },
+        {
+          "Hash": "4cc49df8b2c01b61ec5c717eae9b9e1a15364402d9fe02bcc96168a0731422e0",
+          "Length": 3,
+          "Name": "stream039"
+        },
+        {
+          "Hash": "ecec56c117729f7673b060a2eaba562bacd91b148d71b4708b2ccd0ace09ac6e",
+          "Length": 3,
+          "Name": "stream040"
+        },
+        {
+          "Hash": "dbc0b77d049248b745dc6d4ce55fc91f67a9a0b6537b324f413f38ce154541a3",
+          "Length": 3,
+          "Name": "stream041"
+        },
+        {
+          "Hash": "e4c62742357dff37816af009eb348d920ebe130c7d2d84cd497cde398894e569",
+          "Length": 3,
+          "Name": "stream042"
+        },
+        {
+          "Hash": "df8f14f8cbb644985beab5b83ff4a8cd7131b2e1843955faee771194543d96b5",
+          "Length": 3,
+          "Name": "stream043"
+        },
+        {
+          "Hash": "79c2b39da413d79f507f1421aa856d6f47dc9a0431537dc2bcf420ce50cfa41c",
+          "Length": 3,
+          "Name": "stream044"
+        },
+        {
+          "Hash": "4ce4b594686dc731d6b5c4da53e49eb5c107bb8bff7c3f7cb345882e37ed932d",
+          "Length": 3,
+          "Name": "stream045"
+        },
+        {
+          "Hash": "62a2f6a8aede50336d5f48a986967d3b092cbce2d641eae68c1d57abb92d47e5",
+          "Length": 3,
+          "Name": "stream046"
+        },
+        {
+          "Hash": "965d117cc16bcb96765e08e41c32fbcd8b97762d3654a0452fad1d89dbaa8559",
+          "Length": 3,
+          "Name": "stream047"
+        },
+        {
+          "Hash": "b08b17e4a958e96292df7994d97298f91c4b6816ad486b5cefb975dfe5f91e71",
+          "Length": 3,
+          "Name": "stream048"
+        },
+        {
+          "Hash": "99561d18842c13a336d4c024cbd721057718a6de4b8d83867c09bb42af696152",
+          "Length": 3,
+          "Name": "stream049"
+        },
+        {
+          "Hash": "1b68238877003d0ffab79e6eac13ce5b376eed26c82a94f01a084b7f3bcec459",
+          "Length": 3,
+          "Name": "stream050"
+        },
+        {
+          "Hash": "30aca47ac9511399db96092b2dd1c06e2a410f3a69b3f7ff8884500072bd8f6e",
+          "Length": 3,
+          "Name": "stream051"
+        },
+        {
+          "Hash": "71a3a17368fe896a22884d037c28131e2fbd2c6db890cea5477f4f37f80ada71",
+          "Length": 3,
+          "Name": "stream052"
+        },
+        {
+          "Hash": "44d9d39c63506a76df5ea55e6a2ca424b72eef6ca5650e9ea5caca50ef2d5774",
+          "Length": 3,
+          "Name": "stream053"
+        },
+        {
+          "Hash": "1298f1719c5c3d88642f480707a0ba8ee134bb49774657470ab0b62ceca86b23",
+          "Length": 3,
+          "Name": "stream054"
+        },
+        {
+          "Hash": "25bc4824cc60b55a29f0078665b459c34289d8b339c017a75984e8d424aa353c",
+          "Length": 3,
+          "Name": "stream055"
+        },
+        {
+          "Hash": "c35eafaaed56ba0a6e9924a0d90cf3bacdaceb9b1daff9555ce0cddc2e48f2b8",
+          "Length": 3,
+          "Name": "stream056"
+        },
+        {
+          "Hash": "743d0b180716d6111cb01ca43e291c1cc0950b93940c120539e826a438aae1f9",
+          "Length": 3,
+          "Name": "stream057"
+        },
+        {
+          "Hash": "c528be3295a0036d84fd455aae6a292a68624d2a14d170ac27b69d729e606b53",
+          "Length": 3,
+          "Name": "stream058"
+        },
+        {
+          "Hash": "075eb54ba9032128a63f3e6aab75bffa550b960c213a17a39394637a0e2bde47",
+          "Length": 3,
+          "Name": "stream059"
+        },
+        {
+          "Hash": "0ebbe0e8cbdcf45830155c304a35e36697da1d268f8ad729b974ff23c0da1cd5",
+          "Length": 3,
+          "Name": "stream060"
+        },
+        {
+          "Hash": "5810e7c07dd9b1b5093e61a9f22758aad8cc854ef9772676bddd967c9cd96312",
+          "Length": 3,
+          "Name": "stream061"
+        },
+        {
+          "Hash": "56bb3afb251d79dec1faef3a6565fa01feb757e072af1040198f2ad24065c201",
+          "Length": 3,
+          "Name": "stream062"
+        },
+        {
+          "Hash": "2133e73a1c18eebdcf007cec41203381d3b1a9d7890da3f58f5a67f7e1483985",
+          "Length": 3,
+          "Name": "stream063"
+        },
+        {
+          "Hash": "ce682aa2229e594321b96955b2d9475a0a0f6b73afc3bd0516dffd620ed90662",
+          "Length": 3,
+          "Name": "stream064"
+        },
+        {
+          "Hash": "96d0ea91993311aca0fce4c3c7faf159bd226a9c508ea2b3ea89364b5155d687",
+          "Length": 3,
+          "Name": "stream065"
+        },
+        {
+          "Hash": "b0e0a5c05e2cc5b2dc6951a9eccda5ee97c5ed4bb3f77eb42bdf8306bd4d20b3",
+          "Length": 3,
+          "Name": "stream066"
+        },
+        {
+          "Hash": "0a3735667438d9e17c3015375cd0c2599de5030fbfdad82573b11b53aaafaf08",
+          "Length": 3,
+          "Name": "stream067"
+        },
+        {
+          "Hash": "f9c273c365852c45784fa9412e7c5e6f50dcb6f9d8ca1b43c9a5066606c1a8b5",
+          "Length": 3,
+          "Name": "stream068"
+        },
+        {
+          "Hash": "b4aec1a9333080796a463ca675852d89cfd2c23628769855b40b652b4080e7a9",
+          "Length": 3,
+          "Name": "stream069"
+        },
+        {
+          "Hash": "0e7f0b73907ede334a689c0f18f8075a0dc4c09f1dd5b139cd7aa88b8719c91d",
+          "Length": 3,
+          "Name": "stream070"
+        },
+        {
+          "Hash": "c8680a158d87a9f75ab3ddbea2f35caeafd9b673773c761ee54b397e59d2ad78",
+          "Length": 3,
+          "Name": "stream071"
+        },
+        {
+          "Hash": "d78f6715de715c8e89677248c1d40f5c2ec3604b73e1e9d9bdc06004ebbf608f",
+          "Length": 3,
+          "Name": "stream072"
+        },
+        {
+          "Hash": "2259d408a56b8995f0f339d37c4ab7847457803c8d4a98c01979f75b564b439d",
+          "Length": 3,
+          "Name": "stream073"
+        },
+        {
+          "Hash": "56037310e79bc1205691ee19690e2b52eccdf213da62bf6ee8a9c80b55b54a5e",
+          "Length": 3,
+          "Name": "stream074"
+        },
+        {
+          "Hash": "2df93741905c8339d9225d69550cadd0739039de783600606ca529f29dde9662",
+          "Length": 3,
+          "Name": "stream075"
+        },
+        {
+          "Hash": "28d74ce30f977f1dd4975977df4ced4a9479110157912e4f96f1a86484ce22e2",
+          "Length": 3,
+          "Name": "stream076"
+        },
+        {
+          "Hash": "fd5a104f8f76e82c1fca894fa5333810d4bf68512d4dd9172453c89ed25e0f5a",
+          "Length": 3,
+          "Name": "stream077"
+        },
+        {
+          "Hash": "588761acf71198a09bb86a7036a6b5f7ca0068f2334e70c7194caa73ee3f82f4",
+          "Length": 3,
+          "Name": "stream078"
+        },
+        {
+          "Hash": "6568f848ddd18a247beaf6b88c8bba1590238bbafa4ea46808e3cdffcb8aa461",
+          "Length": 3,
+          "Name": "stream079"
+        },
+        {
+          "Hash": "ccf3108f3105586ecdbdcc7472d82035d59c0e41772c4f2f7241e2d8fb8af73f",
+          "Length": 3,
+          "Name": "stream080"
+        },
+        {
+          "Hash": "ad2bbc06f9f19e037304d2e60a41adda04f7e90d40dcde1c2d2cd4ddf370a546",
+          "Length": 3,
+          "Name": "stream081"
+        },
+        {
+          "Hash": "f197f446aaf31acd58651afcdc26cd4e2d12b614d9c13c0b34eee978abf121d8",
+          "Length": 3,
+          "Name": "stream082"
+        },
+        {
+          "Hash": "d6a5cddaf3213a1a68362941138b641654b3e0d7335d432dbf53e561ecc37e92",
+          "Length": 3,
+          "Name": "stream083"
+        },
+        {
+          "Hash": "fdb21a4c392573233c21eb6bd8721adfdf2fe8eaba0826a2e176f5cbd59a7855",
+          "Length": 3,
+          "Name": "stream084"
+        },
+        {
+          "Hash": "34e8232c43400c2fe1b6382f628d2d0ac912280808d91578e51eb80b5bc0d7d1",
+          "Length": 3,
+          "Name": "stream085"
+        },
+        {
+          "Hash": "95dc22b06b07adce3aa31503ee7b4105c1719b60d099f8324fd5012a76ed9770",
+          "Length": 3,
+          "Name": "stream086"
+        },
+        {
+          "Hash": "78670be268139d36e04e32c2d5e52879dfbfa9190854ef9a9682e2e494957579",
+          "Length": 3,
+          "Name": "stream087"
+        },
+        {
+          "Hash": "c69838d6a2570d2ec0369a3f66c32c7639e09b79b76b08ed40c8608682825723",
+          "Length": 3,
+          "Name": "stream088"
+        },
+        {
+          "Hash": "9181f5919383bacb37ffe95dfe43f43dfeab1f742fefa75d62a757cefc6da07e",
+          "Length": 3,
+          "Name": "stream089"
+        },
+        {
+          "Hash": "16322f06d58485843ae10c54370935a4beb031b90d58ab8282bf82d8656fdc1f",
+          "Length": 3,
+          "Name": "stream090"
+        },
+        {
+          "Hash": "de11723cba1d858023c7459ed31f6df2397f84167fbea334be7b9c64f524c65f",
+          "Length": 3,
+          "Name": "stream091"
+        },
+        {
+          "Hash": "c89a7afc31b1281bdce81ae1df5415c8853e3d6d2cde845aa68b52e0ad6511f8",
+          "Length": 3,
+          "Name": "stream092"
+        },
+        {
+          "Hash": "97b1c292e72d36b0c11de7e5348fe7bb591f84cd2cfada8e5ed72521afb7b5f6",
+          "Length": 3,
+          "Name": "stream093"
+        },
+        {
+          "Hash": "20c8c5a10561bf541775a31c737e36c62fab48966f811af4eca88ce66ab77c84",
+          "Length": 3,
+          "Name": "stream094"
+        },
+        {
+          "Hash": "39849d200a9ef36231f9550cee4b67234164c6423b0fc35084e037a87e6d9fde",
+          "Length": 3,
+          "Name": "stream095"
+        },
+        {
+          "Hash": "c0ce18fe383f0dda8720665f9c519a1d5f1c13f6824e71f12879a2f9ca12e833",
+          "Length": 3,
+          "Name": "stream096"
+        },
+        {
+          "Hash": "272160d85565d1503103eaa02221da920f041ee915cafb1f29f1bcf31a968dfb",
+          "Length": 3,
+          "Name": "stream097"
+        },
+        {
+          "Hash": "a8e67bb079477e1aa7cc58e69e97210c316b859654e94844d626f0171850f8bf",
+          "Length": 3,
+          "Name": "stream098"
+        },
+        {
+          "Hash": "17a2572a961f9fe88832803590b519c3706ef63b077867f803a68cbb9fdc7364",
+          "Length": 3,
+          "Name": "stream099"
+        },
+        {
+          "Hash": "fcf929b13763df186bac5e7edfc0372a16904c09e6b2574a527995d21c2f53e6",
+          "Length": 3,
+          "Name": "stream100"
+        },
+        {
+          "Hash": "0a1ce60056cec1590f0c28562ab07dcddbcb9c336fd901fbeee52ffdc5818c75",
+          "Length": 3,
+          "Name": "stream101"
+        },
+        {
+          "Hash": "f22134ffe4141887c2c044fa3a8d2154a94bb86a62230e3d538a579f15e791b2",
+          "Length": 3,
+          "Name": "stream102"
+        },
+        {
+          "Hash": "d84e5e33f4d226a367bc035b0f9f79b527efa9e929802999b0bef7b94f305a10",
+          "Length": 3,
+          "Name": "stream103"
+        },
+        {
+          "Hash": "2a1458b688b50fac4da788275bc3dd3c94032e8bb7975ae6efd31eaa0a6c2ef1",
+          "Length": 3,
+          "Name": "stream104"
+        },
+        {
+          "Hash": "c4d2c09b98279f04cf18142498e8b71b91517cab8c033ea0515794e9a4cca9aa",
+          "Length": 3,
+          "Name": "stream105"
+        },
+        {
+          "Hash": "ac2895ac5a34247e0a075dff25df9d04fc1a9aaeb7e313c6543601eed5b8e816",
+          "Length": 3,
+          "Name": "stream106"
+        },
+        {
+          "Hash": "6f9d5ab44d7f97a0ad94f30ef03e1fb85e0768bb4489edc994b0f700d507192e",
+          "Length": 3,
+          "Name": "stream107"
+        },
+        {
+          "Hash": "0ed47305251b85032d24c8cec81b737616fe1fccf4bd5501e75d234fd26bef94",
+          "Length": 3,
+          "Name": "stream108"
+        },
+        {
+          "Hash": "e18f66b4a29bc900efef3093f43fd0e60992ffcddaff820572af79e232b30322",
+          "Length": 3,
+          "Name": "stream109"
+        },
+        {
+          "Hash": "26e45ef45eaea24add0f646f934413cb7cd090662c4f4d8053cf6af34ae93f73",
+          "Length": 3,
+          "Name": "stream110"
+        },
+        {
+          "Hash": "9816617e41f36c0776238b2a8ec9a9438ddef4f79f0f19e9318ec9287d079be9",
+          "Length": 3,
+          "Name": "stream111"
+        },
+        {
+          "Hash": "4f8c36553e4e79ee96ae47d2604d085c7e5771dcfe4f2a62da3061aa73356a2b",
+          "Length": 3,
+          "Name": "stream112"
+        },
+        {
+          "Hash": "f08699ea6282e4017d035c2ac74e269f82c6a37badb0ff23d6bac2b65ad3a3de",
+          "Length": 3,
+          "Name": "stream113"
+        },
+        {
+          "Hash": "a8c425b6c3696a408e5ffaa5f8626ba8b82ca1738f7407da0dc7e9ebdaee32b8",
+          "Length": 3,
+          "Name": "stream114"
+        },
+        {
+          "Hash": "f0e9494bd0a75a14c3e5d05f546c579cf408e3ac84ec40d05edf4539942fe7c7",
+          "Length": 3,
+          "Name": "stream115"
+        },
+        {
+          "Hash": "4d5cebd256b02e2d2bdb432a477cb5658755bd68d1ca30c065f430e9161312f4",
+          "Length": 3,
+          "Name": "stream116"
+        },
+        {
+          "Hash": "e4c5646641e025f06c6fdcb7b229ce8689da520abae97371f9a1baa47f7bd581",
+          "Length": 3,
+          "Name": "stream117"
+        },
+        {
+          "Hash": "17cdf6321d2aab2f15c699c72560447cb1a926b46a5a0eb2a9c00b631bd36ff5",
+          "Length": 3,
+          "Name": "stream118"
+        },
+        {
+          "Hash": "23b1bae9dde716df3be705dbc83414f2b97fe75c8121a2072631c75bfd9c4d08",
+          "Length": 3,
+          "Name": "stream119"
+        },
+        {
+          "Hash": "e9a6a64c20b629a3d01c1a93cc2bd61b219b807d0d23c1175e2c837562f94195",
+          "Length": 3,
+          "Name": "stream120"
+        },
+        {
+          "Hash": "cbbf717f1a4644074239b03ec7c8d0d862aee9943c97bb6bcd7f7680bb39fa3a",
+          "Length": 3,
+          "Name": "stream121"
+        },
+        {
+          "Hash": "7556bc17e236f1184b70ffc75d81cc0e7874460a3298411e80891ac2450e0de0",
+          "Length": 3,
+          "Name": "stream122"
+        },
+        {
+          "Hash": "dddf8ad6f6f533625482ef5fe7e182ea770596a720501249defa1aec9a471458",
+          "Length": 3,
+          "Name": "stream123"
+        },
+        {
+          "Hash": "a8cf41037dbc7007e35870c69bb6cebd883326fc6fafc99780dc37603bd0c96c",
+          "Length": 3,
+          "Name": "stream124"
+        },
+        {
+          "Hash": "5c4dff677d32651a1ebb299883b2472357f50df42967772a83a1b31d616aa237",
+          "Length": 3,
+          "Name": "stream125"
+        },
+        {
+          "Hash": "08693efe6ec484a5dbe85fc54226e0b66e1db06b348bd97e6b555274d21f7019",
+          "Length": 3,
+          "Name": "stream126"
+        },
+        {
+          "Hash": "12e810df43f1251ae4841521f0cac2b58e8fc3d2ee5654c3994e59d61667d1aa",
+          "Length": 3,
+          "Name": "stream127"
+        },
+        {
+          "Hash": "4d7a440d0ad38a60a5a568cb636e6c3bedbc6353132682433694123b300f522e",
+          "Length": 3,
+          "Name": "stream128"
+        },
+        {
+          "Hash": "cf323d29dcd6a07041b25c166c9a1e45500fe0cb448c65d3b8c35e4f23b345ad",
+          "Length": 3,
+          "Name": "stream129"
+        },
+        {
+          "Hash": "c63ec3f32e5f1cfa6eb845de332af1b60d40b3c0377aa761ad8bc014454578bf",
+          "Length": 3,
+          "Name": "stream130"
+        },
+        {
+          "Hash": "09aa222e72e1c4e5200e3d463b40efa7f925692fbada3b3be9dd382ea36d20fe",
+          "Length": 3,
+          "Name": "stream131"
+        },
+        {
+          "Hash": "b17f1dbb5e25022ab42dac0bef7a2a3e9ba396fd70812dcd2226dddfdccf9a40",
+          "Length": 3,
+          "Name": "stream132"
+        },
+        {
+          "Hash": "4cff4a6e942d890f0d580290a2e999542ec85ca0a29aee026d2b93b9aeb4f5da",
+          "Length": 3,
+          "Name": "stream133"
+        },
+        {
+          "Hash": "c6c0b6e9acd97c308336c6421856020d0dd33e53b5414ea1e3a0d2267b4e4424",
+          "Length": 3,
+          "Name": "stream134"
+        },
+        {
+          "Hash": "400936456ae1927884442bd0a756b7f47549e3e7060582169307c603129bd76d",
+          "Length": 3,
+          "Name": "stream135"
+        },
+        {
+          "Hash": "853e257aaa1c92b50dfe1e97e09266be6e1758b262f86983a6b2ab91ccb090e1",
+          "Length": 3,
+          "Name": "stream136"
+        },
+        {
+          "Hash": "2f3ad337e577c1dbaafae6d329dddab8989b2e7540d8b7eeb25097e950198b2d",
+          "Length": 3,
+          "Name": "stream137"
+        },
+        {
+          "Hash": "34f7ceb48b52afc7fea709d27e9253747e187cff2041a768f7d556d35d0ef91e",
+          "Length": 3,
+          "Name": "stream138"
+        },
+        {
+          "Hash": "b66d623743f33dc80f0376411f94e9719203567d97d1a09cecae5990c992e646",
+          "Length": 3,
+          "Name": "stream139"
+        },
+        {
+          "Hash": "ffe1338a76f0b104bcaba8233238a6b9b9f275b8c8be7919bc1ae0dee1333b5c",
+          "Length": 3,
+          "Name": "stream140"
+        },
+        {
+          "Hash": "02168373cd886eaa07839b641470b1498551730f12a9cd8de4ace42b24e50842",
+          "Length": 3,
+          "Name": "stream141"
+        },
+        {
+          "Hash": "103541839555bdae26ed9a38d55dd70f7afe3cee55f92c2923982ab9e03b32fe",
+          "Length": 3,
+          "Name": "stream142"
+        },
+        {
+          "Hash": "fe5c77fec48d5e974e93172b840c26f01b3a6d12b635d47aa32a53f9c3f1a057",
+          "Length": 3,
+          "Name": "stream143"
+        },
+        {
+          "Hash": "9c59e0034d4f3bc377a9f5ed810156692e0410417aa6bce498c540b4854c7a4c",
+          "Length": 3,
+          "Name": "stream144"
+        },
+        {
+          "Hash": "cb7c4fb805180079f724378ac002bbae42ec97858196f619d6badb56adf763c5",
+          "Length": 3,
+          "Name": "stream145"
+        },
+        {
+          "Hash": "ecb6f98f4ef2d28b93db7b7fae2f848fc30669f498e6edf860ff47bbec6e20f5",
+          "Length": 3,
+          "Name": "stream146"
+        },
+        {
+          "Hash": "7ca64b565c394ac2cecacd3cb57a946f1247a29c318d56a9ec4cc2412297fcb6",
+          "Length": 3,
+          "Name": "stream147"
+        },
+        {
+          "Hash": "e44449040226d59defdd31bdba0ce96e7c0a55cb64cf06485c6767993ac572fa",
+          "Length": 3,
+          "Name": "stream148"
+        },
+        {
+          "Hash": "aebb253436dea6c3186792f14d84af9e09e41e222922079dc5fdfac3adacdb8a",
+          "Length": 3,
+          "Name": "stream149"
+        },
+        {
+          "Hash": "967ca805f3b3c1403b2a13d8d1534844a677627c7f89b09799399d6d64abc96b",
+          "Length": 3,
+          "Name": "stream150"
+        },
+        {
+          "Hash": "82d4aaf657b393ad843cb28ee4e1a23d5e555696b7432800b31578700d3ad79d",
+          "Length": 3,
+          "Name": "stream151"
+        },
+        {
+          "Hash": "2bb8aa847afb6eb82d6f6a0242cc88f59e1cf4163f6be5791f3facae494672c1",
+          "Length": 3,
+          "Name": "stream152"
+        },
+        {
+          "Hash": "6f28d2fda760685b34a276ae55fbf7a82c29a6b88151005ddd65899727b3e04e",
+          "Length": 3,
+          "Name": "stream153"
+        },
+        {
+          "Hash": "bfcc21329b6eabb6a3850054166aeb8b21ad36e1982bed981654daf574b82af6",
+          "Length": 3,
+          "Name": "stream154"
+        },
+        {
+          "Hash": "7b9068a36a5a8729031226d3b08ac0b239758d48b718ebea5f2e029c1230f039",
+          "Length": 3,
+          "Name": "stream155"
+        },
+        {
+          "Hash": "8a63322ff95002120ad3cc870b81be086447b2d37e04a01abb5a1b5a5e82b8fe",
+          "Length": 3,
+          "Name": "stream156"
+        },
+        {
+          "Hash": "3a09763359abcdcb8918d9161652e6d0ca080ed553181e654d7fda963515e30f",
+          "Length": 3,
+          "Name": "stream157"
+        },
+        {
+          "Hash": "9acbc04d96568ac1248dc44e48146042a0621e9ee7df501a5f0927dc85ff2511",
+          "Length": 3,
+          "Name": "stream158"
+        },
+        {
+          "Hash": "6d9c0e6f35e5ee2aae8e55bdb29986166f5be2e483fe03dffaa9bd1499e08f8b",
+          "Length": 3,
+          "Name": "stream159"
+        }
+      ]
+    },
+    {
+      "EaRaw": "",
+      "Info": {
+        "Access": 134356688301843966,
+        "Attributes": 2080,
+        "Creation": 134356682639788832,
+        "Identity": "000200000000A13E",
+        "Write": 134356688301843966
+      },
+      "ObjectIdRaw": "",
+      "Path": "\\compressed.bin",
+      "ReparseRaw": "",
+      "SecurityRaw": "0100048474000000840000000000000014000000020060000400000000101800ff011f000102000000000005200000002002000000101400ff011f0001010000000000051200000000101800a90012000102000000000005200000002102000000101400bf01130001010000000000050b00000001020000000000052000000020020000010100000000000512000000",
+      "Short": "COMPRE~1.BIN",
+      "Streams": [
+        {
+          "Hash": "576fad3b13564b1a798fa288523e628e5a4338ee0ae017623328575c6469934d",
+          "Length": 1048576,
+          "Name": ""
+        }
+      ]
+    },
+    {
+      "EaRaw": "",
+      "Info": {
+        "Access": 134356682639601023,
+        "Attributes": 1040,
+        "Creation": 134356682639601023,
+        "Identity": "000200000000A13D",
+        "Write": 134356682639601023
+      },
+      "ObjectIdRaw": "",
+      "Path": "\\internal.junction",
+      "ReparseRaw": "030000a06400000000003000320028005c003f003f005c0043003a005c004e00610074006900760065004400690073006b004300610070007400750072006500000043003a005c004e00610074006900760065004400690073006b0043006100700074007500720065000000",
+      "SecurityRaw": "0100048488000000980000000000000014000000020074000500000000131800ff011f000102000000000005200000002002000000131400ff011f0001010000000000051200000000131800a90012000102000000000005200000002102000000101400bf01130001010000000000050b000000001b1400000001e001010000000000050b00000001020000000000052000000020020000010100000000000512000000",
+      "Short": "INTERN~1.JUN",
+      "Streams": []
+    },
+    {
+      "EaRaw": "0000000080070400544553542e45410000ff1200",
+      "Info": {
+        "Access": 134356691415927790,
+        "Attributes": 32,
+        "Creation": 134356680024658977,
+        "Identity": "0002000000008720",
+        "Write": 134356691415927790
+      },
+      "ObjectIdRaw": "663d9b6da3c0f111b4a8998f604d14a366810d707d6c0c45bedea5101764417b663d9b6da3c0f111b4a8998f604d14a300000000000000000000000000000000",
+      "Path": "\\payload.bin",
+      "ReparseRaw": "",
+      "SecurityRaw": "0100048474000000840000000000000014000000020060000400000000101800ff011f000102000000000005200000002002000000101400ff011f0001010000000000051200000000101800a90012000102000000000005200000002102000000101400bf01130001010000000000050b00000001020000000000052000000020020000010100000000000512000000",
+      "Short": "payload.bin",
+      "Streams": [
+        {
+          "Hash": "40aff2e9d2d8922e47afd4648e6967497158785fbd1da870e7110266bf944880",
+          "Length": 256,
+          "Name": ""
+        },
+        {
+          "Hash": "1cb38b0048cd74aa4ad03929609c295eddf70328b5e6cd4f4c87a1de75300143",
+          "Length": 23,
+          "Name": "metadata"
+        },
+        {
+          "Hash": "ae974d4a74c2371d8cfe842b7aa4f6698de8570526eeb3db1941b0b72311d470",
+          "Length": 3,
+          "Name": "stream000"
+        },
+        {
+          "Hash": "ff9b5729d5ed88f97042a190185d50112cecdbd62ff67f57dcde221e63bc95a7",
+          "Length": 3,
+          "Name": "stream001"
+        },
+        {
+          "Hash": "343dea739373f27707fd1b2da7df1e11da1df1e40778ecbc94e8a2351ad6acca",
+          "Length": 3,
+          "Name": "stream002"
+        },
+        {
+          "Hash": "2c05745ea36c2b74cad0d3454530bfebc818d14cc6d6f87293d493fe5d2e4dac",
+          "Length": 3,
+          "Name": "stream003"
+        },
+        {
+          "Hash": "caee32b9433c6af357a630e011279f9cd9eb5e523c0e0932d25fbdc77348ec8d",
+          "Length": 3,
+          "Name": "stream004"
+        },
+        {
+          "Hash": "d3fb83863766fb3a28935ba52c3ec0f132ffb66d5eca2652db67257bb03e0eab",
+          "Length": 3,
+          "Name": "stream005"
+        },
+        {
+          "Hash": "e501015a5de3f218d35d6b53d8861b1ce0e5b5a36639f0697227f8f632a3a212",
+          "Length": 3,
+          "Name": "stream006"
+        },
+        {
+          "Hash": "e709091c1247e72f9a5c09950722d9f4f83fbc18a2a70b6f2602bbcf2ca5c8d7",
+          "Length": 3,
+          "Name": "stream007"
+        },
+        {
+          "Hash": "4b95eb0b101a5d0c651ddf861aec8a9480414e25a2a633fe4e6332debb3294df",
+          "Length": 3,
+          "Name": "stream008"
+        },
+        {
+          "Hash": "255ff5c52250a1acd17fd5d96c167047f19a780afb156674056e54ff37230055",
+          "Length": 3,
+          "Name": "stream009"
+        },
+        {
+          "Hash": "08b5ee24954accc4e19536451cfcbb3aade791c400207c195916305436e30cb0",
+          "Length": 3,
+          "Name": "stream010"
+        },
+        {
+          "Hash": "00a65b0a2bdb329c64f9b76e23e74c9af5b392117095b8e468bd81caec9b538e",
+          "Length": 3,
+          "Name": "stream011"
+        },
+        {
+          "Hash": "193452fd361ba115940e722eeb6e3a3c0ad0b9a25568a973039242c3925dfa69",
+          "Length": 3,
+          "Name": "stream012"
+        },
+        {
+          "Hash": "323688123b5541ceb5a7fd18c4bc8c04f170245458687c04f8c7f935cdd7adfb",
+          "Length": 3,
+          "Name": "stream013"
+        },
+        {
+          "Hash": "ce4270d368753e3829420c4648f3e0386a193165fd793c74066d5288e7e746ae",
+          "Length": 3,
+          "Name": "stream014"
+        },
+        {
+          "Hash": "80ef1cf933e01177a07edee1eccaa46a4de5bec34fb8408305cbb5fd45374568",
+          "Length": 3,
+          "Name": "stream015"
+        },
+        {
+          "Hash": "e950b2feb3593f36b493015535849c9b8d3a4a760894225bbfa529835f322c69",
+          "Length": 3,
+          "Name": "stream016"
+        },
+        {
+          "Hash": "50696ac809b10c2097ac64e6738d1bae3650c370d9bed72d4d7a872bc35f9570",
+          "Length": 3,
+          "Name": "stream017"
+        },
+        {
+          "Hash": "c234c79b50969cd0d083f2972207156462a0a2c0729d7c4fb085d14c65900bdf",
+          "Length": 3,
+          "Name": "stream018"
+        },
+        {
+          "Hash": "8b36e884ed0835f65c95d33f9edfdae39a49098dd9cf9ab8d1d668dc10775869",
+          "Length": 3,
+          "Name": "stream019"
+        },
+        {
+          "Hash": "0b6668d57194c569c05eaa3810197d03e187fcb1cd432cd4a33ada5bf5511994",
+          "Length": 3,
+          "Name": "stream020"
+        },
+        {
+          "Hash": "f5d18f23b2a5521ff25cef3747b9c990f08298ddd0a3c3df21f49da747397774",
+          "Length": 3,
+          "Name": "stream021"
+        },
+        {
+          "Hash": "4c734446f3fd59b47558f99f65fcd3de6db8795ce790728df67c1244a07802c2",
+          "Length": 3,
+          "Name": "stream022"
+        },
+        {
+          "Hash": "d117ef6ceeecfeba7243f196ad0974d1398d2d74399b5f2e23c6673424a97290",
+          "Length": 3,
+          "Name": "stream023"
+        },
+        {
+          "Hash": "7863ef70b1765a9169a4df7aaad8bb7b8a594e3442a079fdcf714b5e16768551",
+          "Length": 3,
+          "Name": "stream024"
+        },
+        {
+          "Hash": "5a2b5308491e62960ca00594633c3ee23a4b614dcba1627395547cf2884eda9f",
+          "Length": 3,
+          "Name": "stream025"
+        },
+        {
+          "Hash": "5a898622724dbcdd96477134e615d1f2158a944a3d4a74ce9ff7d7049aa62a0c",
+          "Length": 3,
+          "Name": "stream026"
+        },
+        {
+          "Hash": "f0c0965ba833389e63b70d1c3408c0b57e85977855a234f4fc811058aa2c966b",
+          "Length": 3,
+          "Name": "stream027"
+        },
+        {
+          "Hash": "88fe9ce349adc965717c6248f121480fbd481e0b675b87b1072a25a77b633a57",
+          "Length": 3,
+          "Name": "stream028"
+        },
+        {
+          "Hash": "1b9257e2a5164c5c2ab0a1ce75d91b27b7b7f34fefb10bfe55c435311e6a930d",
+          "Length": 3,
+          "Name": "stream029"
+        },
+        {
+          "Hash": "b278186f2711852380ae036caa0f8189af335c0e9bacb99ba56e17c2bb698047",
+          "Length": 3,
+          "Name": "stream030"
+        },
+        {
+          "Hash": "be1287f7da6c4ace06746999d78ae01050f80f56b203e8088d920dee3d28299b",
+          "Length": 3,
+          "Name": "stream031"
+        },
+        {
+          "Hash": "df273432d3cf15a4b61beda6224444e86da33a5e180e626a7870174c92e48c46",
+          "Length": 3,
+          "Name": "stream032"
+        },
+        {
+          "Hash": "6d7d84d3e4cf0296a49f53931c11008bb93d566371ae14002dc7634aa35a647a",
+          "Length": 3,
+          "Name": "stream033"
+        },
+        {
+          "Hash": "4cb4e68ae538a29692d6e3f860cbb1764aba08098be10efc3d1a02469cbc6fe9",
+          "Length": 3,
+          "Name": "stream034"
+        },
+        {
+          "Hash": "7cb80551b9cbb6633594c8443cec57963c60d05dbc49d1d894fd44c96b2238ab",
+          "Length": 3,
+          "Name": "stream035"
+        },
+        {
+          "Hash": "d0d7d4400e383a4b1989cc3801846295ecbba6337723625a31b3214d3b3ec258",
+          "Length": 3,
+          "Name": "stream036"
+        },
+        {
+          "Hash": "7b48d7804dc452720878725c759aa2ed7ddd68620415c8309e345207936c61db",
+          "Length": 3,
+          "Name": "stream037"
+        },
+        {
+          "Hash": "d0e5998862fabe39fdd82e846bbb968984794b10bf809cb8628cc2942ff733d5",
+          "Length": 3,
+          "Name": "stream038"
+        },
+        {
+          "Hash": "4cc49df8b2c01b61ec5c717eae9b9e1a15364402d9fe02bcc96168a0731422e0",
+          "Length": 3,
+          "Name": "stream039"
+        },
+        {
+          "Hash": "ecec56c117729f7673b060a2eaba562bacd91b148d71b4708b2ccd0ace09ac6e",
+          "Length": 3,
+          "Name": "stream040"
+        },
+        {
+          "Hash": "dbc0b77d049248b745dc6d4ce55fc91f67a9a0b6537b324f413f38ce154541a3",
+          "Length": 3,
+          "Name": "stream041"
+        },
+        {
+          "Hash": "e4c62742357dff37816af009eb348d920ebe130c7d2d84cd497cde398894e569",
+          "Length": 3,
+          "Name": "stream042"
+        },
+        {
+          "Hash": "df8f14f8cbb644985beab5b83ff4a8cd7131b2e1843955faee771194543d96b5",
+          "Length": 3,
+          "Name": "stream043"
+        },
+        {
+          "Hash": "79c2b39da413d79f507f1421aa856d6f47dc9a0431537dc2bcf420ce50cfa41c",
+          "Length": 3,
+          "Name": "stream044"
+        },
+        {
+          "Hash": "4ce4b594686dc731d6b5c4da53e49eb5c107bb8bff7c3f7cb345882e37ed932d",
+          "Length": 3,
+          "Name": "stream045"
+        },
+        {
+          "Hash": "62a2f6a8aede50336d5f48a986967d3b092cbce2d641eae68c1d57abb92d47e5",
+          "Length": 3,
+          "Name": "stream046"
+        },
+        {
+          "Hash": "965d117cc16bcb96765e08e41c32fbcd8b97762d3654a0452fad1d89dbaa8559",
+          "Length": 3,
+          "Name": "stream047"
+        },
+        {
+          "Hash": "b08b17e4a958e96292df7994d97298f91c4b6816ad486b5cefb975dfe5f91e71",
+          "Length": 3,
+          "Name": "stream048"
+        },
+        {
+          "Hash": "99561d18842c13a336d4c024cbd721057718a6de4b8d83867c09bb42af696152",
+          "Length": 3,
+          "Name": "stream049"
+        },
+        {
+          "Hash": "1b68238877003d0ffab79e6eac13ce5b376eed26c82a94f01a084b7f3bcec459",
+          "Length": 3,
+          "Name": "stream050"
+        },
+        {
+          "Hash": "30aca47ac9511399db96092b2dd1c06e2a410f3a69b3f7ff8884500072bd8f6e",
+          "Length": 3,
+          "Name": "stream051"
+        },
+        {
+          "Hash": "71a3a17368fe896a22884d037c28131e2fbd2c6db890cea5477f4f37f80ada71",
+          "Length": 3,
+          "Name": "stream052"
+        },
+        {
+          "Hash": "44d9d39c63506a76df5ea55e6a2ca424b72eef6ca5650e9ea5caca50ef2d5774",
+          "Length": 3,
+          "Name": "stream053"
+        },
+        {
+          "Hash": "1298f1719c5c3d88642f480707a0ba8ee134bb49774657470ab0b62ceca86b23",
+          "Length": 3,
+          "Name": "stream054"
+        },
+        {
+          "Hash": "25bc4824cc60b55a29f0078665b459c34289d8b339c017a75984e8d424aa353c",
+          "Length": 3,
+          "Name": "stream055"
+        },
+        {
+          "Hash": "c35eafaaed56ba0a6e9924a0d90cf3bacdaceb9b1daff9555ce0cddc2e48f2b8",
+          "Length": 3,
+          "Name": "stream056"
+        },
+        {
+          "Hash": "743d0b180716d6111cb01ca43e291c1cc0950b93940c120539e826a438aae1f9",
+          "Length": 3,
+          "Name": "stream057"
+        },
+        {
+          "Hash": "c528be3295a0036d84fd455aae6a292a68624d2a14d170ac27b69d729e606b53",
+          "Length": 3,
+          "Name": "stream058"
+        },
+        {
+          "Hash": "075eb54ba9032128a63f3e6aab75bffa550b960c213a17a39394637a0e2bde47",
+          "Length": 3,
+          "Name": "stream059"
+        },
+        {
+          "Hash": "0ebbe0e8cbdcf45830155c304a35e36697da1d268f8ad729b974ff23c0da1cd5",
+          "Length": 3,
+          "Name": "stream060"
+        },
+        {
+          "Hash": "5810e7c07dd9b1b5093e61a9f22758aad8cc854ef9772676bddd967c9cd96312",
+          "Length": 3,
+          "Name": "stream061"
+        },
+        {
+          "Hash": "56bb3afb251d79dec1faef3a6565fa01feb757e072af1040198f2ad24065c201",
+          "Length": 3,
+          "Name": "stream062"
+        },
+        {
+          "Hash": "2133e73a1c18eebdcf007cec41203381d3b1a9d7890da3f58f5a67f7e1483985",
+          "Length": 3,
+          "Name": "stream063"
+        },
+        {
+          "Hash": "ce682aa2229e594321b96955b2d9475a0a0f6b73afc3bd0516dffd620ed90662",
+          "Length": 3,
+          "Name": "stream064"
+        },
+        {
+          "Hash": "96d0ea91993311aca0fce4c3c7faf159bd226a9c508ea2b3ea89364b5155d687",
+          "Length": 3,
+          "Name": "stream065"
+        },
+        {
+          "Hash": "b0e0a5c05e2cc5b2dc6951a9eccda5ee97c5ed4bb3f77eb42bdf8306bd4d20b3",
+          "Length": 3,
+          "Name": "stream066"
+        },
+        {
+          "Hash": "0a3735667438d9e17c3015375cd0c2599de5030fbfdad82573b11b53aaafaf08",
+          "Length": 3,
+          "Name": "stream067"
+        },
+        {
+          "Hash": "f9c273c365852c45784fa9412e7c5e6f50dcb6f9d8ca1b43c9a5066606c1a8b5",
+          "Length": 3,
+          "Name": "stream068"
+        },
+        {
+          "Hash": "b4aec1a9333080796a463ca675852d89cfd2c23628769855b40b652b4080e7a9",
+          "Length": 3,
+          "Name": "stream069"
+        },
+        {
+          "Hash": "0e7f0b73907ede334a689c0f18f8075a0dc4c09f1dd5b139cd7aa88b8719c91d",
+          "Length": 3,
+          "Name": "stream070"
+        },
+        {
+          "Hash": "c8680a158d87a9f75ab3ddbea2f35caeafd9b673773c761ee54b397e59d2ad78",
+          "Length": 3,
+          "Name": "stream071"
+        },
+        {
+          "Hash": "d78f6715de715c8e89677248c1d40f5c2ec3604b73e1e9d9bdc06004ebbf608f",
+          "Length": 3,
+          "Name": "stream072"
+        },
+        {
+          "Hash": "2259d408a56b8995f0f339d37c4ab7847457803c8d4a98c01979f75b564b439d",
+          "Length": 3,
+          "Name": "stream073"
+        },
+        {
+          "Hash": "56037310e79bc1205691ee19690e2b52eccdf213da62bf6ee8a9c80b55b54a5e",
+          "Length": 3,
+          "Name": "stream074"
+        },
+        {
+          "Hash": "2df93741905c8339d9225d69550cadd0739039de783600606ca529f29dde9662",
+          "Length": 3,
+          "Name": "stream075"
+        },
+        {
+          "Hash": "28d74ce30f977f1dd4975977df4ced4a9479110157912e4f96f1a86484ce22e2",
+          "Length": 3,
+          "Name": "stream076"
+        },
+        {
+          "Hash": "fd5a104f8f76e82c1fca894fa5333810d4bf68512d4dd9172453c89ed25e0f5a",
+          "Length": 3,
+          "Name": "stream077"
+        },
+        {
+          "Hash": "588761acf71198a09bb86a7036a6b5f7ca0068f2334e70c7194caa73ee3f82f4",
+          "Length": 3,
+          "Name": "stream078"
+        },
+        {
+          "Hash": "6568f848ddd18a247beaf6b88c8bba1590238bbafa4ea46808e3cdffcb8aa461",
+          "Length": 3,
+          "Name": "stream079"
+        },
+        {
+          "Hash": "ccf3108f3105586ecdbdcc7472d82035d59c0e41772c4f2f7241e2d8fb8af73f",
+          "Length": 3,
+          "Name": "stream080"
+        },
+        {
+          "Hash": "ad2bbc06f9f19e037304d2e60a41adda04f7e90d40dcde1c2d2cd4ddf370a546",
+          "Length": 3,
+          "Name": "stream081"
+        },
+        {
+          "Hash": "f197f446aaf31acd58651afcdc26cd4e2d12b614d9c13c0b34eee978abf121d8",
+          "Length": 3,
+          "Name": "stream082"
+        },
+        {
+          "Hash": "d6a5cddaf3213a1a68362941138b641654b3e0d7335d432dbf53e561ecc37e92",
+          "Length": 3,
+          "Name": "stream083"
+        },
+        {
+          "Hash": "fdb21a4c392573233c21eb6bd8721adfdf2fe8eaba0826a2e176f5cbd59a7855",
+          "Length": 3,
+          "Name": "stream084"
+        },
+        {
+          "Hash": "34e8232c43400c2fe1b6382f628d2d0ac912280808d91578e51eb80b5bc0d7d1",
+          "Length": 3,
+          "Name": "stream085"
+        },
+        {
+          "Hash": "95dc22b06b07adce3aa31503ee7b4105c1719b60d099f8324fd5012a76ed9770",
+          "Length": 3,
+          "Name": "stream086"
+        },
+        {
+          "Hash": "78670be268139d36e04e32c2d5e52879dfbfa9190854ef9a9682e2e494957579",
+          "Length": 3,
+          "Name": "stream087"
+        },
+        {
+          "Hash": "c69838d6a2570d2ec0369a3f66c32c7639e09b79b76b08ed40c8608682825723",
+          "Length": 3,
+          "Name": "stream088"
+        },
+        {
+          "Hash": "9181f5919383bacb37ffe95dfe43f43dfeab1f742fefa75d62a757cefc6da07e",
+          "Length": 3,
+          "Name": "stream089"
+        },
+        {
+          "Hash": "16322f06d58485843ae10c54370935a4beb031b90d58ab8282bf82d8656fdc1f",
+          "Length": 3,
+          "Name": "stream090"
+        },
+        {
+          "Hash": "de11723cba1d858023c7459ed31f6df2397f84167fbea334be7b9c64f524c65f",
+          "Length": 3,
+          "Name": "stream091"
+        },
+        {
+          "Hash": "c89a7afc31b1281bdce81ae1df5415c8853e3d6d2cde845aa68b52e0ad6511f8",
+          "Length": 3,
+          "Name": "stream092"
+        },
+        {
+          "Hash": "97b1c292e72d36b0c11de7e5348fe7bb591f84cd2cfada8e5ed72521afb7b5f6",
+          "Length": 3,
+          "Name": "stream093"
+        },
+        {
+          "Hash": "20c8c5a10561bf541775a31c737e36c62fab48966f811af4eca88ce66ab77c84",
+          "Length": 3,
+          "Name": "stream094"
+        },
+        {
+          "Hash": "39849d200a9ef36231f9550cee4b67234164c6423b0fc35084e037a87e6d9fde",
+          "Length": 3,
+          "Name": "stream095"
+        },
+        {
+          "Hash": "c0ce18fe383f0dda8720665f9c519a1d5f1c13f6824e71f12879a2f9ca12e833",
+          "Length": 3,
+          "Name": "stream096"
+        },
+        {
+          "Hash": "272160d85565d1503103eaa02221da920f041ee915cafb1f29f1bcf31a968dfb",
+          "Length": 3,
+          "Name": "stream097"
+        },
+        {
+          "Hash": "a8e67bb079477e1aa7cc58e69e97210c316b859654e94844d626f0171850f8bf",
+          "Length": 3,
+          "Name": "stream098"
+        },
+        {
+          "Hash": "17a2572a961f9fe88832803590b519c3706ef63b077867f803a68cbb9fdc7364",
+          "Length": 3,
+          "Name": "stream099"
+        },
+        {
+          "Hash": "fcf929b13763df186bac5e7edfc0372a16904c09e6b2574a527995d21c2f53e6",
+          "Length": 3,
+          "Name": "stream100"
+        },
+        {
+          "Hash": "0a1ce60056cec1590f0c28562ab07dcddbcb9c336fd901fbeee52ffdc5818c75",
+          "Length": 3,
+          "Name": "stream101"
+        },
+        {
+          "Hash": "f22134ffe4141887c2c044fa3a8d2154a94bb86a62230e3d538a579f15e791b2",
+          "Length": 3,
+          "Name": "stream102"
+        },
+        {
+          "Hash": "d84e5e33f4d226a367bc035b0f9f79b527efa9e929802999b0bef7b94f305a10",
+          "Length": 3,
+          "Name": "stream103"
+        },
+        {
+          "Hash": "2a1458b688b50fac4da788275bc3dd3c94032e8bb7975ae6efd31eaa0a6c2ef1",
+          "Length": 3,
+          "Name": "stream104"
+        },
+        {
+          "Hash": "c4d2c09b98279f04cf18142498e8b71b91517cab8c033ea0515794e9a4cca9aa",
+          "Length": 3,
+          "Name": "stream105"
+        },
+        {
+          "Hash": "ac2895ac5a34247e0a075dff25df9d04fc1a9aaeb7e313c6543601eed5b8e816",
+          "Length": 3,
+          "Name": "stream106"
+        },
+        {
+          "Hash": "6f9d5ab44d7f97a0ad94f30ef03e1fb85e0768bb4489edc994b0f700d507192e",
+          "Length": 3,
+          "Name": "stream107"
+        },
+        {
+          "Hash": "0ed47305251b85032d24c8cec81b737616fe1fccf4bd5501e75d234fd26bef94",
+          "Length": 3,
+          "Name": "stream108"
+        },
+        {
+          "Hash": "e18f66b4a29bc900efef3093f43fd0e60992ffcddaff820572af79e232b30322",
+          "Length": 3,
+          "Name": "stream109"
+        },
+        {
+          "Hash": "26e45ef45eaea24add0f646f934413cb7cd090662c4f4d8053cf6af34ae93f73",
+          "Length": 3,
+          "Name": "stream110"
+        },
+        {
+          "Hash": "9816617e41f36c0776238b2a8ec9a9438ddef4f79f0f19e9318ec9287d079be9",
+          "Length": 3,
+          "Name": "stream111"
+        },
+        {
+          "Hash": "4f8c36553e4e79ee96ae47d2604d085c7e5771dcfe4f2a62da3061aa73356a2b",
+          "Length": 3,
+          "Name": "stream112"
+        },
+        {
+          "Hash": "f08699ea6282e4017d035c2ac74e269f82c6a37badb0ff23d6bac2b65ad3a3de",
+          "Length": 3,
+          "Name": "stream113"
+        },
+        {
+          "Hash": "a8c425b6c3696a408e5ffaa5f8626ba8b82ca1738f7407da0dc7e9ebdaee32b8",
+          "Length": 3,
+          "Name": "stream114"
+        },
+        {
+          "Hash": "f0e9494bd0a75a14c3e5d05f546c579cf408e3ac84ec40d05edf4539942fe7c7",
+          "Length": 3,
+          "Name": "stream115"
+        },
+        {
+          "Hash": "4d5cebd256b02e2d2bdb432a477cb5658755bd68d1ca30c065f430e9161312f4",
+          "Length": 3,
+          "Name": "stream116"
+        },
+        {
+          "Hash": "e4c5646641e025f06c6fdcb7b229ce8689da520abae97371f9a1baa47f7bd581",
+          "Length": 3,
+          "Name": "stream117"
+        },
+        {
+          "Hash": "17cdf6321d2aab2f15c699c72560447cb1a926b46a5a0eb2a9c00b631bd36ff5",
+          "Length": 3,
+          "Name": "stream118"
+        },
+        {
+          "Hash": "23b1bae9dde716df3be705dbc83414f2b97fe75c8121a2072631c75bfd9c4d08",
+          "Length": 3,
+          "Name": "stream119"
+        },
+        {
+          "Hash": "e9a6a64c20b629a3d01c1a93cc2bd61b219b807d0d23c1175e2c837562f94195",
+          "Length": 3,
+          "Name": "stream120"
+        },
+        {
+          "Hash": "cbbf717f1a4644074239b03ec7c8d0d862aee9943c97bb6bcd7f7680bb39fa3a",
+          "Length": 3,
+          "Name": "stream121"
+        },
+        {
+          "Hash": "7556bc17e236f1184b70ffc75d81cc0e7874460a3298411e80891ac2450e0de0",
+          "Length": 3,
+          "Name": "stream122"
+        },
+        {
+          "Hash": "dddf8ad6f6f533625482ef5fe7e182ea770596a720501249defa1aec9a471458",
+          "Length": 3,
+          "Name": "stream123"
+        },
+        {
+          "Hash": "a8cf41037dbc7007e35870c69bb6cebd883326fc6fafc99780dc37603bd0c96c",
+          "Length": 3,
+          "Name": "stream124"
+        },
+        {
+          "Hash": "5c4dff677d32651a1ebb299883b2472357f50df42967772a83a1b31d616aa237",
+          "Length": 3,
+          "Name": "stream125"
+        },
+        {
+          "Hash": "08693efe6ec484a5dbe85fc54226e0b66e1db06b348bd97e6b555274d21f7019",
+          "Length": 3,
+          "Name": "stream126"
+        },
+        {
+          "Hash": "12e810df43f1251ae4841521f0cac2b58e8fc3d2ee5654c3994e59d61667d1aa",
+          "Length": 3,
+          "Name": "stream127"
+        },
+        {
+          "Hash": "4d7a440d0ad38a60a5a568cb636e6c3bedbc6353132682433694123b300f522e",
+          "Length": 3,
+          "Name": "stream128"
+        },
+        {
+          "Hash": "cf323d29dcd6a07041b25c166c9a1e45500fe0cb448c65d3b8c35e4f23b345ad",
+          "Length": 3,
+          "Name": "stream129"
+        },
+        {
+          "Hash": "c63ec3f32e5f1cfa6eb845de332af1b60d40b3c0377aa761ad8bc014454578bf",
+          "Length": 3,
+          "Name": "stream130"
+        },
+        {
+          "Hash": "09aa222e72e1c4e5200e3d463b40efa7f925692fbada3b3be9dd382ea36d20fe",
+          "Length": 3,
+          "Name": "stream131"
+        },
+        {
+          "Hash": "b17f1dbb5e25022ab42dac0bef7a2a3e9ba396fd70812dcd2226dddfdccf9a40",
+          "Length": 3,
+          "Name": "stream132"
+        },
+        {
+          "Hash": "4cff4a6e942d890f0d580290a2e999542ec85ca0a29aee026d2b93b9aeb4f5da",
+          "Length": 3,
+          "Name": "stream133"
+        },
+        {
+          "Hash": "c6c0b6e9acd97c308336c6421856020d0dd33e53b5414ea1e3a0d2267b4e4424",
+          "Length": 3,
+          "Name": "stream134"
+        },
+        {
+          "Hash": "400936456ae1927884442bd0a756b7f47549e3e7060582169307c603129bd76d",
+          "Length": 3,
+          "Name": "stream135"
+        },
+        {
+          "Hash": "853e257aaa1c92b50dfe1e97e09266be6e1758b262f86983a6b2ab91ccb090e1",
+          "Length": 3,
+          "Name": "stream136"
+        },
+        {
+          "Hash": "2f3ad337e577c1dbaafae6d329dddab8989b2e7540d8b7eeb25097e950198b2d",
+          "Length": 3,
+          "Name": "stream137"
+        },
+        {
+          "Hash": "34f7ceb48b52afc7fea709d27e9253747e187cff2041a768f7d556d35d0ef91e",
+          "Length": 3,
+          "Name": "stream138"
+        },
+        {
+          "Hash": "b66d623743f33dc80f0376411f94e9719203567d97d1a09cecae5990c992e646",
+          "Length": 3,
+          "Name": "stream139"
+        },
+        {
+          "Hash": "ffe1338a76f0b104bcaba8233238a6b9b9f275b8c8be7919bc1ae0dee1333b5c",
+          "Length": 3,
+          "Name": "stream140"
+        },
+        {
+          "Hash": "02168373cd886eaa07839b641470b1498551730f12a9cd8de4ace42b24e50842",
+          "Length": 3,
+          "Name": "stream141"
+        },
+        {
+          "Hash": "103541839555bdae26ed9a38d55dd70f7afe3cee55f92c2923982ab9e03b32fe",
+          "Length": 3,
+          "Name": "stream142"
+        },
+        {
+          "Hash": "fe5c77fec48d5e974e93172b840c26f01b3a6d12b635d47aa32a53f9c3f1a057",
+          "Length": 3,
+          "Name": "stream143"
+        },
+        {
+          "Hash": "9c59e0034d4f3bc377a9f5ed810156692e0410417aa6bce498c540b4854c7a4c",
+          "Length": 3,
+          "Name": "stream144"
+        },
+        {
+          "Hash": "cb7c4fb805180079f724378ac002bbae42ec97858196f619d6badb56adf763c5",
+          "Length": 3,
+          "Name": "stream145"
+        },
+        {
+          "Hash": "ecb6f98f4ef2d28b93db7b7fae2f848fc30669f498e6edf860ff47bbec6e20f5",
+          "Length": 3,
+          "Name": "stream146"
+        },
+        {
+          "Hash": "7ca64b565c394ac2cecacd3cb57a946f1247a29c318d56a9ec4cc2412297fcb6",
+          "Length": 3,
+          "Name": "stream147"
+        },
+        {
+          "Hash": "e44449040226d59defdd31bdba0ce96e7c0a55cb64cf06485c6767993ac572fa",
+          "Length": 3,
+          "Name": "stream148"
+        },
+        {
+          "Hash": "aebb253436dea6c3186792f14d84af9e09e41e222922079dc5fdfac3adacdb8a",
+          "Length": 3,
+          "Name": "stream149"
+        },
+        {
+          "Hash": "967ca805f3b3c1403b2a13d8d1534844a677627c7f89b09799399d6d64abc96b",
+          "Length": 3,
+          "Name": "stream150"
+        },
+        {
+          "Hash": "82d4aaf657b393ad843cb28ee4e1a23d5e555696b7432800b31578700d3ad79d",
+          "Length": 3,
+          "Name": "stream151"
+        },
+        {
+          "Hash": "2bb8aa847afb6eb82d6f6a0242cc88f59e1cf4163f6be5791f3facae494672c1",
+          "Length": 3,
+          "Name": "stream152"
+        },
+        {
+          "Hash": "6f28d2fda760685b34a276ae55fbf7a82c29a6b88151005ddd65899727b3e04e",
+          "Length": 3,
+          "Name": "stream153"
+        },
+        {
+          "Hash": "bfcc21329b6eabb6a3850054166aeb8b21ad36e1982bed981654daf574b82af6",
+          "Length": 3,
+          "Name": "stream154"
+        },
+        {
+          "Hash": "7b9068a36a5a8729031226d3b08ac0b239758d48b718ebea5f2e029c1230f039",
+          "Length": 3,
+          "Name": "stream155"
+        },
+        {
+          "Hash": "8a63322ff95002120ad3cc870b81be086447b2d37e04a01abb5a1b5a5e82b8fe",
+          "Length": 3,
+          "Name": "stream156"
+        },
+        {
+          "Hash": "3a09763359abcdcb8918d9161652e6d0ca080ed553181e654d7fda963515e30f",
+          "Length": 3,
+          "Name": "stream157"
+        },
+        {
+          "Hash": "9acbc04d96568ac1248dc44e48146042a0621e9ee7df501a5f0927dc85ff2511",
+          "Length": 3,
+          "Name": "stream158"
+        },
+        {
+          "Hash": "6d9c0e6f35e5ee2aae8e55bdb29986166f5be2e483fe03dffaa9bd1499e08f8b",
+          "Length": 3,
+          "Name": "stream159"
+        }
+      ]
+    },
+    {
+      "EaRaw": "",
+      "Info": {
+        "Access": 134356691415965913,
+        "Attributes": 32,
+        "Creation": 134356691415965913,
+        "Identity": "0004000000000662",
+        "Write": 134356691415965913
+      },
+      "ObjectIdRaw": "",
+      "Path": "\\protected.bin",
+      "ReparseRaw": "",
+      "SecurityRaw": "010014b08c000000980000001400000044000000020030000200000002c014008900120001010000000000010000000011001400010000000101000000000010001000000200480003000000010014008900120001010000000000010000000000001400ff011f0001010000000000051200000000001800ff011f000102000000000005200000002002000001010000000000051200000001020000000000052000000020020000",
+      "Short": "PROTEC~1.BIN",
+      "Streams": [
+        {
+          "Hash": "19e17f99566eb4f12971fd9b4546365cc4c834d7122e87a318c5aed9cc7a92f9",
+          "Length": 27,
+          "Name": ""
+        }
+      ]
+    },
+    {
+      "EaRaw": "",
+      "Info": {
+        "Access": 134356691415987690,
+        "Attributes": 1056,
+        "Creation": 134356682639314937,
+        "Identity": "000600000000A0FD",
+        "Write": 134356691415987690
+      },
+      "ObjectIdRaw": "",
+      "Path": "\\relative.link",
+      "ReparseRaw": "0c0000a0380000001600160000001600010000007000610079006c006f00610064002e00620069006e007000610079006c006f00610064002e00620069006e00",
+      "SecurityRaw": "0100048474000000840000000000000014000000020060000400000000101800ff011f000102000000000005200000002002000000101400ff011f0001010000000000051200000000101800a90012000102000000000005200000002102000000101400bf01130001010000000000050b00000001020000000000052000000020020000010100000000000512000000",
+      "Short": "RELATI~1.LIN",
+      "Streams": [
+        {
+          "Hash": "",
+          "Length": 0,
+          "Name": ""
+        },
+        {
+          "Hash": "06df4f7e1394f1c57cc6583fba4d8060a5a66f4f4771c14aeff6b9af8a28c9b3",
+          "Length": 3,
+          "Name": "link-owned"
+        }
+      ]
+    },
+    {
+      "EaRaw": "",
+      "Info": {
+        "Access": 134356688302745708,
+        "Attributes": 544,
+        "Creation": 134356688302315911,
+        "Identity": "00090000000005E1",
+        "Write": 134356688302745708
+      },
+      "ObjectIdRaw": "",
+      "Path": "\\sparse.bin",
+      "ReparseRaw": "",
+      "SecurityRaw": "0100048474000000840000000000000014000000020060000400000000101800ff011f000102000000000005200000002002000000101400ff011f0001010000000000051200000000101800a90012000102000000000005200000002102000000101400bf01130001010000000000050b00000001020000000000052000000020020000010100000000000512000000",
+      "Short": "sparse.bin",
+      "Streams": [
+        {
+          "Hash": "2daeb1f36095b44b318410b3f4e8b5d989dcc7bb023d1426c492dab0a3053e74",
+          "Length": 8388608,
+          "Name": ""
+        }
+      ]
+    },
+    {
+      "EaRaw": "",
+      "Info": {
+        "Access": 134356688301976778,
+        "Attributes": 32,
+        "Creation": 134356688301976778,
+        "Identity": "00090000000005E0",
+        "Write": 134356688301976778
+      },
+      "ObjectIdRaw": "",
+      "Path": "\\wof.bin",
+      "ReparseRaw": "",
+      "SecurityRaw": "0100048474000000840000000000000014000000020060000400000000101800ff011f000102000000000005200000002002000000101400ff011f0001010000000000051200000000101800a90012000102000000000005200000002102000000101400bf01130001010000000000050b00000001020000000000052000000020020000010100000000000512000000",
+      "Short": "wof.bin",
+      "Streams": [
+        {
+          "Hash": "576fad3b13564b1a798fa288523e628e5a4338ee0ae017623328575c6469934d",
+          "Length": 1048576,
+          "Name": ""
+        }
+      ]
+    }
+  ],
+  "volume_serial": 18029059986811144529
+}

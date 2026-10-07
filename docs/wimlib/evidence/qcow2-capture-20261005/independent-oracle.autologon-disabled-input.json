@@ -1,0 +1,262 @@
+{
+  "oracle": "upstream wimlib + independent raw metadata parser",
+  "passes": true,
+  "gates": {
+    "full_wim_verify": true,
+    "winre_verify": true,
+    "metadata_reader_warning_free": true,
+    "native_recovery_schema_and_unbound_state": true,
+    "no_captured_windows_old": true,
+    "raw_reparse_stream_layout_and_no_cached_answers": true,
+    "all_fixture_streams_and_hardlinks": true,
+    "wim_sha256": true,
+    "winre_sha256": true,
+    "source_hashes_preserved": true,
+    "one_image": true,
+    "entry_count": true,
+    "architecture": true,
+    "build": true,
+    "revision": true,
+    "edition": true,
+    "language": true,
+    "oobe_task_source_bytes_and_enabled": true
+  },
+  "commands": [
+    {
+      "command": [
+        "python3",
+        "/home/rick/projects-caddy/windows-uup/scripts/wimlib/check-qcow2-reparse-layout.py",
+        "/data/cache/qcow2-autologon-disabled-20261005/capture/install.wim",
+        "--library",
+        "/nix/store/fd0zfsysr7gl769wv31n80a6j67xgd78-wimlib-1.14.5/lib/libwim.so",
+        "--source-metadata",
+        "/home/rick/projects-caddy/windows-uup/docs/wimlib/evidence/qcow2-capture-20261005/source-fixture-metadata.json",
+        "--output",
+        "/data/cache/qcow2-autologon-disabled-20261005/capture/independent-oracle/reparse-layout.json",
+        "--absent-path",
+        "/Windows.old",
+        "--absent-path",
+        "/Windows/Panther/unattend.xml",
+        "--absent-path",
+        "/Windows/Panther/unattend-original.xml",
+        "--setup-system-drive",
+        "C:"
+      ],
+      "exit": 0,
+      "log": "raw-layout.log"
+    },
+    {
+      "command": [
+        "/nix/store/fd0zfsysr7gl769wv31n80a6j67xgd78-wimlib-1.14.5/bin/wimlib-imagex",
+        "verify",
+        "/data/cache/qcow2-autologon-disabled-20261005/capture/install.wim"
+      ],
+      "exit": 0,
+      "log": "verify.log"
+    },
+    {
+      "command": [
+        "/nix/store/fd0zfsysr7gl769wv31n80a6j67xgd78-wimlib-1.14.5/bin/wimlib-imagex",
+        "info",
+        "/data/cache/qcow2-autologon-disabled-20261005/capture/install.wim",
+        "--extract-xml",
+        "/data/cache/qcow2-autologon-disabled-20261005/capture/independent-oracle/install.xml"
+      ],
+      "exit": 0,
+      "log": "info.log"
+    },
+    {
+      "command": [
+        "/nix/store/fd0zfsysr7gl769wv31n80a6j67xgd78-wimlib-1.14.5/bin/wimlib-imagex",
+        "dir",
+        "/data/cache/qcow2-autologon-disabled-20261005/capture/install.wim",
+        "1",
+        "--path=/NativeDiskCapture",
+        "--detailed"
+      ],
+      "exit": 0,
+      "log": "fixture-detailed.log"
+    },
+    {
+      "command": [
+        "/nix/store/fd0zfsysr7gl769wv31n80a6j67xgd78-wimlib-1.14.5/bin/wimlib-imagex",
+        "extract",
+        "/data/cache/qcow2-autologon-disabled-20261005/capture/install.wim",
+        "1",
+        "Windows/System32/Recovery/Winre.wim",
+        "Windows/System32/Recovery/ReAgent.xml",
+        "Windows/System32/ntoskrnl.exe",
+        "--dest-dir=/data/cache/qcow2-autologon-disabled-20261005/capture/independent-oracle"
+      ],
+      "exit": 0,
+      "log": "extract.log"
+    },
+    {
+      "command": [
+        "/nix/store/fd0zfsysr7gl769wv31n80a6j67xgd78-wimlib-1.14.5/bin/wimlib-imagex",
+        "verify",
+        "/data/cache/qcow2-autologon-disabled-20261005/capture/independent-oracle/Winre.wim"
+      ],
+      "exit": 0,
+      "log": "verify-winre.log"
+    }
+  ],
+  "wim_sha256": "9791aae2127f1688c99f9928e61fe4ff41b37f184566d880d80fe4d619117f73",
+  "wim_bytes": 8234056237,
+  "winre_sha256": "5a7b51e7271284a3204234a71386c4d8cbc81665e9f7bc451d7d70fb464a3047",
+  "source_hashes": [
+    {
+      "path": "/data/cache/qcow2-oobe-preparation-control-20261005/vm-state/overlay.qcow2",
+      "expected_sha256": "59da49ab227850c6d62a2d555f40a43bf19a8f8a7af3d10eedb2395b62799282",
+      "actual_sha256": "59da49ab227850c6d62a2d555f40a43bf19a8f8a7af3d10eedb2395b62799282"
+    },
+    {
+      "path": "/home/rick/.cache/windows-capture-recovery-20261005/prepared-source.qcow2",
+      "expected_sha256": "bf7bc3cecfb9d696c82f0869cd8f3c04c74bd644648c690405132399f4091a0a",
+      "actual_sha256": "bf7bc3cecfb9d696c82f0869cd8f3c04c74bd644648c690405132399f4091a0a"
+    },
+    {
+      "path": "/home/rick/projects-caddy/windows-uup/vm-state/qcow2-source-1005/overlay.qcow2",
+      "expected_sha256": "cfa75f1df1c0328f2ef19e0752678a6714d67ed0787c75626d7d2f8cfebb5762",
+      "actual_sha256": "cfa75f1df1c0328f2ef19e0752678a6714d67ed0787c75626d7d2f8cfebb5762"
+    },
+    {
+      "path": "/home/rick/.vm-base/win11-secure/disk.qcow2",
+      "expected_sha256": "35299ad09fb946d45374f9637ccc4344acb3488b482d9571854d007b666b2abe",
+      "actual_sha256": "35299ad09fb946d45374f9637ccc4344acb3488b482d9571854d007b666b2abe"
+    },
+    {
+      "path": "/data/cache/qcow2-oobe-preparation-control-20261005/offline-source/Windows_System32_Recovery_Winre.wim",
+      "expected_sha256": "5a7b51e7271284a3204234a71386c4d8cbc81665e9f7bc451d7d70fb464a3047",
+      "actual_sha256": "5a7b51e7271284a3204234a71386c4d8cbc81665e9f7bc451d7d70fb464a3047"
+    }
+  ],
+  "fixture_stream_rows": 331,
+  "fixture_errors": [],
+  "raw_reparse_entries": 73,
+  "recovery_configuration": {
+    "passes": true,
+    "errors": [],
+    "native_baseline_sha256": "07f0adce301905f1b9b29e7ee60ec456c81c46a58fe747000f64972a3f669e90",
+    "configuration_sha256": "aec4ad0cc5b5aa1e01fe8c6c98af10f0c08b7dfeaf62fc5f6881324dbc5512b0",
+    "schema": {
+      "WinreBCD": [
+        "id"
+      ],
+      "WinreLocation": [
+        "guid",
+        "id",
+        "offset",
+        "path"
+      ],
+      "ImageLocation": [
+        "guid",
+        "id",
+        "offset",
+        "path"
+      ],
+      "PBRImageLocation": [
+        "guid",
+        "id",
+        "index",
+        "offset",
+        "path"
+      ],
+      "PBRCustomImageLocation": [
+        "guid",
+        "id",
+        "index",
+        "offset",
+        "path"
+      ],
+      "InstallState": [
+        "state"
+      ],
+      "OsInstallAvailable": [
+        "state"
+      ],
+      "CustomImageAvailable": [
+        "state"
+      ],
+      "IsAutoRepairOn": [
+        "state"
+      ],
+      "WinREStaged": [
+        "state"
+      ],
+      "OperationParam": [
+        "path"
+      ],
+      "OperationPermanent": [
+        "state"
+      ],
+      "OsBuildVersion": [
+        "path"
+      ],
+      "OemTool": [
+        "state"
+      ],
+      "IsServer": [
+        "state"
+      ],
+      "DownlevelWinreLocation": [
+        "guid",
+        "id",
+        "offset",
+        "path"
+      ],
+      "IsWimBoot": [
+        "state"
+      ],
+      "NarratorScheduled": [
+        "state"
+      ],
+      "ScheduledOperation": [
+        "state"
+      ]
+    },
+    "xml": "<WindowsRE version=\"2.0\">\n  <WinreBCD id=\"{00000000-0000-0000-0000-000000000000}\" />\n  <WinreLocation path=\"\" id=\"0\" offset=\"0\" guid=\"{00000000-0000-0000-0000-000000000000}\" />\n  <ImageLocation path=\"\" id=\"0\" offset=\"0\" guid=\"{00000000-0000-0000-0000-000000000000}\" />\n  <PBRImageLocation path=\"\" id=\"0\" offset=\"0\" guid=\"{00000000-0000-0000-0000-000000000000}\" index=\"0\" />\n  <PBRCustomImageLocation path=\"\" id=\"0\" offset=\"0\" guid=\"{00000000-0000-0000-0000-000000000000}\" index=\"0\" />\n  <InstallState state=\"0\" />\n  <OsInstallAvailable state=\"0\" />\n  <CustomImageAvailable state=\"0\" />\n  <IsAutoRepairOn state=\"1\" />\n  <WinREStaged state=\"1\" />\n  <OperationParam path=\"\" />\n  <OperationPermanent state=\"0\" />\n  <OsBuildVersion path=\"\" />\n  <OemTool state=\"0\" />\n  <IsServer state=\"0\" />\n  <DownlevelWinreLocation path=\"\" id=\"0\" offset=\"0\" guid=\"{00000000-0000-0000-0000-000000000000}\" />\n  <IsWimBoot state=\"0\" />\n  <NarratorScheduled state=\"0\" />\n  <ScheduledOperation state=\"4\" />\n</WindowsRE>"
+  },
+  "oobe_task": {
+    "source_sha256": "1bd9125b5857c1db1693a6fb1ccfd2c0cfb6c245b52af03d5a1f493edb59c2dc",
+    "captured_sha256": "1bd9125b5857c1db1693a6fb1ccfd2c0cfb6c245b52af03d5a1f493edb59c2dc",
+    "enabled": true,
+    "absent_enabled_semantics": "Task Scheduler schema default true"
+  },
+  "metadata_reader_warnings": [],
+  "kernel_pe_machine": "0x8664",
+  "xml_windows": "<WINDOWS><ARCH>9</ARCH><EDITIONID>Professional</EDITIONID><INSTALLATIONTYPE>Client</INSTALLATIONTYPE><PRODUCTNAME>Microsoft\u00ae Windows\u00ae Operating System</PRODUCTNAME><PRODUCTTYPE>WinNT</PRODUCTTYPE><SYSTEMROOT>WINDOWS</SYSTEMROOT><VERSION><MAJOR>10</MAJOR><MINOR>0</MINOR><BUILD>26200</BUILD><SPBUILD>8037</SPBUILD><BRANCH>ge_release</BRANCH><SPLEVEL>0</SPLEVEL></VERSION><LANGUAGES><DEFAULT>en-US</DEFAULT><LANGUAGE>en-US</LANGUAGE></LANGUAGES><HAL>COMPUTER\\Generic</HAL><PRODUCTSUITE>Terminal Server</PRODUCTSUITE><SERVICINGDATA><GDRDUREVISION>0</GDRDUREVISION><IMAGESTATE>IMAGE_STATE_GENERALIZE_RESEAL_TO_OOBE</IMAGESTATE><PKEYCONFIGVERSION>10.0.26100.7019;2016-01-01T00:00:00Z</PKEYCONFIGVERSION></SERVICINGDATA></WINDOWS>",
+  "host_extraction_limitations": [
+    "Ignoring FILE_ATTRIBUTE_HIDDEN of 1 files",
+    "Ignoring FILE_ATTRIBUTE_SYSTEM of 1 files",
+    "Ignoring FILE_ATTRIBUTE_NOT_CONTENT_INDEXED of 1 files",
+    "Ignoring Windows NT security descriptors of 3 files",
+    "Ignoring extended attributes of 1 files",
+    "Ignoring DOS names of 1 files"
+  ],
+  "winre_verification_caveats": [
+    "\"/data/cache/qcow2-autologon-disabled-20261005/capture/independent-oracle/Winre.wim\" does not contain integrity information.  Skipping integrity check."
+  ],
+  "capture_report_sha256": "35f42f7216be21e7de5aae2a58cdf71264304bfd74e3518f4a98d0e1bea146e7",
+  "cache_evidence": "/data/cache/qcow2-autologon-disabled-20261005/capture/independent-oracle",
+  "evidence_sha256": {
+    "recovery-configuration.json": "2f6eabb89ea75f70103b46f727c440aca6d76d3354e1a45574768eba1a8853f9",
+    "verify-winre.log": "40093ddc3f3996c13e5c45bd3edc64525ae6b0c2df09bbe6c77b790827f8ea8b",
+    "extract.log": "e51d313110c89aeae5e2ebe6f6a23977155f2c1383321d1b36b775453edf5de0",
+    "verify.log": "4c4f32b7774a8f1491023622ec31b9d1101f282b960e750b9a4a83d3a4cab0aa",
+    "raw-layout.log": "84d7e9b1932a5122bb8c88f1139c3aa71d754bb166c5d560a1f1e570f00e52d0",
+    "fixture-detailed.log": "3f92077d90bf6bd364fff04e1326624729f1f8f3c47314b42fcecd2693a3c4c5",
+    "fixture-streams.json": "cd886d8ee09c6ba157a7fe53d56898cbac4726d5db534c7e1c21415a05e8504b",
+    "reparse-layout.json": "586b08ba5792d9948ed6252642478ab9b27477f0ec0b6de5c1835024603705b3",
+    "info.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "install.xml": "ffc97fbad6262b3f8a2ae154334c81a53d036e726333bedc203a3f3b462f6ca0",
+    "ReAgent.xml": "aec4ad0cc5b5aa1e01fe8c6c98af10f0c08b7dfeaf62fc5f6881324dbc5512b0"
+  },
+  "limitations": [
+    "Archive/source stream verification does not prove successful Windows Setup, NTFS metadata restoration, servicing or WinRE boot."
+  ],
+  "raw_summary": {
+    "path": "/data/cache/qcow2-autologon-disabled-20261005/capture/independent-oracle/summary.json",
+    "sha256": "9e492d92f0f1cd3bd72cd1ebf9313ed362c06b71a958f49cb1e3b883827be51f"
+  }
+}

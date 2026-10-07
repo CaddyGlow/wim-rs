@@ -1,0 +1,19 @@
+{
+  "attempt": 4,
+  "evidence": "installation-fourth-attempt.json",
+  "cause": "Captured root Windows.old collided with the Windows Setup OS relocation destination.",
+  "code": "0x800700B7",
+  "log": "/data/cache/qcow2-installation-1005-v4/offline-failure-logs/partition-3/qcow2-failure/target-bt-panther/setupact.log",
+  "log_sha256": "402d0fecb589f0a3fd62963893fddc9bcce502d973c9ee34d5a2bd7745fbd6eb",
+  "image_apply_success_line": 7558,
+  "offline_specialization_success_line": 11642,
+  "causal_line": 13522,
+  "operation_failure_line": 13524,
+  "correction": {
+    "scope": "Exact case-insensitive root Windows.old exclusion for installation capture",
+    "retained": "Nested Windows.old and Windows.old.bak",
+    "basis": "Observed fresh Windows Setup collision; not a claim about Microsoft default capture exclusions",
+    "independent_regression": "independent-wim-oracle.windows-old-collision.json",
+    "fresh_installation": "Fifth capture pending; destination runtime gates remain unproven"
+  }
+}

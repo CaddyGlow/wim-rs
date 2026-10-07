@@ -1,0 +1,29 @@
+{
+  "changes": [
+    "Concatenate explicitly captured arrays from both parent enumerations; avoid OrderedDictionary key merging.",
+    "Use native Win32 stream creation/readback for ADS; existing streams are only verified, never truncated.",
+    "Continue on guarded previously formatted disks and bind prior failure receipt; preserve CASE fixture and failed evidence.",
+    "Validate unnamed fixture byte 170."
+  ],
+  "files": {
+    "windows-dos-alias-creation-scratch.ps1": "97e13790b10f22267ee9b47009683ac07f19aa0f3c509f9e54c404c0ea6ce958",
+    "test-dos-alias-parent-enumeration.ps1": "82618db503327b196e6934290667e60a16e336bf3033da036880ec133e34e6fc",
+    "windows-native-ads-io.ps1": "f71e1859dbb2134a61f8ab08606a523929723386c91e2c414abd4eee9e957fa8",
+    "windows-continue-retained-ads-fixture.ps1": "25707267c71196d896f98b98c227e92d5e79611133207fc83e78fe3810fa20f5",
+    "windows-create-retained-ntfs-fixtures.ps1": "e8b7de9a591cf1a8dcc8463a80623b1a09ea1eb835443c39957ff73931a0a061",
+    "check-retained-ntfs-fixture-receipt.py": "8b381f63a167a9dae546462b29e654e3b8db57f36cda869cc11ba6b534f56d94",
+    "test_retained_ntfs_fixture_receipt.py": "1c179568375f957a4765fbe941c12ea7de61d9503eaa2209608dd4593ec53a1c"
+  },
+  "root_verification": [
+    {
+      "command": "pwsh -NoLogo -NoProfile -File scripts/wimlib/test-dos-alias-parent-enumeration.ps1",
+      "exit": 0
+    },
+    {
+      "command": "python3 -m unittest discover -s scripts/wimlib -p test_retained_ntfs_fixture_receipt.py",
+      "exit": 0,
+      "tests": 7
+    }
+  ],
+  "scope": "Host regression validation; successful actual Windows execution and offline gates are pending."
+}

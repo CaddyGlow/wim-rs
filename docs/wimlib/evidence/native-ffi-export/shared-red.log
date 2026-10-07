@@ -1,0 +1,14 @@
+export-ab 0
+export-bc 0
+before-equal 1 1
+before-roots -49 -49 -49
+write-a 0
+after-a-equal 0 0
+after-a-hashed 1
+after-a-roots 1 -49 -49
+after-a-sizes 0 0 0
+write-b 0
+after-b-stable 1 0 0
+write-c-source-freed 0
+after-c-stable 0
+verify-c 0

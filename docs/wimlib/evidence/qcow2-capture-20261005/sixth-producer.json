@@ -1,0 +1,16 @@
+{
+  "binary": "/data/cache/qcow2-capture-sixth-rust/windows-uup",
+  "sha256": "298411947b9445f3a29fb9547b42df84c796f60b67345f5cdfa1a39ffd97082a",
+  "build_exit": 0,
+  "optimized": true,
+  "source_files_changed_during_build": [
+    "crates/windows-ntfs/examples/trust_inventory.rs"
+  ],
+  "old_producers_preserved": true,
+  "capture_setup_profile_present": true,
+  "before_fingerprint": "/data/cache/qcow2-capture-sixth-rust/producer-source-before.json",
+  "after_fingerprint": "/data/cache/qcow2-capture-sixth-rust/producer-source-after.json",
+  "build_log": "/data/cache/qcow2-capture-sixth-rust/build.log",
+  "production_inputs_unchanged_during_build": true,
+  "changed_input_explanation": "Only an untargeted diagnostic example changed; cargo build -p windows-uup does not compile that example."
+}

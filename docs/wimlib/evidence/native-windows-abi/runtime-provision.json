@@ -1,0 +1,11 @@
+{
+  "official_documentation": "https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170",
+  "download_permalink": "https://aka.ms/vc14/vc_redist.x64.exe",
+  "installer_sha256": "843068991daaa1f73ad9f6239bce4d0f6a07a51f18c37ea2a867e9beca71295c",
+  "installer_size": 18731856,
+  "guest": "owned disposable wim-abi-20261003; immutable base unchanged",
+  "exit": 0,
+  "signal": null,
+  "stdout": "{\"Status\":0,\"Signer\":\"CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US\"}\r\ninstaller-exit 0\r\n{\"FileVersion\":\"14.51.36247.0\"}\r\n",
+  "stderr": ""
+}

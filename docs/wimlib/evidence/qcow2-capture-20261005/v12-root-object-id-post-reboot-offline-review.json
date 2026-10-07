@@ -1,0 +1,10 @@
+{
+  "scope": "Independent root review of native strict-clean stopped scratch observation; no cause attribution",
+  "native_report": "/data/cache/qcow2-v12-offline-audit/object-id-after-reboot-native.json",
+  "sha256": "1ce4a3ff48f75f649168acc18b6177beb6f3716df15c172ff1811278aab72701",
+  "full64_entry_count": 2,
+  "object_id_first16_preserved": true,
+  "extended48_zero": true,
+  "same_native_hardlink_identity": true,
+  "strict_reboot_persistence_passed": false
+}

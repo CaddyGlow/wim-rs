@@ -1,0 +1,8 @@
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.01s
+     Running tests/ntfs_upcase.rs (crates/wimlib-rs/target/debug/deps/ntfs_upcase-a9ebde024c9e2096)
+
+running 1 test
+test native_ntfs_uppercase_preserves_windows_specific_mappings ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
