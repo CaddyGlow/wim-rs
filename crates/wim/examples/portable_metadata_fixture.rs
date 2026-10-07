@@ -1,9 +1,10 @@
 //! Produce a small immutable-source archive for independent Windows metadata apply gates.
 #[cfg(feature = "disk-capture")]
 fn main() -> Result<(), Box<dyn std::error::Error>> {
+    use partmgr::partition::PartitionTable;
     use std::{io, path::PathBuf, sync::Arc};
+    use virtdisk::Qcow2;
     use wim::{Compression, VolumeCaptureOptions, Wim};
-    use windows_disk::{Qcow2, partition::PartitionTable};
     let args: Vec<String> = std::env::args().collect();
     if args.len() != 4 {
         return Err(
@@ -16,7 +17,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     }
     let disk = Qcow2::open_chain(&args[1], &[PathBuf::from(&args[2])])?;
     let table = PartitionTable::read(Arc::new(disk), 512)?;
-    let volume = windows_ntfs::Volume::open(Arc::new(table.select(3)?))?;
+    let volume = disk_capture::Volume::open(Arc::new(table.select(3)?))?;
     let selected = [
         vec!["NativeDiskCapture"],
         vec!["Windows", "SysWOW64", "Windows.StateRepositoryCore.dll"],

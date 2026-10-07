@@ -15,7 +15,7 @@ fn xml_clone_preserves_nested_properties_after_source_is_dropped() {
 fn lookup_descriptors_remain_searchable_after_archive_is_moved() {
     let file = std::fs::read(concat!(
         env!("CARGO_MANIFEST_DIR"),
-        "/../../docs/wimlib/evidence/native-ffi-write/default-cpu-crash-original.wim"
+        "/tests/fixtures/evidence/default-cpu-crash-original.wim"
     ))
     .unwrap();
     let archive = wim_format::archive::Archive::open(&file).unwrap();
@@ -29,7 +29,7 @@ fn lookup_descriptors_remain_searchable_after_archive_is_moved() {
 
 #[test]
 fn metadata_graph_has_stable_parent_inode_and_child_relationships() {
-    let file = include_bytes!("../../wim-format/tests/fixtures/pipable-resource.wim");
+    let file = include_bytes!("fixtures/wim-format/pipable-resource.wim");
     let mut reader = wim_format::pipable_read::PipableReader::new(file.as_slice()).unwrap();
     let image = wim_format::pipable_image::read_image(&mut reader, Some(b"1")).unwrap();
     let tree = wim_format::metadata::Metadata::parse(&image.metadata).unwrap();

@@ -1,7 +1,7 @@
 # WIM engine and Rust API
 
 This crate implements the roadmap in
-[the implementation plan](../../docs/wimlib-rust-implementation-plan.md).
+[the implementation plan](https://github.com/CaddyGlow/wim-rs/blob/main/docs/wimlib-rust-implementation-plan.md).
 The `windows-uup` package uses the `wim` crate in process through its safe Rust
 API. The compatible C exports also support independent ABI validation; this
 implementation is not yet a complete drop-in replacement for upstream wimlib.
@@ -49,8 +49,8 @@ let mut archive = Wim::open(Path::new("install.wim"), OpenOptions::default())?;
 archive.verify()?;
 ```
 
-Compression is provided by the standalone sibling crate
-[`ms-compress`](../../../ms-compress/README.md), which uses Rust's global allocator for
+Compression is provided by the published crate
+[`ms-compress`](https://crates.io/crates/ms-compress), which uses Rust's global allocator for
 codec scratch storage and WIM container ownership. Checked buffer and hash-table
 growth uses fallible reservation and reports NOMEM where supported. Ordinary
 `Box`/`Arc` allocations follow Rust's global allocator failure policy; complete
@@ -121,3 +121,5 @@ separately by the existing C-interface `benchmark-performance.py` benchmark.
 matches both original text-mode and binary-mode raw output using the same
 MinGW/MSVCRT caller. This selected result does not establish all locale and CRT
 variants.
+
+Applications can use `wim = "0.1.1"` from crates.io. Enable the `disk-capture` feature for immutable offline NTFS capture. This crate and its tests build without sibling repositories. WIM fuzzing is independently owned by this repository’s `fuzz` package.

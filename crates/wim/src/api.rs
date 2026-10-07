@@ -182,7 +182,7 @@ impl Wim {
     #[cfg(feature = "disk-capture")]
     pub fn capture_ntfs(
         &mut self,
-        manifest: windows_ntfs::Manifest,
+        manifest: disk_capture::Manifest,
         name: &str,
         options: &VolumeCaptureOptions,
     ) -> Result<ImageIndex, Error> {
@@ -195,7 +195,7 @@ impl Wim {
     #[cfg(feature = "disk-capture")]
     pub fn capture_ntfs_with_audit(
         &mut self,
-        manifest: windows_ntfs::Manifest,
+        manifest: disk_capture::Manifest,
         name: &str,
         options: &VolumeCaptureOptions,
     ) -> Result<(ImageIndex, VolumeCaptureAudit), Error> {

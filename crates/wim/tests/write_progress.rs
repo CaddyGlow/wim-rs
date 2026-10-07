@@ -103,7 +103,7 @@ fn unregister_during_initial_stream_event_keeps_snapshot_until_phase_returns() {
     std::fs::create_dir_all(&directory).unwrap();
     let source = directory.join("source.wim");
     let target = directory.join("output.wim");
-    let bytes = include_bytes!("../../wim-format/tests/fixtures/xpress-resource.wim");
+    let bytes = include_bytes!("fixtures/wim-format/xpress-resource.wim");
     std::fs::write(&source, bytes).unwrap();
     let source_name = CString::new(source.to_str().unwrap()).unwrap();
     let target_name = CString::new(target.to_str().unwrap()).unwrap();
@@ -151,7 +151,7 @@ fn only_dirty_metadata_refreshes_statistics_before_writing() {
     std::fs::create_dir_all(&directory).unwrap();
     let source = directory.join("source.wim");
     let target = directory.join("output.wim");
-    let bytes = include_bytes!("../../wim-format/tests/fixtures/xpress-resource.wim");
+    let bytes = include_bytes!("fixtures/wim-format/xpress-resource.wim");
     std::fs::write(&source, bytes).unwrap();
     let archive = wim_format::archive::Archive::open(bytes).unwrap();
     let metadata_bytes = archive.read_metadata(1).unwrap();

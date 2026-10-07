@@ -1,5 +1,6 @@
 #![cfg(feature = "disk-capture")]
 //! Regression gates for translating retained offline NTFS streams into WIM.
+use disk_capture::{Manifest, Node, Stream};
 use std::{
     io,
     path::PathBuf,
@@ -8,13 +9,12 @@ use std::{
         atomic::{AtomicU64, AtomicUsize, Ordering},
     },
 };
+use virtdisk::ReadAt;
 use wim::{Compression, OpenOptions, VolumeCaptureOptions, Wim};
 use wim_format::{
     archive::Archive,
     metadata::{Metadata, StreamType},
 };
-use windows_disk::ReadAt;
-use windows_ntfs::{Manifest, Node, Stream};
 
 struct Fixture(PathBuf);
 impl Fixture {
@@ -856,9 +856,9 @@ fn encrypted_nodes_case_collisions_and_invalid_volume_aliases_fail_closed() {
 #[test]
 #[ignore = "requires independent mkntfs, ntfscp, and wimlib-imagex fixture tools"]
 fn raw_ntfs_volume_captures_through_wim_with_independent_stream_bytes() {
+    use disk_capture::Volume;
     use std::process::Command;
-    use windows_disk::RawDisk;
-    use windows_ntfs::Volume;
+    use virtdisk::RawDisk;
     let fixture = Fixture::new();
     let input = fixture.0.join("raw-volume.ntfs");
     std::fs::File::create(&input)

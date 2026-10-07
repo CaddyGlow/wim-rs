@@ -9,9 +9,10 @@ Reusable Rust WIM implementation, extracted from windows-uup.
 - `docs/wimlib`: retained validation evidence. Historical receipts are unchanged.
 - `fuzz`: bounded WIM parser harness and honggfuzz executable.
 
-Keep this checkout beside `../windows-uup` and `../ms-compress`. Compression
-comes from the standalone ms-compress repository. Optional `windows-disk` and
-`windows-ntfs`, and the patched NTFS dependency still live in windows-uup. This extraction does not duplicate those libraries. UUP servicing and
+Keep this checkout beside `../ms-compress`, `../virtdisk`, `../partmgr`,
+`../disk-capture` and `../caddy-ntfs`. Compression comes from the standalone
+ms-compress repository and the optional `disk-capture` feature uses the
+standalone virtdisk, partmgr, disk-capture and caddy-ntfs repositories. UUP servicing and
 archive adapters remain in windows-uup and consume this workspace by path.
 
 Run from this directory (use `nix develop` for the pinned toolchain):
@@ -37,15 +38,13 @@ See [the library guide](crates/wim/README.md),
 [test strategy](docs/wimlib-test-strategy.md). The WIM crates are licensed under
 LGPL-2.1-or-later OR GPL-3.0-or-later; both license texts are included here.
 
-CI validates the portable workspace with a pinned sibling `ms-compress` checkout.
+CI validates the complete workspace using published compression and disk crates; no sibling checkout is required.
 Repository variables `MS_COMPRESS_REPOSITORY` and `MS_COMPRESS_REF` select it.
 
 ## Publication
 
-The portable workspace publishes `wim-types` and `wim-format` to crates.io.
-The Windows capture/CDylib crate in `crates/wim` is a separate unpublished
-workspace until `windows-disk` and `windows-ntfs` are ready for publication.
-Its source and `disk-capture` feature are preserved. Validate that workspace
-separately with `cargo test --manifest-path crates/wim/Cargo.toml --all-features --locked`
-when its sibling Windows dependencies are available.
-Version tags validate and publish the portable crates and create the GitHub Release.
+The workspace publishes `wim-types`, `wim-format` and the `wim` capture/CDylib
+crate to crates.io. The optional `disk-capture` feature uses the published
+`virtdisk`, `partmgr`, `disk-capture`, and `caddy-ntfs` crates.
+Version tags validate and publish the engine crate and create the GitHub Release.
+The already published portable format/type crates retain version 0.1.0.

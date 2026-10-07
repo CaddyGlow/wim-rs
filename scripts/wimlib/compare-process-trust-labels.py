@@ -2,7 +2,7 @@
 """Inventory every source WIM process-trust ACE and compare an offline target.
 
 Decode the verified source with independent libwim; target descriptors come from
-windows-ntfs's read-only trust_inventory example. No security transforms are hidden.
+disk-capture's read-only trust_inventory example. No security transforms are hidden.
 First run without --target to export --paths as JSON arrays of original UTF-16
 code units for selected offline traversal. Target identity uses canonical
 little-endian UTF-16 hex, preserving unpaired surrogates; display is advisory.

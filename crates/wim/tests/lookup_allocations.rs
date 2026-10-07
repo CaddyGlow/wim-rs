@@ -50,7 +50,7 @@ unsafe extern "C" fn count(entry: *const WimResourceEntry, context: *mut c_void)
 fn repeated_lookup_iteration_allocates_nothing() {
     let path = common::text(concat!(
         env!("CARGO_MANIFEST_DIR"),
-        "/../wim-format/tests/fixtures/integrity.wim"
+        "/tests/fixtures/wim-format/integrity.wim"
     ));
     let mut handle = std::ptr::null_mut();
     // SAFETY: Path is terminated and output storage writable.

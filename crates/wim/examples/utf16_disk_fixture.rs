@@ -1,13 +1,14 @@
 //! Capture an immutable Windows-created unpaired UTF16/extension-record fixture.
 #[cfg(feature = "disk-capture")]
 fn main() -> Result<(), Box<dyn std::error::Error>> {
+    use partmgr::partition::PartitionTable;
     use std::{io, sync::Arc};
+    use virtdisk::RawDisk;
     use wim::{Compression, OpenOptions, VolumeCaptureOptions, Wim};
     use wim_format::{
         archive::Archive,
         metadata::{Metadata, StreamType},
     };
-    use windows_disk::{RawDisk, partition::PartitionTable};
     let args = std::env::args().collect::<Vec<_>>();
     if args.len() != 3 {
         return Err(io::Error::other("usage: utf16_disk_fixture FIXED_VHD OUTPUT_WIM").into());
@@ -16,7 +17,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
         return Err(io::Error::other("output already exists").into());
     }
     let table = PartitionTable::read(Arc::new(RawDisk::open(&args[1])?), 512)?;
-    let volume = windows_ntfs::Volume::open(Arc::new(table.select(1)?))?;
+    let volume = disk_capture::Volume::open(Arc::new(table.select(1)?))?;
     let root: Vec<u16> = "OddFixture".encode_utf16().collect();
     let manifest = volume.capture_manifest_with_filter(|path| path[0] == root)?;
     let mut image = Wim::new(Compression::Lzx)?;

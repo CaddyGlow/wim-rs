@@ -8,7 +8,7 @@ use std::{
 };
 use wim::ffi::{ProgressInfo, wimlib_extract_image_from_pipe_with_progress};
 
-const INPUT: &[u8] = include_bytes!("../../wim-format/tests/fixtures/pipable-resource.wim");
+const INPUT: &[u8] = include_bytes!("fixtures/wim-format/pipable-resource.wim");
 
 unsafe extern "C" fn stop_at_part(message: c_int, _: *mut ProgressInfo, _: *mut c_void) -> c_int {
     i32::from(message == 5)

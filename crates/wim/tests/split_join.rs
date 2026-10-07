@@ -65,7 +65,7 @@ fn split_and_join_validate_empty_names_sizes_and_part_counts() {
 #[test]
 fn split_filenames_and_reverse_join_preserve_content_and_current_xml() {
     use wim_format::archive::Archive;
-    const SOURCE: &[u8] = include_bytes!("../../wim-format/tests/fixtures/xpress-resource.wim");
+    const SOURCE: &[u8] = include_bytes!("fixtures/wim-format/xpress-resource.wim");
     let directory = std::env::temp_dir().join(format!("wim-split-join-{}", std::process::id()));
     std::fs::create_dir_all(&directory).unwrap();
     let source = directory.join("source.wim");

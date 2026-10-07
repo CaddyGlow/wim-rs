@@ -172,7 +172,7 @@ fn alias_valid(alias: &str) -> bool {
 }
 
 pub(crate) fn plan(
-    manifest: windows_ntfs::Manifest,
+    manifest: disk_capture::Manifest,
     options: &VolumeCaptureOptions,
 ) -> Result<(CapturePlan, VolumeCaptureAudit), ParseError> {
     if options
@@ -202,7 +202,7 @@ pub(crate) fn plan(
     let mut security = HashMap::<Vec<u8>, u32>::new();
     let mut streams = HashMap::<(u64, Vec<u16>), Arc<CapturedStream>>::new();
     let mut inodes = HashMap::<u64, usize>::new();
-    let mut inode_streams = HashMap::<u64, Vec<(Vec<u16>, Arc<dyn windows_disk::ReadAt>)>>::new();
+    let mut inode_streams = HashMap::<u64, Vec<(Vec<u16>, Arc<dyn virtdisk::ReadAt>)>>::new();
     for (index, source) in manifest.nodes.into_iter().enumerate() {
         if source.attributes & 0x4000 != 0 {
             return Err(ParseError::Unsupported);

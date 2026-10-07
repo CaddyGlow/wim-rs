@@ -315,8 +315,7 @@ mod tests {
     #[test]
     #[cfg(target_pointer_width = "64")]
     fn original_c_growth_and_unlink_chains_match() {
-        let original =
-            include_str!("../../../../docs/wimlib/evidence/native-ffi-lookup/buckets-original.txt");
+        let original = include_str!("../../tests/fixtures/evidence/buckets-original.txt");
         assert_eq!(original.lines().next(), Some("word 8 disk 50"));
         let check = |index: &BlobIndex, label: &str| {
             let expected = original

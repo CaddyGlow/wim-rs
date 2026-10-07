@@ -36,7 +36,7 @@ static ALLOCATOR: TrackingAllocator = TrackingAllocator;
 #[test]
 fn sparse_large_input_opens_with_bounded_allocations_and_reports_later_truncation() {
     let path = std::env::temp_dir().join(format!("wim-file-backed-{}.wim", std::process::id()));
-    const INPUT: &[u8] = include_bytes!("../../wim-format/tests/fixtures/xpress-resource.wim");
+    const INPUT: &[u8] = include_bytes!("fixtures/wim-format/xpress-resource.wim");
     std::fs::write(&path, INPUT).unwrap();
     let file = std::fs::OpenOptions::new().write(true).open(&path).unwrap();
     file.set_len(8 * 1024 * 1024 * 1024).unwrap();

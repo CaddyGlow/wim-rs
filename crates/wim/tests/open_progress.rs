@@ -31,7 +31,7 @@ unsafe extern "C" fn callback(
 #[test]
 fn successful_open_reports_chunks_and_retains_borrowed_registration() {
     let path =
-        std::fs::canonicalize("../wim-format/tests/fixtures/integrity-small-chunks.wim").unwrap();
+        std::fs::canonicalize("tests/fixtures/wim-format/integrity-small-chunks.wim").unwrap();
     let name = CString::new(path.as_os_str().as_encoded_bytes()).unwrap();
     let mut context = Context::default();
     let mut handle = std::ptr::null_mut();
@@ -59,7 +59,7 @@ fn successful_open_reports_chunks_and_retains_borrowed_registration() {
 #[test]
 fn callback_abort_and_unknown_status_leave_output_unchanged() {
     let path =
-        std::fs::canonicalize("../wim-format/tests/fixtures/integrity-small-chunks.wim").unwrap();
+        std::fs::canonicalize("tests/fixtures/wim-format/integrity-small-chunks.wim").unwrap();
     let name = CString::new(path.as_os_str().as_encoded_bytes()).unwrap();
     for (status, expected) in [(1, 76), (2, 77), (-1, 77)] {
         let mut context = Context {

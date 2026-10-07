@@ -27,7 +27,7 @@ pub enum CapturedSource {
     Inline(Vec<u8>),
     /// Deferred logical NTFS stream retaining its immutable disk source.
     #[cfg(feature = "disk-capture")]
-    Volume(Arc<dyn windows_disk::ReadAt>),
+    Volume(Arc<dyn virtdisk::ReadAt>),
 }
 impl std::fmt::Debug for CapturedSource {
     fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
@@ -121,7 +121,7 @@ pub enum CapturedReader<'a> {
     Inline(&'a [u8]),
     /// Retained positional logical-volume stream.
     #[cfg(feature = "disk-capture")]
-    Volume(&'a dyn windows_disk::ReadAt),
+    Volume(&'a dyn virtdisk::ReadAt),
 }
 impl CapturedStream {
     /// Open the content source without imposing a new inode-identity check.
