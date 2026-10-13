@@ -113,9 +113,9 @@ dependencies = [
 
 [[package]]
 name = "ms-compress"
-version = "0.1.2"
+version = "0.2.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2a171863591b764e540b4dabd5a73fe89b5380826d92ac4d02d1612ed12812ea"
+checksum = "319b99243f88f9fd7cc338135241d91b711be88fb2ce2a4a3ee0fb09ae283d05"
 dependencies = [
  "ms-compress-ruzstd",
 ]
@@ -166,7 +166,7 @@ checksum = "0b928f33d975fc6ad9f86c8f283853ad26bdd5b10b7f1542aa2fa15e2289105a"
 
 [[package]]
 name = "wim-format"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "hashbrown",
  "ms-compress",
@@ -184,4 +184,4 @@ dependencies = [
 
 [[package]]
 name = "wim-types"
-version = "0.1.0"
+version = "0.1.1"

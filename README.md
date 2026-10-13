@@ -46,5 +46,5 @@ Repository variables `MS_COMPRESS_REPOSITORY` and `MS_COMPRESS_REF` select it.
 The workspace publishes `wim-types`, `wim-format` and the `wim` capture/CDylib
 crate to crates.io. The optional `disk-capture` feature uses the published
 `virtdisk`, `partmgr`, `disk-capture`, and `caddy-ntfs` crates.
-Version tags validate and publish the engine crate and create the GitHub Release.
-The already published portable format/type crates retain version 0.1.0.
+Version tags validate and publish all three crates and create the GitHub Release.
+The portable format/type crates use version 0.1.1.
