@@ -2,14 +2,13 @@
 //! Regression gates for translating retained offline NTFS streams into WIM.
 use disk_capture::{Manifest, Node, Stream};
 use std::{
-    io,
     path::PathBuf,
     sync::{
         Arc,
         atomic::{AtomicU64, AtomicUsize, Ordering},
     },
 };
-use virtdisk::ReadAt;
+use virtdisk::{ReadAt, io};
 use wim::{Compression, OpenOptions, VolumeCaptureOptions, Wim};
 use wim_format::{
     archive::Archive,
